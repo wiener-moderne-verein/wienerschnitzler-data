@@ -67,11 +67,17 @@
                 <xsl:text>&#10;        "coordinates": [</xsl:text>
                 <xsl:text>&#10;          [</xsl:text>
                 
-                <!-- Berechne den Schwerpunkt (Centroid) der Punkte -->
-                <xsl:variable name="avg-lat" as="xs:double"
-                    select="avg(tei:place/tei:location[@type='coords']/tei:geo/number(replace(substring-before(tei:location/tei:geo, ' '), ',', '.')))"/>
-                <xsl:variable name="avg-lon" as="xs:double"
-                    select="avg(tei:place/tei:location[@type='coords']/tei:geo/number(replace(substring-after(tei:location/tei:geo, ' '), ',', '.')))"/>
+              
+                <xsl:variable name="latitudes" as="xs:double*"
+                    select="tei:place/tei:location[@type='coords']/tei:geo/number(replace(substring-before(., ' '), ',', '.'))"/>
+                
+                <xsl:variable name="longitudes" as="xs:double*"
+                    select="tei:place/tei:location[@type='coords']/tei:geo/number(replace(substring-after(., ' '), ',', '.'))"/>
+                
+                <xsl:variable name="avg-lat" as="xs:double" select="avg($latitudes)"/>
+                <xsl:variable name="avg-lon" as="xs:double" select="avg($longitudes)"/>
+                
+                    
                 
                 <!-- Verarbeite die Punkte und sortiere sie anhand des berechneten Winkels -->
                 <xsl:for-each select="tei:place[descendant::tei:location[@type='coords']/tei:geo]">

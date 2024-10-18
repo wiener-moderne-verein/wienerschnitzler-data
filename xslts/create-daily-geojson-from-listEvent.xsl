@@ -3,6 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:json="http://www.w3.org/2005/xpath-functions/json"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/2005/xpath-functions/math"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="json tei">
     
@@ -66,15 +67,31 @@
                 <xsl:text>&#10;        "coordinates": [</xsl:text>
                 <xsl:text>&#10;          [</xsl:text>
                 
-                <!-- Iterate over all places and get their coordinates -->
+                <!-- Berechne den Schwerpunkt (Centroid) der Punkte -->
+                <xsl:variable name="avg-lat" as="xs:double"
+                    select="avg(tei:place/tei:location[@type='coords']/tei:geo/number(replace(substring-before(tei:location/tei:geo, ' '), ',', '.')))"/>
+                <xsl:variable name="avg-lon" as="xs:double"
+                    select="avg(tei:place/tei:location[@type='coords']/tei:geo/number(replace(substring-after(tei:location/tei:geo, ' '), ',', '.')))"/>
+                
+                <!-- Verarbeite die Punkte und sortiere sie anhand des berechneten Winkels -->
                 <xsl:for-each select="tei:place[descendant::tei:location[@type='coords']/tei:geo]">
-                    <xsl:variable name="coords" select="tei:location[@type='coords']/tei:geo"/>
-                    <xsl:variable name="lat" select="replace(substring-before($coords, ' '), ',', '.')"/>
-                    <xsl:variable name="lon" select="replace(substring-after($coords, ' '), ',', '.')"/>
+                    <!-- Sortiere die Punkte anhand des Winkels -->
+                    <xsl:sort select="math:atan2(
+                        number(replace(substring-before(tei:location[@type='coords']/tei:geo, ' '), ',', '.')) - $avg-lat, 
+                        number(replace(substring-after(tei:location[@type='coords']/tei:geo, ' '), ',', '.')) - $avg-lon
+                        )" data-type="number"/>
                     
+                    <!-- Extrahiere die Koordinaten (lat und lon) -->
+                    <xsl:variable name="coords" select="tei:location[@type='coords']/tei:geo"/>
+                    <xsl:variable name="lat" select="number(replace(substring-before($coords, ' '), ',', '.'))"/>
+                    <xsl:variable name="lon" select="number(replace(substring-after($coords, ' '), ',', '.'))"/>
+                    
+                    <!-- Gib die Koordinaten aus, jetzt in der richtigen Reihenfolge -->
                     <xsl:if test="position() > 1"><xsl:text>, </xsl:text></xsl:if>
                     <xsl:text>&#10;            [</xsl:text><xsl:value-of select="$lon"/><xsl:text>, </xsl:text><xsl:value-of select="$lat"/><xsl:text>]</xsl:text>
                 </xsl:for-each>
+             
+                
                 
                 <xsl:text>&#10;          ]</xsl:text>
                 <xsl:text>&#10;        ]</xsl:text>

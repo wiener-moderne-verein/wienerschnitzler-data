@@ -5,8 +5,6 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="json tei">
     
-    <!-- Achtung, Orte ohne genaue Angabe @type='coords' sind gerade herausgefiltert -->
-    
     <!-- Output format: plain text -->
     <xsl:output method="text" indent="yes" />
     <xsl:mode on-no-match="shallow-skip"/>
@@ -39,9 +37,10 @@
                 
                 <!-- Get the coordinates for the single place -->
                 <xsl:variable name="coords" select="tei:place/tei:location[@type='coords']/tei:geo"/>
-                <xsl:variable name="lon" select="replace(substring-before($coords, ' '), ',', '.')"/>
-                <xsl:variable name="lat" select="replace(substring-after($coords, ' '), ',', '.')"/>
+                <xsl:variable name="lat" select="replace(substring-before($coords, ' '), ',', '.')"/>
+                <xsl:variable name="lon" select="replace(substring-after($coords, ' '), ',', '.')"/>
                 
+                <!-- Correct order: longitude, latitude -->
                 <xsl:text>&#10;          </xsl:text>
                 <xsl:value-of select="$lon"/><xsl:text>, </xsl:text><xsl:value-of select="$lat"/>
                 <xsl:text>&#10;        ]</xsl:text>
@@ -58,8 +57,8 @@
                 <!-- Iterate over all places and get their coordinates -->
                 <xsl:for-each select="tei:place[descendant::tei:location[@type='coords']/tei:geo]">
                     <xsl:variable name="coords" select="tei:location[@type='coords']/tei:geo"/>
-                    <xsl:variable name="lon" select="replace(substring-before($coords, ' '), ',', '.')"/>
-                    <xsl:variable name="lat" select="replace(substring-after($coords, ' '), ',', '.')"/>
+                    <xsl:variable name="lat" select="replace(substring-before($coords, ' '), ',', '.')"/>
+                    <xsl:variable name="lon" select="replace(substring-after($coords, ' '), ',', '.')"/>
                     
                     <xsl:if test="position() > 1"><xsl:text>, </xsl:text></xsl:if>
                     <xsl:text>&#10;            [</xsl:text><xsl:value-of select="$lon"/><xsl:text>, </xsl:text><xsl:value-of select="$lat"/><xsl:text>]</xsl:text>

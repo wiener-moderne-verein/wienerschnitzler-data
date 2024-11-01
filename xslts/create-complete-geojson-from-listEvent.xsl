@@ -62,7 +62,7 @@
         <xsl:text>",</xsl:text>
         
         <!-- Aggregate visit dates for the current location -->
-        <xsl:text>&#10;         "dates": [</xsl:text>
+        <xsl:text>&#10;         "timestamp": [</xsl:text>
         <xsl:for-each select="tei:listEvent/tei:event/@when">
             <xsl:text>"</xsl:text>
             <xsl:value-of select="."/>

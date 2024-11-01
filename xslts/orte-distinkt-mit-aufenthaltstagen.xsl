@@ -20,7 +20,7 @@
     <xsl:template
         match="tei:place[tei:location[@type = 'coords']/tei:geo and not(tei:idno[@subtype = 'pmb'] = preceding::tei:event/tei:listPlace/tei:place[tei:location[@type = 'coords']/tei:geo]/tei:idno[@subtype = 'pmb'])]">
         <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
-            <xsl:copy-of select="*"/>
+            <xsl:copy-of select="*[not(name()='idno')]"/>
             <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:attribute name="when">
@@ -43,6 +43,7 @@
                     </xsl:element>
                 </xsl:for-each>
             </xsl:element>
+            <xsl:copy-of select="*[(name()='idno')]"/>
         </xsl:element>
     </xsl:template>
     <xsl:template

@@ -85,7 +85,7 @@ fetch('https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-
                 // Popup für jeden Punkt mit Titel und Datum anzeigen
                 if (feature.properties && feature.properties.title) {
                     layer.bindPopup(
-                        `<b>${feature.properties.title}</b><br>${feature.properties.timestamp}`
+                        `<b>${feature.properties.title}</b><br>${feature.properties.dates}`
                     );
                 }
             }

@@ -6,12 +6,11 @@ var map = L.map('map', {
     timeDimensionControl: true,
     timeDimensionControlOptions: {
         position: 'bottomleft',
-        autoPlay: false,
+        autoPlay: true,
         backwardButton: true,
         forwardButton: true,
         timeSlider: true,
         speedSlider: false,
-        timeSteps: 1,
         loopButton: true,
         playerOptions: {
             transitionTime: 1000,
@@ -20,9 +19,9 @@ var map = L.map('map', {
         }
     },
     timeDimensionOptions: {
-        timeInterval: "1891-01-01/1924-06-19",
+        timeInterval: "1869-01-01/1924-06-19",
         period: "P1D",
-        currentTime: Date.parse("1891-01-01")
+        currentTime: Date.parse("1869-01-01")
     }
 });
 
@@ -32,16 +31,18 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Funktion, die jeden Datumswert als eigenes Feature im GeoJSON-Format erstellt
+// Funktion, die jeden Datumswert als eigenes Feature im GeoJSON-Format erstellt
 function expandDates(feature) {
     var features = [];
-    if (feature.properties.date && Array.isArray(feature.properties.date)) {
-        feature.properties.date.forEach(date => {
+    if (feature.properties.dates && Array.isArray(feature.properties.dates)) {
+        feature.properties.dates.forEach(date => {
+            // Datum direkt verwenden, da es bereits im "YYYY-MM-DD"-Format ist
             var newFeature = {
                 type: "Feature",
                 geometry: feature.geometry,
                 properties: {
                     ...feature.properties,
-                    time: new Date(date).toISOString() // Konvertieren Sie das Datum in einen ISO8601-String
+                    time: date // Nur das Datum im Format "YYYY-MM-DD" ohne Uhrzeit
                 }
             };
             features.push(newFeature);
@@ -52,7 +53,7 @@ function expandDates(feature) {
             geometry: feature.geometry,
             properties: {
                 ...feature.properties,
-                time: new Date(feature.properties.date).toISOString() // Einzelnes Datum konvertieren
+                time: feature.properties.date // Nur das Datum übernehmen
             }
         };
         features.push(newFeature);
@@ -61,6 +62,7 @@ function expandDates(feature) {
     }
     return features;
 }
+
 
 // GeoJSON-Daten von GitHub laden und erweitern
 fetch('https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-data/refs/heads/main/editions/geojson/wienerschnitzler_complete_points.geojson')
@@ -76,6 +78,8 @@ fetch('https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-
             expandedData.features.push(...expandDates(feature));
         });
 
+        console.log(expandedData); // Überprüfe die erweiterten Daten in der Konsole
+
         // TimeDimension-Layer aus den erweiterten Daten erstellen
         var timeLayer = L.timeDimension.layer.geoJson(L.geoJSON(expandedData, {
             pointToLayer: function (feature, latlng) {
@@ -85,7 +89,7 @@ fetch('https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-
                 // Popup für jeden Punkt mit Titel und Datum anzeigen
                 if (feature.properties && feature.properties.title) {
                     layer.bindPopup(
-                        `<b>${feature.properties.title}</b><br>${feature.properties.dates}`
+                        `<b>${feature.properties.title}</b><br>${feature.properties.time}`
                     );
                 }
             }

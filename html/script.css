@@ -1,0 +1,44 @@
+// script.js
+
+// 1. Erstelle die Karte und setze die Startansicht
+var map = L.map('map').setView([48.2082, 16.3738], 5);
+
+// 2. Füge die Kartenkacheln von OpenStreetMap hinzu
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+}).addTo(map);
+
+// 3. Lade die GeoJSON-Daten und initialisiere TimeDimension
+fetch('data/schnitzler-data.geojson')
+    .then(response => response.json())
+    .then(data => {
+        // Setze die Zeitdimension und erzeuge die Zeit-Steuerung
+        map.timeDimension = new L.TimeDimension();
+        
+        var timeLayer = L.timeDimension.layer.geoJson(L.geoJSON(data, {
+            onEachFeature: function (feature, layer) {
+                // Tooltip für jeden Punkt, das Datum und Beschreibung zeigt
+                if (feature.properties && feature.properties.description) {
+                    layer.bindPopup(feature.properties.description + "<br>" + feature.properties.timestamp);
+                }
+            }
+        }), {
+            updateTimeDimension: true,
+            updateTimeDimensionMode: 'replace',
+            addLastPoint: true
+        });
+
+        timeLayer.addTo(map);
+
+        // Füge die Zeitsteuerung zur Karte hinzu
+        L.control.timeDimension({
+            position: 'bottomleft',
+            autoPlay: true,
+            loopButton: true,
+            playerOptions: {
+                transitionTime: 200,
+                loop: true,
+            }
+        }).addTo(map);
+    })
+    .catch(error => console.error('Error loading GeoJSON data:', error));

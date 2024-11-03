@@ -105,29 +105,35 @@ fetch('https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-
         map.fitBounds(initialBounds);
 
         // Adjust the view dynamically on time load
-       // Adjust the view dynamically on time load
-map.timeDimension.on('timeload', function() {
-    var visibleLayers = [];
-    var currentTime = new Date(map.timeDimension.getCurrentTime()).toISOString().split('T')[0];
+       map.timeDimension.on('timeload', function() {
+           var visibleLayers = [];
+           var currentTime = new Date(map.timeDimension.getCurrentTime()).toISOString().split('T')[0];
 
-    // Find features for the current date
-    geoJsonLayer.eachLayer(function(layer) {
-        var feature = layer.feature;
-        if (feature && feature.properties && feature.properties.time) {
-            if (feature.properties.time === currentTime) {
-                visibleLayers.push(layer.getLatLng());
-            }
-        }
-    });
+           // Find features for the current date
+           geoJsonLayer.eachLayer(function(layer) {
+               var feature = layer.feature;
+               if (feature && feature.properties && feature.properties.time) {
+                   if (feature.properties.time === currentTime) {
+                       visibleLayers.push(layer.getLatLng());
+                   }
+               }
+           });
 
-    if (visibleLayers.length > 0) {
-        var currentBounds = L.latLngBounds(visibleLayers);
-        map.fitBounds(currentBounds, {
-            padding: [10, 10], // Optional: Add padding around the bounds
-            maxZoom: 18 // Ensure it doesn't zoom in too much beyond max zoom level
-        });
-    }
-});
+           if (visibleLayers.length > 0) {
+               var currentBounds = L.latLngBounds(visibleLayers);
+               map.fitBounds(currentBounds, {
+                   padding: [10, 10], // Optional: Add padding around the bounds
+                   maxZoom: 18 // Ensure it doesn't zoom in too much beyond max zoom level
+               });
+           }
+
+           // Update the date display to remove time part
+           var dateElement = document.querySelector('.leaflet-control-timecontrol.timecontrol-date');
+           if (dateElement) {
+               var newDate = currentTime; // Already formatted as YYYY-MM-DD
+               dateElement.textContent = newDate;
+           }
+       });
 
     })
     .catch(error => console.error('Error loading GeoJSON data:', error));

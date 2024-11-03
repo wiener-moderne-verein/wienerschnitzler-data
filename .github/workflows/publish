@@ -1,0 +1,44 @@
+name: Deploy HTML folder to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Set up Node.js (erforderlich für GitHub Pages Deployments)
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      # Copy HTML folder to gh-pages branch
+      - name: Deploy to GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Set up repository configuration
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Erstelle den gh-pages-Branch (falls er nicht existiert)
+          git checkout --orphan gh-pages
+
+          # Lösche alle alten Dateien im gh-pages-Branch
+          git rm -rf .
+
+          # Kopiere den Inhalt des HTML-Ordners
+          cp -r HTML/* .
+
+          # Füge alle Änderungen hinzu und pushe sie auf gh-pages
+          git add .
+          git commit -m "Deploy HTML folder to GitHub Pages"
+          git push -f origin gh-pages

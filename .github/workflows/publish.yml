@@ -16,10 +16,8 @@ jobs:
 
       # Set up Node.js (erforderlich für GitHub Pages Deployments)
       - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-
+        uses: actions/setup-node@v4.1.0
+        
       # Copy HTML folder to gh-pages branch
       - name: Deploy to GitHub Pages
         env:

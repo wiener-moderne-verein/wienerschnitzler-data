@@ -4,16 +4,18 @@
     <!-- angewandt auf relations.xml. liegt das start-date auch wirklich vor dem end-date? -->
     
     <xsl:output method="xml" indent="true"/>
+    <xsl:mode on-no-match="shallow-skip"/>
+    
     
     <!-- Template zum Verarbeiten der XML -->
-    <xsl:template match="/Items">
+    <xsl:template match="/Items|/root">
         <root>
-        <xsl:apply-templates select="item"/>
+        <xsl:apply-templates select="item|row"/>
         </root>
     </xsl:template>
     
     <!-- Template für jedes <item> -->
-    <xsl:template match="item">
+    <xsl:template match="item|row">
         <!-- Variablen für die Datumswerte -->
         <xsl:variable name="startDate" as="xs:string">
             <xsl:choose>

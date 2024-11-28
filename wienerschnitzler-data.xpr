@@ -199,7 +199,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/orte-distinkt-mit-aufenthaltstagen.xsl</String>
+                                    <String>${pdu}/xslts/located-in.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${pdu}/editions/xml/wienerschnitzler_complete.xml</String>
@@ -250,7 +250,9 @@
                                     <list/>
                                 </field>
                                 <field name="cascadingStylesheets">
-                                    <String-array/>
+                                    <String-array>
+                                        <String>${pdu}/xslts/orte-distinkt-mit-aufenthaltstagen.xsl</String>
+                                    </String-array>
                                 </field>
                                 <field name="xslTransformer">
                                     <String>Saxon-PE</String>

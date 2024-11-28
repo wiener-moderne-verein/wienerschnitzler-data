@@ -18,16 +18,20 @@
                 <xsl:variable name="month" select="format-number(., '00')" as="xs:string"/>
                 <xsl:variable name="year-month" select="concat($year, '-', $month)"/>
                 <!-- Erstellen der GeoJSON-Datei -->
-                <xsl:result-document href="../../editions/geojson/month/{$year-month}.geojson"
+                <xsl:result-document href="../../editions/geojson/{$year-month}.geojson"
                     method="text">
                     <xsl:text>{</xsl:text>
                     <xsl:text>&#10;  "type": "FeatureCollection",</xsl:text>
                     <xsl:text>&#10;  "features": [</xsl:text>
                     <!-- Wiederherstellen des Kontexts und Filtern der passenden Events -->
-                    <xsl:for-each select="$listPlaceGesamt/tei:place[tei:listEvent[1]/tei:event[starts-with(@when, $year-month)][1]]">
-                        <xsl:variable name="coords" select="descendant::tei:location[@type = 'coords']/tei:geo"/>
-                        <xsl:variable name="lat" select="replace(substring-before($coords, ' '), ',', '.')"/>
-                        <xsl:variable name="lon" select="replace(substring-after($coords, ' '), ',', '.')"/>
+                    <xsl:for-each
+                        select="$listPlaceGesamt/tei:place[tei:location[@type='coords']/tei:geo and tei:listEvent[1]/tei:event[starts-with(@when, $year-month)][1]]">
+                        <xsl:variable name="coords"
+                            select="descendant::tei:location[@type = 'coords']/tei:geo"/>
+                        <xsl:variable name="lat"
+                            select="replace(substring-before($coords, ' '), ',', '.')"/>
+                        <xsl:variable name="lon"
+                            select="replace(substring-after($coords, ' '), ',', '.')"/>
                         <xsl:text>&#10;    {</xsl:text>
                         <xsl:text>&#10;      "type": "Feature",</xsl:text>
                         <xsl:text>&#10;      "geometry": {</xsl:text>
@@ -55,7 +59,8 @@
                         <xsl:text>",</xsl:text>
                         <!-- Aggregate visit dates for the current location -->
                         <xsl:text>&#10;         "timestamp": [</xsl:text>
-                        <xsl:for-each select="tei:listEvent/tei:event/@when[starts-with(., $year-month)]">
+                        <xsl:for-each
+                            select="tei:listEvent/tei:event/@when[starts-with(., $year-month)]">
                             <xsl:text>"</xsl:text>
                             <xsl:value-of select="."/>
                             <xsl:text>"</xsl:text>
@@ -66,11 +71,12 @@
                         <xsl:text>],</xsl:text>
                         <!-- Aggregate event descriptions -->
                         <xsl:text>&#10;         "importance": "</xsl:text>
-                        <xsl:value-of select="count(descendant::tei:listEvent/tei:event[@when[starts-with(., $year-month)]])"/>
+                        <xsl:value-of
+                            select="count(descendant::tei:listEvent/tei:event[@when[starts-with(., $year-month)]])"/>
                         <xsl:text>"</xsl:text>
                         <xsl:text>&#10;      }</xsl:text>
                         <xsl:text>&#10;      }</xsl:text>
-                        <xsl:if test="not(position()=last())">
+                        <xsl:if test="not(position() = last())">
                             <xsl:text>, </xsl:text>
                         </xsl:if>
                     </xsl:for-each>
@@ -79,35 +85,5 @@
                 </xsl:result-document>
             </xsl:for-each>
         </xsl:for-each>
-    </xsl:template>
-    <!-- Templates für Points und Linestrings -->
-    <xsl:template match="tei:place[tei:location[@type = 'coords']/tei:geo]" mode="point">
-        
-    </xsl:template>
-    <xsl:template
-        match="tei:listPlace[descendant::tei:place/tei:location[@type = 'coords']/tei:geo]"
-        mode="linestring">
-        <xsl:text>&#10;    {</xsl:text>
-        <xsl:text>&#10;      "type": "Feature",</xsl:text>
-        <xsl:text>&#10;      "geometry": {</xsl:text>
-        <xsl:text>&#10;        "type": "LineString",</xsl:text>
-        <xsl:text>&#10;        "coordinates": [</xsl:text>
-        <!-- Die Koordinaten für die Linien -->
-        <xsl:for-each select="tei:place[tei:location[@type = 'coords']/tei:geo]">
-            <xsl:if test="position() > 1">
-                <xsl:text>,</xsl:text>
-            </xsl:if>
-            <xsl:text>&#10;          [</xsl:text>
-            <xsl:variable name="coords" select="tei:location[@type = 'coords']/tei:geo"/>
-            <xsl:variable name="lat" select="replace(substring-before($coords, ' '), ',', '.')"/>
-            <xsl:variable name="lon" select="replace(substring-after($coords, ' '), ',', '.')"/>
-            <xsl:value-of select="$lon"/>
-            <xsl:text>, </xsl:text>
-            <xsl:value-of select="$lat"/>
-            <xsl:text>]</xsl:text>
-        </xsl:for-each>
-        <xsl:text>&#10;        ]</xsl:text>
-        <xsl:text>&#10;      }</xsl:text>
-        <xsl:text>&#10;    }</xsl:text>
     </xsl:template>
 </xsl:stylesheet>

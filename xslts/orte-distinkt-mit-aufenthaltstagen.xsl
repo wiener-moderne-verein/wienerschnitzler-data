@@ -10,16 +10,43 @@
             <xsl:element name="text" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:element name="body" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
-                        <xsl:apply-templates
-                            select="descendant::tei:place[tei:location[@type = 'coords']/tei:geo]"/>
+                        <xsl:for-each-group select="descendant::tei:listPlace/tei:place" group-by="@corresp">
+                           <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
+                               <xsl:attribute name="xml:id">
+                                   <xsl:value-of select="replace(@corresp, '#', '')"/>
+                               </xsl:attribute>
+                               <xsl:copy-of select="tei:placeName[1]|tei:location|tei:idno"></xsl:copy-of>
+                               <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
+                                    <!-- Füge alle Events hinzu, die diesen Ort enthalten -->
+                                    <xsl:for-each select="current-group()">
+                                        
+                                        <xsl:for-each select="ancestor::tei:event">
+                                            <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
+                                                <xsl:attribute name="when">
+                                                    <xsl:value-of select="@when"/>
+                                                </xsl:attribute>
+                                                <xsl:element name="eventName" namespace="http://www.tei-c.org/ns/1.0">
+                                                    <xsl:value-of select="mam:datum(@when)"/>
+                                                </xsl:element>
+                                                
+                                            
+                                            </xsl:element>
+                                        </xsl:for-each>
+                                    </xsl:for-each>
+                               </xsl:element>
+                           </xsl:element>
+                        </xsl:for-each-group>
                     </xsl:element>
                 </xsl:element>
             </xsl:element>
         </xsl:element>
     </xsl:template>
     <xsl:template
-        match="tei:place[tei:location[@type = 'coords']/tei:geo and not(tei:idno[@subtype = 'pmb'] = preceding::tei:event/tei:listPlace/tei:place[tei:location[@type = 'coords']/tei:geo]/tei:idno[@subtype = 'pmb'])]">
+        match="tei:place[tei:location[@type = 'coords']/tei:geo]">
         <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
+            <xsl:attribute name="xml:id">
+                <xsl:value-of select="replace(@corresp, '#', '')"/>
+            </xsl:attribute>
             <xsl:copy-of select="*[not(name()='idno')]"/>
             <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
@@ -46,8 +73,6 @@
             <xsl:copy-of select="*[(name()='idno')]"/>
         </xsl:element>
     </xsl:template>
-    <xsl:template
-        match="tei:place[tei:location[@type = 'coords']/tei:geo and (tei:idno[@subtype = 'pmb'] = preceding::tei:event/tei:listPlace/tei:place[tei:location[@type = 'coords']/tei:geo]/tei:idno[@subtype = 'pmb'])]"/>
     <xsl:function name="mam:datum">
         <xsl:param name="date" as="xs:date"/>
         <!-- Extrahiere Jahr, Monat und Tag -->

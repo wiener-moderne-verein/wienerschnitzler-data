@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>orte-distinkt-mit-aufenthaltstagen</String>
+                                        <String>2 complete.xml to distinctPlaces.xml</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -30,11 +30,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>editions/xml/wiener-schnitzler_orteDistinkt.xml</String>
+                                    <String>editions/xml/wienerschnitzler_distinctPlaces.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>distinkte-orte_complete-geojson</String>
+                                        <String>3 distinctPlaces to geoJSON</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -54,27 +54,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>relations.xml-to-list</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xslts/1_relations-to-list.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>relations.xml-to-list</String>
+                                        <String>1 relation.xml to complete.xml</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -98,90 +78,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>distinkte-orte_complete-geojson</String>
-                                </field>
-                                <field name="baseURL">
-                                    <String></String>
-                                </field>
-                                <field name="footerURL">
-                                    <String></String>
-                                </field>
-                                <field name="fOPMethod">
-                                    <String>pdf</String>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <String>Apache FOP</String>
-                                </field>
-                                <field name="headerURL">
-                                    <String></String>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/create-complete-geojson-from-listEvent.xsl</String>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <String>${pdu}/editions/xml/wiener-schnitzler_orteDistinkt.xml</String>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>XSL</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputResource">
-                                    <String>${pd}/editions/geojson/wienerschnitzler_complete_points.geojson</String>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <null/>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>Saxon-PE</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </scenario>
-                            <scenario>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>orte-distinkt-mit-aufenthaltstagen</String>
+                                    <String>2 complete.xml to distinctPlaces.xml</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -220,7 +117,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>wiener-schnitzler_orteDistinkt.xml</String>
+                                    <String>wienerschnitzler_distinctPlaces.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -251,7 +148,7 @@
                                 </field>
                                 <field name="cascadingStylesheets">
                                     <String-array>
-                                        <String>${pdu}/xslts/orte-distinkt-mit-aufenthaltstagen.xsl</String>
+                                        <String>${pdu}/xslts/complete-to-geojson/orte-distinkt-mit-aufenthaltstagen.xsl</String>
                                     </String-array>
                                 </field>
                                 <field name="xslTransformer">
@@ -266,7 +163,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>wienerschnitzler_complete-daily-geojson</String>
+                                    <String>3 distinctPlaces to geoJSON</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -284,10 +181,93 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/create-daily-geojson-from-listEvent.xsl</String>
+                                    <String>${pdu}/xslts/complete-to-geojson/create-complete-geojson-from-listEvent.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${currentFileURL}</String>
+                                    <String>${pdu}/editions/xml/wiener-schnitzler_orteDistinkt.xml</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputResource">
+                                    <String>${pd}/editions/geojson/wienerschnitzler_distinctPlaces.geojson</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>4 complete to geoJSON for each day</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/xslts/located-in.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${pdu}/editions/xml/wienerschnitzler_complete.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -335,7 +315,9 @@
                                     <list/>
                                 </field>
                                 <field name="cascadingStylesheets">
-                                    <String-array/>
+                                    <String-array>
+                                        <String>${pdu}/xslts/complete-to-geojson/create-daily-geojson-from-listEvent.xsl</String>
+                                    </String-array>
                                 </field>
                                 <field name="xslTransformer">
                                     <String>Saxon-PE</String>
@@ -349,7 +331,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>relations.xml-to-list</String>
+                                    <String>1 relation.xml to complete.xml</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -367,7 +349,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/1_relations-to-list.xsl</String>
+                                    <String>${pdu}/xslts/import-relations-to-complete/1_relations-to-list.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${pdu}/input-data/relations.xml</String>
@@ -419,8 +401,8 @@
                                 </field>
                                 <field name="cascadingStylesheets">
                                     <String-array>
-                                        <String>${pdu}/xslts/2_distinct-days.xsl</String>
-                                        <String>${pdu}/xslts/3_content-auffuellen.xsl</String>
+                                        <String>${pdu}/xslts/import-relations-to-complete/2_distinct-days.xsl</String>
+                                        <String>${pdu}/xslts/import-relations-to-complete/3_content-auffuellen.xsl</String>
                                     </String-array>
                                 </field>
                                 <field name="xslTransformer">

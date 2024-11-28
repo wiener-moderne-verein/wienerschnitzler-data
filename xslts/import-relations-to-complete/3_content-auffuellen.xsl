@@ -10,7 +10,7 @@
         und ergänzt den Inhalt von einer listPlace. (Ich hätte es live über die API
         machen können, aber das wäre viel langsamer). Also zuerst hier
         die Liste laden: https://pmb.acdh.oeaw.ac.at/export/ -->
-    <xsl:param name="listPlace" select="document('../input-data/listPlace.xml')" as="node()"/>
+    <xsl:param name="listPlace" select="document('../../input-data/listPlace.xml')" as="node()"/>
     <xsl:key name="listPlace-lookup" match="tei:place"
         use="replace(replace(@xml:id, 'place__', ''), 'pmb', '')"/>
     <xsl:template match="tei:place">

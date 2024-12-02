@@ -7,6 +7,7 @@
     <!-- Output format: plain text -->
     <xsl:output method="text" indent="yes"/>
     <xsl:mode on-no-match="shallow-skip"/>
+    <xsl:import href="./partial/geoJSON-punkt.xsl"/>
     <!-- Root template to start processing and generate output for each date -->
     <xsl:template match="/">
         <xsl:for-each select="/tei:TEI/descendant::tei:event[@when]">

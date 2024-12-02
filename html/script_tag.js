@@ -1,139 +1,93 @@
-// Create the map and set the initial view
-var map = L.map('map', {
-    center: [48.2082, 16.3738],
-    zoom: 5,
-    timeDimension: true,
-    timeDimensionControl: true,
-    timeDimensionControlOptions: {
-        position: 'bottomleft',
-        autoPlay: true,
-        backwardButton: true,
-        forwardButton: true,
-        timeSlider: true,
-        speedSlider: false,
-        loopButton: false,
-        timeFormat: "YYYY-MM-DD",
-        playerOptions: {
-            transitionTime: 1000,
-            loop: false,
-            startOver: false
-        }
-    },
-    timeDimensionOptions: {
-        timeInterval: "1869-01-01/1931-10-21",
-        period: "P1D",
-        currentTime: Date.parse("1890-01-01")
-    }
-});
+// Erstelle die Karte
+var map = L.map('map').setView([48.2082, 16.3738], 5);
 
-// Add OpenStreetMap tile layer
+// Füge OpenStreetMap-Layer hinzu
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18
 }).addTo(map);
 
-// Function to expand dates into individual GeoJSON features
-function expandDates(feature) {
-    var features = [];
-    if (feature.properties.dates && Array.isArray(feature.properties.dates)) {
-        feature.properties.dates.forEach(date => {
-            var newFeature = {
-                type: "Feature",
-                geometry: feature.geometry,
-                properties: {
-                    ...feature.properties,
-                    time: date // Use the date in "YYYY-MM-DD" format
-                }
-            };
-            features.push(newFeature);
-        });
-    } else if (feature.properties.date) {
-        var newFeature = {
-            type: "Feature",
-            geometry: feature.geometry,
-            properties: {
-                ...feature.properties,
-                time: feature.properties.date // Use the date directly
-            }
-        };
-        features.push(newFeature);
-    } else {
-        features.push(feature);
-    }
-    return features;
+// Funktion zum Formatieren von Datum in ISO-String (YYYY-MM-DD)
+function formatDateToISO(date) {
+    return date.toISOString().split('T')[0];
 }
 
-// Load and expand GeoJSON data
-fetch('https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-data/refs/heads/main/editions/geojson/wienerschnitzler_complete_points.geojson')
-    .then(response => response.json())
-    .then(data => {
-        var expandedData = {
-            type: "FeatureCollection",
-            features: []
-        };
-        
-        data.features.forEach(feature => {
-            expandedData.features.push(...expandDates(feature));
-        });
+// Funktion, um das aktuelle Datum um eine Anzahl Tage zu ändern
+function changeDateByDays(currentDate, days) {
+    const date = new Date(currentDate);
+    date.setDate(date.getDate() + days);
+    return formatDateToISO(date);
+}
 
-        console.log(expandedData); // Check expanded data in the console
+// Funktion zum Laden von GeoJSON basierend auf einem Datum
+function loadGeoJsonByDate(date) {
+    const url = `https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-data/main/editions/geojson/${date}.geojson`;
 
-        // Create GeoJSON layer for TimeDimension
-        var geoJsonLayer = L.geoJSON(expandedData, {
-            pointToLayer: function (feature, latlng) {
-                return L.circleMarker(latlng, { radius: 5, color: 'red' });
-            },
-            onEachFeature: function (feature, layer) {
-                if (feature.properties && feature.properties.title) {
-                    layer.bindPopup(
-                        `<b>${feature.properties.title}</b><br>${feature.properties.time}`
-                    );
-                }
+    // Entferne vorherige Layer
+    if (window.currentGeoJsonLayer) {
+        map.removeLayer(window.currentGeoJsonLayer);
+    }
+
+    // GeoJSON laden und anzeigen
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`GeoJSON für ${date} nicht gefunden.`);
             }
-        });
+            return response.json();
+        })
+        .then(data => {
+            window.currentGeoJsonLayer = L.geoJSON(data, {
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, { radius: 5, color: 'red' });
+                },
+                onEachFeature: function (feature, layer) {
+                    if (feature.properties && feature.properties.title) {
+                        layer.bindPopup(
+                            `<b>${feature.properties.title}</b><br>${feature.properties.timespan?.start || 'Kein Datum'}`
+                        );
+                    }
+                }
+            }).addTo(map);
 
-        var timeLayer = L.timeDimension.layer.geoJson(geoJsonLayer, {
-            updateTimeDimension: true,
-            updateTimeDimensionMode: 'replace',
-            addlastPoint: true,
-            duration: 'P1D'
-        });
+            // Karte an die neuen Daten anpassen
+            map.fitBounds(window.currentGeoJsonLayer.getBounds());
+        })
+        .catch(error => console.error('Error loading GeoJSON:', error));
+}
 
-        timeLayer.addTo(map);
+// Eventlistener für das Datumseingabefeld
+document.getElementById('date-input').addEventListener('change', function () {
+    const date = this.value;
+    if (date) {
+        loadGeoJsonByDate(date);
+    }
+});
 
-        // Center the map initially to fit all bounds
-        var initialBounds = geoJsonLayer.getBounds();
-        map.fitBounds(initialBounds);
+// Eventlistener für den "Laden"-Button
+document.getElementById('load-data').addEventListener('click', function () {
+    const date = document.getElementById('date-input').value;
+    if (date) {
+        loadGeoJsonByDate(date);
+    }
+});
 
-        // Adjust the view dynamically on time load
-       map.timeDimension.on('timeload', function() {
-           var visibleLayers = [];
-           var currentTime = new Date(map.timeDimension.getCurrentTime()).toISOString().split('T')[0];
+// Eventlistener für den "Vorheriger Tag"-Button
+document.getElementById('prev-day').addEventListener('click', function () {
+    const dateInput = document.getElementById('date-input');
+    const currentDate = dateInput.value;
+    const newDate = changeDateByDays(currentDate, -1);
+    dateInput.value = newDate;
+    loadGeoJsonByDate(newDate);
+});
 
-           // Find features for the current date
-           geoJsonLayer.eachLayer(function(layer) {
-               var feature = layer.feature;
-               if (feature && feature.properties && feature.properties.time) {
-                   if (feature.properties.time === currentTime) {
-                       visibleLayers.push(layer.getLatLng());
-                   }
-               }
-           });
+// Eventlistener für den "Nächster Tag"-Button
+document.getElementById('next-day').addEventListener('click', function () {
+    const dateInput = document.getElementById('date-input');
+    const currentDate = dateInput.value;
+    const newDate = changeDateByDays(currentDate, 1);
+    dateInput.value = newDate;
+    loadGeoJsonByDate(newDate);
+});
 
-           if (visibleLayers.length > 0) {
-               var currentBounds = L.latLngBounds(visibleLayers);
-               map.fitBounds(currentBounds, {
-                   padding: [10, 10], // Optional: Add padding around the bounds
-                   maxZoom: 18 // Ensure it doesn't zoom in too much beyond max zoom level
-               });
-           }
-
-           // Update the date display to remove time part
-           var dateElement = document.querySelector('.leaflet-control-timecontrol.timecontrol-date');
-           if (dateElement) {
-               var newDate = currentTime; // Already formatted as YYYY-MM-DD
-               dateElement.textContent = newDate;
-           }
-       });
-
-    })
-    .catch(error => console.error('Error loading GeoJSON data:', error));
+// Initial laden
+loadGeoJsonByDate(document.getElementById('date-input').value);

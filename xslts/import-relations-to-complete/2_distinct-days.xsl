@@ -8,7 +8,7 @@
     <!-- Main template to match the row element -->
     
     <!-- Das hier nimmt die mit Transformation 1 geschaffene Liste und macht sie 
-    tageweise distinkt und zieht Werte live aus der PMB -->
+    tageweise distinkt  -->
     
     
     <xsl:template match="tei:listEvent">

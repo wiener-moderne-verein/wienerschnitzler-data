@@ -18,7 +18,7 @@
                 <p class="lead">Lassen Sie sich die täglichen Aufenthaltsorte von Arthur Schnitzler (15. Mai 1862 – 21. Oktober 1931)
                     anzeigen. Die Verbindungslinien sollen den geografischen Raum erfassbar machen, stellen aber keine Wegdiagramme dar.
                 </p>
-                <button id="toggle-intro" class="btn btn-outline-secondary">Einleitung ausblenden</button>
+                <button id="toggle-intro" class="btn btn-outline-secondary">X ausblenden</button>
             </header>
             
             <!-- Controls -->
@@ -28,10 +28,11 @@
                     <button id="prev-day" class="btn btn-secondary">← Vorheriger Tag</button>
                 </div>
                 
+                <div class="d-flex center-content-start">
                 <!-- Date Input (centered) -->
-                <input type="date" id="date-input" class="form-control w-auto" value="1903-02-01">
-                
-                
+                <input type="date" id="date-input" class="form-control w-auto" value="1903-01-01">
+                <button id="load-data" class="btn btn-primary">Laden</button>
+                </div>
                 <!-- Right Buttons (rechts) -->
                 <div class="d-flex justify-content-end">
                     <button id="next-day" class="btn btn-secondary">Nächster Tag →</button>
@@ -55,10 +56,10 @@
 
             if (header.style.display === 'none') {
                 header.style.display = 'block';
-                button.textContent = 'Einleitung ausblenden';
+                button.textContent = 'X';
             } else {
                 header.style.display = 'none';
-                button.textContent = 'Einleitung anzeigen';
+                button.textContent = '+';
             }
         });
     </script>

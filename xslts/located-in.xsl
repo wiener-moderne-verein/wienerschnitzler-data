@@ -15,7 +15,7 @@
            vorhanden ist-->
             <!-- Sonderregeln für Wiener Bezirke, also wenn der ort wien ist, aber ein unterort innerhalb eines bezirks vorhanden -->
             <xsl:when
-                test="$current-corresp = 'pmb50' and parent::tei:listPlace/tei:place/tei:location[@type = 'located_in_place']/tei:placeName[string-length(@key) = 2 and (starts-with(@key,'pmb5') or starts-with(@key, 'pmb6') or @key = 'pmb70' or @key = 'pmb71' or @key = 'pmb72' or @key = 'pmb73')]"/>
+                test="$current-corresp = 'pmb50' and parent::tei:listPlace/tei:place/tei:location[@type = 'located_in_place']/tei:placeName[string-length(@key) = 2 and (starts-with(@key, 'pmb5') or starts-with(@key, 'pmb6') or @key = 'pmb70' or @key = 'pmb71' or @key = 'pmb72' or @key = 'pmb73')]"/>
             <xsl:otherwise>
                 <xsl:copy-of select="."/>
             </xsl:otherwise>

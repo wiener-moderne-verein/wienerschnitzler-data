@@ -63,6 +63,12 @@
                     </xsl:if>
                 </xsl:for-each>
             </xsl:when>
+            <xsl:when test="$timespan-type = 'day'"> 
+                <xsl:text>"</xsl:text>
+                <xsl:value-of select="$input-placeNode/descendant::tei:event/@when"/>
+                <xsl:text>"</xsl:text>
+                
+            </xsl:when>
         </xsl:choose>
         <xsl:text>],</xsl:text>
         <!-- Aggregate event descriptions -->
@@ -77,6 +83,9 @@
                 <xsl:value-of
                     select="count($input-placeNode/descendant::tei:listEvent/tei:event[@when[starts-with(., $timespan-begin)]])"
                 />
+            </xsl:when>
+            <xsl:when test="$timespan-type = 'day'">
+                <xsl:text>1</xsl:text>
             </xsl:when>
         </xsl:choose>
         <xsl:text>"</xsl:text>

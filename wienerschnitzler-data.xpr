@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>input-data/relations.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>relations to complete</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>editions/xml/wienerschnitzler_complete.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -40,26 +60,6 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>input-data/relations.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>1 relation.xml to complete.xml</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
@@ -665,7 +665,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>wienerschnitzler_complete</String>
+                                    <String>relations to complete</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -683,10 +683,10 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/complete-to-geojson/create-complete-geojson-from-listEvent.xsl</String>
+                                    <String>${pdu}/xslts/import-relations-to-complete/1_relations-to-list.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/editions/xml/wienerschnitzler_complete.xml</String>
+                                    <String>${pdu}/input-data/relations.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -704,7 +704,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/editions/geojson/complete-daily.geojson</String>
+                                    <String>${pd}/editions/xml/wienerschnitzler_complete.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -734,7 +734,10 @@
                                     <list/>
                                 </field>
                                 <field name="cascadingStylesheets">
-                                    <String-array/>
+                                    <String-array>
+                                        <String>${pdu}/xslts/import-relations-to-complete/2_distinct-days.xsl</String>
+                                        <String>${pdu}/xslts/import-relations-to-complete/3_wohnsitz-ergaenzen.xsl</String>
+                                    </String-array>
                                 </field>
                                 <field name="xslTransformer">
                                     <String>Saxon-PE</String>

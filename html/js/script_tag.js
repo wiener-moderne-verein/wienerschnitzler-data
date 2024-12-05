@@ -1,9 +1,10 @@
+// Array zur Verwaltung der GeoJSON-Layer
+const geoJsonLayers = [];
+
 // Funktion zum Entfernen aller GeoJSON-Layer
 function clearGeoJsonLayers() {
-    if (window.currentGeoJsonLayer) {
-        map.removeLayer(window.currentGeoJsonLayer);
-        window.currentGeoJsonLayer = null;
-    }
+    geoJsonLayers.forEach(layer => map.removeLayer(layer));
+    geoJsonLayers.length = 0; // Array leeren
 }
 
 // Funktion zum Laden von GeoJSON basierend auf einem Datum
@@ -22,7 +23,7 @@ function loadGeoJsonByDate(date) {
             return response.json();
         })
         .then(data => {
-            window.currentGeoJsonLayer = L.geoJSON(data, {
+            const newLayer = L.geoJSON(data, {
                 pointToLayer: function (feature, latlng) {
                     return L.circleMarker(latlng, { radius: 5, color: 'red' });
                 },
@@ -33,7 +34,7 @@ function loadGeoJsonByDate(date) {
 
                         // Erstelle den Link, falls ein Datum vorhanden ist
                         const link = date !== 'Kein Datum'
-                            ? `<a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__${date}.html" target="_blank">Tagebuch</a>`
+                            ? `<a href="href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__${date}.html" target="_blank">Tagebuch</a>`
                             : '';
 
                         // Popup-Inhalt
@@ -48,9 +49,12 @@ function loadGeoJsonByDate(date) {
                 }
             }).addTo(map);
 
+            // Hinzufügen der neuen Layer-Referenz zur Liste
+            geoJsonLayers.push(newLayer);
+
             // Karte an die neuen Daten anpassen
-            if (window.currentGeoJsonLayer.getLayers().length > 0) {
-                map.fitBounds(window.currentGeoJsonLayer.getBounds());
+            if (newLayer.getLayers().length > 0) {
+                map.fitBounds(newLayer.getBounds());
             } else {
                 console.warn('Keine gültigen Features gefunden.');
             }

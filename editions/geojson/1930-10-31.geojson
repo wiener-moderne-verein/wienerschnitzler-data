@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.3576, 48.21071], 
+            [16.361139, 48.210333], 
+            [16.3747466, 48.2104057], 
+            [16.37997, 48.21366], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -18,14 +22,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.361139, 48.210333
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Burgtheater",
+        "timestamp": ["1930-10-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3747466, 48.2104057
+        ]
+      },
+      "properties": {
+        "title": "Zur Linde",
+        "timestamp": ["1930-10-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3576, 48.21071
+        ]
+      },
+      "properties": {
+        "title": "Rathaus",
         "timestamp": ["1930-10-31"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Rathaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37997, 48.21366
+        ]
+      },
+      "properties": {
+        "title": "Zentralkino",
+        "timestamp": ["1930-10-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Zentralkino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1930-10-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

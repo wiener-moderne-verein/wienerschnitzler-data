@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.371211, 48.206416], 
+            [16.387056, 48.196938], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -18,14 +20,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.371211, 48.206416
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Meissl & Schadn",
         "timestamp": ["1931-04-08"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.387056, 48.196938
+        ]
+      },
+      "properties": {
+        "title": "Eos-Kino",
+        "timestamp": ["1931-04-08"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Eos-Kino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1931-04-08"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

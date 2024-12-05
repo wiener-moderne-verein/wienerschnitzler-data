@@ -34,7 +34,7 @@ function loadGeoJsonByDate(date) {
 
                         // Erstelle den Link, falls ein Datum vorhanden ist
                         const link = date !== 'Kein Datum'
-                            ? `<a href="href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__${date}.html" target="_blank">Tagebuch</a>`
+                            ? `<a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__${date}.html" target="_blank">Tagebuch</a>`
                             : '';
 
                         // Popup-Inhalt

@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [13.21667, 47.41667], 
+            [13.609575, 47.706537], 
             [13.04532, 47.80067]
           ]
       },
@@ -14,7 +15,20 @@
         "name": "10. August 1900"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1900-08-10"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -26,11 +40,10 @@
       "properties": {
         "title": "Salzburg",
         "timestamp": ["1900-08-10"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb30/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg"
       }
       },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -42,9 +55,8 @@
       "properties": {
         "title": "Bischofshofen",
         "timestamp": ["1900-08-10"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb41003/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                  
   ]
 }

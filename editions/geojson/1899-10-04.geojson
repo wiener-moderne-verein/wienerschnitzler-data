@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [13.366666666667, 52.516666666667], 
+            [13.366666, 52.516666], 
             [13.388194, 52.521572], 
             [13.382222, 52.524444]
           ]
@@ -15,7 +16,6 @@
         "name": "4. Oktober 1899"
       }
     },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -27,11 +27,10 @@
       "properties": {
         "title": "Hotel Savoy [Berlin]",
         "timestamp": ["1899-10-04"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb545/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Savoy_Hotel_(Berlin)"
       }
       },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -43,10 +42,24 @@
       "properties": {
         "title": "Deutsches Theater Berlin",
         "timestamp": ["1899-10-04"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb3/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.366666, 52.516666
+        ]
+      },
+      "properties": {
+        "title": "Tiergarten",
+        "timestamp": ["1899-10-04"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Tiergarten"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -58,10 +71,9 @@
       "properties": {
         "title": "Großer Tiergarten",
         "timestamp": ["1899-10-04"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb207015/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_Tiergarten"
       }
       }
-                  
   ]
 }

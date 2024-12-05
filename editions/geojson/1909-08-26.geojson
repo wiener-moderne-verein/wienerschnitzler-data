@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.581667, 48.138889], 
             [11.581667, 48.138889]
           ]
       },
@@ -13,7 +14,6 @@
         "name": "26. August 1909"
       }
     },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -25,10 +25,24 @@
       "properties": {
         "title": "Hotel Vier Jahreszeiten",
         "timestamp": ["1909-08-26"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb485/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.581667, 48.138889
+        ]
+      },
+      "properties": {
+        "title": "Hotel Vier Jahreszeiten",
+        "timestamp": ["1909-08-26"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)"
       }
       }
-                  
   ]
 }

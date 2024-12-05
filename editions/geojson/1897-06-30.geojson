@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.609575, 47.706537], 
             [13.618611, 47.711389], 
             [13.664415, 47.74078]
           ]
@@ -14,7 +15,20 @@
         "name": "30. Juni 1897"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1897-06-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -26,10 +40,9 @@
       "properties": {
         "title": "Ebenseerstraße",
         "timestamp": ["1897-06-30"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb92222/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -41,9 +54,8 @@
       "properties": {
         "title": "Stadttheater [Bad Ischl]",
         "timestamp": ["1897-06-30"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb1179/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                  
   ]
 }

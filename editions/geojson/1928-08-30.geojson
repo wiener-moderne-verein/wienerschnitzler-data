@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [10.74085, 47.55631], 
             [10.70171, 47.57143]
           ]
       },
@@ -13,7 +14,20 @@
         "name": "30. August 1928"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.74085, 47.55631
+        ]
+      },
+      "properties": {
+        "title": "Hohenschwangau",
+        "timestamp": ["1928-08-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,11 +39,9 @@
       "properties": {
         "title": "Füssen",
         "timestamp": ["1928-08-30"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb596/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/F%C3%BCssen"
       }
       }
-                     
-                  
   ]
 }

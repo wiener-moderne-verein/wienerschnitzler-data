@@ -8,14 +8,28 @@
         "coordinates": [
             [13.78243, 47.60998], 
             [13.81667, 47.61667], 
-            [13.77189, 47.6417]
+            [13.77189, 47.6417], 
+            [13.609575, 47.706537]
           ]
       },
       "properties": {
         "name": "31. August 1894"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1894-08-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -27,26 +41,10 @@
       "properties": {
         "title": "Bad Aussee",
         "timestamp": ["1894-08-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb415/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee"
       }
       },
-                     
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.77189, 47.6417
-        ]
-      },
-      "properties": {
-        "title": "Seewirt",
-        "timestamp": ["1894-08-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb106/"
-      }
-      },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -58,10 +56,23 @@
       "properties": {
         "title": "Grundlsee (Gemeinde)",
         "timestamp": ["1894-08-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb46000/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Grundlsee_(Gemeinde)"
       }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.77189, 47.6417
+        ]
+      },
+      "properties": {
+        "title": "Seewirt",
+        "timestamp": ["1894-08-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
-                  
+      }
   ]
 }

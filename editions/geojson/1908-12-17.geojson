@@ -1,6 +1,32 @@
 {
   "type": "FeatureCollection",
   "features": [
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [19.04045, 47.49835]
+          ]
+      },
+      "properties": {
+        "name": "17. Dezember 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.04045, 47.49835
+        ]
+      },
+      "properties": {
+        "title": "Budapest",
+        "timestamp": ["1908-12-17"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Budapest"
+      }
+      }
   ]
 }

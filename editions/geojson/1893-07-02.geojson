@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [13.57893, 47.71149], 
+            [13.609575, 47.706537], 
             [13.62186, 47.71222], 
             [13.6211, 47.712936], 
             [13.53138, 47.715948]
@@ -16,7 +17,20 @@
         "name": "2. Juli 1893"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1893-07-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,25 +42,9 @@
       "properties": {
         "title": "Lindau [Bad Ischl]",
         "timestamp": ["1893-07-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb91151/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
-                     
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.53138, 47.715948
-        ]
-      },
-      "properties": {
-        "title": "Alte Bundesstraße",
-        "timestamp": ["1893-07-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb192783/"
-      }
-      },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -58,10 +56,9 @@
       "properties": {
         "title": "Schulgasse",
         "timestamp": ["1893-07-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb41463/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -73,9 +70,22 @@
       "properties": {
         "title": "Hotel Stern",
         "timestamp": ["1893-07-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb192788/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.53138, 47.715948
+        ]
+      },
+      "properties": {
+        "title": "Alte Bundesstraße",
+        "timestamp": ["1893-07-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                  
   ]
 }

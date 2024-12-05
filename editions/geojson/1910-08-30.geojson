@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.609575, 47.706537], 
             [13.60412, 47.711737]
           ]
       },
@@ -13,7 +14,20 @@
         "name": "30. August 1910"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1910-08-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,9 +39,8 @@
       "properties": {
         "title": "Ahornbühel",
         "timestamp": ["1910-08-30"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb92134/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                  
   ]
 }

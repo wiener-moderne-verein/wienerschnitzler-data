@@ -1,14 +1,32 @@
 {
   "type": "FeatureCollection",
   "features": [
-                     
-                        Paulussaal
-                        
-                           Freiburg im Breisgau
-                           47,9959 7,85222
-                        
-                        https://pmb.acdh.oeaw.ac.at/entity/183517/
-                     
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [7.85222, 47.9959]
+          ]
+      },
+      "properties": {
+        "name": "12. Januar 1925"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.85222, 47.9959
+        ]
+      },
+      "properties": {
+        "title": "Freiburg im Breisgau",
+        "timestamp": ["1925-01-12"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Freiburg_im_Breisgau"
+      }
+      }
   ]
 }

@@ -1,14 +1,76 @@
 {
   "type": "FeatureCollection",
   "features": [
-                     
-                        Hotel Neptun
-                        
-                           Marienbad
-                           49,96115 12,72872
-                        
-                        https://pmb.acdh.oeaw.ac.at/entity/200866/
-                     
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [12.70685, 49.97747], 
+            [12.70919, 49.97665], 
+            [12.716619, 49.977638], 
+            [12.7055, 49.98198]
+          ]
+      },
+      "properties": {
+        "name": "14. September 1929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.70919, 49.97665
+        ]
+      },
+      "properties": {
+        "title": "Grand Hotel Marienbad",
+        "timestamp": ["1929-09-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7055, 49.98198
+        ]
+      },
+      "properties": {
+        "title": "Kurpark Marienbad",
+        "timestamp": ["1929-09-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.716619, 49.977638
+        ]
+      },
+      "properties": {
+        "title": "Café Forstwarte",
+        "timestamp": ["1929-09-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.70685, 49.97747
+        ]
+      },
+      "properties": {
+        "title": "Hauptkolonnade (Maxim Gorki Kolonnade)",
+        "timestamp": ["1929-09-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      }
   ]
 }

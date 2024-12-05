@@ -1,14 +1,32 @@
 {
   "type": "FeatureCollection",
   "features": [
-                     
-                        Hotel und Pension Tirolerhof
-                        
-                           Meran
-                           46,66817 11,15953
-                        
-                        https://pmb.acdh.oeaw.ac.at/entity/184767/
-                     
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [11.15953, 46.66817]
+          ]
+      },
+      "properties": {
+        "name": "6. April 1886"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.15953, 46.66817
+        ]
+      },
+      "properties": {
+        "title": "Meran",
+        "timestamp": ["1886-04-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Meran"
+      }
+      }
   ]
 }

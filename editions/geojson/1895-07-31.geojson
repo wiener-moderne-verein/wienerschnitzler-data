@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.609575, 47.706537], 
             [13.779, 47.80716], 
             [13.79933, 47.91839]
           ]
@@ -14,7 +15,20 @@
         "name": "31. Juli 1895"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1895-07-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -26,11 +40,10 @@
       "properties": {
         "title": "Gmunden",
         "timestamp": ["1895-07-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb874/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Gmunden"
       }
       },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -42,10 +55,9 @@
       "properties": {
         "title": "Ebensee am Traunsee",
         "timestamp": ["1895-07-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb912/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Ebensee_am_Traunsee"
       }
       }
-                  
   ]
 }

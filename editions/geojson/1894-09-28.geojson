@@ -7,8 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [16.351111, 48.209583], 
+            [16.351111, 48.209583], 
             [16.365171, 48.203037], 
             [16.35736, 48.21533], 
+            [16.3538456, 48.2134031], 
             [16.3538456, 48.2134031]
           ]
       },
@@ -16,7 +18,6 @@
         "name": "28. September 1894"
       }
     },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -28,26 +29,10 @@
       "properties": {
         "title": "Riedhof",
         "timestamp": ["1894-09-28"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb44/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof"
       }
       },
-                     
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.365171, 48.203037
-        ]
-      },
-      "properties": {
-        "title": "Opernring 19",
-        "timestamp": ["1894-09-28"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb192844/"
-      }
-      },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -59,11 +44,24 @@
       "properties": {
         "title": "Theater in der Josefstadt",
         "timestamp": ["1894-09-28"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb40/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt"
       }
       },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.365171, 48.203037
+        ]
+      },
+      "properties": {
+        "title": "Opernring 19",
+        "timestamp": ["1894-09-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -75,9 +73,38 @@
       "properties": {
         "title": "Frankgasse 1",
         "timestamp": ["1894-09-28"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb168934/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3538456, 48.2134031
+        ]
+      },
+      "properties": {
+        "title": "Riedhof",
+        "timestamp": ["1894-09-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.351111, 48.209583
+        ]
+      },
+      "properties": {
+        "title": "Theater in der Josefstadt",
+        "timestamp": ["1894-09-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt"
       }
       }
-                  
   ]
 }

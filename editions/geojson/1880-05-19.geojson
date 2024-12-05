@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.363819, 48.20334], 
             [16.37547, 48.2644]
           ]
       },
@@ -13,7 +14,20 @@
         "name": "19. Mai 1880"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.363819, 48.20334
+        ]
+      },
+      "properties": {
+        "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+        "timestamp": ["1880-05-19"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,10 +39,8 @@
       "properties": {
         "title": "Neue Donau",
         "timestamp": ["1880-05-19"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb90538/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                     
-                  
   ]
 }

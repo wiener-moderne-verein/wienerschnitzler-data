@@ -7,11 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.17359, 48.15486], 
-            [16.245159724901, 48.142780596146], 
-            [16.368443, 48.209585], 
+            [16.373056, 48.208333], 
             [16.37997, 48.21366], 
-            [16.395442, 48.217178], 
-            [16.33716, 48.23188], 
             [16.16265, 48.19512]
           ]
       },
@@ -19,7 +16,21 @@
         "name": "31. Mai 1931"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1931-05-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -31,26 +42,10 @@
       "properties": {
         "title": "Purkersdorf",
         "timestamp": ["1931-05-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb39792/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Purkersdorf"
       }
       },
-                     
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.245159724901, 48.142780596146
-        ]
-      },
-      "properties": {
-        "title": "Kalksburg",
-        "timestamp": ["1931-05-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb555/"
-      }
-      },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -62,40 +57,9 @@
       "properties": {
         "title": "Laab im Walde",
         "timestamp": ["1931-05-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb91091/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
-                     
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.395442, 48.217178
-        ]
-      },
-      "properties": {
-        "title": "Restauration Prochaska",
-        "timestamp": ["1931-05-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb185318/"
-      }
-      },
-                     
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.368443, 48.209585
-        ]
-      },
-      "properties": {
-        "title": "Metrophon Konzertsalon und Musikhaus",
-        "timestamp": ["1931-05-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb185484/"
-      }
-      },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -107,25 +71,9 @@
       "properties": {
         "title": "Zentralkino",
         "timestamp": ["1931-05-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb584/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Zentralkino"
       }
-      },
-                     
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
-      },
-      "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1931-05-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb168815/"
       }
-      }
-                  
   ]
 }

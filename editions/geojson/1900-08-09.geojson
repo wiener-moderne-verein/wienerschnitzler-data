@@ -1,6 +1,31 @@
 {
   "type": "FeatureCollection",
   "features": [
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [13.609575, 47.706537]
+          ]
+      },
+      "properties": {
+        "name": "9. August 1900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1900-08-09"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      }
   ]
 }

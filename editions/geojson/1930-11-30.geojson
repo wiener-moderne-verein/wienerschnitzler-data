@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.299116267833, 48.230916826952], 
+            [16.33716, 48.23188], 
             [16.33716, 48.23188], 
             [16.276509500872, 48.241960480337]
           ]
@@ -14,7 +16,6 @@
         "name": "30. November 1930"
       }
     },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -26,11 +27,24 @@
       "properties": {
         "title": "Schwarzenbergpark",
         "timestamp": ["1930-11-30"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb176/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark"
       }
       },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.299116267833, 48.230916826952
+        ]
+      },
+      "properties": {
+        "title": "Dornbach",
+        "timestamp": ["1930-11-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -42,9 +56,22 @@
       "properties": {
         "title": "Sternwartestraße 71",
         "timestamp": ["1930-11-30"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb168815/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1930-11-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                  
   ]
 }

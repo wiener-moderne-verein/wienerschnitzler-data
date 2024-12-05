@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.609575, 47.706537], 
             [13.65, 47.73333]
           ]
       },
@@ -13,7 +14,20 @@
         "name": "28. Juli 1895"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1895-07-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,9 +39,8 @@
       "properties": {
         "title": "Gstättenberg",
         "timestamp": ["1895-07-28"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb90795/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                  
   ]
 }

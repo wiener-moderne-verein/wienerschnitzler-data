@@ -1,14 +1,47 @@
 {
   "type": "FeatureCollection",
   "features": [
-                     
-                        Hotel Neptun
-                        
-                           Marienbad
-                           49,96115 12,72872
-                        
-                        https://pmb.acdh.oeaw.ac.at/entity/200866/
-                     
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [11.07752, 49.45421], 
+            [12.70919, 49.97665]
+          ]
+      },
+      "properties": {
+        "name": "12. September 1929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.07752, 49.45421
+        ]
+      },
+      "properties": {
+        "title": "Nürnberg",
+        "timestamp": ["1929-09-12"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.70919, 49.97665
+        ]
+      },
+      "properties": {
+        "title": "Grand Hotel Marienbad",
+        "timestamp": ["1929-09-12"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      }
   ]
 }

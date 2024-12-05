@@ -1,6 +1,31 @@
 {
   "type": "FeatureCollection",
   "features": [
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [13.609575, 47.706537]
+          ]
+      },
+      "properties": {
+        "name": "8. August 1895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1895-08-08"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      }
   ]
 }

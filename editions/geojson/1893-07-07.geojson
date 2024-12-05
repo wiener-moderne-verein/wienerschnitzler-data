@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [13.614953101640904, 47.72357807749467], 
+            [13.609575, 47.706537], 
             [13.726843, 47.773952], 
             [13.79933, 47.91839]
           ]
@@ -15,7 +16,20 @@
         "name": "7. Juli 1893"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1893-07-07"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -27,10 +41,9 @@
       "properties": {
         "title": "Trenkelbach",
         "timestamp": ["1893-07-07"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb92569/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -42,11 +55,10 @@
       "properties": {
         "title": "Gmunden",
         "timestamp": ["1893-07-07"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb874/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Gmunden"
       }
       },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -58,9 +70,8 @@
       "properties": {
         "title": "Langwies",
         "timestamp": ["1893-07-07"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb92359/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                  
   ]
 }

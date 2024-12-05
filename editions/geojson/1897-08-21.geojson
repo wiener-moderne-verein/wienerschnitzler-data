@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.609575, 47.706537], 
             [16.277425, 48.14917]
           ]
       },
@@ -13,7 +14,20 @@
         "name": "21. August 1897"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1897-08-21"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,9 +39,8 @@
       "properties": {
         "title": "Endresstraße 68",
         "timestamp": ["1897-08-21"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb200352/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                  
   ]
 }

@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import requests
 from io import StringIO
+from lxml import etree
 
 # URLs zur XML- und CSV-Datei
 xml_url = 'https://pmb.acdh.oeaw.ac.at/media/listplace.xml'
@@ -13,9 +14,11 @@ csv_url = 'https://pmb.acdh.oeaw.ac.at/media/relations.csv'
 # Ordner zum Speichern der Dateien
 output_folder = 'input-data'
 
-# Erstelle den Ordner, falls er nicht existiert
-if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
+# Kontrollvariablen zum Aktivieren/Deaktivieren der Schritte
+RUN_DOWNLOAD_XML = True
+RUN_CSV_TO_XML = True
+RUN_EXTRACT_PART_OF = True
+RUN_APPLY_XSLT = False
 
 # Funktion, um Inhalte in spitzen Klammern zu entfernen
 def remove_angle_brackets(content):
@@ -23,77 +26,126 @@ def remove_angle_brackets(content):
 
 # Funktion, um das XML-Dokument schön zu formatieren
 def prettify_xml(elem):
-    """Return a pretty-printed XML string for the Element."""
     rough_string = ET.tostring(elem, 'utf-8')
     reparsed = minidom.parseString(rough_string)
-    return reparsed.toprettyxml(indent="    ")  # 4 Leerzeichen für Einrückung
+    return reparsed.toprettyxml(indent="    ")
 
 # Funktion, um die CSV-Datei aus dem Internet zu laden
 def load_csv_from_url(url):
     response = requests.get(url)
-    response.raise_for_status()  # Fehlermeldung, falls die Anfrage fehlschlägt
-    return StringIO(response.text)  # Die CSV-Inhalte als StringIO-Objekt zurückgeben
+    response.raise_for_status()
+    return StringIO(response.text)
 
-# Funktion zum Herunterladen und Bearbeiten der XML-Datei
+# Schritt 1: XML herunterladen und bearbeiten
 def download_and_modify_xml(xml_url, output_xml):
+    print("[1/4] XML-Datei wird heruntergeladen...")
     response = requests.get(xml_url)
 
     if response.status_code == 200:
-        # Inhalt der heruntergeladenen Datei als Text
+        print("    [✓] Download erfolgreich.")
         xml_content = response.text
-
-        # Ersetzen von "place__" durch "pmb"
+        print("    [>] Ersetze 'place__' durch 'pmb'...")
         modified_content = xml_content.replace('place__', 'pmb')
-
-        # Speichern der modifizierten Datei im Ordner
         with open(output_xml, 'w', encoding='utf-8') as file:
             file.write(modified_content)
-        print(f'Datei erfolgreich heruntergeladen und modifiziert unter: {output_xml}')
+        print(f"    [✓] Datei erfolgreich gespeichert unter: {output_xml}")
     else:
-        print(f'Fehler beim Herunterladen der Datei. Status Code: {response.status_code}')
+        print(f"    [✗] Fehler beim Herunterladen der Datei. Status Code: {response.status_code}")
 
-# CSV lesen und in XML umwandeln
+# Schritt 2: CSV in XML umwandeln
 def csv_to_xml_from_url(csv_url, output_xml):
-    # XML-Baum und Haupt-Element erstellen
+    print("[2/4] CSV-Datei wird geladen und in XML umgewandelt...")
     root = ET.Element('root')
-
-    # CSV-Daten aus der URL laden
     csv_data = load_csv_from_url(csv_url)
-    
-    # CSV-Datei lesen
     reader = csv.reader(csv_data)
-    headers = next(reader)  # Erste Zeile (Spaltennamen) lesen
-    
-    # Über alle Zeilen der CSV-Datei iterieren
+    headers = next(reader)
     for row in reader:
-        # Überprüfen, ob der Wert '2121' in der Zeile vorkommt
         if '2121' in row:
-            # Neues XML-Element für jede Zeile, die '2121' enthält
             item = ET.Element('row')
             for header, cell in zip(headers, row):
-                # Inhalte in spitzen Klammern entfernen
                 cleaned_cell = remove_angle_brackets(cell)
-                
-                # XML-Element für jedes Feld hinzufügen
                 field = ET.SubElement(item, header)
                 field.text = cleaned_cell
-            
-            # Dem Haupt-Element das Item hinzufügen
             root.append(item)
-    
-    # XML-Baum schön formatieren und in Datei schreiben
     pretty_xml = prettify_xml(root)
     with open(output_xml, 'w', encoding='utf-8') as f:
         f.write(pretty_xml)
+    print(f"    [✓] CSV-Daten erfolgreich in {output_xml} umgewandelt.")
 
-    print(f'Die CSV-Datei wurde erfolgreich in {output_xml} umgewandelt.')
+# Schritt 3: "gehört zu"- und "enthält"-Zeilen extrahieren
+# Schritt 3: "gehört zu"- und "enthält"-Zeilen extrahieren und source/target vertauschen
+def extract_part_of_and_contains(csv_url, output_xml):
+    print("[3/4] 'gehört zu'- und 'enthält'-Zeilen werden extrahiert...")
+    root = ET.Element('root')
+    csv_data = load_csv_from_url(csv_url)
+    reader = csv.reader(csv_data)
+    headers = next(reader)
+    
+    for row in reader:
+        if len(row) > 1:
+            relation_type = row[1].strip()
+            if relation_type == "gehört zu" or relation_type == "enthält":
+                item = ET.Element('row')
+                temp_fields = {}
 
-# Aufruf der Funktionen
-xml_output_file = os.path.join(output_folder, 'listplace.xml')  # Pfad für die modifizierte XML-Datei
-csv_output_file = os.path.join(output_folder, 'relations.xml')  # Pfad für die umgewandelte CSV-Datei
+                for header, cell in zip(headers, row):
+                    cleaned_cell = remove_angle_brackets(cell)
+                    
+                    # Elemente, die mit "source" oder "target" beginnen, temporär speichern
+                    if relation_type == "enthält" and (header.startswith("source") or header.startswith("target")):
+                        if header.startswith("source"):
+                            temp_fields[header.replace("source", "target")] = cleaned_cell
+                        elif header.startswith("target"):
+                            temp_fields[header.replace("target", "source")] = cleaned_cell
+                    else:
+                        field = ET.SubElement(item, header)
+                        field.text = cleaned_cell
+                
+                # Temporär gespeicherte Elemente hinzufügen (vertauschte source/target-Felder)
+                if relation_type == "enthält":
+                    for key, value in temp_fields.items():
+                        field = ET.SubElement(item, key)
+                        field.text = value
+                
+                root.append(item)
+    
+    pretty_xml = prettify_xml(root)
+    with open(output_xml, 'w', encoding='utf-8') as f:
+        f.write(pretty_xml)
+    print(f"    [✓] 'gehört zu'- und 'enthält'-Zeilen erfolgreich in {output_xml} gespeichert.")
 
-# 1. XML-Datei herunterladen, bearbeiten und speichern
-download_and_modify_xml(xml_url, xml_output_file)
 
-# 2. CSV-Datei herunterladen, in XML umwandeln und speichern
-csv_to_xml_from_url(csv_url, csv_output_file)
+
+# Schritt 4: XSLT anwenden
+def apply_xslt(input_xml, xslt_path, output_xml):
+    print("[4/4] XSLT-Transformation wird angewendet...")
+    dom = etree.parse(input_xml)
+    xslt = etree.parse(xslt_path)
+    transform = etree.XSLT(xslt)
+    new_dom = transform(dom)
+    with open(output_xml, 'wb') as f:
+        f.write(etree.tostring(new_dom, pretty_print=True, encoding='UTF-8'))
+    print(f"    [✓] Transformation abgeschlossen. Ergebnis gespeichert in {output_xml}")
+
+# Pfade für die Dateien
+xml_output_file = os.path.join(output_folder, 'listplace.xml')
+csv_output_file = os.path.join(output_folder, 'relations.xml')
+part_of_output_file = os.path.join(output_folder, 'partOf.xml')
+xslt_path = './xslts/partOf.xsl'
+
+# Sicherstellen, dass der Ordner existiert
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
+
+# Schrittweises Debugging ermöglichen
+if RUN_DOWNLOAD_XML:
+    download_and_modify_xml(xml_url, xml_output_file)
+
+if RUN_CSV_TO_XML:
+    csv_to_xml_from_url(csv_url, csv_output_file)
+
+if RUN_EXTRACT_PART_OF:
+    extract_part_of_and_contains(csv_url, part_of_output_file)
+
+if RUN_APPLY_XSLT:
+    apply_xslt(part_of_output_file, xslt_path, part_of_output_file)

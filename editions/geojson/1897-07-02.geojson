@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.609575, 47.706537], 
             [13.5358, 47.8004]
           ]
       },
@@ -13,7 +14,20 @@
         "name": "2. Juli 1897"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1897-07-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,10 +39,9 @@
       "properties": {
         "title": "Weißenbach am Attersee",
         "timestamp": ["1897-07-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb34344/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Weissenbach_an_der_Triesting"
       }
       }
-                  
   ]
 }

@@ -7,14 +7,14 @@
         "type": "LineString", 
         "coordinates": [
             [6.9275, 46.414167], 
-            [6.940279, 46.43239]
+            [6.940279, 46.43239], 
+            [6.9237, 46.4256]
           ]
       },
       "properties": {
         "name": "2. September 1929"
       }
     },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -26,10 +26,9 @@
       "properties": {
         "title": "Grand Hotel Excelsior Regina",
         "timestamp": ["1929-09-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb147147/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -41,10 +40,23 @@
       "properties": {
         "title": "Schloss Chillon",
         "timestamp": ["1929-09-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb40481/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Chillon"
       }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9237, 46.4256
+        ]
+      },
+      "properties": {
+        "title": "Hôtel des Alpes-Grand Hôtel",
+        "timestamp": ["1929-09-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
-                  
+      }
   ]
 }

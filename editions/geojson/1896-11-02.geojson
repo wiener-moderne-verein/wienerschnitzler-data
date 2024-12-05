@@ -1,15 +1,32 @@
 {
   "type": "FeatureCollection",
   "features": [
-                     
-                        Linden-Café
-                        
-                           Berlin
-                           52,52437 13,41053
-                        
-                        https://schnitzler-bahr.acdh.oeaw.ac.at/pmb699.html
-                        https://pmb.acdh.oeaw.ac.at/entity/699/
-                     
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [13.41053, 52.52437]
+          ]
+      },
+      "properties": {
+        "name": "2. November 1896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.41053, 52.52437
+        ]
+      },
+      "properties": {
+        "title": "Berlin",
+        "timestamp": ["1896-11-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+      }
+      }
   ]
 }

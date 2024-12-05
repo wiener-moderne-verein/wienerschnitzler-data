@@ -1,14 +1,31 @@
 {
   "type": "FeatureCollection",
   "features": [
-                     
-                        Weinhandlung Director Wallner
-                        
-                           Kaltenbach
-                           47,69778 13,60913
-                        
-                        https://pmb.acdh.oeaw.ac.at/entity/207148/
-                     
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [13.609575, 47.706537]
+          ]
+      },
+      "properties": {
+        "name": "4. September 1899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1899-09-04"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      }
   ]
 }

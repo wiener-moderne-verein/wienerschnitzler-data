@@ -1,15 +1,32 @@
 {
   "type": "FeatureCollection",
   "features": [
-                     
-                        ?? [Hotel in Berlin 1901]
-                        
-                           Berlin
-                           52,52437 13,41053
-                        
-                        https://pmb.acdh.oeaw.ac.at/entity/144052/
-                        https://schnitzler-briefe.acdh.oeaw.ac.at/pmb144052.html
-                     
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [13.41053, 52.52437]
+          ]
+      },
+      "properties": {
+        "name": "8. März 1901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.41053, 52.52437
+        ]
+      },
+      "properties": {
+        "title": "Berlin",
+        "timestamp": ["1901-03-08"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+      }
+      }
   ]
 }

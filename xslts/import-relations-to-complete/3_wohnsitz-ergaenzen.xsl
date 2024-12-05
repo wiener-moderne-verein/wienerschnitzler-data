@@ -28,8 +28,8 @@
                 <end_date>1903-09-11</end_date>
             </item>
             <item>
-                <target_label>Grillparzerstraße</target_label>
-                <target_id>412</target_id>
+                <target_label>Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</target_label>
+                <target_id>167782</target_id>
                 <start_date>1892-10-15</start_date>
                 <end_date>1893-11-14</end_date>
             </item>
@@ -40,7 +40,7 @@
                 <end_date>1892-10-14</end_date>
             </item>
             <item>
-                <target_label>Wohnung und Ordination Dr. Arthur Schnitzler Burgring 1</target_label>
+                <target_label>Wohnung und Ordination Arthur Schnitzler Burgring 1</target_label>
                 <target_id>168768</target_id>
                 <start_date>1888-10-19</start_date>
                 <end_date>1889-12-02</end_date>

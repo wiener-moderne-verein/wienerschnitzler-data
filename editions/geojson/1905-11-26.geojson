@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.330665, 52.506631], 
             [13.366666, 52.516666], 
+            [13.388194, 52.521572], 
             [13.376389, 52.5225]
           ]
       },
@@ -14,7 +16,6 @@
         "name": "26. November 1905"
       }
     },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -26,10 +27,9 @@
       "properties": {
         "title": "Lessing-Theater",
         "timestamp": ["1905-11-26"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb18/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -41,10 +41,38 @@
       "properties": {
         "title": "Tiergarten",
         "timestamp": ["1905-11-26"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb36914/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Tiergarten"
       }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.330665, 52.506631
+        ]
+      },
+      "properties": {
+        "title": "Hardenbergstraße 24",
+        "timestamp": ["1905-11-26"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
-                  
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.388194, 52.521572
+        ]
+      },
+      "properties": {
+        "title": "Hotel Savoy [Berlin]",
+        "timestamp": ["1905-11-26"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Savoy_Hotel_(Berlin)"
+      }
+      }
   ]
 }

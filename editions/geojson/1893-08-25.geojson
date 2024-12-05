@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.361, 46.42302], 
             [12.21722, 46.62111]
           ]
       },
@@ -13,8 +14,6 @@
         "name": "25. August 1893"
       }
     },
-                     
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -26,10 +25,23 @@
       "properties": {
         "title": "Carbonin",
         "timestamp": ["1893-08-25"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb44317/", 
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Schluderbach"
       }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.361, 46.42302
+        ]
+      },
+      "properties": {
+        "title": "Pieve di Cadore",
+        "timestamp": ["1893-08-25"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
-                  
+      }
   ]
 }

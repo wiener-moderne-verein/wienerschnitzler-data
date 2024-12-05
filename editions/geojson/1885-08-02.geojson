@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.363819, 48.20334], 
             [16.3957, 48.217566]
           ]
       },
@@ -13,7 +14,20 @@
         "name": "2. August 1885"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.363819, 48.20334
+        ]
+      },
+      "properties": {
+        "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+        "timestamp": ["1885-08-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,10 +39,8 @@
       "properties": {
         "title": "Jantsch-Theater",
         "timestamp": ["1885-08-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb43280/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                     
-                  
   ]
 }

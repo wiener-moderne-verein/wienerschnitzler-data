@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.609575, 47.706537], 
             [13.62311, 47.71247], 
             [13.62156, 47.71319]
           ]
@@ -14,7 +15,20 @@
         "name": "11. August 1894"
       }
     },
-                     
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1894-08-11"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -26,10 +40,9 @@
       "properties": {
         "title": "Hotel zum goldenen Kreuz",
         "timestamp": ["1894-08-11"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb84/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
-                     
     {
       "type": "Feature",
       "geometry": {
@@ -41,9 +54,8 @@
       "properties": {
         "title": "Ramsauer Garni Café",
         "timestamp": ["1894-08-11"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb1219/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
-                  
   ]
 }

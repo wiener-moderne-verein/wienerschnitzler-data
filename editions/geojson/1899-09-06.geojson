@@ -1,15 +1,31 @@
 {
   "type": "FeatureCollection",
   "features": [
-                     
-                        Hotel Wilder Mann
-                        
-                           Bad Ischl
-                           47,71109 13,61893
-                        
-                        https://pmb.acdh.oeaw.ac.at/entity/207153/
-                        http://www.wikidata.org/entity/Q130741788
-                     
-                  ,
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [13.609575, 47.706537]
+          ]
+      },
+      "properties": {
+        "name": "6. September 1899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609575, 47.706537
+        ]
+      },
+      "properties": {
+        "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "timestamp": ["1899-09-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      }
   ]
 }

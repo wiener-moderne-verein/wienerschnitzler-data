@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333], 
-            [16.327625, 48.234219]
+            [16.327625, 48.234219], 
+            [16.33716, 48.23188], 
+            [16.32464, 48.257868]
           ]
       },
       "properties": {
@@ -19,14 +20,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.32464, 48.257868
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Himmelstraße",
         "timestamp": ["1923-11-30"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Himmelstra%C3%9Fe"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1923-11-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
     {

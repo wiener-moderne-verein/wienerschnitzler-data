@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333], 
-            [16.353571, 48.239999]
+            [16.3566, 48.205142], 
+            [16.361139, 48.210333], 
+            [16.371211, 48.206416], 
+            [16.353571, 48.239999], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
@@ -19,14 +22,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.371211, 48.206416
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Meissl & Schadn",
         "timestamp": ["1905-10-14"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.361139, 48.210333
+        ]
+      },
+      "properties": {
+        "title": "Burgtheater",
+        "timestamp": ["1905-10-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3566, 48.205142
+        ]
+      },
+      "properties": {
+        "title": "Volkstheater",
+        "timestamp": ["1905-10-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33472, 48.2304
+        ]
+      },
+      "properties": {
+        "title": "Edmund-Weiß-Gasse 7",
+        "timestamp": ["1905-10-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
     {

@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.37301, 48.20858], 
+            [16.370686, 48.212744], 
+            [16.374444444444, 48.211944444444], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -18,14 +21,59 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.374444444444, 48.211944444444
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Ruprechtskirche",
         "timestamp": ["1915-04-02"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/Ruprechtskirche_(Wien)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37301, 48.20858
+        ]
+      },
+      "properties": {
+        "title": "Stephansdom",
+        "timestamp": ["1915-04-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stephansdom", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=17551"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.370686, 48.212744
+        ]
+      },
+      "properties": {
+        "title": "Maria am Gestade",
+        "timestamp": ["1915-04-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Maria_am_Gestade"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1915-04-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

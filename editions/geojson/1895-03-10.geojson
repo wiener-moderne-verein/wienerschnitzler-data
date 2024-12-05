@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.35736, 48.21533], 
+            [16.3642, 48.19941], 
+            [16.36756870745, 48.244596474277]
           ]
       },
       "properties": {
@@ -18,14 +20,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.3642, 48.19941
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Theater an der Wien",
+        "timestamp": ["1895-03-10"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.36756870745, 48.244596474277
+        ]
+      },
+      "properties": {
+        "title": "Heiligenstadt",
         "timestamp": ["1895-03-10"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/Heiligenstadt_(Wien)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1895-03-10"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

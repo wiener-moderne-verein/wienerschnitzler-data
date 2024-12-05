@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.361378, 48.203661], 
+            [16.35736, 48.21533], 
+            [16.341077, 48.23143]
           ]
       },
       "properties": {
@@ -18,14 +20,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.361378, 48.203661
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Kunsthistorisches Museum",
         "timestamp": ["1900-03-20"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.341077, 48.23143
+        ]
+      },
+      "properties": {
+        "title": "Cottagegasse 29",
+        "timestamp": ["1900-03-20"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1900-03-20"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

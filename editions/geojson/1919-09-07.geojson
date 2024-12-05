@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.26269, 48.24616], 
+            [16.33716, 48.23188], 
+            [16.293147561818, 48.251927827778], 
+            [16.28606, 48.25849]
           ]
       },
       "properties": {
@@ -18,14 +21,57 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.26269, 48.24616
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Rohrerhütte",
+        "timestamp": ["1919-09-07"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.293147561818, 48.251927827778
+        ]
+      },
+      "properties": {
+        "title": "Hameau",
         "timestamp": ["1919-09-07"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/Hameau_(Wien)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.28606, 48.25849
+        ]
+      },
+      "properties": {
+        "title": "Dreimarkstein [Wien]",
+        "timestamp": ["1919-09-07"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dreimarkstein_(Wienerwald)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1919-09-07"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

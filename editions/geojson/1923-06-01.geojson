@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.36609, 48.21203], 
+            [16.33716, 48.23188], 
+            [16.296768550115, 48.248935842869]
           ]
       },
       "properties": {
@@ -18,14 +20,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.36609, 48.21203
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Zu den drei Hacken",
         "timestamp": ["1923-06-01"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=1018"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.296768550115, 48.248935842869
+        ]
+      },
+      "properties": {
+        "title": "Sommerhaidenweg",
+        "timestamp": ["1923-06-01"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sommerhaidenweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1923-06-01"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

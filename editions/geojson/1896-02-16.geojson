@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.3691, 48.203], 
+            [16.37049, 48.20368], 
+            [16.362803, 48.215589], 
+            [16.338015, 48.234046], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -18,14 +22,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.37049, 48.20368
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Café Scheidl",
         "timestamp": ["1896-02-16"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Fenstergucker"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3691, 48.203
+        ]
+      },
+      "properties": {
+        "title": "Oper",
+        "timestamp": ["1896-02-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.338015, 48.234046
+        ]
+      },
+      "properties": {
+        "title": "Peregringasse 4",
+        "timestamp": ["1896-02-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1896-02-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.362803, 48.215589
+        ]
+      },
+      "properties": {
+        "title": "Wasagasse 4",
+        "timestamp": ["1896-02-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

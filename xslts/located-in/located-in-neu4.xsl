@@ -44,7 +44,7 @@
                     </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
-            <xsl:if test="$listPlace/tei:place[tei:ancestors/@ana = $corresp][1]">
+            <xsl:if test="$listPlace/tei:place[tei:ancestors/@ana = $corresp][1] or $notwendige-bezirke/tei:listPlace/tei:place[1]">
                 <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
                     <!-- hier zuerst die Wiener Bezirke, die in den Daten sind und die 
                     benötigt werden-->

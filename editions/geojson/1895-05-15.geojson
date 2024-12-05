@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.371667, 48.200556], 
+            [16.430054, 48.194558], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -18,14 +20,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.371667, 48.200556
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Künstlerhaus",
         "timestamp": ["1895-05-15"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/K%C3%BCnstlerhaus_Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.430054, 48.194558
+        ]
+      },
+      "properties": {
+        "title": "Prater",
+        "timestamp": ["1895-05-15"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1895-05-15"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.3538456, 48.2134031], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -18,14 +19,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.3538456, 48.2134031
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Riedhof",
         "timestamp": ["1896-03-28"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1896-03-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

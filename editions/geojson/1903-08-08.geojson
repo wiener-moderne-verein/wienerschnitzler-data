@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.30202, 48.18636], 
             [16.3067984, 48.1806202], 
-            [16.373056, 48.208333]
+            [16.308333, 48.178056], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -19,14 +21,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.30202, 48.18636
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Ottakringer Bräu",
+        "timestamp": ["1903-08-08"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.308333, 48.178056
+        ]
+      },
+      "properties": {
+        "title": "Gloriette",
         "timestamp": ["1903-08-08"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/Gloriette_(Wien)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1903-08-08"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
     {

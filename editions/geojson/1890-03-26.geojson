@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.369953, 48.194906], 
+            [16.37196, 48.20143], 
+            [16.37084, 48.210333]
           ]
       },
       "properties": {
@@ -18,14 +20,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.37084, 48.210333
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Konservatorium der Gesellschaft der Musikfreunde",
         "timestamp": ["1890-03-26"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Universität_für_Musik_und_darstellende_Kunst_Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37196, 48.20143
+        ]
+      },
+      "properties": {
+        "title": "Kärntnerring 12/Bösendorferstraße 11",
+        "timestamp": ["1890-03-26"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.369953, 48.194906
+        ]
+      },
+      "properties": {
+        "title": "Hotel Victoria [Wien]",
+        "timestamp": ["1890-03-26"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

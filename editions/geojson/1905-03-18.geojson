@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.37, 48.2], 
+            [16.356671, 48.214272], 
+            [16.35736, 48.21533], 
+            [16.358254, 48.216404], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
@@ -18,14 +22,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.35736, 48.21533
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Frankgasse 1",
+        "timestamp": ["1905-03-18"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.358254, 48.216404
+        ]
+      },
+      "properties": {
+        "title": "Günthergasse 1",
+        "timestamp": ["1905-03-18"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.356671, 48.214272
+        ]
+      },
+      "properties": {
+        "title": "Universitätsstraße 11",
+        "timestamp": ["1905-03-18"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37, 48.2
+        ]
+      },
+      "properties": {
+        "title": "Ostbahnhof",
         "timestamp": ["1905-03-18"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Ostbahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33472, 48.2304
+        ]
+      },
+      "properties": {
+        "title": "Edmund-Weiß-Gasse 7",
+        "timestamp": ["1905-03-18"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

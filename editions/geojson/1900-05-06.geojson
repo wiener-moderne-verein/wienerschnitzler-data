@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.35736, 48.21533], 
+            [16.299116267833, 48.230916826952], 
+            [16.23036, 48.246719]
           ]
       },
       "properties": {
@@ -18,14 +20,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.299116267833, 48.230916826952
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Dornbach",
+        "timestamp": ["1900-05-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.23036, 48.246719
+        ]
+      },
+      "properties": {
+        "title": "Sophienalpe",
         "timestamp": ["1900-05-06"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/Sophienalpe"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1900-05-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

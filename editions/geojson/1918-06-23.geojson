@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.258056, 48.201667], 
+            [16.33716, 48.23188], 
+            [16.2387111, 48.239965]
           ]
       },
       "properties": {
@@ -18,14 +20,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.2387111, 48.239965
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Rieglerhütte",
+        "timestamp": ["1918-06-23"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.258056, 48.201667
+        ]
+      },
+      "properties": {
+        "title": "Hütteldorf",
         "timestamp": ["1918-06-23"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/H%C3%BCtteldorf"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1918-06-23"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

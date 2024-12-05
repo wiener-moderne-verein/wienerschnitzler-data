@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.363819, 48.20334], 
+            [16.3691, 48.203], 
+            [16.377123, 48.208046]
           ]
       },
       "properties": {
@@ -18,14 +20,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.377123, 48.208046
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Grand Café de Vienne",
+        "timestamp": ["1880-05-24"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3691, 48.203
+        ]
+      },
+      "properties": {
+        "title": "Oper",
         "timestamp": ["1880-05-24"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.363819, 48.20334
+        ]
+      },
+      "properties": {
+        "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+        "timestamp": ["1880-05-24"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

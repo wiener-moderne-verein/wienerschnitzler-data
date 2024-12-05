@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.37196, 48.20143], 
+            [16.430054, 48.194558], 
+            [16.400807, 48.21528]
           ]
       },
       "properties": {
@@ -18,14 +20,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.400807, 48.21528
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Restaurant Zur schönen Schäferin (Inh. Peter Kaubek)",
+        "timestamp": ["1891-05-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.430054, 48.194558
+        ]
+      },
+      "properties": {
+        "title": "Prater",
         "timestamp": ["1891-05-02"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37196, 48.20143
+        ]
+      },
+      "properties": {
+        "title": "Kärntnerring 12/Bösendorferstraße 11",
+        "timestamp": ["1891-05-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

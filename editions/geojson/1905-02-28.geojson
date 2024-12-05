@@ -6,8 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333], 
-            [16.365874, 48.209748]
+            [16.355, 48.1953], 
+            [16.3566, 48.205142], 
+            [16.365874, 48.209748], 
+            [16.363556, 48.211902], 
+            [16.362746, 48.21997], 
+            [16.35736, 48.21533], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
@@ -19,14 +24,86 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.35736, 48.21533
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Frankgasse 1",
+        "timestamp": ["1905-02-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.362746, 48.21997
+        ]
+      },
+      "properties": {
+        "title": "Müllnergasse 3",
+        "timestamp": ["1905-02-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.363556, 48.211902
+        ]
+      },
+      "properties": {
+        "title": "Teinfaltstraße 4",
+        "timestamp": ["1905-02-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.355, 48.1953
+        ]
+      },
+      "properties": {
+        "title": "Café Rüdigerhof",
         "timestamp": ["1905-02-28"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdigerhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3566, 48.205142
+        ]
+      },
+      "properties": {
+        "title": "Volkstheater",
+        "timestamp": ["1905-02-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33472, 48.2304
+        ]
+      },
+      "properties": {
+        "title": "Edmund-Weiß-Gasse 7",
+        "timestamp": ["1905-02-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
     {

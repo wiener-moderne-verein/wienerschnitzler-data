@@ -1,31 +1,29 @@
 # wienerschnitzler-data
-This repository contains georeferenced data that allows for the precise, day-by-day visualization of Arthur Schnitzler's (1862–1931) whereabouts throughout his entire adult life.
 
-Dieses Repositorium enthält georeferenzierte Daten, die es erlauben, den Aufenthaltsort von Arthur Schnitzler (1862–1931) für sein ganzes Erwachenenleben taggenau darzustellen.
+This repository contains georeferenced data enabling a precise, day-by-day visualization of Arthur Schnitzler's (1862–1931) whereabouts throughout his entire adult life.
 
-Die Daten werden im Zuge des Forschungsprojekts »Wiener Schnitzler – Schnitzlers Wien« (Oktober 2024 und Februar 2025) erstellt. Gefördert von der Stadt Wien Kultur mit einer Projektförderung. 
+Dieses Repository enthält georeferenzierte Daten, die eine taggenaue Darstellung der Aufenthaltsorte von Arthur Schnitzler (1862–1931) während seines gesamten Erwachsenenlebens ermöglichen.
 
-## XML-Data
+Die Daten werden im Rahmen des Forschungsprojekts „Wiener Schnitzler – Schnitzlers Wien“ (Oktober 2024 bis Februar 2025) erstellt. Das Projekt wird mit einer Förderung der Stadt Wien Kultur unterstützt.
 
-Three different files contain unabdridged data:
+## XML Data
 
-* wienerschnitzler_complete.xml: this is the main file. it contains an element "event" for each day containing *one* listPlace with all places from the day
-* wienerschnitzler_complete_nested.xml: same as above with the difference, that the places are nested. I.e. the Vienna ferris wheel is located in the Wurstelprater is located in the Prater is located in the 2nd district … Only mentioned places are nested within each other. So if the Wurstelprater is not mentioned on the same day it would not appear in the hierarchy of the ferris wheel.
-* wienerschnitzler_distinctPlaces.xml: is a transformation that lists all the places and the days Schnitzler visited them as a child-element
+The repository includes three XML files containing the complete data:
 
-## geoJSON-Data
+* __wienerschnitzler_complete.xml__: This is the main file. It contains an event element for each day, which includes one listPlace element with all the places visited on that day.
+* __wienerschnitzler_complete_nested.xml__: Similar to the main file, but with nested structures. For example, the Vienna Ferris Wheel is nested within the Wurstelprater, which is nested within the Prater, which is located in the 2nd district. Only mentioned places are included in the hierarchy; if the Wurstelprater is not explicitly mentioned on a given day, it will not appear in the hierarchy of the Ferris Wheel.
+* __wienerschnitzler_distinctPlaces.xml__: This is a transformation listing all places visited by Schnitzler, with the corresponding days as child elements.
 
-There are several derivative files from the xml-files above. Most of the are created by looking up coordinates and idnos from the listplace.xml file that can be found in the input-data folder. 
+## geoJSON Data
 
-* there are files for each day, named with the iso-date ("1888-01-24.geojson")
-* for each month ("1903-12.geojson")
-* for each year ("1890.geojson")
-* for each decade between 1870 and 1929 ("1920-1929.geojson")
+Several derivative files are generated from the XML files above, mostly by referencing coordinates and idno values from the listplace.xml file found in the input-data folder. These files include:
 
-and complete geojson-files:
-* wienerschnitzler_complete_daily.geojson  has the days as structure for the hierarchy 
-* wienerschnitzler_distinctPlaces.geojson has the places as the structure for the hierarchy
+* Files for each __day__, named using the ISO date format (e.g., 1888-01-24.geojson).
+* Files for each __month__ (e.g., 1903-12.geojson).
+* Files for each __year__ (e.g., 1890.geojson).
+* Files for each __decade__ from 1870 to 1929 (e.g., 1920-1929.geojson).
 
+Additionally, there are complete geoJSON files:
 
-
-
+* __wienerschnitzler_complete_daily.geojson__: Uses days as the hierarchical structure.
+* __wienerschnitzler_distinctPlaces.geojson__: Uses places as the hierarchical structure.

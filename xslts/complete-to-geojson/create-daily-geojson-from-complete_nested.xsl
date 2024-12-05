@@ -29,13 +29,13 @@
                         <xsl:for-each select="descendant::tei:place">
                             <xsl:choose>
                                 <xsl:when
-                                    test="child::tei:listPlace/tei:place[mam:koordinaten-vorhanden(@corresp)][1]">
-                                    <!-- Orte übergehen, für die es einen genaueren Punkt gibt -->
-                                </xsl:when>
-                                <xsl:when
                                     test="not(mam:koordinaten-vorhanden(@corresp)) and not(child::tei:listPlace)">
                                     <!-- hier wären Sonderregeln möglich für Orte, die keine Koordinaten haben, etwa
                             die Berücksichtigung des Orts, in dem er liegt-->
+                                </xsl:when>
+                                <xsl:when
+                                    test="child::tei:listPlace/tei:place[mam:koordinaten-vorhanden(@corresp)][1]">
+                                    <!-- Orte übergehen, für die es einen genaueren Punkt gibt -->
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:variable name="current" select="replace(@corresp, '#', '')"/>
@@ -54,23 +54,15 @@
                 </xsl:apply-templates>
                 <!-- für die Linien müssen alle Orte gemeinsam verarbeitet werden -->
                 <xsl:text>,</xsl:text>
-               
-                
-                
-                
-                    <xsl:apply-templates
-                        select="$full-listPlace"
-                        mode="point">
-                        <xsl:with-param name="when" select="$when"/>
-                    </xsl:apply-templates>
-                
+                <xsl:apply-templates select="$full-listPlace" mode="point">
+                    <xsl:with-param name="when" select="$when"/>
+                </xsl:apply-templates>
                 <xsl:text>&#10;  ]</xsl:text>
                 <xsl:text>&#10;}</xsl:text>
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
-
-<!-- ## place -->
+    <!-- ## place -->
     <xsl:template match="tei:place[tei:location[@type = 'coords']/tei:geo]" mode="point">
         <xsl:param name="when" as="xs:date"/>
         <!-- Add a comma before every feature except the first one -->
@@ -118,15 +110,13 @@
             <xsl:text>,</xsl:text>
         </xsl:if>
     </xsl:template>
-
     <xsl:template match="tei:place[not(tei:location[@type = 'coords']/tei:geo)]" mode="point"/>
     <!-- das haut Orte ohne Koordinaten raus -->
-<!-- ## listPlace  -->
+    <!-- ## listPlace  -->
     <xsl:template match="tei:event/tei:listPlace" mode="linestring">
         <xsl:param name="full-listPlace" as="node()"/>
         <!-- Add a comma before every feature except the first one -->
         <xsl:if test="position() > 1"> </xsl:if>
-        
         <xsl:choose>
             <xsl:when test="$full-listPlace//tei:place">
                 <xsl:text>&#10;    {</xsl:text>

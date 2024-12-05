@@ -30,13 +30,13 @@ function loadGeoJsonByDate(date) {
                     if (feature.properties) {
                         const title = feature.properties.title || 'Kein Titel';
                         const date = feature.properties.timestamp || 'Kein Datum';
-                        
+
                         // Erstelle den Link, falls ein Datum vorhanden ist
                         const link = date !== 'Kein Datum'
                             ? `<a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__${date}.html" target="_blank">Tagebuch</a>`
                             : '';
 
-                        // Popup-Inhalt als HTML-String setzen
+                        // Popup-Inhalt
                         const popupContent = `
                             <b>${title}</b><br>
                             ${date}<br>
@@ -55,7 +55,10 @@ function loadGeoJsonByDate(date) {
                 console.warn('Keine gültigen Features gefunden.');
             }
         })
-        .catch(error => console.error('Error loading GeoJSON:', error));
+        .catch(error => {
+            console.error('Error loading GeoJSON:', error);
+            clearGeoJsonLayers(); // Entferne alte Layer auch bei Fehlern
+        });
 }
 
 // Funktion, um das Fragment in der URL zu aktualisieren

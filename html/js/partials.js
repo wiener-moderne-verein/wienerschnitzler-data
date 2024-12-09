@@ -17,5 +17,4 @@
 
 // Partials laden
 loadPartial('#navbar', './partials/html_navbar.html');
-loadPartial('#header', './partials/html_header.html');
 loadPartial('#footer', './partials/html_footer.html');

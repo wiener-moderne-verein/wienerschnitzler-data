@@ -24,30 +24,44 @@ function loadGeoJsonByDate(date) {
         })
         .then(data => {
             const newLayer = L.geoJSON(data, {
+                style: function (feature) {
+                    return {
+                        color: '#FF3B30', // Linienfarbe
+                        weight: 2, // Dicke der Linie
+                        opacity: 1 // Deckkraft der Linie
+                    };
+                },
                 pointToLayer: function (feature, latlng) {
-                    return L.circleMarker(latlng, { radius: 5, color: 'red' });
+                    return L.circleMarker(latlng, {
+                        radius: 5,
+                        color: '#007BFF', // Randfarbe
+                        fillColor: '#FFFF00', // Füllfarbe
+                        fillOpacity: 1, // Füllungsdeckkraft (1 = vollständig undurchsichtig)
+                        weight: 2 // Optional: Randgewicht auf 0 setzen, um nur den Punkt zu sehen
+                    });
                 },
                 onEachFeature: function (feature, layer) {
                     if (feature.properties) {
                         const title = feature.properties.title || 'Kein Titel';
                         const date = feature.properties.timestamp || 'Kein Datum';
-
+            
                         // Erstelle den Link, falls ein Datum vorhanden ist
                         const link = date !== 'Kein Datum'
                             ? `<a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__${date}.html" target="_blank">Tagebuch</a>`
                             : '';
-
+            
                         // Popup-Inhalt
                         const popupContent = `
                             <b>${title}</b><br>
                             ${date}<br>
                             ${link}
                         `;
-
+            
                         layer.bindPopup(popupContent, { maxWidth: 300 });
                     }
                 }
             }).addTo(map);
+            
 
             // Hinzufügen der neuen Layer-Referenz zur Liste
             geoJsonLayers.push(newLayer);
@@ -144,5 +158,40 @@ window.addEventListener('hashchange', function () {
 });
 
 // Initialisiere die Karte mit dem Datum aus der URL oder einem Standardwert
-const initialDate = getDateFromUrl() || '1899-01-01';
+const initialDate = getDateFromUrl() || '1895-01-23';
 setDateAndLoad(initialDate);
+
+// Funktion zum Holen des Datums aus der URL nach "#"
+function getDateFromUrl() {
+    const hash = window.location.hash;
+    return hash ? hash.substring(1) : null; // Gibt das Datum zurück, oder null, wenn kein Datum vorhanden ist
+}
+
+// Funktion zum Setzen des Links für "Schnitzler Chronik" basierend auf dem Datum aus der URL
+function setSchnitzlerChronikLink() {
+    let date = getDateFromUrl(); // Datum aus der URL holen
+    
+    // Wenn kein Datum vorhanden ist, setze den Standardwert '1999-01-01'
+    if (!date) {
+        date = '1999-01-01';
+    }
+    
+    // Den Button holen
+    const button = document.getElementById('schnitzler-chronik-btn');
+    
+    // Den Link des Buttons aktualisieren
+    button.onclick = function() {
+        window.open(`https://schnitzler-chronik.acdh.oeaw.ac.at/${date}.html`, '_blank');
+    };
+    
+    // Optional: Den Button-Text mit dem Datum aktualisieren
+    button.textContent = `Schnitzler Chronik (${date})`;  // Hier wird der Button-Text dynamisch angepasst
+}
+
+// Rufe die Funktion auf, um den Link beim Laden der Seite zu setzen
+setSchnitzlerChronikLink();
+
+// Überwache Änderungen am URL-Fragment, um den Link bei Änderungen der URL zu aktualisieren
+window.addEventListener('hashchange', setSchnitzlerChronikLink);
+ 
+

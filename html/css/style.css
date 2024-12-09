@@ -20,3 +20,19 @@ h1 {
     margin-top: 20px;
     border: 1px solid #ccc;
 }
+
+.chronik-pill {
+    border-radius: 50px; /* Rundungen für die Pille */
+    background-color: #C67F53; /* Hintergrundfarbe */
+    color: white; /* Textfarbe */
+    border: none; /* Entfernt den Standardrahmen */
+    padding: 10px 20px; /* Padding für den Button */
+    font-size: 16px; /* Schriftgröße */
+    font-weight: bold; /* Fetter Text */
+    text-align: center; /* Textzentrierung */
+}
+
+.chronik-pill:hover {
+    background-color: #A15F40; /* Etwas dunkler bei Hover */
+    cursor: pointer; /* Zeigt den Pointer-Cursor an */
+}

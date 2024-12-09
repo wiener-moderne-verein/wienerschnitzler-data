@@ -18,10 +18,11 @@
             <header class="mb-4 text-center">
                 <h1>Tag für Tag</h1>
                <!-- Info Button -->
-            <button type="button" class="btn btn-info info-success" data-bs-toggle="modal" data-bs-target="#introModal">info</button>
-
-            <button id="schnitzler-chronik-btn" type="button" class="btn chronik-pill">Schnitzler Chronik</button>
-
+                
+               <div class="d-flex justify-content-between" style="width: 300px; margin: auto;">
+                <button type="button" class="btn btn-info info-success" data-bs-toggle="modal" data-bs-target="#introModal">info</button>
+                <button id="schnitzler-chronik-btn" type="submit" class="btn btn-outline-success" style="color: #C67F53; border-color: #C67F53; transition: all 0.3s;" onmouseover="this.style.backgroundColor='#C67F53'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#C67F53';">Schnitzler Chronik</button>
+            </div>
 
             <!-- Modal -->
             <div class="modal fade" id="introModal" tabindex="-1" aria-labelledby="introModalLabel" aria-hidden="true">
@@ -36,7 +37,7 @@
                                 visualisiert werden.</p>
                                 <p class="text-start">Zu sehen sind die bislang ermittelten Aufenthaltsorte
                                 sowie, an Tagen, an denen sich Schnitzler in Wien aufhält, seine aktuelle Wohnadresse.</p>
-                                <p class="text-start"><span class='fw-bold text-danger'>Achtung</span>: Die blaue
+                                <p class="text-start"><span class='fw-bold text-danger'>Achtung</span>: Die 
                                     Verbindungslinie
                                      zwischen den Orten macht den geografischen Raum besser sichtbar. Sie 
                                 stellt keine tatsächlichen Wegverläufe und Zeitabläufe

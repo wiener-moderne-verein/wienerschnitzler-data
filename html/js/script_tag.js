@@ -185,7 +185,7 @@ function setSchnitzlerChronikLink() {
     };
     
     // Optional: Den Button-Text mit dem Datum aktualisieren
-    button.textContent = `Schnitzler Chronik (${date})`;  // Hier wird der Button-Text dynamisch angepasst
+    button.textContent = `Schnitzler Chronik`;  // Hier wird der Button-Text dynamisch angepasst
 }
 
 // Rufe die Funktion auf, um den Link beim Laden der Seite zu setzen

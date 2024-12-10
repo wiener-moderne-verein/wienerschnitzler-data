@@ -13,7 +13,7 @@ csv_url = 'https://pmb.acdh.oeaw.ac.at/media/relations.csv'
 
 # Ordner zum Speichern der Dateien
 input_data_folder = './input-data'
-indices_folder = './editions/indices'
+indices_folder = './input-data'
 
 # Kontrollvariablen zum Aktivieren/Deaktivieren der Schritte
 RUN_DOWNLOAD_XML = True

@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.39482, 48.19811], 
+            [16.39482, 48.19811], 
             [16.35736, 48.21533]
           ]
       },
@@ -19,13 +20,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.39482, 48.19811
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "III., Landstraße",
         "timestamp": ["1895-02-18"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Landstra%C3%9Fe_(Wien)"
       }
       },
     {
@@ -41,6 +43,20 @@
         "timestamp": ["1895-02-18"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Landstra%C3%9Fe_(Wien)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1895-02-18"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

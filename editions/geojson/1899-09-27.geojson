@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [8.24878, 50.0415], 
+            [8.2791, 49.98419], 
             [8.273889, 49.998889], 
+            [8.24932, 50.08258], 
             [8.24473, 50.08161], 
             [8.23781, 50.08196]
           ]
@@ -21,11 +23,55 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.24932, 50.08258
+        ]
+      },
+      "properties": {
+        "title": "Wiesbaden",
+        "timestamp": ["1899-09-27"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiesbaden"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.24473, 50.08161
         ]
       },
       "properties": {
         "title": "Hôtel du Parc & Bristol",
+        "timestamp": ["1899-09-27"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2791, 49.98419
+        ]
+      },
+      "properties": {
+        "title": "Mainz",
+        "timestamp": ["1899-09-27"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mainz"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.24878, 50.0415
+        ]
+      },
+      "properties": {
+        "title": "Biebrich",
         "timestamp": ["1899-09-27"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
@@ -57,20 +103,6 @@
         "timestamp": ["1899-09-27"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Mainzer_Dom"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.24878, 50.0415
-        ]
-      },
-      "properties": {
-        "title": "Biebrich",
-        "timestamp": ["1899-09-27"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

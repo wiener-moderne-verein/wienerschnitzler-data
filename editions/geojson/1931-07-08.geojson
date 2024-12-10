@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.349979, 48.224251], 
+            [16.373056, 48.208333], 
             [16.360145, 48.220337], 
+            [16.349979, 48.224251], 
             [16.33716, 48.23188]
           ]
       },
@@ -15,6 +16,21 @@
         "name": "8. Juli 1931"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1931-07-08"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -34,20 +50,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33716, 48.23188
-        ]
-      },
-      "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1931-07-08"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.360145, 48.220337
         ]
       },
@@ -56,6 +58,20 @@
         "timestamp": ["1931-07-08"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Fliegerkino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1931-07-08"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

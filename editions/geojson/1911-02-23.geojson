@@ -8,7 +8,9 @@
         "coordinates": [
             [13.3585, 52.5041], 
             [13.360062, 52.504815], 
-            [13.366666666667, 52.516666666667]
+            [13.41053, 52.52437], 
+            [13.366666666667, 52.516666666667], 
+            [13.366666, 52.516666]
           ]
       },
       "properties": {
@@ -20,13 +22,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3585, 52.5041
+          13.41053, 52.52437
         ]
       },
       "properties": {
-        "title": "Klindworth-Scharwenka-Saal",
+        "title": "Berlin",
         "timestamp": ["1911-02-23"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
       }
       },
     {
@@ -56,6 +59,35 @@
         "timestamp": ["1911-02-23"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_Tiergarten"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3585, 52.5041
+        ]
+      },
+      "properties": {
+        "title": "Klindworth-Scharwenka-Saal",
+        "timestamp": ["1911-02-23"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.366666, 52.516666
+        ]
+      },
+      "properties": {
+        "title": "Tiergarten",
+        "timestamp": ["1911-02-23"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Tiergarten"
       }
       }
   ]

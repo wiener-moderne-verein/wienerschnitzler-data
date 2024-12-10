@@ -7,13 +7,14 @@
         "type": "LineString", 
         "coordinates": [
             [15.824188, 47.645877], 
+            [15.8241, 47.64224], 
             [16.337778, 48.196667], 
             [16.33716, 48.23188], 
+            [16.3, 48.2], 
+            [16.3, 48.2], 
             [16.28610371233, 48.233119188484], 
             [16.2911, 48.2553], 
             [16.258056, 48.201667], 
-            [16.258056, 48.201667], 
-            [16.258244, 48.230796], 
             [16.258244, 48.230796]
           ]
       },
@@ -26,13 +27,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.824188, 47.645877
+          15.8241, 47.64224
         ]
       },
       "properties": {
-        "title": "Meiereiweg",
+        "title": "Semmering",
         "timestamp": ["1931-05-16"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3, 48.2
+        ]
+      },
+      "properties": {
+        "title": "XIV., Penzing",
+        "timestamp": ["1931-05-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Penzing_(Wien)"
       }
       },
     {
@@ -47,6 +64,21 @@
         "title": "Neuwaldegg",
         "timestamp": ["1931-05-16"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3, 48.2
+        ]
+      },
+      "properties": {
+        "title": "XIV., Penzing",
+        "timestamp": ["1931-05-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Penzing_(Wien)"
       }
       },
     {
@@ -99,6 +131,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.824188, 47.645877
+        ]
+      },
+      "properties": {
+        "title": "Meiereiweg",
+        "timestamp": ["1931-05-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.258244, 48.230796
         ]
       },
@@ -121,36 +167,6 @@
         "title": "Sternwartestraße 71",
         "timestamp": ["1931-05-16"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.258056, 48.201667
-        ]
-      },
-      "properties": {
-        "title": "Hütteldorf",
-        "timestamp": ["1931-05-16"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/H%C3%BCtteldorf"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.258244, 48.230796
-        ]
-      },
-      "properties": {
-        "title": "Schottenhof [Penzing]",
-        "timestamp": ["1931-05-16"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schottenhof_(Wienerwald)"
       }
       }
   ]

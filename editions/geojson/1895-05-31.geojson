@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
             [16.34618, 48.27805], 
             [16.33255, 48.27617]
           ]
@@ -15,6 +16,37 @@
         "name": "31. Mai 1895"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1895-05-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33255, 48.27617
+        ]
+      },
+      "properties": {
+        "title": "Kahlenberg",
+        "timestamp": ["1895-05-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kahlenberg", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=22912"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -41,22 +73,6 @@
         "title": "Frankgasse 1",
         "timestamp": ["1895-05-31"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.33255, 48.27617
-        ]
-      },
-      "properties": {
-        "title": "Kahlenberg",
-        "timestamp": ["1895-05-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Kahlenberg", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=22912"
       }
       }
   ]

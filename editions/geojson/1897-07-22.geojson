@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [13.609575, 47.706537], 
+            [13.61893, 47.71109], 
             [13.79933, 47.91839], 
             [13.79856, 47.9179]
           ]
@@ -15,6 +16,21 @@
         "name": "22. Juli 1897"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.61893, 47.71109
+        ]
+      },
+      "properties": {
+        "title": "Bad Ischl",
+        "timestamp": ["1897-07-22"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -34,21 +50,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.79856, 47.9179
-        ]
-      },
-      "properties": {
-        "title": "Stadttheater [Gmunden]",
-        "timestamp": ["1897-07-22"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Stadttheater_Gmunden"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.79933, 47.91839
         ]
       },
@@ -57,6 +58,21 @@
         "timestamp": ["1897-07-22"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Gmunden"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.79856, 47.9179
+        ]
+      },
+      "properties": {
+        "title": "Stadttheater [Gmunden]",
+        "timestamp": ["1897-07-22"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stadttheater_Gmunden"
       }
       }
   ]

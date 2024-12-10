@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.36621, 48.19679], 
+            [16.3663984, 48.1965681], 
             [16.37675, 48.20762], 
+            [16.373056, 48.208333], 
             [16.3747466, 48.2104057], 
             [16.33716, 48.23188], 
             [16.35137, 48.21346]
@@ -22,11 +24,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.36621, 48.19679
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Schleifmühlgasse 6",
+        "title": "Wien",
+        "timestamp": ["1928-11-09"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3663984, 48.1965681
+        ]
+      },
+      "properties": {
+        "title": "Schleifmühlgasse",
         "timestamp": ["1928-11-09"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
@@ -50,11 +67,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33716, 48.23188
+          16.36621, 48.19679
         ]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
+        "title": "Schleifmühlgasse 6",
         "timestamp": ["1928-11-09"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
@@ -83,6 +100,20 @@
       },
       "properties": {
         "title": "Laudongasse 12",
+        "timestamp": ["1928-11-09"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
         "timestamp": ["1928-11-09"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

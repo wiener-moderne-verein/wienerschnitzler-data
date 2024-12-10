@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.33472, 48.2304], 
+            [16.373056, 48.208333], 
             [16.379576773014, 48.230065709671], 
+            [14.46667, 50.08333], 
             [14.428996, 50.086417], 
             [14.432778, 50.080556]
           ]
@@ -21,13 +23,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.379576773014, 48.230065709671
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Nordwestbahnhof",
+        "title": "Wien",
         "timestamp": ["1905-11-04"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -35,11 +38,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33472, 48.2304
+          14.46667, 50.08333
         ]
       },
       "properties": {
-        "title": "Edmund-Weiß-Gasse 7",
+        "title": "Prag",
+        "timestamp": ["1905-11-04"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Prag"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.379576773014, 48.230065709671
+        ]
+      },
+      "properties": {
+        "title": "Nordwestbahnhof",
         "timestamp": ["1905-11-04"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
@@ -71,6 +89,20 @@
         "timestamp": ["1905-11-04"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Staatsoper_Prag"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33472, 48.2304
+        ]
+      },
+      "properties": {
+        "title": "Edmund-Weiß-Gasse 7",
+        "timestamp": ["1905-11-04"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

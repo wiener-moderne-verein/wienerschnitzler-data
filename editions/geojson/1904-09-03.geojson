@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [13.61926, 47.71356], 
+            [13.61893, 47.71109], 
+            [16.373056, 48.208333], 
             [16.33472, 48.2304]
           ]
       },
@@ -19,13 +21,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33472, 48.2304
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Edmund-Weiß-Gasse 7",
+        "title": "Wien",
         "timestamp": ["1904-09-03"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.61893, 47.71109
+        ]
+      },
+      "properties": {
+        "title": "Bad Ischl",
+        "timestamp": ["1904-09-03"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl"
       }
       },
     {
@@ -38,6 +56,20 @@
       },
       "properties": {
         "title": "Hotel Kaiserkrone",
+        "timestamp": ["1904-09-03"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33472, 48.2304
+        ]
+      },
+      "properties": {
+        "title": "Edmund-Weiß-Gasse 7",
         "timestamp": ["1904-09-03"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

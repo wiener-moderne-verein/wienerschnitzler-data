@@ -7,7 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [14.12306, 46.62917], 
-            [14.29118, 46.629442]
+            [14.29118, 46.629442], 
+            [14.3, 46.63333]
           ]
       },
       "properties": {
@@ -19,13 +20,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.29118, 46.629442
+          14.3, 46.63333
         ]
       },
       "properties": {
-        "title": "Kreuzberg [Klagenfurt]",
+        "title": "Klagenfurt",
         "timestamp": ["1907-06-27"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klagenfurt_am_W%C3%B6rthersee"
       }
       },
     {
@@ -41,6 +43,20 @@
         "timestamp": ["1907-06-27"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/W%C3%B6rthersee"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.29118, 46.629442
+        ]
+      },
+      "properties": {
+        "title": "Kreuzberg [Klagenfurt]",
+        "timestamp": ["1907-06-27"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

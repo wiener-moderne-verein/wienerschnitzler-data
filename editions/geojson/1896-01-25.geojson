@@ -6,19 +6,36 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.23333, 48.26667], 
-            [16.25, 48.26667], 
             [16.339722, 48.192222], 
             [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
+            [16.32522, 48.30521], 
             [16.27616, 48.30997], 
             [16.209444, 48.327778], 
-            [16.14492, 48.30198]
+            [16.14492, 48.30198], 
+            [16.25, 48.26667], 
+            [16.23333, 48.26667]
           ]
       },
       "properties": {
         "name": "25. Januar 1896"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1896-01-25"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -38,13 +55,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.32522, 48.30521
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Klosterneuburg",
         "timestamp": ["1896-01-25"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg"
       }
       },
     {
@@ -119,6 +137,20 @@
         "timestamp": ["1896-01-25"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Kierling"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1896-01-25"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

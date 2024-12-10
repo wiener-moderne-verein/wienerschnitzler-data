@@ -6,18 +6,34 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35736, 48.21533], 
             [16.372564182283, 48.201265597319], 
             [16.37312, 48.20122], 
+            [16.373056, 48.208333], 
             [16.37778, 48.22583], 
             [16.363548, 48.216542], 
-            [16.338015, 48.234046]
+            [16.338015, 48.234046], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
         "name": "5. April 1897"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1897-04-05"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -51,11 +67,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.37312, 48.20122
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Hotel Imperial",
         "timestamp": ["1897-04-05"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
@@ -65,13 +81,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.37312, 48.20122
+          16.37778, 48.22583
         ]
       },
       "properties": {
-        "title": "Hotel Imperial",
+        "title": "Augarten",
         "timestamp": ["1897-04-05"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Augarten"
       }
       },
     {
@@ -93,14 +110,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.37778, 48.22583
+          16.35736, 48.21533
         ]
       },
       "properties": {
-        "title": "Augarten",
+        "title": "Frankgasse 1",
         "timestamp": ["1897-04-05"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Augarten"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

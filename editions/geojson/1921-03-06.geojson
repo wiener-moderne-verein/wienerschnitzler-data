@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.373056, 48.208333], 
             [16.33716, 48.23188], 
             [16.333568462613, 48.235119783861], 
             [16.2911, 48.2553], 
@@ -17,6 +18,21 @@
         "name": "6. März 1921"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1921-03-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -66,20 +82,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33716, 48.23188
-        ]
-      },
-      "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1921-03-06"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.293147561818, 48.251927827778
         ]
       },
@@ -88,6 +90,20 @@
         "timestamp": ["1921-03-06"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Hameau_(Wien)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1921-03-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

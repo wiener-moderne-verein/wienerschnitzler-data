@@ -8,6 +8,7 @@
         "coordinates": [
             [16.19956, 48.11646], 
             [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
             [15.75, 48.68333], 
             [15.64058, 48.62809]
           ]
@@ -21,13 +22,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Wien",
         "timestamp": ["1899-05-28"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -71,6 +73,20 @@
         "timestamp": ["1899-05-28"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Kaltenleutgeben"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1899-05-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

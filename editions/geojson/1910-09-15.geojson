@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [8.69079, 49.40768], 
+            [8.68417, 50.11552], 
             [8.670434, 50.115178]
           ]
       },
@@ -19,13 +20,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.670434, 50.115178
+          8.68417, 50.11552
         ]
       },
       "properties": {
-        "title": "Hotel Imperial [Frankfurt am Main]",
+        "title": "Frankfurt am Main",
         "timestamp": ["1910-09-15"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Frankfurt_am_Main"
       }
       },
     {
@@ -41,6 +43,20 @@
         "timestamp": ["1910-09-15"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Heidelberg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.670434, 50.115178
+        ]
+      },
+      "properties": {
+        "title": "Hotel Imperial [Frankfurt am Main]",
+        "timestamp": ["1910-09-15"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

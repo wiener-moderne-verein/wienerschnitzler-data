@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.300034240016, 48.246838181084], 
             [16.3073, 48.2437], 
             [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
             [10.397, 63.426857]
           ]
       },
@@ -15,6 +17,21 @@
         "name": "19. Mai 1896"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1896-05-19"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -35,11 +52,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          10.397, 63.426857
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Nidarosdom",
+        "timestamp": ["1896-05-19"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Nidarosdom"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.300034240016, 48.246838181084
+        ]
+      },
+      "properties": {
+        "title": "Pötzleinsdorf",
         "timestamp": ["1896-05-19"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
@@ -49,14 +81,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.397, 63.426857
+          16.35736, 48.21533
         ]
       },
       "properties": {
-        "title": "Nidarosdom",
+        "title": "Frankgasse 1",
         "timestamp": ["1896-05-19"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Nidarosdom"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

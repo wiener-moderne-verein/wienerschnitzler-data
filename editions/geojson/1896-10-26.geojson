@@ -7,8 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
             [18.35755, 49.90411], 
             [17.03533, 51.10773], 
+            [13.41053, 52.52437], 
             [13.38084126, 52.51635361]
           ]
       },
@@ -16,6 +18,21 @@
         "name": "26. Oktober 1896"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.41053, 52.52437
+        ]
+      },
+      "properties": {
+        "title": "Berlin",
+        "timestamp": ["1896-10-26"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -36,13 +53,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Wien",
         "timestamp": ["1896-10-26"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -72,6 +90,20 @@
         "timestamp": ["1896-10-26"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Breslau"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1896-10-26"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

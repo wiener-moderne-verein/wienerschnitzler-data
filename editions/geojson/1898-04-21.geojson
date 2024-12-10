@@ -9,6 +9,7 @@
             [16.15, 48.13333], 
             [16.1374028, 48.1008317], 
             [16.28921, 48.08605], 
+            [16.373056, 48.208333], 
             [16.35736, 48.21533], 
             [16.16265, 48.19512]
           ]
@@ -22,13 +23,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Wien",
         "timestamp": ["1898-04-21"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -88,6 +90,20 @@
         "timestamp": ["1898-04-21"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Purkersdorf"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1898-04-21"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

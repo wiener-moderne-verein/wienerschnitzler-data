@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.8075, 47.775833], 
             [15.809797301585972, 47.772499956947584], 
+            [16.373056, 48.208333], 
             [16.35736, 48.21533]
           ]
       },
@@ -19,11 +21,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Wien",
+        "timestamp": ["1903-07-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8075, 47.775833
+        ]
+      },
+      "properties": {
+        "title": "Hochschneeberg",
         "timestamp": ["1903-07-28"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
@@ -38,6 +55,20 @@
       },
       "properties": {
         "title": "Fischerhütte",
+        "timestamp": ["1903-07-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
         "timestamp": ["1903-07-28"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [17.03533, 51.10773], 
+            [13.41053, 52.52437], 
             [13.3842209, 52.5170028], 
             [13.383456, 52.516152]
           ]
@@ -15,6 +16,21 @@
         "name": "18. Oktober 1902"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.41053, 52.52437
+        ]
+      },
+      "properties": {
+        "title": "Berlin",
+        "timestamp": ["1902-10-18"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -35,20 +51,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3842209, 52.5170028
-        ]
-      },
-      "properties": {
-        "title": "Weinrestaurant zum Treppchen",
-        "timestamp": ["1902-10-18"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.03533, 51.10773
         ]
       },
@@ -57,6 +59,20 @@
         "timestamp": ["1902-10-18"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Breslau"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3842209, 52.5170028
+        ]
+      },
+      "properties": {
+        "title": "Weinrestaurant zum Treppchen",
+        "timestamp": ["1902-10-18"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

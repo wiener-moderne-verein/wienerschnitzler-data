@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [12.476944444444445, 41.89861111111111], 
+            [12.51133, 41.89193], 
             [12.49479, 41.90399], 
             [12.4533, 41.90225]
           ]
@@ -15,6 +16,21 @@
         "name": "7. Mai 1904"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.51133, 41.89193
+        ]
+      },
+      "properties": {
+        "title": "Rom",
+        "timestamp": ["1904-05-07"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rom"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -34,21 +50,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.476944444444445, 41.89861111111111
-        ]
-      },
-      "properties": {
-        "title": "Pantheon",
-        "timestamp": ["1904-05-07"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Pantheon_(Rom)"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           12.4533, 41.90225
         ]
       },
@@ -57,6 +58,21 @@
         "timestamp": ["1904-05-07"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Vatikanstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.476944444444445, 41.89861111111111
+        ]
+      },
+      "properties": {
+        "title": "Pantheon",
+        "timestamp": ["1904-05-07"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Pantheon_(Rom)"
       }
       }
   ]

@@ -7,9 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [16.03425, 47.51062], 
+            [16.09421, 47.55187], 
             [16.090178, 47.554006], 
             [15.99103, 47.60738], 
             [15.83, 47.647222], 
+            [15.8241, 47.64224], 
             [15.85, 47.61667], 
             [15.86667, 47.6]
           ]
@@ -18,6 +20,21 @@
         "name": "28. Juli 1910"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8241, 47.64224
+        ]
+      },
+      "properties": {
+        "title": "Semmering",
+        "timestamp": ["1910-07-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -80,13 +97,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.090178, 47.554006
+          16.09421, 47.55187
         ]
       },
       "properties": {
-        "title": "Hotel Goldener Hirsch",
+        "title": "Aspang-Markt",
         "timestamp": ["1910-07-28"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Aspang-Markt"
       }
       },
     {
@@ -99,6 +117,20 @@
       },
       "properties": {
         "title": "Mönichkirchen",
+        "timestamp": ["1910-07-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.090178, 47.554006
+        ]
+      },
+      "properties": {
+        "title": "Hotel Goldener Hirsch",
         "timestamp": ["1910-07-28"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

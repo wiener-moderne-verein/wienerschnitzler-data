@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.68948, 47.68897], 
             [15.71667, 47.7], 
             [15.7621, 47.7132], 
+            [16.373056, 48.208333], 
             [16.33716, 48.23188]
           ]
       },
@@ -34,13 +36,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33716, 48.23188
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
+        "title": "Wien",
         "timestamp": ["1915-07-24"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.68948, 47.68897
+        ]
+      },
+      "properties": {
+        "title": "Rax",
+        "timestamp": ["1915-07-24"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rax"
       }
       },
     {
@@ -56,6 +74,20 @@
         "timestamp": ["1915-07-24"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Otto-Schutzhaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1915-07-24"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

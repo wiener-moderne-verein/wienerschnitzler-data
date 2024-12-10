@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
             [16.388742, 48.218665], 
             [16.39467, 48.21699], 
             [16.36143, 48.30432], 
@@ -22,6 +23,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1898-06-21"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.39467, 48.21699
         ]
       },
@@ -31,34 +47,6 @@
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Venedig_in_Wien", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Venedig_in_Wien"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.388742, 48.218665
-        ]
-      },
-      "properties": {
-        "title": "Heinestraße 36",
-        "timestamp": ["1898-06-21"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
-      },
-      "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1898-06-21"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
     {
@@ -88,6 +76,34 @@
         "timestamp": ["1898-06-21"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.388742, 48.218665
+        ]
+      },
+      "properties": {
+        "title": "Heinestraße 36",
+        "timestamp": ["1898-06-21"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1898-06-21"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

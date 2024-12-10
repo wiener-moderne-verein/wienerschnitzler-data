@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [18.05, 59.325], 
             [18.07138888888889, 59.33], 
             [18.075556, 59.329722], 
+            [17.63446, 59.86845], 
             [17.633333333333, 59.858055555556], 
             [17.631111111111, 59.855]
           ]
@@ -21,11 +23,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          18.05, 59.325
+        ]
+      },
+      "properties": {
+        "title": "Stockholm",
+        "timestamp": ["1896-07-29"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stockholm"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.075556, 59.329722
         ]
       },
       "properties": {
         "title": "Grand Hotel Stockholm",
+        "timestamp": ["1896-07-29"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.63446, 59.86845
+        ]
+      },
+      "properties": {
+        "title": "Uppsala",
         "timestamp": ["1896-07-29"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

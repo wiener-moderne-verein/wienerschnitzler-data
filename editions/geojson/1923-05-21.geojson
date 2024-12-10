@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [17.8878, 59.32513], 
             [17.886944, 59.321667], 
+            [18.05, 59.325], 
             [18.07138888888889, 59.33], 
             [18.076992, 59.33325]
           ]
@@ -15,6 +17,50 @@
         "name": "21. Mai 1923"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.05, 59.325
+        ]
+      },
+      "properties": {
+        "title": "Stockholm",
+        "timestamp": ["1923-05-21"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stockholm"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8878, 59.32513
+        ]
+      },
+      "properties": {
+        "title": "Drottningholm",
+        "timestamp": ["1923-05-21"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.886944, 59.321667
+        ]
+      },
+      "properties": {
+        "title": "Drottningholms Slottsteater",
+        "timestamp": ["1923-05-21"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schlosstheater_Drottningholm"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -41,21 +87,6 @@
         "title": "Dramaten",
         "timestamp": ["1923-05-21"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.886944, 59.321667
-        ]
-      },
-      "properties": {
-        "title": "Drottningholms Slottsteater",
-        "timestamp": ["1923-05-21"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schlosstheater_Drottningholm"
       }
       }
   ]

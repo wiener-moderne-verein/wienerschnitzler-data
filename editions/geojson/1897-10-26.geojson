@@ -6,9 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.357698927082215, 48.1910599600889], 
-            [16.357698927082215, 48.1910599600889], 
+            [16.36449, 48.196196], 
             [16.369693, 48.204446], 
+            [16.373056, 48.208333], 
             [16.388742, 48.218665], 
             [16.363548, 48.216542], 
             [16.35736, 48.21533]
@@ -23,13 +23,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.363548, 48.216542
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Kolingasse 13",
+        "title": "Wien",
         "timestamp": ["1897-10-26"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -37,11 +38,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.363548, 48.216542
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Kolingasse 13",
         "timestamp": ["1897-10-26"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
@@ -65,29 +66,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.357698927082215, 48.1910599600889
+          16.36449, 48.196196
         ]
       },
       "properties": {
-        "title": "Margaretenstraße",
+        "title": "Margaretenstraße 30",
         "timestamp": ["1897-10-26"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Margaretenstraße"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.357698927082215, 48.1910599600889
-        ]
-      },
-      "properties": {
-        "title": "Margaretenstraße",
-        "timestamp": ["1897-10-26"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Margaretenstraße"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
     {
@@ -100,6 +85,20 @@
       },
       "properties": {
         "title": "Heinestraße 36",
+        "timestamp": ["1897-10-26"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
         "timestamp": ["1897-10-26"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

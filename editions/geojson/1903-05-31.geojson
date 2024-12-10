@@ -6,10 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.33265, 45.43713], 
             [12.337638888716349, 45.436169051051536], 
             [12.4169, 45.4731], 
             [12.41696, 45.48548], 
-            [12.4193, 45.4982]
+            [12.4193, 45.4982], 
+            [12.41785, 45.49794]
           ]
       },
       "properties": {
@@ -21,11 +23,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.33265, 45.43713
+        ]
+      },
+      "properties": {
+        "title": "Venedig",
+        "timestamp": ["1903-05-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Venedig"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.337638888716349, 45.436169051051536
         ]
       },
       "properties": {
         "title": "Hotel Centrale Vapore",
+        "timestamp": ["1903-05-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.41785, 45.49794
+        ]
+      },
+      "properties": {
+        "title": "Torcello",
         "timestamp": ["1903-05-31"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

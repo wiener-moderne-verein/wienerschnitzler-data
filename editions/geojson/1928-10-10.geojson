@@ -6,10 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.318058, 52.511709], 
             [13.36821, 52.50982], 
             [13.63172, 52.51202], 
             [13.629529, 52.512276], 
-            [13.318058, 52.511709]
+            [13.41053, 52.52437]
           ]
       },
       "properties": {
@@ -21,13 +22,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.318058, 52.511709
+          13.41053, 52.52437
         ]
       },
       "properties": {
-        "title": "Schiller-Theater",
+        "title": "Berlin",
         "timestamp": ["1928-10-10"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
       }
       },
     {
@@ -40,6 +42,20 @@
       },
       "properties": {
         "title": "Haendelstraße",
+        "timestamp": ["1928-10-10"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.318058, 52.511709
+        ]
+      },
+      "properties": {
+        "title": "Schiller-Theater",
         "timestamp": ["1928-10-10"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.299819, 52.520522], 
+            [13.41053, 52.52437], 
             [13.382222, 52.524444]
           ]
       },
@@ -18,11 +20,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.41053, 52.52437
+        ]
+      },
+      "properties": {
+        "title": "Berlin",
+        "timestamp": ["1896-10-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.382222, 52.524444
         ]
       },
       "properties": {
         "title": "Deutsches Theater Berlin",
+        "timestamp": ["1896-10-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.299819, 52.520522
+        ]
+      },
+      "properties": {
+        "title": "Luisenplatz 2",
         "timestamp": ["1896-10-28"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

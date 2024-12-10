@@ -6,16 +6,32 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.25787, 43.770462], 
             [11.250008, 43.765153], 
+            [11.25787, 43.770462], 
             [11.27030278, 43.76081111], 
-            [11.29487, 43.80455]
+            [11.29487, 43.80455], 
+            [11.24626, 43.77925]
           ]
       },
       "properties": {
         "name": "6. Mai 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.24626, 43.77925
+        ]
+      },
+      "properties": {
+        "title": "Florenz",
+        "timestamp": ["1914-05-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Florenz"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -51,6 +67,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          11.29487, 43.80455
+        ]
+      },
+      "properties": {
+        "title": "Fiesole",
+        "timestamp": ["1914-05-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           11.27030278, 43.76081111
         ]
       },
@@ -59,20 +89,6 @@
         "timestamp": ["1914-05-06"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Viale_dei_Colli"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.29487, 43.80455
-        ]
-      },
-      "properties": {
-        "title": "Fiesole",
-        "timestamp": ["1914-05-06"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

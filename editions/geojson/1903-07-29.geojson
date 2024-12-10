@@ -6,11 +6,14 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.8075, 47.775833], 
             [15.809797301585972, 47.772499956947584], 
             [15.83333, 47.75], 
+            [15.83333, 47.7], 
             [15.85, 47.71667], 
             [15.821273779868186, 47.65905075753235], 
             [15.86360511, 47.69312551], 
+            [16.373056, 48.208333], 
             [16.35736, 48.21533]
           ]
       },
@@ -18,6 +21,20 @@
         "name": "29. Juli 1903"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8075, 47.775833
+        ]
+      },
+      "properties": {
+        "title": "Hochschneeberg",
+        "timestamp": ["1903-07-29"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -37,13 +54,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Wien",
         "timestamp": ["1903-07-29"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -51,13 +69,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.85, 47.71667
+          15.83333, 47.7
         ]
       },
       "properties": {
-        "title": "Eng",
+        "title": "Reichenau an der Rax",
         "timestamp": ["1903-07-29"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Reichenau_an_der_Rax"
       }
       },
     {
@@ -73,6 +92,20 @@
         "timestamp": ["1903-07-29"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Baumgartnerhaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.85, 47.71667
+        ]
+      },
+      "properties": {
+        "title": "Eng",
+        "timestamp": ["1903-07-29"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
     {
@@ -99,6 +132,20 @@
       },
       "properties": {
         "title": "Erholungsheim der Gesellschaft vom Weißen Kreuze",
+        "timestamp": ["1903-07-29"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
         "timestamp": ["1903-07-29"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.36714, 48.19198], 
+            [16.36714, 48.19198], 
             [16.37196, 48.20143], 
             [16.369444, 48.203889], 
             [16.3642, 48.19941]
@@ -21,13 +22,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.369444, 48.203889
+          16.36714, 48.19198
         ]
       },
       "properties": {
-        "title": "Hotel Sacher",
+        "title": "IV., Wieden",
         "timestamp": ["1891-01-13"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wieden_(Wien)"
       }
       },
     {
@@ -35,11 +37,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.37196, 48.20143
+          16.369444, 48.203889
         ]
       },
       "properties": {
-        "title": "Kärntnerring 12/Bösendorferstraße 11",
+        "title": "Hotel Sacher",
         "timestamp": ["1891-01-13"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
@@ -71,6 +73,20 @@
         "timestamp": ["1891-01-13"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Wieden_(Wien)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37196, 48.20143
+        ]
+      },
+      "properties": {
+        "title": "Kärntnerring 12/Bösendorferstraße 11",
+        "timestamp": ["1891-01-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

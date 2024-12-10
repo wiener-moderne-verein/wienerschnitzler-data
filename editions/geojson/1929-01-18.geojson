@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.373056, 48.208333], 
             [16.367725, 48.212284], 
             [16.338016, 48.234091], 
             [16.33716, 48.23188]
@@ -20,13 +21,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33716, 48.23188
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
+        "title": "Wien",
         "timestamp": ["1929-01-18"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -53,6 +55,20 @@
       },
       "properties": {
         "title": "Tiefer Graben 17",
+        "timestamp": ["1929-01-18"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
         "timestamp": ["1929-01-18"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

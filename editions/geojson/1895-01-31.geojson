@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.29101, 48.17547], 
+            [16.29101, 48.17547], 
             [16.3566, 48.205142], 
             [16.35736, 48.21533]
           ]
@@ -15,6 +16,21 @@
         "name": "31. Januar 1895"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.29101, 48.17547
+        ]
+      },
+      "properties": {
+        "title": "XIII., Hietzing",
+        "timestamp": ["1895-01-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hietzing"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -36,20 +52,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
-        ]
-      },
-      "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1895-01-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.29101, 48.17547
         ]
       },
@@ -58,6 +60,20 @@
         "timestamp": ["1895-01-31"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Hietzing"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1895-01-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

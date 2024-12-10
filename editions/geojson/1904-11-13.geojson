@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.36774, 52.52031], 
             [13.383456, 52.516152], 
+            [13.41053, 52.52437], 
             [13.386111, 52.521667]
           ]
       },
@@ -14,6 +16,21 @@
         "name": "13. November 1904"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.41053, 52.52437
+        ]
+      },
+      "properties": {
+        "title": "Berlin",
+        "timestamp": ["1904-11-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -39,6 +56,20 @@
       },
       "properties": {
         "title": "Neues Theater",
+        "timestamp": ["1904-11-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.36774, 52.52031
+        ]
+      },
+      "properties": {
+        "title": "Kronprinzenufer 7/In den Zelten 14",
         "timestamp": ["1904-11-13"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

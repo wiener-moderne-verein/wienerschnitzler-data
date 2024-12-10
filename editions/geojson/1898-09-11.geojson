@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.25, 48.2], 
+            [16.373056, 48.208333], 
             [16.35736, 48.21533], 
             [16.26269, 48.24616], 
             [16.16793, 48.24514]
@@ -21,13 +22,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.26269, 48.24616
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Rohrerhütte",
+        "title": "Wien",
         "timestamp": ["1898-09-11"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -35,11 +37,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.26269, 48.24616
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Rohrerhütte",
         "timestamp": ["1898-09-11"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
@@ -71,6 +73,20 @@
         "timestamp": ["1898-09-11"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Mauerbach"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1898-09-11"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

@@ -7,6 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.2652, 48.080769], 
+            [16.263145, 48.077197], 
+            [16.28921, 48.08605], 
+            [16.373056, 48.208333], 
             [16.33716, 48.23188]
           ]
       },
@@ -19,13 +22,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33716, 48.23188
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
+        "title": "Wien",
         "timestamp": ["1930-06-13"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.28921, 48.08605
+        ]
+      },
+      "properties": {
+        "title": "Mödling",
+        "timestamp": ["1930-06-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6dling"
       }
       },
     {
@@ -38,6 +57,34 @@
       },
       "properties": {
         "title": "Hotel Hajek",
+        "timestamp": ["1930-06-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.263145, 48.077197
+        ]
+      },
+      "properties": {
+        "title": "Meiereiwiese [Mödling]",
+        "timestamp": ["1930-06-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
         "timestamp": ["1930-06-13"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

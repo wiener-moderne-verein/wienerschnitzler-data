@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.373056, 48.208333], 
             [16.383906681096, 48.211453732859], 
             [16.355191, 48.248422], 
             [16.33716, 48.23188]
@@ -15,6 +16,36 @@
         "name": "8. Oktober 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1914-10-08"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.355191, 48.248422
+        ]
+      },
+      "properties": {
+        "title": "Hohe Warte",
+        "timestamp": ["1914-10-08"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -41,21 +72,6 @@
         "title": "Sternwartestraße 71",
         "timestamp": ["1914-10-08"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.355191, 48.248422
-        ]
-      },
-      "properties": {
-        "title": "Hohe Warte",
-        "timestamp": ["1914-10-08"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)"
       }
       }
   ]

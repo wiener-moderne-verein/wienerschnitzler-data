@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.35491, 48.18646], 
+            [16.35491, 48.18646], 
             [16.37312, 48.20122], 
             [16.37196, 48.20143]
           ]
@@ -15,6 +16,21 @@
         "name": "10. Oktober 1892"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35491, 48.18646
+        ]
+      },
+      "properties": {
+        "title": "V., Margareten",
+        "timestamp": ["1892-10-10"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Margareten"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -36,20 +52,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.37196, 48.20143
-        ]
-      },
-      "properties": {
-        "title": "Kärntnerring 12/Bösendorferstraße 11",
-        "timestamp": ["1892-10-10"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.35491, 48.18646
         ]
       },
@@ -58,6 +60,20 @@
         "timestamp": ["1892-10-10"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Margareten"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37196, 48.20143
+        ]
+      },
+      "properties": {
+        "title": "Kärntnerring 12/Bösendorferstraße 11",
+        "timestamp": ["1892-10-10"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

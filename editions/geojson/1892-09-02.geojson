@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.61893, 47.71109], 
             [13.62173, 47.7105], 
             [13.58333, 47.73333]
           ]
@@ -19,13 +20,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.62173, 47.7105
+          13.61893, 47.71109
         ]
       },
       "properties": {
-        "title": "Hotel Kaiserin Elisabeth",
+        "title": "Bad Ischl",
         "timestamp": ["1892-09-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl"
       }
       },
     {
@@ -38,6 +40,20 @@
       },
       "properties": {
         "title": "Enge Zimnitz",
+        "timestamp": ["1892-09-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.62173, 47.7105
+        ]
+      },
+      "properties": {
+        "title": "Hotel Kaiserin Elisabeth",
         "timestamp": ["1892-09-02"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

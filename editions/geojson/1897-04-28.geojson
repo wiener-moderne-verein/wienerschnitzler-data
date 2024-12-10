@@ -8,6 +8,8 @@
         "coordinates": [
             [2.10478, 48.81449], 
             [2.10976, 48.81545], 
+            [2.13424, 48.80359], 
+            [2.3488, 48.85341], 
             [2.340682, 48.876305], 
             [2.33662, 48.88282], 
             [2.33347, 48.8833], 
@@ -23,6 +25,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.3488, 48.85341
+        ]
+      },
+      "properties": {
+        "title": "Paris",
+        "timestamp": ["1897-04-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Paris"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.340682, 48.876305
         ]
       },
@@ -30,6 +47,36 @@
         "title": "rue de Maubeuge",
         "timestamp": ["1897-04-28"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.10976, 48.81545
+        ]
+      },
+      "properties": {
+        "title": "Petit Trianon",
+        "timestamp": ["1897-04-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Petit_Trianon"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.10478, 48.81449
+        ]
+      },
+      "properties": {
+        "title": "Grand Trianon",
+        "timestamp": ["1897-04-28"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grand_Trianon"
       }
       },
     {
@@ -80,29 +127,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.10976, 48.81545
+          2.13424, 48.80359
         ]
       },
       "properties": {
-        "title": "Petit Trianon",
+        "title": "Versailles",
         "timestamp": ["1897-04-28"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Petit_Trianon"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.10478, 48.81449
-        ]
-      },
-      "properties": {
-        "title": "Grand Trianon",
-        "timestamp": ["1897-04-28"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Grand_Trianon"
+        "wikipedia": "https://de.wikipedia.org/wiki/Versailles"
       }
       }
   ]

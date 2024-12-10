@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.373056, 48.208333], 
             [16.405222, 48.211705], 
             [16.402222, 48.214722], 
             [16.39592, 48.21693], 
@@ -22,6 +23,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1911-05-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.402222, 48.214722
         ]
       },
@@ -31,35 +47,6 @@
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Wurstelprater", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=10997"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.28606, 48.25849
-        ]
-      },
-      "properties": {
-        "title": "Dreimarkstein [Wien]",
-        "timestamp": ["1911-05-14"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Dreimarkstein_(Wienerwald)"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
-      },
-      "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1911-05-14"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
     {
@@ -87,6 +74,35 @@
       },
       "properties": {
         "title": "Waldsteingarten",
+        "timestamp": ["1911-05-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.28606, 48.25849
+        ]
+      },
+      "properties": {
+        "title": "Dreimarkstein [Wien]",
+        "timestamp": ["1911-05-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dreimarkstein_(Wienerwald)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
         "timestamp": ["1911-05-14"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

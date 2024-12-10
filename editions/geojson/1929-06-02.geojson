@@ -9,9 +9,11 @@
             [16.17359, 48.15486], 
             [16.11437, 48.13047], 
             [16.19845, 48.11549], 
+            [16.19956, 48.11646], 
             [16.245159724901, 48.142780596146], 
             [16.28929, 48.17381], 
             [16.28456, 48.17318], 
+            [16.373056, 48.208333], 
             [16.33716, 48.23188], 
             [16.21667, 48.18333]
           ]
@@ -25,27 +27,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.245159724901, 48.142780596146
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Kalksburg",
+        "title": "Wien",
         "timestamp": ["1929-06-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
-      },
-      "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1929-06-02"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -81,6 +70,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.245159724901, 48.142780596146
+        ]
+      },
+      "properties": {
+        "title": "Kalksburg",
+        "timestamp": ["1929-06-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.17359, 48.15486
         ]
       },
@@ -95,14 +98,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.19845, 48.11549
+          16.19956, 48.11646
         ]
       },
       "properties": {
-        "title": "Pfarrkirche Kaltenleutgeben",
+        "title": "Kaltenleutgeben",
         "timestamp": ["1929-06-02"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Pfarrkirche_Kaltenleutgeben"
+        "wikipedia": "https://de.wikipedia.org/wiki/Kaltenleutgeben"
       }
       },
     {
@@ -130,6 +133,35 @@
       },
       "properties": {
         "title": "Gasthaus Weide",
+        "timestamp": ["1929-06-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.19845, 48.11549
+        ]
+      },
+      "properties": {
+        "title": "Pfarrkirche Kaltenleutgeben",
+        "timestamp": ["1929-06-02"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Pfarrkirche_Kaltenleutgeben"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
         "timestamp": ["1929-06-02"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

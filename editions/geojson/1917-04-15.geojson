@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.373056, 48.208333], 
             [16.33716, 48.23188], 
             [16.293147561818, 48.251927827778], 
             [16.24526, 48.24987]
@@ -15,6 +16,35 @@
         "name": "15. April 1917"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.373056, 48.208333
+        ]
+      },
+      "properties": {
+        "title": "Wien",
+        "timestamp": ["1917-04-15"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.24526, 48.24987
+        ]
+      },
+      "properties": {
+        "title": "Rotes Kreuz",
+        "timestamp": ["1917-04-15"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -40,20 +70,6 @@
       },
       "properties": {
         "title": "Sternwartestraße 71",
-        "timestamp": ["1917-04-15"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.24526, 48.24987
-        ]
-      },
-      "properties": {
-        "title": "Rotes Kreuz",
         "timestamp": ["1917-04-15"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.330665, 52.506631], 
             [13.385556, 52.518889], 
+            [13.41053, 52.52437], 
+            [13.388194, 52.521572], 
             [13.376389, 52.5225]
           ]
       },
@@ -14,6 +17,21 @@
         "name": "24. Februar 1906"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.41053, 52.52437
+        ]
+      },
+      "properties": {
+        "title": "Berlin",
+        "timestamp": ["1906-02-24"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -40,6 +58,35 @@
         "title": "Lessing-Theater",
         "timestamp": ["1906-02-24"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.330665, 52.506631
+        ]
+      },
+      "properties": {
+        "title": "Hardenbergstraße 24",
+        "timestamp": ["1906-02-24"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.388194, 52.521572
+        ]
+      },
+      "properties": {
+        "title": "Hotel Savoy [Berlin]",
+        "timestamp": ["1906-02-24"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Savoy_Hotel_(Berlin)"
       }
       }
   ]

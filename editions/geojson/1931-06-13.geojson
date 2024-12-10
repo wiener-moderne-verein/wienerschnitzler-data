@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.353889, 48.1975], 
+            [16.373056, 48.208333], 
             [16.373293, 48.207882], 
+            [16.430054, 48.194558], 
             [16.43898217221, 48.19252071812], 
             [16.342488, 48.229524], 
             [16.33716, 48.23188], 
@@ -23,14 +25,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.43898217221, 48.19252071812
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Lusthaus",
+        "title": "Wien",
         "timestamp": ["1931-06-13"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Lusthaus_(Wien)"
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.430054, 48.194558
+        ]
+      },
+      "properties": {
+        "title": "Prater",
+        "timestamp": ["1931-06-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater"
       }
       },
     {
@@ -53,20 +70,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33716, 48.23188
-        ]
-      },
-      "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1931-06-13"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.35107, 48.21389
         ]
       },
@@ -75,6 +78,21 @@
         "timestamp": ["1931-06-13"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Lange_Gasse"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.43898217221, 48.19252071812
+        ]
+      },
+      "properties": {
+        "title": "Lusthaus",
+        "timestamp": ["1931-06-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lusthaus_(Wien)"
       }
       },
     {
@@ -105,6 +123,20 @@
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Apollo-Theater_(Wien)", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Apollokino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
+        "timestamp": ["1931-06-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

@@ -7,8 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [16.258056, 48.201667], 
-            [16.258056, 48.201667], 
+            [16.3, 48.2], 
+            [16.3, 48.2], 
             [16.33716, 48.23188], 
+            [16.33306, 48.25], 
             [16.33306, 48.25], 
             [16.300034240016, 48.246838181084], 
             [16.23333, 48.26667], 
@@ -24,42 +26,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.300034240016, 48.246838181084
+          16.33306, 48.25
         ]
       },
       "properties": {
-        "title": "Pötzleinsdorf",
-        "timestamp": ["1929-10-06"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
-      },
-      "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1929-10-06"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.258056, 48.201667
-        ]
-      },
-      "properties": {
-        "title": "Hütteldorf",
+        "title": "XIX., Döbling",
         "timestamp": ["1929-10-06"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/H%C3%BCtteldorf"
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6bling"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3, 48.2
+        ]
+      },
+      "properties": {
+        "title": "XIV., Penzing",
+        "timestamp": ["1929-10-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Penzing_(Wien)"
       }
       },
     {
@@ -82,14 +71,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.258056, 48.201667
+          16.3, 48.2
         ]
       },
       "properties": {
-        "title": "Hütteldorf",
+        "title": "XIV., Penzing",
         "timestamp": ["1929-10-06"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/H%C3%BCtteldorf"
+        "wikipedia": "https://de.wikipedia.org/wiki/Penzing_(Wien)"
       }
       },
     {
@@ -112,11 +101,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.300034240016, 48.246838181084
+        ]
+      },
+      "properties": {
+        "title": "Pötzleinsdorf",
+        "timestamp": ["1929-10-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.258056, 48.201667
+        ]
+      },
+      "properties": {
+        "title": "Hütteldorf",
+        "timestamp": ["1929-10-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/H%C3%BCtteldorf"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.23333, 48.26667
         ]
       },
       "properties": {
         "title": "Steinriegl",
+        "timestamp": ["1929-10-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33716, 48.23188
+        ]
+      },
+      "properties": {
+        "title": "Sternwartestraße 71",
         "timestamp": ["1929-10-06"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

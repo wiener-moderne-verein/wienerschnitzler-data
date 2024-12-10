@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.8241, 47.64224], 
             [15.827286, 47.640258], 
             [15.81667, 47.65]
           ]
@@ -19,13 +20,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.827286, 47.640258
+          15.8241, 47.64224
         ]
       },
       "properties": {
-        "title": "Hochstraße [Semmering]",
+        "title": "Semmering",
         "timestamp": ["1931-05-14"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)"
       }
       },
     {
@@ -38,6 +40,20 @@
       },
       "properties": {
         "title": "Pinkenkogel",
+        "timestamp": ["1931-05-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.827286, 47.640258
+        ]
+      },
+      "properties": {
+        "title": "Hochstraße [Semmering]",
         "timestamp": ["1931-05-14"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

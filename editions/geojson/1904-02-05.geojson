@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.36774, 52.52031], 
             [13.385556, 52.518889], 
+            [13.41053, 52.52437], 
             [13.382222, 52.524444], 
             [13.357556, 52.522917]
           ]
@@ -15,6 +17,21 @@
         "name": "5. Februar 1904"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.41053, 52.52437
+        ]
+      },
+      "properties": {
+        "title": "Berlin",
+        "timestamp": ["1904-02-05"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -53,6 +70,20 @@
       },
       "properties": {
         "title": "Alt-Moabit 121",
+        "timestamp": ["1904-02-05"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.36774, 52.52031
+        ]
+      },
+      "properties": {
+        "title": "Kronprinzenufer 7/In den Zelten 14",
         "timestamp": ["1904-02-05"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

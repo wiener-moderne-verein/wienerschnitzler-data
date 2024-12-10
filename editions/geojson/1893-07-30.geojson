@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.23264, 48.00543], 
+            [16.373056, 48.208333], 
             [16.357233, 48.212477]
           ]
       },
@@ -19,13 +20,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.357233, 48.212477
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+        "title": "Wien",
         "timestamp": ["1893-07-30"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -41,6 +43,20 @@
         "timestamp": ["1893-07-30"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Baden_(Nieder%C3%B6sterreich)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.357233, 48.212477
+        ]
+      },
+      "properties": {
+        "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+        "timestamp": ["1893-07-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

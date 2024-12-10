@@ -6,17 +6,33 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.569993, 48.143395], 
             [11.564675, 48.142331], 
+            [11.57549, 48.13743], 
             [11.5890607127893, 48.1352542879165], 
             [11.591944, 48.152778], 
-            [11.579489, 48.1468]
+            [11.579489, 48.1468], 
+            [11.569993, 48.143395]
           ]
       },
       "properties": {
         "name": "30. August 1895"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57549, 48.13743
+        ]
+      },
+      "properties": {
+        "title": "München",
+        "timestamp": ["1895-08-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -52,6 +68,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          11.579489, 48.1468
+        ]
+      },
+      "properties": {
+        "title": "Ludwigstraße",
+        "timestamp": ["1895-08-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           11.591944, 48.152778
         ]
       },
@@ -72,20 +102,6 @@
       },
       "properties": {
         "title": "Café Isarlust",
-        "timestamp": ["1895-08-30"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.579489, 48.1468
-        ]
-      },
-      "properties": {
-        "title": "Ludwigstraße",
         "timestamp": ["1895-08-30"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

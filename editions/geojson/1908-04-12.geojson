@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33472, 48.2304], 
-            [16.355191, 48.248422]
+            [16.373056, 48.208333], 
+            [16.355191, 48.248422], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
@@ -19,13 +20,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33472, 48.2304
+          16.373056, 48.208333
         ]
       },
       "properties": {
-        "title": "Edmund-Weiß-Gasse 7",
+        "title": "Wien",
         "timestamp": ["1908-04-12"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
       }
       },
     {
@@ -41,6 +43,20 @@
         "timestamp": ["1908-04-12"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33472, 48.2304
+        ]
+      },
+      "properties": {
+        "title": "Edmund-Weiß-Gasse 7",
+        "timestamp": ["1908-04-12"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

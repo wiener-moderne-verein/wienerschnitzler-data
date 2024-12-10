@@ -14,8 +14,8 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>wienerschnitzler_complete to complete_nested (step 2)</String>
                                         <String>complete_nested to geoJSON for each day</String>
+                                        <String>wienerschnitzler_complete to complete_nested (step 2)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -986,6 +986,7 @@
                                 <field name="cascadingStylesheets">
                                     <String-array>
                                         <String>${pdu}/xslts/located-in/located-in-neu4.xsl</String>
+                                        <String>${pdu}/xslts/located-in/located-in-neu5.xsl</String>
                                     </String-array>
                                 </field>
                                 <field name="xslTransformer">

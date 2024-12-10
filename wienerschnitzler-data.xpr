@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/editions/xml/wienerschnitzler_complete.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>2 complete.xml to distinctPlaces.xml</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>input-data/listplace.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -196,10 +216,10 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/located-in.xsl</String>
+                                    <String>${pdu}/xslts/complete-to-geojson/orte-distinkt-mit-aufenthaltstagen.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/editions/xml/wienerschnitzler_complete.xml</String>
+                                    <String>${pdu}/data/editions/xml/wienerschnitzler_complete.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -217,7 +237,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>wienerschnitzler_distinctPlaces.xml</String>
+                                    <String>${pd}/data/editions/xml/wienerschnitzler_distinctPlaces.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -247,9 +267,7 @@
                                     <list/>
                                 </field>
                                 <field name="cascadingStylesheets">
-                                    <String-array>
-                                        <String>${pdu}/xslts/complete-to-geojson/orte-distinkt-mit-aufenthaltstagen.xsl</String>
-                                    </String-array>
+                                    <String-array/>
                                 </field>
                                 <field name="xslTransformer">
                                     <String>Saxon-PE</String>

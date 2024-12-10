@@ -12,7 +12,7 @@
     in wienerschnitzler_complete.xml -->
 
 <xsl:param name="start-date" as="xs:date" select="xs:date('1895-08-31')"/>
-<xsl:param name="wienerschnitzler_complete" select="document('../editions/xml/wienerschnitzler_complete.xml')"></xsl:param>
+<xsl:param name="wienerschnitzler_complete" select="document('../data/editions/xml/wienerschnitzler_complete.xml')"></xsl:param>
 <xsl:key name="date-match" match="*:event" use="@when"/>
 
     <!-- Hauptvorlage für die Transformation -->

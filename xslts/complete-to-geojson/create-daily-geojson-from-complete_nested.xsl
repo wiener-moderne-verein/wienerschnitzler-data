@@ -8,7 +8,7 @@
     <xsl:output method="text" indent="yes"/>
     <xsl:mode on-no-match="shallow-skip"/>
     <xsl:import href="./partial/geoJSON-punkt.xsl"/>
-    <xsl:param name="listplace" select="document('../../editions/indices/listplace.xml')"/>
+    <xsl:param name="listplace" select="document('../../data/editions/indices/listplace.xml')"/>
     <!-- Root template to start processing and generate output for each date -->
     <xsl:template match="/">
         <xsl:for-each select="/tei:TEI/descendant::tei:event[@when]">

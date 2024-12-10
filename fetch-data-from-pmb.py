@@ -12,7 +12,8 @@ xml_url = 'https://pmb.acdh.oeaw.ac.at/media/listplace.xml'
 csv_url = 'https://pmb.acdh.oeaw.ac.at/media/relations.csv'
 
 # Ordner zum Speichern der Dateien
-output_folder = 'input-data'
+input_data_folder = './input-data'
+indices_folder = './editions/indices'
 
 # Kontrollvariablen zum Aktivieren/Deaktivieren der Schritte
 RUN_DOWNLOAD_XML = True
@@ -73,7 +74,6 @@ def csv_to_xml_from_url(csv_url, output_xml):
     print(f"    [✓] CSV-Daten erfolgreich in {output_xml} umgewandelt.")
 
 # Schritt 3: "gehört zu"- und "enthält"-Zeilen extrahieren
-# Schritt 3: "gehört zu"- und "enthält"-Zeilen extrahieren und source/target vertauschen
 def extract_part_of_and_contains(csv_url, output_xml):
     print("[3/4] 'gehört zu'- und 'enthält'-Zeilen werden extrahiert...")
     root = ET.Element('root')
@@ -114,8 +114,6 @@ def extract_part_of_and_contains(csv_url, output_xml):
         f.write(pretty_xml)
     print(f"    [✓] 'gehört zu'- und 'enthält'-Zeilen erfolgreich in {output_xml} gespeichert.")
 
-
-
 # Schritt 4: XSLT anwenden
 def apply_xslt(input_xml, xslt_path, output_xml):
     print("[4/4] XSLT-Transformation wird angewendet...")
@@ -128,18 +126,18 @@ def apply_xslt(input_xml, xslt_path, output_xml):
     print(f"    [✓] Transformation abgeschlossen. Ergebnis gespeichert in {output_xml}")
 
 # Pfade für die Dateien
-xml_output_file = os.path.join(output_folder, 'listplace.xml')
-csv_output_file = os.path.join(output_folder, 'relations.xml')
-part_of_output_file = os.path.join(output_folder, 'partOf.xml')
+listplace_output_file = os.path.join(indices_folder, 'listplace.xml')
+csv_output_file = os.path.join(input_data_folder, 'relations.xml')
+part_of_output_file = os.path.join(input_data_folder, 'partOf.xml')
 xslt_path = './xslts/partOf.xsl'
 
-# Sicherstellen, dass der Ordner existiert
-if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
+# Sicherstellen, dass die Ordner existieren
+os.makedirs(input_data_folder, exist_ok=True)
+os.makedirs(indices_folder, exist_ok=True)
 
 # Schrittweises Debugging ermöglichen
 if RUN_DOWNLOAD_XML:
-    download_and_modify_xml(xml_url, xml_output_file)
+    download_and_modify_xml(xml_url, listplace_output_file)
 
 if RUN_CSV_TO_XML:
     csv_to_xml_from_url(csv_url, csv_output_file)

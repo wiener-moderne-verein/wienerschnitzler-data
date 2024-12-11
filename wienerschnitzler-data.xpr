@@ -34,19 +34,16 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>2 complete.xml to distinctPlaces.xml</String>
                                         <String>wienerschnitzler_complete to complete_nested (step 1)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
-                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
-                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -921,10 +918,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="openInBrowser">
-                                    <Boolean>false</Boolean>
+                                    <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/editions/xml/wienerschnitzler_complete.xml</String>
+                                    <String>${pd}/data/editions/xml/wienerschnitzler_complete.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

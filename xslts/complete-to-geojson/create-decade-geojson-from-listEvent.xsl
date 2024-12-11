@@ -21,7 +21,7 @@
                 <xsl:variable name="end-decade" select="string(. + 9)" as="xs:string"/>
                 <xsl:variable name="decade-label" select="concat($start-decade, '-', $end-decade)" as="xs:string"/>
                 <!-- Erstellen der GeoJSON-Datei -->
-                <xsl:result-document href="../../editions/geojson/{$decade-label}.geojson"
+                <xsl:result-document href="../../../data/editions/geojson/{$decade-label}.geojson"
                     method="text">
                     <xsl:text>{</xsl:text>
                     <xsl:text>&#10;  "type": "FeatureCollection",</xsl:text>

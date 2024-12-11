@@ -6,10 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.042019, 47.805528], 
             [13.042778, 47.802778], 
+            [13.042019, 47.805528], 
             [13.043401, 47.802045], 
-            [13.04532, 47.80067], 
             [12.9291, 48.2081]
           ]
       },
@@ -17,21 +16,6 @@
         "name": "3. April 1912"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.04532, 47.80067
-        ]
-      },
-      "properties": {
-        "title": "Salzburg",
-        "timestamp": ["1912-04-03"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -67,6 +51,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.042778, 47.802778
+        ]
+      },
+      "properties": {
+        "title": "Salzburger Landestheater",
+        "timestamp": ["1912-04-03"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.9291, 48.2081
         ]
       },
@@ -75,20 +73,6 @@
         "timestamp": ["1912-04-03"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzach"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.042778, 47.802778
-        ]
-      },
-      "properties": {
-        "title": "Salzburger Landestheater",
-        "timestamp": ["1912-04-03"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

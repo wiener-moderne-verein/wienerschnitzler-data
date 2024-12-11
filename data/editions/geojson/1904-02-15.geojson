@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [13.0385, 52.40416], 
-            [13.41053, 52.52437], 
             [13.335411898362262, 52.50160627017937], 
             [13.385556, 52.518889]
           ]
@@ -16,21 +15,6 @@
         "name": "15. Februar 1904"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.41053, 52.52437
-        ]
-      },
-      "properties": {
-        "title": "Berlin",
-        "timestamp": ["1904-02-15"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -50,6 +34,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.335411898362262, 52.50160627017937
+        ]
+      },
+      "properties": {
+        "title": "Augsburger Straße",
+        "timestamp": ["1904-02-15"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.0385, 52.40416
         ]
       },
@@ -58,20 +56,6 @@
         "timestamp": ["1904-02-15"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Sanssouci"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.335411898362262, 52.50160627017937
-        ]
-      },
-      "properties": {
-        "title": "Augsburger Straße",
-        "timestamp": ["1904-02-15"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

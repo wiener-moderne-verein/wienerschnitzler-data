@@ -7,10 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [11.0759, 49.4579], 
+            [11.0759, 49.4579], 
             [11.076118014043448, 49.45784969723475], 
             [11.0883, 49.4577], 
-            [11.07752, 49.45421], 
-            [11.07752, 49.45421], 
+            [11.0883, 49.4577], 
             [12.72872, 49.96115]
           ]
       },
@@ -38,21 +38,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.07752, 49.45421
-        ]
-      },
-      "properties": {
-        "title": "Nürnberg",
-        "timestamp": ["1895-07-13"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           11.0759, 49.4579
         ]
       },
@@ -61,20 +46,6 @@
         "timestamp": ["1895-07-13"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberger_Burg"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.076118014043448, 49.45784969723475
-        ]
-      },
-      "properties": {
-        "title": "Tiefer Brunnen",
-        "timestamp": ["1895-07-13"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
     {
@@ -97,14 +68,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.07752, 49.45421
+          11.076118014043448, 49.45784969723475
         ]
       },
       "properties": {
-        "title": "Nürnberg",
+        "title": "Tiefer Brunnen",
+        "timestamp": ["1895-07-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0759, 49.4579
+        ]
+      },
+      "properties": {
+        "title": "Nürnberger Burg",
         "timestamp": ["1895-07-13"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg"
+        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberger_Burg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0883, 49.4577
+        ]
+      },
+      "properties": {
+        "title": "Stadtmauern [Nürnberg]",
+        "timestamp": ["1895-07-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stadtmauer_(N%C3%BCrnberg)"
       }
       }
   ]

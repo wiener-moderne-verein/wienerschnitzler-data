@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.363819, 48.20334], 
-            [16.373056, 48.208333], 
             [16.362757, 48.213278], 
             [16.355561, 48.218616], 
             [16.3589854, 48.2139714]
@@ -17,21 +16,6 @@
         "name": "5. Januar 1883"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.373056, 48.208333
-        ]
-      },
-      "properties": {
-        "title": "Wien",
-        "timestamp": ["1883-01-05"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -66,6 +50,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.363819, 48.20334
+        ]
+      },
+      "properties": {
+        "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+        "timestamp": ["1883-01-05"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.355561, 48.218616
         ]
       },
@@ -74,20 +72,6 @@
         "timestamp": ["1883-01-05"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Garnisonsspital"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.363819, 48.20334
-        ]
-      },
-      "properties": {
-        "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
-        "timestamp": ["1883-01-05"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

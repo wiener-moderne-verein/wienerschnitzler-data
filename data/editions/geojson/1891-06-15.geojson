@@ -6,11 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.3, 48.13333], 
             [16.29204, 48.10917], 
             [16.28921, 48.08605], 
             [16.37196, 48.20143], 
-            [16.373056, 48.208333]
+            [16.3, 48.13333]
           ]
       },
       "properties": {
@@ -22,14 +21,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.373056, 48.208333
+          16.37196, 48.20143
         ]
       },
       "properties": {
-        "title": "Wien",
+        "title": "Kärntnerring 12/Bösendorferstraße 11",
+        "timestamp": ["1891-06-15"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3, 48.13333
+        ]
+      },
+      "properties": {
+        "title": "XXIII., Liesing",
         "timestamp": ["1891-06-15"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien"
+        "wikipedia": "https://de.wikipedia.org/wiki/Liesing_(Wien) https://de.wikipedia.org/wiki/Liesing_(Wiener_Bezirksteil)"
       }
       },
     {
@@ -60,35 +73,6 @@
         "timestamp": ["1891-06-15"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6dling"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.3, 48.13333
-        ]
-      },
-      "properties": {
-        "title": "XXIII., Liesing",
-        "timestamp": ["1891-06-15"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Liesing_(Wien) https://de.wikipedia.org/wiki/Liesing_(Wiener_Bezirksteil)"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.37196, 48.20143
-        ]
-      },
-      "properties": {
-        "title": "Kärntnerring 12/Bösendorferstraße 11",
-        "timestamp": ["1891-06-15"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

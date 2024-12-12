@@ -9,6 +9,7 @@
     <xsl:mode on-no-match="shallow-skip"/>
     <xsl:import href="./partial/geoJSON-punkt.xsl"/>
     <xsl:param name="listplace" select="document('../../data/indices/listplace.xml')"/>
+    <xsl:key name="listplace-lookup" match="tei:TEI/tei:text[1]/tei:body[1]/tei:listPlace[1]/tei:place" use="@xml:id"/>
     <!-- Root template to start processing and generate output for each date -->
     <xsl:template match="/">
         <xsl:for-each select="/tei:TEI/descendant::tei:event[@when]">
@@ -203,9 +204,10 @@
         <xsl:param name="corresp" as="xs:string"/>
         <xsl:variable name="corresp-clean" as="xs:string"
             select="concat('pmb', replace(replace($corresp, '#', ''), 'pmb', ''))"/>
+        <xsl:variable name="lookup" select="key('listplace-lookup', $corresp-clean, $listplace)" as="node()?"/>
         <xsl:choose>
             <xsl:when
-                test="$listplace/tei:TEI/tei:text/tei:body/tei:listPlace/tei:place[@xml:id = $corresp-clean and tei:location[@type = 'coords'][1]/tei:geo[not(normalize-space(.) = '')]]">
+                test="$lookup/tei:location[@type = 'coords'][1]/tei:geo[not(normalize-space(.) = '')]">
                 <xsl:value-of select="true()"/>
             </xsl:when>
             <xsl:otherwise>

@@ -11,11 +11,12 @@
     <xsl:import href="./partial/geoJSON-punkt.xsl"/>
     
     <xsl:param name="listplace" select="document('../../data/indices/listplace.xml')"/>
+    <xsl:key name="listplace-lookup" match="tei:TEI/tei:text[1]/tei:body[1]/tei:listPlace[1]/tei:place" use="@xml:id"/>
     <!-- Root template to start processing and generate output for each month -->
     <xsl:template match="/">
         <!-- Schleife über Jahre -->
         <xsl:variable name="listPlaceGesamt" select="descendant::tei:body/tei:listPlace" as="node()"/>
-        <xsl:for-each select="1869 to 1931">
+        <xsl:for-each select="1885 to 1885">
             <xsl:variable name="year" select="string(.)" as="xs:string"/>
             <!-- Schleife über Monate -->
             <xsl:for-each select="1 to 12">
@@ -30,7 +31,16 @@
                     <!-- Wiederherstellen des Kontexts und Filtern der passenden Events -->
                     <xsl:for-each
                         select="$listPlaceGesamt/tei:place[mam:koordinaten-vorhanden(@xml:id) and tei:listEvent[1]/tei:event[starts-with(@when, $year-month)][1]]">
-                        <xsl:value-of select="mam:macht-punkt(., 'month', $year-month, $year-month)"/>
+                        <xsl:variable name="place" as="node()">
+                            <xsl:element name="tei:place">
+                                <xsl:copy-of select="key('listplace-lookup', @xml:id, $listplace)/@*"/>
+                                <xsl:copy-of select="key('listplace-lookup', @xml:id, $listplace)/*"/>
+                                <xsl:copy-of select="tei:listEvent"/>
+                            </xsl:element>
+                        </xsl:variable>
+                        
+                        
+                        <xsl:value-of select="mam:macht-punkt($place, 'month', $year-month, $year-month)"/>
                         <xsl:if test="not(position() = last())">
                             <xsl:text>, </xsl:text>
                         </xsl:if>
@@ -47,9 +57,10 @@
         <xsl:param name="corresp" as="xs:string"/>
         <xsl:variable name="corresp-clean" as="xs:string"
             select="concat('pmb', replace(replace($corresp, '#', ''), 'pmb', ''))"/>
+        <xsl:variable name="lookup" select="key('listplace-lookup', $corresp-clean, $listplace)" as="node()?"/>
         <xsl:choose>
             <xsl:when
-                test="$listplace/tei:TEI/tei:text/tei:body/tei:listPlace/tei:place[@xml:id = $corresp-clean and tei:location[@type = 'coords'][1]/tei:geo[not(normalize-space(.) = '')]]">
+                test="$lookup/tei:location[@type = 'coords'][1]/tei:geo[not(normalize-space(.) = '')]">
                 <xsl:value-of select="true()"/>
             </xsl:when>
             <xsl:otherwise>

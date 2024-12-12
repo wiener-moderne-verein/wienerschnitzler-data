@@ -16,14 +16,14 @@
     <xsl:template match="/">
         <!-- Schleife über Jahre -->
         <xsl:variable name="listPlaceGesamt" select="descendant::tei:body/tei:listPlace" as="node()"/>
-        <xsl:for-each select="1885 to 1885">
+        <xsl:for-each select="1869 to 1931">
             <xsl:variable name="year" select="string(.)" as="xs:string"/>
             <!-- Schleife über Monate -->
             <xsl:for-each select="1 to 12">
                 <xsl:variable name="month" select="format-number(., '00')" as="xs:string"/>
                 <xsl:variable name="year-month" select="concat($year, '-', $month)"/>
                 <!-- Erstellen der GeoJSON-Datei -->
-                <xsl:result-document href="../../editions/geojson/{$year-month}.geojson"
+                <xsl:result-document href="../../../data/editions/geojson/{$year-month}.geojson"
                     method="text">
                     <xsl:text>{</xsl:text>
                     <xsl:text>&#10;  "type": "FeatureCollection",</xsl:text>

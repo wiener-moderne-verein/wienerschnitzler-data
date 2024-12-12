@@ -13,7 +13,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when-iso="2024-12-10">serialized</change>
+         <change when-iso="2024-12-12">serialized</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,6 +58,29 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb168801">
+               <placeName>?? [Hebragasse, Absteigequartier Leopoldine Müller und Arthur Schnitzler]</placeName>
+               <desc type="entity_type">Wohnung</desc>
+               <desc type="entity_type_id">4347</desc>
+               <location type="coords">
+                  <geo>48,21573 16,34364</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb59">IX., Alsergrund</placeName>
+                  <geo>48,22387 16,35641</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb831">Hebragasse</placeName>
+                  <geo>48,21566 16,34387</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168801/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+               <note type="apis_dates">
+                  <date to-iso="1900-04-19">1900-02-16 – 1900-04-19</date>
+               </note>
+            </place>
             <place xml:id="pmb144052">
                <placeName>?? [Hotel in Berlin 1901]</placeName>
                <desc type="entity_type">Hotel (K.HTL)</desc>
@@ -72,8 +95,28 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb169287">
+               <placeName>?? [Karlsgasse, Absteigequartier Leopoldine Müller und Arthur Schnitzler]</placeName>
+               <desc type="entity_type">Wohnung</desc>
+               <desc type="entity_type_id">4347</desc>
+               <location type="located_in_place">
+                  <placeName key="pmb92329">Karlsgasse</placeName>
+                  <geo>48,197502 16,370129</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb54">IV., Wieden</placeName>
+                  <geo>48,19198 16,36714</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/169287/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+               <note type="apis_dates">
+                  <date to-iso="1900-06-05">1900-05-14 – 1900-06-05</date>
+               </note>
+            </place>
             <place xml:id="pmb168679">
-               <placeName>?? [Margaretenstraße, Absteigequartier Marie Glümer und Arthur Schnitzler]</placeName>
+               <placeName>?? [Taubstummengasse, Absteigequartier Marie Glümer und Arthur Schnitzler]</placeName>
                <desc type="entity_type">Wohngebäude (K.WHS)</desc>
                <desc type="entity_type_id">36</desc>
                <location type="located_in_place">
@@ -142,8 +185,17 @@
             </place>
             <place xml:id="pmb92131">
                <placeName>A.gasse</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="located_in_place">
+                  <placeName key="pmb50">Wien</placeName>
+                  <geo>48,208333 16,373056</geo>
+               </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92131/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92131.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb90182">
                <placeName>Absdorf</placeName>
@@ -8751,7 +8803,7 @@
                <desc type="entity_type">S.PAL</desc>
                <desc type="entity_type_id">1928</desc>
                <location type="coords">
-                  <geo>41,0084038 28,9779209</geo>
+                  <geo>41,008611 28,978333</geo>
                </location>
                <location type="located_in_place">
                   <placeName key="pmb966">Istanbul</placeName>
@@ -9871,8 +9923,14 @@
             </place>
             <place xml:id="pmb92217">
                <placeName>Dorotheenstraße 60</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
                <location type="coords">
                   <geo>52,518762 13,387238</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
                </location>
                <location type="located_in_place">
                   <placeName key="pmb163">Dorotheenstraße</placeName>
@@ -9880,6 +9938,9 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92217/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92217.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb761">
                <placeName>Dorotheergasse</placeName>
@@ -11323,6 +11384,10 @@
                <location type="located_in_place">
                   <placeName key="pmb92232">Faradayweg</placeName>
                   <geo>52,449736 13,282212</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/235968/</idno>
                <listBibl>
@@ -13647,7 +13712,7 @@
                </location>
                <location type="located_in_place">
                   <placeName key="pmb867">Innsbruck</placeName>
-                  <geo>47,28433 11,37706</geo>
+                  <geo>47,272569 11,389534</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/231573/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q131048450</idno>
@@ -13758,7 +13823,7 @@
                   <geo>48,189213 16,365211</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb52500">Wiedner Haupstraße</placeName>
+                  <placeName key="pmb52500">Wiedner Hauptstraße</placeName>
                   <geo>48,18214 16,35905</geo>
                </location>
                <location type="located_in_place">
@@ -15919,7 +15984,7 @@
                </listBibl>
             </place>
             <place xml:id="pmb46000">
-               <placeName>Grundlsee (Gemeinde)</placeName>
+               <placeName>Grundlsee [Gemeinde]</placeName>
                <placeName type="legacy-name">Grundlsee</placeName>
                <placeName type="legacy-name-merge">Grundlsee</placeName>
                <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
@@ -15940,6 +16005,9 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Grundlsee_(Gemeinde)</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb46000.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb46000.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb129">
                <placeName>Grunewald</placeName>
@@ -16603,34 +16671,6 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4094403-7</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/7506720/</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Villa_Adriana</idno>
-               <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-               </listBibl>
-            </place>
-            <place xml:id="pmb92267">
-               <placeName>Haendelstraße</placeName>
-               <location type="coords">
-                  <geo>52,512276 13,629529</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92267/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92267.html</idno>
-            </place>
-            <place xml:id="pmb233576">
-               <placeName>Haendelstraße 8</placeName>
-               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
-               <desc type="entity_type_id">36</desc>
-               <location type="coords">
-                  <geo>52,51202 13,63172</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb168">Berlin</placeName>
-                  <geo>52,52437 13,41053</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb92267">Haendelstraße</placeName>
-                  <geo>52,512276 13,629529</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/233576/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -18470,7 +18510,7 @@
                </location>
                <location type="located_in_place">
                   <placeName key="pmb867">Innsbruck</placeName>
-                  <geo>47,28433 11,37706</geo>
+                  <geo>47,272569 11,389534</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/231579/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q874662</idno>
@@ -18489,7 +18529,7 @@
                </location>
                <location type="located_in_place">
                   <placeName key="pmb867">Innsbruck</placeName>
-                  <geo>47,28433 11,37706</geo>
+                  <geo>47,272569 11,389534</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41093/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb41093.html</idno>
@@ -21047,7 +21087,7 @@
                   <geo>48,19746 16,36738</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb52500">Wiedner Haupstraße</placeName>
+                  <placeName key="pmb52500">Wiedner Hauptstraße</placeName>
                   <geo>48,18214 16,35905</geo>
                </location>
                <location type="located_in_place">
@@ -21179,6 +21219,47 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q48032180</idno>
                <listBibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb92267">
+               <placeName>Händelallee</placeName>
+               <placeName type="ort_fruherer-name">Haendelstraße</placeName>
+               <placeName type="ort_fruherer-name">Händelstraße</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>52,51667 13,34156</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92267/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92267.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb233576">
+               <placeName>Händelallee 8</placeName>
+               <placeName type="ort_fruherer-name">Haendelstraße 8</placeName>
+               <placeName type="ort_fruherer-name">Händelstraße 8</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>52,51456 13,34291</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb92267">Händelallee</placeName>
+                  <geo>52,51667 13,34156</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/233576/</idno>
+               <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
@@ -21935,7 +22016,7 @@
                <desc type="entity_type">A.ADM2</desc>
                <desc type="entity_type_id">1135</desc>
                <location type="coords">
-                  <geo>47,28433 11,37706</geo>
+                  <geo>47,272569 11,389534</geo>
                </location>
                <location type="located_in_place">
                   <placeName key="pmb41240">Österreich</placeName>
@@ -26311,7 +26392,7 @@
                   <geo>48,1950553 16,3672713</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb52500">Wiedner Haupstraße</placeName>
+                  <placeName key="pmb52500">Wiedner Hauptstraße</placeName>
                   <geo>48,18214 16,35905</geo>
                </location>
                <location type="located_in_place">
@@ -30028,7 +30109,7 @@
                   <geo>48,183362 16,360646</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb52500">Wiedner Haupstraße</placeName>
+                  <placeName key="pmb52500">Wiedner Hauptstraße</placeName>
                   <geo>48,18214 16,35905</geo>
                </location>
                <location type="located_in_place">
@@ -33738,6 +33819,7 @@
             </place>
             <place xml:id="pmb15">
                <placeName>Oper</placeName>
+               <placeName type="ort_namensvariante">Staatsoper</placeName>
                <desc type="entity_type">Oper (K.OPR)</desc>
                <desc type="entity_type_id">10</desc>
                <location type="coords">
@@ -35709,8 +35791,19 @@
             </place>
             <place xml:id="pmb233133">
                <placeName>Pension Peter</placeName>
-               <desc type="entity_type">Hotel (K.HTL)</desc>
-               <desc type="entity_type_id">12</desc>
+               <desc type="entity_type">Beherbergungsgebäude (K.BHB)</desc>
+               <desc type="entity_type_id">42</desc>
+               <location type="coords">
+                  <geo>48,237242 16,348029</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb92441">Peter-Jordan-Straße</placeName>
+                  <geo>48,2371 16,332489</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb69">XIX., Döbling</placeName>
+                  <geo>48,25 16,33306</geo>
+               </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/233133/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
@@ -42902,7 +42995,7 @@
                </location>
                <location type="located_in_place">
                   <placeName key="pmb867">Innsbruck</placeName>
-                  <geo>47,28433 11,37706</geo>
+                  <geo>47,272569 11,389534</geo>
                </location>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1407602</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb657.html</idno>
@@ -47111,7 +47204,17 @@
                <placeName>Théâtre de la Renaissance</placeName>
                <desc type="entity_type">Theater (K.THE)</desc>
                <desc type="entity_type_id">4</desc>
+               <location type="coords">
+                  <geo>48,86911 2,356482</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb182">Paris</placeName>
+                  <geo>48,85341 2,3488</geo>
+               </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/93533/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
                <note type="apis_dates">
                   <date notBefore-iso="1838-01-01" when-iso="1838-01-01">1838</date>
                </note>
@@ -52286,6 +52389,10 @@
                   <placeName key="pmb274">Burgring</placeName>
                   <geo>48,204946202715 16,362166500158</geo>
                </location>
+               <location type="located_in_place">
+                  <placeName key="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168768/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
@@ -54209,25 +54316,6 @@
                   </figure>
                </note>
             </place>
-            <place xml:id="pmb168801">
-               <placeName>[Hebragasse, Absteigequartier Leopoldine Müller und Arthur Schnitzler]</placeName>
-               <desc type="entity_type">Wohnung</desc>
-               <desc type="entity_type_id">4347</desc>
-               <location type="coords">
-                  <geo>48,21573 16,34364</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb831">Hebragasse</placeName>
-                  <geo>48,21566 16,34387</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168801/</idno>
-               <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-               </listBibl>
-               <note type="apis_dates">
-                  <date to-iso="1900-04-19">1900-02-16 – 1900-04-19</date>
-               </note>
-            </place>
             <place xml:id="pmb168691">
                <placeName>[Helferstorferstraße/Hohenstaufengasse, Absteigequartier II Rosa Freudenthal und Arthur Schnitzler]</placeName>
                <desc type="entity_type">Wohnung</desc>
@@ -54260,22 +54348,6 @@
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
-            </place>
-            <place xml:id="pmb169287">
-               <placeName>[Karlsgasse, Absteigequartier Leopoldine Müller und Arthur Schnitzler]</placeName>
-               <desc type="entity_type">Wohnung</desc>
-               <desc type="entity_type_id">4347</desc>
-               <location type="located_in_place">
-                  <placeName key="pmb92329">Karlsgasse</placeName>
-                  <geo>48,197502 16,370129</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/169287/</idno>
-               <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-               </listBibl>
-               <note type="apis_dates">
-                  <date to-iso="1900-06-05">1900-05-14 – 1900-06-05</date>
-               </note>
             </place>
             <place xml:id="pmb168687">
                <placeName>[Salvatorgasse 11, Absteigequartier III Marie Reinhard und Arthur Schnitzler]</placeName>

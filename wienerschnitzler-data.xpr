@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>input-data/listplace.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>import _ listplace auf verwendete places kürzen</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/editions/xml/wienerschnitzler_distinctPlaces.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -30,11 +50,71 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/editions/xml/wienerschnitzler_complete.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>complete to distinctPlaces</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/editions/xml/wienerschnitzler_complete_nested.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>complete_nested to geoJSON for each day</String>
+                                        <String>complete to complete_nested (step 2)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>input-data/relations.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>import _ relations to complete</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>input-data/partOf.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>import _ partOf umwandeln</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -76,10 +156,10 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/located-in/located-in-neu.xsl</String>
+                                    <String>${pdu}/xslts/complete-to-nested/1%20complete-to-nested.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/editions/xml/wienerschnitzler_complete.xml</String>
+                                    <String>${pdu}/data/editions/xml/wienerschnitzler_complete.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -128,7 +208,7 @@
                                 </field>
                                 <field name="cascadingStylesheets">
                                     <String-array>
-                                        <String>${pdu}/xslts/located-in/located-in-neu2.xsl</String>
+                                        <String>${pdu}/xslts/complete-to-nested/2%20complete-to-nested.xsl</String>
                                     </String-array>
                                 </field>
                                 <field name="xslTransformer">
@@ -161,7 +241,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/located-in/located-in-neu3.xsl</String>
+                                    <String>${pdu}/xslts/complete-to-nested/3%20nested-to-nested.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${pdu}/data/editions/xml/wienerschnitzler_complete_nested.xml</String>
@@ -213,8 +293,8 @@
                                 </field>
                                 <field name="cascadingStylesheets">
                                     <String-array>
-                                        <String>${pdu}/xslts/located-in/located-in-neu4.xsl</String>
-                                        <String>${pdu}/xslts/located-in/located-in-neu5.xsl</String>
+                                        <String>${pdu}/xslts/complete-to-nested/4%20nested-to-nested.xsl</String>
+                                        <String>${pdu}/xslts/complete-to-nested/5%20nested-to-nested.xsl</String>
                                     </String-array>
                                 </field>
                                 <field name="xslTransformer">
@@ -247,7 +327,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/complete-to-geojson/orte-distinkt-mit-aufenthaltstagen.xsl</String>
+                                    <String>${pdu}/xslts/complete-to-distinctPlaces/complete-to-distinctPlaces.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${pdu}/data/editions/xml/wienerschnitzler_complete.xml</String>

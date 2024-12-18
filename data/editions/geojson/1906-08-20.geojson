@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.07752, 49.45421]
+            [11.080004, 49.449642], 
+            [11.0759, 49.4579], 
+            [11.073878, 49.457178]
           ]
       },
       "properties": {
@@ -18,14 +20,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.07752, 49.45421
+          11.0759, 49.4579
         ]
       },
       "properties": {
-        "title": "Nürnberg",
+        "title": "Nürnberger Burg",
         "timestamp": ["1906-08-20"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg"
+        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberger_Burg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.073878, 49.457178
+        ]
+      },
+      "properties": {
+        "title": "Albrecht-Dürer-Haus",
+        "timestamp": ["1906-08-20"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Albrecht-D%C3%BCrer-Haus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.080004, 49.449642
+        ]
+      },
+      "properties": {
+        "title": "Böhm’s Herrenkeller",
+        "timestamp": ["1906-08-20"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

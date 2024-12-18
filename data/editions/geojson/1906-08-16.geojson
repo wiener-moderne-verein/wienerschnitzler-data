@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [10.8792, 50.6664], 
             [10.9199, 50.6912], 
-            [11.33806, 50.97361]
+            [10.88472, 50.65652], 
+            [11.330605, 50.978968]
           ]
       },
       "properties": {
@@ -19,14 +21,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.33806, 50.97361
+          11.330605, 50.978968
         ]
       },
       "properties": {
-        "title": "Weimar",
+        "title": "Hotel Erbprinz",
         "timestamp": ["1906-08-16"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Weimar"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       },
     {
@@ -41,6 +42,35 @@
         "title": "Ilmenau",
         "timestamp": ["1906-08-16"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8792, 50.6664
+        ]
+      },
+      "properties": {
+        "title": "Goethehäuschen",
+        "timestamp": ["1906-08-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.88472, 50.65652
+        ]
+      },
+      "properties": {
+        "title": "Berghotel Gabelbach",
+        "timestamp": ["1906-08-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berghotel_Gabelbach"
       }
       }
   ]

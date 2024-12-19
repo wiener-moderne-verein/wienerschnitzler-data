@@ -13,7 +13,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when-iso="2024-12-18">serialized</change>
+         <change when-iso="2024-12-19">serialized</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,6 +80,39 @@
                <note type="apis_dates">
                   <date to-iso="1900-04-19">1900-02-16 – 1900-04-19</date>
                </note>
+            </place>
+            <place xml:id="pmb168691">
+               <placeName>?? [Helferstorferstraße/Hohenstaufengasse, Absteigequartier II Rosa Freudenthal und Arthur Schnitzler]</placeName>
+               <desc type="entity_type">Wohnung</desc>
+               <desc type="entity_type_id">4347</desc>
+               <location type="located_in_place">
+                  <placeName key="pmb92290">Hohenstaufengasse</placeName>
+                  <geo>48,214226 16,365584</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb92276">Helferstorferstraße</placeName>
+                  <geo>48,21363 16,364926</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168691/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+               <note type="apis_dates">
+                  <date to-iso="1897-09-18">1897-08-31 – 1897-09-18</date>
+               </note>
+            </place>
+            <place xml:id="pmb207305">
+               <placeName>?? [Hochbrandhütte]</placeName>
+               <desc type="entity_type">Gebäude (K.GBD)</desc>
+               <desc type="entity_type_id">24</desc>
+               <location type="located_in_place">
+                  <placeName key="pmb483">Reichenau an der Rax</placeName>
+                  <geo>47,7 15,83333</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/207305/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb144052">
                <placeName>?? [Hotel in Berlin 1901]</placeName>
@@ -5569,10 +5602,10 @@
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2800931/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36460/</idno>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q12994</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Br%C3%BCgge</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36460.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb36460.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q12994</idno>
                <note type="image">
                   <figure>
                      <graphic url="https://iiif.onb.ac.at/images/AKON/AK124_443/443/full/,600/0/native.jpg"/>
@@ -7599,6 +7632,41 @@
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb239834">
+               <placeName>Café Schlößl</placeName>
+               <desc type="entity_type">Kaffeehaus (K.KAF)</desc>
+               <desc type="entity_type_id">20</desc>
+               <location type="coords">
+                  <geo>48,18382 16,31866</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb46358">Schönbrunnerstraße</placeName>
+                  <geo>48,18789 16,34508</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239834/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb239739">
+               <placeName>Café Schopf</placeName>
+               <placeName type="ort_namensvariante">Café Kammerzell</placeName>
+               <placeName type="ort_namensvariante">Café Schopf-Kammerzell</placeName>
+               <placeName type="ort_fruherer-name">Café Schimmer</placeName>
+               <desc type="entity_type">Kaffeehaus (K.KAF)</desc>
+               <desc type="entity_type_id">20</desc>
+               <location type="coords">
+                  <geo>48,00567 16,2314</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb662">Baden bei Wien</placeName>
+                  <geo>48,00543 16,23264</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239739/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb41187">
                <placeName>Café Tomaselli</placeName>
                <desc type="entity_type">Kaffeehaus (K.KAF)</desc>
@@ -7891,6 +7959,10 @@
                <desc type="entity_type_id">20</desc>
                <location type="coords">
                   <geo>48,209748 16,365874</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
                </location>
                <location type="located_in_place">
                   <placeName key="pmb90869">Herrengasse</placeName>
@@ -8904,6 +8976,22 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4468814-3</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/8015141/</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sant%E2%80%99Ignazio_(Rom)</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb239790">
+               <placeName>Child-Spital</placeName>
+               <desc type="entity_type">Krankenhaus (K.KKH)</desc>
+               <desc type="entity_type_id">23</desc>
+               <location type="coords">
+                  <geo>48,21719 16,34776</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb198">Pelikangasse</placeName>
+                  <geo>48,216323686182 16,348107467953</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239790/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -13328,21 +13416,6 @@
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2779186/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90667.html</idno>
             </place>
-            <place xml:id="pmb90675">
-               <placeName>Fuorcla Surlej</placeName>
-               <desc type="entity_type">T.PASS</desc>
-               <desc type="entity_type_id">2013</desc>
-               <location type="coords">
-                  <geo>46,42963 9,83986</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb43435">Schweiz</placeName>
-                  <geo>47,00016 8,01427</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90675/</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/11074814/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90675.html</idno>
-            </place>
             <place xml:id="pmb90677">
                <placeName>Furka Pass</placeName>
                <placeName type="alternative-name">Furka Pass</placeName>
@@ -14035,6 +14108,19 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40256/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb40256.html</idno>
+            </place>
+            <place xml:id="pmb239693">
+               <placeName>Gasthaus Pfannhauser</placeName>
+               <desc type="entity_type">Gastgewerbegebäude (K.GGW)</desc>
+               <desc type="entity_type_id">17</desc>
+               <location type="located_in_place">
+                  <placeName key="pmb41239">Tulln an der Donau</placeName>
+                  <geo>48,33327 16,06409</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239693/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb49309">
                <placeName>Gasthaus Post</placeName>
@@ -20089,6 +20175,21 @@
                   <date from-iso="1757-01-01" to-iso="1935-01-01">1757 – 1935</date>
                </note>
             </place>
+            <place xml:id="pmb634">
+               <placeName>Hotel Erzherzog Johann</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>47,63255 15,82889</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb189">Semmering</placeName>
+                  <geo>47,64224 15,8241</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb634.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/634/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb634.html</idno>
+            </place>
             <place xml:id="pmb144606">
                <placeName>Hotel Erzherzog Karl [Wien]</placeName>
                <desc type="entity_type">Hotel (K.HTL)</desc>
@@ -21151,6 +21252,22 @@
                   <geo>48,211117 16,376627</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/185011/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb239870">
+               <placeName>Hotel Stahlbad</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>46,48478 9,83918</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb44374">Sankt Moritz</placeName>
+                  <geo>46,49937 9,84327</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239870/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -22224,6 +22341,26 @@
                   <geo>48,22387 16,35641</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/199347/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb239819">
+               <placeName>Hörlgasse 7</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>48,216804 16,3624</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb417">Hörlgasse</placeName>
+                  <geo>48,216673655132 16,362433773685</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb59">IX., Alsergrund</placeName>
+                  <geo>48,22387 16,35641</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239819/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -24062,6 +24199,25 @@
                   <geo>48,10917 16,29204</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/190789/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb239806">
+               <placeName>Kaiser Franz Joseph-Ambulatorium und Jubiläumsspital</placeName>
+               <placeName type="ort_fruherer-name">Mariahilfer Ambulanz</placeName>
+               <desc type="entity_type">Krankenhaus (K.KKH)</desc>
+               <desc type="entity_type_id">23</desc>
+               <location type="coords">
+                  <geo>48,1928 16,3522</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb56">VI., Mariahilf</placeName>
+                  <geo>48,19522 16,35032</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239806/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1721588</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kaiser-Franz-Joseph-Ambulatorium</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -27747,6 +27903,22 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb239842">
+               <placeName>Landgasthof Meierei</placeName>
+               <desc type="entity_type">Gastgewerbegebäude (K.GGW)</desc>
+               <desc type="entity_type_id">17</desc>
+               <location type="coords">
+                  <geo>46,49478 9,86084</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb44374">Sankt Moritz</placeName>
+                  <geo>46,49937 9,84327</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239842/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb192725">
                <placeName>Landstraßer Gürtel</placeName>
                <desc type="entity_type">Straße (K.STR)</desc>
@@ -28841,6 +29013,19 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb239706">
+               <placeName>Liechtensteinische Meierei</placeName>
+               <desc type="entity_type">Gastgewerbegebäude (K.GGW)</desc>
+               <desc type="entity_type_id">17</desc>
+               <location type="located_in_place">
+                  <placeName key="pmb957">Vorderbrühl</placeName>
+                  <geo>48,08153 16,26108</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239706/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb34305">
                <placeName>Liechtensteinstraße</placeName>
                <desc type="entity_type">Straße (K.STR)</desc>
@@ -28868,6 +29053,26 @@
                   <geo>48,22028 16,360587</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/199578/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb239847">
+               <placeName>Liechtensteinstraße 41</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>48,221485 16,359302</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb34305">Liechtensteinstraße</placeName>
+                  <geo>48,08347 16,263789</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb59">IX., Alsergrund</placeName>
+                  <geo>48,22387 16,35641</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239847/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -31366,6 +31571,26 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb239635">
+               <placeName>Meidlinger Tor</placeName>
+               <desc type="entity_type">Denkmal</desc>
+               <desc type="entity_type_id">4377</desc>
+               <location type="coords">
+                  <geo>48,184 16,31877</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb92519">Schlosspark Schönbrunn</placeName>
+                  <geo>48,1806202 16,3067984</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb63">XIII., Hietzing</placeName>
+                  <geo>48,17547 16,29101</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239635/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb200843">
                <placeName>Meierei Schönbrunn</placeName>
                <desc type="entity_type">Lokal (K.LKL)</desc>
@@ -32064,6 +32289,22 @@
                      <graphic url="https://iiif.onb.ac.at/images/AKON/AK098_400/400/full/,600/0/native.jpg"/>
                   </figure>
                </note>
+            </place>
+            <place xml:id="pmb239698">
+               <placeName>Mommsengasse 13</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>48,19077 16,37782</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb56371">Mommsengasse</placeName>
+                  <geo>48,190095788638 16,377866072775</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239698/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb235052">
                <placeName>Mon Repos</placeName>
@@ -35524,6 +35765,29 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb60254">
+               <placeName>Ostbahnhof [Wien]</placeName>
+               <placeName type="ort_fruherer-name">Staatsbahnhof</placeName>
+               <desc type="entity_type">Bahnhofsgebäude (K.BHF)</desc>
+               <desc type="entity_type_id">32</desc>
+               <location type="coords">
+                  <geo>48,1855867 16,3731991</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb132">Südbahnhof</placeName>
+                  <geo>48,187455471378 16,379829498031</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb60">X., Favoriten</placeName>
+                  <geo>48,17111 16,37778</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60254/</idno>
+               <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/orte/pmb60254</idno>
+               <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Ostbahnhof</idno>
+               <listBibl>
+                  <bibl type="collections" n="5">legalkraus</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb911">
                <placeName>Ostende</placeName>
                <placeName type="alternative-name">Ostende</placeName>
@@ -36408,6 +36672,26 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52580/</idno>
             </place>
+            <place xml:id="pmb283">
+               <placeName>Parkhotel Schönbrunn</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>48,187116 16,3020317</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb63">XIII., Hietzing</placeName>
+                  <geo>48,17547 16,29101</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb283.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/283/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1747630</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Parkhotel_Sch%C3%B6nbrunn</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb283.html</idno>
+               <note type="apis_dates">
+                  <date notBefore-iso="1908-01-01" when-iso="1908-01-01">1908</date>
+               </note>
+            </place>
             <place xml:id="pmb55901">
                <placeName>Parkring</placeName>
                <desc type="entity_type">Straße (K.STR)</desc>
@@ -36947,6 +37231,22 @@
                   <geo>48,00543 16,23264</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/238094/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb239749">
+               <placeName>Pension Exquisite</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>48,00633 16,22864</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb662">Baden bei Wien</placeName>
+                  <geo>48,00543 16,23264</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239749/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -38812,6 +39112,19 @@
                <note type="apis_dates">
                   <date when-iso="1901-08-20">1901-08-20</date>
                </note>
+            </place>
+            <place xml:id="pmb239882">
+               <placeName>Privathotel [Sankt Moritz]</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="located_in_place">
+                  <placeName key="pmb44374">Sankt Moritz</placeName>
+                  <geo>46,49937 9,84327</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239882/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb92464">
                <placeName>Probst-Ubald-Weg</placeName>
@@ -44154,6 +44467,25 @@
                   <date notBefore-iso="1420-01-01" when-iso="1420-01-01">1420</date>
                </note>
             </place>
+            <place xml:id="pmb239724">
+               <placeName>Schloss Laxenburg</placeName>
+               <desc type="entity_type">Schloss (K.SLS)</desc>
+               <desc type="entity_type_id">41</desc>
+               <location type="coords">
+                  <geo>48,0647 16,3581</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb45183">Laxenburg</placeName>
+                  <geo>48,05729 16,35754</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239724/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q380298</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2772809/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schl%C3%B6sser_von_Laxenburg</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb237">
                <placeName>Schloss Leopoldskron</placeName>
                <desc type="entity_type">Schloss (K.SLS)</desc>
@@ -44412,6 +44744,22 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb239864">
+               <placeName>Schlosshotel [Pontresina]</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>46,49503 9,889977</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb34946">Pontresina</placeName>
+                  <geo>46,4955 9,90126</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239864/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb238181">
                <placeName>Schlosspark Belvedere</placeName>
                <desc type="entity_type">Park (K.PRK)</desc>
@@ -44425,6 +44773,26 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/238181/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q131433431</idno>
+               <listBibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb239721">
+               <placeName>Schlosspark Laxenburg</placeName>
+               <desc type="entity_type">Park (K.PRK)</desc>
+               <desc type="entity_type_id">19</desc>
+               <location type="coords">
+                  <geo>48,063 16,365</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb45183">Laxenburg</placeName>
+                  <geo>48,05729 16,35754</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239721/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q21875133</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1052278892</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3322631/</idno>
                <listBibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
@@ -44466,6 +44834,19 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q10937639</idno>
                <listBibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb239727">
+               <placeName>Schlossrestaurant Laxenburg</placeName>
+               <desc type="entity_type">Gastgewerbegebäude (K.GGW)</desc>
+               <desc type="entity_type_id">17</desc>
+               <location type="located_in_place">
+                  <placeName key="pmb45183">Laxenburg</placeName>
+                  <geo>48,05729 16,35754</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239727/</idno>
+               <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
@@ -46278,6 +46659,25 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q699599</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/St._Johann_in_Tirol</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb40127.html</idno>
+            </place>
+            <place xml:id="pmb59387">
+               <placeName>St. Moritzersee</placeName>
+               <desc type="entity_type">H.LK</desc>
+               <desc type="entity_type_id">1618</desc>
+               <location type="coords">
+                  <geo>46,4938 9,84591</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb43435">Schweiz</placeName>
+                  <geo>47,00016 8,01427</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb44374">Sankt Moritz</placeName>
+                  <geo>46,49937 9,84327</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59387/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/11396683/</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb59387.html</idno>
             </place>
             <place xml:id="pmb91806">
                <placeName>St. Pauli</placeName>
@@ -49937,6 +50337,10 @@
                   <placeName key="pmb43882">Türkenschanzstraße</placeName>
                   <geo>48,23237 16,33624</geo>
                </location>
+               <location type="located_in_place">
+                  <placeName key="pmb68">XVIII., Währing</placeName>
+                  <geo>48,23333 16,31667</geo>
+               </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/235132/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
@@ -51489,6 +51893,22 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb239878">
+               <placeName>Villa Story</placeName>
+               <desc type="entity_type">Gebäude (K.GBD)</desc>
+               <desc type="entity_type_id">24</desc>
+               <location type="coords">
+                  <geo>46,47969 9,82183</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb44374">Sankt Moritz</placeName>
+                  <geo>46,49937 9,84327</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239878/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb44762">
                <placeName>Villa d’Este</placeName>
                <desc type="entity_type">Gebäude (K.GBD)</desc>
@@ -51804,6 +52224,7 @@
                <placeName>Volksoper</placeName>
                <placeName type="namensvariante">Kaiser-Jubiläums-Stadttheater</placeName>
                <placeName type="namensvariante">Jubiläumstheater</placeName>
+               <placeName type="ort_namensvariante">Neues Wiener Schauspielhaus</placeName>
                <desc type="entity_type">Theater (K.THE)</desc>
                <desc type="entity_type_id">4</desc>
                <location type="coords">
@@ -53910,6 +54331,26 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb239812">
+               <placeName>Wipplingerstraße 35</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>48,214733 16,365756</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb120">Wipplingerstraße</placeName>
+                  <geo>48,213598341107 16,368419109635</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239812/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb232398">
                <placeName>Wipplingerstraße 38</placeName>
                <desc type="entity_type">Gebäude (K.GBD)</desc>
@@ -55764,6 +56205,19 @@
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb705.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/705/</idno>
             </place>
+            <place xml:id="pmb239736">
+               <placeName>Zur Stadt Wien</placeName>
+               <desc type="entity_type">Gastgewerbegebäude (K.GGW)</desc>
+               <desc type="entity_type_id">17</desc>
+               <location type="located_in_place">
+                  <placeName key="pmb662">Baden bei Wien</placeName>
+                  <geo>48,00543 16,23264</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239736/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb187113">
                <placeName>Zur Weintraube (Inh. Ignaz Hörnisch)</placeName>
                <desc type="entity_type">Lokal (K.LKL)</desc>
@@ -55920,39 +56374,6 @@
                   </figure>
                </note>
             </place>
-            <place xml:id="pmb168691">
-               <placeName>[Helferstorferstraße/Hohenstaufengasse, Absteigequartier II Rosa Freudenthal und Arthur Schnitzler]</placeName>
-               <desc type="entity_type">Wohnung</desc>
-               <desc type="entity_type_id">4347</desc>
-               <location type="located_in_place">
-                  <placeName key="pmb92290">Hohenstaufengasse</placeName>
-                  <geo>48,214226 16,365584</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb92276">Helferstorferstraße</placeName>
-                  <geo>48,21363 16,364926</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168691/</idno>
-               <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-               </listBibl>
-               <note type="apis_dates">
-                  <date to-iso="1897-09-18">1897-08-31 – 1897-09-18</date>
-               </note>
-            </place>
-            <place xml:id="pmb207305">
-               <placeName>[Hochbrandhütte]</placeName>
-               <desc type="entity_type">Gebäude (K.GBD)</desc>
-               <desc type="entity_type_id">24</desc>
-               <location type="located_in_place">
-                  <placeName key="pmb483">Reichenau an der Rax</placeName>
-                  <geo>47,7 15,83333</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/207305/</idno>
-               <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-               </listBibl>
-            </place>
             <place xml:id="pmb168687">
                <placeName>[Salvatorgasse 11, Absteigequartier III Marie Reinhard und Arthur Schnitzler]</placeName>
                <desc type="entity_type">Wohnung</desc>
@@ -55978,6 +56399,8 @@
             </place>
             <place xml:id="pmb168697">
                <placeName>[Tuchlauben 22, Absteigequartier von Leopoldine Müller und Arthur Schnitzler]</placeName>
+               <desc type="entity_type">Wohnung</desc>
+               <desc type="entity_type_id">4347</desc>
                <location type="coords">
                   <geo>48,21101 16,37189</geo>
                </location>

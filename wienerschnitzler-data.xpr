@@ -10,26 +10,20 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/xml/wienerschnitzler_distinctPlaces.xml</String>
+                                    <String>data/editions/xml/wienerschnitzler_complete.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>distinctPlaces to GeoJSON decades</String>
-                                        <String>distinctPlaces to GeoJSON months</String>
-                                        <String>distinctPlaces to GeoJSON years</String>
+                                        <String>complete to complete_nested (step 1)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
-                                        <String>XSL</String>
-                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
-                                        <Byte>2</Byte>
-                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -56,22 +50,45 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/xml/wienerschnitzler_complete.xml</String>
+                                    <String>data/editions/xml/wienerschnitzler_complete_nested-backup.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>complete to distinctPlaces</String>
-                                        <String>complete to complete_nested (step 1)</String>
+                                        <String>complete to complete_nested (step 2)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/editions/xml/wienerschnitzler_distinctPlaces.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>distinctPlaces to GeoJSON decades</String>
+                                        <String>distinctPlaces to GeoJSON months</String>
+                                        <String>distinctPlaces to GeoJSON years</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
                                         <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
@@ -303,7 +320,6 @@
                                 <field name="cascadingStylesheets">
                                     <String-array>
                                         <String>${pdu}/xslts/complete-to-nested/4%20nested-to-nested.xsl</String>
-                                        <String>${pdu}/xslts/complete-to-nested/5%20nested-to-nested.xsl</String>
                                     </String-array>
                                 </field>
                                 <field name="xslTransformer">

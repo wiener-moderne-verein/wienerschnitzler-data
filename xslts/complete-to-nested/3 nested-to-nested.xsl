@@ -9,46 +9,52 @@
         wird, sollte nach diesem Schritt nur mehr der 6. Bezirk als "enthalten in" vorliegen, da er selbst in Wien.
         
         im Notfall (ein Ort gehört zu mehreren erwähnten Orten) kommt es zu mehreren ancestors-elementen  -->
-    <xsl:template
-        match="tei:ancestors[@ana and (string-length(@ana) - string-length(translate(@ana, 'pmb', ''))) div 3 &gt; 1]">
-        <xsl:variable name="hierarchie" as="node()">
-            <list>
-                <xsl:for-each
-                    select="parent::tei:place/preceding-sibling::tei:place | parent::tei:place/following-sibling::tei:place">
-                    <xsl:variable name="corresp" select="replace(@corresp, '#', '')"/>
-                    <xsl:for-each select="tokenize(tei:ancestors/@ana, 'pmb')">
-                        <xsl:if test=". != ''">
-                            <item>
-                                <xsl:attribute name="corresp">
-                                    <xsl:value-of select="$corresp"/>
-                                </xsl:attribute>
-                                <xsl:value-of select="."/>
-                            </item>
-                        </xsl:if>
-                    </xsl:for-each>
+    <xsl:template match="tei:ancestors[tokenize(@ana, 'pmb')[2]]">
+        <xsl:variable name="ana-values" select="tokenize(@ana, 'pmb')[. != '']" as="xs:string*"/>
+        <xsl:variable name="ana-values-bereinigt" as="xs:string*">
+            <!-- hier wird 50 rausgelöscht, wenn auch ein wiener bezirk vorliegt -->
+            <xsl:variable name="has-50" select="exists($ana-values[. = '50'])"/>
+            <xsl:variable name="has-in-range"
+                select="exists($ana-values[xs:integer(.) gt 50 and xs:integer(.) lt 74])"/>
+            <xsl:if test="$has-50 or $has-in-range">
+                <xsl:for-each select="$ana-values">
+                    <xsl:variable name="current-value" select="xs:integer(.)"/>
+                    <xsl:if
+                        test="$current-value != 50 and $current-value gt 50 and $current-value lt 74">
+                        <xsl:sequence select="xs:string($current-value)"/>
+                    </xsl:if>
                 </xsl:for-each>
-            </list>
-        </xsl:variable>
-        <xsl:variable name="existiert-wien-und-bezirk" as="xs:boolean"
-            select="exists(tokenize(@ana, 'pmb')[. != '' and xs:int(.) gt 50 and xs:int(.) lt 74])"/>
-        <!-- Das hier ist grausam. Aber es gab Dubletten, wenn ein Ort sowohl in Wien, als auch
-        in einem Bezirk lag. Deswegen wird in solchen Fällen hier der Ort Wien gestrichen. -->
-        
-        <xsl:for-each select="tokenize(@ana, 'pmb')">
-            <xsl:if test="not(. = '50') and $existiert-wien-und-bezirk">
-                <xsl:variable name="current" select="."/>
-                <xsl:choose>
-                    <xsl:when test=". = ''"/>
-                    <xsl:when test="$hierarchie/item = $current"/>
-                    <xsl:otherwise>
-                        <xsl:element name="ancestors" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:attribute name="ana">
-                                <xsl:value-of select="concat('pmb', $current)"/>
-                            </xsl:attribute>
-                        </xsl:element>
-                    </xsl:otherwise>
-                </xsl:choose>
             </xsl:if>
+        </xsl:variable>
+        <xsl:variable name="corresp-values"
+            select="parent::tei:place/parent::tei:listPlace/tei:place/@corresp/replace(., '#pmb', '')"
+            as="xs:string*"/>
+        <xsl:variable name="erweiterte-corresp-values" as="xs:string*">
+            <xsl:choose>
+                <xsl:when test="contains(string-join($corresp-values, ' '), '50')">
+                    <xsl:sequence select="$corresp-values"/>
+                    <xsl:for-each select="51 to 74">
+                        <xsl:value-of select="."/>
+                        <xsl:if test="position() != last()"> </xsl:if>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:sequence select="$corresp-values"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <!-- Kreuzen der beiden Variablen -->
+        <xsl:for-each select="$ana-values-bereinigt">
+            <xsl:variable name="current-ana" select="." as="xs:string"/>
+            <xsl:for-each select="distinct-values($erweiterte-corresp-values)">
+                <xsl:if test=". = $current-ana">
+                    <xsl:element name="ancestors" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:attribute name="ana">
+                            <xsl:value-of select="concat('pmb', $current-ana)"/>
+                        </xsl:attribute>
+                    </xsl:element>
+                </xsl:if>
+            </xsl:for-each>
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:ancestors[not(@ana) or @ana = '']"/>

@@ -66,6 +66,7 @@
     <!-- ## place -->
     <xsl:template match="tei:place[tei:location[@type = 'coords']/tei:geo]" mode="point">
         <xsl:param name="when" as="xs:date"/>
+        <xsl:variable name="corresp" select="replace(@xml:id, '#', '')"/>
         <!-- Add a comma before every feature except the first one -->
         <xsl:text>&#10;    {</xsl:text>
         <xsl:text>&#10;      "type": "Feature",</xsl:text>
@@ -91,7 +92,7 @@
         <xsl:text>"],</xsl:text>
         <xsl:text>&#10;        "pmb": "</xsl:text>
         <xsl:value-of
-            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(@corresp, '#', ''), '/')"/>
+            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', $corresp, '/')"/>
         <xsl:text>"</xsl:text>
         <xsl:if test="tei:idno[@subtype = 'wikipedia']">
             <xsl:text>, </xsl:text>

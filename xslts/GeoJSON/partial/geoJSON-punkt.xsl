@@ -41,6 +41,17 @@
         <!-- Aggregate visit dates for the current location -->
         <xsl:text>&#10;         "timestamp": [</xsl:text>
         <xsl:choose>
+            <xsl:when test="$timespan-type = 'complete'">
+                <xsl:for-each
+                    select="$input-placeNode/tei:listEvent/tei:event/@when">
+                    <xsl:text>"</xsl:text>
+                    <xsl:value-of select="."/>
+                    <xsl:text>"</xsl:text>
+                    <xsl:if test="position() != last()">
+                        <xsl:text>, </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:when>
             <xsl:when test="$timespan-type = 'decade'">
                 <xsl:for-each
                     select="$input-placeNode/tei:listEvent/tei:event/@when[number(substring(., 1, 4)) >= number($timespan-begin) and number(substring(., 1, 4)) &lt;= number($timespan-end)]">
@@ -74,6 +85,11 @@
         <!-- Aggregate event descriptions -->
         <xsl:text>&#10;         "importance": "</xsl:text>
         <xsl:choose>
+            <xsl:when test="$timespan-type = 'complete'">
+                <xsl:value-of
+                    select="count($input-placeNode/descendant::tei:listEvent/tei:event)"
+                />
+            </xsl:when>
             <xsl:when test="$timespan-type = 'decade'">
                 <xsl:value-of
                     select="count($input-placeNode/descendant::tei:listEvent/tei:event[@when[number(substring(., 1, 4)) >= number($timespan-begin) and number(substring(., 1, 4)) &lt;= number($timespan-end)]])"

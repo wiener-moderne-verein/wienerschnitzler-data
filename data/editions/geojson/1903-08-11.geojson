@@ -6,14 +6,30 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.335264, 48.228877], 
             [16.35736, 48.21533], 
-            [16.32428, 48.3065]
+            [16.32664, 48.30719], 
+            [16.25, 48.26667]
           ]
       },
       "properties": {
         "name": "11. August 1903"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.335264, 48.228877
+        ]
+      },
+      "properties": {
+        "title": "Gentzgasse 110",
+        "timestamp": ["1903-08-11"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -33,13 +49,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.32428, 48.3065
+          16.32664, 48.30719
         ]
       },
       "properties": {
-        "title": "Stiftskeller Klosterneuburg",
+        "title": "Stift Klosterneuburg",
         "timestamp": ["1903-08-11"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stift_Klosterneuburg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.25, 48.26667
+        ]
+      },
+      "properties": {
+        "title": "Weidlingbach",
+        "timestamp": ["1903-08-11"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)"
       }
       }
   ]

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.24924, 48.08736]
+            [16.24924, 48.08736], 
+            [16.28929, 48.17381], 
+            [16.268889, 48.150556]
           ]
       },
       "properties": {
@@ -25,6 +27,36 @@
         "title": "Hauptstraße 56",
         "timestamp": ["1902-03-23"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.28929, 48.17381
+        ]
+      },
+      "properties": {
+        "title": "Lainz",
+        "timestamp": ["1902-03-23"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lainz"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.268889, 48.150556
+        ]
+      },
+      "properties": {
+        "title": "Mauer",
+        "timestamp": ["1902-03-23"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mauer_(Wien)"
       }
       }
   ]

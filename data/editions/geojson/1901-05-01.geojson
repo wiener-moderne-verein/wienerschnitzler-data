@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35736, 48.21533]
+            [16.35736, 48.21533], 
+            [16.362974, 48.220897], 
+            [16.32522, 48.30521], 
+            [16.30011, 48.32932]
           ]
       },
       "properties": {
@@ -18,11 +21,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.362974, 48.220897
+        ]
+      },
+      "properties": {
+        "title": "Grünentorgasse 16",
+        "timestamp": ["1901-05-01"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.35736, 48.21533
         ]
       },
       "properties": {
         "title": "Frankgasse 1",
+        "timestamp": ["1901-05-01"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.32522, 48.30521
+        ]
+      },
+      "properties": {
+        "title": "Klosterneuburg",
+        "timestamp": ["1901-05-01"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.30011, 48.32932
+        ]
+      },
+      "properties": {
+        "title": "Kritzendorf",
         "timestamp": ["1901-05-01"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

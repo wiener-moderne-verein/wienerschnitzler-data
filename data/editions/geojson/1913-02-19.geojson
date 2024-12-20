@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.3566, 48.205142], 
+            [16.361139, 48.210333], 
+            [16.33716, 48.23188], 
+            [16.33494, 48.23365]
           ]
       },
       "properties": {
@@ -18,11 +21,55 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.361139, 48.210333
+        ]
+      },
+      "properties": {
+        "title": "Burgtheater",
+        "timestamp": ["1913-02-19"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3566, 48.205142
+        ]
+      },
+      "properties": {
+        "title": "Volkstheater",
+        "timestamp": ["1913-02-19"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.33716, 48.23188
         ]
       },
       "properties": {
         "title": "Sternwartestraße 71",
+        "timestamp": ["1913-02-19"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33494, 48.23365
+        ]
+      },
+      "properties": {
+        "title": "Hasenauerstraße 59",
         "timestamp": ["1913-02-19"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

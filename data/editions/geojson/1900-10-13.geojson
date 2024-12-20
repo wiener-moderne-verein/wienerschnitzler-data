@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.15292, 48.04261], 
             [16.238308, 48.010324], 
+            [16.16269, 48.07561], 
+            [16.1374028, 48.1008317], 
             [16.13566708, 48.0824079]
           ]
       },
@@ -14,6 +17,21 @@
         "name": "13. Oktober 1900"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.13566708, 48.0824079
+        ]
+      },
+      "properties": {
+        "title": "Dornbach [Wienerwald]",
+        "timestamp": ["1900-10-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dornbach_(Gemeinde_Wienerwald)"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -33,14 +51,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.13566708, 48.0824079
+          16.15292, 48.04261
         ]
       },
       "properties": {
-        "title": "Dornbach [Wienerwald]",
+        "title": "Heiligenkreuz",
         "timestamp": ["1900-10-13"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Dornbach_(Gemeinde_Wienerwald)"
+        "wikipedia": "https://de.wikipedia.org/wiki/Heiligenkreuz_(Nieder%C3%B6sterreich)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.16269, 48.07561
+        ]
+      },
+      "properties": {
+        "title": "Sittendorf",
+        "timestamp": ["1900-10-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1374028, 48.1008317
+        ]
+      },
+      "properties": {
+        "title": "Sulz im Wienerwald",
+        "timestamp": ["1900-10-13"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

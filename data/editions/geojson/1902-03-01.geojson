@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.25736, 48.11895], 
             [16.261108, 48.081286], 
-            [16.35736, 48.21533]
+            [16.28921, 48.08605], 
+            [16.35736, 48.21533], 
+            [16.16265, 48.19512]
           ]
       },
       "properties": {
@@ -40,6 +43,51 @@
         "title": "Zum goldenen Stern",
         "timestamp": ["1902-03-01"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.28921, 48.08605
+        ]
+      },
+      "properties": {
+        "title": "Mödling",
+        "timestamp": ["1902-03-01"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6dling"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.25736, 48.11895
+        ]
+      },
+      "properties": {
+        "title": "Perchtoldsdorf",
+        "timestamp": ["1902-03-01"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Perchtoldsdorf"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.16265, 48.19512
+        ]
+      },
+      "properties": {
+        "title": "Purkersdorf",
+        "timestamp": ["1902-03-01"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Purkersdorf"
       }
       }
   ]

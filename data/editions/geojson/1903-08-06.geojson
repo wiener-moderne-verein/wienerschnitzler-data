@@ -6,13 +6,29 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35736, 48.21533]
+            [16.29204, 48.10917], 
+            [16.35736, 48.21533], 
+            [16.335264, 48.228877]
           ]
       },
       "properties": {
         "name": "6. August 1903"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.335264, 48.228877
+        ]
+      },
+      "properties": {
+        "title": "Gentzgasse 110",
+        "timestamp": ["1903-08-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,6 +41,21 @@
         "title": "Frankgasse 1",
         "timestamp": ["1903-08-06"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.29204, 48.10917
+        ]
+      },
+      "properties": {
+        "title": "Brunn am Gebirge",
+        "timestamp": ["1903-08-06"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Brunn_am_Gebirge"
       }
       }
   ]

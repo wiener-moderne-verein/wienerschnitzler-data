@@ -6,10 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.62863, 47.64784], 
             [15.86303, 47.6913], 
             [15.84453, 47.69852], 
             [15.6707854, 47.71778962], 
-            [15.66388888888889, 47.711666666666666]
+            [15.66388888888889, 47.711666666666666], 
+            [15.61159, 47.70802]
           ]
       },
       "properties": {
@@ -49,6 +51,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.66388888888889, 47.711666666666666
+        ]
+      },
+      "properties": {
+        "title": "Nasskamm",
+        "timestamp": ["1904-07-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Na%C3%9Fkamm"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.84453, 47.69852
         ]
       },
@@ -63,14 +80,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.66388888888889, 47.711666666666666
+          15.61159, 47.70802
         ]
       },
       "properties": {
-        "title": "Nasskamm",
+        "title": "Altenberg an der Rax",
         "timestamp": ["1904-07-16"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Na%C3%9Fkamm"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.62863, 47.64784
+        ]
+      },
+      "properties": {
+        "title": "Kapellen",
+        "timestamp": ["1904-07-16"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }
       }
   ]

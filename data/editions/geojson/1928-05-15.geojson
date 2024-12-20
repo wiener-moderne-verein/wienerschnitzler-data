@@ -10,7 +10,6 @@
             [16.15292, 48.04261], 
             [16.24801, 48.08509], 
             [16.2652, 48.080769], 
-            [16.430054, 48.194558], 
             [16.402222, 48.214722], 
             [16.395442, 48.217178], 
             [16.39347, 48.21854], 
@@ -27,14 +26,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.430054, 48.194558
+          16.402222, 48.214722
         ]
       },
       "properties": {
-        "title": "Prater",
+        "title": "Wurstelprater",
         "timestamp": ["1928-05-15"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater"
+        "wikipedia": "https://de.wikipedia.org/wiki/Wurstelprater", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=10997"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.395442, 48.217178
+        ]
+      },
+      "properties": {
+        "title": "Restauration Prochaska",
+        "timestamp": ["1928-05-15"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.39347, 48.21854
+        ]
+      },
+      "properties": {
+        "title": "Zirkus Busch",
+        "timestamp": ["1928-05-15"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Zirkus_Busch_Kino"
       }
       },
     {
@@ -113,36 +142,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.402222, 48.214722
-        ]
-      },
-      "properties": {
-        "title": "Wurstelprater",
-        "timestamp": ["1928-05-15"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wurstelprater", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=10997"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.395442, 48.217178
-        ]
-      },
-      "properties": {
-        "title": "Restauration Prochaska",
-        "timestamp": ["1928-05-15"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.2652, 48.080769
         ]
       },
@@ -150,21 +149,6 @@
         "title": "Hotel Hajek",
         "timestamp": ["1928-05-15"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.39347, 48.21854
-        ]
-      },
-      "properties": {
-        "title": "Zirkus Busch",
-        "timestamp": ["1928-05-15"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Zirkus_Busch_Kino"
       }
       }
   ]

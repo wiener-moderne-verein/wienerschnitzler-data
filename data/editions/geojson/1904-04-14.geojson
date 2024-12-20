@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.283758, 48.1803], 
+            [16.28929, 48.17381], 
             [16.33472, 48.2304]
           ]
       },
@@ -14,6 +15,20 @@
         "name": "14. April 1904"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33472, 48.2304
+        ]
+      },
+      "properties": {
+        "title": "Edmund-Weiß-Gasse 7",
+        "timestamp": ["1904-04-14"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -33,13 +48,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33472, 48.2304
+          16.28929, 48.17381
         ]
       },
       "properties": {
-        "title": "Edmund-Weiß-Gasse 7",
+        "title": "Lainz",
         "timestamp": ["1904-04-14"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lainz"
       }
       }
   ]

@@ -6,13 +6,29 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35736, 48.21533]
+            [16.29101, 48.17547], 
+            [16.35736, 48.21533], 
+            [16.335264, 48.228877]
           ]
       },
       "properties": {
         "name": "23. März 1903"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.335264, 48.228877
+        ]
+      },
+      "properties": {
+        "title": "Gentzgasse 110",
+        "timestamp": ["1903-03-23"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,6 +41,21 @@
         "title": "Frankgasse 1",
         "timestamp": ["1903-03-23"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.29101, 48.17547
+        ]
+      },
+      "properties": {
+        "title": "XIII., Hietzing",
+        "timestamp": ["1903-03-23"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hietzing"
       }
       }
   ]

@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.060833, 47.762222], 
             [13.06824, 47.7569], 
-            [13.043401, 47.802045]
+            [13.043401, 47.802045], 
+            [13.0391, 47.79964]
           ]
       },
       "properties": {
@@ -39,6 +41,35 @@
       },
       "properties": {
         "title": "Steintheater Hellbrunn",
+        "timestamp": ["1902-06-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.060833, 47.762222
+        ]
+      },
+      "properties": {
+        "title": "Hellbrunn",
+        "timestamp": ["1902-06-30"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hellbrunn"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0391, 47.79964
+        ]
+      },
+      "properties": {
+        "title": "Mönchsberg",
         "timestamp": ["1902-06-30"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

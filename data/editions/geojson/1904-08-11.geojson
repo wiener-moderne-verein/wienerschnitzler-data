@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [8.54226, 47.37174], 
+            [11.33333, 47.25], 
+            [25.5, 47], 
             [16.33472, 48.2304], 
             [16.2, 48.23333]
           ]
@@ -38,6 +41,50 @@
       },
       "properties": {
         "title": "Hainbach",
+        "timestamp": ["1904-08-11"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.33333, 47.25
+        ]
+      },
+      "properties": {
+        "title": "Tirol",
+        "timestamp": ["1904-08-11"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tirol_(Bundesland)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54226, 47.37174
+        ]
+      },
+      "properties": {
+        "title": "Zürich",
+        "timestamp": ["1904-08-11"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Z%C3%BCrich"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5, 47.0
+        ]
+      },
+      "properties": {
+        "title": "Carpathian Mountains",
         "timestamp": ["1904-08-11"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
       }

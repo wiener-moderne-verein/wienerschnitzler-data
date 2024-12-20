@@ -7,13 +7,43 @@
         "type": "LineString", 
         "coordinates": [
             [16.35736, 48.21533], 
-            [16.2911, 48.2553]
+            [16.335264, 48.228877], 
+            [16.2911, 48.2553], 
+            [16.25, 48.26667]
           ]
       },
       "properties": {
         "name": "21. Mai 1903"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.335264, 48.228877
+        ]
+      },
+      "properties": {
+        "title": "Gentzgasse 110",
+        "timestamp": ["1903-05-21"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35736, 48.21533
+        ]
+      },
+      "properties": {
+        "title": "Frankgasse 1",
+        "timestamp": ["1903-05-21"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -34,13 +64,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.35736, 48.21533
+          16.25, 48.26667
         ]
       },
       "properties": {
-        "title": "Frankgasse 1",
+        "title": "Weidlingbach",
         "timestamp": ["1903-05-21"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity//", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)"
       }
       }
   ]

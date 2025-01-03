@@ -6,13 +6,29 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [12.70357, 49.977411]
+            [12.70357, 49.977411], 
+            [12.70919, 49.97665], 
+            [12.7055, 49.98198]
           ]
       },
       "properties": {
         "name": "27. August 1930"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.70919, 49.97665
+        ]
+      },
+      "properties": {
+        "title": "Grand Hotel Marienbad",
+        "timestamp": ["1930-08-27"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb236965/"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,6 +41,20 @@
         "title": "Tepler Haus",
         "timestamp": ["1930-08-27"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb185538/"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7055, 49.98198
+        ]
+      },
+      "properties": {
+        "title": "Kurpark Marienbad",
+        "timestamp": ["1930-08-27"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb236974/"
       }
       }
   ]

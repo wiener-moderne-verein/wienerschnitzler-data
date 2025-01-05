@@ -15,6 +15,13 @@
    -->
    
    <xsl:template match="tei:ancestors/@ana">
+       <xsl:variable name="ana" select="." as="xs:string"/>
+       <xsl:variable name="newAna"><!-- hier soll verhindert werden, dass Orte gelöscht werden, bei denen Wien und ein Bezirk als ancestor angegeben ist -->
+           <xsl:value-of select="
+               if (matches($ana, 'pmb5[1-9]|pmb6[0-9]|pmb7[0-3]')) 
+               then replace($ana, 'pmb50', '') 
+               else $ana"/>
+       </xsl:variable>
        <xsl:attribute name="ana">
            <xsl:variable name="listPlace" select="ancestor::tei:event/tei:listPlace" as="node()"/>
        <xsl:variable name="current-places" as="node()">
@@ -36,12 +43,16 @@
                                <xsl:value-of select="."/>
                            </item>
                        </xsl:for-each>
+                       
                    </xsl:if>
                </xsl:for-each>
            </list>
        </xsl:variable>
-       <xsl:for-each select="tokenize(., 'pmb')">
+      
+       <xsl:for-each select="tokenize($newAna, 'pmb')">
            <xsl:variable name="current" select="replace(., 'pmb', '')"/>
+           
+           
            <xsl:choose>
                <xsl:when test="$current-places/item = $current">
                    <xsl:value-of select="concat('pmb',$current)"/>

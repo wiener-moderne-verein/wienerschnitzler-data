@@ -6,13 +6,30 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [8.23639, 48.7603]
+            [8.24062, 48.76113], 
+            [8.23639, 48.7603], 
+            [9.17921, 48.7797]
           ]
       },
       "properties": {
         "name": "10. Januar 1925"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.17921, 48.7797
+        ]
+      },
+      "properties": {
+        "title": "Hotel Marquardt",
+        "timestamp": ["1925-01-10"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb245225/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Marquardtbau"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -26,6 +43,20 @@
         "timestamp": ["1925-01-10"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb183508/", 
         "wikipedia": "https://de.wikipedia.org/wiki/Kurhaus_Baden-Baden"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.24062, 48.76113
+        ]
+      },
+      "properties": {
+        "title": "Hotel am Sophienpark",
+        "timestamp": ["1925-01-10"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb245054/"
       }
       }
   ]

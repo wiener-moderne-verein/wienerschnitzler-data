@@ -8,64 +8,57 @@
     <xsl:output indent="true"/>
     <xsl:param name="listplace"
         select="document('../../data/indices/listplace.xml')/tei:TEI[1]/tei:text[1]/tei:body[1]/tei:listPlace[1]"/>
-   
-   <!-- Der zweite Schritt kürzt die Inhalte der partOf-Beziehung auf jene, die auch in einem anderen place vorkommen,
+    <!-- Der zweite Schritt kürzt die Inhalte der partOf-Beziehung auf jene, die auch in einem anderen place vorkommen,
        da nur für diese eine Hierarchie hergestellt wird
    
    -->
-   
-   <xsl:template match="tei:ancestors/@ana">
-       <xsl:variable name="ana" select="." as="xs:string"/>
-       <xsl:variable name="newAna"><!-- hier soll verhindert werden, dass Orte gelöscht werden, bei denen Wien und ein Bezirk als ancestor angegeben ist -->
-           <xsl:value-of select="
-               if (matches($ana, 'pmb5[1-9]|pmb6[0-9]|pmb7[0-3]')) 
-               then replace($ana, 'pmb50', '') 
-               else $ana"/>
-       </xsl:variable>
-       <xsl:attribute name="ana">
-           <xsl:variable name="listPlace" select="ancestor::tei:event/tei:listPlace" as="node()"/>
-       <xsl:variable name="current-places" as="node()">
-           <list>
-               <xsl:for-each select="ancestor::tei:event/tei:listPlace/tei:place/@corresp">
-                   <xsl:variable name="current" select="replace(., '#', '')"/>
-                   <xsl:if
-                       test="$listplace/tei:place[@xml:id = $current]/tei:location[@type = 'coords'][1]/tei:geo[1]">
-                       <!-- nur Orte, die Koordinaten haben, heben andere auf -->
-                       <item>
-                           <xsl:value-of select="replace(., '#pmb', '')"/>
-                       </item>
-                   </xsl:if>
-                   <xsl:if test="$current = 'pmb50'">
-                       <!-- Sonderregel, hier alle Wiener Bezirke vermerken, so dass der fall, dass
+    <xsl:template match="tei:ancestors/@ana">
+        <xsl:variable name="ana" select="." as="xs:string"/>
+        <xsl:variable name="newAna">
+            <!-- hier soll verhindert werden, dass Orte gelöscht werden, bei denen Wien und ein Bezirk als ancestor angegeben ist.
+            wenn pmb50 vorliegt, werden die bezirke gelöscht, da die ohnedies im nächsten schritt alle ergänzt werden
+            -->
+            <xsl:value-of select="
+                if (matches($ana, '(?:^|[^a-zA-Z0-9])pmb50(?:$|[^a-zA-Z0-9])')) 
+                then 
+                replace($ana, '(?:^|[^a-zA-Z0-9])pmb5[1-9](?:$|[^a-zA-Z0-9])|(?:^|[^a-zA-Z0-9])pmb6[0-9](?:$|[^a-zA-Z0-9])|(?:^|[^a-zA-Z0-9])pmb7[0-3](?:$|[^a-zA-Z0-9])', '') 
+                else 
+                $ana"/>
+        </xsl:variable>
+        <xsl:attribute name="ana">
+            <xsl:variable name="listPlace" select="ancestor::tei:event/tei:listPlace" as="node()"/>
+            <xsl:variable name="current-places" as="node()">
+                <list>
+                    <xsl:for-each select="ancestor::tei:event/tei:listPlace/tei:place/@corresp">
+                        <xsl:variable name="current" select="replace(., '#', '')"/>
+                        <xsl:if
+                            test="$listplace/tei:place[@xml:id = $current]/tei:location[@type = 'coords'][1]/tei:geo[1]">
+                            <!-- nur Orte, die Koordinaten haben, heben andere auf -->
+                            <item>
+                                <xsl:value-of select="replace(., '#pmb', '')"/>
+                            </item>
+                        </xsl:if>
+                        <xsl:if test="$current = 'pmb50'">
+                            <!-- Sonderregel, hier alle Wiener Bezirke vermerken, so dass der fall, dass
                             ein Aufenthalt in Wien auch einen Aufenthalt in allen Wiener Bezirken abdeckt. -->
-                       <xsl:for-each select="51 to 73">
-                           <item>
-                               <xsl:value-of select="."/>
-                           </item>
-                       </xsl:for-each>
-                       
-                   </xsl:if>
-               </xsl:for-each>
-           </list>
-       </xsl:variable>
-      
-       <xsl:for-each select="tokenize($newAna, 'pmb')">
-           <xsl:variable name="current" select="replace(., 'pmb', '')"/>
-           
-           
-           <xsl:choose>
-               <xsl:when test="$current-places/item = $current">
-                   <xsl:value-of select="concat('pmb',$current)"/>
-               </xsl:when>
-               <xsl:otherwise>
-               </xsl:otherwise>
-           </xsl:choose>
-       </xsl:for-each>
-       
-       </xsl:attribute>
-       
-   </xsl:template>
-   
-    
-    
+                            <xsl:for-each select="51 to 73">
+                                <item>
+                                    <xsl:value-of select="."/>
+                                </item>
+                            </xsl:for-each>
+                        </xsl:if>
+                    </xsl:for-each>
+                </list>
+            </xsl:variable>
+            <xsl:for-each select="tokenize($newAna, 'pmb')">
+                <xsl:variable name="current" select="replace(., 'pmb', '')"/>
+                <xsl:choose>
+                    <xsl:when test="$current-places/item = $current">
+                        <xsl:value-of select="concat('pmb', $current)"/>
+                    </xsl:when>
+                    <xsl:otherwise> </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:attribute>
+    </xsl:template>
 </xsl:stylesheet>

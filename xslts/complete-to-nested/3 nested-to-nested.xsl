@@ -47,7 +47,7 @@
         <xsl:for-each
             select="distinct-values(parent::tei:listPlace/tei:place/tei:ancestors/tokenize(@ana, '#pmb'))">
             <xsl:if
-                test="xs:int(replace(., 'pmb', '')) lt 74 and xs:int(replace(., 'pmb', '')) gt 50">
+                test="xs:long(replace(., 'pmb', '')) lt 74 and xs:long(replace(., 'pmb', '')) gt 50">
                 <xsl:if test="
                         not(some $c in $alle-corresps
                             satisfies $c = .)">

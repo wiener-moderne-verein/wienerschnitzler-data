@@ -6,13 +6,29 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.342154562605, 48.250804274577], 
+            [16.33286, 48.25644]
           ]
       },
       "properties": {
         "name": "25. November 1925"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.342154562605, 48.250804274577
+        ]
+      },
+      "properties": {
+        "title": "Grinzing",
+        "timestamp": ["1925-11-25"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb225/"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -25,6 +41,20 @@
         "title": "Sternwartestraße 71",
         "timestamp": ["1925-11-25"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb168815/"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33286, 48.25644
+        ]
+      },
+      "properties": {
+        "title": "Himmelstraße 55",
+        "timestamp": ["1925-11-25"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb235184/"
       }
       }
   ]

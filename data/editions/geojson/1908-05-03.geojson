@@ -6,13 +6,31 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.591944, 48.152778]
+            [11.570521871552252, 48.141240506268204], 
+            [11.581667, 48.138889], 
+            [11.591944, 48.152778], 
+            [11.49857, 48.15853]
           ]
       },
       "properties": {
         "name": "3. Mai 1908"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.581667, 48.138889
+        ]
+      },
+      "properties": {
+        "title": "Hotel Vier Jahreszeiten",
+        "timestamp": ["1908-05-03"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb485/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -26,6 +44,34 @@
         "timestamp": ["1908-05-03"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb706/", 
         "wikipedia": "https://de.wikipedia.org/wiki/Englischer_Garten_(M%C3%BCnchen)"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.570521871552252, 48.141240506268204
+        ]
+      },
+      "properties": {
+        "title": "Parkhotel München",
+        "timestamp": ["1908-05-03"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb52580/"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.49857, 48.15853
+        ]
+      },
+      "properties": {
+        "title": "Nymphenburg",
+        "timestamp": ["1908-05-03"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb91369/"
       }
       }
   ]

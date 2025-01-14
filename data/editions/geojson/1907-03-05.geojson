@@ -6,14 +6,44 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.365508, 48.200364], 
             [16.375811, 48.203191], 
-            [16.33472, 48.2304]
+            [16.33472, 48.2304], 
+            [16.347492624475, 48.216264483348]
           ]
       },
       "properties": {
         "name": "5. März 1907"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.347492624475, 48.216264483348
+        ]
+      },
+      "properties": {
+        "title": "Sanatorium Loew",
+        "timestamp": ["1907-03-05"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb89/"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.33472, 48.2304
+        ]
+      },
+      "properties": {
+        "title": "Edmund-Weiß-Gasse 7",
+        "timestamp": ["1907-03-05"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb168940/"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -33,13 +63,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.33472, 48.2304
+          16.365508, 48.200364
         ]
       },
       "properties": {
-        "title": "Edmund-Weiß-Gasse 7",
+        "title": "Secession",
         "timestamp": ["1907-03-05"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb168940/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb7/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude"
       }
       }
   ]

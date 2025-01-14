@@ -45,7 +45,7 @@
         <xsl:variable name="alle-corresps"
             select="parent::tei:listPlace/tei:place/replace(@corresp, '#', '')" as="xs:string*"/>
         <xsl:for-each
-            select="distinct-values(parent::tei:listPlace/tei:place/tei:ancestors/tokenize(@ana, '#pmb'))">
+            select="distinct-values(parent::tei:listPlace/tei:place/tei:ancestors/tokenize(@ana, 'pmb')[not(.='')])">
             <xsl:if
                 test="xs:long(replace(., 'pmb', '')) lt 74 and xs:long(replace(., 'pmb', '')) gt 50">
                 <xsl:if test="
@@ -54,7 +54,7 @@
                     <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
                         <xsl:attribute name="corresp" select="concat('#', .)"/>
                         <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:value-of select="map:get($bezirke, .)"/>
+                            <xsl:value-of select="map:get($bezirke, concat('pmb', .))"/>
                         </xsl:element>
                         <xsl:element name="ancestors" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:attribute name="ana">

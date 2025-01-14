@@ -7,7 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.35736, 48.21533], 
-            [16.34618, 48.27805]
+            [16.34618, 48.27805], 
+            [16.33255, 48.27617]
           ]
       },
       "properties": {
@@ -19,13 +20,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.34618, 48.27805
+          16.33255, 48.27617
         ]
       },
       "properties": {
-        "title": "Leopoldsberg",
+        "title": "Kahlenberg",
         "timestamp": ["1895-05-31"],
-        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb59364/"
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb574/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kahlenberg", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=22912"
       }
       },
     {
@@ -40,6 +43,20 @@
         "title": "Frankgasse 1",
         "timestamp": ["1895-05-31"],
         "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb168934/"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.34618, 48.27805
+        ]
+      },
+      "properties": {
+        "title": "Leopoldsberg",
+        "timestamp": ["1895-05-31"],
+        "pmb": "https://pmb.acdh.oeaw.ac.at/entity/pmb59364/"
       }
       }
   ]

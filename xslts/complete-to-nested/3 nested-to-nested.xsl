@@ -67,14 +67,22 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:ancestors[tokenize(@ana, 'pmb')[2]]">
-        <xsl:for-each select="(tokenize(@ana, 'pmb'))">
-            <xsl:if test="not(normalize-space(.) = '')">
-                <xsl:element name="ancestors" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:attribute name="ana">
-                        <xsl:value-of select="."/>
-                    </xsl:attribute>
-                </xsl:element>
-            </xsl:if>
+        <xsl:variable name="anastring" select="@ana"/>
+        <xsl:variable name="tokens" select="tokenize($anastring, 'pmb')" />
+        <xsl:variable name="wien-und-bezirk" 
+            select="exists($tokens[. castable as xs:long and xs:long(.) &gt;= 51 and xs:long(.) &lt;= 73]) and exists($tokens[. castable as xs:long and xs:long(.) = 50])" />
+        <xsl:for-each select="$tokens">
+            <xsl:choose>
+                <xsl:when test="$wien-und-bezirk and . = '50'"/>
+                <xsl:when test=". =''"/>
+                <xsl:otherwise>
+                    <xsl:element name="ancestors" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:attribute name="ana">
+                            <xsl:value-of select="."/>
+                        </xsl:attribute>
+                    </xsl:element>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:ancestors[tokenize(@ana, 'pmb')[1] and not(tokenize(@ana, 'pmb')[2])]">

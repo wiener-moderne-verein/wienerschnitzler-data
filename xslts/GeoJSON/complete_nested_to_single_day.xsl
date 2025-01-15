@@ -92,7 +92,7 @@
         <xsl:text>"],</xsl:text>
         <xsl:text>&#10;        "id": "</xsl:text>
         <xsl:value-of
-            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', $corresp, '/')"/>
+            select="$corresp"/>
         <xsl:text>"</xsl:text>
         <xsl:if test="tei:idno[@subtype = 'wikipedia']">
             <xsl:text>, </xsl:text>

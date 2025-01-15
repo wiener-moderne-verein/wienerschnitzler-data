@@ -30,6 +30,29 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/editions/xml/wienerschnitzler_complete.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>complete to distinctPlaces</String>
+                                        <String>complete to complete_nested (step 1)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/editions/xml/wienerschnitzler_distinctPlaces.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -52,29 +75,6 @@
                                     <list>
                                         <Byte>2</Byte>
                                         <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/editions/xml/wienerschnitzler_complete.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>complete to distinctPlaces</String>
-                                        <String>complete to complete_nested (step 1)</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
                                         <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>

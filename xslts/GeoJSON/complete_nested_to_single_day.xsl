@@ -90,7 +90,7 @@
         <xsl:text>&#10;        "timestamp": ["</xsl:text>
         <xsl:value-of select="$when"/>
         <xsl:text>"],</xsl:text>
-        <xsl:text>&#10;        "pmb": "</xsl:text>
+        <xsl:text>&#10;        "id": "</xsl:text>
         <xsl:value-of
             select="concat('https://pmb.acdh.oeaw.ac.at/entity/', $corresp, '/')"/>
         <xsl:text>"</xsl:text>

@@ -19,44 +19,50 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          14.375739, 40.628348
-        ]
+        "coordinates": [14.375739, 40.628348]
       },
       "properties": {
-        "title": "Hotel Vesuvio",
-        "timestamp": ["1904-05-14"],
-        "id": "pmb234024"
+         "id": "pmb234024",
+         "title": "Hotel Vesuvio",
+         "lat": "40.628348",
+         "lon": "14.375739",
+         "timestamp": ["1904-05-14"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q131277400"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          14.23577, 40.8327
-        ]
+        "coordinates": [14.23577, 40.8327]
       },
       "properties": {
-        "title": "Stazione Zoologica Anton Dohrn",
-        "timestamp": ["1904-05-14"],
-        "id": "pmb234052", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Zoologische_Station_Neapel"
+         "id": "pmb234052",
+         "title": "Stazione Zoologica Anton Dohrn",
+         "lat": "40.8327",
+         "lon": "14.23577",
+         "timestamp": ["1904-05-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Zoologische_Station_Neapel", 
+        "wikidata": "http://www.wikidata.org/entity/Q220221"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.33561, 38.13205
-        ]
+        "coordinates": [13.33561, 38.13205]
       },
       "properties": {
-        "title": "Palermo",
-        "timestamp": ["1904-05-14"],
-        "id": "pmb901", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Palermo"
+         "id": "pmb901",
+         "title": "Palermo",
+         "lat": "38.13205",
+         "lon": "13.33561",
+         "timestamp": ["1904-05-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Palermo", 
+        "wikidata": "http://www.wikidata.org/entity/Q2656"
       }
       }
   ]

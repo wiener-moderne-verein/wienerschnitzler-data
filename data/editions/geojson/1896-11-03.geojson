@@ -19,43 +19,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.382222, 52.524444
-        ]
+        "coordinates": [13.382222, 52.524444]
       },
       "properties": {
-        "title": "Deutsches Theater Berlin",
-        "timestamp": ["1896-11-03"],
-        "id": "pmb3"
+         "id": "pmb3",
+         "title": "Deutsches Theater Berlin",
+         "lat": "52.524444",
+         "lon": "13.382222",
+         "timestamp": ["1896-11-03"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.383708, 52.516981
-        ]
+        "coordinates": [13.383708, 52.516981]
       },
       "properties": {
-        "title": "Restaurant Hiller",
-        "timestamp": ["1896-11-03"],
-        "id": "pmb199492"
+         "id": "pmb199492",
+         "title": "Restaurant Hiller",
+         "lat": "52.516981",
+         "lon": "13.383708",
+         "timestamp": ["1896-11-03"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          17.03533, 51.10773
-        ]
+        "coordinates": [17.03533, 51.10773]
       },
       "properties": {
-        "title": "Breslau",
-        "timestamp": ["1896-11-03"],
-        "id": "pmb677", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Breslau"
+         "id": "pmb677",
+         "title": "Breslau",
+         "lat": "51.10773",
+         "lon": "17.03533",
+         "timestamp": ["1896-11-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Breslau", 
+        "wikidata": "http://www.wikidata.org/entity/Q1799"
       }
       }
   ]

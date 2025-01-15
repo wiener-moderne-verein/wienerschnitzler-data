@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.368085, 48.201301
-        ]
+        "coordinates": [16.368085, 48.201301]
       },
       "properties": {
-        "title": "Opernkino",
-        "timestamp": ["1913-10-11"],
-        "id": "pmb190658", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Opernkino"
+         "id": "pmb190658",
+         "title": "Opernkino",
+         "lat": "48.201301",
+         "lon": "16.368085",
+         "timestamp": ["1913-10-11"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Opernkino", 
+        "wikidata": "http://www.wikidata.org/entity/Q33393797"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1913-10-11"],
-        "id": "pmb168815"
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1913-10-11"],
+         "importance": "1"
       }
       }
   ]

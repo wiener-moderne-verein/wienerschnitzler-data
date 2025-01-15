@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.340682, 48.876305
-        ]
+        "coordinates": [2.340682, 48.876305]
       },
       "properties": {
-        "title": "rue de Maubeuge",
-        "timestamp": ["1897-05-04"],
-        "id": "pmb592"
+         "id": "pmb592",
+         "title": "rue de Maubeuge",
+         "lat": "48.876305",
+         "lon": "2.340682",
+         "timestamp": ["1897-05-04"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.3597222222222, 48.935555555556
-        ]
+        "coordinates": [2.3597222222222, 48.935555555556]
       },
       "properties": {
-        "title": "Kathedrale von Saint-Denis",
-        "timestamp": ["1897-05-04"],
-        "id": "pmb200166", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Kathedrale_von_Saint-Denis"
+         "id": "pmb200166",
+         "title": "Kathedrale von Saint-Denis",
+         "lat": "48.935555555556",
+         "lon": "2.3597222222222",
+         "timestamp": ["1897-05-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kathedrale_von_Saint-Denis", 
+        "wikidata": "http://www.wikidata.org/entity/Q184407"
       }
       }
   ]

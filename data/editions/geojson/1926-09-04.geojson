@@ -18,29 +18,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          7.864543454, 46.689737633
-        ]
+        "coordinates": [7.864543454, 46.689737633]
       },
       "properties": {
-        "title": "Hotel Beaurivage",
-        "timestamp": ["1926-09-04"],
-        "id": "pmb245386"
+         "id": "pmb245386",
+         "title": "Hotel Beaurivage",
+         "lat": "46.689737633",
+         "lon": "7.864543454",
+         "timestamp": ["1926-09-04"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q29673469"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          8.30635, 47.05048
-        ]
+        "coordinates": [8.30635, 47.05048]
       },
       "properties": {
-        "title": "Luzern",
-        "timestamp": ["1926-09-04"],
-        "id": "pmb967", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Luzern"
+         "id": "pmb967",
+         "title": "Luzern",
+         "lat": "47.05048",
+         "lon": "8.30635",
+         "timestamp": ["1926-09-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Luzern", 
+        "wikidata": "http://www.wikidata.org/entity/Q4191"
       }
       }
   ]

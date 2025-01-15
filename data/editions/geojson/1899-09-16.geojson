@@ -18,29 +18,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.561467767769052, 48.13907960520144
-        ]
+        "coordinates": [11.561467767769052, 48.13907960520144]
       },
       "properties": {
-        "title": "Hotel Rheinischer Hof München",
-        "timestamp": ["1899-09-16"],
-        "id": "pmb806"
+         "id": "pmb806",
+         "title": "Hotel Rheinischer Hof München",
+         "lat": "48.13907960520144",
+         "lon": "11.561467767769052",
+         "timestamp": ["1899-09-16"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130711545"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.07752, 49.45421
-        ]
+        "coordinates": [11.07752, 49.45421]
       },
       "properties": {
-        "title": "Nürnberg",
-        "timestamp": ["1899-09-16"],
-        "id": "pmb44172", 
-        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg"
+         "id": "pmb44172",
+         "title": "Nürnberg",
+         "lat": "49.45421",
+         "lon": "11.07752",
+         "timestamp": ["1899-09-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q2090"
       }
       }
   ]

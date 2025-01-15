@@ -20,58 +20,65 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.561467767769052, 48.13907960520144
-        ]
+        "coordinates": [11.561467767769052, 48.13907960520144]
       },
       "properties": {
-        "title": "Hotel Rheinischer Hof München",
-        "timestamp": ["1899-09-15"],
-        "id": "pmb806"
+         "id": "pmb806",
+         "title": "Hotel Rheinischer Hof München",
+         "lat": "48.13907960520144",
+         "lon": "11.561467767769052",
+         "timestamp": ["1899-09-15"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130711545"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.582478, 48.138122
-        ]
+        "coordinates": [11.582478, 48.138122]
       },
       "properties": {
-        "title": "Münchner Schauspielhaus",
-        "timestamp": ["1899-09-15"],
-        "id": "pmb11"
+         "id": "pmb11",
+         "title": "Münchner Schauspielhaus",
+         "lat": "48.138122",
+         "lon": "11.582478",
+         "timestamp": ["1899-09-15"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.571111, 48.148333
-        ]
+        "coordinates": [11.571111, 48.148333]
       },
       "properties": {
-        "title": "Alte Pinakothek",
-        "timestamp": ["1899-09-15"],
-        "id": "pmb511", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Alte_Pinakothek"
+         "id": "pmb511",
+         "title": "Alte Pinakothek",
+         "lat": "48.148333",
+         "lon": "11.571111",
+         "timestamp": ["1899-09-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Alte_Pinakothek", 
+        "wikidata": "http://www.wikidata.org/entity/Q154568"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.571111, 48.149722
-        ]
+        "coordinates": [11.571111, 48.149722]
       },
       "properties": {
-        "title": "Neue Pinakothek",
-        "timestamp": ["1899-09-15"],
-        "id": "pmb101", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Neue_Pinakothek"
+         "id": "pmb101",
+         "title": "Neue Pinakothek",
+         "lat": "48.149722",
+         "lon": "11.571111",
+         "timestamp": ["1899-09-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Neue_Pinakothek", 
+        "wikidata": "http://www.wikidata.org/entity/Q170152"
       }
       }
   ]

@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          15.16667, 47.66667
-        ]
+        "coordinates": [15.16667, 47.66667]
       },
       "properties": {
-        "title": "Weichselboden",
-        "timestamp": ["1889-08-16"],
-        "id": "pmb92057"
+         "id": "pmb92057",
+         "title": "Weichselboden",
+         "lat": "47.66667",
+         "lon": "15.16667",
+         "timestamp": ["1889-08-16"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          15.31639, 47.77306
-        ]
+        "coordinates": [15.31639, 47.77306]
       },
       "properties": {
-        "title": "Mariazell",
-        "timestamp": ["1889-08-16"],
-        "id": "pmb431", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Mariazell"
+         "id": "pmb431",
+         "title": "Mariazell",
+         "lat": "47.77306",
+         "lon": "15.31639",
+         "timestamp": ["1889-08-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mariazell", 
+        "wikidata": "http://www.wikidata.org/entity/Q264201"
       }
       }
   ]

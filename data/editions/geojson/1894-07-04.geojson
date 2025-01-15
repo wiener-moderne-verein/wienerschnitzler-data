@@ -20,14 +20,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.3589854, 48.2139714
-        ]
+        "coordinates": [16.3589854, 48.2139714]
       },
       "properties": {
-        "title": "Café Arkaden",
-        "timestamp": ["1894-07-04"],
-        "id": "pmb104", 
+         "id": "pmb104",
+         "title": "Café Arkaden",
+         "lat": "48.2139714",
+         "lon": "16.3589854",
+         "timestamp": ["1894-07-04"],
+         "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Arkaden"
       }
       },
@@ -35,43 +36,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.371296264238, 48.202432234197
-        ]
+        "coordinates": [16.371296264238, 48.202432234197]
       },
       "properties": {
-        "title": "Ringstraße",
-        "timestamp": ["1894-07-04"],
-        "id": "pmb112", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe"
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1894-07-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1894-07-04"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1894-07-04"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.36957, 48.21055
-        ]
+        "coordinates": [16.36957, 48.21055]
       },
       "properties": {
-        "title": "Drescher’s Restauration",
-        "timestamp": ["1894-07-04"],
-        "id": "pmb187153"
+         "id": "pmb187153",
+         "title": "Drescher’s Restauration",
+         "lat": "48.21055",
+         "lon": "16.36957",
+         "timestamp": ["1894-07-04"],
+         "importance": "1"
       }
       }
   ]

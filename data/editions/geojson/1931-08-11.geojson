@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.79877, 47.91762
-        ]
+        "coordinates": [13.79877, 47.91762]
       },
       "properties": {
-        "title": "Hotel Austria [Gmunden]",
-        "timestamp": ["1931-08-11"],
-        "id": "pmb245236"
+         "id": "pmb245236",
+         "title": "Hotel Austria [Gmunden]",
+         "lat": "47.91762",
+         "lon": "13.79877",
+         "timestamp": ["1931-08-11"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.61893, 47.71109
-        ]
+        "coordinates": [13.61893, 47.71109]
       },
       "properties": {
-        "title": "Bad Ischl",
-        "timestamp": ["1931-08-11"],
-        "id": "pmb213", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl"
+         "id": "pmb213",
+         "title": "Bad Ischl",
+         "lat": "47.71109",
+         "lon": "13.61893",
+         "timestamp": ["1931-08-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q250984"
       }
       }
   ]

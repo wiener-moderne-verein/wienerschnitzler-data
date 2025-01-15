@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.3282229279027873, 48.866009148511814
-        ]
+        "coordinates": [2.3282229279027873, 48.866009148511814]
       },
       "properties": {
-        "title": "Hotel Castiglione",
-        "timestamp": ["1897-04-12"],
-        "id": "pmb145781"
+         "id": "pmb145781",
+         "title": "Hotel Castiglione",
+         "lat": "48.866009148511814",
+         "lon": "2.3282229279027873",
+         "timestamp": ["1897-04-12"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.3416666666667, 48.871111111111
-        ]
+        "coordinates": [2.3416666666667, 48.871111111111]
       },
       "properties": {
-        "title": "passage des Panoramas",
-        "timestamp": ["1897-04-12"],
-        "id": "pmb200082", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Passage_des_Panoramas"
+         "id": "pmb200082",
+         "title": "passage des Panoramas",
+         "lat": "48.871111111111",
+         "lon": "2.3416666666667",
+         "timestamp": ["1897-04-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Passage_des_Panoramas", 
+        "wikidata": "http://www.wikidata.org/entity/Q3141829"
       }
       }
   ]

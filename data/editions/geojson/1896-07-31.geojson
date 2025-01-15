@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          18.075556, 59.329722
-        ]
+        "coordinates": [18.075556, 59.329722]
       },
       "properties": {
-        "title": "Grand Hotel Stockholm",
-        "timestamp": ["1896-07-31"],
-        "id": "pmb40705"
+         "id": "pmb40705",
+         "title": "Grand Hotel Stockholm",
+         "lat": "59.329722",
+         "lon": "18.075556",
+         "timestamp": ["1896-07-31"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          18.077777777778, 59.328611111111
-        ]
+        "coordinates": [18.077777777778, 59.328611111111]
       },
       "properties": {
-        "title": "Nationalmuseum",
-        "timestamp": ["1896-07-31"],
-        "id": "pmb199778", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schwedisches_Nationalmuseum"
+         "id": "pmb199778",
+         "title": "Nationalmuseum",
+         "lat": "59.328611111111",
+         "lon": "18.077777777778",
+         "timestamp": ["1896-07-31"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwedisches_Nationalmuseum", 
+        "wikidata": "http://www.wikidata.org/entity/Q842858"
       }
       }
   ]

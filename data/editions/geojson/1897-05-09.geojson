@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.340682, 48.876305
-        ]
+        "coordinates": [2.340682, 48.876305]
       },
       "properties": {
-        "title": "rue de Maubeuge",
-        "timestamp": ["1897-05-09"],
-        "id": "pmb592"
+         "id": "pmb592",
+         "title": "rue de Maubeuge",
+         "lat": "48.876305",
+         "lon": "2.340682",
+         "timestamp": ["1897-05-09"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.3419444444444, 48.871111111111
-        ]
+        "coordinates": [2.3419444444444, 48.871111111111]
       },
       "properties": {
-        "title": "Théâtre des Variétés",
-        "timestamp": ["1897-05-09"],
-        "id": "pmb185891", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_des_Vari%C3%A9t%C3%A9s"
+         "id": "pmb185891",
+         "title": "Théâtre des Variétés",
+         "lat": "48.871111111111",
+         "lon": "2.3419444444444",
+         "timestamp": ["1897-05-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_des_Vari%C3%A9t%C3%A9s", 
+        "wikidata": "http://www.wikidata.org/entity/Q373890"
       }
       }
   ]

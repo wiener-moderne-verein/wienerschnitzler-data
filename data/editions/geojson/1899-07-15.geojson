@@ -20,14 +20,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.3538456, 48.2134031
-        ]
+        "coordinates": [16.3538456, 48.2134031]
       },
       "properties": {
-        "title": "Riedhof",
-        "timestamp": ["1899-07-15"],
-        "id": "pmb44", 
+         "id": "pmb44",
+         "title": "Riedhof",
+         "lat": "48.2134031",
+         "lon": "16.3538456",
+         "timestamp": ["1899-07-15"],
+         "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof"
       }
       },
@@ -35,43 +36,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.345983, 48.19692
-        ]
+        "coordinates": [16.345983, 48.19692]
       },
       "properties": {
-        "title": "Hotel Kreuz [Wien]",
-        "timestamp": ["1899-07-15"],
-        "id": "pmb186933"
+         "id": "pmb186933",
+         "title": "Hotel Kreuz [Wien]",
+         "lat": "48.19692",
+         "lon": "16.345983",
+         "timestamp": ["1899-07-15"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.37778, 48.22583
-        ]
+        "coordinates": [16.37778, 48.22583]
       },
       "properties": {
-        "title": "Augarten",
-        "timestamp": ["1899-07-15"],
-        "id": "pmb124", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Augarten"
+         "id": "pmb124",
+         "title": "Augarten",
+         "lat": "48.22583",
+         "lon": "16.37778",
+         "timestamp": ["1899-07-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Augarten", 
+        "wikidata": "http://www.wikidata.org/entity/Q143265"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1899-07-15"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1899-07-15"],
+         "importance": "1"
       }
       }
   ]

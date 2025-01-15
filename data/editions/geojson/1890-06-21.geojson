@@ -19,44 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.36946, 48.20138
-        ]
+        "coordinates": [16.36946, 48.20138]
       },
       "properties": {
-        "title": "Leidingers Restauration",
-        "timestamp": ["1890-06-21"],
-        "id": "pmb42"
+         "id": "pmb42",
+         "title": "Leidingers Restauration",
+         "lat": "48.20138",
+         "lon": "16.36946",
+         "timestamp": ["1890-06-21"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.37301, 48.20858
-        ]
+        "coordinates": [16.37301, 48.20858]
       },
       "properties": {
-        "title": "Stephansdom",
-        "timestamp": ["1890-06-21"],
-        "id": "pmb567", 
+         "id": "pmb567",
+         "title": "Stephansdom",
+         "lat": "48.20858",
+         "lon": "16.37301",
+         "timestamp": ["1890-06-21"],
+         "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Stephansdom", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=17551"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=17551", 
+        "wikidata": "http://www.wikidata.org/entity/Q5943"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.37196, 48.20143
-        ]
+        "coordinates": [16.37196, 48.20143]
       },
       "properties": {
-        "title": "Kärntnerring 12/Bösendorferstraße 11",
-        "timestamp": ["1890-06-21"],
-        "id": "pmb167805"
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1890-06-21"],
+         "importance": "1"
       }
       }
   ]

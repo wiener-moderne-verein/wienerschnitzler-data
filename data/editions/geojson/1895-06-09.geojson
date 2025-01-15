@@ -19,44 +19,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1895-06-09"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1895-06-09"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.144030555555556, 47.69536111111111
-        ]
+        "coordinates": [16.144030555555556, 47.69536111111111]
       },
       "properties": {
-        "title": "Burg Seebenstein",
-        "timestamp": ["1895-06-09"],
-        "id": "pmb199142", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Burg_Seebenstein"
+         "id": "pmb199142",
+         "title": "Burg Seebenstein",
+         "lat": "47.69536111111111",
+         "lon": "16.144030555555556",
+         "timestamp": ["1895-06-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Burg_Seebenstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q665611"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.25, 47.8
-        ]
+        "coordinates": [16.25, 47.8]
       },
       "properties": {
-        "title": "Wiener Neustadt",
-        "timestamp": ["1895-06-09"],
-        "id": "pmb587", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Neustadt"
+         "id": "pmb587",
+         "title": "Wiener Neustadt",
+         "lat": "47.8",
+         "lon": "16.25",
+         "timestamp": ["1895-06-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Neustadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q131612"
       }
       }
   ]

@@ -18,30 +18,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.353889, 48.1975
-        ]
+        "coordinates": [16.353889, 48.1975]
       },
       "properties": {
-        "title": "Apollo-Theater [Wien]",
-        "timestamp": ["1913-02-13"],
-        "id": "pmb52023", 
+         "id": "pmb52023",
+         "title": "Apollo-Theater [Wien]",
+         "lat": "48.1975",
+         "lon": "16.353889",
+         "timestamp": ["1913-02-13"],
+         "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Apollo-Theater_(Wien)", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Apollokino"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Apollokino", 
+        "wikidata": "http://www.wikidata.org/entity/Q618966"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1913-02-13"],
-        "id": "pmb168815"
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1913-02-13"],
+         "importance": "1"
       }
       }
   ]

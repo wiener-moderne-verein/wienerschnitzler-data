@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.24924, 48.08736
-        ]
+        "coordinates": [16.24924, 48.08736]
       },
       "properties": {
-        "title": "Hauptstraße 56",
-        "timestamp": ["1902-07-23"],
-        "id": "pmb145165"
+         "id": "pmb145165",
+         "title": "Hauptstraße 56",
+         "lat": "48.08736",
+         "lon": "16.24924",
+         "timestamp": ["1902-07-23"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.19368, 47.9628
-        ]
+        "coordinates": [16.19368, 47.9628]
       },
       "properties": {
-        "title": "Gainfarn",
-        "timestamp": ["1902-07-23"],
-        "id": "pmb41007", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Gainfarn"
+         "id": "pmb41007",
+         "title": "Gainfarn",
+         "lat": "47.9628",
+         "lon": "16.19368",
+         "timestamp": ["1902-07-23"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gainfarn", 
+        "wikidata": "http://www.wikidata.org/entity/Q5517275"
       }
       }
   ]

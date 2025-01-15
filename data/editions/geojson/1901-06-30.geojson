@@ -20,58 +20,64 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.56679, 47.12575
-        ]
+        "coordinates": [10.56679, 47.12575]
       },
       "properties": {
-        "title": "Landeck",
-        "timestamp": ["1901-06-30"],
-        "id": "pmb91111"
+         "id": "pmb91111",
+         "title": "Landeck",
+         "lat": "47.12575",
+         "lon": "10.56679",
+         "timestamp": ["1901-06-30"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.11667, 47.13333
-        ]
+        "coordinates": [10.11667, 47.13333]
       },
       "properties": {
-        "title": "Langen",
-        "timestamp": ["1901-06-30"],
-        "id": "pmb91113"
+         "id": "pmb91113",
+         "title": "Langen",
+         "lat": "47.13333",
+         "lon": "10.11667",
+         "timestamp": ["1901-06-30"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.26372, 47.1275
-        ]
+        "coordinates": [10.26372, 47.1275]
       },
       "properties": {
-        "title": "St. Anton am Arlberg",
-        "timestamp": ["1901-06-30"],
-        "id": "pmb212", 
-        "wikipedia": "https://de.wikipedia.org/wiki/St._Anton_am_Arlberg"
+         "id": "pmb212",
+         "title": "St. Anton am Arlberg",
+         "lat": "47.1275",
+         "lon": "10.26372",
+         "timestamp": ["1901-06-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._Anton_am_Arlberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q659996"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          9.82255, 47.15476
-        ]
+        "coordinates": [9.82255, 47.15476]
       },
       "properties": {
-        "title": "Bludenz",
-        "timestamp": ["1901-06-30"],
-        "id": "pmb90366", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bludenz"
+         "id": "pmb90366",
+         "title": "Bludenz",
+         "lat": "47.15476",
+         "lon": "9.82255",
+         "timestamp": ["1901-06-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bludenz", 
+        "wikidata": "http://www.wikidata.org/entity/Q494504"
       }
       }
   ]

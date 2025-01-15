@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.74085, 47.55631
-        ]
+        "coordinates": [10.74085, 47.55631]
       },
       "properties": {
-        "title": "Hohenschwangau",
-        "timestamp": ["1928-08-17"],
-        "id": "pmb90895"
+         "id": "pmb90895",
+         "title": "Hohenschwangau",
+         "lat": "47.55631",
+         "lon": "10.74085",
+         "timestamp": ["1928-08-17"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.561467767769052, 48.13907960520144
-        ]
+        "coordinates": [11.561467767769052, 48.13907960520144]
       },
       "properties": {
-        "title": "Hotel Rheinischer Hof München",
-        "timestamp": ["1928-08-17"],
-        "id": "pmb806"
+         "id": "pmb806",
+         "title": "Hotel Rheinischer Hof München",
+         "lat": "48.13907960520144",
+         "lon": "11.561467767769052",
+         "timestamp": ["1928-08-17"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130711545"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.70171, 47.57143
-        ]
+        "coordinates": [10.70171, 47.57143]
       },
       "properties": {
-        "title": "Füssen",
-        "timestamp": ["1928-08-17"],
-        "id": "pmb596", 
-        "wikipedia": "https://de.wikipedia.org/wiki/F%C3%BCssen"
+         "id": "pmb596",
+         "title": "Füssen",
+         "lat": "47.57143",
+         "lon": "10.70171",
+         "timestamp": ["1928-08-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/F%C3%BCssen", 
+        "wikidata": "http://www.wikidata.org/entity/Q262684"
       }
       }
   ]

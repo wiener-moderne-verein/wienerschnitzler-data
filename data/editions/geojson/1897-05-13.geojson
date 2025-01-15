@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.340682, 48.876305
-        ]
+        "coordinates": [2.340682, 48.876305]
       },
       "properties": {
-        "title": "rue de Maubeuge",
-        "timestamp": ["1897-05-13"],
-        "id": "pmb592"
+         "id": "pmb592",
+         "title": "rue de Maubeuge",
+         "lat": "48.876305",
+         "lon": "2.340682",
+         "timestamp": ["1897-05-13"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.33763889, 48.84027778
-        ]
+        "coordinates": [2.33763889, 48.84027778]
       },
       "properties": {
-        "title": "Bal Bullier",
-        "timestamp": ["1897-05-13"],
-        "id": "pmb185908", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bal_Bullier"
+         "id": "pmb185908",
+         "title": "Bal Bullier",
+         "lat": "48.84027778",
+         "lon": "2.33763889",
+         "timestamp": ["1897-05-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bal_Bullier", 
+        "wikidata": "http://www.wikidata.org/entity/Q2880366"
       }
       }
   ]

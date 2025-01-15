@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          8.24473, 50.08161
-        ]
+        "coordinates": [8.24473, 50.08161]
       },
       "properties": {
-        "title": "Hôtel du Parc & Bristol",
-        "timestamp": ["1899-09-30"],
-        "id": "pmb43055"
+         "id": "pmb43055",
+         "title": "Hôtel du Parc & Bristol",
+         "lat": "50.08161",
+         "lon": "8.24473",
+         "timestamp": ["1899-09-30"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          7.92442, 49.9789
-        ]
+        "coordinates": [7.92442, 49.9789]
       },
       "properties": {
-        "title": "Rüdesheim",
-        "timestamp": ["1899-09-30"],
-        "id": "pmb920", 
-        "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdesheim_am_Rhein"
+         "id": "pmb920",
+         "title": "Rüdesheim",
+         "lat": "49.9789",
+         "lon": "7.92442",
+         "timestamp": ["1899-09-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdesheim_am_Rhein", 
+        "wikidata": "http://www.wikidata.org/entity/Q628118"
       }
       }
   ]

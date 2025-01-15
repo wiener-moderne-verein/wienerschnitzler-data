@@ -18,30 +18,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.41053, 52.52437
-        ]
+        "coordinates": [13.41053, 52.52437]
       },
       "properties": {
-        "title": "Berlin",
-        "timestamp": ["1926-05-15"],
-        "id": "pmb168", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1926-05-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.0385, 52.40416
-        ]
+        "coordinates": [13.0385, 52.40416]
       },
       "properties": {
-        "title": "Schloss Sanssouci",
-        "timestamp": ["1926-05-15"],
-        "id": "pmb49592", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Sanssouci"
+         "id": "pmb16682",
+         "title": "Schloss Sanssouci",
+         "lat": "52.40416",
+         "lon": "13.0385",
+         "timestamp": ["1926-05-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Sanssouci", 
+        "wikidata": "http://www.wikidata.org/entity/Q151330"
       }
       }
   ]

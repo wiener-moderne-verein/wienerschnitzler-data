@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.42961, 46.89313
-        ]
+        "coordinates": [11.42961, 46.89313]
       },
       "properties": {
-        "title": "Sterzing",
-        "timestamp": ["1908-07-08"],
-        "id": "pmb40302"
+         "id": "pmb40302",
+         "title": "Sterzing",
+         "lat": "46.89313",
+         "lon": "11.42961",
+         "timestamp": ["1908-07-08"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.44245, 46.93857
-        ]
+        "coordinates": [11.44245, 46.93857]
       },
       "properties": {
-        "title": "Gossensass",
-        "timestamp": ["1908-07-08"],
-        "id": "pmb40474", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Gossensa%C3%9F"
+         "id": "pmb40474",
+         "title": "Gossensass",
+         "lat": "46.93857",
+         "lon": "11.44245",
+         "timestamp": ["1908-07-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gossensa%C3%9F", 
+        "wikidata": "http://www.wikidata.org/entity/Q992211"
       }
       }
   ]

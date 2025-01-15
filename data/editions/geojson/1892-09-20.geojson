@@ -19,44 +19,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.336106, 45.4328
-        ]
+        "coordinates": [12.336106, 45.4328]
       },
       "properties": {
-        "title": "Grand Hotel Bauer-Grünwald",
-        "timestamp": ["1892-09-20"],
-        "id": "pmb310"
+         "id": "pmb310",
+         "title": "Grand Hotel Bauer-Grünwald",
+         "lat": "45.4328",
+         "lon": "12.336106",
+         "timestamp": ["1892-09-20"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.339722222222, 45.434444444444
-        ]
+        "coordinates": [12.339722222222, 45.434444444444]
       },
       "properties": {
-        "title": "Basilica di San Marco",
-        "timestamp": ["1892-09-20"],
-        "id": "pmb192409", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Markusdom"
+         "id": "pmb192409",
+         "title": "Basilica di San Marco",
+         "lat": "45.434444444444",
+         "lon": "12.339722222222",
+         "timestamp": ["1892-09-20"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Markusdom", 
+        "wikidata": "http://www.wikidata.org/entity/Q172988"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.339857, 45.433696
-        ]
+        "coordinates": [12.339857, 45.433696]
       },
       "properties": {
-        "title": "Palazzo Ducale",
-        "timestamp": ["1892-09-20"],
-        "id": "pmb149", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Dogenpalast"
+         "id": "pmb149",
+         "title": "Palazzo Ducale",
+         "lat": "45.433696",
+         "lon": "12.339857",
+         "timestamp": ["1892-09-20"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dogenpalast", 
+        "wikidata": "http://www.wikidata.org/entity/Q189883"
       }
       }
   ]

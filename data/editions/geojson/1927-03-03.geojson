@@ -18,30 +18,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.3566, 48.205142
-        ]
+        "coordinates": [16.3566, 48.205142]
       },
       "properties": {
-        "title": "Volkstheater",
-        "timestamp": ["1927-03-03"],
-        "id": "pmb20", 
+         "id": "pmb20",
+         "title": "Volkstheater",
+         "lat": "48.205142",
+         "lon": "16.3566",
+         "timestamp": ["1927-03-03"],
+         "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
+        "wikidata": "http://www.wikidata.org/entity/Q688555"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1927-03-03"],
-        "id": "pmb168815"
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1927-03-03"],
+         "importance": "1"
       }
       }
   ]

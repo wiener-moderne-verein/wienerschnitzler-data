@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.079535, 49.44914
-        ]
+        "coordinates": [11.079535, 49.44914]
       },
       "properties": {
-        "title": "Hotel Deutscher Kaiser",
-        "timestamp": ["1899-09-19"],
-        "id": "pmb88963"
+         "id": "pmb88963",
+         "title": "Hotel Deutscher Kaiser",
+         "lat": "49.44914",
+         "lon": "11.079535",
+         "timestamp": ["1899-09-19"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          8.68417, 50.11552
-        ]
+        "coordinates": [8.68417, 50.11552]
       },
       "properties": {
-        "title": "Frankfurt am Main",
-        "timestamp": ["1899-09-19"],
-        "id": "pmb146", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Frankfurt_am_Main"
+         "id": "pmb146",
+         "title": "Frankfurt am Main",
+         "lat": "50.11552",
+         "lon": "8.68417",
+         "timestamp": ["1899-09-19"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Frankfurt_am_Main", 
+        "wikidata": "http://www.wikidata.org/entity/Q1794"
       }
       }
   ]

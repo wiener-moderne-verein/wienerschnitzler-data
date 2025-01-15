@@ -18,29 +18,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -0.0516, 51.4506
-        ]
+        "coordinates": [-0.0516, 51.4506]
       },
       "properties": {
-        "title": "Honor Oak",
-        "timestamp": ["1888-05-24"],
-        "id": "pmb402"
+         "id": "pmb402",
+         "title": "Honor Oak",
+         "lat": "51.4506",
+         "lon": "-0.0516",
+         "timestamp": ["1888-05-24"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q13636553"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -0.11891, 51.4991
-        ]
+        "coordinates": [-0.11891, 51.4991]
       },
       "properties": {
-        "title": "St Thomas’ Hospital",
-        "timestamp": ["1888-05-24"],
-        "id": "pmb185156", 
-        "wikipedia": "https://de.wikipedia.org/wiki/St_Thomas%E2%80%99_Hospital"
+         "id": "pmb185156",
+         "title": "St Thomas’ Hospital",
+         "lat": "51.4991",
+         "lon": "-0.11891",
+         "timestamp": ["1888-05-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/St_Thomas%E2%80%99_Hospital", 
+        "wikidata": "http://www.wikidata.org/entity/Q1143779"
       }
       }
   ]

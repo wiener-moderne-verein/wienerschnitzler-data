@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.357233, 48.212477
-        ]
+        "coordinates": [16.357233, 48.212477]
       },
       "properties": {
-        "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-        "timestamp": ["1893-05-23"],
-        "id": "pmb167782"
+         "id": "pmb167782",
+         "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+         "lat": "48.212477",
+         "lon": "16.357233",
+         "timestamp": ["1893-05-23"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.4, 48.21667
-        ]
+        "coordinates": [16.4, 48.21667]
       },
       "properties": {
-        "title": "II., Leopoldstadt",
-        "timestamp": ["1893-05-23"],
-        "id": "pmb52", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Leopoldstadt"
+         "id": "pmb52",
+         "title": "II., Leopoldstadt",
+         "lat": "48.21667",
+         "lon": "16.4",
+         "timestamp": ["1893-05-23"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Leopoldstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q259120"
       }
       }
   ]

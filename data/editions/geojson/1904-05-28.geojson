@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.525551, 43.615941
-        ]
+        "coordinates": [13.525551, 43.615941]
       },
       "properties": {
-        "title": "Hotel della Vittoria",
-        "timestamp": ["1904-05-28"],
-        "id": "pmb234101"
+         "id": "pmb234101",
+         "title": "Hotel della Vittoria",
+         "lat": "43.615941",
+         "lon": "13.525551",
+         "timestamp": ["1904-05-28"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.509918, 43.625241
-        ]
+        "coordinates": [13.509918, 43.625241]
       },
       "properties": {
-        "title": "Duomo di Ancona",
-        "timestamp": ["1904-05-28"],
-        "id": "pmb234104", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Dom_von_Ancona"
+         "id": "pmb234104",
+         "title": "Duomo di Ancona",
+         "lat": "43.625241",
+         "lon": "13.509918",
+         "timestamp": ["1904-05-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dom_von_Ancona", 
+        "wikidata": "http://www.wikidata.org/entity/Q52861"
       }
       }
   ]

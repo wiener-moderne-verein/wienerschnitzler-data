@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.25848, 46.77696
-        ]
+        "coordinates": [10.25848, 46.77696]
       },
       "properties": {
-        "title": "Tarasp",
-        "timestamp": ["1925-08-29"],
-        "id": "pmb91871"
+         "id": "pmb91871",
+         "title": "Tarasp",
+         "lat": "46.77696",
+         "lon": "10.25848",
+         "timestamp": ["1925-08-29"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          9.8622, 46.5146
-        ]
+        "coordinates": [9.8622, 46.5146]
       },
       "properties": {
-        "title": "Celerina",
-        "timestamp": ["1925-08-29"],
-        "id": "pmb12589", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Celerina/Schlarigna"
+         "id": "pmb12589",
+         "title": "Celerina",
+         "lat": "46.5146",
+         "lon": "9.8622",
+         "timestamp": ["1925-08-29"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Celerina/Schlarigna", 
+        "wikidata": "http://www.wikidata.org/entity/Q64964"
       }
       }
   ]

@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          9.75, 47.53333
-        ]
+        "coordinates": [9.75, 47.53333]
       },
       "properties": {
-        "title": "Lochau",
-        "timestamp": ["1923-09-14"],
-        "id": "pmb91159"
+         "id": "pmb91159",
+         "title": "Lochau",
+         "lat": "47.53333",
+         "lon": "9.75",
+         "timestamp": ["1923-09-14"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.211, 47.13
-        ]
+        "coordinates": [10.211, 47.13]
       },
       "properties": {
-        "title": "Arlberg",
-        "timestamp": ["1923-09-14"],
-        "id": "pmb40310", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Arlberg"
+         "id": "pmb40310",
+         "title": "Arlberg",
+         "lat": "47.13",
+         "lon": "10.211",
+         "timestamp": ["1923-09-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Arlberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q665816"
       }
       }
   ]

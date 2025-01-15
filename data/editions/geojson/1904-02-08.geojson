@@ -19,43 +19,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.385556, 52.518889
-        ]
+        "coordinates": [13.385556, 52.518889]
       },
       "properties": {
-        "title": "Hotel Continental [Berlin]",
-        "timestamp": ["1904-02-08"],
-        "id": "pmb399"
+         "id": "pmb399",
+         "title": "Hotel Continental [Berlin]",
+         "lat": "52.518889",
+         "lon": "13.385556",
+         "timestamp": ["1904-02-08"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.382222, 52.524444
-        ]
+        "coordinates": [13.382222, 52.524444]
       },
       "properties": {
-        "title": "Deutsches Theater Berlin",
-        "timestamp": ["1904-02-08"],
-        "id": "pmb3"
+         "id": "pmb3",
+         "title": "Deutsches Theater Berlin",
+         "lat": "52.524444",
+         "lon": "13.382222",
+         "timestamp": ["1904-02-08"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.26586, 52.48338
-        ]
+        "coordinates": [13.26586, 52.48338]
       },
       "properties": {
-        "title": "Grunewald",
-        "timestamp": ["1904-02-08"],
-        "id": "pmb129", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Grunewald"
+         "id": "pmb129",
+         "title": "Grunewald",
+         "lat": "52.48338",
+         "lon": "13.26586",
+         "timestamp": ["1904-02-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Grunewald", 
+        "wikidata": "http://www.wikidata.org/entity/Q2874431"
       }
       }
   ]

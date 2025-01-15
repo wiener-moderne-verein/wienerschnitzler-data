@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.77095, 47.6416
-        ]
+        "coordinates": [13.77095, 47.6416]
       },
       "properties": {
-        "title": "Villa Annerl",
-        "timestamp": ["1916-09-28"],
-        "id": "pmb34387"
+         "id": "pmb34387",
+         "title": "Villa Annerl",
+         "lat": "47.6416",
+         "lon": "13.77095",
+         "timestamp": ["1916-09-28"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.79933, 47.91839
-        ]
+        "coordinates": [13.79933, 47.91839]
       },
       "properties": {
-        "title": "Gmunden",
-        "timestamp": ["1916-09-28"],
-        "id": "pmb874", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Gmunden"
+         "id": "pmb874",
+         "title": "Gmunden",
+         "lat": "47.91839",
+         "lon": "13.79933",
+         "timestamp": ["1916-09-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gmunden", 
+        "wikidata": "http://www.wikidata.org/entity/Q430449"
       }
       }
   ]

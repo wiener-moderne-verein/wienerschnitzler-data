@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.340682, 48.876305
-        ]
+        "coordinates": [2.340682, 48.876305]
       },
       "properties": {
-        "title": "rue de Maubeuge",
-        "timestamp": ["1897-05-07"],
-        "id": "pmb592"
+         "id": "pmb592",
+         "title": "rue de Maubeuge",
+         "lat": "48.876305",
+         "lon": "2.340682",
+         "timestamp": ["1897-05-07"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.3285, 48.880961
-        ]
+        "coordinates": [2.3285, 48.880961]
       },
       "properties": {
-        "title": "Théâtre de l’Œuvre",
-        "timestamp": ["1897-05-07"],
-        "id": "pmb612"
+         "id": "pmb612",
+         "title": "Théâtre de l’Œuvre",
+         "lat": "48.880961",
+         "lon": "2.3285",
+         "timestamp": ["1897-05-07"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q2292251"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.3377777777778, 48.881944444444
-        ]
+        "coordinates": [2.3377777777778, 48.881944444444]
       },
       "properties": {
-        "title": "Café de la Nouvelle Athènes",
-        "timestamp": ["1897-05-07"],
-        "id": "pmb200092", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_de_la_Nouvelle_Ath%C3%A8nes"
+         "id": "pmb200092",
+         "title": "Café de la Nouvelle Athènes",
+         "lat": "48.881944444444",
+         "lon": "2.3377777777778",
+         "timestamp": ["1897-05-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_de_la_Nouvelle_Ath%C3%A8nes", 
+        "wikidata": "http://www.wikidata.org/entity/Q1025688"
       }
       }
   ]

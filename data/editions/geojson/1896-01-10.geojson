@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1896-01-10"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-01-10"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          8.67556, 50.11
-        ]
+        "coordinates": [8.67556, 50.11]
       },
       "properties": {
-        "title": "Frankfurter Hof",
-        "timestamp": ["1896-01-10"],
-        "id": "pmb199460", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Frankfurter_Hof"
+         "id": "pmb199460",
+         "title": "Frankfurter Hof",
+         "lat": "50.11",
+         "lon": "8.67556",
+         "timestamp": ["1896-01-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Frankfurter_Hof", 
+        "wikidata": "http://www.wikidata.org/entity/Q1444973"
       }
       }
   ]

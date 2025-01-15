@@ -20,58 +20,65 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.340682, 48.876305
-        ]
+        "coordinates": [2.340682, 48.876305]
       },
       "properties": {
-        "title": "rue de Maubeuge",
-        "timestamp": ["1897-05-03"],
-        "id": "pmb592"
+         "id": "pmb592",
+         "title": "rue de Maubeuge",
+         "lat": "48.876305",
+         "lon": "2.340682",
+         "timestamp": ["1897-05-03"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.337833333333333, 48.87108333333333
-        ]
+        "coordinates": [2.337833333333333, 48.87108333333333]
       },
       "properties": {
-        "title": "Opéra Comique",
-        "timestamp": ["1897-05-03"],
-        "id": "pmb185895"
+         "id": "pmb185895",
+         "title": "Opéra Comique",
+         "lat": "48.87108333333333",
+         "lon": "2.337833333333333",
+         "timestamp": ["1897-05-03"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q47419907"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.29619, 48.87341
-        ]
+        "coordinates": [2.29619, 48.87341]
       },
       "properties": {
-        "title": "avenue des Champs-Élysées",
-        "timestamp": ["1897-05-03"],
-        "id": "pmb90464", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Avenue_des_Champs_%C3%89lys%C3%A9es"
+         "id": "pmb90464",
+         "title": "avenue des Champs-Élysées",
+         "lat": "48.87341",
+         "lon": "2.29619",
+         "timestamp": ["1897-05-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Avenue_des_Champs_%C3%89lys%C3%A9es", 
+        "wikidata": "http://www.wikidata.org/entity/Q550"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.3125, 48.866111
-        ]
+        "coordinates": [2.3125, 48.866111]
       },
       "properties": {
-        "title": "Grand Palais",
-        "timestamp": ["1897-05-03"],
-        "id": "pmb200119", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Grand_Palais"
+         "id": "pmb200119",
+         "title": "Grand Palais",
+         "lat": "48.866111",
+         "lon": "2.3125",
+         "timestamp": ["1897-05-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grand_Palais", 
+        "wikidata": "http://www.wikidata.org/entity/Q457318"
       }
       }
   ]

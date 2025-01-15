@@ -19,44 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.37312, 48.20122
-        ]
+        "coordinates": [16.37312, 48.20122]
       },
       "properties": {
-        "title": "Café Imperial",
-        "timestamp": ["1912-11-04"],
-        "id": "pmb43", 
+         "id": "pmb43",
+         "title": "Café Imperial",
+         "lat": "48.20122",
+         "lon": "16.37312",
+         "timestamp": ["1912-11-04"],
+         "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Imperial_(Wien)", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Imperial"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Imperial", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630919"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.347492624475, 48.216264483348
-        ]
+        "coordinates": [16.347492624475, 48.216264483348]
       },
       "properties": {
-        "title": "Sanatorium Loew",
-        "timestamp": ["1912-11-04"],
-        "id": "pmb89"
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1912-11-04"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1912-11-04"],
-        "id": "pmb168815"
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1912-11-04"],
+         "importance": "1"
       }
       }
   ]

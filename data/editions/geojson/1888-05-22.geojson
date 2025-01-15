@@ -19,44 +19,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.34646, 48.84673
-        ]
+        "coordinates": [2.34646, 48.84673]
       },
       "properties": {
-        "title": "Panthéon",
-        "timestamp": ["1888-05-22"],
-        "id": "pmb118491", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Panth%C3%A9on_(Paris)"
+         "id": "pmb118491",
+         "title": "Panthéon",
+         "lat": "48.84673",
+         "lon": "2.34646",
+         "timestamp": ["1888-05-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Panth%C3%A9on_(Paris)", 
+        "wikidata": "http://www.wikidata.org/entity/Q188856"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.336389, 48.8625
-        ]
+        "coordinates": [2.336389, 48.8625]
       },
       "properties": {
-        "title": "Musée du Louvre",
-        "timestamp": ["1888-05-22"],
-        "id": "pmb39678"
+         "id": "pmb39678",
+         "title": "Musée du Louvre",
+         "lat": "48.8625",
+         "lon": "2.336389",
+         "timestamp": ["1888-05-22"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -0.12574, 51.50853
-        ]
+        "coordinates": [-0.12574, 51.50853]
       },
       "properties": {
-        "title": "London",
-        "timestamp": ["1888-05-22"],
-        "id": "pmb224", 
-        "wikipedia": "https://de.wikipedia.org/wiki/London"
+         "id": "pmb224",
+         "title": "London",
+         "lat": "51.50853",
+         "lon": "-0.12574",
+         "timestamp": ["1888-05-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/London", 
+        "wikidata": "http://www.wikidata.org/entity/Q84"
       }
       }
   ]

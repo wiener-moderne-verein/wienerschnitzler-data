@@ -19,44 +19,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.008484, 53.553694
-        ]
+        "coordinates": [10.008484, 53.553694]
       },
       "properties": {
-        "title": "Hotel zum Kronprinzen [Hamburg]",
-        "timestamp": ["1896-07-05"],
-        "id": "pmb43368"
+         "id": "pmb43368",
+         "title": "Hotel zum Kronprinzen [Hamburg]",
+         "lat": "53.553694",
+         "lon": "10.008484",
+         "timestamp": ["1896-07-05"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          9.7972, 53.5652
-        ]
+        "coordinates": [9.7972, 53.5652]
       },
       "properties": {
-        "title": "Blankenese",
-        "timestamp": ["1896-07-05"],
-        "id": "pmb1226", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hamburg-Blankenese"
+         "id": "pmb1226",
+         "title": "Blankenese",
+         "lat": "53.5652",
+         "lon": "9.7972",
+         "timestamp": ["1896-07-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hamburg-Blankenese", 
+        "wikidata": "http://www.wikidata.org/entity/Q1607"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          9.98277778, 53.54
-        ]
+        "coordinates": [9.98277778, 53.54]
       },
       "properties": {
-        "title": "Hamburger Hafen",
-        "timestamp": ["1896-07-05"],
-        "id": "pmb199707", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hamburger_Hafen"
+         "id": "pmb199707",
+         "title": "Hamburger Hafen",
+         "lat": "53.54",
+         "lon": "9.98277778",
+         "timestamp": ["1896-07-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hamburger_Hafen", 
+        "wikidata": "http://www.wikidata.org/entity/Q3964"
       }
       }
   ]

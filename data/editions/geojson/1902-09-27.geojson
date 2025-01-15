@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.24924, 48.08736
-        ]
+        "coordinates": [16.24924, 48.08736]
       },
       "properties": {
-        "title": "Hauptstraße 56",
-        "timestamp": ["1902-09-27"],
-        "id": "pmb145165"
+         "id": "pmb145165",
+         "title": "Hauptstraße 56",
+         "lat": "48.08736",
+         "lon": "16.24924",
+         "timestamp": ["1902-09-27"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.23479, 48.0978
-        ]
+        "coordinates": [16.23479, 48.0978]
       },
       "properties": {
-        "title": "Gießhübl",
-        "timestamp": ["1902-09-27"],
-        "id": "pmb90721", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Gie%C3%9Fh%C3%BCbl"
+         "id": "pmb90721",
+         "title": "Gießhübl",
+         "lat": "48.0978",
+         "lon": "16.23479",
+         "timestamp": ["1902-09-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gie%C3%9Fh%C3%BCbl", 
+        "wikidata": "http://www.wikidata.org/entity/Q669527"
       }
       }
   ]

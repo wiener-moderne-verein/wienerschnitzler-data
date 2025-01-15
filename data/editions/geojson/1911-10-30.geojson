@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          14.42777, 50.0839
-        ]
+        "coordinates": [14.42777, 50.0839]
       },
       "properties": {
-        "title": "Palasthotel Prag",
-        "timestamp": ["1911-10-30"],
-        "id": "pmb90"
+         "id": "pmb90",
+         "title": "Palasthotel Prag",
+         "lat": "50.0839",
+         "lon": "14.42777",
+         "timestamp": ["1911-10-30"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          14.423933, 50.086122
-        ]
+        "coordinates": [14.423933, 50.086122]
       },
       "properties": {
-        "title": "Ständetheater",
-        "timestamp": ["1911-10-30"],
-        "id": "pmb27", 
-        "wikipedia": "https://de.wikipedia.org/wiki/St%C3%A4ndetheater"
+         "id": "pmb27",
+         "title": "Ständetheater",
+         "lat": "50.086122",
+         "lon": "14.423933",
+         "timestamp": ["1911-10-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/St%C3%A4ndetheater", 
+        "wikidata": "http://www.wikidata.org/entity/Q521155"
       }
       }
   ]

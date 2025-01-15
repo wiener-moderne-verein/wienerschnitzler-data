@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.101269, 46.751211
-        ]
+        "coordinates": [12.101269, 46.751211]
       },
       "properties": {
-        "title": "Wildbad Waldbrunn",
-        "timestamp": ["1902-07-07"],
-        "id": "pmb723"
+         "id": "pmb723",
+         "title": "Wildbad Waldbrunn",
+         "lat": "46.751211",
+         "lon": "12.101269",
+         "timestamp": ["1902-07-07"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.74915, 46.83228
-        ]
+        "coordinates": [12.74915, 46.83228]
       },
       "properties": {
-        "title": "Schloss Bruck",
-        "timestamp": ["1902-07-07"],
-        "id": "pmb232049", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Bruck_(Lienz)"
+         "id": "pmb232049",
+         "title": "Schloss Bruck",
+         "lat": "46.83228",
+         "lon": "12.74915",
+         "timestamp": ["1902-07-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Bruck_(Lienz)", 
+        "wikidata": "http://www.wikidata.org/entity/Q875733"
       }
       }
   ]

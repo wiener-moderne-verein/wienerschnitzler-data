@@ -18,30 +18,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.433333, 43.5
-        ]
+        "coordinates": [16.433333, 43.5]
       },
       "properties": {
-        "title": "Split",
-        "timestamp": ["1900-04-03"],
-        "id": "pmb4231", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Split"
+         "id": "pmb4231",
+         "title": "Split",
+         "lat": "43.5",
+         "lon": "16.433333",
+         "timestamp": ["1900-04-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Split", 
+        "wikidata": "http://www.wikidata.org/entity/Q1663"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.5, 43.5
-        ]
+        "coordinates": [16.5, 43.5]
       },
       "properties": {
-        "title": "Solin",
-        "timestamp": ["1900-04-03"],
-        "id": "pmb453", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salona"
+         "id": "pmb453",
+         "title": "Solin",
+         "lat": "43.5",
+         "lon": "16.5",
+         "timestamp": ["1900-04-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salona", 
+        "wikidata": "http://www.wikidata.org/entity/Q642828"
       }
       }
   ]

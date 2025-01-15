@@ -18,28 +18,31 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.386111, 52.521667
-        ]
+        "coordinates": [13.386111, 52.521667]
       },
       "properties": {
-        "title": "Neues Theater",
-        "timestamp": ["1896-11-05"],
-        "id": "pmb720"
+         "id": "pmb720",
+         "title": "Neues Theater",
+         "lat": "52.521667",
+         "lon": "13.386111",
+         "timestamp": ["1896-11-05"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.393233, 52.512204
-        ]
+        "coordinates": [13.393233, 52.512204]
       },
       "properties": {
-        "title": "Café Schiller",
-        "timestamp": ["1896-11-05"],
-        "id": "pmb199923"
+         "id": "pmb199923",
+         "title": "Café Schiller",
+         "lat": "52.512204",
+         "lon": "13.393233",
+         "timestamp": ["1896-11-05"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130609537"
       }
       }
   ]

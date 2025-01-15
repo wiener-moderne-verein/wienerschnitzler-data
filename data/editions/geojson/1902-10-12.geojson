@@ -19,43 +19,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.41053, 52.52437
-        ]
+        "coordinates": [13.41053, 52.52437]
       },
       "properties": {
-        "title": "Berlin",
-        "timestamp": ["1902-10-12"],
-        "id": "pmb168", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1902-10-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1902-10-12"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1902-10-12"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.335264, 48.228877
-        ]
+        "coordinates": [16.335264, 48.228877]
       },
       "properties": {
-        "title": "Gentzgasse 110",
-        "timestamp": ["1902-10-12"],
-        "id": "pmb232166"
+         "id": "pmb232166",
+         "title": "Gentzgasse 110",
+         "lat": "48.228877",
+         "lon": "16.335264",
+         "timestamp": ["1902-10-12"],
+         "importance": "1"
       }
       }
   ]

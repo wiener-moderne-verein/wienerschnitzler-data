@@ -20,58 +20,65 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          8.670434, 50.115178
-        ]
+        "coordinates": [8.670434, 50.115178]
       },
       "properties": {
-        "title": "Hotel Imperial [Frankfurt am Main]",
-        "timestamp": ["1910-09-17"],
-        "id": "pmb190402"
+         "id": "pmb190402",
+         "title": "Hotel Imperial [Frankfurt am Main]",
+         "lat": "50.115178",
+         "lon": "8.670434",
+         "timestamp": ["1910-09-17"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130404601"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          8.24932, 50.08258
-        ]
+        "coordinates": [8.24932, 50.08258]
       },
       "properties": {
-        "title": "Wiesbaden",
-        "timestamp": ["1910-09-17"],
-        "id": "pmb883", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiesbaden"
+         "id": "pmb883",
+         "title": "Wiesbaden",
+         "lat": "50.08258",
+         "lon": "8.24932",
+         "timestamp": ["1910-09-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiesbaden", 
+        "wikidata": "http://www.wikidata.org/entity/Q1721"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          8.24878, 50.0415
-        ]
+        "coordinates": [8.24878, 50.0415]
       },
       "properties": {
-        "title": "Biebrich",
-        "timestamp": ["1910-09-17"],
-        "id": "pmb64277"
+         "id": "pmb64277",
+         "title": "Biebrich",
+         "lat": "50.0415",
+         "lon": "8.24878",
+         "timestamp": ["1910-09-17"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          7.92442, 49.9789
-        ]
+        "coordinates": [7.92442, 49.9789]
       },
       "properties": {
-        "title": "Rüdesheim",
-        "timestamp": ["1910-09-17"],
-        "id": "pmb920", 
-        "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdesheim_am_Rhein"
+         "id": "pmb920",
+         "title": "Rüdesheim",
+         "lat": "49.9789",
+         "lon": "7.92442",
+         "timestamp": ["1910-09-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdesheim_am_Rhein", 
+        "wikidata": "http://www.wikidata.org/entity/Q628118"
       }
       }
   ]

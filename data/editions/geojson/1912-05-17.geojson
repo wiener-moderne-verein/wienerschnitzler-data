@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.336899, 45.432304
-        ]
+        "coordinates": [12.336899, 45.432304]
       },
       "properties": {
-        "title": "Hotel de l’Europe [Venedig]",
-        "timestamp": ["1912-05-17"],
-        "id": "pmb34050"
+         "id": "pmb34050",
+         "title": "Hotel de l’Europe [Venedig]",
+         "lat": "45.432304",
+         "lon": "12.336899",
+         "timestamp": ["1912-05-17"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.33835, 45.43411
-        ]
+        "coordinates": [12.33835, 45.43411]
       },
       "properties": {
-        "title": "Piazza San Marco",
-        "timestamp": ["1912-05-17"],
-        "id": "pmb261", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz"
+         "id": "pmb261",
+         "title": "Piazza San Marco",
+         "lat": "45.43411",
+         "lon": "12.33835",
+         "timestamp": ["1912-05-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz", 
+        "wikidata": "http://www.wikidata.org/entity/Q217527"
       }
       }
   ]

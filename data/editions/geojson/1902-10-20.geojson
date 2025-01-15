@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          15.607897, 50.816944
-        ]
+        "coordinates": [15.607897, 50.816944]
       },
       "properties": {
-        "title": "Haus Wiesenstein",
-        "timestamp": ["1902-10-20"],
-        "id": "pmb1052"
+         "id": "pmb1052",
+         "title": "Haus Wiesenstein",
+         "lat": "50.816944",
+         "lon": "15.607897",
+         "timestamp": ["1902-10-20"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q131144035"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          15.643611111111, 50.833611111111
-        ]
+        "coordinates": [15.643611111111, 50.833611111111]
       },
       "properties": {
-        "title": "Burg Chojnik",
-        "timestamp": ["1902-10-20"],
-        "id": "pmb232217", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Burg_Chojnik"
+         "id": "pmb232217",
+         "title": "Burg Chojnik",
+         "lat": "50.833611111111",
+         "lon": "15.643611111111",
+         "timestamp": ["1902-10-20"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Burg_Chojnik", 
+        "wikidata": "http://www.wikidata.org/entity/Q511254"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          17.0314915, 51.1052657
-        ]
+        "coordinates": [17.0314915, 51.1052657]
       },
       "properties": {
-        "title": "Weinrestaurant Christian Hansen",
-        "timestamp": ["1902-10-20"],
-        "id": "pmb125"
+         "id": "pmb125",
+         "title": "Weinrestaurant Christian Hansen",
+         "lat": "51.1052657",
+         "lon": "17.0314915",
+         "timestamp": ["1902-10-20"],
+         "importance": "1"
       }
       }
   ]

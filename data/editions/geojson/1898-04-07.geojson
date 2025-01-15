@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1898-04-07"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1898-04-07"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.32522, 48.30521
-        ]
+        "coordinates": [16.32522, 48.30521]
       },
       "properties": {
-        "title": "Klosterneuburg",
-        "timestamp": ["1898-04-07"],
-        "id": "pmb865", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg"
+         "id": "pmb865",
+         "title": "Klosterneuburg",
+         "lat": "48.30521",
+         "lon": "16.32522",
+         "timestamp": ["1898-04-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q487522"
       }
       }
   ]

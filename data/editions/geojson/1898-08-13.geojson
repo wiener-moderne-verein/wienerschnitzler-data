@@ -19,44 +19,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          7.34453, 47.36493
-        ]
+        "coordinates": [7.34453, 47.36493]
       },
       "properties": {
-        "title": "Delémont",
-        "timestamp": ["1898-08-13"],
-        "id": "pmb90515"
+         "id": "pmb90515",
+         "title": "Delémont",
+         "lat": "47.36493",
+         "lon": "7.34453",
+         "timestamp": ["1898-08-13"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          7.24608, 47.13713
-        ]
+        "coordinates": [7.24608, 47.13713]
       },
       "properties": {
-        "title": "Biel",
-        "timestamp": ["1898-08-13"],
-        "id": "pmb36477", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Biel/Bienne"
+         "id": "pmb36477",
+         "title": "Biel",
+         "lat": "47.13713",
+         "lon": "7.24608",
+         "timestamp": ["1898-08-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Biel/Bienne", 
+        "wikidata": "http://www.wikidata.org/entity/Q1034"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          6.9381, 47.00942
-        ]
+        "coordinates": [6.9381, 47.00942]
       },
       "properties": {
-        "title": "Neuchâtel",
-        "timestamp": ["1898-08-13"],
-        "id": "pmb34057", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Neuenburg_NE"
+         "id": "pmb34057",
+         "title": "Neuchâtel",
+         "lat": "47.00942",
+         "lon": "6.9381",
+         "timestamp": ["1898-08-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Neuenburg_NE", 
+        "wikidata": "http://www.wikidata.org/entity/Q69345"
       }
       }
   ]

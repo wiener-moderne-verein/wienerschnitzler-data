@@ -19,14 +19,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.3538456, 48.2134031
-        ]
+        "coordinates": [16.3538456, 48.2134031]
       },
       "properties": {
-        "title": "Riedhof",
-        "timestamp": ["1889-11-09"],
-        "id": "pmb44", 
+         "id": "pmb44",
+         "title": "Riedhof",
+         "lat": "48.2134031",
+         "lon": "16.3538456",
+         "timestamp": ["1889-11-09"],
+         "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof"
       }
       },
@@ -34,29 +35,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.375, 48.205139
-        ]
+        "coordinates": [16.375, 48.205139]
       },
       "properties": {
-        "title": "Ronacher",
-        "timestamp": ["1889-11-09"],
-        "id": "pmb19", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Ronacher"
+         "id": "pmb19",
+         "title": "Ronacher",
+         "lat": "48.205139",
+         "lon": "16.375",
+         "timestamp": ["1889-11-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
+        "wikidata": "http://www.wikidata.org/entity/Q1244587"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.36362, 48.20329
-        ]
+        "coordinates": [16.36362, 48.20329]
       },
       "properties": {
-        "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
-        "timestamp": ["1889-11-09"],
-        "id": "pmb168768"
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-11-09"],
+         "importance": "1"
       }
       }
   ]

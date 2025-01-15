@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.63749, 46.73901
-        ]
+        "coordinates": [11.63749, 46.73901]
       },
       "properties": {
-        "title": "Vahrn",
-        "timestamp": ["1901-07-18"],
-        "id": "pmb946"
+         "id": "pmb946",
+         "title": "Vahrn",
+         "lat": "46.73901",
+         "lon": "11.63749",
+         "timestamp": ["1901-07-18"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.6, 46.78333
-        ]
+        "coordinates": [11.6, 46.78333]
       },
       "properties": {
-        "title": "Franzensfeste",
-        "timestamp": ["1901-07-18"],
-        "id": "pmb40264", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Franzensfeste"
+         "id": "pmb40264",
+         "title": "Franzensfeste",
+         "lat": "46.78333",
+         "lon": "11.6",
+         "timestamp": ["1901-07-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Franzensfeste", 
+        "wikidata": "http://www.wikidata.org/entity/Q381499"
       }
       }
   ]

@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1897-07-27"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1897-07-27"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33306, 48.25
-        ]
+        "coordinates": [16.33306, 48.25]
       },
       "properties": {
-        "title": "XIX., Döbling",
-        "timestamp": ["1897-07-27"],
-        "id": "pmb69", 
-        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6bling"
+         "id": "pmb69",
+         "title": "XIX., Döbling",
+         "lat": "48.25",
+         "lon": "16.33306",
+         "timestamp": ["1897-07-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6bling", 
+        "wikidata": "http://www.wikidata.org/entity/Q267360"
       }
       }
   ]

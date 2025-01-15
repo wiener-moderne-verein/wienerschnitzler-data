@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.340682, 48.876305
-        ]
+        "coordinates": [2.340682, 48.876305]
       },
       "properties": {
-        "title": "rue de Maubeuge",
-        "timestamp": ["1897-05-17"],
-        "id": "pmb592"
+         "id": "pmb592",
+         "title": "rue de Maubeuge",
+         "lat": "48.876305",
+         "lon": "2.340682",
+         "timestamp": ["1897-05-17"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.3369444444444, 48.863333333333
-        ]
+        "coordinates": [2.3369444444444, 48.863333333333]
       },
       "properties": {
-        "title": "Palais-Royal",
-        "timestamp": ["1897-05-17"],
-        "id": "pmb185912", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Palais_Royal"
+         "id": "pmb185912",
+         "title": "Palais-Royal",
+         "lat": "48.863333333333",
+         "lon": "2.3369444444444",
+         "timestamp": ["1897-05-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Palais_Royal", 
+        "wikidata": "http://www.wikidata.org/entity/Q329948"
       }
       }
   ]

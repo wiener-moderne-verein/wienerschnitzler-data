@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.77189, 47.6417
-        ]
+        "coordinates": [13.77189, 47.6417]
       },
       "properties": {
-        "title": "Seewirt",
-        "timestamp": ["1921-08-05"],
-        "id": "pmb106"
+         "id": "pmb106",
+         "title": "Seewirt",
+         "lat": "47.6417",
+         "lon": "13.77189",
+         "timestamp": ["1921-08-05"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.78243, 47.60998
-        ]
+        "coordinates": [13.78243, 47.60998]
       },
       "properties": {
-        "title": "Bad Aussee",
-        "timestamp": ["1921-08-05"],
-        "id": "pmb415", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee"
+         "id": "pmb415",
+         "title": "Bad Aussee",
+         "lat": "47.60998",
+         "lon": "13.78243",
+         "timestamp": ["1921-08-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q251065"
       }
       }
   ]

@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.340682, 48.876305
-        ]
+        "coordinates": [2.340682, 48.876305]
       },
       "properties": {
-        "title": "rue de Maubeuge",
-        "timestamp": ["1897-04-29"],
-        "id": "pmb592"
+         "id": "pmb592",
+         "title": "rue de Maubeuge",
+         "lat": "48.876305",
+         "lon": "2.340682",
+         "timestamp": ["1897-04-29"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.330117, 48.878358
-        ]
+        "coordinates": [2.330117, 48.878358]
       },
       "properties": {
-        "title": "Casino de Paris",
-        "timestamp": ["1897-04-29"],
-        "id": "pmb185901"
+         "id": "pmb185901",
+         "title": "Casino de Paris",
+         "lat": "48.878358",
+         "lon": "2.330117",
+         "timestamp": ["1897-04-29"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q1187828"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.337222, 48.846944
-        ]
+        "coordinates": [2.337222, 48.846944]
       },
       "properties": {
-        "title": "Jardin du Luxembourg",
-        "timestamp": ["1897-04-29"],
-        "id": "pmb1257", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Jardin_du_Luxembourg"
+         "id": "pmb1257",
+         "title": "Jardin du Luxembourg",
+         "lat": "48.846944",
+         "lon": "2.337222",
+         "timestamp": ["1897-04-29"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Jardin_du_Luxembourg", 
+        "wikidata": "http://www.wikidata.org/entity/Q309458"
       }
       }
   ]

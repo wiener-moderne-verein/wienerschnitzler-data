@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.340682, 48.876305
-        ]
+        "coordinates": [2.340682, 48.876305]
       },
       "properties": {
-        "title": "rue de Maubeuge",
-        "timestamp": ["1897-04-21"],
-        "id": "pmb592"
+         "id": "pmb592",
+         "title": "rue de Maubeuge",
+         "lat": "48.876305",
+         "lon": "2.340682",
+         "timestamp": ["1897-04-21"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.335833, 48.863611
-        ]
+        "coordinates": [2.335833, 48.863611]
       },
       "properties": {
-        "title": "Comédie française",
-        "timestamp": ["1897-04-21"],
-        "id": "pmb554"
+         "id": "pmb554",
+         "title": "Comédie française",
+         "lat": "48.863611",
+         "lon": "2.335833",
+         "timestamp": ["1897-04-21"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q836007"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.294479, 48.858296
-        ]
+        "coordinates": [2.294479, 48.858296]
       },
       "properties": {
-        "title": "Tour d’Eiffel",
-        "timestamp": ["1897-04-21"],
-        "id": "pmb200125", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Eiffelturm"
+         "id": "pmb200125",
+         "title": "Tour d’Eiffel",
+         "lat": "48.858296",
+         "lon": "2.294479",
+         "timestamp": ["1897-04-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Eiffelturm", 
+        "wikidata": "http://www.wikidata.org/entity/Q243"
       }
       }
   ]

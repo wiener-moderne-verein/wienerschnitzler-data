@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.98444, 45.4299
-        ]
+        "coordinates": [10.98444, 45.4299]
       },
       "properties": {
-        "title": "Verona",
-        "timestamp": ["1927-09-05"],
-        "id": "pmb44153", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Verona"
+         "id": "pmb900",
+         "title": "Verona",
+         "lat": "45.4299",
+         "lon": "10.98444",
+         "timestamp": ["1927-09-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Verona", 
+        "wikidata": "http://www.wikidata.org/entity/Q2028"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.35, 45.38333
-        ]
+        "coordinates": [12.35, 45.38333]
       },
       "properties": {
-        "title": "Lido",
-        "timestamp": ["1927-09-05"],
-        "id": "pmb259"
+         "id": "pmb259",
+         "title": "Lido",
+         "lat": "45.38333",
+         "lon": "12.35",
+         "timestamp": ["1927-09-05"],
+         "importance": "1"
       }
       }
   ]

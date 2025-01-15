@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.387238, 52.518762
-        ]
+        "coordinates": [13.387238, 52.518762]
       },
       "properties": {
-        "title": "Dorotheenstraße 60",
-        "timestamp": ["1888-05-01"],
-        "id": "pmb92217"
+         "id": "pmb92217",
+         "title": "Dorotheenstraße 60",
+         "lat": "52.518762",
+         "lon": "13.387238",
+         "timestamp": ["1888-05-01"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.3879, 52.4939
-        ]
+        "coordinates": [13.3879, 52.4939]
       },
       "properties": {
-        "title": "Belle-Alliance-Theater",
-        "timestamp": ["1888-05-01"],
-        "id": "pmb185099", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Belle-Alliance-Theater"
+         "id": "pmb185099",
+         "title": "Belle-Alliance-Theater",
+         "lat": "52.4939",
+         "lon": "13.3879",
+         "timestamp": ["1888-05-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Belle-Alliance-Theater", 
+        "wikidata": "http://www.wikidata.org/entity/Q815816"
       }
       }
   ]

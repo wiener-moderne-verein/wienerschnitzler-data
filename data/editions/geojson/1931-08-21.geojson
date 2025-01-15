@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.79877, 47.91762
-        ]
+        "coordinates": [13.79877, 47.91762]
       },
       "properties": {
-        "title": "Hotel Austria [Gmunden]",
-        "timestamp": ["1931-08-21"],
-        "id": "pmb245236"
+         "id": "pmb245236",
+         "title": "Hotel Austria [Gmunden]",
+         "lat": "47.91762",
+         "lon": "13.79877",
+         "timestamp": ["1931-08-21"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.8081, 47.9275
-        ]
+        "coordinates": [13.8081, 47.9275]
       },
       "properties": {
-        "title": "Schloss Cumberland",
-        "timestamp": ["1931-08-21"],
-        "id": "pmb245528", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Cumberland"
+         "id": "pmb245528",
+         "title": "Schloss Cumberland",
+         "lat": "47.9275",
+         "lon": "13.8081",
+         "timestamp": ["1931-08-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Cumberland", 
+        "wikidata": "http://www.wikidata.org/entity/Q2240569"
       }
       }
   ]

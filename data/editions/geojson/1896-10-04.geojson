@@ -20,58 +20,64 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1896-10-04"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-10-04"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.28921, 48.08605
-        ]
+        "coordinates": [16.28921, 48.08605]
       },
       "properties": {
-        "title": "Mödling",
-        "timestamp": ["1896-10-04"],
-        "id": "pmb968", 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6dling"
+         "id": "pmb968",
+         "title": "Mödling",
+         "lat": "48.08605",
+         "lon": "16.28921",
+         "timestamp": ["1896-10-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6dling", 
+        "wikidata": "http://www.wikidata.org/entity/Q277965"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.18801, 48.07441
-        ]
+        "coordinates": [16.18801, 48.07441]
       },
       "properties": {
-        "title": "Sparbach",
-        "timestamp": ["1896-10-04"],
-        "id": "pmb91782"
+         "id": "pmb91782",
+         "title": "Sparbach",
+         "lat": "48.07441",
+         "lon": "16.18801",
+         "timestamp": ["1896-10-04"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.15, 48.13333
-        ]
+        "coordinates": [16.15, 48.13333]
       },
       "properties": {
-        "title": "Breitenfurt bei Wien",
-        "timestamp": ["1896-10-04"],
-        "id": "pmb1022", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Breitenfurt_bei_Wien"
+         "id": "pmb1022",
+         "title": "Breitenfurt bei Wien",
+         "lat": "48.13333",
+         "lon": "16.15",
+         "timestamp": ["1896-10-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Breitenfurt_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q662190"
       }
       }
   ]

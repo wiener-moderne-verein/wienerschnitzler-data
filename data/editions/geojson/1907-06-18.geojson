@@ -19,14 +19,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.3589854, 48.2139714
-        ]
+        "coordinates": [16.3589854, 48.2139714]
       },
       "properties": {
-        "title": "Café Arkaden",
-        "timestamp": ["1907-06-18"],
-        "id": "pmb104", 
+         "id": "pmb104",
+         "title": "Café Arkaden",
+         "lat": "48.2139714",
+         "lon": "16.3589854",
+         "timestamp": ["1907-06-18"],
+         "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Arkaden"
       }
       },
@@ -34,30 +35,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.3566, 48.205142
-        ]
+        "coordinates": [16.3566, 48.205142]
       },
       "properties": {
-        "title": "Volkstheater",
-        "timestamp": ["1907-06-18"],
-        "id": "pmb20", 
+         "id": "pmb20",
+         "title": "Volkstheater",
+         "lat": "48.205142",
+         "lon": "16.3566",
+         "timestamp": ["1907-06-18"],
+         "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
+        "wikidata": "http://www.wikidata.org/entity/Q688555"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33472, 48.2304
-        ]
+        "coordinates": [16.33472, 48.2304]
       },
       "properties": {
-        "title": "Edmund-Weiß-Gasse 7",
-        "timestamp": ["1907-06-18"],
-        "id": "pmb168940"
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-06-18"],
+         "importance": "1"
       }
       }
   ]

@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          8.946726, 46.002723
-        ]
+        "coordinates": [8.946726, 46.002723]
       },
       "properties": {
-        "title": "Hôtel du Parc",
-        "timestamp": ["1903-06-10"],
-        "id": "pmb513"
+         "id": "pmb513",
+         "title": "Hôtel du Parc",
+         "lat": "46.002723",
+         "lon": "8.946726",
+         "timestamp": ["1903-06-10"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          8.82193, 45.82908
-        ]
+        "coordinates": [8.82193, 45.82908]
       },
       "properties": {
-        "title": "Varese",
-        "timestamp": ["1903-06-10"],
-        "id": "pmb928", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Varese"
+         "id": "pmb928",
+         "title": "Varese",
+         "lat": "45.82908",
+         "lon": "8.82193",
+         "timestamp": ["1903-06-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Varese", 
+        "wikidata": "http://www.wikidata.org/entity/Q6285"
       }
       }
   ]

@@ -20,57 +20,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.330605, 50.978968
-        ]
+        "coordinates": [11.330605, 50.978968]
       },
       "properties": {
-        "title": "Hotel Erbprinz",
-        "timestamp": ["1906-08-16"],
-        "id": "pmb34102"
+         "id": "pmb34102",
+         "title": "Hotel Erbprinz",
+         "lat": "50.978968",
+         "lon": "11.330605",
+         "timestamp": ["1906-08-16"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.9199, 50.6912
-        ]
+        "coordinates": [10.9199, 50.6912]
       },
       "properties": {
-        "title": "Ilmenau",
-        "timestamp": ["1906-08-16"],
-        "id": "pmb2351"
+         "id": "pmb2351",
+         "title": "Ilmenau",
+         "lat": "50.6912",
+         "lon": "10.9199",
+         "timestamp": ["1906-08-16"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.8792, 50.6664
-        ]
+        "coordinates": [10.8792, 50.6664]
       },
       "properties": {
-        "title": "Goethehäuschen",
-        "timestamp": ["1906-08-16"],
-        "id": "pmb238193"
+         "id": "pmb238193",
+         "title": "Goethehäuschen",
+         "lat": "50.6664",
+         "lon": "10.8792",
+         "timestamp": ["1906-08-16"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q48118550"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          10.88472, 50.65652
-        ]
+        "coordinates": [10.88472, 50.65652]
       },
       "properties": {
-        "title": "Berghotel Gabelbach",
-        "timestamp": ["1906-08-16"],
-        "id": "pmb238189", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berghotel_Gabelbach"
+         "id": "pmb238189",
+         "title": "Berghotel Gabelbach",
+         "lat": "50.65652",
+         "lon": "10.88472",
+         "timestamp": ["1906-08-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berghotel_Gabelbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q819780"
       }
       }
   ]

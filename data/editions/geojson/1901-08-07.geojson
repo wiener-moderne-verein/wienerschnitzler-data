@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.63749, 46.73901
-        ]
+        "coordinates": [11.63749, 46.73901]
       },
       "properties": {
-        "title": "Vahrn",
-        "timestamp": ["1901-08-07"],
-        "id": "pmb946"
+         "id": "pmb946",
+         "title": "Vahrn",
+         "lat": "46.73901",
+         "lon": "11.63749",
+         "timestamp": ["1901-08-07"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.10556, 46.75774
-        ]
+        "coordinates": [12.10556, 46.75774]
       },
       "properties": {
-        "title": "Welsberg-Taisten",
-        "timestamp": ["1901-08-07"],
-        "id": "pmb428", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Welsberg_(Welsberg-Taisten) https://de.wikipedia.org/wiki/Welsberg-Taisten"
+         "id": "pmb428",
+         "title": "Welsberg-Taisten",
+         "lat": "46.75774",
+         "lon": "12.10556",
+         "timestamp": ["1901-08-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Welsberg_(Welsberg-Taisten) https://de.wikipedia.org/wiki/Welsberg-Taisten", 
+        "wikidata": "http://www.wikidata.org/entity/Q26269623 http://www.wikidata.org/entity/Q431389"
       }
       }
   ]

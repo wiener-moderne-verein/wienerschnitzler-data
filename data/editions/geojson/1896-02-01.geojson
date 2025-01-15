@@ -21,72 +21,79 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.389865, 52.516823
-        ]
+        "coordinates": [13.389865, 52.516823]
       },
       "properties": {
-        "title": "Hotel Westminster",
-        "timestamp": ["1896-02-01"],
-        "id": "pmb41234"
+         "id": "pmb41234",
+         "title": "Hotel Westminster",
+         "lat": "52.516823",
+         "lon": "13.389865",
+         "timestamp": ["1896-02-01"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.385425, 52.51165
-        ]
+        "coordinates": [13.385425, 52.51165]
       },
       "properties": {
-        "title": "Hotel Kaiserhof",
-        "timestamp": ["1896-02-01"],
-        "id": "pmb400", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Kaiserhof_(Berlin)"
+         "id": "pmb400",
+         "title": "Hotel Kaiserhof",
+         "lat": "52.51165",
+         "lon": "13.385425",
+         "timestamp": ["1896-02-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Kaiserhof_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q320591"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.387777777778, 52.519166666667
-        ]
+        "coordinates": [13.387777777778, 52.519166666667]
       },
       "properties": {
-        "title": "Wintergarten",
-        "timestamp": ["1896-02-01"],
-        "id": "pmb185084", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wintergarten_(Variet%C3%A9)"
+         "id": "pmb185084",
+         "title": "Wintergarten",
+         "lat": "52.519166666667",
+         "lon": "13.387777777778",
+         "timestamp": ["1896-02-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wintergarten_(Variet%C3%A9)", 
+        "wikidata": "http://www.wikidata.org/entity/Q519956"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.376389, 52.5225
-        ]
+        "coordinates": [13.376389, 52.5225]
       },
       "properties": {
-        "title": "Lessing-Theater",
-        "timestamp": ["1896-02-01"],
-        "id": "pmb18"
+         "id": "pmb18",
+         "title": "Lessing-Theater",
+         "lat": "52.5225",
+         "lon": "13.376389",
+         "timestamp": ["1896-02-01"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.382222, 52.524444
-        ]
+        "coordinates": [13.382222, 52.524444]
       },
       "properties": {
-        "title": "Deutsches Theater Berlin",
-        "timestamp": ["1896-02-01"],
-        "id": "pmb3"
+         "id": "pmb3",
+         "title": "Deutsches Theater Berlin",
+         "lat": "52.524444",
+         "lon": "13.382222",
+         "timestamp": ["1896-02-01"],
+         "importance": "1"
       }
       }
   ]

@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.3652839, 48.2030071
-        ]
+        "coordinates": [16.3652839, 48.2030071]
       },
       "properties": {
-        "title": "Burgkino",
-        "timestamp": ["1923-09-29"],
-        "id": "pmb190574", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Burgkino"
+         "id": "pmb190574",
+         "title": "Burgkino",
+         "lat": "48.2030071",
+         "lon": "16.3652839",
+         "timestamp": ["1923-09-29"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Burgkino", 
+        "wikidata": "http://www.wikidata.org/entity/Q33393771"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1923-09-29"],
-        "id": "pmb168815"
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1923-09-29"],
+         "importance": "1"
       }
       }
   ]

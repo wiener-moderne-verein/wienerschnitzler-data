@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1894-04-27"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1894-04-27"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.32428, 48.3065
-        ]
+        "coordinates": [16.32428, 48.3065]
       },
       "properties": {
-        "title": "Stiftskeller Klosterneuburg",
-        "timestamp": ["1894-04-27"],
-        "id": "pmb192317"
+         "id": "pmb192317",
+         "title": "Stiftskeller Klosterneuburg",
+         "lat": "48.3065",
+         "lon": "16.32428",
+         "timestamp": ["1894-04-27"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q38139807"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.25, 48.26667
-        ]
+        "coordinates": [16.25, 48.26667]
       },
       "properties": {
-        "title": "Weidlingbach",
-        "timestamp": ["1894-04-27"],
-        "id": "pmb44394", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)"
+         "id": "pmb473",
+         "title": "Weidlingbach",
+         "lat": "48.26667",
+         "lon": "16.25",
+         "timestamp": ["1894-04-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q12356726"
       }
       }
   ]

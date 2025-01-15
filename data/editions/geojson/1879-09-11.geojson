@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          3.0, 55.33333
-        ]
+        "coordinates": [3.0, 55.33333]
       },
       "properties": {
-        "title": "Nordsee",
-        "timestamp": ["1879-09-11"],
-        "id": "pmb118890"
+         "id": "pmb118890",
+         "title": "Nordsee",
+         "lat": "55.33333",
+         "lon": "3.0",
+         "timestamp": ["1879-09-11"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          4.88969, 52.37403
-        ]
+        "coordinates": [4.88969, 52.37403]
       },
       "properties": {
-        "title": "Amsterdam",
-        "timestamp": ["1879-09-11"],
-        "id": "pmb40709", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Amsterdam"
+         "id": "pmb40709",
+         "title": "Amsterdam",
+         "lat": "52.37403",
+         "lon": "4.88969",
+         "timestamp": ["1879-09-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Amsterdam", 
+        "wikidata": "http://www.wikidata.org/entity/Q727"
       }
       }
   ]

@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.41053, 52.52437
-        ]
+        "coordinates": [13.41053, 52.52437]
       },
       "properties": {
-        "title": "Berlin",
-        "timestamp": ["1929-01-05"],
-        "id": "pmb168", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin"
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1929-01-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.29417, 52.46601
-        ]
+        "coordinates": [13.29417, 52.46601]
       },
       "properties": {
-        "title": "Podbielskiallee 35–37",
-        "timestamp": ["1929-01-05"],
-        "id": "pmb235344"
+         "id": "pmb235344",
+         "title": "Podbielskiallee 35–37",
+         "lat": "52.46601",
+         "lon": "13.29417",
+         "timestamp": ["1929-01-05"],
+         "importance": "1"
       }
       }
   ]

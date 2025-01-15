@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -0.174938, 51.495309
-        ]
+        "coordinates": [-0.174938, 51.495309]
       },
       "properties": {
-        "title": "Cromwell Place",
-        "timestamp": ["1888-07-30"],
-        "id": "pmb92194"
+         "id": "pmb92194",
+         "title": "Cromwell Place",
+         "lat": "51.495309",
+         "lon": "-0.174938",
+         "timestamp": ["1888-07-30"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -0.0516, 51.4506
-        ]
+        "coordinates": [-0.0516, 51.4506]
       },
       "properties": {
-        "title": "Honor Oak",
-        "timestamp": ["1888-07-30"],
-        "id": "pmb402"
+         "id": "pmb402",
+         "title": "Honor Oak",
+         "lat": "51.4506",
+         "lon": "-0.0516",
+         "timestamp": ["1888-07-30"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q13636553"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -0.060333333333333, 51.506
-        ]
+        "coordinates": [-0.060333333333333, 51.506]
       },
       "properties": {
-        "title": "London Docks",
-        "timestamp": ["1888-07-30"],
-        "id": "pmb185315", 
-        "wikipedia": "https://de.wikipedia.org/wiki/London_Docks"
+         "id": "pmb185315",
+         "title": "London Docks",
+         "lat": "51.506",
+         "lon": "-0.060333333333333",
+         "timestamp": ["1888-07-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/London_Docks", 
+        "wikidata": "http://www.wikidata.org/entity/Q1488404"
       }
       }
   ]

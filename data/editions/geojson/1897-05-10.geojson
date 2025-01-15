@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.340682, 48.876305
-        ]
+        "coordinates": [2.340682, 48.876305]
       },
       "properties": {
-        "title": "rue de Maubeuge",
-        "timestamp": ["1897-05-10"],
-        "id": "pmb592"
+         "id": "pmb592",
+         "title": "rue de Maubeuge",
+         "lat": "48.876305",
+         "lon": "2.340682",
+         "timestamp": ["1897-05-10"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.337718, 48.876873
-        ]
+        "coordinates": [2.337718, 48.876873]
       },
       "properties": {
-        "title": "La Bodinière",
-        "timestamp": ["1897-05-10"],
-        "id": "pmb185889"
+         "id": "pmb185889",
+         "title": "La Bodinière",
+         "lat": "48.876873",
+         "lon": "2.337718",
+         "timestamp": ["1897-05-10"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q3527598"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.345, 48.87416667
-        ]
+        "coordinates": [2.345, 48.87416667]
       },
       "properties": {
-        "title": "Folies Bergère",
-        "timestamp": ["1897-05-10"],
-        "id": "pmb185904", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Folies_Berg%C3%A8re"
+         "id": "pmb185904",
+         "title": "Folies Bergère",
+         "lat": "48.87416667",
+         "lon": "2.345",
+         "timestamp": ["1897-05-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Folies_Berg%C3%A8re", 
+        "wikidata": "http://www.wikidata.org/entity/Q330375"
       }
       }
   ]

@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.340682, 48.876305
-        ]
+        "coordinates": [2.340682, 48.876305]
       },
       "properties": {
-        "title": "rue de Maubeuge",
-        "timestamp": ["1897-05-16"],
-        "id": "pmb592"
+         "id": "pmb592",
+         "title": "rue de Maubeuge",
+         "lat": "48.876305",
+         "lon": "2.340682",
+         "timestamp": ["1897-05-16"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.3346, 48.8834
-        ]
+        "coordinates": [2.3346, 48.8834]
       },
       "properties": {
-        "title": "Cabaret des Quat'z'Arts",
-        "timestamp": ["1897-05-16"],
-        "id": "pmb186061"
+         "id": "pmb186061",
+         "title": "Cabaret des Quat'z'Arts",
+         "lat": "48.8834",
+         "lon": "2.3346",
+         "timestamp": ["1897-05-16"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q15042438"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          2.3675305555556, 48.863369444444
-        ]
+        "coordinates": [2.3675305555556, 48.863369444444]
       },
       "properties": {
-        "title": "Cirque d'hiver",
-        "timestamp": ["1897-05-16"],
-        "id": "pmb200186", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Cirque_d%E2%80%99hiver_(Paris)"
+         "id": "pmb200186",
+         "title": "Cirque d'hiver",
+         "lat": "48.863369444444",
+         "lon": "2.3675305555556",
+         "timestamp": ["1897-05-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cirque_d%E2%80%99hiver_(Paris)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1093108"
       }
       }
   ]

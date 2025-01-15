@@ -65,9 +65,14 @@
     </xsl:template>
     <!-- ## place -->
     <xsl:template match="tei:place[tei:location[@type = 'coords']/tei:geo]" mode="point">
-        <xsl:param name="when" as="xs:date"/>
+        <xsl:param name="when"/>
+        <xsl:value-of select="mam:macht-punkt(., 'day', xs:string($when),  xs:string($when))"/>
+        
+        
+        <!--
+        
         <xsl:variable name="corresp" select="replace(@xml:id, '#', '')"/>
-        <!-- Add a comma before every feature except the first one -->
+        <!-\- Add a comma before every feature except the first one -\->
         <xsl:text>&#10;    {</xsl:text>
         <xsl:text>&#10;      "type": "Feature",</xsl:text>
         <xsl:text>&#10;      "geometry": {</xsl:text>
@@ -76,7 +81,7 @@
         <xsl:variable name="coords" select="tei:location[@type = 'coords']/tei:geo"/>
         <xsl:variable name="lat" select="replace(substring-before($coords, ' '), ',', '.')"/>
         <xsl:variable name="lon" select="replace(substring-after($coords, ' '), ',', '.')"/>
-        <!-- Correct order: longitude, latitude -->
+        <!-\- Correct order: longitude, latitude -\->
         <xsl:text>&#10;          </xsl:text>
         <xsl:value-of select="$lon"/>
         <xsl:text>, </xsl:text>
@@ -107,7 +112,7 @@
             <xsl:text>"</xsl:text>
         </xsl:if>
         <xsl:text>&#10;      }</xsl:text>
-        <xsl:text>&#10;      }</xsl:text>
+        <xsl:text>&#10;      }</xsl:text>-->
         <xsl:if test="following-sibling::tei:place[tei:location[@type = 'coords']/tei:geo]">
             <xsl:text>,</xsl:text>
         </xsl:if>

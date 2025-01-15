@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1930-06-19"],
-        "id": "pmb168815"
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1930-06-19"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.365, 48.063
-        ]
+        "coordinates": [16.365, 48.063]
       },
       "properties": {
-        "title": "Schlosspark Laxenburg",
-        "timestamp": ["1930-06-19"],
-        "id": "pmb239721"
+         "id": "pmb239721",
+         "title": "Schlosspark Laxenburg",
+         "lat": "48.063",
+         "lon": "16.365",
+         "timestamp": ["1930-06-19"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q21875133"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.3581, 48.0647
-        ]
+        "coordinates": [16.3581, 48.0647]
       },
       "properties": {
-        "title": "Schloss Laxenburg",
-        "timestamp": ["1930-06-19"],
-        "id": "pmb239724", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schl%C3%B6sser_von_Laxenburg"
+         "id": "pmb239724",
+         "title": "Schloss Laxenburg",
+         "lat": "48.0647",
+         "lon": "16.3581",
+         "timestamp": ["1930-06-19"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schl%C3%B6sser_von_Laxenburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q380298"
       }
       }
   ]

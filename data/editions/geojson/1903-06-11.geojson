@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          8.946726, 46.002723
-        ]
+        "coordinates": [8.946726, 46.002723]
       },
       "properties": {
-        "title": "Hôtel du Parc",
-        "timestamp": ["1903-06-11"],
-        "id": "pmb513"
+         "id": "pmb513",
+         "title": "Hôtel du Parc",
+         "lat": "46.002723",
+         "lon": "8.946726",
+         "timestamp": ["1903-06-11"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          9.01999, 45.93142
-        ]
+        "coordinates": [9.01999, 45.93142]
       },
       "properties": {
-        "title": "Monte Generoso",
-        "timestamp": ["1903-06-11"],
-        "id": "pmb548", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Monte_Generoso"
+         "id": "pmb548",
+         "title": "Monte Generoso",
+         "lat": "45.93142",
+         "lon": "9.01999",
+         "timestamp": ["1903-06-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Monte_Generoso", 
+        "wikidata": "http://www.wikidata.org/entity/Q15271"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          9.001172, 45.911272
-        ]
+        "coordinates": [9.001172, 45.911272]
       },
       "properties": {
-        "title": "Bellavista Bahnhof",
-        "timestamp": ["1903-06-11"],
-        "id": "pmb232966"
+         "id": "pmb232966",
+         "title": "Bellavista Bahnhof",
+         "lat": "45.911272",
+         "lon": "9.001172",
+         "timestamp": ["1903-06-11"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q7715047"
       }
       }
   ]

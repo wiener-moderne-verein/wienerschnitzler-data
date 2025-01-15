@@ -18,30 +18,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.04532, 47.80067
-        ]
+        "coordinates": [13.04532, 47.80067]
       },
       "properties": {
-        "title": "Salzburg",
-        "timestamp": ["1901-06-22"],
-        "id": "pmb30", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg"
+         "id": "pmb30",
+         "title": "Salzburg",
+         "lat": "47.80067",
+         "lon": "13.04532",
+         "timestamp": ["1901-06-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q34713"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.882423, 47.730685
-        ]
+        "coordinates": [12.882423, 47.730685]
       },
       "properties": {
-        "title": "Bad Reichenhall",
-        "timestamp": ["1901-06-22"],
-        "id": "pmb1181", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Reichenhall"
+         "id": "pmb1181",
+         "title": "Bad Reichenhall",
+         "lat": "47.730685",
+         "lon": "12.882423",
+         "timestamp": ["1901-06-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Reichenhall", 
+        "wikidata": "http://www.wikidata.org/entity/Q487971"
       }
       }
   ]

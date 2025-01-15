@@ -20,57 +20,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1898-05-02"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1898-05-02"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.43138888888889, 48.155833333333334
-        ]
+        "coordinates": [16.43138888888889, 48.155833333333334]
       },
       "properties": {
-        "title": "Israelitischer Friedhof",
-        "timestamp": ["1898-05-02"],
-        "id": "pmb192349"
+         "id": "pmb192349",
+         "title": "Israelitischer Friedhof",
+         "lat": "48.155833333333334",
+         "lon": "16.43138888888889",
+         "timestamp": ["1898-05-02"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q68752772"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.30865, 48.291
-        ]
+        "coordinates": [16.30865, 48.291]
       },
       "properties": {
-        "title": "Weidling",
-        "timestamp": ["1898-05-02"],
-        "id": "pmb44392", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Weidling_(Gemeinde_Klosterneuburg)"
+         "id": "pmb991",
+         "title": "Weidling",
+         "lat": "48.291",
+         "lon": "16.30865",
+         "timestamp": ["1898-05-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidling_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q484858"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35468, 48.27475
-        ]
+        "coordinates": [16.35468, 48.27475]
       },
       "properties": {
-        "title": "Kahlenbergerdorf",
-        "timestamp": ["1898-05-02"],
-        "id": "pmb90969"
+         "id": "pmb90969",
+         "title": "Kahlenbergerdorf",
+         "lat": "48.27475",
+         "lon": "16.35468",
+         "timestamp": ["1898-05-02"],
+         "importance": "1"
       }
       }
   ]

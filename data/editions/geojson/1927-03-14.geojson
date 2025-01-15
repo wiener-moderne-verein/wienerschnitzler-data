@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33828, 48.21149
-        ]
+        "coordinates": [16.33828, 48.21149]
       },
       "properties": {
-        "title": "Weltspiegelkino",
-        "timestamp": ["1927-03-14"],
-        "id": "pmb190694", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Weltspiegel"
+         "id": "pmb190694",
+         "title": "Weltspiegelkino",
+         "lat": "48.21149",
+         "lon": "16.33828",
+         "timestamp": ["1927-03-14"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Weltspiegel", 
+        "wikidata": "http://www.wikidata.org/entity/Q33394005"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1927-03-14"],
-        "id": "pmb168815"
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1927-03-14"],
+         "importance": "1"
       }
       }
   ]

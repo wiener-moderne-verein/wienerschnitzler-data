@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.561467767769052, 48.13907960520144
-        ]
+        "coordinates": [11.561467767769052, 48.13907960520144]
       },
       "properties": {
-        "title": "Hotel Rheinischer Hof München",
-        "timestamp": ["1899-09-14"],
-        "id": "pmb806"
+         "id": "pmb806",
+         "title": "Hotel Rheinischer Hof München",
+         "lat": "48.13907960520144",
+         "lon": "11.561467767769052",
+         "timestamp": ["1899-09-14"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130711545"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.578786, 48.139944
-        ]
+        "coordinates": [11.578786, 48.139944]
       },
       "properties": {
-        "title": "Residenztheater München",
-        "timestamp": ["1899-09-14"],
-        "id": "pmb635"
+         "id": "pmb635",
+         "title": "Residenztheater München",
+         "lat": "48.139944",
+         "lon": "11.578786",
+         "timestamp": ["1899-09-14"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.78243, 47.60998
-        ]
+        "coordinates": [13.78243, 47.60998]
       },
       "properties": {
-        "title": "Bad Aussee",
-        "timestamp": ["1899-09-14"],
-        "id": "pmb415", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee"
+         "id": "pmb415",
+         "title": "Bad Aussee",
+         "lat": "47.60998",
+         "lon": "13.78243",
+         "timestamp": ["1899-09-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q251065"
       }
       }
   ]

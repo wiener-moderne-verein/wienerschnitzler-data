@@ -18,29 +18,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.561467767769052, 48.13907960520144
-        ]
+        "coordinates": [11.561467767769052, 48.13907960520144]
       },
       "properties": {
-        "title": "Hotel Rheinischer Hof München",
-        "timestamp": ["1925-01-09"],
-        "id": "pmb806"
+         "id": "pmb806",
+         "title": "Hotel Rheinischer Hof München",
+         "lat": "48.13907960520144",
+         "lon": "11.561467767769052",
+         "timestamp": ["1925-01-09"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130711545"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          9.17921, 48.7797
-        ]
+        "coordinates": [9.17921, 48.7797]
       },
       "properties": {
-        "title": "Hotel Marquardt",
-        "timestamp": ["1925-01-09"],
-        "id": "pmb245225", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Marquardtbau"
+         "id": "pmb245225",
+         "title": "Hotel Marquardt",
+         "lat": "48.7797",
+         "lon": "9.17921",
+         "timestamp": ["1925-01-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Marquardtbau", 
+        "wikidata": "http://www.wikidata.org/entity/Q1902428"
       }
       }
   ]

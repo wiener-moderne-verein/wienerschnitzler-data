@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1896-09-27"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-09-27"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.21667, 48.38333
-        ]
+        "coordinates": [16.21667, 48.38333]
       },
       "properties": {
-        "title": "Stockerau",
-        "timestamp": ["1896-09-27"],
-        "id": "pmb54769", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Stockerau"
+         "id": "pmb15282",
+         "title": "Stockerau",
+         "lat": "48.38333",
+         "lon": "16.21667",
+         "timestamp": ["1896-09-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stockerau", 
+        "wikidata": "http://www.wikidata.org/entity/Q494283"
       }
       }
   ]

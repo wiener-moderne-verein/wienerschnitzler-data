@@ -20,58 +20,65 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          18.075556, 59.329722
-        ]
+        "coordinates": [18.075556, 59.329722]
       },
       "properties": {
-        "title": "Grand Hotel Stockholm",
-        "timestamp": ["1896-07-29"],
-        "id": "pmb40705"
+         "id": "pmb40705",
+         "title": "Grand Hotel Stockholm",
+         "lat": "59.329722",
+         "lon": "18.075556",
+         "timestamp": ["1896-07-29"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          18.07138888888889, 59.33
-        ]
+        "coordinates": [18.07138888888889, 59.33]
       },
       "properties": {
-        "title": "Operakällaren",
-        "timestamp": ["1896-07-29"],
-        "id": "pmb186914"
+         "id": "pmb186914",
+         "title": "Operakällaren",
+         "lat": "59.33",
+         "lon": "18.07138888888889",
+         "timestamp": ["1896-07-29"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q10610464"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          17.631111111111, 59.855
-        ]
+        "coordinates": [17.631111111111, 59.855]
       },
       "properties": {
-        "title": "Carolina Rediviva",
-        "timestamp": ["1896-07-29"],
-        "id": "pmb186918", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Carolina_Rediviva"
+         "id": "pmb186918",
+         "title": "Carolina Rediviva",
+         "lat": "59.855",
+         "lon": "17.631111111111",
+         "timestamp": ["1896-07-29"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Carolina_Rediviva", 
+        "wikidata": "http://www.wikidata.org/entity/Q1044419"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          17.633333333333, 59.858055555556
-        ]
+        "coordinates": [17.633333333333, 59.858055555556]
       },
       "properties": {
-        "title": "Dom St. Erik",
-        "timestamp": ["1896-07-29"],
-        "id": "pmb186922", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Dom_zu_Uppsala"
+         "id": "pmb186922",
+         "title": "Dom St. Erik",
+         "lat": "59.858055555556",
+         "lon": "17.633333333333",
+         "timestamp": ["1896-07-29"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dom_zu_Uppsala", 
+        "wikidata": "http://www.wikidata.org/entity/Q850042"
       }
       }
   ]

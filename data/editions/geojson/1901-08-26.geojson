@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.101269, 46.751211
-        ]
+        "coordinates": [12.101269, 46.751211]
       },
       "properties": {
-        "title": "Wildbad Waldbrunn",
-        "timestamp": ["1901-08-26"],
-        "id": "pmb723"
+         "id": "pmb723",
+         "title": "Wildbad Waldbrunn",
+         "lat": "46.751211",
+         "lon": "12.101269",
+         "timestamp": ["1901-08-26"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.8529, 46.61254
-        ]
+        "coordinates": [13.8529, 46.61254]
       },
       "properties": {
-        "title": "Villach",
-        "timestamp": ["1901-08-26"],
-        "id": "pmb40454", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Villach"
+         "id": "pmb40454",
+         "title": "Villach",
+         "lat": "46.61254",
+         "lon": "13.8529",
+         "timestamp": ["1901-08-26"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Villach", 
+        "wikidata": "http://www.wikidata.org/entity/Q483522"
       }
       }
   ]

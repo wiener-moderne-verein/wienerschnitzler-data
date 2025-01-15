@@ -19,43 +19,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.570521871552252, 48.141240506268204
-        ]
+        "coordinates": [11.570521871552252, 48.141240506268204]
       },
       "properties": {
-        "title": "Parkhotel München",
-        "timestamp": ["1921-05-06"],
-        "id": "pmb52580"
+         "id": "pmb52580",
+         "title": "Parkhotel München",
+         "lat": "48.141240506268204",
+         "lon": "11.570521871552252",
+         "timestamp": ["1921-05-06"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.576972, 48.138566
-        ]
+        "coordinates": [11.576972, 48.138566]
       },
       "properties": {
-        "title": "Hotel Englischer Hof [München]",
-        "timestamp": ["1921-05-06"],
-        "id": "pmb187284"
+         "id": "pmb187284",
+         "title": "Hotel Englischer Hof [München]",
+         "lat": "48.138566",
+         "lon": "11.576972",
+         "timestamp": ["1921-05-06"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130400990"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.591944, 48.152778
-        ]
+        "coordinates": [11.591944, 48.152778]
       },
       "properties": {
-        "title": "Englischer Garten [München]",
-        "timestamp": ["1921-05-06"],
-        "id": "pmb706", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Englischer_Garten_(M%C3%BCnchen)"
+         "id": "pmb706",
+         "title": "Englischer Garten [München]",
+         "lat": "48.152778",
+         "lon": "11.591944",
+         "timestamp": ["1921-05-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Englischer_Garten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q260223"
       }
       }
   ]

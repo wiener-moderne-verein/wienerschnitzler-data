@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.101269, 46.751211
-        ]
+        "coordinates": [12.101269, 46.751211]
       },
       "properties": {
-        "title": "Wildbad Waldbrunn",
-        "timestamp": ["1907-07-13"],
-        "id": "pmb723"
+         "id": "pmb723",
+         "title": "Wildbad Waldbrunn",
+         "lat": "46.751211",
+         "lon": "12.101269",
+         "timestamp": ["1907-07-13"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.113828, 46.759759
-        ]
+        "coordinates": [12.113828, 46.759759]
       },
       "properties": {
-        "title": "Schloss Welsperg",
-        "timestamp": ["1907-07-13"],
-        "id": "pmb1100", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Welsperg"
+         "id": "pmb1100",
+         "title": "Schloss Welsperg",
+         "lat": "46.759759",
+         "lon": "12.113828",
+         "timestamp": ["1907-07-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Welsperg", 
+        "wikidata": "http://www.wikidata.org/entity/Q781427"
       }
       }
   ]

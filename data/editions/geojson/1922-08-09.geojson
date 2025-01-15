@@ -18,29 +18,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.561467767769052, 48.13907960520144
-        ]
+        "coordinates": [11.561467767769052, 48.13907960520144]
       },
       "properties": {
-        "title": "Hotel Rheinischer Hof München",
-        "timestamp": ["1922-08-09"],
-        "id": "pmb806"
+         "id": "pmb806",
+         "title": "Hotel Rheinischer Hof München",
+         "lat": "48.13907960520144",
+         "lon": "11.561467767769052",
+         "timestamp": ["1922-08-09"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130711545"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.00187, 47.63236
-        ]
+        "coordinates": [13.00187, 47.63236]
       },
       "properties": {
-        "title": "Berchtesgaden",
-        "timestamp": ["1922-08-09"],
-        "id": "pmb797", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden"
+         "id": "pmb797",
+         "title": "Berchtesgaden",
+         "lat": "47.63236",
+         "lon": "13.00187",
+         "timestamp": ["1922-08-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
+        "wikidata": "http://www.wikidata.org/entity/Q278221"
       }
       }
   ]

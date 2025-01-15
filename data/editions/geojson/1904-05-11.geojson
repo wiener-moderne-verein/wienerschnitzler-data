@@ -18,29 +18,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          14.375739, 40.628348
-        ]
+        "coordinates": [14.375739, 40.628348]
       },
       "properties": {
-        "title": "Hotel Vesuvio",
-        "timestamp": ["1904-05-11"],
-        "id": "pmb234024"
+         "id": "pmb234024",
+         "title": "Hotel Vesuvio",
+         "lat": "40.628348",
+         "lon": "14.375739",
+         "timestamp": ["1904-05-11"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q131277400"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          14.489722, 40.750556
-        ]
+        "coordinates": [14.489722, 40.750556]
       },
       "properties": {
-        "title": "Pompeji",
-        "timestamp": ["1904-05-11"],
-        "id": "pmb1283", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Pompeji"
+         "id": "pmb1283",
+         "title": "Pompeji",
+         "lat": "40.750556",
+         "lon": "14.489722",
+         "timestamp": ["1904-05-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Pompeji", 
+        "wikidata": "http://www.wikidata.org/entity/Q43332"
       }
       }
   ]

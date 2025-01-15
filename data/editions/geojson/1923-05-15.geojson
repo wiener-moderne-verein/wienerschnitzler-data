@@ -19,44 +19,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.588912857735648, 55.68301054011226
-        ]
+        "coordinates": [12.588912857735648, 55.68301054011226]
       },
       "properties": {
-        "title": "Hotel Phönix",
-        "timestamp": ["1923-05-15"],
-        "id": "pmb58094"
+         "id": "pmb58094",
+         "title": "Hotel Phönix",
+         "lat": "55.68301054011226",
+         "lon": "12.588912857735648",
+         "timestamp": ["1923-05-15"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.08035, 55.64152
-        ]
+        "coordinates": [12.08035, 55.64152]
       },
       "properties": {
-        "title": "Roskilde",
-        "timestamp": ["1923-05-15"],
-        "id": "pmb57941", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Roskilde"
+         "id": "pmb13110",
+         "title": "Roskilde",
+         "lat": "55.64152",
+         "lon": "12.08035",
+         "timestamp": ["1923-05-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Roskilde", 
+        "wikidata": "http://www.wikidata.org/entity/Q26563"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          12.586002, 55.679629
-        ]
+        "coordinates": [12.586002, 55.679629]
       },
       "properties": {
-        "title": "Det Kongelige Teater",
-        "timestamp": ["1923-05-15"],
-        "id": "pmb1079", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Det_Kongelige_Teater"
+         "id": "pmb1079",
+         "title": "Det Kongelige Teater",
+         "lat": "55.679629",
+         "lon": "12.586002",
+         "timestamp": ["1923-05-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Det_Kongelige_Teater", 
+        "wikidata": "http://www.wikidata.org/entity/Q607681"
       }
       }
   ]

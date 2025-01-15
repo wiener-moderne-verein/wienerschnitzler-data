@@ -20,14 +20,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.371211, 48.206416
-        ]
+        "coordinates": [16.371211, 48.206416]
       },
       "properties": {
-        "title": "Meissl & Schadn",
-        "timestamp": ["1931-01-08"],
-        "id": "pmb96", 
+         "id": "pmb96",
+         "title": "Meissl & Schadn",
+         "lat": "48.206416",
+         "lon": "16.371211",
+         "timestamp": ["1931-01-08"],
+         "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn"
       }
       },
@@ -35,43 +36,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.375, 48.205139
-        ]
+        "coordinates": [16.375, 48.205139]
       },
       "properties": {
-        "title": "Ronacher",
-        "timestamp": ["1931-01-08"],
-        "id": "pmb19", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Ronacher"
+         "id": "pmb19",
+         "title": "Ronacher",
+         "lat": "48.205139",
+         "lon": "16.375",
+         "timestamp": ["1931-01-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
+        "wikidata": "http://www.wikidata.org/entity/Q1244587"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.338016, 48.234091
-        ]
+        "coordinates": [16.338016, 48.234091]
       },
       "properties": {
-        "title": "Gregor-Mendel-Straße 34",
-        "timestamp": ["1931-01-08"],
-        "id": "pmb236372"
+         "id": "pmb236372",
+         "title": "Gregor-Mendel-Straße 34",
+         "lat": "48.234091",
+         "lon": "16.338016",
+         "timestamp": ["1931-01-08"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1931-01-08"],
-        "id": "pmb168815"
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1931-01-08"],
+         "importance": "1"
       }
       }
   ]

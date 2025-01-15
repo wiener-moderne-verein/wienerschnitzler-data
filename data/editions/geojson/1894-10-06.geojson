@@ -20,14 +20,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.373959, 48.205476
-        ]
+        "coordinates": [16.373959, 48.205476]
       },
       "properties": {
-        "title": "Himmelpfortgasse",
-        "timestamp": ["1894-10-06"],
-        "id": "pmb40827", 
+         "id": "pmb40827",
+         "title": "Himmelpfortgasse",
+         "lat": "48.205476",
+         "lon": "16.373959",
+         "timestamp": ["1894-10-06"],
+         "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Himmelpfortgasse"
       }
       },
@@ -35,44 +36,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.366111, 48.208258
-        ]
+        "coordinates": [16.366111, 48.208258]
       },
       "properties": {
-        "title": "Café Griensteidl",
-        "timestamp": ["1894-10-06"],
-        "id": "pmb34", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Griensteidl"
+         "id": "pmb34",
+         "title": "Café Griensteidl",
+         "lat": "48.208258",
+         "lon": "16.366111",
+         "timestamp": ["1894-10-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Griensteidl", 
+        "wikidata": "http://www.wikidata.org/entity/Q877029"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.362946, 48.214527
-        ]
+        "coordinates": [16.362946, 48.214527]
       },
       "properties": {
-        "title": "Hotel de France",
-        "timestamp": ["1894-10-06"],
-        "id": "pmb337", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_de_France_(Wien)"
+         "id": "pmb337",
+         "title": "Hotel de France",
+         "lat": "48.214527",
+         "lon": "16.362946",
+         "timestamp": ["1894-10-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_de_France_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1631085"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1894-10-06"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1894-10-06"],
+         "importance": "1"
       }
       }
   ]

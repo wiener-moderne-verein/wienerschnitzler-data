@@ -76,7 +76,7 @@
             </xsl:when>
             <xsl:when test="$timespan-type = 'day'"> 
                 <xsl:text>"</xsl:text>
-                <xsl:value-of select="$input-placeNode/descendant::tei:event/@when"/>
+                <xsl:value-of select="xs:string($timespan-begin)"/>
                 <xsl:text>"</xsl:text>
                 
             </xsl:when>
@@ -105,6 +105,24 @@
             </xsl:when>
         </xsl:choose>
         <xsl:text>"</xsl:text>
+        <xsl:if test="$input-placeNode/tei:idno[@subtype = 'wikipedia']">
+            <xsl:text>, </xsl:text>
+            <xsl:text>&#10;        "wikipedia": "</xsl:text>
+            <xsl:value-of select="$input-placeNode/tei:idno[@subtype = 'wikipedia']"/>
+            <xsl:text>"</xsl:text>
+        </xsl:if>
+        <xsl:if test="$input-placeNode/tei:idno[@subtype = 'wiengeschichtewiki']">
+            <xsl:text>, </xsl:text>
+            <xsl:text>&#10;        "wiengeschichtewiki": "</xsl:text>
+            <xsl:value-of select="$input-placeNode/tei:idno[@subtype = 'wiengeschichtewiki']"/>
+            <xsl:text>"</xsl:text>
+        </xsl:if>
+        <xsl:if test="$input-placeNode/tei:idno[@subtype = 'wikidata']">
+            <xsl:text>, </xsl:text>
+            <xsl:text>&#10;        "wikidata": "</xsl:text>
+            <xsl:value-of select="$input-placeNode/tei:idno[@subtype = 'wikidata']"/>
+            <xsl:text>"</xsl:text>
+        </xsl:if>
         <xsl:text>&#10;      }</xsl:text>
         <xsl:text>&#10;      }</xsl:text>
     </xsl:function>

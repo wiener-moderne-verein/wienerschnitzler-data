@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.363311, 48.214712
-        ]
+        "coordinates": [16.363311, 48.214712]
       },
       "properties": {
-        "title": "Kino De France",
-        "timestamp": ["1920-10-01"],
-        "id": "pmb190725", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Schottenringkino"
+         "id": "pmb190725",
+         "title": "Kino De France",
+         "lat": "48.214712",
+         "lon": "16.363311",
+         "timestamp": ["1920-10-01"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Schottenringkino", 
+        "wikidata": "http://www.wikidata.org/entity/Q27827753"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.33716, 48.23188
-        ]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-        "title": "Sternwartestraße 71",
-        "timestamp": ["1920-10-01"],
-        "id": "pmb168815"
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1920-10-01"],
+         "importance": "1"
       }
       }
   ]

@@ -18,29 +18,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.561467767769052, 48.13907960520144
-        ]
+        "coordinates": [11.561467767769052, 48.13907960520144]
       },
       "properties": {
-        "title": "Hotel Rheinischer Hof München",
-        "timestamp": ["1898-08-11"],
-        "id": "pmb806"
+         "id": "pmb806",
+         "title": "Hotel Rheinischer Hof München",
+         "lat": "48.13907960520144",
+         "lon": "11.561467767769052",
+         "timestamp": ["1898-08-11"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130711545"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          7.57327, 47.55839
-        ]
+        "coordinates": [7.57327, 47.55839]
       },
       "properties": {
-        "title": "Basel",
-        "timestamp": ["1898-08-11"],
-        "id": "pmb854", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Basel"
+         "id": "pmb854",
+         "title": "Basel",
+         "lat": "47.55839",
+         "lon": "7.57327",
+         "timestamp": ["1898-08-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Basel", 
+        "wikidata": "http://www.wikidata.org/entity/Q78"
       }
       }
   ]

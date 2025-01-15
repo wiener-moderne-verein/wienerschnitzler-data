@@ -19,44 +19,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.387238, 52.518762
-        ]
+        "coordinates": [13.387238, 52.518762]
       },
       "properties": {
-        "title": "Dorotheenstraße 60",
-        "timestamp": ["1888-04-16"],
-        "id": "pmb92217"
+         "id": "pmb92217",
+         "title": "Dorotheenstraße 60",
+         "lat": "52.518762",
+         "lon": "13.387238",
+         "timestamp": ["1888-04-16"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          13.3891, 52.5167
-        ]
+        "coordinates": [13.3891, 52.5167]
       },
       "properties": {
-        "title": "Café Bauer",
-        "timestamp": ["1888-04-16"],
-        "id": "pmb185035", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Bauer_(Berlin)"
+         "id": "pmb185035",
+         "title": "Café Bauer",
+         "lat": "52.5167",
+         "lon": "13.3891",
+         "timestamp": ["1888-04-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Bauer_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1025572"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.3691, 48.203
-        ]
+        "coordinates": [16.3691, 48.203]
       },
       "properties": {
-        "title": "Oper",
-        "timestamp": ["1888-04-16"],
-        "id": "pmb15", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper"
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1888-04-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937"
       }
       }
   ]

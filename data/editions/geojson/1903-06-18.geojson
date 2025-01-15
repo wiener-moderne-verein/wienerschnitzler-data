@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.35736, 48.21533
-        ]
+        "coordinates": [16.35736, 48.21533]
       },
       "properties": {
-        "title": "Frankgasse 1",
-        "timestamp": ["1903-06-18"],
-        "id": "pmb168934"
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1903-06-18"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          16.29204, 48.10917
-        ]
+        "coordinates": [16.29204, 48.10917]
       },
       "properties": {
-        "title": "Brunn am Gebirge",
-        "timestamp": ["1903-06-18"],
-        "id": "pmb40201", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Brunn_am_Gebirge"
+         "id": "pmb40201",
+         "title": "Brunn am Gebirge",
+         "lat": "48.10917",
+         "lon": "16.29204",
+         "timestamp": ["1903-06-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Brunn_am_Gebirge", 
+        "wikidata": "http://www.wikidata.org/entity/Q871405"
       }
       }
   ]

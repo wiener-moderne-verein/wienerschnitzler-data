@@ -18,29 +18,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.75367, 47.70896
-        ]
+        "coordinates": [11.75367, 47.70896]
       },
       "properties": {
-        "title": "Hotel Post",
-        "timestamp": ["1898-08-06"],
-        "id": "pmb34048"
+         "id": "pmb34048",
+         "title": "Hotel Post",
+         "lat": "47.70896",
+         "lon": "11.75367",
+         "timestamp": ["1898-08-06"],
+         "importance": "1"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          11.85936, 47.73621
-        ]
+        "coordinates": [11.85936, 47.73621]
       },
       "properties": {
-        "title": "Schliersee",
-        "timestamp": ["1898-08-06"],
-        "id": "pmb936", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schliersee_(Gemeinde)"
+         "id": "pmb936",
+         "title": "Schliersee",
+         "lat": "47.73621",
+         "lon": "11.85936",
+         "timestamp": ["1898-08-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schliersee_(Gemeinde)", 
+        "wikidata": "http://www.wikidata.org/entity/Q260306"
       }
       }
   ]

@@ -7,14 +7,16 @@
         "type": "LineString", 
         "coordinates": [
             [16.11437, 48.13047], 
-            [16.15292, 48.04261], 
+            [16.130278, 48.055278], 
             [16.24801, 48.08509], 
             [16.2652, 48.080769], 
             [16.402222, 48.214722], 
             [16.395442, 48.217178], 
             [16.39347, 48.21854], 
             [16.33716, 48.23188], 
-            [16.28610371233, 48.233119188484]
+            [16.338015, 48.234046], 
+            [16.28610371233, 48.233119188484], 
+            [16.08333, 48.18333]
           ]
       },
       "properties": {
@@ -90,6 +92,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.338015, 48.234046]
+      },
+      "properties": {
+         "id": "pmb185644",
+         "title": "Peregringasse 4",
+         "lat": "48.234046",
+         "lon": "16.338015",
+         "timestamp": ["1928-05-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -105,17 +122,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.15292, 48.04261]
+        "coordinates": [16.130278, 48.055278]
       },
       "properties": {
-         "id": "pmb939",
-         "title": "Heiligenkreuz",
-         "lat": "48.04261",
-         "lon": "16.15292",
+         "id": "pmb44789",
+         "title": "Stift Heiligenkreuz",
+         "lat": "48.055278",
+         "lon": "16.130278",
          "timestamp": ["1928-05-15"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Heiligenkreuz_(Nieder%C3%B6sterreich)", 
-        "wikidata": "http://www.wikidata.org/entity/Q665159"
+         "importance": "1"
       }
       },
     {
@@ -162,6 +177,21 @@
          "timestamp": ["1928-05-15"],
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q130472316"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.08333, 48.18333]
+      },
+      "properties": {
+         "id": "pmb2734",
+         "title": "Pressbaum",
+         "lat": "48.18333",
+         "lon": "16.08333",
+         "timestamp": ["1928-05-15"],
+         "importance": "1"
       }
       }
   ]

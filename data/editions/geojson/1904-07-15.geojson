@@ -6,36 +6,18 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.66667, 47.73333], 
             [15.6707854, 47.71778962], 
-            [15.8634, 47.69209], 
             [15.84453, 47.69852], 
             [15.81667, 47.71667], 
             [15.73019, 47.77325], 
-            [15.697778, 47.763781], 
-            [15.66667, 47.73333]
+            [15.697778, 47.763781]
           ]
       },
       "properties": {
         "name": "15. Juli 1904"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1904-07-15"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -49,23 +31,6 @@
          "lon": "15.84453",
          "timestamp": ["1904-07-15"],
          "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.66667, 47.73333]
-      },
-      "properties": {
-         "id": "pmb40881",
-         "title": "Nasswald",
-         "lat": "47.73333",
-         "lon": "15.66667",
-         "timestamp": ["1904-07-15"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Na%C3%9Fwald", 
-        "wikidata": "http://www.wikidata.org/entity/Q20737342"
       }
       },
     {
@@ -102,22 +67,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.697778, 47.763781]
-      },
-      "properties": {
-         "id": "pmb234255",
-         "title": "Oberhof [Schwarzau]",
-         "lat": "47.763781",
-         "lon": "15.697778",
-         "timestamp": ["1904-07-15"],
-         "importance": "1", 
-        "wikidata": "http://www.wikidata.org/entity/Q83552632"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [15.81667, 47.71667]
       },
       "properties": {
@@ -129,6 +78,39 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/H%C3%B6llental_(Nieder%C3%B6sterreich)", 
         "wikidata": "http://www.wikidata.org/entity/Q1124294"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.66667, 47.73333]
+      },
+      "properties": {
+         "id": "pmb40881",
+         "title": "Nasswald",
+         "lat": "47.73333",
+         "lon": "15.66667",
+         "timestamp": ["1904-07-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Na%C3%9Fwald", 
+        "wikidata": "http://www.wikidata.org/entity/Q20737342"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.697778, 47.763781]
+      },
+      "properties": {
+         "id": "pmb234255",
+         "title": "Oberhof [Schwarzau]",
+         "lat": "47.763781",
+         "lon": "15.697778",
+         "timestamp": ["1904-07-15"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q83552632"
       }
       }
   ]

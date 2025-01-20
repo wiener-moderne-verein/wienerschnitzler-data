@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.563357, 46.531602], 
+            [11.568577, 46.536259], 
             [11.560026, 46.54555]
           ]
       },
@@ -24,6 +26,38 @@
          "title": "Villa Heufler",
          "lat": "46.54555",
          "lon": "11.560026",
+         "timestamp": ["1908-07-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.568577, 46.536259]
+      },
+      "properties": {
+         "id": "pmb247361",
+         "title": "Ruine Hauenstein [Seis]",
+         "lat": "46.536259",
+         "lon": "11.568577",
+         "timestamp": ["1908-07-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Burg_Hauenstein_(Seis_am_Schlern)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1012220"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.563357, 46.531602]
+      },
+      "properties": {
+         "id": "pmb247370",
+         "title": "Marienquelle",
+         "lat": "46.531602",
+         "lon": "11.563357",
          "timestamp": ["1908-07-04"],
          "importance": "1"
       }

@@ -6,13 +6,32 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [12.338208333333334, 45.433675]
+            [12.336047, 45.435282], 
+            [12.338208333333334, 45.433675], 
+            [12.33669, 45.44127], 
+            [12.33027, 45.43812], 
+            [12.32768, 45.4378]
           ]
       },
       "properties": {
         "name": "24. April 1927"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.336047, 45.435282]
+      },
+      "properties": {
+         "id": "pmb260",
+         "title": "Hotel Bonvecchiati",
+         "lat": "45.435282",
+         "lon": "12.336047",
+         "timestamp": ["1927-04-24"],
+         "importance": "1"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +47,51 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Caff%C3%A8_Florian", 
         "wikidata": "http://www.wikidata.org/entity/Q960610"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32768, 45.4378]
+      },
+      "properties": {
+         "id": "pmb246656",
+         "title": "Casa Mahler",
+         "lat": "45.4378",
+         "lon": "12.32768",
+         "timestamp": ["1927-04-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33669, 45.44127]
+      },
+      "properties": {
+         "id": "pmb247602",
+         "title": "Hotel Giorgione",
+         "lat": "45.44127",
+         "lon": "12.33669",
+         "timestamp": ["1927-04-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33027, 45.43812]
+      },
+      "properties": {
+         "id": "pmb91657",
+         "title": "Sestière di San Polo",
+         "lat": "45.43812",
+         "lon": "12.33027",
+         "timestamp": ["1927-04-24"],
+         "importance": "1"
       }
       }
   ]

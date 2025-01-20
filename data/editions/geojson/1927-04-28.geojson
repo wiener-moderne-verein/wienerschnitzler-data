@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [12.35, 45.38333]
+            [12.336047, 45.435282], 
+            [12.338208333333334, 45.433675], 
+            [12.33835, 45.43411], 
+            [12.339027777777778, 45.43402777777778], 
+            [12.33669, 45.44127]
           ]
       },
       "properties": {
@@ -17,15 +21,81 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.35, 45.38333]
+        "coordinates": [12.336047, 45.435282]
       },
       "properties": {
-         "id": "pmb259",
-         "title": "Lido",
-         "lat": "45.38333",
-         "lon": "12.35",
+         "id": "pmb260",
+         "title": "Hotel Bonvecchiati",
+         "lat": "45.435282",
+         "lon": "12.336047",
          "timestamp": ["1927-04-28"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.339027777777778, 45.43402777777778]
+      },
+      "properties": {
+         "id": "pmb247630",
+         "title": "Campanile di San Marco",
+         "lat": "45.43402777777778",
+         "lon": "12.339027777777778",
+         "timestamp": ["1927-04-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Markusturm_(Venedig)", 
+        "wikidata": "http://www.wikidata.org/entity/Q754194"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33669, 45.44127]
+      },
+      "properties": {
+         "id": "pmb247602",
+         "title": "Hotel Giorgione",
+         "lat": "45.44127",
+         "lon": "12.33669",
+         "timestamp": ["1927-04-28"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.338208333333334, 45.433675]
+      },
+      "properties": {
+         "id": "pmb232856",
+         "title": "Caffè Florian",
+         "lat": "45.433675",
+         "lon": "12.338208333333334",
+         "timestamp": ["1927-04-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caff%C3%A8_Florian", 
+        "wikidata": "http://www.wikidata.org/entity/Q960610"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33835, 45.43411]
+      },
+      "properties": {
+         "id": "pmb261",
+         "title": "Piazza San Marco",
+         "lat": "45.43411",
+         "lon": "12.33835",
+         "timestamp": ["1927-04-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz", 
+        "wikidata": "http://www.wikidata.org/entity/Q217527"
       }
       }
   ]

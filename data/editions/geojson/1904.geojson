@@ -12,8 +12,8 @@
          "title": "Reichenau an der Rax",
          "lat": "47.7",
          "lon": "15.83333",
-         "timestamp": ["1904-07-16", "1904-07-19"],
-         "importance": "2", 
+         "timestamp": ["1904-07-12", "1904-07-13", "1904-07-14", "1904-07-15", "1904-07-16", "1904-07-16", "1904-07-17", "1904-07-18", "1904-07-19", "1904-07-19", "1904-07-20", "1904-07-21", "1904-07-22", "1904-07-23"],
+         "importance": "14", 
         "wikipedia": "https://de.wikipedia.org/wiki/Reichenau_an_der_Rax", 
         "wikidata": "http://www.wikidata.org/entity/Q665243"
       }
@@ -1185,8 +1185,8 @@
          "title": "Payerbach",
          "lat": "47.69209",
          "lon": "15.8634",
-         "timestamp": ["1904-07-12", "1904-07-13", "1904-07-14", "1904-07-15", "1904-07-16", "1904-07-17", "1904-07-18", "1904-07-19", "1904-07-20", "1904-07-21", "1904-07-22", "1904-07-23"],
-         "importance": "12", 
+         "timestamp": ["1904-07-12", "1904-07-14", "1904-07-17"],
+         "importance": "3", 
         "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
         "wikidata": "http://www.wikidata.org/entity/Q676675"
       }
@@ -1775,8 +1775,8 @@
          "title": "Prein an der Rax",
          "lat": "47.67383",
          "lon": "15.76452",
-         "timestamp": ["1904-07-13", "1904-07-19"],
-         "importance": "2"
+         "timestamp": ["1904-07-13", "1904-07-19", "1904-07-22"],
+         "importance": "3"
       }
       }, 
     {
@@ -2878,11 +2878,13 @@
       },
       "properties": {
          "id": "pmb92351",
-         "title": "Kronstein",
+         "title": "Kronstein [Tulln]",
          "lat": "48.204892",
          "lon": "16.00249",
          "timestamp": ["1904-04-17"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kronstein_(Gemeinde_Sieghartskirchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q110713401"
       }
       }, 
     {
@@ -3756,7 +3758,9 @@
          "lon": "16.38214",
          "timestamp": ["1904-06-01"],
          "importance": "1", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Praterstraße"
+        "wikipedia": "https://de.wikipedia.org/wiki/Praterstra%C3%9Fe", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Praterstraße", 
+        "wikidata": "http://www.wikidata.org/entity/Q2107895"
       }
       }, 
     {
@@ -3985,6 +3989,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1904-07-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.7621, 47.7132]
       },
       "properties": {
@@ -4009,8 +4030,8 @@
          "title": "Rax",
          "lat": "47.68897",
          "lon": "15.68948",
-         "timestamp": ["1904-07-18"],
-         "importance": "1", 
+         "timestamp": ["1904-07-18", "1904-07-19"],
+         "importance": "2", 
         "wikipedia": "https://de.wikipedia.org/wiki/Rax", 
         "wikidata": "http://www.wikidata.org/entity/Q149533"
       }

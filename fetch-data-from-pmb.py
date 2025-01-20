@@ -5,7 +5,6 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import requests
 from io import StringIO
-from lxml import etree
 
 # URLs zur XML- und CSV-Datei
 xml_url = 'https://pmb.acdh.oeaw.ac.at/media/listplace.xml'
@@ -19,7 +18,6 @@ indices_folder = './input-data'
 RUN_DOWNLOAD_XML = True
 RUN_CSV_TO_XML = True
 RUN_EXTRACT_PART_OF = True
-RUN_APPLY_XSLT = False
 
 # Funktion, um Inhalte in spitzen Klammern zu entfernen
 def remove_angle_brackets(content):
@@ -39,7 +37,7 @@ def load_csv_from_url(url):
 
 # Schritt 1: XML herunterladen und bearbeiten
 def download_and_modify_xml(xml_url, output_xml):
-    print("[1/4] XML-Datei wird heruntergeladen...")
+    print("[1/3] XML-Datei wird heruntergeladen...")
     response = requests.get(xml_url)
 
     if response.status_code == 200:
@@ -55,7 +53,7 @@ def download_and_modify_xml(xml_url, output_xml):
 
 # Schritt 2: CSV in XML umwandeln
 def csv_to_xml_from_url(csv_url, output_xml):
-    print("[2/4] CSV-Datei wird geladen und in XML umgewandelt...")
+    print("[2/3] CSV-Datei wird geladen und in XML umgewandelt...")
     root = ET.Element('root')
     csv_data = load_csv_from_url(csv_url)
     reader = csv.reader(csv_data)
@@ -75,7 +73,7 @@ def csv_to_xml_from_url(csv_url, output_xml):
 
 # Schritt 3: "gehört zu"- und "enthält"-Zeilen extrahieren
 def extract_part_of_and_contains(csv_url, output_xml):
-    print("[3/4] 'gehört zu'- und 'enthält'-Zeilen werden extrahiert...")
+    print("[3/3] 'gehört zu'- und 'enthält'-Zeilen werden extrahiert...")
     root = ET.Element('root')
     csv_data = load_csv_from_url(csv_url)
     reader = csv.reader(csv_data)
@@ -114,22 +112,10 @@ def extract_part_of_and_contains(csv_url, output_xml):
         f.write(pretty_xml)
     print(f"    [✓] 'gehört zu'- und 'enthält'-Zeilen erfolgreich in {output_xml} gespeichert.")
 
-# Schritt 4: XSLT anwenden
-def apply_xslt(input_xml, xslt_path, output_xml):
-    print("[4/4] XSLT-Transformation wird angewendet...")
-    dom = etree.parse(input_xml)
-    xslt = etree.parse(xslt_path)
-    transform = etree.XSLT(xslt)
-    new_dom = transform(dom)
-    with open(output_xml, 'wb') as f:
-        f.write(etree.tostring(new_dom, pretty_print=True, encoding='UTF-8'))
-    print(f"    [✓] Transformation abgeschlossen. Ergebnis gespeichert in {output_xml}")
-
 # Pfade für die Dateien
 listplace_output_file = os.path.join(indices_folder, 'listplace.xml')
 csv_output_file = os.path.join(input_data_folder, 'relations.xml')
 part_of_output_file = os.path.join(input_data_folder, 'partOf.xml')
-xslt_path = './xslts/partOf.xsl'
 
 # Sicherstellen, dass die Ordner existieren
 os.makedirs(input_data_folder, exist_ok=True)
@@ -144,6 +130,3 @@ if RUN_CSV_TO_XML:
 
 if RUN_EXTRACT_PART_OF:
     extract_part_of_and_contains(csv_url, part_of_output_file)
-
-if RUN_APPLY_XSLT:
-    apply_xslt(part_of_output_file, xslt_path, part_of_output_file)

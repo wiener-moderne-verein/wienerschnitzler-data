@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.36266523227271, 46.50083719693118], 
+            [11.356784, 46.498636], 
             [11.35345, 46.491277], 
-            [11.560026, 46.54555]
+            [11.560026, 46.54555], 
+            [11.53088, 46.59712]
           ]
       },
       "properties": {
@@ -33,6 +36,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.36266523227271, 46.50083719693118]
+      },
+      "properties": {
+         "id": "pmb50817",
+         "title": "Hotel Stiegl",
+         "lat": "46.50083719693118",
+         "lon": "11.36266523227271",
+         "timestamp": ["1908-09-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.35345, 46.491277]
       },
       "properties": {
@@ -44,6 +62,38 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Virgl", 
         "wikidata": "http://www.wikidata.org/entity/Q4014548"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.356784, 46.498636]
+      },
+      "properties": {
+         "id": "pmb247505",
+         "title": "Hotel Bristol Bozen",
+         "lat": "46.498636",
+         "lon": "11.356784",
+         "timestamp": ["1908-09-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.53088, 46.59712]
+      },
+      "properties": {
+         "id": "pmb40343",
+         "title": "Ponte Gardena",
+         "lat": "46.59712",
+         "lon": "11.53088",
+         "timestamp": ["1908-09-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Waidbruck", 
+        "wikidata": "http://www.wikidata.org/entity/Q474145"
       }
       }
   ]

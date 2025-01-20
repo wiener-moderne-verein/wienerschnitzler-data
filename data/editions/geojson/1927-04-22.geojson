@@ -6,14 +6,32 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.33835, 45.43411], 
+            [12.3421, 45.43409], 
             [12.35645, 45.42953], 
-            [12.33835, 45.43411]
+            [12.33669, 45.44127], 
+            [12.336047, 45.435282]
           ]
       },
       "properties": {
         "name": "22. April 1927"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.336047, 45.435282]
+      },
+      "properties": {
+         "id": "pmb260",
+         "title": "Hotel Bonvecchiati",
+         "lat": "45.435282",
+         "lon": "12.336047",
+         "timestamp": ["1927-04-22"],
+         "importance": "1"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -45,6 +63,36 @@
          "timestamp": ["1927-04-22"],
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q724170"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33669, 45.44127]
+      },
+      "properties": {
+         "id": "pmb247602",
+         "title": "Hotel Giorgione",
+         "lat": "45.44127",
+         "lon": "12.33669",
+         "timestamp": ["1927-04-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.3421, 45.43409]
+      },
+      "properties": {
+         "id": "pmb247605",
+         "title": "Hotel Danieli",
+         "lat": "45.43409",
+         "lon": "12.3421",
+         "timestamp": ["1927-04-22"],
+         "importance": "1"
       }
       }
   ]

@@ -1,5 +1,66 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.366111, 48.209167], 
+            [16.33641, 48.23362], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "3. Dezember 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1908-12-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1908-12-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1908-12-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093"
+      }
+      }
   ]
 }

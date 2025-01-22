@@ -1,5 +1,119 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.320833, 48.252222], 
+            [16.333568462613, 48.235119783861], 
+            [16.33716, 48.23188], 
+            [16.355191, 48.248422], 
+            [16.33255, 48.27617], 
+            [16.299761255551, 48.272363233241]
+          ]
+      },
+      "properties": {
+        "name": "13. Juli 1924"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.299761255551, 48.272363233241]
+      },
+      "properties": {
+         "id": "pmb534",
+         "title": "Jägerwiese",
+         "lat": "48.272363233241",
+         "lon": "16.299761255551",
+         "timestamp": ["1924-07-13"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33255, 48.27617]
+      },
+      "properties": {
+         "id": "pmb574",
+         "title": "Kahlenberg",
+         "lat": "48.27617",
+         "lon": "16.33255",
+         "timestamp": ["1924-07-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kahlenberg", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=22912", 
+        "wikidata": "http://www.wikidata.org/entity/Q697119"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.320833, 48.252222]
+      },
+      "properties": {
+         "id": "pmb288",
+         "title": "Sievering",
+         "lat": "48.252222",
+         "lon": "16.320833",
+         "timestamp": ["1924-07-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sievering", 
+        "wikidata": "http://www.wikidata.org/entity/Q1692038"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333568462613, 48.235119783861]
+      },
+      "properties": {
+         "id": "pmb113",
+         "title": "Türkenschanzpark",
+         "lat": "48.235119783861",
+         "lon": "16.333568462613",
+         "timestamp": ["1924-07-13"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1924-07-13"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355191, 48.248422]
+      },
+      "properties": {
+         "id": "pmb92292",
+         "title": "Hohe Warte",
+         "lat": "48.248422",
+         "lon": "16.355191",
+         "timestamp": ["1924-07-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q876564"
+      }
+      }
   ]
 }

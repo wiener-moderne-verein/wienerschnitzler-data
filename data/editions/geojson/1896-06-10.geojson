@@ -1,5 +1,83 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.370721, 48.212551], 
+            [16.39467, 48.21699], 
+            [16.359721, 48.216481]
+          ]
+      },
+      "properties": {
+        "name": "10. Juni 1896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.39467, 48.21699]
+      },
+      "properties": {
+         "id": "pmb422",
+         "title": "Venedig in Wien",
+         "lat": "48.21699",
+         "lon": "16.39467",
+         "timestamp": ["1896-06-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Venedig_in_Wien", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Venedig_in_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q2512799"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359721, 48.216481]
+      },
+      "properties": {
+         "id": "pmb184975",
+         "title": "Alt Pilsenetzer Bierhalle",
+         "lat": "48.216481",
+         "lon": "16.359721",
+         "timestamp": ["1896-06-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-06-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370721, 48.212551]
+      },
+      "properties": {
+         "id": "pmb168687",
+         "title": "[Salvatorgasse 11, Absteigequartier III Marie Reinhard und Arthur Schnitzler]",
+         "lat": "48.212551",
+         "lon": "16.370721",
+         "timestamp": ["1896-06-10"],
+         "importance": "1"
+      }
+      }
   ]
 }

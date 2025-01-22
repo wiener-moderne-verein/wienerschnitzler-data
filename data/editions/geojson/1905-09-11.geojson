@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33472, 48.2304], 
+            [16.300034240016, 48.246838181084], 
+            [16.310312, 48.241424]
+          ]
+      },
+      "properties": {
+        "name": "11. September 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-09-11"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.310312, 48.241424]
+      },
+      "properties": {
+         "id": "pmb236122",
+         "title": "Café-Restaurant Franz Brandl",
+         "lat": "48.241424",
+         "lon": "16.310312",
+         "timestamp": ["1905-09-11"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.300034240016, 48.246838181084]
+      },
+      "properties": {
+         "id": "pmb169",
+         "title": "Pötzleinsdorf",
+         "lat": "48.246838181084",
+         "lon": "16.300034240016",
+         "timestamp": ["1905-09-11"],
+         "importance": "1"
+      }
+      }
   ]
 }

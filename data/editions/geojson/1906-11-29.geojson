@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.371431, 48.211428], 
+            [16.353571, 48.239999], 
+            [16.338443, 48.234039], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "29. November 1906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353571, 48.239999]
+      },
+      "properties": {
+         "id": "pmb231906",
+         "title": "Dollinergasse 8",
+         "lat": "48.239999",
+         "lon": "16.353571",
+         "timestamp": ["1906-11-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371431, 48.211428]
+      },
+      "properties": {
+         "id": "pmb238395",
+         "title": "Wipplingerstraße 3",
+         "lat": "48.211428",
+         "lon": "16.371431",
+         "timestamp": ["1906-11-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1906-11-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1906-11-29"],
+         "importance": "1"
+      }
+      }
   ]
 }

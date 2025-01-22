@@ -1,5 +1,68 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.4496, 48.1864], 
+            [16.41575606941028, 48.20508551408161], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "9. Juni 1912"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.4496, 48.1864]
+      },
+      "properties": {
+         "id": "pmb186493",
+         "title": "Galopprennbahn Freudenau",
+         "lat": "48.1864",
+         "lon": "16.4496",
+         "timestamp": ["1912-06-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Galopprennbahn_Freudenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q1492691"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.41575606941028, 48.20508551408161]
+      },
+      "properties": {
+         "id": "pmb53159",
+         "title": "Hauptallee",
+         "lat": "48.20508551408161",
+         "lon": "16.41575606941028",
+         "timestamp": ["1912-06-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hauptallee_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1248317"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1912-06-09"],
+         "importance": "1"
+      }
+      }
   ]
 }

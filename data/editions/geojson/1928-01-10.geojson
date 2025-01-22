@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36265, 48.21156], 
+            [16.369675, 48.208985], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "10. Januar 1928"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1928-01-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369675, 48.208985]
+      },
+      "properties": {
+         "id": "pmb236244",
+         "title": "Heinrich Grünbaum, Kleidermacher",
+         "lat": "48.208985",
+         "lon": "16.369675",
+         "timestamp": ["1928-01-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1928-01-10"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.369125128934, 48.207090918887], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "26. Oktober 1899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369125128934, 48.207090918887]
+      },
+      "properties": {
+         "id": "pmb761",
+         "title": "Dorotheergasse",
+         "lat": "48.207090918887",
+         "lon": "16.369125128934",
+         "timestamp": ["1899-10-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1899-10-26"],
+         "importance": "1"
+      }
+      }
   ]
 }

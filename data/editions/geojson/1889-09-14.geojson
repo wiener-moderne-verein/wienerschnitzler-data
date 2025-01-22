@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36362, 48.20329], 
+            [16.37502, 48.20727]
+          ]
+      },
+      "properties": {
+        "name": "14. September 1889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37502, 48.20727]
+      },
+      "properties": {
+         "id": "pmb36",
+         "title": "Zum grünen Anker",
+         "lat": "48.20727",
+         "lon": "16.37502",
+         "timestamp": ["1889-09-14"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-09-14"],
+         "importance": "1"
+      }
+      }
   ]
 }

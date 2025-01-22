@@ -1,5 +1,98 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36743, 48.208786], 
+            [16.369693, 48.204446], 
+            [16.412923, 48.209044], 
+            [16.388742, 48.218665], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "22. März 1898"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36743, 48.208786]
+      },
+      "properties": {
+         "id": "pmb819",
+         "title": "Café Pucher",
+         "lat": "48.208786",
+         "lon": "16.36743",
+         "timestamp": ["1898-03-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369693, 48.204446]
+      },
+      "properties": {
+         "id": "pmb199375",
+         "title": "Maysedergasse 4",
+         "lat": "48.204446",
+         "lon": "16.369693",
+         "timestamp": ["1898-03-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.412923, 48.209044]
+      },
+      "properties": {
+         "id": "pmb92350",
+         "title": "Krieau",
+         "lat": "48.209044",
+         "lon": "16.412923",
+         "timestamp": ["1898-03-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Krieau", 
+        "wikidata": "http://www.wikidata.org/entity/Q1788552"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.388742, 48.218665]
+      },
+      "properties": {
+         "id": "pmb200410",
+         "title": "Heinestraße 36",
+         "lat": "48.218665",
+         "lon": "16.388742",
+         "timestamp": ["1898-03-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1898-03-22"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.368513, 48.212949], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "25. Juni 1910"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368513, 48.212949]
+      },
+      "properties": {
+         "id": "pmb247830",
+         "title": "Wipplingerstraße 24–26",
+         "lat": "48.212949",
+         "lon": "16.368513",
+         "timestamp": ["1910-06-25"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1910-06-25"],
+         "importance": "1"
+      }
+      }
   ]
 }

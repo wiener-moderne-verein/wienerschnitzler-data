@@ -1,5 +1,32 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [13.36821, 52.50982]
+          ]
+      },
+      "properties": {
+        "name": "7. Januar 1929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36821, 52.50982]
+      },
+      "properties": {
+         "id": "pmb233325",
+         "title": "Herbert-von-Karajan-Straße 15",
+         "lat": "52.50982",
+         "lon": "13.36821",
+         "timestamp": ["1929-01-07"],
+         "importance": "1"
+      }
+      }
   ]
 }

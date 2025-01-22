@@ -1,5 +1,68 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3691, 48.203], 
+            [16.355191, 48.248422], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "15. Dezember 1912"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1912-12-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355191, 48.248422]
+      },
+      "properties": {
+         "id": "pmb92292",
+         "title": "Hohe Warte",
+         "lat": "48.248422",
+         "lon": "16.355191",
+         "timestamp": ["1912-12-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q876564"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1912-12-15"],
+         "importance": "1"
+      }
+      }
   ]
 }

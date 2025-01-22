@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.354395, 48.221622], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "19. Oktober 1931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.354395, 48.221622]
+      },
+      "properties": {
+         "id": "pmb190456",
+         "title": "Schubertkino",
+         "lat": "48.221622",
+         "lon": "16.354395",
+         "timestamp": ["1931-10-19"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Schubertkino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1931-10-19"],
+         "importance": "1"
+      }
+      }
   ]
 }

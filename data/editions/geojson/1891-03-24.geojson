@@ -1,5 +1,32 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37196, 48.20143]
+          ]
+      },
+      "properties": {
+        "name": "24. März 1891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1891-03-24"],
+         "importance": "1"
+      }
+      }
   ]
 }

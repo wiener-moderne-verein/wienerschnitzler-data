@@ -1,5 +1,34 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [13.388194, 52.521572]
+          ]
+      },
+      "properties": {
+        "name": "11. Oktober 1899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.388194, 52.521572]
+      },
+      "properties": {
+         "id": "pmb545",
+         "title": "Hotel Savoy [Berlin]",
+         "lat": "52.521572",
+         "lon": "13.388194",
+         "timestamp": ["1899-10-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Savoy_Hotel_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1110717"
+      }
+      }
   ]
 }

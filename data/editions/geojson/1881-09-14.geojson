@@ -1,5 +1,50 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.363819, 48.20334], 
+            [16.375, 48.205139]
+          ]
+      },
+      "properties": {
+        "name": "14. September 1881"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375, 48.205139]
+      },
+      "properties": {
+         "id": "pmb19",
+         "title": "Ronacher",
+         "lat": "48.205139",
+         "lon": "16.375",
+         "timestamp": ["1881-09-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
+        "wikidata": "http://www.wikidata.org/entity/Q1244587"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1881-09-14"],
+         "importance": "1"
+      }
+      }
   ]
 }

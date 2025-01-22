@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.364351, 48.199478], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "18. Dezember 1901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364351, 48.199478]
+      },
+      "properties": {
+         "id": "pmb92603",
+         "title": "Wiednertheater",
+         "lat": "48.199478",
+         "lon": "16.364351",
+         "timestamp": ["1901-12-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1901-12-18"],
+         "importance": "1"
+      }
+      }
   ]
 }

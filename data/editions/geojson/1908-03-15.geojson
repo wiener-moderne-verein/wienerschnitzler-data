@@ -1,5 +1,84 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.300034240016, 48.246838181084], 
+            [16.33472, 48.2304], 
+            [16.320833, 48.252222], 
+            [16.28606, 48.25849]
+          ]
+      },
+      "properties": {
+        "name": "15. März 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.28606, 48.25849]
+      },
+      "properties": {
+         "id": "pmb537",
+         "title": "Dreimarkstein [Wien]",
+         "lat": "48.25849",
+         "lon": "16.28606",
+         "timestamp": ["1908-03-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dreimarkstein_(Wienerwald)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1257989"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.300034240016, 48.246838181084]
+      },
+      "properties": {
+         "id": "pmb169",
+         "title": "Pötzleinsdorf",
+         "lat": "48.246838181084",
+         "lon": "16.300034240016",
+         "timestamp": ["1908-03-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1908-03-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.320833, 48.252222]
+      },
+      "properties": {
+         "id": "pmb288",
+         "title": "Sievering",
+         "lat": "48.252222",
+         "lon": "16.320833",
+         "timestamp": ["1908-03-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sievering", 
+        "wikidata": "http://www.wikidata.org/entity/Q1692038"
+      }
+      }
   ]
 }

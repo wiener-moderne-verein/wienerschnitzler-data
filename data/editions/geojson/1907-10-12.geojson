@@ -1,5 +1,104 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.246996, 48.145412], 
+            [16.254331, 48.133848], 
+            [16.255556, 48.133611], 
+            [16.256152195922, 48.132793312328], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "12. Oktober 1907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.256152195922, 48.132793312328]
+      },
+      "properties": {
+         "id": "pmb173",
+         "title": "Rodaun",
+         "lat": "48.132793312328",
+         "lon": "16.256152195922",
+         "timestamp": ["1907-10-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rodaun", 
+        "wikidata": "http://www.wikidata.org/entity/Q2160909"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.254331, 48.133848]
+      },
+      "properties": {
+         "id": "pmb177",
+         "title": "Gasthaus Stelzer",
+         "lat": "48.133848",
+         "lon": "16.254331",
+         "timestamp": ["1907-10-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gasthaus_Stelzer", 
+        "wikidata": "http://www.wikidata.org/entity/Q51292676"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.255556, 48.133611]
+      },
+      "properties": {
+         "id": "pmb40297",
+         "title": "Hofmannsthal-Schlössl",
+         "lat": "48.133611",
+         "lon": "16.255556",
+         "timestamp": ["1907-10-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hofmannsthal-Schl%C3%B6ssl", 
+        "wikidata": "http://www.wikidata.org/entity/Q1623184"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.246996, 48.145412]
+      },
+      "properties": {
+         "id": "pmb246791",
+         "title": "Pappelteich",
+         "lat": "48.145412",
+         "lon": "16.246996",
+         "timestamp": ["1907-10-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Pappelteich_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q38527986"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-10-12"],
+         "importance": "1"
+      }
+      }
   ]
 }

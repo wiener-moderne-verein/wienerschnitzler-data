@@ -1,5 +1,83 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3691, 48.203], 
+            [16.367639, 48.209208], 
+            [16.35736, 48.21533], 
+            [16.3538456, 48.2134031]
+          ]
+      },
+      "properties": {
+        "name": "31. Dezember 1899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3538456, 48.2134031]
+      },
+      "properties": {
+         "id": "pmb44",
+         "title": "Riedhof",
+         "lat": "48.2134031",
+         "lon": "16.3538456",
+         "timestamp": ["1899-12-31"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1899-12-31"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367639, 48.209208]
+      },
+      "properties": {
+         "id": "pmb207235",
+         "title": "Wiener Schachclub [Wallnergasse 2]",
+         "lat": "48.209208",
+         "lon": "16.367639",
+         "timestamp": ["1899-12-31"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1899-12-31"],
+         "importance": "1"
+      }
+      }
   ]
 }

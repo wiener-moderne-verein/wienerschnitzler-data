@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.300034240016, 48.246838181084]
+          ]
+      },
+      "properties": {
+        "name": "9. November 1902"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.300034240016, 48.246838181084]
+      },
+      "properties": {
+         "id": "pmb169",
+         "title": "Pötzleinsdorf",
+         "lat": "48.246838181084",
+         "lon": "16.300034240016",
+         "timestamp": ["1902-11-09"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1902-11-09"],
+         "importance": "1"
+      }
+      }
   ]
 }

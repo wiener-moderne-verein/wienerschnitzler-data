@@ -1,5 +1,82 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.361139, 48.210333], 
+            [16.375, 48.205139], 
+            [16.35736, 48.21533], 
+            [16.328822485916, 48.231291362993]
+          ]
+      },
+      "properties": {
+        "name": "12. März 1900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1900-03-12"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375, 48.205139]
+      },
+      "properties": {
+         "id": "pmb19",
+         "title": "Ronacher",
+         "lat": "48.205139",
+         "lon": "16.375",
+         "timestamp": ["1900-03-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
+        "wikidata": "http://www.wikidata.org/entity/Q1244587"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.328822485916, 48.231291362993]
+      },
+      "properties": {
+         "id": "pmb291",
+         "title": "Gersthof",
+         "lat": "48.231291362993",
+         "lon": "16.328822485916",
+         "timestamp": ["1900-03-12"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1900-03-12"],
+         "importance": "1"
+      }
+      }
   ]
 }

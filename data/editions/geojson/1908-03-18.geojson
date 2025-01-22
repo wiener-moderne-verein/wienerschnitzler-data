@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.370785, 48.213305], 
+            [16.394461, 48.204893], 
+            [16.33641, 48.23362], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "18. März 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370785, 48.213305]
+      },
+      "properties": {
+         "id": "pmb246047",
+         "title": "Salzgries 19",
+         "lat": "48.213305",
+         "lon": "16.370785",
+         "timestamp": ["1908-03-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1908-03-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1908-03-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.394461, 48.204893]
+      },
+      "properties": {
+         "id": "pmb246847",
+         "title": "Geologengasse 5",
+         "lat": "48.204893",
+         "lon": "16.394461",
+         "timestamp": ["1908-03-18"],
+         "importance": "1"
+      }
+      }
   ]
 }

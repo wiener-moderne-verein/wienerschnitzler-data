@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.343483, 48.224117], 
+            [16.362457240723, 48.222287836145], 
+            [16.361714, 48.223542], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "4. August 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.343483, 48.224117]
+      },
+      "properties": {
+         "id": "pmb234221",
+         "title": "Hotel Steinböck",
+         "lat": "48.224117",
+         "lon": "16.343483",
+         "timestamp": ["1905-08-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-08-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361714, 48.223542]
+      },
+      "properties": {
+         "id": "pmb199320",
+         "title": "Porzellangasse 48",
+         "lat": "48.223542",
+         "lon": "16.361714",
+         "timestamp": ["1905-08-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362457240723, 48.222287836145]
+      },
+      "properties": {
+         "id": "pmb436",
+         "title": "Porzellangasse",
+         "lat": "48.222287836145",
+         "lon": "16.362457240723",
+         "timestamp": ["1905-08-04"],
+         "importance": "1"
+      }
+      }
   ]
 }

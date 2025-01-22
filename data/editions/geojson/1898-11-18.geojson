@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.339722, 48.192222], 
+            [16.383445, 48.201636], 
+            [16.369693, 48.204446], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "18. November 1898"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.383445, 48.201636]
+      },
+      "properties": {
+         "id": "pmb199403",
+         "title": "Reisnerstraße 13",
+         "lat": "48.201636",
+         "lon": "16.383445",
+         "timestamp": ["1898-11-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369693, 48.204446]
+      },
+      "properties": {
+         "id": "pmb199375",
+         "title": "Maysedergasse 4",
+         "lat": "48.204446",
+         "lon": "16.369693",
+         "timestamp": ["1898-11-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.339722, 48.192222]
+      },
+      "properties": {
+         "id": "pmb77",
+         "title": "Raimund-Theater",
+         "lat": "48.192222",
+         "lon": "16.339722",
+         "timestamp": ["1898-11-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1898-11-18"],
+         "importance": "1"
+      }
+      }
   ]
 }

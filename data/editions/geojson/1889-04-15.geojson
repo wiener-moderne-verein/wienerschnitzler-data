@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36362, 48.20329], 
+            [16.384993, 48.206457]
+          ]
+      },
+      "properties": {
+        "name": "15. April 1889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.384993, 48.206457]
+      },
+      "properties": {
+         "id": "pmb186486",
+         "title": "Eislaufverein [1. Platz]",
+         "lat": "48.206457",
+         "lon": "16.384993",
+         "timestamp": ["1889-04-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-04-15"],
+         "importance": "1"
+      }
+      }
   ]
 }

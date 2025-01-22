@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.388002, 48.19884], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "9. März 1907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.388002, 48.19884]
+      },
+      "properties": {
+         "id": "pmb237597",
+         "title": "Neulinggasse 13",
+         "lat": "48.19884",
+         "lon": "16.388002",
+         "timestamp": ["1907-03-09"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-03-09"],
+         "importance": "1"
+      }
+      }
   ]
 }

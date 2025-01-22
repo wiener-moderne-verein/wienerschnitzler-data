@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.375811, 48.203191], 
+            [16.380897, 48.208627], 
+            [16.33472, 48.2304], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "29. Oktober 1907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1907-10-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375811, 48.203191]
+      },
+      "properties": {
+         "id": "pmb233517",
+         "title": "Kaiserpanorama [Wien, Schubertring 4]",
+         "lat": "48.203191",
+         "lon": "16.375811",
+         "timestamp": ["1907-10-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.380897, 48.208627]
+      },
+      "properties": {
+         "id": "pmb235381",
+         "title": "Biberstraße 8",
+         "lat": "48.208627",
+         "lon": "16.380897",
+         "timestamp": ["1907-10-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-10-29"],
+         "importance": "1"
+      }
+      }
   ]
 }

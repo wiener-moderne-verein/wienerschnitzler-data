@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36362, 48.20329], 
+            [16.363744, 48.213728]
+          ]
+      },
+      "properties": {
+        "name": "29. November 1889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363744, 48.213728]
+      },
+      "properties": {
+         "id": "pmb187209",
+         "title": "Harmoniesäle",
+         "lat": "48.213728",
+         "lon": "16.363744",
+         "timestamp": ["1889-11-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-11-29"],
+         "importance": "1"
+      }
+      }
   ]
 }

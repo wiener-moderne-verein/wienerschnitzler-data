@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.343738, 48.212072], 
+            [16.394539, 48.203093], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "13. April 1904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.394539, 48.203093]
+      },
+      "properties": {
+         "id": "pmb233934",
+         "title": "Atelier und Kunstanstalt J. Loewy",
+         "lat": "48.203093",
+         "lon": "16.394539",
+         "timestamp": ["1904-04-13"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.343738, 48.212072]
+      },
+      "properties": {
+         "id": "pmb233937",
+         "title": "Florianigasse 58",
+         "lat": "48.212072",
+         "lon": "16.343738",
+         "timestamp": ["1904-04-13"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-04-13"],
+         "importance": "1"
+      }
+      }
   ]
 }

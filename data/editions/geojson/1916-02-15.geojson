@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.375811, 48.203191], 
+            [16.361853, 48.21494], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "15. Februar 1916"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375811, 48.203191]
+      },
+      "properties": {
+         "id": "pmb233517",
+         "title": "Kaiserpanorama [Wien, Schubertring 4]",
+         "lat": "48.203191",
+         "lon": "16.375811",
+         "timestamp": ["1916-02-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361853, 48.21494]
+      },
+      "properties": {
+         "id": "pmb245839",
+         "title": "J. Eisenstein & Co. Buchhandlung und Antiquariat",
+         "lat": "48.21494",
+         "lon": "16.361853",
+         "timestamp": ["1916-02-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1916-02-15"],
+         "importance": "1"
+      }
+      }
   ]
 }

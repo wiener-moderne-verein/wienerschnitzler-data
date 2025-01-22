@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.375135, 48.204532], 
+            [16.353571, 48.239999], 
+            [16.33472, 48.2304], 
+            [16.337445, 48.229009]
+          ]
+      },
+      "properties": {
+        "name": "8. Dezember 1903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337445, 48.229009]
+      },
+      "properties": {
+         "id": "pmb233490",
+         "title": "Hofstattgasse 27",
+         "lat": "48.229009",
+         "lon": "16.337445",
+         "timestamp": ["1903-12-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1903-12-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375135, 48.204532]
+      },
+      "properties": {
+         "id": "pmb199692",
+         "title": "Schellinggasse 6",
+         "lat": "48.204532",
+         "lon": "16.375135",
+         "timestamp": ["1903-12-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353571, 48.239999]
+      },
+      "properties": {
+         "id": "pmb231906",
+         "title": "Dollinergasse 8",
+         "lat": "48.239999",
+         "lon": "16.353571",
+         "timestamp": ["1903-12-08"],
+         "importance": "1"
+      }
+      }
   ]
 }

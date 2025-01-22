@@ -1,5 +1,67 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3538456, 48.2134031], 
+            [16.374167, 48.213056], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "3. September 1897"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3538456, 48.2134031]
+      },
+      "properties": {
+         "id": "pmb44",
+         "title": "Riedhof",
+         "lat": "48.2134031",
+         "lon": "16.3538456",
+         "timestamp": ["1897-09-03"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374167, 48.213056]
+      },
+      "properties": {
+         "id": "pmb185870",
+         "title": "Hotel Metropole [Wien]",
+         "lat": "48.213056",
+         "lon": "16.374167",
+         "timestamp": ["1897-09-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_M%C3%A9tropole", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630962"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1897-09-03"],
+         "importance": "1"
+      }
+      }
   ]
 }

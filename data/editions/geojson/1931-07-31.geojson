@@ -1,5 +1,119 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.387458, 48.199544], 
+            [16.430054, 48.194558], 
+            [16.43898217221, 48.19252071812], 
+            [16.337772, 48.234584], 
+            [16.338016, 48.234091], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "31. Juli 1931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1931-07-31"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.43898217221, 48.19252071812]
+      },
+      "properties": {
+         "id": "pmb185",
+         "title": "Lusthaus",
+         "lat": "48.19252071812",
+         "lon": "16.43898217221",
+         "timestamp": ["1931-07-31"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lusthaus_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1877731"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337772, 48.234584]
+      },
+      "properties": {
+         "id": "pmb236374",
+         "title": "Gregor-Mendel-Straße",
+         "lat": "48.234584",
+         "lon": "16.337772",
+         "timestamp": ["1931-07-31"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q106193693"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338016, 48.234091]
+      },
+      "properties": {
+         "id": "pmb236372",
+         "title": "Gregor-Mendel-Straße 34",
+         "lat": "48.234091",
+         "lon": "16.338016",
+         "timestamp": ["1931-07-31"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1931-07-31"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.387458, 48.199544]
+      },
+      "properties": {
+         "id": "pmb92574",
+         "title": "Ungargasse",
+         "lat": "48.199544",
+         "lon": "16.387458",
+         "timestamp": ["1931-07-31"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ungargasse_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1563787"
+      }
+      }
   ]
 }

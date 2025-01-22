@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.364351, 48.199478], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "10. Dezember 1923"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364351, 48.199478]
+      },
+      "properties": {
+         "id": "pmb92603",
+         "title": "Wiednertheater",
+         "lat": "48.199478",
+         "lon": "16.364351",
+         "timestamp": ["1923-12-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1923-12-10"],
+         "importance": "1"
+      }
+      }
   ]
 }

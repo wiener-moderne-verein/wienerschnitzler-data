@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.369495, 48.201427], 
+            [16.35689, 48.21787], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "18. November 1927"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369495, 48.201427]
+      },
+      "properties": {
+         "id": "pmb235558",
+         "title": "Paul Hopfner und Söhne",
+         "lat": "48.201427",
+         "lon": "16.369495",
+         "timestamp": ["1927-11-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1927-11-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1927-11-18"],
+         "importance": "1"
+      }
+      }
   ]
 }

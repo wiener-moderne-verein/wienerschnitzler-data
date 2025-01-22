@@ -1,5 +1,96 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.371614, 48.201589], 
+            [16.369693, 48.204446], 
+            [16.374618, 48.204074], 
+            [16.359721, 48.216481], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "26. September 1898"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371614, 48.201589]
+      },
+      "properties": {
+         "id": "pmb182664",
+         "title": "Café zum Künstlerhaus",
+         "lat": "48.201589",
+         "lon": "16.371614",
+         "timestamp": ["1898-09-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374618, 48.204074]
+      },
+      "properties": {
+         "id": "pmb187186",
+         "title": "Kaffehaus Ferdinand Gause",
+         "lat": "48.204074",
+         "lon": "16.374618",
+         "timestamp": ["1898-09-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369693, 48.204446]
+      },
+      "properties": {
+         "id": "pmb199375",
+         "title": "Maysedergasse 4",
+         "lat": "48.204446",
+         "lon": "16.369693",
+         "timestamp": ["1898-09-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359721, 48.216481]
+      },
+      "properties": {
+         "id": "pmb184975",
+         "title": "Alt Pilsenetzer Bierhalle",
+         "lat": "48.216481",
+         "lon": "16.359721",
+         "timestamp": ["1898-09-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1898-09-26"],
+         "importance": "1"
+      }
+      }
   ]
 }

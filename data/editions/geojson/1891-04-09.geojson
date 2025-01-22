@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.32475, 48.19031], 
+            [16.37196, 48.20143]
+          ]
+      },
+      "properties": {
+        "name": "9. April 1891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.32475, 48.19031]
+      },
+      "properties": {
+         "id": "pmb39",
+         "title": "Volkstheater in Rudolfsheim",
+         "lat": "48.19031",
+         "lon": "16.32475",
+         "timestamp": ["1891-04-09"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Schwenders_Vergnügungsetablissement"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1891-04-09"],
+         "importance": "1"
+      }
+      }
   ]
 }

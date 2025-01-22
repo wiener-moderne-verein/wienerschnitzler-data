@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.364351, 48.199478], 
+            [16.3642, 48.19941], 
+            [16.37196, 48.20143]
+          ]
+      },
+      "properties": {
+        "name": "19. April 1891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3642, 48.19941]
+      },
+      "properties": {
+         "id": "pmb37",
+         "title": "Theater an der Wien",
+         "lat": "48.19941",
+         "lon": "16.3642",
+         "timestamp": ["1891-04-19"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364351, 48.199478]
+      },
+      "properties": {
+         "id": "pmb92603",
+         "title": "Wiednertheater",
+         "lat": "48.199478",
+         "lon": "16.364351",
+         "timestamp": ["1891-04-19"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1891-04-19"],
+         "importance": "1"
+      }
+      }
   ]
 }

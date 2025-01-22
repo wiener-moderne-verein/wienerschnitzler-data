@@ -1,5 +1,66 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.367998, 48.203159], 
+            [16.36934, 48.21024], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "8. März 1924"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367998, 48.203159]
+      },
+      "properties": {
+         "id": "pmb185989",
+         "title": "Opernrestaurant",
+         "lat": "48.203159",
+         "lon": "16.367998",
+         "timestamp": ["1924-03-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36934, 48.21024]
+      },
+      "properties": {
+         "id": "pmb190578",
+         "title": "Tuchlauben-Kino",
+         "lat": "48.21024",
+         "lon": "16.36934",
+         "timestamp": ["1924-03-08"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Tuchlauben-Kino", 
+        "wikidata": "http://www.wikidata.org/entity/Q33393953"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1924-03-08"],
+         "importance": "1"
+      }
+      }
   ]
 }

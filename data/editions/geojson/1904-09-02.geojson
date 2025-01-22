@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.375135, 48.204532], 
+            [16.361751, 48.215689], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "2. September 1904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361751, 48.215689]
+      },
+      "properties": {
+         "id": "pmb232256",
+         "title": "Kolingasse 3",
+         "lat": "48.215689",
+         "lon": "16.361751",
+         "timestamp": ["1904-09-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375135, 48.204532]
+      },
+      "properties": {
+         "id": "pmb199692",
+         "title": "Schellinggasse 6",
+         "lat": "48.204532",
+         "lon": "16.375135",
+         "timestamp": ["1904-09-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-09-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

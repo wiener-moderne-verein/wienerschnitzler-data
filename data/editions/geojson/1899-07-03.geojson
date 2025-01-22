@@ -1,5 +1,100 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3067984, 48.1806202], 
+            [16.36157, 48.20809], 
+            [16.391366725274, 48.21836158258], 
+            [16.35736, 48.21533], 
+            [16.3538456, 48.2134031]
+          ]
+      },
+      "properties": {
+        "name": "3. Juli 1899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.391366725274, 48.21836158258]
+      },
+      "properties": {
+         "id": "pmb530",
+         "title": "Praterstern",
+         "lat": "48.21836158258",
+         "lon": "16.391366725274",
+         "timestamp": ["1899-07-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Praterstern", 
+        "wikidata": "http://www.wikidata.org/entity/Q2107893"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3538456, 48.2134031]
+      },
+      "properties": {
+         "id": "pmb44",
+         "title": "Riedhof",
+         "lat": "48.2134031",
+         "lon": "16.3538456",
+         "timestamp": ["1899-07-03"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1899-07-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3067984, 48.1806202]
+      },
+      "properties": {
+         "id": "pmb92519",
+         "title": "Schlosspark Schönbrunn",
+         "lat": "48.1806202",
+         "lon": "16.3067984",
+         "timestamp": ["1899-07-03"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q21167264"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1899-07-03"],
+         "importance": "1"
+      }
+      }
   ]
 }

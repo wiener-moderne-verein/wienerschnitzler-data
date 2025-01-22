@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3633523, 48.211807], 
+            [16.363787, 48.21202], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "25. November 1896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363787, 48.21202]
+      },
+      "properties": {
+         "id": "pmb194828",
+         "title": "Teinfaltstraße 2",
+         "lat": "48.21202",
+         "lon": "16.363787",
+         "timestamp": ["1896-11-25"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3633523, 48.211807]
+      },
+      "properties": {
+         "id": "pmb1106",
+         "title": "Residenzhotel",
+         "lat": "48.211807",
+         "lon": "16.3633523",
+         "timestamp": ["1896-11-25"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-11-25"],
+         "importance": "1"
+      }
+      }
   ]
 }

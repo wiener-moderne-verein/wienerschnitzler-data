@@ -1,5 +1,68 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37196, 48.20143], 
+            [16.430054, 48.194558], 
+            [16.37778, 48.22583]
+          ]
+      },
+      "properties": {
+        "name": "18. September 1891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37778, 48.22583]
+      },
+      "properties": {
+         "id": "pmb124",
+         "title": "Augarten",
+         "lat": "48.22583",
+         "lon": "16.37778",
+         "timestamp": ["1891-09-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Augarten", 
+        "wikidata": "http://www.wikidata.org/entity/Q143265"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1891-09-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1891-09-18"],
+         "importance": "1"
+      }
+      }
   ]
 }

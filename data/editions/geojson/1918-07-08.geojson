@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33716, 48.23188], 
+            [16.353278, 48.237737]
+          ]
+      },
+      "properties": {
+        "name": "8. Juli 1918"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353278, 48.237737]
+      },
+      "properties": {
+         "id": "pmb234742",
+         "title": "Reithlegasse 12",
+         "lat": "48.237737",
+         "lon": "16.353278",
+         "timestamp": ["1918-07-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1918-07-08"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.364351, 48.199478], 
+            [16.363819, 48.20334]
+          ]
+      },
+      "properties": {
+        "name": "29. April 1881"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364351, 48.199478]
+      },
+      "properties": {
+         "id": "pmb92603",
+         "title": "Wiednertheater",
+         "lat": "48.199478",
+         "lon": "16.364351",
+         "timestamp": ["1881-04-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1881-04-29"],
+         "importance": "1"
+      }
+      }
   ]
 }

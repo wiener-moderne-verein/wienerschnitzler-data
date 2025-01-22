@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.360584, 48.194996], 
+            [16.37196, 48.20143]
+          ]
+      },
+      "properties": {
+        "name": "16. Juli 1892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.360584, 48.194996]
+      },
+      "properties": {
+         "id": "pmb38",
+         "title": "Zur goldenen Glocke [5. Bezirk]",
+         "lat": "48.194996",
+         "lon": "16.360584",
+         "timestamp": ["1892-07-16"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1892-07-16"],
+         "importance": "1"
+      }
+      }
   ]
 }

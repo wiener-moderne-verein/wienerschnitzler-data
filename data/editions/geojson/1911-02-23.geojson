@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.3585, 52.5041]
+            [13.3585, 52.5041], 
+            [13.360062, 52.504815], 
+            [13.366666666667, 52.516666666667]
           ]
       },
       "properties": {
@@ -26,6 +28,38 @@
          "lon": "13.3585",
          "timestamp": ["1911-02-23"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.360062, 52.504815]
+      },
+      "properties": {
+         "id": "pmb37725",
+         "title": "Blüthner-Saal",
+         "lat": "52.504815",
+         "lon": "13.360062",
+         "timestamp": ["1911-02-23"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.366666666667, 52.516666666667]
+      },
+      "properties": {
+         "id": "pmb207015",
+         "title": "Großer Tiergarten",
+         "lat": "52.516666666667",
+         "lon": "13.366666666667",
+         "timestamp": ["1911-02-23"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_Tiergarten", 
+        "wikidata": "http://www.wikidata.org/entity/Q694020"
       }
       }
   ]

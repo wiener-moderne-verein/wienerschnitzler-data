@@ -1,5 +1,83 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.369913, 48.208613], 
+            [16.387056, 48.196938], 
+            [16.367725, 48.212284], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "21. Dezember 1930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369913, 48.208613]
+      },
+      "properties": {
+         "id": "pmb39599",
+         "title": "Graben",
+         "lat": "48.208613",
+         "lon": "16.369913",
+         "timestamp": ["1930-12-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Graben_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q699937"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367725, 48.212284]
+      },
+      "properties": {
+         "id": "pmb207301",
+         "title": "Tiefer Graben 17",
+         "lat": "48.212284",
+         "lon": "16.367725",
+         "timestamp": ["1930-12-21"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1930-12-21"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.387056, 48.196938]
+      },
+      "properties": {
+         "id": "pmb169515",
+         "title": "Eos-Kino",
+         "lat": "48.196938",
+         "lon": "16.387056",
+         "timestamp": ["1930-12-21"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Eos-Kino"
+      }
+      }
   ]
 }

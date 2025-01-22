@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.363819, 48.20334], 
+            [16.39578, 48.218039]
+          ]
+      },
+      "properties": {
+        "name": "10. Mai 1877"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.39578, 48.218039]
+      },
+      "properties": {
+         "id": "pmb185857",
+         "title": "Kratky-Baschik Zaubertheater",
+         "lat": "48.218039",
+         "lon": "16.39578",
+         "timestamp": ["1877-05-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1877-05-10"],
+         "importance": "1"
+      }
+      }
   ]
 }

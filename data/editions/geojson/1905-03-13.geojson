@@ -6,9 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [19.916666666667, 39.6], 
             [19.90425, 39.562444444444], 
             [19.926111111111112, 39.60638888888889], 
-            [19.916666666667, 39.6]
+            [19.929444444444446, 39.623333333333335], 
+            [19.9239721, 39.624789]
           ]
       },
       "properties": {
@@ -63,6 +65,37 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Mon_Repos_(Korfu)", 
         "wikidata": "http://www.wikidata.org/entity/Q824940"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.929444444444446, 39.623333333333335]
+      },
+      "properties": {
+         "id": "pmb235041",
+         "title": "Alte Festung",
+         "lat": "39.623333333333335",
+         "lon": "19.929444444444446",
+         "timestamp": ["1905-03-13"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q606185"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.9239721, 39.624789]
+      },
+      "properties": {
+         "id": "pmb235046",
+         "title": "Grand Hotel Saint Georges",
+         "lat": "39.624789",
+         "lon": "19.9239721",
+         "timestamp": ["1905-03-13"],
+         "importance": "1"
       }
       }
   ]

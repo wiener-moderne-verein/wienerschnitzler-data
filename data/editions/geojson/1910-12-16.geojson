@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.367413, 48.208484], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "16. Dezember 1910"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367413, 48.208484]
+      },
+      "properties": {
+         "id": "pmb236233",
+         "title": "Rozet & Fischmeister, Hofjuwelenhandlung",
+         "lat": "48.208484",
+         "lon": "16.367413",
+         "timestamp": ["1910-12-16"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1910-12-16"],
+         "importance": "1"
+      }
+      }
   ]
 }

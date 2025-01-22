@@ -1,5 +1,65 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.38382, 48.20709], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "20. September 1907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38382, 48.20709]
+      },
+      "properties": {
+         "id": "pmb60854",
+         "title": "Wiener Bürgertheater",
+         "lat": "48.20709",
+         "lon": "16.38382",
+         "timestamp": ["1907-09-20"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/B%C3%BCrgertheater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1907-09-20"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-09-20"],
+         "importance": "1"
+      }
+      }
   ]
 }

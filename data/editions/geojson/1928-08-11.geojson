@@ -1,5 +1,65 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33716, 48.23188], 
+            [16.348029, 48.237242], 
+            [16.332489, 48.2371]
+          ]
+      },
+      "properties": {
+        "name": "11. August 1928"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.332489, 48.2371]
+      },
+      "properties": {
+         "id": "pmb92441",
+         "title": "Peter-Jordan-Straße",
+         "lat": "48.2371",
+         "lon": "16.332489",
+         "timestamp": ["1928-08-11"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q106194224"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1928-08-11"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348029, 48.237242]
+      },
+      "properties": {
+         "id": "pmb233133",
+         "title": "Pension Peter",
+         "lat": "48.237242",
+         "lon": "16.348029",
+         "timestamp": ["1928-08-11"],
+         "importance": "1"
+      }
+      }
   ]
 }

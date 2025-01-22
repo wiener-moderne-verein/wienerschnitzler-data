@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.363819, 48.20334], 
+            [16.362454, 48.210474]
+          ]
+      },
+      "properties": {
+        "name": "1. September 1888"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362454, 48.210474]
+      },
+      "properties": {
+         "id": "pmb185561",
+         "title": "Leopold Markus Restauration »zum neuen Burgtheater«",
+         "lat": "48.210474",
+         "lon": "16.362454",
+         "timestamp": ["1888-09-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1888-09-01"],
+         "importance": "1"
+      }
+      }
   ]
 }

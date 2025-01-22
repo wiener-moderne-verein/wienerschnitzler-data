@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.363556, 48.211902], 
+            [16.370342, 48.211369], 
+            [16.344604, 48.227308], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "2. Januar 1906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.344604, 48.227308]
+      },
+      "properties": {
+         "id": "pmb235637",
+         "title": "Edelhofgasse 3",
+         "lat": "48.227308",
+         "lon": "16.344604",
+         "timestamp": ["1906-01-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1906-01-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1906-01-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363556, 48.211902]
+      },
+      "properties": {
+         "id": "pmb234436",
+         "title": "Teinfaltstraße 4",
+         "lat": "48.211902",
+         "lon": "16.363556",
+         "timestamp": ["1906-01-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

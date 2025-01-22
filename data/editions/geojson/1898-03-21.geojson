@@ -1,5 +1,66 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.370686, 48.212744], 
+            [16.363548, 48.216542], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "21. März 1898"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370686, 48.212744]
+      },
+      "properties": {
+         "id": "pmb195987",
+         "title": "Maria am Gestade",
+         "lat": "48.212744",
+         "lon": "16.370686",
+         "timestamp": ["1898-03-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Maria_am_Gestade", 
+        "wikidata": "http://www.wikidata.org/entity/Q701837"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363548, 48.216542]
+      },
+      "properties": {
+         "id": "pmb199530",
+         "title": "Kolingasse 13",
+         "lat": "48.216542",
+         "lon": "16.363548",
+         "timestamp": ["1898-03-21"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1898-03-21"],
+         "importance": "1"
+      }
+      }
   ]
 }

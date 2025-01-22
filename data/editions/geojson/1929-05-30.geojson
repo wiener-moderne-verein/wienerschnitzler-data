@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.378035, 48.214408], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "30. Mai 1929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.378035, 48.214408]
+      },
+      "properties": {
+         "id": "pmb185507",
+         "title": "Restaurant Neugröschl",
+         "lat": "48.214408",
+         "lon": "16.378035",
+         "timestamp": ["1929-05-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1929-05-30"],
+         "importance": "1"
+      }
+      }
   ]
 }

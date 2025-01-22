@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37134, 48.205383], 
+            [16.356465, 48.252584], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "11. März 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37134, 48.205383]
+      },
+      "properties": {
+         "id": "pmb186222",
+         "title": "Cabaret Fledermaus",
+         "lat": "48.205383",
+         "lon": "16.37134",
+         "timestamp": ["1908-03-11"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356465, 48.252584]
+      },
+      "properties": {
+         "id": "pmb245903",
+         "title": "Steinfeldgasse 4",
+         "lat": "48.252584",
+         "lon": "16.356465",
+         "timestamp": ["1908-03-11"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1908-03-11"],
+         "importance": "1"
+      }
+      }
   ]
 }

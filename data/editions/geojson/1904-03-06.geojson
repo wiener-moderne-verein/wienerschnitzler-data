@@ -1,5 +1,82 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.366111, 48.209167], 
+            [16.36468, 48.21099], 
+            [16.342154562605, 48.250804274577], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "6. März 1904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36468, 48.21099]
+      },
+      "properties": {
+         "id": "pmb377",
+         "title": "Hotel Klomser",
+         "lat": "48.21099",
+         "lon": "16.36468",
+         "timestamp": ["1904-03-06"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1904-03-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.342154562605, 48.250804274577]
+      },
+      "properties": {
+         "id": "pmb225",
+         "title": "Grinzing",
+         "lat": "48.250804274577",
+         "lon": "16.342154562605",
+         "timestamp": ["1904-03-06"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-03-06"],
+         "importance": "1"
+      }
+      }
   ]
 }

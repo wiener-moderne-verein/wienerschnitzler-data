@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.30202, 48.18636], 
+            [16.30202, 48.18636], 
+            [16.356671, 48.214272], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "3. Juni 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30202, 48.18636]
+      },
+      "properties": {
+         "id": "pmb304",
+         "title": "Ottakringer Bräu",
+         "lat": "48.18636",
+         "lon": "16.30202",
+         "timestamp": ["1905-06-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-06-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356671, 48.214272]
+      },
+      "properties": {
+         "id": "pmb235068",
+         "title": "Universitätsstraße 11",
+         "lat": "48.214272",
+         "lon": "16.356671",
+         "timestamp": ["1905-06-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30202, 48.18636]
+      },
+      "properties": {
+         "id": "pmb304",
+         "title": "Ottakringer Bräu",
+         "lat": "48.18636",
+         "lon": "16.30202",
+         "timestamp": ["1905-06-03"],
+         "importance": "1"
+      }
+      }
   ]
 }

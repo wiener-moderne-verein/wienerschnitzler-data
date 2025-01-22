@@ -1,5 +1,50 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.34629, 48.21327], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "11. April 1921"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34629, 48.21327]
+      },
+      "properties": {
+         "id": "pmb211373",
+         "title": "Wiener Stadttheater [8. Wiener Gemeindebezirk]",
+         "lat": "48.21327",
+         "lon": "16.34629",
+         "timestamp": ["1921-04-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Stadttheater", 
+        "wikidata": "http://www.wikidata.org/entity/Q2569106"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1921-04-11"],
+         "importance": "1"
+      }
+      }
   ]
 }

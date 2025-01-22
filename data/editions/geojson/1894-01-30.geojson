@@ -1,5 +1,82 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.339722, 48.192222], 
+            [16.365171, 48.203037], 
+            [16.365278, 48.210278], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "30. Januar 1894"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365278, 48.210278]
+      },
+      "properties": {
+         "id": "pmb262",
+         "title": "Café Central",
+         "lat": "48.210278",
+         "lon": "16.365278",
+         "timestamp": ["1894-01-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Central", 
+        "wikidata": "http://www.wikidata.org/entity/Q694757"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365171, 48.203037]
+      },
+      "properties": {
+         "id": "pmb192844",
+         "title": "Opernring 19",
+         "lat": "48.203037",
+         "lon": "16.365171",
+         "timestamp": ["1894-01-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.339722, 48.192222]
+      },
+      "properties": {
+         "id": "pmb77",
+         "title": "Raimund-Theater",
+         "lat": "48.192222",
+         "lon": "16.339722",
+         "timestamp": ["1894-01-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1894-01-30"],
+         "importance": "1"
+      }
+      }
   ]
 }

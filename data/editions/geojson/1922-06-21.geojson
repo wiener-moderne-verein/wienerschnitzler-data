@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36678, 48.20608], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "21. Juni 1922"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36678, 48.20608]
+      },
+      "properties": {
+         "id": "pmb828",
+         "title": "Nationalbibliothek",
+         "lat": "48.20608",
+         "lon": "16.36678",
+         "timestamp": ["1922-06-21"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1922-06-21"],
+         "importance": "1"
+      }
+      }
   ]
 }

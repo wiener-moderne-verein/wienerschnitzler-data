@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.363819, 48.20334], 
+            [16.373124, 48.216053]
+          ]
+      },
+      "properties": {
+        "name": "21. Januar 1880"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373124, 48.216053]
+      },
+      "properties": {
+         "id": "pmb92469",
+         "title": "Quaipark",
+         "lat": "48.216053",
+         "lon": "16.373124",
+         "timestamp": ["1880-01-21"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1880-01-21"],
+         "importance": "1"
+      }
+      }
   ]
 }

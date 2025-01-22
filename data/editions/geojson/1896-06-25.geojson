@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.299116267833, 48.230916826952]
+          ]
+      },
+      "properties": {
+        "name": "25. Juni 1896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.299116267833, 48.230916826952]
+      },
+      "properties": {
+         "id": "pmb499",
+         "title": "Dornbach",
+         "lat": "48.230916826952",
+         "lon": "16.299116267833",
+         "timestamp": ["1896-06-25"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-06-25"],
+         "importance": "1"
+      }
+      }
   ]
 }

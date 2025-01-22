@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37196, 48.20143], 
+            [16.37049, 48.20368]
+          ]
+      },
+      "properties": {
+        "name": "1. März 1892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20368]
+      },
+      "properties": {
+         "id": "pmb119",
+         "title": "Café Scheidl",
+         "lat": "48.20368",
+         "lon": "16.37049",
+         "timestamp": ["1892-03-01"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Fenstergucker"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1892-03-01"],
+         "importance": "1"
+      }
+      }
   ]
 }

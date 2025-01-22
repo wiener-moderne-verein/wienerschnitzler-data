@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33472, 48.2304], 
+            [16.342154562605, 48.250804274577]
+          ]
+      },
+      "properties": {
+        "name": "9. Oktober 1904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-10-09"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.342154562605, 48.250804274577]
+      },
+      "properties": {
+         "id": "pmb225",
+         "title": "Grinzing",
+         "lat": "48.250804274577",
+         "lon": "16.342154562605",
+         "timestamp": ["1904-10-09"],
+         "importance": "1"
+      }
+      }
   ]
 }

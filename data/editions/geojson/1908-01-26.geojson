@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.388592, 48.217485], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "26. Januar 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.388592, 48.217485]
+      },
+      "properties": {
+         "id": "pmb245834",
+         "title": "Afrikanergasse 9",
+         "lat": "48.217485",
+         "lon": "16.388592",
+         "timestamp": ["1908-01-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1908-01-26"],
+         "importance": "1"
+      }
+      }
   ]
 }

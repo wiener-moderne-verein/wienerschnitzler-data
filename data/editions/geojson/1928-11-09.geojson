@@ -1,5 +1,96 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3663984, 48.1965681], 
+            [16.37675, 48.20762], 
+            [16.3747466, 48.2104057], 
+            [16.33716, 48.23188], 
+            [16.35137, 48.21346]
+          ]
+      },
+      "properties": {
+        "name": "9. November 1928"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3663984, 48.1965681]
+      },
+      "properties": {
+         "id": "pmb57700",
+         "title": "Schleifmühlgasse",
+         "lat": "48.1965681",
+         "lon": "16.3663984",
+         "timestamp": ["1928-11-09"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3747466, 48.2104057]
+      },
+      "properties": {
+         "id": "pmb705",
+         "title": "Zur Linde",
+         "lat": "48.2104057",
+         "lon": "16.3747466",
+         "timestamp": ["1928-11-09"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37675, 48.20762]
+      },
+      "properties": {
+         "id": "pmb235120",
+         "title": "Schulerstraße 22",
+         "lat": "48.20762",
+         "lon": "16.37675",
+         "timestamp": ["1928-11-09"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1928-11-09"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1928-11-09"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,118 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33716, 48.23188], 
+            [16.36028, 48.217575], 
+            [16.361439, 48.220123], 
+            [16.355191, 48.248422], 
+            [16.33255, 48.27617], 
+            [16.342154562605, 48.250804274577]
+          ]
+      },
+      "properties": {
+        "name": "22. Januar 1928"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.342154562605, 48.250804274577]
+      },
+      "properties": {
+         "id": "pmb225",
+         "title": "Grinzing",
+         "lat": "48.250804274577",
+         "lon": "16.342154562605",
+         "timestamp": ["1928-01-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33255, 48.27617]
+      },
+      "properties": {
+         "id": "pmb574",
+         "title": "Kahlenberg",
+         "lat": "48.27617",
+         "lon": "16.33255",
+         "timestamp": ["1928-01-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kahlenberg", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=22912", 
+        "wikidata": "http://www.wikidata.org/entity/Q697119"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355191, 48.248422]
+      },
+      "properties": {
+         "id": "pmb92292",
+         "title": "Hohe Warte",
+         "lat": "48.248422",
+         "lon": "16.355191",
+         "timestamp": ["1928-01-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q876564"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36028, 48.217575]
+      },
+      "properties": {
+         "id": "pmb34106",
+         "title": "Zum silbernen Brunnen",
+         "lat": "48.217575",
+         "lon": "16.36028",
+         "timestamp": ["1928-01-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361439, 48.220123]
+      },
+      "properties": {
+         "id": "pmb190541",
+         "title": "Heimatkino",
+         "lat": "48.220123",
+         "lon": "16.361439",
+         "timestamp": ["1928-01-22"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Heimatkino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1928-01-22"],
+         "importance": "1"
+      }
+      }
   ]
 }

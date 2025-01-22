@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.287427, 48.182659], 
+            [16.287427, 48.182659], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "15. November 1901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.287427, 48.182659]
+      },
+      "properties": {
+         "id": "pmb231732",
+         "title": "Lainzerstraße 58",
+         "lat": "48.182659",
+         "lon": "16.287427",
+         "timestamp": ["1901-11-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1901-11-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.287427, 48.182659]
+      },
+      "properties": {
+         "id": "pmb231732",
+         "title": "Lainzerstraße 58",
+         "lat": "48.182659",
+         "lon": "16.287427",
+         "timestamp": ["1901-11-15"],
+         "importance": "1"
+      }
+      }
   ]
 }

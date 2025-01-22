@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.363819, 48.20334], 
+            [16.357685, 48.216547]
+          ]
+      },
+      "properties": {
+        "name": "11. Oktober 1882"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357685, 48.216547]
+      },
+      "properties": {
+         "id": "pmb41",
+         "title": "Allgemeine Poliklinik",
+         "lat": "48.216547",
+         "lon": "16.357685",
+         "timestamp": ["1882-10-11"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=15996"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1882-10-11"],
+         "importance": "1"
+      }
+      }
   ]
 }

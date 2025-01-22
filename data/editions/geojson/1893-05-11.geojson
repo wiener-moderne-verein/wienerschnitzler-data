@@ -1,5 +1,32 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.357233, 48.212477]
+          ]
+      },
+      "properties": {
+        "name": "11. Mai 1893"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357233, 48.212477]
+      },
+      "properties": {
+         "id": "pmb167782",
+         "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+         "lat": "48.212477",
+         "lon": "16.357233",
+         "timestamp": ["1893-05-11"],
+         "importance": "1"
+      }
+      }
   ]
 }

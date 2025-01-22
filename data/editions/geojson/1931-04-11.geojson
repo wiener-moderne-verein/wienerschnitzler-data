@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.350607, 48.206352], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "11. April 1931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350607, 48.206352]
+      },
+      "properties": {
+         "id": "pmb190698",
+         "title": "Phönixkino",
+         "lat": "48.206352",
+         "lon": "16.350607",
+         "timestamp": ["1931-04-11"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Ph%C3%B6nixkino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1931-04-11"],
+         "importance": "1"
+      }
+      }
   ]
 }

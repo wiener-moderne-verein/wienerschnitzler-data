@@ -1,5 +1,65 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37196, 48.20143], 
+            [16.36668, 48.21099], 
+            [16.35461, 48.22921]
+          ]
+      },
+      "properties": {
+        "name": "7. April 1891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35461, 48.22921]
+      },
+      "properties": {
+         "id": "pmb1270",
+         "title": "Nussdorfer Straße",
+         "lat": "48.22921",
+         "lon": "16.35461",
+         "timestamp": ["1891-04-07"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Nußdorfer_Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36668, 48.21099]
+      },
+      "properties": {
+         "id": "pmb43528",
+         "title": "Joseph G. Wieninger, Weinhandlung",
+         "lat": "48.21099",
+         "lon": "16.36668",
+         "timestamp": ["1891-04-07"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1891-04-07"],
+         "importance": "1"
+      }
+      }
   ]
 }

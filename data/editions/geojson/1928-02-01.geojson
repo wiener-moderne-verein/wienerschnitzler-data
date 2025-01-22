@@ -1,5 +1,101 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3566, 48.205142], 
+            [16.371916, 48.212604], 
+            [16.36028, 48.217575], 
+            [16.35689, 48.21787], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "1. Februar 1928"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3566, 48.205142]
+      },
+      "properties": {
+         "id": "pmb20",
+         "title": "Volkstheater",
+         "lat": "48.205142",
+         "lon": "16.3566",
+         "timestamp": ["1928-02-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
+        "wikidata": "http://www.wikidata.org/entity/Q688555"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36028, 48.217575]
+      },
+      "properties": {
+         "id": "pmb34106",
+         "title": "Zum silbernen Brunnen",
+         "lat": "48.217575",
+         "lon": "16.36028",
+         "timestamp": ["1928-02-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1928-02-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371916, 48.212604]
+      },
+      "properties": {
+         "id": "pmb195974",
+         "title": "Fischerstiege",
+         "lat": "48.212604",
+         "lon": "16.371916",
+         "timestamp": ["1928-02-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Fischerstiege", 
+        "wikidata": "http://www.wikidata.org/entity/Q21036839"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1928-02-01"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,32 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [12.603924, 56.044988]
+          ]
+      },
+      "properties": {
+        "name": "9. Juli 1906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.603924, 56.044988]
+      },
+      "properties": {
+         "id": "pmb41010",
+         "title": "Kurhotellet",
+         "lat": "56.044988",
+         "lon": "12.603924",
+         "timestamp": ["1906-07-09"],
+         "importance": "1"
+      }
+      }
   ]
 }

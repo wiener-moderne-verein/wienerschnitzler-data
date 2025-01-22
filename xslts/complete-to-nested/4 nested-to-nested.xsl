@@ -42,7 +42,7 @@
                     <xsl:for-each select="$listPlace/tei:place[tei:ancestors/@ana = $corresp]">
                         <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:attribute name="corresp">
-                                <xsl:value-of select="replace(@corresp, 'pmb', '')"/>
+                                <xsl:value-of select="concat('#pmb', replace(replace(@corresp, 'pmb', ''), '#', ''))"/>
                             </xsl:attribute>
                             <xsl:apply-templates mode="hierarchie" select="*"/>
                         </xsl:element>

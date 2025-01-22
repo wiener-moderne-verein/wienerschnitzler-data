@@ -1,5 +1,82 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3642, 48.19941], 
+            [16.35736, 48.21533], 
+            [16.34098, 48.22426], 
+            [16.3406, 48.2242]
+          ]
+      },
+      "properties": {
+        "name": "22. Mai 1903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3642, 48.19941]
+      },
+      "properties": {
+         "id": "pmb37",
+         "title": "Theater an der Wien",
+         "lat": "48.19941",
+         "lon": "16.3642",
+         "timestamp": ["1903-05-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3406, 48.2242]
+      },
+      "properties": {
+         "id": "pmb232701",
+         "title": "Währinger Tempel",
+         "lat": "48.2242",
+         "lon": "16.3406",
+         "timestamp": ["1903-05-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/W%C3%A4hringer_Tempel", 
+        "wikidata": "http://www.wikidata.org/entity/Q875578"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34098, 48.22426]
+      },
+      "properties": {
+         "id": "pmb44464",
+         "title": "Schopenhauerstraße",
+         "lat": "48.22426",
+         "lon": "16.34098",
+         "timestamp": ["1903-05-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1903-05-22"],
+         "importance": "1"
+      }
+      }
   ]
 }

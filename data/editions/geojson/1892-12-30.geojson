@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.357233, 48.212477], 
+            [16.349167, 48.216139]
+          ]
+      },
+      "properties": {
+        "name": "30. Dezember 1892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.349167, 48.216139]
+      },
+      "properties": {
+         "id": "pmb182710",
+         "title": "Allgemeine Poliklinik [neues Gebäude]",
+         "lat": "48.216139",
+         "lon": "16.349167",
+         "timestamp": ["1892-12-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357233, 48.212477]
+      },
+      "properties": {
+         "id": "pmb167782",
+         "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+         "lat": "48.212477",
+         "lon": "16.357233",
+         "timestamp": ["1892-12-30"],
+         "importance": "1"
+      }
+      }
   ]
 }

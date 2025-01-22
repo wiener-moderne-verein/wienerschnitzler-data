@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.30202, 48.18636], 
+            [16.30202, 48.18636], 
+            [16.368738, 48.213038], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "2. März 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30202, 48.18636]
+      },
+      "properties": {
+         "id": "pmb304",
+         "title": "Ottakringer Bräu",
+         "lat": "48.18636",
+         "lon": "16.30202",
+         "timestamp": ["1905-03-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1905-03-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-03-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30202, 48.18636]
+      },
+      "properties": {
+         "id": "pmb304",
+         "title": "Ottakringer Bräu",
+         "lat": "48.18636",
+         "lon": "16.30202",
+         "timestamp": ["1905-03-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

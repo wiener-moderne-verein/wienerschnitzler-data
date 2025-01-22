@@ -1,5 +1,67 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33472, 48.2304], 
+            [16.36756870745, 48.244596474277], 
+            [16.359356, 48.24983]
+          ]
+      },
+      "properties": {
+        "name": "5. April 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36756870745, 48.244596474277]
+      },
+      "properties": {
+         "id": "pmb159",
+         "title": "Heiligenstadt",
+         "lat": "48.244596474277",
+         "lon": "16.36756870745",
+         "timestamp": ["1908-04-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Heiligenstadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q379531"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359356, 48.24983]
+      },
+      "properties": {
+         "id": "pmb246082",
+         "title": "Aussichtsweg",
+         "lat": "48.24983",
+         "lon": "16.359356",
+         "timestamp": ["1908-04-05"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q131720578"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1908-04-05"],
+         "importance": "1"
+      }
+      }
   ]
 }

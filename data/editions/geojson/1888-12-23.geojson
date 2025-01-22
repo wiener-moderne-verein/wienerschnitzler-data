@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36362, 48.20329], 
+            [16.362269, 48.210795]
+          ]
+      },
+      "properties": {
+        "name": "23. Dezember 1888"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362269, 48.210795]
+      },
+      "properties": {
+         "id": "pmb194841",
+         "title": "Löwelstraße 16",
+         "lat": "48.210795",
+         "lon": "16.362269",
+         "timestamp": ["1888-12-23"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1888-12-23"],
+         "importance": "1"
+      }
+      }
   ]
 }

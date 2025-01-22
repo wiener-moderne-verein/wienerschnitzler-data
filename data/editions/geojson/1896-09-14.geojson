@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.361234, 48.195239], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "14. September 1896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361234, 48.195239]
+      },
+      "properties": {
+         "id": "pmb185501",
+         "title": "Gastwirtschaft Zur Heumühle",
+         "lat": "48.195239",
+         "lon": "16.361234",
+         "timestamp": ["1896-09-14"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-09-14"],
+         "importance": "1"
+      }
+      }
   ]
 }

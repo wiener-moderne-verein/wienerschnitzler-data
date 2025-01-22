@@ -1,5 +1,50 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.430054, 48.194558], 
+            [16.357233, 48.212477]
+          ]
+      },
+      "properties": {
+        "name": "31. März 1893"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1893-03-31"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357233, 48.212477]
+      },
+      "properties": {
+         "id": "pmb167782",
+         "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+         "lat": "48.212477",
+         "lon": "16.357233",
+         "timestamp": ["1893-03-31"],
+         "importance": "1"
+      }
+      }
   ]
 }

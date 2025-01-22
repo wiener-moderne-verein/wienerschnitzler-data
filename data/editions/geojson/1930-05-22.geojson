@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.371211, 48.206416], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "22. Mai 1930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371211, 48.206416]
+      },
+      "properties": {
+         "id": "pmb96",
+         "title": "Meissl & Schadn",
+         "lat": "48.206416",
+         "lon": "16.371211",
+         "timestamp": ["1930-05-22"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1930-05-22"],
+         "importance": "1"
+      }
+      }
   ]
 }

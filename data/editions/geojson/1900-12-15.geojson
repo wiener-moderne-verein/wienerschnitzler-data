@@ -1,5 +1,65 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.3633523, 48.211807], 
+            [16.351339, 48.22327]
+          ]
+      },
+      "properties": {
+        "name": "15. Dezember 1900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3633523, 48.211807]
+      },
+      "properties": {
+         "id": "pmb1106",
+         "title": "Residenzhotel",
+         "lat": "48.211807",
+         "lon": "16.3633523",
+         "timestamp": ["1900-12-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351339, 48.22327]
+      },
+      "properties": {
+         "id": "pmb201129",
+         "title": "Gewerbemuseum",
+         "lat": "48.22327",
+         "lon": "16.351339",
+         "timestamp": ["1900-12-15"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130726125"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1900-12-15"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37693, 48.204251], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "8. Oktober 1902"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37693, 48.204251]
+      },
+      "properties": {
+         "id": "pmb232172",
+         "title": "Parkring 16",
+         "lat": "48.204251",
+         "lon": "16.37693",
+         "timestamp": ["1902-10-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1902-10-08"],
+         "importance": "1"
+      }
+      }
   ]
 }

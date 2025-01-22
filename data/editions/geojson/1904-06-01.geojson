@@ -1,5 +1,83 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.368738, 48.213038], 
+            [16.38214, 48.21348], 
+            [16.382549, 48.21387], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "1. Juni 1904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1904-06-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-06-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.382549, 48.21387]
+      },
+      "properties": {
+         "id": "pmb199587",
+         "title": "Praterstraße 21",
+         "lat": "48.21387",
+         "lon": "16.382549",
+         "timestamp": ["1904-06-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38214, 48.21348]
+      },
+      "properties": {
+         "id": "pmb50933",
+         "title": "Praterstraße",
+         "lat": "48.21348",
+         "lon": "16.38214",
+         "timestamp": ["1904-06-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Praterstra%C3%9Fe", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Praterstraße", 
+        "wikidata": "http://www.wikidata.org/entity/Q2107895"
+      }
+      }
   ]
 }

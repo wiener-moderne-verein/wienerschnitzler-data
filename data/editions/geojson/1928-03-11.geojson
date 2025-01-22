@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33716, 48.23188], 
+            [16.337998, 48.235859], 
+            [16.32092, 48.24077]
+          ]
+      },
+      "properties": {
+        "name": "11. März 1928"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1928-03-11"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.32092, 48.24077]
+      },
+      "properties": {
+         "id": "pmb235218",
+         "title": "Windmühlhöhe",
+         "lat": "48.24077",
+         "lon": "16.32092",
+         "timestamp": ["1928-03-11"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337998, 48.235859]
+      },
+      "properties": {
+         "id": "pmb232834",
+         "title": "Gregor-Mendel-Straße 50",
+         "lat": "48.235859",
+         "lon": "16.337998",
+         "timestamp": ["1928-03-11"],
+         "importance": "1"
+      }
+      }
   ]
 }

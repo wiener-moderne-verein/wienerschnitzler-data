@@ -1,5 +1,65 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3642, 48.19941], 
+            [16.371211, 48.206416], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "8. Mai 1907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371211, 48.206416]
+      },
+      "properties": {
+         "id": "pmb96",
+         "title": "Meissl & Schadn",
+         "lat": "48.206416",
+         "lon": "16.371211",
+         "timestamp": ["1907-05-08"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3642, 48.19941]
+      },
+      "properties": {
+         "id": "pmb37",
+         "title": "Theater an der Wien",
+         "lat": "48.19941",
+         "lon": "16.3642",
+         "timestamp": ["1907-05-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-05-08"],
+         "importance": "1"
+      }
+      }
   ]
 }

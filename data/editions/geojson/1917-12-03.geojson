@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.349222, 48.201139], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "3. Dezember 1917"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.349222, 48.201139]
+      },
+      "properties": {
+         "id": "pmb280",
+         "title": "Renaissancetheater",
+         "lat": "48.201139",
+         "lon": "16.349222",
+         "timestamp": ["1917-12-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1917-12-03"],
+         "importance": "1"
+      }
+      }
   ]
 }

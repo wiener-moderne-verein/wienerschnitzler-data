@@ -1,5 +1,82 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33472, 48.2304], 
+            [16.343483, 48.224117], 
+            [16.341944, 48.233056], 
+            [16.333568462613, 48.235119783861]
+          ]
+      },
+      "properties": {
+        "name": "1. August 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333568462613, 48.235119783861]
+      },
+      "properties": {
+         "id": "pmb113",
+         "title": "Türkenschanzpark",
+         "lat": "48.235119783861",
+         "lon": "16.333568462613",
+         "timestamp": ["1905-08-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.343483, 48.224117]
+      },
+      "properties": {
+         "id": "pmb234221",
+         "title": "Hotel Steinböck",
+         "lat": "48.224117",
+         "lon": "16.343483",
+         "timestamp": ["1905-08-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-08-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341944, 48.233056]
+      },
+      "properties": {
+         "id": "pmb533",
+         "title": "Währinger Cottage",
+         "lat": "48.233056",
+         "lon": "16.341944",
+         "timestamp": ["1905-08-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1136683"
+      }
+      }
   ]
 }

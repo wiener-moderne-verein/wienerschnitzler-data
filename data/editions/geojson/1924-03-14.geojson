@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.339722, 48.192222], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "14. März 1924"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.339722, 48.192222]
+      },
+      "properties": {
+         "id": "pmb77",
+         "title": "Raimund-Theater",
+         "lat": "48.192222",
+         "lon": "16.339722",
+         "timestamp": ["1924-03-14"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1924-03-14"],
+         "importance": "1"
+      }
+      }
   ]
 }

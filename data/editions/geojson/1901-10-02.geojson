@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.368913, 48.192766], 
+            [16.35736, 48.21533], 
+            [16.349593, 48.214365]
+          ]
+      },
+      "properties": {
+        "name": "2. Oktober 1901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368913, 48.192766]
+      },
+      "properties": {
+         "id": "pmb231273",
+         "title": "Mayerhofgasse 12",
+         "lat": "48.192766",
+         "lon": "16.368913",
+         "timestamp": ["1901-10-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.349593, 48.214365]
+      },
+      "properties": {
+         "id": "pmb231623",
+         "title": "Kochgasse 32",
+         "lat": "48.214365",
+         "lon": "16.349593",
+         "timestamp": ["1901-10-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1901-10-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

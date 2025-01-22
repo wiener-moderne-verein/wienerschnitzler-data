@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37601664270439, 48.198498814707754], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "30. Juni 1895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1895-06-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37601664270439, 48.198498814707754]
+      },
+      "properties": {
+         "id": "pmb53143",
+         "title": "Schwarzenbergplatz",
+         "lat": "48.198498814707754",
+         "lon": "16.37601664270439",
+         "timestamp": ["1895-06-30"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.384778, 48.219967]
+          ]
+      },
+      "properties": {
+        "name": "24. April 1895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.384778, 48.219967]
+      },
+      "properties": {
+         "id": "pmb199124",
+         "title": "Hotel Deutscher Hof",
+         "lat": "48.219967",
+         "lon": "16.384778",
+         "timestamp": ["1895-04-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1895-04-24"],
+         "importance": "1"
+      }
+      }
   ]
 }

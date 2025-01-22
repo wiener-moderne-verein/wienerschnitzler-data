@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.361139, 48.210333], 
+            [16.369345, 48.207599], 
+            [16.331527, 48.23428], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "12. Juni 1909"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.331527, 48.23428]
+      },
+      "properties": {
+         "id": "pmb74",
+         "title": "Restauration Türkenschanz-Park",
+         "lat": "48.23428",
+         "lon": "16.331527",
+         "timestamp": ["1909-06-12"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1909-06-12"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1909-06-12"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369345, 48.207599]
+      },
+      "properties": {
+         "id": "pmb247826",
+         "title": "Ludwig Doblinger (Bernhard Herzmansky), Musikalienhandlung, Antiquariat und Leih-Anstalt",
+         "lat": "48.207599",
+         "lon": "16.369345",
+         "timestamp": ["1909-06-12"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36471, 48.200556], 
+            [16.365171, 48.203037], 
+            [16.375924, 48.208656], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "22. April 1894"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36471, 48.200556]
+      },
+      "properties": {
+         "id": "pmb97",
+         "title": "Zum Weingartl",
+         "lat": "48.200556",
+         "lon": "16.36471",
+         "timestamp": ["1894-04-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365171, 48.203037]
+      },
+      "properties": {
+         "id": "pmb192844",
+         "title": "Opernring 19",
+         "lat": "48.203037",
+         "lon": "16.365171",
+         "timestamp": ["1894-04-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375924, 48.208656]
+      },
+      "properties": {
+         "id": "pmb190427",
+         "title": "Wollzeile 15 (»Berthahof«)",
+         "lat": "48.208656",
+         "lon": "16.375924",
+         "timestamp": ["1894-04-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1894-04-22"],
+         "importance": "1"
+      }
+      }
   ]
 }

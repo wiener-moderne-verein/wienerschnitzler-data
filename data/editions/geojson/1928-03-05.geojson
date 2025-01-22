@@ -1,5 +1,66 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.378269181766, 48.192914955653], 
+            [16.348029, 48.237242], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "5. März 1928"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.378269181766, 48.192914955653]
+      },
+      "properties": {
+         "id": "pmb524",
+         "title": "Prinz-Eugen-Straße",
+         "lat": "48.192914955653",
+         "lon": "16.378269181766",
+         "timestamp": ["1928-03-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Prinz-Eugen-Stra%C3%9Fe_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q106194266"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348029, 48.237242]
+      },
+      "properties": {
+         "id": "pmb233133",
+         "title": "Pension Peter",
+         "lat": "48.237242",
+         "lon": "16.348029",
+         "timestamp": ["1928-03-05"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1928-03-05"],
+         "importance": "1"
+      }
+      }
   ]
 }

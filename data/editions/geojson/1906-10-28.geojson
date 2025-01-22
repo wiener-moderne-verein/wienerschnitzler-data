@@ -1,5 +1,65 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33472, 48.2304], 
+            [16.355118, 48.254547], 
+            [16.337548, 48.257418]
+          ]
+      },
+      "properties": {
+        "name": "28. Oktober 1906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337548, 48.257418]
+      },
+      "properties": {
+         "id": "pmb238216",
+         "title": "Feilergasse 5",
+         "lat": "48.257418",
+         "lon": "16.337548",
+         "timestamp": ["1906-10-28"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q105089833"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355118, 48.254547]
+      },
+      "properties": {
+         "id": "pmb237626",
+         "title": "Armbrustergasse 6",
+         "lat": "48.254547",
+         "lon": "16.355118",
+         "timestamp": ["1906-10-28"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1906-10-28"],
+         "importance": "1"
+      }
+      }
   ]
 }

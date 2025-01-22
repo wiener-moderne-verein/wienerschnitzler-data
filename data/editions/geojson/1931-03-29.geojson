@@ -1,5 +1,81 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.379436, 48.213062], 
+            [16.338016, 48.234091], 
+            [16.33716, 48.23188], 
+            [16.333056, 48.233056]
+          ]
+      },
+      "properties": {
+        "name": "29. März 1931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1931-03-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1931-03-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338016, 48.234091]
+      },
+      "properties": {
+         "id": "pmb236372",
+         "title": "Gregor-Mendel-Straße 34",
+         "lat": "48.234091",
+         "lon": "16.338016",
+         "timestamp": ["1931-03-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379436, 48.213062]
+      },
+      "properties": {
+         "id": "pmb190479",
+         "title": "Ferdinandskino",
+         "lat": "48.213062",
+         "lon": "16.379436",
+         "timestamp": ["1931-03-29"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Ferdinandskino_-_Schwedenkino"
+      }
+      }
   ]
 }

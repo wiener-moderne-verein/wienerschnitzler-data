@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33472, 48.2304], 
+            [16.338341, 48.243053]
+          ]
+      },
+      "properties": {
+        "name": "27. April 1907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338341, 48.243053]
+      },
+      "properties": {
+         "id": "pmb234753",
+         "title": "Wilhelm Hohm. Zier- und Landschaftsgärtner",
+         "lat": "48.243053",
+         "lon": "16.338341",
+         "timestamp": ["1907-04-27"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-04-27"],
+         "importance": "1"
+      }
+      }
   ]
 }

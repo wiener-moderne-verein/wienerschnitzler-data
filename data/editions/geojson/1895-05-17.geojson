@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.376259, 48.211639], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "17. Mai 1895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376259, 48.211639]
+      },
+      "properties": {
+         "id": "pmb199135",
+         "title": "Hotel Habsburg",
+         "lat": "48.211639",
+         "lon": "16.376259",
+         "timestamp": ["1895-05-17"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q116180341"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1895-05-17"],
+         "importance": "1"
+      }
+      }
   ]
 }

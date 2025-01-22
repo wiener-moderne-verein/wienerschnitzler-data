@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.337413, 48.177818], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "21. November 1898"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337413, 48.177818]
+      },
+      "properties": {
+         "id": "pmb200699",
+         "title": "Canalettogasse 3",
+         "lat": "48.177818",
+         "lon": "16.337413",
+         "timestamp": ["1898-11-21"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1898-11-21"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -6,10 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.560026, 46.54555], 
             [11.603010856, 46.53844547], 
+            [11.6072084, 46.5137618], 
+            [11.703072, 46.534], 
             [11.715491, 46.55907], 
-            [11.67176, 46.57603]
+            [11.67176, 46.57603], 
+            [11.560026, 46.54555]
           ]
       },
       "properties": {
@@ -27,6 +29,36 @@
          "title": "Villa Heufler",
          "lat": "46.54555",
          "lon": "11.560026",
+         "timestamp": ["1908-08-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.6072084, 46.5137618]
+      },
+      "properties": {
+         "id": "pmb247450",
+         "title": "Saltnerhütte",
+         "lat": "46.5137618",
+         "lon": "11.6072084",
+         "timestamp": ["1908-08-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.703072, 46.534]
+      },
+      "properties": {
+         "id": "pmb247499",
+         "title": "Plan de Cunfin",
+         "lat": "46.534",
+         "lon": "11.703072",
          "timestamp": ["1908-08-30"],
          "importance": "1"
       }

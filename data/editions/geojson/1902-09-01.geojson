@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.24924, 48.08736]
+            [16.24924, 48.08736], 
+            [16.367998, 48.203159], 
+            [16.379576773014, 48.230065709671], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -24,6 +27,51 @@
          "title": "Hauptstraße 56",
          "lat": "48.08736",
          "lon": "16.24924",
+         "timestamp": ["1902-09-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379576773014, 48.230065709671]
+      },
+      "properties": {
+         "id": "pmb202",
+         "title": "Nordwestbahnhof",
+         "lat": "48.230065709671",
+         "lon": "16.379576773014",
+         "timestamp": ["1902-09-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367998, 48.203159]
+      },
+      "properties": {
+         "id": "pmb185989",
+         "title": "Opernrestaurant",
+         "lat": "48.203159",
+         "lon": "16.367998",
+         "timestamp": ["1902-09-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
          "timestamp": ["1902-09-01"],
          "importance": "1"
       }

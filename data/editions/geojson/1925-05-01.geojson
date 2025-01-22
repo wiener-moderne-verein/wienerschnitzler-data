@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.271459, 48.225694], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "1. Mai 1925"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.271459, 48.225694]
+      },
+      "properties": {
+         "id": "pmb193098",
+         "title": "Kreuzeichenwiese",
+         "lat": "48.225694",
+         "lon": "16.271459",
+         "timestamp": ["1925-05-01"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q59640310"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1925-05-01"],
+         "importance": "1"
+      }
+      }
   ]
 }

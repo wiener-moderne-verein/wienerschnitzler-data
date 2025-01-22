@@ -1,5 +1,66 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.366111, 48.209167], 
+            [16.365874, 48.209748], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "8. Januar 1907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365874, 48.209748]
+      },
+      "properties": {
+         "id": "pmb234967",
+         "title": "Cafésalon Louise Jesovits",
+         "lat": "48.209748",
+         "lon": "16.365874",
+         "timestamp": ["1907-01-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1907-01-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-01-08"],
+         "importance": "1"
+      }
+      }
   ]
 }

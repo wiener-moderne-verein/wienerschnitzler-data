@@ -1,5 +1,65 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36362, 48.20329], 
+            [16.37084, 48.210333], 
+            [16.364037, 48.213055]
+          ]
+      },
+      "properties": {
+        "name": "2. November 1889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364037, 48.213055]
+      },
+      "properties": {
+         "id": "pmb186725",
+         "title": "Lehninger Delikatessenhandlung",
+         "lat": "48.213055",
+         "lon": "16.364037",
+         "timestamp": ["1889-11-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37084, 48.210333]
+      },
+      "properties": {
+         "id": "pmb2",
+         "title": "Konservatorium der Gesellschaft der Musikfreunde",
+         "lat": "48.210333",
+         "lon": "16.37084",
+         "timestamp": ["1889-11-02"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Universität_für_Musik_und_darstellende_Kunst_Wien"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-11-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

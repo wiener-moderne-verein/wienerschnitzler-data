@@ -1,5 +1,51 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.376111111111, 48.201388888889], 
+            [16.363819, 48.20334]
+          ]
+      },
+      "properties": {
+        "name": "9. Juni 1879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376111111111, 48.201388888889]
+      },
+      "properties": {
+         "id": "pmb1273",
+         "title": "Akademisches Gymnasium",
+         "lat": "48.201388888889",
+         "lon": "16.376111111111",
+         "timestamp": ["1879-06-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Akademisches_Gymnasium_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=29243", 
+        "wikidata": "http://www.wikidata.org/entity/Q414936"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1879-06-09"],
+         "importance": "1"
+      }
+      }
   ]
 }

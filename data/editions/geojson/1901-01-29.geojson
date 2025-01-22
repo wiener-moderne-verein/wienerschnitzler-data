@@ -1,5 +1,66 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.266389, 48.188056], 
+            [16.3855, 48.21682], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "29. Januar 1901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.266389, 48.188056]
+      },
+      "properties": {
+         "id": "pmb165",
+         "title": "Ober Sankt Veit",
+         "lat": "48.188056",
+         "lon": "16.266389",
+         "timestamp": ["1901-01-29"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ober_Sankt_Veit", 
+        "wikidata": "http://www.wikidata.org/entity/Q1667009"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3855, 48.21682]
+      },
+      "properties": {
+         "id": "pmb231146",
+         "title": "Rotensterngasse 31",
+         "lat": "48.21682",
+         "lon": "16.3855",
+         "timestamp": ["1901-01-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1901-01-29"],
+         "importance": "1"
+      }
+      }
   ]
 }

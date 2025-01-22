@@ -1,5 +1,116 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.23106, 48.14764], 
+            [16.257741, 48.139276], 
+            [16.255556, 48.133611], 
+            [16.256152195922, 48.132793312328], 
+            [16.33472, 48.2304], 
+            [16.333568462613, 48.235119783861]
+          ]
+      },
+      "properties": {
+        "name": "17. Juni 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333568462613, 48.235119783861]
+      },
+      "properties": {
+         "id": "pmb113",
+         "title": "Türkenschanzpark",
+         "lat": "48.235119783861",
+         "lon": "16.333568462613",
+         "timestamp": ["1905-06-17"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-06-17"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.257741, 48.139276]
+      },
+      "properties": {
+         "id": "pmb231810",
+         "title": "Willergasse 2",
+         "lat": "48.139276",
+         "lon": "16.257741",
+         "timestamp": ["1905-06-17"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.255556, 48.133611]
+      },
+      "properties": {
+         "id": "pmb40297",
+         "title": "Hofmannsthal-Schlössl",
+         "lat": "48.133611",
+         "lon": "16.255556",
+         "timestamp": ["1905-06-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hofmannsthal-Schl%C3%B6ssl", 
+        "wikidata": "http://www.wikidata.org/entity/Q1623184"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23106, 48.14764]
+      },
+      "properties": {
+         "id": "pmb187",
+         "title": "Gasthaus zum Jägerhaus",
+         "lat": "48.14764",
+         "lon": "16.23106",
+         "timestamp": ["1905-06-17"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.256152195922, 48.132793312328]
+      },
+      "properties": {
+         "id": "pmb173",
+         "title": "Rodaun",
+         "lat": "48.132793312328",
+         "lon": "16.256152195922",
+         "timestamp": ["1905-06-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rodaun", 
+        "wikidata": "http://www.wikidata.org/entity/Q2160909"
+      }
+      }
   ]
 }

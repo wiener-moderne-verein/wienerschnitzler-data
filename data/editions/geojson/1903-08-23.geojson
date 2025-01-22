@@ -1,5 +1,98 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.368738, 48.213038], 
+            [16.333568462613, 48.235119783861], 
+            [16.335264, 48.228877], 
+            [16.3406, 48.2242]
+          ]
+      },
+      "properties": {
+        "name": "23. August 1903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333568462613, 48.235119783861]
+      },
+      "properties": {
+         "id": "pmb113",
+         "title": "Türkenschanzpark",
+         "lat": "48.235119783861",
+         "lon": "16.333568462613",
+         "timestamp": ["1903-08-23"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3406, 48.2242]
+      },
+      "properties": {
+         "id": "pmb232701",
+         "title": "Währinger Tempel",
+         "lat": "48.2242",
+         "lon": "16.3406",
+         "timestamp": ["1903-08-23"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/W%C3%A4hringer_Tempel", 
+        "wikidata": "http://www.wikidata.org/entity/Q875578"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.335264, 48.228877]
+      },
+      "properties": {
+         "id": "pmb232166",
+         "title": "Gentzgasse 110",
+         "lat": "48.228877",
+         "lon": "16.335264",
+         "timestamp": ["1903-08-23"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1903-08-23"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1903-08-23"],
+         "importance": "1"
+      }
+      }
   ]
 }

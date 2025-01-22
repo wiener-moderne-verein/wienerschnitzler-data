@@ -1,5 +1,33 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [8.817317, 44.42949]
+          ]
+      },
+      "properties": {
+        "name": "4. März 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.817317, 44.42949]
+      },
+      "properties": {
+         "id": "pmb235015",
+         "title": "Villa Durazzo Pallavicini",
+         "lat": "44.42949",
+         "lon": "8.817317",
+         "timestamp": ["1905-03-04"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q4011961"
+      }
+      }
   ]
 }

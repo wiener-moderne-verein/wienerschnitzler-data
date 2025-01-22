@@ -1,5 +1,97 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3642, 48.19941], 
+            [16.371211, 48.206416], 
+            [16.347492624475, 48.216264483348], 
+            [16.33472, 48.2304], 
+            [16.323195, 48.213619]
+          ]
+      },
+      "properties": {
+        "name": "21. Mai 1906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371211, 48.206416]
+      },
+      "properties": {
+         "id": "pmb96",
+         "title": "Meissl & Schadn",
+         "lat": "48.206416",
+         "lon": "16.371211",
+         "timestamp": ["1906-05-21"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.323195, 48.213619]
+      },
+      "properties": {
+         "id": "pmb237241",
+         "title": "Ottakringer Straße 114",
+         "lat": "48.213619",
+         "lon": "16.323195",
+         "timestamp": ["1906-05-21"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1906-05-21"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3642, 48.19941]
+      },
+      "properties": {
+         "id": "pmb37",
+         "title": "Theater an der Wien",
+         "lat": "48.19941",
+         "lon": "16.3642",
+         "timestamp": ["1906-05-21"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1906-05-21"],
+         "importance": "1"
+      }
+      }
   ]
 }

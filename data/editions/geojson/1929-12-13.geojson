@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.339722, 48.192222], 
+            [16.36471, 48.200556], 
+            [16.35137, 48.21346], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "13. Dezember 1929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36471, 48.200556]
+      },
+      "properties": {
+         "id": "pmb97",
+         "title": "Zum Weingartl",
+         "lat": "48.200556",
+         "lon": "16.36471",
+         "timestamp": ["1929-12-13"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.339722, 48.192222]
+      },
+      "properties": {
+         "id": "pmb77",
+         "title": "Raimund-Theater",
+         "lat": "48.192222",
+         "lon": "16.339722",
+         "timestamp": ["1929-12-13"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1929-12-13"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1929-12-13"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.363819, 48.20334], 
+            [16.36645, 48.20778]
+          ]
+      },
+      "properties": {
+        "name": "3. Januar 1880"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36645, 48.20778]
+      },
+      "properties": {
+         "id": "pmb185621",
+         "title": "Burgtheater [Altes Burgtheater]",
+         "lat": "48.20778",
+         "lon": "16.36645",
+         "timestamp": ["1880-01-03"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q45350189"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1880-01-03"],
+         "importance": "1"
+      }
+      }
   ]
 }

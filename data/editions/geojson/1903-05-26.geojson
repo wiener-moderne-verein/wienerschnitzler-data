@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.358471, 48.212329], 
+            [16.35736, 48.21533], 
+            [16.363959, 48.213291], 
+            [16.335264, 48.228877]
+          ]
+      },
+      "properties": {
+        "name": "26. Mai 1903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363959, 48.213291]
+      },
+      "properties": {
+         "id": "pmb232755",
+         "title": "Helferstorferstraße 3",
+         "lat": "48.213291",
+         "lon": "16.363959",
+         "timestamp": ["1903-05-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.358471, 48.212329]
+      },
+      "properties": {
+         "id": "pmb232761",
+         "title": "Rathausplatz 4",
+         "lat": "48.212329",
+         "lon": "16.358471",
+         "timestamp": ["1903-05-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1903-05-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.335264, 48.228877]
+      },
+      "properties": {
+         "id": "pmb232166",
+         "title": "Gentzgasse 110",
+         "lat": "48.228877",
+         "lon": "16.335264",
+         "timestamp": ["1903-05-26"],
+         "importance": "1"
+      }
+      }
   ]
 }

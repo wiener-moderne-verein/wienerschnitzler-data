@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.35688, 48.226418]
+          ]
+      },
+      "properties": {
+        "name": "2. Juni 1899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35688, 48.226418]
+      },
+      "properties": {
+         "id": "pmb207089",
+         "title": "Liechtensteinstraße 62",
+         "lat": "48.226418",
+         "lon": "16.35688",
+         "timestamp": ["1899-06-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1899-06-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33472, 48.2304], 
+            [16.342154562605, 48.250804274577], 
+            [16.338341, 48.243053]
+          ]
+      },
+      "properties": {
+        "name": "18. Dezember 1904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-12-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338341, 48.243053]
+      },
+      "properties": {
+         "id": "pmb234753",
+         "title": "Wilhelm Hohm. Zier- und Landschaftsgärtner",
+         "lat": "48.243053",
+         "lon": "16.338341",
+         "timestamp": ["1904-12-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.342154562605, 48.250804274577]
+      },
+      "properties": {
+         "id": "pmb225",
+         "title": "Grinzing",
+         "lat": "48.250804274577",
+         "lon": "16.342154562605",
+         "timestamp": ["1904-12-18"],
+         "importance": "1"
+      }
+      }
   ]
 }

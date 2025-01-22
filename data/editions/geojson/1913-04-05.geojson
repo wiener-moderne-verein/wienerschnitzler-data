@@ -1,5 +1,50 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35992, 48.21681], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "5. April 1913"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35992, 48.21681]
+      },
+      "properties": {
+         "id": "pmb190681",
+         "title": "Votivkino",
+         "lat": "48.21681",
+         "lon": "16.35992",
+         "timestamp": ["1913-04-05"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Votivparkkino", 
+        "wikidata": "http://www.wikidata.org/entity/Q33393988"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1913-04-05"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.363819, 48.20334], 
+            [16.377185, 48.207905]
+          ]
+      },
+      "properties": {
+        "name": "19. Februar 1886"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377185, 48.207905]
+      },
+      "properties": {
+         "id": "pmb234905",
+         "title": "Riemergasse 2",
+         "lat": "48.207905",
+         "lon": "16.377185",
+         "timestamp": ["1886-02-19"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1886-02-19"],
+         "importance": "1"
+      }
+      }
   ]
 }

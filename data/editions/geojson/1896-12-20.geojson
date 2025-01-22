@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.356411, 48.215333]
+          ]
+      },
+      "properties": {
+        "name": "20. Dezember 1896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356411, 48.215333]
+      },
+      "properties": {
+         "id": "pmb192737",
+         "title": "Garnisongasse 3",
+         "lat": "48.215333",
+         "lon": "16.356411",
+         "timestamp": ["1896-12-20"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-12-20"],
+         "importance": "1"
+      }
+      }
   ]
 }

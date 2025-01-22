@@ -1,5 +1,101 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3566, 48.205142], 
+            [16.365278, 48.210278], 
+            [16.381889, 48.211153], 
+            [16.35736, 48.21533], 
+            [16.359134, 48.213768]
+          ]
+      },
+      "properties": {
+        "name": "16. Februar 1895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359134, 48.213768]
+      },
+      "properties": {
+         "id": "pmb34210",
+         "title": "Café Kaiserhof (Inh. Johann Wortner)",
+         "lat": "48.213768",
+         "lon": "16.359134",
+         "timestamp": ["1895-02-16"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365278, 48.210278]
+      },
+      "properties": {
+         "id": "pmb262",
+         "title": "Café Central",
+         "lat": "48.210278",
+         "lon": "16.365278",
+         "timestamp": ["1895-02-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Central", 
+        "wikidata": "http://www.wikidata.org/entity/Q694757"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.381889, 48.211153]
+      },
+      "properties": {
+         "id": "pmb182420",
+         "title": "Café Edison",
+         "lat": "48.211153",
+         "lon": "16.381889",
+         "timestamp": ["1895-02-16"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3566, 48.205142]
+      },
+      "properties": {
+         "id": "pmb20",
+         "title": "Volkstheater",
+         "lat": "48.205142",
+         "lon": "16.3566",
+         "timestamp": ["1895-02-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
+        "wikidata": "http://www.wikidata.org/entity/Q688555"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1895-02-16"],
+         "importance": "1"
+      }
+      }
   ]
 }

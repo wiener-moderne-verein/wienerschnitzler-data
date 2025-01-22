@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.362915, 48.214518], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "17. August 1910"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362915, 48.214518]
+      },
+      "properties": {
+         "id": "pmb234951",
+         "title": "Reisebureau Schenker & Co.",
+         "lat": "48.214518",
+         "lon": "16.362915",
+         "timestamp": ["1910-08-17"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1910-08-17"],
+         "importance": "1"
+      }
+      }
   ]
 }

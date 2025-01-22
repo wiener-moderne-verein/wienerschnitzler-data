@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.364463, 48.21696]
+          ]
+      },
+      "properties": {
+        "name": "4. November 1899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364463, 48.21696]
+      },
+      "properties": {
+         "id": "pmb200377",
+         "title": "Kolingasse 19",
+         "lat": "48.21696",
+         "lon": "16.364463",
+         "timestamp": ["1899-11-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1899-11-04"],
+         "importance": "1"
+      }
+      }
   ]
 }

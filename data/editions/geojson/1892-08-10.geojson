@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37188, 48.2012], 
+            [16.37196, 48.20143]
+          ]
+      },
+      "properties": {
+        "name": "10. August 1892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37188, 48.2012]
+      },
+      "properties": {
+         "id": "pmb167789",
+         "title": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+         "lat": "48.2012",
+         "lon": "16.37188",
+         "timestamp": ["1892-08-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1892-08-10"],
+         "importance": "1"
+      }
+      }
   ]
 }

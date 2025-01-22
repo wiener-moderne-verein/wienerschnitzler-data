@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36362, 48.20329], 
+            [16.35461, 48.22921]
+          ]
+      },
+      "properties": {
+        "name": "22. August 1889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35461, 48.22921]
+      },
+      "properties": {
+         "id": "pmb1270",
+         "title": "Nussdorfer Straße",
+         "lat": "48.22921",
+         "lon": "16.35461",
+         "timestamp": ["1889-08-22"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Nußdorfer_Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-08-22"],
+         "importance": "1"
+      }
+      }
   ]
 }

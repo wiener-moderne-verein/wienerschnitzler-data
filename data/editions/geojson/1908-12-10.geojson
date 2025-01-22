@@ -1,5 +1,101 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.351275, 48.205599], 
+            [16.367778, 48.204444], 
+            [16.372564182283, 48.201265597319], 
+            [16.374167, 48.213056], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "10. Dezember 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374167, 48.213056]
+      },
+      "properties": {
+         "id": "pmb185870",
+         "title": "Hotel Metropole [Wien]",
+         "lat": "48.213056",
+         "lon": "16.374167",
+         "timestamp": ["1908-12-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_M%C3%A9tropole", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630962"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367778, 48.204444]
+      },
+      "properties": {
+         "id": "pmb333",
+         "title": "Albertina",
+         "lat": "48.204444",
+         "lon": "16.367778",
+         "timestamp": ["1908-12-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Albertina_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=18149", 
+        "wikidata": "http://www.wikidata.org/entity/Q371908"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1908-12-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351275, 48.205599]
+      },
+      "properties": {
+         "id": "pmb236738",
+         "title": "Wiener Werkstätte",
+         "lat": "48.205599",
+         "lon": "16.351275",
+         "timestamp": ["1908-12-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1908-12-10"],
+         "importance": "1"
+      }
+      }
   ]
 }

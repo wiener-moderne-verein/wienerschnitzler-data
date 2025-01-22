@@ -1,5 +1,83 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.387056, 48.196938], 
+            [16.430054, 48.194558], 
+            [16.395442, 48.217178], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "27. Mai 1931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1931-05-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.395442, 48.217178]
+      },
+      "properties": {
+         "id": "pmb185318",
+         "title": "Restauration Prochaska",
+         "lat": "48.217178",
+         "lon": "16.395442",
+         "timestamp": ["1931-05-27"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.387056, 48.196938]
+      },
+      "properties": {
+         "id": "pmb169515",
+         "title": "Eos-Kino",
+         "lat": "48.196938",
+         "lon": "16.387056",
+         "timestamp": ["1931-05-27"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Eos-Kino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1931-05-27"],
+         "importance": "1"
+      }
+      }
   ]
 }

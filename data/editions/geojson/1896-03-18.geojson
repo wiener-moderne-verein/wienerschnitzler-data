@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.354491, 48.225155]
+          ]
+      },
+      "properties": {
+        "name": "18. März 1896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.354491, 48.225155]
+      },
+      "properties": {
+         "id": "pmb199564",
+         "title": "Hotel Union",
+         "lat": "48.225155",
+         "lon": "16.354491",
+         "timestamp": ["1896-03-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-03-18"],
+         "importance": "1"
+      }
+      }
   ]
 }

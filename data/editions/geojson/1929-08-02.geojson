@@ -1,5 +1,82 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33787, 48.19653], 
+            [16.33873, 48.20413], 
+            [16.338016, 48.234091], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "2. August 1929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33873, 48.20413]
+      },
+      "properties": {
+         "id": "pmb190439",
+         "title": "Admiralkino",
+         "lat": "48.20413",
+         "lon": "16.33873",
+         "timestamp": ["1929-08-02"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Admiralkino", 
+        "wikidata": "http://www.wikidata.org/entity/Q33393124"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338016, 48.234091]
+      },
+      "properties": {
+         "id": "pmb236372",
+         "title": "Gregor-Mendel-Straße 34",
+         "lat": "48.234091",
+         "lon": "16.338016",
+         "timestamp": ["1929-08-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1929-08-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33787, 48.19653]
+      },
+      "properties": {
+         "id": "pmb438",
+         "title": "Westbahnhof-Restaurant",
+         "lat": "48.19653",
+         "lon": "16.33787",
+         "timestamp": ["1929-08-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

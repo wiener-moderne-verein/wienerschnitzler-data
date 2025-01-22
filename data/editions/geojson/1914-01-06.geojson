@@ -1,5 +1,66 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33716, 48.23188], 
+            [16.33641, 48.23362], 
+            [16.322222222222, 48.263611111111]
+          ]
+      },
+      "properties": {
+        "name": "6. Januar 1914"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.322222222222, 48.263611111111]
+      },
+      "properties": {
+         "id": "pmb194903",
+         "title": "Am Kobenzl",
+         "lat": "48.263611111111",
+         "lon": "16.322222222222",
+         "timestamp": ["1914-01-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Reisenberg_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2141902"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1914-01-06"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1914-01-06"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,50 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37196, 48.20143], 
+            [16.362572, 48.203294]
+          ]
+      },
+      "properties": {
+        "name": "16. Februar 1891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362572, 48.203294]
+      },
+      "properties": {
+         "id": "pmb92155",
+         "title": "Babenbergerstraße",
+         "lat": "48.203294",
+         "lon": "16.362572",
+         "timestamp": ["1891-02-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Babenbergerstra%C3%9Fe_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q797630"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1891-02-16"],
+         "importance": "1"
+      }
+      }
   ]
 }

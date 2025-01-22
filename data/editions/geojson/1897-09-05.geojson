@@ -1,5 +1,87 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.351677, 48.214695], 
+            [16.374167, 48.213056], 
+            [16.39467, 48.21699], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "5. September 1897"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.39467, 48.21699]
+      },
+      "properties": {
+         "id": "pmb422",
+         "title": "Venedig in Wien",
+         "lat": "48.21699",
+         "lon": "16.39467",
+         "timestamp": ["1897-09-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Venedig_in_Wien", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Venedig_in_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q2512799"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351677, 48.214695]
+      },
+      "properties": {
+         "id": "pmb200313",
+         "title": "Gebär- und Findelanstalt",
+         "lat": "48.214695",
+         "lon": "16.351677",
+         "timestamp": ["1897-09-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Geb%C3%A4r-_und_Findelhaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q2568879"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374167, 48.213056]
+      },
+      "properties": {
+         "id": "pmb185870",
+         "title": "Hotel Metropole [Wien]",
+         "lat": "48.213056",
+         "lon": "16.374167",
+         "timestamp": ["1897-09-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_M%C3%A9tropole", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630962"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1897-09-05"],
+         "importance": "1"
+      }
+      }
   ]
 }

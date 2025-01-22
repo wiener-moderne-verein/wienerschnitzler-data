@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.365211, 48.189213], 
+            [16.37196, 48.20143]
+          ]
+      },
+      "properties": {
+        "name": "16. Mai 1891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365211, 48.189213]
+      },
+      "properties": {
+         "id": "pmb185540",
+         "title": "Gasthof zum Hirschen, Leopold Wallner",
+         "lat": "48.189213",
+         "lon": "16.365211",
+         "timestamp": ["1891-05-16"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1891-05-16"],
+         "importance": "1"
+      }
+      }
   ]
 }

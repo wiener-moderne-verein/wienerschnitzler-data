@@ -1,5 +1,115 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.373427, 48.209746], 
+            [16.370721, 48.212551], 
+            [16.362556, 48.219642], 
+            [16.39467, 48.21699], 
+            [16.300034240016, 48.246838181084]
+          ]
+      },
+      "properties": {
+        "name": "24. Mai 1896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.39467, 48.21699]
+      },
+      "properties": {
+         "id": "pmb422",
+         "title": "Venedig in Wien",
+         "lat": "48.21699",
+         "lon": "16.39467",
+         "timestamp": ["1896-05-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Venedig_in_Wien", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Venedig_in_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q2512799"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373427, 48.209746]
+      },
+      "properties": {
+         "id": "pmb246874",
+         "title": "Stefanskeller [II]",
+         "lat": "48.209746",
+         "lon": "16.373427",
+         "timestamp": ["1896-05-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370721, 48.212551]
+      },
+      "properties": {
+         "id": "pmb168687",
+         "title": "[Salvatorgasse 11, Absteigequartier III Marie Reinhard und Arthur Schnitzler]",
+         "lat": "48.212551",
+         "lon": "16.370721",
+         "timestamp": ["1896-05-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362556, 48.219642]
+      },
+      "properties": {
+         "id": "pmb199649",
+         "title": "Porzellangasse 10",
+         "lat": "48.219642",
+         "lon": "16.362556",
+         "timestamp": ["1896-05-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-05-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.300034240016, 48.246838181084]
+      },
+      "properties": {
+         "id": "pmb169",
+         "title": "Pötzleinsdorf",
+         "lat": "48.246838181084",
+         "lon": "16.300034240016",
+         "timestamp": ["1896-05-24"],
+         "importance": "1"
+      }
+      }
   ]
 }

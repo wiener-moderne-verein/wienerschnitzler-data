@@ -1,5 +1,87 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37301, 48.20858], 
+            [16.370686, 48.212744], 
+            [16.374444444444, 48.211944444444], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "2. April 1915"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374444444444, 48.211944444444]
+      },
+      "properties": {
+         "id": "pmb195980",
+         "title": "Ruprechtskirche",
+         "lat": "48.211944444444",
+         "lon": "16.374444444444",
+         "timestamp": ["1915-04-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ruprechtskirche_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q689008"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37301, 48.20858]
+      },
+      "properties": {
+         "id": "pmb567",
+         "title": "Stephansdom",
+         "lat": "48.20858",
+         "lon": "16.37301",
+         "timestamp": ["1915-04-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stephansdom", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=17551", 
+        "wikidata": "http://www.wikidata.org/entity/Q5943"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370686, 48.212744]
+      },
+      "properties": {
+         "id": "pmb195987",
+         "title": "Maria am Gestade",
+         "lat": "48.212744",
+         "lon": "16.370686",
+         "timestamp": ["1915-04-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Maria_am_Gestade", 
+        "wikidata": "http://www.wikidata.org/entity/Q701837"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1915-04-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

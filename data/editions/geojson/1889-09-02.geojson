@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.369953, 48.194906], 
+            [16.369953, 48.194906], 
+            [16.36362, 48.20329], 
+            [16.336407, 48.197892]
+          ]
+      },
+      "properties": {
+        "name": "2. September 1889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369953, 48.194906]
+      },
+      "properties": {
+         "id": "pmb184870",
+         "title": "Hotel Victoria [Wien]",
+         "lat": "48.194906",
+         "lon": "16.369953",
+         "timestamp": ["1889-09-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.336407, 48.197892]
+      },
+      "properties": {
+         "id": "pmb184912",
+         "title": "Westbahn-Kaffeehaus",
+         "lat": "48.197892",
+         "lon": "16.336407",
+         "timestamp": ["1889-09-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-09-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369953, 48.194906]
+      },
+      "properties": {
+         "id": "pmb184870",
+         "title": "Hotel Victoria [Wien]",
+         "lat": "48.194906",
+         "lon": "16.369953",
+         "timestamp": ["1889-09-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

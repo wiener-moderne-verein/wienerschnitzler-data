@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37479, 48.20433], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "3. Februar 1906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37479, 48.20433]
+      },
+      "properties": {
+         "id": "pmb92294",
+         "title": "Hotel Tegetthoff",
+         "lat": "48.20433",
+         "lon": "16.37479",
+         "timestamp": ["1906-02-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1906-02-03"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.38382, 48.20709], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "21. September 1907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38382, 48.20709]
+      },
+      "properties": {
+         "id": "pmb60854",
+         "title": "Wiener Bürgertheater",
+         "lat": "48.20709",
+         "lon": "16.38382",
+         "timestamp": ["1907-09-21"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/B%C3%BCrgertheater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-09-21"],
+         "importance": "1"
+      }
+      }
   ]
 }

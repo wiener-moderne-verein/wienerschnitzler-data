@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.339722, 48.192222], 
+            [16.365171, 48.203037], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "5. Januar 1894"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365171, 48.203037]
+      },
+      "properties": {
+         "id": "pmb192844",
+         "title": "Opernring 19",
+         "lat": "48.203037",
+         "lon": "16.365171",
+         "timestamp": ["1894-01-05"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.339722, 48.192222]
+      },
+      "properties": {
+         "id": "pmb77",
+         "title": "Raimund-Theater",
+         "lat": "48.192222",
+         "lon": "16.339722",
+         "timestamp": ["1894-01-05"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1894-01-05"],
+         "importance": "1"
+      }
+      }
   ]
 }

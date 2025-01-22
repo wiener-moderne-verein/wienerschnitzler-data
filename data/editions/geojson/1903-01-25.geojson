@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.382549, 48.21387], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "25. Januar 1903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.382549, 48.21387]
+      },
+      "properties": {
+         "id": "pmb199587",
+         "title": "Praterstraße 21",
+         "lat": "48.21387",
+         "lon": "16.382549",
+         "timestamp": ["1903-01-25"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1903-01-25"],
+         "importance": "1"
+      }
+      }
   ]
 }

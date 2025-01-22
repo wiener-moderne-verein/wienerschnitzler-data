@@ -1,5 +1,80 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.363991, 48.202709], 
+            [16.375811, 48.203191], 
+            [16.37208, 48.212786], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "26. November 1906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363991, 48.202709]
+      },
+      "properties": {
+         "id": "pmb232585",
+         "title": "Elisabethstraße 13",
+         "lat": "48.202709",
+         "lon": "16.363991",
+         "timestamp": ["1906-11-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375811, 48.203191]
+      },
+      "properties": {
+         "id": "pmb233517",
+         "title": "Kaiserpanorama [Wien, Schubertring 4]",
+         "lat": "48.203191",
+         "lon": "16.375811",
+         "timestamp": ["1906-11-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37208, 48.212786]
+      },
+      "properties": {
+         "id": "pmb236816",
+         "title": "Fischerstiege 6",
+         "lat": "48.212786",
+         "lon": "16.37208",
+         "timestamp": ["1906-11-26"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1906-11-26"],
+         "importance": "1"
+      }
+      }
   ]
 }

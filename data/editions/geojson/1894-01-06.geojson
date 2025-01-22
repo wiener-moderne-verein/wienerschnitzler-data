@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.342013, 48.195523], 
+            [16.365171, 48.203037], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "6. Januar 1894"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.342013, 48.195523]
+      },
+      "properties": {
+         "id": "pmb187125",
+         "title": "Fügergasse 4",
+         "lat": "48.195523",
+         "lon": "16.342013",
+         "timestamp": ["1894-01-06"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365171, 48.203037]
+      },
+      "properties": {
+         "id": "pmb192844",
+         "title": "Opernring 19",
+         "lat": "48.203037",
+         "lon": "16.365171",
+         "timestamp": ["1894-01-06"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1894-01-06"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33472, 48.2304], 
+            [16.353571, 48.239999], 
+            [16.356465, 48.252584]
+          ]
+      },
+      "properties": {
+        "name": "15. Juni 1907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356465, 48.252584]
+      },
+      "properties": {
+         "id": "pmb245903",
+         "title": "Steinfeldgasse 4",
+         "lat": "48.252584",
+         "lon": "16.356465",
+         "timestamp": ["1907-06-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353571, 48.239999]
+      },
+      "properties": {
+         "id": "pmb231906",
+         "title": "Dollinergasse 8",
+         "lat": "48.239999",
+         "lon": "16.353571",
+         "timestamp": ["1907-06-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-06-15"],
+         "importance": "1"
+      }
+      }
   ]
 }

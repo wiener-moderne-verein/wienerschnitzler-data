@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.375924, 48.208656], 
+            [16.357233, 48.212477]
+          ]
+      },
+      "properties": {
+        "name": "18. Mai 1893"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375924, 48.208656]
+      },
+      "properties": {
+         "id": "pmb190427",
+         "title": "Wollzeile 15 (»Berthahof«)",
+         "lat": "48.208656",
+         "lon": "16.375924",
+         "timestamp": ["1893-05-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357233, 48.212477]
+      },
+      "properties": {
+         "id": "pmb167782",
+         "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+         "lat": "48.212477",
+         "lon": "16.357233",
+         "timestamp": ["1893-05-18"],
+         "importance": "1"
+      }
+      }
   ]
 }

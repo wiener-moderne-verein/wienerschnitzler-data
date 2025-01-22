@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.365828, 48.213294], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "25. Juni 1906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365828, 48.213294]
+      },
+      "properties": {
+         "id": "pmb238108",
+         "title": "Wiener Giro- und Cassenverein",
+         "lat": "48.213294",
+         "lon": "16.365828",
+         "timestamp": ["1906-06-25"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q131432049"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1906-06-25"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.365211, 48.189213], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "18. Juni 1899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365211, 48.189213]
+      },
+      "properties": {
+         "id": "pmb185540",
+         "title": "Gasthof zum Hirschen, Leopold Wallner",
+         "lat": "48.189213",
+         "lon": "16.365211",
+         "timestamp": ["1899-06-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1899-06-18"],
+         "importance": "1"
+      }
+      }
   ]
 }

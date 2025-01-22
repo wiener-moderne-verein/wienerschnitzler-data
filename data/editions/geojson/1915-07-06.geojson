@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.361378, 48.203661], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "6. Juli 1915"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361378, 48.203661]
+      },
+      "properties": {
+         "id": "pmb47660",
+         "title": "Kunsthistorisches Museum",
+         "lat": "48.203661",
+         "lon": "16.361378",
+         "timestamp": ["1915-07-06"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1915-07-06"],
+         "importance": "1"
+      }
+      }
   ]
 }

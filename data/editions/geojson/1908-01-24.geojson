@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.36924, 48.186273], 
+            [16.36157, 48.20809], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "24. Januar 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1908-01-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36924, 48.186273]
+      },
+      "properties": {
+         "id": "pmb245822",
+         "title": "Johann-Strauß-Gasse 36",
+         "lat": "48.186273",
+         "lon": "16.36924",
+         "timestamp": ["1908-01-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1908-01-24"],
+         "importance": "1"
+      }
+      }
   ]
 }

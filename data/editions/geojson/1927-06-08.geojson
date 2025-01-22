@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.350819, 48.214295], 
+            [16.391366725274, 48.21836158258], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "8. Juni 1927"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1927-06-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.391366725274, 48.21836158258]
+      },
+      "properties": {
+         "id": "pmb549",
+         "title": "Tegetthoff-Denkmal",
+         "lat": "48.21836158258",
+         "lon": "16.391366725274",
+         "timestamp": ["1927-06-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1927-06-08"],
+         "importance": "1"
+      }
+      }
   ]
 }

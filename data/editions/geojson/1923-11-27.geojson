@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37666, 48.20685], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "27. November 1923"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37666, 48.20685]
+      },
+      "properties": {
+         "id": "pmb588",
+         "title": "Pan",
+         "lat": "48.20685",
+         "lon": "16.37666",
+         "timestamp": ["1923-11-27"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1923-11-27"],
+         "importance": "1"
+      }
+      }
   ]
 }

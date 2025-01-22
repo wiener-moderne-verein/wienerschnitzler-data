@@ -1,5 +1,102 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.301147, 48.214047], 
+            [16.33716, 48.23188], 
+            [16.364167, 48.259444], 
+            [16.342154562605, 48.250804274577], 
+            [16.33255, 48.27617]
+          ]
+      },
+      "properties": {
+        "name": "2. Oktober 1927"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.301147, 48.214047]
+      },
+      "properties": {
+         "id": "pmb234326",
+         "title": "Bockkeller",
+         "lat": "48.214047",
+         "lon": "16.301147",
+         "timestamp": ["1927-10-02"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q131286151"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33255, 48.27617]
+      },
+      "properties": {
+         "id": "pmb574",
+         "title": "Kahlenberg",
+         "lat": "48.27617",
+         "lon": "16.33255",
+         "timestamp": ["1927-10-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kahlenberg", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=22912", 
+        "wikidata": "http://www.wikidata.org/entity/Q697119"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.342154562605, 48.250804274577]
+      },
+      "properties": {
+         "id": "pmb225",
+         "title": "Grinzing",
+         "lat": "48.250804274577",
+         "lon": "16.342154562605",
+         "timestamp": ["1927-10-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364167, 48.259444]
+      },
+      "properties": {
+         "id": "pmb403",
+         "title": "Nussdorf",
+         "lat": "48.259444",
+         "lon": "16.364167",
+         "timestamp": ["1927-10-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Nussdorf_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1395576"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1927-10-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

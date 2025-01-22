@@ -1,5 +1,49 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37196, 48.20143], 
+            [16.357685, 48.216547]
+          ]
+      },
+      "properties": {
+        "name": "29. April 1892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357685, 48.216547]
+      },
+      "properties": {
+         "id": "pmb41",
+         "title": "Allgemeine Poliklinik",
+         "lat": "48.216547",
+         "lon": "16.357685",
+         "timestamp": ["1892-04-29"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=15996"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1892-04-29"],
+         "importance": "1"
+      }
+      }
   ]
 }

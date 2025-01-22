@@ -1,5 +1,64 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.359914, 48.216831], 
+            [16.336096, 48.219176]
+          ]
+      },
+      "properties": {
+        "name": "6. Mai 1903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.336096, 48.219176]
+      },
+      "properties": {
+         "id": "pmb232640",
+         "title": "Pezzlgasse 14",
+         "lat": "48.219176",
+         "lon": "16.336096",
+         "timestamp": ["1903-05-06"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359914, 48.216831]
+      },
+      "properties": {
+         "id": "pmb232663",
+         "title": "Währinger Straße 12",
+         "lat": "48.216831",
+         "lon": "16.359914",
+         "timestamp": ["1903-05-06"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1903-05-06"],
+         "importance": "1"
+      }
+      }
   ]
 }

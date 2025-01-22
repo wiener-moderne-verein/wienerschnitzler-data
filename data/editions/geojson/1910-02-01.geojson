@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.369345, 48.207599], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "1. Februar 1910"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369345, 48.207599]
+      },
+      "properties": {
+         "id": "pmb247826",
+         "title": "Ludwig Doblinger (Bernhard Herzmansky), Musikalienhandlung, Antiquariat und Leih-Anstalt",
+         "lat": "48.207599",
+         "lon": "16.369345",
+         "timestamp": ["1910-02-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1910-02-01"],
+         "importance": "1"
+      }
+      }
   ]
 }

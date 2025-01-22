@@ -67,52 +67,6 @@
     <xsl:template match="tei:place[tei:location[@type = 'coords']/tei:geo]" mode="point">
         <xsl:param name="when"/>
         <xsl:value-of select="mam:macht-punkt(., 'day', xs:string($when),  xs:string($when))"/>
-        
-        
-        <!--
-        
-        <xsl:variable name="corresp" select="replace(@xml:id, '#', '')"/>
-        <!-\- Add a comma before every feature except the first one -\->
-        <xsl:text>&#10;    {</xsl:text>
-        <xsl:text>&#10;      "type": "Feature",</xsl:text>
-        <xsl:text>&#10;      "geometry": {</xsl:text>
-        <xsl:text>&#10;        "type": "Point",</xsl:text>
-        <xsl:text>&#10;        "coordinates": [</xsl:text>
-        <xsl:variable name="coords" select="tei:location[@type = 'coords']/tei:geo"/>
-        <xsl:variable name="lat" select="replace(substring-before($coords, ' '), ',', '.')"/>
-        <xsl:variable name="lon" select="replace(substring-after($coords, ' '), ',', '.')"/>
-        <!-\- Correct order: longitude, latitude -\->
-        <xsl:text>&#10;          </xsl:text>
-        <xsl:value-of select="$lon"/>
-        <xsl:text>, </xsl:text>
-        <xsl:value-of select="$lat"/>
-        <xsl:text>&#10;        ]</xsl:text>
-        <xsl:text>&#10;      },</xsl:text>
-        <xsl:text>&#10;      "properties": {</xsl:text>
-        <xsl:text>&#10;        "title": "</xsl:text>
-        <xsl:value-of select="tei:placeName[1]"/>
-        <xsl:text>",</xsl:text>
-        <xsl:text>&#10;        "timestamp": ["</xsl:text>
-        <xsl:value-of select="$when"/>
-        <xsl:text>"],</xsl:text>
-        <xsl:text>&#10;        "id": "</xsl:text>
-        <xsl:value-of
-            select="$corresp"/>
-        <xsl:text>"</xsl:text>
-        <xsl:if test="tei:idno[@subtype = 'wikipedia']">
-            <xsl:text>, </xsl:text>
-            <xsl:text>&#10;        "wikipedia": "</xsl:text>
-            <xsl:value-of select="tei:idno[@subtype = 'wikipedia']"/>
-            <xsl:text>"</xsl:text>
-        </xsl:if>
-        <xsl:if test="tei:idno[@subtype = 'wiengeschichtewiki']">
-            <xsl:text>, </xsl:text>
-            <xsl:text>&#10;        "wiengeschichtewiki": "</xsl:text>
-            <xsl:value-of select="tei:idno[@subtype = 'wiengeschichtewiki']"/>
-            <xsl:text>"</xsl:text>
-        </xsl:if>
-        <xsl:text>&#10;      }</xsl:text>
-        <xsl:text>&#10;      }</xsl:text>-->
         <xsl:if test="following-sibling::tei:place[tei:location[@type = 'coords']/tei:geo]">
             <xsl:text>,</xsl:text>
         </xsl:if>

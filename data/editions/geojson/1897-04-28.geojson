@@ -8,8 +8,6 @@
         "coordinates": [
             [2.10478, 48.81449], 
             [2.10976, 48.81545], 
-            [2.13424, 48.80359], 
-            [2.3488, 48.85341], 
             [2.340682, 48.876305], 
             [2.33662, 48.88282], 
             [2.33347, 48.8833], 
@@ -24,23 +22,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.3488, 48.85341]
-      },
-      "properties": {
-         "id": "pmb182",
-         "title": "Paris",
-         "lat": "48.85341",
-         "lon": "2.3488",
-         "timestamp": ["1897-04-28"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Paris", 
-        "wikidata": "http://www.wikidata.org/entity/Q90"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [2.340682, 48.876305]
       },
       "properties": {
@@ -50,40 +31,6 @@
          "lon": "2.340682",
          "timestamp": ["1897-04-28"],
          "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.10976, 48.81545]
-      },
-      "properties": {
-         "id": "pmb87808",
-         "title": "Petit Trianon",
-         "lat": "48.81545",
-         "lon": "2.10976",
-         "timestamp": ["1897-04-28"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Petit_Trianon", 
-        "wikidata": "http://www.wikidata.org/entity/Q8044"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.10478, 48.81449]
-      },
-      "properties": {
-         "id": "pmb87811",
-         "title": "Grand Trianon",
-         "lat": "48.81449",
-         "lon": "2.10478",
-         "timestamp": ["1897-04-28"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Grand_Trianon", 
-        "wikidata": "http://www.wikidata.org/entity/Q8049"
       }
       },
     {
@@ -139,17 +86,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.13424, 48.80359]
+        "coordinates": [2.10976, 48.81545]
       },
       "properties": {
-         "id": "pmb36549",
-         "title": "Versailles",
-         "lat": "48.80359",
-         "lon": "2.13424",
+         "id": "pmb87808",
+         "title": "Petit Trianon",
+         "lat": "48.81545",
+         "lon": "2.10976",
          "timestamp": ["1897-04-28"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Versailles", 
-        "wikidata": "http://www.wikidata.org/entity/Q621"
+        "wikipedia": "https://de.wikipedia.org/wiki/Petit_Trianon", 
+        "wikidata": "http://www.wikidata.org/entity/Q8044"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.10478, 48.81449]
+      },
+      "properties": {
+         "id": "pmb87811",
+         "title": "Grand Trianon",
+         "lat": "48.81449",
+         "lon": "2.10478",
+         "timestamp": ["1897-04-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grand_Trianon", 
+        "wikidata": "http://www.wikidata.org/entity/Q8049"
       }
       }
   ]

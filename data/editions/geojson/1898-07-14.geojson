@@ -6,7 +6,6 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.43333, 47.06667], 
             [15.4381, 47.0688], 
             [15.35, 47.11667]
           ]
@@ -15,38 +14,6 @@
         "name": "14. Juli 1898"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.43333, 47.06667]
-      },
-      "properties": {
-         "id": "pmb860",
-         "title": "Graz",
-         "lat": "47.06667",
-         "lon": "15.43333",
-         "timestamp": ["1898-07-14"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Graz", 
-        "wikidata": "http://www.wikidata.org/entity/Q13298"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.35, 47.11667]
-      },
-      "properties": {
-         "id": "pmb90964",
-         "title": "Judendorf",
-         "lat": "47.11667",
-         "lon": "15.35",
-         "timestamp": ["1898-07-14"],
-         "importance": "1"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -62,6 +29,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Altes_Joanneum", 
         "wikidata": "http://www.wikidata.org/entity/Q14545365"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.35, 47.11667]
+      },
+      "properties": {
+         "id": "pmb90964",
+         "title": "Judendorf",
+         "lat": "47.11667",
+         "lon": "15.35",
+         "timestamp": ["1898-07-14"],
+         "importance": "1"
       }
       }
   ]

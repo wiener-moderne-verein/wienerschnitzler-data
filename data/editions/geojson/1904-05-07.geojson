@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [12.476944444444445, 41.89861111111111], 
-            [12.51133, 41.89193], 
             [12.49479, 41.90399], 
             [12.4533, 41.90225]
           ]
@@ -16,23 +15,6 @@
         "name": "7. Mai 1904"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.51133, 41.89193]
-      },
-      "properties": {
-         "id": "pmb445",
-         "title": "Rom",
-         "lat": "41.89193",
-         "lon": "12.51133",
-         "timestamp": ["1904-05-07"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Rom", 
-        "wikidata": "http://www.wikidata.org/entity/Q220"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -53,23 +35,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.4533, 41.90225]
-      },
-      "properties": {
-         "id": "pmb1002",
-         "title": "Vatikan",
-         "lat": "41.90225",
-         "lon": "12.4533",
-         "timestamp": ["1904-05-07"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Vatikanstadt", 
-        "wikidata": "http://www.wikidata.org/entity/Q237"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [12.476944444444445, 41.89861111111111]
       },
       "properties": {
@@ -81,6 +46,23 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Pantheon_(Rom)", 
         "wikidata": "http://www.wikidata.org/entity/Q99309"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.4533, 41.90225]
+      },
+      "properties": {
+         "id": "pmb1002",
+         "title": "Vatikan",
+         "lat": "41.90225",
+         "lon": "12.4533",
+         "timestamp": ["1904-05-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Vatikanstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q237"
       }
       }
   ]

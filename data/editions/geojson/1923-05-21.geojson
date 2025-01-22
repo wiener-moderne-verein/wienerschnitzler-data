@@ -6,9 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [17.8878, 59.32513], 
             [17.886944, 59.321667], 
-            [18.05, 59.325], 
             [18.07138888888889, 59.33], 
             [18.076992, 59.33325]
           ]
@@ -17,55 +15,6 @@
         "name": "21. Mai 1923"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [18.05, 59.325]
-      },
-      "properties": {
-         "id": "pmb1119",
-         "title": "Stockholm",
-         "lat": "59.325",
-         "lon": "18.05",
-         "timestamp": ["1923-05-21"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Stockholm", 
-        "wikidata": "http://www.wikidata.org/entity/Q1754"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [17.8878, 59.32513]
-      },
-      "properties": {
-         "id": "pmb25933",
-         "title": "Drottningholm",
-         "lat": "59.32513",
-         "lon": "17.8878",
-         "timestamp": ["1923-05-21"],
-         "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [17.886944, 59.321667]
-      },
-      "properties": {
-         "id": "pmb62289",
-         "title": "Drottningholms Slottsteater",
-         "lat": "59.321667",
-         "lon": "17.886944",
-         "timestamp": ["1923-05-21"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schlosstheater_Drottningholm", 
-        "wikidata": "http://www.wikidata.org/entity/Q3058143"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -95,6 +44,23 @@
          "lon": "18.076992",
          "timestamp": ["1923-05-21"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.886944, 59.321667]
+      },
+      "properties": {
+         "id": "pmb62289",
+         "title": "Drottningholms Slottsteater",
+         "lat": "59.321667",
+         "lon": "17.886944",
+         "timestamp": ["1923-05-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schlosstheater_Drottningholm", 
+        "wikidata": "http://www.wikidata.org/entity/Q3058143"
       }
       }
   ]

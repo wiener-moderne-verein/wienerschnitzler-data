@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [17.03533, 51.10773], 
-            [13.41053, 52.52437], 
             [13.3842209, 52.5170028], 
             [13.383456, 52.516152]
           ]
@@ -16,23 +15,6 @@
         "name": "18. Oktober 1902"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1902-10-18"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -54,6 +36,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.3842209, 52.5170028]
+      },
+      "properties": {
+         "id": "pmb221",
+         "title": "Weinrestaurant zum Treppchen",
+         "lat": "52.5170028",
+         "lon": "13.3842209",
+         "timestamp": ["1902-10-18"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [17.03533, 51.10773]
       },
       "properties": {
@@ -65,21 +62,6 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Breslau", 
         "wikidata": "http://www.wikidata.org/entity/Q1799"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.3842209, 52.5170028]
-      },
-      "properties": {
-         "id": "pmb221",
-         "title": "Weinrestaurant zum Treppchen",
-         "lat": "52.5170028",
-         "lon": "13.3842209",
-         "timestamp": ["1902-10-18"],
-         "importance": "1"
       }
       }
   ]

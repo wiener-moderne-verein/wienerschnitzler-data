@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [11.57475, 48.14293], 
-            [13.41053, 52.52437], 
             [13.389182, 52.513294], 
             [13.385556, 52.518889], 
             [13.387871, 52.524582], 
@@ -22,23 +21,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1904-02-06"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.385556, 52.518889]
       },
       "properties": {
@@ -48,23 +30,6 @@
          "lon": "13.385556",
          "timestamp": ["1904-02-06"],
          "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.57475, 48.14293]
-      },
-      "properties": {
-         "id": "pmb100",
-         "title": "Café Luitpold",
-         "lat": "48.14293",
-         "lon": "11.57475",
-         "timestamp": ["1904-02-06"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Luitpold", 
-        "wikidata": "http://www.wikidata.org/entity/Q1025633"
       }
       },
     {
@@ -110,6 +75,23 @@
          "lon": "13.382222",
          "timestamp": ["1904-02-06"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.57475, 48.14293]
+      },
+      "properties": {
+         "id": "pmb100",
+         "title": "Café Luitpold",
+         "lat": "48.14293",
+         "lon": "11.57475",
+         "timestamp": ["1904-02-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Luitpold", 
+        "wikidata": "http://www.wikidata.org/entity/Q1025633"
       }
       }
   ]

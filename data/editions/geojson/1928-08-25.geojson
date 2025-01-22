@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [10.736388888889, 47.555833333333], 
-            [10.74085, 47.55631], 
             [10.70171, 47.57143]
           ]
       },
@@ -19,15 +18,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.74085, 47.55631]
+        "coordinates": [10.736388888889, 47.555833333333]
       },
       "properties": {
-         "id": "pmb90895",
-         "title": "Hohenschwangau",
-         "lat": "47.55631",
-         "lon": "10.74085",
+         "id": "pmb233200",
+         "title": "Schloss Hohenschwangau",
+         "lat": "47.555833333333",
+         "lon": "10.736388888889",
          "timestamp": ["1928-08-25"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Hohenschwangau", 
+        "wikidata": "http://www.wikidata.org/entity/Q161988"
       }
       },
     {
@@ -45,23 +46,6 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/F%C3%BCssen", 
         "wikidata": "http://www.wikidata.org/entity/Q262684"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.736388888889, 47.555833333333]
-      },
-      "properties": {
-         "id": "pmb233200",
-         "title": "Schloss Hohenschwangau",
-         "lat": "47.555833333333",
-         "lon": "10.736388888889",
-         "timestamp": ["1928-08-25"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Hohenschwangau", 
-        "wikidata": "http://www.wikidata.org/entity/Q161988"
       }
       }
   ]

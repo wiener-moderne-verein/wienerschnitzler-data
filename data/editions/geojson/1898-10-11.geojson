@@ -8,7 +8,6 @@
         "coordinates": [
             [13.0385, 52.40416], 
             [13.06566, 52.39886], 
-            [13.41053, 52.52437], 
             [13.388194, 52.521572], 
             [13.299819, 52.520522]
           ]
@@ -17,23 +16,6 @@
         "name": "11. Oktober 1898"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1898-10-11"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -55,10 +37,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.299819, 52.520522]
+      },
+      "properties": {
+         "id": "pmb237374",
+         "title": "Luisenplatz 2",
+         "lat": "52.520522",
+         "lon": "13.299819",
+         "timestamp": ["1898-10-11"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.0385, 52.40416]
       },
       "properties": {
-         "id": "pmb16682",
+         "id": "pmb49592",
          "title": "Schloss Sanssouci",
          "lat": "52.40416",
          "lon": "13.0385",
@@ -75,7 +72,7 @@
         "coordinates": [13.06566, 52.39886]
       },
       "properties": {
-         "id": "pmb4681",
+         "id": "pmb56027",
          "title": "Potsdam",
          "lat": "52.39886",
          "lon": "13.06566",
@@ -83,21 +80,6 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Potsdam", 
         "wikidata": "http://www.wikidata.org/entity/Q1711"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.299819, 52.520522]
-      },
-      "properties": {
-         "id": "pmb237374",
-         "title": "Luisenplatz 2",
-         "lat": "52.520522",
-         "lon": "13.299819",
-         "timestamp": ["1898-10-11"],
-         "importance": "1"
       }
       }
   ]

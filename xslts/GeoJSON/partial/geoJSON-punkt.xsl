@@ -26,8 +26,18 @@
         <!-- Properties section with title and aggregated visit dates -->
         <xsl:text>&#10;      "properties": {</xsl:text>
         <xsl:text>&#10;         "id": "</xsl:text>
-        <xsl:value-of
-            select="concat('pmb', replace(replace($input-placeNode/tei:idno[@subtype = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/entity/', ''), '/', ''))"/>
+        <xsl:choose>
+            <xsl:when test="$input-placeNode/@corresp">
+                <xsl:value-of select="replace($input-placeNode/@corresp, '#', '')"/>
+            </xsl:when>
+            <xsl:when test="$input-placeNode/@xml:id">
+                <xsl:value-of select="replace($input-placeNode/@xml:id, '#', '')"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of
+                    select="concat('pmb', replace(replace($input-placeNode/tei:idno[@subtype = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/entity/', ''), '/', ''))"/>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:text>",</xsl:text>
         <xsl:text>&#10;         "title": "</xsl:text>
         <xsl:value-of select="normalize-space($input-placeNode/tei:placeName[1])"/>

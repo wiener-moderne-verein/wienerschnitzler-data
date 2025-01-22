@@ -8,7 +8,6 @@
         "coordinates": [
             [11.57475, 48.14293], 
             [11.564675, 48.142331], 
-            [11.57549, 48.13743], 
             [16.3566, 48.205142]
           ]
       },
@@ -16,41 +15,6 @@
         "name": "6. Juni 1894"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.57549, 48.13743]
-      },
-      "properties": {
-         "id": "pmb38129",
-         "title": "München",
-         "lat": "48.13743",
-         "lon": "11.57549",
-         "timestamp": ["1894-06-06"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q1726"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3566, 48.205142]
-      },
-      "properties": {
-         "id": "pmb20",
-         "title": "Volkstheater",
-         "lat": "48.205142",
-         "lon": "16.3566",
-         "timestamp": ["1894-06-06"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
-        "wikidata": "http://www.wikidata.org/entity/Q688555"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -83,6 +47,24 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Glaspalast_(M%C3%BCnchen)", 
         "wikidata": "http://www.wikidata.org/entity/Q319069"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3566, 48.205142]
+      },
+      "properties": {
+         "id": "pmb20",
+         "title": "Volkstheater",
+         "lat": "48.205142",
+         "lon": "16.3566",
+         "timestamp": ["1894-06-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
+        "wikidata": "http://www.wikidata.org/entity/Q688555"
       }
       }
   ]

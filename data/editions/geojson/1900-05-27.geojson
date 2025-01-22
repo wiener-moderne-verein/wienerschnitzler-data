@@ -6,9 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.8634, 47.69209], 
+            [15.83333, 47.75], 
             [15.91352, 47.78709], 
-            [15.83333, 47.75]
+            [15.8634, 47.69209], 
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -28,6 +30,23 @@
          "lon": "15.91352",
          "timestamp": ["1900-05-27"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1900-05-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
       }
       },
     {
@@ -62,6 +81,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Baumgartnerhaus", 
         "wikidata": "http://www.wikidata.org/entity/Q15785841"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1900-05-27"],
+         "importance": "1"
       }
       }
   ]

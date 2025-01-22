@@ -1,5 +1,100 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33716, 48.23188], 
+            [16.373056, 48.208333], 
+            [16.342154562605, 48.250804274577], 
+            [16.332896, 48.253174], 
+            [16.31268, 48.2629]
+          ]
+      },
+      "properties": {
+        "name": "25. August 1918"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1918-08-25"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.31268, 48.2629]
+      },
+      "properties": {
+         "id": "pmb285",
+         "title": "Am Himmel",
+         "lat": "48.2629",
+         "lon": "16.31268",
+         "timestamp": ["1918-08-25"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q2840760"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.332896, 48.253174]
+      },
+      "properties": {
+         "id": "pmb92316",
+         "title": "Kaasgraben",
+         "lat": "48.253174",
+         "lon": "16.332896",
+         "timestamp": ["1918-08-25"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q131720151"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.342154562605, 48.250804274577]
+      },
+      "properties": {
+         "id": "pmb225",
+         "title": "Grinzing",
+         "lat": "48.250804274577",
+         "lon": "16.342154562605",
+         "timestamp": ["1918-08-25"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1918-08-25"],
+         "importance": "1"
+      }
+      }
   ]
 }

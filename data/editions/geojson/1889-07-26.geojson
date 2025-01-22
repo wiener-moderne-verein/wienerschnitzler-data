@@ -6,13 +6,48 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.8861, 48.1761]
+            [15.8861, 48.1761], 
+            [16.36362, 48.20329], 
+            [16.373056, 48.208333], 
+            [15.90219, 48.19745]
           ]
       },
       "properties": {
         "name": "26. Juli 1889"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1889-07-26"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.90219, 48.19745]
+      },
+      "properties": {
+         "id": "pmb5805",
+         "title": "Neulengbach",
+         "lat": "48.19745",
+         "lon": "15.90219",
+         "timestamp": ["1889-07-26"],
+         "importance": "1"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +63,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/St._Christophen", 
         "wikidata": "http://www.wikidata.org/entity/Q106300110"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-07-26"],
+         "importance": "1"
       }
       }
   ]

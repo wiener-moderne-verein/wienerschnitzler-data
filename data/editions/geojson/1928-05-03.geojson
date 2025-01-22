@@ -6,13 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [12.33726, 45.43321]
+            [12.33265, 45.43713], 
+            [12.33726, 45.43321], 
+            [12.38777778, 45.42888889], 
+            [12.35, 45.38333], 
+            [16.373056, 48.208333], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
         "name": "3. Mai 1928"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33265, 45.43713]
+      },
+      "properties": {
+         "id": "pmb462",
+         "title": "Venedig",
+         "lat": "45.43713",
+         "lon": "12.33265",
+         "timestamp": ["1928-05-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Venedig", 
+        "wikidata": "http://www.wikidata.org/entity/Q641"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -24,6 +46,70 @@
          "title": "Grand Hotel Luna",
          "lat": "45.43321",
          "lon": "12.33726",
+         "timestamp": ["1928-05-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1928-05-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.35, 45.38333]
+      },
+      "properties": {
+         "id": "pmb259",
+         "title": "Lido",
+         "lat": "45.38333",
+         "lon": "12.35",
+         "timestamp": ["1928-05-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.38777778, 45.42888889]
+      },
+      "properties": {
+         "id": "pmb246666",
+         "title": "Flugplatz Venedig-Lido",
+         "lat": "45.42888889",
+         "lon": "12.38777778",
+         "timestamp": ["1928-05-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Flugplatz_Venedig-Lido", 
+        "wikidata": "http://www.wikidata.org/entity/Q1433925"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
          "timestamp": ["1928-05-03"],
          "importance": "1"
       }

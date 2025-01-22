@@ -6,14 +6,51 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [17.0314915, 51.1052657], 
-            [17.0454, 51.10862]
+            [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
+            [17.0454, 51.10862], 
+            [17.03533, 51.10773], 
+            [17.0314915, 51.1052657]
           ]
       },
       "properties": {
         "name": "22. November 1900"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1900-11-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.03533, 51.10773]
+      },
+      "properties": {
+         "id": "pmb677",
+         "title": "Breslau",
+         "lat": "51.10773",
+         "lon": "17.03533",
+         "timestamp": ["1900-11-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Breslau", 
+        "wikidata": "http://www.wikidata.org/entity/Q1799"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -40,6 +77,21 @@
          "title": "Lobe-Theater",
          "lat": "51.10862",
          "lon": "17.0454",
+         "timestamp": ["1900-11-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
          "timestamp": ["1900-11-22"],
          "importance": "1"
       }

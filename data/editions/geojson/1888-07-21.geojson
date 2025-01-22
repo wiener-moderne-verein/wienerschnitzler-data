@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [-0.13947, 50.82838], 
+            [-0.12574, 51.50853], 
             [-0.13, 51.5], 
             [-0.174938, 51.495309]
           ]
@@ -15,6 +16,23 @@
         "name": "21. Juli 1888"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.12574, 51.50853]
+      },
+      "properties": {
+         "id": "pmb224",
+         "title": "London",
+         "lat": "51.50853",
+         "lon": "-0.12574",
+         "timestamp": ["1888-07-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/London", 
+        "wikidata": "http://www.wikidata.org/entity/Q84"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -34,23 +52,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.13, 51.5]
-      },
-      "properties": {
-         "id": "pmb185235",
-         "title": "Royal Aquarium",
-         "lat": "51.5",
-         "lon": "-0.13",
-         "timestamp": ["1888-07-21"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Royal_Aquarium", 
-        "wikidata": "http://www.wikidata.org/entity/Q7373667"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [-0.13947, 50.82838]
       },
       "properties": {
@@ -62,6 +63,23 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Brighton", 
         "wikidata": "http://www.wikidata.org/entity/Q131491"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.13, 51.5]
+      },
+      "properties": {
+         "id": "pmb185235",
+         "title": "Royal Aquarium",
+         "lat": "51.5",
+         "lon": "-0.13",
+         "timestamp": ["1888-07-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Royal_Aquarium", 
+        "wikidata": "http://www.wikidata.org/entity/Q7373667"
       }
       }
   ]

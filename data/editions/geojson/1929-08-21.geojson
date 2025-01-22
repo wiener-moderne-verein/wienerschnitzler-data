@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [6.63282, 46.516], 
             [6.63025, 46.50796], 
+            [11.57549, 48.13743], 
             [11.569993, 48.143395], 
             [8.54226, 47.37174]
           ]
@@ -36,6 +38,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.57549, 48.13743]
+      },
+      "properties": {
+         "id": "pmb38129",
+         "title": "München",
+         "lat": "48.13743",
+         "lon": "11.57549",
+         "timestamp": ["1929-08-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q1726"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.54226, 47.37174]
       },
       "properties": {
@@ -47,6 +66,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Z%C3%BCrich", 
         "wikidata": "http://www.wikidata.org/entity/Q72"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.63282, 46.516]
+      },
+      "properties": {
+         "id": "pmb8055",
+         "title": "Lausanne",
+         "lat": "46.516",
+         "lon": "6.63282",
+         "timestamp": ["1929-08-21"],
+         "importance": "1"
       }
       },
     {

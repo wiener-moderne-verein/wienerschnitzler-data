@@ -1,5 +1,100 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.384867, 48.190483], 
+            [16.373056, 48.208333], 
+            [16.370721, 48.212551], 
+            [16.369913, 48.208613], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "22. April 1896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1896-04-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369913, 48.208613]
+      },
+      "properties": {
+         "id": "pmb39599",
+         "title": "Graben",
+         "lat": "48.208613",
+         "lon": "16.369913",
+         "timestamp": ["1896-04-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Graben_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q699937"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.384867, 48.190483]
+      },
+      "properties": {
+         "id": "pmb199541",
+         "title": "Jacquingasse 43",
+         "lat": "48.190483",
+         "lon": "16.384867",
+         "timestamp": ["1896-04-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-04-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370721, 48.212551]
+      },
+      "properties": {
+         "id": "pmb168687",
+         "title": "[Salvatorgasse 11, Absteigequartier III Marie Reinhard und Arthur Schnitzler]",
+         "lat": "48.212551",
+         "lon": "16.370721",
+         "timestamp": ["1896-04-22"],
+         "importance": "1"
+      }
+      }
   ]
 }

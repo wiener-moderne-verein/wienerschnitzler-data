@@ -1,5 +1,100 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3637884, 48.2083986], 
+            [16.36385, 48.20841], 
+            [16.372609, 48.208087], 
+            [16.373056, 48.208333], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "8. Juni 1928"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1928-06-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372609, 48.208087]
+      },
+      "properties": {
+         "id": "pmb185324",
+         "title": "Meinl Churhaus-Restaurant",
+         "lat": "48.208087",
+         "lon": "16.372609",
+         "timestamp": ["1928-06-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36385, 48.20841]
+      },
+      "properties": {
+         "id": "pmb60142",
+         "title": "Bundeskanzleramt",
+         "lat": "48.20841",
+         "lon": "16.36385",
+         "timestamp": ["1928-06-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3637884, 48.2083986]
+      },
+      "properties": {
+         "id": "pmb232811",
+         "title": "Kongresssaal",
+         "lat": "48.2083986",
+         "lon": "16.3637884",
+         "timestamp": ["1928-06-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kongresssaal_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q46013959"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1928-06-08"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [12.136956, 46.537659], 
+            [12.13903, 46.5369], 
             [12.20259, 46.55672], 
             [12.25275, 46.58108], 
             [12.21722, 46.62111]
@@ -37,16 +38,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.136956, 46.537659]
+        "coordinates": [12.13903, 46.5369]
       },
       "properties": {
-         "id": "pmb246673",
-         "title": "Hotel Cortina",
-         "lat": "46.537659",
-         "lon": "12.136956",
+         "id": "pmb34199",
+         "title": "Cortina d’Ampezzo",
+         "lat": "46.5369",
+         "lon": "12.13903",
          "timestamp": ["1907-08-13"],
          "importance": "1", 
-        "wikidata": "http://www.wikidata.org/entity/Q131752550"
+        "wikipedia": "https://de.wikipedia.org/wiki/Cortina_d%E2%80%99Ampezzo", 
+        "wikidata": "http://www.wikidata.org/entity/Q41158"
       }
       },
     {
@@ -77,6 +79,22 @@
          "lon": "12.20259",
          "timestamp": ["1907-08-13"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.136956, 46.537659]
+      },
+      "properties": {
+         "id": "pmb246673",
+         "title": "Hotel Cortina",
+         "lat": "46.537659",
+         "lon": "12.136956",
+         "timestamp": ["1907-08-13"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q131752550"
       }
       }
   ]

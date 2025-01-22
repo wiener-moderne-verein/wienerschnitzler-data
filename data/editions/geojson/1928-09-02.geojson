@@ -6,13 +6,16 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.591, 48.1432], 
+            [11.5819773273866, 48.1425103994214], 
             [11.561467767769052, 48.13907960520144], 
-            [11.5711, 48.1358], 
+            [11.581667, 48.138889], 
             [11.5728, 48.1379], 
             [11.5743778, 48.1375908], 
-            [11.581667, 48.138889], 
-            [11.5819773273866, 48.1425103994214], 
-            [11.591, 48.1432], 
+            [11.57549, 48.13743], 
+            [11.5711, 48.1358], 
+            [16.373056, 48.208333], 
+            [16.33716, 48.23188], 
             [11.618, 48.16602], 
             [11.49857, 48.15853]
           ]
@@ -21,36 +24,6 @@
         "name": "2. September 1928"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.5728, 48.1379]
-      },
-      "properties": {
-         "id": "pmb91016",
-         "title": "Kaufingerstraße",
-         "lat": "48.1379",
-         "lon": "11.5728",
-         "timestamp": ["1928-09-02"],
-         "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.49857, 48.15853]
-      },
-      "properties": {
-         "id": "pmb91369",
-         "title": "Nymphenburg",
-         "lat": "48.15853",
-         "lon": "11.49857",
-         "timestamp": ["1928-09-02"],
-         "importance": "1"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -86,6 +59,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.5728, 48.1379]
+      },
+      "properties": {
+         "id": "pmb91016",
+         "title": "Kaufingerstraße",
+         "lat": "48.1379",
+         "lon": "11.5728",
+         "timestamp": ["1928-09-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.49857, 48.15853]
+      },
+      "properties": {
+         "id": "pmb91369",
+         "title": "Nymphenburg",
+         "lat": "48.15853",
+         "lon": "11.49857",
+         "timestamp": ["1928-09-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.5711, 48.1358]
       },
       "properties": {
@@ -95,6 +98,23 @@
          "lon": "11.5711",
          "timestamp": ["1928-09-02"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.57549, 48.13743]
+      },
+      "properties": {
+         "id": "pmb38129",
+         "title": "München",
+         "lat": "48.13743",
+         "lon": "11.57549",
+         "timestamp": ["1928-09-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q1726"
       }
       },
     {
@@ -159,6 +179,38 @@
          "title": "Restaurant Bürgerbräu",
          "lat": "48.1375908",
          "lon": "11.5743778",
+         "timestamp": ["1928-09-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1928-09-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
          "timestamp": ["1928-09-02"],
          "importance": "1"
       }

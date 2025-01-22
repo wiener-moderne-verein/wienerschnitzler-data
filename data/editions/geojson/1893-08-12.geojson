@@ -6,13 +6,33 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.32522, 48.30521]
+            [16.357233, 48.212477], 
+            [16.373056, 48.208333], 
+            [16.32522, 48.30521], 
+            [16.33255, 48.27617]
           ]
       },
       "properties": {
         "name": "12. August 1893"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1893-08-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +48,39 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
         "wikidata": "http://www.wikidata.org/entity/Q487522"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33255, 48.27617]
+      },
+      "properties": {
+         "id": "pmb574",
+         "title": "Kahlenberg",
+         "lat": "48.27617",
+         "lon": "16.33255",
+         "timestamp": ["1893-08-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kahlenberg", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=22912", 
+        "wikidata": "http://www.wikidata.org/entity/Q697119"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357233, 48.212477]
+      },
+      "properties": {
+         "id": "pmb167782",
+         "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+         "lat": "48.212477",
+         "lon": "16.357233",
+         "timestamp": ["1893-08-12"],
+         "importance": "1"
       }
       }
   ]

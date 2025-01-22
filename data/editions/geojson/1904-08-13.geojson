@@ -1,5 +1,84 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.275701, 48.219421], 
+            [16.373056, 48.208333], 
+            [16.33472, 48.2304], 
+            [16.314491, 48.242571]
+          ]
+      },
+      "properties": {
+        "name": "13. August 1904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1904-08-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.275701, 48.219421]
+      },
+      "properties": {
+         "id": "pmb90687",
+         "title": "Gallitzinberg",
+         "lat": "48.219421",
+         "lon": "16.275701",
+         "timestamp": ["1904-08-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gallitzinberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q874710"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.314491, 48.242571]
+      },
+      "properties": {
+         "id": "pmb231941",
+         "title": "Starkfriedgasse 12",
+         "lat": "48.242571",
+         "lon": "16.314491",
+         "timestamp": ["1904-08-13"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-08-13"],
+         "importance": "1"
+      }
+      }
   ]
 }

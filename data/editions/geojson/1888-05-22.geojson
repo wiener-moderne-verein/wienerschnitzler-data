@@ -8,6 +8,7 @@
         "coordinates": [
             [2.34646, 48.84673], 
             [2.336389, 48.8625], 
+            [2.3488, 48.85341], 
             [-0.12574, 51.50853]
           ]
       },
@@ -15,6 +16,40 @@
         "name": "22. Mai 1888"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3488, 48.85341]
+      },
+      "properties": {
+         "id": "pmb182",
+         "title": "Paris",
+         "lat": "48.85341",
+         "lon": "2.3488",
+         "timestamp": ["1888-05-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Paris", 
+        "wikidata": "http://www.wikidata.org/entity/Q90"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.12574, 51.50853]
+      },
+      "properties": {
+         "id": "pmb224",
+         "title": "London",
+         "lat": "51.50853",
+         "lon": "-0.12574",
+         "timestamp": ["1888-05-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/London", 
+        "wikidata": "http://www.wikidata.org/entity/Q84"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -45,23 +80,6 @@
          "lon": "2.336389",
          "timestamp": ["1888-05-22"],
          "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.12574, 51.50853]
-      },
-      "properties": {
-         "id": "pmb224",
-         "title": "London",
-         "lat": "51.50853",
-         "lon": "-0.12574",
-         "timestamp": ["1888-05-22"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/London", 
-        "wikidata": "http://www.wikidata.org/entity/Q84"
       }
       }
   ]

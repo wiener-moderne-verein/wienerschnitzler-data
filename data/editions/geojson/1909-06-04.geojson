@@ -1,5 +1,84 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3685, 48.1954], 
+            [16.369444, 48.203889], 
+            [16.373056, 48.208333], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "4. Juni 1909"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1909-06-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369444, 48.203889]
+      },
+      "properties": {
+         "id": "pmb29",
+         "title": "Hotel Sacher",
+         "lat": "48.203889",
+         "lon": "16.369444",
+         "timestamp": ["1909-06-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3685, 48.1954]
+      },
+      "properties": {
+         "id": "pmb185928",
+         "title": "Johann-Strauß-Theater",
+         "lat": "48.1954",
+         "lon": "16.3685",
+         "timestamp": ["1909-06-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Johann_Strau%C3%9F-Theater", 
+        "wikidata": "http://www.wikidata.org/entity/Q1502656"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1909-06-04"],
+         "importance": "1"
+      }
+      }
   ]
 }

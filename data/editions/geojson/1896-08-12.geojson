@@ -6,14 +6,32 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.588821, 55.685661], 
             [12.588929, 55.686029], 
-            [12.574733, 55.826747]
+            [12.574733, 55.826747], 
+            [12.57324, 55.8225]
           ]
       },
       "properties": {
         "name": "12. August 1896"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.57324, 55.8225]
+      },
+      "properties": {
+         "id": "pmb958",
+         "title": "Skodsborg",
+         "lat": "55.8225",
+         "lon": "12.57324",
+         "timestamp": ["1896-08-12"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q7061201"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -40,6 +58,21 @@
          "title": "Store Kongensgade 85",
          "lat": "55.686029",
          "lon": "12.588929",
+         "timestamp": ["1896-08-12"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.588821, 55.685661]
+      },
+      "properties": {
+         "id": "pmb92554",
+         "title": "Store Kongensgade",
+         "lat": "55.685661",
+         "lon": "12.588821",
          "timestamp": ["1896-08-12"],
          "importance": "1"
       }

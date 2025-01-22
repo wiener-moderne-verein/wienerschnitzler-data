@@ -6,13 +6,34 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.26161, 48.21575]
+            [16.26161, 48.21575], 
+            [16.258056, 48.201667], 
+            [16.373056, 48.208333], 
+            [16.33716, 48.23188], 
+            [16.2656, 48.2213]
           ]
       },
       "properties": {
         "name": "9. November 1913"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1913-11-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -24,6 +45,55 @@
          "title": "Satzberg",
          "lat": "48.21575",
          "lon": "16.26161",
+         "timestamp": ["1913-11-09"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.258056, 48.201667]
+      },
+      "properties": {
+         "id": "pmb271",
+         "title": "Hütteldorf",
+         "lat": "48.201667",
+         "lon": "16.258056",
+         "timestamp": ["1913-11-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/H%C3%BCtteldorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q1423660"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2656, 48.2213]
+      },
+      "properties": {
+         "id": "pmb232079",
+         "title": "Jubiläumswarte [Wien]",
+         "lat": "48.2213",
+         "lon": "16.2656",
+         "timestamp": ["1913-11-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Jubil%C3%A4umswarte", 
+        "wikidata": "http://www.wikidata.org/entity/Q1689546"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
          "timestamp": ["1913-11-09"],
          "importance": "1"
       }

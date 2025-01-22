@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.36821, 52.50982], 
             [13.364497, 52.497646], 
-            [13.36821, 52.50982]
+            [13.41053, 52.52437]
           ]
       },
       "properties": {
@@ -18,15 +19,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.364497, 52.497646]
+        "coordinates": [13.41053, 52.52437]
       },
       "properties": {
-         "id": "pmb237733",
-         "title": "Bülowstraße 78",
-         "lat": "52.497646",
-         "lon": "13.364497",
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
          "timestamp": ["1929-01-01"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64"
       }
       },
     {
@@ -40,6 +43,21 @@
          "title": "Herbert-von-Karajan-Straße 15",
          "lat": "52.50982",
          "lon": "13.36821",
+         "timestamp": ["1929-01-01"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.364497, 52.497646]
+      },
+      "properties": {
+         "id": "pmb237733",
+         "title": "Bülowstraße 78",
+         "lat": "52.497646",
+         "lon": "13.364497",
          "timestamp": ["1929-01-01"],
          "importance": "1"
       }

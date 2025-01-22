@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.33265, 45.43713], 
             [12.336047, 45.435282], 
             [12.338208333333334, 45.433675], 
             [12.33669, 45.44127], 
@@ -17,6 +18,23 @@
         "name": "24. April 1927"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33265, 45.43713]
+      },
+      "properties": {
+         "id": "pmb462",
+         "title": "Venedig",
+         "lat": "45.43713",
+         "lon": "12.33265",
+         "timestamp": ["1927-04-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Venedig", 
+        "wikidata": "http://www.wikidata.org/entity/Q641"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -53,6 +71,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.33027, 45.43812]
+      },
+      "properties": {
+         "id": "pmb91657",
+         "title": "Sestière di San Polo",
+         "lat": "45.43812",
+         "lon": "12.33027",
+         "timestamp": ["1927-04-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.32768, 45.4378]
       },
       "properties": {
@@ -75,21 +108,6 @@
          "title": "Hotel Giorgione",
          "lat": "45.44127",
          "lon": "12.33669",
-         "timestamp": ["1927-04-24"],
-         "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.33027, 45.43812]
-      },
-      "properties": {
-         "id": "pmb91657",
-         "title": "Sestière di San Polo",
-         "lat": "45.43812",
-         "lon": "12.33027",
          "timestamp": ["1927-04-24"],
          "importance": "1"
       }

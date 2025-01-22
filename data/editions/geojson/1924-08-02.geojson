@@ -1,5 +1,87 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.373056, 48.208333], 
+            [16.401694, 48.213944], 
+            [16.402222, 48.214722], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "2. August 1924"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1924-08-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.401694, 48.213944]
+      },
+      "properties": {
+         "id": "pmb47",
+         "title": "Schweizerhaus",
+         "lat": "48.213944",
+         "lon": "16.401694",
+         "timestamp": ["1924-08-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schweizerhaus_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q876104"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.402222, 48.214722]
+      },
+      "properties": {
+         "id": "pmb685",
+         "title": "Wurstelprater",
+         "lat": "48.214722",
+         "lon": "16.402222",
+         "timestamp": ["1924-08-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wurstelprater", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=10997", 
+        "wikidata": "http://www.wikidata.org/entity/Q3487269"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1924-08-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

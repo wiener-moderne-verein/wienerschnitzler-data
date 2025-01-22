@@ -1,5 +1,85 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.303128, 48.198254], 
+            [16.373056, 48.208333], 
+            [16.350361, 48.224472], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "14. Oktober 1916"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1916-10-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350361, 48.224472]
+      },
+      "properties": {
+         "id": "pmb28",
+         "title": "Volksoper",
+         "lat": "48.224472",
+         "lon": "16.350361",
+         "timestamp": ["1916-10-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volksoper_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q694747"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.303128, 48.198254]
+      },
+      "properties": {
+         "id": "pmb92298",
+         "title": "Hütteldorfer Straße",
+         "lat": "48.198254",
+         "lon": "16.303128",
+         "timestamp": ["1916-10-14"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q106193837"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1916-10-14"],
+         "importance": "1"
+      }
+      }
   ]
 }

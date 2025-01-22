@@ -6,16 +6,34 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.76415, 47.90092], 
             [13.8, 47.85], 
             [13.800529, 47.918198], 
-            [13.79877, 47.91762], 
-            [13.76415, 47.90092]
+            [13.79933, 47.91839], 
+            [13.79877, 47.91762]
           ]
       },
       "properties": {
         "name": "19. August 1931"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.79933, 47.91839]
+      },
+      "properties": {
+         "id": "pmb874",
+         "title": "Gmunden",
+         "lat": "47.91839",
+         "lon": "13.79933",
+         "timestamp": ["1931-08-19"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gmunden", 
+        "wikidata": "http://www.wikidata.org/entity/Q430449"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -27,21 +45,6 @@
          "title": "Hotel Austria [Gmunden]",
          "lat": "47.91762",
          "lon": "13.79877",
-         "timestamp": ["1931-08-19"],
-         "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.800529, 47.918198]
-      },
-      "properties": {
-         "id": "pmb245243",
-         "title": "Zum Schwan",
-         "lat": "47.918198",
-         "lon": "13.800529",
          "timestamp": ["1931-08-19"],
          "importance": "1"
       }
@@ -74,6 +77,21 @@
          "title": "Traunsee",
          "lat": "47.85",
          "lon": "13.8",
+         "timestamp": ["1931-08-19"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.800529, 47.918198]
+      },
+      "properties": {
+         "id": "pmb245243",
+         "title": "Zum Schwan",
+         "lat": "47.918198",
+         "lon": "13.800529",
          "timestamp": ["1931-08-19"],
          "importance": "1"
       }

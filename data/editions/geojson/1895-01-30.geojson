@@ -1,5 +1,116 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.3672713, 48.1950553], 
+            [16.3691, 48.203], 
+            [16.373056, 48.208333], 
+            [16.37628, 48.21163], 
+            [16.35736, 48.21533], 
+            [16.35195098, 48.212354]
+          ]
+      },
+      "properties": {
+        "name": "30. Januar 1895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1895-01-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1895-01-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35195098, 48.212354]
+      },
+      "properties": {
+         "id": "pmb195184",
+         "title": "Lammgasse 3",
+         "lat": "48.212354",
+         "lon": "16.35195098",
+         "timestamp": ["1895-01-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3672713, 48.1950553]
+      },
+      "properties": {
+         "id": "pmb110",
+         "title": "Kührer’s Restauration Zum rothen Rössel",
+         "lat": "48.1950553",
+         "lon": "16.3672713",
+         "timestamp": ["1895-01-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1895-01-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37628, 48.21163]
+      },
+      "properties": {
+         "id": "pmb109",
+         "title": "Hotel Excelsior [Wien]",
+         "lat": "48.21163",
+         "lon": "16.37628",
+         "timestamp": ["1895-01-30"],
+         "importance": "1"
+      }
+      }
   ]
 }

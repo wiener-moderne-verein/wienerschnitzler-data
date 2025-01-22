@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533], 
+            [8.68417, 50.11552], 
             [8.67556, 50.11]
           ]
       },
@@ -13,6 +16,40 @@
         "name": "10. Januar 1896"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1896-01-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.68417, 50.11552]
+      },
+      "properties": {
+         "id": "pmb146",
+         "title": "Frankfurt am Main",
+         "lat": "50.11552",
+         "lon": "8.68417",
+         "timestamp": ["1896-01-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Frankfurt_am_Main", 
+        "wikidata": "http://www.wikidata.org/entity/Q1794"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +65,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Frankfurter_Hof", 
         "wikidata": "http://www.wikidata.org/entity/Q1444973"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-01-10"],
+         "importance": "1"
       }
       }
   ]

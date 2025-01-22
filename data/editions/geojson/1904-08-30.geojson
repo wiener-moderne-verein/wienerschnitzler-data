@@ -1,5 +1,121 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.30202, 48.18636], 
+            [16.29101, 48.17547], 
+            [16.3566, 48.205142], 
+            [16.373056, 48.208333], 
+            [16.351111, 48.209583], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "30. August 1904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1904-08-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351111, 48.209583]
+      },
+      "properties": {
+         "id": "pmb40",
+         "title": "Theater in der Josefstadt",
+         "lat": "48.209583",
+         "lon": "16.351111",
+         "timestamp": ["1904-08-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q167619"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30202, 48.18636]
+      },
+      "properties": {
+         "id": "pmb304",
+         "title": "Ottakringer Bräu",
+         "lat": "48.18636",
+         "lon": "16.30202",
+         "timestamp": ["1904-08-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.29101, 48.17547]
+      },
+      "properties": {
+         "id": "pmb63",
+         "title": "XIII., Hietzing",
+         "lat": "48.17547",
+         "lon": "16.29101",
+         "timestamp": ["1904-08-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hietzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q636910"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3566, 48.205142]
+      },
+      "properties": {
+         "id": "pmb20",
+         "title": "Volkstheater",
+         "lat": "48.205142",
+         "lon": "16.3566",
+         "timestamp": ["1904-08-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
+        "wikidata": "http://www.wikidata.org/entity/Q688555"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-08-30"],
+         "importance": "1"
+      }
+      }
   ]
 }

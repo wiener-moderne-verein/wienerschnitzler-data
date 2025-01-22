@@ -6,17 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [12.4533, 41.90225], 
             [12.486944, 41.888333], 
+            [12.51133, 41.89193], 
             [12.49479, 41.90399], 
             [12.492194, 41.914194], 
-            [12.479653, 41.911763]
+            [12.479653, 41.911763], 
+            [12.4533, 41.90225]
           ]
       },
       "properties": {
         "name": "5. Mai 1904"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.51133, 41.89193]
+      },
+      "properties": {
+         "id": "pmb445",
+         "title": "Rom",
+         "lat": "41.89193",
+         "lon": "12.51133",
+         "timestamp": ["1904-05-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rom", 
+        "wikidata": "http://www.wikidata.org/entity/Q220"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -31,6 +49,23 @@
          "timestamp": ["1904-05-05"],
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q111412394"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.4533, 41.90225]
+      },
+      "properties": {
+         "id": "pmb1002",
+         "title": "Vatikan",
+         "lat": "41.90225",
+         "lon": "12.4533",
+         "timestamp": ["1904-05-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Vatikanstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q237"
       }
       },
     {
@@ -81,23 +116,6 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Pincio", 
         "wikidata": "http://www.wikidata.org/entity/Q550215"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.4533, 41.90225]
-      },
-      "properties": {
-         "id": "pmb1002",
-         "title": "Vatikan",
-         "lat": "41.90225",
-         "lon": "12.4533",
-         "timestamp": ["1904-05-05"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Vatikanstadt", 
-        "wikidata": "http://www.wikidata.org/entity/Q237"
       }
       }
   ]

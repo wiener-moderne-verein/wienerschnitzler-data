@@ -1,5 +1,84 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.287427, 48.182659], 
+            [16.29101, 48.17547], 
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "15. November 1901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1901-11-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.287427, 48.182659]
+      },
+      "properties": {
+         "id": "pmb231732",
+         "title": "Lainzerstraße 58",
+         "lat": "48.182659",
+         "lon": "16.287427",
+         "timestamp": ["1901-11-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.29101, 48.17547]
+      },
+      "properties": {
+         "id": "pmb63",
+         "title": "XIII., Hietzing",
+         "lat": "48.17547",
+         "lon": "16.29101",
+         "timestamp": ["1901-11-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hietzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q636910"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1901-11-15"],
+         "importance": "1"
+      }
+      }
   ]
 }

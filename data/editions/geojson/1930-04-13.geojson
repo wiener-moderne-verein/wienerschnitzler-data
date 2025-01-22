@@ -6,10 +6,14 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.11437, 48.13047], 
             [16.1374028, 48.1008317], 
             [16.19956, 48.11646], 
             [16.268889, 48.150556], 
-            [16.11437, 48.13047]
+            [16.373056, 48.208333], 
+            [16.351435, 48.209524], 
+            [16.350679, 48.214993], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -20,17 +24,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.268889, 48.150556]
+        "coordinates": [16.373056, 48.208333]
       },
       "properties": {
-         "id": "pmb7728",
-         "title": "Mauer",
-         "lat": "48.150556",
-         "lon": "16.268889",
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
          "timestamp": ["1930-04-13"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Mauer_(Wien)", 
-        "wikidata": "http://www.wikidata.org/entity/Q1910986"
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
       }
       },
     {
@@ -67,6 +71,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.268889, 48.150556]
+      },
+      "properties": {
+         "id": "pmb7728",
+         "title": "Mauer",
+         "lat": "48.150556",
+         "lon": "16.268889",
+         "timestamp": ["1930-04-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mauer_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1910986"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351435, 48.209524]
+      },
+      "properties": {
+         "id": "pmb185511",
+         "title": "Restaurant zum weißen Hahn",
+         "lat": "48.209524",
+         "lon": "16.351435",
+         "timestamp": ["1930-04-13"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350679, 48.214993]
+      },
+      "properties": {
+         "id": "pmb190687",
+         "title": "Arkadenkino",
+         "lat": "48.214993",
+         "lon": "16.350679",
+         "timestamp": ["1930-04-13"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Arkadenkino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.19956, 48.11646]
       },
       "properties": {
@@ -78,6 +130,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Kaltenleutgeben", 
         "wikidata": "http://www.wikidata.org/entity/Q665008"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1930-04-13"],
+         "importance": "1"
       }
       }
   ]

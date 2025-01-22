@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [10.453333, 46.528333], 
             [10.37008, 46.46717], 
             [10.478762, 46.532148], 
             [10.6134, 46.63368]
@@ -34,15 +35,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.478762, 46.532148]
+        "coordinates": [10.453333, 46.528333]
       },
       "properties": {
-         "id": "pmb41944",
-         "title": "Berghotel Franzenshöhe",
-         "lat": "46.532148",
-         "lon": "10.478762",
+         "id": "pmb41945",
+         "title": "Stilfser Joch",
+         "lat": "46.528333",
+         "lon": "10.453333",
          "timestamp": ["1882-08-10"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stilfser_Joch", 
+        "wikidata": "http://www.wikidata.org/entity/Q1334855"
       }
       },
     {
@@ -56,6 +59,21 @@
          "title": "Spondigna",
          "lat": "46.63368",
          "lon": "10.6134",
+         "timestamp": ["1882-08-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.478762, 46.532148]
+      },
+      "properties": {
+         "id": "pmb41944",
+         "title": "Berghotel Franzenshöhe",
+         "lat": "46.532148",
+         "lon": "10.478762",
          "timestamp": ["1882-08-10"],
          "importance": "1"
       }

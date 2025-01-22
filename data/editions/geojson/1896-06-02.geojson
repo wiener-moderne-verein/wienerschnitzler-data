@@ -1,5 +1,85 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.370721, 48.212551], 
+            [16.373056, 48.208333], 
+            [16.39467, 48.21699], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "2. Juni 1896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1896-06-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.39467, 48.21699]
+      },
+      "properties": {
+         "id": "pmb422",
+         "title": "Venedig in Wien",
+         "lat": "48.21699",
+         "lon": "16.39467",
+         "timestamp": ["1896-06-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Venedig_in_Wien", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Venedig_in_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q2512799"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370721, 48.212551]
+      },
+      "properties": {
+         "id": "pmb168687",
+         "title": "[Salvatorgasse 11, Absteigequartier III Marie Reinhard und Arthur Schnitzler]",
+         "lat": "48.212551",
+         "lon": "16.370721",
+         "timestamp": ["1896-06-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1896-06-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

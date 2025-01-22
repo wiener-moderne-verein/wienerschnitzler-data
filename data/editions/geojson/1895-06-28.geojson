@@ -6,9 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.06409, 48.33327], 
+            [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
             [16.30011, 48.32932], 
-            [15.98333, 48.4]
+            [15.98333, 48.4], 
+            [16.06409, 48.33327]
           ]
       },
       "properties": {
@@ -58,6 +60,38 @@
          "title": "Absdorf",
          "lat": "48.4",
          "lon": "15.98333",
+         "timestamp": ["1895-06-28"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1895-06-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
          "timestamp": ["1895-06-28"],
          "importance": "1"
       }

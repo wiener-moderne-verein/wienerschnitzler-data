@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.12108, 46.06787], 
             [11.127037, 46.071571], 
-            [12.101269, 46.751211]
+            [12.101269, 46.751211], 
+            [12.10556, 46.75774]
           ]
       },
       "properties": {
@@ -18,17 +20,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.127037, 46.071571]
+        "coordinates": [11.12108, 46.06787]
       },
       "properties": {
-         "id": "pmb192406",
-         "title": "Castello del Buonconsiglio",
-         "lat": "46.071571",
-         "lon": "11.127037",
+         "id": "pmb954",
+         "title": "Trient",
+         "lat": "46.06787",
+         "lon": "11.12108",
          "timestamp": ["1901-08-15"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Castello_del_Buonconsiglio", 
-        "wikidata": "http://www.wikidata.org/entity/Q247451"
+        "wikipedia": "https://de.wikipedia.org/wiki/Trient", 
+        "wikidata": "http://www.wikidata.org/entity/Q3376"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.10556, 46.75774]
+      },
+      "properties": {
+         "id": "pmb428",
+         "title": "Welsberg-Taisten",
+         "lat": "46.75774",
+         "lon": "12.10556",
+         "timestamp": ["1901-08-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Welsberg_(Welsberg-Taisten) https://de.wikipedia.org/wiki/Welsberg-Taisten", 
+        "wikidata": "http://www.wikidata.org/entity/Q26269623 http://www.wikidata.org/entity/Q431389"
       }
       },
     {
@@ -44,6 +63,23 @@
          "lon": "12.101269",
          "timestamp": ["1901-08-15"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.127037, 46.071571]
+      },
+      "properties": {
+         "id": "pmb192406",
+         "title": "Castello del Buonconsiglio",
+         "lat": "46.071571",
+         "lon": "11.127037",
+         "timestamp": ["1901-08-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Castello_del_Buonconsiglio", 
+        "wikidata": "http://www.wikidata.org/entity/Q247451"
       }
       }
   ]

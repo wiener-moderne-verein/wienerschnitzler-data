@@ -1,5 +1,132 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.367896, 48.209138], 
+            [16.373056, 48.208333], 
+            [16.361349, 48.223406], 
+            [16.355352, 48.250319], 
+            [16.355191, 48.248422], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "7. April 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1905-04-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1905-04-07"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355191, 48.248422]
+      },
+      "properties": {
+         "id": "pmb92292",
+         "title": "Hohe Warte",
+         "lat": "48.248422",
+         "lon": "16.355191",
+         "timestamp": ["1905-04-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q876564"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361349, 48.223406]
+      },
+      "properties": {
+         "id": "pmb231945",
+         "title": "Porzellangasse 45",
+         "lat": "48.223406",
+         "lon": "16.361349",
+         "timestamp": ["1905-04-07"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355352, 48.250319]
+      },
+      "properties": {
+         "id": "pmb235406",
+         "title": "Hohe Warte 50",
+         "lat": "48.250319",
+         "lon": "16.355352",
+         "timestamp": ["1905-04-07"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367896, 48.209138]
+      },
+      "properties": {
+         "id": "pmb235412",
+         "title": "J. W. Brooke, Luxus- und Gebrauchsgegenstände",
+         "lat": "48.209138",
+         "lon": "16.367896",
+         "timestamp": ["1905-04-07"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-04-07"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [14.46216, 47.57502], 
-            [15.84453, 47.69852]
+            [14.47188, 47.56155], 
+            [15.84453, 47.69852], 
+            [15.83333, 47.7]
           ]
       },
       "properties": {
@@ -18,17 +20,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.46216, 47.57502]
+        "coordinates": [14.47188, 47.56155]
       },
       "properties": {
-         "id": "pmb211439",
-         "title": "Stift Admont",
-         "lat": "47.57502",
-         "lon": "14.46216",
+         "id": "pmb49312",
+         "title": "Admont",
+         "lat": "47.56155",
+         "lon": "14.47188",
          "timestamp": ["1900-07-05"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Stift_Admont", 
-        "wikidata": "http://www.wikidata.org/entity/Q667615"
+        "wikipedia": "https://de.wikipedia.org/wiki/Admont", 
+        "wikidata": "http://www.wikidata.org/entity/Q359324"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83333, 47.7]
+      },
+      "properties": {
+         "id": "pmb483",
+         "title": "Reichenau an der Rax",
+         "lat": "47.7",
+         "lon": "15.83333",
+         "timestamp": ["1900-07-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Reichenau_an_der_Rax", 
+        "wikidata": "http://www.wikidata.org/entity/Q665243"
       }
       },
     {
@@ -44,6 +63,23 @@
          "lon": "15.84453",
          "timestamp": ["1900-07-05"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.46216, 47.57502]
+      },
+      "properties": {
+         "id": "pmb211439",
+         "title": "Stift Admont",
+         "lat": "47.57502",
+         "lon": "14.46216",
+         "timestamp": ["1900-07-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stift_Admont", 
+        "wikidata": "http://www.wikidata.org/entity/Q667615"
       }
       }
   ]

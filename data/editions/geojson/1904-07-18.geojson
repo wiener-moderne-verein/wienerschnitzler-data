@@ -7,9 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [15.6894731, 47.6889865], 
+            [15.68948, 47.68897], 
             [15.7042, 47.6886], 
             [15.80915, 47.69255], 
             [15.84453, 47.69852], 
+            [15.83333, 47.7], 
             [15.7621, 47.7132], 
             [15.71667, 47.7]
           ]
@@ -18,6 +20,23 @@
         "name": "18. Juli 1904"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83333, 47.7]
+      },
+      "properties": {
+         "id": "pmb483",
+         "title": "Reichenau an der Rax",
+         "lat": "47.7",
+         "lon": "15.83333",
+         "timestamp": ["1904-07-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Reichenau_an_der_Rax", 
+        "wikidata": "http://www.wikidata.org/entity/Q665243"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -31,23 +50,6 @@
          "lon": "15.84453",
          "timestamp": ["1904-07-18"],
          "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.80915, 47.69255]
-      },
-      "properties": {
-         "id": "pmb470",
-         "title": "Edlach",
-         "lat": "47.69255",
-         "lon": "15.80915",
-         "timestamp": ["1904-07-18"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Edlach_an_der_Rax", 
-        "wikidata": "http://www.wikidata.org/entity/Q106938523"
       }
       },
     {
@@ -86,6 +88,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.68948, 47.68897]
+      },
+      "properties": {
+         "id": "pmb20756",
+         "title": "Rax",
+         "lat": "47.68897",
+         "lon": "15.68948",
+         "timestamp": ["1904-07-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rax", 
+        "wikidata": "http://www.wikidata.org/entity/Q149533"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.7042, 47.6886]
       },
       "properties": {
@@ -97,6 +116,23 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Karl-Ludwig-Haus", 
         "wikidata": "http://www.wikidata.org/entity/Q1730075"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.80915, 47.69255]
+      },
+      "properties": {
+         "id": "pmb470",
+         "title": "Edlach",
+         "lat": "47.69255",
+         "lon": "15.80915",
+         "timestamp": ["1904-07-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Edlach_an_der_Rax", 
+        "wikidata": "http://www.wikidata.org/entity/Q106938523"
       }
       },
     {

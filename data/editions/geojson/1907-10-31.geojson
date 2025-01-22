@@ -1,5 +1,98 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
+            [16.357905, 48.22297], 
+            [16.344253, 48.236143], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "31. Oktober 1907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1907-10-31"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1907-10-31"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357905, 48.22297]
+      },
+      "properties": {
+         "id": "pmb231667",
+         "title": "Liechtensteinstraße 53, »Palais Kranz«",
+         "lat": "48.22297",
+         "lon": "16.357905",
+         "timestamp": ["1907-10-31"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.344253, 48.236143]
+      },
+      "properties": {
+         "id": "pmb236102",
+         "title": "Lannerstraße 24",
+         "lat": "48.236143",
+         "lon": "16.344253",
+         "timestamp": ["1907-10-31"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1907-10-31"],
+         "importance": "1"
+      }
+      }
   ]
 }

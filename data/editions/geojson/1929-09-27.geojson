@@ -1,5 +1,99 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.359721, 48.216481], 
+            [16.373056, 48.208333], 
+            [16.360145, 48.220337], 
+            [16.309305, 48.253492], 
+            [16.33716, 48.23188]
+          ]
+      },
+      "properties": {
+        "name": "27. September 1929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1929-09-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359721, 48.216481]
+      },
+      "properties": {
+         "id": "pmb184975",
+         "title": "Alt Pilsenetzer Bierhalle",
+         "lat": "48.216481",
+         "lon": "16.359721",
+         "timestamp": ["1929-09-27"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.360145, 48.220337]
+      },
+      "properties": {
+         "id": "pmb190562",
+         "title": "Fliegerkino",
+         "lat": "48.220337",
+         "lon": "16.360145",
+         "timestamp": ["1929-09-27"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Fliegerkino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.309305, 48.253492]
+      },
+      "properties": {
+         "id": "pmb237889",
+         "title": "Agnesgasse 30",
+         "lat": "48.253492",
+         "lon": "16.309305",
+         "timestamp": ["1929-09-27"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1929-09-27"],
+         "importance": "1"
+      }
+      }
   ]
 }

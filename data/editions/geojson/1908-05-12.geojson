@@ -7,12 +7,14 @@
         "type": "LineString", 
         "coordinates": [
             [11.086112, 47.492617], 
+            [11.09576, 47.49209], 
             [11.26187, 47.4422], 
             [11.34071, 47.64448], 
             [11.34685, 47.59225], 
             [11.43322, 47.75807], 
             [11.589959, 48.130874], 
             [11.581667, 48.138889], 
+            [11.57549, 48.13743], 
             [11.31187, 47.90348]
           ]
       },
@@ -24,32 +26,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.581667, 48.138889]
+        "coordinates": [11.57549, 48.13743]
       },
       "properties": {
-         "id": "pmb485",
-         "title": "Hotel Vier Jahreszeiten",
-         "lat": "48.138889",
-         "lon": "11.581667",
+         "id": "pmb38129",
+         "title": "München",
+         "lat": "48.13743",
+         "lon": "11.57549",
          "timestamp": ["1908-05-12"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
-        "wikidata": "http://www.wikidata.org/entity/Q1388047"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.589959, 48.130874]
-      },
-      "properties": {
-         "id": "pmb246148",
-         "title": "Franziskanerkeller",
-         "lat": "48.130874",
-         "lon": "11.589959",
-         "timestamp": ["1908-05-12"],
-         "importance": "1"
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q1726"
       }
       },
     {
@@ -67,6 +54,23 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Starnberger_See", 
         "wikidata": "http://www.wikidata.org/entity/Q131615"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.09576, 47.49209]
+      },
+      "properties": {
+         "id": "pmb667",
+         "title": "Garmisch-Partenkirchen",
+         "lat": "47.49209",
+         "lon": "11.09576",
+         "timestamp": ["1908-05-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Garmisch-Partenkirchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q127043"
       }
       },
     {
@@ -125,6 +129,38 @@
          "title": "Kochelsee",
          "lat": "47.64448",
          "lon": "11.34071",
+         "timestamp": ["1908-05-12"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.581667, 48.138889]
+      },
+      "properties": {
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
+         "timestamp": ["1908-05-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.589959, 48.130874]
+      },
+      "properties": {
+         "id": "pmb246148",
+         "title": "Franziskanerkeller",
+         "lat": "48.130874",
+         "lon": "11.589959",
          "timestamp": ["1908-05-12"],
          "importance": "1"
       }

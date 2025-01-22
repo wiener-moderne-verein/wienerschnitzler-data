@@ -1,5 +1,120 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33494, 48.23365], 
+            [16.33472, 48.2304], 
+            [16.373056, 48.208333], 
+            [16.36756870745, 48.244596474277], 
+            [16.364167, 48.259444], 
+            [16.355191, 48.248422]
+          ]
+      },
+      "properties": {
+        "name": "12. April 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1908-04-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355191, 48.248422]
+      },
+      "properties": {
+         "id": "pmb92292",
+         "title": "Hohe Warte",
+         "lat": "48.248422",
+         "lon": "16.355191",
+         "timestamp": ["1908-04-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q876564"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36756870745, 48.244596474277]
+      },
+      "properties": {
+         "id": "pmb159",
+         "title": "Heiligenstadt",
+         "lat": "48.244596474277",
+         "lon": "16.36756870745",
+         "timestamp": ["1908-04-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Heiligenstadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q379531"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364167, 48.259444]
+      },
+      "properties": {
+         "id": "pmb403",
+         "title": "Nussdorf",
+         "lat": "48.259444",
+         "lon": "16.364167",
+         "timestamp": ["1908-04-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Nussdorf_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1395576"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33494, 48.23365]
+      },
+      "properties": {
+         "id": "pmb235251",
+         "title": "Hasenauerstraße 59",
+         "lat": "48.23365",
+         "lon": "16.33494",
+         "timestamp": ["1908-04-12"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1908-04-12"],
+         "importance": "1"
+      }
+      }
   ]
 }

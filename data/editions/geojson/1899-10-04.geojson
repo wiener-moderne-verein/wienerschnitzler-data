@@ -7,7 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [13.299819, 52.520522], 
+            [13.366666, 52.516666], 
+            [13.366666666667, 52.516666666667], 
             [13.388194, 52.521572], 
+            [13.41053, 52.52437], 
             [13.382222, 52.524444]
           ]
       },
@@ -36,6 +39,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1899-10-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.382222, 52.524444]
       },
       "properties": {
@@ -45,6 +65,40 @@
          "lon": "13.382222",
          "timestamp": ["1899-10-04"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.366666666667, 52.516666666667]
+      },
+      "properties": {
+         "id": "pmb207015",
+         "title": "Großer Tiergarten",
+         "lat": "52.516666666667",
+         "lon": "13.366666666667",
+         "timestamp": ["1899-10-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_Tiergarten", 
+        "wikidata": "http://www.wikidata.org/entity/Q694020"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.366666, 52.516666]
+      },
+      "properties": {
+         "id": "pmb36914",
+         "title": "Tiergarten",
+         "lat": "52.516666",
+         "lon": "13.366666",
+         "timestamp": ["1899-10-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Tiergarten", 
+        "wikidata": "http://www.wikidata.org/entity/Q328672"
       }
       },
     {

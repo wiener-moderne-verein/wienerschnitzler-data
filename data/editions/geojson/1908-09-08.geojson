@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.5434784, 48.132027], 
+            [11.5445, 48.12987], 
+            [11.57549, 48.13743], 
             [11.581667, 48.138889], 
             [11.578786, 48.139944]
           ]
@@ -14,6 +17,23 @@
         "name": "8. September 1908"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.57549, 48.13743]
+      },
+      "properties": {
+         "id": "pmb38129",
+         "title": "München",
+         "lat": "48.13743",
+         "lon": "11.57549",
+         "timestamp": ["1908-09-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q1726"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -35,6 +55,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.5445, 48.12987]
+      },
+      "properties": {
+         "id": "pmb247522",
+         "title": "Marionettentheater Münchner Künstler",
+         "lat": "48.12987",
+         "lon": "11.5445",
+         "timestamp": ["1908-09-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.578786, 48.139944]
       },
       "properties": {
@@ -46,6 +81,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Bayerisches_Staatsschauspiel", 
         "wikidata": "http://www.wikidata.org/entity/Q812446"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5434784, 48.132027]
+      },
+      "properties": {
+         "id": "pmb247526",
+         "title": "Ausstellung München 1908",
+         "lat": "48.132027",
+         "lon": "11.5434784",
+         "timestamp": ["1908-09-08"],
+         "importance": "1"
       }
       }
   ]

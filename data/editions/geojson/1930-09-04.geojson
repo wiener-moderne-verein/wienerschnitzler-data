@@ -8,8 +8,11 @@
         "coordinates": [
             [12.70357, 49.977411], 
             [12.70919, 49.97665], 
+            [12.72872, 49.96115], 
             [12.87859, 50.22011], 
+            [12.87117, 50.23271], 
             [12.7543751, 50.18577], 
+            [12.75405, 50.186], 
             [12.7524016667, 50.1874566667]
           ]
       },
@@ -17,6 +20,23 @@
         "name": "4. September 1930"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.72872, 49.96115]
+      },
+      "properties": {
+         "id": "pmb772",
+         "title": "Marienbad",
+         "lat": "49.96115",
+         "lon": "12.72872",
+         "timestamp": ["1930-09-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Marienbad", 
+        "wikidata": "http://www.wikidata.org/entity/Q523469"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -36,15 +56,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.70357, 49.977411]
+        "coordinates": [12.75405, 50.186]
       },
       "properties": {
-         "id": "pmb185538",
-         "title": "Tepler Haus",
-         "lat": "49.977411",
-         "lon": "12.70357",
+         "id": "pmb3590",
+         "title": "Loket",
+         "lat": "50.186",
+         "lon": "12.75405",
          "timestamp": ["1930-09-04"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Loket", 
+        "wikidata": "http://www.wikidata.org/entity/Q936145"
       }
       },
     {
@@ -81,6 +103,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.87117, 50.23271]
+      },
+      "properties": {
+         "id": "pmb842",
+         "title": "Karlsbad",
+         "lat": "50.23271",
+         "lon": "12.87117",
+         "timestamp": ["1930-09-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Karlsbad", 
+        "wikidata": "http://www.wikidata.org/entity/Q384544"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.87859, 50.22011]
       },
       "properties": {
@@ -88,6 +127,21 @@
          "title": "Grandhotel Pupp",
          "lat": "50.22011",
          "lon": "12.87859",
+         "timestamp": ["1930-09-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.70357, 49.977411]
+      },
+      "properties": {
+         "id": "pmb185538",
+         "title": "Tepler Haus",
+         "lat": "49.977411",
+         "lon": "12.70357",
          "timestamp": ["1930-09-04"],
          "importance": "1"
       }

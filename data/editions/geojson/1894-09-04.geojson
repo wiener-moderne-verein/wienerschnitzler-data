@@ -6,13 +6,33 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.609575, 47.706537]
+            [13.61893, 47.71109], 
+            [13.609575, 47.706537], 
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
         "name": "4. September 1894"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61893, 47.71109]
+      },
+      "properties": {
+         "id": "pmb213",
+         "title": "Bad Ischl",
+         "lat": "47.71109",
+         "lon": "13.61893",
+         "timestamp": ["1894-09-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q250984"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -24,6 +44,38 @@
          "title": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
          "lat": "47.706537",
          "lon": "13.609575",
+         "timestamp": ["1894-09-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1894-09-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
          "timestamp": ["1894-09-04"],
          "importance": "1"
       }

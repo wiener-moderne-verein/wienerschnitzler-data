@@ -6,9 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533], 
             [16.33306, 48.25], 
             [16.25, 48.26667], 
-            [16.23333, 48.26667]
+            [16.23333, 48.26667], 
+            [16.26269, 48.24616], 
+            [16.23036, 48.246719]
           ]
       },
       "properties": {
@@ -19,17 +23,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.33306, 48.25]
+        "coordinates": [16.373056, 48.208333]
       },
       "properties": {
-         "id": "pmb69",
-         "title": "XIX., Döbling",
-         "lat": "48.25",
-         "lon": "16.33306",
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
          "timestamp": ["1900-09-30"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6bling", 
-        "wikidata": "http://www.wikidata.org/entity/Q267360"
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.26269, 48.24616]
+      },
+      "properties": {
+         "id": "pmb456",
+         "title": "Rohrerhütte",
+         "lat": "48.24616",
+         "lon": "16.26269",
+         "timestamp": ["1900-09-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23036, 48.246719]
+      },
+      "properties": {
+         "id": "pmb539",
+         "title": "Sophienalpe",
+         "lat": "48.246719",
+         "lon": "16.23036",
+         "timestamp": ["1900-09-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sophienalpe", 
+        "wikidata": "http://www.wikidata.org/entity/Q1787021"
       }
       },
     {
@@ -60,6 +96,38 @@
          "title": "Steinriegl",
          "lat": "48.26667",
          "lon": "16.23333",
+         "timestamp": ["1900-09-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33306, 48.25]
+      },
+      "properties": {
+         "id": "pmb69",
+         "title": "XIX., Döbling",
+         "lat": "48.25",
+         "lon": "16.33306",
+         "timestamp": ["1900-09-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6bling", 
+        "wikidata": "http://www.wikidata.org/entity/Q267360"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
          "timestamp": ["1900-09-30"],
          "importance": "1"
       }

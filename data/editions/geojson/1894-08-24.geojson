@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.64912, 47.56231], 
             [13.648883, 47.563652], 
+            [13.61893, 47.71109], 
             [13.61489, 47.71296], 
             [13.609575, 47.706537]
           ]
@@ -15,6 +17,23 @@
         "name": "24. August 1894"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61893, 47.71109]
+      },
+      "properties": {
+         "id": "pmb213",
+         "title": "Bad Ischl",
+         "lat": "47.71109",
+         "lon": "13.61893",
+         "timestamp": ["1894-08-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q250984"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -59,6 +78,21 @@
          "timestamp": ["1894-08-24"],
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q37855211"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.64912, 47.56231]
+      },
+      "properties": {
+         "id": "pmb39671",
+         "title": "Hallstatt",
+         "lat": "47.56231",
+         "lon": "13.64912",
+         "timestamp": ["1894-08-24"],
+         "importance": "1"
       }
       }
   ]

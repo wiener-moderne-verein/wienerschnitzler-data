@@ -8,6 +8,7 @@
         "coordinates": [
             [13.0385, 52.40416], 
             [13.06566, 52.39886], 
+            [13.41053, 52.52437], 
             [13.385556, 52.518889], 
             [13.335411898362262, 52.50160627017937]
           ]
@@ -16,6 +17,23 @@
         "name": "15. Februar 1904"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1904-02-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -35,21 +53,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.335411898362262, 52.50160627017937]
-      },
-      "properties": {
-         "id": "pmb61572",
-         "title": "Augsburger Straße",
-         "lat": "52.50160627017937",
-         "lon": "13.335411898362262",
-         "timestamp": ["1904-02-15"],
-         "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.0385, 52.40416]
       },
       "properties": {
@@ -61,6 +64,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Sanssouci", 
         "wikidata": "http://www.wikidata.org/entity/Q151330"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.335411898362262, 52.50160627017937]
+      },
+      "properties": {
+         "id": "pmb61572",
+         "title": "Augsburger Straße",
+         "lat": "52.50160627017937",
+         "lon": "13.335411898362262",
+         "timestamp": ["1904-02-15"],
+         "importance": "1"
       }
       },
     {

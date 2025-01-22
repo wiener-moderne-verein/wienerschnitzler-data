@@ -6,13 +6,33 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [19.0514151, 47.4962192]
+            [19.04045, 47.49835], 
+            [19.0514151, 47.4962192], 
+            [16.33472, 48.2304], 
+            [16.373056, 48.208333]
           ]
       },
       "properties": {
         "name": "20. Dezember 1908"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.04045, 47.49835]
+      },
+      "properties": {
+         "id": "pmb9867",
+         "title": "Budapest",
+         "lat": "47.49835",
+         "lon": "19.04045",
+         "timestamp": ["1908-12-20"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Budapest", 
+        "wikidata": "http://www.wikidata.org/entity/Q1781"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -24,6 +44,38 @@
          "title": "Hotel Königin von England",
          "lat": "47.4962192",
          "lon": "19.0514151",
+         "timestamp": ["1908-12-20"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1908-12-20"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
          "timestamp": ["1908-12-20"],
          "importance": "1"
       }

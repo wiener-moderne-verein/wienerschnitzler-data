@@ -1,5 +1,99 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.372054, 48.195488], 
+            [16.37243, 48.19544], 
+            [16.373056, 48.208333], 
+            [16.370342, 48.211369], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "24. Oktober 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1905-10-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37243, 48.19544]
+      },
+      "properties": {
+         "id": "pmb50989",
+         "title": "Taubstummengasse",
+         "lat": "48.19544",
+         "lon": "16.37243",
+         "timestamp": ["1905-10-24"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Taubstummengasse"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372054, 48.195488]
+      },
+      "properties": {
+         "id": "pmb186993",
+         "title": "Taubstummengasse 4",
+         "lat": "48.195488",
+         "lon": "16.372054",
+         "timestamp": ["1905-10-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-10-24"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1905-10-24"],
+         "importance": "1"
+      }
+      }
   ]
 }

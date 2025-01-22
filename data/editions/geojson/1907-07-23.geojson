@@ -7,13 +7,32 @@
         "type": "LineString", 
         "coordinates": [
             [12.072777777778, 46.736111111111], 
-            [12.101269, 46.751211]
+            [12.101269, 46.751211], 
+            [12.10556, 46.75774], 
+            [12.02951, 46.76027]
           ]
       },
       "properties": {
         "name": "23. Juli 1907"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.10556, 46.75774]
+      },
+      "properties": {
+         "id": "pmb428",
+         "title": "Welsberg-Taisten",
+         "lat": "46.75774",
+         "lon": "12.10556",
+         "timestamp": ["1907-07-23"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Welsberg_(Welsberg-Taisten) https://de.wikipedia.org/wiki/Welsberg-Taisten", 
+        "wikidata": "http://www.wikidata.org/entity/Q26269623 http://www.wikidata.org/entity/Q431389"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -43,6 +62,21 @@
          "timestamp": ["1907-07-23"],
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q31628459"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.02951, 46.76027]
+      },
+      "properties": {
+         "id": "pmb90157",
+         "title": "Olang",
+         "lat": "46.76027",
+         "lon": "12.02951",
+         "timestamp": ["1907-07-23"],
+         "importance": "1"
       }
       }
   ]

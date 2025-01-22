@@ -1,5 +1,82 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.369693, 48.204446], 
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533], 
+            [16.362245, 48.21079]
+          ]
+      },
+      "properties": {
+        "name": "6. Januar 1898"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1898-01-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362245, 48.21079]
+      },
+      "properties": {
+         "id": "pmb199958",
+         "title": "Löwelstraße 14",
+         "lat": "48.21079",
+         "lon": "16.362245",
+         "timestamp": ["1898-01-06"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369693, 48.204446]
+      },
+      "properties": {
+         "id": "pmb199375",
+         "title": "Maysedergasse 4",
+         "lat": "48.204446",
+         "lon": "16.369693",
+         "timestamp": ["1898-01-06"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1898-01-06"],
+         "importance": "1"
+      }
+      }
   ]
 }

@@ -6,18 +6,38 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.11437, 48.13047], 
             [16.15292, 48.04261], 
             [16.24801, 48.08509], 
             [16.2652, 48.080769], 
+            [16.373056, 48.208333], 
+            [16.33716, 48.23188], 
             [16.19733, 48.20444], 
-            [16.08333, 48.18333], 
-            [16.11437, 48.13047]
+            [16.16265, 48.19512], 
+            [16.08333, 48.18333]
           ]
       },
       "properties": {
         "name": "12. Juli 1928"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1928-07-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -39,15 +59,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.19733, 48.20444]
+        "coordinates": [16.16265, 48.19512]
       },
       "properties": {
-         "id": "pmb52452",
-         "title": "Sanatorium Purkersdorf",
-         "lat": "48.20444",
-         "lon": "16.19733",
+         "id": "pmb91552",
+         "title": "Purkersdorf",
+         "lat": "48.19512",
+         "lon": "16.16265",
          "timestamp": ["1928-07-12"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Purkersdorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q590620"
       }
       },
     {
@@ -100,6 +122,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.19733, 48.20444]
+      },
+      "properties": {
+         "id": "pmb52452",
+         "title": "Sanatorium Purkersdorf",
+         "lat": "48.20444",
+         "lon": "16.19733",
+         "timestamp": ["1928-07-12"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.08333, 48.18333]
       },
       "properties": {
@@ -107,6 +144,21 @@
          "title": "Pressbaum",
          "lat": "48.18333",
          "lon": "16.08333",
+         "timestamp": ["1928-07-12"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
          "timestamp": ["1928-07-12"],
          "importance": "1"
       }

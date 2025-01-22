@@ -6,13 +6,51 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.707639, 47.605239]
+            [15.707639, 47.605239], 
+            [15.80915, 47.69255], 
+            [16.373056, 48.208333], 
+            [16.361139, 48.210333], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
         "name": "30. Juni 1909"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1909-06-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.80915, 47.69255]
+      },
+      "properties": {
+         "id": "pmb470",
+         "title": "Edlach",
+         "lat": "47.69255",
+         "lon": "15.80915",
+         "timestamp": ["1909-06-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Edlach_an_der_Rax", 
+        "wikidata": "http://www.wikidata.org/entity/Q106938523"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -24,6 +62,36 @@
          "title": "Hotel Edlacherhof",
          "lat": "47.605239",
          "lon": "15.707639",
+         "timestamp": ["1909-06-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1909-06-30"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
          "timestamp": ["1909-06-30"],
          "importance": "1"
       }

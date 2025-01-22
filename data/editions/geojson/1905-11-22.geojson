@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.26586, 52.48338], 
+            [13.273979, 52.482354], 
+            [13.41053, 52.52437], 
             [13.386111, 52.521667]
           ]
       },
@@ -13,6 +16,23 @@
         "name": "22. November 1905"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1905-11-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -26,6 +46,38 @@
          "lon": "13.386111",
          "timestamp": ["1905-11-22"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.273979, 52.482354]
+      },
+      "properties": {
+         "id": "pmb232189",
+         "title": "Wernerstraße 16",
+         "lat": "52.482354",
+         "lon": "13.273979",
+         "timestamp": ["1905-11-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.26586, 52.48338]
+      },
+      "properties": {
+         "id": "pmb129",
+         "title": "Grunewald",
+         "lat": "52.48338",
+         "lon": "13.26586",
+         "timestamp": ["1905-11-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Grunewald", 
+        "wikidata": "http://www.wikidata.org/entity/Q2874431"
       }
       }
   ]

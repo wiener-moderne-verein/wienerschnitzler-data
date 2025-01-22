@@ -1,5 +1,86 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.365278, 48.210278], 
+            [16.366111, 48.208258], 
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "8. Februar 1895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1895-02-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365278, 48.210278]
+      },
+      "properties": {
+         "id": "pmb262",
+         "title": "Café Central",
+         "lat": "48.210278",
+         "lon": "16.365278",
+         "timestamp": ["1895-02-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Central", 
+        "wikidata": "http://www.wikidata.org/entity/Q694757"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.208258]
+      },
+      "properties": {
+         "id": "pmb34",
+         "title": "Café Griensteidl",
+         "lat": "48.208258",
+         "lon": "16.366111",
+         "timestamp": ["1895-02-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Griensteidl", 
+        "wikidata": "http://www.wikidata.org/entity/Q877029"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1895-02-08"],
+         "importance": "1"
+      }
+      }
   ]
 }

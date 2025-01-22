@@ -8,6 +8,7 @@
         "coordinates": [
             [13.3451, 52.4981], 
             [13.360365, 52.498452], 
+            [13.41053, 52.52437], 
             [13.374444, 52.51], 
             [13.374444, 52.51], 
             [13.36821, 52.50982]
@@ -17,6 +18,23 @@
         "name": "10. Januar 1930"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1930-01-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -53,6 +71,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.36821, 52.50982]
+      },
+      "properties": {
+         "id": "pmb233325",
+         "title": "Herbert-von-Karajan-Straße 15",
+         "lat": "52.50982",
+         "lon": "13.36821",
+         "timestamp": ["1930-01-10"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.374444, 52.51]
       },
       "properties": {
@@ -81,21 +114,6 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Scala_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q2228722"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.36821, 52.50982]
-      },
-      "properties": {
-         "id": "pmb233325",
-         "title": "Herbert-von-Karajan-Straße 15",
-         "lat": "52.50982",
-         "lon": "13.36821",
-         "timestamp": ["1930-01-10"],
-         "importance": "1"
       }
       }
   ]

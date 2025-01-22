@@ -9,13 +9,48 @@
             [15.59664, 48.01312], 
             [15.77414, 48.0339], 
             [15.97059, 48.0358], 
-            [16.02433, 48.17936]
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533], 
+            [16.02433, 48.17936], 
+            [15.63333, 48.2]
           ]
       },
       "properties": {
         "name": "2. Juni 1895"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1895-06-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.02433, 48.17936]
+      },
+      "properties": {
+         "id": "pmb11543",
+         "title": "Rekawinkel",
+         "lat": "48.17936",
+         "lon": "16.02433",
+         "timestamp": ["1895-06-02"],
+         "importance": "1"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -50,15 +85,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.02433, 48.17936]
+        "coordinates": [15.63333, 48.2]
       },
       "properties": {
-         "id": "pmb11543",
-         "title": "Rekawinkel",
-         "lat": "48.17936",
-         "lon": "16.02433",
+         "id": "pmb2939",
+         "title": "St. Pölten",
+         "lat": "48.2",
+         "lon": "15.63333",
          "timestamp": ["1895-06-02"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._P%C3%B6lten", 
+        "wikidata": "http://www.wikidata.org/entity/Q82500"
       }
       },
     {
@@ -76,6 +113,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Altenmarkt_an_der_Triesting", 
         "wikidata": "http://www.wikidata.org/entity/Q437393"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1895-06-02"],
+         "importance": "1"
       }
       }
   ]

@@ -6,13 +6,32 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.23264, 48.00543]
+            [16.23264, 48.00543], 
+            [16.37196, 48.20143], 
+            [16.373056, 48.208333]
           ]
       },
       "properties": {
         "name": "16. Juli 1891"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1891-07-16"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +47,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Baden_(Nieder%C3%B6sterreich)", 
         "wikidata": "http://www.wikidata.org/entity/Q486450"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1891-07-16"],
+         "importance": "1"
       }
       }
   ]

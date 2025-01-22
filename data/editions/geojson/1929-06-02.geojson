@@ -9,8 +9,12 @@
             [16.17359, 48.15486], 
             [16.11437, 48.13047], 
             [16.19845, 48.11549], 
+            [16.19956, 48.11646], 
+            [16.245159724901, 48.142780596146], 
             [16.28929, 48.17381], 
             [16.28456, 48.17318], 
+            [16.373056, 48.208333], 
+            [16.33716, 48.23188], 
             [16.21667, 48.18333]
           ]
       },
@@ -18,6 +22,23 @@
         "name": "2. Juni 1929"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1929-06-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -52,6 +73,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.245159724901, 48.142780596146]
+      },
+      "properties": {
+         "id": "pmb555",
+         "title": "Kalksburg",
+         "lat": "48.142780596146",
+         "lon": "16.245159724901",
+         "timestamp": ["1929-06-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.17359, 48.15486]
       },
       "properties": {
@@ -67,17 +103,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.19845, 48.11549]
+        "coordinates": [16.19956, 48.11646]
       },
       "properties": {
-         "id": "pmb236358",
-         "title": "Pfarrkirche Kaltenleutgeben",
-         "lat": "48.11549",
-         "lon": "16.19845",
+         "id": "pmb4845",
+         "title": "Kaltenleutgeben",
+         "lat": "48.11646",
+         "lon": "16.19956",
          "timestamp": ["1929-06-02"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Pfarrkirche_Kaltenleutgeben", 
-        "wikidata": "http://www.wikidata.org/entity/Q38037287"
+        "wikipedia": "https://de.wikipedia.org/wiki/Kaltenleutgeben", 
+        "wikidata": "http://www.wikidata.org/entity/Q665008"
       }
       },
     {
@@ -108,6 +144,38 @@
          "title": "Gasthaus Weide",
          "lat": "48.17318",
          "lon": "16.28456",
+         "timestamp": ["1929-06-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.19845, 48.11549]
+      },
+      "properties": {
+         "id": "pmb236358",
+         "title": "Pfarrkirche Kaltenleutgeben",
+         "lat": "48.11549",
+         "lon": "16.19845",
+         "timestamp": ["1929-06-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Pfarrkirche_Kaltenleutgeben", 
+        "wikidata": "http://www.wikidata.org/entity/Q38037287"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
          "timestamp": ["1929-06-02"],
          "importance": "1"
       }

@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.72872, 49.96115], 
             [12.70919, 49.97665], 
             [12.35738, 50.1184], 
+            [12.35174, 50.12033], 
             [12.37392, 50.07963]
           ]
       },
@@ -15,6 +17,23 @@
         "name": "13. September 1929"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.72872, 49.96115]
+      },
+      "properties": {
+         "id": "pmb772",
+         "title": "Marienbad",
+         "lat": "49.96115",
+         "lon": "12.72872",
+         "timestamp": ["1929-09-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Marienbad", 
+        "wikidata": "http://www.wikidata.org/entity/Q523469"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -34,15 +53,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.35738, 50.1184]
+        "coordinates": [12.35174, 50.12033]
       },
       "properties": {
-         "id": "pmb236968",
-         "title": "Königsvilla",
-         "lat": "50.1184",
-         "lon": "12.35738",
+         "id": "pmb390",
+         "title": "Franzensbad",
+         "lat": "50.12033",
+         "lon": "12.35174",
          "timestamp": ["1929-09-13"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Franti%C5%A1kovy_L%C3%A1zn%C4%9B", 
+        "wikidata": "http://www.wikidata.org/entity/Q756581"
       }
       },
     {
@@ -60,6 +81,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Cheb", 
         "wikidata": "http://www.wikidata.org/entity/Q193719"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.35738, 50.1184]
+      },
+      "properties": {
+         "id": "pmb236968",
+         "title": "Königsvilla",
+         "lat": "50.1184",
+         "lon": "12.35738",
+         "timestamp": ["1929-09-13"],
+         "importance": "1"
       }
       }
   ]

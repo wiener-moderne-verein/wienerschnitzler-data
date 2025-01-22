@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.24924, 48.08736]
+            [16.255556, 48.133611], 
+            [16.256152195922, 48.132793312328], 
+            [16.24924, 48.08736], 
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -24,6 +28,72 @@
          "title": "Hauptstraße 56",
          "lat": "48.08736",
          "lon": "16.24924",
+         "timestamp": ["1902-06-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.255556, 48.133611]
+      },
+      "properties": {
+         "id": "pmb40297",
+         "title": "Hofmannsthal-Schlössl",
+         "lat": "48.133611",
+         "lon": "16.255556",
+         "timestamp": ["1902-06-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hofmannsthal-Schl%C3%B6ssl", 
+        "wikidata": "http://www.wikidata.org/entity/Q1623184"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1902-06-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.256152195922, 48.132793312328]
+      },
+      "properties": {
+         "id": "pmb173",
+         "title": "Rodaun",
+         "lat": "48.132793312328",
+         "lon": "16.256152195922",
+         "timestamp": ["1902-06-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rodaun", 
+        "wikidata": "http://www.wikidata.org/entity/Q2160909"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
          "timestamp": ["1902-06-22"],
          "importance": "1"
       }

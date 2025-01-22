@@ -9,6 +9,7 @@
             [13.26269, 52.48383], 
             [13.29602, 52.49005], 
             [13.374444, 52.51], 
+            [13.41053, 52.52437], 
             [13.41212, 52.58777]
           ]
       },
@@ -37,15 +38,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41212, 52.58777]
+        "coordinates": [13.41053, 52.52437]
       },
       "properties": {
-         "id": "pmb144055",
-         "title": "Lanzsch & Co.",
-         "lat": "52.58777",
-         "lon": "13.41212",
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
          "timestamp": ["1929-03-19"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64"
       }
       },
     {
@@ -74,6 +77,21 @@
          "title": "Douglasstraße 10",
          "lat": "52.48383",
          "lon": "13.26269",
+         "timestamp": ["1929-03-19"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41212, 52.58777]
+      },
+      "properties": {
+         "id": "pmb144055",
+         "title": "Lanzsch & Co.",
+         "lat": "52.58777",
+         "lon": "13.41212",
          "timestamp": ["1929-03-19"],
          "importance": "1"
       }

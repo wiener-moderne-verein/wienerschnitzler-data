@@ -6,6 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.361378, 48.203661], 
+            [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
+            [16.378011, 48.205565], 
             [13.299819, 52.520522]
           ]
       },
@@ -17,6 +21,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1901-11-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.378011, 48.205565]
+      },
+      "properties": {
+         "id": "pmb182754",
+         "title": "Gartenbausäle",
+         "lat": "48.205565",
+         "lon": "16.378011",
+         "timestamp": ["1901-11-08"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gartenbausäle"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361378, 48.203661]
+      },
+      "properties": {
+         "id": "pmb47660",
+         "title": "Kunsthistorisches Museum",
+         "lat": "48.203661",
+         "lon": "16.361378",
+         "timestamp": ["1901-11-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.299819, 52.520522]
       },
       "properties": {
@@ -24,6 +76,21 @@
          "title": "Luisenplatz 2",
          "lat": "52.520522",
          "lon": "13.299819",
+         "timestamp": ["1901-11-08"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
          "timestamp": ["1901-11-08"],
          "importance": "1"
       }

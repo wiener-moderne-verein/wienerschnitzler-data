@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [12.486944, 41.888333], 
+            [12.51133, 41.89193], 
             [12.4877348, 41.9091682], 
             [12.4533, 41.90225]
           ]
@@ -15,6 +16,40 @@
         "name": "10. April 1901"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.51133, 41.89193]
+      },
+      "properties": {
+         "id": "pmb445",
+         "title": "Rom",
+         "lat": "41.89193",
+         "lon": "12.51133",
+         "timestamp": ["1901-04-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rom", 
+        "wikidata": "http://www.wikidata.org/entity/Q220"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.4533, 41.90225]
+      },
+      "properties": {
+         "id": "pmb1002",
+         "title": "Vatikan",
+         "lat": "41.90225",
+         "lon": "12.4533",
+         "timestamp": ["1901-04-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Vatikanstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q237"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -45,23 +80,6 @@
          "lon": "12.4877348",
          "timestamp": ["1901-04-10"],
          "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.4533, 41.90225]
-      },
-      "properties": {
-         "id": "pmb1002",
-         "title": "Vatikan",
-         "lat": "41.90225",
-         "lon": "12.4533",
-         "timestamp": ["1901-04-10"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Vatikanstadt", 
-        "wikidata": "http://www.wikidata.org/entity/Q237"
       }
       }
   ]

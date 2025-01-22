@@ -7,14 +7,34 @@
         "type": "LineString", 
         "coordinates": [
             [7.7511208, 46.001478], 
+            [7.75264, 45.98974], 
             [7.78484, 45.98322], 
-            [7.75065, 46.02066]
+            [7.74972222, 46.02361111], 
+            [7.75065, 46.02066], 
+            [7.754715, 46.005031]
           ]
       },
       "properties": {
         "name": "19. August 1926"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.75264, 45.98974]
+      },
+      "properties": {
+         "id": "pmb34005",
+         "title": "Zermatt",
+         "lat": "45.98974",
+         "lon": "7.75264",
+         "timestamp": ["1926-08-19"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Zermatt", 
+        "wikidata": "http://www.wikidata.org/entity/Q27494"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -50,6 +70,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [7.754715, 46.005031]
+      },
+      "properties": {
+         "id": "pmb92485",
+         "title": "Riffelalp",
+         "lat": "46.005031",
+         "lon": "7.754715",
+         "timestamp": ["1926-08-19"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [7.7511208, 46.001478]
       },
       "properties": {
@@ -60,6 +95,23 @@
          "timestamp": ["1926-08-19"],
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q7333237"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.74972222, 46.02361111]
+      },
+      "properties": {
+         "id": "pmb245361",
+         "title": "Gornergratbahn",
+         "lat": "46.02361111",
+         "lon": "7.74972222",
+         "timestamp": ["1926-08-19"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gornergratbahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q667247"
       }
       }
   ]

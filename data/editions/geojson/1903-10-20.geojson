@@ -6,13 +6,34 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.610682, 49.191061]
+            [16.33472, 48.2304], 
+            [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
+            [16.610682, 49.191061], 
+            [16.60796, 49.19522]
           ]
       },
       "properties": {
         "name": "20. Oktober 1903"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1903-10-20"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -27,6 +48,53 @@
          "timestamp": ["1903-10-20"],
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q12043602"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1903-10-20"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.60796, 49.19522]
+      },
+      "properties": {
+         "id": "pmb833",
+         "title": "Brünn",
+         "lat": "49.19522",
+         "lon": "16.60796",
+         "timestamp": ["1903-10-20"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Br%C3%BCnn", 
+        "wikidata": "http://www.wikidata.org/entity/Q14960"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1903-10-20"],
+         "importance": "1"
       }
       }
   ]

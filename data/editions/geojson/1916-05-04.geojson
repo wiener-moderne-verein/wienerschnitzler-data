@@ -1,5 +1,100 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.33716, 48.23188], 
+            [16.373056, 48.208333], 
+            [16.342154562605, 48.250804274577], 
+            [16.299761255551, 48.272363233241], 
+            [16.320833, 48.252222]
+          ]
+      },
+      "properties": {
+        "name": "4. Mai 1916"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1916-05-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.299761255551, 48.272363233241]
+      },
+      "properties": {
+         "id": "pmb534",
+         "title": "Jägerwiese",
+         "lat": "48.272363233241",
+         "lon": "16.299761255551",
+         "timestamp": ["1916-05-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.320833, 48.252222]
+      },
+      "properties": {
+         "id": "pmb288",
+         "title": "Sievering",
+         "lat": "48.252222",
+         "lon": "16.320833",
+         "timestamp": ["1916-05-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sievering", 
+        "wikidata": "http://www.wikidata.org/entity/Q1692038"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.342154562605, 48.250804274577]
+      },
+      "properties": {
+         "id": "pmb225",
+         "title": "Grinzing",
+         "lat": "48.250804274577",
+         "lon": "16.342154562605",
+         "timestamp": ["1916-05-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1916-05-04"],
+         "importance": "1"
+      }
+      }
   ]
 }

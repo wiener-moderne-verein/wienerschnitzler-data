@@ -7,13 +7,50 @@
         "type": "LineString", 
         "coordinates": [
             [19.04838, 47.48669], 
-            [19.05134, 47.512401]
+            [19.04045, 47.49835], 
+            [19.05134, 47.512401], 
+            [16.35736, 48.21533], 
+            [16.373056, 48.208333]
           ]
       },
       "properties": {
         "name": "7. Juni 1902"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1902-06-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.04045, 47.49835]
+      },
+      "properties": {
+         "id": "pmb9867",
+         "title": "Budapest",
+         "lat": "47.49835",
+         "lon": "19.04045",
+         "timestamp": ["1902-06-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Budapest", 
+        "wikidata": "http://www.wikidata.org/entity/Q1781"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -42,6 +79,21 @@
          "title": "Gellértberg",
          "lat": "47.48669",
          "lon": "19.04838",
+         "timestamp": ["1902-06-07"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
          "timestamp": ["1902-06-07"],
          "importance": "1"
       }

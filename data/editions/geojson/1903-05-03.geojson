@@ -1,5 +1,133 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.266071, 48.207207], 
+            [16.258056, 48.201667], 
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533], 
+            [16.335264, 48.228877], 
+            [16.28610371233, 48.233119188484], 
+            [16.287997, 48.217079]
+          ]
+      },
+      "properties": {
+        "name": "3. Mai 1903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1903-05-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.335264, 48.228877]
+      },
+      "properties": {
+         "id": "pmb232166",
+         "title": "Gentzgasse 110",
+         "lat": "48.228877",
+         "lon": "16.335264",
+         "timestamp": ["1903-05-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.258056, 48.201667]
+      },
+      "properties": {
+         "id": "pmb271",
+         "title": "Hütteldorf",
+         "lat": "48.201667",
+         "lon": "16.258056",
+         "timestamp": ["1903-05-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/H%C3%BCtteldorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q1423660"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.266071, 48.207207]
+      },
+      "properties": {
+         "id": "pmb92493",
+         "title": "Rosentalstraße",
+         "lat": "48.207207",
+         "lon": "16.266071",
+         "timestamp": ["1903-05-03"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q106194325"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.287997, 48.217079]
+      },
+      "properties": {
+         "id": "pmb92374",
+         "title": "Liebhartstal",
+         "lat": "48.217079",
+         "lon": "16.287997",
+         "timestamp": ["1903-05-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.28610371233, 48.233119188484]
+      },
+      "properties": {
+         "id": "pmb170",
+         "title": "Neuwaldegg",
+         "lat": "48.233119188484",
+         "lon": "16.28610371233",
+         "timestamp": ["1903-05-03"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1903-05-03"],
+         "importance": "1"
+      }
+      }
   ]
 }

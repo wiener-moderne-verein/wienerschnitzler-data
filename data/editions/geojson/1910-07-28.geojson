@@ -7,9 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [16.03425, 47.51062], 
+            [16.09421, 47.55187], 
             [16.090178, 47.554006], 
             [15.99103, 47.60738], 
             [15.83, 47.647222], 
+            [15.8241, 47.64224], 
             [15.85, 47.61667], 
             [15.86667, 47.6]
           ]
@@ -18,6 +20,23 @@
         "name": "28. Juli 1910"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8241, 47.64224]
+      },
+      "properties": {
+         "id": "pmb189",
+         "title": "Semmering",
+         "lat": "47.64224",
+         "lon": "15.8241",
+         "timestamp": ["1910-07-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q659891"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -84,15 +103,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.090178, 47.554006]
+        "coordinates": [16.09421, 47.55187]
       },
       "properties": {
-         "id": "pmb186780",
-         "title": "Hotel Goldener Hirsch",
-         "lat": "47.554006",
-         "lon": "16.090178",
+         "id": "pmb44001",
+         "title": "Aspang-Markt",
+         "lat": "47.55187",
+         "lon": "16.09421",
          "timestamp": ["1910-07-28"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Aspang-Markt", 
+        "wikidata": "http://www.wikidata.org/entity/Q683242"
       }
       },
     {
@@ -106,6 +127,21 @@
          "title": "Mönichkirchen",
          "lat": "47.51062",
          "lon": "16.03425",
+         "timestamp": ["1910-07-28"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.090178, 47.554006]
+      },
+      "properties": {
+         "id": "pmb186780",
+         "title": "Hotel Goldener Hirsch",
+         "lat": "47.554006",
+         "lon": "16.090178",
          "timestamp": ["1910-07-28"],
          "importance": "1"
       }

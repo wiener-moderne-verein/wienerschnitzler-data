@@ -1,5 +1,100 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.339722, 48.192222], 
+            [16.371667, 48.200556], 
+            [16.373056, 48.208333], 
+            [16.3855, 48.21682], 
+            [16.35736, 48.21533]
+          ]
+      },
+      "properties": {
+        "name": "22. Dezember 1900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1900-12-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371667, 48.200556]
+      },
+      "properties": {
+         "id": "pmb21",
+         "title": "Künstlerhaus",
+         "lat": "48.200556",
+         "lon": "16.371667",
+         "timestamp": ["1900-12-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/K%C3%BCnstlerhaus_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q284902"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.339722, 48.192222]
+      },
+      "properties": {
+         "id": "pmb77",
+         "title": "Raimund-Theater",
+         "lat": "48.192222",
+         "lon": "16.339722",
+         "timestamp": ["1900-12-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3855, 48.21682]
+      },
+      "properties": {
+         "id": "pmb231146",
+         "title": "Rotensterngasse 31",
+         "lat": "48.21682",
+         "lon": "16.3855",
+         "timestamp": ["1900-12-22"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1900-12-22"],
+         "importance": "1"
+      }
+      }
   ]
 }

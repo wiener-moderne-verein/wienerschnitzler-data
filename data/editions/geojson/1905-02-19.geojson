@@ -1,5 +1,118 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.366111, 48.209167], 
+            [16.365874, 48.209748], 
+            [16.373056, 48.208333], 
+            [16.33472, 48.2304], 
+            [16.2911, 48.2553], 
+            [16.300034240016, 48.246838181084]
+          ]
+      },
+      "properties": {
+        "name": "19. Februar 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1905-02-19"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2911, 48.2553]
+      },
+      "properties": {
+         "id": "pmb242",
+         "title": "Salmannsdorf",
+         "lat": "48.2553",
+         "lon": "16.2911",
+         "timestamp": ["1905-02-19"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salmannsdorf_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1255079"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1905-02-19"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-02-19"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365874, 48.209748]
+      },
+      "properties": {
+         "id": "pmb234967",
+         "title": "Cafésalon Louise Jesovits",
+         "lat": "48.209748",
+         "lon": "16.365874",
+         "timestamp": ["1905-02-19"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.300034240016, 48.246838181084]
+      },
+      "properties": {
+         "id": "pmb169",
+         "title": "Pötzleinsdorf",
+         "lat": "48.246838181084",
+         "lon": "16.300034240016",
+         "timestamp": ["1905-02-19"],
+         "importance": "1"
+      }
+      }
   ]
 }

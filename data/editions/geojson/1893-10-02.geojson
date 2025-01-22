@@ -1,5 +1,82 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.369444, 48.203889], 
+            [16.373056, 48.208333], 
+            [16.357353835756, 48.212643768549], 
+            [16.357233, 48.212477]
+          ]
+      },
+      "properties": {
+        "name": "2. Oktober 1893"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1893-10-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357353835756, 48.212643768549]
+      },
+      "properties": {
+         "id": "pmb412",
+         "title": "Grillparzerstraße",
+         "lat": "48.212643768549",
+         "lon": "16.357353835756",
+         "timestamp": ["1893-10-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369444, 48.203889]
+      },
+      "properties": {
+         "id": "pmb29",
+         "title": "Hotel Sacher",
+         "lat": "48.203889",
+         "lon": "16.369444",
+         "timestamp": ["1893-10-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357233, 48.212477]
+      },
+      "properties": {
+         "id": "pmb167782",
+         "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+         "lat": "48.212477",
+         "lon": "16.357233",
+         "timestamp": ["1893-10-02"],
+         "importance": "1"
+      }
+      }
   ]
 }

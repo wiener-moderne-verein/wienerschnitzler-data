@@ -1,5 +1,121 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.266389, 48.188056], 
+            [16.261305, 48.186771], 
+            [16.3067984, 48.1806202], 
+            [16.3566, 48.205142], 
+            [16.373056, 48.208333], 
+            [16.33472, 48.2304]
+          ]
+      },
+      "properties": {
+        "name": "17. September 1905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1905-09-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3067984, 48.1806202]
+      },
+      "properties": {
+         "id": "pmb92518",
+         "title": "Schlosspark Schönbrunn",
+         "lat": "48.1806202",
+         "lon": "16.3067984",
+         "timestamp": ["1905-09-17"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q21167264"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-09-17"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.261305, 48.186771]
+      },
+      "properties": {
+         "id": "pmb207274",
+         "title": "Haus Bahr",
+         "lat": "48.186771",
+         "lon": "16.261305",
+         "timestamp": ["1905-09-17"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q115690959"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3566, 48.205142]
+      },
+      "properties": {
+         "id": "pmb20",
+         "title": "Volkstheater",
+         "lat": "48.205142",
+         "lon": "16.3566",
+         "timestamp": ["1905-09-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
+        "wikidata": "http://www.wikidata.org/entity/Q688555"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.266389, 48.188056]
+      },
+      "properties": {
+         "id": "pmb165",
+         "title": "Ober Sankt Veit",
+         "lat": "48.188056",
+         "lon": "16.266389",
+         "timestamp": ["1905-09-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ober_Sankt_Veit", 
+        "wikidata": "http://www.wikidata.org/entity/Q1667009"
+      }
+      }
   ]
 }

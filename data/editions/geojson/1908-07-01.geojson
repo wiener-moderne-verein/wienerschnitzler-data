@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.55868, 46.54133], 
             [11.603010856, 46.53844547], 
+            [11.644722, 46.541111], 
             [11.560026, 46.54555]
           ]
       },
@@ -14,6 +16,23 @@
         "name": "1. Juli 1908"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.55868, 46.54133]
+      },
+      "properties": {
+         "id": "pmb988",
+         "title": "Seis am Schlern",
+         "lat": "46.54133",
+         "lon": "11.55868",
+         "timestamp": ["1908-07-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Seis_am_Schlern", 
+        "wikidata": "http://www.wikidata.org/entity/Q638380"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -42,6 +61,23 @@
          "lon": "11.603010856",
          "timestamp": ["1908-07-01"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.644722, 46.541111]
+      },
+      "properties": {
+         "id": "pmb1216",
+         "title": "Seiser Alm",
+         "lat": "46.541111",
+         "lon": "11.644722",
+         "timestamp": ["1908-07-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Seiser_Alm", 
+        "wikidata": "http://www.wikidata.org/entity/Q1261451"
       }
       }
   ]

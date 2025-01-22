@@ -6,13 +6,51 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.84453, 47.69852]
+            [15.83333, 47.7], 
+            [15.84453, 47.69852], 
+            [16.373056, 48.208333], 
+            [16.353571, 48.239999], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
         "name": "2. Juli 1905"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1905-07-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83333, 47.7]
+      },
+      "properties": {
+         "id": "pmb483",
+         "title": "Reichenau an der Rax",
+         "lat": "47.7",
+         "lon": "15.83333",
+         "timestamp": ["1905-07-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Reichenau_an_der_Rax", 
+        "wikidata": "http://www.wikidata.org/entity/Q665243"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -24,6 +62,36 @@
          "title": "Kurhaus Rudolfsbad",
          "lat": "47.69852",
          "lon": "15.84453",
+         "timestamp": ["1905-07-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-07-02"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353571, 48.239999]
+      },
+      "properties": {
+         "id": "pmb231906",
+         "title": "Dollinergasse 8",
+         "lat": "48.239999",
+         "lon": "16.353571",
          "timestamp": ["1905-07-02"],
          "importance": "1"
       }

@@ -1,5 +1,68 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.37196, 48.20143], 
+            [16.409444, 48.212222], 
+            [16.373056, 48.208333]
+          ]
+      },
+      "properties": {
+        "name": "4. Juni 1892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1892-06-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.409444, 48.212222]
+      },
+      "properties": {
+         "id": "pmb45128",
+         "title": "Internationales Ausstellungstheater im k.k. Prater",
+         "lat": "48.212222",
+         "lon": "16.409444",
+         "timestamp": ["1892-06-04"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Internationales_Ausstellungstheater", 
+        "wikidata": "http://www.wikidata.org/entity/Q46092813"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1892-06-04"],
+         "importance": "1"
+      }
+      }
   ]
 }

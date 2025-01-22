@@ -6,8 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.257741, 48.139276], 
+            [16.255556, 48.133611], 
             [16.24924, 48.08736], 
-            [16.27, 48.0925]
+            [16.27, 48.0925], 
+            [16.369953, 48.194906], 
+            [16.373056, 48.208333], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -40,6 +45,85 @@
          "title": "Burg Liechtenstein",
          "lat": "48.0925",
          "lon": "16.27",
+         "timestamp": ["1902-08-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369953, 48.194906]
+      },
+      "properties": {
+         "id": "pmb184870",
+         "title": "Hotel Victoria [Wien]",
+         "lat": "48.194906",
+         "lon": "16.369953",
+         "timestamp": ["1902-08-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.257741, 48.139276]
+      },
+      "properties": {
+         "id": "pmb231810",
+         "title": "Willergasse 2",
+         "lat": "48.139276",
+         "lon": "16.257741",
+         "timestamp": ["1902-08-04"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1902-08-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.255556, 48.133611]
+      },
+      "properties": {
+         "id": "pmb40297",
+         "title": "Hofmannsthal-Schlössl",
+         "lat": "48.133611",
+         "lon": "16.255556",
+         "timestamp": ["1902-08-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hofmannsthal-Schl%C3%B6ssl", 
+        "wikidata": "http://www.wikidata.org/entity/Q1623184"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
          "timestamp": ["1902-08-04"],
          "importance": "1"
       }

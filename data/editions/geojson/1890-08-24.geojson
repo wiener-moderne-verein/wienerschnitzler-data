@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.37196, 48.20143], 
+            [16.373056, 48.208333], 
             [16.32522, 48.30521], 
             [16.24226, 48.34667], 
             [16.06409, 48.33327]
@@ -15,6 +17,23 @@
         "name": "24. August 1890"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1890-08-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -62,6 +81,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
         "wikidata": "http://www.wikidata.org/entity/Q487522"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1890-08-24"],
+         "importance": "1"
       }
       }
   ]

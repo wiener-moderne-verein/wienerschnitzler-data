@@ -8,6 +8,7 @@
         "coordinates": [
             [13.042019, 47.805528], 
             [13.043401, 47.802045], 
+            [13.04532, 47.80067], 
             [13.050742, 47.796032], 
             [12.9291, 48.2081]
           ]
@@ -16,6 +17,23 @@
         "name": "4. August 1923"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04532, 47.80067]
+      },
+      "properties": {
+         "id": "pmb30",
+         "title": "Salzburg",
+         "lat": "47.80067",
+         "lon": "13.04532",
+         "timestamp": ["1923-08-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q34713"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -54,23 +72,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.050742, 47.796032]
-      },
-      "properties": {
-         "id": "pmb92422",
-         "title": "Nonnberg",
-         "lat": "47.796032",
-         "lon": "13.050742",
-         "timestamp": ["1923-08-04"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Nonnberg_(Salzburg)", 
-        "wikidata": "http://www.wikidata.org/entity/Q2790103"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [12.9291, 48.2081]
       },
       "properties": {
@@ -82,6 +83,23 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzach", 
         "wikidata": "http://www.wikidata.org/entity/Q152661"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.050742, 47.796032]
+      },
+      "properties": {
+         "id": "pmb92422",
+         "title": "Nonnberg",
+         "lat": "47.796032",
+         "lon": "13.050742",
+         "timestamp": ["1923-08-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Nonnberg_(Salzburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2790103"
       }
       }
   ]

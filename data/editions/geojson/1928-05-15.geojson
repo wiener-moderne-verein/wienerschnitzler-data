@@ -6,11 +6,20 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.11437, 48.13047], 
             [16.130278, 48.055278], 
+            [16.15292, 48.04261], 
             [16.24801, 48.08509], 
             [16.2652, 48.080769], 
-            [16.08333, 48.18333], 
-            [16.11437, 48.13047]
+            [16.430054, 48.194558], 
+            [16.402222, 48.214722], 
+            [16.395442, 48.217178], 
+            [16.373056, 48.208333], 
+            [16.39347, 48.21854], 
+            [16.33716, 48.23188], 
+            [16.338015, 48.234046], 
+            [16.28610371233, 48.233119188484], 
+            [16.08333, 48.18333]
           ]
       },
       "properties": {
@@ -21,13 +30,64 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.130278, 48.055278]
+        "coordinates": [16.373056, 48.208333]
       },
       "properties": {
-         "id": "pmb44789",
-         "title": "Stift Heiligenkreuz",
-         "lat": "48.055278",
-         "lon": "16.130278",
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1928-05-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.15292, 48.04261]
+      },
+      "properties": {
+         "id": "pmb939",
+         "title": "Heiligenkreuz",
+         "lat": "48.04261",
+         "lon": "16.15292",
+         "timestamp": ["1928-05-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Heiligenkreuz_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q665159"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1928-05-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.28610371233, 48.233119188484]
+      },
+      "properties": {
+         "id": "pmb170",
+         "title": "Neuwaldegg",
+         "lat": "48.233119188484",
+         "lon": "16.28610371233",
          "timestamp": ["1928-05-15"],
          "importance": "1"
       }
@@ -66,6 +126,39 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.402222, 48.214722]
+      },
+      "properties": {
+         "id": "pmb685",
+         "title": "Wurstelprater",
+         "lat": "48.214722",
+         "lon": "16.402222",
+         "timestamp": ["1928-05-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wurstelprater", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=10997", 
+        "wikidata": "http://www.wikidata.org/entity/Q3487269"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.395442, 48.217178]
+      },
+      "properties": {
+         "id": "pmb185318",
+         "title": "Restauration Prochaska",
+         "lat": "48.217178",
+         "lon": "16.395442",
+         "timestamp": ["1928-05-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.2652, 48.080769]
       },
       "properties": {
@@ -82,6 +175,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.39347, 48.21854]
+      },
+      "properties": {
+         "id": "pmb185914",
+         "title": "Zirkus Busch",
+         "lat": "48.21854",
+         "lon": "16.39347",
+         "timestamp": ["1928-05-15"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Zirkus_Busch_Kino", 
+        "wikidata": "http://www.wikidata.org/entity/Q98109954"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.08333, 48.18333]
       },
       "properties": {
@@ -89,6 +199,51 @@
          "title": "Pressbaum",
          "lat": "48.18333",
          "lon": "16.08333",
+         "timestamp": ["1928-05-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.130278, 48.055278]
+      },
+      "properties": {
+         "id": "pmb44789",
+         "title": "Stift Heiligenkreuz",
+         "lat": "48.055278",
+         "lon": "16.130278",
+         "timestamp": ["1928-05-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338015, 48.234046]
+      },
+      "properties": {
+         "id": "pmb185644",
+         "title": "Peregringasse 4",
+         "lat": "48.234046",
+         "lon": "16.338015",
+         "timestamp": ["1928-05-15"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
          "timestamp": ["1928-05-15"],
          "importance": "1"
       }

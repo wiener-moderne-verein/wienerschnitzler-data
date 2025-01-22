@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [13.64868, 47.563638], 
+            [13.64912, 47.56231], 
             [13.664415, 47.74078], 
+            [13.61893, 47.71109], 
             [13.61758, 47.713083], 
             [13.609575, 47.706537]
           ]
@@ -16,6 +18,23 @@
         "name": "22. August 1894"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61893, 47.71109]
+      },
+      "properties": {
+         "id": "pmb213",
+         "title": "Bad Ischl",
+         "lat": "47.71109",
+         "lon": "13.61893",
+         "timestamp": ["1894-08-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q250984"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -29,6 +48,22 @@
          "lon": "13.609575",
          "timestamp": ["1894-08-22"],
          "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.64868, 47.563638]
+      },
+      "properties": {
+         "id": "pmb195114",
+         "title": "Beinhaus Hallstatt",
+         "lat": "47.563638",
+         "lon": "13.64868",
+         "timestamp": ["1894-08-22"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q37855200"
       }
       },
     {
@@ -65,16 +100,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.64868, 47.563638]
+        "coordinates": [13.64912, 47.56231]
       },
       "properties": {
-         "id": "pmb195114",
-         "title": "Beinhaus Hallstatt",
-         "lat": "47.563638",
-         "lon": "13.64868",
+         "id": "pmb39671",
+         "title": "Hallstatt",
+         "lat": "47.56231",
+         "lon": "13.64912",
          "timestamp": ["1894-08-22"],
-         "importance": "1", 
-        "wikidata": "http://www.wikidata.org/entity/Q37855200"
+         "importance": "1"
       }
       }
   ]

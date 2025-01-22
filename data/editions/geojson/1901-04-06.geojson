@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.51133, 41.89193], 
             [12.775278, 41.941944], 
+            [12.8016, 41.95952], 
             [12.796389, 41.963056]
           ]
       },
@@ -18,17 +20,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.775278, 41.941944]
+        "coordinates": [12.51133, 41.89193]
       },
       "properties": {
-         "id": "pmb190265",
-         "title": "Hadriansvilla",
-         "lat": "41.941944",
-         "lon": "12.775278",
+         "id": "pmb445",
+         "title": "Rom",
+         "lat": "41.89193",
+         "lon": "12.51133",
          "timestamp": ["1901-04-06"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Villa_Adriana", 
-        "wikidata": "http://www.wikidata.org/entity/Q272777"
+        "wikipedia": "https://de.wikipedia.org/wiki/Rom", 
+        "wikidata": "http://www.wikidata.org/entity/Q220"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.8016, 41.95952]
+      },
+      "properties": {
+         "id": "pmb44763",
+         "title": "Tivoli",
+         "lat": "41.95952",
+         "lon": "12.8016",
+         "timestamp": ["1901-04-06"],
+         "importance": "1"
       }
       },
     {
@@ -46,6 +63,23 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Villa_d%E2%80%99Este", 
         "wikidata": "http://www.wikidata.org/entity/Q746063"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.775278, 41.941944]
+      },
+      "properties": {
+         "id": "pmb190265",
+         "title": "Hadriansvilla",
+         "lat": "41.941944",
+         "lon": "12.775278",
+         "timestamp": ["1901-04-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Villa_Adriana", 
+        "wikidata": "http://www.wikidata.org/entity/Q272777"
       }
       }
   ]

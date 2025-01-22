@@ -6,6 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.35736, 48.21533], 
+            [16.373056, 48.208333], 
+            [16.430054, 48.194558], 
+            [16.400807, 48.21528], 
             [16.33306, 48.25]
           ]
       },
@@ -13,6 +17,38 @@
         "name": "1. Oktober 1901"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1901-10-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.400807, 48.21528]
+      },
+      "properties": {
+         "id": "pmb190716",
+         "title": "Restaurant Zur schönen Schäferin (Inh. Peter Kaubek)",
+         "lat": "48.21528",
+         "lon": "16.400807",
+         "timestamp": ["1901-10-01"],
+         "importance": "1"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +64,38 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6bling", 
         "wikidata": "http://www.wikidata.org/entity/Q267360"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1901-10-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1901-10-01"],
+         "importance": "1"
       }
       }
   ]

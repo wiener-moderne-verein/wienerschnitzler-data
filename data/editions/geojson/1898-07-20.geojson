@@ -8,6 +8,7 @@
         "coordinates": [
             [12.82727, 47.22729], 
             [13.140375, 47.119503], 
+            [13.13467, 47.11547], 
             [15.28333, 47.41667], 
             [13.02265, 47.28075]
           ]
@@ -50,15 +51,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.140375, 47.119503]
+        "coordinates": [13.13467, 47.11547]
       },
       "properties": {
-         "id": "pmb34014",
-         "title": "Villa Dr. Wassing",
-         "lat": "47.119503",
-         "lon": "13.140375",
+         "id": "pmb521",
+         "title": "Bad Gastein",
+         "lat": "47.11547",
+         "lon": "13.13467",
          "timestamp": ["1898-07-20"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Gastein", 
+        "wikidata": "http://www.wikidata.org/entity/Q254835"
       }
       },
     {
@@ -76,6 +79,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Bruck_an_der_Mur", 
         "wikidata": "http://www.wikidata.org/entity/Q259893"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.140375, 47.119503]
+      },
+      "properties": {
+         "id": "pmb34014",
+         "title": "Villa Dr. Wassing",
+         "lat": "47.119503",
+         "lon": "13.140375",
+         "timestamp": ["1898-07-20"],
+         "importance": "1"
       }
       }
   ]

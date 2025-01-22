@@ -10,7 +10,9 @@
             [11.01481, 47.47399], 
             [11.086112, 47.492617], 
             [11.080485, 47.478501], 
+            [11.09576, 47.49209], 
             [11.581667, 48.138889], 
+            [11.57549, 48.13743], 
             [11.31187, 47.90348]
           ]
       },
@@ -18,6 +20,23 @@
         "name": "11. Mai 1908"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.57549, 48.13743]
+      },
+      "properties": {
+         "id": "pmb38129",
+         "title": "München",
+         "lat": "48.13743",
+         "lon": "11.57549",
+         "timestamp": ["1908-05-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q1726"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -56,15 +75,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.086112, 47.492617]
+        "coordinates": [11.09576, 47.49209]
       },
       "properties": {
-         "id": "pmb246913",
-         "title": "Posthotel",
-         "lat": "47.492617",
-         "lon": "11.086112",
+         "id": "pmb667",
+         "title": "Garmisch-Partenkirchen",
+         "lat": "47.49209",
+         "lon": "11.09576",
          "timestamp": ["1908-05-11"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Garmisch-Partenkirchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q127043"
       }
       },
     {
@@ -108,6 +129,21 @@
          "title": "Rissersee",
          "lat": "47.478501",
          "lon": "11.080485",
+         "timestamp": ["1908-05-11"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.086112, 47.492617]
+      },
+      "properties": {
+         "id": "pmb246913",
+         "title": "Posthotel",
+         "lat": "47.492617",
+         "lon": "11.086112",
          "timestamp": ["1908-05-11"],
          "importance": "1"
       }

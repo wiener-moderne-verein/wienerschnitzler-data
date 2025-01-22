@@ -8,6 +8,7 @@
         "coordinates": [
             [7.864543454, 46.689737633], 
             [7.8547801025, 46.68565994], 
+            [7.86638, 46.68387], 
             [8.03847, 46.7545]
           ]
       },
@@ -15,6 +16,23 @@
         "name": "28. August 1926"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.86638, 46.68387]
+      },
+      "properties": {
+         "id": "pmb916",
+         "title": "Interlaken",
+         "lat": "46.68387",
+         "lon": "7.86638",
+         "timestamp": ["1926-08-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Interlaken", 
+        "wikidata": "http://www.wikidata.org/entity/Q68103"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -35,21 +53,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.8547801025, 46.68565994]
-      },
-      "properties": {
-         "id": "pmb245398",
-         "title": "Hotel Oberland",
-         "lat": "46.68565994",
-         "lon": "7.8547801025",
-         "timestamp": ["1926-08-28"],
-         "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.03847, 46.7545]
       },
       "properties": {
@@ -61,6 +64,21 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Brienz_BE", 
         "wikidata": "http://www.wikidata.org/entity/Q65268"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.8547801025, 46.68565994]
+      },
+      "properties": {
+         "id": "pmb245398",
+         "title": "Hotel Oberland",
+         "lat": "46.68565994",
+         "lon": "7.8547801025",
+         "timestamp": ["1926-08-28"],
+         "importance": "1"
       }
       }
   ]

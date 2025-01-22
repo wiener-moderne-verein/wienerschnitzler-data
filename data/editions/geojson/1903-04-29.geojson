@@ -1,5 +1,100 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [16.35736, 48.21533], 
+            [16.366201, 48.210922], 
+            [16.373056, 48.208333], 
+            [16.2911, 48.2553], 
+            [16.335264, 48.228877]
+          ]
+      },
+      "properties": {
+        "name": "29. April 1903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1903-04-29"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2911, 48.2553]
+      },
+      "properties": {
+         "id": "pmb242",
+         "title": "Salmannsdorf",
+         "lat": "48.2553",
+         "lon": "16.2911",
+         "timestamp": ["1903-04-29"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salmannsdorf_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1255079"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366201, 48.210922]
+      },
+      "properties": {
+         "id": "pmb207076",
+         "title": "Strauchgasse 1",
+         "lat": "48.210922",
+         "lon": "16.366201",
+         "timestamp": ["1903-04-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.335264, 48.228877]
+      },
+      "properties": {
+         "id": "pmb232166",
+         "title": "Gentzgasse 110",
+         "lat": "48.228877",
+         "lon": "16.335264",
+         "timestamp": ["1903-04-29"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1903-04-29"],
+         "importance": "1"
+      }
+      }
   ]
 }

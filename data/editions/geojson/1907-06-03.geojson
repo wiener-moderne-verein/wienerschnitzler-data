@@ -6,17 +6,34 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.241739, 48.090788], 
-            [16.241739, 48.090788], 
+            [16.24809, 48.08611], 
+            [16.24809, 48.08611], 
             [16.2507, 48.09033], 
-            [16.2507, 48.09033], 
-            [16.231919, 48.097298]
+            [16.231919, 48.097298], 
+            [16.241739, 48.090788]
           ]
       },
       "properties": {
         "name": "3. Juni 1907"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.24809, 48.08611]
+      },
+      "properties": {
+         "id": "pmb75",
+         "title": "Hinterbrühl",
+         "lat": "48.08611",
+         "lon": "16.24809",
+         "timestamp": ["1907-06-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hinterbr%C3%BChl", 
+        "wikidata": "http://www.wikidata.org/entity/Q664735"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -30,22 +47,6 @@
          "lon": "16.241739",
          "timestamp": ["1907-06-03"],
          "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.2507, 48.09033]
-      },
-      "properties": {
-         "id": "pmb40512",
-         "title": "Cur- und Wasserheilanstalt Hinterbrühl",
-         "lat": "48.09033",
-         "lon": "16.2507",
-         "timestamp": ["1907-06-03"],
-         "importance": "1", 
-        "wiengeschichtewiki": "https://regiowiki.at/wiki/Paulinenhof"
       }
       },
     {
@@ -67,21 +68,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.241739, 48.090788]
-      },
-      "properties": {
-         "id": "pmb44510",
-         "title": "Hotel Radetzky",
-         "lat": "48.090788",
-         "lon": "16.241739",
-         "timestamp": ["1907-06-03"],
-         "importance": "1"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.2507, 48.09033]
       },
       "properties": {
@@ -92,6 +78,23 @@
          "timestamp": ["1907-06-03"],
          "importance": "1", 
         "wiengeschichtewiki": "https://regiowiki.at/wiki/Paulinenhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.24809, 48.08611]
+      },
+      "properties": {
+         "id": "pmb75",
+         "title": "Hinterbrühl",
+         "lat": "48.08611",
+         "lon": "16.24809",
+         "timestamp": ["1907-06-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hinterbr%C3%BChl", 
+        "wikidata": "http://www.wikidata.org/entity/Q664735"
       }
       }
   ]

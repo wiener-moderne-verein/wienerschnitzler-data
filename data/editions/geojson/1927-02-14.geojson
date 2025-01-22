@@ -6,16 +6,37 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.68948, 47.68897], 
+            [15.8039, 47.7154], 
             [15.707639, 47.605239], 
-            [15.808343, 47.691299], 
             [15.81139, 47.70526], 
-            [15.68948, 47.68897]
+            [15.80915, 47.69255], 
+            [15.808343, 47.691299], 
+            [16.373056, 48.208333], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
         "name": "14. Februar 1927"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.80915, 47.69255]
+      },
+      "properties": {
+         "id": "pmb470",
+         "title": "Edlach",
+         "lat": "47.69255",
+         "lon": "15.80915",
+         "timestamp": ["1927-02-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Edlach_an_der_Rax", 
+        "wikidata": "http://www.wikidata.org/entity/Q106938523"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -35,15 +56,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.808343, 47.691299]
+        "coordinates": [16.373056, 48.208333]
       },
       "properties": {
-         "id": "pmb80",
-         "title": "Kuranstalt Dr. Konried",
-         "lat": "47.691299",
-         "lon": "15.808343",
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
          "timestamp": ["1927-02-14"],
-         "importance": "1"
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741"
       }
       },
     {
@@ -65,6 +88,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.8039, 47.7154]
+      },
+      "properties": {
+         "id": "pmb245633",
+         "title": "Raxseilbahn",
+         "lat": "47.7154",
+         "lon": "15.8039",
+         "timestamp": ["1927-02-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Raxseilbahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q2133803"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.68948, 47.68897]
       },
       "properties": {
@@ -76,6 +116,36 @@
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Rax", 
         "wikidata": "http://www.wikidata.org/entity/Q149533"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.808343, 47.691299]
+      },
+      "properties": {
+         "id": "pmb80",
+         "title": "Kuranstalt Dr. Konried",
+         "lat": "47.691299",
+         "lon": "15.808343",
+         "timestamp": ["1927-02-14"],
+         "importance": "1"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1927-02-14"],
+         "importance": "1"
       }
       }
   ]

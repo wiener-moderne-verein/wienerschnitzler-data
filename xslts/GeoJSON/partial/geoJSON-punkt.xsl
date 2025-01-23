@@ -140,7 +140,7 @@
         </xsl:if>
         <xsl:if test="$input-placeNode/tei:desc[@type = 'entity_type']">
             <xsl:text>, </xsl:text>
-            <xsl:text>&#10;        "abbreviation": "</xsl:text>
+            <xsl:text>&#10;        "abbr": "</xsl:text>
             <xsl:value-of select="$input-placeNode/tei:desc[@type = 'entity_type']"/>
             <xsl:text>", </xsl:text>
             <xsl:text>&#10;        "type": "</xsl:text>

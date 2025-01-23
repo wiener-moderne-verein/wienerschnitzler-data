@@ -4,6 +4,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" xmlns:mam="whatever"
     xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="json tei">
+    <xsl:param name="ortstypen" select="document('../../../data/indices/ortstypen.xml')"/>
+    <xsl:key match="item" use="abbreviation" name="ortstyp-match"/>
     <xsl:function name="mam:macht-punkt">
         <xsl:param name="input-placeNode" as="node()"/>
         <xsl:param name="timespan-type" as="xs:string"/>
@@ -35,7 +37,8 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('pmb', replace(replace($input-placeNode/tei:idno[@subtype = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/entity/', ''), '/', ''))"/>
+                    select="concat('pmb', replace(replace($input-placeNode/tei:idno[@subtype = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/entity/', ''), '/', ''))"
+                />
             </xsl:otherwise>
         </xsl:choose>
         <xsl:text>",</xsl:text>
@@ -52,8 +55,7 @@
         <xsl:text>&#10;         "timestamp": [</xsl:text>
         <xsl:choose>
             <xsl:when test="$timespan-type = 'complete'">
-                <xsl:for-each
-                    select="$input-placeNode/tei:listEvent/tei:event/@when">
+                <xsl:for-each select="$input-placeNode/tei:listEvent/tei:event/@when">
                     <xsl:text>"</xsl:text>
                     <xsl:value-of select="."/>
                     <xsl:text>"</xsl:text>
@@ -84,11 +86,10 @@
                     </xsl:if>
                 </xsl:for-each>
             </xsl:when>
-            <xsl:when test="$timespan-type = 'day'"> 
+            <xsl:when test="$timespan-type = 'day'">
                 <xsl:text>"</xsl:text>
                 <xsl:value-of select="xs:string($timespan-begin)"/>
                 <xsl:text>"</xsl:text>
-                
             </xsl:when>
         </xsl:choose>
         <xsl:text>],</xsl:text>
@@ -96,9 +97,7 @@
         <xsl:text>&#10;         "importance": "</xsl:text>
         <xsl:choose>
             <xsl:when test="$timespan-type = 'complete'">
-                <xsl:value-of
-                    select="count($input-placeNode/descendant::tei:listEvent/tei:event)"
-                />
+                <xsl:value-of select="count($input-placeNode/descendant::tei:listEvent/tei:event)"/>
             </xsl:when>
             <xsl:when test="$timespan-type = 'decade'">
                 <xsl:value-of
@@ -133,7 +132,26 @@
             <xsl:value-of select="$input-placeNode/tei:idno[@subtype = 'wikidata']"/>
             <xsl:text>"</xsl:text>
         </xsl:if>
+        <xsl:if test="$input-placeNode/tei:idno[@subtype = 'geonames']">
+            <xsl:text>, </xsl:text>
+            <xsl:text>&#10;        "geonames": "</xsl:text>
+            <xsl:value-of select="$input-placeNode/tei:idno[@subtype = 'geonames']"/>
+            <xsl:text>"</xsl:text>
+        </xsl:if>
+        <xsl:if test="$input-placeNode/tei:desc[@type = 'entity_type']">
+            <xsl:text>, </xsl:text>
+            <xsl:text>&#10;        "abbreviation": "</xsl:text>
+            <xsl:value-of select="$input-placeNode/tei:desc[@type = 'entity_type']"/>
+            <xsl:text>", </xsl:text>
+            <xsl:text>&#10;        "type": "</xsl:text>
+            <xsl:value-of select="mam:ortstyp($input-placeNode/tei:desc[@type = 'entity_type'])"/>
+            <xsl:text>"</xsl:text>
+        </xsl:if>
         <xsl:text>&#10;      }</xsl:text>
         <xsl:text>&#10;      }</xsl:text>
+    </xsl:function>
+    <xsl:function name="mam:ortstyp" as="xs:string">
+        <xsl:param name="input" as="xs:string"/>
+        <xsl:value-of select="key('ortstyp-match', $input, $ortstypen)/name"/>
     </xsl:function>
 </xsl:stylesheet>

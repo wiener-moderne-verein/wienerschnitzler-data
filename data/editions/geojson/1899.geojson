@@ -92,7 +92,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Franz von Jauner", "Ermete Zacconi"]
       }
       }, 
     {
@@ -322,6 +323,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1899-06-01"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.299116267833, 48.230916826952]
       },
       "properties": {
@@ -410,7 +431,8 @@
          "importance": "12", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Alois "]
       }
       }, 
     {
@@ -739,7 +761,8 @@
          "timestamp": ["1899-08-27", "1899-08-28", "1899-08-29", "1899-09-01"],
          "importance": "4", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Grethe Wreden"]
       }
       }, 
     {
@@ -854,7 +877,8 @@
          "timestamp": ["1899-01-08", "1899-01-25", "1899-02-15"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Markus Benedict"]
       }
       }, 
     {
@@ -871,7 +895,8 @@
          "timestamp": ["1899-12-30"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Arthur Klein", "Johann Klein"]
       }
       }, 
     {
@@ -888,7 +913,8 @@
          "timestamp": ["1899-10-09"],
          "importance": "1", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Sigmund Lautenburg", "Josef Jarno"]
       }
       }, 
     {
@@ -905,7 +931,8 @@
          "timestamp": ["1899-04-25", "1899-04-26", "1899-04-27", "1899-04-28", "1899-04-29", "1899-04-30", "1899-10-04", "1899-10-05", "1899-10-10"],
          "importance": "9", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Leopoldine Konstantin"]
       }
       }, 
     {
@@ -995,7 +1022,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -1031,26 +1059,6 @@
          "importance": "2", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1899-06-01"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
       }
       }, 
     {
@@ -1334,7 +1342,8 @@
          "timestamp": ["1899-08-15", "1899-08-16", "1899-08-17", "1899-08-18", "1899-08-19", "1899-08-20", "1899-08-21", "1899-08-22", "1899-08-23", "1899-08-24", "1899-08-25", "1899-08-26", "1899-08-27", "1899-08-28", "1899-08-29", "1899-08-30", "1899-08-31", "1899-09-01", "1899-09-02", "1899-09-03", "1899-09-04", "1899-09-05", "1899-09-06", "1899-09-07", "1899-09-08", "1899-09-09", "1899-09-10", "1899-09-11", "1899-09-12"],
          "importance": "29", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Leopold Petter", "Julie Flesch", " ?? [Portier Pension Rudolfshöhe 1895]"]
       }
       }, 
     {
@@ -1371,7 +1380,8 @@
          "timestamp": ["1899-10-22", "1899-10-29", "1899-11-01", "1899-11-05", "1899-12-03"],
          "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -1485,7 +1495,9 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q37995949", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Schnitzler", "Carl Altmann", "Emma Altmann"], 
+        "arbeitsort": ["Julius Schnitzler"]
       }
       }, 
     {
@@ -1502,7 +1514,9 @@
          "timestamp": ["1899-01-01", "1899-01-02", "1899-01-03", "1899-01-04", "1899-01-05", "1899-01-06", "1899-01-07", "1899-01-08", "1899-01-09", "1899-01-10", "1899-01-11", "1899-01-12", "1899-01-13", "1899-01-14", "1899-01-15", "1899-01-16", "1899-01-17", "1899-01-18", "1899-01-19", "1899-01-20", "1899-01-21", "1899-01-22", "1899-01-23", "1899-01-24", "1899-01-25", "1899-01-26", "1899-01-27", "1899-01-28", "1899-01-29", "1899-01-30", "1899-01-31", "1899-02-01", "1899-02-02", "1899-02-03", "1899-02-04", "1899-02-05", "1899-02-06", "1899-02-07", "1899-02-08", "1899-02-09", "1899-02-10", "1899-02-11", "1899-02-12", "1899-02-13", "1899-02-14", "1899-02-15", "1899-02-16", "1899-02-17", "1899-02-18", "1899-02-19", "1899-02-20", "1899-02-21", "1899-02-22", "1899-02-23", "1899-02-24", "1899-02-25", "1899-02-26", "1899-02-27", "1899-02-28", "1899-03-01", "1899-03-02", "1899-03-03", "1899-03-04", "1899-03-05", "1899-03-06", "1899-03-07", "1899-03-08", "1899-03-09", "1899-03-10", "1899-03-11", "1899-03-12", "1899-03-13", "1899-03-14", "1899-03-15", "1899-03-16", "1899-03-17", "1899-03-18", "1899-03-19", "1899-03-20", "1899-03-21", "1899-03-22", "1899-03-23", "1899-03-24", "1899-03-25", "1899-03-26", "1899-03-27", "1899-03-28", "1899-03-29", "1899-03-30", "1899-03-31", "1899-04-01", "1899-04-03", "1899-04-04", "1899-04-05", "1899-04-06", "1899-04-07", "1899-04-08", "1899-04-09", "1899-04-10", "1899-04-11", "1899-04-12", "1899-04-13", "1899-04-14", "1899-04-15", "1899-04-16", "1899-04-17", "1899-04-18", "1899-04-19", "1899-04-20", "1899-04-21", "1899-04-22", "1899-04-23", "1899-04-24", "1899-05-03", "1899-05-04", "1899-05-05", "1899-05-06", "1899-05-07", "1899-05-08", "1899-05-09", "1899-05-10", "1899-05-11", "1899-05-12", "1899-05-13", "1899-05-14", "1899-05-15", "1899-05-16", "1899-05-17", "1899-05-18", "1899-05-19", "1899-05-20", "1899-05-21", "1899-05-22", "1899-05-23", "1899-05-24", "1899-05-25", "1899-05-26", "1899-05-27", "1899-05-28", "1899-05-29", "1899-05-30", "1899-05-31", "1899-06-01", "1899-06-02", "1899-06-03", "1899-06-04", "1899-06-05", "1899-06-06", "1899-06-07", "1899-06-08", "1899-06-09", "1899-06-10", "1899-06-11", "1899-06-12", "1899-06-13", "1899-06-14", "1899-06-15", "1899-06-16", "1899-06-17", "1899-06-18", "1899-06-19", "1899-06-20", "1899-06-21", "1899-06-22", "1899-06-28", "1899-06-29", "1899-06-30", "1899-07-01", "1899-07-02", "1899-07-03", "1899-07-04", "1899-07-05", "1899-07-06", "1899-07-07", "1899-07-08", "1899-07-09", "1899-07-10", "1899-07-11", "1899-07-12", "1899-07-13", "1899-07-14", "1899-07-15", "1899-07-16", "1899-07-17", "1899-10-12", "1899-10-13", "1899-10-14", "1899-10-15", "1899-10-16", "1899-10-17", "1899-10-18", "1899-10-19", "1899-10-20", "1899-10-21", "1899-10-22", "1899-10-23", "1899-10-24", "1899-10-25", "1899-10-26", "1899-10-27", "1899-10-28", "1899-10-29", "1899-10-30", "1899-10-31", "1899-11-01", "1899-11-02", "1899-11-03", "1899-11-04", "1899-11-05", "1899-11-06", "1899-11-07", "1899-11-08", "1899-11-09", "1899-11-10", "1899-11-11", "1899-11-12", "1899-11-13", "1899-11-14", "1899-11-15", "1899-11-16", "1899-11-17", "1899-11-18", "1899-11-19", "1899-11-20", "1899-11-21", "1899-11-22", "1899-11-23", "1899-11-24", "1899-11-25", "1899-11-26", "1899-11-27", "1899-11-28", "1899-11-29", "1899-11-30", "1899-12-01", "1899-12-02", "1899-12-03", "1899-12-04", "1899-12-05", "1899-12-06", "1899-12-07", "1899-12-08", "1899-12-09", "1899-12-10", "1899-12-11", "1899-12-12", "1899-12-13", "1899-12-14", "1899-12-15", "1899-12-16", "1899-12-17", "1899-12-18", "1899-12-19", "1899-12-20", "1899-12-21", "1899-12-22", "1899-12-23", "1899-12-24", "1899-12-25", "1899-12-26", "1899-12-27", "1899-12-28", "1899-12-29", "1899-12-30", "1899-12-31"],
          "importance": "265", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -1519,7 +1533,8 @@
          "timestamp": ["1899-02-01", "1899-02-09", "1899-06-10", "1899-07-02", "1899-07-04", "1899-07-08", "1899-07-09", "1899-07-11", "1899-07-14", "1899-07-16", "1899-10-16", "1899-10-31", "1899-12-27"],
          "importance": "13", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Eleonora Duse", " Wessely"]
       }
       }, 
     {
@@ -1780,7 +1795,8 @@
          "timestamp": ["1899-05-16"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Adolf von Sonnenthal"]
       }
       }, 
     {
@@ -1836,7 +1852,8 @@
          "timestamp": ["1899-01-01", "1899-01-03", "1899-01-04", "1899-01-05", "1899-01-06", "1899-01-08", "1899-01-11", "1899-01-12", "1899-01-14", "1899-01-18", "1899-01-19", "1899-01-21", "1899-01-25", "1899-01-28", "1899-01-29", "1899-02-01", "1899-02-03", "1899-02-04", "1899-02-05", "1899-02-08", "1899-02-09", "1899-02-11", "1899-02-19", "1899-02-23", "1899-02-26", "1899-02-28", "1899-03-01", "1899-03-03", "1899-03-05", "1899-03-07", "1899-03-09", "1899-03-11", "1899-03-12", "1899-03-14", "1899-03-17", "1899-03-18", "1899-06-13", "1899-06-29"],
          "importance": "38", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Karl Reinhard", "Marie Reinhard"]
       }
       }, 
     {
@@ -1855,7 +1872,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Goethe-Haus", 
         "wikidata": "http://www.wikidata.org/entity/Q896039", 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "wohnort": ["Johann Wolfgang von Goethe"]
       }
       }, 
     {
@@ -1889,7 +1907,8 @@
          "timestamp": ["1899-10-06"],
          "importance": "1", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Armin Wassermann", "Gerhard Wiese", "Oskar Blumenthal"]
       }
       }, 
     {
@@ -1906,7 +1925,8 @@
          "timestamp": ["1899-05-01", "1899-10-04", "1899-10-05", "1899-10-07"],
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Otto Brahm"]
       }
       }, 
     {
@@ -1960,7 +1980,8 @@
          "timestamp": ["1899-05-23"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Franziska Mütter"]
       }
       }, 
     {
@@ -1994,7 +2015,8 @@
          "timestamp": ["1899-12-24"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Schnitzler"]
       }
       }, 
     {
@@ -2028,7 +2050,8 @@
          "timestamp": ["1899-05-29"],
          "importance": "1", 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+        "type": "Sanatorium", 
+        "arbeitsort": ["Julius Schnitzler", "Anton Loew"]
       }
       }, 
     {
@@ -2045,7 +2068,8 @@
          "timestamp": ["1899-01-02", "1899-01-10", "1899-02-14", "1899-02-22", "1899-03-03", "1899-03-16", "1899-04-04", "1899-04-23", "1899-05-05", "1899-05-07", "1899-05-09", "1899-05-12", "1899-05-19", "1899-05-26", "1899-06-01", "1899-06-03", "1899-06-13"],
          "importance": "17", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Marie Glümer"]
       }
       }, 
     {
@@ -2062,7 +2086,8 @@
          "timestamp": ["1899-05-15", "1899-06-30"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Moritz Heitler", "Gisela Hajek", "Markus Hajek"]
       }
       }, 
     {
@@ -2079,7 +2104,8 @@
          "timestamp": ["1899-11-04"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Richard Specht", "Ladislaus Specht"]
       }
       }, 
     {
@@ -2096,7 +2122,8 @@
          "timestamp": ["1899-10-13", "1899-11-03", "1899-11-10", "1899-11-24", "1899-12-01", "1899-12-15", "1899-12-22"],
          "importance": "7", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Springer"]
       }
       }, 
     {
@@ -2132,7 +2159,8 @@
          "timestamp": ["1899-06-15"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Julius von Gans-Ludassy"]
       }
       }, 
     {
@@ -2242,7 +2270,8 @@
          "timestamp": ["1899-01-18", "1899-01-31", "1899-02-06"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Moritz Coschell"]
       }
       }, 
     {
@@ -2293,7 +2322,8 @@
          "timestamp": ["1899-03-04"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Albertine von Gutmann-Gelse"]
       }
       }, 
     {
@@ -2310,7 +2340,8 @@
          "timestamp": ["1899-03-08"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Kalbeck"]
       }
       }, 
     {
@@ -2327,7 +2358,8 @@
          "timestamp": ["1899-03-10"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Jakob Minor", "Ludwig Speidel"]
       }
       }, 
     {
@@ -2344,7 +2376,8 @@
          "timestamp": ["1899-03-14"],
          "importance": "1", 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "wohnort": ["Viktor Hammerschlag"]
       }
       }, 
     {
@@ -2473,7 +2506,8 @@
          "timestamp": ["1899-05-20"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Berthold Dominik Lippay"]
       }
       }, 
     {
@@ -2526,7 +2560,8 @@
          "timestamp": ["1899-05-31"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gertrude von Hofmannsthal", "Franziska Schlesinger", "Emil Schlesinger", "Edmund Weissel"]
       }
       }, 
     {
@@ -2543,7 +2578,8 @@
          "timestamp": ["1899-06-02"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Moritz Coschell"]
       }
       }, 
     {
@@ -2617,7 +2653,8 @@
          "timestamp": ["1899-06-21"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lotte Witt"]
       }
       }, 
     {
@@ -3110,6 +3147,7 @@
          "lon": "11.79743",
          "timestamp": ["1899-08-08"],
          "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q18478635", 
         "geonames": "https://sws.geonames.org/3171264/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -3399,7 +3437,8 @@
          "timestamp": ["1899-09-24", "1899-09-25", "1899-09-26", "1899-09-27", "1899-09-28", "1899-09-29", "1899-09-30", "1899-10-01", "1899-10-02", "1899-10-03"],
          "importance": "10", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": [" ?? [Schreibkraft der Menükarte 3.10.1899]"]
       }
       }, 
     {
@@ -3568,7 +3607,8 @@
          "timestamp": ["1899-10-17", "1899-11-07", "1899-11-23", "1899-12-03"],
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Markus Benedict"]
       }
       }, 
     {
@@ -3602,7 +3642,8 @@
          "timestamp": ["1899-11-29"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Friedrich Kapper"]
       }
       }, 
     {

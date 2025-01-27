@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [9.50266, 47.00601], 
-            [9.59825, 47.23608]
+            [9.604167, 47.241111], 
+            [9.59854, 47.237813], 
+            [9.597851, 47.23838]
           ]
       },
       "properties": {
@@ -36,20 +38,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.59825, 47.23608]
+        "coordinates": [9.604167, 47.241111]
       },
       "properties": {
-         "id": "pmb44368",
-         "title": "Feldkirch",
-         "lat": "47.23608",
-         "lon": "9.59825",
+         "id": "pmb248106",
+         "title": "Bahnhof Feldkirch",
+         "lat": "47.241111",
+         "lon": "9.604167",
          "timestamp": ["1914-08-15"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Feldkirch", 
-        "wikidata": "http://www.wikidata.org/entity/Q183104", 
-        "geonames": "https://sws.geonames.org/2779674/", 
-        "abbr": "P.PPLA2", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Feldkirch", 
+        "wikidata": "http://www.wikidata.org/entity/Q698785", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.59854, 47.237813]
+      },
+      "properties": {
+         "id": "pmb248121",
+         "title": "Hotel Post [Feldkirch]",
+         "lat": "47.237813",
+         "lon": "9.59854",
+         "timestamp": ["1914-08-15"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q131869947", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.597851, 47.23838]
+      },
+      "properties": {
+         "id": "pmb248126",
+         "title": "Bezirkshauptmannschaft Feldkirch",
+         "lat": "47.23838",
+         "lon": "9.597851",
+         "timestamp": ["1914-08-15"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q38070739", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
       }
       }
   ]

@@ -7,7 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [15.8241, 47.64224], 
-            [15.85, 47.61667], 
+            [15.86, 47.629444], 
             [16.33472, 48.2304]
           ]
       },
@@ -49,24 +49,27 @@
          "timestamp": ["1905-05-06"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.85, 47.61667]
+        "coordinates": [15.86, 47.629444]
       },
       "properties": {
-         "id": "pmb91776",
+         "id": "pmb40895",
          "title": "Sonnwendstein",
-         "lat": "47.61667",
-         "lon": "15.85",
+         "lat": "47.629444",
+         "lon": "15.86",
          "timestamp": ["1905-05-06"],
          "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sonnwendstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q1668878", 
         "geonames": "https://sws.geonames.org/2764871/", 
-        "abbr": "T.MT", 
+        "abbr": "Berg (N.BRG)", 
         "type": "Berg"
       }
       }

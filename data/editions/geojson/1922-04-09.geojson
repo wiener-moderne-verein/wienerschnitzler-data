@@ -6,13 +6,31 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.3498542, 48.24659]
           ]
       },
       "properties": {
         "name": "9. April 1922"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3498542, 48.24659]
+      },
+      "properties": {
+         "id": "pmb92531",
+         "title": "Silbergasse",
+         "lat": "48.24659",
+         "lon": "16.3498542",
+         "timestamp": ["1922-04-09"],
+         "importance": "1", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -27,7 +45,9 @@
          "timestamp": ["1922-04-09"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }
   ]

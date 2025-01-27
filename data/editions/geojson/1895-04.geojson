@@ -60,6 +60,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1895-04-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.25, 48.26667]
       },
       "properties": {
@@ -128,7 +148,8 @@
          "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Alois "]
       }
       }, 
     {
@@ -145,27 +166,8 @@
          "timestamp": ["1895-04-01"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1895-04-13"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
+        "type": "Wohngebäude", 
+        "wohnort": ["Arthur Klein", "Johann Klein"]
       }
       }, 
     {
@@ -330,7 +332,8 @@
          "timestamp": ["1895-04-30"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -347,7 +350,8 @@
          "timestamp": ["1895-04-16", "1895-04-19"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna von Hofmannsthal", "Hugo August von Hofmannsthal", "Hermann Bahr", "Hugo von Hofmannsthal"]
       }
       }, 
     {
@@ -384,7 +388,8 @@
          "timestamp": ["1895-04-27"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gustav Harpner", "Gisela Hajek", "Markus Hajek"]
       }
       }, 
     {
@@ -401,7 +406,9 @@
          "timestamp": ["1895-04-01", "1895-04-02", "1895-04-03", "1895-04-04", "1895-04-05", "1895-04-06", "1895-04-07", "1895-04-08", "1895-04-09", "1895-04-10", "1895-04-11", "1895-04-12", "1895-04-13", "1895-04-14", "1895-04-15", "1895-04-16", "1895-04-17", "1895-04-18", "1895-04-19", "1895-04-20", "1895-04-21", "1895-04-22", "1895-04-23", "1895-04-24", "1895-04-25", "1895-04-26", "1895-04-27", "1895-04-28", "1895-04-29", "1895-04-30"],
          "importance": "30", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -418,7 +425,8 @@
          "timestamp": ["1895-04-13"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Franz Xaver Chlum", "Aloisia Chlum"]
       }
       }, 
     {

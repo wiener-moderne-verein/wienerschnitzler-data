@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33472, 48.2304]
+            [16.15546, 48.21684], 
+            [16.16265, 48.19512], 
+            [16.33472, 48.2304], 
+            [16.13528, 48.23082]
           ]
       },
       "properties": {
@@ -27,7 +30,65 @@
          "timestamp": ["1910-06-19"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.16265, 48.19512]
+      },
+      "properties": {
+         "id": "pmb39792",
+         "title": "Purkersdorf",
+         "lat": "48.19512",
+         "lon": "16.16265",
+         "timestamp": ["1910-06-19"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Purkersdorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q590620", 
+        "geonames": "https://sws.geonames.org/7873075/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.15546, 48.21684]
+      },
+      "properties": {
+         "id": "pmb248448",
+         "title": "Hochramalpe",
+         "lat": "48.21684",
+         "lon": "16.15546",
+         "timestamp": ["1910-06-19"],
+         "importance": "1", 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.13528, 48.23082]
+      },
+      "properties": {
+         "id": "pmb38059",
+         "title": "Gablitz",
+         "lat": "48.23082",
+         "lon": "16.13528",
+         "timestamp": ["1910-06-19"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gablitz", 
+        "wikidata": "http://www.wikidata.org/entity/Q665086", 
+        "geonames": "https://sws.geonames.org/7873069/ https://sws.geonames.org/2779061/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

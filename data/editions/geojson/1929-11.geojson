@@ -92,7 +92,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -166,7 +167,8 @@
          "timestamp": ["1929-11-04"],
          "importance": "1", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Eleonora Duse", " Wessely"]
       }
       }, 
     {
@@ -219,7 +221,27 @@
          "timestamp": ["1929-11-11"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1929-11-30"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Ottilie Salten", "Felix Salten"], 
+        "arbeitsort": [" ?? [Haushaltshilfe der Familie Salten 1912]"]
       }
       }, 
     {
@@ -236,7 +258,9 @@
          "timestamp": ["1929-11-03", "1929-11-19"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -253,7 +277,9 @@
          "timestamp": ["1929-11-01", "1929-11-02", "1929-11-03", "1929-11-04", "1929-11-05", "1929-11-06", "1929-11-07", "1929-11-08", "1929-11-09", "1929-11-10", "1929-11-11", "1929-11-12", "1929-11-13", "1929-11-14", "1929-11-15", "1929-11-16", "1929-11-17", "1929-11-18", "1929-11-19", "1929-11-20", "1929-11-21", "1929-11-22", "1929-11-23", "1929-11-24", "1929-11-25", "1929-11-26", "1929-11-27", "1929-11-28", "1929-11-29", "1929-11-30"],
          "importance": "30", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -270,7 +296,8 @@
          "timestamp": ["1929-11-08", "1929-11-21"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -287,7 +314,8 @@
          "timestamp": ["1929-11-20", "1929-11-30"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -304,7 +332,8 @@
          "timestamp": ["1929-11-05"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Berta Zuckerkandl"]
       }
       }, 
     {
@@ -338,24 +367,8 @@
          "timestamp": ["1929-11-30"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.34167, 48.233004]
-      },
-      "properties": {
-         "id": "pmb235812",
-         "title": "Cottagegasse 37",
-         "lat": "48.233004",
-         "lon": "16.34167",
-         "timestamp": ["1929-11-30"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Rosa Menczel", "Philipp Menczel"]
       }
       }, 
     {
@@ -372,7 +385,8 @@
          "timestamp": ["1929-11-11", "1929-11-12", "1929-11-26", "1929-11-28", "1929-11-29", "1929-11-30"],
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Clara Katharina Pollaczek"]
       }
       }, 
     {

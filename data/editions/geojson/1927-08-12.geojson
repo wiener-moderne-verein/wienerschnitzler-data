@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [10.82582, 46.22671], 
-            [11.33982, 46.49067]
+            [10.837, 46.24144], 
+            [10.8411, 46.2397], 
+            [11.2, 46.41667], 
+            [11.33982, 46.49067], 
+            [10.91246, 46.35356]
           ]
       },
       "properties": {
@@ -38,20 +41,73 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.82582, 46.22671]
+        "coordinates": [10.837, 46.24144]
       },
       "properties": {
-         "id": "pmb427",
-         "title": "Madonna di Campiglio",
-         "lat": "46.22671",
-         "lon": "10.82582",
+         "id": "pmb248124",
+         "title": "Carlo Magno Zeledria Hotel",
+         "lat": "46.24144",
+         "lon": "10.837",
          "timestamp": ["1927-08-12"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Madonna_di_Campiglio", 
-        "wikidata": "http://www.wikidata.org/entity/Q952929", 
-        "geonames": "https://sws.geonames.org/3174326/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2, 46.41667]
+      },
+      "properties": {
+         "id": "pmb91229",
+         "title": "Passo della Mendola",
+         "lat": "46.41667",
+         "lon": "11.2",
+         "timestamp": ["1927-08-12"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3173592/", 
+        "abbr": "T.PASS", 
+        "type": "Pass"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.91246, 46.35356]
+      },
+      "properties": {
+         "id": "pmb90126",
+         "title": "Malé",
+         "lat": "46.35356",
+         "lon": "10.91246",
+         "timestamp": ["1927-08-12"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3174186/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.8411, 46.2397]
+      },
+      "properties": {
+         "id": "pmb90438",
+         "title": "Campo Carlo Magno",
+         "lat": "46.2397",
+         "lon": "10.8411",
+         "timestamp": ["1927-08-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Passo_Campo_Carlo_Magno", 
+        "wikidata": "http://www.wikidata.org/entity/Q1031398", 
+        "geonames": "https://sws.geonames.org/3180988/ https://www.geonames.org/3180988/campo-carlo-magno.html", 
+        "abbr": "T.PASS", 
+        "type": "Pass"
       }
       }
   ]

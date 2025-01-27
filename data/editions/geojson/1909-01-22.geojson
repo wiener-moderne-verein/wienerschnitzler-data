@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35736, 48.21533], 
-            [16.33472, 48.2304]
+            [16.386283, 48.199197], 
+            [16.33472, 48.2304], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -28,7 +29,9 @@
          "timestamp": ["1909-01-22"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       },
     {
@@ -45,7 +48,26 @@
          "timestamp": ["1909-01-22"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.386283, 48.199197]
+      },
+      "properties": {
+         "id": "pmb248273",
+         "title": "Neulinggasse 34",
+         "lat": "48.199197",
+         "lon": "16.386283",
+         "timestamp": ["1909-01-22"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Nina Hoffmann-Matscheko", "Josef Hoffmann"]
       }
       }
   ]

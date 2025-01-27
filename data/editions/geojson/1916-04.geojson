@@ -127,7 +127,8 @@
          "timestamp": ["1916-04-29"],
          "importance": "1", 
         "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus"
+        "type": "Krankenhaus", 
+        "arbeitsort": ["Johann Schnitzler"]
       }
       }, 
     {
@@ -330,7 +331,8 @@
          "timestamp": ["1916-04-16"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -347,7 +349,8 @@
          "timestamp": ["1916-04-21"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Else Speidel-Haeberle", "Felix Speidel"]
       }
       }, 
     {
@@ -383,7 +386,26 @@
          "timestamp": ["1916-04-03"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.311953, 48.273636]
+      },
+      "properties": {
+         "id": "pmb248475",
+         "title": "Agneswiese",
+         "lat": "48.273636",
+         "lon": "16.311953",
+         "timestamp": ["1916-04-23"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
       }
       }, 
     {
@@ -400,7 +422,9 @@
          "timestamp": ["1916-04-01", "1916-04-02", "1916-04-03", "1916-04-04", "1916-04-05", "1916-04-06", "1916-04-07", "1916-04-08", "1916-04-09", "1916-04-10", "1916-04-11", "1916-04-12", "1916-04-13", "1916-04-14", "1916-04-15", "1916-04-16", "1916-04-17", "1916-04-18", "1916-04-19", "1916-04-20", "1916-04-21", "1916-04-22", "1916-04-23", "1916-04-24", "1916-04-25", "1916-04-26", "1916-04-27", "1916-04-28", "1916-04-29", "1916-04-30"],
          "importance": "30", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -436,7 +460,26 @@
          "timestamp": ["1916-04-13"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351291, 48.248146]
+      },
+      "properties": {
+         "id": "pmb248458",
+         "title": "Silbergasse 42",
+         "lat": "48.248146",
+         "lon": "16.351291",
+         "timestamp": ["1916-04-23"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Piekarski", "Eugenie Bachrach", "Stefanie Bachrach"]
       }
       }, 
     {
@@ -453,7 +496,8 @@
          "timestamp": ["1916-04-22", "1916-04-27"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {

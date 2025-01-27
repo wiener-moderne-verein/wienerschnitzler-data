@@ -82,6 +82,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1927-06-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36329, 48.21181]
+      },
+      "properties": {
+         "id": "pmb1107",
+         "title": "Teinfaltstraße",
+         "lat": "48.21181",
+         "lon": "16.36329",
+         "timestamp": ["1927-06-30"],
+         "importance": "1", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3611, 48.2261]
       },
       "properties": {
@@ -165,33 +201,13 @@
          "title": "Wurstelprater",
          "lat": "48.214722",
          "lon": "16.402222",
-         "timestamp": ["1927-06-17"],
-         "importance": "1", 
+         "timestamp": ["1927-06-17", "1927-06-29"],
+         "importance": "2", 
         "wikipedia": "https://de.wikipedia.org/wiki/Wurstelprater", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=10997", 
         "wikidata": "http://www.wikidata.org/entity/Q3487269", 
         "abbr": "Vergnügungspark (K.VGN)", 
         "type": "Vergnügungspark"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37312, 48.20122]
-      },
-      "properties": {
-         "id": "pmb43",
-         "title": "Café Imperial",
-         "lat": "48.20122",
-         "lon": "16.37312",
-         "timestamp": ["1927-06-30"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Imperial_(Wien)", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Imperial", 
-        "wikidata": "http://www.wikidata.org/entity/Q1630919", 
-        "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
       }
       }, 
     {
@@ -298,7 +314,8 @@
          "timestamp": ["1927-06-05", "1927-06-07", "1927-06-11", "1927-06-12"],
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Clara Katharina Pollaczek", "Louis Loeb"]
       }
       }, 
     {
@@ -352,7 +369,8 @@
          "timestamp": ["1927-06-10"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
       }
       }, 
     {
@@ -369,7 +387,9 @@
          "timestamp": ["1927-06-01"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -386,7 +406,9 @@
          "timestamp": ["1927-06-01", "1927-06-02", "1927-06-03", "1927-06-04", "1927-06-05", "1927-06-06", "1927-06-07", "1927-06-08", "1927-06-09", "1927-06-10", "1927-06-11", "1927-06-12", "1927-06-13", "1927-06-14", "1927-06-15", "1927-06-16", "1927-06-17", "1927-06-18", "1927-06-19", "1927-06-20", "1927-06-21", "1927-06-22", "1927-06-23", "1927-06-24", "1927-06-25", "1927-06-26", "1927-06-27", "1927-06-28", "1927-06-29", "1927-06-30"],
          "importance": "30", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -403,7 +425,8 @@
          "timestamp": ["1927-06-05", "1927-06-15", "1927-06-24"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -420,7 +443,8 @@
          "timestamp": ["1927-06-12", "1927-06-21"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -456,7 +480,8 @@
          "timestamp": ["1927-06-02"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Franz Werfel", "Alma Maria Mahler-Werfel"]
       }
       }, 
     {
@@ -474,7 +499,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q131720045", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Ernst Benedikt"]
       }
       }, 
     {
@@ -509,7 +535,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q106194224", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Frieda Pollak", "Victor Zuckerkandl"]
       }
       }, 
     {
@@ -526,7 +553,8 @@
          "timestamp": ["1927-06-05", "1927-06-06", "1927-06-07", "1927-06-08", "1927-06-09", "1927-06-12", "1927-06-18"],
          "importance": "7", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Vilma Lichtenstern", "Robert Lichtenstern"]
       }
       }, 
     {
@@ -615,8 +643,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Trabrennbahn_Krieau", 
         "wikidata": "http://www.wikidata.org/entity/Q2447418", 
         "geonames": "https://sws.geonames.org/3322732/", 
-        "abbr": "Pferderennbahn", 
-        "type": "Pferderennbahn"
+        "abbr": "S.RECR", 
+        "type": "Rennbahn"
       }
       }, 
     {
@@ -647,8 +675,8 @@
          "title": "Pension Peter",
          "lat": "48.237242",
          "lon": "16.348029",
-         "timestamp": ["1927-06-09", "1927-06-17", "1927-06-18"],
-         "importance": "3", 
+         "timestamp": ["1927-06-09", "1927-06-17", "1927-06-18", "1927-06-29"],
+         "importance": "4", 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
       }
@@ -684,7 +712,8 @@
          "timestamp": ["1927-06-19"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Emilie Franziska Wellesz", "Egon Wellesz"]
       }
       }, 
     {
@@ -701,7 +730,8 @@
          "timestamp": ["1927-06-28"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Eduard Reichel"]
       }
       }
   ]

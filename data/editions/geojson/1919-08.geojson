@@ -82,6 +82,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.294608885167, 48.270716646614]
+      },
+      "properties": {
+         "id": "pmb535",
+         "title": "Hermannskogel",
+         "lat": "48.270716646614",
+         "lon": "16.294608885167",
+         "timestamp": ["1919-08-24"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2776492/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33255, 48.27617]
       },
       "properties": {
@@ -116,7 +134,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -270,6 +289,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.311953, 48.273636]
+      },
+      "properties": {
+         "id": "pmb248475",
+         "title": "Agneswiese",
+         "lat": "48.273636",
+         "lon": "16.311953",
+         "timestamp": ["1919-08-03"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.29352777777778, 48.27041666666667]
+      },
+      "properties": {
+         "id": "pmb248494",
+         "title": "Habsburgwarte",
+         "lat": "48.27041666666667",
+         "lon": "16.29352777777778",
+         "timestamp": ["1919-08-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Habsburgwarte", 
+        "wikidata": "http://www.wikidata.org/entity/Q1567009", 
+        "abbr": "Monument (K.MON)", 
+        "type": "Monument"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -280,7 +335,9 @@
          "timestamp": ["1919-08-01", "1919-08-02", "1919-08-03", "1919-08-04", "1919-08-05", "1919-08-06", "1919-08-17", "1919-08-18", "1919-08-19", "1919-08-20", "1919-08-21", "1919-08-22", "1919-08-23", "1919-08-24", "1919-08-25", "1919-08-26", "1919-08-27", "1919-08-28", "1919-08-29", "1919-08-30", "1919-08-31"],
          "importance": "21", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -297,7 +354,8 @@
          "timestamp": ["1919-08-26"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -332,7 +390,8 @@
          "timestamp": ["1919-08-26"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {

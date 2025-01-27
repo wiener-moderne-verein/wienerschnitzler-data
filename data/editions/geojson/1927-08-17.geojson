@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.33982, 46.49067], 
-            [11.46552, 46.53861]
+            [11.35425, 46.49898], 
+            [11.358436, 46.496619], 
+            [11.46552, 46.53861], 
+            [11.439133, 46.532636]
           ]
       },
       "properties": {
@@ -18,20 +20,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.33982, 46.49067]
+        "coordinates": [11.35425, 46.49898]
       },
       "properties": {
-         "id": "pmb40260",
-         "title": "Bozen",
-         "lat": "46.49067",
-         "lon": "11.33982",
+         "id": "pmb248181",
+         "title": "Stadt Hotel Città",
+         "lat": "46.49898",
+         "lon": "11.35425",
          "timestamp": ["1927-08-17"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bozen", 
-        "wikidata": "http://www.wikidata.org/entity/Q6526", 
-        "geonames": "https://sws.geonames.org/3181913/", 
-        "abbr": "P.PPLA2", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.358436, 46.496619]
+      },
+      "properties": {
+         "id": "pmb248188",
+         "title": "Stazione di Bolzano",
+         "lat": "46.496619",
+         "lon": "11.358436",
+         "timestamp": ["1927-08-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bozen", 
+        "wikidata": "http://www.wikidata.org/entity/Q800560", 
+        "geonames": "https://sws.geonames.org/8410840/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       },
     {
@@ -50,6 +69,21 @@
         "geonames": "https://sws.geonames.org/6621593/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.439133, 46.532636]
+      },
+      "properties": {
+         "id": "pmb92474",
+         "title": "Rappersbichl",
+         "lat": "46.532636",
+         "lon": "11.439133",
+         "timestamp": ["1927-08-17"],
+         "importance": "1"
       }
       }
   ]

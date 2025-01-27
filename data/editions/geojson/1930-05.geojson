@@ -130,7 +130,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -443,7 +444,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
         "wikidata": "http://www.wikidata.org/entity/Q1610900", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Karl Rostler"]
       }
       }, 
     {
@@ -460,7 +462,8 @@
          "timestamp": ["1930-05-31"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
       }
       }, 
     {
@@ -486,6 +489,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1930-05-01"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Ottilie Salten", "Felix Salten"], 
+        "arbeitsort": [" ?? [Haushaltshilfe der Familie Salten 1912]"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -496,7 +518,9 @@
          "timestamp": ["1930-05-23"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -530,7 +554,9 @@
          "timestamp": ["1930-05-01", "1930-05-02", "1930-05-03", "1930-05-04", "1930-05-05", "1930-05-06", "1930-05-07", "1930-05-08", "1930-05-13", "1930-05-14", "1930-05-15", "1930-05-16", "1930-05-17", "1930-05-18", "1930-05-19", "1930-05-20", "1930-05-21", "1930-05-22", "1930-05-23", "1930-05-24", "1930-05-25", "1930-05-26", "1930-05-27", "1930-05-28", "1930-05-29", "1930-05-30", "1930-05-31"],
          "importance": "27", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -547,7 +573,8 @@
          "timestamp": ["1930-05-20"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -583,7 +610,8 @@
          "timestamp": ["1930-05-02", "1930-05-20", "1930-05-27"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -662,23 +690,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.34167, 48.233004]
-      },
-      "properties": {
-         "id": "pmb235812",
-         "title": "Cottagegasse 37",
-         "lat": "48.233004",
-         "lon": "16.34167",
-         "timestamp": ["1930-05-01"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.333056, 48.233056]
       },
       "properties": {
@@ -742,7 +753,8 @@
          "timestamp": ["1930-05-20"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Viktor Eisenmenger", "Anna Eisenmenger"]
       }
       }, 
     {
@@ -759,7 +771,8 @@
          "timestamp": ["1930-05-01", "1930-05-02", "1930-05-03", "1930-05-06", "1930-05-08", "1930-05-14", "1930-05-15", "1930-05-19", "1930-05-23", "1930-05-27", "1930-05-31"],
          "importance": "11", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Clara Katharina Pollaczek"]
       }
       }, 
     {
@@ -778,7 +791,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Kurhaus_Semmering", 
         "wikidata": "http://www.wikidata.org/entity/Q1793077", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Franz Hansy"]
       }
       }, 
     {
@@ -795,7 +809,8 @@
          "timestamp": ["1930-05-02", "1930-05-30"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath"]
       }
       }, 
     {
@@ -812,7 +827,8 @@
          "timestamp": ["1930-05-30"],
          "importance": "1", 
         "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus"
+        "type": "Krankenhaus", 
+        "arbeitsort": ["Ferdinand Donath"]
       }
       }, 
     {

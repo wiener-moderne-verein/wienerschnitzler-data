@@ -153,6 +153,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1891-05-25"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33255, 48.27617]
       },
       "properties": {
@@ -235,27 +255,9 @@
          "timestamp": ["1891-05-01", "1891-05-02", "1891-05-03", "1891-05-04", "1891-05-05", "1891-05-06", "1891-05-07", "1891-05-08", "1891-05-09", "1891-05-10", "1891-05-11", "1891-05-12", "1891-05-13", "1891-05-14", "1891-05-15", "1891-05-16", "1891-05-17", "1891-05-18", "1891-05-19", "1891-05-20", "1891-05-21", "1891-05-22", "1891-05-23", "1891-05-24", "1891-05-25", "1891-05-26", "1891-05-27", "1891-05-28", "1891-05-29"],
          "importance": "29", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1891-05-25"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
+        "type": "Wohngebäude", 
+        "wohnort": ["Leopold Rosenberg", "Arthur Schnitzler", "Julius Schnitzler", "Gisela Hajek", "Louise Schnitzler", "Johann Schnitzler"], 
+        "arbeitsort": [" ?? [Hausmeisterin von Kärntnerring 12/Bösendorferstraße 11]", " ?? [Hausmeister von Kärntnerring 12/Bösendorferstraße 11]"]
       }
       }, 
     {

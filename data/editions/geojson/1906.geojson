@@ -173,6 +173,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1906-12-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33306, 48.25]
       },
       "properties": {
@@ -241,7 +261,8 @@
          "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Alois "]
       }
       }, 
     {
@@ -413,7 +434,8 @@
          "timestamp": ["1906-03-25"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Arthur Klein", "Johann Klein"]
       }
       }, 
     {
@@ -447,7 +469,8 @@
          "timestamp": ["1906-02-20", "1906-02-26"],
          "importance": "2", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Leopoldine Konstantin"]
       }
       }, 
     {
@@ -526,7 +549,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -547,26 +571,6 @@
         "geonames": "https://sws.geonames.org/2601120/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1906-12-03"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
       }
       }, 
     {
@@ -845,7 +849,8 @@
          "timestamp": ["1906-05-01"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gustav Harpner", "Gisela Hajek", "Markus Hajek"]
       }
       }, 
     {
@@ -862,7 +867,9 @@
          "timestamp": ["1906-01-05", "1906-01-07", "1906-01-11", "1906-01-14", "1906-01-18", "1906-02-09", "1906-02-13", "1906-03-02", "1906-03-11", "1906-03-18", "1906-04-03", "1906-04-06", "1906-04-10", "1906-04-14", "1906-04-27", "1906-05-05", "1906-05-18", "1906-05-19", "1906-05-26", "1906-05-31", "1906-06-05", "1906-06-10", "1906-06-12", "1906-06-14", "1906-06-15", "1906-06-19", "1906-06-22", "1906-08-29", "1906-08-31", "1906-09-04", "1906-09-22", "1906-09-25", "1906-10-02", "1906-10-05", "1906-10-09", "1906-10-12", "1906-10-19", "1906-10-26", "1906-11-01", "1906-11-09", "1906-11-16", "1906-11-18", "1906-11-22", "1906-11-23", "1906-12-05", "1906-12-07", "1906-12-09", "1906-12-21", "1906-12-31"],
          "importance": "49", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -879,7 +886,8 @@
          "timestamp": ["1906-10-08"],
          "importance": "1", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Eleonora Duse", " Wessely"]
       }
       }, 
     {
@@ -954,7 +962,8 @@
          "timestamp": ["1906-04-11", "1906-04-12", "1906-04-14", "1906-05-17", "1906-06-12", "1906-06-20", "1906-06-24"],
          "importance": "7", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {
@@ -1030,7 +1039,8 @@
          "timestamp": ["1906-02-04", "1906-02-05", "1906-02-06", "1906-02-07", "1906-02-19", "1906-02-20", "1906-02-21", "1906-02-22", "1906-02-23", "1906-02-24", "1906-02-25"],
          "importance": "11", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Armin Wassermann", "Gerhard Wiese", "Oskar Blumenthal"]
       }
       }, 
     {
@@ -1255,7 +1265,8 @@
          "timestamp": ["1906-05-16", "1906-05-21", "1906-06-05"],
          "importance": "3", 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+        "type": "Sanatorium", 
+        "arbeitsort": ["Julius Schnitzler", "Anton Loew"]
       }
       }, 
     {
@@ -1272,7 +1283,8 @@
          "timestamp": ["1906-06-02"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Julius von Gans-Ludassy"]
       }
       }, 
     {
@@ -1387,7 +1399,8 @@
          "timestamp": ["1906-01-20", "1906-03-08", "1906-03-30", "1906-04-03", "1906-04-28", "1906-06-12", "1906-08-23", "1906-10-22"],
          "importance": "8", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -1501,7 +1514,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q115690959", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Hermann Bahr"]
       }
       }, 
     {
@@ -1518,7 +1532,8 @@
          "timestamp": ["1906-01-28", "1906-03-09", "1906-04-13", "1906-05-06", "1906-09-04", "1906-09-07", "1906-11-29", "1906-12-19"],
          "importance": "8", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek", "Karl Glossy"]
       }
       }, 
     {
@@ -1553,7 +1568,8 @@
          "timestamp": ["1906-04-24"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Ludwig Mandl"]
       }
       }, 
     {
@@ -1570,7 +1586,8 @@
          "timestamp": ["1906-05-10"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -1587,7 +1604,8 @@
          "timestamp": ["1906-05-05"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Olga Schnitzler"]
       }
       }, 
     {
@@ -1604,7 +1622,8 @@
          "timestamp": ["1906-02-12", "1906-12-28"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Ottilie Salten", "Felix Salten", "Leo Van-Jung"]
       }
       }, 
     {
@@ -1657,7 +1676,8 @@
          "timestamp": ["1906-12-28"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Siegfried Trebitsch"]
       }
       }, 
     {
@@ -1674,7 +1694,8 @@
          "timestamp": ["1906-09-22"],
          "importance": "1", 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "arbeitsort": ["Felix Salten"]
       }
       }, 
     {
@@ -1708,7 +1729,9 @@
          "timestamp": ["1906-11-22", "1906-11-24", "1906-11-26", "1906-11-28", "1906-11-30", "1906-12-03", "1906-12-05", "1906-12-07", "1906-12-11", "1906-12-13", "1906-12-15", "1906-12-19"],
          "importance": "12", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johann Ress", "Paul Ress"], 
+        "arbeitsort": ["Benjamin Gomperz"]
       }
       }, 
     {
@@ -1725,7 +1748,8 @@
          "timestamp": ["1906-01-01", "1906-01-02", "1906-01-03", "1906-01-04", "1906-01-05", "1906-01-06", "1906-01-07", "1906-01-08", "1906-01-09", "1906-01-10", "1906-01-11", "1906-01-12", "1906-01-13", "1906-01-14", "1906-01-15", "1906-01-16", "1906-01-17", "1906-01-18", "1906-01-19", "1906-01-20", "1906-01-21", "1906-01-23", "1906-01-24", "1906-01-25", "1906-01-26", "1906-01-27", "1906-01-28", "1906-01-29", "1906-01-30", "1906-01-31", "1906-02-01", "1906-02-02", "1906-02-03", "1906-02-08", "1906-02-09", "1906-02-10", "1906-02-11", "1906-02-12", "1906-02-13", "1906-02-14", "1906-02-15", "1906-02-16", "1906-02-28", "1906-03-01", "1906-03-02", "1906-03-03", "1906-03-04", "1906-03-05", "1906-03-06", "1906-03-07", "1906-03-08", "1906-03-09", "1906-03-10", "1906-03-11", "1906-03-12", "1906-03-13", "1906-03-14", "1906-03-15", "1906-03-16", "1906-03-17", "1906-03-18", "1906-03-19", "1906-03-20", "1906-03-21", "1906-03-22", "1906-03-23", "1906-03-24", "1906-03-25", "1906-03-26", "1906-03-27", "1906-03-28", "1906-03-29", "1906-03-30", "1906-03-31", "1906-04-01", "1906-04-02", "1906-04-03", "1906-04-04", "1906-04-05", "1906-04-06", "1906-04-07", "1906-04-08", "1906-04-09", "1906-04-10", "1906-04-11", "1906-04-12", "1906-04-13", "1906-04-14", "1906-04-15", "1906-04-16", "1906-04-17", "1906-04-18", "1906-04-19", "1906-04-20", "1906-04-21", "1906-04-22", "1906-04-23", "1906-04-24", "1906-04-25", "1906-04-26", "1906-04-27", "1906-04-28", "1906-04-29", "1906-04-30", "1906-05-01", "1906-05-02", "1906-05-03", "1906-05-04", "1906-05-05", "1906-05-06", "1906-05-07", "1906-05-14", "1906-05-15", "1906-05-16", "1906-05-17", "1906-05-18", "1906-05-19", "1906-05-20", "1906-05-21", "1906-05-22", "1906-05-23", "1906-05-24", "1906-05-25", "1906-05-26", "1906-05-27", "1906-05-28", "1906-05-29", "1906-05-30", "1906-05-31", "1906-06-01", "1906-06-02", "1906-06-03", "1906-06-04", "1906-06-05", "1906-06-06", "1906-06-07", "1906-06-08", "1906-06-09", "1906-06-10", "1906-06-11", "1906-06-12", "1906-06-13", "1906-06-14", "1906-06-15", "1906-06-16", "1906-06-17", "1906-06-18", "1906-06-19", "1906-06-20", "1906-06-21", "1906-06-22", "1906-06-23", "1906-06-24", "1906-06-25", "1906-08-21", "1906-08-22", "1906-08-23", "1906-08-24", "1906-08-25", "1906-08-26", "1906-08-27", "1906-08-28", "1906-08-29", "1906-08-30", "1906-08-31", "1906-09-01", "1906-09-02", "1906-09-03", "1906-09-04", "1906-09-05", "1906-09-06", "1906-09-07", "1906-09-08", "1906-09-09", "1906-09-10", "1906-09-20", "1906-09-21", "1906-09-22", "1906-09-23", "1906-09-24", "1906-09-25", "1906-09-26", "1906-09-27", "1906-09-28", "1906-09-29", "1906-09-30", "1906-10-01", "1906-10-02", "1906-10-03", "1906-10-04", "1906-10-05", "1906-10-06", "1906-10-07", "1906-10-08", "1906-10-09", "1906-10-10", "1906-10-11", "1906-10-12", "1906-10-13", "1906-10-14", "1906-10-15", "1906-10-16", "1906-10-17", "1906-10-18", "1906-10-19", "1906-10-20", "1906-10-21", "1906-10-22", "1906-10-23", "1906-10-24", "1906-10-25", "1906-10-26", "1906-10-27", "1906-10-28", "1906-10-29", "1906-10-30", "1906-10-31", "1906-11-01", "1906-11-02", "1906-11-03", "1906-11-04", "1906-11-05", "1906-11-06", "1906-11-07", "1906-11-08", "1906-11-09", "1906-11-10", "1906-11-11", "1906-11-12", "1906-11-13", "1906-11-16", "1906-11-17", "1906-11-18", "1906-11-19", "1906-11-20", "1906-11-21", "1906-11-22", "1906-11-23", "1906-11-24", "1906-11-25", "1906-11-26", "1906-11-27", "1906-11-28", "1906-11-29", "1906-11-30", "1906-12-01", "1906-12-02", "1906-12-03", "1906-12-04", "1906-12-05", "1906-12-06", "1906-12-07", "1906-12-08", "1906-12-09", "1906-12-10", "1906-12-11", "1906-12-12", "1906-12-13", "1906-12-14", "1906-12-15", "1906-12-16", "1906-12-17", "1906-12-18", "1906-12-19", "1906-12-20", "1906-12-21", "1906-12-22", "1906-12-23", "1906-12-24", "1906-12-25", "1906-12-26", "1906-12-27", "1906-12-28", "1906-12-29", "1906-12-30", "1906-12-31"],
          "importance": "276", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }, 
     {
@@ -1742,7 +1766,8 @@
          "timestamp": ["1906-06-16", "1906-10-31", "1906-11-10", "1906-11-20"],
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Moriz Károlyi"]
       }
       }, 
     {
@@ -1816,7 +1841,8 @@
          "timestamp": ["1906-01-13", "1906-01-25", "1906-02-08", "1906-03-01", "1906-03-16", "1906-04-17"],
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Valentin Rotenstern", "Anna Rotenstern-Tesi", "Peter Rotenstern"]
       }
       }, 
     {
@@ -1850,7 +1876,8 @@
          "timestamp": ["1906-02-05", "1906-02-23", "1906-02-27"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Otto Brahm"]
       }
       }, 
     {
@@ -1996,7 +2023,8 @@
          "timestamp": ["1906-01-02"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Carl Hochsinger"]
       }
       }, 
     {
@@ -2013,7 +2041,9 @@
          "timestamp": ["1906-01-02", "1906-03-30", "1906-04-24", "1906-09-03", "1906-10-27"],
          "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Josef Eduard Geiringer"], 
+        "arbeitsort": ["Friedrich Geiringer"]
       }
       }, 
     {
@@ -2104,7 +2134,9 @@
          "timestamp": ["1906-11-30"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Richard Vallentin"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -2121,7 +2153,8 @@
          "timestamp": ["1906-03-23", "1906-04-28", "1906-05-31", "1906-08-28", "1906-09-21", "1906-09-28", "1906-11-02", "1906-12-13", "1906-12-24"],
          "importance": "9", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -2155,7 +2188,8 @@
          "timestamp": ["1906-01-25", "1906-03-02", "1906-03-17", "1906-05-02", "1906-05-23", "1906-05-28", "1906-06-16"],
          "importance": "7", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Felix Speidel"]
       }
       }, 
     {
@@ -2173,7 +2207,8 @@
          "importance": "1", 
         "wiengeschichtewiki": "https://regiowiki.at/wiki/Paulinenhof", 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+        "type": "Sanatorium", 
+        "arbeitsort": ["Isidor Samuely"]
       }
       }, 
     {
@@ -2226,7 +2261,8 @@
          "timestamp": ["1906-01-02"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Heinrich Sikora"]
       }
       }, 
     {
@@ -2243,7 +2279,8 @@
          "timestamp": ["1906-10-06", "1906-10-07"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Hugo Schmidl", "Agnes Ulmann", "Nanette Speyer"]
       }
       }, 
     {
@@ -2260,7 +2297,8 @@
          "timestamp": ["1906-01-16", "1906-11-06"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Margarethe Manassewitsch", "Irene Mandl"]
       }
       }, 
     {
@@ -2314,7 +2352,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
         "wikidata": "http://www.wikidata.org/entity/Q1610900", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Karl Rostler"]
       }
       }, 
     {
@@ -2331,7 +2370,8 @@
          "timestamp": ["1906-06-19", "1906-12-17"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Bruno Walter"]
       }
       }, 
     {
@@ -2348,7 +2388,9 @@
          "timestamp": ["1906-02-04", "1906-02-21", "1906-02-23", "1906-02-24", "1906-02-25", "1906-02-26"],
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Elisabeth Steinrück"], 
+        "arbeitsort": ["Aura Hertwig"]
       }
       }, 
     {
@@ -2365,7 +2407,8 @@
          "timestamp": ["1906-01-29"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Marie Lattermann"]
       }
       }, 
     {
@@ -2382,7 +2425,8 @@
          "timestamp": ["1906-10-30", "1906-11-26"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Georg König", "Isidor Samuely"]
       }
       }, 
     {
@@ -2402,7 +2446,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/F%C3%BCrsttheater", 
         "wikidata": "http://www.wikidata.org/entity/Q1703110", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Josef Jarno"]
       }
       }, 
     {
@@ -2419,7 +2464,8 @@
          "timestamp": ["1906-01-07", "1906-01-28", "1906-03-18"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Hansi Niese", "Josef Jarno"]
       }
       }, 
     {
@@ -2453,7 +2499,8 @@
          "timestamp": ["1906-01-14", "1906-01-18", "1906-05-21"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Charlotte Ehrenstein", "Alexander Ehrenstein", "Albert Ehrenstein"]
       }
       }, 
     {
@@ -2540,7 +2587,8 @@
          "timestamp": ["1906-02-04", "1906-02-26"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Ottilie Salten", "Felix Salten"]
       }
       }, 
     {
@@ -2557,7 +2605,8 @@
          "timestamp": ["1906-02-12", "1906-10-30", "1906-11-22"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Jakob Julius David"]
       }
       }, 
     {
@@ -2574,7 +2623,8 @@
          "timestamp": ["1906-02-13"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Hans Altmann"]
       }
       }, 
     {
@@ -2702,7 +2752,8 @@
          "importance": "3", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/B%C3%BCrgertheater", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Oskar Fronz"]
       }
       }, 
     {
@@ -2719,7 +2770,8 @@
          "timestamp": ["1906-04-24"],
          "importance": "1", 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": ["Karl Gelles", "Josef Fleminger"]
       }
       }, 
     {
@@ -2736,7 +2788,8 @@
          "timestamp": ["1906-04-24"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Benjamin Gomperz"]
       }
       }, 
     {
@@ -2753,7 +2806,8 @@
          "timestamp": ["1906-04-24", "1906-12-05", "1906-12-07"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Raoul Auernheimer"]
       }
       }, 
     {
@@ -2804,7 +2858,8 @@
          "timestamp": ["1906-05-24", "1906-12-31"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
       }
       }, 
     {
@@ -2840,7 +2895,8 @@
          "timestamp": ["1906-05-31"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["David Feuchtwang"]
       }
       }, 
     {
@@ -3020,7 +3076,8 @@
          "timestamp": ["1906-07-02"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Emilie Brandes", "Georg Brandes"]
       }
       }, 
     {
@@ -3463,7 +3520,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Schillerhaus_Weimar", 
         "wikidata": "http://www.wikidata.org/entity/Q1325723", 
         "abbr": "Museum (K.MUS)", 
-        "type": "Museum"
+        "type": "Museum", 
+        "wohnort": ["Friedrich von Schiller"]
       }
       }, 
     {
@@ -3846,7 +3904,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Albrecht-D%C3%BCrer-Haus", 
         "wikidata": "http://www.wikidata.org/entity/Q523148", 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "wohnort": ["Albrecht Dürer"]
       }
       }, 
     {
@@ -3899,7 +3958,8 @@
          "importance": "4", 
         "wikidata": "http://www.wikidata.org/entity/Q105089833", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Jakob Wassermann"]
       }
       }, 
     {
@@ -4026,7 +4086,8 @@
          "timestamp": ["1906-10-28", "1906-11-04", "1906-11-25", "1906-12-08", "1906-12-20", "1906-12-25"],
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Katharina Rehmann", "Paul Salten", "Ottilie Salten", "Felix Salten"]
       }
       }, 
     {
@@ -4043,7 +4104,8 @@
          "timestamp": ["1906-10-31", "1906-11-06", "1906-11-08", "1906-12-02", "1906-12-25"],
          "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -4060,7 +4122,8 @@
          "timestamp": ["1906-10-31", "1906-11-11", "1906-11-29", "1906-11-30", "1906-12-25", "1906-12-29"],
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Else Speidel-Haeberle", "Felix Speidel"]
       }
       }, 
     {
@@ -4112,7 +4175,8 @@
          "timestamp": ["1906-11-10", "1906-12-21"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Julius Lehnert"]
       }
       }, 
     {
@@ -4147,7 +4211,8 @@
          "timestamp": ["1906-11-29"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Gustav Harpner"]
       }
       }, 
     {
@@ -4181,7 +4246,8 @@
          "timestamp": ["1906-12-19", "1906-12-21"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [" W. Fred"]
       }
       }, 
     {

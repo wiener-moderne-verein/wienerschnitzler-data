@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.83, 47.647222]
+            [15.83, 47.647222], 
+            [15.827286, 47.640258], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -29,7 +31,44 @@
         "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
         "wikidata": "http://www.wikidata.org/entity/Q1610900", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Karl Rostler"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.827286, 47.640258]
+      },
+      "properties": {
+         "id": "pmb236041",
+         "title": "Hochstraße [Semmering]",
+         "lat": "47.640258",
+         "lon": "15.827286",
+         "timestamp": ["1925-05-14"],
+         "importance": "1", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1925-05-14"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }
   ]

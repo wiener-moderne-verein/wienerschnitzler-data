@@ -352,7 +352,9 @@
          "timestamp": ["1922-07-01", "1922-07-02", "1922-07-03", "1922-07-04", "1922-07-08", "1922-07-09", "1922-07-10", "1922-07-11", "1922-07-12", "1922-07-13", "1922-07-14", "1922-07-15", "1922-07-16", "1922-07-17", "1922-07-18", "1922-07-22", "1922-07-23", "1922-07-24", "1922-07-25"],
          "importance": "19", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -387,7 +389,8 @@
          "timestamp": ["1922-07-14", "1922-07-22"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -420,6 +423,8 @@
          "lon": "16.377117625773",
          "timestamp": ["1922-07-04"],
          "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q113470466", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }

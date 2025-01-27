@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1925-05-01", "1925-05-02", "1925-05-03", "1925-05-04", "1925-05-05", "1925-05-06", "1925-05-07", "1925-05-08", "1925-05-09", "1925-05-10", "1925-05-11", "1925-05-12", "1925-05-13", "1925-05-16", "1925-05-17", "1925-05-18", "1925-05-19", "1925-05-20", "1925-05-21", "1925-05-22", "1925-05-23", "1925-05-24", "1925-05-25", "1925-05-26", "1925-05-27", "1925-05-28", "1925-05-29", "1925-05-30", "1925-05-31"],
-         "importance": "29", 
+         "timestamp": ["1925-05-01", "1925-05-02", "1925-05-03", "1925-05-04", "1925-05-05", "1925-05-06", "1925-05-07", "1925-05-08", "1925-05-09", "1925-05-10", "1925-05-11", "1925-05-12", "1925-05-13", "1925-05-14", "1925-05-15", "1925-05-16", "1925-05-17", "1925-05-18", "1925-05-19", "1925-05-20", "1925-05-21", "1925-05-22", "1925-05-23", "1925-05-24", "1925-05-25", "1925-05-26", "1925-05-27", "1925-05-28", "1925-05-29", "1925-05-30", "1925-05-31"],
+         "importance": "31", 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -157,6 +157,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379685, 48.188208]
+      },
+      "properties": {
+         "id": "pmb187206",
+         "title": "Restauration »Am Südbahnhof«",
+         "lat": "48.188208",
+         "lon": "16.379685",
+         "timestamp": ["1925-05-15"],
+         "importance": "1", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.4097, 48.2283]
       },
       "properties": {
@@ -283,6 +300,26 @@
         "geonames": "https://sws.geonames.org/7873001/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.86, 47.629444]
+      },
+      "properties": {
+         "id": "pmb40895",
+         "title": "Sonnwendstein",
+         "lat": "47.629444",
+         "lon": "15.86",
+         "timestamp": ["1925-05-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sonnwendstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q1668878", 
+        "geonames": "https://sws.geonames.org/2764871/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
       }
       }, 
     {
@@ -453,6 +490,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.827286, 47.640258]
+      },
+      "properties": {
+         "id": "pmb236041",
+         "title": "Hochstraße [Semmering]",
+         "lat": "47.640258",
+         "lon": "15.827286",
+         "timestamp": ["1925-05-14"],
+         "importance": "1", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.83, 47.647222]
       },
       "properties": {
@@ -465,7 +519,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
         "wikidata": "http://www.wikidata.org/entity/Q1610900", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Karl Rostler"]
       }
       }, 
     {
@@ -485,6 +540,24 @@
         "geonames": "https://sws.geonames.org/2601017/", 
         "abbr": "L.FLD", 
         "type": "Feld"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1925-05-15"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -520,7 +593,9 @@
          "timestamp": ["1925-05-26"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -534,10 +609,12 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1925-05-01", "1925-05-02", "1925-05-03", "1925-05-04", "1925-05-05", "1925-05-06", "1925-05-07", "1925-05-08", "1925-05-09", "1925-05-10", "1925-05-11", "1925-05-12", "1925-05-13", "1925-05-16", "1925-05-17", "1925-05-18", "1925-05-19", "1925-05-20", "1925-05-21", "1925-05-22", "1925-05-23", "1925-05-24", "1925-05-25", "1925-05-26", "1925-05-27", "1925-05-28", "1925-05-29", "1925-05-30", "1925-05-31"],
-         "importance": "29", 
+         "timestamp": ["1925-05-01", "1925-05-02", "1925-05-03", "1925-05-04", "1925-05-05", "1925-05-06", "1925-05-07", "1925-05-08", "1925-05-09", "1925-05-10", "1925-05-11", "1925-05-12", "1925-05-13", "1925-05-14", "1925-05-15", "1925-05-16", "1925-05-17", "1925-05-18", "1925-05-19", "1925-05-20", "1925-05-21", "1925-05-22", "1925-05-23", "1925-05-24", "1925-05-25", "1925-05-26", "1925-05-27", "1925-05-28", "1925-05-29", "1925-05-30", "1925-05-31"],
+         "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -554,7 +631,25 @@
          "timestamp": ["1925-05-29"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Berta Zuckerkandl"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.861889, 47.629316]
+      },
+      "properties": {
+         "id": "pmb248290",
+         "title": "Friedrich Schüler-Alpenhaus",
+         "lat": "47.629316",
+         "lon": "15.861889",
+         "timestamp": ["1925-05-15"],
+         "importance": "1", 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       }, 
     {

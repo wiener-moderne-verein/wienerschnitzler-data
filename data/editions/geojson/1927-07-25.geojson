@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.2652, 48.080769], 
+            [16.373437, 48.194765], 
             [16.33716, 48.23188]
           ]
       },
@@ -14,6 +15,23 @@
         "name": "25. Juli 1927"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373437, 48.194765]
+      },
+      "properties": {
+         "id": "pmb92435",
+         "title": "Palais Toskana",
+         "lat": "48.194765",
+         "lon": "16.373437",
+         "timestamp": ["1927-07-25"],
+         "importance": "1", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,7 +46,9 @@
          "timestamp": ["1927-07-25"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       },
     {

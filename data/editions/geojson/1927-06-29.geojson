@@ -6,9 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.276509500872, 48.241960480337], 
             [16.33716, 48.23188], 
-            [16.322222222222, 48.263611111111]
+            [16.402222, 48.214722], 
+            [16.348029, 48.237242], 
+            [16.322222222222, 48.263611111111], 
+            [16.276509500872, 48.241960480337]
           ]
       },
       "properties": {
@@ -57,6 +59,43 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.348029, 48.237242]
+      },
+      "properties": {
+         "id": "pmb233133",
+         "title": "Pension Peter",
+         "lat": "48.237242",
+         "lon": "16.348029",
+         "timestamp": ["1927-06-29"],
+         "importance": "1", 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.402222, 48.214722]
+      },
+      "properties": {
+         "id": "pmb685",
+         "title": "Wurstelprater",
+         "lat": "48.214722",
+         "lon": "16.402222",
+         "timestamp": ["1927-06-29"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wurstelprater", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=10997", 
+        "wikidata": "http://www.wikidata.org/entity/Q3487269", 
+        "abbr": "Vergnügungspark (K.VGN)", 
+        "type": "Vergnügungspark"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -67,7 +106,9 @@
          "timestamp": ["1927-06-29"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }
   ]

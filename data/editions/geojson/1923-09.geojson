@@ -124,7 +124,8 @@
          "timestamp": ["1923-09-17"],
          "importance": "1", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Eleonora Duse", " Wessely"]
       }
       }, 
     {
@@ -178,13 +179,32 @@
          "title": "Feldkirch",
          "lat": "47.23608",
          "lon": "9.59825",
-         "timestamp": ["1923-09-07"],
-         "importance": "1", 
+         "timestamp": ["1923-09-07", "1923-09-14"],
+         "importance": "2", 
         "wikipedia": "https://de.wikipedia.org/wiki/Feldkirch", 
         "wikidata": "http://www.wikidata.org/entity/Q183104", 
         "geonames": "https://sws.geonames.org/2779674/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.604167, 47.241111]
+      },
+      "properties": {
+         "id": "pmb248106",
+         "title": "Bahnhof Feldkirch",
+         "lat": "47.241111",
+         "lon": "9.604167",
+         "timestamp": ["1923-09-07", "1923-09-14"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Feldkirch", 
+        "wikidata": "http://www.wikidata.org/entity/Q698785", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -291,7 +311,9 @@
          "timestamp": ["1923-09-19"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -308,7 +330,9 @@
          "timestamp": ["1923-09-15", "1923-09-16", "1923-09-17", "1923-09-18", "1923-09-19", "1923-09-20", "1923-09-21", "1923-09-22", "1923-09-23", "1923-09-24", "1923-09-25", "1923-09-26", "1923-09-27", "1923-09-28", "1923-09-29", "1923-09-30"],
          "importance": "16", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -325,7 +349,8 @@
          "timestamp": ["1923-09-21", "1923-09-25"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {

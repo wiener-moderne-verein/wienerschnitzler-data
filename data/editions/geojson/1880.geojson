@@ -17,7 +17,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
         "wikidata": "http://www.wikidata.org/entity/Q1244587", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Anna Judic", "Heinrich Laube"]
       }
       }, 
     {
@@ -127,7 +128,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Franz von Jauner", "Ermete Zacconi"]
       }
       }, 
     {
@@ -254,6 +256,24 @@
          "importance": "1", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371008, 48.215022]
+      },
+      "properties": {
+         "id": "pmb248376",
+         "title": "Gonzagagasse 12",
+         "lat": "48.215022",
+         "lon": "16.371008",
+         "timestamp": ["1880-05-08", "1880-05-22", "1880-05-30", "1880-06-29", "1880-07-19", "1880-09-13"],
+         "importance": "6", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Wilhelm König", "Ida Ornstein", "Laura Blau", "Julie König", "Georg König"]
       }
       }, 
     {
@@ -466,7 +486,8 @@
          "timestamp": ["1880-02-13"],
          "importance": "1", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Alexander Scharf"]
       }
       }, 
     {
@@ -649,6 +670,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1880-05-22"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.341, 48.2082]
       },
       "properties": {
@@ -799,17 +840,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.29328, 48.27011]
+        "coordinates": [16.294608885167, 48.270716646614]
       },
       "properties": {
-         "id": "pmb90863",
+         "id": "pmb535",
          "title": "Hermannskogel",
-         "lat": "48.27011",
-         "lon": "16.29328",
+         "lat": "48.270716646614",
+         "lon": "16.294608885167",
          "timestamp": ["1880-06-20"],
          "importance": "1", 
         "geonames": "https://sws.geonames.org/2776492/", 
-        "abbr": "T.MT", 
+        "abbr": "Berg (N.BRG)", 
         "type": "Berg"
       }
       }, 
@@ -920,7 +961,8 @@
          "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Alois "]
       }
       }, 
     {

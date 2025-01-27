@@ -265,7 +265,8 @@
          "timestamp": ["1928-04-06"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
       }
       }, 
     {
@@ -282,7 +283,9 @@
          "timestamp": ["1928-04-01", "1928-04-02", "1928-04-03", "1928-04-04", "1928-04-05", "1928-04-06", "1928-04-07", "1928-04-08", "1928-04-09", "1928-04-10", "1928-04-11", "1928-04-12"],
          "importance": "12", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -299,7 +302,8 @@
          "timestamp": ["1928-04-11"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -316,7 +320,8 @@
          "timestamp": ["1928-04-06"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -333,7 +338,26 @@
          "timestamp": ["1928-04-11"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Berta Zuckerkandl"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.19733, 48.20444]
+      },
+      "properties": {
+         "id": "pmb52452",
+         "title": "Sanatorium Purkersdorf",
+         "lat": "48.20444",
+         "lon": "16.19733",
+         "timestamp": ["1928-04-09"],
+         "importance": "1", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": ["Ludwig Stein"]
       }
       }, 
     {
@@ -352,23 +376,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Wiedner_Grandkino", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.19733, 48.20444]
-      },
-      "properties": {
-         "id": "pmb52452",
-         "title": "Sanatorium Purkersdorf",
-         "lat": "48.20444",
-         "lon": "16.19733",
-         "timestamp": ["1928-04-09"],
-         "importance": "1", 
-        "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
       }
       }, 
     {
@@ -1013,7 +1020,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Marmarameer", 
         "wikidata": "http://www.wikidata.org/entity/Q35367", 
         "geonames": "https://sws.geonames.org/630669/", 
-        "abbr": "Meer", 
+        "abbr": "kein passender Code gefunden", 
         "type": ""
       }
       }, 

@@ -171,7 +171,8 @@
          "timestamp": ["1926-09-18"],
          "importance": "1", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {
@@ -312,6 +313,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2998, 48.272304]
+      },
+      "properties": {
+         "id": "pmb248499",
+         "title": "Jägerwiese",
+         "lat": "48.272304",
+         "lon": "16.2998",
+         "timestamp": ["1926-09-19"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -322,7 +340,8 @@
          "timestamp": ["1926-09-19"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -339,7 +358,9 @@
          "timestamp": ["1926-09-15"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -373,7 +394,9 @@
          "timestamp": ["1926-09-12", "1926-09-13", "1926-09-14", "1926-09-15", "1926-09-16", "1926-09-17", "1926-09-18", "1926-09-19", "1926-09-20", "1926-09-21", "1926-09-22", "1926-09-23", "1926-09-24", "1926-09-25", "1926-09-26", "1926-09-27", "1926-09-28", "1926-09-29", "1926-09-30"],
          "importance": "19", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -390,7 +413,8 @@
          "timestamp": ["1926-09-14"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -407,7 +431,8 @@
          "timestamp": ["1926-09-15"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -424,7 +449,8 @@
          "timestamp": ["1926-09-24"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Berta Zuckerkandl"]
       }
       }, 
     {
@@ -440,6 +466,8 @@
          "lon": "16.377117625773",
          "timestamp": ["1926-09-17"],
          "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q113470466", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }

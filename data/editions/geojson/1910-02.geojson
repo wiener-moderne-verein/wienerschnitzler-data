@@ -76,7 +76,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -139,6 +140,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.86, 47.629444]
+      },
+      "properties": {
+         "id": "pmb40895",
+         "title": "Sonnwendstein",
+         "lat": "47.629444",
+         "lon": "15.86",
+         "timestamp": ["1910-02-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sonnwendstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q1668878", 
+        "geonames": "https://sws.geonames.org/2764871/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.342154562605, 48.250804274577]
       },
       "properties": {
@@ -167,7 +188,9 @@
          "timestamp": ["1910-02-18"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -184,7 +207,8 @@
          "timestamp": ["1910-02-06"],
          "importance": "1", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {
@@ -201,7 +225,8 @@
          "timestamp": ["1910-02-07"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -218,7 +243,8 @@
          "timestamp": ["1910-02-01", "1910-02-02", "1910-02-03", "1910-02-04", "1910-02-05", "1910-02-06", "1910-02-07", "1910-02-08", "1910-02-10", "1910-02-11", "1910-02-12", "1910-02-13", "1910-02-14", "1910-02-15", "1910-02-16", "1910-02-17", "1910-02-18", "1910-02-19", "1910-02-20", "1910-02-21", "1910-02-22", "1910-02-25", "1910-02-26", "1910-02-27", "1910-02-28"],
          "importance": "25", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }, 
     {
@@ -291,7 +317,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
         "wikidata": "http://www.wikidata.org/entity/Q1610900", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Karl Rostler"]
       }
       }, 
     {
@@ -308,7 +335,8 @@
          "timestamp": ["1910-02-14"],
          "importance": "1", 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": ["Karl Gelles", "Josef Fleminger"]
       }
       }, 
     {
@@ -325,7 +353,8 @@
          "timestamp": ["1910-02-03", "1910-02-20"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {

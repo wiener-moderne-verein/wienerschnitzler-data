@@ -73,7 +73,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Franz von Jauner", "Ermete Zacconi"]
       }
       }, 
     {
@@ -391,7 +392,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -450,7 +452,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Sacher_Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q1631024", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Franz Irresberger"]
       }
       }, 
     {
@@ -634,7 +637,8 @@
          "timestamp": ["1923-01-26", "1923-02-06", "1923-03-03", "1923-03-08", "1923-03-16", "1923-04-13", "1923-04-18", "1923-05-29", "1923-05-30", "1923-09-17", "1923-10-11", "1923-12-18"],
          "importance": "12", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Eleonora Duse", " Wessely"]
       }
       }, 
     {
@@ -726,7 +730,8 @@
          "timestamp": ["1923-10-08"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Clara Katharina Pollaczek", "Louis Loeb"]
       }
       }, 
     {
@@ -1043,13 +1048,32 @@
          "title": "Feldkirch",
          "lat": "47.23608",
          "lon": "9.59825",
-         "timestamp": ["1923-09-07"],
-         "importance": "1", 
+         "timestamp": ["1923-09-07", "1923-09-14"],
+         "importance": "2", 
         "wikipedia": "https://de.wikipedia.org/wiki/Feldkirch", 
         "wikidata": "http://www.wikidata.org/entity/Q183104", 
         "geonames": "https://sws.geonames.org/2779674/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.604167, 47.241111]
+      },
+      "properties": {
+         "id": "pmb248106",
+         "title": "Bahnhof Feldkirch",
+         "lat": "47.241111",
+         "lon": "9.604167",
+         "timestamp": ["1923-09-07", "1923-09-14"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Feldkirch", 
+        "wikidata": "http://www.wikidata.org/entity/Q698785", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -1084,7 +1108,8 @@
          "timestamp": ["1923-01-20"],
          "importance": "1", 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+        "type": "Sanatorium", 
+        "arbeitsort": ["Alby Fürth"]
       }
       }, 
     {
@@ -1285,7 +1310,8 @@
          "importance": "2", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/B%C3%BCrgertheater", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Oskar Fronz"]
       }
       }, 
     {
@@ -1302,7 +1328,8 @@
          "timestamp": ["1923-03-13", "1923-04-10", "1923-10-23", "1923-10-26", "1923-10-30", "1923-11-19"],
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
       }
       }, 
     {
@@ -1339,7 +1366,8 @@
          "timestamp": ["1923-01-14", "1923-07-16"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -1413,7 +1441,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Villa_Trebitsch", 
         "wikidata": "http://www.wikidata.org/entity/Q1335564", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Siegfried Trebitsch"]
       }
       }, 
     {
@@ -1447,7 +1476,9 @@
          "timestamp": ["1923-01-10", "1923-01-17", "1923-01-24", "1923-02-09", "1923-02-14", "1923-02-28", "1923-03-06", "1923-03-10", "1923-03-21", "1923-04-07", "1923-04-28", "1923-05-01", "1923-07-26", "1923-09-19", "1923-10-03", "1923-10-19", "1923-10-27", "1923-11-07", "1923-11-28", "1923-12-16"],
          "importance": "20", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -1498,7 +1529,9 @@
          "timestamp": ["1923-01-01", "1923-01-02", "1923-01-03", "1923-01-04", "1923-01-05", "1923-01-06", "1923-01-07", "1923-01-08", "1923-01-09", "1923-01-10", "1923-01-11", "1923-01-12", "1923-01-13", "1923-01-14", "1923-01-15", "1923-01-16", "1923-01-17", "1923-01-18", "1923-01-19", "1923-01-20", "1923-01-21", "1923-01-22", "1923-01-23", "1923-01-24", "1923-01-25", "1923-01-26", "1923-01-27", "1923-01-28", "1923-01-29", "1923-01-30", "1923-01-31", "1923-02-01", "1923-02-02", "1923-02-03", "1923-02-04", "1923-02-05", "1923-02-06", "1923-02-07", "1923-02-08", "1923-02-09", "1923-02-10", "1923-02-11", "1923-02-12", "1923-02-13", "1923-02-14", "1923-02-15", "1923-02-16", "1923-02-17", "1923-02-18", "1923-02-19", "1923-02-23", "1923-02-24", "1923-02-25", "1923-02-26", "1923-02-27", "1923-02-28", "1923-03-01", "1923-03-02", "1923-03-03", "1923-03-04", "1923-03-05", "1923-03-06", "1923-03-07", "1923-03-08", "1923-03-09", "1923-03-10", "1923-03-11", "1923-03-12", "1923-03-13", "1923-03-14", "1923-03-15", "1923-03-16", "1923-03-17", "1923-03-18", "1923-03-19", "1923-03-20", "1923-03-21", "1923-03-22", "1923-03-23", "1923-03-24", "1923-03-25", "1923-03-26", "1923-03-27", "1923-03-28", "1923-03-29", "1923-03-30", "1923-03-31", "1923-04-01", "1923-04-02", "1923-04-03", "1923-04-04", "1923-04-05", "1923-04-06", "1923-04-07", "1923-04-08", "1923-04-09", "1923-04-10", "1923-04-11", "1923-04-12", "1923-04-13", "1923-04-14", "1923-04-15", "1923-04-19", "1923-04-20", "1923-04-21", "1923-04-22", "1923-04-26", "1923-04-27", "1923-04-28", "1923-04-29", "1923-04-30", "1923-05-01", "1923-05-02", "1923-05-03", "1923-05-04", "1923-05-05", "1923-05-06", "1923-05-07", "1923-05-27", "1923-05-28", "1923-05-29", "1923-05-30", "1923-05-31", "1923-06-01", "1923-06-02", "1923-06-03", "1923-06-04", "1923-06-05", "1923-06-06", "1923-06-07", "1923-06-08", "1923-06-09", "1923-06-10", "1923-06-11", "1923-06-15", "1923-06-16", "1923-06-17", "1923-06-18", "1923-06-19", "1923-06-20", "1923-06-21", "1923-06-22", "1923-06-23", "1923-06-24", "1923-06-25", "1923-06-26", "1923-07-09", "1923-07-10", "1923-07-11", "1923-07-12", "1923-07-13", "1923-07-14", "1923-07-15", "1923-07-16", "1923-07-17", "1923-07-18", "1923-07-19", "1923-07-20", "1923-07-21", "1923-07-22", "1923-07-23", "1923-07-24", "1923-07-25", "1923-07-26", "1923-07-27", "1923-07-28", "1923-07-29", "1923-07-30", "1923-07-31", "1923-08-01", "1923-08-02", "1923-08-03", "1923-09-15", "1923-09-16", "1923-09-17", "1923-09-18", "1923-09-19", "1923-09-20", "1923-09-21", "1923-09-22", "1923-09-23", "1923-09-24", "1923-09-25", "1923-09-26", "1923-09-27", "1923-09-28", "1923-09-29", "1923-09-30", "1923-10-01", "1923-10-02", "1923-10-03", "1923-10-04", "1923-10-05", "1923-10-06", "1923-10-07", "1923-10-08", "1923-10-09", "1923-10-10", "1923-10-11", "1923-10-12", "1923-10-13", "1923-10-14", "1923-10-15", "1923-10-16", "1923-10-17", "1923-10-18", "1923-10-19", "1923-10-20", "1923-10-21", "1923-10-22", "1923-10-23", "1923-10-24", "1923-10-25", "1923-10-26", "1923-10-27", "1923-10-28", "1923-10-29", "1923-10-30", "1923-10-31", "1923-11-01", "1923-11-02", "1923-11-03", "1923-11-04", "1923-11-05", "1923-11-06", "1923-11-07", "1923-11-08", "1923-11-09", "1923-11-10", "1923-11-11", "1923-11-12", "1923-11-13", "1923-11-14", "1923-11-15", "1923-11-16", "1923-11-17", "1923-11-18", "1923-11-19", "1923-11-20", "1923-11-21", "1923-11-22", "1923-11-23", "1923-11-24", "1923-11-25", "1923-11-26", "1923-11-27", "1923-11-28", "1923-11-29", "1923-11-30", "1923-12-01", "1923-12-02", "1923-12-03", "1923-12-04", "1923-12-05", "1923-12-06", "1923-12-07", "1923-12-08", "1923-12-09", "1923-12-10", "1923-12-11", "1923-12-12", "1923-12-13", "1923-12-14", "1923-12-15", "1923-12-16", "1923-12-17", "1923-12-18", "1923-12-19", "1923-12-20", "1923-12-21", "1923-12-22", "1923-12-23", "1923-12-24", "1923-12-25", "1923-12-26", "1923-12-27", "1923-12-28", "1923-12-29", "1923-12-30", "1923-12-31"],
          "importance": "280", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -1568,7 +1601,8 @@
          "timestamp": ["1923-01-10", "1923-02-14", "1923-03-07", "1923-06-05", "1923-07-11", "1923-07-17", "1923-08-01", "1923-10-02", "1923-11-20", "1923-12-24"],
          "importance": "10", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -1657,7 +1691,8 @@
          "timestamp": ["1923-01-23", "1923-01-30", "1923-02-03", "1923-03-07", "1923-03-23", "1923-03-24", "1923-03-28", "1923-04-26", "1923-05-05", "1923-06-09", "1923-06-19", "1923-06-23", "1923-07-17", "1923-07-24", "1923-09-21", "1923-09-25", "1923-10-09", "1923-11-07", "1923-11-09", "1923-12-02"],
          "importance": "20", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -1732,7 +1767,8 @@
          "timestamp": ["1923-02-04", "1923-11-14"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Berta Zuckerkandl"]
       }
       }, 
     {
@@ -1782,6 +1818,8 @@
          "lon": "16.377117625773",
          "timestamp": ["1923-04-05"],
          "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q113470466", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -1891,7 +1929,8 @@
          "timestamp": ["1923-02-18"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Franz Werfel", "Alma Maria Mahler-Werfel"]
       }
       }, 
     {
@@ -2037,7 +2076,8 @@
          "timestamp": ["1923-05-10", "1923-05-11", "1923-05-12", "1923-05-13", "1923-05-14", "1923-05-15", "1923-05-16"],
          "importance": "7", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": [" ?? [Portier des Hotel Phönix]"]
       }
       }, 
     {
@@ -2076,7 +2116,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Det_Kongelige_Teater", 
         "wikidata": "http://www.wikidata.org/entity/Q607681", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["William Norrie"]
       }
       }, 
     {
@@ -2112,7 +2153,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Schlosstheater_Drottningholm", 
         "wikidata": "http://www.wikidata.org/entity/Q3058143", 
         "abbr": "Museum (K.MUS)", 
-        "type": "Museum"
+        "type": "Museum", 
+        "arbeitsort": ["Ivar Justus Tengbom"]
       }
       }, 
     {
@@ -2217,7 +2259,8 @@
          "timestamp": ["1923-06-27", "1923-06-28", "1923-06-29", "1923-06-30", "1923-07-01", "1923-07-02", "1923-07-03", "1923-07-04", "1923-07-05", "1923-07-06", "1923-07-07", "1923-08-06", "1923-08-07", "1923-08-08", "1923-08-09", "1923-08-10", "1923-08-11", "1923-08-12", "1923-08-13"],
          "importance": "19", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Margarethe Lichtenstein", "Olga Schnitzler"]
       }
       }, 
     {
@@ -3038,7 +3081,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q131720045", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Ernst Benedikt"]
       }
       }, 
     {

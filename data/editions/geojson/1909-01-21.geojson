@@ -6,10 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.371211, 48.206416], 
-            [16.394461, 48.204893], 
+            [16.372564182283, 48.201265597319], 
+            [16.430054, 48.194558], 
             [16.43898217221, 48.19252071812], 
-            [16.33472, 48.2304]
+            [16.394461, 48.204893], 
+            [16.33472, 48.2304], 
+            [16.371211, 48.206416]
           ]
       },
       "properties": {
@@ -38,6 +40,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1909-01-21"],
+         "importance": "1", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.43898217221, 48.19252071812]
       },
       "properties": {
@@ -57,6 +76,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1909-01-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752", 
+        "geonames": "https://sws.geonames.org/3322725/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.394461, 48.204893]
       },
       "properties": {
@@ -67,7 +106,8 @@
          "timestamp": ["1909-01-21"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Charles Weinberger"]
       }
       },
     {
@@ -84,7 +124,8 @@
          "timestamp": ["1909-01-21"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }
   ]

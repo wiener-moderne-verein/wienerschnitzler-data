@@ -310,7 +310,8 @@
          "timestamp": ["1928-01-01", "1928-01-12"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Clara Katharina Pollaczek", "Louis Loeb"]
       }
       }, 
     {
@@ -398,7 +399,27 @@
          "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/B%C3%BCrgertheater", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Oskar Fronz"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1928-01-09"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Ottilie Salten", "Felix Salten"], 
+        "arbeitsort": [" ?? [Haushaltshilfe der Familie Salten 1912]"]
       }
       }, 
     {
@@ -432,7 +453,9 @@
          "timestamp": ["1928-01-18"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -449,7 +472,8 @@
          "timestamp": ["1928-01-10", "1928-01-31"],
          "importance": "2", 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": ["Carl B. Haug"]
       }
       }, 
     {
@@ -466,7 +490,9 @@
          "timestamp": ["1928-01-01", "1928-01-02", "1928-01-03", "1928-01-04", "1928-01-05", "1928-01-06", "1928-01-07", "1928-01-08", "1928-01-09", "1928-01-10", "1928-01-11", "1928-01-12", "1928-01-13", "1928-01-14", "1928-01-15", "1928-01-16", "1928-01-17", "1928-01-18", "1928-01-19", "1928-01-20", "1928-01-21", "1928-01-22", "1928-01-23", "1928-01-24", "1928-01-25", "1928-01-26", "1928-01-27", "1928-01-28", "1928-01-29", "1928-01-30", "1928-01-31"],
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -483,7 +509,8 @@
          "timestamp": ["1928-01-04", "1928-01-18", "1928-01-24"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -518,7 +545,8 @@
          "timestamp": ["1928-01-03", "1928-01-18", "1928-01-31"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -535,7 +563,8 @@
          "timestamp": ["1928-01-14", "1928-01-21"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Berta Zuckerkandl"]
       }
       }, 
     {
@@ -621,7 +650,8 @@
          "timestamp": ["1928-01-02", "1928-01-29"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Rosa Menczel", "Philipp Menczel"]
       }
       }, 
     {
@@ -638,7 +668,8 @@
          "timestamp": ["1928-01-06"],
          "importance": "1", 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "arbeitsort": ["Josef Peter"]
       }
       }, 
     {
@@ -655,24 +686,8 @@
          "timestamp": ["1928-01-04"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.34167, 48.233004]
-      },
-      "properties": {
-         "id": "pmb235812",
-         "title": "Cottagegasse 37",
-         "lat": "48.233004",
-         "lon": "16.34167",
-         "timestamp": ["1928-01-09"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Binder"]
       }
       }, 
     {
@@ -689,7 +704,8 @@
          "timestamp": ["1928-01-15"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Siegfried von Strakosch-Feldringen"]
       }
       }, 
     {
@@ -706,7 +722,8 @@
          "timestamp": ["1928-01-11"],
          "importance": "1", 
         "abbr": "Verwaltungsgebäude (K.VWL)", 
-        "type": "Verwaltungsgebäude"
+        "type": "Verwaltungsgebäude", 
+        "arbeitsort": ["Gustav Schnaubelt"]
       }
       }, 
     {
@@ -723,7 +740,8 @@
          "timestamp": ["1928-01-13"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Vera Schapira", "Richard Specht"]
       }
       }, 
     {
@@ -740,7 +758,8 @@
          "timestamp": ["1928-01-20"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Rudolf Askonas"]
       }
       }, 
     {
@@ -792,7 +811,8 @@
          "timestamp": ["1928-01-27"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Sascha Kronburg", "Max Hayek"]
       }
       }, 
     {
@@ -808,8 +828,8 @@
          "lon": "16.371163",
          "timestamp": ["1928-01-31"],
          "importance": "1", 
-        "abbr": "S.SCHN", 
-        "type": ""
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
       }
       }
   ]

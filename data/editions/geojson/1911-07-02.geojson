@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.86, 47.629444], 
             [15.83, 47.647222]
           ]
       },
@@ -29,7 +30,28 @@
         "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
         "wikidata": "http://www.wikidata.org/entity/Q1610900", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Karl Rostler"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.86, 47.629444]
+      },
+      "properties": {
+         "id": "pmb40895",
+         "title": "Sonnwendstein",
+         "lat": "47.629444",
+         "lon": "15.86",
+         "timestamp": ["1911-07-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sonnwendstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q1668878", 
+        "geonames": "https://sws.geonames.org/2764871/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
       }
       }
   ]

@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.153926, 48.218232], 
+            [16.15546, 48.21684], 
+            [16.33716, 48.23188], 
+            [16.13528, 48.23082]
           ]
       },
       "properties": {
@@ -27,7 +30,63 @@
          "timestamp": ["1914-06-11"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.15546, 48.21684]
+      },
+      "properties": {
+         "id": "pmb248448",
+         "title": "Hochramalpe",
+         "lat": "48.21684",
+         "lon": "16.15546",
+         "timestamp": ["1914-06-11"],
+         "importance": "1", 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.13528, 48.23082]
+      },
+      "properties": {
+         "id": "pmb38059",
+         "title": "Gablitz",
+         "lat": "48.23082",
+         "lon": "16.13528",
+         "timestamp": ["1914-06-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gablitz", 
+        "wikidata": "http://www.wikidata.org/entity/Q665086", 
+        "geonames": "https://sws.geonames.org/7873069/ https://sws.geonames.org/2779061/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.153926, 48.218232]
+      },
+      "properties": {
+         "id": "pmb248454",
+         "title": "Gasthaus Hochramalpe",
+         "lat": "48.218232",
+         "lon": "16.153926",
+         "timestamp": ["1914-06-11"],
+         "importance": "1", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }
   ]

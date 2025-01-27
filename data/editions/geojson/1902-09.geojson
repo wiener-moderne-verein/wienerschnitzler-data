@@ -183,7 +183,9 @@
          "timestamp": ["1902-09-01", "1902-09-02", "1902-09-07", "1902-09-08", "1902-09-13", "1902-09-14", "1902-09-15", "1902-09-16", "1902-09-19", "1902-09-20", "1902-09-21", "1902-09-22", "1902-09-23", "1902-09-25", "1902-09-26", "1902-09-28", "1902-09-29", "1902-09-30"],
          "importance": "18", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -200,7 +202,8 @@
          "timestamp": ["1902-09-29"],
          "importance": "1", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Eleonora Duse", " Wessely"]
       }
       }, 
     {
@@ -257,7 +260,8 @@
          "timestamp": ["1902-09-25"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Schnitzler"]
       }
       }, 
     {
@@ -294,7 +298,8 @@
          "timestamp": ["1902-09-25", "1902-09-28"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -339,13 +344,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.47188, 47.56155]
+        "coordinates": [14.460776, 47.574904]
       },
       "properties": {
          "id": "pmb49312",
          "title": "Admont",
-         "lat": "47.56155",
-         "lon": "14.47188",
+         "lat": "47.574904",
+         "lon": "14.460776",
          "timestamp": ["1902-09-05"],
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Admont", 
@@ -371,7 +376,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hofmannsthal-Schl%C3%B6ssl", 
         "wikidata": "http://www.wikidata.org/entity/Q1623184", 
         "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
+        "type": "Schloss", 
+        "wohnort": ["Gertrude von Hofmannsthal", "Hugo von Hofmannsthal"]
       }
       }, 
     {
@@ -388,7 +394,8 @@
          "timestamp": ["1902-09-13"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek", "Karl Glossy"]
       }
       }, 
     {
@@ -405,7 +412,8 @@
          "timestamp": ["1902-09-25"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Jakob Wassermann"]
       }
       }, 
     {
@@ -422,7 +430,8 @@
          "timestamp": ["1902-09-01", "1902-09-02", "1902-09-07", "1902-09-08", "1902-09-09", "1902-09-10", "1902-09-11", "1902-09-12", "1902-09-13", "1902-09-14", "1902-09-15", "1902-09-16", "1902-09-17", "1902-09-18", "1902-09-19", "1902-09-20", "1902-09-21", "1902-09-22", "1902-09-23", "1902-09-24", "1902-09-25", "1902-09-26", "1902-09-27", "1902-09-28"],
          "importance": "24", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Olga Schnitzler"]
       }
       }, 
     {
@@ -477,7 +486,8 @@
          "timestamp": ["1902-09-26"],
          "importance": "1", 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "arbeitsort": ["Sándor Jaray"]
       }
       }, 
     {
@@ -694,7 +704,8 @@
          "timestamp": ["1902-09-30"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Heinrich Schnitzler", "Olga Schnitzler"]
       }
       }
   ]

@@ -160,6 +160,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.86, 47.629444]
+      },
+      "properties": {
+         "id": "pmb40895",
+         "title": "Sonnwendstein",
+         "lat": "47.629444",
+         "lon": "15.86",
+         "timestamp": ["1911-07-02"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sonnwendstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q1668878", 
+        "geonames": "https://sws.geonames.org/2764871/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35736, 48.21533]
       },
       "properties": {
@@ -170,7 +190,9 @@
          "timestamp": ["1911-07-04"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -187,7 +209,8 @@
          "timestamp": ["1911-07-12"],
          "importance": "1", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {
@@ -221,7 +244,8 @@
          "timestamp": ["1911-07-07"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -278,7 +302,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
         "wikidata": "http://www.wikidata.org/entity/Q1610900", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Karl Rostler"]
       }
       }, 
     {
@@ -295,7 +320,9 @@
          "timestamp": ["1911-07-04", "1911-07-10", "1911-07-15"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -312,7 +339,9 @@
          "timestamp": ["1911-07-04", "1911-07-05", "1911-07-06", "1911-07-07", "1911-07-08", "1911-07-09", "1911-07-10", "1911-07-11", "1911-07-12", "1911-07-13", "1911-07-14", "1911-07-15", "1911-07-16", "1911-07-17", "1911-07-18", "1911-07-19", "1911-07-20", "1911-07-21", "1911-07-22", "1911-07-23"],
          "importance": "20", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {

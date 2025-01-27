@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.08602, 47.92645], 
             [16.1, 47.93333], 
-            [16.10973, 47.94567]
+            [16.10973, 47.94567], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
@@ -47,6 +49,43 @@
          "importance": "1", 
         "geonames": "https://sws.geonames.org/2762462/", 
         "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1909-04-18"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.08602, 47.92645]
+      },
+      "properties": {
+         "id": "pmb248569",
+         "title": "Grillenberg",
+         "lat": "47.92645",
+         "lon": "16.08602",
+         "timestamp": ["1909-04-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grillenberg_(Gemeinde_Hernstein)", 
+        "wikidata": "http://www.wikidata.org/entity/Q56148696", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
       }
       }

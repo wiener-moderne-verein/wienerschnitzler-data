@@ -416,7 +416,8 @@
          "timestamp": ["1928-07-22"],
          "importance": "1", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {
@@ -474,7 +475,8 @@
         "wikidata": "http://www.wikidata.org/entity/Q699937", 
         "geonames": "https://sws.geonames.org/10346420/", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "arbeitsort": ["Siegfried Wolf"]
       }
       }, 
     {
@@ -584,7 +586,9 @@
          "timestamp": ["1928-07-01", "1928-07-02", "1928-07-03", "1928-07-04", "1928-07-05", "1928-07-06", "1928-07-07", "1928-07-08", "1928-07-09", "1928-07-10", "1928-07-11", "1928-07-12", "1928-07-13", "1928-07-14", "1928-07-15", "1928-07-16", "1928-07-17", "1928-07-18", "1928-07-19", "1928-07-20", "1928-07-21", "1928-07-22", "1928-07-23", "1928-07-24", "1928-07-25", "1928-07-26", "1928-07-27", "1928-07-31"],
          "importance": "28", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -601,7 +605,26 @@
          "timestamp": ["1928-07-10"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.19733, 48.20444]
+      },
+      "properties": {
+         "id": "pmb52452",
+         "title": "Sanatorium Purkersdorf",
+         "lat": "48.20444",
+         "lon": "16.19733",
+         "timestamp": ["1928-07-12"],
+         "importance": "1", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": ["Ludwig Stein"]
       }
       }, 
     {
@@ -655,7 +678,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q106194224", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Frieda Pollak", "Victor Zuckerkandl"]
       }
       }, 
     {
@@ -689,7 +713,8 @@
          "timestamp": ["1928-07-24"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Rosa Menczel", "Philipp Menczel"]
       }
       }, 
     {
@@ -724,23 +749,6 @@
          "importance": "2", 
         "abbr": "S.REST", 
         "type": "Restaurant"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.19733, 48.20444]
-      },
-      "properties": {
-         "id": "pmb52452",
-         "title": "Sanatorium Purkersdorf",
-         "lat": "48.20444",
-         "lon": "16.19733",
-         "timestamp": ["1928-07-12"],
-         "importance": "1", 
-        "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
       }
       }, 
     {
@@ -868,7 +876,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q106194241", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Edith Schneider"]
       }
       }, 
     {

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.359954, 48.197907], 
             [16.369299, 48.207163], 
+            [16.366111, 48.209167], 
             [16.33472, 48.2304]
           ]
       },
@@ -14,6 +16,44 @@
         "name": "12. Januar 1909"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359954, 48.197907]
+      },
+      "properties": {
+         "id": "pmb248191",
+         "title": "Köstlergasse 4",
+         "lat": "48.197907",
+         "lon": "16.359954",
+         "timestamp": ["1909-01-12"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q115632874", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Erna Fleischer", "Artur Fleischer"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1909-01-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -45,7 +85,8 @@
          "timestamp": ["1909-01-12"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }
   ]

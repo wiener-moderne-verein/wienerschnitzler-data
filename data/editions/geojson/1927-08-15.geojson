@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [10.82582, 46.22671], 
-            [11.35552, 46.49817]
+            [11.03276, 46.36294], 
+            [10.837, 46.24144], 
+            [11.2, 46.41667], 
+            [11.358436, 46.496619], 
+            [11.35552, 46.49817], 
+            [11.35425, 46.49898]
           ]
       },
       "properties": {
@@ -18,20 +22,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.82582, 46.22671]
+        "coordinates": [10.837, 46.24144]
       },
       "properties": {
-         "id": "pmb427",
-         "title": "Madonna di Campiglio",
-         "lat": "46.22671",
-         "lon": "10.82582",
+         "id": "pmb248124",
+         "title": "Carlo Magno Zeledria Hotel",
+         "lat": "46.24144",
+         "lon": "10.837",
          "timestamp": ["1927-08-15"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Madonna_di_Campiglio", 
-        "wikidata": "http://www.wikidata.org/entity/Q952929", 
-        "geonames": "https://sws.geonames.org/3174326/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -50,6 +51,79 @@
         "wikidata": "http://www.wikidata.org/entity/Q111413166", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.35425, 46.49898]
+      },
+      "properties": {
+         "id": "pmb248181",
+         "title": "Stadt Hotel Città",
+         "lat": "46.49898",
+         "lon": "11.35425",
+         "timestamp": ["1927-08-15"],
+         "importance": "1", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.358436, 46.496619]
+      },
+      "properties": {
+         "id": "pmb248188",
+         "title": "Stazione di Bolzano",
+         "lat": "46.496619",
+         "lon": "11.358436",
+         "timestamp": ["1927-08-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bozen", 
+        "wikidata": "http://www.wikidata.org/entity/Q800560", 
+        "geonames": "https://sws.geonames.org/8410840/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2, 46.41667]
+      },
+      "properties": {
+         "id": "pmb91229",
+         "title": "Passo della Mendola",
+         "lat": "46.41667",
+         "lon": "11.2",
+         "timestamp": ["1927-08-15"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3173592/", 
+        "abbr": "T.PASS", 
+        "type": "Pass"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.03276, 46.36294]
+      },
+      "properties": {
+         "id": "pmb90488",
+         "title": "Cles",
+         "lat": "46.36294",
+         "lon": "11.03276",
+         "timestamp": ["1927-08-15"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3178548/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }
   ]

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [10.560226, 45.618146]
+            [10.565013, 45.623961], 
+            [10.560226, 45.618146], 
+            [10.660517, 45.6316]
           ]
       },
       "properties": {
@@ -28,6 +30,44 @@
          "importance": "1", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.565013, 45.623961]
+      },
+      "properties": {
+         "id": "pmb248232",
+         "title": "Vittoriale degli italiani",
+         "lat": "45.623961",
+         "lon": "10.565013",
+         "timestamp": ["1927-08-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Vittoriale_degli_italiani", 
+        "wikidata": "http://www.wikidata.org/entity/Q1547160", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum", 
+        "wohnort": ["Gabriele D’Annunzio"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.660517, 45.6316]
+      },
+      "properties": {
+         "id": "pmb39975",
+         "title": "Lago di Garda",
+         "lat": "45.6316",
+         "lon": "10.660517",
+         "timestamp": ["1927-08-27"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3176317/", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
       }
       }
   ]

@@ -9,6 +9,7 @@
             [16.33716, 48.23188], 
             [16.342154562605, 48.250804274577], 
             [16.322222222222, 48.263611111111], 
+            [16.311953, 48.273636], 
             [16.2977, 48.27317]
           ]
       },
@@ -57,23 +58,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.33716, 48.23188]
-      },
-      "properties": {
-         "id": "pmb168815",
-         "title": "Sternwartestraße 71",
-         "lat": "48.23188",
-         "lon": "16.33716",
-         "timestamp": ["1928-05-06"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.2977, 48.27317]
       },
       "properties": {
@@ -87,6 +71,42 @@
         "geonames": "https://sws.geonames.org/3324233/", 
         "abbr": "H.SPNG", 
         "type": "Quelle"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.311953, 48.273636]
+      },
+      "properties": {
+         "id": "pmb248475",
+         "title": "Agneswiese",
+         "lat": "48.273636",
+         "lon": "16.311953",
+         "timestamp": ["1928-05-06"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1928-05-06"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }
   ]

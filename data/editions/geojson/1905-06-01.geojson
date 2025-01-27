@@ -10,6 +10,7 @@
             [16.300034240016, 48.246838181084], 
             [16.33472, 48.2304], 
             [16.31268, 48.2629], 
+            [16.2998, 48.272304], 
             [16.299761255551, 48.272363233241], 
             [16.292995185249, 48.266268052681], 
             [16.28606, 48.25849]
@@ -95,6 +96,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2998, 48.272304]
+      },
+      "properties": {
+         "id": "pmb248499",
+         "title": "Jägerwiese",
+         "lat": "48.272304",
+         "lon": "16.2998",
+         "timestamp": ["1905-06-01"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.28606, 48.25849]
       },
       "properties": {
@@ -125,7 +143,8 @@
          "timestamp": ["1905-06-01"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       },
     {

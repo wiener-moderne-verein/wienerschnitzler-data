@@ -39,6 +39,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37438, 48.21099]
+      },
+      "properties": {
+         "id": "pmb253",
+         "title": "Imperialkino",
+         "lat": "48.21099",
+         "lon": "16.37438",
+         "timestamp": ["1930-05-25"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/index.php?title=Imperialkino", 
+        "wikidata": "http://www.wikidata.org/entity/Q33393850", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37312, 48.20122]
       },
       "properties": {
@@ -69,26 +88,9 @@
          "timestamp": ["1930-05-25"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37438, 48.21099]
-      },
-      "properties": {
-         "id": "pmb253",
-         "title": "Imperialkino",
-         "lat": "48.21099",
-         "lon": "16.37438",
-         "timestamp": ["1930-05-25"],
-         "importance": "1", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/index.php?title=Imperialkino", 
-        "wikidata": "http://www.wikidata.org/entity/Q33393850", 
-        "abbr": "Kino (K.KNO)", 
-        "type": "Kino"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       },
     {

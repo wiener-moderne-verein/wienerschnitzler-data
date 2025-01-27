@@ -25,6 +25,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1909-03-02", "1909-03-11"],
+         "importance": "2", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3691, 48.203]
       },
       "properties": {
@@ -38,6 +55,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
         "type": "Oper"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1909-03-09", "1909-03-22", "1909-03-23", "1909-03-23"],
+         "importance": "4", 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
       }
       }, 
     {
@@ -117,6 +153,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.341944, 48.233056]
+      },
+      "properties": {
+         "id": "pmb533",
+         "title": "Währinger Cottage",
+         "lat": "48.233056",
+         "lon": "16.341944",
+         "timestamp": ["1909-03-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1136683", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3566, 48.205142]
       },
       "properties": {
@@ -130,7 +185,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -155,6 +211,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.370064, 48.202791]
+      },
+      "properties": {
+         "id": "pmb205",
+         "title": "Hotel Bristol Wien",
+         "lat": "48.202791",
+         "lon": "16.370064",
+         "timestamp": ["1909-03-25"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=7575", 
+        "wikidata": "http://www.wikidata.org/entity/Q37865047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35736, 48.21533]
       },
       "properties": {
@@ -162,10 +238,32 @@
          "title": "Frankgasse 1",
          "lat": "48.21533",
          "lon": "16.35736",
-         "timestamp": ["1909-03-04", "1909-03-05"],
-         "importance": "2", 
+         "timestamp": ["1909-03-04", "1909-03-05", "1909-03-12"],
+         "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.441111, 48.149444]
+      },
+      "properties": {
+         "id": "pmb41376",
+         "title": "Wiener Zentralfriedhof",
+         "lat": "48.149444",
+         "lon": "16.441111",
+         "timestamp": ["1909-03-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=9327", 
+        "wikidata": "http://www.wikidata.org/entity/Q240744", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
       }
       }, 
     {
@@ -202,7 +300,25 @@
          "timestamp": ["1909-03-01", "1909-03-02", "1909-03-03", "1909-03-04", "1909-03-05", "1909-03-06", "1909-03-07", "1909-03-08", "1909-03-09", "1909-03-10", "1909-03-11", "1909-03-12", "1909-03-13", "1909-03-14", "1909-03-15", "1909-03-16", "1909-03-17", "1909-03-18", "1909-03-19", "1909-03-20", "1909-03-21", "1909-03-22", "1909-03-23", "1909-03-24", "1909-03-25", "1909-03-26", "1909-03-27", "1909-03-28", "1909-03-29", "1909-03-30", "1909-03-31"],
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36973, 48.20164]
+      },
+      "properties": {
+         "id": "pmb281",
+         "title": "Franz Hartmann, Leidingers Nachfolger",
+         "lat": "48.20164",
+         "lon": "16.36973",
+         "timestamp": ["1909-03-11"],
+         "importance": "1", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
@@ -226,6 +342,60 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.361942, 48.212903]
+      },
+      "properties": {
+         "id": "pmb235692",
+         "title": "Universitätsring 10",
+         "lat": "48.212903",
+         "lon": "16.361942",
+         "timestamp": ["1909-03-17"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Margarethe Manassewitsch", "Irene Mandl"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1909-03-02", "1909-03-21"],
+         "importance": "2", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355118, 48.254547]
+      },
+      "properties": {
+         "id": "pmb237626",
+         "title": "Armbrustergasse 6",
+         "lat": "48.254547",
+         "lon": "16.355118",
+         "timestamp": ["1909-03-02"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Katharina Rehmann", "Paul Salten", "Ottilie Salten", "Felix Salten"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -233,10 +403,11 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1909-03-21", "1909-03-23", "1909-03-27", "1909-03-31"],
-         "importance": "4", 
+         "timestamp": ["1909-03-21", "1909-03-23", "1909-03-27", "1909-03-27", "1909-03-31"],
+         "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -250,10 +421,11 @@
          "title": "Hasenauerstraße 46",
          "lat": "48.234039",
          "lon": "16.338443",
-         "timestamp": ["1909-03-02"],
-         "importance": "1", 
+         "timestamp": ["1909-03-02", "1909-03-23"],
+         "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Else Speidel-Haeberle", "Felix Speidel"]
       }
       }, 
     {
@@ -290,6 +462,77 @@
          "importance": "1", 
         "abbr": "Kabarett (K.KBR)", 
         "type": "Kabarett"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355891, 48.208636]
+      },
+      "properties": {
+         "id": "pmb248399",
+         "title": "Rathausstraße 2",
+         "lat": "48.208636",
+         "lon": "16.355891",
+         "timestamp": ["1909-03-04"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Kaufmann", "Arthur Kaufmann"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.384773, 48.21287]
+      },
+      "properties": {
+         "id": "pmb248420",
+         "title": "Untere Donaustraße 27",
+         "lat": "48.21287",
+         "lon": "16.384773",
+         "timestamp": ["1909-03-07"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Oscar Straus"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.401482, 48.217793]
+      },
+      "properties": {
+         "id": "pmb92481",
+         "title": "Restauration M. Gabriel",
+         "lat": "48.217793",
+         "lon": "16.401482",
+         "timestamp": ["1909-03-09"],
+         "importance": "1", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367687, 48.214082]
+      },
+      "properties": {
+         "id": "pmb248543",
+         "title": "Börseplatz 6",
+         "lat": "48.214082",
+         "lon": "16.367687",
+         "timestamp": ["1909-03-30"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Julius Bermann"]
       }
       }
   ]

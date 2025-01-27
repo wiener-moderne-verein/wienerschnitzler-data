@@ -7,6 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [16.375811, 48.203191], 
+            [16.375811, 48.203191], 
+            [16.34293, 48.231566], 
+            [16.328044, 48.238759], 
+            [16.328044, 48.238759], 
             [16.33472, 48.2304]
           ]
       },
@@ -35,6 +39,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.34293, 48.231566]
+      },
+      "properties": {
+         "id": "pmb199147",
+         "title": "Anastasius-Grün-Gasse 46",
+         "lat": "48.231566",
+         "lon": "16.34293",
+         "timestamp": ["1909-04-08"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Adolf von Sonnenthal"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33472, 48.2304]
       },
       "properties": {
@@ -45,7 +67,63 @@
          "timestamp": ["1909-04-08"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.328044, 48.238759]
+      },
+      "properties": {
+         "id": "pmb841",
+         "title": "Döblinger Friedhof",
+         "lat": "48.238759",
+         "lon": "16.328044",
+         "timestamp": ["1909-04-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q1270909", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.328044, 48.238759]
+      },
+      "properties": {
+         "id": "pmb841",
+         "title": "Döblinger Friedhof",
+         "lat": "48.238759",
+         "lon": "16.328044",
+         "timestamp": ["1909-04-08"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q1270909", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375811, 48.203191]
+      },
+      "properties": {
+         "id": "pmb233517",
+         "title": "Kaiserpanorama [Wien, Schubertring 4]",
+         "lat": "48.203191",
+         "lon": "16.375811",
+         "timestamp": ["1909-04-08"],
+         "importance": "1", 
+        "abbr": "Vergnügungseinrichtung", 
+        "type": "Vergnügungseinrichtung"
       }
       }
   ]

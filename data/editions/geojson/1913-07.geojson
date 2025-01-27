@@ -61,13 +61,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.389156785664, 48.181978611064]
+        "coordinates": [16.390833, 48.181944]
       },
       "properties": {
          "id": "pmb257",
          "title": "Arsenal",
-         "lat": "48.181978611064",
-         "lon": "16.389156785664",
+         "lat": "48.181944",
+         "lon": "16.390833",
          "timestamp": ["1913-07-19"],
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Arsenal_(Wien)", 
@@ -159,7 +159,9 @@
          "timestamp": ["1913-07-01", "1913-07-02", "1913-07-03", "1913-07-04", "1913-07-05", "1913-07-06", "1913-07-07", "1913-07-08", "1913-07-09", "1913-07-10", "1913-07-11", "1913-07-12", "1913-07-13", "1913-07-14", "1913-07-15", "1913-07-16", "1913-07-17", "1913-07-18", "1913-07-19", "1913-07-20", "1913-07-21", "1913-07-22", "1913-07-23"],
          "importance": "23", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -194,7 +196,8 @@
          "timestamp": ["1913-07-22"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }
   ]

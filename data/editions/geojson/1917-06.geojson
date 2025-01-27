@@ -62,6 +62,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.16265, 48.19512]
+      },
+      "properties": {
+         "id": "pmb39792",
+         "title": "Purkersdorf",
+         "lat": "48.19512",
+         "lon": "16.16265",
+         "timestamp": ["1917-06-24", "1917-06-27"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Purkersdorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q590620", 
+        "geonames": "https://sws.geonames.org/7873075/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.276509500872, 48.241960480337]
       },
       "properties": {
@@ -212,6 +232,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.22835, 48.20591]
+      },
+      "properties": {
+         "id": "pmb90284",
+         "title": "Auhof",
+         "lat": "48.20591",
+         "lon": "16.22835",
+         "timestamp": ["1917-06-24"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2782172/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.28606, 48.25849]
       },
       "properties": {
@@ -280,7 +318,9 @@
          "timestamp": ["1917-06-01", "1917-06-02", "1917-06-03", "1917-06-23", "1917-06-24", "1917-06-25", "1917-06-26", "1917-06-27", "1917-06-28", "1917-06-29", "1917-06-30"],
          "importance": "11", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -297,7 +337,8 @@
          "timestamp": ["1917-06-02", "1917-06-25"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -316,6 +357,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q106193837", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.19733, 48.20444]
+      },
+      "properties": {
+         "id": "pmb52452",
+         "title": "Sanatorium Purkersdorf",
+         "lat": "48.20444",
+         "lon": "16.19733",
+         "timestamp": ["1917-06-24", "1917-06-27"],
+         "importance": "2", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": ["Ludwig Stein"]
       }
       }
   ]

@@ -17,7 +17,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
         "wikidata": "http://www.wikidata.org/entity/Q1244587", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Anna Judic", "Heinrich Laube"]
       }
       }, 
     {
@@ -56,7 +57,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Franz von Jauner", "Ermete Zacconi"]
       }
       }, 
     {
@@ -166,7 +168,8 @@
          "importance": "2", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Alois "]
       }
       }, 
     {
@@ -308,20 +311,21 @@
          "timestamp": ["1895-03-05", "1895-03-11", "1895-03-12", "1895-03-17"],
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Richard Beer-Hofmann"]
       }
       }, 
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.389156785664, 48.181978611064]
+        "coordinates": [16.390833, 48.181944]
       },
       "properties": {
          "id": "pmb257",
          "title": "Arsenal",
-         "lat": "48.181978611064",
-         "lon": "16.389156785664",
+         "lat": "48.181944",
+         "lon": "16.390833",
          "timestamp": ["1895-03-24"],
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Arsenal_(Wien)", 
@@ -344,7 +348,9 @@
          "timestamp": ["1895-03-01", "1895-03-02", "1895-03-03", "1895-03-04", "1895-03-05", "1895-03-06", "1895-03-07", "1895-03-08", "1895-03-09", "1895-03-10", "1895-03-11", "1895-03-12", "1895-03-13", "1895-03-14", "1895-03-15", "1895-03-16", "1895-03-17", "1895-03-18", "1895-03-19", "1895-03-20", "1895-03-21", "1895-03-22", "1895-03-23", "1895-03-24", "1895-03-25", "1895-03-26", "1895-03-27", "1895-03-28", "1895-03-29", "1895-03-30", "1895-03-31"],
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -361,7 +367,8 @@
          "timestamp": ["1895-03-07"],
          "importance": "1", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Josefine Lydia von Weisswasser"]
       }
       }, 
     {
@@ -379,7 +386,8 @@
          "importance": "1", 
         "geonames": "https://www.geonames.org/12495675", 
         "abbr": "R.ST", 
-        "type": "Straße"
+        "type": "Straße", 
+        "arbeitsort": ["Ludwig Pisk", "Otto Pisk"]
       }
       }, 
     {
@@ -396,7 +404,8 @@
          "timestamp": ["1895-03-29", "1895-03-31"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Julius von Gans-Ludassy"]
       }
       }
   ]

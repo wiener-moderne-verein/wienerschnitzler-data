@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.19733, 48.20444], 
+            [16.22835, 48.20591], 
             [16.258056, 48.201667], 
             [16.33716, 48.23188]
           ]
@@ -47,7 +49,45 @@
          "timestamp": ["1917-06-24"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.19733, 48.20444]
+      },
+      "properties": {
+         "id": "pmb52452",
+         "title": "Sanatorium Purkersdorf",
+         "lat": "48.20444",
+         "lon": "16.19733",
+         "timestamp": ["1917-06-24"],
+         "importance": "1", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": ["Ludwig Stein"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.22835, 48.20591]
+      },
+      "properties": {
+         "id": "pmb90284",
+         "title": "Auhof",
+         "lat": "48.20591",
+         "lon": "16.22835",
+         "timestamp": ["1917-06-24"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2782172/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }
   ]

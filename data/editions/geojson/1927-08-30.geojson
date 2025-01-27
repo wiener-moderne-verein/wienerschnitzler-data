@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [10.560226, 45.618146]
+            [10.560226, 45.618146], 
+            [10.660517, 45.6316]
           ]
       },
       "properties": {
@@ -28,6 +29,24 @@
          "importance": "1", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.660517, 45.6316]
+      },
+      "properties": {
+         "id": "pmb39975",
+         "title": "Lago di Garda",
+         "lat": "45.6316",
+         "lon": "10.660517",
+         "timestamp": ["1927-08-30"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3176317/", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
       }
       }
   ]

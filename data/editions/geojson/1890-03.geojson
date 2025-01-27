@@ -45,6 +45,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1890-03-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.24801, 48.08509]
       },
       "properties": {
@@ -91,7 +111,8 @@
          "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=15996", 
         "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus"
+        "type": "Krankenhaus", 
+        "arbeitsort": ["Heinrich Auspitz", "Johann Schnitzler", "Arthur Schnitzler"]
       }
       }, 
     {
@@ -201,7 +222,9 @@
          "timestamp": ["1890-03-01", "1890-03-02", "1890-03-03", "1890-03-04", "1890-03-05", "1890-03-06", "1890-03-07", "1890-03-08", "1890-03-09", "1890-03-10", "1890-03-11", "1890-03-12", "1890-03-13", "1890-03-14", "1890-03-15", "1890-03-16", "1890-03-17", "1890-03-18", "1890-03-19", "1890-03-20", "1890-03-21", "1890-03-22", "1890-03-23", "1890-03-24", "1890-03-25", "1890-03-26", "1890-03-27", "1890-03-28", "1890-03-29", "1890-03-30", "1890-03-31"],
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Leopold Rosenberg", "Arthur Schnitzler", "Julius Schnitzler", "Gisela Hajek", "Louise Schnitzler", "Johann Schnitzler"], 
+        "arbeitsort": [" ?? [Hausmeisterin von Kärntnerring 12/Bösendorferstraße 11]", " ?? [Hausmeister von Kärntnerring 12/Bösendorferstraße 11]"]
       }
       }, 
     {
@@ -238,26 +261,6 @@
          "importance": "1", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1890-03-30"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
       }
       }
   ]

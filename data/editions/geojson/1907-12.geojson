@@ -92,7 +92,8 @@
          "timestamp": ["1907-12-01", "1907-12-02", "1907-12-03", "1907-12-04", "1907-12-05", "1907-12-06", "1907-12-07", "1907-12-08", "1907-12-09", "1907-12-10", "1907-12-11", "1907-12-12", "1907-12-13", "1907-12-14", "1907-12-15", "1907-12-16", "1907-12-17", "1907-12-18", "1907-12-19", "1907-12-20", "1907-12-21", "1907-12-22", "1907-12-23", "1907-12-24", "1907-12-25", "1907-12-26", "1907-12-27", "1907-12-28", "1907-12-29", "1907-12-30", "1907-12-31"],
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }, 
     {
@@ -109,7 +110,8 @@
          "timestamp": ["1907-12-04"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Georg König", "Isidor Samuely"]
       }
       }, 
     {
@@ -126,7 +128,8 @@
          "timestamp": ["1907-12-02"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -141,6 +144,43 @@
          "lat": "48.204893",
          "lon": "16.394461",
          "timestamp": ["1907-12-04"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Charles Weinberger"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1907-12-05"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Ottilie Salten", "Felix Salten"], 
+        "arbeitsort": [" ?? [Haushaltshilfe der Familie Salten 1912]"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341361, 48.229962]
+      },
+      "properties": {
+         "id": "pmb248527",
+         "title": "Anton-Frank-Gasse 20",
+         "lat": "48.229962",
+         "lon": "16.341361",
+         "timestamp": ["1907-12-05"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"

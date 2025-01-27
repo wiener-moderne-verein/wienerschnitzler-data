@@ -80,6 +80,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1906-12-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.299116267833, 48.230916826952]
       },
       "properties": {
@@ -156,26 +176,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1906-12-03"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.361378, 48.203661]
       },
       "properties": {
@@ -239,7 +239,9 @@
          "timestamp": ["1906-12-05", "1906-12-07", "1906-12-09", "1906-12-21", "1906-12-31"],
          "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -313,7 +315,8 @@
          "timestamp": ["1906-12-19"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek", "Karl Glossy"]
       }
       }, 
     {
@@ -330,7 +333,8 @@
          "timestamp": ["1906-12-28"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Ottilie Salten", "Felix Salten", "Leo Van-Jung"]
       }
       }, 
     {
@@ -347,7 +351,8 @@
          "timestamp": ["1906-12-28"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Siegfried Trebitsch"]
       }
       }, 
     {
@@ -364,7 +369,9 @@
          "timestamp": ["1906-12-03", "1906-12-05", "1906-12-07", "1906-12-11", "1906-12-13", "1906-12-15", "1906-12-19"],
          "importance": "7", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johann Ress", "Paul Ress"], 
+        "arbeitsort": ["Benjamin Gomperz"]
       }
       }, 
     {
@@ -381,7 +388,8 @@
          "timestamp": ["1906-12-01", "1906-12-02", "1906-12-03", "1906-12-04", "1906-12-05", "1906-12-06", "1906-12-07", "1906-12-08", "1906-12-09", "1906-12-10", "1906-12-11", "1906-12-12", "1906-12-13", "1906-12-14", "1906-12-15", "1906-12-16", "1906-12-17", "1906-12-18", "1906-12-19", "1906-12-20", "1906-12-21", "1906-12-22", "1906-12-23", "1906-12-24", "1906-12-25", "1906-12-26", "1906-12-27", "1906-12-28", "1906-12-29", "1906-12-30", "1906-12-31"],
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }, 
     {
@@ -434,7 +442,8 @@
          "timestamp": ["1906-12-13", "1906-12-24"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -451,7 +460,8 @@
          "timestamp": ["1906-12-17"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Bruno Walter"]
       }
       }, 
     {
@@ -469,7 +479,8 @@
          "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/B%C3%BCrgertheater", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Oskar Fronz"]
       }
       }, 
     {
@@ -486,7 +497,8 @@
          "timestamp": ["1906-12-05", "1906-12-07"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Raoul Auernheimer"]
       }
       }, 
     {
@@ -503,7 +515,8 @@
          "timestamp": ["1906-12-31"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
       }
       }, 
     {
@@ -521,7 +534,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q105089833", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Jakob Wassermann"]
       }
       }, 
     {
@@ -538,7 +552,8 @@
          "timestamp": ["1906-12-08", "1906-12-20", "1906-12-25"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Katharina Rehmann", "Paul Salten", "Ottilie Salten", "Felix Salten"]
       }
       }, 
     {
@@ -555,7 +570,8 @@
          "timestamp": ["1906-12-02", "1906-12-25"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -572,7 +588,8 @@
          "timestamp": ["1906-12-25", "1906-12-29"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Else Speidel-Haeberle", "Felix Speidel"]
       }
       }, 
     {
@@ -589,7 +606,8 @@
          "timestamp": ["1906-12-21"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Julius Lehnert"]
       }
       }, 
     {
@@ -641,7 +659,8 @@
          "timestamp": ["1906-12-19", "1906-12-21"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [" W. Fred"]
       }
       }, 
     {

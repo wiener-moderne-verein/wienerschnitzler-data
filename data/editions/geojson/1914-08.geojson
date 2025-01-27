@@ -187,7 +187,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Sacher_Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q1631024", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Franz Irresberger"]
       }
       }, 
     {
@@ -308,6 +309,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.604167, 47.241111]
+      },
+      "properties": {
+         "id": "pmb248106",
+         "title": "Bahnhof Feldkirch",
+         "lat": "47.241111",
+         "lon": "9.604167",
+         "timestamp": ["1914-08-15", "1914-08-16"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Feldkirch", 
+        "wikidata": "http://www.wikidata.org/entity/Q698785", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.8622, 46.5146]
       },
       "properties": {
@@ -339,6 +359,42 @@
          "importance": "7", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.59854, 47.237813]
+      },
+      "properties": {
+         "id": "pmb248121",
+         "title": "Hotel Post [Feldkirch]",
+         "lat": "47.237813",
+         "lon": "9.59854",
+         "timestamp": ["1914-08-15", "1914-08-16"],
+         "importance": "2", 
+        "wikidata": "http://www.wikidata.org/entity/Q131869947", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.597851, 47.23838]
+      },
+      "properties": {
+         "id": "pmb248126",
+         "title": "Bezirkshauptmannschaft Feldkirch",
+         "lat": "47.23838",
+         "lon": "9.597851",
+         "timestamp": ["1914-08-15"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q38070739", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
       }
       }, 
     {

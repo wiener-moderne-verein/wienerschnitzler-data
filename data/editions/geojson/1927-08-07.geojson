@@ -6,11 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.23036, 48.246719], 
             [16.367998, 48.203159], 
             [16.36802, 48.203163], 
             [16.33716, 48.23188], 
-            [16.23333, 48.26667], 
-            [16.23036, 48.246719]
+            [16.209444, 48.327778], 
+            [16.14492, 48.30198], 
+            [16.23333, 48.26667]
           ]
       },
       "properties": {
@@ -84,7 +86,9 @@
          "timestamp": ["1927-08-07"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       },
     {
@@ -103,6 +107,46 @@
         "geonames": "https://sws.geonames.org/2764412/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.14492, 48.30198]
+      },
+      "properties": {
+         "id": "pmb34354",
+         "title": "Königstetten",
+         "lat": "48.30198",
+         "lon": "16.14492",
+         "timestamp": ["1927-08-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/K%C3%B6nigstetten", 
+        "wikidata": "http://www.wikidata.org/entity/Q691498", 
+        "geonames": "https://sws.geonames.org/7871914/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.209444, 48.327778]
+      },
+      "properties": {
+         "id": "pmb1246",
+         "title": "St. Andrä-Wördern",
+         "lat": "48.327778",
+         "lon": "16.209444",
+         "timestamp": ["1927-08-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._Andr%C3%A4-W%C3%B6rdern", 
+        "wikidata": "http://www.wikidata.org/entity/Q672587", 
+        "geonames": "https://sws.geonames.org/7873041/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

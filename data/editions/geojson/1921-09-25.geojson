@@ -6,10 +6,16 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.16265, 48.19512], 
             [16.37778, 48.17111], 
+            [16.3734, 48.1809], 
             [16.33716, 48.23188], 
             [16.320833, 48.252222], 
-            [16.23333, 48.26667]
+            [16.25, 48.26667], 
+            [16.23333, 48.26667], 
+            [16.24604, 48.24737], 
+            [16.14492, 48.30198], 
+            [16.09456, 48.25022]
           ]
       },
       "properties": {
@@ -39,6 +45,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3734, 48.1809]
+      },
+      "properties": {
+         "id": "pmb185942",
+         "title": "Arbeiterheim Favoriten",
+         "lat": "48.1809",
+         "lon": "16.3734",
+         "timestamp": ["1921-09-25"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Arbeiterheim_Favoriten", 
+        "wikidata": "http://www.wikidata.org/entity/Q627143", 
+        "abbr": "Volksbildungsanstalt (K.VBA)", 
+        "type": "Volksbildungsanstalt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -49,7 +74,9 @@
          "timestamp": ["1921-09-25"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       },
     {
@@ -88,6 +115,102 @@
         "geonames": "https://sws.geonames.org/2764412/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25, 48.26667]
+      },
+      "properties": {
+         "id": "pmb44394",
+         "title": "Weidlingbach",
+         "lat": "48.26667",
+         "lon": "16.25",
+         "timestamp": ["1921-09-25"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q12356726", 
+        "geonames": "https://sws.geonames.org/2761738/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.24604, 48.24737]
+      },
+      "properties": {
+         "id": "pmb90609",
+         "title": "Exelberg",
+         "lat": "48.24737",
+         "lon": "16.24604",
+         "timestamp": ["1921-09-25"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2779875/", 
+        "abbr": "T.HLL", 
+        "type": "Hügel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.14492, 48.30198]
+      },
+      "properties": {
+         "id": "pmb34354",
+         "title": "Königstetten",
+         "lat": "48.30198",
+         "lon": "16.14492",
+         "timestamp": ["1921-09-25"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/K%C3%B6nigstetten", 
+        "wikidata": "http://www.wikidata.org/entity/Q691498", 
+        "geonames": "https://sws.geonames.org/7871914/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.09456, 48.25022]
+      },
+      "properties": {
+         "id": "pmb91592",
+         "title": "Riederberg",
+         "lat": "48.25022",
+         "lon": "16.09456",
+         "timestamp": ["1921-09-25"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2767474/", 
+        "abbr": "T.PASS", 
+        "type": "Pass"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.16265, 48.19512]
+      },
+      "properties": {
+         "id": "pmb39792",
+         "title": "Purkersdorf",
+         "lat": "48.19512",
+         "lon": "16.16265",
+         "timestamp": ["1921-09-25"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Purkersdorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q590620", 
+        "geonames": "https://sws.geonames.org/7873075/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

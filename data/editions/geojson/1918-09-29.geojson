@@ -10,7 +10,8 @@
             [16.342154562605, 48.250804274577], 
             [16.327352524714, 48.267145622591], 
             [16.322222222222, 48.263611111111], 
-            [16.299761255551, 48.272363233241]
+            [16.299761255551, 48.272363233241], 
+            [16.2998, 48.272304]
           ]
       },
       "properties": {
@@ -92,6 +93,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2998, 48.272304]
+      },
+      "properties": {
+         "id": "pmb248499",
+         "title": "Jägerwiese",
+         "lat": "48.272304",
+         "lon": "16.2998",
+         "timestamp": ["1918-09-29"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -102,7 +120,9 @@
          "timestamp": ["1918-09-29"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }
   ]

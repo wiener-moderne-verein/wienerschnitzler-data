@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [10.98444, 45.4299], 
+            [10.53559, 45.47127], 
+            [10.99277778, 45.43888889], 
+            [10.660517, 45.6316], 
             [10.560226, 45.618146]
           ]
       },
@@ -35,19 +37,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.98444, 45.4299]
+        "coordinates": [10.99277778, 45.43888889]
       },
       "properties": {
-         "id": "pmb44153",
-         "title": "Verona",
-         "lat": "45.4299",
-         "lon": "10.98444",
+         "id": "pmb248264",
+         "title": "Piazza Bra",
+         "lat": "45.43888889",
+         "lon": "10.99277778",
          "timestamp": ["1927-09-03"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Verona", 
-        "wikidata": "http://www.wikidata.org/entity/Q2028", 
-        "geonames": "https://sws.geonames.org/3164527/ https://sws.geonames.org/6541865/", 
-        "abbr": "P.PPLA2", 
+        "wikidata": "http://www.wikidata.org/entity/Q1056360", 
+        "geonames": "https://sws.geonames.org/8014990/", 
+        "abbr": "S.SQR", 
+        "type": "Platz"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.660517, 45.6316]
+      },
+      "properties": {
+         "id": "pmb39975",
+         "title": "Lago di Garda",
+         "lat": "45.6316",
+         "lon": "10.660517",
+         "timestamp": ["1927-09-03"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3176317/", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.53559, 45.47127]
+      },
+      "properties": {
+         "id": "pmb90521",
+         "title": "Desenzano del Garda",
+         "lat": "45.47127",
+         "lon": "10.53559",
+         "timestamp": ["1927-09-03"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3177610/", 
+        "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
       }
       }

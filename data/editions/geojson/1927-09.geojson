@@ -77,6 +77,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [10.5205, 45.60685]
+      },
+      "properties": {
+         "id": "pmb39611",
+         "title": "Salò",
+         "lat": "45.60685",
+         "lon": "10.5205",
+         "timestamp": ["1927-09-01", "1927-09-02"],
+         "importance": "2", 
+        "geonames": "https://sws.geonames.org/3168633/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [10.56527, 45.62499]
       },
       "properties": {
@@ -249,6 +267,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [10.660517, 45.6316]
+      },
+      "properties": {
+         "id": "pmb39975",
+         "title": "Lago di Garda",
+         "lat": "45.6316",
+         "lon": "10.660517",
+         "timestamp": ["1927-09-01", "1927-09-02", "1927-09-03"],
+         "importance": "3", 
+        "geonames": "https://sws.geonames.org/3176317/", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -259,7 +295,9 @@
          "timestamp": ["1927-09-20", "1927-09-28"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -276,7 +314,9 @@
          "timestamp": ["1927-09-15", "1927-09-16", "1927-09-17", "1927-09-18", "1927-09-19", "1927-09-20", "1927-09-21", "1927-09-22", "1927-09-23", "1927-09-24", "1927-09-25", "1927-09-26", "1927-09-27", "1927-09-28", "1927-09-29", "1927-09-30"],
          "importance": "16", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -293,7 +333,8 @@
          "timestamp": ["1927-09-20"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -310,7 +351,8 @@
          "timestamp": ["1927-09-20"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -382,6 +424,60 @@
          "importance": "3", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.55927, 45.61792]
+      },
+      "properties": {
+         "id": "pmb248229",
+         "title": "Hotel Du Lac Gardone Riviera",
+         "lat": "45.61792",
+         "lon": "10.55927",
+         "timestamp": ["1927-09-01", "1927-09-02"],
+         "importance": "2", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.53559, 45.47127]
+      },
+      "properties": {
+         "id": "pmb90521",
+         "title": "Desenzano del Garda",
+         "lat": "45.47127",
+         "lon": "10.53559",
+         "timestamp": ["1927-09-03"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3177610/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.99277778, 45.43888889]
+      },
+      "properties": {
+         "id": "pmb248264",
+         "title": "Piazza Bra",
+         "lat": "45.43888889",
+         "lon": "10.99277778",
+         "timestamp": ["1927-09-03"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q1056360", 
+        "geonames": "https://sws.geonames.org/8014990/", 
+        "abbr": "S.SQR", 
+        "type": "Platz"
       }
       }, 
     {

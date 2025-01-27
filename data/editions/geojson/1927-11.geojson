@@ -150,7 +150,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Schauspielhaus_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q702548", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Albert Patry"]
       }
       }, 
     {
@@ -318,6 +319,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2998, 48.272304]
+      },
+      "properties": {
+         "id": "pmb248499",
+         "title": "Jägerwiese",
+         "lat": "48.272304",
+         "lon": "16.2998",
+         "timestamp": ["1927-11-06"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.320833, 48.252222]
       },
       "properties": {
@@ -347,7 +365,9 @@
          "timestamp": ["1927-11-08", "1927-11-18"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -364,7 +384,9 @@
          "timestamp": ["1927-11-01", "1927-11-02", "1927-11-03", "1927-11-04", "1927-11-05", "1927-11-06", "1927-11-07", "1927-11-08", "1927-11-09", "1927-11-10", "1927-11-11", "1927-11-12", "1927-11-13", "1927-11-14", "1927-11-15", "1927-11-16", "1927-11-17", "1927-11-18", "1927-11-19", "1927-11-20", "1927-11-21", "1927-11-22", "1927-11-23", "1927-11-24", "1927-11-25", "1927-11-26", "1927-11-27"],
          "importance": "27", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -381,7 +403,8 @@
          "timestamp": ["1927-11-22"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -398,7 +421,8 @@
          "timestamp": ["1927-11-15", "1927-11-25"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {

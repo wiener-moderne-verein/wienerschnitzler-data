@@ -6,11 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.320833, 48.252222], 
             [16.33716, 48.23188], 
+            [16.320833, 48.252222], 
             [16.342154562605, 48.250804274577], 
             [16.31268, 48.2629], 
-            [16.299761255551, 48.272363233241]
+            [16.299761255551, 48.272363233241], 
+            [16.2998, 48.272304], 
+            [16.294608885167, 48.270716646614]
           ]
       },
       "properties": {
@@ -93,6 +95,41 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.294608885167, 48.270716646614]
+      },
+      "properties": {
+         "id": "pmb535",
+         "title": "Hermannskogel",
+         "lat": "48.270716646614",
+         "lon": "16.294608885167",
+         "timestamp": ["1924-06-08"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2776492/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2998, 48.272304]
+      },
+      "properties": {
+         "id": "pmb248499",
+         "title": "Jägerwiese",
+         "lat": "48.272304",
+         "lon": "16.2998",
+         "timestamp": ["1924-06-08"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -103,7 +140,9 @@
          "timestamp": ["1924-06-08"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }
   ]

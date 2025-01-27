@@ -17,7 +17,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
         "wikidata": "http://www.wikidata.org/entity/Q1244587", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Anna Judic", "Heinrich Laube"]
       }
       }, 
     {
@@ -111,7 +112,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Franz von Jauner", "Ermete Zacconi"]
       }
       }, 
     {
@@ -257,6 +259,26 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gartenbausäle", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1907-06-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
       }
       }, 
     {
@@ -721,27 +743,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1907-06-14"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -1098,7 +1101,9 @@
          "timestamp": ["1907-01-10", "1907-01-11", "1907-01-15", "1907-01-18", "1907-01-20", "1907-01-25", "1907-02-01", "1907-02-08", "1907-02-12", "1907-02-22", "1907-02-26", "1907-03-01", "1907-03-17", "1907-03-24", "1907-03-30", "1907-04-13", "1907-04-16", "1907-04-19", "1907-04-26", "1907-04-28", "1907-04-30", "1907-05-17", "1907-05-25", "1907-06-04", "1907-06-07", "1907-06-11", "1907-06-14", "1907-06-16", "1907-06-23", "1907-09-14", "1907-09-20", "1907-09-24", "1907-10-01", "1907-10-15", "1907-10-18", "1907-10-25", "1907-10-29", "1907-10-31", "1907-11-08", "1907-11-19", "1907-11-22", "1907-11-26", "1907-11-29"],
          "importance": "43", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -1175,7 +1180,8 @@
          "timestamp": ["1907-03-24", "1907-04-20", "1907-05-06", "1907-05-11", "1907-06-12", "1907-06-19"],
          "importance": "6", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {
@@ -1232,7 +1238,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/W%C3%A4hringer_Stra%C3%9Fe", 
         "wikidata": "http://www.wikidata.org/entity/Q2595967", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Karl ", "Hugo Hug von Hugenstein"]
       }
       }, 
     {
@@ -1323,7 +1330,8 @@
          "timestamp": ["1907-03-22"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Friedrich Wärndorfer"]
       }
       }, 
     {
@@ -1340,7 +1348,8 @@
          "timestamp": ["1907-02-02", "1907-02-09", "1907-03-05", "1907-10-10"],
          "importance": "4", 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+        "type": "Sanatorium", 
+        "arbeitsort": ["Julius Schnitzler", "Anton Loew"]
       }
       }, 
     {
@@ -1541,7 +1550,8 @@
          "timestamp": ["1907-01-27", "1907-01-29", "1907-02-05", "1907-03-07", "1907-04-04", "1907-06-11", "1907-09-17", "1907-11-30"],
          "importance": "8", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -1677,7 +1687,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hofmannsthal-Schl%C3%B6ssl", 
         "wikidata": "http://www.wikidata.org/entity/Q1623184", 
         "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
+        "type": "Schloss", 
+        "wohnort": ["Gertrude von Hofmannsthal", "Hugo von Hofmannsthal"]
       }
       }, 
     {
@@ -1847,7 +1858,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q115690959", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Hermann Bahr"]
       }
       }, 
     {
@@ -1864,7 +1876,8 @@
          "timestamp": ["1907-02-21", "1907-03-14", "1907-04-15", "1907-05-03", "1907-06-15", "1907-06-21", "1907-11-15", "1907-11-24"],
          "importance": "8", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek", "Karl Glossy"]
       }
       }, 
     {
@@ -1881,7 +1894,8 @@
          "timestamp": ["1907-01-18", "1907-04-23", "1907-10-31"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Ludwig Bauer", "Paul Schiff"]
       }
       }, 
     {
@@ -1898,7 +1912,8 @@
          "timestamp": ["1907-05-29"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Olga Schnitzler"]
       }
       }, 
     {
@@ -1954,7 +1969,8 @@
          "timestamp": ["1907-01-18", "1907-01-23"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Bertha Klein", "Johann Klein", "Wilhelm von Hartel"]
       }
       }, 
     {
@@ -1971,7 +1987,9 @@
          "timestamp": ["1907-10-22", "1907-10-24"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johann Ress", "Paul Ress"], 
+        "arbeitsort": ["Benjamin Gomperz"]
       }
       }, 
     {
@@ -1988,7 +2006,8 @@
          "timestamp": ["1907-01-01", "1907-01-02", "1907-01-03", "1907-01-04", "1907-01-05", "1907-01-06", "1907-01-07", "1907-01-08", "1907-01-09", "1907-01-10", "1907-01-11", "1907-01-12", "1907-01-13", "1907-01-14", "1907-01-15", "1907-01-16", "1907-01-17", "1907-01-18", "1907-01-19", "1907-01-20", "1907-01-21", "1907-01-22", "1907-01-23", "1907-01-24", "1907-01-25", "1907-01-26", "1907-01-27", "1907-01-28", "1907-01-29", "1907-01-30", "1907-01-31", "1907-02-01", "1907-02-02", "1907-02-03", "1907-02-04", "1907-02-05", "1907-02-06", "1907-02-07", "1907-02-08", "1907-02-09", "1907-02-10", "1907-02-11", "1907-02-12", "1907-02-13", "1907-02-14", "1907-02-15", "1907-02-16", "1907-02-17", "1907-02-18", "1907-02-19", "1907-02-20", "1907-02-21", "1907-02-22", "1907-02-23", "1907-02-24", "1907-02-25", "1907-02-26", "1907-02-27", "1907-02-28", "1907-03-01", "1907-03-02", "1907-03-03", "1907-03-04", "1907-03-05", "1907-03-06", "1907-03-07", "1907-03-08", "1907-03-09", "1907-03-10", "1907-03-11", "1907-03-12", "1907-03-13", "1907-03-14", "1907-03-15", "1907-03-16", "1907-03-17", "1907-03-18", "1907-03-19", "1907-03-20", "1907-03-21", "1907-03-22", "1907-03-23", "1907-03-24", "1907-03-25", "1907-03-26", "1907-03-27", "1907-03-28", "1907-03-29", "1907-03-30", "1907-03-31", "1907-04-01", "1907-04-02", "1907-04-03", "1907-04-04", "1907-04-05", "1907-04-06", "1907-04-07", "1907-04-08", "1907-04-09", "1907-04-10", "1907-04-11", "1907-04-12", "1907-04-13", "1907-04-14", "1907-04-15", "1907-04-16", "1907-04-17", "1907-04-18", "1907-04-19", "1907-04-20", "1907-04-21", "1907-04-22", "1907-04-23", "1907-04-24", "1907-04-25", "1907-04-26", "1907-04-27", "1907-04-28", "1907-04-29", "1907-04-30", "1907-05-01", "1907-05-02", "1907-05-03", "1907-05-04", "1907-05-05", "1907-05-06", "1907-05-07", "1907-05-08", "1907-05-09", "1907-05-10", "1907-05-11", "1907-05-12", "1907-05-13", "1907-05-14", "1907-05-15", "1907-05-16", "1907-05-17", "1907-05-18", "1907-05-19", "1907-05-20", "1907-05-21", "1907-05-22", "1907-05-23", "1907-05-24", "1907-05-25", "1907-05-26", "1907-06-04", "1907-06-05", "1907-06-06", "1907-06-07", "1907-06-08", "1907-06-09", "1907-06-10", "1907-06-11", "1907-06-12", "1907-06-13", "1907-06-14", "1907-06-15", "1907-06-16", "1907-06-17", "1907-06-18", "1907-06-19", "1907-06-20", "1907-06-21", "1907-06-22", "1907-06-23", "1907-06-24", "1907-06-25", "1907-06-26", "1907-09-13", "1907-09-14", "1907-09-15", "1907-09-16", "1907-09-17", "1907-09-18", "1907-09-19", "1907-09-20", "1907-09-21", "1907-09-22", "1907-09-23", "1907-09-24", "1907-09-25", "1907-09-26", "1907-09-27", "1907-09-28", "1907-09-29", "1907-09-30", "1907-10-01", "1907-10-02", "1907-10-03", "1907-10-04", "1907-10-05", "1907-10-06", "1907-10-07", "1907-10-08", "1907-10-09", "1907-10-10", "1907-10-11", "1907-10-12", "1907-10-13", "1907-10-14", "1907-10-15", "1907-10-16", "1907-10-17", "1907-10-18", "1907-10-19", "1907-10-20", "1907-10-21", "1907-10-22", "1907-10-23", "1907-10-24", "1907-10-25", "1907-10-26", "1907-10-28", "1907-10-29", "1907-10-30", "1907-10-31", "1907-11-01", "1907-11-02", "1907-11-03", "1907-11-04", "1907-11-05", "1907-11-06", "1907-11-07", "1907-11-08", "1907-11-09", "1907-11-10", "1907-11-11", "1907-11-12", "1907-11-13", "1907-11-14", "1907-11-15", "1907-11-16", "1907-11-17", "1907-11-18", "1907-11-19", "1907-11-20", "1907-11-21", "1907-11-22", "1907-11-23", "1907-11-24", "1907-11-25", "1907-11-26", "1907-11-27", "1907-11-28", "1907-11-29", "1907-11-30", "1907-12-01", "1907-12-02", "1907-12-03", "1907-12-04", "1907-12-05", "1907-12-06", "1907-12-07", "1907-12-08", "1907-12-09", "1907-12-10", "1907-12-11", "1907-12-12", "1907-12-13", "1907-12-14", "1907-12-15", "1907-12-16", "1907-12-17", "1907-12-18", "1907-12-19", "1907-12-20", "1907-12-21", "1907-12-22", "1907-12-23", "1907-12-24", "1907-12-25", "1907-12-26", "1907-12-27", "1907-12-28", "1907-12-29", "1907-12-30", "1907-12-31"],
          "importance": "278", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }, 
     {
@@ -2005,7 +2024,8 @@
          "timestamp": ["1907-09-14", "1907-10-08", "1907-10-10", "1907-10-17", "1907-10-22"],
          "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Moriz Károlyi"]
       }
       }, 
     {
@@ -2060,7 +2080,8 @@
          "timestamp": ["1907-01-26", "1907-04-09", "1907-04-18"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Valentin Rotenstern", "Anna Rotenstern-Tesi", "Peter Rotenstern"]
       }
       }, 
     {
@@ -2150,7 +2171,9 @@
          "timestamp": ["1907-01-26", "1907-04-02", "1907-04-06", "1907-05-21", "1907-06-05", "1907-06-14", "1907-06-25", "1907-10-17"],
          "importance": "8", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Josef Eduard Geiringer"], 
+        "arbeitsort": ["Friedrich Geiringer"]
       }
       }, 
     {
@@ -2167,7 +2190,8 @@
          "timestamp": ["1907-10-18"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Moriz Benedikt"]
       }
       }, 
     {
@@ -2184,7 +2208,8 @@
          "timestamp": ["1907-04-27"],
          "importance": "1", 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": ["Wilhelm Hohm"]
       }
       }, 
     {
@@ -2218,7 +2243,8 @@
          "timestamp": ["1907-01-08"],
          "importance": "1", 
         "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
+        "type": "Kaffeehaus", 
+        "arbeitsort": ["Victor Griensteidl"]
       }
       }, 
     {
@@ -2275,7 +2301,8 @@
          "timestamp": ["1907-03-14", "1907-04-04", "1907-09-27", "1907-10-29", "1907-11-21"],
          "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -2293,7 +2320,8 @@
          "importance": "2", 
         "wiengeschichtewiki": "https://regiowiki.at/wiki/Paulinenhof", 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+        "type": "Sanatorium", 
+        "arbeitsort": ["Isidor Samuely"]
       }
       }, 
     {
@@ -2329,7 +2357,8 @@
          "timestamp": ["1907-03-21"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Margarethe Manassewitsch", "Irene Mandl"]
       }
       }, 
     {
@@ -2346,7 +2375,8 @@
          "timestamp": ["1907-01-01", "1907-02-20", "1907-02-21", "1907-04-24", "1907-05-22", "1907-06-20", "1907-09-13", "1907-09-22", "1907-10-06", "1907-10-31", "1907-11-27"],
          "importance": "11", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Josef Kainz"]
       }
       }, 
     {
@@ -2363,7 +2393,8 @@
          "timestamp": ["1907-03-10", "1907-03-22", "1907-06-14"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Bruno Walter"]
       }
       }, 
     {
@@ -2380,7 +2411,8 @@
          "timestamp": ["1907-11-05", "1907-11-13", "1907-12-04"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Georg König", "Isidor Samuely"]
       }
       }, 
     {
@@ -2415,7 +2447,8 @@
          "importance": "11", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/B%C3%BCrgertheater", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Oskar Fronz"]
       }
       }, 
     {
@@ -2466,7 +2499,8 @@
          "timestamp": ["1907-01-01", "1907-01-27", "1907-02-03"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
       }
       }, 
     {
@@ -2483,7 +2517,8 @@
          "timestamp": ["1907-02-25"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["David Feuchtwang"]
       }
       }, 
     {
@@ -2501,7 +2536,8 @@
          "importance": "4", 
         "wikidata": "http://www.wikidata.org/entity/Q105089833", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Jakob Wassermann"]
       }
       }, 
     {
@@ -2535,7 +2571,8 @@
          "timestamp": ["1907-01-16", "1907-03-03", "1907-03-28", "1907-04-06", "1907-05-09", "1907-10-06", "1907-11-03", "1907-11-15", "1907-11-21"],
          "importance": "9", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Katharina Rehmann", "Paul Salten", "Ottilie Salten", "Felix Salten"]
       }
       }, 
     {
@@ -2552,7 +2589,8 @@
          "timestamp": ["1907-02-17", "1907-03-07", "1907-03-15", "1907-03-28", "1907-03-31", "1907-04-17", "1907-04-21", "1907-05-04", "1907-05-18", "1907-05-23", "1907-06-10", "1907-06-12", "1907-06-19", "1907-06-25", "1907-11-06", "1907-11-17", "1907-11-22", "1907-12-02"],
          "importance": "18", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -2569,7 +2607,8 @@
          "timestamp": ["1907-01-23", "1907-02-24", "1907-03-10", "1907-03-19", "1907-03-28", "1907-04-05", "1907-04-24", "1907-05-01", "1907-09-18", "1907-10-21", "1907-11-03", "1907-11-23"],
          "importance": "12", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Else Speidel-Haeberle", "Felix Speidel"]
       }
       }, 
     {
@@ -2586,7 +2625,8 @@
          "timestamp": ["1907-04-28"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Gustav Harpner"]
       }
       }, 
     {
@@ -2603,7 +2643,8 @@
          "timestamp": ["1907-01-29", "1907-02-13", "1907-06-11", "1907-06-24", "1907-10-08"],
          "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [" W. Fred"]
       }
       }, 
     {
@@ -2639,7 +2680,8 @@
          "timestamp": ["1907-01-22"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Paul Wertheimer"]
       }
       }, 
     {
@@ -2656,7 +2698,8 @@
          "timestamp": ["1907-01-23"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Julius Bachrach", "Magda Klein", "Arthur Klein"]
       }
       }, 
     {
@@ -2673,7 +2716,8 @@
          "timestamp": ["1907-02-05"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Jeanette von Weisenfeld-Weisach"]
       }
       }, 
     {
@@ -2707,7 +2751,8 @@
          "timestamp": ["1907-03-01"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Olga Lewinsky", "Josef Lewinsky"]
       }
       }, 
     {
@@ -2743,7 +2788,8 @@
          "timestamp": ["1907-03-09", "1907-05-11", "1907-11-04"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Raoul Auernheimer", "Irene Auernheimer"]
       }
       }, 
     {
@@ -2794,7 +2840,8 @@
          "timestamp": ["1907-05-14"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Theodor Beer", "Josef von Winter"]
       }
       }, 
     {
@@ -2974,7 +3021,8 @@
          "timestamp": ["1907-06-08", "1907-06-15", "1907-06-22"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Friedrich Viktor Spitzer"]
       }
       }, 
     {
@@ -3664,7 +3712,8 @@
          "timestamp": ["1907-09-09", "1907-09-10", "1907-09-11"],
          "importance": "3", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": [" Obermüllner"]
       }
       }, 
     {
@@ -3753,7 +3802,8 @@
          "timestamp": ["1907-10-22"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Gustav Harpner"]
       }
       }, 
     {
@@ -3770,7 +3820,8 @@
          "timestamp": ["1907-10-24"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Heinrich Rauchinger"]
       }
       }, 
     {
@@ -3839,7 +3890,8 @@
          "timestamp": ["1907-11-12", "1907-11-20", "1907-12-04"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Charles Weinberger"]
       }
       }, 
     {
@@ -3854,6 +3906,43 @@
          "lat": "48.203837",
          "lon": "16.375951",
          "timestamp": ["1907-11-21"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Alfred Pick", "Gustav Pick"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1907-12-05"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Ottilie Salten", "Felix Salten"], 
+        "arbeitsort": [" ?? [Haushaltshilfe der Familie Salten 1912]"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341361, 48.229962]
+      },
+      "properties": {
+         "id": "pmb248527",
+         "title": "Anton-Frank-Gasse 20",
+         "lat": "48.229962",
+         "lon": "16.341361",
+         "timestamp": ["1907-12-05"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"

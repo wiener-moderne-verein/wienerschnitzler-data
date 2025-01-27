@@ -63,6 +63,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.16265, 48.19512]
+      },
+      "properties": {
+         "id": "pmb39792",
+         "title": "Purkersdorf",
+         "lat": "48.19512",
+         "lon": "16.16265",
+         "timestamp": ["1913-05-23"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Purkersdorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q590620", 
+        "geonames": "https://sws.geonames.org/7873075/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.341944, 48.233056]
       },
       "properties": {
@@ -238,7 +258,8 @@
          "timestamp": ["1913-05-30"],
          "importance": "1", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {
@@ -373,6 +394,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2998, 48.272304]
+      },
+      "properties": {
+         "id": "pmb248499",
+         "title": "Jägerwiese",
+         "lat": "48.272304",
+         "lon": "16.2998",
+         "timestamp": ["1913-05-18"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33641, 48.23362]
       },
       "properties": {
@@ -383,7 +421,8 @@
          "timestamp": ["1913-05-14"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
       }
       }, 
     {
@@ -400,7 +439,8 @@
          "timestamp": ["1913-05-13", "1913-05-25"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -417,7 +457,8 @@
          "timestamp": ["1913-05-20"],
          "importance": "1", 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": ["Franz Ignaz Fischmeister"]
       }
       }, 
     {
@@ -434,7 +475,9 @@
          "timestamp": ["1913-05-06"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -487,7 +530,9 @@
          "timestamp": ["1913-05-01", "1913-05-02", "1913-05-03", "1913-05-04", "1913-05-05", "1913-05-06", "1913-05-07", "1913-05-08", "1913-05-09", "1913-05-10", "1913-05-11", "1913-05-12", "1913-05-13", "1913-05-14", "1913-05-15", "1913-05-16", "1913-05-17", "1913-05-18", "1913-05-19", "1913-05-20", "1913-05-21", "1913-05-22", "1913-05-23", "1913-05-24", "1913-05-25", "1913-05-26", "1913-05-27", "1913-05-28", "1913-05-29", "1913-05-30", "1913-05-31"],
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {

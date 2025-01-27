@@ -6,13 +6,32 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33472, 48.2304]
+            [16.33472, 48.2304], 
+            [16.294608885167, 48.270716646614]
           ]
       },
       "properties": {
         "name": "11. April 1909"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.294608885167, 48.270716646614]
+      },
+      "properties": {
+         "id": "pmb535",
+         "title": "Hermannskogel",
+         "lat": "48.270716646614",
+         "lon": "16.294608885167",
+         "timestamp": ["1909-04-11"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2776492/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -27,7 +46,8 @@
          "timestamp": ["1909-04-11"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }
   ]

@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1909-04-01", "1909-04-02", "1909-04-03", "1909-04-04", "1909-04-05", "1909-04-06", "1909-04-07", "1909-04-08", "1909-04-09", "1909-04-10", "1909-04-11", "1909-04-12", "1909-04-13", "1909-04-14", "1909-04-15", "1909-04-16", "1909-04-17", "1909-04-19", "1909-04-20", "1909-04-21", "1909-04-26", "1909-04-27", "1909-04-28", "1909-04-29", "1909-04-30"],
-         "importance": "25", 
+         "timestamp": ["1909-04-01", "1909-04-02", "1909-04-03", "1909-04-04", "1909-04-05", "1909-04-06", "1909-04-07", "1909-04-08", "1909-04-09", "1909-04-10", "1909-04-11", "1909-04-12", "1909-04-13", "1909-04-14", "1909-04-15", "1909-04-16", "1909-04-17", "1909-04-18", "1909-04-19", "1909-04-20", "1909-04-21", "1909-04-26", "1909-04-27", "1909-04-28", "1909-04-29", "1909-04-30"],
+         "importance": "26", 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -37,7 +37,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Franz von Jauner", "Ermete Zacconi"]
       }
       }, 
     {
@@ -96,6 +97,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.294608885167, 48.270716646614]
+      },
+      "properties": {
+         "id": "pmb535",
+         "title": "Hermannskogel",
+         "lat": "48.270716646614",
+         "lon": "16.294608885167",
+         "timestamp": ["1909-04-11"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2776492/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23264, 48.00543]
+      },
+      "properties": {
+         "id": "pmb662",
+         "title": "Baden bei Wien",
+         "lat": "48.00543",
+         "lon": "16.23264",
+         "timestamp": ["1909-04-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Baden_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q486450", 
+        "geonames": "https://sws.geonames.org/2782067/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1909-04-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.7666, 51.0833]
       },
       "properties": {
@@ -116,6 +174,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1909-04-08", "1909-04-09", "1909-04-09"],
+         "importance": "3", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3566, 48.205142]
       },
       "properties": {
@@ -129,7 +207,25 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379685, 48.188208]
+      },
+      "properties": {
+         "id": "pmb187206",
+         "title": "Restauration »Am Südbahnhof«",
+         "lat": "48.188208",
+         "lon": "16.379685",
+         "timestamp": ["1909-04-03"],
+         "importance": "1", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
@@ -182,7 +278,9 @@
          "timestamp": ["1909-04-02", "1909-04-09", "1909-04-12", "1909-04-20", "1909-04-29", "1909-04-30"],
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -199,7 +297,8 @@
          "timestamp": ["1909-04-27"],
          "importance": "1", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {
@@ -219,6 +318,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q1423660", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34293, 48.231566]
+      },
+      "properties": {
+         "id": "pmb199147",
+         "title": "Anastasius-Grün-Gasse 46",
+         "lat": "48.231566",
+         "lon": "16.34293",
+         "timestamp": ["1909-04-08"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Adolf von Sonnenthal"]
       }
       }, 
     {
@@ -245,6 +362,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.365508, 48.200364]
+      },
+      "properties": {
+         "id": "pmb7",
+         "title": "Secession",
+         "lat": "48.200364",
+         "lon": "16.365508",
+         "timestamp": ["1909-04-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
+        "wikidata": "http://www.wikidata.org/entity/Q265129", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33472, 48.2304]
       },
       "properties": {
@@ -252,10 +388,11 @@
          "title": "Edmund-Weiß-Gasse 7",
          "lat": "48.2304",
          "lon": "16.33472",
-         "timestamp": ["1909-04-01", "1909-04-02", "1909-04-03", "1909-04-04", "1909-04-05", "1909-04-06", "1909-04-07", "1909-04-08", "1909-04-09", "1909-04-10", "1909-04-11", "1909-04-12", "1909-04-13", "1909-04-14", "1909-04-15", "1909-04-16", "1909-04-17", "1909-04-19", "1909-04-20", "1909-04-21", "1909-04-26", "1909-04-27", "1909-04-28", "1909-04-29", "1909-04-30"],
-         "importance": "25", 
+         "timestamp": ["1909-04-01", "1909-04-02", "1909-04-03", "1909-04-04", "1909-04-05", "1909-04-06", "1909-04-07", "1909-04-08", "1909-04-09", "1909-04-10", "1909-04-11", "1909-04-12", "1909-04-13", "1909-04-14", "1909-04-15", "1909-04-16", "1909-04-17", "1909-04-18", "1909-04-19", "1909-04-20", "1909-04-21", "1909-04-26", "1909-04-27", "1909-04-28", "1909-04-29", "1909-04-30"],
+         "importance": "26", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }, 
     {
@@ -292,6 +429,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q127097", 
         "abbr": "Oper (K.OPR)", 
         "type": "Oper"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.328044, 48.238759]
+      },
+      "properties": {
+         "id": "pmb841",
+         "title": "Döblinger Friedhof",
+         "lat": "48.238759",
+         "lon": "16.328044",
+         "timestamp": ["1909-04-08", "1909-04-08"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q1270909", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
       }
       }, 
     {
@@ -360,6 +516,25 @@
          "importance": "1", 
         "geonames": "https://sws.geonames.org/2762462/", 
         "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.08602, 47.92645]
+      },
+      "properties": {
+         "id": "pmb248569",
+         "title": "Grillenberg",
+         "lat": "47.92645",
+         "lon": "16.08602",
+         "timestamp": ["1909-04-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grillenberg_(Gemeinde_Hernstein)", 
+        "wikidata": "http://www.wikidata.org/entity/Q56148696", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
       }
       }

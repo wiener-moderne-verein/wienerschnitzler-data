@@ -55,7 +55,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
         "wikidata": "http://www.wikidata.org/entity/Q1244587", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Anna Judic", "Heinrich Laube"]
       }
       }, 
     {
@@ -166,7 +167,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Franz von Jauner", "Ermete Zacconi"]
       }
       }, 
     {
@@ -278,6 +280,26 @@
         "geonames": "https://sws.geonames.org/3322725/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1893-04-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
       }
       }, 
     {
@@ -412,7 +434,8 @@
          "importance": "13", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Alois "]
       }
       }, 
     {
@@ -738,7 +761,8 @@
          "timestamp": ["1893-07-11", "1893-07-14", "1893-07-19"],
          "importance": "3", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Grethe Wreden"]
       }
       }, 
     {
@@ -755,7 +779,8 @@
          "timestamp": ["1893-01-01"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Franziska Mütter", "Dorothea Kohnberger", "Innozenz Kohnberger"]
       }
       }, 
     {
@@ -944,7 +969,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -1001,7 +1027,9 @@
          "timestamp": ["1893-09-26"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Leopold Rosenberg", "Arthur Schnitzler", "Julius Schnitzler", "Gisela Hajek", "Louise Schnitzler", "Johann Schnitzler"], 
+        "arbeitsort": [" ?? [Hausmeisterin von Kärntnerring 12/Bösendorferstraße 11]", " ?? [Hausmeister von Kärntnerring 12/Bösendorferstraße 11]"]
       }
       }, 
     {
@@ -1019,7 +1047,8 @@
          "importance": "3", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Schwenders_Vergnügungsetablissement", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Marie Pichler", "Pauline Czerniawski-Loewe"]
       }
       }, 
     {
@@ -1078,26 +1107,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1893-04-06"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.37243, 48.19544]
       },
       "properties": {
@@ -1109,7 +1118,9 @@
          "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Taubstummengasse", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Leopoldine Müller"], 
+        "arbeitsort": ["Rudolf Huber-Wiesenthal"]
       }
       }, 
     {
@@ -1338,7 +1349,8 @@
          "timestamp": ["1893-08-14"],
          "importance": "1", 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
+        "type": "Gastgewerbegebäude", 
+        "arbeitsort": ["Antonie Diglas", "Franz Diglas"]
       }
       }, 
     {
@@ -1395,7 +1407,8 @@
          "timestamp": ["1893-07-23", "1893-10-24"],
          "importance": "2", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Hedwig Keller"]
       }
       }, 
     {
@@ -1465,7 +1478,8 @@
          "timestamp": ["1893-07-02", "1893-07-03", "1893-07-04", "1893-07-05", "1893-07-06", "1893-07-07", "1893-07-08", "1893-07-09", "1893-07-10", "1893-07-11", "1893-07-12", "1893-07-13", "1893-07-14", "1893-07-15"],
          "importance": "14", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Leopold Petter", "Julie Flesch", " ?? [Portier Pension Rudolfshöhe 1895]"]
       }
       }, 
     {
@@ -1502,7 +1516,8 @@
          "timestamp": ["1893-04-23", "1893-05-18", "1893-06-01", "1893-10-27", "1893-11-15", "1893-12-03"],
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -1520,7 +1535,8 @@
          "importance": "52", 
         "geonames": "https://www.geonames.org/12495678", 
         "abbr": "R.ST", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Arthur Schnitzler"]
       }
       }, 
     {
@@ -1588,7 +1604,8 @@
          "timestamp": ["1893-02-08"],
          "importance": "1", 
         "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus"
+        "type": "Krankenhaus", 
+        "arbeitsort": ["Johann Schnitzler"]
       }
       }, 
     {
@@ -1605,7 +1622,8 @@
          "timestamp": ["1893-01-01"],
          "importance": "1", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Friedrich Michael Fels", "Wilhelm Goldbaum"]
       }
       }, 
     {
@@ -1622,7 +1640,8 @@
          "timestamp": ["1893-01-04"],
          "importance": "1", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Mizi Zach"]
       }
       }, 
     {
@@ -1639,7 +1658,8 @@
          "timestamp": ["1893-02-24", "1893-03-23", "1893-04-12"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Sidonie Eisenschitz"]
       }
       }, 
     {
@@ -2000,13 +2020,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.389156785664, 48.181978611064]
+        "coordinates": [16.390833, 48.181944]
       },
       "properties": {
          "id": "pmb257",
          "title": "Arsenal",
-         "lat": "48.181978611064",
-         "lon": "16.389156785664",
+         "lat": "48.181944",
+         "lon": "16.390833",
          "timestamp": ["1893-05-29"],
          "importance": "1", 
         "wikipedia": "https://de.wikipedia.org/wiki/Arsenal_(Wien)", 
@@ -2046,7 +2066,8 @@
          "timestamp": ["1893-06-03"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gustav Harpner", "Gisela Hajek", "Markus Hajek"]
       }
       }, 
     {
@@ -2063,7 +2084,8 @@
          "timestamp": ["1893-06-04", "1893-06-11", "1893-06-17"],
          "importance": "3", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Christine Schönberger", "Christine Schönberger"]
       }
       }, 
     {
@@ -2252,7 +2274,8 @@
          "timestamp": ["1893-08-06"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Adele von Suppé", "Pauline von Suppè", "Peter von Suppè"]
       }
       }, 
     {
@@ -2570,7 +2593,8 @@
          "timestamp": ["1893-10-24", "1893-12-02", "1893-12-06", "1893-12-09", "1893-12-10", "1893-12-12", "1893-12-14", "1893-12-15", "1893-12-16", "1893-12-17", "1893-12-18", "1893-12-19", "1893-12-20", "1893-12-21", "1893-12-22", "1893-12-23", "1893-12-24", "1893-12-25", "1893-12-27", "1893-12-28", "1893-12-29", "1893-12-30", "1893-12-31"],
          "importance": "23", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Simonetta Sandrock", "Wilhelmine Sandrock", "Adele Sandrock"]
       }
       }, 
     {
@@ -2587,7 +2611,8 @@
          "timestamp": ["1893-10-24"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Felix Salten"]
       }
       }, 
     {
@@ -2643,7 +2668,9 @@
          "importance": "2", 
         "wikidata": "http://www.wikidata.org/entity/Q37995949", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Schnitzler", "Carl Altmann", "Emma Altmann"], 
+        "arbeitsort": ["Julius Schnitzler"]
       }
       }, 
     {
@@ -2660,7 +2687,9 @@
          "timestamp": ["1893-11-15", "1893-11-16", "1893-11-17", "1893-11-18", "1893-11-19", "1893-11-20", "1893-11-21", "1893-11-22", "1893-11-23", "1893-11-24", "1893-11-25", "1893-11-26", "1893-11-27", "1893-11-28", "1893-11-29", "1893-11-30", "1893-12-01", "1893-12-02", "1893-12-03", "1893-12-04", "1893-12-05", "1893-12-06", "1893-12-07", "1893-12-10", "1893-12-11", "1893-12-12", "1893-12-13", "1893-12-14", "1893-12-15", "1893-12-16", "1893-12-17", "1893-12-18", "1893-12-19", "1893-12-20", "1893-12-21", "1893-12-22", "1893-12-23", "1893-12-24", "1893-12-25", "1893-12-26", "1893-12-27", "1893-12-28", "1893-12-29", "1893-12-30", "1893-12-31"],
          "importance": "45", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -2694,7 +2723,8 @@
          "timestamp": ["1893-11-28"],
          "importance": "1", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Eleonora Duse", " Wessely"]
       }
       }, 
     {
@@ -2711,7 +2741,8 @@
          "timestamp": ["1893-11-29", "1893-12-17"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Carl Karlweis", "Karl Glossy"]
       }
       }
   ]

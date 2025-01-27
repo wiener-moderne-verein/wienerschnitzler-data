@@ -8,7 +8,9 @@
         "coordinates": [
             [16.320833, 48.252222], 
             [16.33716, 48.23188], 
-            [16.33255, 48.27617]
+            [16.351291, 48.248146], 
+            [16.33255, 48.27617], 
+            [16.311953, 48.273636]
           ]
       },
       "properties": {
@@ -59,6 +61,41 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.351291, 48.248146]
+      },
+      "properties": {
+         "id": "pmb248458",
+         "title": "Silbergasse 42",
+         "lat": "48.248146",
+         "lon": "16.351291",
+         "timestamp": ["1916-04-23"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Piekarski", "Eugenie Bachrach", "Stefanie Bachrach"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.311953, 48.273636]
+      },
+      "properties": {
+         "id": "pmb248475",
+         "title": "Agneswiese",
+         "lat": "48.273636",
+         "lon": "16.311953",
+         "timestamp": ["1916-04-23"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -69,7 +106,9 @@
          "timestamp": ["1916-04-23"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }
   ]

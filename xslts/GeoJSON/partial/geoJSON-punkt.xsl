@@ -6,6 +6,9 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="json tei">
     <xsl:param name="ortstypen" select="document('../../../data/indices/ortstypen.xml')"/>
     <xsl:key match="item" use="abbreviation" name="ortstyp-match"/>
+    <xsl:param name="bewohner" select="document('../../../data/indices/living-working-in.xml')"/>
+    <xsl:key match="tei:place" use="@xml:id" name="bewohner-key"/>
+    
     <xsl:function name="mam:macht-punkt">
         <xsl:param name="input-placeNode" as="node()"/>
         <xsl:param name="timespan-type" as="xs:string"/>
@@ -146,6 +149,34 @@
             <xsl:text>&#10;        "type": "</xsl:text>
             <xsl:value-of select="mam:ortstyp($input-placeNode/tei:desc[@type = 'entity_type'])"/>
             <xsl:text>"</xsl:text>
+        </xsl:if>
+        <xsl:if test="starts-with($input-placeNode/tei:desc[@type = 'entity_type'], 'R.') or contains($input-placeNode/tei:desc[@type = 'entity_type'], 'ebäude') or contains($input-placeNode/tei:desc[@type = 'entity_type'], 'ohnung') or contains($input-placeNode/tei:desc[@type = 'entity_type'], 'otel') or contains($input-placeNode/tei:desc[@type = 'entity_type'], 'heater') or contains($input-placeNode/tei:desc[@type = 'entity_type'], '(K.')">
+        <xsl:if test="key('bewohner-key', $input-placeNode/@xml:id, $bewohner)/tei:noteGrp[1]/tei:note[@type='lebt'][1]">
+            <xsl:text>, </xsl:text>
+            <xsl:text>&#10;        "wohnort": [</xsl:text>
+            <xsl:for-each select="key('bewohner-key', $input-placeNode/@xml:id, $bewohner)/tei:noteGrp[1]/tei:note[@type='lebt']/tei:persName">
+                <xsl:text>"</xsl:text>
+                <xsl:value-of select="concat(tei:forename, ' ', tei:surname)"/>
+                <xsl:text>"</xsl:text>
+                <xsl:if test="not(position()=last())">
+                    <xsl:text>, </xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+            <xsl:text>]</xsl:text>
+        </xsl:if>
+        <xsl:if test="key('bewohner-key', $input-placeNode/@xml:id, $bewohner)/tei:noteGrp[1]/tei:note[@type='arbeitet'][1]">
+            <xsl:text>, </xsl:text>
+            <xsl:text>&#10;        "arbeitsort": [</xsl:text>
+            <xsl:for-each select="key('bewohner-key', $input-placeNode/@xml:id, $bewohner)/tei:noteGrp[1]/tei:note[@type='arbeitet']/tei:persName">
+                <xsl:text>"</xsl:text>
+                <xsl:value-of select="concat(tei:forename, ' ', tei:surname)"/>
+                <xsl:text>"</xsl:text>
+                <xsl:if test="not(position()=last())">
+                    <xsl:text>, </xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+            <xsl:text>]</xsl:text>
+        </xsl:if>
         </xsl:if>
         <xsl:text>&#10;      }</xsl:text>
         <xsl:text>&#10;      }</xsl:text>

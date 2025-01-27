@@ -9,6 +9,7 @@
             [16.33716, 48.23188], 
             [16.355191, 48.248422], 
             [16.33255, 48.27617], 
+            [16.311953, 48.273636], 
             [16.31268, 48.2629]
           ]
       },
@@ -59,6 +60,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.311953, 48.273636]
+      },
+      "properties": {
+         "id": "pmb248475",
+         "title": "Agneswiese",
+         "lat": "48.273636",
+         "lon": "16.311953",
+         "timestamp": ["1913-12-08"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.355191, 48.248422]
       },
       "properties": {
@@ -88,7 +106,9 @@
          "timestamp": ["1913-12-08"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }
   ]

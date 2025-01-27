@@ -113,7 +113,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -358,7 +359,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q122841575", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Carl Moll"]
       }
       }, 
     {
@@ -376,7 +378,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q105089833", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Jakob Wassermann"]
       }
       }, 
     {
@@ -412,7 +415,9 @@
          "timestamp": ["1913-12-05", "1913-12-19", "1913-12-20"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -436,6 +441,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.311953, 48.273636]
+      },
+      "properties": {
+         "id": "pmb248475",
+         "title": "Agneswiese",
+         "lat": "48.273636",
+         "lon": "16.311953",
+         "timestamp": ["1913-12-08"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -446,7 +468,9 @@
          "timestamp": ["1913-12-01", "1913-12-02", "1913-12-03", "1913-12-04", "1913-12-05", "1913-12-06", "1913-12-07", "1913-12-08", "1913-12-09", "1913-12-10", "1913-12-11", "1913-12-12", "1913-12-13", "1913-12-14", "1913-12-15", "1913-12-16", "1913-12-17", "1913-12-18", "1913-12-19", "1913-12-20", "1913-12-21", "1913-12-22", "1913-12-23", "1913-12-24", "1913-12-25", "1913-12-26", "1913-12-27", "1913-12-28", "1913-12-29", "1913-12-30", "1913-12-31"],
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -463,7 +487,8 @@
          "timestamp": ["1913-12-16", "1913-12-24"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
       }
       }
   ]

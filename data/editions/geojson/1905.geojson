@@ -37,7 +37,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
         "wikidata": "http://www.wikidata.org/entity/Q1244587", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Anna Judic", "Heinrich Laube"]
       }
       }, 
     {
@@ -131,7 +132,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Franz von Jauner", "Ermete Zacconi"]
       }
       }, 
     {
@@ -333,7 +335,8 @@
          "importance": "11", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Alois "]
       }
       }, 
     {
@@ -575,7 +578,8 @@
          "timestamp": ["1905-11-23"],
          "importance": "1", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Leopoldine Konstantin"]
       }
       }, 
     {
@@ -631,7 +635,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
       }
       }, 
     {
@@ -704,7 +709,9 @@
          "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Taubstummengasse", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": ["Leopoldine Müller"], 
+        "arbeitsort": ["Rudolf Huber-Wiesenthal"]
       }
       }, 
     {
@@ -991,17 +998,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.85, 47.61667]
+        "coordinates": [15.86, 47.629444]
       },
       "properties": {
-         "id": "pmb91776",
+         "id": "pmb40895",
          "title": "Sonnwendstein",
-         "lat": "47.61667",
-         "lon": "15.85",
+         "lat": "47.629444",
+         "lon": "15.86",
          "timestamp": ["1905-05-06", "1905-09-24"],
          "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sonnwendstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q1668878", 
         "geonames": "https://sws.geonames.org/2764871/", 
-        "abbr": "T.MT", 
+        "abbr": "Berg (N.BRG)", 
         "type": "Berg"
       }
       }, 
@@ -1037,7 +1046,8 @@
          "timestamp": ["1905-03-21"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Anna von Hofmannsthal", "Hugo August von Hofmannsthal", "Hermann Bahr", "Hugo von Hofmannsthal"]
       }
       }, 
     {
@@ -1090,7 +1100,8 @@
          "timestamp": ["1905-12-07"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Adele von Suppé", "Pauline von Suppè", "Peter von Suppè"]
       }
       }, 
     {
@@ -1127,7 +1138,9 @@
          "timestamp": ["1905-01-07", "1905-01-14", "1905-01-19", "1905-01-21", "1905-01-24", "1905-01-27", "1905-02-03", "1905-02-10", "1905-02-17", "1905-02-21", "1905-02-24", "1905-02-25", "1905-02-28", "1905-03-01", "1905-03-18", "1905-03-19", "1905-03-21", "1905-03-23", "1905-03-24", "1905-03-26", "1905-03-28", "1905-03-31", "1905-04-06", "1905-04-07", "1905-04-11", "1905-04-14", "1905-04-21", "1905-04-24", "1905-04-28", "1905-05-09", "1905-05-11", "1905-05-26", "1905-05-30", "1905-06-09", "1905-06-16", "1905-06-20", "1905-06-29", "1905-09-02", "1905-09-20", "1905-09-29", "1905-09-30", "1905-10-03", "1905-10-05", "1905-10-06", "1905-10-10", "1905-10-11", "1905-10-12", "1905-10-22", "1905-10-27", "1905-10-29", "1905-10-31", "1905-11-15", "1905-12-01", "1905-12-02", "1905-12-05", "1905-12-10", "1905-12-12", "1905-12-15", "1905-12-19", "1905-12-26", "1905-12-28", "1905-12-31"],
          "importance": "62", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -1164,7 +1177,8 @@
          "timestamp": ["1905-05-29", "1905-05-30", "1905-06-06", "1905-06-26", "1905-08-05", "1905-08-08", "1905-08-10", "1905-08-16", "1905-08-20", "1905-08-23", "1905-08-25", "1905-08-26", "1905-09-10", "1905-09-12", "1905-09-14"],
          "importance": "15", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {
@@ -1258,7 +1272,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Staatsoper_Prag", 
         "wikidata": "http://www.wikidata.org/entity/Q1886083", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Heinrich Teweles", "Angelo Neumann"]
       }
       }, 
     {
@@ -1275,7 +1290,8 @@
          "timestamp": ["1905-08-04"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Kalbeck", "Josefine Rothenstein"]
       }
       }, 
     {
@@ -1309,7 +1325,8 @@
          "timestamp": ["1905-11-19", "1905-11-20", "1905-11-21", "1905-11-23", "1905-11-24", "1905-11-25", "1905-11-26"],
          "importance": "7", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Armin Wassermann", "Gerhard Wiese", "Oskar Blumenthal"]
       }
       }, 
     {
@@ -1326,7 +1343,8 @@
          "timestamp": ["1905-11-22"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Maximilian Harden"]
       }
       }, 
     {
@@ -1363,7 +1381,8 @@
          "timestamp": ["1905-04-01"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Margarethe Manassewitsch", "Irene Mandl"]
       }
       }, 
     {
@@ -1380,7 +1399,8 @@
          "timestamp": ["1905-03-28"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Schnitzler"]
       }
       }, 
     {
@@ -1507,7 +1527,8 @@
          "timestamp": ["1905-03-01", "1905-04-04"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Albertine von Gutmann-Gelse"]
       }
       }, 
     {
@@ -1584,7 +1605,8 @@
          "timestamp": ["1905-01-03", "1905-01-16", "1905-01-27", "1905-02-04", "1905-03-02", "1905-03-21", "1905-06-27", "1905-08-14", "1905-08-29", "1905-08-31", "1905-09-15", "1905-10-25", "1905-10-31", "1905-11-16", "1905-12-06", "1905-12-14", "1905-12-18"],
          "importance": "17", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {
@@ -1835,7 +1857,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hofmannsthal-Schl%C3%B6ssl", 
         "wikidata": "http://www.wikidata.org/entity/Q1623184", 
         "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
+        "type": "Schloss", 
+        "wohnort": ["Gertrude von Hofmannsthal", "Hugo von Hofmannsthal"]
       }
       }, 
     {
@@ -1853,7 +1876,8 @@
          "importance": "2", 
         "wikidata": "http://www.wikidata.org/entity/Q115690959", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Hermann Bahr"]
       }
       }, 
     {
@@ -1870,7 +1894,8 @@
          "timestamp": ["1905-02-04", "1905-02-25", "1905-02-28", "1905-03-21", "1905-04-01", "1905-04-04", "1905-04-20", "1905-06-13", "1905-10-03"],
          "importance": "9", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Franziska Mütter"]
       }
       }, 
     {
@@ -1887,7 +1912,8 @@
          "timestamp": ["1905-01-06", "1905-02-11", "1905-05-14", "1905-06-02", "1905-06-23", "1905-07-02", "1905-09-12", "1905-10-14", "1905-11-02", "1905-11-12", "1905-12-11", "1905-12-20"],
          "importance": "12", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gisela Hajek", "Markus Hajek", "Karl Glossy"]
       }
       }, 
     {
@@ -1922,7 +1948,8 @@
          "timestamp": ["1905-02-25", "1905-05-12"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Ludwig Mandl"]
       }
       }, 
     {
@@ -1956,7 +1983,8 @@
          "timestamp": ["1905-06-17", "1905-07-01"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -1973,7 +2001,8 @@
          "timestamp": ["1905-05-20", "1905-06-07", "1905-11-13", "1905-12-27"],
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Jakob Wassermann"]
       }
       }, 
     {
@@ -1990,7 +2019,8 @@
          "timestamp": ["1905-04-09"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Olga Schnitzler"]
       }
       }, 
     {
@@ -2007,7 +2037,8 @@
          "timestamp": ["1905-03-24", "1905-04-07", "1905-10-26"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Ottilie Salten", "Felix Salten", "Leo Van-Jung"]
       }
       }, 
     {
@@ -2077,7 +2108,9 @@
          "timestamp": ["1905-04-22"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johann Ress", "Paul Ress"], 
+        "arbeitsort": ["Benjamin Gomperz"]
       }
       }, 
     {
@@ -2094,7 +2127,8 @@
          "timestamp": ["1905-01-01", "1905-01-02", "1905-01-03", "1905-01-04", "1905-01-05", "1905-01-06", "1905-01-07", "1905-01-08", "1905-01-09", "1905-01-10", "1905-01-11", "1905-01-12", "1905-01-13", "1905-01-14", "1905-01-15", "1905-01-16", "1905-01-17", "1905-01-18", "1905-01-19", "1905-01-20", "1905-01-21", "1905-01-22", "1905-01-23", "1905-01-24", "1905-01-25", "1905-01-26", "1905-01-27", "1905-01-28", "1905-01-29", "1905-01-30", "1905-01-31", "1905-02-01", "1905-02-02", "1905-02-03", "1905-02-04", "1905-02-05", "1905-02-06", "1905-02-07", "1905-02-08", "1905-02-09", "1905-02-10", "1905-02-11", "1905-02-12", "1905-02-13", "1905-02-14", "1905-02-15", "1905-02-16", "1905-02-17", "1905-02-18", "1905-02-19", "1905-02-20", "1905-02-21", "1905-02-22", "1905-02-23", "1905-02-24", "1905-02-25", "1905-02-26", "1905-02-27", "1905-02-28", "1905-03-01", "1905-03-02", "1905-03-03", "1905-03-18", "1905-03-19", "1905-03-20", "1905-03-21", "1905-03-22", "1905-03-23", "1905-03-24", "1905-03-25", "1905-03-26", "1905-03-27", "1905-03-28", "1905-03-29", "1905-03-30", "1905-03-31", "1905-04-01", "1905-04-02", "1905-04-03", "1905-04-04", "1905-04-05", "1905-04-06", "1905-04-07", "1905-04-08", "1905-04-09", "1905-04-10", "1905-04-11", "1905-04-12", "1905-04-13", "1905-04-14", "1905-04-15", "1905-04-16", "1905-04-17", "1905-04-18", "1905-04-19", "1905-04-20", "1905-04-21", "1905-04-22", "1905-04-23", "1905-04-24", "1905-04-25", "1905-04-26", "1905-04-27", "1905-04-28", "1905-04-29", "1905-04-30", "1905-05-06", "1905-05-07", "1905-05-08", "1905-05-09", "1905-05-10", "1905-05-11", "1905-05-12", "1905-05-13", "1905-05-14", "1905-05-15", "1905-05-16", "1905-05-17", "1905-05-18", "1905-05-19", "1905-05-20", "1905-05-21", "1905-05-22", "1905-05-23", "1905-05-24", "1905-05-25", "1905-05-26", "1905-05-27", "1905-05-28", "1905-05-29", "1905-05-30", "1905-05-31", "1905-06-01", "1905-06-02", "1905-06-03", "1905-06-04", "1905-06-05", "1905-06-06", "1905-06-07", "1905-06-08", "1905-06-09", "1905-06-10", "1905-06-11", "1905-06-12", "1905-06-13", "1905-06-14", "1905-06-15", "1905-06-16", "1905-06-17", "1905-06-18", "1905-06-19", "1905-06-20", "1905-06-21", "1905-06-22", "1905-06-23", "1905-06-24", "1905-06-25", "1905-06-26", "1905-06-27", "1905-06-28", "1905-06-29", "1905-06-30", "1905-07-01", "1905-07-02", "1905-07-29", "1905-07-30", "1905-07-31", "1905-08-01", "1905-08-02", "1905-08-03", "1905-08-04", "1905-08-05", "1905-08-06", "1905-08-07", "1905-08-08", "1905-08-09", "1905-08-10", "1905-08-11", "1905-08-12", "1905-08-13", "1905-08-14", "1905-08-15", "1905-08-16", "1905-08-17", "1905-08-20", "1905-08-21", "1905-08-22", "1905-08-23", "1905-08-24", "1905-08-25", "1905-08-26", "1905-08-27", "1905-08-28", "1905-08-29", "1905-08-30", "1905-08-31", "1905-09-01", "1905-09-02", "1905-09-03", "1905-09-04", "1905-09-05", "1905-09-06", "1905-09-07", "1905-09-08", "1905-09-09", "1905-09-10", "1905-09-11", "1905-09-12", "1905-09-13", "1905-09-14", "1905-09-15", "1905-09-16", "1905-09-17", "1905-09-18", "1905-09-19", "1905-09-20", "1905-09-21", "1905-09-22", "1905-09-26", "1905-09-27", "1905-09-28", "1905-09-29", "1905-09-30", "1905-10-01", "1905-10-02", "1905-10-03", "1905-10-04", "1905-10-05", "1905-10-06", "1905-10-07", "1905-10-08", "1905-10-09", "1905-10-10", "1905-10-11", "1905-10-12", "1905-10-13", "1905-10-14", "1905-10-15", "1905-10-16", "1905-10-20", "1905-10-21", "1905-10-22", "1905-10-23", "1905-10-24", "1905-10-25", "1905-10-26", "1905-10-27", "1905-10-28", "1905-10-29", "1905-10-30", "1905-10-31", "1905-11-01", "1905-11-02", "1905-11-03", "1905-11-04", "1905-11-07", "1905-11-08", "1905-11-09", "1905-11-10", "1905-11-11", "1905-11-12", "1905-11-13", "1905-11-14", "1905-11-15", "1905-11-16", "1905-11-17", "1905-11-18", "1905-11-28", "1905-11-29", "1905-11-30", "1905-12-01", "1905-12-02", "1905-12-03", "1905-12-04", "1905-12-05", "1905-12-06", "1905-12-07", "1905-12-08", "1905-12-09", "1905-12-10", "1905-12-11", "1905-12-12", "1905-12-13", "1905-12-14", "1905-12-15", "1905-12-16", "1905-12-17", "1905-12-18", "1905-12-19", "1905-12-20", "1905-12-21", "1905-12-22", "1905-12-23", "1905-12-24", "1905-12-25", "1905-12-26", "1905-12-27", "1905-12-28", "1905-12-29", "1905-12-30", "1905-12-31"],
          "importance": "301", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }, 
     {
@@ -2111,7 +2145,8 @@
          "timestamp": ["1905-01-23", "1905-09-29"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Moriz Károlyi"]
       }
       }, 
     {
@@ -2311,7 +2346,8 @@
          "timestamp": ["1905-02-11", "1905-03-24", "1905-09-04"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Valentin Rotenstern", "Anna Rotenstern-Tesi", "Peter Rotenstern"]
       }
       }, 
     {
@@ -2345,7 +2381,8 @@
          "timestamp": ["1905-11-21", "1905-11-25", "1905-11-26", "1905-11-27"],
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Otto Brahm"]
       }
       }, 
     {
@@ -2587,7 +2624,8 @@
          "timestamp": ["1905-04-17"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Fanny Lubelsky", "Adolf Bukorester"]
       }
       }, 
     {
@@ -2621,7 +2659,8 @@
          "timestamp": ["1905-01-03", "1905-01-23", "1905-02-28", "1905-03-28"],
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Carl Hochsinger"]
       }
       }, 
     {
@@ -2638,7 +2677,9 @@
          "timestamp": ["1905-04-03", "1905-05-30", "1905-10-24", "1905-12-09"],
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Josef Eduard Geiringer"], 
+        "arbeitsort": ["Friedrich Geiringer"]
       }
       }, 
     {
@@ -2655,7 +2696,8 @@
          "timestamp": ["1905-02-14"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Gustav Gurschner"]
       }
       }, 
     {
@@ -2672,7 +2714,8 @@
          "timestamp": ["1905-02-24", "1905-06-11"],
          "importance": "2", 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": ["Wilhelm Hohm"]
       }
       }, 
     {
@@ -2707,7 +2750,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q122841575", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Carl Moll"]
       }
       }, 
     {
@@ -2725,7 +2769,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q131298742", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Auguste Moskovicz de Zemplén", "Cäcilie Moskovicz de Zemplén"]
       }
       }, 
     {
@@ -2742,7 +2787,8 @@
          "timestamp": ["1905-02-11"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Ludwig Speidel"]
       }
       }, 
     {
@@ -2776,7 +2822,8 @@
          "timestamp": ["1905-02-19", "1905-02-20", "1905-02-28", "1905-12-14"],
          "importance": "4", 
         "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
+        "type": "Kaffeehaus", 
+        "arbeitsort": ["Victor Griensteidl"]
       }
       }, 
     {
@@ -2793,7 +2840,8 @@
          "timestamp": ["1905-02-21"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Nina Hoffmann-Matscheko"]
       }
       }, 
     {
@@ -2810,7 +2858,8 @@
          "timestamp": ["1905-02-23"],
          "importance": "1", 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "arbeitsort": ["Otto Fuchs"]
       }
       }, 
     {
@@ -3343,7 +3392,9 @@
          "timestamp": ["1905-03-18", "1905-08-26"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Richard Vallentin"], 
+        "arbeitsort": ["Markus Hajek"]
       }
       }, 
     {
@@ -3360,7 +3411,8 @@
          "timestamp": ["1905-03-18", "1905-03-23", "1905-05-08", "1905-05-11", "1905-06-03", "1905-06-07", "1905-07-31", "1905-09-29", "1905-10-31"],
          "importance": "9", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Albert Hammerschlag"]
       }
       }, 
     {
@@ -3377,7 +3429,8 @@
          "timestamp": ["1905-03-28"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Richard Gerstl", "Alexander von Zemlinsky", "Arnold Schönberg"]
       }
       }, 
     {
@@ -3394,7 +3447,8 @@
          "timestamp": ["1905-04-01", "1905-04-18", "1905-05-23", "1905-09-29", "1905-11-16", "1905-12-02", "1905-12-03", "1905-12-24"],
          "importance": "8", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Schnitzler", "Julius Schnitzler"]
       }
       }, 
     {
@@ -3411,7 +3465,8 @@
          "timestamp": ["1905-04-07"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene von Hamar-Nemespann"]
       }
       }, 
     {
@@ -3462,7 +3517,8 @@
          "timestamp": ["1905-04-08", "1905-09-15", "1905-11-15", "1905-12-10"],
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Felix Speidel"]
       }
       }, 
     {
@@ -3534,7 +3590,8 @@
          "timestamp": ["1905-05-07", "1905-05-28", "1905-06-30"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Felix Salten"]
       }
       }, 
     {
@@ -3552,7 +3609,8 @@
          "importance": "6", 
         "wiengeschichtewiki": "https://regiowiki.at/wiki/Paulinenhof", 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+        "type": "Sanatorium", 
+        "arbeitsort": ["Isidor Samuely"]
       }
       }, 
     {
@@ -3646,6 +3704,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2998, 48.272304]
+      },
+      "properties": {
+         "id": "pmb248499",
+         "title": "Jägerwiese",
+         "lat": "48.272304",
+         "lon": "16.2998",
+         "timestamp": ["1905-06-01"],
+         "importance": "1", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.344604, 48.227308]
       },
       "properties": {
@@ -3656,7 +3731,8 @@
          "timestamp": ["1905-06-15", "1905-10-22"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Heinrich Sikora"]
       }
       }, 
     {
@@ -3725,7 +3801,8 @@
          "timestamp": ["1905-06-26"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Hugo Schmidl", "Agnes Ulmann", "Nanette Speyer"]
       }
       }, 
     {
@@ -3742,7 +3819,8 @@
          "timestamp": ["1905-06-27", "1905-09-04"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Margarethe Manassewitsch", "Irene Mandl"]
       }
       }, 
     {
@@ -4045,7 +4123,8 @@
          "timestamp": ["1905-09-08"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Josef Kainz"]
       }
       }, 
     {
@@ -4098,7 +4177,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
         "wikidata": "http://www.wikidata.org/entity/Q1610900", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Karl Rostler"]
       }
       }, 
     {
@@ -4115,7 +4195,8 @@
          "timestamp": ["1905-10-24"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Justine Rosé", "Arnold Rosé"]
       }
       }, 
     {
@@ -4132,7 +4213,8 @@
          "timestamp": ["1905-10-25"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Alfred von Berger", "Karl Glossy", "Hugo Haberfeld"]
       }
       }, 
     {
@@ -4149,7 +4231,8 @@
          "timestamp": ["1905-10-26"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Willi Handl"]
       }
       }, 
     {
@@ -4166,7 +4249,8 @@
          "timestamp": ["1905-11-03"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Bruno Walter"]
       }
       }, 
     {
@@ -4183,7 +4267,8 @@
          "timestamp": ["1905-11-04", "1905-11-05", "1905-11-06"],
          "importance": "3", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Carl Seltmann"]
       }
       }, 
     {
@@ -4291,7 +4376,8 @@
          "timestamp": ["1905-11-16"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["August von Plappart-Leenherr"]
       }
       }, 
     {
@@ -4308,7 +4394,9 @@
          "timestamp": ["1905-11-19", "1905-11-25", "1905-11-26"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Elisabeth Steinrück"], 
+        "arbeitsort": ["Aura Hertwig"]
       }
       }, 
     {
@@ -4379,7 +4467,8 @@
          "timestamp": ["1905-12-01"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": ["Marie Lattermann"]
       }
       }, 
     {
@@ -4414,7 +4503,8 @@
          "timestamp": ["1905-12-26"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Georg König", "Isidor Samuely"]
       }
       }, 
     {
@@ -4434,7 +4524,8 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/F%C3%BCrsttheater", 
         "wikidata": "http://www.wikidata.org/entity/Q1703110", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Josef Jarno"]
       }
       }, 
     {
@@ -4451,7 +4542,8 @@
          "timestamp": ["1905-12-31"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Hansi Niese", "Josef Jarno"]
       }
       }
   ]

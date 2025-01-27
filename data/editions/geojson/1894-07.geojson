@@ -43,6 +43,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1894-07-04"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.25, 48.26667]
       },
       "properties": {
@@ -74,7 +94,8 @@
          "importance": "1", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Alois "]
       }
       }, 
     {
@@ -215,26 +236,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1894-07-04"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.36957, 48.21055]
       },
       "properties": {
@@ -342,7 +343,8 @@
          "timestamp": ["1894-07-14", "1894-07-15", "1894-07-16", "1894-07-17", "1894-07-18", "1894-07-19", "1894-07-20", "1894-07-21", "1894-07-22", "1894-07-23"],
          "importance": "10", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Leopold Petter", "Julie Flesch", " ?? [Portier Pension Rudolfshöhe 1895]"]
       }
       }, 
     {
@@ -359,7 +361,8 @@
          "timestamp": ["1894-07-09"],
          "importance": "1", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Christine Schönberger", "Christine Schönberger"]
       }
       }, 
     {
@@ -376,7 +379,8 @@
          "timestamp": ["1894-07-01", "1894-07-02"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Simonetta Sandrock", "Wilhelmine Sandrock", "Adele Sandrock"]
       }
       }, 
     {
@@ -393,7 +397,9 @@
          "timestamp": ["1894-07-01", "1894-07-02", "1894-07-03", "1894-07-04", "1894-07-05", "1894-07-06", "1894-07-07", "1894-07-08", "1894-07-09", "1894-07-10", "1894-07-11", "1894-07-12", "1894-07-13", "1894-07-24", "1894-07-25", "1894-07-26", "1894-07-27", "1894-07-28", "1894-07-29", "1894-07-30", "1894-07-31"],
          "importance": "21", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -430,7 +436,8 @@
          "timestamp": ["1894-07-26"],
          "importance": "1", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {

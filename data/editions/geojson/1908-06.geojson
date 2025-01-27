@@ -227,7 +227,9 @@
          "timestamp": ["1908-06-10", "1908-06-12", "1908-06-15"],
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
     {
@@ -281,7 +283,8 @@
          "timestamp": ["1908-06-02", "1908-06-09", "1908-06-10", "1908-06-12", "1908-06-16", "1908-06-17"],
          "importance": "6", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal", 
+        "arbeitsort": ["Franz Harner"]
       }
       }, 
     {
@@ -318,7 +321,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hofmannsthal-Schl%C3%B6ssl", 
         "wikidata": "http://www.wikidata.org/entity/Q1623184", 
         "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
+        "type": "Schloss", 
+        "wohnort": ["Gertrude von Hofmannsthal", "Hugo von Hofmannsthal"]
       }
       }, 
     {
@@ -355,7 +359,9 @@
          "timestamp": ["1908-06-13"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johann Ress", "Paul Ress"], 
+        "arbeitsort": ["Benjamin Gomperz"]
       }
       }, 
     {
@@ -372,7 +378,8 @@
          "timestamp": ["1908-06-01", "1908-06-02", "1908-06-03", "1908-06-09", "1908-06-10", "1908-06-11", "1908-06-12", "1908-06-13", "1908-06-14", "1908-06-15", "1908-06-16", "1908-06-17", "1908-06-18", "1908-06-19"],
          "importance": "14", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }, 
     {
@@ -407,7 +414,8 @@
          "importance": "5", 
         "wiengeschichtewiki": "https://regiowiki.at/wiki/Paulinenhof", 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+        "type": "Sanatorium", 
+        "arbeitsort": ["Isidor Samuely"]
       }
       }, 
     {
@@ -424,7 +432,8 @@
          "timestamp": ["1908-06-12"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Margarethe Manassewitsch", "Irene Mandl"]
       }
       }, 
     {
@@ -459,7 +468,8 @@
          "importance": "1", 
         "wikidata": "http://www.wikidata.org/entity/Q105089833", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Jakob Wassermann"]
       }
       }, 
     {
@@ -476,7 +486,8 @@
          "timestamp": ["1908-06-02"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
       }
       }, 
     {
@@ -512,7 +523,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Villa_Trebitsch", 
         "wikidata": "http://www.wikidata.org/entity/Q1335564", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Siegfried Trebitsch"]
       }
       }, 
     {
@@ -675,7 +687,8 @@
          "timestamp": ["1908-06-23", "1908-06-24", "1908-06-25", "1908-06-26"],
          "importance": "4", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": ["Michael Honeck"]
       }
       }, 
     {
@@ -727,6 +740,23 @@
          "importance": "1", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.562957, 46.543823]
+      },
+      "properties": {
+         "id": "pmb247333",
+         "title": "Hotel und Pension Laurin",
+         "lat": "46.543823",
+         "lon": "11.562957",
+         "timestamp": ["1908-06-24"],
+         "importance": "1", 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       }, 
     {

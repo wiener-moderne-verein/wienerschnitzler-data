@@ -185,7 +185,8 @@
          "timestamp": ["1914-11-14"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
       }
       }, 
     {
@@ -219,7 +220,9 @@
          "timestamp": ["1914-11-01", "1914-11-02", "1914-11-03", "1914-11-04", "1914-11-05", "1914-11-06", "1914-11-07", "1914-11-08", "1914-11-09", "1914-11-10", "1914-11-11", "1914-11-12", "1914-11-13", "1914-11-14", "1914-11-15", "1914-11-16", "1914-11-17", "1914-11-18", "1914-11-19", "1914-11-20", "1914-11-21", "1914-11-22", "1914-11-23", "1914-11-24", "1914-11-25", "1914-11-26", "1914-11-27", "1914-11-28", "1914-11-29", "1914-11-30"],
          "importance": "30", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
     {
@@ -243,6 +246,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.351291, 48.248146]
+      },
+      "properties": {
+         "id": "pmb248458",
+         "title": "Silbergasse 42",
+         "lat": "48.248146",
+         "lon": "16.351291",
+         "timestamp": ["1914-11-09"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Helene Piekarski", "Eugenie Bachrach", "Stefanie Bachrach"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -253,7 +274,8 @@
          "timestamp": ["1914-11-13", "1914-11-26"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
       }
       }, 
     {

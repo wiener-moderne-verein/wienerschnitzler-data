@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.35736, 48.21533], 
+            [16.345344, 48.234189], 
             [16.33472, 48.2304]
           ]
       },
@@ -28,7 +29,27 @@
          "timestamp": ["1909-02-05"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.345344, 48.234189]
+      },
+      "properties": {
+         "id": "pmb248320",
+         "title": "Felix-Mottl-Straße 15",
+         "lat": "48.234189",
+         "lon": "16.345344",
+         "timestamp": ["1909-02-05"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Ferdinande Schmittlein", "Heinrich Prechtler"]
       }
       },
     {
@@ -45,7 +66,8 @@
          "timestamp": ["1909-02-05"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }
   ]

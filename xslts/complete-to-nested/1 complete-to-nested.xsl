@@ -5,7 +5,7 @@
     exclude-result-prefixes="xs math" version="3.0">
     <xsl:mode on-no-match="shallow-copy" />
     <xsl:output indent="true"/>
-    <xsl:param name="partOf" select="document('../../input-data/partOf.xml')"/>
+    <xsl:param name="partOf" select="document('../../data/indices/partOf.xml')"/>
     <!-- Das ist eine schwierige, mehrstufige Transformation, um die Hierarche aus der
     PMB ordentlich umzusetzen, also dass Wien -> Innere Stadt -> Burggasse -> Ordination
     entsteht. 

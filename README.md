@@ -14,7 +14,8 @@ The repository includes three XML files containing the complete data ('./data/ed
 * __wienerschnitzler_complete_nested.xml__: Similar to the main file, but with nested structures. For example, the Vienna Ferris Wheel is nested within the Wurstelprater, which is nested within the Prater, which is located in the 2nd district. Only mentioned places are included in the hierarchy; if the Wurstelprater is not explicitly mentioned on a given day, it will not appear in the hierarchy of the Ferris Wheel.
 * __wienerschnitzler_distinctPlaces.xml__: This is a transformation listing all places visited by Schnitzler, with the corresponding days as child elements.
 
-In the folder ('./data/indices/') is __listplace.xml__ – an abbreviated version of the file with the same name that can be found in './input-data/'. 
+In the folder ('./data/indices/') is __listplace.xml__ – an abbreviated version of the file with the same name that can be found in './input-data/'. In the same folder __partOf.xml__ contains information regarding places and the bigger entities they belong to (i.e. Vienna is part of Austria). The file __living-working-in.xml__ collects names of people that lived or worked in a house at a point in time.
+
 
 ## geoJSON Data
 
@@ -35,9 +36,10 @@ Additionally, there are complete geoJSON files:
 
 The main source for all the data is PMB – Personen der Moderne Basis, https://pmb.acdh.oeaw.ac.at/ – and more specifically https://pmb.acdh.oeaw.ac.at/media/
 
-Running `python3 fetch-data-from-pmb.py` fetches two files from PMB, immediately transforms them and stores them in `./input-data/`:
+Running `python3 fetch-data-from-pmb.py` fetches several files from PMB, immediately transforms them and stores them in `./input-data/`:
 * `listplace.xml` (main change: the attribute XML:id is changed from `place__XXXX` to `pmbXXXX`
-* `relations.xml` 
+* `living-working-in.xml`
+* `relations.xml`
 
 The latter file relations.xml is used to create the file `partOf.xml`. 
 
@@ -46,6 +48,7 @@ Now several XSL-Transformations have to take place, most of them in this order:
 * transform partOf.xml to the cleaner version (i.e. `<item id="142812">
          <contains id="29620"/>
       </item>)`
+* transform living-working-in.xml (this is slow as it fetches the names live from the PMB-website). It could be speeded up considerably if one would get the names out of the downloaded files itself but for exactness the slow process is preferable.
 * transform relations.xml to wienerschnitzler_complete.xml
 * transform wienerschnitzler_complete.xml to wienerschnitzler_complete_nested.xml (This has to be done in 2 steps: first run the transformation on the complete-file, then run the second transformation on the result complete_nested.xml-file)
 * transform wienerschnitzler_complete to wienerschnitzler_distinctPlaces

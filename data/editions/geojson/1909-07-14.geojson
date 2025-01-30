@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.76452, 47.67383], 
             [15.707639, 47.605239], 
-            [15.76452, 47.67383]
+            [16.379829498031, 48.187455471378], 
+            [16.33472, 48.2304], 
+            [16.336048, 48.232695]
           ]
       },
       "properties": {
@@ -47,6 +50,60 @@
         "geonames": "https://sws.geonames.org/2768379/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.336048, 48.232695]
+      },
+      "properties": {
+         "id": "pmb195024",
+         "title": "Holzers Restaurant",
+         "lat": "48.232695",
+         "lon": "16.336048",
+         "timestamp": ["1909-07-14"],
+         "importance": "1", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1909-07-14"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1909-07-14"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
       }
       }
   ]

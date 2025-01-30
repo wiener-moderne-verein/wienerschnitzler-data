@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.347492624475, 48.216264483348], 
+            [16.35736, 48.21533], 
             [16.33472, 48.2304]
           ]
       },
@@ -13,6 +15,43 @@
         "name": "28. Mai 1909"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1909-05-28"],
+         "importance": "1", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": ["Julius Schnitzler", "Anton Loew"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1909-05-28"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

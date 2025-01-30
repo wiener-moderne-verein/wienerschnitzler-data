@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33472, 48.2304]
+            [16.33472, 48.2304], 
+            [16.336048, 48.232695]
           ]
       },
       "properties": {
@@ -29,6 +30,23 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.336048, 48.232695]
+      },
+      "properties": {
+         "id": "pmb195024",
+         "title": "Holzers Restaurant",
+         "lat": "48.232695",
+         "lon": "16.336048",
+         "timestamp": ["1910-06-09"],
+         "importance": "1", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

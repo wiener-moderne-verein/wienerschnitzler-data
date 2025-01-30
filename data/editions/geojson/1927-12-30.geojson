@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.37354, 48.1948], 
+            [16.338015, 48.234046], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,24 @@
         "name": "30. Dezember 1927"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338015, 48.234046]
+      },
+      "properties": {
+         "id": "pmb185644",
+         "title": "Peregringasse 4",
+         "lat": "48.234046",
+         "lon": "16.338015",
+         "timestamp": ["1927-12-30"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Clara Katharina Pollaczek", "Louis Loeb"]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -30,6 +50,23 @@
         "type": "Wohngebäude", 
         "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37354, 48.1948]
+      },
+      "properties": {
+         "id": "pmb235885",
+         "title": "Phaidon Verlag",
+         "lat": "48.1948",
+         "lon": "16.37354",
+         "timestamp": ["1927-12-30"],
+         "importance": "1", 
+        "abbr": "Verlag", 
+        "type": ""
       }
       }
   ]

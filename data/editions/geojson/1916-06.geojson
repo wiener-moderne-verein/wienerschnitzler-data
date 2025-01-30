@@ -80,6 +80,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.25, 48.26667]
+      },
+      "properties": {
+         "id": "pmb44394",
+         "title": "Weidlingbach",
+         "lat": "48.26667",
+         "lon": "16.25",
+         "timestamp": ["1916-06-11", "1916-06-18", "1916-06-29"],
+         "importance": "3", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q12356726", 
+        "geonames": "https://sws.geonames.org/2761738/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33255, 48.27617]
       },
       "properties": {
@@ -132,6 +152,25 @@
          "importance": "1", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.401694, 48.213944]
+      },
+      "properties": {
+         "id": "pmb47",
+         "title": "Schweizerhaus",
+         "lat": "48.213944",
+         "lon": "16.401694",
+         "timestamp": ["1916-06-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schweizerhaus_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q876104", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
       }
       }, 
     {
@@ -466,7 +505,8 @@
          "timestamp": ["1916-06-15", "1916-06-16", "1916-06-21"],
          "importance": "3", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Siegfried Geyer"]
       }
       }, 
     {

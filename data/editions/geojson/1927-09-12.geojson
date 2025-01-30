@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [12.35, 45.38333], 
-            [12.338208333333334, 45.433675]
+            [12.33835, 45.43411], 
+            [12.338208333333334, 45.433675], 
+            [12.32798, 45.431245]
           ]
       },
       "properties": {
@@ -49,6 +51,45 @@
         "wikidata": "http://www.wikidata.org/entity/Q960610", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32798, 45.431245]
+      },
+      "properties": {
+         "id": "pmb43220",
+         "title": "Gallerie dell’Accademia",
+         "lat": "45.431245",
+         "lon": "12.32798",
+         "timestamp": ["1927-09-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Accademia_(Venedig)", 
+        "wikidata": "http://www.wikidata.org/entity/Q338330", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33835, 45.43411]
+      },
+      "properties": {
+         "id": "pmb261",
+         "title": "Piazza San Marco",
+         "lat": "45.43411",
+         "lon": "12.33835",
+         "timestamp": ["1927-09-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz", 
+        "wikidata": "http://www.wikidata.org/entity/Q217527", 
+        "geonames": "https://sws.geonames.org/3229870/", 
+        "abbr": "S.SQR", 
+        "type": "Platz"
       }
       }
   ]

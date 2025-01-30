@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.37208, 48.212786], 
+            [16.374825, 48.211649], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,24 @@
         "name": "5. Januar 1926"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37208, 48.212786]
+      },
+      "properties": {
+         "id": "pmb236816",
+         "title": "Fischerstiege 6",
+         "lat": "48.212786",
+         "lon": "16.37208",
+         "timestamp": ["1926-01-05"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Georg König", "Isidor Samuely", "Erna Fleischer", "Grete Jacques"]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -30,6 +50,25 @@
         "type": "Wohngebäude", 
         "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374825, 48.211649]
+      },
+      "properties": {
+         "id": "pmb233016",
+         "title": "Stadttempel",
+         "lat": "48.211649",
+         "lon": "16.374825",
+         "timestamp": ["1926-01-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stadttempel", 
+        "wikidata": "http://www.wikidata.org/entity/Q253663", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }
   ]

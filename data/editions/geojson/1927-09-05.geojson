@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [12.35, 45.38333], 
+            [12.32858, 45.43879], 
+            [12.32024, 45.44143], 
             [10.98444, 45.4299]
           ]
       },
@@ -50,6 +52,43 @@
         "geonames": "https://sws.geonames.org/3174748/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32024, 45.44143]
+      },
+      "properties": {
+         "id": "pmb850",
+         "title": "Stazione di Venezia Santa Lucia",
+         "lat": "45.44143",
+         "lon": "12.32024",
+         "timestamp": ["1927-09-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Venezia_Santa_Lucia", 
+        "wikidata": "http://www.wikidata.org/entity/Q801567", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32858, 45.43879]
+      },
+      "properties": {
+         "id": "pmb246661",
+         "title": "Campo Sant’Agostin 2545",
+         "lat": "45.43879",
+         "lon": "12.32858",
+         "timestamp": ["1927-09-05"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Arnoldo Cappellini", "Lilly Schnitzler"]
       }
       }
   ]

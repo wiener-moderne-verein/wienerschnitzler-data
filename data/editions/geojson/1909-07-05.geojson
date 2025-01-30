@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.707639, 47.605239]
+            [15.707639, 47.605239], 
+            [16.33472, 48.2304], 
+            [16.336048, 48.232695]
           ]
       },
       "properties": {
@@ -28,6 +30,41 @@
          "importance": "1", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1909-07-05"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.336048, 48.232695]
+      },
+      "properties": {
+         "id": "pmb195024",
+         "title": "Holzers Restaurant",
+         "lat": "48.232695",
+         "lon": "16.336048",
+         "timestamp": ["1909-07-05"],
+         "importance": "1", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

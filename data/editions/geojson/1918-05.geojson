@@ -44,6 +44,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.25, 48.26667]
+      },
+      "properties": {
+         "id": "pmb44394",
+         "title": "Weidlingbach",
+         "lat": "48.26667",
+         "lon": "16.25",
+         "timestamp": ["1918-05-09", "1918-05-12", "1918-05-20"],
+         "importance": "3", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q12356726", 
+        "geonames": "https://sws.geonames.org/2761738/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3566, 48.205142]
       },
       "properties": {
@@ -319,7 +339,8 @@
          "timestamp": ["1918-05-14"],
          "importance": "1", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Siegfried Geyer"]
       }
       }, 
     {

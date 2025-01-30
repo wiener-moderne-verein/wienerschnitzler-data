@@ -6,10 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.23036, 48.246719], 
+            [16.276509500872, 48.241960480337], 
             [16.33716, 48.23188], 
             [16.300034240016, 48.246838181084], 
-            [16.23036, 48.246719], 
-            [16.276509500872, 48.241960480337]
+            [16.25, 48.26667]
           ]
       },
       "properties": {
@@ -89,6 +90,26 @@
         "type": "Wohngebäude", 
         "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25, 48.26667]
+      },
+      "properties": {
+         "id": "pmb44394",
+         "title": "Weidlingbach",
+         "lat": "48.26667",
+         "lon": "16.25",
+         "timestamp": ["1916-06-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q12356726", 
+        "geonames": "https://sws.geonames.org/2761738/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.350819, 48.214295], 
+            [16.367295, 48.207185], 
             [16.35689, 48.21787], 
             [16.33716, 48.23188]
           ]
@@ -31,6 +33,42 @@
         "type": "Wohngebäude", 
         "wohnort": ["Gisela Hajek", "Markus Hajek"], 
         "arbeitsort": ["Markus Hajek"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367295, 48.207185]
+      },
+      "properties": {
+         "id": "pmb235837",
+         "title": "Reitschulgasse 2",
+         "lat": "48.207185",
+         "lon": "16.367295",
+         "timestamp": ["1926-01-12"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Viktor Eisenmenger", "Anna Eisenmenger"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1926-01-12"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Vilma Lichtenstern", "Robert Lichtenstern"]
       }
       },
     {

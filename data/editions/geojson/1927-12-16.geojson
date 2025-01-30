@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.37354, 48.1948], 
+            [16.361139, 48.210333], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,24 @@
         "name": "16. Dezember 1927"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1927-12-16"],
+         "importance": "1", 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -30,6 +50,23 @@
         "type": "Wohngebäude", 
         "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37354, 48.1948]
+      },
+      "properties": {
+         "id": "pmb235885",
+         "title": "Phaidon Verlag",
+         "lat": "48.1948",
+         "lon": "16.37354",
+         "timestamp": ["1927-12-16"],
+         "importance": "1", 
+        "abbr": "Verlag", 
+        "type": ""
       }
       }
   ]

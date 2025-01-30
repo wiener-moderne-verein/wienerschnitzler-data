@@ -6,7 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.41053, 52.52437]
+            [13.26586, 52.48338], 
+            [13.3915, 52.50095], 
+            [13.39333, 52.51483], 
+            [13.383456, 52.516152], 
+            [13.383456, 52.516152], 
+            [13.363698, 52.508221]
           ]
       },
       "properties": {
@@ -17,20 +22,111 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
+        "coordinates": [13.383456, 52.516152]
       },
       "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
+         "id": "pmb127",
+         "title": "Hotel Bristol Berlin",
+         "lat": "52.516152",
+         "lon": "13.383456",
          "timestamp": ["1927-12-05"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630839", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.39333, 52.51483]
+      },
+      "properties": {
+         "id": "pmb493",
+         "title": "Bank für Auswärtigen Handel",
+         "lat": "52.51483",
+         "lon": "13.39333",
+         "timestamp": ["1927-12-05"],
+         "importance": "1", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": ["Franz Karl Feilchenfeld"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.26586, 52.48338]
+      },
+      "properties": {
+         "id": "pmb129",
+         "title": "Grunewald",
+         "lat": "52.48338",
+         "lon": "13.26586",
+         "timestamp": ["1927-12-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Grunewald", 
+        "wikidata": "http://www.wikidata.org/entity/Q2874431", 
+        "geonames": "https://sws.geonames.org/2914210/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3915, 52.50095]
+      },
+      "properties": {
+         "id": "pmb246997",
+         "title": "Hegewald Film",
+         "lat": "52.50095",
+         "lon": "13.3915",
+         "timestamp": ["1927-12-05"],
+         "importance": "1", 
+        "abbr": "Filmproduktionsfirma", 
+        "type": "Filmproduktionsfirma"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.383456, 52.516152]
+      },
+      "properties": {
+         "id": "pmb127",
+         "title": "Hotel Bristol Berlin",
+         "lat": "52.516152",
+         "lon": "13.383456",
+         "timestamp": ["1927-12-05"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630839", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.363698, 52.508221]
+      },
+      "properties": {
+         "id": "pmb244585",
+         "title": "Stauffenbergstraße 36",
+         "lat": "52.508221",
+         "lon": "13.363698",
+         "timestamp": ["1927-12-05"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Eva Marie Goldmann", "Paul Goldmann"]
       }
       }
   ]

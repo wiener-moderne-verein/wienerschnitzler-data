@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.376804, 48.210822], 
             [16.33716, 48.23188]
           ]
       },
@@ -30,6 +31,23 @@
         "type": "Wohngebäude", 
         "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376804, 48.210822]
+      },
+      "properties": {
+         "id": "pmb247950",
+         "title": "H. J. Adutt [Teppichhandel]",
+         "lat": "48.210822",
+         "lon": "16.376804",
+         "timestamp": ["1927-12-22"],
+         "importance": "1", 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
       }
       }
   ]

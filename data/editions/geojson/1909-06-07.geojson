@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33472, 48.2304]
+            [16.33472, 48.2304], 
+            [16.30865, 48.291], 
+            [16.25, 48.26667]
           ]
       },
       "properties": {
@@ -29,6 +31,46 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30865, 48.291]
+      },
+      "properties": {
+         "id": "pmb44392",
+         "title": "Weidling",
+         "lat": "48.291",
+         "lon": "16.30865",
+         "timestamp": ["1909-06-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidling_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q484858", 
+        "geonames": "https://sws.geonames.org/2761741/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25, 48.26667]
+      },
+      "properties": {
+         "id": "pmb44394",
+         "title": "Weidlingbach",
+         "lat": "48.26667",
+         "lon": "16.25",
+         "timestamp": ["1909-06-07"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q12356726", 
+        "geonames": "https://sws.geonames.org/2761738/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

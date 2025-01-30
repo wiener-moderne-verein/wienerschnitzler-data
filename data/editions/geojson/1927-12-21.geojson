@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.37354, 48.1948], 
             [16.35689, 48.21787], 
             [16.33716, 48.23188]
           ]
@@ -50,6 +51,23 @@
         "type": "Wohngebäude", 
         "wohnort": ["Gisela Hajek", "Markus Hajek"], 
         "arbeitsort": ["Markus Hajek"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37354, 48.1948]
+      },
+      "properties": {
+         "id": "pmb235885",
+         "title": "Phaidon Verlag",
+         "lat": "48.1948",
+         "lon": "16.37354",
+         "timestamp": ["1927-12-21"],
+         "importance": "1", 
+        "abbr": "Verlag", 
+        "type": ""
       }
       }
   ]

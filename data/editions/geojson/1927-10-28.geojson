@@ -7,7 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.33716, 48.23188], 
-            [16.23036, 48.246719]
+            [16.23036, 48.246719], 
+            [16.16793, 48.24514]
           ]
       },
       "properties": {
@@ -50,6 +51,26 @@
         "type": "Wohngebäude", 
         "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.16793, 48.24514]
+      },
+      "properties": {
+         "id": "pmb942",
+         "title": "Mauerbach",
+         "lat": "48.24514",
+         "lon": "16.16793",
+         "timestamp": ["1927-10-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mauerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q700542", 
+        "geonames": "https://sws.geonames.org/2771785/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }
   ]

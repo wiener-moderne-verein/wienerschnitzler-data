@@ -1130,6 +1130,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.792916, 47.663198]
+      },
+      "properties": {
+         "id": "pmb250",
+         "title": "Orthof",
+         "lat": "47.663198",
+         "lon": "15.792916",
+         "timestamp": ["1922-07-20"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q77949768", 
+        "geonames": "https://sws.geonames.org/2769408/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.28606, 48.25849]
       },
       "properties": {
@@ -1317,25 +1336,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.792916, 47.663198]
-      },
-      "properties": {
-         "id": "pmb250",
-         "title": "Orthof",
-         "lat": "47.663198",
-         "lon": "15.792916",
-         "timestamp": ["1922-07-20"],
-         "importance": "1", 
-        "wikidata": "http://www.wikidata.org/entity/Q77949768", 
-        "geonames": "https://sws.geonames.org/2769408/", 
-        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -1496,7 +1496,8 @@
          "timestamp": ["1922-01-16", "1922-02-04", "1922-11-16", "1922-11-18"],
          "importance": "4", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": ["Siegfried Geyer"]
       }
       }, 
     {

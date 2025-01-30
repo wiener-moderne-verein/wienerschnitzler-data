@@ -396,6 +396,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1930-11-07", "1930-11-25", "1930-11-26", "1930-11-27", "1930-11-29", "1930-11-30"],
+         "importance": "6", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -488,24 +505,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.2743, 52.4907]
-      },
-      "properties": {
-         "id": "pmb233695",
-         "title": "Erdener Straße 6",
-         "lat": "52.4907",
-         "lon": "13.2743",
-         "timestamp": ["1930-11-16"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Samuel Fischer"]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.37675, 48.20762]
       },
       "properties": {
@@ -524,17 +523,91 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.333056, 48.233056]
+        "coordinates": [13.2743, 52.4907]
       },
       "properties": {
-         "id": "pmb61755",
-         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
-         "lat": "48.233056",
-         "lon": "16.333056",
-         "timestamp": ["1930-11-07", "1930-11-25", "1930-11-26", "1930-11-27", "1930-11-29", "1930-11-30"],
-         "importance": "6", 
-        "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+         "id": "pmb233695",
+         "title": "Erdener Straße 6",
+         "lat": "52.4907",
+         "lon": "13.2743",
+         "timestamp": ["1930-11-16"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Samuel Fischer"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3853, 52.4533]
+      },
+      "properties": {
+         "id": "pmb244563",
+         "title": "Ullsteinhaus",
+         "lat": "52.4533",
+         "lon": "13.3853",
+         "timestamp": ["1930-11-13", "1930-11-20"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ullsteinhaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q143984", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.39333, 52.51483]
+      },
+      "properties": {
+         "id": "pmb493",
+         "title": "Bank für Auswärtigen Handel",
+         "lat": "52.51483",
+         "lon": "13.39333",
+         "timestamp": ["1930-11-13"],
+         "importance": "1", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": ["Franz Karl Feilchenfeld"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.363698, 52.508221]
+      },
+      "properties": {
+         "id": "pmb244585",
+         "title": "Stauffenbergstraße 36",
+         "lat": "52.508221",
+         "lon": "13.363698",
+         "timestamp": ["1930-11-16"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Eva Marie Goldmann", "Paul Goldmann"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.293044, 52.465923]
+      },
+      "properties": {
+         "id": "pmb244580",
+         "title": "Miquelstraße 86",
+         "lat": "52.465923",
+         "lon": "13.293044",
+         "timestamp": ["1930-11-15"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Ludwig Fulda"]
       }
       }, 
     {
@@ -589,24 +662,6 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": ["Clara Katharina Pollaczek"]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.39333, 52.51483]
-      },
-      "properties": {
-         "id": "pmb493",
-         "title": "Bank für Auswärtigen Handel",
-         "lat": "52.51483",
-         "lon": "13.39333",
-         "timestamp": ["1930-11-13"],
-         "importance": "1", 
-        "abbr": "Bank (K.BNK)", 
-        "type": "Bank", 
-        "arbeitsort": ["Franz Karl Feilchenfeld"]
       }
       }, 
     {
@@ -701,25 +756,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.3853, 52.4533]
-      },
-      "properties": {
-         "id": "pmb244563",
-         "title": "Ullsteinhaus",
-         "lat": "52.4533",
-         "lon": "13.3853",
-         "timestamp": ["1930-11-13", "1930-11-20"],
-         "importance": "2", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Ullsteinhaus", 
-        "wikidata": "http://www.wikidata.org/entity/Q143984", 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.341373, 52.485146]
       },
       "properties": {
@@ -732,42 +768,6 @@
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
         "wohnort": ["Lili Kraus"]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.293044, 52.465923]
-      },
-      "properties": {
-         "id": "pmb244580",
-         "title": "Miquelstraße 86",
-         "lat": "52.465923",
-         "lon": "13.293044",
-         "timestamp": ["1930-11-15"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Ludwig Fulda"]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.363698, 52.508221]
-      },
-      "properties": {
-         "id": "pmb244585",
-         "title": "Stauffenbergstraße 36",
-         "lat": "52.508221",
-         "lon": "13.363698",
-         "timestamp": ["1930-11-16"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Eva Marie Goldmann", "Paul Goldmann"]
       }
       }, 
     {

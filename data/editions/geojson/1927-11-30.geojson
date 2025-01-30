@@ -6,14 +6,36 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.285098, 52.49074], 
+            [13.3915, 52.50095], 
             [13.392222, 52.513611], 
-            [13.390802, 52.515323]
+            [13.390802, 52.515323], 
+            [13.383456, 52.516152]
           ]
       },
       "properties": {
         "name": "30. November 1927"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.383456, 52.516152]
+      },
+      "properties": {
+         "id": "pmb127",
+         "title": "Hotel Bristol Berlin",
+         "lat": "52.516152",
+         "lon": "13.383456",
+         "timestamp": ["1927-11-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630839", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -51,6 +73,41 @@
         "wikidata": "http://www.wikidata.org/entity/Q1878005", 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3915, 52.50095]
+      },
+      "properties": {
+         "id": "pmb246997",
+         "title": "Hegewald Film",
+         "lat": "52.50095",
+         "lon": "13.3915",
+         "timestamp": ["1927-11-30"],
+         "importance": "1", 
+        "abbr": "Filmproduktionsfirma", 
+        "type": "Filmproduktionsfirma"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.285098, 52.49074]
+      },
+      "properties": {
+         "id": "pmb246987",
+         "title": "Hubertus Allee 24",
+         "lat": "52.49074",
+         "lon": "13.285098",
+         "timestamp": ["1927-11-30"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": ["Karl Michaelis", "Dora Michaelis"]
       }
       }
   ]

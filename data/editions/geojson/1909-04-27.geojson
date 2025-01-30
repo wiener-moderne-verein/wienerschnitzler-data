@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33472, 48.2304], 
-            [16.331527, 48.23428]
+            [16.3566, 48.205142], 
+            [16.37049, 48.20769], 
+            [16.331527, 48.23428], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
@@ -48,6 +50,47 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3566, 48.205142]
+      },
+      "properties": {
+         "id": "pmb20",
+         "title": "Volkstheater",
+         "lat": "48.205142",
+         "lon": "16.3566",
+         "timestamp": ["1909-04-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
+        "wikidata": "http://www.wikidata.org/entity/Q688555", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1909-04-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

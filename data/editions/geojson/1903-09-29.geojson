@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.283758, 48.1803], 
-            [16.283758, 48.1803], 
             [16.33472, 48.2304]
           ]
       },
@@ -15,24 +14,6 @@
         "name": "29. September 1903"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.283758, 48.1803]
-      },
-      "properties": {
-         "id": "pmb232311",
-         "title": "Münichreiterstraße 1",
-         "lat": "48.1803",
-         "lon": "16.283758",
-         "timestamp": ["1903-09-29"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Jakob Wassermann"]
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -48,7 +29,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {
@@ -66,7 +83,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Jakob Wassermann"]
+        "wohnort": [
+         {
+
+         "p_name": "Jakob Wassermann",
+
+         "p_id": "#13055"
+         }]
       }
       }
   ]

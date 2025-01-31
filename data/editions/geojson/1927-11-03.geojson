@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.35313, 48.21429], 
+            [16.34629, 48.236949], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,30 @@
         "name": "3. November 1927"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35313, 48.21429]
+      },
+      "properties": {
+         "id": "pmb42773",
+         "title": "Schlösselgasse",
+         "lat": "48.21429",
+         "lon": "16.35313",
+         "timestamp": ["1927-11-03"],
+         "importance": "1", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "wohnort": [
+         {
+
+         "p_name": "Lola Selliers von Moranville",
+
+         "p_id": "#24820"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,8 +54,68 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34629, 48.236949]
+      },
+      "properties": {
+         "id": "pmb248893",
+         "title": "Peter-Jordan-Straße 17",
+         "lat": "48.236949",
+         "lon": "16.34629",
+         "timestamp": ["1927-11-03"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Friedrich Otto Hertz",
+
+         "p_id": "#7805"
+         }]
       }
       }
   ]

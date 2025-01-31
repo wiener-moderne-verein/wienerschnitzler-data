@@ -7,35 +7,15 @@
         "type": "LineString", 
         "coordinates": [
             [16.32475, 48.19031], 
-            [16.32475, 48.19031], 
             [16.37196, 48.20143], 
-            [16.345977, 48.196907], 
-            [16.345983, 48.19692]
+            [16.345983, 48.19692], 
+            [16.345977, 48.196907]
           ]
       },
       "properties": {
         "name": "11. April 1891"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.32475, 48.19031]
-      },
-      "properties": {
-         "id": "pmb39",
-         "title": "Volkstheater in Rudolfsheim",
-         "lat": "48.19031",
-         "lon": "16.32475",
-         "timestamp": ["1891-04-11"],
-         "importance": "1", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Schwenders_Vergnügungsetablissement", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
-        "arbeitsort": ["Marie Pichler", "Pauline Czerniawski-Loewe"]
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -85,7 +65,49 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Leopold Rosenberg", "Arthur Schnitzler", "Julius Schnitzler", "Gisela Hajek", "Louise Schnitzler", "Johann Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Leopold Rosenberg",
+
+         "p_id": "#23573"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Johann Schnitzler",
+
+         "p_id": "#12695"
+         }], 
         "arbeitsort": [" ?? [Hausmeisterin von Kärntnerring 12/Bösendorferstraße 11]", " ?? [Hausmeister von Kärntnerring 12/Bösendorferstraße 11]"]
       }
       },

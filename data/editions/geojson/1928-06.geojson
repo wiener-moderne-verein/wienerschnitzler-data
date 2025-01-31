@@ -579,7 +579,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }], 
         "arbeitsort": ["Markus Hajek"]
       }
       }, 
@@ -617,7 +629,43 @@
          "importance": "21", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
@@ -636,7 +684,31 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -654,7 +726,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       }, 
     {
@@ -690,7 +774,36 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Viktor Eisenmenger", "Anna Eisenmenger"]
+        "wohnort": [
+         {
+
+         "p_name": "Viktor Eisenmenger",
+
+         "p_id": "#15782"
+         }, 
+         {
+
+         "p_name": "Anna Eisenmenger",
+
+         "p_id": "#15775"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1928-06-04", "1928-06-10"],
+         "importance": "2", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -714,24 +827,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.337998, 48.235859]
-      },
-      "properties": {
-         "id": "pmb232834",
-         "title": "Gregor-Mendel-Straße 50",
-         "lat": "48.235859",
-         "lon": "16.337998",
-         "timestamp": ["1928-06-04", "1928-06-10"],
-         "importance": "2", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Rosa Menczel", "Philipp Menczel"]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.36385, 48.20841]
       },
       "properties": {
@@ -743,7 +838,7 @@
          "importance": "1", 
         "abbr": "Regierungsgebäude (K.RGB)", 
         "type": "Regierungsgebäude", 
-        "arbeitsort": ["Ignaz Seipel"]
+        "arbeitsort": ["Ignaz Seipel", "Ignaz Seipel"]
       }
       }, 
     {
@@ -977,6 +1072,23 @@
          "importance": "1", 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.60294, 47.71587]
+      },
+      "properties": {
+         "id": "pmb248766",
+         "title": "Elisabeth-Waldweg",
+         "lat": "47.71587",
+         "lon": "13.60294",
+         "timestamp": ["1928-06-16"],
+         "importance": "1", 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
       }
       }, 
     {

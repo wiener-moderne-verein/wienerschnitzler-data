@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [14.399042, 50.079572], 
             [14.428996, 50.086417], 
-            [13.736206, 51.0549041]
+            [13.736206, 51.0549041], 
+            [13.731666666667, 51.040277777778]
           ]
       },
       "properties": {
@@ -36,6 +38,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [14.399042, 50.079572]
+      },
+      "properties": {
+         "id": "pmb92334",
+         "title": "Kinského zahrada",
+         "lat": "50.079572",
+         "lon": "14.399042",
+         "timestamp": ["1909-04-24"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q3510321", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.736206, 51.0549041]
       },
       "properties": {
@@ -49,6 +69,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q40161056", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.731666666667, 51.040277777778]
+      },
+      "properties": {
+         "id": "pmb248646",
+         "title": "Dresden Hauptbahnhof",
+         "lat": "51.040277777778",
+         "lon": "13.731666666667",
+         "timestamp": ["1909-04-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dresden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q704354", 
+        "geonames": "https://sws.geonames.org/8015333/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }
   ]

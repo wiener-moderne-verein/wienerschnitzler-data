@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.366827, 48.195902], 
-            [16.366827, 48.195902], 
             [16.365171, 48.203037], 
             [16.359871, 48.216988], 
             [16.3589854, 48.2139714], 
@@ -35,7 +34,13 @@
         "geonames": "https://www.geonames.org/12495678", 
         "abbr": "R.ST", 
         "type": "Straße", 
-        "wohnort": ["Arthur Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }]
       }
       },
     {
@@ -71,7 +76,25 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Simonetta Sandrock", "Wilhelmine Sandrock", "Adele Sandrock"]
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Simonetta Sandrock",
+
+         "p_id": "#2589"
+         }, 
+         {
+
+         "p_name": "Wilhelmine Sandrock",
+
+         "p_id": "#12621"
+         }, 
+         {
+
+         "p_name": "Adele Sandrock",
+
+         "p_id": "#12618"
+         }]
       }
       },
     {
@@ -95,24 +118,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.366827, 48.195902]
-      },
-      "properties": {
-         "id": "pmb92438",
-         "title": "Paulanergasse",
-         "lat": "48.195902",
-         "lon": "16.366827",
-         "timestamp": ["1893-10-24"],
-         "importance": "1", 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
-        "wohnort": ["Hedwig Keller"]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.359871, 48.216988]
       },
       "properties": {
@@ -124,7 +129,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Felix Salten"]
+        "wohnort": [
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }]
       }
       },
     {
@@ -142,7 +153,13 @@
          "importance": "1", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Hedwig Keller"]
+        "wohnort": [
+         {
+
+         "p_name": "Hedwig Keller",
+
+         "p_id": "#19250"
+         }]
       }
       }
   ]

@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.366111, 48.209167], 
-            [16.366111, 48.209167], 
             [16.33472, 48.2304]
           ]
       },
@@ -15,25 +14,6 @@
         "name": "21. Dezember 1908"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.366111, 48.209167]
-      },
-      "properties": {
-         "id": "pmb4",
-         "title": "Bösendorfer-Saal",
-         "lat": "48.209167",
-         "lon": "16.366111",
-         "timestamp": ["1908-12-21"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
-        "wikidata": "http://www.wikidata.org/entity/Q1020093", 
-        "abbr": "Veranstaltungsgebäude (K.VSB)", 
-        "type": "Veranstaltungsgebäude"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -49,7 +29,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {

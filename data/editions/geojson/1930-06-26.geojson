@@ -7,8 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.28466, 48.17032], 
-            [16.28466, 48.17032], 
-            [16.2996, 48.1827], 
             [16.2996, 48.1827], 
             [16.33716, 48.23188]
           ]
@@ -17,44 +15,6 @@
         "name": "26. Juni 1930"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.2996, 48.1827]
-      },
-      "properties": {
-         "id": "pmb246930",
-         "title": "Villa Siegfried Trebitsch",
-         "lat": "48.1827",
-         "lon": "16.2996",
-         "timestamp": ["1930-06-26"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Villa_Trebitsch", 
-        "wikidata": "http://www.wikidata.org/entity/Q1335564", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Siegfried Trebitsch"]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.28466, 48.17032]
-      },
-      "properties": {
-         "id": "pmb91784",
-         "title": "Speising",
-         "lat": "48.17032",
-         "lon": "16.28466",
-         "timestamp": ["1930-06-26"],
-         "importance": "1", 
-        "geonames": "https://sws.geonames.org/2764831/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -70,7 +30,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       },
@@ -91,7 +87,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q1335564", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Siegfried Trebitsch"]
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried Trebitsch",
+
+         "p_id": "#12968"
+         }]
       }
       },
     {

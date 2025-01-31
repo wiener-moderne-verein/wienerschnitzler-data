@@ -225,7 +225,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Clara Katharina Pollaczek", "Louis Loeb"]
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
+         }]
       }
       }, 
     {
@@ -299,8 +311,8 @@
          "timestamp": ["1928-08-17", "1928-08-18", "1928-08-19", "1928-08-20", "1928-08-21", "1928-08-22", "1928-08-23", "1928-08-24", "1928-08-25", "1928-08-26", "1928-08-27", "1928-08-28", "1928-08-29", "1928-08-30", "1928-08-31"],
          "importance": "15", 
         "geonames": "https://sws.geonames.org/2901486/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -347,6 +359,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [10.735277777778, 47.576666666667]
+      },
+      "properties": {
+         "id": "pmb169795",
+         "title": "Schwangau",
+         "lat": "47.576666666667",
+         "lon": "10.735277777778",
+         "timestamp": ["1928-08-17", "1928-08-18", "1928-08-19", "1928-08-20", "1928-08-21", "1928-08-22", "1928-08-23", "1928-08-24", "1928-08-25", "1928-08-26", "1928-08-27", "1928-08-28", "1928-08-29", "1928-08-30", "1928-08-31"],
+         "importance": "15", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwangau", 
+        "wikidata": "http://www.wikidata.org/entity/Q256547", 
+        "geonames": "https://sws.geonames.org/6557229/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -358,7 +390,43 @@
          "importance": "16", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
@@ -378,7 +446,19 @@
         "wikidata": "http://www.wikidata.org/entity/Q106194224", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Frieda Pollak", "Victor Zuckerkandl"]
+        "wohnort": [
+         {
+
+         "p_name": "Frieda Pollak",
+
+         "p_id": "#22728"
+         }, 
+         {
+
+         "p_name": "Victor Zuckerkandl",
+
+         "p_id": "#54787"
+         }]
       }
       }, 
     {

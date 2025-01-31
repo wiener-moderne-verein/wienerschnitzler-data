@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.351111, 48.209583], 
-            [16.351111, 48.209583], 
             [16.3747466, 48.2104057], 
             [16.33716, 48.23188]
           ]
@@ -37,25 +36,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.351111, 48.209583]
-      },
-      "properties": {
-         "id": "pmb40",
-         "title": "Theater in der Josefstadt",
-         "lat": "48.209583",
-         "lon": "16.351111",
-         "timestamp": ["1929-02-21"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
-        "wikidata": "http://www.wikidata.org/entity/Q167619", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -67,7 +47,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       },

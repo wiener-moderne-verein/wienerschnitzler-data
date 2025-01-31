@@ -8,7 +8,6 @@
         "coordinates": [
             [16.3642, 48.19941], 
             [16.371211, 48.206416], 
-            [16.371211, 48.206416], 
             [16.35736, 48.21533], 
             [16.33472, 48.2304]
           ]
@@ -17,24 +16,6 @@
         "name": "19. Mai 1906"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371211, 48.206416]
-      },
-      "properties": {
-         "id": "pmb96",
-         "title": "Meissl & Schadn",
-         "lat": "48.206416",
-         "lon": "16.371211",
-         "timestamp": ["1906-05-19"],
-         "importance": "1", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -67,7 +48,49 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
         "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       },
@@ -86,7 +109,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {

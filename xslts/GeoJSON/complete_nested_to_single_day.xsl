@@ -9,7 +9,8 @@
     <xsl:mode on-no-match="shallow-skip"/>
     <xsl:import href="./partial/geoJSON-punkt.xsl"/>
     <xsl:param name="listplace" select="document('../../data/indices/listplace.xml')"/>
-    <xsl:key name="listplace-lookup" match="tei:TEI/tei:text[1]/tei:body[1]/tei:listPlace[1]/tei:place" use="@xml:id"/>
+    <xsl:key name="listplace-lookup"
+        match="tei:TEI/tei:text[1]/tei:body[1]/tei:listPlace[1]/tei:place" use="@xml:id"/>
     <!-- Root template to start processing and generate output for each date -->
     <xsl:template match="/">
         <xsl:for-each select="/tei:TEI/descendant::tei:event[@when]">
@@ -48,14 +49,24 @@
                         </xsl:for-each>
                     </xsl:element>
                 </xsl:variable>
+                <xsl:variable name="full-listPlace-dublettenbereinigt" as="node()"><!-- Hier noch eine Schlaufe, damit Orte, die in mehreren
+                Bezirken liegen, nicht mehrfach kommen, z.B. Gallitzinberg -->
+                    <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:for-each
+                            select="$full-listPlace//tei:place[not(@xml:id = preceding-sibling::tei:place/@xml:id)]">
+                            <xsl:copy-of select="."/>
+                        </xsl:for-each>
+                    </xsl:element>
+                </xsl:variable>
                 <xsl:variable name="when" select="@when" as="xs:date"/>
                 <!-- Call the template to create the GeoJSON content for this event -->
                 <xsl:apply-templates select="tei:listPlace" mode="linestring">
-                    <xsl:with-param name="full-listPlace" select="$full-listPlace"/>
+                    <xsl:with-param name="full-listPlace-dublettenbereinigt"
+                        select="$full-listPlace-dublettenbereinigt"/>
                 </xsl:apply-templates>
                 <!-- für die Linien müssen alle Orte gemeinsam verarbeitet werden -->
                 <xsl:text>,</xsl:text>
-                <xsl:apply-templates select="$full-listPlace" mode="point">
+                <xsl:apply-templates select="$full-listPlace-dublettenbereinigt" mode="point">
                     <xsl:with-param name="when" select="$when"/>
                 </xsl:apply-templates>
                 <xsl:text>&#10;  ]</xsl:text>
@@ -66,7 +77,7 @@
     <!-- ## place -->
     <xsl:template match="tei:place[tei:location[@type = 'coords']/tei:geo]" mode="point">
         <xsl:param name="when"/>
-        <xsl:value-of select="mam:macht-punkt(., 'day', xs:string($when),  xs:string($when))"/>
+        <xsl:value-of select="mam:macht-punkt(., 'day', xs:string($when), xs:string($when))"/>
         <xsl:if test="following-sibling::tei:place[tei:location[@type = 'coords']/tei:geo]">
             <xsl:text>,</xsl:text>
         </xsl:if>
@@ -75,25 +86,25 @@
     <!-- das haut Orte ohne Koordinaten raus -->
     <!-- ## listPlace  -->
     <xsl:template match="tei:event/tei:listPlace" mode="linestring">
-        <xsl:param name="full-listPlace" as="node()"/>
+        <xsl:param name="full-listPlace-dublettenbereinigt" as="node()"/>
         <!-- Add a comma before every feature except the first one -->
         <xsl:if test="position() > 1"> </xsl:if>
         <xsl:choose>
-            <xsl:when test="$full-listPlace//tei:place">
+            <xsl:when test="$full-listPlace-dublettenbereinigt//tei:place">
                 <xsl:text>&#10;    {</xsl:text>
                 <xsl:text>&#10;      "type": "Feature", </xsl:text>
                 <xsl:text>&#10;      "geometry": {</xsl:text>
                 <xsl:text>&#10;        "type": "LineString", </xsl:text>
                 <xsl:text>&#10;        "coordinates": [</xsl:text>
                 <xsl:variable name="latitudes" as="xs:double*"
-                    select="$full-listPlace//tei:location[@type = 'coords']/tei:geo/number(replace(substring-before(., ' '), ',', '.'))"/>
+                    select="$full-listPlace-dublettenbereinigt//tei:location[@type = 'coords']/tei:geo/number(replace(substring-before(., ' '), ',', '.'))"/>
                 <xsl:variable name="longitudes" as="xs:double*"
-                    select="$full-listPlace//tei:location[@type = 'coords']/tei:geo/number(replace(substring-after(., ' '), ',', '.'))"/>
+                    select="$full-listPlace-dublettenbereinigt//tei:location[@type = 'coords']/tei:geo/number(replace(substring-after(., ' '), ',', '.'))"/>
                 <xsl:variable name="avg-lat" as="xs:double" select="avg($latitudes)"/>
                 <xsl:variable name="avg-lon" as="xs:double" select="avg($longitudes)"/>
                 <!-- Process points and sort them based on the calculated angle -->
                 <xsl:for-each
-                    select="$full-listPlace/tei:place[descendant::tei:location[@type = 'coords']/tei:geo]">
+                    select="$full-listPlace-dublettenbereinigt/tei:place[descendant::tei:location[@type = 'coords']/tei:geo]">
                     <!-- Sort the points by angle -->
                     <xsl:sort select="
                             math:atan2(
@@ -164,7 +175,8 @@
         <xsl:param name="corresp" as="xs:string"/>
         <xsl:variable name="corresp-clean" as="xs:string"
             select="concat('pmb', replace(replace($corresp, '#', ''), 'pmb', ''))"/>
-        <xsl:variable name="lookup" select="key('listplace-lookup', $corresp-clean, $listplace)" as="node()?"/>
+        <xsl:variable name="lookup" select="key('listplace-lookup', $corresp-clean, $listplace)"
+            as="node()?"/>
         <xsl:choose>
             <xsl:when
                 test="$lookup/tei:location[@type = 'coords'][1]/tei:geo[not(normalize-space(.) = '')]">

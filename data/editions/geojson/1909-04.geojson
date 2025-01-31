@@ -279,7 +279,49 @@
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
         "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
@@ -335,7 +377,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Adolf von Sonnenthal"]
+        "wohnort": [
+         {
+
+         "p_name": "Adolf von Sonnenthal",
+
+         "p_id": "#12809"
+         }]
       }
       }, 
     {
@@ -382,6 +430,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [14.397222, 50.089444]
+      },
+      "properties": {
+         "id": "pmb33910",
+         "title": "Hradčany",
+         "lat": "50.089444",
+         "lon": "14.397222",
+         "timestamp": ["1909-04-23"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hrad%C4%8Dany_(Prag)", 
+        "wikidata": "http://www.wikidata.org/entity/Q744598", 
+        "geonames": "https://sws.geonames.org/3074982/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.365508, 48.200364]
       },
       "properties": {
@@ -412,7 +480,43 @@
          "importance": "26", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }, 
     {
@@ -574,6 +678,116 @@
         "geonames": "https://sws.geonames.org/2762462/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.102901, 47.935724]
+      },
+      "properties": {
+         "id": "pmb248565",
+         "title": "Pension Veitsau",
+         "lat": "47.935724",
+         "lon": "16.102901",
+         "timestamp": ["1909-04-18"],
+         "importance": "1", 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.405416666667, 50.093611111111]
+      },
+      "properties": {
+         "id": "pmb248575",
+         "title": "Letohrádek královny Anny",
+         "lat": "50.093611111111",
+         "lon": "14.405416666667",
+         "timestamp": ["1909-04-23"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lusthaus_der_K%C3%B6nigin_Anna", 
+        "wikidata": "http://www.wikidata.org/entity/Q2424070", 
+        "geonames": "https://sws.geonames.org/6951661/", 
+        "abbr": "S.CSTL", 
+        "type": "Burg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.399042, 50.079572]
+      },
+      "properties": {
+         "id": "pmb92334",
+         "title": "Kinského zahrada",
+         "lat": "50.079572",
+         "lon": "14.399042",
+         "timestamp": ["1909-04-24"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q3510321", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.731666666667, 51.040277777778]
+      },
+      "properties": {
+         "id": "pmb248646",
+         "title": "Dresden Hauptbahnhof",
+         "lat": "51.040277777778",
+         "lon": "13.731666666667",
+         "timestamp": ["1909-04-24", "1909-04-25"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dresden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q704354", 
+        "geonames": "https://sws.geonames.org/8015333/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.734229, 51.036259]
+      },
+      "properties": {
+         "id": "pmb248643",
+         "title": "Savoy Hotel Albertshof",
+         "lat": "51.036259",
+         "lon": "13.734229",
+         "timestamp": ["1909-04-25"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130418332", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359675, 48.201051]
+      },
+      "properties": {
+         "id": "pmb248651",
+         "title": "Rosa Prazak, Damen-Modesalon",
+         "lat": "48.201051",
+         "lon": "16.359675",
+         "timestamp": ["1909-04-27"],
+         "importance": "1", 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
       }
       }
   ]

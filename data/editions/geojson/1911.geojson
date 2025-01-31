@@ -701,7 +701,49 @@
          "importance": "20", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
         "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
@@ -1039,7 +1081,7 @@
          "importance": "4", 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
-        "arbeitsort": ["Julius Schnitzler", "Anton Loew"]
+        "arbeitsort": ["Julius Schnitzler", "Anton Loew", "Julius Schnitzler"]
       }
       }, 
     {
@@ -1093,6 +1135,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q18042645", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.397222, 50.089444]
+      },
+      "properties": {
+         "id": "pmb33910",
+         "title": "Hradčany",
+         "lat": "50.089444",
+         "lon": "14.397222",
+         "timestamp": ["1911-05-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hrad%C4%8Dany_(Prag)", 
+        "wikidata": "http://www.wikidata.org/entity/Q744598", 
+        "geonames": "https://sws.geonames.org/3074982/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }, 
     {
@@ -1206,7 +1268,19 @@
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       }, 
     {
@@ -1541,7 +1615,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Otto Brahm"]
+        "wohnort": [
+         {
+
+         "p_name": "Otto Brahm",
+
+         "p_id": "#10986"
+         }]
       }
       }, 
     {
@@ -1635,7 +1715,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Helene Schnitzler", "Julius Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -1691,7 +1783,31 @@
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
+        "wohnort": [
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
       }
       }, 
     {
@@ -1727,7 +1843,19 @@
          "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
       }
       }, 
     {
@@ -1745,7 +1873,19 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Else Speidel-Haeberle", "Felix Speidel"]
+        "wohnort": [
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }]
       }
       }, 
     {
@@ -1782,7 +1922,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Raoul Auernheimer", "Irene Auernheimer"]
+        "wohnort": [
+         {
+
+         "p_name": "Raoul Auernheimer",
+
+         "p_id": "#10788"
+         }, 
+         {
+
+         "p_name": "Irene Auernheimer",
+
+         "p_id": "#3223"
+         }]
       }
       }, 
     {
@@ -1874,7 +2026,19 @@
          "importance": "10", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }], 
         "arbeitsort": ["Markus Hajek"]
       }
       }, 
@@ -1928,7 +2092,49 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Carl Kunn"]
+        "wohnort": [
+         {
+
+         "p_name": "Carl Kunn",
+
+         "p_id": "#19843"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.4306, 48.2281]
+      },
+      "properties": {
+         "id": "pmb249322",
+         "title": "Gänsehäufel",
+         "lat": "48.2281",
+         "lon": "16.4306",
+         "timestamp": ["1911-07-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/G%C3%A4nseh%C3%A4ufel", 
+        "wikidata": "http://www.wikidata.org/entity/Q23256", 
+        "abbr": "Schwimmbad (K.BAD)", 
+        "type": "Schwimmbad"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.82878, 47.65337]
+      },
+      "properties": {
+         "id": "pmb82",
+         "title": "Doppelreiterkogel",
+         "lat": "47.65337",
+         "lon": "15.82878",
+         "timestamp": ["1911-06-30"],
+         "importance": "1", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
       }
       }, 
     {
@@ -1982,7 +2188,43 @@
          "importance": "259", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 

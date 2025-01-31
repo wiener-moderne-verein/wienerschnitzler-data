@@ -10,7 +10,6 @@
             [16.375811, 48.203191], 
             [16.380897, 48.208627], 
             [16.391263, 48.206662], 
-            [16.391263, 48.206662], 
             [16.368738, 48.213038], 
             [16.33472, 48.2304]
           ]
@@ -19,23 +18,6 @@
         "name": "4. April 1907"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.391263, 48.206662]
-      },
-      "properties": {
-         "id": "pmb107",
-         "title": "Sofiensäle",
-         "lat": "48.206662",
-         "lon": "16.391263",
-         "timestamp": ["1907-04-04"],
-         "importance": "1", 
-        "abbr": "Veranstaltungsgebäude (K.VSB)", 
-        "type": "Veranstaltungsgebäude"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -51,7 +33,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       },
     {
@@ -86,7 +80,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Helene Schnitzler", "Julius Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       },
     {
@@ -123,7 +129,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {

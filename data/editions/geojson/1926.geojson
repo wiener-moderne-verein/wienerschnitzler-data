@@ -747,11 +747,23 @@
          "title": "Peregringasse 4",
          "lat": "48.234046",
          "lon": "16.338015",
-         "timestamp": ["1926-01-10", "1926-02-01", "1926-03-10", "1926-03-29", "1926-06-19", "1926-10-17", "1926-11-08", "1926-11-13", "1926-11-24", "1926-12-04"],
-         "importance": "10", 
+         "timestamp": ["1926-01-10", "1926-01-23", "1926-01-28", "1926-01-31", "1926-02-01", "1926-02-04", "1926-03-10", "1926-03-29", "1926-06-19", "1926-10-17", "1926-11-08", "1926-11-13", "1926-11-24", "1926-12-04"],
+         "importance": "14", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Clara Katharina Pollaczek", "Louis Loeb"]
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
+         }]
       }
       }, 
     {
@@ -842,7 +854,7 @@
          "importance": "1", 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
-        "arbeitsort": ["Julius Schnitzler", "Anton Loew"]
+        "arbeitsort": ["Julius Schnitzler", "Anton Loew", "Julius Schnitzler"]
       }
       }, 
     {
@@ -1407,7 +1419,31 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Georg König", "Isidor Samuely", "Erna Fleischer", "Grete Jacques"]
+        "wohnort": [
+         {
+
+         "p_name": "Georg König",
+
+         "p_id": "#19928"
+         }, 
+         {
+
+         "p_name": "Isidor Samuely",
+
+         "p_id": "#23947"
+         }, 
+         {
+
+         "p_name": "Erna Fleischer",
+
+         "p_id": "#16323"
+         }, 
+         {
+
+         "p_name": "Grete Jacques",
+
+         "p_id": "#18743"
+         }]
       }
       }, 
     {
@@ -1442,7 +1478,19 @@
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
       }
       }, 
     {
@@ -1468,6 +1516,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1926-09-28"],
+         "importance": "1", 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.2996, 48.1827]
       },
       "properties": {
@@ -1481,7 +1546,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q1335564", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Siegfried Trebitsch"]
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried Trebitsch",
+
+         "p_id": "#12968"
+         }]
       }
       }, 
     {
@@ -1537,7 +1608,19 @@
          "importance": "20", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }], 
         "arbeitsort": ["Markus Hajek"]
       }
       }, 
@@ -1628,7 +1711,43 @@
          "importance": "267", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
@@ -1665,7 +1784,31 @@
          "importance": "14", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -1700,7 +1843,19 @@
          "importance": "19", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       }, 
     {
@@ -1718,7 +1873,13 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Berta Zuckerkandl"]
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
       }
       }, 
     {
@@ -1757,6 +1918,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q2249189", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3534843, 48.2123639]
+      },
+      "properties": {
+         "id": "pmb585",
+         "title": "Hotel Hammerand",
+         "lat": "48.2123639",
+         "lon": "16.3534843",
+         "timestamp": ["1926-01-19", "1926-01-21", "1926-01-29", "1926-01-31", "1926-02-03"],
+         "importance": "5", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Hotel_Hammerand", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -1837,6 +2016,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.364281, 48.202866]
+      },
+      "properties": {
+         "id": "pmb186043",
+         "title": "Elisabethstraße 22",
+         "lat": "48.202866",
+         "lon": "16.364281",
+         "timestamp": ["1926-01-18"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Werfel",
+
+         "p_id": "#13094"
+         }, 
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.318595, 52.51421]
       },
       "properties": {
@@ -1868,7 +2077,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q131720045", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Ernst Benedikt"]
+        "wohnort": [
+         {
+
+         "p_name": "Ernst Benedikt",
+
+         "p_id": "#10872"
+         }]
       }
       }, 
     {
@@ -1899,8 +2114,8 @@
          "title": "Restaurant Toni Ott",
          "lat": "48.212483",
          "lon": "16.363758",
-         "timestamp": ["1926-01-08", "1926-02-19", "1926-04-12"],
-         "importance": "3", 
+         "timestamp": ["1926-01-08", "1926-01-31", "1926-02-19", "1926-04-12"],
+         "importance": "4", 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal", 
         "arbeitsort": ["Antonie Ott"]
@@ -1936,11 +2151,23 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1926-01-03", "1926-01-06", "1926-01-08", "1926-01-12"],
-         "importance": "4", 
+         "timestamp": ["1926-01-03", "1926-01-06", "1926-01-08", "1926-01-12", "1926-01-14", "1926-01-17", "1926-01-19", "1926-01-22", "1926-01-26", "1926-01-27", "1926-01-29", "1926-01-30", "1926-02-03", "1926-02-05"],
+         "importance": "14", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Vilma Lichtenstern", "Robert Lichtenstern"]
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
       }
       }, 
     {
@@ -1966,6 +2193,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.377292, 48.198683]
+      },
+      "properties": {
+         "id": "pmb249182",
+         "title": "Schwarzenbergplatz 7",
+         "lat": "48.198683",
+         "lon": "16.377292",
+         "timestamp": ["1926-01-05"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rudolf Steiner",
+
+         "p_id": "#25410"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37675, 48.20762]
       },
       "properties": {
@@ -1977,7 +2228,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Josef Peter"]
+        "wohnort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
       }
       }, 
     {
@@ -1991,11 +2248,23 @@
          "title": "Reitschulgasse 2",
          "lat": "48.207185",
          "lon": "16.367295",
-         "timestamp": ["1926-01-12"],
-         "importance": "1", 
+         "timestamp": ["1926-01-12", "1926-01-27"],
+         "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Viktor Eisenmenger", "Anna Eisenmenger"]
+        "wohnort": [
+         {
+
+         "p_name": "Viktor Eisenmenger",
+
+         "p_id": "#15782"
+         }, 
+         {
+
+         "p_name": "Anna Eisenmenger",
+
+         "p_id": "#15775"
+         }]
       }
       }, 
     {
@@ -2013,6 +2282,105 @@
          "importance": "1", 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35113, 48.190969]
+      },
+      "properties": {
+         "id": "pmb245453",
+         "title": "Mollardgasse 26",
+         "lat": "48.190969",
+         "lon": "16.35113",
+         "timestamp": ["1926-01-13"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1926-01-16", "1926-01-21", "1926-01-23", "1926-01-24"],
+         "importance": "4", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363197, 48.216829]
+      },
+      "properties": {
+         "id": "pmb235827",
+         "title": "Hörlgasse 14",
+         "lat": "48.216829",
+         "lon": "16.363197",
+         "timestamp": ["1926-01-23"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Frieda Pollak",
+
+         "p_id": "#22728"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377453, 48.193825]
+      },
+      "properties": {
+         "id": "pmb249285",
+         "title": "Prinz-Eugen-Straße 30",
+         "lat": "48.193825",
+         "lon": "16.377453",
+         "timestamp": ["1926-01-26"],
+         "importance": "1", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357769, 48.219065]
+      },
+      "properties": {
+         "id": "pmb249299",
+         "title": "Währinger Straße 30",
+         "lat": "48.219065",
+         "lon": "16.357769",
+         "timestamp": ["1926-01-29"],
+         "importance": "1", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }, 
     {
@@ -2049,7 +2417,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Louis Philipp Friedmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Louis Philipp Friedmann",
+
+         "p_id": "#16658"
+         }]
       }
       }, 
     {
@@ -3005,7 +3379,19 @@
         "wikidata": "http://www.wikidata.org/entity/Q1557494", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Franziska Goldmann", "Paul Goldmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Franziska Goldmann",
+
+         "p_id": "#17167"
+         }, 
+         {
+
+         "p_name": "Paul Goldmann",
+
+         "p_id": "#11485"
+         }]
       }
       }
   ]

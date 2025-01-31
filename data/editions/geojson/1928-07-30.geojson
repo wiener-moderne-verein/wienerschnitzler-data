@@ -7,7 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [12.33517, 45.4321], 
-            [12.3374184, 45.4341861]
+            [12.3374184, 45.4341861], 
+            [12.32858, 45.43879]
           ]
       },
       "properties": {
@@ -46,6 +47,36 @@
          "importance": "1", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32858, 45.43879]
+      },
+      "properties": {
+         "id": "pmb246661",
+         "title": "Campo Sant’Agostin 2545",
+         "lat": "45.43879",
+         "lon": "12.32858",
+         "timestamp": ["1928-07-30"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Arnoldo Cappellini",
+
+         "p_id": "#14850"
+         }, 
+         {
+
+         "p_name": "Lilly Schnitzler",
+
+         "p_id": "#3233"
+         }]
       }
       }
   ]

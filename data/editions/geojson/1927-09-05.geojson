@@ -6,10 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [10.98444, 45.4299], 
             [12.35, 45.38333], 
             [12.32858, 45.43879], 
             [12.32024, 45.44143], 
-            [10.98444, 45.4299]
+            [12.24538, 45.49167]
           ]
       },
       "properties": {
@@ -77,6 +78,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.24538, 45.49167]
+      },
+      "properties": {
+         "id": "pmb91237",
+         "title": "Mestre",
+         "lat": "45.49167",
+         "lon": "12.24538",
+         "timestamp": ["1927-09-05"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3173529/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.32858, 45.43879]
       },
       "properties": {
@@ -88,7 +107,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Arnoldo Cappellini", "Lilly Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Arnoldo Cappellini",
+
+         "p_id": "#14850"
+         }, 
+         {
+
+         "p_name": "Lilly Schnitzler",
+
+         "p_id": "#3233"
+         }]
       }
       }
   ]

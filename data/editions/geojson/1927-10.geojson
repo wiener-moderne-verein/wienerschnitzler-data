@@ -242,7 +242,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Clara Katharina Pollaczek", "Louis Loeb"]
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
+         }]
       }
       }, 
     {
@@ -260,7 +272,7 @@
          "importance": "1", 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
-        "arbeitsort": ["Julius Schnitzler", "Anton Loew"]
+        "arbeitsort": ["Julius Schnitzler", "Anton Loew", "Julius Schnitzler"]
       }
       }, 
     {
@@ -356,7 +368,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q1335564", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Siegfried Trebitsch"]
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried Trebitsch",
+
+         "p_id": "#12968"
+         }]
       }
       }, 
     {
@@ -374,7 +392,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }], 
         "arbeitsort": ["Markus Hajek"]
       }
       }, 
@@ -393,7 +423,43 @@
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
@@ -429,7 +495,31 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -447,7 +537,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Berta Zuckerkandl"]
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
       }
       }, 
     {
@@ -485,7 +581,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q131720045", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Ernst Benedikt"]
+        "wohnort": [
+         {
+
+         "p_name": "Ernst Benedikt",
+
+         "p_id": "#10872"
+         }]
       }
       }, 
     {
@@ -503,7 +605,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Vilma Lichtenstern", "Robert Lichtenstern"]
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
       }
       }, 
     {
@@ -521,25 +635,54 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Josef Peter"]
+        "wohnort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
       }
       }, 
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.337998, 48.235859]
+        "coordinates": [16.35113, 48.190969]
       },
       "properties": {
-         "id": "pmb232834",
-         "title": "Gregor-Mendel-Straße 50",
-         "lat": "48.235859",
-         "lon": "16.337998",
+         "id": "pmb245453",
+         "title": "Mollardgasse 26",
+         "lat": "48.190969",
+         "lon": "16.35113",
+         "timestamp": ["1927-10-12"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
          "timestamp": ["1927-10-07", "1927-10-30"],
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Rosa Menczel", "Philipp Menczel"]
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -558,24 +701,6 @@
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude", 
         "arbeitsort": ["Josef Peter"]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.35113, 48.190969]
-      },
-      "properties": {
-         "id": "pmb245453",
-         "title": "Mollardgasse 26",
-         "lat": "48.190969",
-         "lon": "16.35113",
-         "timestamp": ["1927-10-12"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Helene Binder"]
       }
       }, 
     {
@@ -634,6 +759,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36587, 48.221946]
+      },
+      "properties": {
+         "id": "pmb248874",
+         "title": "Illustrierte Kronen-Zeitung",
+         "lat": "48.221946",
+         "lon": "16.36587",
+         "timestamp": ["1927-10-25"],
+         "importance": "1", 
+        "abbr": "Redaktionsgebäude (K.RDK)", 
+        "type": "Redaktionsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.21667, 48.18333]
       },
       "properties": {
@@ -646,6 +788,26 @@
         "geonames": "https://sws.geonames.org/2601130/", 
         "abbr": "L.PRK", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.246169444444444, 48.170680555555556]
+      },
+      "properties": {
+         "id": "pmb248886",
+         "title": "Hermesvilla",
+         "lat": "48.170680555555556",
+         "lon": "16.246169444444444",
+         "timestamp": ["1927-10-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hermesvilla", 
+        "wikidata": "http://www.wikidata.org/entity/Q204129", 
+        "geonames": "https://sws.geonames.org/2601159/", 
+        "abbr": "S.HSE", 
+        "type": "Haus"
       }
       }
   ]

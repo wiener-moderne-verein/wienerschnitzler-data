@@ -12,9 +12,7 @@
             [16.33716, 48.23188], 
             [16.28610371233, 48.233119188484], 
             [16.258056, 48.201667], 
-            [16.258056, 48.201667], 
             [16.2911, 48.2553], 
-            [16.258244, 48.230796], 
             [16.258244, 48.230796]
           ]
       },
@@ -121,44 +119,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.258056, 48.201667]
-      },
-      "properties": {
-         "id": "pmb271",
-         "title": "Hütteldorf",
-         "lat": "48.201667",
-         "lon": "16.258056",
-         "timestamp": ["1931-05-16"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/H%C3%BCtteldorf", 
-        "wikidata": "http://www.wikidata.org/entity/Q1423660", 
-        "abbr": "eingemeindeter Ort (A.VOO)", 
-        "type": ""
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.258244, 48.230796]
-      },
-      "properties": {
-         "id": "pmb207323",
-         "title": "Schottenhof [Penzing]",
-         "lat": "48.230796",
-         "lon": "16.258244",
-         "timestamp": ["1931-05-16"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schottenhof_(Wienerwald)", 
-        "wikidata": "http://www.wikidata.org/entity/Q2249189", 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -170,7 +130,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       },

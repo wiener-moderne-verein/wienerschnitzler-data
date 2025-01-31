@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.289691, 48.185887], 
-            [16.289691, 48.185887], 
             [16.33472, 48.2304]
           ]
       },
@@ -15,24 +14,6 @@
         "name": "28. Februar 1909"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.289691, 48.185887]
-      },
-      "properties": {
-         "id": "pmb248365",
-         "title": "Elßlergasse 23",
-         "lat": "48.185887",
-         "lon": "16.289691",
-         "timestamp": ["1909-02-28"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Ernst König"]
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -48,7 +29,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {
@@ -66,7 +83,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Ernst König"]
+        "wohnort": [
+         {
+
+         "p_name": "Ernst König",
+
+         "p_id": "#248359"
+         }]
       }
       }
   ]

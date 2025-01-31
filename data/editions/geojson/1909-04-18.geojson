@@ -6,7 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.1, 47.93333], 
+            [16.102901, 47.935724], 
             [16.33472, 48.2304]
           ]
       },
@@ -18,18 +18,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.1, 47.93333]
+        "coordinates": [16.102901, 47.935724]
       },
       "properties": {
-         "id": "pmb91999",
-         "title": "Veitsau",
-         "lat": "47.93333",
-         "lon": "16.1",
+         "id": "pmb248565",
+         "title": "Pension Veitsau",
+         "lat": "47.935724",
+         "lon": "16.102901",
          "timestamp": ["1909-04-18"],
          "importance": "1", 
-        "geonames": "https://sws.geonames.org/2762462/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       },
     {
@@ -47,7 +46,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }
   ]

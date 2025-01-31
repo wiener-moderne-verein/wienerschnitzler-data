@@ -25,6 +25,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1909-10-25"],
+         "importance": "1", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.21359, 47.96533]
+      },
+      "properties": {
+         "id": "pmb992",
+         "title": "Bad Vöslau",
+         "lat": "47.96533",
+         "lon": "16.21359",
+         "timestamp": ["1909-10-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_V%C3%B6slau", 
+        "wikidata": "http://www.wikidata.org/entity/Q798800", 
+        "geonames": "https://sws.geonames.org/2782043/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23264, 48.00543]
+      },
+      "properties": {
+         "id": "pmb662",
+         "title": "Baden bei Wien",
+         "lat": "48.00543",
+         "lon": "16.23264",
+         "timestamp": ["1909-10-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Baden_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q486450", 
+        "geonames": "https://sws.geonames.org/2782067/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3566, 48.205142]
       },
       "properties": {
@@ -40,6 +97,26 @@
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37301, 48.20858]
+      },
+      "properties": {
+         "id": "pmb567",
+         "title": "Stephansdom",
+         "lat": "48.20858",
+         "lon": "16.37301",
+         "timestamp": ["1909-10-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stephansdom", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=17551", 
+        "wikidata": "http://www.wikidata.org/entity/Q5943", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }, 
     {
@@ -163,11 +240,53 @@
          "title": "Frankgasse 1",
          "lat": "48.21533",
          "lon": "16.35736",
-         "timestamp": ["1909-10-01", "1909-10-15"],
-         "importance": "2", 
+         "timestamp": ["1909-10-01", "1909-10-08", "1909-10-15"],
+         "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
         "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
@@ -194,17 +313,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373427, 48.209746]
+        "coordinates": [16.08085, 48.03953]
       },
       "properties": {
-         "id": "pmb246874",
-         "title": "Stefanskeller [II]",
-         "lat": "48.209746",
-         "lon": "16.373427",
-         "timestamp": ["1909-10-10"],
+         "id": "pmb90217",
+         "title": "Alland",
+         "lat": "48.03953",
+         "lon": "16.08085",
+         "timestamp": ["1909-10-03"],
          "importance": "1", 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "geonames": "https://sws.geonames.org/7872833/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3073, 48.2437]
+      },
+      "properties": {
+         "id": "pmb199644",
+         "title": "Geymüllerschlössel",
+         "lat": "48.2437",
+         "lon": "16.3073",
+         "timestamp": ["1909-10-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Geym%C3%BCllerschl%C3%B6ssel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1521129", 
+        "geonames": "https://sws.geonames.org/8604503/", 
+        "abbr": "S.MUS", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.352811, 48.210713]
+      },
+      "properties": {
+         "id": "pmb40511",
+         "title": "Sanatorium Fürth",
+         "lat": "48.210713",
+         "lon": "16.352811",
+         "timestamp": ["1909-10-11", "1909-10-18"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sanatorium_F%C3%BCrth", 
+        "wikidata": "http://www.wikidata.org/entity/Q38028257", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": ["Alby Fürth"]
       }
       }, 
     {
@@ -222,7 +382,43 @@
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }, 
     {
@@ -277,25 +473,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Helene Schnitzler", "Julius Schnitzler"]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.355118, 48.254547]
-      },
-      "properties": {
-         "id": "pmb237626",
-         "title": "Armbrustergasse 6",
-         "lat": "48.254547",
-         "lon": "16.355118",
-         "timestamp": ["1909-10-31"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Anna Katharina Rehmann", "Paul Salten", "Ottilie Salten", "Felix Salten"]
+        "wohnort": [
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -313,7 +503,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
       }
       }, 
     {
@@ -339,6 +541,89 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.1997724, 47.9782139]
+      },
+      "properties": {
+         "id": "pmb246543",
+         "title": "Waldandacht [Bad Vöslau]",
+         "lat": "47.9782139",
+         "lon": "16.1997724",
+         "timestamp": ["1909-10-03"],
+         "importance": "1", 
+        "abbr": "Monument (K.MON)", 
+        "type": "Monument"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1909-10-27", "1909-10-31"],
+         "importance": "2", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [" ?? [Haushaltshilfe der Familie Salten 1912]"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1909-10-05", "1909-10-18"],
+         "importance": "2", 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348104, 48.235011]
+      },
+      "properties": {
+         "id": "pmb247592",
+         "title": "Cottage-Lyzeum XIX., Gymnasiumstraße 79",
+         "lat": "48.235011",
+         "lon": "16.348104",
+         "timestamp": ["1909-10-21"],
+         "importance": "1", 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": ["Robert Martinek"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.369345, 48.207599]
       },
       "properties": {
@@ -350,6 +635,61 @@
          "importance": "1", 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.134898, 48.007491]
+      },
+      "properties": {
+         "id": "pmb249345",
+         "title": "Schutzhaus Eisernes Tor",
+         "lat": "48.007491",
+         "lon": "16.134898",
+         "timestamp": ["1909-10-03"],
+         "importance": "1", 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2425, 48.003889]
+      },
+      "properties": {
+         "id": "pmb249350",
+         "title": "Bahnhof Baden bei Wien",
+         "lat": "48.003889",
+         "lon": "16.2425",
+         "timestamp": ["1909-10-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365099999999998, 48.212019444444444]
+      },
+      "properties": {
+         "id": "pmb249361",
+         "title": "Schottenkirche",
+         "lat": "48.212019444444444",
+         "lon": "16.365099999999998",
+         "timestamp": ["1909-10-10"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schottenkirche_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q666817", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }, 
     {
@@ -368,6 +708,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q131719087", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.307608, 48.245007]
+      },
+      "properties": {
+         "id": "pmb249379",
+         "title": "Khevenhüllerstraße 8",
+         "lat": "48.245007",
+         "lon": "16.307608",
+         "timestamp": ["1909-10-28"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {

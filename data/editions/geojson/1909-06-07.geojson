@@ -7,7 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.33472, 48.2304], 
-            [16.30865, 48.291], 
+            [16.31221764, 48.29116535], 
             [16.25, 48.26667]
           ]
       },
@@ -30,27 +30,60 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.30865, 48.291]
+        "coordinates": [16.31221764, 48.29116535]
       },
       "properties": {
-         "id": "pmb44392",
-         "title": "Weidling",
-         "lat": "48.291",
-         "lon": "16.30865",
+         "id": "pmb248733",
+         "title": "Gasthaus zum goldenen Strauß",
+         "lat": "48.29116535",
+         "lon": "16.31221764",
          "timestamp": ["1909-06-07"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Weidling_(Gemeinde_Klosterneuburg)", 
-        "wikidata": "http://www.wikidata.org/entity/Q484858", 
-        "geonames": "https://sws.geonames.org/2761741/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       },
     {

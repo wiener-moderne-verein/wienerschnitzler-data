@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.35736, 48.21533], 
-            [16.353571, 48.239999], 
             [16.353571, 48.239999]
           ]
       },
@@ -15,24 +14,6 @@
         "name": "10. Oktober 1901"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.353571, 48.239999]
-      },
-      "properties": {
-         "id": "pmb231906",
-         "title": "Dollinergasse 8",
-         "lat": "48.239999",
-         "lon": "16.353571",
-         "timestamp": ["1901-10-10"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek", "Karl Glossy"]
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -48,7 +29,49 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
         "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       },
@@ -67,7 +90,25 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek", "Karl Glossy"]
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Karl Glossy",
+
+         "p_id": "#11447"
+         }]
       }
       }
   ]

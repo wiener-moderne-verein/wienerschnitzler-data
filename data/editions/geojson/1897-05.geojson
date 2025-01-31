@@ -235,8 +235,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/18._Arrondissement_(Paris)", 
         "wikidata": "http://www.wikidata.org/entity/Q200126", 
         "geonames": "https://sws.geonames.org/3029374/ https://sws.geonames.org/6618624/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -1386,7 +1386,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Fanny Hertz", "Helen Augusta Macdonell"]
+        "wohnort": [
+         {
+
+         "p_name": "Fanny Hertz",
+
+         "p_id": "#18188"
+         }, 
+         {
+
+         "p_name": "Helen Augusta Macdonell",
+
+         "p_id": "#20810"
+         }]
       }
       }, 
     {

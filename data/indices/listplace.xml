@@ -13,7 +13,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when-iso="2025-01-30">serialized</change>
+         <change when-iso="2025-01-31">serialized</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -23,8 +23,8 @@
             <place xml:id="pmb118047">
                <placeName>18. arrondissement [Buttes-Montmartre]</placeName>
                <placeName type="legacy-name-merge">18th arrondissement of Paris</placeName>
-               <desc type="entity_type">P.PPL</desc>
-               <desc type="entity_type_id">1412</desc>
+               <desc type="entity_type">Teil eines besiedelten Ortes (A.BSOX)</desc>
+               <desc type="entity_type_id">18</desc>
                <location type="coords">
                   <geo>48,8925 2,3444</geo>
                </location>
@@ -1018,6 +1018,9 @@
             </place>
             <place xml:id="pmb90217">
                <placeName>Alland</placeName>
+               <placeName type="legacy-name">Alland, Niederöst.</placeName>
+               <placeName type="legacy-name-merge">Alland</placeName>
+               <placeName type="legacy-name-merge">Alland</placeName>
                <desc type="entity_type">A.ADM3</desc>
                <desc type="entity_type_id">1124</desc>
                <location type="coords">
@@ -1030,6 +1033,13 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90217/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/7872833/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90217.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3008/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17504/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44715/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44715.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb733">
                <placeName>Allgemeine Boden-Credit-Anstalt</placeName>
@@ -2907,8 +2917,8 @@
                   <geo>48,21806 16,48306</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb41240">Österreich</placeName>
-                  <geo>47,33333 13,33333</geo>
+                  <placeName key="pmb72">XXII., Donaustadt</placeName>
+                  <geo>48,22556 16,49972</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90272/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2782315/</idno>
@@ -4070,6 +4080,24 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/248791/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q800426</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb249350">
+               <placeName>Bahnhof Baden bei Wien</placeName>
+               <desc type="entity_type">Bahnhofsgebäude (K.BHF)</desc>
+               <desc type="entity_type_id">32</desc>
+               <location type="coords">
+                  <geo>48,003889 16,2425</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb662">Baden bei Wien</placeName>
+                  <geo>48,00543 16,23264</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249350/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q32173155</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -6974,6 +7002,7 @@
             <place xml:id="pmb237721">
                <placeName>Buch- und Kunsthandlung Hugo Heller &amp; Cie.</placeName>
                <placeName type="ort_fruherer-name">Hellersche Buchhandlung</placeName>
+               <placeName type="ort_namensvariante">Salon Heller</placeName>
                <desc type="entity_type">Buchhandlung (K.BHL)</desc>
                <desc type="entity_type_id">53</desc>
                <location type="coords">
@@ -12234,6 +12263,17 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92214/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92214.html</idno>
             </place>
+            <place xml:id="pmb82">
+               <placeName>Doppelreiterkogel</placeName>
+               <desc type="entity_type">Berg (N.BRG)</desc>
+               <desc type="entity_type_id">28</desc>
+               <location type="coords">
+                  <geo>47,65337 15,82878</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb82.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/82/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb82.html</idno>
+            </place>
             <place xml:id="pmb92216">
                <placeName>Dorf Tirol</placeName>
                <placeName type="legacy-name-merge">Dorf Tirol</placeName>
@@ -13949,6 +13989,22 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb249395">
+               <placeName>Falkestraße 3</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>48,208665 16,380519</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249395/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb92232">
                <placeName>Faradayweg</placeName>
                <desc type="entity_type">Straße (K.STR)</desc>
@@ -14759,6 +14815,32 @@
                   <date from-iso="1913-01-01" to-iso="2002-01-01">1913 – 2002</date>
                </note>
             </place>
+            <place xml:id="pmb249207">
+               <placeName>Flughafen Aspern</placeName>
+               <desc type="entity_type">Flughafen</desc>
+               <desc type="entity_type_id">4396</desc>
+               <location type="coords">
+                  <geo>48,2247 16,5083</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb72">XXII., Donaustadt</placeName>
+                  <geo>48,22556 16,49972</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb50">Wien</placeName>
+                  <geo>48,208333 16,373056</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb90272">Aspern</placeName>
+                  <geo>48,21806 16,48306</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249207/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1430859</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Flughafen_Aspern</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb246666">
                <placeName>Flugplatz Venedig-Lido</placeName>
                <desc type="entity_type">S.AIRP</desc>
@@ -14769,6 +14851,10 @@
                <location type="located_in_place">
                   <placeName key="pmb259">Lido</placeName>
                   <geo>45,38333 12,35</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb462">Venedig</placeName>
+                  <geo>45,43713 12,33265</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/246666/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1433925</idno>
@@ -15575,6 +15661,10 @@
                <desc type="entity_type_id">51</desc>
                <location type="coords">
                   <geo>45,44698 12,3463</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb259">Lido</placeName>
+                  <geo>45,38333 12,35</geo>
                </location>
                <location type="located_in_place">
                   <placeName key="pmb462">Venedig</placeName>
@@ -19372,6 +19462,26 @@
                </listBibl>
                <note type="references"> </note>
             </place>
+            <place xml:id="pmb245446">
+               <placeName>Gregor-Mendel-Straße 32</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>48,233651 16,338022</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb68">XVIII., Währing</placeName>
+                  <geo>48,23333 16,31667</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb236374">Gregor-Mendel-Straße</placeName>
+                  <geo>48,234584 16,337772</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/245446/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb236372">
                <placeName>Gregor-Mendel-Straße 34</placeName>
                <desc type="entity_type">Wohngebäude (K.WHS)</desc>
@@ -19388,26 +19498,6 @@
                   <geo>48,234584 16,337772</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/236372/</idno>
-               <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-               </listBibl>
-            </place>
-            <place xml:id="pmb232834">
-               <placeName>Gregor-Mendel-Straße 50</placeName>
-               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
-               <desc type="entity_type_id">36</desc>
-               <location type="coords">
-                  <geo>48,235859 16,337998</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb68">XVIII., Währing</placeName>
-                  <geo>48,23333 16,31667</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb236374">Gregor-Mendel-Straße</placeName>
-                  <geo>48,234584 16,337772</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/232834/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -20332,6 +20422,24 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb249322">
+               <placeName>Gänsehäufel</placeName>
+               <desc type="entity_type">Schwimmbad (K.BAD)</desc>
+               <desc type="entity_type_id">72</desc>
+               <location type="coords">
+                  <geo>48,2281 16,4306</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb72">XXII., Donaustadt</placeName>
+                  <geo>48,22556 16,49972</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249322/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q23256</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/G%C3%A4nseh%C3%A4ufel</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb90745">
                <placeName>Göschenen</placeName>
                <desc type="entity_type">P.PPL</desc>
@@ -21149,6 +21257,22 @@
                      <graphic url="https://iiif.onb.ac.at/images/AKON/AK111_466/466/full/,600/0/native.jpg"/>
                   </figure>
                </note>
+            </place>
+            <place xml:id="pmb249330">
+               <placeName>Hans-Sachs-Gasse 29</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>48,225525 16,345704</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb68">XVIII., Währing</placeName>
+                  <geo>48,23333 16,31667</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249330/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb237839">
                <placeName>Hardenbergstraße 13</placeName>
@@ -27353,6 +27477,26 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb235827">
+               <placeName>Hörlgasse 14</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>48,216829 16,363197</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb417">Hörlgasse</placeName>
+                  <geo>48,216673655132 16,362433773685</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb59">IX., Alsergrund</placeName>
+                  <geo>48,22387 16,35641</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/235827/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb232348">
                <placeName>Hörlgasse 15</placeName>
                <desc type="entity_type">Wohngebäude (K.WHS)</desc>
@@ -28234,6 +28378,26 @@
                      <graphic url="https://iiif.onb.ac.at/images/AKON/AK087_515/515/full/,600/0/native.jpg"/>
                   </figure>
                </note>
+            </place>
+            <place xml:id="pmb249337">
+               <placeName>Israelitische Kultusgemeinde</placeName>
+               <desc type="entity_type">Verwaltungsgebäude (K.VWL)</desc>
+               <desc type="entity_type_id">59</desc>
+               <location type="coords">
+                  <geo>48,211673 16,374411</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb37658">Seitenstettengasse</placeName>
+                  <geo>48,21171 16,37448</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249337/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb192349">
                <placeName>Israelitischer Friedhof</placeName>
@@ -30622,6 +30786,26 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb46887.html</idno>
                <listBibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb249379">
+               <placeName>Khevenhüllerstraße 8</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>48,245007 16,307608</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb68">XVIII., Währing</placeName>
+                  <geo>48,23333 16,31667</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb92333">Khevenhüllerstraße</placeName>
+                  <geo>48,246436 16,307591</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249379/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
             <place xml:id="pmb40920">
@@ -47510,6 +47694,22 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb249285">
+               <placeName>Prinz-Eugen-Straße 30</placeName>
+               <desc type="entity_type">Gebäude (K.GBD)</desc>
+               <desc type="entity_type_id">24</desc>
+               <location type="coords">
+                  <geo>48,193825 16,377453</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb524">Prinz-Eugen-Straße</placeName>
+                  <geo>48,192914955653 16,378269181766</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249285/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb246159">
                <placeName>Prinz-Eugen-Straße 68</placeName>
                <desc type="entity_type">Wohngebäude (K.WHS)</desc>
@@ -52471,6 +52671,7 @@
             </place>
             <place xml:id="pmb40511">
                <placeName>Sanatorium Fürth</placeName>
+               <placeName type="legacy-name-merge">Schmidgasse 12-14</placeName>
                <desc type="entity_type">Sanatorium (K.SAN)</desc>
                <desc type="entity_type_id">27</desc>
                <location type="coords">
@@ -52480,8 +52681,15 @@
                   <placeName key="pmb50">Wien</placeName>
                   <geo>48,208333 16,373056</geo>
                </location>
+               <location type="located_in_place">
+                  <placeName key="pmb58">VIII., Josefstadt</placeName>
+                  <geo>48,21126 16,34706</geo>
+               </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40511/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb40511.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q38028257</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249370/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sanatorium_F%C3%BCrth</idno>
                <note type="apis_dates">
                   <date from-iso="1887-01-01" to-iso="1938-01-01">1887 – 1938</date>
                </note>
@@ -54659,6 +54867,28 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb249361">
+               <placeName>Schottenkirche</placeName>
+               <desc type="entity_type">Kirche (K.KRC)</desc>
+               <desc type="entity_type_id">33</desc>
+               <location type="coords">
+                  <geo>48,212019444444444 16,365099999999998</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb92244">Freyung</placeName>
+                  <geo>48,211744 16,365056</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249361/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q666817</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schottenkirche_(Wien)</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb199413">
                <placeName>Schottenring 28</placeName>
                <desc type="entity_type">Wohngebäude (K.WHS)</desc>
@@ -54828,6 +55058,22 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41463.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb41463.html</idno>
             </place>
+            <place xml:id="pmb249345">
+               <placeName>Schutzhaus Eisernes Tor</placeName>
+               <desc type="entity_type">Beherbergungsgebäude (K.BHB)</desc>
+               <desc type="entity_type_id">42</desc>
+               <location type="coords">
+                  <geo>48,007491 16,134898</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb90217">Alland</placeName>
+                  <geo>48,03953 16,08085</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249345/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb237041">
                <placeName>Schutzverband deutscher Schriftsteller in Österreich</placeName>
                <desc type="entity_type">Vereinsgebäude (K.VRN)</desc>
@@ -54964,6 +55210,10 @@
                <desc type="entity_type_id">36</desc>
                <location type="coords">
                   <geo>48,198683 16,377292</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
                </location>
                <location type="located_in_place">
                   <placeName key="pmb53143">Schwarzenbergplatz</placeName>
@@ -57228,6 +57478,10 @@
                <desc type="entity_type_id">33</desc>
                <location type="coords">
                   <geo>48,211649 16,374825</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
                </location>
                <location type="located_in_place">
                   <placeName key="pmb50">Wien</placeName>
@@ -62522,6 +62776,34 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb92580">
+               <placeName>Vegagasse</placeName>
+               <location type="coords">
+                  <geo>48,235934 16,3469</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92580/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92580.html</idno>
+            </place>
+            <place xml:id="pmb249421">
+               <placeName>Vegagasse 21</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>48,236901 16,346782</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb92580">Vegagasse</placeName>
+                  <geo>48,235934 16,3469</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb69">XIX., Döbling</placeName>
+                  <geo>48,25 16,33306</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249421/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb91999">
                <placeName>Veitsau</placeName>
                <desc type="entity_type">P.PPL</desc>
@@ -66998,6 +67280,22 @@
                   <geo>48,22387 16,35641</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/237630/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb249299">
+               <placeName>Währinger Straße 30</placeName>
+               <desc type="entity_type">Gebäude (K.GBD)</desc>
+               <desc type="entity_type_id">24</desc>
+               <location type="coords">
+                  <geo>48,219065 16,357769</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb312">Währinger Straße</placeName>
+                  <geo>48,226694 16,341333</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249299/</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>

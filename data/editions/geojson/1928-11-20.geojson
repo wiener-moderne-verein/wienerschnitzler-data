@@ -7,10 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.351111, 48.209583], 
-            [16.351111, 48.209583], 
             [16.351435, 48.209524], 
-            [16.351435, 48.209524], 
-            [16.35137, 48.21346], 
             [16.35137, 48.21346], 
             [16.35689, 48.21787], 
             [16.33716, 48.23188]
@@ -35,62 +32,20 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }], 
         "arbeitsort": ["Markus Hajek"]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.35137, 48.21346]
-      },
-      "properties": {
-         "id": "pmb232800",
-         "title": "Laudongasse 12",
-         "lat": "48.21346",
-         "lon": "16.35137",
-         "timestamp": ["1928-11-20"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.351435, 48.209524]
-      },
-      "properties": {
-         "id": "pmb185511",
-         "title": "Restaurant zum weißen Hahn",
-         "lat": "48.209524",
-         "lon": "16.351435",
-         "timestamp": ["1928-11-20"],
-         "importance": "1", 
-        "abbr": "S.REST", 
-        "type": "Restaurant"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.351111, 48.209583]
-      },
-      "properties": {
-         "id": "pmb40",
-         "title": "Theater in der Josefstadt",
-         "lat": "48.209583",
-         "lon": "16.351111",
-         "timestamp": ["1928-11-20"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
-        "wikidata": "http://www.wikidata.org/entity/Q167619", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
       }
       },
     {
@@ -108,7 +63,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       },
@@ -127,7 +118,31 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       },
     {

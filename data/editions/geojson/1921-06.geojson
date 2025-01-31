@@ -244,7 +244,13 @@
          "importance": "1", 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude", 
-        "wohnort": ["Marie Glümer"]
+        "wohnort": [
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
       }
       }, 
     {
@@ -435,8 +441,35 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }], 
         "arbeitsort": ["Markus Hajek"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.583636, 48.13844]
+      },
+      "properties": {
+         "id": "pmb92395",
+         "title": "Maximilianstraße",
+         "lat": "48.13844",
+         "lon": "11.583636",
+         "timestamp": ["1921-06-26"],
+         "importance": "1"
       }
       }, 
     {
@@ -454,7 +487,43 @@
          "importance": "19", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
@@ -490,7 +559,31 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -526,7 +619,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       }, 
     {
@@ -582,6 +687,42 @@
         "wikidata": "http://www.wikidata.org/entity/Q874166", 
         "abbr": "Bierhaus (K.BIR)", 
         "type": "Bierhaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.583523, 48.139186]
+      },
+      "properties": {
+         "id": "pmb92281",
+         "title": "Herzog-Rudolf-Straße",
+         "lat": "48.139186",
+         "lon": "11.583523",
+         "timestamp": ["1921-06-26"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Herzog-Rudolf-Stra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q106522992", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.585952, 48.143103]
+      },
+      "properties": {
+         "id": "pmb248969",
+         "title": "Seitzstraße 20",
+         "lat": "48.143103",
+         "lon": "11.585952",
+         "timestamp": ["1921-06-26"],
+         "importance": "1", 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude"
       }
       }
   ]

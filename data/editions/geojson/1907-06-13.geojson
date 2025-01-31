@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.361139, 48.210333], 
-            [16.361139, 48.210333], 
             [16.33472, 48.2304]
           ]
       },
@@ -15,24 +14,6 @@
         "name": "13. Juni 1907"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.361139, 48.210333]
-      },
-      "properties": {
-         "id": "pmb14",
-         "title": "Burgtheater",
-         "lat": "48.210333",
-         "lon": "16.361139",
-         "timestamp": ["1907-06-13"],
-         "importance": "1", 
-        "geonames": "https://www.geonames.org/6354992/", 
-        "abbr": "S.THTR", 
-        "type": "Theater"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -48,7 +29,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {

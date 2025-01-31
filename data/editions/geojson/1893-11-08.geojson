@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.32475, 48.19031], 
-            [16.32475, 48.19031], 
             [16.357233, 48.212477], 
             [16.357353835756, 48.212643768549]
           ]
@@ -32,7 +31,13 @@
         "geonames": "https://www.geonames.org/12495678", 
         "abbr": "R.ST", 
         "type": "Straße", 
-        "wohnort": ["Arthur Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }]
       }
       },
     {
@@ -50,25 +55,6 @@
          "importance": "1", 
         "abbr": "Ordination", 
         "type": "Ordination"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.32475, 48.19031]
-      },
-      "properties": {
-         "id": "pmb39",
-         "title": "Volkstheater in Rudolfsheim",
-         "lat": "48.19031",
-         "lon": "16.32475",
-         "timestamp": ["1893-11-08"],
-         "importance": "1", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Schwenders_Vergnügungsetablissement", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
-        "arbeitsort": ["Marie Pichler", "Pauline Czerniawski-Loewe"]
       }
       },
     {

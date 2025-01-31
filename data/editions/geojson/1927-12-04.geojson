@@ -8,7 +8,8 @@
         "coordinates": [
             [13.285098, 52.49074], 
             [13.29417, 52.46601], 
-            [13.383456, 52.516152]
+            [13.383456, 52.516152], 
+            [13.326319, 52.507951]
           ]
       },
       "properties": {
@@ -49,7 +50,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Karl Michaelis", "Dora Michaelis"]
+        "wohnort": [
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }, 
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }]
       }
       },
     {
@@ -67,7 +80,30 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Edmund Pietrkowski"]
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Pietrkowski",
+
+         "p_id": "#9274"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.326319, 52.507951]
+      },
+      "properties": {
+         "id": "pmb249116",
+         "title": "Hotel-Pension Steinplatz",
+         "lat": "52.507951",
+         "lon": "13.326319",
+         "timestamp": ["1927-12-04"],
+         "importance": "1", 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       }
   ]

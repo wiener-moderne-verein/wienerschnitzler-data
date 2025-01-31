@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.352811, 48.210713], 
             [16.33472, 48.2304]
           ]
       },
@@ -13,6 +14,26 @@
         "name": "11. Oktober 1909"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.352811, 48.210713]
+      },
+      "properties": {
+         "id": "pmb40511",
+         "title": "Sanatorium Fürth",
+         "lat": "48.210713",
+         "lon": "16.352811",
+         "timestamp": ["1909-10-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sanatorium_F%C3%BCrth", 
+        "wikidata": "http://www.wikidata.org/entity/Q38028257", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": ["Alby Fürth"]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,7 +49,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }
   ]

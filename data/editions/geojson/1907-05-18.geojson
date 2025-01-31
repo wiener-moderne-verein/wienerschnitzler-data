@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.341333, 48.226694], 
-            [16.341333, 48.226694], 
             [16.33494, 48.23365], 
             [16.33472, 48.2304]
           ]
@@ -31,7 +30,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {
@@ -49,7 +84,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
       }
       },
     {
@@ -69,27 +116,19 @@
         "wikidata": "http://www.wikidata.org/entity/Q2595967", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Karl ", "Hugo Hug von Hugenstein"]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.341333, 48.226694]
-      },
-      "properties": {
-         "id": "pmb312",
-         "title": "Währinger Straße",
-         "lat": "48.226694",
-         "lon": "16.341333",
-         "timestamp": ["1907-05-18"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/W%C3%A4hringer_Stra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q2595967", 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
-        "wohnort": ["Karl ", "Hugo Hug von Hugenstein"]
+        "wohnort": [
+         {
+
+         "p_name": "Karl ",
+
+         "p_id": "#28893"
+         }, 
+         {
+
+         "p_name": "Hugo Hug von Hugenstein",
+
+         "p_id": "#143613"
+         }]
       }
       }
   ]

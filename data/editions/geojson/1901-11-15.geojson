@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.287427, 48.182659], 
-            [16.287427, 48.182659], 
             [16.35736, 48.21533]
           ]
       },
@@ -15,24 +14,6 @@
         "name": "15. November 1901"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.287427, 48.182659]
-      },
-      "properties": {
-         "id": "pmb231732",
-         "title": "Lainzerstraße 58",
-         "lat": "48.182659",
-         "lon": "16.287427",
-         "timestamp": ["1901-11-15"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Julie Wassermann", "Jakob Wassermann"]
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -48,7 +29,49 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
         "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       },
@@ -67,7 +90,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Julie Wassermann", "Jakob Wassermann"]
+        "wohnort": [
+         {
+
+         "p_name": "Julie Wassermann",
+
+         "p_id": "#13058"
+         }, 
+         {
+
+         "p_name": "Jakob Wassermann",
+
+         "p_id": "#13055"
+         }]
       }
       }
   ]

@@ -575,7 +575,7 @@
          "importance": "1", 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
-        "arbeitsort": ["Julius Schnitzler", "Anton Loew"]
+        "arbeitsort": ["Julius Schnitzler", "Anton Loew", "Julius Schnitzler"]
       }
       }, 
     {
@@ -919,7 +919,31 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
+        "wohnort": [
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
       }
       }, 
     {
@@ -955,7 +979,19 @@
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
       }
       }, 
     {
@@ -973,7 +1009,19 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Else Speidel-Haeberle", "Felix Speidel"]
+        "wohnort": [
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }]
       }
       }, 
     {
@@ -991,7 +1039,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Raoul Auernheimer", "Irene Auernheimer"]
+        "wohnort": [
+         {
+
+         "p_name": "Raoul Auernheimer",
+
+         "p_id": "#10788"
+         }, 
+         {
+
+         "p_name": "Irene Auernheimer",
+
+         "p_id": "#3223"
+         }]
       }
       }, 
     {
@@ -1034,6 +1094,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1918-10-10"],
+         "importance": "1", 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.09576, 47.49209]
       },
       "properties": {
@@ -1067,7 +1144,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q1335564", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Siegfried Trebitsch"]
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried Trebitsch",
+
+         "p_id": "#12968"
+         }]
       }
       }, 
     {
@@ -1104,7 +1187,19 @@
          "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }], 
         "arbeitsort": ["Markus Hajek"]
       }
       }, 
@@ -1124,6 +1219,40 @@
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": ["Siegfried Geyer"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351667, 48.226667]
+      },
+      "properties": {
+         "id": "pmb235",
+         "title": "Sanatorium Hera",
+         "lat": "48.226667",
+         "lon": "16.351667",
+         "timestamp": ["1918-01-03"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Sanatorium_Hera", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": ["Julius Schnitzler", "Hugo Hübl"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3469, 48.235934]
+      },
+      "properties": {
+         "id": "pmb92580",
+         "title": "Vegagasse",
+         "lat": "48.235934",
+         "lon": "16.3469",
+         "timestamp": ["1918-08-14"],
+         "importance": "1"
       }
       }, 
     {
@@ -1159,7 +1288,43 @@
          "importance": "346", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
@@ -1212,7 +1377,31 @@
          "importance": "10", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -1319,7 +1508,19 @@
          "importance": "17", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       }, 
     {
@@ -1345,6 +1546,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.241795, 48.258917]
+      },
+      "properties": {
+         "id": "pmb249037",
+         "title": "Toiflhütte",
+         "lat": "48.258917",
+         "lon": "16.241795",
+         "timestamp": ["1918-05-09", "1918-05-12", "1918-06-09", "1918-06-16"],
+         "importance": "4", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36171, 48.2116]
       },
       "properties": {
@@ -1356,7 +1574,13 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Berta Zuckerkandl"]
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
       }
       }, 
     {
@@ -1481,7 +1705,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Edith Schneider", "Jean Billiter"]
+        "wohnort": [
+         {
+
+         "p_name": "Edith Schneider",
+
+         "p_id": "#24375"
+         }, 
+         {
+
+         "p_name": "Jean Billiter",
+
+         "p_id": "#10931"
+         }]
       }
       }, 
     {

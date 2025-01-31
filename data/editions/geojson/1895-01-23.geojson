@@ -6,16 +6,14 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.360584, 48.194996], 
-            [16.360584, 48.194996], 
             [16.36103888888889, 48.2018], 
             [16.361411, 48.202208], 
+            [16.360584, 48.194996], 
             [16.36449, 48.196196], 
             [16.366111, 48.208258], 
             [16.374444444444, 48.211944444444], 
             [16.371916, 48.212604], 
             [16.35736, 48.21533], 
-            [16.341333, 48.226694], 
             [16.341333, 48.226694]
           ]
       },
@@ -23,23 +21,6 @@
         "name": "23. Januar 1895"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.360584, 48.194996]
-      },
-      "properties": {
-         "id": "pmb38",
-         "title": "Zur goldenen Glocke [5. Bezirk]",
-         "lat": "48.194996",
-         "lon": "16.360584",
-         "timestamp": ["1895-01-23"],
-         "importance": "1", 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -150,7 +131,19 @@
         "wikidata": "http://www.wikidata.org/entity/Q2595967", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Karl ", "Hugo Hug von Hugenstein"]
+        "wohnort": [
+         {
+
+         "p_name": "Karl ",
+
+         "p_id": "#28893"
+         }, 
+         {
+
+         "p_name": "Hugo Hug von Hugenstein",
+
+         "p_id": "#143613"
+         }]
       }
       },
     {
@@ -168,28 +161,50 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
         "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.341333, 48.226694]
-      },
-      "properties": {
-         "id": "pmb312",
-         "title": "Währinger Straße",
-         "lat": "48.226694",
-         "lon": "16.341333",
-         "timestamp": ["1895-01-23"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/W%C3%A4hringer_Stra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q2595967", 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
-        "wohnort": ["Karl ", "Hugo Hug von Hugenstein"]
       }
       },
     {
@@ -207,7 +222,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Franz Xaver Chlum", "Aloisia Chlum"]
+        "wohnort": [
+         {
+
+         "p_name": "Franz Xaver Chlum",
+
+         "p_id": "#14950"
+         }, 
+         {
+
+         "p_name": "Aloisia Chlum",
+
+         "p_id": "#27771"
+         }]
       }
       },
     {

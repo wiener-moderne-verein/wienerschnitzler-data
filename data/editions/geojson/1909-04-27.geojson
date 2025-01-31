@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.3566, 48.205142], 
+            [16.359675, 48.201051], 
             [16.37049, 48.20769], 
             [16.331527, 48.23428], 
             [16.33472, 48.2304]
@@ -49,7 +50,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {
@@ -71,6 +108,23 @@
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": [" ?? [Kassier Volkstheater 1895]"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359675, 48.201051]
+      },
+      "properties": {
+         "id": "pmb248651",
+         "title": "Rosa Prazak, Damen-Modesalon",
+         "lat": "48.201051",
+         "lon": "16.359675",
+         "timestamp": ["1909-04-27"],
+         "importance": "1", 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
       }
       },
     {

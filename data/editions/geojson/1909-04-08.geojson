@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.375811, 48.203191], 
-            [16.375811, 48.203191], 
             [16.34293, 48.231566], 
             [16.328044, 48.238759], 
             [16.33472, 48.2304]
@@ -17,23 +16,6 @@
         "name": "8. April 1909"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.375811, 48.203191]
-      },
-      "properties": {
-         "id": "pmb233517",
-         "title": "Kaiserpanorama [Wien, Schubertring 4]",
-         "lat": "48.203191",
-         "lon": "16.375811",
-         "timestamp": ["1909-04-08"],
-         "importance": "1", 
-        "abbr": "Vergnügungseinrichtung", 
-        "type": "Vergnügungseinrichtung"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -49,7 +31,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Adolf von Sonnenthal"]
+        "wohnort": [
+         {
+
+         "p_name": "Adolf von Sonnenthal",
+
+         "p_id": "#12809"
+         }]
       }
       },
     {
@@ -67,7 +55,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {

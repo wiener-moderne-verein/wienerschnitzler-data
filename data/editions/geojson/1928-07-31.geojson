@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [12.33517, 45.4321], 
+            [12.38777778, 45.42888889], 
+            [16.5083, 48.2247], 
             [16.348029, 48.237242], 
             [16.33716, 48.23188]
           ]
@@ -36,6 +38,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.38777778, 45.42888889]
+      },
+      "properties": {
+         "id": "pmb246666",
+         "title": "Flugplatz Venedig-Lido",
+         "lat": "45.42888889",
+         "lon": "12.38777778",
+         "timestamp": ["1928-07-31"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Flugplatz_Venedig-Lido", 
+        "wikidata": "http://www.wikidata.org/entity/Q1433925", 
+        "geonames": "https://sws.geonames.org/3219405/", 
+        "abbr": "S.AIRP", 
+        "type": "Flughafen"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.348029, 48.237242]
       },
       "properties": {
@@ -53,6 +75,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.5083, 48.2247]
+      },
+      "properties": {
+         "id": "pmb249207",
+         "title": "Flughafen Aspern",
+         "lat": "48.2247",
+         "lon": "16.5083",
+         "timestamp": ["1928-07-31"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Flughafen_Aspern", 
+        "wikidata": "http://www.wikidata.org/entity/Q1430859", 
+        "abbr": "Flughafen", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -64,7 +105,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }

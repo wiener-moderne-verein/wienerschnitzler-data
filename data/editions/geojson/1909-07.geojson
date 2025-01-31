@@ -184,7 +184,25 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek", "Karl Glossy"]
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Karl Glossy",
+
+         "p_id": "#11447"
+         }]
       }
       }, 
     {
@@ -202,7 +220,43 @@
          "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }, 
     {
@@ -280,6 +334,41 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.728753, 47.662273]
+      },
+      "properties": {
+         "id": "pmb701",
+         "title": "Waldandacht [Reichenau an der Rax]",
+         "lat": "47.662273",
+         "lon": "15.728753",
+         "timestamp": ["1909-07-01"],
+         "importance": "1", 
+        "abbr": "Monument (K.MON)", 
+        "type": "Monument"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8773, 47.69521]
+      },
+      "properties": {
+         "id": "pmb92077",
+         "title": "Werning",
+         "lat": "47.69521",
+         "lon": "15.8773",
+         "timestamp": ["1909-07-11"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2761468/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.359383, 48.20133]
       },
       "properties": {
@@ -291,7 +380,31 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Carl Kunn"]
+        "wohnort": [
+         {
+
+         "p_name": "Carl Kunn",
+
+         "p_id": "#19843"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.76401, 47.68013]
+      },
+      "properties": {
+         "id": "pmb81",
+         "title": "Sonnleiten",
+         "lat": "47.68013",
+         "lon": "15.76401",
+         "timestamp": ["1909-07-16", "1909-07-17", "1909-07-22", "1909-07-25"],
+         "importance": "4", 
+        "geonames": "https://sws.geonames.org/2764896/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {

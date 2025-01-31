@@ -8,7 +8,6 @@
         "coordinates": [
             [16.375811, 48.203191], 
             [16.350361, 48.224472], 
-            [16.350361, 48.224472], 
             [16.33716, 48.23188]
           ]
       },
@@ -16,25 +15,6 @@
         "name": "25. April 1916"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.350361, 48.224472]
-      },
-      "properties": {
-         "id": "pmb28",
-         "title": "Volksoper",
-         "lat": "48.224472",
-         "lon": "16.350361",
-         "timestamp": ["1916-04-25"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Volksoper_Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q694747", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -69,7 +49,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       },

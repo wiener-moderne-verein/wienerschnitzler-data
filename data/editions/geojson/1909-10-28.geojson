@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.33472, 48.2304], 
+            [16.307608, 48.245007], 
             [16.300034240016, 48.246838181084]
           ]
       },
@@ -36,6 +37,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.307608, 48.245007]
+      },
+      "properties": {
+         "id": "pmb249379",
+         "title": "Khevenhüllerstraße 8",
+         "lat": "48.245007",
+         "lon": "16.307608",
+         "timestamp": ["1909-10-28"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33472, 48.2304]
       },
       "properties": {
@@ -47,7 +65,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }
   ]

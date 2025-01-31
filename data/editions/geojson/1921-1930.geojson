@@ -1155,6 +1155,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.48306, 48.21806]
+      },
+      "properties": {
+         "id": "pmb90272",
+         "title": "Aspern",
+         "lat": "48.21806",
+         "lon": "16.48306",
+         "timestamp": ["1927-09-15"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2782315/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.4094, 48.2122]
       },
       "properties": {
@@ -2251,7 +2269,13 @@
          "importance": "1", 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude", 
-        "wohnort": ["Marie Glümer"]
+        "wohnort": [
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
       }
       }, 
     {
@@ -2556,7 +2580,13 @@
          "importance": "1", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Hedwig Keller"]
+        "wohnort": [
+         {
+
+         "p_name": "Hedwig Keller",
+
+         "p_id": "#19250"
+         }]
       }
       }, 
     {
@@ -3174,7 +3204,49 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
         "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
@@ -3905,11 +3977,23 @@
          "title": "Peregringasse 4",
          "lat": "48.234046",
          "lon": "16.338015",
-         "timestamp": ["1923-10-08", "1924-02-07", "1924-03-01", "1924-03-15", "1924-04-07", "1924-06-13", "1924-06-24", "1924-07-29", "1924-10-21", "1924-10-31", "1925-12-18", "1926-01-10", "1926-02-01", "1926-03-10", "1926-03-29", "1926-06-19", "1926-10-17", "1926-11-08", "1926-11-13", "1926-11-24", "1926-12-04", "1927-01-18", "1927-01-22", "1927-01-28", "1927-02-04", "1927-02-11", "1927-02-16", "1927-02-22", "1927-02-27", "1927-03-01", "1927-03-04", "1927-03-12", "1927-03-24", "1927-04-01", "1927-04-02", "1927-04-03", "1927-04-04", "1927-04-05", "1927-04-07", "1927-04-09", "1927-04-10", "1927-04-12", "1927-04-15", "1927-04-16", "1927-04-19", "1927-04-20", "1927-05-01", "1927-05-02", "1927-05-04", "1927-05-08", "1927-06-05", "1927-06-07", "1927-06-11", "1927-06-12", "1927-07-01", "1927-07-03", "1927-08-04", "1927-08-05", "1927-09-21", "1927-09-25", "1927-09-28", "1927-10-08", "1927-10-29", "1927-11-20", "1927-12-12", "1927-12-19", "1927-12-24", "1927-12-25", "1927-12-28", "1927-12-29", "1927-12-30", "1927-12-31", "1928-01-01", "1928-01-12", "1928-02-11", "1928-03-01", "1928-03-23", "1928-05-15", "1928-05-25", "1928-08-14", "1928-08-15", "1928-09-11", "1928-09-19", "1929-12-25", "1930-10-29"],
-         "importance": "85", 
+         "timestamp": ["1923-10-08", "1924-02-07", "1924-03-01", "1924-03-15", "1924-04-07", "1924-06-13", "1924-06-24", "1924-07-29", "1924-10-21", "1924-10-31", "1925-12-18", "1926-01-10", "1926-01-23", "1926-01-28", "1926-01-31", "1926-02-01", "1926-02-04", "1926-03-10", "1926-03-29", "1926-06-19", "1926-10-17", "1926-11-08", "1926-11-13", "1926-11-24", "1926-12-04", "1927-01-18", "1927-01-22", "1927-01-28", "1927-02-04", "1927-02-11", "1927-02-16", "1927-02-22", "1927-02-27", "1927-03-01", "1927-03-04", "1927-03-12", "1927-03-24", "1927-04-01", "1927-04-02", "1927-04-03", "1927-04-04", "1927-04-05", "1927-04-07", "1927-04-09", "1927-04-10", "1927-04-12", "1927-04-15", "1927-04-16", "1927-04-19", "1927-04-20", "1927-05-01", "1927-05-02", "1927-05-04", "1927-05-08", "1927-06-05", "1927-06-07", "1927-06-11", "1927-06-12", "1927-07-01", "1927-07-03", "1927-08-04", "1927-08-05", "1927-09-21", "1927-09-25", "1927-09-28", "1927-10-08", "1927-10-29", "1927-11-20", "1927-12-12", "1927-12-19", "1927-12-24", "1927-12-25", "1927-12-28", "1927-12-29", "1927-12-30", "1927-12-31", "1928-01-01", "1928-01-12", "1928-02-11", "1928-03-01", "1928-03-23", "1928-05-15", "1928-05-25", "1928-08-14", "1928-08-15", "1928-09-11", "1928-09-19", "1929-12-25", "1930-10-29"],
+         "importance": "89", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Clara Katharina Pollaczek", "Louis Loeb"]
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
+         }]
       }
       }, 
     {
@@ -4247,7 +4331,7 @@
          "importance": "8", 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
-        "arbeitsort": ["Julius Schnitzler", "Anton Loew"]
+        "arbeitsort": ["Julius Schnitzler", "Anton Loew", "Julius Schnitzler"]
       }
       }, 
     {
@@ -4300,6 +4384,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q106194758", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.397222, 50.089444]
+      },
+      "properties": {
+         "id": "pmb33910",
+         "title": "Hradčany",
+         "lat": "50.089444",
+         "lon": "14.397222",
+         "timestamp": ["1922-10-28"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hrad%C4%8Dany_(Prag)", 
+        "wikidata": "http://www.wikidata.org/entity/Q744598", 
+        "geonames": "https://sws.geonames.org/3074982/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }, 
     {
@@ -5561,7 +5665,19 @@
         "wikidata": "http://www.wikidata.org/entity/Q1623184", 
         "abbr": "Schloss (K.SLS)", 
         "type": "Schloss", 
-        "wohnort": ["Gertrude von Hofmannsthal", "Hugo von Hofmannsthal"]
+        "wohnort": [
+         {
+
+         "p_name": "Gertrude von Hofmannsthal",
+
+         "p_id": "#2292"
+         }, 
+         {
+
+         "p_name": "Hugo von Hofmannsthal",
+
+         "p_id": "#11740"
+         }]
       }
       }, 
     {
@@ -5894,8 +6010,10 @@
          "title": "Sanatorium Fürth",
          "lat": "48.210713",
          "lon": "16.352811",
-         "timestamp": ["1923-01-20"],
-         "importance": "1", 
+         "timestamp": ["1922-05-30", "1923-01-20"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sanatorium_F%C3%BCrth", 
+        "wikidata": "http://www.wikidata.org/entity/Q38028257", 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
         "arbeitsort": ["Alby Fürth"]
@@ -5989,7 +6107,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }, 
     {
@@ -6581,7 +6735,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q2107895", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Karl Schwarz", "Moritz Schwarz", "Markus Hajek"]
+        "wohnort": [
+         {
+
+         "p_name": "Karl Schwarz",
+
+         "p_id": "#168977"
+         }, 
+         {
+
+         "p_name": "Moritz Schwarz",
+
+         "p_id": "#168975"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }]
       }
       }, 
     {
@@ -6730,7 +6902,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q122841575", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Carl Moll"]
+        "wohnort": [
+         {
+
+         "p_name": "Carl Moll",
+
+         "p_id": "#12277"
+         }]
       }
       }, 
     {
@@ -7094,7 +7272,31 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Georg König", "Isidor Samuely", "Erna Fleischer", "Grete Jacques"]
+        "wohnort": [
+         {
+
+         "p_name": "Georg König",
+
+         "p_id": "#19928"
+         }, 
+         {
+
+         "p_name": "Isidor Samuely",
+
+         "p_id": "#23947"
+         }, 
+         {
+
+         "p_name": "Erna Fleischer",
+
+         "p_id": "#16323"
+         }, 
+         {
+
+         "p_name": "Grete Jacques",
+
+         "p_id": "#18743"
+         }]
       }
       }, 
     {
@@ -7223,7 +7425,31 @@
          "importance": "37", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
+        "wohnort": [
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
       }
       }, 
     {
@@ -7260,7 +7486,13 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["David Feuchtwang"]
+        "wohnort": [
+         {
+
+         "p_name": "David Feuchtwang",
+
+         "p_id": "#11312"
+         }]
       }
       }, 
     {
@@ -7386,7 +7618,19 @@
          "importance": "24", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
       }
       }, 
     {
@@ -7441,7 +7685,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Raoul Auernheimer", "Irene Auernheimer"]
+        "wohnort": [
+         {
+
+         "p_name": "Raoul Auernheimer",
+
+         "p_id": "#10788"
+         }, 
+         {
+
+         "p_name": "Irene Auernheimer",
+
+         "p_id": "#3223"
+         }]
       }
       }, 
     {
@@ -7585,7 +7841,19 @@
          "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Ottilie Salten", "Felix Salten"], 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
         "arbeitsort": [" ?? [Haushaltshilfe der Familie Salten 1912]"]
       }
       }, 
@@ -7634,8 +7902,8 @@
          "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
          "lat": "48.209673",
          "lon": "16.37127",
-         "timestamp": ["1929-12-24"],
-         "importance": "1", 
+         "timestamp": ["1922-06-13", "1924-04-12", "1926-09-28", "1929-12-24"],
+         "importance": "4", 
         "abbr": "Buchhandlung (K.BHL)", 
         "type": "Buchhandlung"
       }
@@ -7765,7 +8033,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q1335564", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Siegfried Trebitsch"]
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried Trebitsch",
+
+         "p_id": "#12968"
+         }]
       }
       }, 
     {
@@ -7857,7 +8131,19 @@
          "importance": "193", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }], 
         "arbeitsort": ["Markus Hajek"]
       }
       }, 
@@ -7971,6 +8257,66 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.332888, 48.217737]
+      },
+      "properties": {
+         "id": "pmb248695",
+         "title": "Hernalser Hauptstraße 67",
+         "lat": "48.217737",
+         "lon": "16.332888",
+         "timestamp": ["1928-05-17"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Heinrich York-Steiner",
+
+         "p_id": "#27407"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372132, 48.207097]
+      },
+      "properties": {
+         "id": "pmb583",
+         "title": "Hotel Kaiserin Elisabeth [Wien]",
+         "lat": "48.207097",
+         "lon": "16.372132",
+         "timestamp": ["1921-04-06", "1921-04-12"],
+         "importance": "2", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351667, 48.226667]
+      },
+      "properties": {
+         "id": "pmb235",
+         "title": "Sanatorium Hera",
+         "lat": "48.226667",
+         "lon": "16.351667",
+         "timestamp": ["1924-09-10", "1924-11-05"],
+         "importance": "2", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Sanatorium_Hera", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": ["Julius Schnitzler", "Hugo Hübl"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.62184, 47.71088]
       },
       "properties": {
@@ -8046,6 +8392,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.583636, 48.13844]
+      },
+      "properties": {
+         "id": "pmb92395",
+         "title": "Maximilianstraße",
+         "lat": "48.13844",
+         "lon": "11.583636",
+         "timestamp": ["1921-06-26"],
+         "importance": "1"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [10.74085, 47.55631]
       },
       "properties": {
@@ -8056,8 +8417,8 @@
          "timestamp": ["1928-08-17", "1928-08-18", "1928-08-19", "1928-08-20", "1928-08-21", "1928-08-22", "1928-08-23", "1928-08-24", "1928-08-25", "1928-08-26", "1928-08-27", "1928-08-28", "1928-08-29", "1928-08-30", "1928-08-31", "1928-09-01"],
          "importance": "16", 
         "geonames": "https://sws.geonames.org/2901486/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -8098,6 +8459,26 @@
         "geonames": "https://sws.geonames.org/2864198/", 
         "abbr": "S.CSTL", 
         "type": "Burg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.735277777778, 47.576666666667]
+      },
+      "properties": {
+         "id": "pmb169795",
+         "title": "Schwangau",
+         "lat": "47.576666666667",
+         "lon": "10.735277777778",
+         "timestamp": ["1928-08-17", "1928-08-18", "1928-08-19", "1928-08-20", "1928-08-21", "1928-08-22", "1928-08-23", "1928-08-24", "1928-08-25", "1928-08-26", "1928-08-27", "1928-08-28", "1928-08-29", "1928-08-30", "1928-08-31", "1928-09-01"],
+         "importance": "16", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwangau", 
+        "wikidata": "http://www.wikidata.org/entity/Q256547", 
+        "geonames": "https://sws.geonames.org/6557229/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
       }
       }, 
     {
@@ -8187,7 +8568,43 @@
          "importance": "2892", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }, 
@@ -8337,6 +8754,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.5083, 48.2247]
+      },
+      "properties": {
+         "id": "pmb249207",
+         "title": "Flughafen Aspern",
+         "lat": "48.2247",
+         "lon": "16.5083",
+         "timestamp": ["1927-09-15", "1928-07-27", "1928-07-31"],
+         "importance": "3", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Flughafen_Aspern", 
+        "wikidata": "http://www.wikidata.org/entity/Q1430859", 
+        "abbr": "Flughafen", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.370928, 48.19224]
       },
       "properties": {
@@ -8365,7 +8801,31 @@
          "importance": "174", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -8601,7 +9061,19 @@
          "importance": "158", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       }, 
     {
@@ -8768,7 +9240,13 @@
          "importance": "34", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Berta Zuckerkandl"]
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
       }
       }, 
     {
@@ -8866,6 +9344,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3534843, 48.2123639]
+      },
+      "properties": {
+         "id": "pmb585",
+         "title": "Hotel Hammerand",
+         "lat": "48.2123639",
+         "lon": "16.3534843",
+         "timestamp": ["1926-01-19", "1926-01-21", "1926-01-29", "1926-01-31", "1926-02-03"],
+         "importance": "5", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Hotel_Hammerand", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.353278, 48.237737]
       },
       "properties": {
@@ -8877,7 +9373,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Edith Schneider", "Jean Billiter"]
+        "wohnort": [
+         {
+
+         "p_name": "Edith Schneider",
+
+         "p_id": "#24375"
+         }, 
+         {
+
+         "p_name": "Jean Billiter",
+
+         "p_id": "#10931"
+         }]
       }
       }, 
     {
@@ -9023,7 +9531,19 @@
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Felix Speidel", "Else Speidel-Haeberle"]
+        "wohnort": [
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }, 
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }]
       }
       }, 
     {
@@ -9120,6 +9640,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.583523, 48.139186]
+      },
+      "properties": {
+         "id": "pmb92281",
+         "title": "Herzog-Rudolf-Straße",
+         "lat": "48.139186",
+         "lon": "11.583523",
+         "timestamp": ["1921-06-26"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Herzog-Rudolf-Stra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q106522992", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.585952, 48.143103]
+      },
+      "properties": {
+         "id": "pmb248969",
+         "title": "Seitzstraße 20",
+         "lat": "48.143103",
+         "lon": "11.585952",
+         "timestamp": ["1921-06-26"],
+         "importance": "1", 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3706, 48.2101]
       },
       "properties": {
@@ -9150,7 +9706,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Arthur Kaufmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Kaufmann",
+
+         "p_id": "#2496"
+         }]
       }
       }, 
     {
@@ -9871,7 +10433,7 @@
       },
       "properties": {
          "id": "pmb53152",
-         "title": "Hotel Kaiserin Elisabeth",
+         "title": "Hotel Kaiserin Elisabeth [Feldafing]",
          "lat": "47.94933649585533",
          "lon": "11.298363683529006",
          "timestamp": ["1922-07-28", "1922-07-29"],
@@ -10070,11 +10632,23 @@
          "title": "Elisabethstraße 22",
          "lat": "48.202866",
          "lon": "16.364281",
-         "timestamp": ["1923-02-18", "1927-06-02", "1929-10-25"],
-         "importance": "3", 
+         "timestamp": ["1923-02-18", "1926-01-18", "1927-06-02", "1929-10-25"],
+         "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Franz Werfel", "Alma Maria Mahler-Werfel"]
+        "wohnort": [
+         {
+
+         "p_name": "Franz Werfel",
+
+         "p_id": "#13094"
+         }, 
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
       }
       }, 
     {
@@ -10404,7 +10978,19 @@
          "importance": "31", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Margarethe Lichtenstein", "Olga Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Margarethe Lichtenstein",
+
+         "p_id": "#27973"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }]
       }
       }, 
     {
@@ -10964,7 +11550,7 @@
       },
       "properties": {
          "id": "pmb245269",
-         "title": "Seehotel",
+         "title": "Seehotel [Friedrichshafen]",
          "lat": "47.652264",
          "lon": "9.474115",
          "timestamp": ["1923-08-14"],
@@ -11226,7 +11812,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q131720045", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Ernst Benedikt"]
+        "wohnort": [
+         {
+
+         "p_name": "Ernst Benedikt",
+
+         "p_id": "#10872"
+         }]
       }
       }, 
     {
@@ -11281,7 +11873,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Franz Herterich"]
+        "wohnort": [
+         {
+
+         "p_name": "Franz Herterich",
+
+         "p_id": "#11659"
+         }]
       }
       }, 
     {
@@ -11566,7 +12164,19 @@
         "wikidata": "http://www.wikidata.org/entity/Q106194224", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Frieda Pollak", "Victor Zuckerkandl"]
+        "wohnort": [
+         {
+
+         "p_name": "Frieda Pollak",
+
+         "p_id": "#22728"
+         }, 
+         {
+
+         "p_name": "Victor Zuckerkandl",
+
+         "p_id": "#54787"
+         }]
       }
       }, 
     {
@@ -11584,7 +12194,13 @@
          "importance": "5", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel", 
-        "wohnort": ["Clara Katharina Pollaczek"]
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }]
       }
       }, 
     {
@@ -11602,7 +12218,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Carl Hochsinger"]
+        "wohnort": [
+         {
+
+         "p_name": "Carl Hochsinger",
+
+         "p_id": "#11718"
+         }]
       }
       }, 
     {
@@ -11911,8 +12533,8 @@
          "title": "Restaurant Toni Ott",
          "lat": "48.212483",
          "lon": "16.363758",
-         "timestamp": ["1925-03-28", "1925-10-22", "1925-10-24", "1925-12-14", "1926-01-08", "1926-02-19", "1926-04-12", "1927-02-25", "1927-03-15"],
-         "importance": "9", 
+         "timestamp": ["1925-03-28", "1925-10-22", "1925-10-24", "1925-12-14", "1926-01-08", "1926-01-31", "1926-02-19", "1926-04-12", "1927-02-25", "1927-03-15"],
+         "importance": "10", 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal", 
         "arbeitsort": ["Antonie Ott"]
@@ -12235,11 +12857,23 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1926-01-03", "1926-01-06", "1926-01-08", "1926-01-12", "1927-01-07", "1927-01-09", "1927-01-11", "1927-01-18", "1927-01-21", "1927-01-25", "1927-01-28", "1927-01-29", "1927-02-02", "1927-02-22", "1927-02-26", "1927-02-27", "1927-02-28", "1927-03-02", "1927-03-09", "1927-03-16", "1927-03-18", "1927-03-25", "1927-03-28", "1927-03-29", "1927-03-31", "1927-04-06", "1927-04-11", "1927-04-20", "1927-05-04", "1927-05-05", "1927-05-31", "1927-06-05", "1927-06-06", "1927-06-07", "1927-06-08", "1927-06-09", "1927-06-12", "1927-06-18", "1927-07-01", "1927-10-12", "1927-10-25"],
-         "importance": "41", 
+         "timestamp": ["1926-01-03", "1926-01-06", "1926-01-08", "1926-01-12", "1926-01-14", "1926-01-17", "1926-01-19", "1926-01-22", "1926-01-26", "1926-01-27", "1926-01-29", "1926-01-30", "1926-02-03", "1926-02-05", "1927-01-07", "1927-01-09", "1927-01-11", "1927-01-18", "1927-01-21", "1927-01-25", "1927-01-28", "1927-01-29", "1927-02-02", "1927-02-22", "1927-02-26", "1927-02-27", "1927-02-28", "1927-03-02", "1927-03-09", "1927-03-16", "1927-03-18", "1927-03-25", "1927-03-28", "1927-03-29", "1927-03-31", "1927-04-06", "1927-04-11", "1927-04-20", "1927-05-04", "1927-05-05", "1927-05-31", "1927-06-05", "1927-06-06", "1927-06-07", "1927-06-08", "1927-06-09", "1927-06-12", "1927-06-18", "1927-07-01", "1927-10-12", "1927-10-25"],
+         "importance": "51", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Vilma Lichtenstern", "Robert Lichtenstern"]
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
       }
       }, 
     {
@@ -12265,6 +12899,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.377292, 48.198683]
+      },
+      "properties": {
+         "id": "pmb249182",
+         "title": "Schwarzenbergplatz 7",
+         "lat": "48.198683",
+         "lon": "16.377292",
+         "timestamp": ["1926-01-05"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rudolf Steiner",
+
+         "p_id": "#25410"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37675, 48.20762]
       },
       "properties": {
@@ -12276,7 +12934,13 @@
          "importance": "29", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Josef Peter"]
+        "wohnort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
       }
       }, 
     {
@@ -12290,11 +12954,23 @@
          "title": "Reitschulgasse 2",
          "lat": "48.207185",
          "lon": "16.367295",
-         "timestamp": ["1926-01-12", "1927-09-27", "1928-06-06", "1928-06-27", "1928-09-28", "1928-10-26", "1928-11-13", "1929-02-05", "1930-01-24", "1930-05-20"],
-         "importance": "10", 
+         "timestamp": ["1926-01-12", "1926-01-27", "1927-09-27", "1928-06-06", "1928-06-27", "1928-09-28", "1928-10-26", "1928-11-13", "1929-02-05", "1930-01-24", "1930-05-20"],
+         "importance": "11", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Viktor Eisenmenger", "Anna Eisenmenger"]
+        "wohnort": [
+         {
+
+         "p_name": "Viktor Eisenmenger",
+
+         "p_id": "#15782"
+         }, 
+         {
+
+         "p_name": "Anna Eisenmenger",
+
+         "p_id": "#15775"
+         }]
       }
       }, 
     {
@@ -12312,6 +12988,105 @@
          "importance": "1", 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35113, 48.190969]
+      },
+      "properties": {
+         "id": "pmb245453",
+         "title": "Mollardgasse 26",
+         "lat": "48.190969",
+         "lon": "16.35113",
+         "timestamp": ["1926-01-13", "1927-03-01", "1927-05-13", "1927-10-12", "1928-01-04", "1928-05-23"],
+         "importance": "6", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1926-01-16", "1926-01-21", "1926-01-23", "1926-01-24", "1927-01-08", "1927-02-27", "1927-04-18", "1927-05-29", "1927-07-03", "1927-09-25", "1927-10-07", "1927-10-30", "1927-11-05", "1927-11-20", "1927-12-18", "1928-01-02", "1928-01-29", "1928-02-22", "1928-03-11", "1928-05-09", "1928-06-04", "1928-06-10", "1928-07-24", "1928-11-02", "1928-12-13", "1928-12-20", "1929-04-19", "1929-11-30", "1930-03-28", "1930-06-06", "1930-07-13", "1930-10-12", "1930-12-19"],
+         "importance": "33", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363197, 48.216829]
+      },
+      "properties": {
+         "id": "pmb235827",
+         "title": "Hörlgasse 14",
+         "lat": "48.216829",
+         "lon": "16.363197",
+         "timestamp": ["1926-01-23"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Frieda Pollak",
+
+         "p_id": "#22728"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377453, 48.193825]
+      },
+      "properties": {
+         "id": "pmb249285",
+         "title": "Prinz-Eugen-Straße 30",
+         "lat": "48.193825",
+         "lon": "16.377453",
+         "timestamp": ["1926-01-26"],
+         "importance": "1", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357769, 48.219065]
+      },
+      "properties": {
+         "id": "pmb249299",
+         "title": "Währinger Straße 30",
+         "lat": "48.219065",
+         "lon": "16.357769",
+         "timestamp": ["1926-01-29"],
+         "importance": "1", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }, 
     {
@@ -12348,7 +13123,13 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Louis Philipp Friedmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Louis Philipp Friedmann",
+
+         "p_id": "#16658"
+         }]
       }
       }, 
     {
@@ -13304,7 +14085,19 @@
         "wikidata": "http://www.wikidata.org/entity/Q1557494", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Franziska Goldmann", "Paul Goldmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Franziska Goldmann",
+
+         "p_id": "#17167"
+         }, 
+         {
+
+         "p_name": "Paul Goldmann",
+
+         "p_id": "#11485"
+         }]
       }
       }, 
     {
@@ -13322,7 +14115,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Albert Steinrück"]
+        "wohnort": [
+         {
+
+         "p_name": "Albert Steinrück",
+
+         "p_id": "#12837"
+         }]
       }
       }, 
     {
@@ -13340,7 +14139,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Brigitte Bermann Fischer", "Gottfried Bermann Fischer"]
+        "wohnort": [
+         {
+
+         "p_name": "Brigitte Bermann Fischer",
+
+         "p_id": "#14098"
+         }, 
+         {
+
+         "p_name": "Gottfried Bermann Fischer",
+
+         "p_id": "#10889"
+         }]
       }
       }, 
     {
@@ -13358,7 +14169,13 @@
          "importance": "9", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Samuel Fischer"]
+        "wohnort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
       }
       }, 
     {
@@ -13376,7 +14193,19 @@
          "importance": "7", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Karl Michaelis", "Dora Michaelis"]
+        "wohnort": [
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }, 
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }]
       }
       }, 
     {
@@ -13413,24 +14242,6 @@
          "importance": "3", 
         "abbr": "Filmproduktionsfirma", 
         "type": "Filmproduktionsfirma"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.337998, 48.235859]
-      },
-      "properties": {
-         "id": "pmb232834",
-         "title": "Gregor-Mendel-Straße 50",
-         "lat": "48.235859",
-         "lon": "16.337998",
-         "timestamp": ["1927-01-08", "1927-02-27", "1927-04-18", "1927-05-29", "1927-07-03", "1927-09-25", "1927-10-07", "1927-10-30", "1927-11-05", "1927-11-20", "1927-12-18", "1928-01-02", "1928-01-29", "1928-02-22", "1928-03-11", "1928-05-09", "1928-06-04", "1928-06-10", "1928-07-24", "1928-11-02", "1928-12-13", "1928-12-20", "1929-04-19", "1929-11-30", "1930-03-28", "1930-06-06", "1930-07-13", "1930-10-12", "1930-12-19"],
-         "importance": "29", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Rosa Menczel", "Philipp Menczel"]
       }
       }, 
     {
@@ -13508,24 +14319,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.35113, 48.190969]
-      },
-      "properties": {
-         "id": "pmb245453",
-         "title": "Mollardgasse 26",
-         "lat": "48.190969",
-         "lon": "16.35113",
-         "timestamp": ["1927-03-01", "1927-05-13", "1927-10-12", "1928-01-04", "1928-05-23"],
-         "importance": "5", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Helene Binder"]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.37271, 48.20907]
       },
       "properties": {
@@ -13592,7 +14385,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Marianne Zuckerkandl", "Victor Zuckerkandl"]
+        "wohnort": [
+         {
+
+         "p_name": "Marianne Zuckerkandl",
+
+         "p_id": "#2753"
+         }, 
+         {
+
+         "p_name": "Victor Zuckerkandl",
+
+         "p_id": "#27549"
+         }]
       }
       }, 
     {
@@ -13677,8 +14482,8 @@
          "title": "Flugplatz Venedig-Lido",
          "lat": "45.42888889",
          "lon": "12.38777778",
-         "timestamp": ["1927-04-23", "1927-09-15", "1928-05-03"],
-         "importance": "3", 
+         "timestamp": ["1927-04-23", "1927-09-15", "1928-05-03", "1928-07-27", "1928-07-31"],
+         "importance": "5", 
         "wikipedia": "https://de.wikipedia.org/wiki/Flugplatz_Venedig-Lido", 
         "wikidata": "http://www.wikidata.org/entity/Q1433925", 
         "geonames": "https://sws.geonames.org/3219405/", 
@@ -13719,7 +14524,13 @@
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alma Maria Mahler-Werfel"]
+        "wohnort": [
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
       }
       }, 
     {
@@ -13733,11 +14544,23 @@
          "title": "Campo Sant’Agostin 2545",
          "lat": "45.43879",
          "lon": "12.32858",
-         "timestamp": ["1927-04-25", "1927-04-27", "1927-09-05", "1927-09-06", "1927-09-10", "1927-09-13", "1928-05-02"],
-         "importance": "7", 
+         "timestamp": ["1927-04-25", "1927-04-27", "1927-09-05", "1927-09-06", "1927-09-10", "1927-09-13", "1928-05-02", "1928-07-30"],
+         "importance": "8", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Arnoldo Cappellini", "Lilly Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Arnoldo Cappellini",
+
+         "p_id": "#14850"
+         }, 
+         {
+
+         "p_name": "Lilly Schnitzler",
+
+         "p_id": "#3233"
+         }]
       }
       }, 
     {
@@ -13862,7 +14685,13 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Benjamin Harz"]
+        "wohnort": [
+         {
+
+         "p_name": "Benjamin Harz",
+
+         "p_id": "#17899"
+         }]
       }
       }, 
     {
@@ -13880,7 +14709,13 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Siegfried von Strakosch-Feldringen"]
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried von Strakosch-Feldringen",
+
+         "p_id": "#25563"
+         }]
       }
       }, 
     {
@@ -14022,7 +14857,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Emilie Franziska Wellesz", "Egon Wellesz"]
+        "wohnort": [
+         {
+
+         "p_name": "Emilie Franziska Wellesz",
+
+         "p_id": "#26924"
+         }, 
+         {
+
+         "p_name": "Egon Wellesz",
+
+         "p_id": "#13085"
+         }]
       }
       }, 
     {
@@ -14075,7 +14922,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Magda Pollaczek", "Karl Friedrich Pollaczek"]
+        "wohnort": [
+         {
+
+         "p_name": "Magda Pollaczek",
+
+         "p_id": "#28022"
+         }, 
+         {
+
+         "p_name": "Karl Friedrich Pollaczek",
+
+         "p_id": "#22698"
+         }]
       }
       }, 
     {
@@ -14320,7 +15179,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q1547160", 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum", 
-        "wohnort": ["Gabriele D’Annunzio"]
+        "wohnort": [
+         {
+
+         "p_name": "Gabriele D’Annunzio",
+
+         "p_id": "#2142"
+         }]
       }
       }, 
     {
@@ -14364,7 +15229,7 @@
       },
       "properties": {
          "id": "pmb248264",
-         "title": "Piazza Bra",
+         "title": "Piazza Brà",
          "lat": "45.43888889",
          "lon": "10.99277778",
          "timestamp": ["1927-09-03", "1927-09-04"],
@@ -14397,6 +15262,97 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [10.99644, 45.44133]
+      },
+      "properties": {
+         "id": "pmb248583",
+         "title": "Hotel Accademia",
+         "lat": "45.44133",
+         "lon": "10.99644",
+         "timestamp": ["1927-09-04"],
+         "importance": "1", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.24538, 45.49167]
+      },
+      "properties": {
+         "id": "pmb91237",
+         "title": "Mestre",
+         "lat": "45.49167",
+         "lon": "12.24538",
+         "timestamp": ["1927-09-05"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3173529/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32814, 45.43527]
+      },
+      "properties": {
+         "id": "pmb248599",
+         "title": "San Tomà [Fährterminal]",
+         "lat": "45.43527",
+         "lon": "12.32814",
+         "timestamp": ["1927-09-06"],
+         "importance": "1", 
+        "abbr": "Fährterminal", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32649, 45.43693]
+      },
+      "properties": {
+         "id": "pmb248606",
+         "title": "Santa Maria Gloriosa dei Frari",
+         "lat": "45.43693",
+         "lon": "12.32649",
+         "timestamp": ["1927-09-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Santa_Maria_Gloriosa_dei_Frari", 
+        "wikidata": "http://www.wikidata.org/entity/Q224961", 
+        "geonames": "https://sws.geonames.org/7910509/", 
+        "abbr": "S.CH", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.325309, 45.436571]
+      },
+      "properties": {
+         "id": "pmb248609",
+         "title": "Scuola Grande di San Rocco",
+         "lat": "45.436571",
+         "lon": "12.325309",
+         "timestamp": ["1927-09-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Scuola_Grande_di_San_Rocco", 
+        "wikidata": "http://www.wikidata.org/entity/Q1270723", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3712915853, 48.204595728]
       },
       "properties": {
@@ -14409,6 +15365,23 @@
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": ["Fritz Grünbaum"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36587, 48.221946]
+      },
+      "properties": {
+         "id": "pmb248874",
+         "title": "Illustrierte Kronen-Zeitung",
+         "lat": "48.221946",
+         "lon": "16.36587",
+         "timestamp": ["1927-10-25"],
+         "importance": "1", 
+        "abbr": "Redaktionsgebäude (K.RDK)", 
+        "type": "Redaktionsgebäude"
       }
       }, 
     {
@@ -14433,6 +15406,98 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.246169444444444, 48.170680555555556]
+      },
+      "properties": {
+         "id": "pmb248886",
+         "title": "Hermesvilla",
+         "lat": "48.170680555555556",
+         "lon": "16.246169444444444",
+         "timestamp": ["1927-10-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hermesvilla", 
+        "wikidata": "http://www.wikidata.org/entity/Q204129", 
+        "geonames": "https://sws.geonames.org/2601159/", 
+        "abbr": "S.HSE", 
+        "type": "Haus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34629, 48.236949]
+      },
+      "properties": {
+         "id": "pmb248893",
+         "title": "Peter-Jordan-Straße 17",
+         "lat": "48.236949",
+         "lon": "16.34629",
+         "timestamp": ["1927-11-03"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Friedrich Otto Hertz",
+
+         "p_id": "#7805"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35313, 48.21429]
+      },
+      "properties": {
+         "id": "pmb42773",
+         "title": "Schlösselgasse",
+         "lat": "48.21429",
+         "lon": "16.35313",
+         "timestamp": ["1927-11-03"],
+         "importance": "1", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "wohnort": [
+         {
+
+         "p_name": "Lola Selliers von Moranville",
+
+         "p_id": "#24820"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375793, 48.179519]
+      },
+      "properties": {
+         "id": "pmb248910",
+         "title": "Favoritenstraße 106",
+         "lat": "48.179519",
+         "lon": "16.375793",
+         "timestamp": ["1927-11-07", "1927-11-18"],
+         "importance": "2", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Leo Fischmann",
+
+         "p_id": "#16297"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37782, 48.19077]
       },
       "properties": {
@@ -14444,7 +15509,68 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Olga von Gans-Ludassy"]
+        "wohnort": [
+         {
+
+         "p_name": "Olga von Gans-Ludassy",
+
+         "p_id": "#16902"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1927-11-29"],
+         "importance": "1", 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": ["Samuel Fischer"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.345277777777778, 52.50611111111111]
+      },
+      "properties": {
+         "id": "pmb249071",
+         "title": "Franziskus-Krankenhaus Berlin",
+         "lat": "52.50611111111111",
+         "lon": "13.345277777777778",
+         "timestamp": ["1927-11-29"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Franziskus-Krankenhaus_Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q50358758", 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.382786, 52.513122]
+      },
+      "properties": {
+         "id": "pmb249086",
+         "title": "Wilhelmstraße 52",
+         "lat": "52.513122",
+         "lon": "13.382786",
+         "timestamp": ["1927-12-01"],
+         "importance": "1", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "arbeitsort": ["Wenzel Goldbaum"]
       }
       }, 
     {
@@ -14519,7 +15645,30 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Edmund Pietrkowski"]
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Pietrkowski",
+
+         "p_id": "#9274"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.326319, 52.507951]
+      },
+      "properties": {
+         "id": "pmb249116",
+         "title": "Hotel-Pension Steinplatz",
+         "lat": "52.507951",
+         "lon": "13.326319",
+         "timestamp": ["1927-12-04"],
+         "importance": "1", 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       }, 
     {
@@ -14544,6 +15693,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.26442, 52.481123]
+      },
+      "properties": {
+         "id": "pmb249121",
+         "title": "Höhmannstraße 6",
+         "lat": "52.481123",
+         "lon": "13.26442",
+         "timestamp": ["1927-12-05"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alfred Kerr",
+
+         "p_id": "#11910"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.363698, 52.508221]
       },
       "properties": {
@@ -14555,7 +15728,36 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Eva Marie Goldmann", "Paul Goldmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Eva Marie Goldmann",
+
+         "p_id": "#17164"
+         }, 
+         {
+
+         "p_name": "Paul Goldmann",
+
+         "p_id": "#11485"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.39358, 52.512798]
+      },
+      "properties": {
+         "id": "pmb249130",
+         "title": "Markgrafenstraße 35",
+         "lat": "52.512798",
+         "lon": "13.39358",
+         "timestamp": ["1927-12-07"],
+         "importance": "1", 
+        "abbr": "Redaktionsgebäude (K.RDK)", 
+        "type": "Redaktionsgebäude"
       }
       }, 
     {
@@ -14591,7 +15793,13 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Ludwig Fulda"]
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Fulda",
+
+         "p_id": "#11391"
+         }]
       }
       }, 
     {
@@ -14627,7 +15835,19 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Vera Schapira", "Richard Specht"]
+        "wohnort": [
+         {
+
+         "p_name": "Vera Schapira",
+
+         "p_id": "#9667"
+         }, 
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
+         }]
       }
       }, 
     {
@@ -14645,7 +15865,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Rudolf Askonas"]
+        "wohnort": [
+         {
+
+         "p_name": "Rudolf Askonas",
+
+         "p_id": "#13541"
+         }]
       }
       }, 
     {
@@ -14698,7 +15924,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Sascha Kronburg", "Max Hayek"]
+        "wohnort": [
+         {
+
+         "p_name": "Sascha Kronburg",
+
+         "p_id": "#8357"
+         }, 
+         {
+
+         "p_name": "Max Hayek",
+
+         "p_id": "#11628"
+         }]
       }
       }, 
     {
@@ -14787,7 +16025,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Pauline Eva Frid"]
+        "wohnort": [
+         {
+
+         "p_name": "Pauline Eva Frid",
+
+         "p_id": "#16589"
+         }]
       }
       }, 
     {
@@ -14826,7 +16070,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q595975", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude", 
-        "wohnort": ["Adolph von Zsolnay"]
+        "wohnort": [
+         {
+
+         "p_name": "Adolph von Zsolnay",
+
+         "p_id": "#27525"
+         }]
       }
       }, 
     {
@@ -14862,7 +16112,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Moritz Schlick"]
+        "wohnort": [
+         {
+
+         "p_name": "Moritz Schlick",
+
+         "p_id": "#9709"
+         }]
       }
       }, 
     {
@@ -14880,7 +16136,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Franz Josef Lichtenstern"]
+        "wohnort": [
+         {
+
+         "p_name": "Franz Josef Lichtenstern",
+
+         "p_id": "#20392"
+         }]
       }
       }, 
     {
@@ -14898,7 +16160,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Carl Moll"]
+        "wohnort": [
+         {
+
+         "p_name": "Carl Moll",
+
+         "p_id": "#12277"
+         }]
       }
       }, 
     {
@@ -15793,7 +17061,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Moriz Scheyer"]
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Scheyer",
+
+         "p_id": "#24148"
+         }]
       }
       }, 
     {
@@ -15811,7 +17085,7 @@
          "importance": "1", 
         "abbr": "Regierungsgebäude (K.RGB)", 
         "type": "Regierungsgebäude", 
-        "arbeitsort": ["Ignaz Seipel"]
+        "arbeitsort": ["Ignaz Seipel", "Ignaz Seipel"]
       }
       }, 
     {
@@ -16051,6 +17325,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.60294, 47.71587]
+      },
+      "properties": {
+         "id": "pmb248766",
+         "title": "Elisabeth-Waldweg",
+         "lat": "47.71587",
+         "lon": "13.60294",
+         "timestamp": ["1928-06-16"],
+         "importance": "1", 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.620278, 47.715]
       },
       "properties": {
@@ -16190,7 +17481,13 @@
         "wikidata": "http://www.wikidata.org/entity/Q106194241", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Edith Schneider"]
+        "wohnort": [
+         {
+
+         "p_name": "Edith Schneider",
+
+         "p_id": "#24375"
+         }]
       }
       }, 
     {
@@ -16592,7 +17889,13 @@
          "importance": "46", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Olga Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }]
       }
       }, 
     {
@@ -16627,7 +17930,19 @@
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Marianne Zuckerkandl", "Victor Zuckerkandl"]
+        "wohnort": [
+         {
+
+         "p_name": "Marianne Zuckerkandl",
+
+         "p_id": "#2753"
+         }, 
+         {
+
+         "p_name": "Victor Zuckerkandl",
+
+         "p_id": "#54787"
+         }]
       }
       }, 
     {
@@ -16684,7 +17999,19 @@
          "importance": "15", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Karl Michaelis", "Dora Michaelis"]
+        "wohnort": [
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }, 
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }]
       }
       }, 
     {
@@ -16812,7 +18139,13 @@
          "importance": "187", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Clara Katharina Pollaczek"]
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }]
       }
       }, 
     {
@@ -16847,7 +18180,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alice Schmutzer", "Ferdinand Schmutzer"]
+        "wohnort": [
+         {
+
+         "p_name": "Alice Schmutzer",
+
+         "p_id": "#9734"
+         }, 
+         {
+
+         "p_name": "Ferdinand Schmutzer",
+
+         "p_id": "#12689"
+         }]
       }
       }, 
     {
@@ -16900,7 +18245,25 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Margarete von Klimbacher", "Amelie von Testa", "Heinrich von Testa"]
+        "wohnort": [
+         {
+
+         "p_name": "Margarete von Klimbacher",
+
+         "p_id": "#19435"
+         }, 
+         {
+
+         "p_name": "Amelie von Testa",
+
+         "p_id": "#25943"
+         }, 
+         {
+
+         "p_name": "Heinrich von Testa",
+
+         "p_id": "#25947"
+         }]
       }
       }, 
     {
@@ -16992,7 +18355,19 @@
          "importance": "21", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Donath", "Ferdinand Donath"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }]
       }
       }, 
     {
@@ -17135,7 +18510,13 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alfred Kerr"]
+        "wohnort": [
+         {
+
+         "p_name": "Alfred Kerr",
+
+         "p_id": "#11910"
+         }]
       }
       }, 
     {
@@ -17207,7 +18588,13 @@
          "importance": "2", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Elisabeth Bergner"]
+        "wohnort": [
+         {
+
+         "p_name": "Elisabeth Bergner",
+
+         "p_id": "#10886"
+         }]
       }
       }, 
     {
@@ -17242,7 +18629,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Epstein"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Epstein",
+
+         "p_id": "#28285"
+         }]
       }
       }, 
     {
@@ -17297,7 +18690,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Bertrand-Gaston-Alexandre de Clauzel"]
+        "wohnort": [
+         {
+
+         "p_name": "Bertrand-Gaston-Alexandre de Clauzel",
+
+         "p_id": "#15018"
+         }]
       }
       }, 
     {
@@ -17315,7 +18714,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela von Berger"]
+        "wohnort": [
+         {
+
+         "p_name": "Gisela von Berger",
+
+         "p_id": "#6243"
+         }]
       }
       }, 
     {
@@ -17440,7 +18845,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alfred Neugebauer"]
+        "wohnort": [
+         {
+
+         "p_name": "Alfred Neugebauer",
+
+         "p_id": "#9062"
+         }]
       }
       }, 
     {
@@ -18133,7 +19544,13 @@
          "importance": "5", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Karl Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Karl Schnitzler",
+
+         "p_id": "#24430"
+         }]
       }
       }, 
     {
@@ -18185,7 +19602,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Moriz Sachs"]
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Sachs",
+
+         "p_id": "#9629"
+         }]
       }
       }, 
     {
@@ -18399,7 +19822,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Franz Karl Feilchenfeld"]
+        "wohnort": [
+         {
+
+         "p_name": "Franz Karl Feilchenfeld",
+
+         "p_id": "#16125"
+         }]
       }
       }, 
     {
@@ -18417,7 +19846,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Heinrich Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }]
       }
       }, 
     {
@@ -18473,7 +19908,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Adrienne Chapiro", "Joseph Chapiro"]
+        "wohnort": [
+         {
+
+         "p_name": "Adrienne Chapiro",
+
+         "p_id": "#14918"
+         }, 
+         {
+
+         "p_name": "Joseph Chapiro",
+
+         "p_id": "#11090"
+         }]
       }
       }, 
     {
@@ -18491,7 +19938,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Robert Klein"]
+        "wohnort": [
+         {
+
+         "p_name": "Robert Klein",
+
+         "p_id": "#19421"
+         }]
       }
       }, 
     {
@@ -18652,7 +20105,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Rudolf Beer"]
+        "wohnort": [
+         {
+
+         "p_name": "Rudolf Beer",
+
+         "p_id": "#13920"
+         }]
       }
       }, 
     {
@@ -19645,7 +21104,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Hugo Thimig"]
+        "wohnort": [
+         {
+
+         "p_name": "Hugo Thimig",
+
+         "p_id": "#12948"
+         }]
       }
       }, 
     {
@@ -19749,7 +21214,13 @@
          "importance": "1", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Lili Kraus"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Kraus",
+
+         "p_id": "#19716"
+         }]
       }
       }, 
     {
@@ -19767,7 +21238,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Ruth Schnitzler", "Heinrich Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Ruth Schnitzler",
+
+         "p_id": "#5960"
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }]
       }
       }, 
     {
@@ -19785,7 +21268,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Hedy Kempny"]
+        "wohnort": [
+         {
+
+         "p_name": "Hedy Kempny",
+
+         "p_id": "#19262"
+         }]
       }
       }, 
     {

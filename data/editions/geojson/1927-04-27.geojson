@@ -9,7 +9,6 @@
             [12.338208333333334, 45.433675], 
             [12.33835, 45.43411], 
             [12.336047, 45.435282], 
-            [12.336047, 45.435282], 
             [12.32858, 45.43879], 
             [12.32768, 45.4378]
           ]
@@ -89,24 +88,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alma Maria Mahler-Werfel"]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.336047, 45.435282]
-      },
-      "properties": {
-         "id": "pmb260",
-         "title": "Hotel Bonvecchiati",
-         "lat": "45.435282",
-         "lon": "12.336047",
-         "timestamp": ["1927-04-27"],
-         "importance": "1", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "wohnort": [
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
       }
       },
     {
@@ -124,7 +112,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Arnoldo Cappellini", "Lilly Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Arnoldo Cappellini",
+
+         "p_id": "#14850"
+         }, 
+         {
+
+         "p_name": "Lilly Schnitzler",
+
+         "p_id": "#3233"
+         }]
       }
       }
   ]

@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.370616, 48.196904], 
-            [16.370616, 48.196904], 
             [16.37196, 48.20143]
           ]
       },
@@ -15,23 +14,6 @@
         "name": "22. Dezember 1890"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.370616, 48.196904]
-      },
-      "properties": {
-         "id": "pmb50921",
-         "title": "Gußhausstraße",
-         "lat": "48.196904",
-         "lon": "16.370616",
-         "timestamp": ["1890-12-22"],
-         "importance": "1", 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -47,7 +29,49 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Leopold Rosenberg", "Arthur Schnitzler", "Julius Schnitzler", "Gisela Hajek", "Louise Schnitzler", "Johann Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Leopold Rosenberg",
+
+         "p_id": "#23573"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Johann Schnitzler",
+
+         "p_id": "#12695"
+         }], 
         "arbeitsort": [" ?? [Hausmeisterin von Kärntnerring 12/Bösendorferstraße 11]", " ?? [Hausmeister von Kärntnerring 12/Bösendorferstraße 11]"]
       }
       },

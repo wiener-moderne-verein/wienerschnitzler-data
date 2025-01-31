@@ -261,7 +261,43 @@
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }, 
     {
@@ -373,7 +409,37 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Elisabeth Steinrück", "Paul Brann"]
+        "wohnort": [
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Paul Brann",
+
+         "p_id": "#10998"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.76401, 47.68013]
+      },
+      "properties": {
+         "id": "pmb81",
+         "title": "Sonnleiten",
+         "lat": "47.68013",
+         "lon": "15.76401",
+         "timestamp": ["1909-08-08"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2764896/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -453,6 +519,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.966666666667, 47.716666666667]
+      },
+      "properties": {
+         "id": "pmb248948",
+         "title": "Bürg-Vöstenhof",
+         "lat": "47.716666666667",
+         "lon": "15.966666666667",
+         "timestamp": ["1909-08-12", "1909-08-17"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%BCrg-V%C3%B6stenhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q674981", 
+        "geonames": "https://sws.geonames.org/7871874/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.85932, 47.7351]
+      },
+      "properties": {
+         "id": "pmb91101",
+         "title": "Lackerboden",
+         "lat": "47.7351",
+         "lon": "15.85932",
+         "timestamp": ["1909-08-12", "1909-08-17"],
+         "importance": "2", 
+        "geonames": "https://sws.geonames.org/2779042/", 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.03276, 47.81564]
       },
       "properties": {
@@ -465,6 +569,73 @@
         "geonames": "https://sws.geonames.org/2775656/", 
         "abbr": "T.CLF", 
         "type": "Klippe"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.01328, 47.81185]
+      },
+      "properties": {
+         "id": "pmb248942",
+         "title": "Wilhelm Eichert-Hütte",
+         "lat": "47.81185",
+         "lon": "16.01328",
+         "timestamp": ["1909-08-13"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q130438091", 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.882778, 47.728056]
+      },
+      "properties": {
+         "id": "pmb248945",
+         "title": "Bodenwiese",
+         "lat": "47.728056",
+         "lon": "15.882778",
+         "timestamp": ["1909-08-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bodenwiese", 
+        "wikidata": "http://www.wikidata.org/entity/Q53865541", 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.585161, 48.135523]
+      },
+      "properties": {
+         "id": "pmb248958",
+         "title": "Mannhardtstraße 3",
+         "lat": "48.135523",
+         "lon": "11.585161",
+         "timestamp": ["1909-08-24"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Auguste Glümer",
+
+         "p_id": "#14948"
+         }, 
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
       }
       }, 
     {
@@ -489,6 +660,57 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.583636, 48.13844]
+      },
+      "properties": {
+         "id": "pmb92395",
+         "title": "Maximilianstraße",
+         "lat": "48.13844",
+         "lon": "11.583636",
+         "timestamp": ["1909-08-25"],
+         "importance": "1"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.540899, 48.1314861]
+      },
+      "properties": {
+         "id": "pmb248975",
+         "title": "Japan und Ostasien in der Kunst, Ausstellungsgelände 1909",
+         "lat": "48.1314861",
+         "lon": "11.540899",
+         "timestamp": ["1909-08-26"],
+         "importance": "1", 
+        "abbr": "Ausstellungsgelände", 
+        "type": "Ausstellungsgelände"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5346, 48.0809]
+      },
+      "properties": {
+         "id": "pmb248979",
+         "title": "Prinz-Ludwigs-Höhe",
+         "lat": "48.0809",
+         "lon": "11.5346",
+         "timestamp": ["1909-08-26"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Villenkolonie_Prinz-Ludwigs-H%C3%B6he", 
+        "wikidata": "http://www.wikidata.org/entity/Q2526196", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [10.74085, 47.55631]
       },
       "properties": {
@@ -499,8 +721,25 @@
          "timestamp": ["1909-08-30"],
          "importance": "1", 
         "geonames": "https://sws.geonames.org/2901486/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.736035, 47.553369]
+      },
+      "properties": {
+         "id": "pmb248986",
+         "title": "Hotel Alpenrose [Hohenschwangau]",
+         "lat": "47.553369",
+         "lon": "10.736035",
+         "timestamp": ["1909-08-30"],
+         "importance": "1", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -541,6 +780,26 @@
         "geonames": "https://sws.geonames.org/2864198/", 
         "abbr": "S.CSTL", 
         "type": "Burg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.735277777778, 47.576666666667]
+      },
+      "properties": {
+         "id": "pmb169795",
+         "title": "Schwangau",
+         "lat": "47.576666666667",
+         "lon": "10.735277777778",
+         "timestamp": ["1909-08-31"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwangau", 
+        "wikidata": "http://www.wikidata.org/entity/Q256547", 
+        "geonames": "https://sws.geonames.org/6557229/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
       }
       }
   ]

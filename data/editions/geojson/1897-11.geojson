@@ -226,7 +226,49 @@
          "importance": "26", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
         "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
       }
       }, 
@@ -285,7 +327,19 @@
          "importance": "13", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Karl Reinhard", "Marie Reinhard"]
+        "wohnort": [
+         {
+
+         "p_name": "Karl Reinhard",
+
+         "p_id": "#40587"
+         }, 
+         {
+
+         "p_name": "Marie Reinhard",
+
+         "p_id": "#2378"
+         }]
       }
       }, 
     {
@@ -303,7 +357,19 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Clara Katharina Pollaczek", "Louis Loeb"]
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
+         }]
       }
       }, 
     {
@@ -338,7 +404,13 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Marie Glümer"]
+        "wohnort": [
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
       }
       }, 
     {
@@ -356,7 +428,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Springer"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Springer",
+
+         "p_id": "#25272"
+         }]
       }
       }, 
     {
@@ -375,7 +453,19 @@
         "wikidata": "http://www.wikidata.org/entity/Q43052170", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße", 
-        "wohnort": ["Vít Šalomoun Bondy", "Charlotte Bondy"]
+        "wohnort": [
+         {
+
+         "p_name": "Vít Šalomoun Bondy",
+
+         "p_id": "#14392"
+         }, 
+         {
+
+         "p_name": "Charlotte Bondy",
+
+         "p_id": "#14384"
+         }]
       }
       }, 
     {
@@ -412,6 +502,26 @@
          "importance": "1", 
         "abbr": "Vereinsgebäude (K.VRN)", 
         "type": "Vereinsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.397222, 50.089444]
+      },
+      "properties": {
+         "id": "pmb33910",
+         "title": "Hradčany",
+         "lat": "50.089444",
+         "lon": "14.397222",
+         "timestamp": ["1897-11-27"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hrad%C4%8Dany_(Prag)", 
+        "wikidata": "http://www.wikidata.org/entity/Q744598", 
+        "geonames": "https://sws.geonames.org/3074982/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }
   ]

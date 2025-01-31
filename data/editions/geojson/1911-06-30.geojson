@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.83, 47.647222]
+            [15.83, 47.647222], 
+            [15.82878, 47.65337]
           ]
       },
       "properties": {
@@ -31,6 +32,23 @@
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel", 
         "arbeitsort": ["Karl Rostler"]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.82878, 47.65337]
+      },
+      "properties": {
+         "id": "pmb82",
+         "title": "Doppelreiterkogel",
+         "lat": "47.65337",
+         "lon": "15.82878",
+         "timestamp": ["1911-06-30"],
+         "importance": "1", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
       }
       }
   ]

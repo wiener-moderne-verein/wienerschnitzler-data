@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.365099999999998, 48.212019444444444], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +14,25 @@
         "name": "11. Dezember 1915"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365099999999998, 48.212019444444444]
+      },
+      "properties": {
+         "id": "pmb249361",
+         "title": "Schottenkirche",
+         "lat": "48.212019444444444",
+         "lon": "16.365099999999998",
+         "timestamp": ["1915-12-11"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schottenkirche_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q666817", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,7 +48,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }

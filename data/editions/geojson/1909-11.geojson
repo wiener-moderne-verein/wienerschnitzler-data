@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1909-11-01", "1909-11-02", "1909-11-03", "1909-11-04", "1909-11-05", "1909-11-06", "1909-11-07", "1909-11-08", "1909-11-09", "1909-11-10", "1909-11-15", "1909-11-16", "1909-11-17", "1909-11-18", "1909-11-19", "1909-11-20", "1909-11-21", "1909-11-22", "1909-11-23", "1909-11-24", "1909-11-25", "1909-11-26", "1909-11-27", "1909-11-28", "1909-11-29", "1909-11-30"],
-         "importance": "26", 
+         "timestamp": ["1909-11-01", "1909-11-02", "1909-11-03", "1909-11-04", "1909-11-05", "1909-11-06", "1909-11-07", "1909-11-08", "1909-11-09", "1909-11-10", "1909-11-11", "1909-11-14", "1909-11-15", "1909-11-16", "1909-11-17", "1909-11-18", "1909-11-19", "1909-11-20", "1909-11-21", "1909-11-22", "1909-11-23", "1909-11-24", "1909-11-25", "1909-11-26", "1909-11-27", "1909-11-28", "1909-11-29", "1909-11-30"],
+         "importance": "28", 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -42,6 +42,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1909-11-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361139, 48.210333]
       },
       "properties": {
@@ -49,11 +68,31 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1909-11-26", "1909-11-30"],
-         "importance": "2", 
+         "timestamp": ["1909-11-09", "1909-11-26", "1909-11-30"],
+         "importance": "3", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1909-11-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
       }
       }, 
     {
@@ -92,6 +131,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q284902", 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1909-11-08", "1909-11-19"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -201,12 +260,73 @@
          "title": "Frankgasse 1",
          "lat": "48.21533",
          "lon": "16.35736",
-         "timestamp": ["1909-11-05"],
-         "importance": "1", 
+         "timestamp": ["1909-11-05", "1909-11-19"],
+         "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Johanna Fröhlich", "Carl Hasch", "Leopold Gegenbauer", "Arthur Schnitzler", "Louise Schnitzler", "Arnold Fröhlich", "Max Eugen Burckhard"], 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
         "arbeitsort": ["Babette ", " ?? [Hausmeisterin von Arthur Schnitzler]"]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3608, 48.2045]
+      },
+      "properties": {
+         "id": "pmb199072",
+         "title": "Maria-Theresien-Denkmal",
+         "lat": "48.2045",
+         "lon": "16.3608",
+         "timestamp": ["1909-11-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Maria-Theresien-Denkmal", 
+        "wikidata": "http://www.wikidata.org/entity/Q21234884", 
+        "abbr": "Monument (K.MON)", 
+        "type": "Monument"
       }
       }, 
     {
@@ -224,7 +344,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       }, 
     {
@@ -242,7 +374,25 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek", "Karl Glossy"]
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Karl Glossy",
+
+         "p_id": "#11447"
+         }]
       }
       }, 
     {
@@ -256,11 +406,47 @@
          "title": "Edmund-Weiß-Gasse 7",
          "lat": "48.2304",
          "lon": "16.33472",
-         "timestamp": ["1909-11-01", "1909-11-02", "1909-11-03", "1909-11-04", "1909-11-05", "1909-11-06", "1909-11-07", "1909-11-08", "1909-11-09", "1909-11-10", "1909-11-15", "1909-11-16", "1909-11-17", "1909-11-18", "1909-11-19", "1909-11-20", "1909-11-21", "1909-11-22", "1909-11-23", "1909-11-24", "1909-11-25", "1909-11-26", "1909-11-27", "1909-11-28", "1909-11-29", "1909-11-30"],
-         "importance": "26", 
+         "timestamp": ["1909-11-01", "1909-11-02", "1909-11-03", "1909-11-04", "1909-11-05", "1909-11-06", "1909-11-07", "1909-11-08", "1909-11-09", "1909-11-10", "1909-11-11", "1909-11-14", "1909-11-15", "1909-11-16", "1909-11-17", "1909-11-18", "1909-11-19", "1909-11-20", "1909-11-21", "1909-11-22", "1909-11-23", "1909-11-24", "1909-11-25", "1909-11-26", "1909-11-27", "1909-11-28", "1909-11-29", "1909-11-30"],
+         "importance": "28", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }, 
     {
@@ -340,6 +526,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.351275, 48.205599]
+      },
+      "properties": {
+         "id": "pmb236738",
+         "title": "Wiener Werkstätte",
+         "lat": "48.205599",
+         "lon": "16.351275",
+         "timestamp": ["1909-11-19"],
+         "importance": "1", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3957, 48.21766]
       },
       "properties": {
@@ -378,6 +581,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1909-11-11", "1909-11-14"],
+         "importance": "2", 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -389,7 +610,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Paula Beer-Hofmann", "Richard Beer-Hofmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
       }
       }, 
     {
@@ -407,7 +640,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Raoul Auernheimer", "Irene Auernheimer"]
+        "wohnort": [
+         {
+
+         "p_name": "Raoul Auernheimer",
+
+         "p_id": "#10788"
+         }, 
+         {
+
+         "p_name": "Irene Auernheimer",
+
+         "p_id": "#3223"
+         }]
       }
       }, 
     {
@@ -431,6 +676,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.824188, 47.645877]
+      },
+      "properties": {
+         "id": "pmb200897",
+         "title": "Meiereiweg",
+         "lat": "47.645877",
+         "lon": "15.824188",
+         "timestamp": ["1909-11-12"],
+         "importance": "1", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.352693, 48.193456]
       },
       "properties": {
@@ -442,6 +704,55 @@
          "importance": "2", 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.380519, 48.208665]
+      },
+      "properties": {
+         "id": "pmb249395",
+         "title": "Falkestraße 3",
+         "lat": "48.208665",
+         "lon": "16.380519",
+         "timestamp": ["1909-11-09", "1909-11-17", "1909-11-19"],
+         "importance": "3", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.82878, 47.65337]
+      },
+      "properties": {
+         "id": "pmb82",
+         "title": "Doppelreiterkogel",
+         "lat": "47.65337",
+         "lon": "15.82878",
+         "timestamp": ["1909-11-13"],
+         "importance": "1", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3469, 48.235934]
+      },
+      "properties": {
+         "id": "pmb92580",
+         "title": "Vegagasse",
+         "lat": "48.235934",
+         "lon": "16.3469",
+         "timestamp": ["1909-11-20"],
+         "importance": "1"
       }
       }
   ]

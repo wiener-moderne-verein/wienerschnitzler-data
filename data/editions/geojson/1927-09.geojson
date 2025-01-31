@@ -63,6 +63,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.48306, 48.21806]
+      },
+      "properties": {
+         "id": "pmb90272",
+         "title": "Aspern",
+         "lat": "48.21806",
+         "lon": "16.48306",
+         "timestamp": ["1927-09-15"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2782315/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.369444, 48.203889]
       },
       "properties": {
@@ -242,7 +260,19 @@
          "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Clara Katharina Pollaczek", "Louis Loeb"]
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
+         }]
       }
       }, 
     {
@@ -413,7 +443,31 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Agnes Ulmann", "Nanette Speyer", "Hugo Schmidl", "Paula Schmidl"]
+        "wohnort": [
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
       }
       }, 
     {
@@ -449,7 +503,19 @@
          "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Gisela Hajek", "Markus Hajek"], 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }], 
         "arbeitsort": ["Markus Hajek"]
       }
       }, 
@@ -468,8 +534,63 @@
          "importance": "16", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.5083, 48.2247]
+      },
+      "properties": {
+         "id": "pmb249207",
+         "title": "Flughafen Aspern",
+         "lat": "48.2247",
+         "lon": "16.5083",
+         "timestamp": ["1927-09-15"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Flughafen_Aspern", 
+        "wikidata": "http://www.wikidata.org/entity/Q1430859", 
+        "abbr": "Flughafen", 
+        "type": ""
       }
       }, 
     {
@@ -487,7 +608,31 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Anna Donath", "Ferdinand Donath", "Helene Schnitzler", "Julius Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -505,7 +650,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Max Schwarzkopf", "Gustav Schwarzkopf"]
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       }, 
     {
@@ -560,7 +717,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Josef Peter"]
+        "wohnort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
       }
       }, 
     {
@@ -578,25 +741,36 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Viktor Eisenmenger", "Anna Eisenmenger"]
+        "wohnort": [
+         {
+
+         "p_name": "Viktor Eisenmenger",
+
+         "p_id": "#15782"
+         }, 
+         {
+
+         "p_name": "Anna Eisenmenger",
+
+         "p_id": "#15775"
+         }]
       }
       }, 
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.337998, 48.235859]
+        "coordinates": [16.338022, 48.233651]
       },
       "properties": {
-         "id": "pmb232834",
-         "title": "Gregor-Mendel-Straße 50",
-         "lat": "48.235859",
-         "lon": "16.337998",
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
          "timestamp": ["1927-09-25"],
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": ["Rosa Menczel", "Philipp Menczel"]
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -651,7 +825,19 @@
          "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Arnoldo Cappellini", "Lilly Schnitzler"]
+        "wohnort": [
+         {
+
+         "p_name": "Arnoldo Cappellini",
+
+         "p_id": "#14850"
+         }, 
+         {
+
+         "p_name": "Lilly Schnitzler",
+
+         "p_id": "#3233"
+         }]
       }
       }, 
     {
@@ -750,7 +936,7 @@
       },
       "properties": {
          "id": "pmb248264",
-         "title": "Piazza Bra",
+         "title": "Piazza Brà",
          "lat": "45.43888889",
          "lon": "10.99277778",
          "timestamp": ["1927-09-03", "1927-09-04"],
@@ -777,6 +963,97 @@
         "wikidata": "http://www.wikidata.org/entity/Q1052661", 
         "abbr": "Kirche (K.KRC)", 
         "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.99644, 45.44133]
+      },
+      "properties": {
+         "id": "pmb248583",
+         "title": "Hotel Accademia",
+         "lat": "45.44133",
+         "lon": "10.99644",
+         "timestamp": ["1927-09-04"],
+         "importance": "1", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.24538, 45.49167]
+      },
+      "properties": {
+         "id": "pmb91237",
+         "title": "Mestre",
+         "lat": "45.49167",
+         "lon": "12.24538",
+         "timestamp": ["1927-09-05"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/3173529/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32814, 45.43527]
+      },
+      "properties": {
+         "id": "pmb248599",
+         "title": "San Tomà [Fährterminal]",
+         "lat": "45.43527",
+         "lon": "12.32814",
+         "timestamp": ["1927-09-06"],
+         "importance": "1", 
+        "abbr": "Fährterminal", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32649, 45.43693]
+      },
+      "properties": {
+         "id": "pmb248606",
+         "title": "Santa Maria Gloriosa dei Frari",
+         "lat": "45.43693",
+         "lon": "12.32649",
+         "timestamp": ["1927-09-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Santa_Maria_Gloriosa_dei_Frari", 
+        "wikidata": "http://www.wikidata.org/entity/Q224961", 
+        "geonames": "https://sws.geonames.org/7910509/", 
+        "abbr": "S.CH", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.325309, 45.436571]
+      },
+      "properties": {
+         "id": "pmb248609",
+         "title": "Scuola Grande di San Rocco",
+         "lat": "45.436571",
+         "lon": "12.325309",
+         "timestamp": ["1927-09-09"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Scuola_Grande_di_San_Rocco", 
+        "wikidata": "http://www.wikidata.org/entity/Q1270723", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }
   ]

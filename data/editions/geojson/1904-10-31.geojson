@@ -7,9 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.30202, 48.18636], 
-            [16.30202, 48.18636], 
-            [16.30202, 48.18636], 
-            [16.30202, 48.18636], 
             [16.370342, 48.211369], 
             [16.353908, 48.222789], 
             [16.33472, 48.2304]
@@ -19,40 +16,6 @@
         "name": "31. Oktober 1904"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.30202, 48.18636]
-      },
-      "properties": {
-         "id": "pmb304",
-         "title": "Ottakringer Bräu",
-         "lat": "48.18636",
-         "lon": "16.30202",
-         "timestamp": ["1904-10-31"],
-         "importance": "1", 
-        "abbr": "Bierhaus (K.BIR)", 
-        "type": "Bierhaus"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.30202, 48.18636]
-      },
-      "properties": {
-         "id": "pmb304",
-         "title": "Ottakringer Bräu",
-         "lat": "48.18636",
-         "lon": "16.30202",
-         "timestamp": ["1904-10-31"],
-         "importance": "1", 
-        "abbr": "Bierhaus (K.BIR)", 
-        "type": "Bierhaus"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -68,7 +31,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Josef Eduard Geiringer"], 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
         "arbeitsort": ["Friedrich Geiringer"]
       }
       },
@@ -87,7 +56,25 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Valentin Rotenstern", "Anna Rotenstern-Tesi", "Peter Rotenstern"]
+        "wohnort": [
+         {
+
+         "p_name": "Valentin Rotenstern",
+
+         "p_id": "#51058"
+         }, 
+         {
+
+         "p_name": "Anna Rotenstern-Tesi",
+
+         "p_id": "#23640"
+         }, 
+         {
+
+         "p_name": "Peter Rotenstern",
+
+         "p_id": "#2992"
+         }]
       }
       },
     {
@@ -105,24 +92,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Lili Cappellini", "Elisabeth Steinrück", "Arthur Schnitzler", "Heinrich Schnitzler", "Olga Schnitzler", "Dora Erl"]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.30202, 48.18636]
-      },
-      "properties": {
-         "id": "pmb304",
-         "title": "Ottakringer Bräu",
-         "lat": "48.18636",
-         "lon": "16.30202",
-         "timestamp": ["1904-10-31"],
-         "importance": "1", 
-        "abbr": "Bierhaus (K.BIR)", 
-        "type": "Bierhaus"
+        "wohnort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {

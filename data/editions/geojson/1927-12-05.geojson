@@ -6,10 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.26586, 52.48338], 
+            [13.26442, 52.481123], 
             [13.3915, 52.50095], 
             [13.39333, 52.51483], 
-            [13.383456, 52.516152], 
             [13.383456, 52.516152], 
             [13.363698, 52.508221]
           ]
@@ -59,20 +58,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.26586, 52.48338]
+        "coordinates": [13.26442, 52.481123]
       },
       "properties": {
-         "id": "pmb129",
-         "title": "Grunewald",
-         "lat": "52.48338",
-         "lon": "13.26586",
+         "id": "pmb249121",
+         "title": "Höhmannstraße 6",
+         "lat": "52.481123",
+         "lon": "13.26442",
          "timestamp": ["1927-12-05"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Grunewald", 
-        "wikidata": "http://www.wikidata.org/entity/Q2874431", 
-        "geonames": "https://sws.geonames.org/2914210/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alfred Kerr",
+
+         "p_id": "#11910"
+         }]
       }
       },
     {
@@ -96,25 +99,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.383456, 52.516152]
-      },
-      "properties": {
-         "id": "pmb127",
-         "title": "Hotel Bristol Berlin",
-         "lat": "52.516152",
-         "lon": "13.383456",
-         "timestamp": ["1927-12-05"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Berlin)", 
-        "wikidata": "http://www.wikidata.org/entity/Q1630839", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.363698, 52.508221]
       },
       "properties": {
@@ -126,7 +110,19 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Eva Marie Goldmann", "Paul Goldmann"]
+        "wohnort": [
+         {
+
+         "p_name": "Eva Marie Goldmann",
+
+         "p_id": "#17164"
+         }, 
+         {
+
+         "p_name": "Paul Goldmann",
+
+         "p_id": "#11485"
+         }]
       }
       }
   ]

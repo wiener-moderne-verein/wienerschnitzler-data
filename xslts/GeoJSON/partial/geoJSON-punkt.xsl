@@ -155,9 +155,16 @@
             <xsl:text>, </xsl:text>
             <xsl:text>&#10;        "wohnort": [</xsl:text>
             <xsl:for-each select="key('bewohner-key', $input-placeNode/@xml:id, $bewohner)/tei:noteGrp[1]/tei:note[@type='lebt']/tei:persName">
+                <xsl:text>&#10;         {</xsl:text>
+                <xsl:text>&#10;&#10;         "p_name": </xsl:text>
                 <xsl:text>"</xsl:text>
                 <xsl:value-of select="concat(tei:forename, ' ', tei:surname)"/>
+                <xsl:text>",</xsl:text>
+                <xsl:text>&#10;&#10;         "p_id": </xsl:text>
                 <xsl:text>"</xsl:text>
+                <xsl:value-of select="@ref"/>
+                <xsl:text>"</xsl:text>
+                <xsl:text>&#10;         }</xsl:text>
                 <xsl:if test="not(position()=last())">
                     <xsl:text>, </xsl:text>
                 </xsl:if>

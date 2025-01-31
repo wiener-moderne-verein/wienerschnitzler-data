@@ -8,8 +8,6 @@
         "coordinates": [
             [16.2656, 48.2213], 
             [16.275701, 48.219421], 
-            [16.275701, 48.219421], 
-            [16.275701, 48.219421], 
             [16.258056, 48.201667], 
             [16.266071, 48.207207], 
             [16.33716, 48.23188], 
@@ -100,46 +98,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.275701, 48.219421]
-      },
-      "properties": {
-         "id": "pmb186542",
-         "title": "Gallitzinberg",
-         "lat": "48.219421",
-         "lon": "16.275701",
-         "timestamp": ["1911-06-11"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Gallitzinberg", 
-        "wikidata": "http://www.wikidata.org/entity/Q874710", 
-        "geonames": "https://sws.geonames.org/2601048/", 
-        "abbr": "T.SLP", 
-        "type": "Gefälle"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.275701, 48.219421]
-      },
-      "properties": {
-         "id": "pmb186542",
-         "title": "Gallitzinberg",
-         "lat": "48.219421",
-         "lon": "16.275701",
-         "timestamp": ["1911-06-11"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Gallitzinberg", 
-        "wikidata": "http://www.wikidata.org/entity/Q874710", 
-        "geonames": "https://sws.geonames.org/2601048/", 
-        "abbr": "T.SLP", 
-        "type": "Gefälle"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.2656, 48.2213]
       },
       "properties": {
@@ -170,7 +128,43 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Alexander Römpler", "Hedwig Bleibtreu", "Arthur Schnitzler", "Heinrich Schnitzler", "Lili Cappellini", "Olga Schnitzler"], 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
         "arbeitsort": ["Josefine Schipper", "Anna Haselmayer", "Paula "]
       }
       }

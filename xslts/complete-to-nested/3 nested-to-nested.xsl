@@ -42,39 +42,72 @@
             <xsl:copy-of select="@*"/>
             <xsl:copy-of select="tei:placeName"/>
         </xsl:element>
-        <xsl:variable name="alle-corresps"
-            select="parent::tei:listPlace/tei:place/replace(@corresp, '#', '')" as="xs:string*"/>
-        <xsl:for-each
-            select="distinct-values(parent::tei:listPlace/tei:place/tei:ancestors/tokenize(@ana, 'pmb')[not(.='')])">
-            <xsl:if
-                test="xs:long(replace(., 'pmb', '')) lt 74 and xs:long(replace(., 'pmb', '')) gt 50">
-                <xsl:if test="
-                        not(some $c in $alle-corresps
-                            satisfies $c = .)">
-                    <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
-                        <xsl:attribute name="corresp" select="concat('#', .)"/>
-                        <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:value-of select="map:get($bezirke, concat('pmb', .))"/>
-                        </xsl:element>
-                        <xsl:element name="ancestors" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:attribute name="ana">
-                                <xsl:text>50</xsl:text>
-                            </xsl:attribute>
-                        </xsl:element>
-                    </xsl:element>
-                </xsl:if>
-            </xsl:if>
+        <xsl:variable name="benoetigte-bezirke" as="node()">
+            <!-- alle Bezirke, die in ancestors stehen -->
+            <list>
+                <xsl:for-each
+                    select="distinct-values(parent::tei:listPlace[1]/tei:place/tei:ancestors[1]/tokenize(@ana, 'pmb')[not(. = '')])">
+                    <xsl:if
+                        test="xs:long(replace(., 'pmb', '')) lt 74 and xs:long(replace(., 'pmb', '')) gt 50">
+                        <item>
+                            <xsl:value-of select="."/>
+                        </item>
+                    </xsl:if>
+                </xsl:for-each>
+            </list>
+        </xsl:variable>
+        <xsl:variable name="vorhandene-bezirke" as="node()">
+            <!-- alle Bezirke, die schon als corresp angelegt sind -->
+            <list>
+                <xsl:for-each select="distinct-values(parent::tei:listPlace[1]/tei:place/@corresp)">
+                    <xsl:if
+                        test="xs:long(replace(., '#pmb', '')) lt 74 and xs:long(replace(., '#pmb', '')) gt 50">
+                        <item>
+                            <xsl:value-of select="replace(replace(., 'pmb', ''), '#', '')"/>
+                        </item>
+                    </xsl:if>
+                </xsl:for-each>
+            </list>
+        </xsl:variable>
+        <xsl:variable name="notwendige-bezirke">
+            <!-- liste der zu ergänzenden bezirke -->
+            <list>
+                <xsl:for-each select="$benoetigte-bezirke//*:item">
+                    <xsl:variable name="current" select="."/>
+                    <xsl:choose>
+                        <xsl:when test="$vorhandene-bezirke//*:item = $current"/>
+                        <xsl:otherwise>
+                            <item>
+                                <xsl:value-of select="$current"/>
+                            </item>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:for-each>
+            </list>
+        </xsl:variable>
+        <xsl:for-each select="$notwendige-bezirke//*:item">
+            <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
+                <xsl:attribute name="corresp" select="concat('#', .)"/>
+                <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
+                    <xsl:value-of select="map:get($bezirke, concat('pmb', .))"/>
+                </xsl:element>
+                <xsl:element name="ancestors" namespace="http://www.tei-c.org/ns/1.0">
+                    <xsl:attribute name="ana">
+                        <xsl:text>50</xsl:text>
+                    </xsl:attribute>
+                </xsl:element>
+            </xsl:element>
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:ancestors[tokenize(@ana, 'pmb')[2]]">
         <xsl:variable name="anastring" select="@ana"/>
-        <xsl:variable name="tokens" select="tokenize($anastring, 'pmb')" />
-        <xsl:variable name="wien-und-bezirk" 
-            select="exists($tokens[. castable as xs:long and xs:long(.) &gt;= 51 and xs:long(.) &lt;= 73]) and exists($tokens[. castable as xs:long and xs:long(.) = 50])" />
+        <xsl:variable name="tokens" select="tokenize($anastring, 'pmb')"/>
+        <xsl:variable name="wien-und-bezirk"
+            select="exists($tokens[. castable as xs:long and xs:long(.) &gt;= 51 and xs:long(.) &lt;= 73]) and exists($tokens[. castable as xs:long and xs:long(.) = 50])"/>
         <xsl:for-each select="$tokens">
             <xsl:choose>
                 <xsl:when test="$wien-und-bezirk and . = '50'"/>
-                <xsl:when test=". =''"/>
+                <xsl:when test=". = ''"/>
                 <xsl:otherwise>
                     <xsl:element name="ancestors" namespace="http://www.tei-c.org/ns/1.0">
                         <xsl:attribute name="ana">

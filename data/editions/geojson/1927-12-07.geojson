@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [13.29417, 52.46601], 
+            [13.39358, 52.512798], 
             [13.383456, 52.516152]
           ]
       },
@@ -37,6 +38,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.39358, 52.512798]
+      },
+      "properties": {
+         "id": "pmb249130",
+         "title": "Markgrafenstraße 35",
+         "lat": "52.512798",
+         "lon": "13.39358",
+         "timestamp": ["1927-12-07"],
+         "importance": "1", 
+        "abbr": "Redaktionsgebäude (K.RDK)", 
+        "type": "Redaktionsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.29417, 52.46601]
       },
       "properties": {
@@ -48,7 +66,13 @@
          "importance": "1", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": ["Edmund Pietrkowski"]
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Pietrkowski",
+
+         "p_id": "#9274"
+         }]
       }
       }
   ]

@@ -102,7 +102,13 @@
          "importance": "1", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel", 
-        "arbeitsort": ["Carl Seltmann"]
+        "arbeitsort": [
+         {
+
+         "p_name": "Carl Seltmann",
+
+         "p_id": "#145407"
+         }]
       }
       },
     {
@@ -122,7 +128,19 @@
         "wikidata": "http://www.wikidata.org/entity/Q1886083", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
-        "arbeitsort": ["Heinrich Teweles", "Angelo Neumann"]
+        "arbeitsort": [
+         {
+
+         "p_name": "Heinrich Teweles",
+
+         "p_id": "#12932"
+         }, 
+         {
+
+         "p_name": "Angelo Neumann",
+
+         "p_id": "#12341"
+         }]
       }
       }
   ]

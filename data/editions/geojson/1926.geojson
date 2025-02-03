@@ -524,25 +524,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.276509500872, 48.241960480337]
-      },
-      "properties": {
-         "id": "pmb176",
-         "title": "Schwarzenbergpark",
-         "lat": "48.241960480337",
-         "lon": "16.276509500872",
-         "timestamp": ["1926-01-10", "1926-06-22", "1926-10-06", "1926-11-14"],
-         "importance": "4", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
-        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.362946, 48.214527]
       },
       "properties": {
@@ -1216,6 +1197,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1926-01-10", "1926-06-22", "1926-10-06", "1926-11-14"],
+         "importance": "4", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.31268, 48.2629]
       },
       "properties": {
@@ -1740,26 +1740,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.4638, 46.9489]
-      },
-      "properties": {
-         "id": "pmb1223",
-         "title": "Bern",
-         "lat": "46.9489",
-         "lon": "7.4638",
-         "timestamp": ["1926-08-11", "1926-08-12", "1926-08-13", "1926-08-14", "1926-08-15", "1926-08-16"],
-         "importance": "6", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bern", 
-        "wikidata": "http://www.wikidata.org/entity/Q70", 
-        "geonames": "https://sws.geonames.org/2661552/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -1827,6 +1807,26 @@
 
          "p_id": "#22399"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.4638, 46.9489]
+      },
+      "properties": {
+         "id": "pmb1223",
+         "title": "Bern",
+         "lat": "46.9489",
+         "lon": "7.4638",
+         "timestamp": ["1926-08-11", "1926-08-12", "1926-08-13", "1926-08-14", "1926-08-15", "1926-08-16"],
+         "importance": "6", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bern", 
+        "wikidata": "http://www.wikidata.org/entity/Q70", 
+        "geonames": "https://sws.geonames.org/2661552/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -2216,8 +2216,8 @@
          "title": "Hotel Esplanade [Berlin]",
          "lat": "52.51",
          "lon": "13.374444",
-         "timestamp": ["1926-12-24", "1926-12-25", "1926-12-26", "1926-12-27", "1926-12-28", "1926-12-29", "1926-12-30", "1926-12-31"],
-         "importance": "8", 
+         "timestamp": ["1926-02-06", "1926-02-07", "1926-02-08", "1926-02-09", "1926-02-10", "1926-02-11", "1926-02-12", "1926-02-13", "1926-02-14", "1926-02-15", "1926-02-16", "1926-12-24", "1926-12-25", "1926-12-26", "1926-12-27", "1926-12-28", "1926-12-29", "1926-12-30", "1926-12-31"],
+         "importance": "19", 
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q321562", 
         "abbr": "Hotel (K.HTL)", 
@@ -2478,12 +2478,107 @@
          "title": "Reichstag",
          "lat": "52.518611",
          "lon": "13.376111",
-         "timestamp": ["1926-02-07"],
-         "importance": "1", 
+         "timestamp": ["1926-02-06", "1926-02-07"],
+         "importance": "2", 
         "wikipedia": "https://de.wikipedia.org/wiki/Reichstagsgeb%C3%A4ude", 
         "wikidata": "http://www.wikidata.org/entity/Q151897", 
         "abbr": "Regierungsgebäude (K.RGB)", 
         "type": "Regierungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1926-02-08", "1926-02-11"],
+         "importance": "2", 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.33465, 52.50422]
+      },
+      "properties": {
+         "id": "pmb235978",
+         "title": "Zum Austernmeyer",
+         "lat": "52.50422",
+         "lon": "13.33465",
+         "timestamp": ["1926-02-08"],
+         "importance": "1", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.285098, 52.49074]
+      },
+      "properties": {
+         "id": "pmb246987",
+         "title": "Hubertus Allee 24",
+         "lat": "52.49074",
+         "lon": "13.285098",
+         "timestamp": ["1926-02-09"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }, 
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.293044, 52.465923]
+      },
+      "properties": {
+         "id": "pmb244580",
+         "title": "Miquelstraße 86",
+         "lat": "52.465923",
+         "lon": "13.293044",
+         "timestamp": ["1926-02-10"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Fulda",
+
+         "p_id": "#11391"
+         }]
       }
       }, 
     {

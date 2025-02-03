@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.370342, 48.211369], 
+            [16.381667, 48.2075], 
+            [16.380519, 48.208665], 
             [16.33472, 48.2304]
           ]
       },
@@ -13,6 +16,74 @@
         "name": "24. November 1909"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.380519, 48.208665]
+      },
+      "properties": {
+         "id": "pmb249395",
+         "title": "Falkestraße 3",
+         "lat": "48.208665",
+         "lon": "16.380519",
+         "timestamp": ["1909-11-24"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.381667, 48.2075]
+      },
+      "properties": {
+         "id": "pmb83",
+         "title": "Museum für Angewandte Kunst",
+         "lat": "48.2075",
+         "lon": "16.381667",
+         "timestamp": ["1909-11-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Museum_f%C3%BCr_angewandte_Kunst_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q478455", 
+        "geonames": "https://sws.geonames.org/8604499/", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1909-11-24"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

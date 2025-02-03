@@ -25,6 +25,61 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1910-01-11", "1910-02-15", "1910-02-27", "1910-03-17"],
+         "importance": "4", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1910-01-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351111, 48.209583]
+      },
+      "properties": {
+         "id": "pmb40",
+         "title": "Theater in der Josefstadt",
+         "lat": "48.209583",
+         "lon": "16.351111",
+         "timestamp": ["1910-04-07", "1910-04-08", "1910-04-17"],
+         "importance": "3", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q167619", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.384444, 48.215]
       },
       "properties": {
@@ -32,8 +87,8 @@
          "title": "Carl-Theater",
          "lat": "48.215",
          "lon": "16.384444",
-         "timestamp": ["1910-03-05"],
-         "importance": "1", 
+         "timestamp": ["1910-01-03", "1910-03-05"],
+         "importance": "2", 
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
@@ -51,6 +106,25 @@
 
          "p_id": "#3787"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1910-02-01", "1910-02-02", "1910-02-25", "1910-03-04"],
+         "importance": "4", 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
       }
       }, 
     {
@@ -121,11 +195,29 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1910-02-03", "1910-02-18", "1910-04-07", "1910-06-07", "1910-07-01", "1910-09-23", "1910-10-22", "1910-10-23", "1910-11-23", "1910-11-24", "1910-11-25", "1910-12-19"],
-         "importance": "12", 
+         "timestamp": ["1910-01-10", "1910-02-03", "1910-02-15", "1910-02-18", "1910-03-30", "1910-03-31", "1910-04-05", "1910-04-07", "1910-04-08", "1910-04-08", "1910-04-11", "1910-04-13", "1910-04-22", "1910-04-27", "1910-06-07", "1910-07-01", "1910-09-23", "1910-10-22", "1910-10-23", "1910-11-23", "1910-11-24", "1910-11-25", "1910-12-19"],
+         "importance": "23", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1910-04-27"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
       }
       }, 
     {
@@ -239,6 +331,26 @@
         "geonames": "https://sws.geonames.org/6942415/", 
         "abbr": "L.PRK", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.29101, 48.17547]
+      },
+      "properties": {
+         "id": "pmb63",
+         "title": "XIII., Hietzing",
+         "lat": "48.17547",
+         "lon": "16.29101",
+         "timestamp": ["1910-03-06"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hietzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q636910", 
+        "geonames": "https://sws.geonames.org/2776420/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -362,6 +474,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1910-02-08", "1910-02-10", "1910-02-22", "1910-02-24"],
+         "importance": "4", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.7666, 51.0833]
       },
       "properties": {
@@ -376,6 +507,26 @@
         "geonames": "https://sws.geonames.org/2935020/ https://sws.geonames.org/2935022/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1910-01-08", "1910-01-24", "1910-02-11", "1910-03-01", "1910-03-03", "1910-03-10", "1910-03-18", "1910-03-21", "1910-04-07"],
+         "importance": "9", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -422,6 +573,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.341944, 48.233056]
+      },
+      "properties": {
+         "id": "pmb533",
+         "title": "Währinger Cottage",
+         "lat": "48.233056",
+         "lon": "16.341944",
+         "timestamp": ["1910-02-11", "1910-03-04"],
+         "importance": "2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1136683", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3566, 48.205142]
       },
       "properties": {
@@ -429,8 +599,8 @@
          "title": "Volkstheater",
          "lat": "48.205142",
          "lon": "16.3566",
-         "timestamp": ["1910-01-17", "1910-01-31", "1910-02-05", "1910-11-29", "1910-11-30", "1910-12-02", "1910-12-03"],
-         "importance": "7", 
+         "timestamp": ["1910-01-17", "1910-01-31", "1910-02-05", "1910-02-06", "1910-03-22", "1910-11-29", "1910-11-30", "1910-12-02", "1910-12-03"],
+         "importance": "9", 
         "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
@@ -513,25 +683,6 @@
          "lon": "16.333568462613",
          "timestamp": ["1910-06-18", "1910-07-01", "1910-08-08", "1910-09-20", "1910-10-11", "1910-10-15", "1910-10-21", "1910-11-01", "1910-11-15", "1910-11-19", "1910-12-15", "1910-12-22", "1910-12-31"],
          "importance": "13", 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.276509500872, 48.241960480337]
-      },
-      "properties": {
-         "id": "pmb176",
-         "title": "Schwarzenbergpark",
-         "lat": "48.241960480337",
-         "lon": "16.276509500872",
-         "timestamp": ["1910-01-16", "1910-03-06", "1910-03-27", "1910-04-03", "1910-05-15", "1910-06-12", "1910-09-25", "1910-10-09"],
-         "importance": "8", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
-        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
       }
@@ -730,8 +881,8 @@
          "title": "Frankgasse 1",
          "lat": "48.21533",
          "lon": "16.35736",
-         "timestamp": ["1910-01-07", "1910-01-26", "1910-02-18", "1910-03-01", "1910-03-10", "1910-03-15", "1910-03-25", "1910-03-27", "1910-04-05", "1910-04-07", "1910-04-12", "1910-04-15", "1910-04-17", "1910-05-02", "1910-05-15", "1910-05-16", "1910-06-07", "1910-06-21", "1910-09-22", "1910-10-22", "1910-11-04", "1910-12-02", "1910-12-06", "1910-12-17", "1910-12-28", "1910-12-31"],
-         "importance": "26", 
+         "timestamp": ["1910-01-07", "1910-01-12", "1910-01-26", "1910-02-04", "1910-02-05", "1910-02-10", "1910-02-18", "1910-03-01", "1910-03-10", "1910-03-15", "1910-03-25", "1910-03-27", "1910-04-05", "1910-04-07", "1910-04-12", "1910-04-15", "1910-04-17", "1910-05-02", "1910-05-15", "1910-05-16", "1910-06-07", "1910-06-21", "1910-09-22", "1910-10-22", "1910-11-04", "1910-12-02", "1910-12-06", "1910-12-17", "1910-12-28", "1910-12-31"],
+         "importance": "30", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -995,8 +1146,8 @@
          "title": "Sanatorium Loew",
          "lat": "48.216264483348",
          "lon": "16.347492624475",
-         "timestamp": ["1910-08-16"],
-         "importance": "1", 
+         "timestamp": ["1910-04-09", "1910-04-12", "1910-08-16"],
+         "importance": "3", 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
         "arbeitsort": [
@@ -1298,6 +1449,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1910-01-16", "1910-03-06", "1910-03-27", "1910-04-03", "1910-05-15", "1910-06-12", "1910-09-25", "1910-10-09"],
+         "importance": "8", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.353571, 48.239999]
       },
       "properties": {
@@ -1305,8 +1475,8 @@
          "title": "Dollinergasse 8",
          "lat": "48.239999",
          "lon": "16.353571",
-         "timestamp": ["1910-01-26", "1910-03-26", "1910-04-01", "1910-04-09", "1910-04-24"],
-         "importance": "5", 
+         "timestamp": ["1910-01-04", "1910-01-26", "1910-03-26", "1910-04-01", "1910-04-04", "1910-04-09", "1910-04-12", "1910-04-24"],
+         "importance": "8", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1431,6 +1601,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1910-01-12", "1910-02-21"],
+         "importance": "2", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.29273, 48.23975]
       },
       "properties": {
@@ -1485,6 +1679,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.735169, 51.054508]
+      },
+      "properties": {
+         "id": "pmb1034",
+         "title": "Semperoper",
+         "lat": "51.054508",
+         "lon": "13.735169",
+         "timestamp": ["1910-01-20", "1910-01-21", "1910-01-22", "1910-01-23"],
+         "importance": "4", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Semperoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q127097", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.28606, 48.25849]
       },
       "properties": {
@@ -1525,6 +1738,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1910-01-08", "1910-01-29", "1910-04-02"],
+         "importance": "3", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.362915, 48.214518]
       },
       "properties": {
@@ -1542,6 +1786,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.353889, 48.1975]
+      },
+      "properties": {
+         "id": "pmb52023",
+         "title": "Apollo-Theater [Wien]",
+         "lat": "48.1975",
+         "lon": "16.353889",
+         "timestamp": ["1910-03-03"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Apollo-Theater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Apollokino", 
+        "wikidata": "http://www.wikidata.org/entity/Q618966", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.380897, 48.208627]
       },
       "properties": {
@@ -1549,8 +1813,8 @@
          "title": "Biberstraße 8",
          "lat": "48.208627",
          "lon": "16.380897",
-         "timestamp": ["1910-03-21", "1910-04-27", "1910-06-08", "1910-09-07", "1910-09-21", "1910-12-24"],
-         "importance": "6", 
+         "timestamp": ["1910-02-06", "1910-03-21", "1910-03-27", "1910-04-27", "1910-06-08", "1910-09-07", "1910-09-21", "1910-12-24"],
+         "importance": "8", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1565,6 +1829,79 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350361, 48.224472]
+      },
+      "properties": {
+         "id": "pmb28",
+         "title": "Volksoper",
+         "lat": "48.224472",
+         "lon": "16.350361",
+         "timestamp": ["1910-01-17"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volksoper_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q694747", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.344604, 48.227308]
+      },
+      "properties": {
+         "id": "pmb235637",
+         "title": "Edelhofgasse 3",
+         "lat": "48.227308",
+         "lon": "16.344604",
+         "timestamp": ["1910-01-07"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Heinrich Sikora",
+
+         "p_id": "#24912"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361942, 48.212903]
+      },
+      "properties": {
+         "id": "pmb235692",
+         "title": "Universitätsring 10",
+         "lat": "48.212903",
+         "lon": "16.361942",
+         "timestamp": ["1910-03-22"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Margarethe Manassewitsch",
+
+         "p_id": "#20861"
+         }, 
+         {
+
+         "p_name": "Irene Mandl",
+
+         "p_id": "#20902"
          }]
       }
       }, 
@@ -1609,6 +1946,67 @@
 
          "p_id": "#23635"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372979, 48.198039]
+      },
+      "properties": {
+         "id": "pmb237316",
+         "title": "Hoyosgasse 5",
+         "lat": "48.198039",
+         "lon": "16.372979",
+         "timestamp": ["1910-01-16"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Hans Altmann",
+
+         "p_id": "#13350"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.736206, 51.0549041]
+      },
+      "properties": {
+         "id": "pmb53107",
+         "title": "Hotel Bellevue [Dresden]",
+         "lat": "51.0549041",
+         "lon": "13.736206",
+         "timestamp": ["1910-01-20", "1910-01-21", "1910-01-22", "1910-01-23"],
+         "importance": "4", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Calberlasche_Zuckersiederei", 
+        "wikidata": "http://www.wikidata.org/entity/Q40161056", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3537237, 48.222506]
+      },
+      "properties": {
+         "id": "pmb147768",
+         "title": "Colosseum",
+         "lat": "48.222506",
+         "lon": "16.3537237",
+         "timestamp": ["1910-01-28"],
+         "importance": "1", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Wiener_Colosseum", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }, 
     {
@@ -1694,8 +2092,8 @@
          "title": "Feilergasse 5",
          "lat": "48.257418",
          "lon": "16.337548",
-         "timestamp": ["1910-03-11"],
-         "importance": "1", 
+         "timestamp": ["1910-01-01", "1910-01-06", "1910-02-16", "1910-02-20", "1910-03-11"],
+         "importance": "5", 
         "wikidata": "http://www.wikidata.org/entity/Q105089833", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
@@ -1729,6 +2127,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1910-02-08", "1910-02-10", "1910-02-22", "1910-02-24"],
+         "importance": "4", 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -1736,8 +2152,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1910-01-12", "1910-01-19", "1910-01-25", "1910-02-03", "1910-02-20", "1910-03-08", "1910-03-13", "1910-03-24", "1910-04-03", "1910-04-14", "1910-04-23", "1910-05-09", "1910-06-11", "1910-06-18", "1910-06-20", "1910-06-24", "1910-08-30", "1910-09-02", "1910-12-04"],
-         "importance": "19", 
+         "timestamp": ["1910-01-02", "1910-01-12", "1910-01-19", "1910-01-25", "1910-02-03", "1910-02-20", "1910-02-25", "1910-03-08", "1910-03-13", "1910-03-15", "1910-03-24", "1910-04-03", "1910-04-06", "1910-04-08", "1910-04-10", "1910-04-14", "1910-04-14", "1910-04-23", "1910-05-09", "1910-06-11", "1910-06-18", "1910-06-20", "1910-06-24", "1910-08-30", "1910-09-02", "1910-12-04"],
+         "importance": "26", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1752,6 +2168,36 @@
          "p_name": "Richard Beer-Hofmann",
 
          "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1910-01-18", "1910-03-15", "1910-04-03", "1910-04-11"],
+         "importance": "4", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
          }]
       }
       }, 
@@ -1778,6 +2224,66 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.388002, 48.19884]
+      },
+      "properties": {
+         "id": "pmb237597",
+         "title": "Neulinggasse 13",
+         "lat": "48.19884",
+         "lon": "16.388002",
+         "timestamp": ["1910-01-26"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Raoul Auernheimer",
+
+         "p_id": "#10788"
+         }, 
+         {
+
+         "p_name": "Irene Auernheimer",
+
+         "p_id": "#3223"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.340371, 48.232233]
+      },
+      "properties": {
+         "id": "pmb246482",
+         "title": "Anastasius-Grün-Gasse 54",
+         "lat": "48.232233",
+         "lon": "16.340371",
+         "timestamp": ["1910-03-02"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Theodor Beer",
+
+         "p_id": "#3050"
+         }, 
+         {
+
+         "p_name": "Josef von Winter",
+
+         "p_id": "#13129"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.320833, 48.252222]
       },
       "properties": {
@@ -1791,6 +2297,43 @@
         "wikidata": "http://www.wikidata.org/entity/Q1692038", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1910-01-02", "1910-01-25", "1910-02-01", "1910-03-26", "1910-04-15", "1910-04-21"],
+         "importance": "6", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
       }
       }, 
     {
@@ -1884,8 +2427,8 @@
          "title": "Villa Siegfried Trebitsch",
          "lat": "48.1827",
          "lon": "16.2996",
-         "timestamp": ["1910-01-31", "1910-07-04"],
-         "importance": "2", 
+         "timestamp": ["1910-01-31", "1910-02-01", "1910-03-06", "1910-07-04"],
+         "importance": "4", 
         "wikipedia": "https://de.wikipedia.org/wiki/Villa_Trebitsch", 
         "wikidata": "http://www.wikidata.org/entity/Q1335564", 
         "abbr": "Wohngebäude (K.WHS)", 
@@ -1914,6 +2457,30 @@
          "importance": "1", 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34742, 48.215072]
+      },
+      "properties": {
+         "id": "pmb247710",
+         "title": "Alser Straße 41",
+         "lat": "48.215072",
+         "lon": "16.34742",
+         "timestamp": ["1910-02-14", "1910-02-19", "1910-03-18"],
+         "importance": "3", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Mandl",
+
+         "p_id": "#39818"
+         }]
       }
       }, 
     {
@@ -2005,8 +2572,8 @@
          "title": "Ludwig Doblinger (Bernhard Herzmansky), Musikalienhandlung, Antiquariat und Leih-Anstalt",
          "lat": "48.207599",
          "lon": "16.369345",
-         "timestamp": ["1910-01-17", "1910-01-27", "1910-02-01", "1910-02-04", "1910-02-07", "1910-02-14", "1910-02-17", "1910-02-26", "1910-06-02"],
-         "importance": "9", 
+         "timestamp": ["1910-01-17", "1910-01-27", "1910-02-01", "1910-02-03", "1910-02-04", "1910-02-07", "1910-02-14", "1910-02-17", "1910-02-26", "1910-06-02"],
+         "importance": "10", 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
       }
@@ -2070,10 +2637,30 @@
          "title": "Josef Berger, Kunst- und Antiquitätenhändler",
          "lat": "48.193456",
          "lon": "16.352693",
-         "timestamp": ["1910-01-13", "1910-04-25", "1910-05-06", "1910-06-06", "1910-06-20", "1910-07-12", "1910-07-18", "1910-08-06", "1910-09-27", "1910-12-01", "1910-12-21"],
-         "importance": "11", 
+         "timestamp": ["1910-01-13", "1910-03-19", "1910-04-25", "1910-05-06", "1910-06-06", "1910-06-20", "1910-07-12", "1910-07-18", "1910-08-06", "1910-09-27", "1910-12-01", "1910-12-21"],
+         "importance": "12", 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.731666666667, 51.040277777778]
+      },
+      "properties": {
+         "id": "pmb248646",
+         "title": "Dresden Hauptbahnhof",
+         "lat": "51.040277777778",
+         "lon": "13.731666666667",
+         "timestamp": ["1910-01-20"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dresden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q704354", 
+        "geonames": "https://sws.geonames.org/8015333/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -2098,6 +2685,40 @@
 
          "p_id": "#27407"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.380519, 48.208665]
+      },
+      "properties": {
+         "id": "pmb249395",
+         "title": "Falkestraße 3",
+         "lat": "48.208665",
+         "lon": "16.380519",
+         "timestamp": ["1910-04-20"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.310685, 48.240302]
+      },
+      "properties": {
+         "id": "pmb194935",
+         "title": "Schafberggasse 3",
+         "lat": "48.240302",
+         "lon": "16.310685",
+         "timestamp": ["1910-03-06", "1910-03-09"],
+         "importance": "2", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -2145,6 +2766,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.344679, 48.234278]
+      },
+      "properties": {
+         "id": "pmb248406",
+         "title": "Weimarer Straße 86",
+         "lat": "48.234278",
+         "lon": "16.344679",
+         "timestamp": ["1910-01-13"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Kaufmann",
+
+         "p_id": "#2496"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36853, 48.20971]
       },
       "properties": {
@@ -2156,23 +2801,6 @@
          "importance": "1", 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.310685, 48.240302]
-      },
-      "properties": {
-         "id": "pmb194935",
-         "title": "Schafberggasse 3",
-         "lat": "48.240302",
-         "lon": "16.310685",
-         "timestamp": ["1910-03-09"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
       }
       }, 
     {
@@ -2193,6 +2821,79 @@
         "geonames": "https://sws.geonames.org/3069011/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1910-03-26", "1910-03-29", "1910-04-05", "1910-04-07", "1910-04-14", "1910-04-16", "1910-07-17", "1910-07-18", "1910-07-19", "1910-07-20", "1910-07-21", "1910-07-22", "1910-07-23", "1910-07-24", "1910-07-25", "1910-07-26", "1910-07-29", "1910-07-30", "1910-07-31", "1910-08-01", "1910-08-02", "1910-08-03", "1910-08-04", "1910-08-05", "1910-08-06", "1910-08-07", "1910-08-08", "1910-08-09", "1910-08-10", "1910-08-11", "1910-08-12", "1910-08-13", "1910-08-14", "1910-08-15", "1910-08-16", "1910-08-17", "1910-08-18", "1910-08-19", "1910-09-05", "1910-09-06", "1910-09-07", "1910-09-08", "1910-09-09", "1910-09-10", "1910-09-11", "1910-09-12", "1910-09-13", "1910-09-14", "1910-09-20", "1910-09-21", "1910-09-22", "1910-09-23", "1910-09-24", "1910-09-25", "1910-09-26", "1910-09-27", "1910-09-28", "1910-09-29", "1910-09-30", "1910-10-01", "1910-10-02", "1910-10-03", "1910-10-04", "1910-10-05", "1910-10-06", "1910-10-07", "1910-10-08", "1910-10-09", "1910-10-10", "1910-10-11", "1910-10-12", "1910-10-13", "1910-10-14", "1910-10-15", "1910-10-19", "1910-10-20", "1910-10-21", "1910-10-22", "1910-10-23", "1910-10-24", "1910-10-25", "1910-10-26", "1910-10-27", "1910-10-28", "1910-10-29", "1910-10-30", "1910-10-31", "1910-11-01", "1910-11-02", "1910-11-03", "1910-11-04", "1910-11-05", "1910-11-06", "1910-11-07", "1910-11-08", "1910-11-09", "1910-11-10", "1910-11-11", "1910-11-12", "1910-11-13", "1910-11-14", "1910-11-15", "1910-11-16", "1910-11-17", "1910-11-18", "1910-11-19", "1910-11-20", "1910-11-21", "1910-11-22", "1910-11-23", "1910-11-24", "1910-11-25", "1910-11-26", "1910-11-27", "1910-11-28", "1910-11-29", "1910-11-30", "1910-12-01", "1910-12-02", "1910-12-03", "1910-12-04", "1910-12-05", "1910-12-06", "1910-12-07", "1910-12-08", "1910-12-13", "1910-12-14", "1910-12-15", "1910-12-16", "1910-12-17", "1910-12-18", "1910-12-19", "1910-12-20", "1910-12-21", "1910-12-22", "1910-12-23", "1910-12-24", "1910-12-25", "1910-12-26", "1910-12-27", "1910-12-28", "1910-12-29", "1910-12-30", "1910-12-31"],
+         "importance": "144", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }]
       }
       }, 
     {
@@ -2308,79 +3009,6 @@
          "importance": "1", 
         "abbr": "Alm", 
         "type": "Alm"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.33716, 48.23188]
-      },
-      "properties": {
-         "id": "pmb168815",
-         "title": "Sternwartestraße 71",
-         "lat": "48.23188",
-         "lon": "16.33716",
-         "timestamp": ["1910-07-17", "1910-07-18", "1910-07-19", "1910-07-20", "1910-07-21", "1910-07-22", "1910-07-23", "1910-07-24", "1910-07-25", "1910-07-26", "1910-07-29", "1910-07-30", "1910-07-31", "1910-08-01", "1910-08-02", "1910-08-03", "1910-08-04", "1910-08-05", "1910-08-06", "1910-08-07", "1910-08-08", "1910-08-09", "1910-08-10", "1910-08-11", "1910-08-12", "1910-08-13", "1910-08-14", "1910-08-15", "1910-08-16", "1910-08-17", "1910-08-18", "1910-08-19", "1910-09-05", "1910-09-06", "1910-09-07", "1910-09-08", "1910-09-09", "1910-09-10", "1910-09-11", "1910-09-12", "1910-09-13", "1910-09-14", "1910-09-20", "1910-09-21", "1910-09-22", "1910-09-23", "1910-09-24", "1910-09-25", "1910-09-26", "1910-09-27", "1910-09-28", "1910-09-29", "1910-09-30", "1910-10-01", "1910-10-02", "1910-10-03", "1910-10-04", "1910-10-05", "1910-10-06", "1910-10-07", "1910-10-08", "1910-10-09", "1910-10-10", "1910-10-11", "1910-10-12", "1910-10-13", "1910-10-14", "1910-10-15", "1910-10-19", "1910-10-20", "1910-10-21", "1910-10-22", "1910-10-23", "1910-10-24", "1910-10-25", "1910-10-26", "1910-10-27", "1910-10-28", "1910-10-29", "1910-10-30", "1910-10-31", "1910-11-01", "1910-11-02", "1910-11-03", "1910-11-04", "1910-11-05", "1910-11-06", "1910-11-07", "1910-11-08", "1910-11-09", "1910-11-10", "1910-11-11", "1910-11-12", "1910-11-13", "1910-11-14", "1910-11-15", "1910-11-16", "1910-11-17", "1910-11-18", "1910-11-19", "1910-11-20", "1910-11-21", "1910-11-22", "1910-11-23", "1910-11-24", "1910-11-25", "1910-11-26", "1910-11-27", "1910-11-28", "1910-11-29", "1910-11-30", "1910-12-01", "1910-12-02", "1910-12-03", "1910-12-04", "1910-12-05", "1910-12-06", "1910-12-07", "1910-12-08", "1910-12-13", "1910-12-14", "1910-12-15", "1910-12-16", "1910-12-17", "1910-12-18", "1910-12-19", "1910-12-20", "1910-12-21", "1910-12-22", "1910-12-23", "1910-12-24", "1910-12-25", "1910-12-26", "1910-12-27", "1910-12-28", "1910-12-29", "1910-12-30", "1910-12-31"],
-         "importance": "138", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Alexander Römpler",
-
-         "p_id": "#12595"
-         }, 
-         {
-
-         "p_name": "Hedwig Bleibtreu",
-
-         "p_id": "#10959"
-         }, 
-         {
-
-         "p_name": "Arthur Schnitzler",
-
-         "p_id": ""
-         }, 
-         {
-
-         "p_name": "Heinrich Schnitzler",
-
-         "p_id": "#12692"
-         }, 
-         {
-
-         "p_name": "Lili Cappellini",
-
-         "p_id": "#2238"
-         }, 
-         {
-
-         "p_name": "Olga Schnitzler",
-
-         "p_id": "#2173"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": "Josefine Schipper",
-
-         "p_id": "#24194"
-         }, 
-         {
-
-         "p_name": "Anna Haselmayer",
-
-         "p_id": "#17901"
-         }, 
-         {
-
-         "p_name": "Paula ",
-
-         "p_id": "#22399"
-         }]
       }
       }, 
     {

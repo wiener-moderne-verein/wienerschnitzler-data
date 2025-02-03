@@ -409,6 +409,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.374444, 52.51]
+      },
+      "properties": {
+         "id": "pmb245",
+         "title": "Hotel Esplanade [Berlin]",
+         "lat": "52.51",
+         "lon": "13.374444",
+         "timestamp": ["1926-02-06", "1926-02-07", "1926-02-08", "1926-02-09", "1926-02-10", "1926-02-11", "1926-02-12", "1926-02-13", "1926-02-14", "1926-02-15", "1926-02-16"],
+         "importance": "11", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q321562", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.350819, 48.214295]
       },
       "properties": {
@@ -446,12 +465,107 @@
          "title": "Reichstag",
          "lat": "52.518611",
          "lon": "13.376111",
-         "timestamp": ["1926-02-07"],
-         "importance": "1", 
+         "timestamp": ["1926-02-06", "1926-02-07"],
+         "importance": "2", 
         "wikipedia": "https://de.wikipedia.org/wiki/Reichstagsgeb%C3%A4ude", 
         "wikidata": "http://www.wikidata.org/entity/Q151897", 
         "abbr": "Regierungsgebäude (K.RGB)", 
         "type": "Regierungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1926-02-08", "1926-02-11"],
+         "importance": "2", 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.33465, 52.50422]
+      },
+      "properties": {
+         "id": "pmb235978",
+         "title": "Zum Austernmeyer",
+         "lat": "52.50422",
+         "lon": "13.33465",
+         "timestamp": ["1926-02-08"],
+         "importance": "1", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.285098, 52.49074]
+      },
+      "properties": {
+         "id": "pmb246987",
+         "title": "Hubertus Allee 24",
+         "lat": "52.49074",
+         "lon": "13.285098",
+         "timestamp": ["1926-02-09"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }, 
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.293044, 52.465923]
+      },
+      "properties": {
+         "id": "pmb244580",
+         "title": "Miquelstraße 86",
+         "lat": "52.465923",
+         "lon": "13.293044",
+         "timestamp": ["1926-02-10"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Fulda",
+
+         "p_id": "#11391"
+         }]
       }
       }
   ]

@@ -246,25 +246,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.276509500872, 48.241960480337]
-      },
-      "properties": {
-         "id": "pmb176",
-         "title": "Schwarzenbergpark",
-         "lat": "48.241960480337",
-         "lon": "16.276509500872",
-         "timestamp": ["1930-11-30"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
-        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.349167, 48.216139]
       },
       "properties": {
@@ -320,6 +301,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q2141902", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1930-11-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -667,6 +667,60 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.285098, 52.49074]
+      },
+      "properties": {
+         "id": "pmb246987",
+         "title": "Hubertus Allee 24",
+         "lat": "52.49074",
+         "lon": "13.285098",
+         "timestamp": ["1930-11-12", "1930-11-13", "1930-11-17", "1930-11-19"],
+         "importance": "4", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }, 
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.293044, 52.465923]
+      },
+      "properties": {
+         "id": "pmb244580",
+         "title": "Miquelstraße 86",
+         "lat": "52.465923",
+         "lon": "13.293044",
+         "timestamp": ["1930-11-15"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Fulda",
+
+         "p_id": "#11391"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.2743, 52.4907]
       },
       "properties": {
@@ -764,30 +818,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.293044, 52.465923]
-      },
-      "properties": {
-         "id": "pmb244580",
-         "title": "Miquelstraße 86",
-         "lat": "52.465923",
-         "lon": "13.293044",
-         "timestamp": ["1930-11-15"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Ludwig Fulda",
-
-         "p_id": "#11391"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.36821, 52.50982]
       },
       "properties": {
@@ -805,36 +835,6 @@
          "p_name": "Olga Schnitzler",
 
          "p_id": "#2173"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.364497, 52.497646]
-      },
-      "properties": {
-         "id": "pmb237733",
-         "title": "Bülowstraße 78",
-         "lat": "52.497646",
-         "lon": "13.364497",
-         "timestamp": ["1930-11-12", "1930-11-13", "1930-11-17", "1930-11-19"],
-         "importance": "4", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Karl Michaelis",
-
-         "p_id": "#3064"
-         }, 
-         {
-
-         "p_name": "Dora Michaelis",
-
-         "p_id": "#2774"
          }]
       }
       }, 

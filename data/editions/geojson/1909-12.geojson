@@ -25,6 +25,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1909-12-18"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379608025302, 48.204824018066]
+      },
+      "properties": {
+         "id": "pmb575",
+         "title": "Stadtpark",
+         "lat": "48.204824018066",
+         "lon": "16.379608025302",
+         "timestamp": ["1909-12-13"],
+         "importance": "1", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361139, 48.210333]
       },
       "properties": {
@@ -32,8 +68,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1909-12-17", "1909-12-22"],
-         "importance": "2", 
+         "timestamp": ["1909-12-17", "1909-12-21", "1909-12-22", "1909-12-30"],
+         "importance": "4", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -60,6 +96,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.355191, 48.248422]
+      },
+      "properties": {
+         "id": "pmb92292",
+         "title": "Hohe Warte",
+         "lat": "48.248422",
+         "lon": "16.355191",
+         "timestamp": ["1909-12-26"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q876564", 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1909-12-04", "1909-12-11", "1909-12-14", "1909-12-20"],
+         "importance": "4", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3566, 48.205142]
       },
       "properties": {
@@ -67,8 +142,8 @@
          "title": "Volkstheater",
          "lat": "48.205142",
          "lon": "16.3566",
-         "timestamp": ["1909-12-01", "1909-12-10", "1909-12-11", "1909-12-17"],
-         "importance": "4", 
+         "timestamp": ["1909-12-01", "1909-12-02", "1909-12-03", "1909-12-04", "1909-12-05", "1909-12-06", "1909-12-07", "1909-12-09", "1909-12-10", "1909-12-11", "1909-12-12", "1909-12-17"],
+         "importance": "12", 
         "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
@@ -148,8 +223,8 @@
          "title": "Frankgasse 1",
          "lat": "48.21533",
          "lon": "16.35736",
-         "timestamp": ["1909-12-10", "1909-12-31"],
-         "importance": "2", 
+         "timestamp": ["1909-12-04", "1909-12-10", "1909-12-25", "1909-12-31"],
+         "importance": "4", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -264,6 +339,31 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.261305, 48.186771]
+      },
+      "properties": {
+         "id": "pmb207274",
+         "title": "Haus Bahr",
+         "lat": "48.186771",
+         "lon": "16.261305",
+         "timestamp": ["1909-12-28"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q115690959", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Hermann Bahr",
+
+         "p_id": "#10815"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.353571, 48.239999]
       },
       "properties": {
@@ -271,8 +371,8 @@
          "title": "Dollinergasse 8",
          "lat": "48.239999",
          "lon": "16.353571",
-         "timestamp": ["1909-12-19"],
-         "importance": "1", 
+         "timestamp": ["1909-12-19", "1909-12-31"],
+         "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -354,6 +454,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1909-12-14"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.353889, 48.1975]
       },
       "properties": {
@@ -381,8 +512,8 @@
          "title": "Biberstraße 8",
          "lat": "48.208627",
          "lon": "16.380897",
-         "timestamp": ["1909-12-24"],
-         "importance": "1", 
+         "timestamp": ["1909-12-24", "1909-12-28"],
+         "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -415,6 +546,23 @@
          "importance": "1", 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351275, 48.205599]
+      },
+      "properties": {
+         "id": "pmb236738",
+         "title": "Wiener Werkstätte",
+         "lat": "48.205599",
+         "lon": "16.351275",
+         "timestamp": ["1909-12-31"],
+         "importance": "1", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }, 
     {
@@ -527,8 +675,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1909-12-05", "1909-12-26"],
-         "importance": "2", 
+         "timestamp": ["1909-12-01", "1909-12-05", "1909-12-26"],
+         "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -557,8 +705,8 @@
          "title": "Hasenauerstraße 46",
          "lat": "48.234039",
          "lon": "16.338443",
-         "timestamp": ["1909-12-16"],
-         "importance": "1", 
+         "timestamp": ["1909-12-01", "1909-12-16"],
+         "importance": "2", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -603,6 +751,43 @@
          "p_name": "Irene Auernheimer",
 
          "p_id": "#3223"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1909-12-02", "1909-12-12", "1909-12-17", "1909-12-21", "1909-12-26", "1909-12-27"],
+         "importance": "6", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
          }]
       }
       }, 

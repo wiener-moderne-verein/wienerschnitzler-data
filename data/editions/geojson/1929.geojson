@@ -816,25 +816,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.276509500872, 48.241960480337]
-      },
-      "properties": {
-         "id": "pmb176",
-         "title": "Schwarzenbergpark",
-         "lat": "48.241960480337",
-         "lon": "16.276509500872",
-         "timestamp": ["1929-10-13"],
-         "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
-        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.25736, 48.11895]
       },
       "properties": {
@@ -1926,6 +1907,25 @@
         "geonames": "https://sws.geonames.org/2766841/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1929-10-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -3151,6 +3151,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.33465, 52.50422]
+      },
+      "properties": {
+         "id": "pmb235978",
+         "title": "Zum Austernmeyer",
+         "lat": "52.50422",
+         "lon": "13.33465",
+         "timestamp": ["1929-03-22"],
+         "importance": "1", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.285098, 52.49074]
+      },
+      "properties": {
+         "id": "pmb246987",
+         "title": "Hubertus Allee 24",
+         "lat": "52.49074",
+         "lon": "13.285098",
+         "timestamp": ["1929-01-01", "1929-01-04", "1929-12-29", "1929-12-31"],
+         "importance": "4", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }, 
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35376, 48.22272]
       },
       "properties": {
@@ -3553,36 +3600,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.364497, 52.497646]
-      },
-      "properties": {
-         "id": "pmb237733",
-         "title": "Bülowstraße 78",
-         "lat": "52.497646",
-         "lon": "13.364497",
-         "timestamp": ["1929-01-01", "1929-01-04", "1929-12-29", "1929-12-31"],
-         "importance": "4", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Karl Michaelis",
-
-         "p_id": "#3064"
-         }, 
-         {
-
-         "p_name": "Dora Michaelis",
-
-         "p_id": "#2774"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.338016, 48.234091]
       },
       "properties": {
@@ -3915,23 +3932,6 @@
 
          "p_id": "#10886"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.33465, 52.50422]
-      },
-      "properties": {
-         "id": "pmb235978",
-         "title": "Zum Austernmeyer",
-         "lat": "52.50422",
-         "lon": "13.33465",
-         "timestamp": ["1929-03-22"],
-         "importance": "1", 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
       }
       }, 
     {

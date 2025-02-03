@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.347492624475, 48.216264483348], 
             [16.35736, 48.21533], 
+            [16.353571, 48.239999], 
             [16.33472, 48.2304]
           ]
       },
@@ -84,6 +86,78 @@
          "p_name": " ?? [Hausmeisterin von Arthur Schnitzler]",
 
          "p_id": "#27696"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1910-04-12"],
+         "importance": "1", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353571, 48.239999]
+      },
+      "properties": {
+         "id": "pmb231906",
+         "title": "Dollinergasse 8",
+         "lat": "48.239999",
+         "lon": "16.353571",
+         "timestamp": ["1910-04-12"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Karl Glossy",
+
+         "p_id": "#11447"
          }]
       }
       },

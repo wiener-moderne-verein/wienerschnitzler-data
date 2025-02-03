@@ -837,25 +837,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.276509500872, 48.241960480337]
-      },
-      "properties": {
-         "id": "pmb176",
-         "title": "Schwarzenbergpark",
-         "lat": "48.241960480337",
-         "lon": "16.276509500872",
-         "timestamp": ["1927-01-09", "1927-05-15", "1927-06-29"],
-         "importance": "3", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
-        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.364167, 48.259444]
       },
       "properties": {
@@ -1595,6 +1576,25 @@
         "geonames": "https://sws.geonames.org/3324201/", 
         "abbr": "T.PK", 
         "type": "Bergspitze"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1927-01-09", "1927-05-15", "1927-06-29"],
+         "importance": "3", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -3333,6 +3333,84 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1927-11-29"],
+         "importance": "1", 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.285098, 52.49074]
+      },
+      "properties": {
+         "id": "pmb246987",
+         "title": "Hubertus Allee 24",
+         "lat": "52.49074",
+         "lon": "13.285098",
+         "timestamp": ["1927-01-02", "1927-01-03", "1927-11-30", "1927-12-04", "1927-12-06", "1927-12-08"],
+         "importance": "6", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }, 
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.293044, 52.465923]
+      },
+      "properties": {
+         "id": "pmb244580",
+         "title": "Miquelstraße 86",
+         "lat": "52.465923",
+         "lon": "13.293044",
+         "timestamp": ["1927-12-08"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Fulda",
+
+         "p_id": "#11391"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.254205, 52.426524]
       },
       "properties": {
@@ -3404,36 +3482,6 @@
          "p_name": "Samuel Fischer",
 
          "p_id": "#11324"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.285098, 52.49074]
-      },
-      "properties": {
-         "id": "pmb246987",
-         "title": "Hubertus Allee 24",
-         "lat": "52.49074",
-         "lon": "13.285098",
-         "timestamp": ["1927-01-02", "1927-01-03", "1927-11-30", "1927-12-04", "1927-12-06", "1927-12-08"],
-         "importance": "6", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Karl Michaelis",
-
-         "p_id": "#3064"
-         }, 
-         {
-
-         "p_name": "Dora Michaelis",
-
-         "p_id": "#2774"
          }]
       }
       }, 
@@ -4775,30 +4823,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.36042, 52.498402]
-      },
-      "properties": {
-         "id": "pmb235295",
-         "title": "S. Fischer Verlag",
-         "lat": "52.498402",
-         "lon": "13.36042",
-         "timestamp": ["1927-11-29"],
-         "importance": "1", 
-        "abbr": "Bürogebäude (K.BUR)", 
-        "type": "Bürogebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Samuel Fischer",
-
-         "p_id": "#11324"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.345277777777778, 52.50611111111111]
       },
       "properties": {
@@ -5047,30 +5071,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q45772100", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.293044, 52.465923]
-      },
-      "properties": {
-         "id": "pmb244580",
-         "title": "Miquelstraße 86",
-         "lat": "52.465923",
-         "lon": "13.293044",
-         "timestamp": ["1927-12-08"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Ludwig Fulda",
-
-         "p_id": "#11391"
-         }]
       }
       }
   ]

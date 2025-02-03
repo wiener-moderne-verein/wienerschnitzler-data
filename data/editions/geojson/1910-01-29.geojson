@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.370342, 48.211369], 
             [16.384773, 48.21287], 
             [16.33472, 48.2304]
           ]
@@ -14,6 +15,61 @@
         "name": "29. Januar 1910"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.384773, 48.21287]
+      },
+      "properties": {
+         "id": "pmb248420",
+         "title": "Untere Donaustraße 27",
+         "lat": "48.21287",
+         "lon": "16.384773",
+         "timestamp": ["1910-01-29"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Oscar Straus",
+
+         "p_id": "#12861"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1910-01-29"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -65,30 +121,6 @@
          "p_name": "Dora Erl",
 
          "p_id": "#15983"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.384773, 48.21287]
-      },
-      "properties": {
-         "id": "pmb248420",
-         "title": "Untere Donaustraße 27",
-         "lat": "48.21287",
-         "lon": "16.384773",
-         "timestamp": ["1910-01-29"],
-         "importance": "1", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Oscar Straus",
-
-         "p_id": "#12861"
          }]
       }
       }

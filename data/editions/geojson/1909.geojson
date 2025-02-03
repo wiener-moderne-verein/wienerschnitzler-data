@@ -139,8 +139,8 @@
          "title": "Bösendorfer-Saal",
          "lat": "48.209167",
          "lon": "16.366111",
-         "timestamp": ["1909-01-12", "1909-02-12", "1909-03-09", "1909-03-22", "1909-03-23", "1909-11-09"],
-         "importance": "6", 
+         "timestamp": ["1909-01-12", "1909-02-12", "1909-03-09", "1909-03-22", "1909-03-23", "1909-11-09", "1909-11-26", "1909-11-27", "1909-12-18"],
+         "importance": "9", 
         "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
         "wikidata": "http://www.wikidata.org/entity/Q1020093", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
@@ -188,6 +188,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379608025302, 48.204824018066]
+      },
+      "properties": {
+         "id": "pmb575",
+         "title": "Stadtpark",
+         "lat": "48.204824018066",
+         "lon": "16.379608025302",
+         "timestamp": ["1909-12-13"],
+         "importance": "1", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.57549, 48.13743]
       },
       "properties": {
@@ -215,8 +232,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1909-03-19", "1909-04-29", "1909-06-12", "1909-06-28", "1909-06-29", "1909-06-30", "1909-09-21", "1909-11-09", "1909-11-26", "1909-11-30", "1909-12-17", "1909-12-22"],
-         "importance": "12", 
+         "timestamp": ["1909-03-19", "1909-04-29", "1909-06-12", "1909-06-28", "1909-06-29", "1909-06-30", "1909-09-21", "1909-11-09", "1909-11-26", "1909-11-30", "1909-12-17", "1909-12-21", "1909-12-22", "1909-12-30"],
+         "importance": "14", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -465,8 +482,8 @@
          "title": "Hohe Warte",
          "lat": "48.248422",
          "lon": "16.355191",
-         "timestamp": ["1909-03-28", "1909-05-16", "1909-09-05", "1909-11-15"],
-         "importance": "4", 
+         "timestamp": ["1909-03-28", "1909-05-16", "1909-09-05", "1909-11-15", "1909-12-26"],
+         "importance": "5", 
         "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q876564", 
         "abbr": "Erhebung", 
@@ -559,8 +576,8 @@
          "title": "I., Innere Stadt",
          "lat": "48.20769",
          "lon": "16.37049",
-         "timestamp": ["1909-02-03", "1909-02-09", "1909-04-08", "1909-04-09", "1909-04-27", "1909-05-14", "1909-05-27", "1909-06-08", "1909-08-23", "1909-11-08", "1909-11-19"],
-         "importance": "11", 
+         "timestamp": ["1909-02-03", "1909-02-09", "1909-04-08", "1909-04-09", "1909-04-27", "1909-05-14", "1909-05-27", "1909-06-08", "1909-08-23", "1909-11-08", "1909-11-19", "1909-12-04", "1909-12-11", "1909-12-14", "1909-12-20"],
+         "importance": "15", 
         "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
@@ -638,8 +655,8 @@
          "title": "Volkstheater",
          "lat": "48.205142",
          "lon": "16.3566",
-         "timestamp": ["1909-01-02", "1909-01-04", "1909-01-05", "1909-01-06", "1909-01-08", "1909-02-12", "1909-03-27", "1909-04-21", "1909-04-27", "1909-10-15", "1909-11-18", "1909-12-01", "1909-12-10", "1909-12-11", "1909-12-17"],
-         "importance": "15", 
+         "timestamp": ["1909-01-02", "1909-01-04", "1909-01-05", "1909-01-06", "1909-01-08", "1909-02-12", "1909-03-27", "1909-04-21", "1909-04-27", "1909-10-15", "1909-11-18", "1909-12-01", "1909-12-02", "1909-12-03", "1909-12-04", "1909-12-05", "1909-12-06", "1909-12-07", "1909-12-09", "1909-12-10", "1909-12-11", "1909-12-12", "1909-12-17"],
+         "importance": "23", 
         "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
@@ -839,25 +856,6 @@
          "lon": "16.333568462613",
          "timestamp": ["1909-08-07"],
          "importance": "1", 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.276509500872, 48.241960480337]
-      },
-      "properties": {
-         "id": "pmb176",
-         "title": "Schwarzenbergpark",
-         "lat": "48.241960480337",
-         "lon": "16.276509500872",
-         "timestamp": ["1909-01-01", "1909-01-03", "1909-01-17", "1909-02-14", "1909-05-09", "1909-09-04", "1909-09-23", "1909-10-12", "1909-11-28"],
-         "importance": "9", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
-        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
       }
@@ -1100,8 +1098,8 @@
          "title": "Frankgasse 1",
          "lat": "48.21533",
          "lon": "16.35736",
-         "timestamp": ["1909-01-02", "1909-01-04", "1909-01-06", "1909-01-07", "1909-01-16", "1909-01-19", "1909-01-22", "1909-02-05", "1909-02-09", "1909-02-26", "1909-03-04", "1909-03-05", "1909-03-12", "1909-04-02", "1909-04-09", "1909-04-12", "1909-04-20", "1909-04-29", "1909-04-30", "1909-05-07", "1909-05-14", "1909-05-28", "1909-06-01", "1909-06-08", "1909-06-10", "1909-06-24", "1909-06-25", "1909-06-28", "1909-09-03", "1909-09-17", "1909-10-01", "1909-10-08", "1909-10-15", "1909-11-05", "1909-11-19", "1909-12-10", "1909-12-31"],
-         "importance": "37", 
+         "timestamp": ["1909-01-02", "1909-01-04", "1909-01-06", "1909-01-07", "1909-01-16", "1909-01-19", "1909-01-22", "1909-02-05", "1909-02-09", "1909-02-26", "1909-03-04", "1909-03-05", "1909-03-12", "1909-04-02", "1909-04-09", "1909-04-12", "1909-04-20", "1909-04-29", "1909-04-30", "1909-05-07", "1909-05-14", "1909-05-28", "1909-06-01", "1909-06-08", "1909-06-10", "1909-06-24", "1909-06-25", "1909-06-28", "1909-09-03", "1909-09-17", "1909-10-01", "1909-10-08", "1909-10-15", "1909-11-05", "1909-11-19", "1909-12-04", "1909-12-10", "1909-12-25", "1909-12-31"],
+         "importance": "39", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1536,6 +1534,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.381667, 48.2075]
+      },
+      "properties": {
+         "id": "pmb83",
+         "title": "Museum für Angewandte Kunst",
+         "lat": "48.2075",
+         "lon": "16.381667",
+         "timestamp": ["1909-11-24"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Museum_f%C3%BCr_angewandte_Kunst_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q478455", 
+        "geonames": "https://sws.geonames.org/8604499/", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37312, 48.20122]
       },
       "properties": {
@@ -1892,6 +1910,50 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1909-01-01", "1909-01-03", "1909-01-17", "1909-02-14", "1909-05-09", "1909-09-04", "1909-09-23", "1909-10-12", "1909-11-28"],
+         "importance": "9", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.261305, 48.186771]
+      },
+      "properties": {
+         "id": "pmb207274",
+         "title": "Haus Bahr",
+         "lat": "48.186771",
+         "lon": "16.261305",
+         "timestamp": ["1909-12-28"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q115690959", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Hermann Bahr",
+
+         "p_id": "#10815"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.353571, 48.239999]
       },
       "properties": {
@@ -1899,8 +1961,8 @@
          "title": "Dollinergasse 8",
          "lat": "48.239999",
          "lon": "16.353571",
-         "timestamp": ["1909-05-16", "1909-05-30", "1909-07-06", "1909-11-07", "1909-12-19"],
-         "importance": "5", 
+         "timestamp": ["1909-05-16", "1909-05-30", "1909-07-06", "1909-11-07", "1909-12-19", "1909-12-31"],
+         "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2379,6 +2441,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1909-11-24", "1909-12-14"],
+         "importance": "2", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.369299, 48.207163]
       },
       "properties": {
@@ -2423,8 +2516,8 @@
          "title": "Biberstraße 8",
          "lat": "48.208627",
          "lon": "16.380897",
-         "timestamp": ["1909-10-27", "1909-12-24"],
-         "importance": "2", 
+         "timestamp": ["1909-10-27", "1909-12-24", "1909-12-28"],
+         "importance": "3", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2638,8 +2731,8 @@
          "title": "Wiener Werkstätte",
          "lat": "48.205599",
          "lon": "16.351275",
-         "timestamp": ["1909-11-19"],
-         "importance": "1", 
+         "timestamp": ["1909-11-19", "1909-12-31"],
+         "importance": "2", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
       }
@@ -2892,8 +2985,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1909-02-23", "1909-03-21", "1909-03-23", "1909-03-27", "1909-03-31", "1909-05-02", "1909-05-08", "1909-05-26", "1909-06-08", "1909-06-21", "1909-06-25", "1909-09-16", "1909-09-30", "1909-10-14", "1909-11-07", "1909-11-27", "1909-12-05", "1909-12-26"],
-         "importance": "18", 
+         "timestamp": ["1909-02-23", "1909-03-21", "1909-03-23", "1909-03-27", "1909-03-31", "1909-05-02", "1909-05-08", "1909-05-26", "1909-06-08", "1909-06-21", "1909-06-25", "1909-09-16", "1909-09-30", "1909-10-14", "1909-11-07", "1909-11-27", "1909-12-01", "1909-12-05", "1909-12-26"],
+         "importance": "19", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2922,8 +3015,8 @@
          "title": "Hasenauerstraße 46",
          "lat": "48.234039",
          "lon": "16.338443",
-         "timestamp": ["1909-02-04", "1909-02-13", "1909-03-02", "1909-03-23", "1909-12-16"],
-         "importance": "5", 
+         "timestamp": ["1909-02-04", "1909-02-13", "1909-03-02", "1909-03-23", "1909-12-01", "1909-12-16"],
+         "importance": "6", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3061,8 +3154,8 @@
          "title": "Cottagegasse 37",
          "lat": "48.233004",
          "lon": "16.34167",
-         "timestamp": ["1909-05-30", "1909-06-12", "1909-09-06", "1909-10-27", "1909-10-31"],
-         "importance": "5", 
+         "timestamp": ["1909-05-30", "1909-06-12", "1909-09-06", "1909-10-27", "1909-10-31", "1909-11-21", "1909-12-02", "1909-12-12", "1909-12-17", "1909-12-21", "1909-12-26", "1909-12-27"],
+         "importance": "12", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -4909,8 +5002,8 @@
          "title": "Falkestraße 3",
          "lat": "48.208665",
          "lon": "16.380519",
-         "timestamp": ["1909-11-09", "1909-11-17", "1909-11-19"],
-         "importance": "3", 
+         "timestamp": ["1909-11-09", "1909-11-17", "1909-11-19", "1909-11-22", "1909-11-24"],
+         "importance": "5", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
       }
@@ -4945,6 +5038,23 @@
          "lon": "16.3469",
          "timestamp": ["1909-11-20"],
          "importance": "1"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.310685, 48.240302]
+      },
+      "properties": {
+         "id": "pmb194935",
+         "title": "Schafberggasse 3",
+         "lat": "48.240302",
+         "lon": "16.310685",
+         "timestamp": ["1909-11-23"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.351275, 48.205599], 
             [16.35736, 48.21533], 
+            [16.353571, 48.239999], 
             [16.33472, 48.2304]
           ]
       },
@@ -84,6 +86,59 @@
          "p_name": " ?? [Hausmeisterin von Arthur Schnitzler]",
 
          "p_id": "#27696"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351275, 48.205599]
+      },
+      "properties": {
+         "id": "pmb236738",
+         "title": "Wiener Werkstätte",
+         "lat": "48.205599",
+         "lon": "16.351275",
+         "timestamp": ["1909-12-31"],
+         "importance": "1", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353571, 48.239999]
+      },
+      "properties": {
+         "id": "pmb231906",
+         "title": "Dollinergasse 8",
+         "lat": "48.239999",
+         "lon": "16.353571",
+         "timestamp": ["1909-12-31"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Karl Glossy",
+
+         "p_id": "#11447"
          }]
       }
       },

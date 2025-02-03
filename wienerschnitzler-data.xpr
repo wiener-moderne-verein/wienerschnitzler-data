@@ -14,36 +14,19 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
+                                        <String>complete to complete_nested (step 2)</String>
                                         <String>complete_nested to geoJSON for each day</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/indices/living-working-in.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>living-working</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
                                         <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -127,6 +110,26 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>import _ partOf umwandeln</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/indices/living-working-in.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>living-working</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

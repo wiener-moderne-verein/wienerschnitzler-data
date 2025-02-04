@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.33494, 48.23365], 
             [16.33472, 48.2304], 
-            [16.33494, 48.23365]
+            [17.2783775, 49.59258277777778], 
+            [17.250198, 49.593471]
           ]
       },
       "properties": {
@@ -96,6 +98,41 @@
 
          "p_id": "#15983"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.250198, 49.593471]
+      },
+      "properties": {
+         "id": "pmb249874",
+         "title": "Hotel Lauer",
+         "lat": "49.593471",
+         "lon": "17.250198",
+         "timestamp": ["1910-03-13"],
+         "importance": "1", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.2783775, 49.59258277777778]
+      },
+      "properties": {
+         "id": "pmb249877",
+         "title": "Bahnhof Olmütz",
+         "lat": "49.59258277777778",
+         "lon": "17.2783775",
+         "timestamp": ["1910-03-13"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q11798083", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

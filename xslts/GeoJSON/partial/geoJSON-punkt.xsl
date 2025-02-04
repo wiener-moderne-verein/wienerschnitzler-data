@@ -4,8 +4,6 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" xmlns:mam="whatever"
     xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="json tei">
-    <xsl:param name="ortstypen" select="document('../../../data/indices/ortstypen.xml')"/>
-    <xsl:key match="item" use="abbreviation" name="ortstyp-match"/>
     <xsl:param name="bewohner" select="document('../../../data/indices/living-working-in.xml')"/>
     <xsl:key match="tei:place" use="@xml:id" name="bewohner-key"/>
     <xsl:function name="mam:macht-punkt">
@@ -146,7 +144,7 @@
             <xsl:value-of select="$input-placeNode/tei:desc[@type = 'entity_type']"/>
             <xsl:text>", </xsl:text>
             <xsl:text>&#10;        "type": "</xsl:text>
-            <xsl:value-of select="mam:ortstyp($input-placeNode/tei:desc[@type = 'entity_type'])"/>
+            <xsl:value-of select="$input-placeNode/tei:desc[@type = 'entity_type_literal']"/>
             <xsl:text>"</xsl:text>
         </xsl:if>
         <xsl:if
@@ -199,8 +197,5 @@
         <xsl:text>&#10;      }</xsl:text>
         <xsl:text>&#10;      }</xsl:text>
     </xsl:function>
-    <xsl:function name="mam:ortstyp" as="xs:string">
-        <xsl:param name="input" as="xs:string"/>
-        <xsl:value-of select="key('ortstyp-match', $input, $ortstypen)/name"/>
-    </xsl:function>
+    
 </xsl:stylesheet>

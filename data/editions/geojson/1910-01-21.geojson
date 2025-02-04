@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.735169, 51.054508], 
-            [13.736206, 51.0549041]
+            [13.7357, 51.0464], 
+            [13.736107, 51.051208], 
+            [13.736206, 51.0549041], 
+            [13.735169, 51.054508]
           ]
       },
       "properties": {
@@ -50,6 +52,42 @@
         "wikidata": "http://www.wikidata.org/entity/Q127097", 
         "abbr": "Oper (K.OPR)", 
         "type": "Oper"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7357, 51.0464]
+      },
+      "properties": {
+         "id": "pmb249688",
+         "title": "Central-Theater",
+         "lat": "51.0464",
+         "lon": "13.7357",
+         "timestamp": ["1910-01-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Central-Theater_(Dresden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q190821", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.736107, 51.051208]
+      },
+      "properties": {
+         "id": "pmb249692",
+         "title": "Restaurant Kneist",
+         "lat": "51.051208",
+         "lon": "13.736107",
+         "timestamp": ["1910-01-21"],
+         "importance": "1", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

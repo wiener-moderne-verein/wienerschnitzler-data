@@ -105,6 +105,26 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>input-data/listplace.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>import _ listplace auf verwendete places kürzen</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>input-data/partOf.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -150,26 +170,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>living-working</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>input-data/listplace.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>import _ listplace auf verwendete places kürzen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -899,7 +899,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/abbreviate-listPlace-to-used.xsl</String>
+                                    <String>${pdu}/xslts/import-relations-to-complete/abbreviate-listPlace-to-used.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${pdu}/input-data/listplace.xml</String>
@@ -1000,7 +1000,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/data/indices/partOf.xml</String>

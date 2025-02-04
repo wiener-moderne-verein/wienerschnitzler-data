@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.372564182283, 48.201265597319], 
-            [13.374444, 52.51]
+            [13.394722222222, 52.521944444444], 
+            [13.374444, 52.51], 
+            [13.312815, 52.499088]
           ]
       },
       "properties": {
@@ -48,6 +50,43 @@
          "importance": "1", 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.394722222222, 52.521944444444]
+      },
+      "properties": {
+         "id": "pmb249719",
+         "title": "Bode-Museum",
+         "lat": "52.521944444444",
+         "lon": "13.394722222222",
+         "timestamp": ["1926-02-13"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bode-Museum", 
+        "wikidata": "http://www.wikidata.org/entity/Q157825", 
+        "geonames": "https://sws.geonames.org/7911195/", 
+        "abbr": "S.MUS", 
+        "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.312815, 52.499088]
+      },
+      "properties": {
+         "id": "pmb249499",
+         "title": "Olivaer Platz 1",
+         "lat": "52.499088",
+         "lon": "13.312815",
+         "timestamp": ["1926-02-13"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

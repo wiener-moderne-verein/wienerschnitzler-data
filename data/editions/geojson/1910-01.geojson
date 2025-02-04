@@ -529,7 +529,7 @@
       },
       "properties": {
          "id": "pmb28",
-         "title": "Volksoper",
+         "title": "Volksoper Wien",
          "lat": "48.224472",
          "lon": "16.350361",
          "timestamp": ["1910-01-17"],
@@ -987,6 +987,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.342179, 48.23291]
+      },
+      "properties": {
+         "id": "pmb249624",
+         "title": "Colloredogasse 24",
+         "lat": "48.23291",
+         "lon": "16.342179",
+         "timestamp": ["1910-01-02"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.344679, 48.234278]
       },
       "properties": {
@@ -1005,6 +1022,42 @@
 
          "p_id": "#2496"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7357, 51.0464]
+      },
+      "properties": {
+         "id": "pmb249688",
+         "title": "Central-Theater",
+         "lat": "51.0464",
+         "lon": "13.7357",
+         "timestamp": ["1910-01-21"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Central-Theater_(Dresden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q190821", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.736107, 51.051208]
+      },
+      "properties": {
+         "id": "pmb249692",
+         "title": "Restaurant Kneist",
+         "lat": "51.051208",
+         "lon": "13.736107",
+         "timestamp": ["1910-01-21"],
+         "importance": "1", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

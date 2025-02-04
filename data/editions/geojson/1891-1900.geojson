@@ -3745,7 +3745,7 @@
       },
       "properties": {
          "id": "pmb190484",
-         "title": "Österreichischer Kunstverein",
+         "title": "Österreichischer Kunstverein [I]",
          "lat": "48.21013",
          "lon": "16.37031",
          "timestamp": ["1891-02-27"],
@@ -5083,6 +5083,23 @@
          "importance": "1", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377181798444, 48.195546322025]
+      },
+      "properties": {
+         "id": "pmb115",
+         "title": "Schwarzenberggarten",
+         "lat": "48.195546322025",
+         "lon": "16.377181798444",
+         "timestamp": ["1891-05-25", "1891-05-27", "1892-07-03", "1892-07-10", "1895-09-08", "1896-09-04", "1896-09-12", "1896-09-15", "1896-09-26"],
+         "importance": "9", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -7426,13 +7443,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.28610371233, 48.233119188484]
+        "coordinates": [16.291944, 48.233333]
       },
       "properties": {
          "id": "pmb170",
          "title": "Neuwaldegg",
-         "lat": "48.233119188484",
-         "lon": "16.28610371233",
+         "lat": "48.233333",
+         "lon": "16.291944",
          "timestamp": ["1893-05-28", "1894-06-18", "1899-05-21"],
          "importance": "3", 
         "geonames": "https://sws.geonames.org/2770640/", 
@@ -12280,13 +12297,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.338015, 48.234046]
+        "coordinates": [16.364586, 48.216445]
       },
       "properties": {
          "id": "pmb185644",
          "title": "Peregringasse 4",
-         "lat": "48.234046",
-         "lon": "16.338015",
+         "lat": "48.216445",
+         "lon": "16.364586",
          "timestamp": ["1896-02-16", "1896-03-05", "1896-11-15", "1897-01-17", "1897-01-24", "1897-02-07", "1897-02-14", "1897-02-21", "1897-03-07", "1897-03-21", "1897-04-05", "1897-10-21", "1897-11-01", "1897-11-12", "1897-11-30"],
          "importance": "15", 
         "abbr": "Wohngebäude (K.WHS)", 
@@ -19211,7 +19228,9 @@
          "lon": "6.63282",
          "timestamp": ["1898-08-14", "1898-08-15", "1898-08-16"],
          "importance": "3", 
-        "geonames": "https://sws.geonames.org/2659994/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lausanne", 
+        "wikidata": "http://www.wikidata.org/entity/Q807", 
+        "geonames": "https://sws.geonames.org/7286283/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
       }
@@ -19343,7 +19362,9 @@
          "lon": "6.84345",
          "timestamp": ["1898-08-15"],
          "importance": "1", 
-        "geonames": "https://sws.geonames.org/2658145/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Vevey", 
+        "wikidata": "http://www.wikidata.org/entity/Q68160", 
+        "geonames": "https://sws.geonames.org/7287444/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
       }
@@ -19735,6 +19756,8 @@
          "lon": "8.28547",
          "timestamp": ["1898-08-22"],
          "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kriens", 
+        "wikidata": "http://www.wikidata.org/entity/Q14571", 
         "geonames": "https://sws.geonames.org/2660104/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"

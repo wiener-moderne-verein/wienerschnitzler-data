@@ -7,7 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [16.33472, 48.2304], 
-            [17.25175, 49.59552]
+            [17.2783775, 49.59258277777778], 
+            [17.25055556, 49.59055556], 
+            [17.2511, 49.5937], 
+            [17.250198, 49.593471]
           ]
       },
       "properties": {
@@ -72,20 +75,73 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.25175, 49.59552]
+        "coordinates": [17.25055556, 49.59055556]
       },
       "properties": {
-         "id": "pmb44176",
-         "title": "Olomouc",
-         "lat": "49.59552",
-         "lon": "17.25175",
+         "id": "pmb249866",
+         "title": "Synagoge Olmütz",
+         "lat": "49.59055556",
+         "lon": "17.25055556",
          "timestamp": ["1910-03-12"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Olm%C3%BCtz", 
-        "wikidata": "http://www.wikidata.org/entity/Q81137", 
-        "geonames": "https://sws.geonames.org/3069011/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Synagoge_Olm%C3%BCtz", 
+        "wikidata": "http://www.wikidata.org/entity/Q1163232", 
+        "abbr": "Synagoge", 
+        "type": "Synagoge"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.2511, 49.5937]
+      },
+      "properties": {
+         "id": "pmb249869",
+         "title": "Rathaus Olmütz",
+         "lat": "49.5937",
+         "lon": "17.2511",
+         "timestamp": ["1910-03-12"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rathaus_Olm%C3%BCtz", 
+        "wikidata": "http://www.wikidata.org/entity/Q3561833", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.250198, 49.593471]
+      },
+      "properties": {
+         "id": "pmb249874",
+         "title": "Hotel Lauer",
+         "lat": "49.593471",
+         "lon": "17.250198",
+         "timestamp": ["1910-03-12"],
+         "importance": "1", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.2783775, 49.59258277777778]
+      },
+      "properties": {
+         "id": "pmb249877",
+         "title": "Bahnhof Olmütz",
+         "lat": "49.59258277777778",
+         "lon": "17.2783775",
+         "timestamp": ["1910-03-12"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q11798083", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

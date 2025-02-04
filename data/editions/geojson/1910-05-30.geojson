@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [6.14569, 46.20222], 
-            [6.92122, 46.42863]
+            [6.1485, 46.2079], 
+            [6.147915, 46.204354], 
+            [6.9237, 46.4256], 
+            [6.46906, 46.43774]
           ]
       },
       "properties": {
@@ -18,38 +20,72 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.92122, 46.42863]
+        "coordinates": [6.9237, 46.4256]
       },
       "properties": {
-         "id": "pmb52051",
-         "title": "Territet",
-         "lat": "46.42863",
-         "lon": "6.92122",
+         "id": "pmb53208",
+         "title": "Hôtel des Alpes-Grand Hôtel",
+         "lat": "46.4256",
+         "lon": "6.9237",
          "timestamp": ["1910-05-30"],
          "importance": "1", 
-        "geonames": "https://sws.geonames.org/2658399/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.14569, 46.20222]
+        "coordinates": [6.1485, 46.2079]
       },
       "properties": {
-         "id": "pmb562",
-         "title": "Genf",
-         "lat": "46.20222",
-         "lon": "6.14569",
+         "id": "pmb200945",
+         "title": "Hôtel de la Paix [Genf]",
+         "lat": "46.2079",
+         "lon": "6.1485",
          "timestamp": ["1910-05-30"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Genf", 
-        "wikidata": "http://www.wikidata.org/entity/Q71", 
-        "geonames": "https://sws.geonames.org/2660646/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q3146041", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.147915, 46.204354]
+      },
+      "properties": {
+         "id": "pmb236932",
+         "title": "Restaurant Du Nord [Genf]",
+         "lat": "46.204354",
+         "lon": "6.147915",
+         "timestamp": ["1910-05-30"],
+         "importance": "1", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.46906, 46.43774]
+      },
+      "properties": {
+         "id": "pmb512",
+         "title": "Genfer See",
+         "lat": "46.43774",
+         "lon": "6.46906",
+         "timestamp": ["1910-05-30"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Genfersee", 
+        "wikidata": "http://www.wikidata.org/entity/Q6403", 
+        "geonames": "https://sws.geonames.org/2660647/", 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       }
   ]

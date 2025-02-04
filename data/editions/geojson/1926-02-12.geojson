@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.374444, 52.51]
+            [13.3141, 52.42842], 
+            [13.374444, 52.51], 
+            [13.368213, 52.509824]
           ]
       },
       "properties": {
@@ -30,6 +32,40 @@
         "wikidata": "http://www.wikidata.org/entity/Q321562", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.368213, 52.509824]
+      },
+      "properties": {
+         "id": "pmb249530",
+         "title": "Herbert-von-Karajan-Straße 4",
+         "lat": "52.509824",
+         "lon": "13.368213",
+         "timestamp": ["1926-02-12"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3141, 52.42842]
+      },
+      "properties": {
+         "id": "pmb249617",
+         "title": "Schillerstraße 2",
+         "lat": "52.42842",
+         "lon": "13.3141",
+         "timestamp": ["1926-02-12"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

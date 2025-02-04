@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [8.30635, 47.05048]
+            [8.4842, 47.01014], 
+            [8.60538, 46.9936], 
+            [8.48447, 47.0555], 
+            [8.30899, 47.050286]
           ]
       },
       "properties": {
@@ -17,19 +20,73 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.30635, 47.05048]
+        "coordinates": [8.30899, 47.050286]
       },
       "properties": {
-         "id": "pmb967",
-         "title": "Luzern",
-         "lat": "47.05048",
-         "lon": "8.30635",
+         "id": "pmb200956",
+         "title": "Hotel St. Gotthard Luzern",
+         "lat": "47.050286",
+         "lon": "8.30899",
          "timestamp": ["1910-05-20"],
          "importance": "1", 
-        "wikipedia": "https://de.wikipedia.org/wiki/Luzern", 
-        "wikidata": "http://www.wikidata.org/entity/Q4191", 
-        "geonames": "https://sws.geonames.org/2659811/", 
-        "abbr": "P.PPLA", 
+        "wikidata": "http://www.wikidata.org/entity/Q130712387", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.60538, 46.9936]
+      },
+      "properties": {
+         "id": "pmb53632",
+         "title": "Brunnen",
+         "lat": "46.9936",
+         "lon": "8.60538",
+         "timestamp": ["1910-05-20"],
+         "importance": "1", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Brunnen_SZ", 
+        "wikidata": "http://www.wikidata.org/entity/Q675405", 
+        "geonames": "https://sws.geonames.org/2661368/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.4842, 47.01014]
+      },
+      "properties": {
+         "id": "pmb92021",
+         "title": "Vitznau",
+         "lat": "47.01014",
+         "lon": "8.4842",
+         "timestamp": ["1910-05-20"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2658107/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.48447, 47.0555]
+      },
+      "properties": {
+         "id": "pmb91598",
+         "title": "Rigi Kulm",
+         "lat": "47.0555",
+         "lon": "8.48447",
+         "timestamp": ["1910-05-20"],
+         "importance": "1", 
+        "geonames": "https://sws.geonames.org/2660093/", 
+        "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
       }

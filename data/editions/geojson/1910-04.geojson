@@ -51,8 +51,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1910-04-05", "1910-04-07", "1910-04-08", "1910-04-08", "1910-04-11", "1910-04-13", "1910-04-22", "1910-04-27"],
-         "importance": "8", 
+         "timestamp": ["1910-04-05", "1910-04-07", "1910-04-08", "1910-04-11", "1910-04-13", "1910-04-22", "1910-04-27"],
+         "importance": "7", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -113,6 +113,23 @@
         "geonames": "https://sws.geonames.org/2775259/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377181798444, 48.195546322025]
+      },
+      "properties": {
+         "id": "pmb115",
+         "title": "Schwarzenberggarten",
+         "lat": "48.195546322025",
+         "lon": "16.377181798444",
+         "timestamp": ["1910-04-27"],
+         "importance": "1", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -481,7 +498,7 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1910-04-03", "1910-04-06", "1910-04-08", "1910-04-10", "1910-04-14", "1910-04-14", "1910-04-23"],
+         "timestamp": ["1910-04-03", "1910-04-06", "1910-04-08", "1910-04-10", "1910-04-14", "1910-04-23", "1910-04-30"],
          "importance": "7", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
@@ -702,6 +719,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.359581, 48.219639]
+      },
+      "properties": {
+         "id": "pmb249965",
+         "title": "Harmoniegasse 4",
+         "lat": "48.219639",
+         "lon": "16.359581",
+         "timestamp": ["1910-04-14"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q37761488", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.368835, 48.209229]
       },
       "properties": {
@@ -714,6 +749,58 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Grabenkino", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355107, 48.239368]
+      },
+      "properties": {
+         "id": "pmb249981",
+         "title": "Döblinger Hauptstraße 70",
+         "lat": "48.239368",
+         "lon": "16.355107",
+         "timestamp": ["1910-04-20"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.343915, 48.227069]
+      },
+      "properties": {
+         "id": "pmb249986",
+         "title": "Riglergasse 4",
+         "lat": "48.227069",
+         "lon": "16.343915",
+         "timestamp": ["1910-04-21"],
+         "importance": "1", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.302938, 48.247147]
+      },
+      "properties": {
+         "id": "pmb250002",
+         "title": "Pötzleinsdorfer Höhe",
+         "lat": "48.247147",
+         "lon": "16.302938",
+         "timestamp": ["1910-04-24"],
+         "importance": "1", 
+        "wikidata": "http://www.wikidata.org/entity/Q132092250", 
+        "abbr": "H.STRT", 
+        "type": "Meerenge"
       }
       }
   ]

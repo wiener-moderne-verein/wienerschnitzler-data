@@ -94,7 +94,7 @@
         </xsl:choose>
         <xsl:text>],</xsl:text>
         <!-- Aggregate event descriptions -->
-        <xsl:text>&#10;         "importance": "</xsl:text>
+        <xsl:text>&#10;         "importance": </xsl:text>
         <xsl:choose>
             <xsl:when test="$timespan-type = 'complete'">
                 <xsl:value-of select="count($input-placeNode/descendant::tei:listEvent/tei:event)"/>
@@ -113,7 +113,6 @@
                 <xsl:text>1</xsl:text>
             </xsl:when>
         </xsl:choose>
-        <xsl:text>"</xsl:text>
         <xsl:if test="$input-placeNode/tei:idno[@subtype = 'wikipedia']">
             <xsl:text>, </xsl:text>
             <xsl:text>&#10;        "wikipedia": "</xsl:text>

@@ -5,6 +5,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.043176, 47.81233]
+      },
+      "properties": {
+         "id": "pmb152",
+         "title": "Grand Hotel de L’Europe, G. Jung",
+         "lat": "47.81233",
+         "lon": "13.043176",
+         "timestamp": ["1917-05-14", "1917-05-15", "1917-05-16"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.373056, 48.208333]
       },
       "properties": {
@@ -381,6 +398,26 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.060833, 47.762222]
+      },
+      "properties": {
+         "id": "pmb31",
+         "title": "Hellbrunn",
+         "lat": "47.762222",
+         "lon": "13.060833",
+         "timestamp": ["1917-05-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hellbrunn", 
+        "wikidata": "http://www.wikidata.org/entity/Q1602704", 
+        "geonames": "https://sws.geonames.org/2776533/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -1080,6 +1117,18 @@
         "wohnort": [
          {
 
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
          "p_name": "Agnes Ulmann",
 
          "p_id": "#27942"
@@ -1355,15 +1404,15 @@
         "wohnort": [
          {
 
-         "p_name": "Gisela Hajek",
-
-         "p_id": "#2461"
-         }, 
-         {
-
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
          }], 
         "arbeitsort": [
          {
@@ -1388,7 +1437,20 @@
          "timestamp": ["1917-10-30"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julia Bertha Culp",
+
+         "p_id": "#11123"
+         }, 
+         {
+
+         "p_name": "Konrad Mautner",
+
+         "p_id": "#12208"
+         }]
       }
       }, 
     {
@@ -1492,17 +1554,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.043176, 47.81233]
+        "coordinates": [11.1097, 47.4956]
       },
       "properties": {
-         "id": "pmb152",
-         "title": "Grand Hotel de L’Europe, G. Jung",
-         "lat": "47.81233",
-         "lon": "13.043176",
-         "timestamp": ["1917-05-14", "1917-05-15", "1917-05-16"],
-         "importance": 3, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+         "id": "pmb2318",
+         "title": "Partenkirchen",
+         "lat": "47.4956",
+         "lon": "11.1097",
+         "timestamp": ["1917-09-09"],
+         "importance": 1, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -1867,23 +1929,6 @@
         "geonames": "https://sws.geonames.org/2930871/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.1097, 47.4956]
-      },
-      "properties": {
-         "id": "pmb2318",
-         "title": "Partenkirchen",
-         "lat": "47.4956",
-         "lon": "11.1097",
-         "timestamp": ["1917-09-09"],
-         "importance": 1, 
-        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes"
       }
       }
   ]

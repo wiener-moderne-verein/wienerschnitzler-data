@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.347492624475, 48.216264483348], 
             [16.35736, 48.21533], 
+            [16.370342, 48.211369], 
             [16.33472, 48.2304]
           ]
       },
@@ -91,6 +93,73 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1910-06-21"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1910-06-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33472, 48.2304]
       },
       "properties": {
@@ -103,6 +172,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
          {
 
          "p_name": "Lili Cappellini",

@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.35137, 48.21346], 
+            [16.372609, 48.208087], 
             [16.33716, 48.23188], 
-            [16.33494, 48.23365]
+            [16.33494, 48.23365], 
+            [16.333056, 48.233056]
           ]
       },
       "properties": {
@@ -42,6 +45,23 @@
 
          "p_id": "#10863"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1926-06-02"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       },
     {
@@ -115,6 +135,65 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1926-06-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372609, 48.208087]
+      },
+      "properties": {
+         "id": "pmb185324",
+         "title": "Meinl Churhaus-Restaurant",
+         "lat": "48.208087",
+         "lon": "16.372609",
+         "timestamp": ["1926-06-02"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

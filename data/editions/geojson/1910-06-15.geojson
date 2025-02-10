@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.361139, 48.210333], 
+            [16.336048, 48.232695], 
             [16.33472, 48.2304]
           ]
       },
@@ -13,6 +15,23 @@
         "name": "15. Juni 1910"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.336048, 48.232695]
+      },
+      "properties": {
+         "id": "pmb195024",
+         "title": "Holzers Restaurant",
+         "lat": "48.232695",
+         "lon": "16.336048",
+         "timestamp": ["1910-06-15"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -29,6 +48,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
          {
 
          "p_name": "Lili Cappellini",
@@ -65,6 +90,24 @@
 
          "p_id": "#15983"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1910-06-15"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
       }
       }
   ]

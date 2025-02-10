@@ -25,6 +25,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1926-05-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752", 
+        "geonames": "https://sws.geonames.org/3322725/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.299116267833, 48.230916826952]
       },
       "properties": {
@@ -121,6 +141,36 @@
         "wikidata": "http://www.wikidata.org/entity/Q1877731", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364586, 48.216445]
+      },
+      "properties": {
+         "id": "pmb185644",
+         "title": "Peregringasse 4",
+         "lat": "48.216445",
+         "lon": "16.364586",
+         "timestamp": ["1926-05-20", "1926-05-25"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
+         }]
       }
       }, 
     {
@@ -241,6 +291,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.06566, 52.39886]
+      },
+      "properties": {
+         "id": "pmb56027",
+         "title": "Potsdam",
+         "lat": "52.39886",
+         "lon": "13.06566",
+         "timestamp": ["1926-05-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Potsdam", 
+        "wikidata": "http://www.wikidata.org/entity/Q1711", 
+        "geonames": "https://sws.geonames.org/2852458/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.67418, 46.41898]
+      },
+      "properties": {
+         "id": "pmb40362",
+         "title": "Vigo di Fassa",
+         "lat": "46.41898",
+         "lon": "11.67418",
+         "timestamp": ["1926-05-07"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3164330/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.366666, 52.516666]
       },
       "properties": {
@@ -280,6 +368,60 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1926-05-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -294,15 +436,15 @@
         "wohnort": [
          {
 
-         "p_name": "Gisela Hajek",
-
-         "p_id": "#2461"
-         }, 
-         {
-
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
          }], 
         "arbeitsort": [
          {
@@ -324,8 +466,8 @@
          "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
          "lat": "48.233056",
          "lon": "16.333056",
-         "timestamp": ["1926-05-24"],
-         "importance": 1, 
+         "timestamp": ["1926-05-24", "1926-05-25", "1926-05-26", "1926-05-27", "1926-05-28", "1926-05-29", "1926-05-30", "1926-05-31"],
+         "importance": 8, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium"
       }
@@ -407,6 +549,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.320696, 48.263217]
+      },
+      "properties": {
+         "id": "pmb194907",
+         "title": "Schlosshotel Cobenzl",
+         "lat": "48.263217",
+         "lon": "16.320696",
+         "timestamp": ["1926-05-28"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -449,6 +608,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.367725, 48.212284]
+      },
+      "properties": {
+         "id": "pmb207301",
+         "title": "Tiefer Graben 17",
+         "lat": "48.212284",
+         "lon": "16.367725",
+         "timestamp": ["1926-05-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13333, 38.71667]
+      },
+      "properties": {
+         "id": "pmb15227",
+         "title": "Lissabon",
+         "lat": "38.71667",
+         "lon": "-9.13333",
+         "timestamp": ["1926-05-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lissabon", 
+        "wikidata": "http://www.wikidata.org/entity/Q597", 
+        "geonames": "https://sws.geonames.org/2267057/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.349979, 48.224251]
       },
       "properties": {
@@ -466,6 +675,120 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.374444, 52.51]
+      },
+      "properties": {
+         "id": "pmb245",
+         "title": "Hotel Esplanade [Berlin]",
+         "lat": "52.51",
+         "lon": "13.374444",
+         "timestamp": ["1926-05-11", "1926-05-12", "1926-05-13", "1926-05-14", "1926-05-15", "1926-05-16", "1926-05-17", "1926-05-18", "1926-05-19"],
+         "importance": 9, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q321562", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35113, 48.190969]
+      },
+      "properties": {
+         "id": "pmb245453",
+         "title": "Mollardgasse 26",
+         "lat": "48.190969",
+         "lon": "16.35113",
+         "timestamp": ["1926-05-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.312815, 52.499088]
+      },
+      "properties": {
+         "id": "pmb249499",
+         "title": "Olivaer Platz 1",
+         "lat": "52.499088",
+         "lon": "13.312815",
+         "timestamp": ["1926-05-11", "1926-05-15", "1926-05-16", "1926-05-18", "1926-05-19"],
+         "importance": 5, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Nazary Kantorowicz",
+
+         "p_id": "#19078"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1926-05-14"],
+         "importance": 1, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.33465, 52.50422]
+      },
+      "properties": {
+         "id": "pmb235978",
+         "title": "Zum Austernmeyer",
+         "lat": "52.50422",
+         "lon": "13.33465",
+         "timestamp": ["1926-05-14"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [-15.41343, 28.09973]
       },
       "properties": {
@@ -473,8 +796,8 @@
          "title": "Las Palmas de Gran Canaria",
          "lat": "28.09973",
          "lon": "-15.41343",
-         "timestamp": ["1926-05-01", "1926-05-02", "1926-05-03", "1926-05-04"],
-         "importance": 4, 
+         "timestamp": ["1926-05-01", "1926-05-02", "1926-05-03"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Las_Palmas_de_Gran_Canaria", 
         "wikidata": "http://www.wikidata.org/entity/Q11974", 
         "geonames": "https://sws.geonames.org/2515270/", 
@@ -518,6 +841,72 @@
         "geonames": "https://sws.geonames.org/2939658/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.28702, 52.4581]
+      },
+      "properties": {
+         "id": "pmb90508",
+         "title": "Dahlem",
+         "lat": "52.4581",
+         "lon": "13.28702",
+         "timestamp": ["1926-05-16"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2939440/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.29417, 52.46601]
+      },
+      "properties": {
+         "id": "pmb235344",
+         "title": "Podbielskiallee 35–37",
+         "lat": "52.46601",
+         "lon": "13.29417",
+         "timestamp": ["1926-05-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Pietrkowski",
+
+         "p_id": "#9274"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.39333, 52.51483]
+      },
+      "properties": {
+         "id": "pmb493",
+         "title": "Bank für Auswärtigen Handel",
+         "lat": "52.51483",
+         "lon": "13.39333",
+         "timestamp": ["1926-05-17"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Karl Feilchenfeld",
+
+         "p_id": "#16125"
+         }]
       }
       }
   ]

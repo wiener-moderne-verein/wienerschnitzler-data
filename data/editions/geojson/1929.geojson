@@ -2296,6 +2296,18 @@
         "wohnort": [
          {
 
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
          "p_name": "Agnes Ulmann",
 
          "p_id": "#27942"
@@ -2429,6 +2441,12 @@
          }, 
          {
 
+         "p_name": "Julia Bertha Culp",
+
+         "p_id": "#11123"
+         }, 
+         {
+
          "p_name": "Felix Salten",
 
          "p_id": "#2167"
@@ -2522,15 +2540,15 @@
         "wohnort": [
          {
 
-         "p_name": "Gisela Hajek",
-
-         "p_id": "#2461"
-         }, 
-         {
-
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
          }], 
         "arbeitsort": [
          {
@@ -3237,7 +3255,20 @@
          "timestamp": ["1929-04-19", "1929-11-30"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
       }
       }, 
     {
@@ -3261,36 +3292,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.285098, 52.49074]
-      },
-      "properties": {
-         "id": "pmb246987",
-         "title": "Hubertus Allee 24",
-         "lat": "52.49074",
-         "lon": "13.285098",
-         "timestamp": ["1929-01-01", "1929-01-04", "1929-12-29", "1929-12-31"],
-         "importance": 4, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Karl Michaelis",
-
-         "p_id": "#3064"
-         }, 
-         {
-
-         "p_name": "Dora Michaelis",
-
-         "p_id": "#2774"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.35376, 48.22272]
       },
       "properties": {
@@ -3305,6 +3306,124 @@
         "wikidata": "http://www.wikidata.org/entity/Q19971265", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.28702, 52.4581]
+      },
+      "properties": {
+         "id": "pmb90508",
+         "title": "Dahlem",
+         "lat": "52.4581",
+         "lon": "13.28702",
+         "timestamp": ["1929-03-22"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2939440/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.29417, 52.46601]
+      },
+      "properties": {
+         "id": "pmb235344",
+         "title": "Podbielskiallee 35–37",
+         "lat": "52.46601",
+         "lon": "13.29417",
+         "timestamp": ["1929-01-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Pietrkowski",
+
+         "p_id": "#9274"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.39333, 52.51483]
+      },
+      "properties": {
+         "id": "pmb493",
+         "title": "Bank für Auswärtigen Handel",
+         "lat": "52.51483",
+         "lon": "13.39333",
+         "timestamp": ["1929-03-14", "1929-12-30"],
+         "importance": 2, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Karl Feilchenfeld",
+
+         "p_id": "#16125"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368443, 48.209585]
+      },
+      "properties": {
+         "id": "pmb185484",
+         "title": "Metrophon Konzertsalon und Musikhaus",
+         "lat": "48.209585",
+         "lon": "16.368443",
+         "timestamp": ["1929-04-10"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.11437, 48.13047]
+      },
+      "properties": {
+         "id": "pmb90889",
+         "title": "Hochroterd",
+         "lat": "48.13047",
+         "lon": "16.11437",
+         "timestamp": ["1929-06-02"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2775967/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.28456, 48.17318]
+      },
+      "properties": {
+         "id": "pmb236355",
+         "title": "Gasthaus Weide",
+         "lat": "48.17318",
+         "lon": "16.28456",
+         "timestamp": ["1929-06-02"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }, 
     {
@@ -3372,6 +3491,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.285098, 52.49074]
+      },
+      "properties": {
+         "id": "pmb246987",
+         "title": "Hubertus Allee 24",
+         "lat": "52.49074",
+         "lon": "13.285098",
+         "timestamp": ["1929-01-01", "1929-01-04", "1929-12-29", "1929-12-31"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }, 
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37354, 48.1948]
       },
       "properties": {
@@ -3383,23 +3532,6 @@
          "importance": 1, 
         "abbr": "Verlag", 
         "type": ""
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.368443, 48.209585]
-      },
-      "properties": {
-         "id": "pmb185484",
-         "title": "Metrophon Konzertsalon und Musikhaus",
-         "lat": "48.209585",
-         "lon": "16.368443",
-         "timestamp": ["1929-04-10"],
-         "importance": 1, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
       }
       }, 
     {
@@ -3484,54 +3616,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.29417, 52.46601]
-      },
-      "properties": {
-         "id": "pmb235344",
-         "title": "Podbielskiallee 35–37",
-         "lat": "52.46601",
-         "lon": "13.29417",
-         "timestamp": ["1929-01-05"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Edmund Pietrkowski",
-
-         "p_id": "#9274"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.39333, 52.51483]
-      },
-      "properties": {
-         "id": "pmb493",
-         "title": "Bank für Auswärtigen Handel",
-         "lat": "52.51483",
-         "lon": "13.39333",
-         "timestamp": ["1929-03-14", "1929-12-30"],
-         "importance": 2, 
-        "abbr": "Bank (K.BNK)", 
-        "type": "Bank", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Franz Karl Feilchenfeld",
-
-         "p_id": "#16125"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.354819, 48.208344]
       },
       "properties": {
@@ -3561,24 +3645,6 @@
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.11437, 48.13047]
-      },
-      "properties": {
-         "id": "pmb90889",
-         "title": "Hochroterd",
-         "lat": "48.13047",
-         "lon": "16.11437",
-         "timestamp": ["1929-06-02"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2775967/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -3972,24 +4038,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.28702, 52.4581]
-      },
-      "properties": {
-         "id": "pmb90508",
-         "title": "Dahlem",
-         "lat": "52.4581",
-         "lon": "13.28702",
-         "timestamp": ["1929-03-22"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2939440/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.282212, 52.449736]
       },
       "properties": {
@@ -4294,23 +4342,6 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.28456, 48.17318]
-      },
-      "properties": {
-         "id": "pmb236355",
-         "title": "Gasthaus Weide",
-         "lat": "48.17318",
-         "lon": "16.28456",
-         "timestamp": ["1929-06-02"],
-         "importance": 1, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
       }
       }, 
     {

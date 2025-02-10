@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.185099479, 48.00001365], 
+            [16.21359, 47.96533], 
             [16.33716, 48.23188]
           ]
       },
@@ -84,6 +86,43 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.185099479, 48.00001365]
+      },
+      "properties": {
+         "id": "pmb246546",
+         "title": "Jägerhaus [Baden bei Wien]",
+         "lat": "48.00001365",
+         "lon": "16.185099479",
+         "timestamp": ["1915-07-21"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.21359, 47.96533]
+      },
+      "properties": {
+         "id": "pmb992",
+         "title": "Bad Vöslau",
+         "lat": "47.96533",
+         "lon": "16.21359",
+         "timestamp": ["1915-07-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_V%C3%B6slau", 
+        "wikidata": "http://www.wikidata.org/entity/Q798800", 
+        "geonames": "https://sws.geonames.org/2782043/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }
   ]

@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.09576, 47.49209], 
-            [11.57549, 48.13743]
+            [11.1097, 47.4956], 
+            [11.581667, 48.138889], 
+            [11.578786, 48.139944], 
+            [11.5682, 48.1412]
           ]
       },
       "properties": {
@@ -18,40 +20,72 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.09576, 47.49209]
+        "coordinates": [11.1097, 47.4956]
       },
       "properties": {
-         "id": "pmb667",
-         "title": "Garmisch-Partenkirchen",
-         "lat": "47.49209",
-         "lon": "11.09576",
+         "id": "pmb2318",
+         "title": "Partenkirchen",
+         "lat": "47.4956",
+         "lon": "11.1097",
          "timestamp": ["1910-08-26"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Garmisch-Partenkirchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q127043", 
-        "geonames": "https://sws.geonames.org/2922530/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.57549, 48.13743]
+        "coordinates": [11.581667, 48.138889]
       },
       "properties": {
-         "id": "pmb45258",
-         "title": "München",
-         "lat": "48.13743",
-         "lon": "11.57549",
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
          "timestamp": ["1910-08-26"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q1726", 
-        "geonames": "https://sws.geonames.org/2867714/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5682, 48.1412]
+      },
+      "properties": {
+         "id": "pmb247574",
+         "title": "Bernheimer-Haus",
+         "lat": "48.1412",
+         "lon": "11.5682",
+         "timestamp": ["1910-08-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bernheimer-Haus", 
+        "wikidata": "http://www.wikidata.org/entity/Q826485", 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.578786, 48.139944]
+      },
+      "properties": {
+         "id": "pmb635",
+         "title": "Residenztheater München",
+         "lat": "48.139944",
+         "lon": "11.578786",
+         "timestamp": ["1910-08-26"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }
   ]

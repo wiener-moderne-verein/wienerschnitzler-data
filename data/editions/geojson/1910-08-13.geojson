@@ -6,6 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.134898, 48.007491], 
+            [16.185099479, 48.00001365], 
+            [16.1997724, 47.9782139], 
+            [16.379829498031, 48.187455471378], 
+            [16.379685, 48.188208], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +18,42 @@
         "name": "13. August 1910"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1910-08-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379685, 48.188208]
+      },
+      "properties": {
+         "id": "pmb187206",
+         "title": "Restauration »Am Südbahnhof«",
+         "lat": "48.188208",
+         "lon": "16.379685",
+         "timestamp": ["1910-08-13"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -84,6 +125,57 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.185099479, 48.00001365]
+      },
+      "properties": {
+         "id": "pmb246546",
+         "title": "Jägerhaus [Baden bei Wien]",
+         "lat": "48.00001365",
+         "lon": "16.185099479",
+         "timestamp": ["1910-08-13"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.134898, 48.007491]
+      },
+      "properties": {
+         "id": "pmb249345",
+         "title": "Schutzhaus Eisernes Tor",
+         "lat": "48.007491",
+         "lon": "16.134898",
+         "timestamp": ["1910-08-13"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.1997724, 47.9782139]
+      },
+      "properties": {
+         "id": "pmb246543",
+         "title": "Waldandacht [Bad Vöslau]",
+         "lat": "47.9782139",
+         "lon": "16.1997724",
+         "timestamp": ["1910-08-13"],
+         "importance": 1, 
+        "abbr": "Monument (K.MON)", 
+        "type": "Monument"
       }
       }
   ]

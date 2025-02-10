@@ -696,6 +696,18 @@
         "wohnort": [
          {
 
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
          "p_name": "Agnes Ulmann",
 
          "p_id": "#27942"
@@ -781,15 +793,15 @@
         "wohnort": [
          {
 
-         "p_name": "Gisela Hajek",
-
-         "p_id": "#2461"
-         }, 
-         {
-
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
          }], 
         "arbeitsort": [
          {
@@ -1133,7 +1145,37 @@
          "timestamp": ["1928-05-09"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377452, 48.193826]
+      },
+      "properties": {
+         "id": "pmb246974",
+         "title": "Paul Zsolnay Verlag",
+         "lat": "48.193826",
+         "lon": "16.377452",
+         "timestamp": ["1928-05-23"],
+         "importance": 1, 
+        "abbr": "Verlag", 
+        "type": ""
       }
       }, 
     {
@@ -1158,6 +1200,24 @@
 
          "p_id": "#22449"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.11437, 48.13047]
+      },
+      "properties": {
+         "id": "pmb90889",
+         "title": "Hochroterd",
+         "lat": "48.13047",
+         "lon": "16.11437",
+         "timestamp": ["1928-05-15"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2775967/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -1228,9 +1288,9 @@
          }, 
          {
 
-         "p_name": "Lilly Schnitzler",
+         "p_name": "Lili Cappellini",
 
-         "p_id": "#3233"
+         "p_id": "#2238"
          }]
       }
       }, 
@@ -1324,24 +1384,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.11437, 48.13047]
-      },
-      "properties": {
-         "id": "pmb90889",
-         "title": "Hochroterd",
-         "lat": "48.13047",
-         "lon": "16.11437",
-         "timestamp": ["1928-05-15"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2775967/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.377528, 48.19909]
       },
       "properties": {
@@ -1353,23 +1395,6 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.377452, 48.193826]
-      },
-      "properties": {
-         "id": "pmb246974",
-         "title": "Paul Zsolnay Verlag",
-         "lat": "48.193826",
-         "lon": "16.377452",
-         "timestamp": ["1928-05-23"],
-         "importance": 1, 
-        "abbr": "Verlag", 
-        "type": ""
       }
       }, 
     {

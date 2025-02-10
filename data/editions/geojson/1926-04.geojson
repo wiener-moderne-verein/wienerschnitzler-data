@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1926-04-01", "1926-04-02", "1926-04-03", "1926-04-04", "1926-04-05", "1926-04-06", "1926-04-07", "1926-04-08", "1926-04-09", "1926-04-10", "1926-04-11", "1926-04-12", "1926-04-13", "1926-04-14", "1926-04-15", "1926-04-18"],
-         "importance": 16, 
+         "timestamp": ["1926-04-01", "1926-04-02", "1926-04-03", "1926-04-04", "1926-04-05", "1926-04-06", "1926-04-07", "1926-04-08", "1926-04-09", "1926-04-10", "1926-04-11", "1926-04-12", "1926-04-13", "1926-04-14", "1926-04-15"],
+         "importance": 15, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -61,6 +61,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1926-04-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.23333, 48.26667]
       },
       "properties": {
@@ -79,6 +98,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.364586, 48.216445]
+      },
+      "properties": {
+         "id": "pmb185644",
+         "title": "Peregringasse 4",
+         "lat": "48.216445",
+         "lon": "16.364586",
+         "timestamp": ["1926-04-01", "1926-04-10", "1926-04-14"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.16793, 48.24514]
+      },
+      "properties": {
+         "id": "pmb942",
+         "title": "Mauerbach",
+         "lat": "48.24514",
+         "lon": "16.16793",
+         "timestamp": ["1926-04-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mauerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q700542", 
+        "geonames": "https://sws.geonames.org/2771785/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.76667, 45.66667]
       },
       "properties": {
@@ -86,8 +155,8 @@
          "title": "Triest",
          "lat": "45.66667",
          "lon": "13.76667",
-         "timestamp": ["1926-04-16", "1926-04-17"],
-         "importance": 2, 
+         "timestamp": ["1926-04-16"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Triest", 
         "wikidata": "http://www.wikidata.org/entity/Q546", 
         "geonames": "https://sws.geonames.org/3165186/", 
@@ -158,6 +227,99 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.33561, 38.13205]
+      },
+      "properties": {
+         "id": "pmb901",
+         "title": "Palermo",
+         "lat": "38.13205",
+         "lon": "13.33561",
+         "timestamp": ["1926-04-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Palermo", 
+        "wikidata": "http://www.wikidata.org/entity/Q2656", 
+        "geonames": "https://sws.geonames.org/2523920/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.23577, 40.8327]
+      },
+      "properties": {
+         "id": "pmb234052",
+         "title": "Stazione Zoologica Anton Dohrn",
+         "lat": "40.8327",
+         "lon": "14.23577",
+         "timestamp": ["1926-04-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Zoologische_Station_Neapel", 
+        "wikidata": "http://www.wikidata.org/entity/Q220221", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1926-04-05", "1926-04-07"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -172,15 +334,15 @@
         "wohnort": [
          {
 
-         "p_name": "Gisela Hajek",
-
-         "p_id": "#2461"
-         }, 
-         {
-
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
          }], 
         "arbeitsort": [
          {
@@ -195,6 +357,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1926-04-07"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -202,8 +381,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1926-04-01", "1926-04-02", "1926-04-03", "1926-04-04", "1926-04-05", "1926-04-06", "1926-04-07", "1926-04-08", "1926-04-09", "1926-04-10", "1926-04-11", "1926-04-12", "1926-04-13", "1926-04-14", "1926-04-15", "1926-04-18"],
-         "importance": 16, 
+         "timestamp": ["1926-04-01", "1926-04-02", "1926-04-03", "1926-04-04", "1926-04-05", "1926-04-06", "1926-04-07", "1926-04-08", "1926-04-09", "1926-04-10", "1926-04-11", "1926-04-12", "1926-04-13", "1926-04-14", "1926-04-15"],
+         "importance": 15, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -357,6 +536,46 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-5.35, 36.13333]
+      },
+      "properties": {
+         "id": "pmb51646",
+         "title": "Gibraltar",
+         "lat": "36.13333",
+         "lon": "-5.35",
+         "timestamp": ["1926-04-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gibraltar", 
+        "wikidata": "http://www.wikidata.org/entity/Q1410", 
+        "geonames": "https://sws.geonames.org/2411586/", 
+        "abbr": "A.PCLD", 
+        "type": "Exterritoriales Gebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13333, 38.71667]
+      },
+      "properties": {
+         "id": "pmb15227",
+         "title": "Lissabon",
+         "lat": "38.71667",
+         "lon": "-9.13333",
+         "timestamp": ["1926-04-24", "1926-04-25", "1926-04-26"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lissabon", 
+        "wikidata": "http://www.wikidata.org/entity/Q597", 
+        "geonames": "https://sws.geonames.org/2267057/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36171, 48.2116]
       },
       "properties": {
@@ -388,8 +607,8 @@
          "title": "Restaurant Toni Ott",
          "lat": "48.212483",
          "lon": "16.363758",
-         "timestamp": ["1926-04-12"],
-         "importance": 1, 
+         "timestamp": ["1926-04-03", "1926-04-06", "1926-04-12"],
+         "importance": 3, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal", 
         "arbeitsort": [
@@ -399,6 +618,125 @@
 
          "p_id": "#22242"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1926-04-02", "1926-04-06", "1926-04-09", "1926-04-11", "1926-04-14"],
+         "importance": 5, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367295, 48.207185]
+      },
+      "properties": {
+         "id": "pmb235837",
+         "title": "Reitschulgasse 2",
+         "lat": "48.207185",
+         "lon": "16.367295",
+         "timestamp": ["1926-04-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Viktor Eisenmenger",
+
+         "p_id": "#15782"
+         }, 
+         {
+
+         "p_name": "Anna Eisenmenger",
+
+         "p_id": "#15775"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35113, 48.190969]
+      },
+      "properties": {
+         "id": "pmb245453",
+         "title": "Mollardgasse 26",
+         "lat": "48.190969",
+         "lon": "16.35113",
+         "timestamp": ["1926-04-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377452, 48.193826]
+      },
+      "properties": {
+         "id": "pmb246974",
+         "title": "Paul Zsolnay Verlag",
+         "lat": "48.193826",
+         "lon": "16.377452",
+         "timestamp": ["1926-04-02"],
+         "importance": 1, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.01223, 48.25531]
+      },
+      "properties": {
+         "id": "pmb58825",
+         "title": "Sieghartskirchen",
+         "lat": "48.25531",
+         "lon": "16.01223",
+         "timestamp": ["1926-04-05"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2765091/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -471,8 +809,8 @@
          "title": "Sintra",
          "lat": "38.80097",
          "lon": "-9.37826",
-         "timestamp": ["1926-04-26", "1926-04-27"],
-         "importance": 2, 
+         "timestamp": ["1926-04-25"],
+         "importance": 1, 
         "geonames": "https://sws.geonames.org/2262912/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"

@@ -83,6 +83,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.40289, 48.21206]
+      },
+      "properties": {
+         "id": "pmb185523",
+         "title": "Zum braunen Hirschen",
+         "lat": "48.21206",
+         "lon": "16.40289",
+         "timestamp": ["1926-02-21"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.342154562605, 48.250804274577]
       },
       "properties": {
@@ -126,8 +143,8 @@
          "title": "Peregringasse 4",
          "lat": "48.216445",
          "lon": "16.364586",
-         "timestamp": ["1926-02-01", "1926-02-04"],
-         "importance": 2, 
+         "timestamp": ["1926-02-01", "1926-02-04", "1926-02-17", "1926-02-24"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -181,15 +198,15 @@
         "wohnort": [
          {
 
-         "p_name": "Gisela Hajek",
-
-         "p_id": "#2461"
-         }, 
-         {
-
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
          }], 
         "arbeitsort": [
          {
@@ -349,6 +366,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36171, 48.2116]
+      },
+      "properties": {
+         "id": "pmb235784",
+         "title": "Oppolzergasse 6",
+         "lat": "48.2116",
+         "lon": "16.36171",
+         "timestamp": ["1926-02-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3534843, 48.2123639]
       },
       "properties": {
@@ -458,6 +499,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.367295, 48.207185]
+      },
+      "properties": {
+         "id": "pmb235837",
+         "title": "Reitschulgasse 2",
+         "lat": "48.207185",
+         "lon": "16.367295",
+         "timestamp": ["1926-02-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Viktor Eisenmenger",
+
+         "p_id": "#15782"
+         }, 
+         {
+
+         "p_name": "Anna Eisenmenger",
+
+         "p_id": "#15775"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.376111, 52.518611]
       },
       "properties": {
@@ -487,7 +558,14 @@
          "timestamp": ["1926-02-06", "1926-02-11"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Georg Engel",
+
+         "p_id": "#15908"
+         }]
       }
       }, 
     {
@@ -501,10 +579,23 @@
          "title": "Olivaer Platz 1",
          "lat": "52.499088",
          "lon": "13.312815",
-         "timestamp": ["1926-02-06", "1926-02-08", "1926-02-09", "1926-02-13"],
-         "importance": 4, 
+         "timestamp": ["1926-02-06", "1926-02-08", "1926-02-09", "1926-02-13", "1926-02-16"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Nazary Kantorowicz",
+
+         "p_id": "#19078"
+         }]
       }
       }, 
     {
@@ -521,7 +612,14 @@
          "timestamp": ["1926-02-07"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gustav Böss",
+
+         "p_id": "#14783"
+         }]
       }
       }, 
     {
@@ -562,7 +660,20 @@
          "timestamp": ["1926-02-08", "1926-02-09", "1926-02-10", "1926-02-11", "1926-02-12", "1926-02-14"],
          "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Lucie Mannheim",
+
+         "p_id": "#8804"
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }]
       }
       }, 
     {
@@ -580,36 +691,6 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.285098, 52.49074]
-      },
-      "properties": {
-         "id": "pmb246987",
-         "title": "Hubertus Allee 24",
-         "lat": "52.49074",
-         "lon": "13.285098",
-         "timestamp": ["1926-02-09"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Karl Michaelis",
-
-         "p_id": "#3064"
-         }, 
-         {
-
-         "p_name": "Dora Michaelis",
-
-         "p_id": "#2774"
-         }]
       }
       }, 
     {
@@ -650,7 +731,14 @@
          "timestamp": ["1926-02-12"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Carl Heinrich Becker",
+
+         "p_id": "#6189"
+         }]
       }
       }, 
     {

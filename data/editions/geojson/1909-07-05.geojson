@@ -36,6 +36,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.336048, 48.232695]
+      },
+      "properties": {
+         "id": "pmb195024",
+         "title": "Holzers Restaurant",
+         "lat": "48.232695",
+         "lon": "16.336048",
+         "timestamp": ["1909-07-05"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33472, 48.2304]
       },
       "properties": {
@@ -48,6 +65,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
          {
 
          "p_name": "Lili Cappellini",
@@ -84,23 +107,6 @@
 
          "p_id": "#15983"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.336048, 48.232695]
-      },
-      "properties": {
-         "id": "pmb195024",
-         "title": "Holzers Restaurant",
-         "lat": "48.232695",
-         "lon": "16.336048",
-         "timestamp": ["1909-07-05"],
-         "importance": 1, 
-        "abbr": "S.REST", 
-        "type": "Restaurant"
       }
       }
   ]

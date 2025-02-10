@@ -25,6 +25,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1910-06-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361139, 48.210333]
       },
       "properties": {
@@ -32,11 +51,49 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1910-06-07"],
-         "importance": 1, 
+         "timestamp": ["1910-06-07", "1910-06-15", "1910-06-25", "1910-06-27"],
+         "importance": 4, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1910-06-27"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1910-06-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752", 
+        "geonames": "https://sws.geonames.org/3322725/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }, 
     {
@@ -99,6 +156,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1910-06-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.16265, 48.19512]
       },
       "properties": {
@@ -143,8 +220,8 @@
          "title": "Frankgasse 1",
          "lat": "48.21533",
          "lon": "16.35736",
-         "timestamp": ["1910-06-02", "1910-06-07", "1910-06-21"],
-         "importance": 3, 
+         "timestamp": ["1910-06-02", "1910-06-07", "1910-06-17", "1910-06-21"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -253,6 +330,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1910-06-04", "1910-06-06", "1910-06-09", "1910-06-12", "1910-06-14", "1910-06-17", "1910-06-21", "1910-06-23", "1910-06-25", "1910-06-26", "1910-06-28"],
+         "importance": 11, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.368738, 48.213038]
       },
       "properties": {
@@ -316,6 +429,12 @@
         "wohnort": [
          {
 
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
          "p_name": "Lili Cappellini",
 
          "p_id": "#2238"
@@ -349,6 +468,37 @@
          "p_name": "Dora Erl",
 
          "p_id": "#15983"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1910-06-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
          }]
       }
       }, 
@@ -393,10 +543,64 @@
          "title": "Holzers Restaurant",
          "lat": "48.232695",
          "lon": "16.336048",
-         "timestamp": ["1910-06-09"],
-         "importance": 1, 
+         "timestamp": ["1910-06-09", "1910-06-10", "1910-06-15"],
+         "importance": 3, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1910-06-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
       }
       }, 
     {
@@ -410,8 +614,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1910-06-11", "1910-06-18", "1910-06-20", "1910-06-24"],
-         "importance": 4, 
+         "timestamp": ["1910-06-07", "1910-06-11", "1910-06-18", "1910-06-20", "1910-06-24"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -476,8 +680,8 @@
          "title": "Wipplingerstraße 24–26",
          "lat": "48.212949",
          "lon": "16.368513",
-         "timestamp": ["1910-06-25"],
-         "importance": 1, 
+         "timestamp": ["1910-06-25", "1910-06-30"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "arbeitsort": [
@@ -534,8 +738,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1910-06-02"],
-         "importance": 1, 
+         "timestamp": ["1910-06-02", "1910-06-04", "1910-06-06", "1910-06-09", "1910-06-10", "1910-06-11", "1910-06-13", "1910-06-16", "1910-06-24", "1910-06-27", "1910-06-28", "1910-06-30"],
+         "importance": 12, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [

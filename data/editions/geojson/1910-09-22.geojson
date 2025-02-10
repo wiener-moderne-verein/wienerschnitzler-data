@@ -7,7 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [16.35736, 48.21533], 
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.34167, 48.233004], 
+            [16.328044, 48.238759], 
+            [16.3073, 48.2437]
           ]
       },
       "properties": {
@@ -91,6 +94,68 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.328044, 48.238759]
+      },
+      "properties": {
+         "id": "pmb841",
+         "title": "Döblinger Friedhof",
+         "lat": "48.238759",
+         "lon": "16.328044",
+         "timestamp": ["1910-09-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q1270909", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1910-09-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Julia Bertha Culp",
+
+         "p_id": "#11123"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -158,6 +223,26 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3073, 48.2437]
+      },
+      "properties": {
+         "id": "pmb199644",
+         "title": "Geymüllerschlössel",
+         "lat": "48.2437",
+         "lon": "16.3073",
+         "timestamp": ["1910-09-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Geym%C3%BCllerschl%C3%B6ssel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1521129", 
+        "geonames": "https://sws.geonames.org/8604503/", 
+        "abbr": "S.MUS", 
+        "type": "Museum"
       }
       }
   ]

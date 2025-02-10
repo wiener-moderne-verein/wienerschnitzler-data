@@ -8,7 +8,8 @@
         "coordinates": [
             [13.60412, 47.711737], 
             [13.609575, 47.706537], 
-            [16.33494, 48.23365]
+            [13.65875, 47.73049], 
+            [13.617008, 47.716312]
           ]
       },
       "properties": {
@@ -72,30 +73,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.33494, 48.23365]
+        "coordinates": [13.617008, 47.716312]
       },
       "properties": {
-         "id": "pmb235251",
-         "title": "Hasenauerstraße 59",
-         "lat": "48.23365",
-         "lon": "16.33494",
+         "id": "pmb405",
+         "title": "Steinfeld",
+         "lat": "47.716312",
+         "lon": "13.617008",
          "timestamp": ["1910-08-30"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Paula Beer-Hofmann",
-
-         "p_id": "#10860"
-         }, 
-         {
-
-         "p_name": "Richard Beer-Hofmann",
-
-         "p_id": "#10863"
-         }]
+        "geonames": "https://sws.geonames.org/11903844/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.65875, 47.73049]
+      },
+      "properties": {
+         "id": "pmb91578",
+         "title": "Rettenbach",
+         "lat": "47.73049",
+         "lon": "13.65875",
+         "timestamp": ["1910-08-30"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2604851/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

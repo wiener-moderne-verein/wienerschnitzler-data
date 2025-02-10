@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1910-07-01", "1910-07-02", "1910-07-03", "1910-07-04", "1910-07-05", "1910-07-11", "1910-07-12", "1910-07-13", "1910-07-14", "1910-07-15", "1910-07-16", "1910-07-17", "1910-07-18", "1910-07-19", "1910-07-20", "1910-07-21", "1910-07-22", "1910-07-23", "1910-07-24", "1910-07-25", "1910-07-26", "1910-07-29", "1910-07-30", "1910-07-31"],
-         "importance": 24, 
+         "timestamp": ["1910-07-01", "1910-07-02", "1910-07-03", "1910-07-04", "1910-07-05", "1910-07-06", "1910-07-11", "1910-07-12", "1910-07-13", "1910-07-14", "1910-07-15", "1910-07-16", "1910-07-17", "1910-07-18", "1910-07-19", "1910-07-20", "1910-07-21", "1910-07-22", "1910-07-23", "1910-07-24", "1910-07-25", "1910-07-26", "1910-07-29", "1910-07-30", "1910-07-31"],
+         "importance": 25, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -32,8 +32,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1910-07-01"],
-         "importance": 1, 
+         "timestamp": ["1910-07-01", "1910-07-02"],
+         "importance": 2, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -58,6 +58,45 @@
         "geonames": "https://sws.geonames.org/3333525/", 
         "abbr": "T.MT", 
         "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1910-07-06", "1910-07-10", "1910-07-29"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1910-07-19", "1910-07-21"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -210,6 +249,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1910-07-02"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361963, 48.211271]
       },
       "properties": {
@@ -264,31 +339,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.337917, 48.228096]
-      },
-      "properties": {
-         "id": "pmb40694",
-         "title": "Gentzgasse",
-         "lat": "48.228096",
-         "lon": "16.337917",
-         "timestamp": ["1910-07-17"],
-         "importance": 1, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gentzgasse", 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
-        "wohnort": [
-         {
-
-         "p_name": "Egon Friedell",
-
-         "p_id": "#2771"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.33472, 48.2304]
       },
       "properties": {
@@ -296,11 +346,17 @@
          "title": "Edmund-Weiß-Gasse 7",
          "lat": "48.2304",
          "lon": "16.33472",
-         "timestamp": ["1910-07-01", "1910-07-02", "1910-07-03", "1910-07-04", "1910-07-05", "1910-07-11", "1910-07-12", "1910-07-13", "1910-07-14", "1910-07-15", "1910-07-16"],
-         "importance": 11, 
+         "timestamp": ["1910-07-01", "1910-07-02", "1910-07-03", "1910-07-04", "1910-07-05", "1910-07-06", "1910-07-11", "1910-07-12", "1910-07-13", "1910-07-14", "1910-07-15", "1910-07-16"],
+         "importance": 12, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
          {
 
          "p_name": "Lili Cappellini",
@@ -360,6 +416,41 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.336048, 48.232695]
+      },
+      "properties": {
+         "id": "pmb195024",
+         "title": "Holzers Restaurant",
+         "lat": "48.232695",
+         "lon": "16.336048",
+         "timestamp": ["1910-07-14", "1910-07-16"],
+         "importance": 2, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.81667, 47.65]
+      },
+      "properties": {
+         "id": "pmb91482",
+         "title": "Pinkenkogel",
+         "lat": "47.65",
+         "lon": "15.81667",
+         "timestamp": ["1910-07-07", "1910-07-09"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2768810/", 
+        "abbr": "T.PK", 
+        "type": "Bergspitze"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.83, 47.647222]
       },
       "properties": {
@@ -397,6 +488,24 @@
          "importance": 1, 
         "abbr": "Wanderweg (K.WND)", 
         "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1910-07-06", "1910-07-10"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -465,6 +574,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.826389, 47.652222]
+      },
+      "properties": {
+         "id": "pmb442",
+         "title": "Kurhaus Semmering",
+         "lat": "47.652222",
+         "lon": "15.826389",
+         "timestamp": ["1910-07-06", "1910-07-07", "1910-07-09", "1910-07-10", "1910-07-26", "1910-07-27"],
+         "importance": 6, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kurhaus_Semmering", 
+        "wikidata": "http://www.wikidata.org/entity/Q1793077", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Hansy",
+
+         "p_id": "#2320"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.344679, 48.234278]
+      },
+      "properties": {
+         "id": "pmb248406",
+         "title": "Weimarer Straße 86",
+         "lat": "48.234278",
+         "lon": "16.344679",
+         "timestamp": ["1910-07-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Kaufmann",
+
+         "p_id": "#2496"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -472,8 +631,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1910-07-17", "1910-07-18", "1910-07-19", "1910-07-20", "1910-07-21", "1910-07-22", "1910-07-23", "1910-07-24", "1910-07-25", "1910-07-26", "1910-07-29", "1910-07-30", "1910-07-31"],
-         "importance": 13, 
+         "timestamp": ["1910-07-01", "1910-07-02", "1910-07-04", "1910-07-05", "1910-07-11", "1910-07-12", "1910-07-13", "1910-07-14", "1910-07-15", "1910-07-16", "1910-07-17", "1910-07-18", "1910-07-19", "1910-07-20", "1910-07-21", "1910-07-22", "1910-07-23", "1910-07-24", "1910-07-25", "1910-07-26", "1910-07-29", "1910-07-30", "1910-07-31"],
+         "importance": 23, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -538,6 +697,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.82889, 47.63255]
+      },
+      "properties": {
+         "id": "pmb634",
+         "title": "Hotel Erzherzog Johann",
+         "lat": "47.63255",
+         "lon": "15.82889",
+         "timestamp": ["1910-07-07", "1910-07-10", "1910-07-27"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.86667, 47.6]
       },
       "properties": {
@@ -563,31 +739,13 @@
          "title": "Aspang-Markt",
          "lat": "47.55187",
          "lon": "16.09421",
-         "timestamp": ["1910-07-28"],
-         "importance": 1, 
+         "timestamp": ["1910-07-28", "1910-07-29"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Aspang-Markt", 
         "wikidata": "http://www.wikidata.org/entity/Q683242", 
         "geonames": "https://sws.geonames.org/7872986/ https://sws.geonames.org/2782321/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.03425, 47.51062]
-      },
-      "properties": {
-         "id": "pmb91274",
-         "title": "Mönichkirchen",
-         "lat": "47.51062",
-         "lon": "16.03425",
-         "timestamp": ["1910-07-28", "1910-07-29"],
-         "importance": 2, 
-        "geonames": "https://sws.geonames.org/2771273/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
       }
       }, 
     {
@@ -601,8 +759,8 @@
          "title": "Hotel Goldener Hirsch",
          "lat": "47.554006",
          "lon": "16.090178",
-         "timestamp": ["1910-07-28"],
-         "importance": 1, 
+         "timestamp": ["1910-07-28", "1910-07-29"],
+         "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
       }

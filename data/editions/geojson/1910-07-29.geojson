@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.03425, 47.51062], 
+            [16.090178, 47.554006], 
+            [16.379829498031, 48.187455471378], 
             [16.33716, 48.23188]
           ]
       },
@@ -18,18 +19,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.03425, 47.51062]
+        "coordinates": [16.090178, 47.554006]
       },
       "properties": {
-         "id": "pmb91274",
-         "title": "Mönichkirchen",
-         "lat": "47.51062",
-         "lon": "16.03425",
+         "id": "pmb186780",
+         "title": "Hotel Goldener Hirsch",
+         "lat": "47.554006",
+         "lon": "16.090178",
          "timestamp": ["1910-07-29"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2771273/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1910-07-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {

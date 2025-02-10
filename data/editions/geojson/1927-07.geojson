@@ -734,24 +734,20 @@
          "timestamp": ["1927-07-03"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.36802, 48.203163]
-      },
-      "properties": {
-         "id": "pmb185474",
-         "title": "Klara Wimberger Opernrestaurant",
-         "lat": "48.203163",
-         "lon": "16.36802",
-         "timestamp": ["1927-07-23"],
-         "importance": 1, 
-        "abbr": "S.REST", 
-        "type": "Restaurant"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
       }
       }, 
     {
@@ -769,6 +765,23 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36802, 48.203163]
+      },
+      "properties": {
+         "id": "pmb185474",
+         "title": "Klara Wimberger Opernrestaurant",
+         "lat": "48.203163",
+         "lon": "16.36802",
+         "timestamp": ["1927-07-23"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {

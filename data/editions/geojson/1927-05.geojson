@@ -398,15 +398,15 @@
         "wohnort": [
          {
 
-         "p_name": "Gisela Hajek",
-
-         "p_id": "#2461"
-         }, 
-         {
-
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
          }], 
         "arbeitsort": [
          {
@@ -700,7 +700,37 @@
          "timestamp": ["1927-05-29"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368443, 48.209585]
+      },
+      "properties": {
+         "id": "pmb185484",
+         "title": "Metrophon Konzertsalon und Musikhaus",
+         "lat": "48.209585",
+         "lon": "16.368443",
+         "timestamp": ["1927-05-14", "1927-05-16"],
+         "importance": 2, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
       }
       }, 
     {
@@ -735,23 +765,6 @@
          "importance": 3, 
         "abbr": "S.REST", 
         "type": "Restaurant"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.368443, 48.209585]
-      },
-      "properties": {
-         "id": "pmb185484",
-         "title": "Metrophon Konzertsalon und Musikhaus",
-         "lat": "48.209585",
-         "lon": "16.368443",
-         "timestamp": ["1927-05-14", "1927-05-16"],
-         "importance": 2, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
       }
       }, 
     {

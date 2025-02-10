@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.351111, 48.209583], 
-            [16.33716, 48.23188]
+            [16.363758, 48.212483], 
+            [16.33716, 48.23188], 
+            [16.333056, 48.233056]
           ]
       },
       "properties": {
@@ -31,6 +33,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q167619", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1926-06-07"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       },
     {
@@ -103,6 +122,30 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363758, 48.212483]
+      },
+      "properties": {
+         "id": "pmb185333",
+         "title": "Restaurant Toni Ott",
+         "lat": "48.212483",
+         "lon": "16.363758",
+         "timestamp": ["1926-06-07"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Antonie Ott",
+
+         "p_id": "#22242"
          }]
       }
       }

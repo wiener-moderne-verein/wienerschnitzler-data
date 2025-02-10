@@ -10,6 +10,46 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>input-data/listplace.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>import _ listplace auf verwendete places kürzen</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/indices/living-working-in.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>living-working</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/editions/xml/wienerschnitzler_complete_nested.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -56,26 +96,6 @@
                                         <Byte>2</Byte>
                                         <Byte>2</Byte>
                                         <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/indices/living-working-in.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>living-working</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -130,26 +150,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>import _ partOf umwandeln</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>input-data/listplace.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>import _ listplace auf verwendete places kürzen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -899,7 +899,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslts/import-relations-to-complete/abbreviate-listPlace-to-used.xsl</String>
+                                    <String>${pdu}/xslts/import-relations-to-complete/listplace_1_abbreviate-listPlace-to-used.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${pdu}/input-data/listplace.xml</String>
@@ -950,7 +950,9 @@
                                     <list/>
                                 </field>
                                 <field name="cascadingStylesheets">
-                                    <String-array/>
+                                    <String-array>
+                                        <String>${pdu}/xslts/import-relations-to-complete/listplace_2_add-living-working.xsl</String>
+                                    </String-array>
                                 </field>
                                 <field name="xslTransformer">
                                     <String>Saxon-PE</String>

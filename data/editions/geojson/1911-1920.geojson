@@ -2681,7 +2681,7 @@
       },
       "properties": {
          "id": "pmb84",
-         "title": "Hotel zum goldenen Kreuz",
+         "title": "Hotel zum goldenen Kreuz [Bad Ischl]",
          "lat": "47.71319",
          "lon": "13.62156",
          "timestamp": ["1916-08-24"],
@@ -5511,7 +5511,7 @@
          "timestamp": ["1918-03-24", "1918-08-18", "1919-08-24", "1920-07-25"],
          "importance": 4, 
         "abbr": "Landschaftlicher-Punkt", 
-        "type": "Landschaftlicher-Punkt"
+        "type": "Landschaftlicher Punkt"
       }
       }, 
     {
@@ -5528,7 +5528,7 @@
          "timestamp": ["1913-05-18", "1914-06-21", "1916-05-04", "1918-09-29"],
          "importance": 4, 
         "abbr": "Landschaftlicher-Punkt", 
-        "type": "Landschaftlicher-Punkt"
+        "type": "Landschaftlicher Punkt"
       }
       }, 
     {
@@ -6187,6 +6187,23 @@
          "importance": 1, 
         "abbr": "See (N.SEE)", 
         "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.08109, 47.49453]
+      },
+      "properties": {
+         "id": "pmb250707",
+         "title": "Garmisch",
+         "lat": "47.49453",
+         "lon": "11.08109",
+         "timestamp": ["1918-09-02"],
+         "importance": 1, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -6951,6 +6968,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.326917, 48.273996]
+      },
+      "properties": {
+         "id": "pmb250653",
+         "title": "Wildgrube",
+         "lat": "48.273996",
+         "lon": "16.326917",
+         "timestamp": ["1914-01-06", "1914-01-11", "1916-12-25", "1920-03-07"],
+         "importance": 4, 
+        "abbr": "T.TAL", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.13366, 47.98229]
+      },
+      "properties": {
+         "id": "pmb250673",
+         "title": "Ruine Merkenstein",
+         "lat": "47.98229",
+         "lon": "16.13366",
+         "timestamp": ["1912-07-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ruine_Merkenstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q873087", 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.1097, 47.4956]
       },
       "properties": {
@@ -6962,6 +7015,94 @@
          "importance": 2, 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.11494, 47.490183]
+      },
+      "properties": {
+         "id": "pmb250702",
+         "title": "Hotel Haus Gibson",
+         "lat": "47.490183",
+         "lon": "11.11494",
+         "timestamp": ["1911-11-13", "1911-11-14", "1911-11-15", "1911-11-16"],
+         "importance": 4, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.12235, 47.46681]
+      },
+      "properties": {
+         "id": "pmb90755",
+         "title": "Forsthaus Graseck",
+         "lat": "47.46681",
+         "lon": "11.12235",
+         "timestamp": ["1917-09-07"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/10298745/", 
+        "abbr": "S.HTL", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.577342, 48.142897]
+      },
+      "properties": {
+         "id": "pmb250733",
+         "title": "Vereinigte Werkstätten für Kunst im Handwerk. Schauräume",
+         "lat": "48.142897",
+         "lon": "11.577342",
+         "timestamp": ["1913-09-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Vereinigte_Werkst%C3%A4tten_f%C3%BCr_Kunst_im_Handwerk", 
+        "wikidata": "http://www.wikidata.org/entity/Q1678589", 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.060833, 47.762222]
+      },
+      "properties": {
+         "id": "pmb32",
+         "title": "Schlosspark Hellbrunn",
+         "lat": "47.762222",
+         "lon": "13.060833",
+         "timestamp": ["1912-04-04", "1914-08-20", "1917-05-15"],
+         "importance": 3, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.616701, 47.713429]
+      },
+      "properties": {
+         "id": "pmb40450",
+         "title": "Restaurant Sonnenschein",
+         "lat": "47.713429",
+         "lon": "13.616701",
+         "timestamp": ["1915-08-03", "1915-08-08", "1915-08-10", "1915-08-17", "1915-08-24", "1916-05-27", "1916-08-03"],
+         "importance": 7, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {

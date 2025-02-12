@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.3424248, 52.5047382], 
-            [13.374444, 52.51]
+            [13.282944, 52.47847], 
+            [13.36042, 52.498402], 
+            [13.374444, 52.51], 
+            [13.368213, 52.509824], 
+            [13.363698, 52.508221], 
+            [13.3424248, 52.5047382]
           ]
       },
       "properties": {
@@ -62,6 +66,120 @@
          "p_name": "Paul Goldmann",
 
          "p_id": "#11485"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1926-12-31"],
+         "importance": 1, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.363698, 52.508221]
+      },
+      "properties": {
+         "id": "pmb244585",
+         "title": "Stauffenbergstraße 36",
+         "lat": "52.508221",
+         "lon": "13.363698",
+         "timestamp": ["1926-12-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eva Marie Goldmann",
+
+         "p_id": "#17164"
+         }, 
+         {
+
+         "p_name": "Paul Goldmann",
+
+         "p_id": "#11485"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.282944, 52.47847]
+      },
+      "properties": {
+         "id": "pmb250448",
+         "title": "Hohenzollerndamm 90",
+         "lat": "52.47847",
+         "lon": "13.282944",
+         "timestamp": ["1926-12-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }, 
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.368213, 52.509824]
+      },
+      "properties": {
+         "id": "pmb249530",
+         "title": "Herbert-von-Karajan-Straße 4",
+         "lat": "52.509824",
+         "lon": "13.368213",
+         "timestamp": ["1926-12-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Lucie Mannheim",
+
+         "p_id": "#8804"
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
          }]
       }
       }

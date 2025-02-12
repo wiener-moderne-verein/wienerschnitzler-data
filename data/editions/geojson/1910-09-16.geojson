@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [8.670434, 50.115178]
+            [8.670434, 50.115178], 
+            [8.6719444444444, 50.115833333333], 
+            [8.6259493061163, 50.226778589408], 
+            [8.56666, 50.2715]
           ]
       },
       "properties": {
@@ -29,6 +32,64 @@
         "wikidata": "http://www.wikidata.org/entity/Q130404601", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.6719444444444, 50.115833333333]
+      },
+      "properties": {
+         "id": "pmb250841",
+         "title": "Frankfurter Oper",
+         "lat": "50.115833333333",
+         "lon": "8.6719444444444",
+         "timestamp": ["1910-09-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Alte_Oper", 
+        "wikidata": "http://www.wikidata.org/entity/Q436079", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.56666, 50.2715]
+      },
+      "properties": {
+         "id": "pmb250855",
+         "title": "Kastell Saalburg",
+         "lat": "50.2715",
+         "lon": "8.56666",
+         "timestamp": ["1910-09-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kastell_Saalburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q542329", 
+        "geonames": "https://sws.geonames.org/3208114/", 
+        "abbr": "S.FT", 
+        "type": "Fort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.6259493061163, 50.226778589408]
+      },
+      "properties": {
+         "id": "pmb250859",
+         "title": "Kurpark Bad Homburg",
+         "lat": "50.226778589408",
+         "lon": "8.6259493061163",
+         "timestamp": ["1910-09-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kurpark_Bad_Homburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q881035", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }
   ]

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.57549, 48.13743], 
+            [11.555, 48.140833], 
+            [11.581667, 48.138889], 
+            [16.337778, 48.196667], 
             [16.33716, 48.23188]
           ]
       },
@@ -14,6 +16,26 @@
         "name": "8. Dezember 1910"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1910-12-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -91,20 +113,39 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.57549, 48.13743]
+        "coordinates": [11.555, 48.140833]
       },
       "properties": {
-         "id": "pmb45258",
-         "title": "München",
-         "lat": "48.13743",
-         "lon": "11.57549",
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
          "timestamp": ["1910-12-08"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q1726", 
-        "geonames": "https://sws.geonames.org/2867714/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.581667, 48.138889]
+      },
+      "properties": {
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
+         "timestamp": ["1910-12-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

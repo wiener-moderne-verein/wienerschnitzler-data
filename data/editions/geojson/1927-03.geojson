@@ -587,6 +587,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37271, 48.20907]
+      },
+      "properties": {
+         "id": "pmb1105",
+         "title": "Stephansplatz",
+         "lat": "48.20907",
+         "lon": "16.37271",
+         "timestamp": ["1927-03-18"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Stephansplatz", 
+        "geonames": "https://sws.geonames.org/10345209/", 
+        "abbr": "S.SQR", 
+        "type": "Platz"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -721,6 +740,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1927-03-02", "1927-03-09", "1927-03-16", "1927-03-18", "1927-03-25", "1927-03-28", "1927-03-29", "1927-03-31"],
+         "importance": 8, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.363758, 48.212483]
       },
       "properties": {
@@ -758,36 +807,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q33394005", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.350819, 48.214295]
-      },
-      "properties": {
-         "id": "pmb235874",
-         "title": "Lange Gasse 65",
-         "lat": "48.214295",
-         "lon": "16.350819",
-         "timestamp": ["1927-03-02", "1927-03-09", "1927-03-16", "1927-03-18", "1927-03-25", "1927-03-28", "1927-03-29", "1927-03-31"],
-         "importance": 8, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Vilma Lichtenstern",
-
-         "p_id": "#20400"
-         }, 
-         {
-
-         "p_name": "Robert Lichtenstern",
-
-         "p_id": "#20398"
-         }]
       }
       }, 
     {
@@ -853,25 +872,6 @@
          "importance": 4, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37271, 48.20907]
-      },
-      "properties": {
-         "id": "pmb1105",
-         "title": "Stephansplatz",
-         "lat": "48.20907",
-         "lon": "16.37271",
-         "timestamp": ["1927-03-18"],
-         "importance": 1, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Stephansplatz", 
-        "geonames": "https://sws.geonames.org/10345209/", 
-        "abbr": "S.SQR", 
-        "type": "Platz"
       }
       }
   ]

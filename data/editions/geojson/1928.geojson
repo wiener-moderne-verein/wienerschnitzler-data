@@ -2352,23 +2352,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.360365, 52.498452]
-      },
-      "properties": {
-         "id": "pmb233777",
-         "title": "Bülowstraße 90",
-         "lat": "52.498452",
-         "lon": "13.360365",
-         "timestamp": ["1928-12-31"],
-         "importance": 1, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.389438, 52.51547]
       },
       "properties": {
@@ -3268,6 +3251,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.374444, 52.51]
+      },
+      "properties": {
+         "id": "pmb245",
+         "title": "Hotel Esplanade [Berlin]",
+         "lat": "52.51",
+         "lon": "13.374444",
+         "timestamp": ["1928-10-12", "1928-10-17"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q321562", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1928-12-31"],
+         "importance": 1, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.2656, 48.2213]
       },
       "properties": {
@@ -3690,25 +3716,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q960610", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.374444, 52.51]
-      },
-      "properties": {
-         "id": "pmb245",
-         "title": "Hotel Esplanade [Berlin]",
-         "lat": "52.51",
-         "lon": "13.374444",
-         "timestamp": ["1928-10-12", "1928-10-17"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
-        "wikidata": "http://www.wikidata.org/entity/Q321562", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       }, 
     {

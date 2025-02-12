@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.3465, 48.2176], 
+            [16.370801, 48.216345], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,47 @@
         "name": "30. September 1910"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370801, 48.216345]
+      },
+      "properties": {
+         "id": "pmb250954",
+         "title": "Esslinggasse 17",
+         "lat": "48.216345",
+         "lon": "16.370801",
+         "timestamp": ["1910-09-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried Loewy",
+
+         "p_id": "#12101"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3465, 48.2176]
+      },
+      "properties": {
+         "id": "pmb250959",
+         "title": "Röntgen-Institut Haudek Martin",
+         "lat": "48.2176",
+         "lon": "16.3465",
+         "timestamp": ["1910-09-30"],
+         "importance": 1, 
+        "abbr": "T.SPIT", 
+        "type": "Landzunge"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

@@ -7,7 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [13.3451, 52.4981], 
-            [13.360365, 52.498452], 
+            [13.36042, 52.498402], 
             [13.383456, 52.516152]
           ]
       },
@@ -57,17 +57,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.360365, 52.498452]
+        "coordinates": [13.36042, 52.498402]
       },
       "properties": {
-         "id": "pmb233777",
-         "title": "Bülowstraße 90",
-         "lat": "52.498452",
-         "lon": "13.360365",
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
          "timestamp": ["1927-12-02"],
          "importance": 1, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
       }
       }
   ]

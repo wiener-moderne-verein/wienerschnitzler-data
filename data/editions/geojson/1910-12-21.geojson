@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.352693, 48.193456], 
+            [16.370128, 48.202578], 
             [16.370702, 48.205032], 
+            [16.35689, 48.21787], 
             [16.33716, 48.23188]
           ]
       },
@@ -36,6 +38,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.370128, 48.202578]
+      },
+      "properties": {
+         "id": "pmb250027",
+         "title": "Société Franco-Autrichienne pour les arts industriels",
+         "lat": "48.202578",
+         "lon": "16.370128",
+         "timestamp": ["1910-12-21"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.352693, 48.193456]
       },
       "properties": {
@@ -47,6 +66,43 @@
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1910-12-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }]
       }
       },
     {

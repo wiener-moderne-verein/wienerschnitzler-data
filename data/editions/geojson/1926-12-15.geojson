@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.37127, 48.209673], 
+            [16.367384, 48.213733], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,23 @@
         "name": "15. Dezember 1926"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1926-12-15"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -84,6 +103,23 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367384, 48.213733]
+      },
+      "properties": {
+         "id": "pmb247008",
+         "title": "Pension Elite",
+         "lat": "48.213733",
+         "lon": "16.367384",
+         "timestamp": ["1926-12-15"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       }
   ]

@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [6.9237, 46.4256], 
-            [6.94084, 46.45179]
+            [7.0166666666667, 46.25], 
+            [7.056431, 46.296734], 
+            [6.94084, 46.45179], 
+            [6.9237, 46.4256]
           ]
       },
       "properties": {
@@ -25,6 +27,43 @@
          "title": "Hôtel des Alpes-Grand Hôtel",
          "lat": "46.4256",
          "lon": "6.9237",
+         "timestamp": ["1910-05-27"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.0166666666667, 46.25]
+      },
+      "properties": {
+         "id": "pmb250134",
+         "title": "Bex",
+         "lat": "46.25",
+         "lon": "7.0166666666667",
+         "timestamp": ["1910-05-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bex", 
+        "wikidata": "http://www.wikidata.org/entity/Q52261", 
+        "geonames": "https://sws.geonames.org/7285233/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.056431, 46.296734]
+      },
+      "properties": {
+         "id": "pmb250138",
+         "title": "Grand Hôtel Muveran",
+         "lat": "46.296734",
+         "lon": "7.056431",
          "timestamp": ["1910-05-27"],
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 

@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.09576, 47.49209], 
-            [11.57549, 48.13743]
+            [11.114487, 47.490502], 
+            [11.11494, 47.490183], 
+            [11.555, 48.140833]
           ]
       },
       "properties": {
@@ -18,40 +19,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.57549, 48.13743]
+        "coordinates": [11.555, 48.140833]
       },
       "properties": {
-         "id": "pmb45258",
-         "title": "München",
-         "lat": "48.13743",
-         "lon": "11.57549",
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
          "timestamp": ["1910-12-12"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q1726", 
-        "geonames": "https://sws.geonames.org/2867714/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.09576, 47.49209]
+        "coordinates": [11.11494, 47.490183]
       },
       "properties": {
-         "id": "pmb667",
-         "title": "Garmisch-Partenkirchen",
-         "lat": "47.49209",
-         "lon": "11.09576",
+         "id": "pmb250702",
+         "title": "Hotel Haus Gibson",
+         "lat": "47.490183",
+         "lon": "11.11494",
          "timestamp": ["1910-12-12"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Garmisch-Partenkirchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q127043", 
-        "geonames": "https://sws.geonames.org/2922530/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.114487, 47.490502]
+      },
+      "properties": {
+         "id": "pmb250697",
+         "title": "Dr. Wigger’s Kurheim Sanatorium für Innen-, Nervenkranke und Erholungsbedürftige",
+         "lat": "47.490502",
+         "lon": "11.114487",
+         "timestamp": ["1910-12-12"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       }
   ]

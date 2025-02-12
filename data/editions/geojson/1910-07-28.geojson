@@ -6,11 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.86667, 47.6], 
+            [16.035833, 47.511667], 
             [16.090178, 47.554006], 
-            [15.99103, 47.60738], 
+            [16.05, 47.6], 
+            [15.990197, 47.6098], 
             [15.83, 47.647222], 
-            [15.86, 47.629444]
+            [15.86, 47.629444], 
+            [15.86667, 47.6]
           ]
       },
       "properties": {
@@ -47,18 +49,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.99103, 47.60738]
+        "coordinates": [15.990197, 47.6098]
       },
       "properties": {
-         "id": "pmb40892",
-         "title": "Kirchberg am Wechsel",
-         "lat": "47.60738",
-         "lon": "15.99103",
+         "id": "pmb250623",
+         "title": "Gasthaus zur 1000-jährigen Linde",
+         "lat": "47.6098",
+         "lon": "15.990197",
          "timestamp": ["1910-07-28"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2774405/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       },
     {
@@ -114,6 +115,46 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.035833, 47.511667]
+      },
+      "properties": {
+         "id": "pmb44160",
+         "title": "Mönichkirchen [Niederösterreich]",
+         "lat": "47.511667",
+         "lon": "16.035833",
+         "timestamp": ["1910-07-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6nichkirchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q676748", 
+        "geonames": "https://sws.geonames.org/7871864/ https://sws.geonames.org/2771273/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.05, 47.6]
+      },
+      "properties": {
+         "id": "pmb90615",
+         "title": "Feistritz am Wechsel",
+         "lat": "47.6",
+         "lon": "16.05",
+         "timestamp": ["1910-07-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Feistritz_am_Wechsel", 
+        "wikidata": "http://www.wikidata.org/entity/Q585693", 
+        "geonames": "https://sws.geonames.org/7872990/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }
   ]

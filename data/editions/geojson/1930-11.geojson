@@ -343,23 +343,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.360365, 52.498452]
-      },
-      "properties": {
-         "id": "pmb233777",
-         "title": "Bülowstraße 90",
-         "lat": "52.498452",
-         "lon": "13.360365",
-         "timestamp": ["1930-11-12", "1930-11-18"],
-         "importance": 2, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.353889, 48.1975]
       },
       "properties": {
@@ -534,6 +517,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.374444, 52.51]
+      },
+      "properties": {
+         "id": "pmb245",
+         "title": "Hotel Esplanade [Berlin]",
+         "lat": "52.51",
+         "lon": "13.374444",
+         "timestamp": ["1930-11-11", "1930-11-12", "1930-11-13", "1930-11-14", "1930-11-15", "1930-11-16", "1930-11-17", "1930-11-18", "1930-11-19", "1930-11-20"],
+         "importance": 10, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q321562", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1930-11-12", "1930-11-18"],
+         "importance": 2, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -618,25 +644,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Mozart_Lichtspiele", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.374444, 52.51]
-      },
-      "properties": {
-         "id": "pmb245",
-         "title": "Hotel Esplanade [Berlin]",
-         "lat": "52.51",
-         "lon": "13.374444",
-         "timestamp": ["1930-11-11", "1930-11-12", "1930-11-13", "1930-11-14", "1930-11-15", "1930-11-16", "1930-11-17", "1930-11-18", "1930-11-19", "1930-11-20"],
-         "importance": 10, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
-        "wikidata": "http://www.wikidata.org/entity/Q321562", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       }, 
     {
@@ -757,6 +764,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.3853, 52.4533]
+      },
+      "properties": {
+         "id": "pmb244563",
+         "title": "Ullsteinhaus",
+         "lat": "52.4533",
+         "lon": "13.3853",
+         "timestamp": ["1930-11-13", "1930-11-20"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ullsteinhaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q143984", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.363698, 52.508221]
+      },
+      "properties": {
+         "id": "pmb244585",
+         "title": "Stauffenbergstraße 36",
+         "lat": "52.508221",
+         "lon": "13.363698",
+         "timestamp": ["1930-11-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eva Marie Goldmann",
+
+         "p_id": "#17164"
+         }, 
+         {
+
+         "p_name": "Paul Goldmann",
+
+         "p_id": "#11485"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.2743, 52.4907]
       },
       "properties": {
@@ -804,55 +860,6 @@
          "p_name": "Dora Michaelis",
 
          "p_id": "#2774"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.3853, 52.4533]
-      },
-      "properties": {
-         "id": "pmb244563",
-         "title": "Ullsteinhaus",
-         "lat": "52.4533",
-         "lon": "13.3853",
-         "timestamp": ["1930-11-13", "1930-11-20"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Ullsteinhaus", 
-        "wikidata": "http://www.wikidata.org/entity/Q143984", 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.363698, 52.508221]
-      },
-      "properties": {
-         "id": "pmb244585",
-         "title": "Stauffenbergstraße 36",
-         "lat": "52.508221",
-         "lon": "13.363698",
-         "timestamp": ["1930-11-16"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Eva Marie Goldmann",
-
-         "p_id": "#17164"
-         }, 
-         {
-
-         "p_name": "Paul Goldmann",
-
-         "p_id": "#11485"
          }]
       }
       }, 

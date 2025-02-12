@@ -6,10 +6,14 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [7.92442, 49.9789], 
+            [8.2477, 50.08474], 
+            [7.91561, 49.9771], 
+            [7.92476545, 49.9779525], 
             [8.24878, 50.0415], 
+            [8.6622, 50.10669], 
+            [8.674167, 50.108056], 
             [8.670434, 50.115178], 
-            [8.24932, 50.08258]
+            [7.95799, 50.35511]
           ]
       },
       "properties": {
@@ -38,20 +42,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.24932, 50.08258]
+        "coordinates": [8.674167, 50.108056]
       },
       "properties": {
-         "id": "pmb883",
-         "title": "Wiesbaden",
-         "lat": "50.08258",
-         "lon": "8.24932",
+         "id": "pmb146937",
+         "title": "Schauspielhaus Frankfurt am Main",
+         "lat": "50.108056",
+         "lon": "8.674167",
          "timestamp": ["1910-09-17"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiesbaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q1721", 
-        "geonames": "https://sws.geonames.org/2809346/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Schauspielhaus_(Frankfurt_am_Main)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1734978", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.6622, 50.10669]
+      },
+      "properties": {
+         "id": "pmb118470",
+         "title": "Frankfurt (Main) Hauptbahnhof",
+         "lat": "50.10669",
+         "lon": "8.6622",
+         "timestamp": ["1910-09-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Frankfurt_(Main)_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q165368", 
+        "geonames": "http://www.geonames.org/6290300/frankfurt-hauptbahnhof.html", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.2477, 50.08474]
+      },
+      "properties": {
+         "id": "pmb250869",
+         "title": "Kurhaus Wiesbaden",
+         "lat": "50.08474",
+         "lon": "8.2477",
+         "timestamp": ["1910-09-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kurhaus_Wiesbaden", 
+        "wikidata": "http://www.wikidata.org/entity/Q885336", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       },
     {
@@ -76,20 +118,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.92442, 49.9789]
+        "coordinates": [7.92476545, 49.9779525]
       },
       "properties": {
-         "id": "pmb920",
-         "title": "Rüdesheim",
-         "lat": "49.9789",
-         "lon": "7.92442",
+         "id": "pmb250872",
+         "title": "Darmstädter Hof",
+         "lat": "49.9779525",
+         "lon": "7.92476545",
          "timestamp": ["1910-09-17"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdesheim_am_Rhein", 
-        "wikidata": "http://www.wikidata.org/entity/Q628118", 
-        "geonames": "https://sws.geonames.org/2843395/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.91561, 49.9771]
+      },
+      "properties": {
+         "id": "pmb250875",
+         "title": "Bahnhof Rüdesheim",
+         "lat": "49.9771",
+         "lon": "7.91561",
+         "timestamp": ["1910-09-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_R%C3%BCdesheim_(Rhein)", 
+        "wikidata": "http://www.wikidata.org/entity/Q801387", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.95799, 50.35511]
+      },
+      "properties": {
+         "id": "pmb250862",
+         "title": "Daubachtal",
+         "lat": "50.35511",
+         "lon": "7.95799",
+         "timestamp": ["1910-09-17"],
+         "importance": 1, 
+        "abbr": "T.TAL", 
+        "type": ""
       }
       }
   ]

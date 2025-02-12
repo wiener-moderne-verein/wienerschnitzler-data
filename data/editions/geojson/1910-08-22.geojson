@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.1097, 47.4956]
+            [11.118611111111, 47.469166666667], 
+            [11.12235, 47.46681], 
+            [11.11494, 47.490183], 
+            [11.114487, 47.490502]
           ]
       },
       "properties": {
@@ -17,17 +20,71 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.1097, 47.4956]
+        "coordinates": [11.11494, 47.490183]
       },
       "properties": {
-         "id": "pmb2318",
-         "title": "Partenkirchen",
-         "lat": "47.4956",
-         "lon": "11.1097",
+         "id": "pmb250702",
+         "title": "Hotel Haus Gibson",
+         "lat": "47.490183",
+         "lon": "11.11494",
          "timestamp": ["1910-08-22"],
          "importance": 1, 
-        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.114487, 47.490502]
+      },
+      "properties": {
+         "id": "pmb250697",
+         "title": "Dr. Wigger’s Kurheim Sanatorium für Innen-, Nervenkranke und Erholungsbedürftige",
+         "lat": "47.490502",
+         "lon": "11.114487",
+         "timestamp": ["1910-08-22"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.118611111111, 47.469166666667]
+      },
+      "properties": {
+         "id": "pmb250715",
+         "title": "Partnachklamm",
+         "lat": "47.469166666667",
+         "lon": "11.118611111111",
+         "timestamp": ["1910-08-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Partnachklamm", 
+        "wikidata": "http://www.wikidata.org/entity/Q453805", 
+        "abbr": "Schlucht", 
+        "type": "Schlucht"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.12235, 47.46681]
+      },
+      "properties": {
+         "id": "pmb90755",
+         "title": "Forsthaus Graseck",
+         "lat": "47.46681",
+         "lon": "11.12235",
+         "timestamp": ["1910-08-22"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/10298745/", 
+        "abbr": "S.HTL", 
+        "type": "Hotel"
       }
       }
   ]

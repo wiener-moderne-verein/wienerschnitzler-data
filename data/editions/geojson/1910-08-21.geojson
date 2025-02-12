@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.1097, 47.4956]
+            [11.11494, 47.490183], 
+            [11.114487, 47.490502]
           ]
       },
       "properties": {
@@ -17,17 +18,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.1097, 47.4956]
+        "coordinates": [11.11494, 47.490183]
       },
       "properties": {
-         "id": "pmb2318",
-         "title": "Partenkirchen",
-         "lat": "47.4956",
-         "lon": "11.1097",
+         "id": "pmb250702",
+         "title": "Hotel Haus Gibson",
+         "lat": "47.490183",
+         "lon": "11.11494",
          "timestamp": ["1910-08-21"],
          "importance": 1, 
-        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.114487, 47.490502]
+      },
+      "properties": {
+         "id": "pmb250697",
+         "title": "Dr. Wigger’s Kurheim Sanatorium für Innen-, Nervenkranke und Erholungsbedürftige",
+         "lat": "47.490502",
+         "lon": "11.114487",
+         "timestamp": ["1910-08-21"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       }
   ]

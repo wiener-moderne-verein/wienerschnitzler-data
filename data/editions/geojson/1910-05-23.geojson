@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [8.28547, 47.0311], 
+            [8.29502, 47.05156], 
+            [8.272518, 47.043927], 
             [8.30899, 47.050286], 
+            [8.310948, 47.055039], 
             [8.3104166666667, 47.058888888889]
           ]
       },
@@ -37,6 +39,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.29502, 47.05156]
+      },
+      "properties": {
+         "id": "pmb250108",
+         "title": "Chateau Gütsch",
+         "lat": "47.05156",
+         "lon": "8.29502",
+         "timestamp": ["1910-05-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ch%C3%A2teau_G%C3%BCtsch", 
+        "wikidata": "http://www.wikidata.org/entity/Q29785663", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.310948, 47.055039]
+      },
+      "properties": {
+         "id": "pmb250111",
+         "title": "Restaurant Huguenin",
+         "lat": "47.055039",
+         "lon": "8.310948",
+         "timestamp": ["1910-05-23"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.3104166666667, 47.058888888889]
       },
       "properties": {
@@ -56,20 +94,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.28547, 47.0311]
+        "coordinates": [8.272518, 47.043927]
       },
       "properties": {
-         "id": "pmb91071",
-         "title": "Kriens",
-         "lat": "47.0311",
-         "lon": "8.28547",
+         "id": "pmb92536",
+         "title": "Sonnenberg",
+         "lat": "47.043927",
+         "lon": "8.272518",
          "timestamp": ["1910-05-23"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Kriens", 
-        "wikidata": "http://www.wikidata.org/entity/Q14571", 
-        "geonames": "https://sws.geonames.org/2660104/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Sonnenberg_(Kriens)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2301829", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
       }
       }
   ]

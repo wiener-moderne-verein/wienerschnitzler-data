@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1911-01-01", "1911-01-02", "1911-01-03", "1911-01-04", "1911-01-05", "1911-01-06", "1911-01-07", "1911-01-08", "1911-01-09", "1911-01-10", "1911-01-11", "1911-01-12", "1911-01-13", "1911-01-14", "1911-01-15", "1911-01-16", "1911-01-17", "1911-01-18", "1911-01-19", "1911-01-20", "1911-01-21", "1911-01-22", "1911-01-23", "1911-01-24", "1911-01-25", "1911-01-26", "1911-01-27", "1911-01-28", "1911-01-29", "1911-01-30", "1911-01-31"],
-         "importance": 31, 
+         "timestamp": ["1911-01-01", "1911-01-02", "1911-01-03", "1911-01-04", "1911-01-05", "1911-01-06", "1911-01-07", "1911-01-08", "1911-01-09", "1911-01-10", "1911-01-11", "1911-01-12", "1911-01-13", "1911-01-14", "1911-01-15", "1911-01-16", "1911-01-17", "1911-01-18", "1911-01-19", "1911-01-20", "1911-01-21", "1911-01-22", "1911-01-23", "1911-01-24", "1911-01-27", "1911-01-28", "1911-01-29", "1911-01-30", "1911-01-31"],
+         "importance": 29, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -55,6 +55,44 @@
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1911-01-04", "1911-01-18"],
+         "importance": 2, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1911-01-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
       }
       }, 
     {
@@ -105,6 +143,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1911-01-24", "1911-01-27"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1911-01-11", "1911-01-16"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.333568462613, 48.235119783861]
       },
       "properties": {
@@ -134,6 +211,26 @@
         "geonames": "https://sws.geonames.org/2768462/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8241, 47.64224]
+      },
+      "properties": {
+         "id": "pmb189",
+         "title": "Semmering",
+         "lat": "47.64224",
+         "lon": "15.8241",
+         "timestamp": ["1911-01-24", "1911-01-25", "1911-01-26", "1911-01-27"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q659891", 
+        "geonames": "https://sws.geonames.org/7873001/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -243,6 +340,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1911-01-01", "1911-01-03"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.378158, 48.207691]
       },
       "properties": {
@@ -254,6 +370,23 @@
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36973, 48.20164]
+      },
+      "properties": {
+         "id": "pmb281",
+         "title": "Franz Hartmann, Leidingers Nachfolger",
+         "lat": "48.20164",
+         "lon": "16.36973",
+         "timestamp": ["1911-01-21"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
@@ -277,54 +410,74 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.33641, 48.23362]
+        "coordinates": [16.380897, 48.208627]
       },
       "properties": {
-         "id": "pmb235132",
-         "title": "Türkenschanzstraße 48",
-         "lat": "48.23362",
-         "lon": "16.33641",
-         "timestamp": ["1911-01-26"],
+         "id": "pmb235381",
+         "title": "Biberstraße 8",
+         "lat": "48.208627",
+         "lon": "16.380897",
+         "timestamp": ["1911-01-22"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
          {
 
-         "p_name": "Karl Kirsch",
+         "p_name": "Helene Schnitzler",
 
-         "p_id": "#19348"
+         "p_id": "#24423"
          }, 
          {
 
-         "p_name": "Johanna Kirsch",
+         "p_name": "Julius Schnitzler",
 
-         "p_id": "#27815"
-         }, 
-         {
-
-         "p_name": "Agnes Ulmann",
-
-         "p_id": "#27942"
-         }, 
-         {
-
-         "p_name": "Nanette Speyer",
-
-         "p_id": "#25187"
-         }, 
-         {
-
-         "p_name": "Hugo Schmidl",
-
-         "p_id": "#3159"
-         }, 
-         {
-
-         "p_name": "Paula Schmidl",
-
-         "p_id": "#24292"
+         "p_id": "#12698"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83, 47.647222]
+      },
+      "properties": {
+         "id": "pmb413",
+         "title": "Südbahnhotel [Semmering]",
+         "lat": "47.647222",
+         "lon": "15.83",
+         "timestamp": ["1911-01-24", "1911-01-25", "1911-01-26", "1911-01-27"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1610900", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karl Rostler",
+
+         "p_id": "#23635"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1911-01-24", "1911-01-27"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -350,6 +503,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.367413, 48.208484]
+      },
+      "properties": {
+         "id": "pmb236233",
+         "title": "Rozet & Fischmeister, Hofjuwelenhandlung",
+         "lat": "48.208484",
+         "lon": "16.367413",
+         "timestamp": ["1911-01-16"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Ignaz Fischmeister",
+
+         "p_id": "#16299"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -357,8 +534,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1911-01-01", "1911-01-02", "1911-01-03", "1911-01-04", "1911-01-05", "1911-01-06", "1911-01-07", "1911-01-08", "1911-01-09", "1911-01-10", "1911-01-11", "1911-01-12", "1911-01-13", "1911-01-14", "1911-01-15", "1911-01-16", "1911-01-17", "1911-01-18", "1911-01-19", "1911-01-20", "1911-01-21", "1911-01-22", "1911-01-23", "1911-01-24", "1911-01-25", "1911-01-26", "1911-01-27", "1911-01-28", "1911-01-29", "1911-01-30", "1911-01-31"],
-         "importance": 31, 
+         "timestamp": ["1911-01-01", "1911-01-02", "1911-01-03", "1911-01-04", "1911-01-05", "1911-01-06", "1911-01-07", "1911-01-08", "1911-01-09", "1911-01-10", "1911-01-11", "1911-01-12", "1911-01-13", "1911-01-14", "1911-01-15", "1911-01-16", "1911-01-17", "1911-01-18", "1911-01-19", "1911-01-20", "1911-01-21", "1911-01-22", "1911-01-23", "1911-01-24", "1911-01-27", "1911-01-28", "1911-01-29", "1911-01-30", "1911-01-31"],
+         "importance": 29, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -441,17 +618,84 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.383906681096, 48.211453732859]
+        "coordinates": [16.355107, 48.239368]
       },
       "properties": {
-         "id": "pmb1013",
-         "title": "Urania",
-         "lat": "48.211453732859",
-         "lon": "16.383906681096",
-         "timestamp": ["1911-01-21"],
+         "id": "pmb249981",
+         "title": "Döblinger Hauptstraße 70",
+         "lat": "48.239368",
+         "lon": "16.355107",
+         "timestamp": ["1911-01-02", "1911-01-29"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Robert Gund",
+
+         "p_id": "#17540"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370801, 48.216345]
+      },
+      "properties": {
+         "id": "pmb250954",
+         "title": "Esslinggasse 17",
+         "lat": "48.216345",
+         "lon": "16.370801",
+         "timestamp": ["1911-01-31"],
          "importance": 1, 
-        "abbr": "Volksbildungsanstalt (K.VBA)", 
-        "type": "Volksbildungsanstalt"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried Loewy",
+
+         "p_id": "#12101"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37271, 48.20907]
+      },
+      "properties": {
+         "id": "pmb1105",
+         "title": "Stephansplatz",
+         "lat": "48.20907",
+         "lon": "16.37271",
+         "timestamp": ["1911-01-16"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Stephansplatz", 
+        "geonames": "https://sws.geonames.org/10345209/", 
+        "abbr": "S.SQR", 
+        "type": "Platz"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.833483, 47.623166]
+      },
+      "properties": {
+         "id": "pmb92375",
+         "title": "Liechtensteinweg",
+         "lat": "47.623166",
+         "lon": "15.833483",
+         "timestamp": ["1911-01-24"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
       }
       }
   ]

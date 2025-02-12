@@ -6,11 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.350819, 48.214295], 
-            [16.36171, 48.2116], 
+            [16.369146, 48.194088], 
+            [16.370121, 48.203858], 
             [16.3764, 48.203693], 
+            [16.36171, 48.2116], 
             [16.33716, 48.23188], 
-            [16.333056, 48.233056]
+            [16.333056, 48.233056], 
+            [16.350819, 48.214295]
           ]
       },
       "properties": {
@@ -176,6 +178,53 @@
          "importance": 1, 
         "abbr": "Bürogebäude (K.BUR)", 
         "type": "Bürogebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370121, 48.203858]
+      },
+      "properties": {
+         "id": "pmb250236",
+         "title": "Kärntner Straße 38",
+         "lat": "48.203858",
+         "lon": "16.370121",
+         "timestamp": ["1926-03-12"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369146, 48.194088]
+      },
+      "properties": {
+         "id": "pmb250202",
+         "title": "Brahmsplatz 7",
+         "lat": "48.194088",
+         "lon": "16.369146",
+         "timestamp": ["1926-03-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Bertha Brevée",
+
+         "p_id": "#14543"
+         }, 
+         {
+
+         "p_name": "Emanuel Ypsilanti",
+
+         "p_id": "#27412"
+         }]
       }
       }
   ]

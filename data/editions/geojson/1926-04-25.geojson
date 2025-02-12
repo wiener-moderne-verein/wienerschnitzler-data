@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [-9.13333, 38.71667], 
-            [-9.37826, 38.80097]
+            [-9.205601, 38.697846], 
+            [-9.14115, 38.71548], 
+            [-9.37826, 38.80097], 
+            [-9.41903, 38.79212]
           ]
       },
       "properties": {
@@ -18,20 +20,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-9.13333, 38.71667]
+        "coordinates": [-9.14115, 38.71548]
       },
       "properties": {
-         "id": "pmb15227",
-         "title": "Lissabon",
-         "lat": "38.71667",
-         "lon": "-9.13333",
+         "id": "pmb250406",
+         "title": "Hotel Avenida Palace",
+         "lat": "38.71548",
+         "lon": "-9.14115",
          "timestamp": ["1926-04-25"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Lissabon", 
-        "wikidata": "http://www.wikidata.org/entity/Q597", 
-        "geonames": "https://sws.geonames.org/2267057/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -50,6 +49,43 @@
         "geonames": "https://sws.geonames.org/2262912/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.41903, 38.79212]
+      },
+      "properties": {
+         "id": "pmb250413",
+         "title": "Parque de Monserrate",
+         "lat": "38.79212",
+         "lon": "-9.41903",
+         "timestamp": ["1926-04-25"],
+         "importance": 1, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.205601, 38.697846]
+      },
+      "properties": {
+         "id": "pmb250421",
+         "title": "Mosteiro dos Jerónimos",
+         "lat": "38.697846",
+         "lon": "-9.205601",
+         "timestamp": ["1926-04-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mosteiro_dos_Jer%C3%B3nimos", 
+        "wikidata": "http://www.wikidata.org/entity/Q272781", 
+        "geonames": "https://sws.geonames.org/6946693/", 
+        "abbr": "S.MSTY", 
+        "type": "Kloster"
       }
       }
   ]

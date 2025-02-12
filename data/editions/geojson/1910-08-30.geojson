@@ -7,9 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [13.60412, 47.711737], 
+            [13.616701, 47.713429], 
             [13.609575, 47.706537], 
-            [13.65875, 47.73049], 
-            [13.617008, 47.716312]
+            [13.6326, 47.71254], 
+            [13.65875, 47.73049]
           ]
       },
       "properties": {
@@ -73,18 +74,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.617008, 47.716312]
+        "coordinates": [13.6326, 47.71254]
       },
       "properties": {
          "id": "pmb405",
          "title": "Steinfeld",
-         "lat": "47.716312",
-         "lon": "13.617008",
+         "lat": "47.71254",
+         "lon": "13.6326",
          "timestamp": ["1910-08-30"],
          "importance": 1, 
         "geonames": "https://sws.geonames.org/11903844/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.616701, 47.713429]
+      },
+      "properties": {
+         "id": "pmb40450",
+         "title": "Restaurant Sonnenschein",
+         "lat": "47.713429",
+         "lon": "13.616701",
+         "timestamp": ["1910-08-30"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       },
     {

@@ -8,13 +8,31 @@
         "coordinates": [
             [16.352693, 48.193456], 
             [16.37127, 48.209673], 
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.350819, 48.214295]
           ]
       },
       "properties": {
         "name": "28. September 1926"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1926-09-28"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -36,17 +54,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.37127, 48.209673]
+        "coordinates": [16.350819, 48.214295]
       },
       "properties": {
-         "id": "pmb237721",
-         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
-         "lat": "48.209673",
-         "lon": "16.37127",
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
          "timestamp": ["1926-09-28"],
          "importance": 1, 
-        "abbr": "Buchhandlung (K.BHL)", 
-        "type": "Buchhandlung"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
       }
       },
     {

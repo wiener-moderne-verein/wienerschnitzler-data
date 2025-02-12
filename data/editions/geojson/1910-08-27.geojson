@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.581667, 48.138889]
+            [11.5430544337425, 48.1309991979556], 
+            [11.581667, 48.138889], 
+            [11.572278, 48.158441]
           ]
       },
       "properties": {
@@ -30,6 +32,49 @@
         "wikidata": "http://www.wikidata.org/entity/Q1388047", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5430544337425, 48.1309991979556]
+      },
+      "properties": {
+         "id": "pmb247530",
+         "title": "Bavariapark",
+         "lat": "48.1309991979556",
+         "lon": "11.5430544337425",
+         "timestamp": ["1910-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bavariapark", 
+        "wikidata": "http://www.wikidata.org/entity/Q812003", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.572278, 48.158441]
+      },
+      "properties": {
+         "id": "pmb250750",
+         "title": "Isabellastraße 24",
+         "lat": "48.158441",
+         "lon": "11.572278",
+         "timestamp": ["1910-08-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alfred Karl Mayer",
+
+         "p_id": "#21218"
+         }]
       }
       }
   ]

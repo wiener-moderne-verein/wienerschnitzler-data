@@ -549,6 +549,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.374444, 52.51]
+      },
+      "properties": {
+         "id": "pmb245",
+         "title": "Hotel Esplanade [Berlin]",
+         "lat": "52.51",
+         "lon": "13.374444",
+         "timestamp": ["1926-05-11", "1926-05-12", "1926-05-13", "1926-05-14", "1926-05-15", "1926-05-16", "1926-05-17", "1926-05-18", "1926-05-19"],
+         "importance": 9, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q321562", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1926-05-14"],
+         "importance": 1, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.320696, 48.263217]
       },
       "properties": {
@@ -675,25 +718,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.374444, 52.51]
-      },
-      "properties": {
-         "id": "pmb245",
-         "title": "Hotel Esplanade [Berlin]",
-         "lat": "52.51",
-         "lon": "13.374444",
-         "timestamp": ["1926-05-11", "1926-05-12", "1926-05-13", "1926-05-14", "1926-05-15", "1926-05-16", "1926-05-17", "1926-05-18", "1926-05-19"],
-         "importance": 9, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
-        "wikidata": "http://www.wikidata.org/entity/Q321562", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.35113, 48.190969]
       },
       "properties": {
@@ -741,30 +765,6 @@
          "p_name": "Nazary Kantorowicz",
 
          "p_id": "#19078"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.36042, 52.498402]
-      },
-      "properties": {
-         "id": "pmb235295",
-         "title": "S. Fischer Verlag",
-         "lat": "52.498402",
-         "lon": "13.36042",
-         "timestamp": ["1926-05-14"],
-         "importance": 1, 
-        "abbr": "Bürogebäude (K.BUR)", 
-        "type": "Bürogebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Samuel Fischer",
-
-         "p_id": "#11324"
          }]
       }
       }, 

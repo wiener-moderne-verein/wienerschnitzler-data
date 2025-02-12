@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [8.30899, 47.050286], 
-            [8.541091269487719, 47.36701840532128]
+            [8.541091269487719, 47.36701840532128], 
+            [8.540175956, 47.36815698], 
+            [8.4902777777778, 47.349722222222]
           ]
       },
       "properties": {
@@ -36,6 +38,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.540175956, 47.36815698]
+      },
+      "properties": {
+         "id": "pmb250084",
+         "title": "Grieder",
+         "lat": "47.36815698",
+         "lon": "8.540175956",
+         "timestamp": ["1910-05-19"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.30899, 47.050286]
       },
       "properties": {
@@ -48,6 +67,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q130712387", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.4902777777778, 47.349722222222]
+      },
+      "properties": {
+         "id": "pmb250081",
+         "title": "Üetliberg",
+         "lat": "47.349722222222",
+         "lon": "8.4902777777778",
+         "timestamp": ["1910-05-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Uetliberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q16524", 
+        "geonames": "https://sws.geonames.org/2658214/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }
   ]

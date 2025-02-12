@@ -7,8 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [8.6249, 46.9028], 
+            [8.615763998778085, 46.98328748896339], 
+            [8.61554, 46.98669], 
             [8.60538, 46.9936], 
-            [8.30899, 47.050286]
+            [8.30899, 47.050286], 
+            [8.401111, 47.019444]
           ]
       },
       "properties": {
@@ -57,6 +60,40 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.615763998778085, 46.98328748896339]
+      },
+      "properties": {
+         "id": "pmb964",
+         "title": "Palace Hotel Axenfels",
+         "lat": "46.98328748896339",
+         "lon": "8.615763998778085",
+         "timestamp": ["1910-05-21"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.61554, 46.98669]
+      },
+      "properties": {
+         "id": "pmb53636",
+         "title": "Hotel Axenstein",
+         "lat": "46.98669",
+         "lon": "8.61554",
+         "timestamp": ["1910-05-21"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.6249, 46.9028]
       },
       "properties": {
@@ -69,6 +106,25 @@
         "geonames": "https://sws.geonames.org/2660751/", 
         "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.401111, 47.019444]
+      },
+      "properties": {
+         "id": "pmb39755",
+         "title": "Vierwaldstättersee",
+         "lat": "47.019444",
+         "lon": "8.401111",
+         "timestamp": ["1910-05-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Vierwaldst%C3%A4ttersee", 
+        "wikidata": "http://www.wikidata.org/entity/Q14381", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
       }
       }
   ]

@@ -52,8 +52,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1910-12-19"],
-         "importance": 1, 
+         "timestamp": ["1910-12-07", "1910-12-19"],
+         "importance": 2, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -74,6 +74,65 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1910-12-05", "1910-12-30"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1910-12-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341944, 48.233056]
+      },
+      "properties": {
+         "id": "pmb533",
+         "title": "Währinger Cottage",
+         "lat": "48.233056",
+         "lon": "16.341944",
+         "timestamp": ["1910-12-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1136683", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -314,6 +373,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1910-12-24", "1910-12-29"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.380897, 48.208627]
       },
       "properties": {
@@ -351,8 +429,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1910-12-04"],
-         "importance": 1, 
+         "timestamp": ["1910-12-04", "1910-12-22"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -367,6 +445,127 @@
          "p_name": "Richard Beer-Hofmann",
 
          "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1910-12-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356465, 48.252584]
+      },
+      "properties": {
+         "id": "pmb245903",
+         "title": "Steinfeldgasse 4",
+         "lat": "48.252584",
+         "lon": "16.356465",
+         "timestamp": ["1910-12-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Friedrich Viktor Spitzer",
+
+         "p_id": "#3073"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369803, 48.212343]
+      },
+      "properties": {
+         "id": "pmb238399",
+         "title": "Wipplingerstraße 14",
+         "lat": "48.212343",
+         "lon": "16.369803",
+         "timestamp": ["1910-12-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Gustav Harpner",
+
+         "p_id": "#11590"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1910-12-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Julia Bertha Culp",
+
+         "p_id": "#11123"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
          }]
       }
       }, 
@@ -405,8 +604,8 @@
          "title": "Hotel Vier Jahreszeiten",
          "lat": "48.138889",
          "lon": "11.581667",
-         "timestamp": ["1910-12-09"],
-         "importance": 1, 
+         "timestamp": ["1910-12-08", "1910-12-09", "1910-12-10", "1910-12-11"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
         "wikidata": "http://www.wikidata.org/entity/Q1388047", 
         "abbr": "Hotel (K.HTL)", 
@@ -437,6 +636,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.578786, 48.139944]
+      },
+      "properties": {
+         "id": "pmb9",
+         "title": "Königlich Bayerische Hoftheater",
+         "lat": "48.139944",
+         "lon": "11.578786",
+         "timestamp": ["1910-12-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bayerisches_Staatsschauspiel", 
+        "wikidata": "http://www.wikidata.org/entity/Q812446", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Albert von Speidel",
+
+         "p_id": "#12813"
+         }, 
+         {
+
+         "p_name": "Albert Steinrück",
+
+         "p_id": "#12837"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1910-12-08", "1910-12-12"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -444,8 +695,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1910-12-14"],
-         "importance": 1, 
+         "timestamp": ["1910-12-14", "1910-12-20", "1910-12-21"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -491,6 +742,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.585161, 48.135523]
+      },
+      "properties": {
+         "id": "pmb248958",
+         "title": "Mannhardtstraße 3",
+         "lat": "48.135523",
+         "lon": "11.585161",
+         "timestamp": ["1910-12-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Auguste Glümer",
+
+         "p_id": "#14948"
+         }, 
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.370702, 48.205032]
       },
       "properties": {
@@ -502,6 +783,36 @@
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37222, 48.202101]
+      },
+      "properties": {
+         "id": "pmb231884",
+         "title": "Kärntnerring 13",
+         "lat": "48.202101",
+         "lon": "16.37222",
+         "timestamp": ["1910-12-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Marianne Benedict",
+
+         "p_id": "#13970"
+         }, 
+         {
+
+         "p_name": "Markus Benedict",
+
+         "p_id": "#13973"
+         }]
       }
       }, 
     {
@@ -575,6 +886,81 @@
 
          "p_id": "#22399"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355107, 48.239368]
+      },
+      "properties": {
+         "id": "pmb249981",
+         "title": "Döblinger Hauptstraße 70",
+         "lat": "48.239368",
+         "lon": "16.355107",
+         "timestamp": ["1910-12-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Robert Gund",
+
+         "p_id": "#17540"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370128, 48.202578]
+      },
+      "properties": {
+         "id": "pmb250027",
+         "title": "Société Franco-Autrichienne pour les arts industriels",
+         "lat": "48.202578",
+         "lon": "16.370128",
+         "timestamp": ["1910-12-21"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.114487, 47.490502]
+      },
+      "properties": {
+         "id": "pmb250697",
+         "title": "Dr. Wigger’s Kurheim Sanatorium für Innen-, Nervenkranke und Erholungsbedürftige",
+         "lat": "47.490502",
+         "lon": "11.114487",
+         "timestamp": ["1910-12-12"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.1097, 47.4956]
+      },
+      "properties": {
+         "id": "pmb2318",
+         "title": "Partenkirchen",
+         "lat": "47.4956",
+         "lon": "11.1097",
+         "timestamp": ["1910-12-11", "1910-12-12"],
+         "importance": 2, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {

@@ -127,6 +127,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.39108, 52.50319]
+      },
+      "properties": {
+         "id": "pmb482",
+         "title": "Friedrichstraße",
+         "lat": "52.50319",
+         "lon": "13.39108",
+         "timestamp": ["1926-12-24"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.364586, 48.216445]
       },
       "properties": {
@@ -134,8 +151,8 @@
          "title": "Peregringasse 4",
          "lat": "48.216445",
          "lon": "16.364586",
-         "timestamp": ["1926-12-04"],
-         "importance": 1, 
+         "timestamp": ["1926-12-04", "1926-12-16", "1926-12-19"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -194,6 +211,60 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1926-12-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.388002, 48.19884]
       },
       "properties": {
@@ -218,6 +289,23 @@
 
          "p_id": "#3223"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1926-12-15", "1926-12-17"],
+         "importance": 2, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
       }
       }, 
     {
@@ -351,6 +439,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.374444, 52.51]
+      },
+      "properties": {
+         "id": "pmb245",
+         "title": "Hotel Esplanade [Berlin]",
+         "lat": "52.51",
+         "lon": "13.374444",
+         "timestamp": ["1926-12-24", "1926-12-25", "1926-12-26", "1926-12-27", "1926-12-28", "1926-12-29", "1926-12-30", "1926-12-31"],
+         "importance": 8, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q321562", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1926-12-27", "1926-12-31"],
+         "importance": 2, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -423,6 +554,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36171, 48.2116]
+      },
+      "properties": {
+         "id": "pmb235784",
+         "title": "Oppolzergasse 6",
+         "lat": "48.2116",
+         "lon": "16.36171",
+         "timestamp": ["1926-12-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.318595, 52.51421]
       },
       "properties": {
@@ -459,25 +614,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.374444, 52.51]
-      },
-      "properties": {
-         "id": "pmb245",
-         "title": "Hotel Esplanade [Berlin]",
-         "lat": "52.51",
-         "lon": "13.374444",
-         "timestamp": ["1926-12-24", "1926-12-25", "1926-12-26", "1926-12-27", "1926-12-28", "1926-12-29", "1926-12-30", "1926-12-31"],
-         "importance": 8, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
-        "wikidata": "http://www.wikidata.org/entity/Q321562", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.350819, 48.214295]
       },
       "properties": {
@@ -485,8 +621,8 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1926-12-05", "1926-12-06"],
-         "importance": 2, 
+         "timestamp": ["1926-12-05", "1926-12-06", "1926-12-10", "1926-12-14", "1926-12-18", "1926-12-23"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -515,8 +651,8 @@
          "title": "Schulerstraße 22",
          "lat": "48.20762",
          "lon": "16.37675",
-         "timestamp": ["1926-12-03"],
-         "importance": 1, 
+         "timestamp": ["1926-12-03", "1926-12-14"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -539,8 +675,8 @@
          "title": "Gregor-Mendel-Straße 32",
          "lat": "48.233651",
          "lon": "16.338022",
-         "timestamp": ["1926-12-01"],
-         "importance": 1, 
+         "timestamp": ["1926-12-01", "1926-12-22"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -555,6 +691,83 @@
          "p_name": "Philipp Menczel",
 
          "p_id": "#3119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.368213, 52.509824]
+      },
+      "properties": {
+         "id": "pmb249530",
+         "title": "Herbert-von-Karajan-Straße 4",
+         "lat": "52.509824",
+         "lon": "13.368213",
+         "timestamp": ["1926-12-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Lucie Mannheim",
+
+         "p_id": "#8804"
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.33465, 52.50422]
+      },
+      "properties": {
+         "id": "pmb235978",
+         "title": "Zum Austernmeyer",
+         "lat": "52.50422",
+         "lon": "13.33465",
+         "timestamp": ["1926-12-25", "1926-12-28"],
+         "importance": 2, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.282944, 52.47847]
+      },
+      "properties": {
+         "id": "pmb250448",
+         "title": "Hohenzollerndamm 90",
+         "lat": "52.47847",
+         "lon": "13.282944",
+         "timestamp": ["1926-12-25", "1926-12-26", "1926-12-28", "1926-12-31"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }, 
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
          }]
       }
       }, 
@@ -586,6 +799,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.29417, 52.46601]
+      },
+      "properties": {
+         "id": "pmb235344",
+         "title": "Podbielskiallee 35–37",
+         "lat": "52.46601",
+         "lon": "13.29417",
+         "timestamp": ["1926-12-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Pietrkowski",
+
+         "p_id": "#9274"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.39333, 52.51483]
+      },
+      "properties": {
+         "id": "pmb493",
+         "title": "Bank für Auswärtigen Handel",
+         "lat": "52.51483",
+         "lon": "13.39333",
+         "timestamp": ["1926-12-27"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Karl Feilchenfeld",
+
+         "p_id": "#16125"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.367384, 48.213733]
       },
       "properties": {
@@ -593,10 +854,48 @@
          "title": "Pension Elite",
          "lat": "48.213733",
          "lon": "16.367384",
-         "timestamp": ["1926-12-02"],
-         "importance": 1, 
+         "timestamp": ["1926-12-02", "1926-12-10", "1926-12-14", "1926-12-15"],
+         "importance": 4, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3772, 52.5087]
+      },
+      "properties": {
+         "id": "pmb246994",
+         "title": "Hotel Fürstenhof (Berlin)",
+         "lat": "52.5087",
+         "lon": "13.3772",
+         "timestamp": ["1926-12-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_F%C3%BCrstenhof_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630898", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3853, 52.4533]
+      },
+      "properties": {
+         "id": "pmb244563",
+         "title": "Ullsteinhaus",
+         "lat": "52.4533",
+         "lon": "13.3853",
+         "timestamp": ["1926-12-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ullsteinhaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q143984", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }, 
     {
@@ -660,6 +959,36 @@
          "p_name": "Franziska Goldmann",
 
          "p_id": "#17167"
+         }, 
+         {
+
+         "p_name": "Paul Goldmann",
+
+         "p_id": "#11485"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.363698, 52.508221]
+      },
+      "properties": {
+         "id": "pmb244585",
+         "title": "Stauffenbergstraße 36",
+         "lat": "52.508221",
+         "lon": "13.363698",
+         "timestamp": ["1926-12-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eva Marie Goldmann",
+
+         "p_id": "#17164"
          }, 
          {
 

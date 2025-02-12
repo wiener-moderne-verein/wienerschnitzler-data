@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [8.69079, 49.40768], 
-            [8.670434, 50.115178]
+            [8.7055, 49.4116], 
+            [8.71498889, 49.40725], 
+            [8.7158333333333, 49.410555555556], 
+            [8.72611, 49.3981], 
+            [8.670434, 50.115178], 
+            [8.6622, 50.10669]
           ]
       },
       "properties": {
@@ -36,20 +40,98 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69079, 49.40768]
+        "coordinates": [8.6622, 50.10669]
       },
       "properties": {
-         "id": "pmb882",
-         "title": "Heidelberg",
-         "lat": "49.40768",
-         "lon": "8.69079",
+         "id": "pmb118470",
+         "title": "Frankfurt (Main) Hauptbahnhof",
+         "lat": "50.10669",
+         "lon": "8.6622",
          "timestamp": ["1910-09-15"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Heidelberg", 
-        "wikidata": "http://www.wikidata.org/entity/Q2966", 
-        "geonames": "https://sws.geonames.org/2907911/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Frankfurt_(Main)_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q165368", 
+        "geonames": "http://www.geonames.org/6290300/frankfurt-hauptbahnhof.html", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7055, 49.4116]
+      },
+      "properties": {
+         "id": "pmb250820",
+         "title": "Hauptstraße [Heidelberg]",
+         "lat": "49.4116",
+         "lon": "8.7055",
+         "timestamp": ["1910-09-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hauptstra%C3%9Fe_(Heidelberg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q17142036", 
+        "abbr": "H.STRT", 
+        "type": "Meerenge"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7158333333333, 49.410555555556]
+      },
+      "properties": {
+         "id": "pmb250826",
+         "title": "Heidelberger Schloss",
+         "lat": "49.410555555556",
+         "lon": "8.7158333333333",
+         "timestamp": ["1910-09-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Heidelberger_Schloss", 
+        "wikidata": "http://www.wikidata.org/entity/Q327265", 
+        "geonames": "https://sws.geonames.org/6324587/", 
+        "abbr": "S.CSTL", 
+        "type": "Burg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.71498889, 49.40725]
+      },
+      "properties": {
+         "id": "pmb250823",
+         "title": "Heidelberger Bergbahn",
+         "lat": "49.40725",
+         "lon": "8.71498889",
+         "timestamp": ["1910-09-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Heidelberger_Bergbahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q1594020", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72611, 49.3981]
+      },
+      "properties": {
+         "id": "pmb250829",
+         "title": "Königstuhl",
+         "lat": "49.3981",
+         "lon": "8.72611",
+         "timestamp": ["1910-09-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/K%C3%B6nigstuhl_(Odenwald)", 
+        "wikidata": "http://www.wikidata.org/entity/Q27114", 
+        "geonames": "https://sws.geonames.org/2885754/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }
   ]

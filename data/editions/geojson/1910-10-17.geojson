@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.8, 47.61667], 
+            [15.83064, 47.63961], 
             [15.83, 47.647222], 
             [15.77379, 47.65059]
           ]
@@ -55,6 +57,42 @@
          "importance": 1, 
         "abbr": "Wanderweg (K.WND)", 
         "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1910-10-17"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8, 47.61667]
+      },
+      "properties": {
+         "id": "pmb91838",
+         "title": "Steinhaus am Semmering",
+         "lat": "47.61667",
+         "lon": "15.8",
+         "timestamp": ["1910-10-17"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2764442/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

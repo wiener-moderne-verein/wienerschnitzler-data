@@ -6,11 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [6.46906, 46.43774], 
-            [6.58793, 46.40111], 
+            [6.590778, 46.401231], 
+            [6.85963, 46.38319], 
             [6.9237, 46.4256], 
-            [6.94084, 46.45179], 
-            [6.63282, 46.516]
+            [6.911446, 46.43046], 
+            [6.63282, 46.516], 
+            [6.46906, 46.43774]
           ]
       },
       "properties": {
@@ -58,16 +59,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.58793, 46.40111]
+        "coordinates": [6.590778, 46.401231]
       },
       "properties": {
-         "id": "pmb90607",
-         "title": "Évian-les-Bains",
-         "lat": "46.40111",
-         "lon": "6.58793",
+         "id": "pmb250146",
+         "title": "Hotel de Paris et Beau-Rivage",
+         "lat": "46.401231",
+         "lon": "6.590778",
          "timestamp": ["1910-05-29"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3019280/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.85963, 46.38319]
+      },
+      "properties": {
+         "id": "pmb90388",
+         "title": "Le Bouveret",
+         "lat": "46.38319",
+         "lon": "6.85963",
+         "timestamp": ["1910-05-29"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2661427/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -76,20 +94,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.94084, 46.45179]
+        "coordinates": [6.911446, 46.43046]
       },
       "properties": {
-         "id": "pmb40482",
-         "title": "Montreux",
-         "lat": "46.45179",
-         "lon": "6.94084",
+         "id": "pmb250150",
+         "title": "Café-Restaurant des Palmiers",
+         "lat": "46.43046",
+         "lon": "6.911446",
          "timestamp": ["1910-05-29"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Montreux", 
-        "wikidata": "http://www.wikidata.org/entity/Q69354", 
-        "geonames": "https://sws.geonames.org/7286542/ https://sws.geonames.org/2659601/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       },
     {

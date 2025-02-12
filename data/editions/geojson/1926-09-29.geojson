@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.35689, 48.21787], 
             [16.372609, 48.208087], 
+            [16.338022, 48.233651], 
             [16.33716, 48.23188]
           ]
       },
@@ -29,6 +31,73 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1926-09-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1926-09-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
       }
       },
     {

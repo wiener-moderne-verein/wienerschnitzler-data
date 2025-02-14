@@ -6,9 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35736, 48.21533], 
+            [16.371296264238, 48.202432234197], 
             [16.375811, 48.203191], 
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -92,23 +93,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.375811, 48.203191]
-      },
-      "properties": {
-         "id": "pmb233517",
-         "title": "Kaiserpanorama [Wien, Schubertring 4]",
-         "lat": "48.203191",
-         "lon": "16.375811",
-         "timestamp": ["1911-03-06"],
-         "importance": 1, 
-        "abbr": "Vergnügungseinrichtung", 
-        "type": "Vergnügungseinrichtung"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -176,6 +160,43 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375811, 48.203191]
+      },
+      "properties": {
+         "id": "pmb233517",
+         "title": "Kaiserpanorama [Wien, Schubertring 4]",
+         "lat": "48.203191",
+         "lon": "16.375811",
+         "timestamp": ["1911-03-06"],
+         "importance": 1, 
+        "abbr": "Vergnügungseinrichtung", 
+        "type": "Vergnügungseinrichtung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1911-03-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
       }
       }
   ]

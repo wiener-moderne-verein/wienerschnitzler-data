@@ -1,5 +1,60 @@
 {
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373056, 48.208333]
+      },
+      "properties": {
+         "id": "pmb50",
+         "title": "Wien",
+         "lat": "48.208333",
+         "lon": "16.373056",
+         "timestamp": ["1876-07-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1741", 
+        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1876-07-06"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1876-07-06"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
+      }
+      }
   ]
 }

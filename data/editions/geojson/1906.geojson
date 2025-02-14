@@ -25,6 +25,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1906-12-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
@@ -36,6 +56,24 @@
          "importance": 12, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1906-11-22"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
       }
       }, 
     {
@@ -135,24 +173,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.36157, 48.20809]
-      },
-      "properties": {
-         "id": "pmb103",
-         "title": "Volksgarten",
-         "lat": "48.20809",
-         "lon": "16.36157",
-         "timestamp": ["1906-11-22"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/6697258/", 
-        "abbr": "L.PRK", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.430054, 48.194558]
       },
       "properties": {
@@ -167,26 +187,6 @@
         "geonames": "https://sws.geonames.org/3322725/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1906-12-03"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
       }
       }, 
     {
@@ -2096,7 +2096,7 @@
       },
       "properties": {
          "id": "pmb532",
-         "title": "Schafberg [Wien|",
+         "title": "Schafberg [Wien]",
          "lat": "48.23975",
          "lon": "16.29273",
          "timestamp": ["1906-10-14", "1906-10-23"],

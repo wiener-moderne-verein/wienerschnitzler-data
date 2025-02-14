@@ -25,6 +25,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1928-05-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1928-05-30"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3691, 48.203]
       },
       "properties": {
@@ -81,24 +119,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.36157, 48.20809]
-      },
-      "properties": {
-         "id": "pmb103",
-         "title": "Volksgarten",
-         "lat": "48.20809",
-         "lon": "16.36157",
-         "timestamp": ["1928-05-30"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/6697258/", 
-        "abbr": "L.PRK", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.430054, 48.194558]
       },
       "properties": {
@@ -128,26 +148,6 @@
          "lon": "16.364351",
          "timestamp": ["1928-05-23"],
          "importance": 1
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1928-05-29"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
       }
       }, 
     {
@@ -1068,19 +1068,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.338208333333334, 45.433675]
+        "coordinates": [16.377452, 48.193826]
       },
       "properties": {
-         "id": "pmb232856",
-         "title": "Caffè Florian",
-         "lat": "45.433675",
-         "lon": "12.338208333333334",
-         "timestamp": ["1928-05-01"],
+         "id": "pmb246974",
+         "title": "Paul Zsolnay Verlag",
+         "lat": "48.193826",
+         "lon": "16.377452",
+         "timestamp": ["1928-05-23"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Caff%C3%A8_Florian", 
-        "wikidata": "http://www.wikidata.org/entity/Q960610", 
-        "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
+        "abbr": "Verlag", 
+        "type": ""
       }
       }, 
     {
@@ -1105,6 +1103,25 @@
 
          "p_id": "#22449"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.338208333333334, 45.433675]
+      },
+      "properties": {
+         "id": "pmb232856",
+         "title": "Caffè Florian",
+         "lat": "45.433675",
+         "lon": "12.338208333333334",
+         "timestamp": ["1928-05-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caff%C3%A8_Florian", 
+        "wikidata": "http://www.wikidata.org/entity/Q960610", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
       }
       }, 
     {
@@ -1159,23 +1176,6 @@
 
          "p_id": "#3119"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.377452, 48.193826]
-      },
-      "properties": {
-         "id": "pmb246974",
-         "title": "Paul Zsolnay Verlag",
-         "lat": "48.193826",
-         "lon": "16.377452",
-         "timestamp": ["1928-05-23"],
-         "importance": 1, 
-        "abbr": "Verlag", 
-        "type": ""
       }
       }, 
     {

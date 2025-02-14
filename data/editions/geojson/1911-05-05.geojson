@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.361139, 48.210333], 
+            [16.35689, 48.21787], 
+            [16.338443, 48.234039], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +16,54 @@
         "name": "5. Mai 1911"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1911-05-05"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1911-05-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -83,6 +134,43 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1911-05-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
          }]
       }
       }

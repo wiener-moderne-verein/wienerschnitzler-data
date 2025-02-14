@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [11.561467767769052, 48.13907960520144], 
-            [9.17921, 48.7797]
+            [9.1816666666667, 48.783888888889], 
+            [9.17921, 48.7797], 
+            [9.17445, 48.7756]
           ]
       },
       "properties": {
@@ -49,6 +51,43 @@
         "wikidata": "http://www.wikidata.org/entity/Q1902428", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1816666666667, 48.783888888889]
+      },
+      "properties": {
+         "id": "pmb251760",
+         "title": "Stuttgart Hauptbahnhof",
+         "lat": "48.783888888889",
+         "lon": "9.1816666666667",
+         "timestamp": ["1925-01-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stuttgart_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q613766", 
+        "geonames": "https://sws.geonames.org/6930415/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.17445, 48.7756]
+      },
+      "properties": {
+         "id": "pmb251763",
+         "title": "Buchhandlung Paul Neff",
+         "lat": "48.7756",
+         "lon": "9.17445",
+         "timestamp": ["1925-01-09"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
       }
       }
   ]

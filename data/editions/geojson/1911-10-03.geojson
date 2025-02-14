@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.8121, 47.644]
+            [15.8121, 47.644], 
+            [15.81667, 47.65]
           ]
       },
       "properties": {
@@ -28,6 +29,24 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.81667, 47.65]
+      },
+      "properties": {
+         "id": "pmb91482",
+         "title": "Pinkenkogel",
+         "lat": "47.65",
+         "lon": "15.81667",
+         "timestamp": ["1911-10-03"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2768810/", 
+        "abbr": "T.PK", 
+        "type": "Bergspitze"
       }
       }
   ]

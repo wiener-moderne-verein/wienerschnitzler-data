@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.83, 47.647222]
+            [15.826389, 47.652222], 
+            [15.83, 47.647222], 
+            [15.83064, 47.63961], 
+            [16.379829498031, 48.187455471378]
           ]
       },
       "properties": {
@@ -37,6 +40,69 @@
 
          "p_id": "#23635"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1911-06-27"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.826389, 47.652222]
+      },
+      "properties": {
+         "id": "pmb442",
+         "title": "Kurhaus Semmering",
+         "lat": "47.652222",
+         "lon": "15.826389",
+         "timestamp": ["1911-06-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kurhaus_Semmering", 
+        "wikidata": "http://www.wikidata.org/entity/Q1793077", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Hansy",
+
+         "p_id": "#2320"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1911-06-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [8.54226, 47.37174]
+            [9.84327, 46.49937], 
+            [8.540177777777778, 47.378169444444445], 
+            [8.539279, 47.376453]
           ]
       },
       "properties": {
@@ -17,19 +19,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.54226, 47.37174]
+        "coordinates": [8.539279, 47.376453]
       },
       "properties": {
-         "id": "pmb484",
-         "title": "Zürich",
-         "lat": "47.37174",
-         "lon": "8.54226",
+         "id": "pmb236955",
+         "title": "Hotel St. Gotthard Zürich",
+         "lat": "47.376453",
+         "lon": "8.539279",
          "timestamp": ["1925-01-20"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Z%C3%BCrich", 
-        "wikidata": "http://www.wikidata.org/entity/Q72", 
-        "geonames": "https://sws.geonames.org/2657896/", 
-        "abbr": "P.PPLA", 
+        "wikidata": "http://www.wikidata.org/entity/Q112013505", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.540177777777778, 47.378169444444445]
+      },
+      "properties": {
+         "id": "pmb250163",
+         "title": "Zürich Hauptbahnhof",
+         "lat": "47.378169444444445",
+         "lon": "8.540177777777778",
+         "timestamp": ["1925-01-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Z%C3%BCrich_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q224494", 
+        "geonames": "https://sws.geonames.org/6324510/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84327, 46.49937]
+      },
+      "properties": {
+         "id": "pmb44374",
+         "title": "Sankt Moritz",
+         "lat": "46.49937",
+         "lon": "9.84327",
+         "timestamp": ["1925-01-20"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658813/", 
+        "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
       }

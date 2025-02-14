@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1925-01-01", "1925-01-02", "1925-01-03", "1925-01-04", "1925-01-05", "1925-01-06", "1925-01-07", "1925-01-13"],
-         "importance": 8, 
+         "timestamp": ["1925-01-01", "1925-01-02", "1925-01-03", "1925-01-04", "1925-01-05", "1925-01-06", "1925-01-07"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -63,6 +63,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.90126, 46.4955]
+      },
+      "properties": {
+         "id": "pmb34946",
+         "title": "Pontresina",
+         "lat": "46.4955",
+         "lon": "9.90126",
+         "timestamp": ["1925-01-29"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659172/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.84327, 46.49937]
       },
       "properties": {
@@ -70,8 +88,8 @@
          "title": "Sankt Moritz",
          "lat": "46.49937",
          "lon": "9.84327",
-         "timestamp": ["1925-01-21", "1925-01-22", "1925-01-23", "1925-01-24", "1925-01-25", "1925-01-26", "1925-01-27", "1925-01-28", "1925-01-29", "1925-01-30", "1925-01-31"],
-         "importance": 11, 
+         "timestamp": ["1925-01-20", "1925-01-21", "1925-01-22", "1925-01-23", "1925-01-24", "1925-01-25", "1925-01-26", "1925-01-27", "1925-01-28", "1925-01-29", "1925-01-30", "1925-01-31"],
+         "importance": 12, 
         "geonames": "https://sws.geonames.org/2658813/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -203,8 +221,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1925-01-01", "1925-01-02", "1925-01-03", "1925-01-04", "1925-01-05", "1925-01-06", "1925-01-07", "1925-01-13"],
-         "importance": 8, 
+         "timestamp": ["1925-01-01", "1925-01-02", "1925-01-03", "1925-01-04", "1925-01-05", "1925-01-06", "1925-01-07"],
+         "importance": 7, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -276,8 +294,8 @@
          "title": "Kongresshaus Zürich",
          "lat": "47.36572",
          "lon": "8.53788",
-         "timestamp": ["1925-01-19"],
-         "importance": 1, 
+         "timestamp": ["1925-01-17", "1925-01-19"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Kongresshaus_Z%C3%BCrich", 
         "wikidata": "http://www.wikidata.org/entity/Q550178", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -321,6 +339,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q1791644", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.540177777777778, 47.378169444444445]
+      },
+      "properties": {
+         "id": "pmb250163",
+         "title": "Zürich Hauptbahnhof",
+         "lat": "47.378169444444445",
+         "lon": "8.540177777777778",
+         "timestamp": ["1925-01-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Z%C3%BCrich_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q224494", 
+        "geonames": "https://sws.geonames.org/6324510/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -376,9 +414,29 @@
          "title": "Champfèr",
          "lat": "46.47635",
          "lon": "9.81002",
-         "timestamp": ["1925-01-27"],
-         "importance": 1, 
+         "timestamp": ["1925-01-26", "1925-01-27", "1925-01-28", "1925-01-29", "1925-01-30"],
+         "importance": 5, 
         "geonames": "https://sws.geonames.org/2661278/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8622, 46.5146]
+      },
+      "properties": {
+         "id": "pmb12589",
+         "title": "Celerina",
+         "lat": "46.5146",
+         "lon": "9.8622",
+         "timestamp": ["1925-01-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Celerina/Schlarigna", 
+        "wikidata": "http://www.wikidata.org/entity/Q64964", 
+        "geonames": "https://sws.geonames.org/2661241/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -447,6 +505,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.23264, 48.7672]
+      },
+      "properties": {
+         "id": "pmb245209",
+         "title": "Bahnhof [Baden-Baden]",
+         "lat": "48.7672",
+         "lon": "8.23264",
+         "timestamp": ["1925-01-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Alter_Bahnhof_(Baden-Baden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q437733", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.23639, 48.7603]
       },
       "properties": {
@@ -454,8 +531,8 @@
          "title": "Kurhaus Baden-Baden",
          "lat": "48.7603",
          "lon": "8.23639",
-         "timestamp": ["1925-01-10"],
-         "importance": 1, 
+         "timestamp": ["1925-01-10", "1925-01-11"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Kurhaus_Baden-Baden", 
         "wikidata": "http://www.wikidata.org/entity/Q897221", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
@@ -473,8 +550,8 @@
          "title": "Stuttgart",
          "lat": "48.78232",
          "lon": "9.17702",
-         "timestamp": ["1925-01-09"],
-         "importance": 1, 
+         "timestamp": ["1925-01-09", "1925-01-10"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Stuttgart", 
         "wikidata": "http://www.wikidata.org/entity/Q1022", 
         "geonames": "https://sws.geonames.org/2825297/", 
@@ -512,8 +589,8 @@
          "title": "Hotel Regina [Wien]",
          "lat": "48.21623",
          "lon": "16.35967",
-         "timestamp": ["1925-01-01", "1925-01-03", "1925-01-05", "1925-01-05"],
-         "importance": 4, 
+         "timestamp": ["1925-01-01", "1925-01-03", "1925-01-05"],
+         "importance": 3, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel", 
         "wohnort": [
@@ -553,6 +630,23 @@
 
          "p_id": "#20398"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.585746, 48.161484]
+      },
+      "properties": {
+         "id": "pmb251632",
+         "title": "Leopoldstraße 59/61",
+         "lat": "48.161484",
+         "lon": "11.585746",
+         "timestamp": ["1925-01-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -694,6 +788,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [7.4409, 46.9487]
+      },
+      "properties": {
+         "id": "pmb245309",
+         "title": "Hotel Schweizerhof Bern",
+         "lat": "46.9487",
+         "lon": "7.4409",
+         "timestamp": ["1925-01-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Schweizerhof_(Bern)", 
+        "wikidata": "http://www.wikidata.org/entity/Q55505690", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.37477, 47.42391]
       },
       "properties": {
@@ -725,6 +838,59 @@
         "wikidata": "http://www.wikidata.org/entity/Q13634889", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.539279, 47.376453]
+      },
+      "properties": {
+         "id": "pmb236955",
+         "title": "Hotel St. Gotthard Zürich",
+         "lat": "47.376453",
+         "lon": "8.539279",
+         "timestamp": ["1925-01-17", "1925-01-18", "1925-01-19", "1925-01-20"],
+         "importance": 4, 
+        "wikidata": "http://www.wikidata.org/entity/Q112013505", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.835247, 46.501438]
+      },
+      "properties": {
+         "id": "pmb92186",
+         "title": "Chantarella",
+         "lat": "46.501438",
+         "lon": "9.835247",
+         "timestamp": ["1925-01-22", "1925-01-28"],
+         "importance": 2, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84172, 46.49894]
+      },
+      "properties": {
+         "id": "pmb52177",
+         "title": "Kulm Hotel",
+         "lat": "46.49894",
+         "lon": "9.84172",
+         "timestamp": ["1925-01-23"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/7290080/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {

@@ -32,8 +32,8 @@
          "title": "Bösendorfer-Saal",
          "lat": "48.209167",
          "lon": "16.366111",
-         "timestamp": ["1911-02-09", "1911-02-09"],
-         "importance": 2, 
+         "timestamp": ["1911-02-09"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
         "wikidata": "http://www.wikidata.org/entity/Q1020093", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
@@ -337,8 +337,8 @@
          "title": "Grunewald",
          "lat": "52.48338",
          "lon": "13.26586",
-         "timestamp": ["1911-02-26", "1911-02-26"],
-         "importance": 2, 
+         "timestamp": ["1911-02-26"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Grunewald", 
         "wikidata": "http://www.wikidata.org/entity/Q2874431", 
         "geonames": "https://sws.geonames.org/2914210/", 
@@ -617,8 +617,8 @@
          "title": "Falkestraße 3",
          "lat": "48.208665",
          "lon": "16.380519",
-         "timestamp": ["1911-02-10", "1911-02-10", "1911-02-11", "1911-02-11", "1911-02-15", "1911-02-15", "1911-02-15", "1911-02-16", "1911-02-18"],
-         "importance": 9, 
+         "timestamp": ["1911-02-10", "1911-02-11", "1911-02-15", "1911-02-16", "1911-02-18"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "arbeitsort": [
@@ -707,6 +707,40 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.383713, 48.211069]
+      },
+      "properties": {
+         "id": "pmb251530",
+         "title": "Uraniastraße 2",
+         "lat": "48.211069",
+         "lon": "16.383713",
+         "timestamp": ["1911-02-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374256, 48.210366]
+      },
+      "properties": {
+         "id": "pmb251657",
+         "title": "Malvine Harpner-Schwarz & Co., Damenkleider-Salon",
+         "lat": "48.210366",
+         "lon": "16.374256",
+         "timestamp": ["1911-02-01"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.333972, 48.206694]
       },
       "properties": {
@@ -752,6 +786,59 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.61277778, 49.19083333]
+      },
+      "properties": {
+         "id": "pmb251671",
+         "title": "Brünn Hauptbahnhof",
+         "lat": "49.19083333",
+         "lon": "16.61277778",
+         "timestamp": ["1911-02-12", "1911-02-13"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Brno_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
+        "wikidata": "http://www.wikidata.org/entity/Q921772", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.378223, 48.207721]
+      },
+      "properties": {
+         "id": "pmb251692",
+         "title": "Kleine Bühne und Cabaret",
+         "lat": "48.207721",
+         "lon": "16.378223",
+         "timestamp": ["1911-02-16"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372148, 48.20357]
+      },
+      "properties": {
+         "id": "pmb251713",
+         "title": "Compagnie internationale des wagons lits et des grands express européens",
+         "lat": "48.20357",
+         "lon": "16.372148",
+         "timestamp": ["1911-02-18"],
+         "importance": 1, 
+        "abbr": "Reisebüro", 
+        "type": "Reisebüro"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.374444, 52.51]
       },
       "properties": {
@@ -765,6 +852,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q321562", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.333722, 52.493508]
+      },
+      "properties": {
+         "id": "pmb251722",
+         "title": "Wilmersdorfer Motzstraße 44",
+         "lat": "52.493508",
+         "lon": "13.333722",
+         "timestamp": ["1911-02-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -823,6 +927,58 @@
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.353739, 52.499577]
+      },
+      "properties": {
+         "id": "pmb92421",
+         "title": "Nollendorfplatz",
+         "lat": "52.499577",
+         "lon": "13.353739",
+         "timestamp": ["1911-02-24"],
+         "importance": 1, 
+        "abbr": "Platz (K.PLT)", 
+        "type": "Platz"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.37274, 52.506211]
+      },
+      "properties": {
+         "id": "pmb251742",
+         "title": "Hotel Frederich",
+         "lat": "52.506211",
+         "lon": "13.37274",
+         "timestamp": ["1911-02-24"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.38011111111111, 52.50991666666667]
+      },
+      "properties": {
+         "id": "pmb251729",
+         "title": "Kaufhaus Wertheim am Leipziger Platz",
+         "lat": "52.50991666666667",
+         "lon": "13.38011111111111",
+         "timestamp": ["1911-02-24", "1911-02-28"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q84367051", 
+        "abbr": "Kaufhaus", 
+        "type": "Kaufhaus"
       }
       }, 
     {

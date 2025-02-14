@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [7.50435, 43.77649]
+            [7.40046, 43.7454], 
+            [7.42732, 43.73976], 
+            [7.497536, 43.777129]
           ]
       },
       "properties": {
@@ -17,18 +19,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.50435, 43.77649]
+        "coordinates": [7.497536, 43.777129]
       },
       "properties": {
-         "id": "pmb36456",
-         "title": "Menton",
-         "lat": "43.77649",
-         "lon": "7.50435",
+         "id": "pmb251927",
+         "title": "Grand Hôtel National [Menton]",
+         "lat": "43.777129",
+         "lon": "7.497536",
          "timestamp": ["1911-04-18"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Menton", 
-        "wikidata": "http://www.wikidata.org/entity/Q180083", 
-        "geonames": "https://sws.geonames.org/2994497/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.42732, 43.73976]
+      },
+      "properties": {
+         "id": "pmb5862",
+         "title": "Monte Carlo",
+         "lat": "43.73976",
+         "lon": "7.42732",
+         "timestamp": ["1911-04-18"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2992741/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.40046, 43.7454]
+      },
+      "properties": {
+         "id": "pmb91961",
+         "title": "La Turbie",
+         "lat": "43.7454",
+         "lon": "7.40046",
+         "timestamp": ["1911-04-18"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3006089/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }

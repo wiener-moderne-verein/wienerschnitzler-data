@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.09576, 47.49209]
+            [11.114487, 47.490502], 
+            [11.063517350658763, 47.493175141230324]
           ]
       },
       "properties": {
@@ -17,20 +18,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.09576, 47.49209]
+        "coordinates": [11.114487, 47.490502]
       },
       "properties": {
-         "id": "pmb667",
-         "title": "Garmisch-Partenkirchen",
-         "lat": "47.49209",
-         "lon": "11.09576",
+         "id": "pmb250697",
+         "title": "Dr. Wigger’s Kurheim Sanatorium für Innen-, Nervenkranke und Erholungsbedürftige",
+         "lat": "47.490502",
+         "lon": "11.114487",
          "timestamp": ["1911-04-12"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Garmisch-Partenkirchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q127043", 
-        "geonames": "https://sws.geonames.org/2922530/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.063517350658763, 47.493175141230324]
+      },
+      "properties": {
+         "id": "pmb251910",
+         "title": "Berggasthof Almhütte [Garmisch-Partenkirchen]",
+         "lat": "47.493175141230324",
+         "lon": "11.063517350658763",
+         "timestamp": ["1911-04-12"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }
   ]

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.399109, 47.261946], 
+            [11.400833, 47.263889], 
             [11.39525, 47.26839]
           ]
       },
@@ -13,6 +15,23 @@
         "name": "31. Juli 1911"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.399109, 47.261946]
+      },
+      "properties": {
+         "id": "pmb252237",
+         "title": "Hotel zur Sonne [Innsbruck]",
+         "lat": "47.261946",
+         "lon": "11.399109",
+         "timestamp": ["1911-07-31"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -30,6 +49,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q262306", 
         "abbr": "Kirche (K.KRC)", 
         "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.400833, 47.263889]
+      },
+      "properties": {
+         "id": "pmb252240",
+         "title": "Innsbruck Hauptbahnhof",
+         "lat": "47.263889",
+         "lon": "11.400833",
+         "timestamp": ["1911-07-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innsbruck_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q668727", 
+        "geonames": "https://sws.geonames.org/2775217/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

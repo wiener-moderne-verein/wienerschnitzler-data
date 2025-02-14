@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [7.50435, 43.77649]
+            [7.45146, 43.78436], 
+            [7.497536, 43.777129], 
+            [7.501677, 43.776362], 
+            [7.464298, 43.805467], 
+            [7.451369, 43.821206]
           ]
       },
       "properties": {
@@ -17,20 +21,85 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.50435, 43.77649]
+        "coordinates": [7.497536, 43.777129]
       },
       "properties": {
-         "id": "pmb36456",
-         "title": "Menton",
-         "lat": "43.77649",
-         "lon": "7.50435",
+         "id": "pmb251927",
+         "title": "Grand Hôtel National [Menton]",
+         "lat": "43.777129",
+         "lon": "7.497536",
          "timestamp": ["1911-04-24"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Menton", 
-        "wikidata": "http://www.wikidata.org/entity/Q180083", 
-        "geonames": "https://sws.geonames.org/2994497/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.501677, 43.776362]
+      },
+      "properties": {
+         "id": "pmb251944",
+         "title": "Casino Municipal [Menton]",
+         "lat": "43.776362",
+         "lon": "7.501677",
+         "timestamp": ["1911-04-24"],
+         "importance": 1, 
+        "abbr": "Casino", 
+        "type": "Casino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.451369, 43.821206]
+      },
+      "properties": {
+         "id": "pmb92175",
+         "title": "Borrigotal",
+         "lat": "43.821206",
+         "lon": "7.451369",
+         "timestamp": ["1911-04-24"],
+         "importance": 1, 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.464298, 43.805467]
+      },
+      "properties": {
+         "id": "pmb251971",
+         "title": "Vallee des Primevères",
+         "lat": "43.805467",
+         "lon": "7.464298",
+         "timestamp": ["1911-04-24"],
+         "importance": 1, 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.45146, 43.78436]
+      },
+      "properties": {
+         "id": "pmb251974",
+         "title": "Val de Gorbio",
+         "lat": "43.78436",
+         "lon": "7.45146",
+         "timestamp": ["1911-04-24"],
+         "importance": 1, 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
       }
       }
   ]

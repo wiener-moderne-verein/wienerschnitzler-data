@@ -149,6 +149,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1891-05-25", "1893-04-06", "1894-07-04", "1895-02-11", "1895-04-13", "1896-03-11", "1899-06-01"],
+         "importance": 7, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
@@ -160,6 +180,24 @@
          "importance": 32, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1891-05-05", "1894-06-27", "1894-07-28", "1894-07-30", "1896-06-09", "1899-05-17", "1899-07-01", "1899-07-03"],
+         "importance": 8, 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
       }
       }, 
     {
@@ -197,6 +235,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q45350189", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37084, 48.210333]
+      },
+      "properties": {
+         "id": "pmb2",
+         "title": "Konservatorium der Gesellschaft der Musikfreunde",
+         "lat": "48.210333",
+         "lon": "16.37084",
+         "timestamp": ["1894-01-21", "1897-05-14", "1900-12-21"],
+         "importance": 3, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Universität_für_Musik_und_darstellende_Kunst_Wien", 
+        "abbr": "Konservatorium (K.KON)", 
+        "type": "Konservatorium"
       }
       }, 
     {
@@ -585,24 +641,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.36157, 48.20809]
-      },
-      "properties": {
-         "id": "pmb103",
-         "title": "Volksgarten",
-         "lat": "48.20809",
-         "lon": "16.36157",
-         "timestamp": ["1891-05-05", "1894-06-27", "1894-07-28", "1894-07-30", "1896-06-09", "1899-05-17", "1899-07-01", "1899-07-03"],
-         "importance": 8, 
-        "geonames": "https://sws.geonames.org/6697258/", 
-        "abbr": "L.PRK", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.378011, 48.205565]
       },
       "properties": {
@@ -702,26 +740,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Stephanskeller", 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1891-05-25", "1893-04-06", "1894-07-04", "1895-02-11", "1895-04-13", "1896-03-11", "1899-06-01"],
-         "importance": 7, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
       }
       }, 
     {
@@ -895,24 +913,6 @@
          "importance": 34, 
         "abbr": "Tal (N.TAL)", 
         "type": "Tal"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37084, 48.210333]
-      },
-      "properties": {
-         "id": "pmb2",
-         "title": "Konservatorium der Gesellschaft der Musikfreunde",
-         "lat": "48.210333",
-         "lon": "16.37084",
-         "timestamp": ["1894-01-21", "1897-05-14", "1900-12-21"],
-         "importance": 3, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Universität_für_Musik_und_darstellende_Kunst_Wien", 
-        "abbr": "Konservatorium (K.KON)", 
-        "type": "Konservatorium"
       }
       }, 
     {
@@ -5864,6 +5864,8 @@
          "lon": "16.36143",
          "timestamp": ["1892-05-27", "1892-06-11", "1895-06-04", "1898-05-22", "1898-05-23", "1898-06-12", "1898-06-14", "1898-06-18", "1898-06-21", "1899-06-17"],
          "importance": 10, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Langenzersdorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q675616", 
         "geonames": "https://sws.geonames.org/2772998/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
@@ -7170,6 +7172,7 @@
          "lon": "14.3175",
          "timestamp": ["1893-03-02", "1893-03-03", "1893-03-05", "1893-03-08"],
          "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volosko", 
         "wikidata": "http://www.wikidata.org/entity/Q164461", 
         "geonames": "https://sws.geonames.org/3187413/", 
         "abbr": "P.PPL", 

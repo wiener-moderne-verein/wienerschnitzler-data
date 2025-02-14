@@ -7,7 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [9.81123993, 46.478438], 
-            [9.84327, 46.49937]
+            [9.835247, 46.501438], 
+            [9.8352, 46.5018]
           ]
       },
       "properties": {
@@ -18,18 +19,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.84327, 46.49937]
+        "coordinates": [9.835247, 46.501438]
       },
       "properties": {
-         "id": "pmb44374",
-         "title": "Sankt Moritz",
-         "lat": "46.49937",
-         "lon": "9.84327",
+         "id": "pmb92186",
+         "title": "Chantarella",
+         "lat": "46.501438",
+         "lon": "9.835247",
          "timestamp": ["1925-01-28"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658813/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8352, 46.5018]
+      },
+      "properties": {
+         "id": "pmb251798",
+         "title": "Standseilbahn St. Moritz–Chantarella",
+         "lat": "46.5018",
+         "lon": "9.8352",
+         "timestamp": ["1925-01-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Corvigliabahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q7590786", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
       }
       },
     {

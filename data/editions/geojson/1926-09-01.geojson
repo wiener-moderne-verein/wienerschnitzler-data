@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [7.72085, 46.69228], 
+            [7.759, 46.6863], 
+            [7.74913, 46.68278], 
             [7.864543454, 46.689737633], 
-            [7.72085, 46.69228]
+            [7.80443, 46.71478]
           ]
       },
       "properties": {
@@ -36,6 +39,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [7.80443, 46.71478]
+      },
+      "properties": {
+         "id": "pmb47487",
+         "title": "Beatenberg",
+         "lat": "46.71478",
+         "lon": "7.80443",
+         "timestamp": ["1926-09-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Beatenberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q68108", 
+        "geonames": "https://sws.geonames.org/7285173/ https://sws.geonames.org/2661586/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [7.72085, 46.69228]
       },
       "properties": {
@@ -48,6 +71,42 @@
         "geonames": "https://sws.geonames.org/2658375/", 
         "abbr": "H.LK", 
         "type": "See"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.74913, 46.68278]
+      },
+      "properties": {
+         "id": "pmb251087",
+         "title": "Beatenbucht",
+         "lat": "46.68278",
+         "lon": "7.74913",
+         "timestamp": ["1926-09-01"],
+         "importance": 1, 
+        "abbr": "Bucht (N.BCT)", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.759, 46.6863]
+      },
+      "properties": {
+         "id": "pmb251090",
+         "title": "Thunersee-Beatenberg-Bahn",
+         "lat": "46.6863",
+         "lon": "7.759",
+         "timestamp": ["1926-09-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Thunersee-Beatenberg-Bahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q2429943", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
       }
       }
   ]

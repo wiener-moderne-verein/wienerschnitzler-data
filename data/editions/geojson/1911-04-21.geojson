@@ -6,9 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [7.10831, 43.58579], 
-            [7.50435, 43.77649], 
-            [7.26608, 43.70313]
+            [7.04053, 43.5522], 
+            [7.1303, 43.5453], 
+            [7.41667, 43.73333], 
+            [7.497536, 43.777129], 
+            [7.26608, 43.70313], 
+            [7.22763, 43.67507]
           ]
       },
       "properties": {
@@ -19,20 +22,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.50435, 43.77649]
+        "coordinates": [7.497536, 43.777129]
       },
       "properties": {
-         "id": "pmb36456",
-         "title": "Menton",
-         "lat": "43.77649",
-         "lon": "7.50435",
+         "id": "pmb251927",
+         "title": "Grand Hôtel National [Menton]",
+         "lat": "43.777129",
+         "lon": "7.497536",
          "timestamp": ["1911-04-21"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Menton", 
-        "wikidata": "http://www.wikidata.org/entity/Q180083", 
-        "geonames": "https://sws.geonames.org/2994497/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -59,18 +59,74 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.10831, 43.58579]
+        "coordinates": [7.1303, 43.5453]
       },
       "properties": {
-         "id": "pmb88767",
-         "title": "Antibes",
-         "lat": "43.58579",
-         "lon": "7.10831",
+         "id": "pmb251960",
+         "title": "Villa Eilenroc",
+         "lat": "43.5453",
+         "lon": "7.1303",
          "timestamp": ["1911-04-21"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3037456/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q3558522", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.41667, 43.73333]
+      },
+      "properties": {
+         "id": "pmb91267",
+         "title": "Monaco",
+         "lat": "43.73333",
+         "lon": "7.41667",
+         "timestamp": ["1911-04-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Monaco", 
+        "wikidata": "http://www.wikidata.org/entity/Q235", 
+        "geonames": "https://sws.geonames.org/2993458/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.04053, 43.5522]
+      },
+      "properties": {
+         "id": "pmb251952",
+         "title": "Hotel Le Californie",
+         "lat": "43.5522",
+         "lon": "7.04053",
+         "timestamp": ["1911-04-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q18215078", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.22763, 43.67507]
+      },
+      "properties": {
+         "id": "pmb90430",
+         "title": "La Californie",
+         "lat": "43.67507",
+         "lon": "7.22763",
+         "timestamp": ["1911-04-21"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3010641/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }
   ]

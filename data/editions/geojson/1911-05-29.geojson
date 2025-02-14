@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [12.87117, 50.23271]
+            [12.813472222222, 50.193444444444], 
+            [12.87859, 50.22011], 
+            [12.8774036, 50.2278053]
           ]
       },
       "properties": {
@@ -17,20 +19,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.87117, 50.23271]
+        "coordinates": [12.87859, 50.22011]
       },
       "properties": {
-         "id": "pmb842",
-         "title": "Karlsbad",
-         "lat": "50.23271",
-         "lon": "12.87117",
+         "id": "pmb244363",
+         "title": "Grandhotel Pupp",
+         "lat": "50.22011",
+         "lon": "12.87859",
          "timestamp": ["1911-05-29"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Karlsbad", 
-        "wikidata": "http://www.wikidata.org/entity/Q384544", 
-        "geonames": "https://sws.geonames.org/3073803/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.8774036, 50.2278053]
+      },
+      "properties": {
+         "id": "pmb252087",
+         "title": "Dvořákovy sady",
+         "lat": "50.2278053",
+         "lon": "12.8774036",
+         "timestamp": ["1911-05-29"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q46025992", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.813472222222, 50.193444444444]
+      },
+      "properties": {
+         "id": "pmb252090",
+         "title": "Svatošské skály",
+         "lat": "50.193444444444",
+         "lon": "12.813472222222",
+         "timestamp": ["1911-05-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hans-Heiling-Felsen", 
+        "wikidata": "http://www.wikidata.org/entity/Q1115963", 
+        "abbr": "Naturdenkmal", 
+        "type": "Naturdenkmal"
       }
       }
   ]

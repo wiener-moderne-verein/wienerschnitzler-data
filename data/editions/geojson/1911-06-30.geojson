@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [15.83, 47.647222], 
-            [15.82878, 47.65337]
+            [15.86924, 47.64168], 
+            [15.82878, 47.65337], 
+            [15.826389, 47.652222]
           ]
       },
       "properties": {
@@ -44,6 +46,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.826389, 47.652222]
+      },
+      "properties": {
+         "id": "pmb442",
+         "title": "Kurhaus Semmering",
+         "lat": "47.652222",
+         "lon": "15.826389",
+         "timestamp": ["1911-06-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kurhaus_Semmering", 
+        "wikidata": "http://www.wikidata.org/entity/Q1793077", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Hansy",
+
+         "p_id": "#2320"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.82878, 47.65337]
       },
       "properties": {
@@ -55,6 +83,26 @@
          "importance": 1, 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.86924, 47.64168]
+      },
+      "properties": {
+         "id": "pmb45277",
+         "title": "Maria Schutz",
+         "lat": "47.64168",
+         "lon": "15.86924",
+         "timestamp": ["1911-06-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Maria_Schutz", 
+        "wikidata": "http://www.wikidata.org/entity/Q1896302", 
+        "geonames": "https://sws.geonames.org/2771904/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

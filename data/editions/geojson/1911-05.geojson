@@ -71,11 +71,31 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1911-05-10", "1911-05-23"],
-         "importance": 2, 
+         "timestamp": ["1911-05-04", "1911-05-05", "1911-05-10", "1911-05-16", "1911-05-18", "1911-05-23"],
+         "importance": 6, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1911-05-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -96,6 +116,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q3487269", 
         "abbr": "Vergnügungspark (K.VGN)", 
         "type": "Vergnügungspark"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333568462613, 48.235119783861]
+      },
+      "properties": {
+         "id": "pmb113",
+         "title": "Türkenschanzpark",
+         "lat": "48.235119783861",
+         "lon": "16.333568462613",
+         "timestamp": ["1911-05-06", "1911-05-11", "1911-05-12"],
+         "importance": 3, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -511,6 +548,80 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3731991, 48.1855867]
+      },
+      "properties": {
+         "id": "pmb60254",
+         "title": "Ostbahnhof [Wien]",
+         "lat": "48.1855867",
+         "lon": "16.3731991",
+         "timestamp": ["1911-05-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Ostbahnhof", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Ostbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q119092115", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.380897, 48.208627]
+      },
+      "properties": {
+         "id": "pmb235381",
+         "title": "Biberstraße 8",
+         "lat": "48.208627",
+         "lon": "16.380897",
+         "timestamp": ["1911-05-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.428996, 50.086417]
+      },
+      "properties": {
+         "id": "pmb93",
+         "title": "Hotel Blauer Stern",
+         "lat": "50.086417",
+         "lon": "14.428996",
+         "timestamp": ["1911-05-27"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Carl Seltmann",
+
+         "p_id": "#145407"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -518,8 +629,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1911-05-12"],
-         "importance": 1, 
+         "timestamp": ["1911-05-06", "1911-05-12"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -534,6 +645,36 @@
          "p_name": "Richard Beer-Hofmann",
 
          "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1911-05-05", "1911-05-05", "1911-05-06"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
          }]
       }
       }, 
@@ -560,6 +701,68 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1911-05-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Julia Bertha Culp",
+
+         "p_id": "#11123"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.581667, 48.138889]
+      },
+      "properties": {
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
+         "timestamp": ["1911-05-01", "1911-05-02"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.09576, 47.49209]
       },
       "properties": {
@@ -580,6 +783,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1911-05-01", "1911-05-01", "1911-05-02"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1911-05-05", "1911-05-05"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.352693, 48.193456]
       },
       "properties": {
@@ -591,6 +851,66 @@
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356765, 48.214792]
+      },
+      "properties": {
+         "id": "pmb249595",
+         "title": "Universitätsstraße 10",
+         "lat": "48.214792",
+         "lon": "16.356765",
+         "timestamp": ["1911-05-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Margarethe Manassewitsch",
+
+         "p_id": "#20861"
+         }, 
+         {
+
+         "p_name": "Efim Manassewitsch",
+
+         "p_id": "#20859"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37222, 48.202101]
+      },
+      "properties": {
+         "id": "pmb231884",
+         "title": "Kärntnerring 13",
+         "lat": "48.202101",
+         "lon": "16.37222",
+         "timestamp": ["1911-05-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Marianne Benedict",
+
+         "p_id": "#13970"
+         }, 
+         {
+
+         "p_name": "Markus Benedict",
+
+         "p_id": "#13973"
+         }]
       }
       }, 
     {
@@ -670,6 +990,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.1097, 47.4956]
+      },
+      "properties": {
+         "id": "pmb2318",
+         "title": "Partenkirchen",
+         "lat": "47.4956",
+         "lon": "11.1097",
+         "timestamp": ["1911-05-01", "1911-05-01"],
+         "importance": 2, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353139, 48.24422]
+      },
+      "properties": {
+         "id": "pmb238485",
+         "title": "Nusswaldgasse 22",
+         "lat": "48.24422",
+         "lon": "16.353139",
+         "timestamp": ["1911-05-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [14.423933, 50.086122]
       },
       "properties": {
@@ -683,6 +1044,77 @@
         "wikidata": "http://www.wikidata.org/entity/Q521155", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.42777, 50.0839]
+      },
+      "properties": {
+         "id": "pmb90",
+         "title": "Palasthotel Prag",
+         "lat": "50.0839",
+         "lon": "14.42777",
+         "timestamp": ["1911-05-26", "1911-05-27", "1911-05-28"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.87859, 50.22011]
+      },
+      "properties": {
+         "id": "pmb244363",
+         "title": "Grandhotel Pupp",
+         "lat": "50.22011",
+         "lon": "12.87859",
+         "timestamp": ["1911-05-28", "1911-05-29", "1911-05-30"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.62474, 50.01058]
+      },
+      "properties": {
+         "id": "pmb59010",
+         "title": "Lázně Kynžvart",
+         "lat": "50.01058",
+         "lon": "12.62474",
+         "timestamp": ["1911-05-30"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3072265/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.668004, 50.026436]
+      },
+      "properties": {
+         "id": "pmb92257",
+         "title": "Kladská",
+         "lat": "50.026436",
+         "lon": "12.668004",
+         "timestamp": ["1911-05-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kladsk%C3%A1", 
+        "wikidata": "http://www.wikidata.org/entity/Q533453", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }
   ]

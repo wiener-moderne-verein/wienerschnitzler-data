@@ -1810,7 +1810,7 @@
       },
       "properties": {
          "id": "pmb532",
-         "title": "Schafberg [Wien|",
+         "title": "Schafberg [Wien]",
          "lat": "48.23975",
          "lon": "16.29273",
          "timestamp": ["1927-01-23"],
@@ -2808,6 +2808,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.376804, 48.210822]
+      },
+      "properties": {
+         "id": "pmb247950",
+         "title": "H. J. Adutt [Teppichhandel]",
+         "lat": "48.210822",
+         "lon": "16.376804",
+         "timestamp": ["1927-05-31", "1927-12-22"],
+         "importance": 2, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.320696, 48.263217]
       },
       "properties": {
@@ -3220,6 +3237,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37675, 48.20762]
+      },
+      "properties": {
+         "id": "pmb235120",
+         "title": "Schulerstraße 22",
+         "lat": "48.20762",
+         "lon": "16.37675",
+         "timestamp": ["1927-01-28", "1927-02-01", "1927-02-04", "1927-02-08", "1927-02-11", "1927-02-18", "1927-03-04", "1927-03-15", "1927-09-30", "1927-10-11", "1927-11-15", "1927-11-22"],
+         "importance": 12, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.363758, 48.212483]
       },
       "properties": {
@@ -3276,30 +3317,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q960610", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37675, 48.20762]
-      },
-      "properties": {
-         "id": "pmb235120",
-         "title": "Schulerstraße 22",
-         "lat": "48.20762",
-         "lon": "16.37675",
-         "timestamp": ["1927-01-28", "1927-02-01", "1927-02-04", "1927-02-08", "1927-02-11", "1927-02-18", "1927-03-04", "1927-03-15", "1927-09-30", "1927-10-11", "1927-11-15", "1927-11-22"],
-         "importance": 12, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Josef Peter",
-
-         "p_id": "#22449"
-         }]
       }
       }, 
     {
@@ -3554,7 +3571,7 @@
       },
       "properties": {
          "id": "pmb246994",
-         "title": "Hotel Fürstenhof (Berlin)",
+         "title": "Hotel Fürstenhof [Berlin]",
          "lat": "52.5087",
          "lon": "13.3772",
          "timestamp": ["1927-01-02"],
@@ -4154,23 +4171,6 @@
          "lat": "48.214048",
          "lon": "16.364965",
          "timestamp": ["1927-05-31", "1927-06-14"],
-         "importance": 2, 
-        "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.376804, 48.210822]
-      },
-      "properties": {
-         "id": "pmb247950",
-         "title": "H. J. Adutt [Teppichhandel]",
-         "lat": "48.210822",
-         "lon": "16.376804",
-         "timestamp": ["1927-05-31", "1927-12-22"],
          "importance": 2, 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"

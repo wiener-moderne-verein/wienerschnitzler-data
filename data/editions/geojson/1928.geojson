@@ -25,6 +25,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1928-05-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
@@ -36,6 +56,24 @@
          "importance": 1, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1928-05-30"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
       }
       }, 
     {
@@ -150,24 +188,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.36157, 48.20809]
-      },
-      "properties": {
-         "id": "pmb103",
-         "title": "Volksgarten",
-         "lat": "48.20809",
-         "lon": "16.36157",
-         "timestamp": ["1928-05-30"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/6697258/", 
-        "abbr": "L.PRK", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.430054, 48.194558]
       },
       "properties": {
@@ -197,26 +217,6 @@
          "lon": "16.364351",
          "timestamp": ["1928-05-23"],
          "importance": 1
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1928-05-29"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
       }
       }, 
     {
@@ -3294,6 +3294,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.376804, 48.210822]
+      },
+      "properties": {
+         "id": "pmb247950",
+         "title": "H. J. Adutt [Teppichhandel]",
+         "lat": "48.210822",
+         "lon": "16.376804",
+         "timestamp": ["1928-07-06"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.2656, 48.2213]
       },
       "properties": {
@@ -3703,6 +3720,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.377452, 48.193826]
+      },
+      "properties": {
+         "id": "pmb246974",
+         "title": "Paul Zsolnay Verlag",
+         "lat": "48.193826",
+         "lon": "16.377452",
+         "timestamp": ["1928-05-23"],
+         "importance": 1, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37675, 48.20762]
+      },
+      "properties": {
+         "id": "pmb235120",
+         "title": "Schulerstraße 22",
+         "lat": "48.20762",
+         "lon": "16.37675",
+         "timestamp": ["1928-02-14", "1928-02-17", "1928-05-18", "1928-10-30", "1928-11-02", "1928-11-09"],
+         "importance": 6, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.338208333333334, 45.433675]
       },
       "properties": {
@@ -3735,30 +3793,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q253663", 
         "abbr": "Kirche (K.KRC)", 
         "type": "Kirche"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37675, 48.20762]
-      },
-      "properties": {
-         "id": "pmb235120",
-         "title": "Schulerstraße 22",
-         "lat": "48.20762",
-         "lon": "16.37675",
-         "timestamp": ["1928-02-14", "1928-02-17", "1928-05-18", "1928-10-30", "1928-11-02", "1928-11-09"],
-         "importance": 6, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Josef Peter",
-
-         "p_id": "#22449"
-         }]
       }
       }, 
     {
@@ -3843,23 +3877,6 @@
 
          "p_id": "#3119"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.377452, 48.193826]
-      },
-      "properties": {
-         "id": "pmb246974",
-         "title": "Paul Zsolnay Verlag",
-         "lat": "48.193826",
-         "lon": "16.377452",
-         "timestamp": ["1928-05-23"],
-         "importance": 1, 
-        "abbr": "Verlag", 
-        "type": ""
       }
       }, 
     {

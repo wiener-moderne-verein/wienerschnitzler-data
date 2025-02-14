@@ -7,7 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [7.48207, 43.76408], 
-            [7.50435, 43.77649]
+            [7.42796, 43.73917], 
+            [7.554484, 43.782967], 
+            [7.55396, 43.78566], 
+            [7.497536, 43.777129]
           ]
       },
       "properties": {
@@ -18,20 +21,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.50435, 43.77649]
+        "coordinates": [7.497536, 43.777129]
       },
       "properties": {
-         "id": "pmb36456",
-         "title": "Menton",
-         "lat": "43.77649",
-         "lon": "7.50435",
+         "id": "pmb251927",
+         "title": "Grand Hôtel National [Menton]",
+         "lat": "43.777129",
+         "lon": "7.497536",
          "timestamp": ["1911-04-17"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Menton", 
-        "wikidata": "http://www.wikidata.org/entity/Q180083", 
-        "geonames": "https://sws.geonames.org/2994497/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -50,6 +50,63 @@
         "geonames": "https://sws.geonames.org/2982876/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.554484, 43.782967]
+      },
+      "properties": {
+         "id": "pmb251930",
+         "title": "Botanischer Garten Hanbury",
+         "lat": "43.782967",
+         "lon": "7.554484",
+         "timestamp": ["1911-04-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Botanischer_Garten_Hanbury", 
+        "wikidata": "http://www.wikidata.org/entity/Q894646", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.55396, 43.78566]
+      },
+      "properties": {
+         "id": "pmb91300",
+         "title": "Mortola Inferiore",
+         "lat": "43.78566",
+         "lon": "7.55396",
+         "timestamp": ["1911-04-17"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q734312", 
+        "geonames": "https://sws.geonames.org/3172546/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.42796, 43.73917]
+      },
+      "properties": {
+         "id": "pmb231379",
+         "title": "Monte Carlo Casino",
+         "lat": "43.73917",
+         "lon": "7.42796",
+         "timestamp": ["1911-04-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Spielbank_Monte-Carlo", 
+        "wikidata": "http://www.wikidata.org/entity/Q1779905", 
+        "abbr": "Casino", 
+        "type": "Casino"
       }
       }
   ]

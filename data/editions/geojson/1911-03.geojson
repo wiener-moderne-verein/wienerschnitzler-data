@@ -25,6 +25,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1911-03-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
@@ -36,6 +56,25 @@
          "importance": 1, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1911-03-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper"
       }
       }, 
     {
@@ -68,8 +107,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1911-03-08", "1911-03-20", "1911-03-21", "1911-03-27"],
-         "importance": 4, 
+         "timestamp": ["1911-03-08", "1911-03-20", "1911-03-21", "1911-03-27", "1911-03-31"],
+         "importance": 5, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -132,6 +171,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1911-03-06", "1911-03-24", "1911-03-29"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.300034240016, 48.246838181084]
       },
       "properties": {
@@ -175,8 +234,8 @@
          "title": "Frankgasse 1",
          "lat": "48.21533",
          "lon": "16.35736",
-         "timestamp": ["1911-03-06", "1911-03-20", "1911-03-22", "1911-03-29", "1911-03-31"],
-         "importance": 5, 
+         "timestamp": ["1911-03-06", "1911-03-20", "1911-03-22", "1911-03-24", "1911-03-29", "1911-03-31"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -234,6 +293,66 @@
          "p_name": " ?? [Hausmeisterin von Arthur Schnitzler]",
 
          "p_id": "#27696"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1911-03-11", "1911-03-12"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.378158, 48.207691]
+      },
+      "properties": {
+         "id": "pmb186034",
+         "title": "Urania Theater",
+         "lat": "48.207691",
+         "lon": "16.378158",
+         "timestamp": ["1911-03-18"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1911-03-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
          }]
       }
       }, 
@@ -456,6 +575,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1911-03-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Julia Bertha Culp",
+
+         "p_id": "#11123"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361853, 48.21494]
       },
       "properties": {
@@ -467,6 +629,67 @@
          "importance": 1, 
         "abbr": "Buchhandlung (K.BHL)", 
         "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34742, 48.215072]
+      },
+      "properties": {
+         "id": "pmb247710",
+         "title": "Alser Straße 41",
+         "lat": "48.215072",
+         "lon": "16.34742",
+         "timestamp": ["1911-03-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Mandl",
+
+         "p_id": "#39818"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1911-03-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }]
       }
       }, 
     {
@@ -564,6 +787,23 @@
 
          "p_id": "#22399"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376804, 48.210822]
+      },
+      "properties": {
+         "id": "pmb247950",
+         "title": "H. J. Adutt [Teppichhandel]",
+         "lat": "48.210822",
+         "lon": "16.376804",
+         "timestamp": ["1911-03-08"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
       }
       }, 
     {

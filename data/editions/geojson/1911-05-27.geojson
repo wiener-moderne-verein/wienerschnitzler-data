@@ -6,14 +6,36 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [14.397222, 50.089444], 
+            [14.39, 50.086], 
+            [14.42777, 50.0839], 
             [14.423933, 50.086122], 
-            [14.397222, 50.089444]
+            [14.428996, 50.086417], 
+            [14.418611111111, 50.09], 
+            [14.4194, 50.1064]
           ]
       },
       "properties": {
         "name": "27. Mai 1911"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.42777, 50.0839]
+      },
+      "properties": {
+         "id": "pmb90",
+         "title": "Palasthotel Prag",
+         "lat": "50.0839",
+         "lon": "14.42777",
+         "timestamp": ["1911-05-27"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -51,6 +73,87 @@
         "geonames": "https://sws.geonames.org/3074982/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.4194, 50.1064]
+      },
+      "properties": {
+         "id": "pmb252075",
+         "title": "Stromovka",
+         "lat": "50.1064",
+         "lon": "14.4194",
+         "timestamp": ["1911-05-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stromovka", 
+        "wikidata": "http://www.wikidata.org/entity/Q3500538", 
+        "geonames": "https://sws.geonames.org/6951656/", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.39, 50.086]
+      },
+      "properties": {
+         "id": "pmb252078",
+         "title": "Strahov",
+         "lat": "50.086",
+         "lon": "14.39",
+         "timestamp": ["1911-05-27"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q2428381", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.418611111111, 50.09]
+      },
+      "properties": {
+         "id": "pmb252081",
+         "title": "Altneu-Synagogue",
+         "lat": "50.09",
+         "lon": "14.418611111111",
+         "timestamp": ["1911-05-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Altneu-Synagoge", 
+        "wikidata": "http://www.wikidata.org/entity/Q443107", 
+        "abbr": "Synagoge", 
+        "type": "Synagoge"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.428996, 50.086417]
+      },
+      "properties": {
+         "id": "pmb93",
+         "title": "Hotel Blauer Stern",
+         "lat": "50.086417",
+         "lon": "14.428996",
+         "timestamp": ["1911-05-27"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Carl Seltmann",
+
+         "p_id": "#145407"
+         }]
       }
       }
   ]

@@ -25,6 +25,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1911-01-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.351111, 48.209583]
       },
       "properties": {
@@ -73,26 +93,6 @@
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371296264238, 48.202432234197]
-      },
-      "properties": {
-         "id": "pmb112",
-         "title": "Ringstraße",
-         "lat": "48.202432234197",
-         "lon": "16.371296264238",
-         "timestamp": ["1911-01-16"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
-        "wikidata": "http://www.wikidata.org/entity/Q46232", 
-        "geonames": "https://sws.geonames.org/8181703/", 
-        "abbr": "R.ST", 
-        "type": "Straße"
       }
       }, 
     {
@@ -666,6 +666,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.346937, 48.238937]
+      },
+      "properties": {
+         "id": "pmb251515",
+         "title": "Chimanistraße 11",
+         "lat": "48.238937",
+         "lon": "16.346937",
+         "timestamp": ["1911-01-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37271, 48.20907]
       },
       "properties": {
@@ -685,6 +702,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.383713, 48.211069]
+      },
+      "properties": {
+         "id": "pmb251530",
+         "title": "Uraniastraße 2",
+         "lat": "48.211069",
+         "lon": "16.383713",
+         "timestamp": ["1911-01-16", "1911-01-23", "1911-01-30"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37689, 48.202628]
+      },
+      "properties": {
+         "id": "pmb237534",
+         "title": "Fichtegasse 11",
+         "lat": "48.202628",
+         "lon": "16.37689",
+         "timestamp": ["1911-01-16"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Benedikt",
+
+         "p_id": "#10875"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.833483, 47.623166]
       },
       "properties": {
@@ -696,6 +754,23 @@
          "importance": 1, 
         "abbr": "Wanderweg (K.WND)", 
         "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.824942, 47.645535]
+      },
+      "properties": {
+         "id": "pmb251646",
+         "title": "Villa Kleinhans",
+         "lat": "47.645535",
+         "lon": "15.824942",
+         "timestamp": ["1911-01-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

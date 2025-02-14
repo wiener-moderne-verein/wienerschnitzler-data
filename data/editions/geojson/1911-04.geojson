@@ -51,13 +51,33 @@
          "title": "München",
          "lat": "48.13743",
          "lon": "11.57549",
-         "timestamp": ["1911-04-13", "1911-04-25", "1911-04-26", "1911-04-27"],
-         "importance": 4, 
+         "timestamp": ["1911-04-11", "1911-04-13", "1911-04-25", "1911-04-26", "1911-04-27"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
         "wikidata": "http://www.wikidata.org/entity/Q1726", 
         "geonames": "https://sws.geonames.org/2867714/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37778, 48.22583]
+      },
+      "properties": {
+         "id": "pmb124",
+         "title": "Augarten",
+         "lat": "48.22583",
+         "lon": "16.37778",
+         "timestamp": ["1911-04-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Augarten", 
+        "wikidata": "http://www.wikidata.org/entity/Q143265", 
+        "geonames": "https://sws.geonames.org/3322733/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
       }
       }, 
     {
@@ -104,20 +124,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.8241, 47.64224]
+        "coordinates": [16.37049, 48.20769]
       },
       "properties": {
-         "id": "pmb189",
-         "title": "Semmering",
-         "lat": "47.64224",
-         "lon": "15.8241",
-         "timestamp": ["1911-04-02", "1911-04-03"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)", 
-        "wikidata": "http://www.wikidata.org/entity/Q659891", 
-        "geonames": "https://sws.geonames.org/7873001/", 
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1911-04-03", "1911-04-04", "1911-04-05", "1911-04-08"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1911-04-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36143, 48.30432]
+      },
+      "properties": {
+         "id": "pmb51088",
+         "title": "Langenzersdorf",
+         "lat": "48.30432",
+         "lon": "16.36143",
+         "timestamp": ["1911-04-02"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2772998/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -254,6 +312,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [7.01275, 43.55135]
+      },
+      "properties": {
+         "id": "pmb56147",
+         "title": "Cannes",
+         "lat": "43.55135",
+         "lon": "7.01275",
+         "timestamp": ["1911-04-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cannes", 
+        "wikidata": "http://www.wikidata.org/entity/Q39984", 
+        "geonames": "https://sws.geonames.org/3028808/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.42796, 43.73917]
+      },
+      "properties": {
+         "id": "pmb231379",
+         "title": "Monte Carlo Casino",
+         "lat": "43.73917",
+         "lon": "7.42796",
+         "timestamp": ["1911-04-17", "1911-04-23"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Spielbank_Monte-Carlo", 
+        "wikidata": "http://www.wikidata.org/entity/Q1779905", 
+        "abbr": "Casino", 
+        "type": "Casino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [7.42732, 43.73976]
       },
       "properties": {
@@ -261,11 +358,47 @@
          "title": "Monte Carlo",
          "lat": "43.73976",
          "lon": "7.42732",
-         "timestamp": ["1911-04-20"],
-         "importance": 1, 
+         "timestamp": ["1911-04-17", "1911-04-17", "1911-04-18", "1911-04-20", "1911-04-23"],
+         "importance": 5, 
         "geonames": "https://sws.geonames.org/2992741/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.27872, 43.72045]
+      },
+      "properties": {
+         "id": "pmb90482",
+         "title": "Cimiez",
+         "lat": "43.72045",
+         "lon": "7.27872",
+         "timestamp": ["1911-04-19"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3024946/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.40046, 43.7454]
+      },
+      "properties": {
+         "id": "pmb91961",
+         "title": "La Turbie",
+         "lat": "43.7454",
+         "lon": "7.40046",
+         "timestamp": ["1911-04-18"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3006089/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -303,6 +436,26 @@
          "importance": 1, 
         "abbr": "Vergnügungseinrichtung", 
         "type": "Vergnügungseinrichtung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.41667, 43.73333]
+      },
+      "properties": {
+         "id": "pmb91267",
+         "title": "Monaco",
+         "lat": "43.73333",
+         "lon": "7.41667",
+         "timestamp": ["1911-04-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Monaco", 
+        "wikidata": "http://www.wikidata.org/entity/Q235", 
+        "geonames": "https://sws.geonames.org/2993458/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -347,6 +500,79 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1911-04-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1911-04-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Julia Bertha Culp",
+
+         "p_id": "#11123"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.09576, 47.49209]
       },
       "properties": {
@@ -361,6 +587,56 @@
         "geonames": "https://sws.geonames.org/2922530/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1911-04-11", "1911-04-13", "1911-04-25", "1911-04-25", "1911-04-27"],
+         "importance": 5, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.585161, 48.135523]
+      },
+      "properties": {
+         "id": "pmb248958",
+         "title": "Mannhardtstraße 3",
+         "lat": "48.135523",
+         "lon": "11.585161",
+         "timestamp": ["1911-04-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Auguste Glümer",
+
+         "p_id": "#14948"
+         }, 
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
       }
       }, 
     {
@@ -434,6 +710,40 @@
 
          "p_id": "#22399"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.114487, 47.490502]
+      },
+      "properties": {
+         "id": "pmb250697",
+         "title": "Dr. Wigger’s Kurheim Sanatorium für Innen-, Nervenkranke und Erholungsbedürftige",
+         "lat": "47.490502",
+         "lon": "11.114487",
+         "timestamp": ["1911-04-12", "1911-04-28"],
+         "importance": 2, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.1097, 47.4956]
+      },
+      "properties": {
+         "id": "pmb2318",
+         "title": "Partenkirchen",
+         "lat": "47.4956",
+         "lon": "11.1097",
+         "timestamp": ["1911-04-11", "1911-04-12", "1911-04-13", "1911-04-27", "1911-04-27", "1911-04-28", "1911-04-28", "1911-04-29", "1911-04-29", "1911-04-30", "1911-04-30"],
+         "importance": 11, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {

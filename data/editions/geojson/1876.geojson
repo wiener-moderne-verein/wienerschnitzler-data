@@ -12,8 +12,8 @@
          "title": "Ronacher",
          "lat": "48.205139",
          "lon": "16.375",
-         "timestamp": ["1876-03-15", "1876-04-27", "1876-05-08", "1876-10-04", "1876-11-09", "1876-12-06"],
-         "importance": 6, 
+         "timestamp": ["1876-01-30", "1876-03-15", "1876-04-27", "1876-05-08", "1876-10-04", "1876-11-09", "1876-12-06"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
         "wikidata": "http://www.wikidata.org/entity/Q1244587", 
         "abbr": "Theater (K.THE)", 
@@ -44,8 +44,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1876-03-15", "1876-04-02", "1876-04-27", "1876-05-08", "1876-06-29", "1876-09-01", "1876-09-03", "1876-09-05", "1876-09-07", "1876-09-09", "1876-09-10", "1876-10-04", "1876-11-05", "1876-11-09", "1876-11-26", "1876-11-27", "1876-12-06"],
-         "importance": 17, 
+         "timestamp": ["1876-01-30", "1876-02-29", "1876-03-15", "1876-03-29", "1876-04-02", "1876-04-24", "1876-04-27", "1876-05-04", "1876-05-08", "1876-06-23", "1876-06-29", "1876-07-06", "1876-08-23", "1876-09-01", "1876-09-03", "1876-09-05", "1876-09-07", "1876-09-09", "1876-09-10", "1876-10-03", "1876-10-04", "1876-11-05", "1876-11-09", "1876-11-26", "1876-11-27", "1876-12-06"],
+         "importance": 26, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -64,10 +64,30 @@
          "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
          "lat": "48.20334",
          "lon": "16.363819",
-         "timestamp": ["1876-03-15", "1876-04-02", "1876-04-27", "1876-05-08", "1876-06-29", "1876-09-01", "1876-09-03", "1876-09-05", "1876-09-07", "1876-09-09", "1876-09-10", "1876-10-04", "1876-11-05", "1876-11-09", "1876-11-26", "1876-11-27", "1876-12-06"],
-         "importance": 17, 
+         "timestamp": ["1876-01-30", "1876-02-29", "1876-03-15", "1876-03-29", "1876-04-02", "1876-04-24", "1876-04-27", "1876-05-04", "1876-05-08", "1876-06-23", "1876-06-29", "1876-07-06", "1876-08-23", "1876-09-01", "1876-09-03", "1876-09-05", "1876-09-07", "1876-09-09", "1876-09-10", "1876-10-03", "1876-10-04", "1876-11-05", "1876-11-09", "1876-11-26", "1876-11-27", "1876-12-06"],
+         "importance": 26, 
         "abbr": "Ordination", 
         "type": "Ordination"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1876-02-29", "1876-03-29"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
       }
       }, 
     {
@@ -85,6 +105,24 @@
          "importance": 2, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1876-04-24", "1876-05-04", "1876-06-23", "1876-07-06"],
+         "importance": 4, 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
       }
       }, 
     {
@@ -122,6 +160,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q45350189", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37084, 48.210333]
+      },
+      "properties": {
+         "id": "pmb2",
+         "title": "Konservatorium der Gesellschaft der Musikfreunde",
+         "lat": "48.210333",
+         "lon": "16.37084",
+         "timestamp": ["1876-10-03"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Universität_für_Musik_und_darstellende_Kunst_Wien", 
+        "abbr": "Konservatorium (K.KON)", 
+        "type": "Konservatorium"
       }
       }, 
     {

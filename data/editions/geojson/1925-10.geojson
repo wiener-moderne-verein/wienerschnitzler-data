@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1925-10-01", "1925-10-02", "1925-10-03", "1925-10-04", "1925-10-05", "1925-10-06", "1925-10-07", "1925-10-08", "1925-10-09", "1925-10-10", "1925-10-11", "1925-10-15", "1925-10-21", "1925-10-22", "1925-10-23", "1925-10-24", "1925-10-25", "1925-10-26", "1925-10-27", "1925-10-28", "1925-10-29", "1925-10-30", "1925-10-31"],
-         "importance": 23, 
+         "timestamp": ["1925-10-01", "1925-10-02", "1925-10-03", "1925-10-04", "1925-10-05", "1925-10-06", "1925-10-07", "1925-10-08", "1925-10-09", "1925-10-10", "1925-10-11", "1925-10-21", "1925-10-22", "1925-10-23", "1925-10-24", "1925-10-25", "1925-10-26", "1925-10-27", "1925-10-28", "1925-10-29", "1925-10-30", "1925-10-31"],
+         "importance": 22, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -186,6 +186,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.360365, 52.498452]
+      },
+      "properties": {
+         "id": "pmb233777",
+         "title": "Bülowstraße 90",
+         "lat": "52.498452",
+         "lon": "13.360365",
+         "timestamp": ["1925-10-14"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -260,8 +277,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1925-10-01", "1925-10-02", "1925-10-03", "1925-10-04", "1925-10-05", "1925-10-06", "1925-10-07", "1925-10-08", "1925-10-09", "1925-10-10", "1925-10-11", "1925-10-15", "1925-10-21", "1925-10-22", "1925-10-23", "1925-10-24", "1925-10-25", "1925-10-26", "1925-10-27", "1925-10-28", "1925-10-29", "1925-10-30", "1925-10-31"],
-         "importance": 23, 
+         "timestamp": ["1925-10-01", "1925-10-02", "1925-10-03", "1925-10-04", "1925-10-05", "1925-10-06", "1925-10-07", "1925-10-08", "1925-10-09", "1925-10-10", "1925-10-11", "1925-10-21", "1925-10-22", "1925-10-23", "1925-10-24", "1925-10-25", "1925-10-26", "1925-10-27", "1925-10-28", "1925-10-29", "1925-10-30", "1925-10-31"],
+         "importance": 22, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -345,6 +362,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.387328, 52.500042]
+      },
+      "properties": {
+         "id": "pmb13",
+         "title": "Hebbel-Theater",
+         "lat": "52.500042",
+         "lon": "13.387328",
+         "timestamp": ["1925-10-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hebbel-Theater", 
+        "wikidata": "http://www.wikidata.org/entity/Q1592692", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -398,25 +434,6 @@
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q113470466", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.387328, 52.500042]
-      },
-      "properties": {
-         "id": "pmb13",
-         "title": "Hebbel-Theater",
-         "lat": "52.500042",
-         "lon": "13.387328",
-         "timestamp": ["1925-10-13"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hebbel-Theater", 
-        "wikidata": "http://www.wikidata.org/entity/Q1592692", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }

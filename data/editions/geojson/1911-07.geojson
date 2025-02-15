@@ -128,8 +128,8 @@
          "title": "I., Innere Stadt",
          "lat": "48.20769",
          "lon": "16.37049",
-         "timestamp": ["1911-07-12", "1911-07-17", "1911-07-17", "1911-07-21"],
-         "importance": 4, 
+         "timestamp": ["1911-07-12", "1911-07-17", "1911-07-21"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
@@ -541,8 +541,8 @@
          "title": "Hauptbahnhof Salzburg",
          "lat": "47.813139",
          "lon": "13.045769",
-         "timestamp": ["1911-07-24", "1911-07-29", "1911-07-29", "1911-07-30"],
-         "importance": 4, 
+         "timestamp": ["1911-07-24", "1911-07-29", "1911-07-30"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q694694", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -560,8 +560,8 @@
          "title": "Goldschmiedgasse 1",
          "lat": "48.208448",
          "lon": "16.371571",
-         "timestamp": ["1911-07-07", "1911-07-07", "1911-07-08"],
-         "importance": 3, 
+         "timestamp": ["1911-07-07", "1911-07-08"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "arbeitsort": [
@@ -584,8 +584,8 @@
          "title": "Sternwartepark",
          "lat": "48.231734296625",
          "lon": "16.333374529707",
-         "timestamp": ["1911-07-14", "1911-07-14"],
-         "importance": 2, 
+         "timestamp": ["1911-07-14"],
+         "importance": 1, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
       }
@@ -871,6 +871,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.339132, 48.234021]
+      },
+      "properties": {
+         "id": "pmb252012",
+         "title": "Hasenauerstraße 42",
+         "lat": "48.234021",
+         "lon": "16.339132",
+         "timestamp": ["1911-07-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.827222222222222, 47.649166666666666]
       },
       "properties": {
@@ -900,6 +917,195 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.276309, 48.077068]
+      },
+      "properties": {
+         "id": "pmb252202",
+         "title": "Goldene Stiege",
+         "lat": "48.077068",
+         "lon": "16.276309",
+         "timestamp": ["1911-07-16"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04806, 47.63293]
+      },
+      "properties": {
+         "id": "pmb91375",
+         "title": "Obersalzberg",
+         "lat": "47.63293",
+         "lon": "13.04806",
+         "timestamp": ["1911-07-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Obersalzberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q284309", 
+        "geonames": "https://sws.geonames.org/2859203/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.032305717468, 47.632263183594]
+      },
+      "properties": {
+         "id": "pmb252226",
+         "title": "Hotel Antenberg",
+         "lat": "47.632263183594",
+         "lon": "13.032305717468",
+         "timestamp": ["1911-07-24"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.399109, 47.261946]
+      },
+      "properties": {
+         "id": "pmb252237",
+         "title": "Hotel zur Sonne [Innsbruck]",
+         "lat": "47.261946",
+         "lon": "11.399109",
+         "timestamp": ["1911-07-30", "1911-07-31"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.400833, 47.263889]
+      },
+      "properties": {
+         "id": "pmb252240",
+         "title": "Innsbruck Hauptbahnhof",
+         "lat": "47.263889",
+         "lon": "11.400833",
+         "timestamp": ["1911-07-30", "1911-07-31"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innsbruck_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q668727", 
+        "geonames": "https://sws.geonames.org/2775217/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.34922, 47.15202]
+      },
+      "properties": {
+         "id": "pmb985",
+         "title": "Fulpmes",
+         "lat": "47.15202",
+         "lon": "11.34922",
+         "timestamp": ["1911-07-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Fulpmes", 
+        "wikidata": "http://www.wikidata.org/entity/Q669803", 
+        "geonames": "https://sws.geonames.org/7873605/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.398056, 47.252778]
+      },
+      "properties": {
+         "id": "pmb252245",
+         "title": "Stubaitalbahn",
+         "lat": "47.252778",
+         "lon": "11.398056",
+         "timestamp": ["1911-07-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stubaitalbahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q872840", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.39694444, 47.28611111]
+      },
+      "properties": {
+         "id": "pmb252251",
+         "title": "Hungerburg",
+         "lat": "47.28611111",
+         "lon": "11.39694444",
+         "timestamp": ["1911-07-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hungerburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q1637834", 
+        "geonames": "https://sws.geonames.org/2775389/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4024, 47.2834]
+      },
+      "properties": {
+         "id": "pmb252254",
+         "title": "Hungerburgbahn [1906–2005]",
+         "lat": "47.2834",
+         "lon": "11.4024",
+         "timestamp": ["1911-07-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hungerburgbahn_(1906%E2%80%932005)", 
+        "wikidata": "http://www.wikidata.org/entity/Q14552199", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.40166667, 47.25027778]
+      },
+      "properties": {
+         "id": "pmb252258",
+         "title": "Innsbrucker Riesenrundgemälde",
+         "lat": "47.25027778",
+         "lon": "11.40166667",
+         "timestamp": ["1911-07-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innsbrucker_Riesenrundgem%C3%A4lde", 
+        "wikidata": "http://www.wikidata.org/entity/Q1298116", 
+        "geonames": "https://sws.geonames.org/6949529/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

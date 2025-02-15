@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.373293, 48.207882], 
+            [16.430054, 48.194558], 
             [16.43898217221, 48.19252071812], 
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.347492624475, 48.216264483348]
           ]
       },
       "properties": {
@@ -31,6 +34,80 @@
         "wikidata": "http://www.wikidata.org/entity/Q1877731", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1911-09-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752", 
+        "geonames": "https://sws.geonames.org/3322725/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1911-09-03"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373293, 48.207882]
+      },
+      "properties": {
+         "id": "pmb172",
+         "title": "Kellerei und Gastwirtschaft Deutsches Haus, Friedrich Kargl",
+         "lat": "48.207882",
+         "lon": "16.373293",
+         "timestamp": ["1911-09-03"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131278738", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
       }
       },
     {

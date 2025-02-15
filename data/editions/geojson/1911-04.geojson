@@ -173,6 +173,8 @@
          "lon": "16.36143",
          "timestamp": ["1911-04-02"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Langenzersdorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q675616", 
         "geonames": "https://sws.geonames.org/2772998/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
@@ -358,8 +360,8 @@
          "title": "Monte Carlo",
          "lat": "43.73976",
          "lon": "7.42732",
-         "timestamp": ["1911-04-17", "1911-04-17", "1911-04-18", "1911-04-20", "1911-04-23"],
-         "importance": 5, 
+         "timestamp": ["1911-04-17", "1911-04-18", "1911-04-20", "1911-04-23"],
+         "importance": 4, 
         "geonames": "https://sws.geonames.org/2992741/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
@@ -600,8 +602,8 @@
          "title": "Hauptbahnhof München",
          "lat": "48.140833",
          "lon": "11.555",
-         "timestamp": ["1911-04-11", "1911-04-13", "1911-04-25", "1911-04-25", "1911-04-27"],
-         "importance": 5, 
+         "timestamp": ["1911-04-11", "1911-04-13", "1911-04-25", "1911-04-27"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q254647", 
         "geonames": "https://sws.geonames.org/6324603/", 
@@ -740,10 +742,67 @@
          "title": "Partenkirchen",
          "lat": "47.4956",
          "lon": "11.1097",
-         "timestamp": ["1911-04-11", "1911-04-12", "1911-04-13", "1911-04-27", "1911-04-27", "1911-04-28", "1911-04-28", "1911-04-29", "1911-04-29", "1911-04-30", "1911-04-30"],
-         "importance": 11, 
+         "timestamp": ["1911-04-11", "1911-04-12", "1911-04-13", "1911-04-27", "1911-04-28", "1911-04-29", "1911-04-30"],
+         "importance": 7, 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361389, 48.331389]
+      },
+      "properties": {
+         "id": "pmb55972",
+         "title": "Bisamberg",
+         "lat": "48.331389",
+         "lon": "16.361389",
+         "timestamp": ["1911-04-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bisamberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q662813", 
+        "geonames": "https://sws.geonames.org/7871785/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363003, 48.3207592]
+      },
+      "properties": {
+         "id": "pmb251894",
+         "title": "Bisamberg [Berg]",
+         "lat": "48.3207592",
+         "lon": "16.363003",
+         "timestamp": ["1911-04-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bisamberg_(Berg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q866020", 
+        "geonames": "https://sws.geonames.org/2781743/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.063517350658763, 47.493175141230324]
+      },
+      "properties": {
+         "id": "pmb251910",
+         "title": "Berggasthof Almhütte [Garmisch-Partenkirchen]",
+         "lat": "47.493175141230324",
+         "lon": "11.063517350658763",
+         "timestamp": ["1911-04-12"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }, 
     {
@@ -826,6 +885,184 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.1716823, 44.33439]
+      },
+      "properties": {
+         "id": "pmb251914",
+         "title": "Hotel Portofino Kulm",
+         "lat": "44.33439",
+         "lon": "9.1716823",
+         "timestamp": ["1911-04-15"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1717, 44.3255]
+      },
+      "properties": {
+         "id": "pmb251917",
+         "title": "Monte di Portofino",
+         "lat": "44.3255",
+         "lon": "9.1717",
+         "timestamp": ["1911-04-15"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3862173", 
+        "geonames": "https://sws.geonames.org/3224527/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.16866, 44.3267]
+      },
+      "properties": {
+         "id": "pmb251922",
+         "title": "Semaforo Vecchio",
+         "lat": "44.3267",
+         "lon": "9.16866",
+         "timestamp": ["1911-04-15"],
+         "importance": 1, 
+        "abbr": "Infrastrukturgebäude (K.INF)", 
+        "type": "Infrastrukturgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.21204, 44.33456]
+      },
+      "properties": {
+         "id": "pmb56264",
+         "title": "Santa Margherita Ligure",
+         "lat": "44.33456",
+         "lon": "9.21204",
+         "timestamp": ["1911-04-15"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3167595/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.497536, 43.777129]
+      },
+      "properties": {
+         "id": "pmb251927",
+         "title": "Grand Hôtel National [Menton]",
+         "lat": "43.777129",
+         "lon": "7.497536",
+         "timestamp": ["1911-04-16", "1911-04-17", "1911-04-18", "1911-04-19", "1911-04-20", "1911-04-21", "1911-04-22", "1911-04-23", "1911-04-24"],
+         "importance": 9, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.554484, 43.782967]
+      },
+      "properties": {
+         "id": "pmb251930",
+         "title": "Botanischer Garten Hanbury",
+         "lat": "43.782967",
+         "lon": "7.554484",
+         "timestamp": ["1911-04-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Botanischer_Garten_Hanbury", 
+        "wikidata": "http://www.wikidata.org/entity/Q894646", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.55396, 43.78566]
+      },
+      "properties": {
+         "id": "pmb91300",
+         "title": "Mortola Inferiore",
+         "lat": "43.78566",
+         "lon": "7.55396",
+         "timestamp": ["1911-04-17"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q734312", 
+        "geonames": "https://sws.geonames.org/3172546/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.494154, 43.775002]
+      },
+      "properties": {
+         "id": "pmb251940",
+         "title": "Café-Hôtel-Restaurant de la Régence",
+         "lat": "43.775002",
+         "lon": "7.494154",
+         "timestamp": ["1911-04-19"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.501677, 43.776362]
+      },
+      "properties": {
+         "id": "pmb251944",
+         "title": "Casino Municipal [Menton]",
+         "lat": "43.776362",
+         "lon": "7.501677",
+         "timestamp": ["1911-04-19", "1911-04-24"],
+         "importance": 2, 
+        "abbr": "Casino", 
+        "type": "Casino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.48921, 43.7836]
+      },
+      "properties": {
+         "id": "pmb251947",
+         "title": "Monastère de l’Annonciade",
+         "lat": "43.7836",
+         "lon": "7.48921",
+         "timestamp": ["1911-04-20"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3320356", 
+        "abbr": "Kloster (K.KLS)", 
+        "type": "Kloster"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [7.10831, 43.58579]
       },
       "properties": {
@@ -838,6 +1075,147 @@
         "geonames": "https://sws.geonames.org/3037456/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.04053, 43.5522]
+      },
+      "properties": {
+         "id": "pmb251952",
+         "title": "Hotel Le Californie",
+         "lat": "43.5522",
+         "lon": "7.04053",
+         "timestamp": ["1911-04-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q18215078", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.22763, 43.67507]
+      },
+      "properties": {
+         "id": "pmb90430",
+         "title": "La Californie",
+         "lat": "43.67507",
+         "lon": "7.22763",
+         "timestamp": ["1911-04-21"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3010641/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.1303, 43.5453]
+      },
+      "properties": {
+         "id": "pmb251960",
+         "title": "Villa Eilenroc",
+         "lat": "43.5453",
+         "lon": "7.1303",
+         "timestamp": ["1911-04-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3558522", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.49661, 43.80414]
+      },
+      "properties": {
+         "id": "pmb90456",
+         "title": "Castellar",
+         "lat": "43.80414",
+         "lon": "7.49661",
+         "timestamp": ["1911-04-22"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3028380/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.42769, 43.73972]
+      },
+      "properties": {
+         "id": "pmb251966",
+         "title": "Café de Paris [Monte Carlo]",
+         "lat": "43.73972",
+         "lon": "7.42769",
+         "timestamp": ["1911-04-23"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q2932978", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.451369, 43.821206]
+      },
+      "properties": {
+         "id": "pmb92175",
+         "title": "Borrigotal",
+         "lat": "43.821206",
+         "lon": "7.451369",
+         "timestamp": ["1911-04-24"],
+         "importance": 1, 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.464298, 43.805467]
+      },
+      "properties": {
+         "id": "pmb251971",
+         "title": "Vallee des Primevères",
+         "lat": "43.805467",
+         "lon": "7.464298",
+         "timestamp": ["1911-04-24"],
+         "importance": 1, 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.45146, 43.78436]
+      },
+      "properties": {
+         "id": "pmb251974",
+         "title": "Val de Gorbio",
+         "lat": "43.78436",
+         "lon": "7.45146",
+         "timestamp": ["1911-04-24"],
+         "importance": 1, 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
       }
       }, 
     {

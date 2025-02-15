@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.8241, 47.64224], 
+            [15.83064, 47.63961], 
+            [16.2425, 48.003889], 
             [16.204313096, 48.01122761]
           ]
       },
@@ -18,20 +19,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.8241, 47.64224]
+        "coordinates": [15.83064, 47.63961]
       },
       "properties": {
-         "id": "pmb189",
-         "title": "Semmering",
-         "lat": "47.64224",
-         "lon": "15.8241",
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
          "timestamp": ["1911-08-26"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)", 
-        "wikidata": "http://www.wikidata.org/entity/Q659891", 
-        "geonames": "https://sws.geonames.org/7873001/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {
@@ -49,6 +48,25 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2425, 48.003889]
+      },
+      "properties": {
+         "id": "pmb249350",
+         "title": "Bahnhof Baden bei Wien",
+         "lat": "48.003889",
+         "lon": "16.2425",
+         "timestamp": ["1911-08-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

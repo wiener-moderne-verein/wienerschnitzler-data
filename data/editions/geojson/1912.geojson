@@ -902,6 +902,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.386944, 52.515833]
+      },
+      "properties": {
+         "id": "pmb201039",
+         "title": "Berliner Metropol Theater",
+         "lat": "52.515833",
+         "lon": "13.386944",
+         "timestamp": ["1912-11-24"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.385425, 52.51165]
       },
       "properties": {
@@ -1575,8 +1592,8 @@
          "title": "Pinkenkogel",
          "lat": "47.65",
          "lon": "15.81667",
-         "timestamp": ["1912-01-15", "1912-01-15"],
-         "importance": 2, 
+         "timestamp": ["1912-01-15"],
+         "importance": 1, 
         "geonames": "https://sws.geonames.org/2768810/", 
         "abbr": "T.PK", 
         "type": "Bergspitze"
@@ -2084,6 +2101,36 @@
          "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33691, 48.23233]
+      },
+      "properties": {
+         "id": "pmb235127",
+         "title": "Sternwartestraße 62–64",
+         "lat": "48.23233",
+         "lon": "16.33691",
+         "timestamp": ["1912-01-27", "1912-05-04", "1912-05-29", "1912-06-08"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alice Schmutzer",
+
+         "p_id": "#9734"
+         }, 
+         {
+
+         "p_name": "Ferdinand Schmutzer",
+
+         "p_id": "#12689"
+         }]
       }
       }, 
     {

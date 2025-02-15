@@ -7,7 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.23114, 48.012864], 
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.33691, 48.23233]
           ]
       },
       "properties": {
@@ -102,6 +103,36 @@
          "importance": 1, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33691, 48.23233]
+      },
+      "properties": {
+         "id": "pmb235127",
+         "title": "Sternwartestraße 62–64",
+         "lat": "48.23233",
+         "lon": "16.33691",
+         "timestamp": ["1916-02-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alice Schmutzer",
+
+         "p_id": "#9734"
+         }, 
+         {
+
+         "p_name": "Ferdinand Schmutzer",
+
+         "p_id": "#12689"
+         }]
       }
       }
   ]

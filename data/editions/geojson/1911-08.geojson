@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1911-08-01", "1911-08-29", "1911-08-30", "1911-08-31"],
-         "importance": 4, 
+         "timestamp": ["1911-08-01", "1911-08-02", "1911-08-29", "1911-08-30", "1911-08-31"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -50,6 +50,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.93893, 47.67487]
+      },
+      "properties": {
+         "id": "pmb90727",
+         "title": "Gloggnitz",
+         "lat": "47.67487",
+         "lon": "15.93893",
+         "timestamp": ["1911-08-21"],
+         "importance": 1, 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3709701, 48.2017407]
       },
       "properties": {
@@ -67,6 +84,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.23264, 48.00543]
+      },
+      "properties": {
+         "id": "pmb662",
+         "title": "Baden bei Wien",
+         "lat": "48.00543",
+         "lon": "16.23264",
+         "timestamp": ["1911-08-23", "1911-08-26"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Baden_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q486450", 
+        "geonames": "https://sws.geonames.org/2782067/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.379829498031, 48.187455471378]
       },
       "properties": {
@@ -74,12 +111,29 @@
          "title": "Südbahnhof",
          "lat": "48.187455471378",
          "lon": "16.379829498031",
-         "timestamp": ["1911-08-01"],
-         "importance": 1, 
+         "timestamp": ["1911-08-01", "1911-08-02", "1911-08-29", "1911-08-30"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379685, 48.188208]
+      },
+      "properties": {
+         "id": "pmb187206",
+         "title": "Restauration »Am Südbahnhof«",
+         "lat": "48.188208",
+         "lon": "16.379685",
+         "timestamp": ["1911-08-30", "1911-08-30"],
+         "importance": 2, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
@@ -130,8 +184,8 @@
          "title": "Sanatorium Loew",
          "lat": "48.216264483348",
          "lon": "16.347492624475",
-         "timestamp": ["1911-08-29"],
-         "importance": 1, 
+         "timestamp": ["1911-08-29", "1911-08-30", "1911-08-31"],
+         "importance": 3, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
         "arbeitsort": [
@@ -159,6 +213,64 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.67877, 47.61131]
+      },
+      "properties": {
+         "id": "pmb40959",
+         "title": "Mürzzuschlag",
+         "lat": "47.61131",
+         "lon": "15.67877",
+         "timestamp": ["1911-08-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCrzzuschlag", 
+        "wikidata": "http://www.wikidata.org/entity/Q492868", 
+        "geonames": "https://sws.geonames.org/7872461/ https://sws.geonames.org/2770993/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.91667, 47.63333]
+      },
+      "properties": {
+         "id": "pmb91683",
+         "title": "Schlagl",
+         "lat": "47.63333",
+         "lon": "15.91667",
+         "timestamp": ["1911-08-21"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2765942/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.82151, 47.65949]
+      },
+      "properties": {
+         "id": "pmb36503",
+         "title": "Breitenstein am Semmering",
+         "lat": "47.65949",
+         "lon": "15.82151",
+         "timestamp": ["1911-08-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Breitenstein_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q124981", 
+        "geonames": "https://sws.geonames.org/2781451/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.86924, 47.64168]
       },
       "properties": {
@@ -166,13 +278,31 @@
          "title": "Maria Schutz",
          "lat": "47.64168",
          "lon": "15.86924",
-         "timestamp": ["1911-08-21"],
-         "importance": 1, 
+         "timestamp": ["1911-08-21", "1911-08-21", "1911-08-21"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Maria_Schutz", 
         "wikidata": "http://www.wikidata.org/entity/Q1896302", 
         "geonames": "https://sws.geonames.org/2771904/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.93333, 47.63333]
+      },
+      "properties": {
+         "id": "pmb91556",
+         "title": "Raach am Hochgebirge",
+         "lat": "47.63333",
+         "lon": "15.93333",
+         "timestamp": ["1911-08-21"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2768175/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -196,6 +326,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.380897, 48.208627]
+      },
+      "properties": {
+         "id": "pmb235381",
+         "title": "Biberstraße 8",
+         "lat": "48.208627",
+         "lon": "16.380897",
+         "timestamp": ["1911-08-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.81667, 47.65]
       },
       "properties": {
@@ -203,11 +363,29 @@
          "title": "Pinkenkogel",
          "lat": "47.65",
          "lon": "15.81667",
-         "timestamp": ["1911-08-06", "1911-08-19", "1911-08-24"],
-         "importance": 3, 
+         "timestamp": ["1911-08-06", "1911-08-06", "1911-08-19", "1911-08-19", "1911-08-24", "1911-08-24"],
+         "importance": 6, 
         "geonames": "https://sws.geonames.org/2768810/", 
         "abbr": "T.PK", 
         "type": "Bergspitze"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1911-08-02", "1911-08-21", "1911-08-26", "1911-08-29", "1911-08-30"],
+         "importance": 5, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -221,11 +399,86 @@
          "title": "Ochnerhöhe",
          "lat": "47.65",
          "lon": "15.78333",
-         "timestamp": ["1911-08-18", "1911-08-28"],
-         "importance": 2, 
+         "timestamp": ["1911-08-17", "1911-08-18", "1911-08-28"],
+         "importance": 3, 
         "geonames": "https://sws.geonames.org/2769550/", 
         "abbr": "T.PK", 
         "type": "Bergspitze"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1911-08-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.9467, 47.6777]
+      },
+      "properties": {
+         "id": "pmb248281",
+         "title": "Bahnhof Gloggnitz",
+         "lat": "47.6777",
+         "lon": "15.9467",
+         "timestamp": ["1911-08-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Gloggnitz", 
+        "wikidata": "http://www.wikidata.org/entity/Q800821", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2425, 48.003889]
+      },
+      "properties": {
+         "id": "pmb249350",
+         "title": "Bahnhof Baden bei Wien",
+         "lat": "48.003889",
+         "lon": "16.2425",
+         "timestamp": ["1911-08-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -239,8 +492,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1911-08-01", "1911-08-29", "1911-08-30", "1911-08-31"],
-         "importance": 4, 
+         "timestamp": ["1911-08-01", "1911-08-02", "1911-08-29", "1911-08-30", "1911-08-31"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -299,6 +552,40 @@
 
          "p_id": "#22399"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.824942, 47.645535]
+      },
+      "properties": {
+         "id": "pmb251646",
+         "title": "Villa Kleinhans",
+         "lat": "47.645535",
+         "lon": "15.824942",
+         "timestamp": ["1911-08-09", "1911-08-25", "1911-08-28"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.84854, 47.63882]
+      },
+      "properties": {
+         "id": "pmb236397",
+         "title": "Liechtensteinstraße [Semmering]",
+         "lat": "47.63882",
+         "lon": "15.84854",
+         "timestamp": ["1911-08-18", "1911-08-28"],
+         "importance": 2, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }
   ]

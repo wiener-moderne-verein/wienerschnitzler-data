@@ -1079,8 +1079,8 @@
          "title": "Anninger",
          "lat": "48.04743",
          "lon": "16.246",
-         "timestamp": ["1915-03-25", "1915-03-25"],
-         "importance": 2, 
+         "timestamp": ["1915-03-25"],
+         "importance": 1, 
         "geonames": "https://sws.geonames.org/2782484/", 
         "abbr": "T.MT", 
         "type": "Berg"
@@ -1335,8 +1335,8 @@
          "title": "Pinkenkogel",
          "lat": "47.65",
          "lon": "15.81667",
-         "timestamp": ["1915-06-26"],
-         "importance": 1, 
+         "timestamp": ["1915-06-26", "1915-06-26"],
+         "importance": 2, 
         "geonames": "https://sws.geonames.org/2768810/", 
         "abbr": "T.PK", 
         "type": "Bergspitze"
@@ -1959,6 +1959,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.276309, 48.077068]
+      },
+      "properties": {
+         "id": "pmb252202",
+         "title": "Goldene Stiege",
+         "lat": "48.077068",
+         "lon": "16.276309",
+         "timestamp": ["1915-03-25"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33691, 48.23233]
+      },
+      "properties": {
+         "id": "pmb235127",
+         "title": "Sternwartestraße 62–64",
+         "lat": "48.23233",
+         "lon": "16.33691",
+         "timestamp": ["1915-01-15", "1915-03-10", "1915-04-05", "1915-04-13", "1915-05-12", "1915-05-28", "1915-06-03", "1915-07-15", "1915-09-04", "1915-10-07", "1915-10-09", "1915-12-25"],
+         "importance": 12, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alice Schmutzer",
+
+         "p_id": "#9734"
+         }, 
+         {
+
+         "p_name": "Ferdinand Schmutzer",
+
+         "p_id": "#12689"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.370928, 48.19224]
       },
       "properties": {
@@ -2263,6 +2310,23 @@
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.24594, 48.054702]
+      },
+      "properties": {
+         "id": "pmb92145",
+         "title": "Anningerhaus",
+         "lat": "48.054702",
+         "lon": "16.24594",
+         "timestamp": ["1915-03-25", "1915-05-11"],
+         "importance": 2, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }, 
     {

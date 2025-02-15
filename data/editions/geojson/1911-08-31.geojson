@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.347492624475, 48.216264483348], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +14,42 @@
         "name": "31. August 1911"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1911-08-31"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

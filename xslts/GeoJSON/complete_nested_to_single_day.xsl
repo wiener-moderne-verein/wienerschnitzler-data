@@ -90,7 +90,7 @@
         <xsl:param name="full-listPlace-dublettenbereinigt" as="node()"/>
         <!-- Add a comma before every feature except the first one -->
         <xsl:if test="position() > 1"> </xsl:if>
-        <xsl:value-of select="mam:macht-linie($full-listPlace-dublettenbereinigt, 'day', ancestor::tei:event/@when)"/>
+        <xsl:value-of select="mam:macht-linie($full-listPlace-dublettenbereinigt, 'day', ancestor::tei:event/@when, ancestor::tei:event/@when)"/>
     </xsl:template>
     <xsl:function name="mam:koordinaten-vorhanden" as="xs:boolean">
         <xsl:param name="corresp" as="xs:string"/>

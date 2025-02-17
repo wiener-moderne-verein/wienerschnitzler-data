@@ -37,7 +37,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -196,12 +203,30 @@
          "title": "Hotel Continental [München]",
          "lat": "48.143395",
          "lon": "11.569993",
-         "timestamp": ["1913-09-04", "1913-09-05", "1913-09-06", "1913-09-07", "1913-09-08", "1913-09-09"],
-         "importance": 6, 
+         "timestamp": ["1913-09-04", "1913-09-04", "1913-09-05", "1913-09-05", "1913-09-06", "1913-09-06", "1913-09-07", "1913-09-07", "1913-09-08", "1913-09-08", "1913-09-09", "1913-09-09", "1913-09-10", "1913-09-10", "1913-09-11", "1913-09-11"],
+         "importance": 16, 
         "wikipedia": "https://de.wikipedia.org/wiki/Grand_Hotel_Continental_(M%C3%BCnchen)", 
         "wikidata": "http://www.wikidata.org/entity/Q57843963", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2803, 47.90938]
+      },
+      "properties": {
+         "id": "pmb44493",
+         "title": "Tutzing",
+         "lat": "47.90938",
+         "lon": "11.2803",
+         "timestamp": ["1913-09-09", "1913-09-11"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2820692/", 
+        "abbr": "P.PPLA4", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -472,6 +497,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q118397834", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.570472222222, 48.142138888889]
+      },
+      "properties": {
+         "id": "pmb252869",
+         "title": "Regina-Palast-Hotel [München]",
+         "lat": "48.142138888889",
+         "lon": "11.570472222222",
+         "timestamp": ["1913-09-08", "1913-09-09", "1913-09-10", "1913-09-11"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Regina-Palast-Hotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q48665523", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {

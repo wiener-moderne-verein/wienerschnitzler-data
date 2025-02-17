@@ -71,7 +71,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -881,6 +888,12 @@
          "p_name": "Anton Loew",
 
          "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
          }, 
          {
 
@@ -1840,6 +1853,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.273893, 52.490797]
+      },
+      "properties": {
+         "id": "pmb252558",
+         "title": "Erdener Straße 8",
+         "lat": "52.490797",
+         "lon": "13.273893",
+         "timestamp": ["1922-05-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }, 
+         {
+
+         "p_name": "Hedwig Fischer",
+
+         "p_id": "#2657"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33691, 48.23233]
       },
       "properties": {
@@ -1899,7 +1942,37 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hebbel-Theater", 
         "wikidata": "http://www.wikidata.org/entity/Q1592692", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Rudolf Bernauer",
+
+         "p_id": "#10896"
+         }, 
+         {
+
+         "p_name": "Carl Meinhard",
+
+         "p_id": "#8889"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.575765, 48.139924]
+      },
+      "properties": {
+         "id": "pmb268",
+         "title": "Hugo Böttner, Delikatessenhandlung, Austernstube und Dessertweinausschank",
+         "lat": "48.139924",
+         "lon": "11.575765",
+         "timestamp": ["1922-05-18"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
@@ -2137,6 +2210,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q113470466", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33414, 48.23331]
+      },
+      "properties": {
+         "id": "pmb252625",
+         "title": "Josef-Kainz-Park",
+         "lat": "48.23331",
+         "lon": "16.33414",
+         "timestamp": ["1922-05-28"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q109686349", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {

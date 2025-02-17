@@ -25,6 +25,43 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1912-04-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1912-03-08", "1912-03-15"],
+         "importance": 2, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3691, 48.203]
       },
       "properties": {
@@ -32,12 +69,19 @@
          "title": "Oper",
          "lat": "48.203",
          "lon": "16.3691",
-         "timestamp": ["1912-03-14", "1912-03-24", "1912-04-26", "1912-04-27", "1912-06-22", "1912-12-15"],
-         "importance": 6, 
+         "timestamp": ["1912-02-17", "1912-03-14", "1912-03-24", "1912-04-26", "1912-04-27", "1912-06-22", "1912-12-15"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -70,6 +114,25 @@
 
          "p_id": "#3787"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1912-02-08", "1912-03-11", "1912-03-15", "1912-04-12"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
       }
       }, 
     {
@@ -140,8 +203,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1912-01-31", "1912-04-12", "1912-06-04", "1912-06-19", "1912-07-02", "1912-09-25", "1912-10-09", "1912-10-25", "1912-11-01", "1912-12-21"],
-         "importance": 10, 
+         "timestamp": ["1912-01-31", "1912-03-05", "1912-03-05", "1912-03-27", "1912-04-12", "1912-06-04", "1912-06-19", "1912-07-02", "1912-09-25", "1912-10-09", "1912-10-25", "1912-11-01", "1912-12-21"],
+         "importance": 13, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -202,6 +265,26 @@
         "geonames": "https://sws.geonames.org/2761738/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.32522, 48.30521]
+      },
+      "properties": {
+         "id": "pmb865",
+         "title": "Klosterneuburg",
+         "lat": "48.30521",
+         "lon": "16.32522",
+         "timestamp": ["1912-04-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q487522", 
+        "geonames": "https://sws.geonames.org/2773913/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -382,6 +465,75 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1912-01-03", "1912-01-09", "1912-01-16", "1912-04-28"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37601664270439, 48.198498814707754]
+      },
+      "properties": {
+         "id": "pmb53143",
+         "title": "Schwarzenbergplatz",
+         "lat": "48.198498814707754",
+         "lon": "16.37601664270439",
+         "timestamp": ["1912-03-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergplatz", 
+        "wikidata": "http://www.wikidata.org/entity/Q686552", 
+        "geonames": "https://sws.geonames.org/10244814/", 
+        "abbr": "Platz (K.PLT)", 
+        "type": "Platz"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362803, 48.215589]
+      },
+      "properties": {
+         "id": "pmb207250",
+         "title": "Wasagasse 4",
+         "lat": "48.215589",
+         "lon": "16.362803",
+         "timestamp": ["1912-02-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Klein",
+
+         "p_id": "#19386"
+         }, 
+         {
+
+         "p_name": "Johann Klein",
+
+         "p_id": "#27770"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.3687, 52.51855]
       },
       "properties": {
@@ -393,6 +545,46 @@
          "importance": 1, 
         "abbr": "Oper (K.OPR)", 
         "type": "Oper"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1912-01-02", "1912-01-30", "1912-03-02", "1912-04-25"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1912-04-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -444,6 +636,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.30865, 48.291]
+      },
+      "properties": {
+         "id": "pmb44392",
+         "title": "Weidling",
+         "lat": "48.291",
+         "lon": "16.30865",
+         "timestamp": ["1912-04-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidling_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q484858", 
+        "geonames": "https://sws.geonames.org/2761741/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.043401, 47.802045]
       },
       "properties": {
@@ -470,6 +682,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.0391, 47.79964]
+      },
+      "properties": {
+         "id": "pmb91270",
+         "title": "Mönchsberg",
+         "lat": "47.79964",
+         "lon": "13.0391",
+         "timestamp": ["1912-04-04", "1912-04-05"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2771281/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.060833, 47.762222]
       },
       "properties": {
@@ -484,25 +714,6 @@
         "geonames": "https://sws.geonames.org/2776533/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.042019, 47.805528]
-      },
-      "properties": {
-         "id": "pmb180",
-         "title": "Mirabell",
-         "lat": "47.805528",
-         "lon": "13.042019",
-         "timestamp": ["1912-04-03"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Mirabell", 
-        "wikidata": "http://www.wikidata.org/entity/Q688546", 
-        "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
       }
       }, 
     {
@@ -536,7 +747,7 @@
          "title": "Salzburger Landestheater",
          "lat": "47.802778",
          "lon": "13.042778",
-         "timestamp": ["1912-04-03", "1912-04-04"],
+         "timestamp": ["1912-04-01", "1912-04-02"],
          "importance": 2, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
@@ -573,11 +784,66 @@
          "title": "Meissl & Schadn",
          "lat": "48.206416",
          "lon": "16.371211",
-         "timestamp": ["1912-03-11", "1912-03-16", "1912-03-24", "1912-04-26", "1912-04-27", "1912-06-22", "1912-09-16", "1912-09-18", "1912-09-20", "1912-09-25", "1912-10-08", "1912-10-31"],
-         "importance": 12, 
+         "timestamp": ["1912-03-11", "1912-03-16", "1912-04-26", "1912-04-27", "1912-06-22", "1912-09-16", "1912-09-18", "1912-09-20", "1912-09-25", "1912-10-08", "1912-10-31"],
+         "importance": 11, 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333568462613, 48.235119783861]
+      },
+      "properties": {
+         "id": "pmb113",
+         "title": "Türkenschanzpark",
+         "lat": "48.235119783861",
+         "lon": "16.333568462613",
+         "timestamp": ["1912-01-01", "1912-02-02", "1912-03-05", "1912-03-23"],
+         "importance": 4, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.24809, 48.08611]
+      },
+      "properties": {
+         "id": "pmb75",
+         "title": "Hinterbrühl",
+         "lat": "48.08611",
+         "lon": "16.24809",
+         "timestamp": ["1912-04-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hinterbr%C3%BChl", 
+        "wikidata": "http://www.wikidata.org/entity/Q664735", 
+        "geonames": "https://sws.geonames.org/2776358/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30011, 48.32932]
+      },
+      "properties": {
+         "id": "pmb91077",
+         "title": "Kritzendorf",
+         "lat": "48.32932",
+         "lon": "16.30011",
+         "timestamp": ["1912-06-23"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2773420/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -747,6 +1013,43 @@
         "geonames": "https://sws.geonames.org/2770640/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.26108, 48.08153]
+      },
+      "properties": {
+         "id": "pmb957",
+         "title": "Vorderbrühl",
+         "lat": "48.08153",
+         "lon": "16.26108",
+         "timestamp": ["1912-04-28"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/11612276/ https://sws.geonames.org/2762284/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359115820865, 48.21529247001]
+      },
+      "properties": {
+         "id": "pmb526",
+         "title": "Votivkirche",
+         "lat": "48.21529247001",
+         "lon": "16.359115820865",
+         "timestamp": ["1912-03-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Votivkirche_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q254476", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }, 
     {
@@ -983,10 +1286,34 @@
          }, 
          {
 
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2954, 48.0856]
+      },
+      "properties": {
+         "id": "pmb252697",
+         "title": "Bahnhof Mödling",
+         "lat": "48.0856",
+         "lon": "16.2954",
+         "timestamp": ["1912-04-28"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q18668081", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -1279,8 +1606,8 @@
          "title": "Urania Theater",
          "lat": "48.207691",
          "lon": "16.378158",
-         "timestamp": ["1912-03-16"],
-         "importance": 1, 
+         "timestamp": ["1912-03-10", "1912-03-11", "1912-03-16"],
+         "importance": 3, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -1307,6 +1634,25 @@
 
          "p_id": "#2173"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1912-04-01", "1912-04-06"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -1585,6 +1931,66 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.380897, 48.208627]
+      },
+      "properties": {
+         "id": "pmb235381",
+         "title": "Biberstraße 8",
+         "lat": "48.208627",
+         "lon": "16.380897",
+         "timestamp": ["1912-01-19", "1912-01-23", "1912-02-09", "1912-02-14"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361942, 48.212903]
+      },
+      "properties": {
+         "id": "pmb235692",
+         "title": "Universitätsring 10",
+         "lat": "48.212903",
+         "lon": "16.361942",
+         "timestamp": ["1912-04-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Margarethe Manassewitsch",
+
+         "p_id": "#20861"
+         }, 
+         {
+
+         "p_name": "Irene Mandl",
+
+         "p_id": "#20902"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.81667, 47.65]
       },
       "properties": {
@@ -1610,8 +2016,8 @@
          "title": "Südbahnhotel [Semmering]",
          "lat": "47.647222",
          "lon": "15.83",
-         "timestamp": ["1912-01-11", "1912-01-12", "1912-01-13", "1912-01-14", "1912-01-15", "1912-01-16"],
-         "importance": 6, 
+         "timestamp": ["1912-01-03", "1912-01-04", "1912-01-11", "1912-01-12", "1912-01-13", "1912-01-14", "1912-01-15", "1912-01-16"],
+         "importance": 8, 
         "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
         "wikidata": "http://www.wikidata.org/entity/Q1610900", 
         "abbr": "Hotel (K.HTL)", 
@@ -1623,6 +2029,53 @@
 
          "p_id": "#23635"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372979, 48.198039]
+      },
+      "properties": {
+         "id": "pmb237316",
+         "title": "Hoyosgasse 5",
+         "lat": "48.198039",
+         "lon": "16.372979",
+         "timestamp": ["1912-01-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Emma Altmann",
+
+         "p_id": "#13342"
+         }, 
+         {
+
+         "p_name": "Hans Altmann",
+
+         "p_id": "#13350"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.241739, 48.090788]
+      },
+      "properties": {
+         "id": "pmb44510",
+         "title": "Hotel Radetzky",
+         "lat": "48.090788",
+         "lon": "16.241739",
+         "timestamp": ["1912-04-28"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -1683,6 +2136,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1912-01-03", "1912-01-04", "1912-01-09", "1912-01-16"],
+         "importance": 4, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -1690,8 +2161,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1912-02-02", "1912-03-05", "1912-03-23", "1912-04-19", "1912-04-30", "1912-05-16", "1912-05-24", "1912-05-27", "1912-06-04", "1912-06-16", "1912-09-22", "1912-12-04"],
-         "importance": 12, 
+         "timestamp": ["1912-01-01", "1912-02-02", "1912-03-05", "1912-03-23", "1912-04-19", "1912-04-30", "1912-05-16", "1912-05-24", "1912-05-27", "1912-06-04", "1912-06-16", "1912-09-22", "1912-12-04"],
+         "importance": 13, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1725,6 +2196,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
          {
 
          "p_name": "Else Speidel-Haeberle",
@@ -1797,6 +2274,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1912-04-13"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Julia Bertha Culp",
+
+         "p_id": "#11123"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361853, 48.21494]
       },
       "properties": {
@@ -1808,6 +2328,23 @@
          "importance": 1, 
         "abbr": "Buchhandlung (K.BHL)", 
         "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1912-02-28"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank"
       }
       }, 
     {
@@ -1858,8 +2395,8 @@
          "title": "Neue Wiener Bühne",
          "lat": "48.2195962",
          "lon": "16.3589845",
-         "timestamp": ["1912-04-01", "1912-09-28"],
-         "importance": 2, 
+         "timestamp": ["1912-09-28"],
+         "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": [
@@ -1885,7 +2422,14 @@
          "timestamp": ["1912-01-18", "1912-02-17", "1912-05-31", "1912-06-20", "1912-10-07", "1912-12-11"],
          "importance": 6, 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Berger",
+
+         "p_id": "#14065"
+         }]
       }
       }, 
     {
@@ -1899,12 +2443,68 @@
          "title": "Johann-Strauß-Theater",
          "lat": "48.1954",
          "lon": "16.3685",
-         "timestamp": ["1912-01-09", "1912-05-04", "1912-09-18", "1912-09-25"],
+         "timestamp": ["1912-01-19", "1912-05-04", "1912-09-18", "1912-09-25"],
          "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Johann_Strau%C3%9F-Theater", 
         "wikidata": "http://www.wikidata.org/entity/Q1502656", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.826389, 47.652222]
+      },
+      "properties": {
+         "id": "pmb442",
+         "title": "Kurhaus Semmering",
+         "lat": "47.652222",
+         "lon": "15.826389",
+         "timestamp": ["1912-01-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kurhaus_Semmering", 
+        "wikidata": "http://www.wikidata.org/entity/Q1793077", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Hansy",
+
+         "p_id": "#2320"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356765, 48.214792]
+      },
+      "properties": {
+         "id": "pmb249595",
+         "title": "Universitätsstraße 10",
+         "lat": "48.214792",
+         "lon": "16.356765",
+         "timestamp": ["1912-02-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Margarethe Manassewitsch",
+
+         "p_id": "#20861"
+         }, 
+         {
+
+         "p_name": "Efim Manassewitsch",
+
+         "p_id": "#20859"
+         }]
       }
       }, 
     {
@@ -2001,6 +2601,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.82889, 47.63255]
+      },
+      "properties": {
+         "id": "pmb634",
+         "title": "Hotel Erzherzog Johann",
+         "lat": "47.63255",
+         "lon": "15.82889",
+         "timestamp": ["1912-01-14"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.13366, 47.98229]
       },
       "properties": {
@@ -2054,6 +2671,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.824942, 47.645535]
+      },
+      "properties": {
+         "id": "pmb251646",
+         "title": "Villa Kleinhans",
+         "lat": "47.645535",
+         "lon": "15.824942",
+         "timestamp": ["1912-01-13", "1912-01-15"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.374256, 48.210366]
       },
       "properties": {
@@ -2065,6 +2699,36 @@
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.273893, 52.490797]
+      },
+      "properties": {
+         "id": "pmb252558",
+         "title": "Erdener Straße 8",
+         "lat": "52.490797",
+         "lon": "13.273893",
+         "timestamp": ["1912-11-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }, 
+         {
+
+         "p_name": "Hedwig Fischer",
+
+         "p_id": "#2657"
+         }]
       }
       }, 
     {
@@ -2090,6 +2754,66 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.339132, 48.234021]
+      },
+      "properties": {
+         "id": "pmb252012",
+         "title": "Hasenauerstraße 42",
+         "lat": "48.234021",
+         "lon": "16.339132",
+         "timestamp": ["1912-01-07", "1912-01-21", "1912-02-01", "1912-02-19", "1912-02-21", "1912-02-26", "1912-03-03", "1912-03-07", "1912-03-21", "1912-03-21", "1912-04-08"],
+         "importance": 11, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Eugenie Bachrach",
+
+         "p_id": "#13644"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37587, 48.204237]
+      },
+      "properties": {
+         "id": "pmb252036",
+         "title": "Hegelgasse 6",
+         "lat": "48.204237",
+         "lon": "16.37587",
+         "timestamp": ["1912-01-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Johann Ress",
+
+         "p_id": "#23283"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [14.42777, 50.0839]
       },
       "properties": {
@@ -2107,6 +2831,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.354432, 48.223354]
+      },
+      "properties": {
+         "id": "pmb252118",
+         "title": "Widerhofergasse 3",
+         "lat": "48.223354",
+         "lon": "16.354432",
+         "timestamp": ["1912-02-03", "1912-04-24", "1912-04-30"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emma Löwenstamm",
+
+         "p_id": "#2327"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33691, 48.23233]
       },
       "properties": {
@@ -2114,8 +2862,8 @@
          "title": "Sternwartestraße 62–64",
          "lat": "48.23233",
          "lon": "16.33691",
-         "timestamp": ["1912-01-27", "1912-05-04", "1912-05-29", "1912-06-08"],
-         "importance": 4, 
+         "timestamp": ["1912-01-27", "1912-03-07", "1912-05-04", "1912-05-29", "1912-06-08"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2154,17 +2902,229 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.383906681096, 48.211453732859]
+        "coordinates": [16.338462, 48.227446]
       },
       "properties": {
-         "id": "pmb1013",
-         "title": "Urania",
-         "lat": "48.211453732859",
-         "lon": "16.383906681096",
-         "timestamp": ["1912-03-16"],
+         "id": "pmb252737",
+         "title": "Währinger Straße 125",
+         "lat": "48.227446",
+         "lon": "16.338462",
+         "timestamp": ["1912-01-26"],
          "importance": 1, 
-        "abbr": "Volksbildungsanstalt (K.VBA)", 
-        "type": "Volksbildungsanstalt"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347114, 48.233319]
+      },
+      "properties": {
+         "id": "pmb252743",
+         "title": "Cottage-Eislaufverein",
+         "lat": "48.233319",
+         "lon": "16.347114",
+         "timestamp": ["1912-01-30"],
+         "importance": 1, 
+        "abbr": "Vergnügungseinrichtung", 
+        "type": "Vergnügungseinrichtung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3699543, 48.2157515]
+      },
+      "properties": {
+         "id": "pmb58307",
+         "title": "Esslinggasse",
+         "lat": "48.2157515",
+         "lon": "16.3699543",
+         "timestamp": ["1912-02-11"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Alfred Seiller",
+
+         "p_id": "#43636"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37403, 48.201105]
+      },
+      "properties": {
+         "id": "pmb252790",
+         "title": "Wertheimpalais",
+         "lat": "48.201105",
+         "lon": "16.37403",
+         "timestamp": ["1912-03-01"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q132456799", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.27629, 48.21253]
+      },
+      "properties": {
+         "id": "pmb91840",
+         "title": "Erholungsgebiet Steinhof",
+         "lat": "48.21253",
+         "lon": "16.27629",
+         "timestamp": ["1912-03-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Steinhof_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q877274", 
+        "geonames": "https://sws.geonames.org/6942412/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365541, 48.210615]
+      },
+      "properties": {
+         "id": "pmb252904",
+         "title": "Beethoven-Saal",
+         "lat": "48.210615",
+         "lon": "16.365541",
+         "timestamp": ["1912-03-09"],
+         "importance": 1, 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356392, 48.209934]
+      },
+      "properties": {
+         "id": "pmb234454",
+         "title": "Lichtenfelsgasse 7",
+         "lat": "48.209934",
+         "lon": "16.356392",
+         "timestamp": ["1912-03-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Carl Hochsinger",
+
+         "p_id": "#11718"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.345645, 48.233562]
+      },
+      "properties": {
+         "id": "pmb252955",
+         "title": "Familienhotel »Cottage« Pension Kramer",
+         "lat": "48.233562",
+         "lon": "16.345645",
+         "timestamp": ["1912-03-19"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04229, 47.8032]
+      },
+      "properties": {
+         "id": "pmb1014",
+         "title": "Hotel Mirabell",
+         "lat": "47.8032",
+         "lon": "13.04229",
+         "timestamp": ["1912-04-03"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.042542, 47.803328]
+      },
+      "properties": {
+         "id": "pmb252984",
+         "title": "Lifka’s Grand Théatre électrique",
+         "lat": "47.803328",
+         "lon": "13.042542",
+         "timestamp": ["1912-04-03"],
+         "importance": 1, 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0455473, 47.8021271]
+      },
+      "properties": {
+         "id": "pmb477",
+         "title": "Hotel Traube",
+         "lat": "47.8021271",
+         "lon": "13.0455473",
+         "timestamp": ["1912-04-04", "1912-04-04", "1912-04-05"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355271, 48.240888]
+      },
+      "properties": {
+         "id": "pmb251498",
+         "title": "Döblinger Hauptstraße 73",
+         "lat": "48.240888",
+         "lon": "16.355271",
+         "timestamp": ["1912-04-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Robert Gund",
+
+         "p_id": "#17540"
+         }]
       }
       }, 
     {
@@ -2183,6 +3143,48 @@
         "wikidata": "http://www.wikidata.org/entity/Q38123646", 
         "abbr": "S.RUIN", 
         "type": "Ruine"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1912-05-01", "1912-09-09", "1912-09-19", "1912-09-21", "1912-12-11", "1912-12-22"],
+         "importance": 6, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -2218,6 +3220,26 @@
          "importance": 7, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30555556, 48.34]
+      },
+      "properties": {
+         "id": "pmb233074",
+         "title": "Strombad Kritzendorf",
+         "lat": "48.34",
+         "lon": "16.30555556",
+         "timestamp": ["1912-06-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Strombad_Kritzendorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q18857133", 
+        "geonames": "https://sws.geonames.org/3324066/", 
+        "abbr": "L.LCTY", 
+        "type": "Örtlichkeit"
       }
       }, 
     {
@@ -2291,48 +3313,6 @@
          "importance": 10, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.35137, 48.21346]
-      },
-      "properties": {
-         "id": "pmb232800",
-         "title": "Laudongasse 12",
-         "lat": "48.21346",
-         "lon": "16.35137",
-         "timestamp": ["1912-09-09", "1912-09-19", "1912-09-21", "1912-12-11", "1912-12-22"],
-         "importance": 5, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Anna Donath",
-
-         "p_id": "#15430"
-         }, 
-         {
-
-         "p_name": "Ferdinand Donath",
-
-         "p_id": "#15433"
-         }, 
-         {
-
-         "p_name": "Helene Schnitzler",
-
-         "p_id": "#24423"
-         }, 
-         {
-
-         "p_name": "Julius Schnitzler",
-
-         "p_id": "#12698"
-         }]
       }
       }, 
     {

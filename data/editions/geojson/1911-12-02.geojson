@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.372564182283, 48.201265597319], 
+            [16.370342, 48.211369], 
+            [16.344679, 48.234278], 
             [16.33716, 48.23188]
           ]
       },
@@ -29,6 +31,61 @@
          "importance": 1, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1911-12-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.344679, 48.234278]
+      },
+      "properties": {
+         "id": "pmb248406",
+         "title": "Weimarer Straße 86",
+         "lat": "48.234278",
+         "lon": "16.344679",
+         "timestamp": ["1911-12-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Kaufmann",
+
+         "p_id": "#2496"
+         }]
       }
       },
     {

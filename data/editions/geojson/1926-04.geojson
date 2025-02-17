@@ -54,7 +54,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -1077,6 +1084,23 @@
         "geonames": "https://sws.geonames.org/2515270/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-15.428013, 28.126371]
+      },
+      "properties": {
+         "id": "pmb250424",
+         "title": "Quiney’s Hotel Metropole",
+         "lat": "28.126371",
+         "lon": "-15.428013",
+         "timestamp": ["1926-04-29", "1926-04-30"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {

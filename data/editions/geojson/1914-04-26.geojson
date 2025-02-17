@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.32522, 48.30521], 
+            [16.27616, 48.30997]
           ]
       },
       "properties": {
@@ -84,6 +86,46 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.32522, 48.30521]
+      },
+      "properties": {
+         "id": "pmb865",
+         "title": "Klosterneuburg",
+         "lat": "48.30521",
+         "lon": "16.32522",
+         "timestamp": ["1914-04-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q487522", 
+        "geonames": "https://sws.geonames.org/2773913/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.27616, 48.30997]
+      },
+      "properties": {
+         "id": "pmb46976",
+         "title": "Kierling",
+         "lat": "48.30997",
+         "lon": "16.27616",
+         "timestamp": ["1914-04-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kierling", 
+        "wikidata": "http://www.wikidata.org/entity/Q875133", 
+        "geonames": "https://sws.geonames.org/2774449/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

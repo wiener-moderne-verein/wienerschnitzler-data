@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.241739, 48.090788], 
             [16.2482778, 48.0885556], 
             [16.24924, 48.08736], 
+            [16.26108, 48.08153], 
+            [16.2954, 48.0856], 
+            [16.379829498031, 48.187455471378], 
             [16.33716, 48.23188]
           ]
       },
@@ -15,6 +19,25 @@
         "name": "28. April 1912"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1912-04-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -128,6 +151,59 @@
 
          "p_id": "#2173"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.241739, 48.090788]
+      },
+      "properties": {
+         "id": "pmb44510",
+         "title": "Hotel Radetzky",
+         "lat": "48.090788",
+         "lon": "16.241739",
+         "timestamp": ["1912-04-28"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.26108, 48.08153]
+      },
+      "properties": {
+         "id": "pmb957",
+         "title": "Vorderbrühl",
+         "lat": "48.08153",
+         "lon": "16.26108",
+         "timestamp": ["1912-04-28"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/11612276/ https://sws.geonames.org/2762284/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2954, 48.0856]
+      },
+      "properties": {
+         "id": "pmb252697",
+         "title": "Bahnhof Mödling",
+         "lat": "48.0856",
+         "lon": "16.2954",
+         "timestamp": ["1912-04-28"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q18668081", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

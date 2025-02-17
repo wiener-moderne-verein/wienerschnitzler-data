@@ -37,7 +37,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -94,6 +101,24 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30011, 48.32932]
+      },
+      "properties": {
+         "id": "pmb91077",
+         "title": "Kritzendorf",
+         "lat": "48.32932",
+         "lon": "16.30011",
+         "timestamp": ["1912-06-23"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2773420/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -355,7 +380,14 @@
          "timestamp": ["1912-06-20"],
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Berger",
+
+         "p_id": "#14065"
+         }]
       }
       }, 
     {
@@ -510,6 +542,26 @@
 
          "p_id": "#12689"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30555556, 48.34]
+      },
+      "properties": {
+         "id": "pmb233074",
+         "title": "Strombad Kritzendorf",
+         "lat": "48.34",
+         "lon": "16.30555556",
+         "timestamp": ["1912-06-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Strombad_Kritzendorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q18857133", 
+        "geonames": "https://sws.geonames.org/3324066/", 
+        "abbr": "L.LCTY", 
+        "type": "Örtlichkeit"
       }
       }, 
     {

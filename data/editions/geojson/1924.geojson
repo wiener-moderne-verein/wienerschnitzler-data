@@ -92,7 +92,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -639,6 +646,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.0391, 47.79964]
+      },
+      "properties": {
+         "id": "pmb91270",
+         "title": "Mönchsberg",
+         "lat": "47.79964",
+         "lon": "13.0391",
+         "timestamp": ["1924-07-05"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2771281/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.043904, 47.801903]
       },
       "properties": {
@@ -946,6 +971,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q1423660", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0343881, 47.8052189]
+      },
+      "properties": {
+         "id": "pmb195080",
+         "title": "Mönchsbergaufzug [Außenaufzug]",
+         "lat": "47.8052189",
+         "lon": "13.0343881",
+         "timestamp": ["1924-07-05"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q130529967", 
+        "abbr": "Lift", 
+        "type": "Lift"
       }
       }, 
     {
@@ -1812,6 +1855,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.356392, 48.209934]
+      },
+      "properties": {
+         "id": "pmb234454",
+         "title": "Lichtenfelsgasse 7",
+         "lat": "48.209934",
+         "lon": "16.356392",
+         "timestamp": ["1924-12-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Carl Hochsinger",
+
+         "p_id": "#11718"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -2017,6 +2084,30 @@
          "p_name": "Arthur Schnitzler",
 
          "p_id": ""
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35967, 48.21623]
+      },
+      "properties": {
+         "id": "pmb700",
+         "title": "Hotel Regina [Wien]",
+         "lat": "48.21623",
+         "lon": "16.35967",
+         "timestamp": ["1924-11-07", "1924-11-14", "1924-11-30", "1924-12-01", "1924-12-01", "1924-12-03", "1924-12-04", "1924-12-06", "1924-12-10", "1924-12-20", "1924-12-24", "1924-12-26", "1924-12-30"],
+         "importance": 13, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
          }]
       }
       }, 
@@ -2632,54 +2723,6 @@
          "p_name": "Victor Zuckerkandl",
 
          "p_id": "#54787"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.35967, 48.21623]
-      },
-      "properties": {
-         "id": "pmb700",
-         "title": "Hotel Regina [Wien]",
-         "lat": "48.21623",
-         "lon": "16.35967",
-         "timestamp": ["1924-12-01", "1924-12-20"],
-         "importance": 2, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel", 
-        "wohnort": [
-         {
-
-         "p_name": "Clara Katharina Pollaczek",
-
-         "p_id": "#12435"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.356392, 48.209934]
-      },
-      "properties": {
-         "id": "pmb234454",
-         "title": "Lichtenfelsgasse 7",
-         "lat": "48.209934",
-         "lon": "16.356392",
-         "timestamp": ["1924-12-10"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Carl Hochsinger",
-
-         "p_id": "#11718"
          }]
       }
       }, 

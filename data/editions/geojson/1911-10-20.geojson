@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.3691, 48.203], 
             [16.35689, 48.21787], 
+            [16.3691, 48.203], 
+            [16.371037, 48.234126], 
             [16.339132, 48.234021], 
             [16.333568462613, 48.235119783861], 
             [16.33716, 48.23188]
@@ -70,7 +71,31 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371037, 48.234126]
+      },
+      "properties": {
+         "id": "pmb252513",
+         "title": "Wiener Friedhofkunst Basel, Forstner & Poppovits",
+         "lat": "48.234126",
+         "lon": "16.371037",
+         "timestamp": ["1911-10-20"],
+         "importance": 1, 
+        "abbr": "Werkstatt", 
+        "type": ""
       }
       },
     {
@@ -104,7 +129,26 @@
          "timestamp": ["1911-10-20"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Eugenie Bachrach",
+
+         "p_id": "#13644"
+         }]
       }
       },
     {

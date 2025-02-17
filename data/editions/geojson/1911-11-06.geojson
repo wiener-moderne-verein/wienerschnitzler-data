@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [9.97205, 53.54869], 
+            [10.006389, 53.552778], 
             [10.008861, 53.554306], 
             [10.004722, 53.557222]
           ]
@@ -55,6 +57,43 @@
 
          "p_id": "#10883"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.97205, 53.54869]
+      },
+      "properties": {
+         "id": "pmb252587",
+         "title": "Bismarck-Denkmal",
+         "lat": "53.54869",
+         "lon": "9.97205",
+         "timestamp": ["1911-11-06"],
+         "importance": 1, 
+        "abbr": "Monument (K.MON)", 
+        "type": "Monument"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.006389, 53.552778]
+      },
+      "properties": {
+         "id": "pmb252593",
+         "title": "Hamburg Hauptbahnhof",
+         "lat": "53.552778",
+         "lon": "10.006389",
+         "timestamp": ["1911-11-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hamburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q6456", 
+        "geonames": "https://sws.geonames.org/6944285/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }
   ]

@@ -409,6 +409,8 @@
          "lon": "16.37601664270439",
          "timestamp": ["1929-01-09"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergplatz", 
+        "wikidata": "http://www.wikidata.org/entity/Q686552", 
         "geonames": "https://sws.geonames.org/10244814/", 
         "abbr": "Platz (K.PLT)", 
         "type": "Platz"
@@ -1466,6 +1468,12 @@
          "p_name": "Anton Loew",
 
          "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
          }, 
          {
 
@@ -2768,6 +2776,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.273893, 52.490797]
+      },
+      "properties": {
+         "id": "pmb252558",
+         "title": "Erdener Straße 8",
+         "lat": "52.490797",
+         "lon": "13.273893",
+         "timestamp": ["1929-03-17", "1929-03-18", "1929-03-21", "1929-03-25"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }, 
+         {
+
+         "p_name": "Hedwig Fischer",
+
+         "p_id": "#2657"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.320696, 48.263217]
       },
       "properties": {
@@ -2905,6 +2943,24 @@
 
          "p_id": "#12740"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.21667, 48.3]
+      },
+      "properties": {
+         "id": "pmb90881",
+         "title": "Hintersdorf",
+         "lat": "48.3",
+         "lon": "16.21667",
+         "timestamp": ["1929-04-28"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2776244/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -4206,24 +4262,6 @@
 
          "p_id": "#6243"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.21667, 48.3]
-      },
-      "properties": {
-         "id": "pmb90881",
-         "title": "Hintersdorf",
-         "lat": "48.3",
-         "lon": "16.21667",
-         "timestamp": ["1929-04-28"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2776244/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
       }
       }, 
     {

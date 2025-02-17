@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.352693, 48.193456], 
+            [16.373569, 48.198153], 
             [16.367413, 48.208484], 
             [16.33641, 48.23362], 
             [16.33716, 48.23188]
@@ -54,7 +55,14 @@
          "timestamp": ["1911-12-16"],
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Berger",
+
+         "p_id": "#14065"
+         }]
       }
       },
     {
@@ -181,6 +189,30 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373569, 48.198153]
+      },
+      "properties": {
+         "id": "pmb252438",
+         "title": "Gußhausstraße 4–6",
+         "lat": "48.198153",
+         "lon": "16.373569",
+         "timestamp": ["1911-12-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Oscar Kolm",
+
+         "p_id": "#19542"
          }]
       }
       }

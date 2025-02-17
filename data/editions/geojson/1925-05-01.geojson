@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.271459, 48.225694], 
-            [16.33716, 48.23188]
+            [16.27629, 48.21253], 
+            [16.35967, 48.21623], 
+            [16.33716, 48.23188], 
+            [16.271459, 48.225694]
           ]
       },
       "properties": {
@@ -31,6 +33,50 @@
         "geonames": "https://sws.geonames.org/2601017/", 
         "abbr": "L.FLD", 
         "type": "Feld"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.27629, 48.21253]
+      },
+      "properties": {
+         "id": "pmb91840",
+         "title": "Erholungsgebiet Steinhof",
+         "lat": "48.21253",
+         "lon": "16.27629",
+         "timestamp": ["1925-05-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Steinhof_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q877274", 
+        "geonames": "https://sws.geonames.org/6942412/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35967, 48.21623]
+      },
+      "properties": {
+         "id": "pmb700",
+         "title": "Hotel Regina [Wien]",
+         "lat": "48.21623",
+         "lon": "16.35967",
+         "timestamp": ["1925-05-01"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }]
       }
       },
     {

@@ -54,7 +54,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -112,6 +119,26 @@
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.32522, 48.30521]
+      },
+      "properties": {
+         "id": "pmb865",
+         "title": "Klosterneuburg",
+         "lat": "48.30521",
+         "lon": "16.32522",
+         "timestamp": ["1915-06-03", "1915-06-10", "1915-06-10"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q487522", 
+        "geonames": "https://sws.geonames.org/2773913/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -490,6 +517,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.05734, 47.80399]
+      },
+      "properties": {
+         "id": "pmb297",
+         "title": "Kapuzinerberg",
+         "lat": "47.80399",
+         "lon": "13.05734",
+         "timestamp": ["1915-08-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kapuzinerberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q873917", 
+        "geonames": "https://sws.geonames.org/2774753/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37312, 48.20122]
       },
       "properties": {
@@ -558,6 +605,24 @@
          "importance": 1, 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30011, 48.32932]
+      },
+      "properties": {
+         "id": "pmb91077",
+         "title": "Kritzendorf",
+         "lat": "48.32932",
+         "lon": "16.30011",
+         "timestamp": ["1915-07-07", "1915-07-07"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2773420/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -650,6 +715,46 @@
          "timestamp": ["1915-08-08"],
          "importance": 1, 
         "geonames": "https://sws.geonames.org/12750194/"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.27616, 48.30997]
+      },
+      "properties": {
+         "id": "pmb46976",
+         "title": "Kierling",
+         "lat": "48.30997",
+         "lon": "16.27616",
+         "timestamp": ["1915-06-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kierling", 
+        "wikidata": "http://www.wikidata.org/entity/Q875133", 
+        "geonames": "https://sws.geonames.org/2774449/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.209444, 48.327778]
+      },
+      "properties": {
+         "id": "pmb1246",
+         "title": "St. Andrä-Wördern",
+         "lat": "48.327778",
+         "lon": "16.209444",
+         "timestamp": ["1915-06-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._Andr%C3%A4-W%C3%B6rdern", 
+        "wikidata": "http://www.wikidata.org/entity/Q672587", 
+        "geonames": "https://sws.geonames.org/7873041/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -1335,8 +1440,8 @@
          "title": "Pinkenkogel",
          "lat": "47.65",
          "lon": "15.81667",
-         "timestamp": ["1915-06-26", "1915-06-26"],
-         "importance": 2, 
+         "timestamp": ["1915-06-26"],
+         "importance": 1, 
         "geonames": "https://sws.geonames.org/2768810/", 
         "abbr": "T.PK", 
         "type": "Bergspitze"
@@ -1484,6 +1589,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
          {
 
          "p_name": "Else Speidel-Haeberle",
@@ -1935,6 +2046,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.273893, 52.490797]
+      },
+      "properties": {
+         "id": "pmb252558",
+         "title": "Erdener Straße 8",
+         "lat": "52.490797",
+         "lon": "13.273893",
+         "timestamp": ["1915-10-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }, 
+         {
+
+         "p_name": "Hedwig Fischer",
+
+         "p_id": "#2657"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.353139, 48.24422]
       },
       "properties": {
@@ -2006,23 +2147,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.370928, 48.19224]
-      },
-      "properties": {
-         "id": "pmb92602",
-         "title": "Wiednerspital",
-         "lat": "48.19224",
-         "lon": "16.370928",
-         "timestamp": ["1915-01-16", "1915-02-11"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
-        "wikidata": "http://www.wikidata.org/entity/Q1485420"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -2059,6 +2183,43 @@
 
          "p_id": "#12698"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30555556, 48.34]
+      },
+      "properties": {
+         "id": "pmb233074",
+         "title": "Strombad Kritzendorf",
+         "lat": "48.34",
+         "lon": "16.30555556",
+         "timestamp": ["1915-07-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Strombad_Kritzendorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q18857133", 
+        "geonames": "https://sws.geonames.org/3324066/", 
+        "abbr": "L.LCTY", 
+        "type": "Örtlichkeit"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370928, 48.19224]
+      },
+      "properties": {
+         "id": "pmb92602",
+         "title": "Wiednerspital",
+         "lat": "48.19224",
+         "lon": "16.370928",
+         "timestamp": ["1915-01-16", "1915-02-11"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
+        "wikidata": "http://www.wikidata.org/entity/Q1485420"
       }
       }, 
     {
@@ -2148,12 +2309,6 @@
          "p_name": "Stefanie Bachrach",
 
          "p_id": "#13653"
-         }, 
-         {
-
-         "p_name": "Eugenie Bachrach",
-
-         "p_id": "#13644"
          }]
       }
       }, 
@@ -2389,6 +2544,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2086, 48.3097]
+      },
+      "properties": {
+         "id": "pmb253047",
+         "title": "Hagenbachklamm",
+         "lat": "48.3097",
+         "lon": "16.2086",
+         "timestamp": ["1915-06-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hagenbachklamm", 
+        "wikidata": "http://www.wikidata.org/entity/Q1568486", 
+        "geonames": "https://sws.geonames.org/2777068/", 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.21667, 48.3]
+      },
+      "properties": {
+         "id": "pmb90881",
+         "title": "Hintersdorf",
+         "lat": "48.3",
+         "lon": "16.21667",
+         "timestamp": ["1915-06-10"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2776244/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.661369, 47.691422]
       },
       "properties": {
@@ -2455,6 +2648,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q2790103", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.048984, 47.802236]
+      },
+      "properties": {
+         "id": "pmb252997",
+         "title": "Zauberflöten-Häuschen",
+         "lat": "47.802236",
+         "lon": "13.048984",
+         "timestamp": ["1915-08-29"],
+         "importance": 1, 
+        "abbr": "Denkmal", 
+        "type": "Denkmal"
       }
       }, 
     {

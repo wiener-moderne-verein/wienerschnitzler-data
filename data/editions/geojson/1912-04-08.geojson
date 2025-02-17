@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188], 
             [16.2911, 48.2553], 
+            [16.33716, 48.23188], 
+            [16.339132, 48.234021], 
+            [16.30865, 48.291], 
             [16.25, 48.26667]
           ]
       },
@@ -33,6 +35,42 @@
         "geonames": "https://sws.geonames.org/2766841/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.339132, 48.234021]
+      },
+      "properties": {
+         "id": "pmb252012",
+         "title": "Hasenauerstraße 42",
+         "lat": "48.234021",
+         "lon": "16.339132",
+         "timestamp": ["1912-04-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Eugenie Bachrach",
+
+         "p_id": "#13644"
+         }]
       }
       },
     {
@@ -124,6 +162,26 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)", 
         "wikidata": "http://www.wikidata.org/entity/Q12356726", 
         "geonames": "https://sws.geonames.org/2761738/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30865, 48.291]
+      },
+      "properties": {
+         "id": "pmb44392",
+         "title": "Weidling",
+         "lat": "48.291",
+         "lon": "16.30865",
+         "timestamp": ["1912-04-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidling_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q484858", 
+        "geonames": "https://sws.geonames.org/2761741/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }

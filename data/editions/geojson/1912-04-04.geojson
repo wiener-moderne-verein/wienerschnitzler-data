@@ -7,8 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [13.060833, 47.762222], 
+            [13.0455473, 47.8021271], 
             [13.043401, 47.802045], 
-            [13.042778, 47.802778]
+            [13.0391, 47.79964]
           ]
       },
       "properties": {
@@ -45,23 +46,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.042778, 47.802778]
-      },
-      "properties": {
-         "id": "pmb195432",
-         "title": "Salzburger Landestheater",
-         "lat": "47.802778",
-         "lon": "13.042778",
-         "timestamp": ["1912-04-04"],
-         "importance": 1, 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.060833, 47.762222]
       },
       "properties": {
@@ -73,6 +57,41 @@
          "importance": 1, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0455473, 47.8021271]
+      },
+      "properties": {
+         "id": "pmb477",
+         "title": "Hotel Traube",
+         "lat": "47.8021271",
+         "lon": "13.0455473",
+         "timestamp": ["1912-04-04"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0391, 47.79964]
+      },
+      "properties": {
+         "id": "pmb91270",
+         "title": "Mönchsberg",
+         "lat": "47.79964",
+         "lon": "13.0391",
+         "timestamp": ["1912-04-04"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2771281/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }
   ]

@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.21359, 47.96533], 
-            [16.28921, 48.08605], 
+            [16.2954, 48.0856], 
+            [16.35754, 48.05729], 
+            [16.379829498031, 48.187455471378], 
             [16.35736, 48.21533], 
             [16.3, 48.2]
           ]
@@ -16,6 +18,25 @@
         "name": "23. Juni 1897"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1897-06-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -133,20 +154,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.28921, 48.08605]
+        "coordinates": [16.2954, 48.0856]
       },
       "properties": {
-         "id": "pmb968",
-         "title": "Mödling",
-         "lat": "48.08605",
-         "lon": "16.28921",
+         "id": "pmb252697",
+         "title": "Bahnhof Mödling",
+         "lat": "48.0856",
+         "lon": "16.2954",
          "timestamp": ["1897-06-23"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6dling", 
-        "wikidata": "http://www.wikidata.org/entity/Q277965", 
-        "geonames": "https://sws.geonames.org/2771335/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "wikidata": "http://www.wikidata.org/entity/Q18668081", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35754, 48.05729]
+      },
+      "properties": {
+         "id": "pmb45183",
+         "title": "Laxenburg",
+         "lat": "48.05729",
+         "lon": "16.35754",
+         "timestamp": ["1897-06-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Laxenburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q699437", 
+        "geonames": "https://sws.geonames.org/7872981/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

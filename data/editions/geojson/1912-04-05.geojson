@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.0391, 47.79964], 
+            [13.0455473, 47.8021271], 
             [13.043401, 47.802045]
           ]
       },
@@ -37,6 +39,41 @@
 
          "p_id": "#28739"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0455473, 47.8021271]
+      },
+      "properties": {
+         "id": "pmb477",
+         "title": "Hotel Traube",
+         "lat": "47.8021271",
+         "lon": "13.0455473",
+         "timestamp": ["1912-04-05"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0391, 47.79964]
+      },
+      "properties": {
+         "id": "pmb91270",
+         "title": "Mönchsberg",
+         "lat": "47.79964",
+         "lon": "13.0391",
+         "timestamp": ["1912-04-05"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2771281/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }
   ]

@@ -69,7 +69,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -1141,6 +1148,12 @@
          }, 
          {
 
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
@@ -2045,23 +2058,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.370928, 48.19224]
-      },
-      "properties": {
-         "id": "pmb92602",
-         "title": "Wiednerspital",
-         "lat": "48.19224",
-         "lon": "16.370928",
-         "timestamp": ["1931-03-06", "1931-03-08", "1931-03-13", "1931-03-17", "1931-03-19", "1931-03-22"],
-         "importance": 6, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
-        "wikidata": "http://www.wikidata.org/entity/Q1485420"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -2098,6 +2094,23 @@
 
          "p_id": "#12698"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370928, 48.19224]
+      },
+      "properties": {
+         "id": "pmb92602",
+         "title": "Wiednerspital",
+         "lat": "48.19224",
+         "lon": "16.370928",
+         "timestamp": ["1931-03-06", "1931-03-08", "1931-03-13", "1931-03-17", "1931-03-19", "1931-03-22"],
+         "importance": 6, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
+        "wikidata": "http://www.wikidata.org/entity/Q1485420"
       }
       }, 
     {
@@ -2257,6 +2270,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q124219904", 
         "abbr": "Monument (K.MON)", 
         "type": "Monument"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.21667, 48.3]
+      },
+      "properties": {
+         "id": "pmb90881",
+         "title": "Hintersdorf",
+         "lat": "48.3",
+         "lon": "16.21667",
+         "timestamp": ["1931-05-24"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2776244/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -2901,24 +2932,6 @@
 
          "p_id": "#15433"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.21667, 48.3]
-      },
-      "properties": {
-         "id": "pmb90881",
-         "title": "Hintersdorf",
-         "lat": "48.3",
-         "lon": "16.21667",
-         "timestamp": ["1931-05-24"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2776244/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
       }
       }, 
     {

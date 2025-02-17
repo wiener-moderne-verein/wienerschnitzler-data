@@ -71,7 +71,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -234,6 +241,26 @@
         "geonames": "https://sws.geonames.org/2761738/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.32522, 48.30521]
+      },
+      "properties": {
+         "id": "pmb865",
+         "title": "Klosterneuburg",
+         "lat": "48.30521",
+         "lon": "16.32522",
+         "timestamp": ["1917-05-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q487522", 
+        "geonames": "https://sws.geonames.org/2773913/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -532,6 +559,24 @@
         "geonames": "https://sws.geonames.org/2770400/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30011, 48.32932]
+      },
+      "properties": {
+         "id": "pmb91077",
+         "title": "Kritzendorf",
+         "lat": "48.32932",
+         "lon": "16.30011",
+         "timestamp": ["1917-05-05", "1917-05-05", "1917-07-28", "1917-07-28"],
+         "importance": 4, 
+        "geonames": "https://sws.geonames.org/2773420/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -1220,6 +1265,12 @@
         "wohnort": [
          {
 
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
+         {
+
          "p_name": "Else Speidel-Haeberle",
 
          "p_id": "#2642"
@@ -1704,6 +1755,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.30555556, 48.34]
+      },
+      "properties": {
+         "id": "pmb233074",
+         "title": "Strombad Kritzendorf",
+         "lat": "48.34",
+         "lon": "16.30555556",
+         "timestamp": ["1917-07-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Strombad_Kritzendorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q18857133", 
+        "geonames": "https://sws.geonames.org/3324066/", 
+        "abbr": "L.LCTY", 
+        "type": "Örtlichkeit"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.332896, 48.253174]
       },
       "properties": {
@@ -1853,6 +1924,30 @@
         "wikidata": "http://www.wikidata.org/entity/Q106193837", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35967, 48.21623]
+      },
+      "properties": {
+         "id": "pmb700",
+         "title": "Hotel Regina [Wien]",
+         "lat": "48.21623",
+         "lon": "16.35967",
+         "timestamp": ["1917-05-17", "1917-05-19", "1917-05-20", "1917-05-23", "1917-05-28"],
+         "importance": 5, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }]
       }
       }, 
     {

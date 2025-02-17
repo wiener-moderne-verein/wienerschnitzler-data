@@ -52,7 +52,7 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1911-11-20", "1911-11-28"],
+         "timestamp": ["1911-11-20", "1911-11-29"],
          "importance": 2, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
@@ -110,8 +110,8 @@
          "title": "Türkenschanzpark",
          "lat": "48.235119783861",
          "lon": "16.333568462613",
-         "timestamp": ["1911-11-22"],
-         "importance": 1, 
+         "timestamp": ["1911-11-22", "1911-11-29"],
+         "importance": 2, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
       }
@@ -353,8 +353,8 @@
          "title": "Goldschmiedgasse 1",
          "lat": "48.208448",
          "lon": "16.371571",
-         "timestamp": ["1911-11-27", "1911-11-27", "1911-11-28"],
-         "importance": 3, 
+         "timestamp": ["1911-11-27", "1911-11-28"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "arbeitsort": [
@@ -380,7 +380,14 @@
          "timestamp": ["1911-11-03"],
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
       }
       }, 
     {
@@ -418,6 +425,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
          {
 
          "p_name": "Else Speidel-Haeberle",
@@ -578,8 +591,8 @@
          "title": "Hauptbahnhof München",
          "lat": "48.140833",
          "lon": "11.555",
-         "timestamp": ["1911-11-11", "1911-11-11", "1911-11-13", "1911-11-13", "1911-11-16", "1911-11-16"],
-         "importance": 6, 
+         "timestamp": ["1911-11-11", "1911-11-13", "1911-11-16"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q254647", 
         "geonames": "https://sws.geonames.org/6324603/", 
@@ -638,7 +651,14 @@
          "timestamp": ["1911-11-20"],
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Berger",
+
+         "p_id": "#14065"
+         }]
       }
       }, 
     {
@@ -672,8 +692,8 @@
          "title": "Mannhardtstraße 3",
          "lat": "48.135523",
          "lon": "11.585161",
-         "timestamp": ["1911-11-12", "1911-11-12"],
-         "importance": 2, 
+         "timestamp": ["1911-11-12"],
+         "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -855,6 +875,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.273893, 52.490797]
+      },
+      "properties": {
+         "id": "pmb252558",
+         "title": "Erdener Straße 8",
+         "lat": "52.490797",
+         "lon": "13.273893",
+         "timestamp": ["1911-11-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }, 
+         {
+
+         "p_name": "Hedwig Fischer",
+
+         "p_id": "#2657"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.339132, 48.234021]
       },
       "properties": {
@@ -865,7 +915,26 @@
          "timestamp": ["1911-11-17"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Eugenie Bachrach",
+
+         "p_id": "#13644"
+         }]
       }
       }, 
     {
@@ -884,8 +953,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
         "wikidata": "http://www.wikidata.org/entity/Q751174", 
         "geonames": "https://sws.geonames.org/6285753/", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -909,6 +978,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.82312894, 51.0460483]
+      },
+      "properties": {
+         "id": "pmb252547",
+         "title": "Künstlerhaus Dresden-Loschwitz",
+         "lat": "51.0460483",
+         "lon": "13.82312894",
+         "timestamp": ["1911-11-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/K%C3%BCnstlerhaus_Dresden-Loschwitz", 
+        "wikidata": "http://www.wikidata.org/entity/Q15117935", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.387328, 52.500042]
       },
       "properties": {
@@ -921,7 +1009,20 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hebbel-Theater", 
         "wikidata": "http://www.wikidata.org/entity/Q1592692", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Rudolf Bernauer",
+
+         "p_id": "#10896"
+         }, 
+         {
+
+         "p_name": "Carl Meinhard",
+
+         "p_id": "#8889"
+         }]
       }
       }, 
     {
@@ -941,6 +1042,46 @@
         "wikidata": "http://www.wikidata.org/entity/Q873918", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.01861, 53.5725]
+      },
+      "properties": {
+         "id": "pmb91967",
+         "title": "Uhlenhorst",
+         "lat": "53.5725",
+         "lon": "10.01861",
+         "timestamp": ["1911-11-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hamburg-Uhlenhorst", 
+        "wikidata": "http://www.wikidata.org/entity/Q1143", 
+        "geonames": "https://sws.geonames.org/2820350/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.006389, 53.552778]
+      },
+      "properties": {
+         "id": "pmb252593",
+         "title": "Hamburg Hauptbahnhof",
+         "lat": "53.552778",
+         "lon": "10.006389",
+         "timestamp": ["1911-11-05", "1911-11-06", "1911-11-08", "1911-11-10"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hamburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q6456", 
+        "geonames": "https://sws.geonames.org/6944285/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -971,6 +1112,82 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.97205, 53.54869]
+      },
+      "properties": {
+         "id": "pmb252587",
+         "title": "Bismarck-Denkmal",
+         "lat": "53.54869",
+         "lon": "9.97205",
+         "timestamp": ["1911-11-06"],
+         "importance": 1, 
+        "abbr": "Monument (K.MON)", 
+        "type": "Monument"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.084261, 53.582033]
+      },
+      "properties": {
+         "id": "pmb12083",
+         "title": "Wandsbek",
+         "lat": "53.582033",
+         "lon": "10.084261",
+         "timestamp": ["1911-11-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hamburg-Wandsbek", 
+        "wikidata": "http://www.wikidata.org/entity/Q1833", 
+        "geonames": "https://sws.geonames.org/2911285/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9287, 53.5922]
+      },
+      "properties": {
+         "id": "pmb49212",
+         "title": "Stellingen",
+         "lat": "53.5922",
+         "lon": "9.9287",
+         "timestamp": ["1911-11-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hamburg-Stellingen", 
+        "wikidata": "http://www.wikidata.org/entity/Q1621", 
+        "geonames": "https://sws.geonames.org/2827552/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.937778, 53.596389]
+      },
+      "properties": {
+         "id": "pmb478",
+         "title": "Hagenbecks Tierpark",
+         "lat": "53.596389",
+         "lon": "9.937778",
+         "timestamp": ["1911-11-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tierpark_Hagenbeck", 
+        "wikidata": "http://www.wikidata.org/entity/Q502326", 
+        "abbr": "Zoo (K.ZOO)", 
+        "type": "Zoo"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [10.8709, 53.96304]
       },
       "properties": {
@@ -985,6 +1202,77 @@
         "geonames": "https://sws.geonames.org/2821480/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.6855, 53.867]
+      },
+      "properties": {
+         "id": "pmb252603",
+         "title": "Ratskeller zu Lübeck",
+         "lat": "53.867",
+         "lon": "10.6855",
+         "timestamp": ["1911-11-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ratskeller_zu_L%C3%BCbeck", 
+        "wikidata": "http://www.wikidata.org/entity/Q1662570", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.879565, 53.965626]
+      },
+      "properties": {
+         "id": "pmb252606",
+         "title": "Strand-Hotel [Travemünde]",
+         "lat": "53.965626",
+         "lon": "10.879565",
+         "timestamp": ["1911-11-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q132368647", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.575765, 48.139924]
+      },
+      "properties": {
+         "id": "pmb268",
+         "title": "Hugo Böttner, Delikatessenhandlung, Austernstube und Dessertweinausschank",
+         "lat": "48.139924",
+         "lon": "11.575765",
+         "timestamp": ["1911-11-11"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33406, 48.23322]
+      },
+      "properties": {
+         "id": "pmb252631",
+         "title": "Josef-Kainz-Denkmal",
+         "lat": "48.23322",
+         "lon": "16.33406",
+         "timestamp": ["1911-11-17"],
+         "importance": 1, 
+        "abbr": "Monument (K.MON)", 
+        "type": "Monument"
       }
       }
   ]

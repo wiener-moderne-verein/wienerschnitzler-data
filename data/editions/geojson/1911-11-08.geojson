@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [10.006389, 53.552778], 
             [10.008861, 53.554306], 
-            [10.004722, 53.557222]
+            [10.004722, 53.557222], 
+            [9.937778, 53.596389]
           ]
       },
       "properties": {
@@ -55,6 +57,45 @@
 
          "p_id": "#10883"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.006389, 53.552778]
+      },
+      "properties": {
+         "id": "pmb252593",
+         "title": "Hamburg Hauptbahnhof",
+         "lat": "53.552778",
+         "lon": "10.006389",
+         "timestamp": ["1911-11-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hamburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q6456", 
+        "geonames": "https://sws.geonames.org/6944285/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.937778, 53.596389]
+      },
+      "properties": {
+         "id": "pmb478",
+         "title": "Hagenbecks Tierpark",
+         "lat": "53.596389",
+         "lon": "9.937778",
+         "timestamp": ["1911-11-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tierpark_Hagenbeck", 
+        "wikidata": "http://www.wikidata.org/entity/Q502326", 
+        "abbr": "Zoo (K.ZOO)", 
+        "type": "Zoo"
       }
       }
   ]

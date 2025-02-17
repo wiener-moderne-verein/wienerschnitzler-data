@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.043401, 47.802045]
+            [13.043401, 47.802045], 
+            [13.0455473, 47.8021271], 
+            [13.05734, 47.80399]
           ]
       },
       "properties": {
@@ -37,6 +39,43 @@
 
          "p_id": "#28739"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0455473, 47.8021271]
+      },
+      "properties": {
+         "id": "pmb477",
+         "title": "Hotel Traube",
+         "lat": "47.8021271",
+         "lon": "13.0455473",
+         "timestamp": ["1914-02-02"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.05734, 47.80399]
+      },
+      "properties": {
+         "id": "pmb297",
+         "title": "Kapuzinerberg",
+         "lat": "47.80399",
+         "lon": "13.05734",
+         "timestamp": ["1914-02-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kapuzinerberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q873917", 
+        "geonames": "https://sws.geonames.org/2774753/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }
   ]

@@ -37,7 +37,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -51,8 +58,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1911-10-10", "1911-10-11", "1911-10-12", "1911-10-13", "1911-10-13", "1911-10-14"],
-         "importance": 6, 
+         "timestamp": ["1911-10-10", "1911-10-11", "1911-10-12", "1911-10-13", "1911-10-14"],
+         "importance": 5, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -473,6 +480,12 @@
         "arbeitsort": [
          {
 
+         "p_name": "Karola Klein",
+
+         "p_id": "#19408"
+         }, 
+         {
+
          "p_name": "Robert Martinek",
 
          "p_id": "#21123"
@@ -643,10 +656,29 @@
          "title": "Hasenauerstraße 42",
          "lat": "48.234021",
          "lon": "16.339132",
-         "timestamp": ["1911-10-10", "1911-10-11", "1911-10-20", "1911-10-20", "1911-10-22"],
-         "importance": 5, 
+         "timestamp": ["1911-10-10", "1911-10-11", "1911-10-20", "1911-10-22"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Eugenie Bachrach",
+
+         "p_id": "#13644"
+         }]
       }
       }, 
     {
@@ -703,13 +735,13 @@
          "title": "Praha hlavní nádraží",
          "lat": "50.083055555556",
          "lon": "14.435833333333",
-         "timestamp": ["1911-10-30", "1911-10-30"],
-         "importance": 2, 
+         "timestamp": ["1911-10-30"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
         "wikidata": "http://www.wikidata.org/entity/Q751174", 
         "geonames": "https://sws.geonames.org/6285753/", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -727,6 +759,54 @@
          "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.828533, 47.64695]
+      },
+      "properties": {
+         "id": "pmb252390",
+         "title": "Pension Alpenheim",
+         "lat": "47.64695",
+         "lon": "15.828533",
+         "timestamp": ["1911-10-05"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": " Lovary",
+
+         "p_id": "#20623"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373569, 48.198153]
+      },
+      "properties": {
+         "id": "pmb252438",
+         "title": "Gußhausstraße 4–6",
+         "lat": "48.198153",
+         "lon": "16.373569",
+         "timestamp": ["1911-10-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Oscar Kolm",
+
+         "p_id": "#19542"
+         }]
       }
       }, 
     {
@@ -763,6 +843,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371037, 48.234126]
+      },
+      "properties": {
+         "id": "pmb252513",
+         "title": "Wiener Friedhofkunst Basel, Forstner & Poppovits",
+         "lat": "48.234126",
+         "lon": "16.371037",
+         "timestamp": ["1911-10-20"],
+         "importance": 1, 
+        "abbr": "Werkstatt", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.375833, 48.211111]
       },
       "properties": {
@@ -772,6 +869,25 @@
          "lon": "16.375833",
          "timestamp": ["1911-10-25"],
          "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.4138, 50.0809]
+      },
+      "properties": {
+         "id": "pmb92",
+         "title": "Národní divadlo",
+         "lat": "50.0809",
+         "lon": "14.4138",
+         "timestamp": ["1911-10-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%A1rodn%C3%AD_divadlo", 
+        "wikidata": "http://www.wikidata.org/entity/Q732697", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }

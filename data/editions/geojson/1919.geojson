@@ -95,7 +95,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -558,6 +565,12 @@
          "p_name": "Anton Loew",
 
          "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
          }, 
          {
 
@@ -1076,6 +1089,12 @@
         "wohnort": [
          {
 
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
+         {
+
          "p_name": "Else Speidel-Haeberle",
 
          "p_id": "#2642"
@@ -1550,6 +1569,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.35967, 48.21623]
+      },
+      "properties": {
+         "id": "pmb700",
+         "title": "Hotel Regina [Wien]",
+         "lat": "48.21623",
+         "lon": "16.35967",
+         "timestamp": ["1919-11-02", "1919-11-20"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36171, 48.2116]
       },
       "properties": {
@@ -1744,6 +1787,24 @@
          "lon": "15.843363",
          "timestamp": ["1919-08-16"],
          "importance": 1, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33414, 48.23331]
+      },
+      "properties": {
+         "id": "pmb252625",
+         "title": "Josef-Kainz-Park",
+         "lat": "48.23331",
+         "lon": "16.33414",
+         "timestamp": ["1919-09-02"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q109686349", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
       }

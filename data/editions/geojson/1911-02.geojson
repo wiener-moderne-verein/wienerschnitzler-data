@@ -603,7 +603,14 @@
          "timestamp": ["1911-02-03"],
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Berger",
+
+         "p_id": "#14065"
+         }]
       }
       }, 
     {
@@ -717,7 +724,14 @@
          "timestamp": ["1911-02-03"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Oppenheimer",
+
+         "p_id": "#12384"
+         }]
       }
       }, 
     {
@@ -868,7 +882,14 @@
          "timestamp": ["1911-02-22"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Norbert Salter",
+
+         "p_id": "#2610"
+         }]
       }
       }, 
     {
@@ -979,6 +1000,36 @@
         "wikidata": "http://www.wikidata.org/entity/Q84367051", 
         "abbr": "Kaufhaus", 
         "type": "Kaufhaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.273893, 52.490797]
+      },
+      "properties": {
+         "id": "pmb252558",
+         "title": "Erdener Straße 8",
+         "lat": "52.490797",
+         "lon": "13.273893",
+         "timestamp": ["1911-02-24", "1911-02-26"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }, 
+         {
+
+         "p_name": "Hedwig Fischer",
+
+         "p_id": "#2657"
+         }]
       }
       }, 
     {

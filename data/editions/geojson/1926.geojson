@@ -104,7 +104,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -1161,6 +1168,12 @@
          }, 
          {
 
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
@@ -1356,24 +1369,6 @@
         "geonames": "https://sws.geonames.org/2852458/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.67418, 46.41898]
-      },
-      "properties": {
-         "id": "pmb40362",
-         "title": "Vigo di Fassa",
-         "lat": "46.41898",
-         "lon": "11.67418",
-         "timestamp": ["1926-05-07"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/3164330/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
       }
       }, 
     {
@@ -2174,7 +2169,14 @@
          "timestamp": ["1926-09-28", "1926-12-18"],
          "importance": 2, 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Berger",
+
+         "p_id": "#14065"
+         }]
       }
       }, 
     {
@@ -4062,6 +4064,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-15.428013, 28.126371]
+      },
+      "properties": {
+         "id": "pmb250424",
+         "title": "Quiney’s Hotel Metropole",
+         "lat": "28.126371",
+         "lon": "-15.428013",
+         "timestamp": ["1926-04-29", "1926-04-30", "1926-05-01", "1926-05-02", "1926-05-03"],
+         "importance": 5, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [-15.41915, 27.99243]
       },
       "properties": {
@@ -4129,6 +4148,43 @@
         "geonames": "https://sws.geonames.org/2514363/", 
         "abbr": "H.HBR", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.7266666666667, 42.235833333333]
+      },
+      "properties": {
+         "id": "pmb252769",
+         "title": "Vigo",
+         "lat": "42.235833333333",
+         "lon": "-8.7266666666667",
+         "timestamp": ["1926-05-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Vigo", 
+        "wikidata": "http://www.wikidata.org/entity/Q8745", 
+        "geonames": "https://sws.geonames.org/6360254/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.0, 46.38]
+      },
+      "properties": {
+         "id": "pmb252268",
+         "title": "?? [nicht näher bestimmter Punkt zwischen Lissabon und Boulogne-sur-Mer]",
+         "lat": "46.38",
+         "lon": "-8.0",
+         "timestamp": ["1926-05-08"],
+         "importance": 1, 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
       }
       }, 
     {
@@ -5554,7 +5610,14 @@
          "timestamp": ["1926-10-12"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Ferraris",
+
+         "p_id": "#16181"
+         }]
       }
       }, 
     {

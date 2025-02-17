@@ -92,7 +92,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -1880,6 +1887,12 @@
          }, 
          {
 
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
@@ -3294,6 +3307,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.273893, 52.490797]
+      },
+      "properties": {
+         "id": "pmb252558",
+         "title": "Erdener Straße 8",
+         "lat": "52.490797",
+         "lon": "13.273893",
+         "timestamp": ["1928-10-15", "1928-12-30"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }, 
+         {
+
+         "p_name": "Hedwig Fischer",
+
+         "p_id": "#2657"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.376804, 48.210822]
       },
       "properties": {
@@ -3378,25 +3421,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.5083, 48.2247]
-      },
-      "properties": {
-         "id": "pmb249207",
-         "title": "Flughafen Aspern",
-         "lat": "48.2247",
-         "lon": "16.5083",
-         "timestamp": ["1928-07-27", "1928-07-31"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Flughafen_Aspern", 
-        "wikidata": "http://www.wikidata.org/entity/Q1430859", 
-        "abbr": "Flughafen", 
-        "type": ""
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -3433,6 +3457,45 @@
 
          "p_id": "#12698"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30555556, 48.34]
+      },
+      "properties": {
+         "id": "pmb233074",
+         "title": "Strombad Kritzendorf",
+         "lat": "48.34",
+         "lon": "16.30555556",
+         "timestamp": ["1928-07-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Strombad_Kritzendorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q18857133", 
+        "geonames": "https://sws.geonames.org/3324066/", 
+        "abbr": "L.LCTY", 
+        "type": "Örtlichkeit"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.5083, 48.2247]
+      },
+      "properties": {
+         "id": "pmb249207",
+         "title": "Flughafen Aspern",
+         "lat": "48.2247",
+         "lon": "16.5083",
+         "timestamp": ["1928-07-27", "1928-07-31"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Flughafen_Aspern", 
+        "wikidata": "http://www.wikidata.org/entity/Q1430859", 
+        "abbr": "Flughafen", 
+        "type": ""
       }
       }, 
     {
@@ -5848,26 +5911,6 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.30555556, 48.34]
-      },
-      "properties": {
-         "id": "pmb233074",
-         "title": "Strombad Kritzendorf",
-         "lat": "48.34",
-         "lon": "16.30555556",
-         "timestamp": ["1928-07-17"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Strombad_Kritzendorf", 
-        "wikidata": "http://www.wikidata.org/entity/Q18857133", 
-        "geonames": "https://sws.geonames.org/3324066/", 
-        "abbr": "L.LCTY", 
-        "type": "Örtlichkeit"
       }
       }, 
     {

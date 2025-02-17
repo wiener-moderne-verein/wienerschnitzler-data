@@ -54,7 +54,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -710,6 +717,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.209444, 48.327778]
+      },
+      "properties": {
+         "id": "pmb1246",
+         "title": "St. Andrä-Wördern",
+         "lat": "48.327778",
+         "lon": "16.209444",
+         "timestamp": ["1913-05-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._Andr%C3%A4-W%C3%B6rdern", 
+        "wikidata": "http://www.wikidata.org/entity/Q672587", 
+        "geonames": "https://sws.geonames.org/7873041/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.368902, 48.20539]
       },
       "properties": {
@@ -868,12 +895,30 @@
          "title": "Hotel Continental [München]",
          "lat": "48.143395",
          "lon": "11.569993",
-         "timestamp": ["1913-09-04", "1913-09-05", "1913-09-06", "1913-09-07", "1913-09-08", "1913-09-09"],
-         "importance": 6, 
+         "timestamp": ["1913-09-04", "1913-09-04", "1913-09-05", "1913-09-05", "1913-09-06", "1913-09-06", "1913-09-07", "1913-09-07", "1913-09-08", "1913-09-08", "1913-09-09", "1913-09-09", "1913-09-10", "1913-09-10", "1913-09-11", "1913-09-11"],
+         "importance": 16, 
         "wikipedia": "https://de.wikipedia.org/wiki/Grand_Hotel_Continental_(M%C3%BCnchen)", 
         "wikidata": "http://www.wikidata.org/entity/Q57843963", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2803, 47.90938]
+      },
+      "properties": {
+         "id": "pmb44493",
+         "title": "Tutzing",
+         "lat": "47.90938",
+         "lon": "11.2803",
+         "timestamp": ["1913-09-09", "1913-09-11"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2820692/", 
+        "abbr": "P.PPLA4", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -1240,6 +1285,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q752283", 
         "abbr": "Zoo (K.ZOO)", 
         "type": "Zoo"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.24604, 48.24737]
+      },
+      "properties": {
+         "id": "pmb90609",
+         "title": "Exelberg",
+         "lat": "48.24737",
+         "lon": "16.24604",
+         "timestamp": ["1913-05-25"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2779875/", 
+        "abbr": "T.HLL", 
+        "type": "Hügel"
       }
       }, 
     {
@@ -1613,6 +1676,12 @@
         "wohnort": [
          {
 
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
+         {
+
          "p_name": "Else Speidel-Haeberle",
 
          "p_id": "#2642"
@@ -1751,8 +1820,8 @@
          "title": "Neue Wiener Bühne",
          "lat": "48.2195962",
          "lon": "16.3589845",
-         "timestamp": ["1913-01-07", "1913-05-29", "1913-10-13", "1913-10-21"],
-         "importance": 4, 
+         "timestamp": ["1913-01-07", "1913-04-01", "1913-05-29", "1913-10-13", "1913-10-21"],
+         "importance": 5, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": [
@@ -1778,7 +1847,14 @@
          "timestamp": ["1913-04-10", "1913-12-06"],
          "importance": 2, 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Berger",
+
+         "p_id": "#14065"
+         }]
       }
       }, 
     {
@@ -2076,18 +2152,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.76222, 44.91417]
+        "coordinates": [16.27629, 48.21253]
       },
       "properties": {
-         "id": "pmb45260",
-         "title": "Brijuni",
-         "lat": "44.91417",
-         "lon": "13.76222",
-         "timestamp": ["1913-07-24", "1913-07-25", "1913-07-26", "1913-07-27", "1913-07-28", "1913-07-29", "1913-07-30", "1913-07-31", "1913-08-01", "1913-08-02", "1913-08-03", "1913-08-04", "1913-08-05", "1913-08-06", "1913-08-07", "1913-08-08", "1913-08-09", "1913-08-10", "1913-08-11", "1913-08-12", "1913-08-13", "1913-08-14", "1913-08-16", "1913-08-17", "1913-08-18", "1913-08-19", "1913-08-20", "1913-08-21", "1913-08-22"],
-         "importance": 29, 
-        "geonames": "https://sws.geonames.org/3203301/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+         "id": "pmb91840",
+         "title": "Erholungsgebiet Steinhof",
+         "lat": "48.21253",
+         "lon": "16.27629",
+         "timestamp": ["1913-04-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Steinhof_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q877274", 
+        "geonames": "https://sws.geonames.org/6942412/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
       }
       }, 
     {
@@ -2130,6 +2208,24 @@
 
          "p_id": "#12698"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.76222, 44.91417]
+      },
+      "properties": {
+         "id": "pmb45260",
+         "title": "Brijuni",
+         "lat": "44.91417",
+         "lon": "13.76222",
+         "timestamp": ["1913-07-24", "1913-07-25", "1913-07-26", "1913-07-27", "1913-07-28", "1913-07-29", "1913-07-30", "1913-07-31", "1913-08-01", "1913-08-02", "1913-08-03", "1913-08-04", "1913-08-05", "1913-08-06", "1913-08-07", "1913-08-08", "1913-08-09", "1913-08-10", "1913-08-11", "1913-08-12", "1913-08-13", "1913-08-14", "1913-08-16", "1913-08-17", "1913-08-18", "1913-08-19", "1913-08-20", "1913-08-21", "1913-08-22"],
+         "importance": 29, 
+        "geonames": "https://sws.geonames.org/3203301/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -2394,12 +2490,6 @@
          "p_name": "Stefanie Bachrach",
 
          "p_id": "#13653"
-         }, 
-         {
-
-         "p_name": "Eugenie Bachrach",
-
-         "p_id": "#13644"
          }]
       }
       }, 
@@ -2510,6 +2600,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q118397834", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.570472222222, 48.142138888889]
+      },
+      "properties": {
+         "id": "pmb252869",
+         "title": "Regina-Palast-Hotel [München]",
+         "lat": "48.142138888889",
+         "lon": "11.570472222222",
+         "timestamp": ["1913-09-08", "1913-09-09", "1913-09-10", "1913-09-11"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Regina-Palast-Hotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q48665523", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {

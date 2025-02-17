@@ -71,7 +71,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -510,6 +517,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.0391, 47.79964]
+      },
+      "properties": {
+         "id": "pmb91270",
+         "title": "Mönchsberg",
+         "lat": "47.79964",
+         "lon": "13.0391",
+         "timestamp": ["1921-05-12", "1921-09-07"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2771281/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.0458, 47.7969]
       },
       "properties": {
@@ -606,6 +631,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q688546", 
         "abbr": "Schloss (K.SLS)", 
         "type": "Schloss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.05734, 47.80399]
+      },
+      "properties": {
+         "id": "pmb297",
+         "title": "Kapuzinerberg",
+         "lat": "47.80399",
+         "lon": "13.05734",
+         "timestamp": ["1921-08-25", "1921-09-06"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kapuzinerberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q873917", 
+        "geonames": "https://sws.geonames.org/2774753/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }, 
     {
@@ -2068,17 +2113,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.383906681096, 48.211453732859]
+        "coordinates": [13.0455473, 47.8021271]
       },
       "properties": {
-         "id": "pmb1013",
-         "title": "Urania",
-         "lat": "48.211453732859",
-         "lon": "16.383906681096",
-         "timestamp": ["1921-05-18", "1921-06-14", "1921-11-24", "1921-12-30"],
-         "importance": 4, 
-        "abbr": "Volksbildungsanstalt (K.VBA)", 
-        "type": "Volksbildungsanstalt"
+         "id": "pmb477",
+         "title": "Hotel Traube",
+         "lat": "47.8021271",
+         "lon": "13.0455473",
+         "timestamp": ["1921-09-06"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -2223,6 +2268,64 @@
          "p_name": "Gustav Schwarzkopf",
 
          "p_id": "#12740"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.383906681096, 48.211453732859]
+      },
+      "properties": {
+         "id": "pmb1013",
+         "title": "Urania",
+         "lat": "48.211453732859",
+         "lon": "16.383906681096",
+         "timestamp": ["1921-05-18", "1921-06-14", "1921-11-24", "1921-12-30"],
+         "importance": 4, 
+        "abbr": "Volksbildungsanstalt (K.VBA)", 
+        "type": "Volksbildungsanstalt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.048984, 47.802236]
+      },
+      "properties": {
+         "id": "pmb252997",
+         "title": "Zauberflöten-Häuschen",
+         "lat": "47.802236",
+         "lon": "13.048984",
+         "timestamp": ["1921-09-06"],
+         "importance": 1, 
+        "abbr": "Denkmal", 
+        "type": "Denkmal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35967, 48.21623]
+      },
+      "properties": {
+         "id": "pmb700",
+         "title": "Hotel Regina [Wien]",
+         "lat": "48.21623",
+         "lon": "16.35967",
+         "timestamp": ["1921-12-22"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
          }]
       }
       }, 
@@ -2573,6 +2676,25 @@
          "importance": 5, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0478, 47.8027]
+      },
+      "properties": {
+         "id": "pmb253003",
+         "title": "Paschinger Schlössl",
+         "lat": "47.8027",
+         "lon": "13.0478",
+         "timestamp": ["1921-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Paschinger_Schl%C3%B6ssl", 
+        "wikidata": "http://www.wikidata.org/entity/Q1558482", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {

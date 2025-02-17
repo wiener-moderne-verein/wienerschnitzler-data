@@ -51,8 +51,8 @@
          "title": "München",
          "lat": "48.13743",
          "lon": "11.57549",
-         "timestamp": ["1914-01-25", "1914-01-26", "1914-01-26", "1914-01-27", "1914-01-28", "1914-01-29", "1914-01-29", "1914-01-30", "1914-01-30", "1914-01-31"],
-         "importance": 10, 
+         "timestamp": ["1914-01-25", "1914-01-26", "1914-01-27", "1914-01-28", "1914-01-29", "1914-01-30", "1914-01-31"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
         "wikidata": "http://www.wikidata.org/entity/Q1726", 
         "geonames": "https://sws.geonames.org/2867714/", 
@@ -499,6 +499,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.575765, 48.139924]
+      },
+      "properties": {
+         "id": "pmb268",
+         "title": "Hugo Böttner, Delikatessenhandlung, Austernstube und Dessertweinausschank",
+         "lat": "48.139924",
+         "lon": "11.575765",
+         "timestamp": ["1914-01-27", "1914-01-31"],
+         "importance": 2, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.332896, 48.253174]
       },
       "properties": {
@@ -511,6 +528,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q131720151", 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.570472222222, 48.142138888889]
+      },
+      "properties": {
+         "id": "pmb252869",
+         "title": "Regina-Palast-Hotel [München]",
+         "lat": "48.142138888889",
+         "lon": "11.570472222222",
+         "timestamp": ["1914-01-26", "1914-01-28", "1914-01-29", "1914-01-30"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Regina-Palast-Hotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q48665523", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {

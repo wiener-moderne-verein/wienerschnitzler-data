@@ -54,7 +54,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
       }
       }, 
     {
@@ -167,8 +174,8 @@
          "title": "München",
          "lat": "48.13743",
          "lon": "11.57549",
-         "timestamp": ["1914-01-25", "1914-01-26", "1914-01-26", "1914-01-27", "1914-01-28", "1914-01-29", "1914-01-29", "1914-01-30", "1914-01-30", "1914-01-31", "1914-02-01"],
-         "importance": 11, 
+         "timestamp": ["1914-01-25", "1914-01-26", "1914-01-27", "1914-01-28", "1914-01-29", "1914-01-30", "1914-01-31", "1914-02-01"],
+         "importance": 8, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
         "wikidata": "http://www.wikidata.org/entity/Q1726", 
         "geonames": "https://sws.geonames.org/2867714/", 
@@ -284,6 +291,26 @@
         "geonames": "https://sws.geonames.org/2761738/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.32522, 48.30521]
+      },
+      "properties": {
+         "id": "pmb865",
+         "title": "Klosterneuburg",
+         "lat": "48.30521",
+         "lon": "16.32522",
+         "timestamp": ["1914-04-13", "1914-04-19", "1914-04-19", "1914-04-26"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q487522", 
+        "geonames": "https://sws.geonames.org/2773913/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -715,6 +742,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.30865, 48.291]
+      },
+      "properties": {
+         "id": "pmb44392",
+         "title": "Weidling",
+         "lat": "48.291",
+         "lon": "16.30865",
+         "timestamp": ["1914-04-19", "1914-04-19"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidling_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q484858", 
+        "geonames": "https://sws.geonames.org/2761741/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.043401, 47.802045]
       },
       "properties": {
@@ -735,6 +782,24 @@
 
          "p_id": "#28739"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0391, 47.79964]
+      },
+      "properties": {
+         "id": "pmb91270",
+         "title": "Mönchsberg",
+         "lat": "47.79964",
+         "lon": "13.0391",
+         "timestamp": ["1914-08-19", "1914-08-19"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2771281/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }, 
     {
@@ -791,6 +856,26 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.05734, 47.80399]
+      },
+      "properties": {
+         "id": "pmb297",
+         "title": "Kapuzinerberg",
+         "lat": "47.80399",
+         "lon": "13.05734",
+         "timestamp": ["1914-02-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kapuzinerberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q873917", 
+        "geonames": "https://sws.geonames.org/2774753/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }, 
     {
@@ -902,6 +987,41 @@
         "geonames": "https://sws.geonames.org/2770640/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333907, 48.28228]
+      },
+      "properties": {
+         "id": "pmb92464",
+         "title": "Probst-Ubald-Weg",
+         "lat": "48.28228",
+         "lon": "16.333907",
+         "timestamp": ["1914-04-13", "1914-04-13"],
+         "importance": 2
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.27616, 48.30997]
+      },
+      "properties": {
+         "id": "pmb46976",
+         "title": "Kierling",
+         "lat": "48.30997",
+         "lon": "16.27616",
+         "timestamp": ["1914-04-26", "1914-04-26"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kierling", 
+        "wikidata": "http://www.wikidata.org/entity/Q875133", 
+        "geonames": "https://sws.geonames.org/2774449/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -1225,6 +1345,12 @@
          "p_name": "Anton Loew",
 
          "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
          }, 
          {
 
@@ -1959,6 +2085,12 @@
         "wohnort": [
          {
 
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
+         {
+
          "p_name": "Else Speidel-Haeberle",
 
          "p_id": "#2642"
@@ -2301,6 +2433,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.273893, 52.490797]
+      },
+      "properties": {
+         "id": "pmb252558",
+         "title": "Erdener Straße 8",
+         "lat": "52.490797",
+         "lon": "13.273893",
+         "timestamp": ["1914-10-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }, 
+         {
+
+         "p_name": "Hedwig Fischer",
+
+         "p_id": "#2657"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.353139, 48.24422]
       },
       "properties": {
@@ -2355,34 +2517,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.383906681096, 48.211453732859]
+        "coordinates": [11.575765, 48.139924]
       },
       "properties": {
-         "id": "pmb1013",
-         "title": "Urania",
-         "lat": "48.211453732859",
-         "lon": "16.383906681096",
-         "timestamp": ["1914-03-02", "1914-10-08"],
+         "id": "pmb268",
+         "title": "Hugo Böttner, Delikatessenhandlung, Austernstube und Dessertweinausschank",
+         "lat": "48.139924",
+         "lon": "11.575765",
+         "timestamp": ["1914-01-27", "1914-01-31"],
          "importance": 2, 
-        "abbr": "Volksbildungsanstalt (K.VBA)", 
-        "type": "Volksbildungsanstalt"
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.370928, 48.19224]
+        "coordinates": [16.27629, 48.21253]
       },
       "properties": {
-         "id": "pmb92602",
-         "title": "Wiednerspital",
-         "lat": "48.19224",
-         "lon": "16.370928",
-         "timestamp": ["1914-09-10", "1914-11-05", "1914-11-24"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
-        "wikidata": "http://www.wikidata.org/entity/Q1485420"
+         "id": "pmb91840",
+         "title": "Erholungsgebiet Steinhof",
+         "lat": "48.21253",
+         "lon": "16.27629",
+         "timestamp": ["1914-03-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Steinhof_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q877274", 
+        "geonames": "https://sws.geonames.org/6942412/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0455473, 47.8021271]
+      },
+      "properties": {
+         "id": "pmb477",
+         "title": "Hotel Traube",
+         "lat": "47.8021271",
+         "lon": "13.0455473",
+         "timestamp": ["1914-02-02"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -2425,6 +2607,23 @@
 
          "p_id": "#12698"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370928, 48.19224]
+      },
+      "properties": {
+         "id": "pmb92602",
+         "title": "Wiednerspital",
+         "lat": "48.19224",
+         "lon": "16.370928",
+         "timestamp": ["1914-09-10", "1914-11-05", "1914-11-24"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
+        "wikidata": "http://www.wikidata.org/entity/Q1485420"
       }
       }, 
     {
@@ -2544,13 +2743,26 @@
          "p_name": "Stefanie Bachrach",
 
          "p_id": "#13653"
-         }, 
-         {
-
-         "p_name": "Eugenie Bachrach",
-
-         "p_id": "#13644"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.570472222222, 48.142138888889]
+      },
+      "properties": {
+         "id": "pmb252869",
+         "title": "Regina-Palast-Hotel [München]",
+         "lat": "48.142138888889",
+         "lon": "11.570472222222",
+         "timestamp": ["1914-01-26", "1914-01-28", "1914-01-29", "1914-01-30"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Regina-Palast-Hotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q48665523", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -2656,6 +2868,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q15115233", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.383906681096, 48.211453732859]
+      },
+      "properties": {
+         "id": "pmb1013",
+         "title": "Urania",
+         "lat": "48.211453732859",
+         "lon": "16.383906681096",
+         "timestamp": ["1914-03-02", "1914-10-08"],
+         "importance": 2, 
+        "abbr": "Volksbildungsanstalt (K.VBA)", 
+        "type": "Volksbildungsanstalt"
       }
       }, 
     {

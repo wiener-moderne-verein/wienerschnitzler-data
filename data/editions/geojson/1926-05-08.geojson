@@ -1,5 +1,34 @@
 {
   "type": "FeatureCollection",
-  "features": [,
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+            [-8, 46.38]
+          ]
+      },
+      "properties": {
+        "name": "8. Mai 1926"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.0, 46.38]
+      },
+      "properties": {
+         "id": "pmb252268",
+         "title": "?? [nicht näher bestimmter Punkt zwischen Lissabon und Boulogne-sur-Mer]",
+         "lat": "46.38",
+         "lon": "-8.0",
+         "timestamp": ["1926-05-08"],
+         "importance": 1, 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
+      }
+      }
   ]
 }

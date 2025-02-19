@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.366311, 48.194443], 
+            [16.375117, 48.194177], 
+            [16.374629, 48.196855], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +16,64 @@
         "name": "26. Mai 1912"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366311, 48.194443]
+      },
+      "properties": {
+         "id": "pmb253257",
+         "title": "Rienößlgasse 3",
+         "lat": "48.194443",
+         "lon": "16.366311",
+         "timestamp": ["1912-05-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375117, 48.194177]
+      },
+      "properties": {
+         "id": "pmb253264",
+         "title": "Plößlgasse 4",
+         "lat": "48.194177",
+         "lon": "16.375117",
+         "timestamp": ["1912-05-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374629, 48.196855]
+      },
+      "properties": {
+         "id": "pmb234683",
+         "title": "Wohllebengasse 6",
+         "lat": "48.196855",
+         "lon": "16.374629",
+         "timestamp": ["1912-05-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Benedikt",
+
+         "p_id": "#10875"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

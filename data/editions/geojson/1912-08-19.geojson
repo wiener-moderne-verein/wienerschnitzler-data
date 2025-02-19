@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.76222, 44.91417]
+            [13.716511, 44.914742], 
+            [13.769141, 44.916324]
           ]
       },
       "properties": {
@@ -17,18 +18,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.76222, 44.91417]
+        "coordinates": [13.769141, 44.916324]
       },
       "properties": {
-         "id": "pmb45260",
-         "title": "Brijuni",
-         "lat": "44.91417",
-         "lon": "13.76222",
+         "id": "pmb253438",
+         "title": "Hotel Neptun III",
+         "lat": "44.916324",
+         "lon": "13.769141",
          "timestamp": ["1912-08-19"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3203301/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.716511, 44.914742]
+      },
+      "properties": {
+         "id": "pmb92260",
+         "title": "Gronghera",
+         "lat": "44.914742",
+         "lon": "13.716511",
+         "timestamp": ["1912-08-19"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q12631893", 
+        "abbr": "Insel (N.INS)", 
+        "type": "Insel"
       }
       }
   ]

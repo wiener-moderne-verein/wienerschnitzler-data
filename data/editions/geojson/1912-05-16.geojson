@@ -6,10 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.336106, 45.4328], 
             [12.33835, 45.43411], 
             [12.336899, 45.432304], 
             [12.35645, 45.42953], 
-            [16.33494, 48.23365]
+            [12.332472222222, 45.446336111111], 
+            [12.336047, 45.435282]
           ]
       },
       "properties": {
@@ -76,30 +78,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.33494, 48.23365]
+        "coordinates": [12.336106, 45.4328]
       },
       "properties": {
-         "id": "pmb235251",
-         "title": "Hasenauerstraße 59",
-         "lat": "48.23365",
-         "lon": "16.33494",
+         "id": "pmb310",
+         "title": "Grand Hotel Bauer-Grünwald",
+         "lat": "45.4328",
+         "lon": "12.336106",
          "timestamp": ["1912-05-16"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Paula Beer-Hofmann",
-
-         "p_id": "#10860"
-         }, 
-         {
-
-         "p_name": "Richard Beer-Hofmann",
-
-         "p_id": "#10863"
-         }]
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.332472222222, 45.446336111111]
+      },
+      "properties": {
+         "id": "pmb253174",
+         "title": "Madonna dell’Orto",
+         "lat": "45.446336111111",
+         "lon": "12.332472222222",
+         "timestamp": ["1912-05-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Madonna_dell%E2%80%99Orto", 
+        "wikidata": "http://www.wikidata.org/entity/Q861436", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.336047, 45.435282]
+      },
+      "properties": {
+         "id": "pmb260",
+         "title": "Hotel Bonvecchiati",
+         "lat": "45.435282",
+         "lon": "12.336047",
+         "timestamp": ["1912-05-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111412860", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

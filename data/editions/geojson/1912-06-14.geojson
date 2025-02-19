@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [14.432778, 50.080556], 
+            [14.435833333333, 50.083055555556], 
+            [14.428996, 50.086417], 
             [14.42777, 50.0839]
           ]
       },
@@ -60,6 +62,50 @@
          "p_name": "Angelo Neumann",
 
          "p_id": "#12341"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.435833333333, 50.083055555556]
+      },
+      "properties": {
+         "id": "pmb252051",
+         "title": "Praha hlavní nádraží",
+         "lat": "50.083055555556",
+         "lon": "14.435833333333",
+         "timestamp": ["1912-06-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
+        "wikidata": "http://www.wikidata.org/entity/Q751174", 
+        "geonames": "https://sws.geonames.org/6285753/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.428996, 50.086417]
+      },
+      "properties": {
+         "id": "pmb93",
+         "title": "Hotel Blauer Stern",
+         "lat": "50.086417",
+         "lon": "14.428996",
+         "timestamp": ["1912-06-14"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Carl Seltmann",
+
+         "p_id": "#145407"
          }]
       }
       }

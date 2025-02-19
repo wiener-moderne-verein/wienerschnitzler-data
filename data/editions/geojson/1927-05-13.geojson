@@ -6,10 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35113, 48.190969], 
             [16.36471, 48.200556], 
             [16.377117625773, 48.200254933632], 
             [16.367725, 48.212284], 
+            [16.365661, 48.225985], 
             [16.33716, 48.23188]
           ]
       },
@@ -51,30 +51,6 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.35113, 48.190969]
-      },
-      "properties": {
-         "id": "pmb245453",
-         "title": "Mollardgasse 26",
-         "lat": "48.190969",
-         "lon": "16.35113",
-         "timestamp": ["1927-05-13"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Helene Binder",
-
-         "p_id": "#14218"
-         }]
       }
       },
     {
@@ -178,6 +154,23 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365661, 48.225985]
+      },
+      "properties": {
+         "id": "pmb253275",
+         "title": "Rossauer Lände 43",
+         "lat": "48.225985",
+         "lon": "16.365661",
+         "timestamp": ["1927-05-13"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

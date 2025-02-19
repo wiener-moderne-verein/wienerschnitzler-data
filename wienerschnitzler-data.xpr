@@ -10,11 +10,43 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/xml/wienerschnitzler_distinctPlaces.xml</String>
+                                    <String>data/editions/xml/wienerschnitzler_complete_nested.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>distinctPlaces to GeoJSON months</String>
+                                        <String>complete to complete_nested (step 2)</String>
+                                        <String>complete_nested to geoJSON for each day</String>
+                                        <String>complete_nested to geoJSON linestring decade</String>
+                                        <String>complete_nested to geoJSON linestring month</String>
+                                        <String>complete_nested to geoJSON linestring year</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>input-data/listplace.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>import _ listplace auf verwendete places kürzen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -30,11 +62,86 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/xml/wienerschnitzler_complete_nested.xml</String>
+                                    <String>data/editions/xml/wienerschnitzler_distinctPlaces.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>complete_nested to geoJSON linestring decade</String>
+                                        <String>distinctPlaces to GeoJSON months</String>
+                                        <String>distinctPlaces to GeoJSON decades</String>
+                                        <String>distinctPlaces to GeoJSON complete</String>
+                                        <String>distinctPlaces to GeoJSON years</String>
+                                        <String>distinctPlaces to CSV</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/editions/xml/wienerschnitzler_complete.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>complete to complete_nested (step 1)</String>
+                                        <String>complete to distinctPlaces</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>input-data/relations.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>import _ relations to complete</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>input-data/partOf.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>import _ partOf umwandeln</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -70,49 +177,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>input-data/listplace.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>import _ listplace auf verwendete places kürzen</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/editions/xml/wienerschnitzler_complete.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>complete to complete_nested (step 1)</String>
-                                        <String>complete to distinctPlaces</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>data/indices/living-working-in.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -138,46 +202,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>living-working</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>input-data/relations.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>import _ relations to complete</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>input-data/partOf.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>import _ partOf umwandeln</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

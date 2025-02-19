@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.76222, 44.91417]
+            [13.771169, 44.912145], 
+            [13.77866, 44.90553], 
+            [13.770547, 44.916665], 
+            [13.769141, 44.916324]
           ]
       },
       "properties": {
@@ -17,18 +20,68 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.76222, 44.91417]
+        "coordinates": [13.769141, 44.916324]
       },
       "properties": {
-         "id": "pmb45260",
-         "title": "Brijuni",
-         "lat": "44.91417",
-         "lon": "13.76222",
+         "id": "pmb253438",
+         "title": "Hotel Neptun III",
+         "lat": "44.916324",
+         "lon": "13.769141",
          "timestamp": ["1912-08-15"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3203301/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.77866, 44.90553]
+      },
+      "properties": {
+         "id": "pmb92472",
+         "title": "Monte Rancon",
+         "lat": "44.90553",
+         "lon": "13.77866",
+         "timestamp": ["1912-08-15"],
+         "importance": 1, 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.770547, 44.916665]
+      },
+      "properties": {
+         "id": "pmb253501",
+         "title": "Bootshaus",
+         "lat": "44.916665",
+         "lon": "13.770547",
+         "timestamp": ["1912-08-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.771169, 44.912145]
+      },
+      "properties": {
+         "id": "pmb92185",
+         "title": "Monte Castellier",
+         "lat": "44.912145",
+         "lon": "13.771169",
+         "timestamp": ["1912-08-15"],
+         "importance": 1, 
+        "abbr": "Anhöhe", 
+        "type": "Anhöhe"
       }
       }
   ]

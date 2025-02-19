@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.88586, 45.40797], 
-            [12.336899, 45.432304]
+            [11.879788, 45.410566], 
+            [11.8894, 45.410278], 
+            [12.336106, 45.4328], 
+            [12.336899, 45.432304], 
+            [12.339527777777779, 45.434152777777776], 
+            [11.879536111111111, 47.41181666666667]
           ]
       },
       "properties": {
@@ -35,20 +39,92 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.88586, 45.40797]
+        "coordinates": [12.339527777777779, 45.434152777777776]
       },
       "properties": {
-         "id": "pmb44156",
-         "title": "Padua",
-         "lat": "45.40797",
-         "lon": "11.88586",
+         "id": "pmb253200",
+         "title": "Piazzetta San Marco",
+         "lat": "45.434152777777776",
+         "lon": "12.339527777777779",
          "timestamp": ["1912-05-20"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Padua", 
-        "wikidata": "http://www.wikidata.org/entity/Q617", 
-        "geonames": "https://sws.geonames.org/3171728/", 
-        "abbr": "P.PPLA2", 
-        "type": "Hauptstadt"
+        "wikidata": "http://www.wikidata.org/entity/Q10510932", 
+        "abbr": "Platz (K.PLT)", 
+        "type": "Platz"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.336106, 45.4328]
+      },
+      "properties": {
+         "id": "pmb310",
+         "title": "Grand Hotel Bauer-Grünwald",
+         "lat": "45.4328",
+         "lon": "12.336106",
+         "timestamp": ["1912-05-20"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.879536111111111, 47.41181666666667]
+      },
+      "properties": {
+         "id": "pmb232873",
+         "title": "Cappella degli Scrovegni",
+         "lat": "47.41181666666667",
+         "lon": "11.879536111111111",
+         "timestamp": ["1912-05-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cappella_degli_Scrovegni", 
+        "wikidata": "http://www.wikidata.org/entity/Q963954", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.8894, 45.410278]
+      },
+      "properties": {
+         "id": "pmb50917",
+         "title": "Cappella Ovetari",
+         "lat": "45.410278",
+         "lon": "11.8894",
+         "timestamp": ["1912-05-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cappella_Ovetari", 
+        "wikidata": "http://www.wikidata.org/entity/Q3087562", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.879788, 45.410566]
+      },
+      "properties": {
+         "id": "pmb232870",
+         "title": "Chiesa degli Eremitani",
+         "lat": "45.410566",
+         "lon": "11.879788",
+         "timestamp": ["1912-05-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kirche_der_Eremitani", 
+        "wikidata": "http://www.wikidata.org/entity/Q3585946", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }
   ]

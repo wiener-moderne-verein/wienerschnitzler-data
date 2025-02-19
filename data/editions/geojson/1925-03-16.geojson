@@ -7,7 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [16.33716, 48.23188], 
-            [13.376389, 52.5225]
+            [13.376389, 52.5225], 
+            [13.374444, 52.51], 
+            [13.36042, 52.498402], 
+            [13.282944, 52.47847]
           ]
       },
       "properties": {
@@ -91,6 +94,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.374444, 52.51]
+      },
+      "properties": {
+         "id": "pmb245",
+         "title": "Hotel Esplanade [Berlin]",
+         "lat": "52.51",
+         "lon": "13.374444",
+         "timestamp": ["1925-03-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q321562", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.376389, 52.5225]
       },
       "properties": {
@@ -120,6 +142,60 @@
          "p_name": "Oskar Blumenthal",
 
          "p_id": "#14328"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1925-03-16"],
+         "importance": 1, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.282944, 52.47847]
+      },
+      "properties": {
+         "id": "pmb250448",
+         "title": "Hohenzollerndamm 90",
+         "lat": "52.47847",
+         "lon": "13.282944",
+         "timestamp": ["1925-03-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }, 
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
          }]
       }
       }

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.30219, 47.82468], 
+            [11.31187, 47.90348], 
             [11.27453, 47.90798]
           ]
       },
@@ -28,6 +30,46 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.30219, 47.82468]
+      },
+      "properties": {
+         "id": "pmb91725",
+         "title": "Seeshaupt",
+         "lat": "47.82468",
+         "lon": "11.30219",
+         "timestamp": ["1912-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Seeshaupt", 
+        "wikidata": "http://www.wikidata.org/entity/Q518061", 
+        "geonames": "https://sws.geonames.org/6556444/", 
+        "abbr": "P.PPLA4", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.31187, 47.90348]
+      },
+      "properties": {
+         "id": "pmb52262",
+         "title": "Starnberger See",
+         "lat": "47.90348",
+         "lon": "11.31187",
+         "timestamp": ["1912-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Starnberger_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q131615", 
+        "geonames": "https://sws.geonames.org/2829454/", 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       }
   ]

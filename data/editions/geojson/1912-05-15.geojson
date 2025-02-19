@@ -6,11 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.366944, 45.403889], 
             [12.339722222222, 45.434444444444], 
-            [12.33835, 45.43411], 
-            [12.336899, 45.432304], 
-            [12.35, 45.38333], 
-            [13.76667, 45.66667]
+            [12.339, 45.434], 
+            [12.33848, 45.43457], 
+            [12.336106, 45.4328], 
+            [12.336899, 45.432304]
           ]
       },
       "properties": {
@@ -21,20 +22,57 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.76667, 45.66667]
+        "coordinates": [12.366944, 45.403889]
       },
       "properties": {
-         "id": "pmb873",
-         "title": "Triest",
-         "lat": "45.66667",
-         "lon": "13.76667",
+         "id": "pmb46831",
+         "title": "Grand Hotel Excelsior [Lido]",
+         "lat": "45.403889",
+         "lon": "12.366944",
          "timestamp": ["1912-05-15"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Triest", 
-        "wikidata": "http://www.wikidata.org/entity/Q546", 
-        "geonames": "https://sws.geonames.org/3165186/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "wikipedia": "https://de.wikipedia.org/wiki/Grand_Hotel_Excelsior_(Venedig)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1542590", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33848, 45.43457]
+      },
+      "properties": {
+         "id": "pmb253166",
+         "title": "Caffè Lavena",
+         "lat": "45.43457",
+         "lon": "12.33848",
+         "timestamp": ["1912-05-15"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q5017189", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.339722222222, 45.434444444444]
+      },
+      "properties": {
+         "id": "pmb192409",
+         "title": "Basilica di San Marco",
+         "lat": "45.434444444444",
+         "lon": "12.339722222222",
+         "timestamp": ["1912-05-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Markusdom", 
+        "wikidata": "http://www.wikidata.org/entity/Q172988", 
+        "geonames": "https://sws.geonames.org/7535507/", 
+        "abbr": "S.CH", 
+        "type": "Kirche"
       }
       },
     {
@@ -58,58 +96,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.35, 45.38333]
+        "coordinates": [12.336106, 45.4328]
       },
       "properties": {
-         "id": "pmb259",
-         "title": "Lido",
-         "lat": "45.38333",
-         "lon": "12.35",
+         "id": "pmb310",
+         "title": "Grand Hotel Bauer-Grünwald",
+         "lat": "45.4328",
+         "lon": "12.336106",
          "timestamp": ["1912-05-15"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3174748/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.33835, 45.43411]
+        "coordinates": [12.339, 45.434]
       },
       "properties": {
-         "id": "pmb261",
-         "title": "Piazza San Marco",
-         "lat": "45.43411",
-         "lon": "12.33835",
+         "id": "pmb184980",
+         "title": "Ristorante Pilsen",
+         "lat": "45.434",
+         "lon": "12.339",
          "timestamp": ["1912-05-15"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz", 
-        "wikidata": "http://www.wikidata.org/entity/Q217527", 
-        "geonames": "https://sws.geonames.org/3229870/", 
-        "abbr": "S.SQR", 
-        "type": "Platz"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.339722222222, 45.434444444444]
-      },
-      "properties": {
-         "id": "pmb192409",
-         "title": "Basilica di San Marco",
-         "lat": "45.434444444444",
-         "lon": "12.339722222222",
-         "timestamp": ["1912-05-15"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Markusdom", 
-        "wikidata": "http://www.wikidata.org/entity/Q172988", 
-        "geonames": "https://sws.geonames.org/7535507/", 
-        "abbr": "S.CH", 
-        "type": "Kirche"
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

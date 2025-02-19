@@ -656,6 +656,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.32024, 45.44143]
+      },
+      "properties": {
+         "id": "pmb850",
+         "title": "Stazione di Venezia Santa Lucia",
+         "lat": "45.44143",
+         "lon": "12.32024",
+         "timestamp": ["1927-09-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Venezia_Santa_Lucia", 
+        "wikidata": "http://www.wikidata.org/entity/Q801567", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.5083, 48.2247]
       },
       "properties": {
@@ -747,19 +766,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.338208333333334, 45.433675]
+        "coordinates": [16.338022, 48.233651]
       },
       "properties": {
-         "id": "pmb232856",
-         "title": "Caffè Florian",
-         "lat": "45.433675",
-         "lon": "12.338208333333334",
-         "timestamp": ["1927-09-08", "1927-09-09", "1927-09-12"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Caff%C3%A8_Florian", 
-        "wikidata": "http://www.wikidata.org/entity/Q960610", 
-        "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1927-09-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
       }
       }, 
     {
@@ -796,30 +826,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.338022, 48.233651]
+        "coordinates": [12.338208333333334, 45.433675]
       },
       "properties": {
-         "id": "pmb245446",
-         "title": "Gregor-Mendel-Straße 32",
-         "lat": "48.233651",
-         "lon": "16.338022",
-         "timestamp": ["1927-09-25"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Rosa Menczel",
-
-         "p_id": "#21304"
-         }, 
-         {
-
-         "p_name": "Philipp Menczel",
-
-         "p_id": "#3119"
-         }]
+         "id": "pmb232856",
+         "title": "Caffè Florian",
+         "lat": "45.433675",
+         "lon": "12.338208333333334",
+         "timestamp": ["1927-09-08", "1927-09-09", "1927-09-12"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caff%C3%A8_Florian", 
+        "wikidata": "http://www.wikidata.org/entity/Q960610", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
       }
       }, 
     {
@@ -887,25 +906,6 @@
 
          "p_id": "#2238"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.32024, 45.44143]
-      },
-      "properties": {
-         "id": "pmb850",
-         "title": "Stazione di Venezia Santa Lucia",
-         "lat": "45.44143",
-         "lon": "12.32024",
-         "timestamp": ["1927-09-05"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Venezia_Santa_Lucia", 
-        "wikidata": "http://www.wikidata.org/entity/Q801567", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
       }
       }, 
     {

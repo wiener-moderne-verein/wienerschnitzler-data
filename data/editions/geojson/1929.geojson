@@ -3277,36 +3277,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.308333, 52.512778]
+        "coordinates": [16.338022, 48.233651]
       },
       "properties": {
-         "id": "pmb185949",
-         "title": "Städtische Oper Berlin",
-         "lat": "52.512778",
-         "lon": "13.308333",
-         "timestamp": ["1929-01-03"],
-         "importance": 1, 
-        "abbr": "Oper (K.OPR)", 
-        "type": "Oper"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.374825, 48.211649]
-      },
-      "properties": {
-         "id": "pmb233016",
-         "title": "Stadttempel",
-         "lat": "48.211649",
-         "lon": "16.374825",
-         "timestamp": ["1929-08-18"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Stadttempel", 
-        "wikidata": "http://www.wikidata.org/entity/Q253663", 
-        "abbr": "Kirche (K.KRC)", 
-        "type": "Kirche"
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1929-04-19", "1929-11-30"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
       }
       }, 
     {
@@ -3343,36 +3337,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.338022, 48.233651]
-      },
-      "properties": {
-         "id": "pmb245446",
-         "title": "Gregor-Mendel-Straße 32",
-         "lat": "48.233651",
-         "lon": "16.338022",
-         "timestamp": ["1929-04-19", "1929-11-30"],
-         "importance": 2, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Rosa Menczel",
-
-         "p_id": "#21304"
-         }, 
-         {
-
-         "p_name": "Philipp Menczel",
-
-         "p_id": "#3119"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.33465, 52.50422]
       },
       "properties": {
@@ -3384,6 +3348,42 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308333, 52.512778]
+      },
+      "properties": {
+         "id": "pmb185949",
+         "title": "Städtische Oper Berlin",
+         "lat": "52.512778",
+         "lon": "13.308333",
+         "timestamp": ["1929-01-03"],
+         "importance": 1, 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374825, 48.211649]
+      },
+      "properties": {
+         "id": "pmb233016",
+         "title": "Stadttempel",
+         "lat": "48.211649",
+         "lon": "16.374825",
+         "timestamp": ["1929-08-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stadttempel", 
+        "wikidata": "http://www.wikidata.org/entity/Q253663", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }, 
     {

@@ -7,13 +7,67 @@
         "type": "LineString", 
         "coordinates": [
             [16.33716, 48.23188], 
-            [13.36774, 52.52031]
+            [16.345645, 48.233562], 
+            [16.338443, 48.234039]
           ]
       },
       "properties": {
         "name": "25. Mai 1912"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.345645, 48.233562]
+      },
+      "properties": {
+         "id": "pmb252955",
+         "title": "Familienhotel »Cottage« Pension Kramer",
+         "lat": "48.233562",
+         "lon": "16.345645",
+         "timestamp": ["1912-05-25"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1912-05-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -84,30 +138,6 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.36774, 52.52031]
-      },
-      "properties": {
-         "id": "pmb237370",
-         "title": "Kronprinzenufer 7/In den Zelten 14",
-         "lat": "52.52031",
-         "lon": "13.36774",
-         "timestamp": ["1912-05-25"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Otto Brahm",
-
-         "p_id": "#10986"
          }]
       }
       }

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.76222, 44.91417]
+            [13.75642866, 44.910967], 
+            [13.77306267974912, 44.91065488125191], 
+            [13.769141, 44.916324]
           ]
       },
       "properties": {
@@ -17,18 +19,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.76222, 44.91417]
+        "coordinates": [13.769141, 44.916324]
       },
       "properties": {
-         "id": "pmb45260",
-         "title": "Brijuni",
-         "lat": "44.91417",
-         "lon": "13.76222",
+         "id": "pmb253438",
+         "title": "Hotel Neptun III",
+         "lat": "44.916324",
+         "lon": "13.769141",
          "timestamp": ["1912-07-22"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3203301/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.77306267974912, 44.91065488125191]
+      },
+      "properties": {
+         "id": "pmb52316",
+         "title": "Val Catena",
+         "lat": "44.91065488125191",
+         "lon": "13.77306267974912",
+         "timestamp": ["1912-07-22"],
+         "importance": 1, 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.75642866, 44.910967]
+      },
+      "properties": {
+         "id": "pmb253147",
+         "title": "Basilika St. Maria",
+         "lat": "44.910967",
+         "lon": "13.75642866",
+         "timestamp": ["1912-07-22"],
+         "importance": 1, 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
       }
       }
   ]

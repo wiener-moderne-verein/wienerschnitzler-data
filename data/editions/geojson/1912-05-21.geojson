@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.32024, 45.44143], 
             [12.336899, 45.432304], 
-            [11.35552, 46.49817]
+            [11.352074, 46.512068], 
+            [11.358436, 46.496619], 
+            [11.35552, 46.49817], 
+            [11.33888889, 46.500379]
           ]
       },
       "properties": {
@@ -35,6 +39,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.32024, 45.44143]
+      },
+      "properties": {
+         "id": "pmb850",
+         "title": "Stazione di Venezia Santa Lucia",
+         "lat": "45.44143",
+         "lon": "12.32024",
+         "timestamp": ["1912-05-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Venezia_Santa_Lucia", 
+        "wikidata": "http://www.wikidata.org/entity/Q801567", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.35552, 46.49817]
       },
       "properties": {
@@ -47,6 +70,63 @@
         "wikidata": "http://www.wikidata.org/entity/Q111413166", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.358436, 46.496619]
+      },
+      "properties": {
+         "id": "pmb248188",
+         "title": "Stazione di Bolzano",
+         "lat": "46.496619",
+         "lon": "11.358436",
+         "timestamp": ["1912-05-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bozen", 
+        "wikidata": "http://www.wikidata.org/entity/Q800560", 
+        "geonames": "https://sws.geonames.org/8410840/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.352074, 46.512068]
+      },
+      "properties": {
+         "id": "pmb253238",
+         "title": "St. Anton/Sant Antonio [Bozen]",
+         "lat": "46.512068",
+         "lon": "11.352074",
+         "timestamp": ["1912-05-21"],
+         "importance": 1, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.33888889, 46.500379]
+      },
+      "properties": {
+         "id": "pmb194314",
+         "title": "Gries-Quirein",
+         "lat": "46.500379",
+         "lon": "11.33888889",
+         "timestamp": ["1912-05-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gries-Quirein", 
+        "wikidata": "http://www.wikidata.org/entity/Q1546471", 
+        "geonames": "https://sws.geonames.org/3175824/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

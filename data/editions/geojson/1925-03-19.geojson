@@ -7,7 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [16.33716, 48.23188], 
-            [13.392222, 52.513611]
+            [13.392222, 52.513611], 
+            [13.38853, 52.51449], 
+            [13.374444, 52.51], 
+            [13.282944, 52.47847], 
+            [13.26442, 52.481123]
           ]
       },
       "properties": {
@@ -91,6 +95,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.374444, 52.51]
+      },
+      "properties": {
+         "id": "pmb245",
+         "title": "Hotel Esplanade [Berlin]",
+         "lat": "52.51",
+         "lon": "13.374444",
+         "timestamp": ["1925-03-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q321562", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.392222, 52.513611]
       },
       "properties": {
@@ -110,6 +133,77 @@
          "p_name": "Albert Patry",
 
          "p_id": "#9198"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.38853, 52.51449]
+      },
+      "properties": {
+         "id": "pmb247",
+         "title": "Restaurant Stallmann",
+         "lat": "52.51449",
+         "lon": "13.38853",
+         "timestamp": ["1925-03-19"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.26442, 52.481123]
+      },
+      "properties": {
+         "id": "pmb249121",
+         "title": "Höhmannstraße 6",
+         "lat": "52.481123",
+         "lon": "13.26442",
+         "timestamp": ["1925-03-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alfred Kerr",
+
+         "p_id": "#11910"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.282944, 52.47847]
+      },
+      "properties": {
+         "id": "pmb250448",
+         "title": "Hohenzollerndamm 90",
+         "lat": "52.47847",
+         "lon": "13.282944",
+         "timestamp": ["1925-03-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }, 
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
          }]
       }
       }

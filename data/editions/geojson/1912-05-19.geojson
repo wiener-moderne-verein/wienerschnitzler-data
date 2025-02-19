@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [12.336899, 45.432304]
+            [12.361422, 45.411979], 
+            [12.33835, 45.43411], 
+            [12.336899, 45.432304], 
+            [12.336106, 45.4328], 
+            [12.32, 45.432]
           ]
       },
       "properties": {
@@ -28,6 +32,82 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32, 45.432]
+      },
+      "properties": {
+         "id": "pmb253191",
+         "title": "San Sebastiano",
+         "lat": "45.432",
+         "lon": "12.32",
+         "timestamp": ["1912-05-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/San_Sebastiano_(Venedig)", 
+        "wikidata": "http://www.wikidata.org/entity/Q588559", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.361422, 45.411979]
+      },
+      "properties": {
+         "id": "pmb232810",
+         "title": "San Lazzaro degli Armeni",
+         "lat": "45.411979",
+         "lon": "12.361422",
+         "timestamp": ["1912-05-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/San_Lazzaro_degli_Armeni", 
+        "wikidata": "http://www.wikidata.org/entity/Q1791020", 
+        "geonames": "https://sws.geonames.org/3229948/", 
+        "abbr": "P.PPLR", 
+        "type": "Sakraler Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.336106, 45.4328]
+      },
+      "properties": {
+         "id": "pmb310",
+         "title": "Grand Hotel Bauer-Grünwald",
+         "lat": "45.4328",
+         "lon": "12.336106",
+         "timestamp": ["1912-05-19"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33835, 45.43411]
+      },
+      "properties": {
+         "id": "pmb261",
+         "title": "Piazza San Marco",
+         "lat": "45.43411",
+         "lon": "12.33835",
+         "timestamp": ["1912-05-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz", 
+        "wikidata": "http://www.wikidata.org/entity/Q217527", 
+        "geonames": "https://sws.geonames.org/3229870/", 
+        "abbr": "S.SQR", 
+        "type": "Platz"
       }
       }
   ]

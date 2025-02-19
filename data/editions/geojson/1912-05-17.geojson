@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.32798, 45.431245], 
             [12.336899, 45.432304], 
-            [12.33835, 45.43411]
+            [12.33848, 45.43457], 
+            [12.336047, 45.435282], 
+            [12.33052, 45.43598]
           ]
       },
       "properties": {
@@ -35,20 +38,73 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.33835, 45.43411]
+        "coordinates": [12.33848, 45.43457]
       },
       "properties": {
-         "id": "pmb261",
-         "title": "Piazza San Marco",
-         "lat": "45.43411",
-         "lon": "12.33835",
+         "id": "pmb253166",
+         "title": "Caffè Lavena",
+         "lat": "45.43457",
+         "lon": "12.33848",
          "timestamp": ["1912-05-17"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz", 
-        "wikidata": "http://www.wikidata.org/entity/Q217527", 
-        "geonames": "https://sws.geonames.org/3229870/", 
-        "abbr": "S.SQR", 
-        "type": "Platz"
+        "wikidata": "http://www.wikidata.org/entity/Q5017189", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.336047, 45.435282]
+      },
+      "properties": {
+         "id": "pmb260",
+         "title": "Hotel Bonvecchiati",
+         "lat": "45.435282",
+         "lon": "12.336047",
+         "timestamp": ["1912-05-17"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111412860", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.33052, 45.43598]
+      },
+      "properties": {
+         "id": "pmb90440",
+         "title": "Canal Grande",
+         "lat": "45.43598",
+         "lon": "12.33052",
+         "timestamp": ["1912-05-17"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3175933/", 
+        "abbr": "H.CNL", 
+        "type": "Kanal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32798, 45.431245]
+      },
+      "properties": {
+         "id": "pmb43220",
+         "title": "Gallerie dell’Accademia",
+         "lat": "45.431245",
+         "lon": "12.32798",
+         "timestamp": ["1912-05-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Accademia_(Venedig)", 
+        "wikidata": "http://www.wikidata.org/entity/Q338330", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
       }
       }
   ]

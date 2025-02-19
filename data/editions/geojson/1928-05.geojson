@@ -385,21 +385,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.338433, 45.434172]
-      },
-      "properties": {
-         "id": "pmb92388",
-         "title": "Markusplatz",
-         "lat": "45.434172",
-         "lon": "12.338433",
-         "timestamp": ["1928-05-01"],
-         "importance": 1
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [12.33835, 45.43411]
       },
       "properties": {
@@ -407,8 +392,8 @@
          "title": "Piazza San Marco",
          "lat": "45.43411",
          "lon": "12.33835",
-         "timestamp": ["1928-05-01"],
-         "importance": 1, 
+         "timestamp": ["1928-05-01", "1928-05-01"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz", 
         "wikidata": "http://www.wikidata.org/entity/Q217527", 
         "geonames": "https://sws.geonames.org/3229870/", 
@@ -1116,49 +1101,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.338208333333334, 45.433675]
-      },
-      "properties": {
-         "id": "pmb232856",
-         "title": "Caffè Florian",
-         "lat": "45.433675",
-         "lon": "12.338208333333334",
-         "timestamp": ["1928-05-01"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Caff%C3%A8_Florian", 
-        "wikidata": "http://www.wikidata.org/entity/Q960610", 
-        "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.35113, 48.190969]
-      },
-      "properties": {
-         "id": "pmb245453",
-         "title": "Mollardgasse 26",
-         "lat": "48.190969",
-         "lon": "16.35113",
-         "timestamp": ["1928-05-23"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Helene Binder",
-
-         "p_id": "#14218"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.338022, 48.233651]
       },
       "properties": {
@@ -1207,6 +1149,25 @@
 
          "p_id": "#22449"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.338208333333334, 45.433675]
+      },
+      "properties": {
+         "id": "pmb232856",
+         "title": "Caffè Florian",
+         "lat": "45.433675",
+         "lon": "12.338208333333334",
+         "timestamp": ["1928-05-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caff%C3%A8_Florian", 
+        "wikidata": "http://www.wikidata.org/entity/Q960610", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
       }
       }, 
     {

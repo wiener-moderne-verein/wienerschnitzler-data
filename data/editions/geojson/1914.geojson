@@ -377,26 +377,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1914-10-22", "1914-10-23", "1914-10-24", "1914-10-25", "1914-10-26", "1914-10-27"],
-         "importance": 6, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.33255, 48.27617]
       },
       "properties": {
@@ -524,6 +504,26 @@
         "geonames": "https://sws.geonames.org/6354997/", 
         "abbr": "S.PAL", 
         "type": "Palast"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1914-10-22", "1914-10-23", "1914-10-24", "1914-10-25", "1914-10-26", "1914-10-27"],
+         "importance": 6, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -1744,6 +1744,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1914-03-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.24526, 48.24987]
       },
       "properties": {
@@ -2407,6 +2431,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366424, 48.186547]
+      },
+      "properties": {
+         "id": "pmb251316",
+         "title": "Julius Klein, Antiquitätenhandlung",
+         "lat": "48.186547",
+         "lon": "16.366424",
+         "timestamp": ["1914-12-17"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.333972, 48.206694]
       },
       "properties": {
@@ -2606,6 +2647,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 
@@ -2624,6 +2672,24 @@
          "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
         "wikidata": "http://www.wikidata.org/entity/Q1485420"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.29326, 47.94602]
+      },
+      "properties": {
+         "id": "pmb53150",
+         "title": "Feldafing",
+         "lat": "47.94602",
+         "lon": "11.29326",
+         "timestamp": ["1914-06-03"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2927464/", 
+        "abbr": "P.PPLA4", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -3500,6 +3566,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.298363683529006, 47.94933649585533]
+      },
+      "properties": {
+         "id": "pmb53152",
+         "title": "Hotel Kaiserin Elisabeth [Feldafing]",
+         "lat": "47.94933649585533",
+         "lon": "11.298363683529006",
+         "timestamp": ["1914-06-03"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.153926, 48.218232]
       },
       "properties": {
@@ -3694,6 +3777,30 @@
          "importance": 1, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30179, 48.24586]
+      },
+      "properties": {
+         "id": "pmb237102",
+         "title": "Dr.-Heinrich-Maier-Straße 50",
+         "lat": "48.24586",
+         "lon": "16.30179",
+         "timestamp": ["1914-11-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Sachs",
+
+         "p_id": "#9629"
+         }]
       }
       }, 
     {

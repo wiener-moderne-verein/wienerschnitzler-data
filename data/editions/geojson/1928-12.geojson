@@ -25,26 +25,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1928-12-27", "1928-12-28", "1928-12-29", "1928-12-30", "1928-12-31"],
-         "importance": 5, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.275701, 48.219421]
       },
       "properties": {
@@ -76,6 +56,26 @@
          "importance": 3, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1928-12-27", "1928-12-28", "1928-12-29", "1928-12-30", "1928-12-31"],
+         "importance": 5, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -502,6 +502,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 

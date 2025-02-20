@@ -94,26 +94,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1930-11-11", "1930-11-12", "1930-11-13", "1930-11-14", "1930-11-15", "1930-11-16", "1930-11-17", "1930-11-18", "1930-11-19", "1930-11-20"],
-         "importance": 10, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.23264, 48.00543]
       },
       "properties": {
@@ -183,6 +163,26 @@
 
          "p_id": "#21912"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1930-11-11", "1930-11-12", "1930-11-13", "1930-11-14", "1930-11-15", "1930-11-16", "1930-11-17", "1930-11-18", "1930-11-19", "1930-11-20"],
+         "importance": 10, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -625,6 +625,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 
@@ -723,6 +730,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.356412, 48.213361]
+      },
+      "properties": {
+         "id": "pmb236861",
+         "title": "Krankenhaus der Wiener Kaufmannschaft",
+         "lat": "48.213361",
+         "lon": "16.356412",
+         "timestamp": ["1930-11-07", "1930-11-25"],
+         "importance": 2, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.293044, 52.465923]
       },
       "properties": {
@@ -782,30 +813,6 @@
          "p_name": "Franz Karl Feilchenfeld",
 
          "p_id": "#16125"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.356412, 48.213361]
-      },
-      "properties": {
-         "id": "pmb236861",
-         "title": "Krankenhaus der Wiener Kaufmannschaft",
-         "lat": "48.213361",
-         "lon": "16.356412",
-         "timestamp": ["1930-11-07", "1930-11-25"],
-         "importance": 2, 
-        "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Ferdinand Donath",
-
-         "p_id": "#15433"
          }]
       }
       }, 

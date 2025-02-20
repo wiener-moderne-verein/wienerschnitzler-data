@@ -9,7 +9,8 @@
             [16.352018, 48.225793], 
             [13.386944, 52.515833], 
             [13.385425, 52.51165], 
-            [13.380556, 52.515833]
+            [13.380556, 52.515833], 
+            [13.36774, 52.52031]
           ]
       },
       "properties": {
@@ -58,6 +59,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.352018, 48.225793]
+      },
+      "properties": {
+         "id": "pmb192579",
+         "title": "Union Kino",
+         "lat": "48.225793",
+         "lon": "16.352018",
+         "timestamp": ["1912-11-24"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q130468719", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.386944, 52.515833]
       },
       "properties": {
@@ -75,18 +94,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.352018, 48.225793]
+        "coordinates": [13.36774, 52.52031]
       },
       "properties": {
-         "id": "pmb192579",
-         "title": "Union Kino",
-         "lat": "48.225793",
-         "lon": "16.352018",
+         "id": "pmb237370",
+         "title": "Kronprinzenufer 7/In den Zelten 14",
+         "lat": "52.52031",
+         "lon": "13.36774",
          "timestamp": ["1912-11-24"],
          "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q130468719", 
-        "abbr": "Kino (K.KNO)", 
-        "type": "Kino"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Otto Brahm",
+
+         "p_id": "#10986"
+         }]
       }
       }
   ]

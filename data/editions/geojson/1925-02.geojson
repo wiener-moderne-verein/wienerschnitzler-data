@@ -183,8 +183,8 @@
          "title": "Alt Pilsenetzer Bierhalle",
          "lat": "48.216481",
          "lon": "16.359721",
-         "timestamp": ["1925-02-16", "1925-02-26"],
-         "importance": 2, 
+         "timestamp": ["1925-02-26"],
+         "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
       }
@@ -391,6 +391,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 
@@ -583,6 +590,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3745, 48.1986]
+      },
+      "properties": {
+         "id": "pmb251194",
+         "title": "Französische Botschaft in Wien",
+         "lat": "48.1986",
+         "lon": "16.3745",
+         "timestamp": ["1925-02-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Franz%C3%B6sische_Botschaft_in_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q125918070", 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.338022, 48.233651]
       },
       "properties": {
@@ -630,6 +656,30 @@
          "p_name": "Josef Peter",
 
          "p_id": "#22449"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337227, 48.230999]
+      },
+      "properties": {
+         "id": "pmb253234",
+         "title": "Gregor-Mendel-Straße 7",
+         "lat": "48.230999",
+         "lon": "16.337227",
+         "timestamp": ["1925-02-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosalie Cahn",
+
+         "p_id": "#14807"
          }]
       }
       }

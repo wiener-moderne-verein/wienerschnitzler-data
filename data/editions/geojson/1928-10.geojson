@@ -63,6 +63,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3747466, 48.2104057]
+      },
+      "properties": {
+         "id": "pmb705",
+         "title": "Zur Linde",
+         "lat": "48.2104057",
+         "lon": "16.3747466",
+         "timestamp": ["1928-10-01", "1928-10-02", "1928-10-24", "1928-10-27"],
+         "importance": 4, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.41053, 52.52437]
       },
       "properties": {
@@ -77,23 +94,6 @@
         "geonames": "https://sws.geonames.org/2950159/", 
         "abbr": "P.PPLC", 
         "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3747466, 48.2104057]
-      },
-      "properties": {
-         "id": "pmb705",
-         "title": "Zur Linde",
-         "lat": "48.2104057",
-         "lon": "16.3747466",
-         "timestamp": ["1928-10-01", "1928-10-02", "1928-10-24", "1928-10-27"],
-         "importance": 4, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
       }
       }, 
     {
@@ -532,6 +532,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 

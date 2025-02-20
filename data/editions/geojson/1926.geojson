@@ -229,26 +229,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1926-02-05", "1926-02-06", "1926-02-07", "1926-02-08", "1926-02-09", "1926-02-10", "1926-02-11", "1926-02-12", "1926-02-13", "1926-02-14", "1926-02-15", "1926-02-16", "1926-05-11", "1926-05-12", "1926-05-13", "1926-05-14", "1926-05-15", "1926-05-16", "1926-05-17", "1926-05-18", "1926-05-19", "1926-12-24", "1926-12-25", "1926-12-26", "1926-12-27", "1926-12-28", "1926-12-29", "1926-12-30", "1926-12-31"],
-         "importance": 29, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.23264, 48.00543]
       },
       "properties": {
@@ -439,6 +419,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1926-02-05", "1926-02-06", "1926-02-07", "1926-02-08", "1926-02-09", "1926-02-10", "1926-02-11", "1926-02-12", "1926-02-13", "1926-02-14", "1926-02-15", "1926-02-16", "1926-05-11", "1926-05-12", "1926-05-13", "1926-05-14", "1926-05-15", "1926-05-16", "1926-05-17", "1926-05-18", "1926-05-19", "1926-12-24", "1926-12-25", "1926-12-26", "1926-12-27", "1926-12-28", "1926-12-29", "1926-12-30", "1926-12-31"],
+         "importance": 29, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -2591,6 +2591,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 
@@ -3136,7 +3143,20 @@
          "timestamp": ["1926-01-13", "1926-04-02", "1926-05-21", "1926-06-15", "1926-10-12"],
          "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }, 
+         {
+
+         "p_name": "Josef Binder",
+
+         "p_id": "#14223"
+         }]
       }
       }, 
     {
@@ -3220,6 +3240,12 @@
          "p_name": "Lucie Mannheim",
 
          "p_id": "#8804"
+         }, 
+         {
+
+         "p_name": "Ilse Dernburg",
+
+         "p_id": "#5571"
          }, 
          {
 
@@ -3325,6 +3351,47 @@
 
          "p_id": "#22242"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356412, 48.213361]
+      },
+      "properties": {
+         "id": "pmb236861",
+         "title": "Krankenhaus der Wiener Kaufmannschaft",
+         "lat": "48.213361",
+         "lon": "16.356412",
+         "timestamp": ["1926-10-29"],
+         "importance": 1, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3576, 48.21071]
+      },
+      "properties": {
+         "id": "pmb250232",
+         "title": "Magistratsabteilung 6 (Staatssteuern und Zuschläge, Fürsorge- und Konzessionsabgabe)",
+         "lat": "48.21071",
+         "lon": "16.3576",
+         "timestamp": ["1926-03-10"],
+         "importance": 1, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
       }
       }, 
     {
@@ -3668,23 +3735,6 @@
 
          "p_id": "#27412"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3576, 48.21071]
-      },
-      "properties": {
-         "id": "pmb250232",
-         "title": "Magistratsabteilung 6 (Staatssteuern und Zuschläge, Fürsorge- und Konzessionsabgabe)",
-         "lat": "48.21071",
-         "lon": "16.3576",
-         "timestamp": ["1926-03-10"],
-         "importance": 1, 
-        "abbr": "Verwaltungsgebäude (K.VWL)", 
-        "type": "Verwaltungsgebäude"
       }
       }, 
     {
@@ -5685,30 +5735,6 @@
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.356412, 48.213361]
-      },
-      "properties": {
-         "id": "pmb236861",
-         "title": "Krankenhaus der Wiener Kaufmannschaft",
-         "lat": "48.213361",
-         "lon": "16.356412",
-         "timestamp": ["1926-10-29"],
-         "importance": 1, 
-        "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Ferdinand Donath",
-
-         "p_id": "#15433"
-         }]
       }
       }, 
     {

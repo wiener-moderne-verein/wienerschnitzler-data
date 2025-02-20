@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35137, 48.21346], 
-            [16.33716, 48.23188]
+            [16.43138888888889, 48.155833333333334], 
+            [16.33716, 48.23188], 
+            [16.33494, 48.23365], 
+            [16.35137, 48.21346]
           ]
       },
       "properties": {
@@ -53,6 +55,43 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33494, 48.23365]
+      },
+      "properties": {
+         "id": "pmb235251",
+         "title": "Hasenauerstraße 59",
+         "lat": "48.23365",
+         "lon": "16.33494",
+         "timestamp": ["1912-09-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
          }]
       }
       },
@@ -127,6 +166,24 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.43138888888889, 48.155833333333334]
+      },
+      "properties": {
+         "id": "pmb192349",
+         "title": "Israelitischer Friedhof",
+         "lat": "48.155833333333334",
+         "lon": "16.43138888888889",
+         "timestamp": ["1912-09-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q68752772", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
       }
       }
   ]

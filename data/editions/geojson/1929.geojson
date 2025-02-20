@@ -265,26 +265,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1929-01-01", "1929-01-02", "1929-01-03", "1929-01-04", "1929-01-05", "1929-01-06", "1929-01-07", "1929-03-13", "1929-03-14", "1929-03-15", "1929-03-16", "1929-03-17", "1929-03-18", "1929-03-19", "1929-03-20", "1929-03-21", "1929-03-22", "1929-03-23", "1929-03-24", "1929-03-25", "1929-03-26", "1929-03-27", "1929-12-28", "1929-12-29", "1929-12-30", "1929-12-31"],
-         "importance": 26, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.29101, 48.17547]
       },
       "properties": {
@@ -434,6 +414,26 @@
         "geonames": "https://sws.geonames.org/2761393/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1929-01-01", "1929-01-02", "1929-01-03", "1929-01-04", "1929-01-05", "1929-01-06", "1929-01-07", "1929-03-13", "1929-03-14", "1929-03-15", "1929-03-16", "1929-03-17", "1929-03-18", "1929-03-19", "1929-03-20", "1929-03-21", "1929-03-22", "1929-03-23", "1929-03-24", "1929-03-25", "1929-03-26", "1929-03-27", "1929-12-28", "1929-12-29", "1929-12-30", "1929-12-31"],
+         "importance": 26, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -2875,7 +2875,49 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.354819, 48.208344]
+      },
+      "properties": {
+         "id": "pmb237056",
+         "title": "Sanatorium Luithlen",
+         "lat": "48.208344",
+         "lon": "16.354819",
+         "timestamp": ["1929-10-15", "1929-10-20"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q38007901", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.32321, 52.50189]
+      },
+      "properties": {
+         "id": "pmb235972",
+         "title": "Die Komödie",
+         "lat": "52.50189",
+         "lon": "13.32321",
+         "timestamp": ["1929-03-22"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }, 
     {
@@ -2942,6 +2984,30 @@
          "p_name": "Gustav Schwarzkopf",
 
          "p_id": "#12740"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30179, 48.24586]
+      },
+      "properties": {
+         "id": "pmb237102",
+         "title": "Dr.-Heinrich-Maier-Straße 50",
+         "lat": "48.24586",
+         "lon": "16.30179",
+         "timestamp": ["1929-10-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Sachs",
+
+         "p_id": "#9629"
          }]
       }
       }, 
@@ -3354,6 +3420,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.356412, 48.213361]
+      },
+      "properties": {
+         "id": "pmb236861",
+         "title": "Krankenhaus der Wiener Kaufmannschaft",
+         "lat": "48.213361",
+         "lon": "16.356412",
+         "timestamp": ["1929-04-12", "1929-10-30"],
+         "importance": 2, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.308333, 52.512778]
       },
       "properties": {
@@ -3528,30 +3618,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.356412, 48.213361]
-      },
-      "properties": {
-         "id": "pmb236861",
-         "title": "Krankenhaus der Wiener Kaufmannschaft",
-         "lat": "48.213361",
-         "lon": "16.356412",
-         "timestamp": ["1929-04-12", "1929-10-30"],
-         "importance": 2, 
-        "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Ferdinand Donath",
-
-         "p_id": "#15433"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.37997, 48.21366]
       },
       "properties": {
@@ -3706,41 +3772,6 @@
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Scala_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q2228722", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.354819, 48.208344]
-      },
-      "properties": {
-         "id": "pmb237056",
-         "title": "Sanatorium Luithlen",
-         "lat": "48.208344",
-         "lon": "16.354819",
-         "timestamp": ["1929-10-15", "1929-10-20"],
-         "importance": 2, 
-        "wikidata": "http://www.wikidata.org/entity/Q38007901", 
-        "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.32321, 52.50189]
-      },
-      "properties": {
-         "id": "pmb235972",
-         "title": "Die Komödie",
-         "lat": "52.50189",
-         "lon": "13.32321",
-         "timestamp": ["1929-03-22"],
-         "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -4990,30 +5021,6 @@
          "importance": 1, 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.30179, 48.24586]
-      },
-      "properties": {
-         "id": "pmb237102",
-         "title": "Dr.-Heinrich-Maier-Straße 50",
-         "lat": "48.24586",
-         "lon": "16.30179",
-         "timestamp": ["1929-10-28"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Moriz Sachs",
-
-         "p_id": "#9629"
-         }]
       }
       }, 
     {

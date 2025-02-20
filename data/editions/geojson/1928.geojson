@@ -422,26 +422,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1928-10-07", "1928-10-08", "1928-10-09", "1928-10-10", "1928-10-11", "1928-10-12", "1928-10-13", "1928-10-14", "1928-10-15", "1928-10-16", "1928-10-17", "1928-10-18", "1928-10-19", "1928-10-20", "1928-10-21", "1928-12-27", "1928-12-28", "1928-12-29", "1928-12-30", "1928-12-31"],
-         "importance": 20, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.23264, 48.00543]
       },
       "properties": {
@@ -647,6 +627,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1928-10-07", "1928-10-08", "1928-10-09", "1928-10-10", "1928-10-11", "1928-10-12", "1928-10-13", "1928-10-14", "1928-10-15", "1928-10-16", "1928-10-17", "1928-10-18", "1928-10-19", "1928-10-20", "1928-10-21", "1928-12-27", "1928-12-28", "1928-12-29", "1928-12-30", "1928-12-31"],
+         "importance": 20, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -1220,8 +1220,8 @@
          "title": "Piazza San Marco",
          "lat": "45.43411",
          "lon": "12.33835",
-         "timestamp": ["1928-05-01", "1928-05-01"],
-         "importance": 2, 
+         "timestamp": ["1928-05-01"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz", 
         "wikidata": "http://www.wikidata.org/entity/Q217527", 
         "geonames": "https://sws.geonames.org/3229870/", 
@@ -2826,7 +2826,14 @@
          "timestamp": ["1928-01-10"],
          "importance": 1, 
         "abbr": "Bank (K.BNK)", 
-        "type": "Bank"
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
       }
       }, 
     {
@@ -3441,6 +3448,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 
@@ -3520,6 +3534,41 @@
         "wikidata": "http://www.wikidata.org/entity/Q1430859", 
         "abbr": "Flughafen", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.354819, 48.208344]
+      },
+      "properties": {
+         "id": "pmb237056",
+         "title": "Sanatorium Luithlen",
+         "lat": "48.208344",
+         "lon": "16.354819",
+         "timestamp": ["1928-01-24"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38007901", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.32321, 52.50189]
+      },
+      "properties": {
+         "id": "pmb235972",
+         "title": "Die Komödie",
+         "lat": "52.50189",
+         "lon": "13.32321",
+         "timestamp": ["1928-01-26"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }, 
     {
@@ -3942,7 +3991,20 @@
          "timestamp": ["1928-01-04", "1928-05-23"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }, 
+         {
+
+         "p_name": "Josef Binder",
+
+         "p_id": "#14223"
+         }]
       }
       }, 
     {
@@ -3973,6 +4035,23 @@
 
          "p_id": "#15775"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377528, 48.19909]
+      },
+      "properties": {
+         "id": "pmb185491",
+         "title": "Kaffee-Restaurant Vindobona",
+         "lat": "48.19909",
+         "lon": "16.377528",
+         "timestamp": ["1928-05-17"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
@@ -4414,41 +4493,6 @@
 
          "p_id": "#2456"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.354819, 48.208344]
-      },
-      "properties": {
-         "id": "pmb237056",
-         "title": "Sanatorium Luithlen",
-         "lat": "48.208344",
-         "lon": "16.354819",
-         "timestamp": ["1928-01-24"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q38007901", 
-        "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.32321, 52.50189]
-      },
-      "properties": {
-         "id": "pmb235972",
-         "title": "Die Komödie",
-         "lat": "52.50189",
-         "lon": "13.32321",
-         "timestamp": ["1928-01-26"],
-         "importance": 1, 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
       }
       }, 
     {
@@ -5477,23 +5521,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Flottenvereinskino", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.377528, 48.19909]
-      },
-      "properties": {
-         "id": "pmb185491",
-         "title": "Kaffee-Restaurant Vindobona",
-         "lat": "48.19909",
-         "lon": "16.377528",
-         "timestamp": ["1928-05-17"],
-         "importance": 1, 
-        "abbr": "S.REST", 
-        "type": "Restaurant"
       }
       }, 
     {

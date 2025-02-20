@@ -190,26 +190,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1923-05-08", "1923-05-09", "1923-05-10", "1923-05-24", "1923-05-25", "1923-05-26"],
-         "importance": 6, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.33255, 48.27617]
       },
       "properties": {
@@ -318,6 +298,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q125292922", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1923-05-08", "1923-05-09", "1923-05-10", "1923-05-24", "1923-05-25", "1923-05-26"],
+         "importance": 6, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -522,26 +522,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q688546", 
         "abbr": "Schloss (K.SLS)", 
         "type": "Schloss"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.9291, 48.2081]
-      },
-      "properties": {
-         "id": "pmb91647",
-         "title": "Salzach",
-         "lat": "48.2081",
-         "lon": "12.9291",
-         "timestamp": ["1923-08-04"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salzach", 
-        "wikidata": "http://www.wikidata.org/entity/Q152661", 
-        "geonames": "https://sws.geonames.org/2842197/", 
-        "abbr": "H.STM", 
-        "type": "Fluss"
       }
       }, 
     {
@@ -1913,6 +1893,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 
@@ -2204,7 +2191,20 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Paschinger_Schl%C3%B6ssl", 
         "wikidata": "http://www.wikidata.org/entity/Q1558482", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Friderike Maria Zweig",
+
+         "p_id": "#4829"
+         }, 
+         {
+
+         "p_name": "Stefan Zweig",
+
+         "p_id": "#13212"
+         }]
       }
       }, 
     {

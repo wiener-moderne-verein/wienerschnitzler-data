@@ -710,7 +710,32 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.354819, 48.208344]
+      },
+      "properties": {
+         "id": "pmb237056",
+         "title": "Sanatorium Luithlen",
+         "lat": "48.208344",
+         "lon": "16.354819",
+         "timestamp": ["1929-10-15", "1929-10-20"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q38007901", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       }, 
     {
@@ -740,6 +765,30 @@
          "p_name": "Gustav Schwarzkopf",
 
          "p_id": "#12740"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30179, 48.24586]
+      },
+      "properties": {
+         "id": "pmb237102",
+         "title": "Dr.-Heinrich-Maier-Straße 50",
+         "lat": "48.24586",
+         "lon": "16.30179",
+         "timestamp": ["1929-10-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Sachs",
+
+         "p_id": "#9629"
          }]
       }
       }, 
@@ -860,26 +909,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.35376, 48.22272]
-      },
-      "properties": {
-         "id": "pmb190464",
-         "title": "Kolosseum Kino",
-         "lat": "48.22272",
-         "lon": "16.35376",
-         "timestamp": ["1929-10-20"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Kolosseum_(Kino)", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Colosseum", 
-        "wikidata": "http://www.wikidata.org/entity/Q19971265", 
-        "abbr": "Kino (K.KNO)", 
-        "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.356412, 48.213361]
       },
       "properties": {
@@ -904,18 +933,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.354819, 48.208344]
+        "coordinates": [16.35376, 48.22272]
       },
       "properties": {
-         "id": "pmb237056",
-         "title": "Sanatorium Luithlen",
-         "lat": "48.208344",
-         "lon": "16.354819",
-         "timestamp": ["1929-10-15", "1929-10-20"],
-         "importance": 2, 
-        "wikidata": "http://www.wikidata.org/entity/Q38007901", 
-        "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+         "id": "pmb190464",
+         "title": "Kolosseum Kino",
+         "lat": "48.22272",
+         "lon": "16.35376",
+         "timestamp": ["1929-10-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kolosseum_(Kino)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Colosseum", 
+        "wikidata": "http://www.wikidata.org/entity/Q19971265", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
       }
       }, 
     {
@@ -1028,30 +1059,6 @@
          "importance": 1, 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.30179, 48.24586]
-      },
-      "properties": {
-         "id": "pmb237102",
-         "title": "Dr.-Heinrich-Maier-Straße 50",
-         "lat": "48.24586",
-         "lon": "16.30179",
-         "timestamp": ["1929-10-28"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Moriz Sachs",
-
-         "p_id": "#9629"
-         }]
       }
       }
   ]

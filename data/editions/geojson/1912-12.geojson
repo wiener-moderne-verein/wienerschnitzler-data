@@ -69,6 +69,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.355191, 48.248422]
+      },
+      "properties": {
+         "id": "pmb92292",
+         "title": "Hohe Warte",
+         "lat": "48.248422",
+         "lon": "16.355191",
+         "timestamp": ["1912-12-15", "1912-12-26"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q876564", 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.41053, 52.52437]
       },
       "properties": {
@@ -83,25 +102,6 @@
         "geonames": "https://sws.geonames.org/2950159/", 
         "abbr": "P.PPLC", 
         "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.355191, 48.248422]
-      },
-      "properties": {
-         "id": "pmb92292",
-         "title": "Hohe Warte",
-         "lat": "48.248422",
-         "lon": "16.355191",
-         "timestamp": ["1912-12-15", "1912-12-26"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
-        "wikidata": "http://www.wikidata.org/entity/Q876564", 
-        "abbr": "Erhebung", 
-        "type": "Erhebung"
       }
       }, 
     {
@@ -205,6 +205,30 @@
          "p_name": "Gustav Schwarzkopf",
 
          "p_id": "#12740"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1912-12-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
          }]
       }
       }, 
@@ -464,6 +488,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }

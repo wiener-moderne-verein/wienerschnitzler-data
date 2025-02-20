@@ -375,26 +375,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1911-02-22", "1911-02-23", "1911-02-24", "1911-02-25", "1911-02-26", "1911-02-27", "1911-02-28", "1911-11-02", "1911-11-03", "1911-11-04", "1911-11-05"],
-         "importance": 11, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.3709701, 48.2017407]
       },
       "properties": {
@@ -602,6 +582,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1911-02-22", "1911-02-23", "1911-02-24", "1911-02-25", "1911-02-26", "1911-02-27", "1911-02-28", "1911-11-02", "1911-11-03", "1911-11-04", "1911-11-05"],
+         "importance": 11, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -1039,6 +1039,12 @@
          "p_name": "Carl Hasch",
 
          "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Armin Horovitz",
+
+         "p_id": "#7914"
          }, 
          {
 
@@ -3214,7 +3220,14 @@
          "timestamp": ["1911-09-13", "1911-11-18"],
          "importance": 2, 
         "abbr": "Bank (K.BNK)", 
-        "type": "Bank"
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
       }
       }, 
     {
@@ -5417,6 +5430,13 @@
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Emma Löwenstamm",
+
+         "p_id": "#2327"
+         }], 
         "arbeitsort": [
          {
 
@@ -6299,7 +6319,20 @@
          "timestamp": ["1911-12-29"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Justine Rosé",
+
+         "p_id": "#2722"
+         }, 
+         {
+
+         "p_name": "Arnold Rosé",
+
+         "p_id": "#12570"
+         }]
       }
       }
   ]

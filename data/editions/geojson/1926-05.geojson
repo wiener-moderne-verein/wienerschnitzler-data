@@ -62,26 +62,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1926-05-11", "1926-05-12", "1926-05-13", "1926-05-14", "1926-05-15", "1926-05-16", "1926-05-17", "1926-05-18", "1926-05-19"],
-         "importance": 9, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.275701, 48.219421]
       },
       "properties": {
@@ -96,6 +76,26 @@
         "geonames": "https://sws.geonames.org/2601048/", 
         "abbr": "T.SLP", 
         "type": "Gefälle"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1926-05-11", "1926-05-12", "1926-05-13", "1926-05-14", "1926-05-15", "1926-05-16", "1926-05-17", "1926-05-18", "1926-05-19"],
+         "importance": 9, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -632,6 +632,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 
@@ -693,7 +700,7 @@
       },
       "properties": {
          "id": "pmb252268",
-         "title": "?? [nicht näher bestimmter Punkt zwischen Lissabon und Boulogne-sur-Mer]",
+         "title": "?? [Atlantik, westlich von Frankreich]",
          "lat": "46.38",
          "lon": "-8.0",
          "timestamp": ["1926-05-08"],
@@ -717,6 +724,36 @@
          "importance": 3, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365661, 48.225985]
+      },
+      "properties": {
+         "id": "pmb253275",
+         "title": "Rossauer Lände 43",
+         "lat": "48.225985",
+         "lon": "16.365661",
+         "timestamp": ["1926-05-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }, 
+         {
+
+         "p_name": "Josef Binder",
+
+         "p_id": "#14223"
+         }]
       }
       }, 
     {
@@ -915,8 +952,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Vigo", 
         "wikidata": "http://www.wikidata.org/entity/Q8745", 
         "geonames": "https://sws.geonames.org/6360254/", 
-        "abbr": "Besiedelter Ort (A.BSO)", 
-        "type": "Besiedelter Ort"
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {

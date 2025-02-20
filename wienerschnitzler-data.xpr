@@ -42,26 +42,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>input-data/listplace.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>import _ listplace auf verwendete places kürzen</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>data/editions/xml/wienerschnitzler_distinctPlaces.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -157,11 +137,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/xml/wienerschnitzler_distinctPlaces-loesch.xml</String>
+                                    <String>input-data/living-working-in.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>distinctPlaces to GeoJSON months</String>
+                                        <String>living-working</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -197,11 +177,31 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>input-data/living-working-in.xml</String>
+                                    <String>input-data/listplace.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>living-working</String>
+                                        <String>import _ listplace auf verwendete places kürzen</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/editions/xml/wienerschnitzler_distinctPlaces-loesch.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>distinctPlaces to GeoJSON months</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

@@ -288,26 +288,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1922-05-09", "1922-05-10", "1922-05-11", "1922-05-12", "1922-05-13", "1922-05-14"],
-         "importance": 6, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.00187, 47.63236]
       },
       "properties": {
@@ -434,6 +414,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1922-05-09", "1922-05-10", "1922-05-11", "1922-05-12", "1922-05-13", "1922-05-14"],
+         "importance": 6, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -2014,6 +2014,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 
@@ -2048,8 +2055,8 @@
          "title": "Feldafing",
          "lat": "47.94602",
          "lon": "11.29326",
-         "timestamp": ["1922-07-26", "1922-07-27", "1922-07-28", "1922-07-29", "1922-07-30", "1922-07-31", "1922-08-01", "1922-08-02", "1922-08-03", "1922-08-04", "1922-08-05", "1922-08-06", "1922-08-07"],
-         "importance": 13, 
+         "timestamp": ["1922-05-17", "1922-07-26", "1922-07-27", "1922-07-28", "1922-07-29", "1922-07-30", "1922-07-31", "1922-08-01", "1922-08-02", "1922-08-03", "1922-08-04", "1922-08-05", "1922-08-06", "1922-08-07"],
+         "importance": 14, 
         "geonames": "https://sws.geonames.org/2927464/", 
         "abbr": "P.PPLA4", 
         "type": "Hauptstadt"
@@ -2171,6 +2178,23 @@
          "importance": 1, 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.298363683529006, 47.94933649585533]
+      },
+      "properties": {
+         "id": "pmb53152",
+         "title": "Hotel Kaiserin Elisabeth [Feldafing]",
+         "lat": "47.94933649585533",
+         "lon": "11.298363683529006",
+         "timestamp": ["1922-07-28", "1922-07-29"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -2822,23 +2846,6 @@
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.298363683529006, 47.94933649585533]
-      },
-      "properties": {
-         "id": "pmb53152",
-         "title": "Hotel Kaiserin Elisabeth [Feldafing]",
-         "lat": "47.94933649585533",
-         "lon": "11.298363683529006",
-         "timestamp": ["1922-07-28", "1922-07-29"],
-         "importance": 2, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       }, 
     {

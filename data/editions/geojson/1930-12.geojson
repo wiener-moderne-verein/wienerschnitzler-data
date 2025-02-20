@@ -77,6 +77,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1930-12-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3566, 48.205142]
       },
       "properties": {
@@ -442,7 +462,32 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.354819, 48.208344]
+      },
+      "properties": {
+         "id": "pmb237056",
+         "title": "Sanatorium Luithlen",
+         "lat": "48.208344",
+         "lon": "16.354819",
+         "timestamp": ["1930-12-05"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38007901", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       }, 
     {
@@ -544,30 +589,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.341487, 48.23557]
-      },
-      "properties": {
-         "id": "pmb235677",
-         "title": "Blaasstraße 12",
-         "lat": "48.23557",
-         "lon": "16.341487",
-         "timestamp": ["1930-12-04"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Louis Philipp Friedmann",
-
-         "p_id": "#16658"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.356412, 48.213361]
       },
       "properties": {
@@ -585,6 +606,30 @@
          "p_name": "Ferdinand Donath",
 
          "p_id": "#15433"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341487, 48.23557]
+      },
+      "properties": {
+         "id": "pmb235677",
+         "title": "Blaasstraße 12",
+         "lat": "48.23557",
+         "lon": "16.341487",
+         "timestamp": ["1930-12-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Louis Philipp Friedmann",
+
+         "p_id": "#16658"
          }]
       }
       }, 

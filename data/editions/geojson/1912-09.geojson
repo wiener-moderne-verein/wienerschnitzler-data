@@ -25,6 +25,52 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1912-09-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1912-09-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.57549, 48.13743]
       },
       "properties": {
@@ -57,6 +103,26 @@
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1912-09-23", "1912-09-23"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -108,6 +174,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.43138888888889, 48.155833333333334]
+      },
+      "properties": {
+         "id": "pmb192349",
+         "title": "Israelitischer Friedhof",
+         "lat": "48.155833333333334",
+         "lon": "16.43138888888889",
+         "timestamp": ["1912-09-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q68752772", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.26269, 48.24616]
       },
       "properties": {
@@ -150,11 +234,35 @@
          "title": "Tutzing",
          "lat": "47.90938",
          "lon": "11.2803",
-         "timestamp": ["1912-09-01", "1912-09-02", "1912-09-03", "1912-09-04", "1912-09-05", "1912-09-06", "1912-09-06", "1912-09-07"],
-         "importance": 8, 
+         "timestamp": ["1912-09-01", "1912-09-02", "1912-09-03", "1912-09-04", "1912-09-05", "1912-09-06", "1912-09-07"],
+         "importance": 7, 
         "geonames": "https://sws.geonames.org/2820692/", 
         "abbr": "P.PPLA4", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1912-09-19", "1912-09-23"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
       }
       }, 
     {
@@ -205,8 +313,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1912-09-22"],
-         "importance": 1, 
+         "timestamp": ["1912-09-09", "1912-09-22"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -221,6 +329,42 @@
          "p_name": "Richard Beer-Hofmann",
 
          "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1912-09-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
          }]
       }
       }, 
@@ -286,8 +430,8 @@
          "title": "Hauptbahnhof München",
          "lat": "48.140833",
          "lon": "11.555",
-         "timestamp": ["1912-09-03"],
-         "importance": 1, 
+         "timestamp": ["1912-09-03", "1912-09-07"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q254647", 
         "geonames": "https://sws.geonames.org/6324603/", 
@@ -330,12 +474,42 @@
          "title": "Johann-Strauß-Theater",
          "lat": "48.1954",
          "lon": "16.3685",
-         "timestamp": ["1912-09-18", "1912-09-25"],
-         "importance": 2, 
+         "timestamp": ["1912-09-16", "1912-09-18", "1912-09-18", "1912-09-25"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Johann_Strau%C3%9F-Theater", 
         "wikidata": "http://www.wikidata.org/entity/Q1502656", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.585161, 48.135523]
+      },
+      "properties": {
+         "id": "pmb248958",
+         "title": "Mannhardtstraße 3",
+         "lat": "48.135523",
+         "lon": "11.585161",
+         "timestamp": ["1912-09-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Auguste Glümer",
+
+         "p_id": "#14948"
+         }, 
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
       }
       }, 
     {
@@ -415,6 +589,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366424, 48.186547]
+      },
+      "properties": {
+         "id": "pmb251316",
+         "title": "Julius Klein, Antiquitätenhandlung",
+         "lat": "48.186547",
+         "lon": "16.366424",
+         "timestamp": ["1912-09-24"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.354432, 48.223354]
+      },
+      "properties": {
+         "id": "pmb252118",
+         "title": "Widerhofergasse 3",
+         "lat": "48.223354",
+         "lon": "16.354432",
+         "timestamp": ["1912-09-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Emma Löwenstamm",
+
+         "p_id": "#2327"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emma Löwenstamm",
+
+         "p_id": "#2327"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -422,8 +644,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1912-09-09", "1912-09-19", "1912-09-21"],
-         "importance": 3, 
+         "timestamp": ["1912-09-09", "1912-09-15", "1912-09-19", "1912-09-21", "1912-09-26", "1912-09-29"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -450,6 +672,13 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
       }
       }, 
@@ -481,11 +710,28 @@
          "title": "Feldafing",
          "lat": "47.94602",
          "lon": "11.29326",
-         "timestamp": ["1912-09-01"],
-         "importance": 1, 
+         "timestamp": ["1912-09-01", "1912-09-06"],
+         "importance": 2, 
         "geonames": "https://sws.geonames.org/2927464/", 
         "abbr": "P.PPLA4", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.289217, 47.943769]
+      },
+      "properties": {
+         "id": "pmb253575",
+         "title": "Eichgraben 6",
+         "lat": "47.943769",
+         "lon": "11.289217",
+         "timestamp": ["1912-09-01", "1912-09-06"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

@@ -972,6 +972,37 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.318021, 48.180606]
+      },
+      "properties": {
+         "id": "pmb253123",
+         "title": "Grünbergstraße 29",
+         "lat": "48.180606",
+         "lon": "16.318021",
+         "timestamp": ["1912-05-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Bruno Walter",
+
+         "p_id": "#13041"
          }]
       }
       }, 
@@ -1017,6 +1048,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.75642866, 44.910967]
+      },
+      "properties": {
+         "id": "pmb253147",
+         "title": "Basilika St. Maria",
+         "lat": "44.910967",
+         "lon": "13.75642866",
+         "timestamp": ["1912-05-12"],
+         "importance": 1, 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.765556, 45.649444]
       },
       "properties": {
@@ -1030,6 +1078,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q942564", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78861, 45.6878]
+      },
+      "properties": {
+         "id": "pmb91403",
+         "title": "Villa Opicina",
+         "lat": "45.6878",
+         "lon": "13.78861",
+         "timestamp": ["1912-05-14"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3170443/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -1053,11 +1119,29 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.33848, 45.43457]
+      },
+      "properties": {
+         "id": "pmb253166",
+         "title": "Caffè Lavena",
+         "lat": "45.43457",
+         "lon": "12.33848",
+         "timestamp": ["1912-05-15", "1912-05-17"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q5017189", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.366944, 45.403889]
       },
       "properties": {
          "id": "pmb46831",
-         "title": "Grand Hotel Excelsior",
+         "title": "Grand Hotel Excelsior [Lido]",
          "lat": "45.403889",
          "lon": "12.366944",
          "timestamp": ["1912-05-15"],
@@ -1066,6 +1150,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q1542590", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.332472222222, 45.446336111111]
+      },
+      "properties": {
+         "id": "pmb253174",
+         "title": "Madonna dell’Orto",
+         "lat": "45.446336111111",
+         "lon": "12.332472222222",
+         "timestamp": ["1912-05-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Madonna_dell%E2%80%99Orto", 
+        "wikidata": "http://www.wikidata.org/entity/Q861436", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }, 
     {
@@ -1081,8 +1184,65 @@
          "lon": "12.336047",
          "timestamp": ["1912-05-16", "1912-05-17", "1912-05-18"],
          "importance": 3, 
+        "wikidata": "http://www.wikidata.org/entity/Q111412860", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32, 45.432]
+      },
+      "properties": {
+         "id": "pmb253191",
+         "title": "San Sebastiano",
+         "lat": "45.432",
+         "lon": "12.32",
+         "timestamp": ["1912-05-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/San_Sebastiano_(Venedig)", 
+        "wikidata": "http://www.wikidata.org/entity/Q588559", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.8894, 45.410278]
+      },
+      "properties": {
+         "id": "pmb50917",
+         "title": "Cappella Ovetari",
+         "lat": "45.410278",
+         "lon": "11.8894",
+         "timestamp": ["1912-05-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cappella_Ovetari", 
+        "wikidata": "http://www.wikidata.org/entity/Q3087562", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.339527777777779, 45.434152777777776]
+      },
+      "properties": {
+         "id": "pmb253200",
+         "title": "Piazzetta San Marco",
+         "lat": "45.434152777777776",
+         "lon": "12.339527777777779",
+         "timestamp": ["1912-05-20"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q10510932", 
+        "abbr": "Platz (K.PLT)", 
+        "type": "Platz"
       }
       }, 
     {
@@ -1122,6 +1282,71 @@
         "geonames": "https://sws.geonames.org/8410840/", 
         "abbr": "S.RSTN", 
         "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.352074, 46.512068]
+      },
+      "properties": {
+         "id": "pmb253238",
+         "title": "St. Anton/Sant Antonio [Bozen]",
+         "lat": "46.512068",
+         "lon": "11.352074",
+         "timestamp": ["1912-05-21"],
+         "importance": 1, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366311, 48.194443]
+      },
+      "properties": {
+         "id": "pmb253257",
+         "title": "Rienößlgasse 3",
+         "lat": "48.194443",
+         "lon": "16.366311",
+         "timestamp": ["1912-05-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander von Weilen",
+
+         "p_id": "#13071"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375117, 48.194177]
+      },
+      "properties": {
+         "id": "pmb253264",
+         "title": "Plößlgasse 4",
+         "lat": "48.194177",
+         "lon": "16.375117",
+         "timestamp": ["1912-05-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Theodor Gomperz",
+
+         "p_id": "#11497"
+         }]
       }
       }
   ]

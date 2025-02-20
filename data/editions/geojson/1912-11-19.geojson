@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.37127, 48.209673], 
+            [16.344679, 48.234278], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,47 @@
         "name": "19. November 1912"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1912-11-19"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.344679, 48.234278]
+      },
+      "properties": {
+         "id": "pmb248406",
+         "title": "Weimarer Straße 86",
+         "lat": "48.234278",
+         "lon": "16.344679",
+         "timestamp": ["1912-11-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Kaufmann",
+
+         "p_id": "#2496"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

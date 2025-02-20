@@ -316,26 +316,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1930-01-01", "1930-01-02", "1930-01-03", "1930-01-04", "1930-01-05", "1930-01-06", "1930-01-07", "1930-01-08", "1930-01-09", "1930-01-10", "1930-01-11", "1930-01-12", "1930-01-13", "1930-01-14", "1930-11-11", "1930-11-12", "1930-11-13", "1930-11-14", "1930-11-15", "1930-11-16", "1930-11-17", "1930-11-18", "1930-11-19", "1930-11-20"],
-         "importance": 24, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.23264, 48.00543]
       },
       "properties": {
@@ -620,6 +600,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1930-01-01", "1930-01-02", "1930-01-03", "1930-01-04", "1930-01-05", "1930-01-06", "1930-01-07", "1930-01-08", "1930-01-09", "1930-01-10", "1930-01-11", "1930-01-12", "1930-01-13", "1930-01-14", "1930-11-11", "1930-11-12", "1930-11-13", "1930-11-14", "1930-11-15", "1930-11-16", "1930-11-17", "1930-11-18", "1930-11-19", "1930-11-20"],
+         "importance": 24, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.382222, 52.524444]
       },
       "properties": {
@@ -682,6 +682,26 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Meidling_(Wiener_Bezirksteil) https://de.wikipedia.org/wiki/Meidling", 
         "wikidata": "http://www.wikidata.org/entity/Q1917668 http://www.wikidata.org/entity/Q697557", 
         "geonames": "https://sws.geonames.org/2771704/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1930-12-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
       }
@@ -2755,7 +2775,73 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34581, 48.23154]
+      },
+      "properties": {
+         "id": "pmb244375",
+         "title": "Gymnasiumstraße 47",
+         "lat": "48.23154",
+         "lon": "16.34581",
+         "timestamp": ["1930-09-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Hugo Thimig",
+
+         "p_id": "#12948"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.354819, 48.208344]
+      },
+      "properties": {
+         "id": "pmb237056",
+         "title": "Sanatorium Luithlen",
+         "lat": "48.208344",
+         "lon": "16.354819",
+         "timestamp": ["1930-12-05"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38007901", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.32321, 52.50189]
+      },
+      "properties": {
+         "id": "pmb235972",
+         "title": "Die Komödie",
+         "lat": "52.50189",
+         "lon": "13.32321",
+         "timestamp": ["1930-01-07"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }, 
     {
@@ -3322,6 +3408,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371501, 48.207882]
+      },
+      "properties": {
+         "id": "pmb237859",
+         "title": "Amerikanisches Konsulat in Wien",
+         "lat": "48.207882",
+         "lon": "16.371501",
+         "timestamp": ["1930-01-17", "1930-02-07"],
+         "importance": 2, 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356412, 48.213361]
+      },
+      "properties": {
+         "id": "pmb236861",
+         "title": "Krankenhaus der Wiener Kaufmannschaft",
+         "lat": "48.213361",
+         "lon": "16.356412",
+         "timestamp": ["1930-01-22", "1930-01-31", "1930-03-10", "1930-04-04", "1930-04-15", "1930-04-22", "1930-05-30", "1930-06-27", "1930-07-11", "1930-08-18", "1930-08-20", "1930-08-22", "1930-10-03", "1930-10-17", "1930-11-07", "1930-11-25", "1930-12-10"],
+         "importance": 17, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.293044, 52.465923]
       },
       "properties": {
@@ -3476,30 +3603,6 @@
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.356412, 48.213361]
-      },
-      "properties": {
-         "id": "pmb236861",
-         "title": "Krankenhaus der Wiener Kaufmannschaft",
-         "lat": "48.213361",
-         "lon": "16.356412",
-         "timestamp": ["1930-01-22", "1930-01-31", "1930-03-10", "1930-04-04", "1930-04-15", "1930-04-22", "1930-05-30", "1930-06-27", "1930-07-11", "1930-08-18", "1930-08-20", "1930-08-22", "1930-10-03", "1930-10-17", "1930-11-07", "1930-11-25", "1930-12-10"],
-         "importance": 17, 
-        "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Ferdinand Donath",
-
-         "p_id": "#15433"
-         }]
       }
       }, 
     {
@@ -3715,23 +3818,6 @@
 
          "p_id": "#2456"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.32321, 52.50189]
-      },
-      "properties": {
-         "id": "pmb235972",
-         "title": "Die Komödie",
-         "lat": "52.50189",
-         "lon": "13.32321",
-         "timestamp": ["1930-01-07"],
-         "importance": 1, 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
       }
       }, 
     {
@@ -4247,23 +4333,6 @@
 
          "p_id": "#19421"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371501, 48.207882]
-      },
-      "properties": {
-         "id": "pmb237859",
-         "title": "Amerikanisches Konsulat in Wien",
-         "lat": "48.207882",
-         "lon": "16.371501",
-         "timestamp": ["1930-01-17", "1930-02-07"],
-         "importance": 2, 
-        "abbr": "Botschaft (K.BTS)", 
-        "type": "Botschaft"
       }
       }, 
     {
@@ -5285,30 +5354,6 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.34581, 48.23154]
-      },
-      "properties": {
-         "id": "pmb244375",
-         "title": "Gymnasiumstraße 47",
-         "lat": "48.23154",
-         "lon": "16.34581",
-         "timestamp": ["1930-09-10"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Hugo Thimig",
-
-         "p_id": "#12948"
-         }]
       }
       }, 
     {

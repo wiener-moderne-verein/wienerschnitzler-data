@@ -25,26 +25,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
-      },
-      "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
-         "timestamp": ["1929-03-13", "1929-03-14", "1929-03-15", "1929-03-16", "1929-03-17", "1929-03-18", "1929-03-19", "1929-03-20", "1929-03-21", "1929-03-22", "1929-03-23", "1929-03-24", "1929-03-25", "1929-03-26", "1929-03-27"],
-         "importance": 15, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.355191, 48.248422]
       },
       "properties": {
@@ -75,6 +55,26 @@
          "importance": 2, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41053, 52.52437]
+      },
+      "properties": {
+         "id": "pmb168",
+         "title": "Berlin",
+         "lat": "52.52437",
+         "lon": "13.41053",
+         "timestamp": ["1929-03-13", "1929-03-14", "1929-03-15", "1929-03-16", "1929-03-17", "1929-03-18", "1929-03-19", "1929-03-20", "1929-03-21", "1929-03-22", "1929-03-23", "1929-03-24", "1929-03-25", "1929-03-26", "1929-03-27"],
+         "importance": 15, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q64", 
+        "geonames": "https://sws.geonames.org/2950159/", 
+        "abbr": "P.PPLC", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -507,7 +507,31 @@
          "p_name": "Julius Schnitzler",
 
          "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.32321, 52.50189]
+      },
+      "properties": {
+         "id": "pmb235972",
+         "title": "Die Komödie",
+         "lat": "52.50189",
+         "lon": "13.32321",
+         "timestamp": ["1929-03-22"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }, 
     {
@@ -651,23 +675,6 @@
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Scala_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q2228722", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.32321, 52.50189]
-      },
-      "properties": {
-         "id": "pmb235972",
-         "title": "Die Komödie",
-         "lat": "52.50189",
-         "lon": "13.32321",
-         "timestamp": ["1929-03-22"],
-         "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }

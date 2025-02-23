@@ -51,6 +51,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366111, 48.209167]
+      },
+      "properties": {
+         "id": "pmb4",
+         "title": "Bösendorfer-Saal",
+         "lat": "48.209167",
+         "lon": "16.366111",
+         "timestamp": ["1912-12-03", "1912-12-11", "1912-12-27"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1020093", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361139, 48.210333]
       },
       "properties": {
@@ -58,8 +77,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1912-12-21"],
-         "importance": 1, 
+         "timestamp": ["1912-12-04", "1912-12-21"],
+         "importance": 2, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -102,6 +121,44 @@
         "geonames": "https://sws.geonames.org/2950159/", 
         "abbr": "P.PPLC", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1912-12-24", "1912-12-29"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.43138888888889, 48.155833333333334]
+      },
+      "properties": {
+         "id": "pmb192349",
+         "title": "Israelitischer Friedhof",
+         "lat": "48.155833333333334",
+         "lon": "16.43138888888889",
+         "timestamp": ["1912-12-18"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q68752772", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
       }
       }, 
     {
@@ -157,6 +214,53 @@
         "wikidata": "http://www.wikidata.org/entity/Q320591", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369913, 48.208613]
+      },
+      "properties": {
+         "id": "pmb39599",
+         "title": "Graben",
+         "lat": "48.208613",
+         "lon": "16.369913",
+         "timestamp": ["1912-12-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Graben_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q699937", 
+        "geonames": "https://sws.geonames.org/10346420/", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Siegfried Wolf",
+
+         "p_id": "#37840"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3073, 48.2437]
+      },
+      "properties": {
+         "id": "pmb199644",
+         "title": "Geymüllerschlössel",
+         "lat": "48.2437",
+         "lon": "16.3073",
+         "timestamp": ["1912-12-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Geym%C3%BCllerschl%C3%B6ssel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1521129", 
+        "geonames": "https://sws.geonames.org/8604503/", 
+        "abbr": "S.MUS", 
+        "type": "Museum"
       }
       }, 
     {
@@ -283,6 +387,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1912-12-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361853, 48.21494]
       },
       "properties": {
@@ -300,6 +440,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1912-12-04"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -307,8 +464,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1912-12-19"],
-         "importance": 1, 
+         "timestamp": ["1912-12-06", "1912-12-19"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -453,6 +610,66 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.339132, 48.234021]
+      },
+      "properties": {
+         "id": "pmb252012",
+         "title": "Hasenauerstraße 42",
+         "lat": "48.234021",
+         "lon": "16.339132",
+         "timestamp": ["1912-12-02", "1912-12-07", "1912-12-09", "1912-12-13", "1912-12-16", "1912-12-22", "1912-12-25"],
+         "importance": 7, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Eugenie Bachrach",
+
+         "p_id": "#13644"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353139, 48.24422]
+      },
+      "properties": {
+         "id": "pmb238485",
+         "title": "Nusswaldgasse 22",
+         "lat": "48.24422",
+         "lon": "16.353139",
+         "timestamp": ["1912-12-05", "1912-12-21"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -460,8 +677,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1912-12-11", "1912-12-22"],
-         "importance": 2, 
+         "timestamp": ["1912-12-11", "1912-12-22", "1912-12-24", "1912-12-27"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -495,6 +712,55 @@
          "p_name": "Emilie Kalisch",
 
          "p_id": "#19026"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3792, 52.515]
+      },
+      "properties": {
+         "id": "pmb235952",
+         "title": "Palais Arnim",
+         "lat": "52.515",
+         "lon": "13.3792",
+         "timestamp": ["1912-12-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Palais_Arnim", 
+        "wikidata": "http://www.wikidata.org/entity/Q1625999", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351996, 48.238534]
+      },
+      "properties": {
+         "id": "pmb235862",
+         "title": "Kreindlgasse 8",
+         "lat": "48.238534",
+         "lon": "16.351996",
+         "timestamp": ["1912-12-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vera Schapira",
+
+         "p_id": "#9667"
+         }, 
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
          }]
       }
       }

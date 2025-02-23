@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.356412, 48.213361], 
+            [16.33641, 48.23362], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,84 @@
         "name": "28. März 1913"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356412, 48.213361]
+      },
+      "properties": {
+         "id": "pmb236861",
+         "title": "Krankenhaus der Wiener Kaufmannschaft",
+         "lat": "48.213361",
+         "lon": "16.356412",
+         "timestamp": ["1913-03-28"],
+         "importance": 1, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1913-03-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

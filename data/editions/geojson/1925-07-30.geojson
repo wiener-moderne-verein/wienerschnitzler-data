@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.25988, 48.18285], 
+            [16.3025, 48.182222], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,42 @@
         "name": "30. Juli 1925"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3025, 48.182222]
+      },
+      "properties": {
+         "id": "pmb39607",
+         "title": "Tiergarten Schönbrunn",
+         "lat": "48.182222",
+         "lon": "16.3025",
+         "timestamp": ["1925-07-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tiergarten_Sch%C3%B6nbrunn", 
+        "wikidata": "http://www.wikidata.org/entity/Q752283", 
+        "abbr": "Zoo (K.ZOO)", 
+        "type": "Zoo"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25988, 48.18285]
+      },
+      "properties": {
+         "id": "pmb251007",
+         "title": "Leupold’s Hubertushof",
+         "lat": "48.18285",
+         "lon": "16.25988",
+         "timestamp": ["1925-07-30"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

@@ -1026,7 +1026,7 @@
       },
       "properties": {
          "id": "pmb482",
-         "title": "Friedrichstraße",
+         "title": "Friedrichstraße [Berlin]",
          "lat": "52.50319",
          "lon": "13.39108",
          "timestamp": ["1926-12-24"],
@@ -2605,17 +2605,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.2387111, 48.239965]
+        "coordinates": [16.356412, 48.213361]
       },
       "properties": {
-         "id": "pmb551",
-         "title": "Rieglerhütte",
-         "lat": "48.239965",
-         "lon": "16.2387111",
-         "timestamp": ["1926-04-04", "1926-10-10"],
-         "importance": 2, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
+         "id": "pmb236861",
+         "title": "Krankenhaus der Wiener Kaufmannschaft",
+         "lat": "48.213361",
+         "lon": "16.356412",
+         "timestamp": ["1926-10-29"],
+         "importance": 1, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }]
       }
       }, 
     {
@@ -2646,6 +2653,23 @@
 
          "p_id": "#12740"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2387111, 48.239965]
+      },
+      "properties": {
+         "id": "pmb551",
+         "title": "Rieglerhütte",
+         "lat": "48.239965",
+         "lon": "16.2387111",
+         "timestamp": ["1926-04-04", "1926-10-10"],
+         "importance": 2, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }, 
     {
@@ -2831,7 +2855,7 @@
       },
       "properties": {
          "id": "pmb92525",
-         "title": "Kammer-Lichtspiele",
+         "title": "Kammer-Lichtspiele [Wien]",
          "lat": "48.1984",
          "lon": "16.37743",
          "timestamp": ["1926-06-12"],
@@ -3357,30 +3381,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.356412, 48.213361]
-      },
-      "properties": {
-         "id": "pmb236861",
-         "title": "Krankenhaus der Wiener Kaufmannschaft",
-         "lat": "48.213361",
-         "lon": "16.356412",
-         "timestamp": ["1926-10-29"],
-         "importance": 1, 
-        "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Ferdinand Donath",
-
-         "p_id": "#15433"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.3576, 48.21071]
       },
       "properties": {
@@ -3392,6 +3392,53 @@
          "importance": 1, 
         "abbr": "Verwaltungsgebäude (K.VWL)", 
         "type": "Verwaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363197, 48.216829]
+      },
+      "properties": {
+         "id": "pmb235827",
+         "title": "Hörlgasse 14",
+         "lat": "48.216829",
+         "lon": "16.363197",
+         "timestamp": ["1926-01-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Pollak",
+
+         "p_id": "#22740"
+         }, 
+         {
+
+         "p_name": "Frieda Pollak",
+
+         "p_id": "#22728"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25988, 48.18285]
+      },
+      "properties": {
+         "id": "pmb251007",
+         "title": "Leupold’s Hubertushof",
+         "lat": "48.18285",
+         "lon": "16.25988",
+         "timestamp": ["1926-07-17"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }, 
     {
@@ -3452,36 +3499,6 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.363197, 48.216829]
-      },
-      "properties": {
-         "id": "pmb235827",
-         "title": "Hörlgasse 14",
-         "lat": "48.216829",
-         "lon": "16.363197",
-         "timestamp": ["1926-01-23"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Karl Pollak",
-
-         "p_id": "#22740"
-         }, 
-         {
-
-         "p_name": "Frieda Pollak",
-
-         "p_id": "#22728"
-         }]
       }
       }, 
     {
@@ -4554,23 +4571,6 @@
          "lon": "15.092312",
          "timestamp": ["1926-07-04"],
          "importance": 1
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.25988, 48.18285]
-      },
-      "properties": {
-         "id": "pmb251007",
-         "title": "Leupold’s Hubertushof",
-         "lat": "48.18285",
-         "lon": "16.25988",
-         "timestamp": ["1926-07-17"],
-         "importance": 1, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
       }
       }, 
     {

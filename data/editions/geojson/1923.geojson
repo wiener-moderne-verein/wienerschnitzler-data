@@ -528,6 +528,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.03991, 47.80282]
+      },
+      "properties": {
+         "id": "pmb253605",
+         "title": "Salzach [Stadtgebiet Salzburg]",
+         "lat": "47.80282",
+         "lon": "13.03991",
+         "timestamp": ["1923-08-04"],
+         "importance": 1, 
+        "abbr": "Fluss (N.FLS)", 
+        "type": "Fluss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37312, 48.20122]
       },
       "properties": {
@@ -1010,6 +1027,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q1787021", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.5215, 46.8578]
+      },
+      "properties": {
+         "id": "pmb2448",
+         "title": "Chur",
+         "lat": "46.8578",
+         "lon": "9.5215",
+         "timestamp": ["1923-08-15", "1923-08-16", "1923-09-05", "1923-09-06", "1923-09-07"],
+         "importance": 5, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Chur", 
+        "wikidata": "http://www.wikidata.org/entity/Q69007", 
+        "geonames": "https://sws.geonames.org/2661169/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -1520,8 +1557,8 @@
          "title": "Sommerhaidenweg",
          "lat": "48.248935842869",
          "lon": "16.296768550115",
-         "timestamp": ["1923-04-30", "1923-06-01", "1923-08-01", "1923-09-07", "1923-11-11", "1923-11-21"],
-         "importance": 6, 
+         "timestamp": ["1923-04-30", "1923-06-01", "1923-08-01", "1923-11-11", "1923-11-21"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/Sommerhaidenweg", 
         "wikidata": "http://www.wikidata.org/entity/Q2300521", 
         "abbr": "Wanderweg (K.WND)", 
@@ -1978,24 +2015,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.327625, 48.234219]
-      },
-      "properties": {
-         "id": "pmb190567",
-         "title": "Gersthofer Elitetheater",
-         "lat": "48.234219",
-         "lon": "16.327625",
-         "timestamp": ["1923-10-31", "1923-11-30"],
-         "importance": 2, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gersthofer_Elitetheater", 
-        "abbr": "Kino (K.KNO)", 
-        "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -2020,6 +2039,24 @@
 
          "p_id": "#12740"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.327625, 48.234219]
+      },
+      "properties": {
+         "id": "pmb190567",
+         "title": "Gersthofer Elitetheater",
+         "lat": "48.234219",
+         "lon": "16.327625",
+         "timestamp": ["1923-10-31", "1923-11-30"],
+         "importance": 2, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gersthofer_Elitetheater", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
       }
       }, 
     {
@@ -2165,7 +2202,7 @@
       },
       "properties": {
          "id": "pmb92525",
-         "title": "Kammer-Lichtspiele",
+         "title": "Kammer-Lichtspiele [Wien]",
          "lat": "48.1984",
          "lon": "16.37743",
          "timestamp": ["1923-12-19"],

@@ -237,6 +237,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.23264, 48.00543]
+      },
+      "properties": {
+         "id": "pmb662",
+         "title": "Baden bei Wien",
+         "lat": "48.00543",
+         "lon": "16.23264",
+         "timestamp": ["1920-10-10", "1920-12-29"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Baden_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q486450", 
+        "geonames": "https://sws.geonames.org/2782067/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.16667, 47.6]
       },
       "properties": {
@@ -537,8 +557,8 @@
          "title": "Türkenschanzpark",
          "lat": "48.235119783861",
          "lon": "16.333568462613",
-         "timestamp": ["1920-01-13", "1920-01-21", "1920-03-21", "1920-03-28", "1920-05-03", "1920-07-16", "1920-09-25", "1920-10-16", "1920-12-31"],
-         "importance": 9, 
+         "timestamp": ["1920-01-13", "1920-01-21", "1920-03-21", "1920-03-28", "1920-05-03", "1920-07-16", "1920-08-14", "1920-09-25", "1920-10-16", "1920-12-31"],
+         "importance": 10, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
       }
@@ -1533,6 +1553,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.356412, 48.213361]
+      },
+      "properties": {
+         "id": "pmb236861",
+         "title": "Krankenhaus der Wiener Kaufmannschaft",
+         "lat": "48.213361",
+         "lon": "16.356412",
+         "timestamp": ["1920-05-04"],
+         "importance": 1, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.332896, 48.253174]
       },
       "properties": {
@@ -1562,6 +1606,36 @@
          "importance": 2, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367725, 48.212284]
+      },
+      "properties": {
+         "id": "pmb207301",
+         "title": "Tiefer Graben 17",
+         "lat": "48.212284",
+         "lon": "16.367725",
+         "timestamp": ["1920-01-10", "1920-01-27", "1920-01-29", "1920-01-31", "1920-02-03", "1920-02-10", "1920-04-10", "1920-06-11", "1920-07-30", "1920-10-29"],
+         "importance": 10, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       }, 
     {
@@ -1616,36 +1690,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gersthofer_Elitetheater", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.367725, 48.212284]
-      },
-      "properties": {
-         "id": "pmb207301",
-         "title": "Tiefer Graben 17",
-         "lat": "48.212284",
-         "lon": "16.367725",
-         "timestamp": ["1920-01-10", "1920-01-27", "1920-01-29", "1920-01-31", "1920-02-03", "1920-02-10", "1920-04-10", "1920-06-11", "1920-07-30", "1920-10-29"],
-         "importance": 10, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
-         }]
       }
       }, 
     {

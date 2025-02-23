@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [19.053534, 47.497444816]
+            [19.053534, 47.497444816], 
+            [19.08361111111111, 47.50055555555556], 
+            [19.072559007, 47.5035412619], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -28,6 +31,117 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.072559007, 47.5035412619]
+      },
+      "properties": {
+         "id": "pmb56521",
+         "title": "Ungarisches Theater",
+         "lat": "47.5035412619",
+         "lon": "19.072559007",
+         "timestamp": ["1913-04-17"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q1233423", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.08361111111111, 47.50055555555556]
+      },
+      "properties": {
+         "id": "pmb247859",
+         "title": "Bahnhof Budapest-Keleti",
+         "lat": "47.50055555555556",
+         "lon": "19.08361111111111",
+         "timestamp": ["1913-04-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Budapest-Keleti", 
+        "wikidata": "http://www.wikidata.org/entity/Q841167", 
+        "geonames": "https://sws.geonames.org/3054635/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1913-04-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }]
       }
       }
   ]

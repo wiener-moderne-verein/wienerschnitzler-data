@@ -6,9 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.303424, 52.503574], 
             [13.32321, 52.50189], 
             [13.374444, 52.51], 
             [13.389167, 52.517222], 
+            [13.385679, 52.518659], 
+            [13.38105, 52.519911], 
             [13.36774, 52.52031]
           ]
       },
@@ -56,6 +59,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.385679, 52.518659]
+      },
+      "properties": {
+         "id": "pmb253880",
+         "title": "Restaurant Kannenberg",
+         "lat": "52.518659",
+         "lon": "13.385679",
+         "timestamp": ["1912-11-11"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.36774, 52.52031]
       },
       "properties": {
@@ -74,6 +94,40 @@
 
          "p_id": "#10986"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.38105, 52.519911]
+      },
+      "properties": {
+         "id": "pmb253892",
+         "title": "Komödienhaus [Berlin]",
+         "lat": "52.519911",
+         "lon": "13.38105",
+         "timestamp": ["1912-11-11"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.303424, 52.503574]
+      },
+      "properties": {
+         "id": "pmb253898",
+         "title": "Dahlmannstraße 1",
+         "lat": "52.503574",
+         "lon": "13.303424",
+         "timestamp": ["1912-11-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       },
     {

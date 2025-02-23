@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [13.385425, 52.51165], 
+            [13.391562, 52.501718], 
             [13.389167, 52.517222], 
+            [13.385679, 52.518659], 
             [13.380556, 52.515833]
           ]
       },
@@ -57,6 +59,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.385679, 52.518659]
+      },
+      "properties": {
+         "id": "pmb253880",
+         "title": "Restaurant Kannenberg",
+         "lat": "52.518659",
+         "lon": "13.385679",
+         "timestamp": ["1912-11-25"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.389167, 52.517222]
       },
       "properties": {
@@ -68,6 +87,23 @@
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.391562, 52.501718]
+      },
+      "properties": {
+         "id": "pmb253946",
+         "title": "Friedrichstraße 13",
+         "lat": "52.501718",
+         "lon": "13.391562",
+         "timestamp": ["1912-11-25"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }
   ]

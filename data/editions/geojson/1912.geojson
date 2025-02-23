@@ -164,8 +164,8 @@
          "title": "Bösendorfer-Saal",
          "lat": "48.209167",
          "lon": "16.366111",
-         "timestamp": ["1912-02-08", "1912-03-11", "1912-03-15", "1912-04-12", "1912-10-15", "1912-11-17"],
-         "importance": 6, 
+         "timestamp": ["1912-02-08", "1912-03-11", "1912-03-15", "1912-04-12", "1912-10-15", "1912-11-17", "1912-12-03", "1912-12-11", "1912-12-27"],
+         "importance": 9, 
         "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
         "wikidata": "http://www.wikidata.org/entity/Q1020093", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
@@ -220,8 +220,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1912-01-31", "1912-03-05", "1912-03-27", "1912-04-12", "1912-06-04", "1912-06-19", "1912-07-02", "1912-09-25", "1912-10-09", "1912-10-25", "1912-11-01", "1912-12-21"],
-         "importance": 12, 
+         "timestamp": ["1912-01-31", "1912-03-05", "1912-03-27", "1912-04-12", "1912-06-04", "1912-06-19", "1912-07-02", "1912-09-25", "1912-10-09", "1912-10-25", "1912-11-01", "1912-12-04", "1912-12-21"],
+         "importance": 13, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -682,8 +682,8 @@
          "title": "I., Innere Stadt",
          "lat": "48.20769",
          "lon": "16.37049",
-         "timestamp": ["1912-01-02", "1912-01-30", "1912-03-02", "1912-04-25", "1912-06-10", "1912-06-19", "1912-07-04", "1912-07-11", "1912-07-15", "1912-07-18", "1912-09-23", "1912-09-23", "1912-10-04", "1912-10-08"],
-         "importance": 14, 
+         "timestamp": ["1912-01-02", "1912-01-30", "1912-03-02", "1912-04-25", "1912-06-10", "1912-06-19", "1912-07-04", "1912-07-11", "1912-07-15", "1912-07-18", "1912-09-23", "1912-10-04", "1912-10-08", "1912-12-24", "1912-12-29"],
+         "importance": 15, 
         "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
@@ -881,6 +881,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.03991, 47.80282]
+      },
+      "properties": {
+         "id": "pmb253605",
+         "title": "Salzach [Stadtgebiet Salzburg]",
+         "lat": "47.80282",
+         "lon": "13.03991",
+         "timestamp": ["1912-04-03"],
+         "importance": 1, 
+        "abbr": "Fluss (N.FLS)", 
+        "type": "Fluss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.042778, 47.802778]
       },
       "properties": {
@@ -998,8 +1015,8 @@
          "title": "Israelitischer Friedhof",
          "lat": "48.155833333333334",
          "lon": "16.43138888888889",
-         "timestamp": ["1912-09-09"],
-         "importance": 1, 
+         "timestamp": ["1912-09-09", "1912-12-18"],
+         "importance": 2, 
         "wikidata": "http://www.wikidata.org/entity/Q68752772", 
         "abbr": "Friedhof (K.FRH)", 
         "type": "Friedhof"
@@ -1190,6 +1207,23 @@
         "geonames": "https://sws.geonames.org/7873001/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348401, 48.23555]
+      },
+      "properties": {
+         "id": "pmb253629",
+         "title": "Bundesgymnasium Döbling",
+         "lat": "48.23555",
+         "lon": "16.348401",
+         "timestamp": ["1912-09-17", "1912-10-18", "1912-10-26"],
+         "importance": 3, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule"
       }
       }, 
     {
@@ -1493,6 +1527,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.369913, 48.208613]
+      },
+      "properties": {
+         "id": "pmb39599",
+         "title": "Graben",
+         "lat": "48.208613",
+         "lon": "16.369913",
+         "timestamp": ["1912-12-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Graben_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q699937", 
+        "geonames": "https://sws.geonames.org/10346420/", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Siegfried Wolf",
+
+         "p_id": "#37840"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3073, 48.2437]
       },
       "properties": {
@@ -1500,8 +1561,8 @@
          "title": "Geymüllerschlössel",
          "lat": "48.2437",
          "lon": "16.3073",
-         "timestamp": ["1912-07-07"],
-         "importance": 1, 
+         "timestamp": ["1912-07-07", "1912-12-04"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Geym%C3%BCllerschl%C3%B6ssel", 
         "wikidata": "http://www.wikidata.org/entity/Q1521129", 
         "geonames": "https://sws.geonames.org/8604503/", 
@@ -1550,8 +1611,8 @@
          "title": "Sanatorium Loew",
          "lat": "48.216264483348",
          "lon": "16.347492624475",
-         "timestamp": ["1912-10-22", "1912-10-23", "1912-10-25", "1912-10-26", "1912-10-28", "1912-10-28", "1912-11-04", "1912-11-07"],
-         "importance": 8, 
+         "timestamp": ["1912-10-22", "1912-10-23", "1912-10-25", "1912-10-26", "1912-10-28", "1912-11-04", "1912-11-07"],
+         "importance": 7, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
         "arbeitsort": [
@@ -2346,8 +2407,8 @@
          "title": "Kleines Theater",
          "lat": "52.517222",
          "lon": "13.389167",
-         "timestamp": ["1912-11-11", "1912-11-12", "1912-11-12", "1912-11-13", "1912-11-25", "1912-11-28"],
-         "importance": 6, 
+         "timestamp": ["1912-11-11", "1912-11-12", "1912-11-13", "1912-11-25", "1912-11-26", "1912-11-27", "1912-11-28", "1912-11-29", "1912-11-30"],
+         "importance": 9, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -2784,8 +2845,8 @@
          "title": "Hasenauerstraße 46",
          "lat": "48.234039",
          "lon": "16.338443",
-         "timestamp": ["1912-05-25", "1912-09-24", "1912-10-01", "1912-11-05"],
-         "importance": 4, 
+         "timestamp": ["1912-05-25", "1912-09-24", "1912-10-01", "1912-11-05", "1912-12-22"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2984,8 +3045,8 @@
          "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
          "lat": "48.209673",
          "lon": "16.37127",
-         "timestamp": ["1912-10-30", "1912-10-31", "1912-11-19"],
-         "importance": 3, 
+         "timestamp": ["1912-10-30", "1912-10-31", "1912-11-19", "1912-12-04"],
+         "importance": 4, 
         "abbr": "Buchhandlung (K.BHL)", 
         "type": "Buchhandlung"
       }
@@ -3126,8 +3187,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1912-03-01", "1912-03-22", "1912-04-19", "1912-05-31", "1912-07-01", "1912-10-16", "1912-10-25", "1912-12-19"],
-         "importance": 8, 
+         "timestamp": ["1912-03-01", "1912-03-22", "1912-04-19", "1912-05-31", "1912-07-01", "1912-10-16", "1912-10-25", "1912-12-06", "1912-12-19"],
+         "importance": 9, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3211,8 +3272,8 @@
          "title": "Johann-Strauß-Theater",
          "lat": "48.1954",
          "lon": "16.3685",
-         "timestamp": ["1912-01-19", "1912-05-04", "1912-05-07", "1912-09-16", "1912-09-18", "1912-09-18", "1912-09-25"],
-         "importance": 7, 
+         "timestamp": ["1912-01-19", "1912-05-04", "1912-05-07", "1912-09-16", "1912-09-18", "1912-09-25"],
+         "importance": 6, 
         "wikipedia": "https://de.wikipedia.org/wiki/Johann_Strau%C3%9F-Theater", 
         "wikidata": "http://www.wikidata.org/entity/Q1502656", 
         "abbr": "Theater (K.THE)", 
@@ -3605,8 +3666,8 @@
          "title": "Hotel Esplanade [Berlin]",
          "lat": "52.51",
          "lon": "13.374444",
-         "timestamp": ["1912-11-11", "1912-11-12", "1912-11-13"],
-         "importance": 3, 
+         "timestamp": ["1912-11-11", "1912-11-12", "1912-11-13", "1912-11-29"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q321562", 
         "abbr": "Hotel (K.HTL)", 
@@ -3673,8 +3734,8 @@
          "title": "Hasenauerstraße 42",
          "lat": "48.234021",
          "lon": "16.339132",
-         "timestamp": ["1912-01-07", "1912-01-21", "1912-02-01", "1912-02-19", "1912-02-21", "1912-02-26", "1912-03-03", "1912-03-07", "1912-03-21", "1912-04-08", "1912-05-10", "1912-05-24", "1912-05-31", "1912-06-03", "1912-06-13", "1912-06-16", "1912-06-23", "1912-07-11", "1912-07-17", "1912-10-13", "1912-10-18", "1912-10-28", "1912-11-09", "1912-11-14", "1912-11-22"],
-         "importance": 25, 
+         "timestamp": ["1912-01-07", "1912-01-21", "1912-02-01", "1912-02-19", "1912-02-21", "1912-02-26", "1912-03-03", "1912-03-07", "1912-03-21", "1912-04-08", "1912-05-10", "1912-05-24", "1912-05-31", "1912-06-03", "1912-06-13", "1912-06-16", "1912-06-23", "1912-07-11", "1912-07-17", "1912-10-13", "1912-10-18", "1912-10-28", "1912-11-09", "1912-11-14", "1912-11-22", "1912-12-02", "1912-12-07", "1912-12-09", "1912-12-13", "1912-12-16", "1912-12-22", "1912-12-25"],
+         "importance": 32, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3709,8 +3770,8 @@
          "title": "Nusswaldgasse 22",
          "lat": "48.24422",
          "lon": "16.353139",
-         "timestamp": ["1912-10-20"],
-         "importance": 1, 
+         "timestamp": ["1912-10-20", "1912-12-05", "1912-12-21"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3900,37 +3961,6 @@
          "importance": 1, 
         "abbr": "Vergnügungseinrichtung", 
         "type": "Vergnügungseinrichtung"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3699543, 48.2157515]
-      },
-      "properties": {
-         "id": "pmb58307",
-         "title": "Esslinggasse",
-         "lat": "48.2157515",
-         "lon": "16.3699543",
-         "timestamp": ["1912-02-11"],
-         "importance": 1, 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
-        "wohnort": [
-         {
-
-         "p_name": "Johann Klein",
-
-         "p_id": "#27770"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": "Alfred Seiller",
-
-         "p_id": "#43636"
-         }]
       }
       }, 
     {
@@ -4152,8 +4182,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1912-05-01", "1912-05-03", "1912-06-01", "1912-09-09", "1912-09-15", "1912-09-19", "1912-09-21", "1912-09-26", "1912-09-29", "1912-10-06", "1912-10-28", "1912-11-08", "1912-11-08", "1912-12-11", "1912-12-22"],
-         "importance": 15, 
+         "timestamp": ["1912-05-01", "1912-05-03", "1912-06-01", "1912-09-09", "1912-09-15", "1912-09-19", "1912-09-21", "1912-09-26", "1912-09-29", "1912-10-06", "1912-10-28", "1912-11-08", "1912-12-11", "1912-12-22", "1912-12-24", "1912-12-27"],
+         "importance": 16, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -5139,6 +5169,40 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.447818, 46.934199]
+      },
+      "properties": {
+         "id": "pmb253555",
+         "title": "Franz-Josefs-Höhe",
+         "lat": "46.934199",
+         "lon": "11.447818",
+         "timestamp": ["1912-08-28"],
+         "importance": 1, 
+        "abbr": "Anhöhe", 
+        "type": "Anhöhe"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.447604, 46.938623]
+      },
+      "properties": {
+         "id": "pmb253562",
+         "title": "Kohlgrubenweg",
+         "lat": "46.938623",
+         "lon": "11.447604",
+         "timestamp": ["1912-08-28"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.27453, 47.90798]
       },
       "properties": {
@@ -5150,6 +5214,25 @@
          "importance": 10, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2732, 47.9071]
+      },
+      "properties": {
+         "id": "pmb253610",
+         "title": "Bahnhof Tutzing",
+         "lat": "47.9071",
+         "lon": "11.2732",
+         "timestamp": ["1912-08-29", "1912-09-06", "1912-09-07"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Tutzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q801533", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -5211,6 +5294,112 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.251672, 47.90009]
+      },
+      "properties": {
+         "id": "pmb253585",
+         "title": "Gut Ilkahöhe",
+         "lat": "47.90009",
+         "lon": "11.251672",
+         "timestamp": ["1912-09-04"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2656, 47.8908]
+      },
+      "properties": {
+         "id": "pmb253591",
+         "title": "Unterzeismering",
+         "lat": "47.8908",
+         "lon": "11.2656",
+         "timestamp": ["1912-09-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Unterzeismering", 
+        "wikidata": "http://www.wikidata.org/entity/Q64211391", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5772282223266, 48.1414810674769]
+      },
+      "properties": {
+         "id": "pmb253618",
+         "title": "Palais Preysing",
+         "lat": "48.1414810674769",
+         "lon": "11.5772282223266",
+         "timestamp": ["1912-09-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Palais_Preysing", 
+        "wikidata": "http://www.wikidata.org/entity/Q872048", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.577181, 48.141422]
+      },
+      "properties": {
+         "id": "pmb253621",
+         "title": "Restaurant Preysing",
+         "lat": "48.141422",
+         "lon": "11.577181",
+         "timestamp": ["1912-09-07"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371026, 48.204144]
+      },
+      "properties": {
+         "id": "pmb253643",
+         "title": "Kaiserbar",
+         "lat": "48.204144",
+         "lon": "16.371026",
+         "timestamp": ["1912-09-20"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37071, 48.205295]
+      },
+      "properties": {
+         "id": "pmb253765",
+         "title": "Marco-d’Aviano-Gasse 1",
+         "lat": "48.205295",
+         "lon": "16.37071",
+         "timestamp": ["1912-10-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.34581, 48.23154]
       },
       "properties": {
@@ -5235,6 +5424,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3664, 48.21531111111111]
+      },
+      "properties": {
+         "id": "pmb253816",
+         "title": "Börse",
+         "lat": "48.21531111111111",
+         "lon": "16.3664",
+         "timestamp": ["1912-10-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_B%C3%B6rse_(Geb%C3%A4ude)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2568865", 
+        "abbr": "Infrastrukturgebäude (K.INF)", 
+        "type": "Infrastrukturgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355191, 48.21192]
+      },
+      "properties": {
+         "id": "pmb253832",
+         "title": "Friedrich-Schmidt-Platz 7",
+         "lat": "48.21192",
+         "lon": "16.355191",
+         "timestamp": ["1912-10-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.354819, 48.208344]
       },
       "properties": {
@@ -5247,6 +5472,57 @@
         "wikidata": "http://www.wikidata.org/entity/Q38007901", 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368017, 48.201802]
+      },
+      "properties": {
+         "id": "pmb253864",
+         "title": "Elisabethstraße 5",
+         "lat": "48.201802",
+         "lon": "16.368017",
+         "timestamp": ["1912-11-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38337, 48.224201]
+      },
+      "properties": {
+         "id": "pmb253875",
+         "title": "Hotel Nordwestbahn",
+         "lat": "48.224201",
+         "lon": "16.38337",
+         "timestamp": ["1912-11-10"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.385679, 52.518659]
+      },
+      "properties": {
+         "id": "pmb253880",
+         "title": "Restaurant Kannenberg",
+         "lat": "52.518659",
+         "lon": "13.385679",
+         "timestamp": ["1912-11-11", "1912-11-13", "1912-11-25", "1912-11-26", "1912-11-27"],
+         "importance": 5, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
@@ -5270,18 +5546,160 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.352018, 48.225793]
+        "coordinates": [13.38105, 52.519911]
+      },
+      "properties": {
+         "id": "pmb253892",
+         "title": "Komödienhaus [Berlin]",
+         "lat": "52.519911",
+         "lon": "13.38105",
+         "timestamp": ["1912-11-11"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.303424, 52.503574]
+      },
+      "properties": {
+         "id": "pmb253898",
+         "title": "Dahlmannstraße 1",
+         "lat": "52.503574",
+         "lon": "13.303424",
+         "timestamp": ["1912-11-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36869, 52.5064]
+      },
+      "properties": {
+         "id": "pmb362",
+         "title": "Potsdamerstraße",
+         "lat": "52.5064",
+         "lon": "13.36869",
+         "timestamp": ["1912-11-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Potsdamer_Stra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q2106564", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Viktor Fraenkl",
+
+         "p_id": "#38141"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.377222, 52.508056]
+      },
+      "properties": {
+         "id": "pmb253913",
+         "title": "Kammerlichtspiele [Berlin]",
+         "lat": "52.508056",
+         "lon": "13.377222",
+         "timestamp": ["1912-11-12"],
+         "importance": 1, 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.625768, 52.45632]
       },
       "properties": {
          "id": "pmb192579",
          "title": "Union Kino",
-         "lat": "48.225793",
-         "lon": "16.352018",
+         "lat": "52.45632",
+         "lon": "13.625768",
          "timestamp": ["1912-11-24"],
          "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q130468719", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.391562, 52.501718]
+      },
+      "properties": {
+         "id": "pmb253946",
+         "title": "Friedrichstraße 13",
+         "lat": "52.501718",
+         "lon": "13.391562",
+         "timestamp": ["1912-11-25"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3792, 52.515]
+      },
+      "properties": {
+         "id": "pmb235952",
+         "title": "Palais Arnim",
+         "lat": "52.515",
+         "lon": "13.3792",
+         "timestamp": ["1912-12-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Palais_Arnim", 
+        "wikidata": "http://www.wikidata.org/entity/Q1625999", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351996, 48.238534]
+      },
+      "properties": {
+         "id": "pmb235862",
+         "title": "Kreindlgasse 8",
+         "lat": "48.238534",
+         "lon": "16.351996",
+         "timestamp": ["1912-12-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vera Schapira",
+
+         "p_id": "#9667"
+         }, 
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
+         }]
       }
       }
   ]

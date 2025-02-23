@@ -6,9 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.361139, 48.210333], 
+            [16.37127, 48.209673], 
             [16.368738, 48.213038], 
+            [16.33716, 48.23188], 
             [16.33494, 48.23365], 
-            [16.33716, 48.23188]
+            [16.3073, 48.2437]
           ]
       },
       "properties": {
@@ -43,6 +46,41 @@
 
          "p_id": "#12740"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1912-12-04"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1912-12-04"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
       }
       },
     {
@@ -146,6 +184,26 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3073, 48.2437]
+      },
+      "properties": {
+         "id": "pmb199644",
+         "title": "Geymüllerschlössel",
+         "lat": "48.2437",
+         "lon": "16.3073",
+         "timestamp": ["1912-12-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Geym%C3%BCllerschl%C3%B6ssel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1521129", 
+        "geonames": "https://sws.geonames.org/8604503/", 
+        "abbr": "S.MUS", 
+        "type": "Museum"
       }
       }
   ]

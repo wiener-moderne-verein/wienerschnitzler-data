@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.578786, 48.139944]
+            [11.43322, 47.75807], 
+            [11.582478, 48.138122], 
+            [11.581667, 48.138889], 
+            [11.578786, 48.139944], 
+            [11.555, 48.140833]
           ]
       },
       "properties": {
@@ -28,6 +32,80 @@
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.581667, 48.138889]
+      },
+      "properties": {
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
+         "timestamp": ["1913-02-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1913-02-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.582478, 48.138122]
+      },
+      "properties": {
+         "id": "pmb11",
+         "title": "Münchner Schauspielhaus",
+         "lat": "48.138122",
+         "lon": "11.582478",
+         "timestamp": ["1913-02-07"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.43322, 47.75807]
+      },
+      "properties": {
+         "id": "pmb246906",
+         "title": "Oberes Isartal",
+         "lat": "47.75807",
+         "lon": "11.43322",
+         "timestamp": ["1913-02-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q60765828", 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
       }
       }
   ]

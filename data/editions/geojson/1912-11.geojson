@@ -422,8 +422,8 @@
          "title": "Kleines Theater",
          "lat": "52.517222",
          "lon": "13.389167",
-         "timestamp": ["1912-11-11", "1912-11-12", "1912-11-12", "1912-11-13", "1912-11-25", "1912-11-28"],
-         "importance": 6, 
+         "timestamp": ["1912-11-11", "1912-11-12", "1912-11-13", "1912-11-25", "1912-11-26", "1912-11-27", "1912-11-28", "1912-11-29", "1912-11-30"],
+         "importance": 9, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -658,8 +658,8 @@
          "title": "Hotel Esplanade [Berlin]",
          "lat": "52.51",
          "lon": "13.374444",
-         "timestamp": ["1912-11-11", "1912-11-12", "1912-11-13"],
-         "importance": 3, 
+         "timestamp": ["1912-11-11", "1912-11-12", "1912-11-13", "1912-11-29"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q321562", 
         "abbr": "Hotel (K.HTL)", 
@@ -762,8 +762,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1912-11-08", "1912-11-08"],
-         "importance": 2, 
+         "timestamp": ["1912-11-08"],
+         "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -822,6 +822,57 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368017, 48.201802]
+      },
+      "properties": {
+         "id": "pmb253864",
+         "title": "Elisabethstraße 5",
+         "lat": "48.201802",
+         "lon": "16.368017",
+         "timestamp": ["1912-11-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38337, 48.224201]
+      },
+      "properties": {
+         "id": "pmb253875",
+         "title": "Hotel Nordwestbahn",
+         "lat": "48.224201",
+         "lon": "16.38337",
+         "timestamp": ["1912-11-10"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.385679, 52.518659]
+      },
+      "properties": {
+         "id": "pmb253880",
+         "title": "Restaurant Kannenberg",
+         "lat": "52.518659",
+         "lon": "13.385679",
+         "timestamp": ["1912-11-11", "1912-11-13", "1912-11-25", "1912-11-26", "1912-11-27"],
+         "importance": 5, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.32321, 52.50189]
       },
       "properties": {
@@ -839,18 +890,111 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.352018, 48.225793]
+        "coordinates": [13.38105, 52.519911]
+      },
+      "properties": {
+         "id": "pmb253892",
+         "title": "Komödienhaus [Berlin]",
+         "lat": "52.519911",
+         "lon": "13.38105",
+         "timestamp": ["1912-11-11"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.303424, 52.503574]
+      },
+      "properties": {
+         "id": "pmb253898",
+         "title": "Dahlmannstraße 1",
+         "lat": "52.503574",
+         "lon": "13.303424",
+         "timestamp": ["1912-11-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36869, 52.5064]
+      },
+      "properties": {
+         "id": "pmb362",
+         "title": "Potsdamerstraße",
+         "lat": "52.5064",
+         "lon": "13.36869",
+         "timestamp": ["1912-11-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Potsdamer_Stra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q2106564", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Viktor Fraenkl",
+
+         "p_id": "#38141"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.377222, 52.508056]
+      },
+      "properties": {
+         "id": "pmb253913",
+         "title": "Kammerlichtspiele [Berlin]",
+         "lat": "52.508056",
+         "lon": "13.377222",
+         "timestamp": ["1912-11-12"],
+         "importance": 1, 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.625768, 52.45632]
       },
       "properties": {
          "id": "pmb192579",
          "title": "Union Kino",
-         "lat": "48.225793",
-         "lon": "16.352018",
+         "lat": "52.45632",
+         "lon": "13.625768",
          "timestamp": ["1912-11-24"],
          "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q130468719", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.391562, 52.501718]
+      },
+      "properties": {
+         "id": "pmb253946",
+         "title": "Friedrichstraße 13",
+         "lat": "52.501718",
+         "lon": "13.391562",
+         "timestamp": ["1912-11-25"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }
   ]

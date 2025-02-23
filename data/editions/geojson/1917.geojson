@@ -470,6 +470,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.03991, 47.80282]
+      },
+      "properties": {
+         "id": "pmb253605",
+         "title": "Salzach [Stadtgebiet Salzburg]",
+         "lat": "47.80282",
+         "lon": "13.03991",
+         "timestamp": ["1917-05-15"],
+         "importance": 1, 
+        "abbr": "Fluss (N.FLS)", 
+        "type": "Fluss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37312, 48.20122]
       },
       "properties": {
@@ -1092,6 +1109,36 @@
         "geonames": "https://sws.geonames.org/2600997/", 
         "abbr": "T.HLL", 
         "type": "Hügel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361942, 48.212903]
+      },
+      "properties": {
+         "id": "pmb235692",
+         "title": "Universitätsring 10",
+         "lat": "48.212903",
+         "lon": "16.361942",
+         "timestamp": ["1917-11-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Margarethe Manassewitsch",
+
+         "p_id": "#20861"
+         }, 
+         {
+
+         "p_name": "Irene Mandl",
+
+         "p_id": "#20902"
+         }]
       }
       }, 
     {
@@ -1816,23 +1863,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.2387111, 48.239965]
-      },
-      "properties": {
-         "id": "pmb551",
-         "title": "Rieglerhütte",
-         "lat": "48.239965",
-         "lon": "16.2387111",
-         "timestamp": ["1917-05-27", "1917-07-15", "1917-07-29", "1917-08-15", "1917-08-19", "1917-08-26"],
-         "importance": 6, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -1857,6 +1887,23 @@
 
          "p_id": "#12740"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2387111, 48.239965]
+      },
+      "properties": {
+         "id": "pmb551",
+         "title": "Rieglerhütte",
+         "lat": "48.239965",
+         "lon": "16.2387111",
+         "timestamp": ["1917-05-27", "1917-07-15", "1917-07-29", "1917-08-15", "1917-08-19", "1917-08-26"],
+         "importance": 6, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }, 
     {

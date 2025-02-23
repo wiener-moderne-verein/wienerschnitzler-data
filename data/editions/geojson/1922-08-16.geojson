@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.00187, 47.63236]
+            [13.0413, 47.6305], 
+            [13.02539, 47.63106]
           ]
       },
       "properties": {
@@ -17,20 +18,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.00187, 47.63236]
+        "coordinates": [13.0413, 47.6305]
       },
       "properties": {
-         "id": "pmb797",
-         "title": "Berchtesgaden",
-         "lat": "47.63236",
-         "lon": "13.00187",
+         "id": "pmb253799",
+         "title": "Pension Moritz",
+         "lat": "47.6305",
+         "lon": "13.0413",
          "timestamp": ["1922-08-16"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q278221", 
-        "geonames": "https://sws.geonames.org/2950881/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Pension_Moritz", 
+        "wikidata": "http://www.wikidata.org/entity/Q5532282", 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.02539, 47.63106]
+      },
+      "properties": {
+         "id": "pmb253809",
+         "title": "Salzbergstraße [Berchtesgaden]",
+         "lat": "47.63106",
+         "lon": "13.02539",
+         "timestamp": ["1922-08-16"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }
   ]

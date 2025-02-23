@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.2732, 47.9071], 
             [11.27453, 47.90798], 
             [11.585161, 48.135523], 
+            [11.577181, 48.141422], 
             [11.555, 48.140833]
           ]
       },
@@ -30,6 +32,25 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2732, 47.9071]
+      },
+      "properties": {
+         "id": "pmb253610",
+         "title": "Bahnhof Tutzing",
+         "lat": "47.9071",
+         "lon": "11.2732",
+         "timestamp": ["1912-09-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Tutzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q801533", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {
@@ -80,6 +101,23 @@
 
          "p_id": "#14953"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.577181, 48.141422]
+      },
+      "properties": {
+         "id": "pmb253621",
+         "title": "Restaurant Preysing",
+         "lat": "48.141422",
+         "lon": "11.577181",
+         "timestamp": ["1912-09-07"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

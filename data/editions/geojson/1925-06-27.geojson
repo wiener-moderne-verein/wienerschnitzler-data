@@ -6,11 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.45862, 46.29048], 
             [11.6, 46.316666666667], 
-            [11.8, 46.26667], 
+            [11.80327, 46.26359], 
             [11.78852, 46.29636], 
             [11.58817, 46.41147], 
-            [11.35552, 46.49817]
+            [11.35552, 46.49817], 
+            [11.29747, 46.34687]
           ]
       },
       "properties": {
@@ -39,18 +41,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.8, 46.26667]
+        "coordinates": [11.80327, 46.26359]
       },
       "properties": {
-         "id": "pmb44311",
-         "title": "San Martino di Castrozza",
-         "lat": "46.26667",
-         "lon": "11.8",
+         "id": "pmb254377",
+         "title": "Grand Hotel des Alpes [San Martino di Castrozza]",
+         "lat": "46.26359",
+         "lon": "11.80327",
          "timestamp": ["1925-06-27"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3168019/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -107,6 +108,42 @@
         "geonames": "https://sws.geonames.org/3169877/ https://sws.geonames.org/6539512/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.45862, 46.29048]
+      },
+      "properties": {
+         "id": "pmb90462",
+         "title": "Cavalese",
+         "lat": "46.29048",
+         "lon": "11.45862",
+         "timestamp": ["1925-06-27"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3179333/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.29747, 46.34687]
+      },
+      "properties": {
+         "id": "pmb90278",
+         "title": "Auer",
+         "lat": "46.34687",
+         "lon": "11.29747",
+         "timestamp": ["1925-06-27"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3171993/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }
   ]

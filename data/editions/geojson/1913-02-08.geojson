@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.575623, 48.139552], 
             [11.582478, 48.138122], 
-            [11.581667, 48.138889]
+            [11.581667, 48.138889], 
+            [11.583415, 48.153287], 
+            [11.549265, 48.151308]
           ]
       },
       "properties": {
@@ -48,6 +51,57 @@
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.575623, 48.139552]
+      },
+      "properties": {
+         "id": "pmb254185",
+         "title": "Moderne Galerie",
+         "lat": "48.139552",
+         "lon": "11.575623",
+         "timestamp": ["1913-02-08"],
+         "importance": 1, 
+        "abbr": "Galerie (K.GLR)", 
+        "type": "Galerie"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.583415, 48.153287]
+      },
+      "properties": {
+         "id": "pmb254191",
+         "title": "Leopoldstraße 10",
+         "lat": "48.153287",
+         "lon": "11.583415",
+         "timestamp": ["1913-02-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.549265, 48.151308]
+      },
+      "properties": {
+         "id": "pmb254202",
+         "title": "Lothstraße 16",
+         "lat": "48.151308",
+         "lon": "11.549265",
+         "timestamp": ["1913-02-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

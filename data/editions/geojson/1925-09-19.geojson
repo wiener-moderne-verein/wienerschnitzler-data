@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.35683, 45.45857], 
             [12.336047, 45.435282], 
+            [12.3369089, 45.4324384], 
             [12.4169, 45.4731], 
             [12.41785, 45.49794]
           ]
@@ -15,6 +17,24 @@
         "name": "19. September 1925"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.3369089, 45.4324384]
+      },
+      "properties": {
+         "id": "pmb255036",
+         "title": "Hotel Monaco Grand Canal",
+         "lat": "45.4324384",
+         "lon": "12.3369089",
+         "timestamp": ["1925-09-19"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q56256122", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -68,6 +88,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q281139", 
         "abbr": "Insel (N.INS)", 
         "type": "Insel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.35683, 45.45857]
+      },
+      "properties": {
+         "id": "pmb91314",
+         "title": "Murano",
+         "lat": "45.45857",
+         "lon": "12.35683",
+         "timestamp": ["1925-09-19"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3172456/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

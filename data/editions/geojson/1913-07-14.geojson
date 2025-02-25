@@ -6,13 +6,56 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.353139, 48.24422], 
+            [16.353463, 48.253614]
           ]
       },
       "properties": {
         "name": "14. Juli 1913"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353463, 48.253614]
+      },
+      "properties": {
+         "id": "pmb227",
+         "title": "Stadlmanns Restauration »Zum Schutzengel«",
+         "lat": "48.253614",
+         "lon": "16.353463",
+         "timestamp": ["1913-07-14"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353139, 48.24422]
+      },
+      "properties": {
+         "id": "pmb238485",
+         "title": "Nusswaldgasse 22",
+         "lat": "48.24422",
+         "lon": "16.353139",
+         "timestamp": ["1913-07-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

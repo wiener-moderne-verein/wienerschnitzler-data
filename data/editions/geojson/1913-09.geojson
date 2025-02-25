@@ -109,15 +109,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.90126, 46.4955]
+      },
+      "properties": {
+         "id": "pmb34946",
+         "title": "Pontresina",
+         "lat": "46.4955",
+         "lon": "9.90126",
+         "timestamp": ["1913-09-02"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659172/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.84327, 46.49937]
       },
       "properties": {
          "id": "pmb44374",
-         "title": "Sankt Moritz",
+         "title": "St. Moritz",
          "lat": "46.49937",
          "lon": "9.84327",
-         "timestamp": ["1913-09-01", "1913-09-02", "1913-09-03"],
-         "importance": 3, 
+         "timestamp": ["1913-09-01", "1913-09-02", "1913-09-03", "1913-09-04"],
+         "importance": 4, 
         "geonames": "https://sws.geonames.org/2658813/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -278,8 +296,8 @@
          "title": "Münchner Schauspielhaus",
          "lat": "48.138122",
          "lon": "11.582478",
-         "timestamp": ["1913-09-07"],
-         "importance": 1, 
+         "timestamp": ["1913-09-06", "1913-09-07"],
+         "importance": 2, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -321,6 +339,76 @@
         "geonames": "https://sws.geonames.org/3324201/", 
         "abbr": "T.PK", 
         "type": "Bergspitze"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.43322, 47.75807]
+      },
+      "properties": {
+         "id": "pmb246906",
+         "title": "Oberes Isartal",
+         "lat": "47.75807",
+         "lon": "11.43322",
+         "timestamp": ["1913-09-08"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q60765828", 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.578786, 48.139944]
+      },
+      "properties": {
+         "id": "pmb9",
+         "title": "Königlich Bayerische Hoftheater",
+         "lat": "48.139944",
+         "lon": "11.578786",
+         "timestamp": ["1913-09-06", "1913-09-08"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bayerisches_Staatsschauspiel", 
+        "wikidata": "http://www.wikidata.org/entity/Q812446", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Albert von Speidel",
+
+         "p_id": "#12813"
+         }, 
+         {
+
+         "p_name": "Albert Steinrück",
+
+         "p_id": "#12837"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1913-09-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -487,6 +575,95 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.577181, 48.141422]
+      },
+      "properties": {
+         "id": "pmb253621",
+         "title": "Restaurant Preysing",
+         "lat": "48.141422",
+         "lon": "11.577181",
+         "timestamp": ["1913-09-07"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84638993932, 46.4979700243]
+      },
+      "properties": {
+         "id": "pmb252070",
+         "title": "Bahnhof St. Moritz",
+         "lat": "46.4979700243",
+         "lon": "9.84638993932",
+         "timestamp": ["1913-09-02", "1913-09-04"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_St._Moritz", 
+        "wikidata": "http://www.wikidata.org/entity/Q644577", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.842472222222222, 46.49755555555556]
+      },
+      "properties": {
+         "id": "pmb254904",
+         "title": "Grand Hotel St. Moritz",
+         "lat": "46.49755555555556",
+         "lon": "9.842472222222222",
+         "timestamp": ["1913-09-01", "1913-09-02", "1913-09-03", "1913-09-04"],
+         "importance": 4, 
+        "wikidata": "http://www.wikidata.org/entity/Q29785147", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.83333, 46.46667]
+      },
+      "properties": {
+         "id": "pmb52277",
+         "title": "St. Moritz-Bad",
+         "lat": "46.46667",
+         "lon": "9.83333",
+         "timestamp": ["1913-09-03"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658812/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8367298, 46.4949418]
+      },
+      "properties": {
+         "id": "pmb255007",
+         "title": "Hotel Bélvedère [St. Moritz]",
+         "lat": "46.4949418",
+         "lon": "9.8367298",
+         "timestamp": ["1913-09-01"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.81002, 46.47635]
       },
       "properties": {
@@ -505,6 +682,96 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.86619, 46.43775]
+      },
+      "properties": {
+         "id": "pmb255011",
+         "title": "Hotel Roseg-Gletscher",
+         "lat": "46.43775",
+         "lon": "9.86619",
+         "timestamp": ["1913-09-02"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111875228", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.89606998217, 46.4906499735]
+      },
+      "properties": {
+         "id": "pmb254898",
+         "title": "Bahnhof Pontresina",
+         "lat": "46.4906499735",
+         "lon": "9.89606998217",
+         "timestamp": ["1913-09-02"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q7228365", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84637, 46.4918]
+      },
+      "properties": {
+         "id": "pmb255018",
+         "title": "?? [Südseite des St. Moritzersees]",
+         "lat": "46.4918",
+         "lon": "9.84637",
+         "timestamp": ["1913-09-03"],
+         "importance": 1, 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.85641, 46.49482]
+      },
+      "properties": {
+         "id": "pmb255016",
+         "title": "?? [Ostseite des St. Moritzersees]",
+         "lat": "46.49482",
+         "lon": "9.85641",
+         "timestamp": ["1913-09-03"],
+         "importance": 1, 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.68431, 47.54612]
+      },
+      "properties": {
+         "id": "pmb986",
+         "title": "Lindau am Bodensee",
+         "lat": "47.54612",
+         "lon": "9.68431",
+         "timestamp": ["1913-09-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lindau_(Bodensee)", 
+        "wikidata": "http://www.wikidata.org/entity/Q153969", 
+        "geonames": "https://sws.geonames.org/2877550/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.5825, 48.1381]
       },
       "properties": {
@@ -512,11 +779,60 @@
          "title": "Kammerspiele München",
          "lat": "48.1381",
          "lon": "11.5825",
-         "timestamp": ["1913-09-06"],
-         "importance": 1, 
+         "timestamp": ["1913-09-05", "1913-09-06"],
+         "importance": 2, 
         "wikidata": "http://www.wikidata.org/entity/Q118397834", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.566312, 48.15844]
+      },
+      "properties": {
+         "id": "pmb92283",
+         "title": "Hiltensbergerstraße",
+         "lat": "48.15844",
+         "lon": "11.566312",
+         "timestamp": ["1913-09-07"],
+         "importance": 1
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.605489, 48.153817]
+      },
+      "properties": {
+         "id": "pmb255076",
+         "title": "Pienzenauerstraße 34",
+         "lat": "48.153817",
+         "lon": "11.605489",
+         "timestamp": ["1913-09-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.576881, 48.142913]
+      },
+      "properties": {
+         "id": "pmb255084",
+         "title": "Odeon-Casino",
+         "lat": "48.142913",
+         "lon": "11.576881",
+         "timestamp": ["1913-09-07"],
+         "importance": 1, 
+        "abbr": "Vergnügungseinrichtung", 
+        "type": "Vergnügungseinrichtung"
       }
       }, 
     {
@@ -536,6 +852,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q48665523", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.606331, 48.143334]
+      },
+      "properties": {
+         "id": "pmb255088",
+         "title": "Cuvilliésstraße 31",
+         "lat": "48.143334",
+         "lon": "11.606331",
+         "timestamp": ["1913-09-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {

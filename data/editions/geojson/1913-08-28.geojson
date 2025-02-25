@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.84327, 46.49937]
+            [9.842472222222222, 46.49755555555556], 
+            [9.849122, 46.497061], 
+            [9.90126, 46.4955], 
+            [9.8141665, 46.508487], 
+            [9.834813, 46.501738]
           ]
       },
       "properties": {
@@ -17,16 +21,85 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.84327, 46.49937]
+        "coordinates": [9.842472222222222, 46.49755555555556]
       },
       "properties": {
-         "id": "pmb44374",
-         "title": "Sankt Moritz",
-         "lat": "46.49937",
-         "lon": "9.84327",
+         "id": "pmb254904",
+         "title": "Grand Hotel St. Moritz",
+         "lat": "46.49755555555556",
+         "lon": "9.842472222222222",
          "timestamp": ["1913-08-28"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658813/", 
+        "wikidata": "http://www.wikidata.org/entity/Q29785147", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.849122, 46.497061]
+      },
+      "properties": {
+         "id": "pmb254978",
+         "title": "Hotel Waldhaus am See",
+         "lat": "46.497061",
+         "lon": "9.849122",
+         "timestamp": ["1913-08-28"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8141665, 46.508487]
+      },
+      "properties": {
+         "id": "pmb254981",
+         "title": "Alpina Hütte",
+         "lat": "46.508487",
+         "lon": "9.8141665",
+         "timestamp": ["1913-08-28"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.834813, 46.501738]
+      },
+      "properties": {
+         "id": "pmb254984",
+         "title": "Chantarella",
+         "lat": "46.501738",
+         "lon": "9.834813",
+         "timestamp": ["1913-08-28"],
+         "importance": 1, 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.90126, 46.4955]
+      },
+      "properties": {
+         "id": "pmb34946",
+         "title": "Pontresina",
+         "lat": "46.4955",
+         "lon": "9.90126",
+         "timestamp": ["1913-08-28"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659172/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }

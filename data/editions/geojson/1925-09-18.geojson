@@ -6,14 +6,34 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.3369089, 45.4324384], 
             [12.338208333333334, 45.433675], 
-            [12.336047, 45.435282]
+            [12.336047, 45.435282], 
+            [12.32768, 45.4378]
           ]
       },
       "properties": {
         "name": "18. September 1925"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.3369089, 45.4324384]
+      },
+      "properties": {
+         "id": "pmb255036",
+         "title": "Hotel Monaco Grand Canal",
+         "lat": "45.4324384",
+         "lon": "12.3369089",
+         "timestamp": ["1925-09-18"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q56256122", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -49,6 +69,30 @@
         "wikidata": "http://www.wikidata.org/entity/Q111412860", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32768, 45.4378]
+      },
+      "properties": {
+         "id": "pmb246656",
+         "title": "Casa Mahler",
+         "lat": "45.4378",
+         "lon": "12.32768",
+         "timestamp": ["1925-09-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
       }
       }
   ]

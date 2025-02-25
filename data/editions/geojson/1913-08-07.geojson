@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.76222, 44.91417]
+            [13.755483627265237, 44.90918380167548], 
+            [13.756694, 44.9109506], 
+            [13.727777777778, 44.910833333333]
           ]
       },
       "properties": {
@@ -17,18 +19,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.76222, 44.91417]
+        "coordinates": [13.756694, 44.9109506]
       },
       "properties": {
-         "id": "pmb45260",
-         "title": "Brijuni",
-         "lat": "44.91417",
-         "lon": "13.76222",
+         "id": "pmb254832",
+         "title": "Chiesa San Pietro",
+         "lat": "44.9109506",
+         "lon": "13.756694",
          "timestamp": ["1913-08-07"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3203301/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.755483627265237, 44.90918380167548]
+      },
+      "properties": {
+         "id": "pmb254835",
+         "title": "Byzantinische Festung",
+         "lat": "44.90918380167548",
+         "lon": "13.755483627265237",
+         "timestamp": ["1913-08-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q20526262", 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.727777777778, 44.910833333333]
+      },
+      "properties": {
+         "id": "pmb254829",
+         "title": "Vanga",
+         "lat": "44.910833333333",
+         "lon": "13.727777777778",
+         "timestamp": ["1913-08-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3510393", 
+        "geonames": "https://sws.geonames.org/3188387/", 
+        "abbr": "T.ISL", 
+        "type": "Insel"
       }
       }
   ]

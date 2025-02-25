@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.379829498031, 48.187455471378], 
+            [16.379685, 48.188208], 
             [16.3852, 48.18671], 
             [16.390833, 48.181944], 
+            [16.372194, 48.202111], 
             [16.33716, 48.23188]
           ]
       },
@@ -51,6 +54,61 @@
         "wikidata": "http://www.wikidata.org/entity/Q2256156", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372194, 48.202111]
+      },
+      "properties": {
+         "id": "pmb255",
+         "title": "Grand Hotel Wien",
+         "lat": "48.202111",
+         "lon": "16.372194",
+         "timestamp": ["1913-07-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grand_Hotel_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q1536160", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1913-07-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379685, 48.188208]
+      },
+      "properties": {
+         "id": "pmb187206",
+         "title": "Restauration »Am Südbahnhof«",
+         "lat": "48.188208",
+         "lon": "16.379685",
+         "timestamp": ["1913-07-19"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       },
     {

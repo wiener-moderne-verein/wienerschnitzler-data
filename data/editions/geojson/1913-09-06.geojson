@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [11.5825, 48.1381], 
+            [11.582478, 48.138122], 
+            [11.578786, 48.139944], 
             [11.569993, 48.143395]
           ]
       },
@@ -47,6 +49,55 @@
          "timestamp": ["1913-09-06"],
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q118397834", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.578786, 48.139944]
+      },
+      "properties": {
+         "id": "pmb9",
+         "title": "Königlich Bayerische Hoftheater",
+         "lat": "48.139944",
+         "lon": "11.578786",
+         "timestamp": ["1913-09-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bayerisches_Staatsschauspiel", 
+        "wikidata": "http://www.wikidata.org/entity/Q812446", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Albert von Speidel",
+
+         "p_id": "#12813"
+         }, 
+         {
+
+         "p_name": "Albert Steinrück",
+
+         "p_id": "#12837"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.582478, 48.138122]
+      },
+      "properties": {
+         "id": "pmb11",
+         "title": "Münchner Schauspielhaus",
+         "lat": "48.138122",
+         "lon": "11.582478",
+         "timestamp": ["1913-09-06"],
+         "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }

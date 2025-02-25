@@ -7,7 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [16.68861, 43.44472], 
-            [16.433333, 43.5], 
+            [16.88524500908165, 43.43092942824442], 
+            [16.5, 43.5], 
+            [16.435965, 43.508799], 
+            [16.438333333333, 43.508055555556], 
+            [16.3074, 43.53865], 
             [16.25167, 43.5125]
           ]
       },
@@ -19,20 +23,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.433333, 43.5]
+        "coordinates": [16.435965, 43.508799]
       },
       "properties": {
-         "id": "pmb4231",
-         "title": "Split",
-         "lat": "43.5",
-         "lon": "16.433333",
+         "id": "pmb254861",
+         "title": "Hotel Bellevue [Split]",
+         "lat": "43.508799",
+         "lon": "16.435965",
          "timestamp": ["1913-08-15"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Split", 
-        "wikidata": "http://www.wikidata.org/entity/Q1663", 
-        "geonames": "https://sws.geonames.org/3190261/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.438333333333, 43.508055555556]
+      },
+      "properties": {
+         "id": "pmb235057",
+         "title": "Diokletianspalast",
+         "lat": "43.508055555556",
+         "lon": "16.438333333333",
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Diokletianspalast", 
+        "wikidata": "http://www.wikidata.org/entity/Q322287", 
+        "abbr": "S.PAL", 
+        "type": "Palast"
       }
       },
     {
@@ -48,7 +68,9 @@
          "lon": "16.68861",
          "timestamp": ["1913-08-15"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3194114/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Omi%C5%A1", 
+        "wikidata": "http://www.wikidata.org/entity/Q397600", 
+        "geonames": "https://sws.geonames.org/3194113/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
       }
@@ -66,9 +88,69 @@
          "lon": "16.25167",
          "timestamp": ["1913-08-15"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3188763/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Trogir", 
+        "wikidata": "http://www.wikidata.org/entity/Q189161", 
+        "geonames": "https://sws.geonames.org/3188762/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.88524500908165, 43.43092942824442]
+      },
+      "properties": {
+         "id": "pmb254843",
+         "title": "Wasserkraftwerk Kraljevac",
+         "lat": "43.43092942824442",
+         "lon": "16.88524500908165",
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q12632257", 
+        "abbr": "Infrastrukturgebäude (K.INF)", 
+        "type": "Infrastrukturgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.5, 43.5]
+      },
+      "properties": {
+         "id": "pmb453",
+         "title": "Solin",
+         "lat": "43.5",
+         "lon": "16.5",
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salona", 
+        "wikidata": "http://www.wikidata.org/entity/Q642828", 
+        "geonames": "https://sws.geonames.org/8134005/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3074, 43.53865]
+      },
+      "properties": {
+         "id": "pmb91737",
+         "title": "Kaštela",
+         "lat": "43.53865",
+         "lon": "16.3074",
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ka%C5%A1tela", 
+        "wikidata": "http://www.wikidata.org/entity/Q396579", 
+        "geonames": "https://sws.geonames.org/11054606/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

@@ -7,7 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [9.81002, 46.47635], 
-            [9.84327, 46.49937]
+            [9.86619, 46.43775], 
+            [9.89606998217, 46.4906499735], 
+            [9.84638993932, 46.4979700243], 
+            [9.842472222222222, 46.49755555555556]
           ]
       },
       "properties": {
@@ -18,18 +21,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.84327, 46.49937]
+        "coordinates": [9.842472222222222, 46.49755555555556]
       },
       "properties": {
-         "id": "pmb44374",
-         "title": "Sankt Moritz",
-         "lat": "46.49937",
-         "lon": "9.84327",
+         "id": "pmb254904",
+         "title": "Grand Hotel St. Moritz",
+         "lat": "46.49755555555556",
+         "lon": "9.842472222222222",
          "timestamp": ["1913-09-02"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658813/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q29785147", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84638993932, 46.4979700243]
+      },
+      "properties": {
+         "id": "pmb252070",
+         "title": "Bahnhof St. Moritz",
+         "lat": "46.4979700243",
+         "lon": "9.84638993932",
+         "timestamp": ["1913-09-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_St._Moritz", 
+        "wikidata": "http://www.wikidata.org/entity/Q644577", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {
@@ -48,6 +70,42 @@
         "geonames": "https://sws.geonames.org/2661278/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.86619, 46.43775]
+      },
+      "properties": {
+         "id": "pmb255011",
+         "title": "Hotel Roseg-Gletscher",
+         "lat": "46.43775",
+         "lon": "9.86619",
+         "timestamp": ["1913-09-02"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111875228", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.89606998217, 46.4906499735]
+      },
+      "properties": {
+         "id": "pmb254898",
+         "title": "Bahnhof Pontresina",
+         "lat": "46.4906499735",
+         "lon": "9.89606998217",
+         "timestamp": ["1913-09-02"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q7228365", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

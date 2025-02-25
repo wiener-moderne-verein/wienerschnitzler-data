@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.695937, 46.401497], 
-            [9.84327, 46.49937]
+            [9.699499541268919, 46.40624118391372], 
+            [9.698351458246492, 46.401552510769385], 
+            [9.7333333333333, 46.416666666667], 
+            [9.77504, 46.41603], 
+            [9.842472222222222, 46.49755555555556]
           ]
       },
       "properties": {
@@ -18,36 +21,102 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.84327, 46.49937]
+        "coordinates": [9.842472222222222, 46.49755555555556]
       },
       "properties": {
-         "id": "pmb44374",
-         "title": "Sankt Moritz",
-         "lat": "46.49937",
-         "lon": "9.84327",
+         "id": "pmb254904",
+         "title": "Grand Hotel St. Moritz",
+         "lat": "46.49755555555556",
+         "lon": "9.842472222222222",
          "timestamp": ["1913-08-27"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658813/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q29785147", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.695937, 46.401497]
+        "coordinates": [9.698351458246492, 46.401552510769385]
       },
       "properties": {
-         "id": "pmb34108",
-         "title": "Maloja",
-         "lat": "46.401497",
-         "lon": "9.695937",
+         "id": "pmb254913",
+         "title": "Friedhof Maloja",
+         "lat": "46.401552510769385",
+         "lon": "9.698351458246492",
          "timestamp": ["1913-08-27"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/11611658/", 
-        "abbr": "A.ADM2", 
+        "wikidata": "http://www.wikidata.org/entity/Q132725334", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.699499541268919, 46.40624118391372]
+      },
+      "properties": {
+         "id": "pmb55166",
+         "title": "Maloja Palace",
+         "lat": "46.40624118391372",
+         "lon": "9.699499541268919",
+         "timestamp": ["1913-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Maloja_Palace", 
+        "wikidata": "http://www.wikidata.org/entity/Q1887665", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hugo Schlagenhauff",
+
+         "p_id": "#55168"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.77504, 46.41603]
+      },
+      "properties": {
+         "id": "pmb40516",
+         "title": "Sils im Engadin/Segl",
+         "lat": "46.41603",
+         "lon": "9.77504",
+         "timestamp": ["1913-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sils_im_Engadin/Segl", 
+        "wikidata": "http://www.wikidata.org/entity/Q64200", 
+        "geonames": "https://sws.geonames.org/2658589/ https://sws.geonames.org/2658641/", 
+        "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.7333333333333, 46.416666666667]
+      },
+      "properties": {
+         "id": "pmb254922",
+         "title": "Lej da Segl",
+         "lat": "46.416666666667",
+         "lon": "9.7333333333333",
+         "timestamp": ["1913-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Silsersee", 
+        "wikidata": "http://www.wikidata.org/entity/Q14512", 
+        "geonames": "https://sws.geonames.org/2658591/", 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       }
   ]

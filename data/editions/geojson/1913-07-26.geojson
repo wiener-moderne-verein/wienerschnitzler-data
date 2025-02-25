@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.75724547045601, 44.90923903889004], 
+            [13.772247, 44.904816], 
             [13.777231, 44.916187], 
-            [13.775427, 44.917059]
+            [13.775427, 44.917059], 
+            [13.753885, 44.920099]
           ]
       },
       "properties": {
@@ -46,6 +49,57 @@
          "importance": 1, 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.75724547045601, 44.90923903889004]
+      },
+      "properties": {
+         "id": "pmb52314",
+         "title": "Val Madonna",
+         "lat": "44.90923903889004",
+         "lon": "13.75724547045601",
+         "timestamp": ["1913-07-26"],
+         "importance": 1, 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.753885, 44.920099]
+      },
+      "properties": {
+         "id": "pmb254798",
+         "title": "Monte Torre",
+         "lat": "44.920099",
+         "lon": "13.753885",
+         "timestamp": ["1913-07-26"],
+         "importance": 1, 
+        "abbr": "Anhöhe", 
+        "type": "Anhöhe"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.772247, 44.904816]
+      },
+      "properties": {
+         "id": "pmb254793",
+         "title": "Villa [Zuckerkandl]",
+         "lat": "44.904816",
+         "lon": "13.772247",
+         "timestamp": ["1913-07-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.2507, 48.09033], 
+            [16.369937, 48.20443], 
             [16.369506, 48.208876], 
             [16.33716, 48.23188]
           ]
@@ -30,6 +32,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q131413963", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369937, 48.20443]
+      },
+      "properties": {
+         "id": "pmb254754",
+         "title": "Restaurant Kärntnerhof (Johann Rode)",
+         "lat": "48.20443",
+         "lon": "16.369937",
+         "timestamp": ["1913-07-15"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       },
     {
@@ -102,6 +121,31 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2507, 48.09033]
+      },
+      "properties": {
+         "id": "pmb40512",
+         "title": "Cur- und Wasserheilanstalt Hinterbrühl",
+         "lat": "48.09033",
+         "lon": "16.2507",
+         "timestamp": ["1913-07-15"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://regiowiki.at/wiki/Paulinenhof", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Isidor Samuely",
+
+         "p_id": "#23947"
          }]
       }
       }

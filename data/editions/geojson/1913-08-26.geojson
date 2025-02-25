@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.84327, 46.49937]
+            [9.83333, 46.46667], 
+            [10.019722, 46.408889], 
+            [9.842472222222222, 46.49755555555556], 
+            [9.837956, 46.497475], 
+            [9.8198988, 46.4845937]
           ]
       },
       "properties": {
@@ -17,18 +21,89 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.84327, 46.49937]
+        "coordinates": [10.019722, 46.408889]
       },
       "properties": {
-         "id": "pmb44374",
-         "title": "Sankt Moritz",
-         "lat": "46.49937",
-         "lon": "9.84327",
+         "id": "pmb254486",
+         "title": "Berninabahn",
+         "lat": "46.408889",
+         "lon": "10.019722",
          "timestamp": ["1913-08-26"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658813/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berninabahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q277177", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.842472222222222, 46.49755555555556]
+      },
+      "properties": {
+         "id": "pmb254904",
+         "title": "Grand Hotel St. Moritz",
+         "lat": "46.49755555555556",
+         "lon": "9.842472222222222",
+         "timestamp": ["1913-08-26"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q29785147", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8198988, 46.4845937]
+      },
+      "properties": {
+         "id": "pmb92754",
+         "title": "Hotel Suvretta",
+         "lat": "46.4845937",
+         "lon": "9.8198988",
+         "timestamp": ["1913-08-26"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.83333, 46.46667]
+      },
+      "properties": {
+         "id": "pmb52277",
+         "title": "St. Moritz-Bad",
+         "lat": "46.46667",
+         "lon": "9.83333",
+         "timestamp": ["1913-08-26"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658812/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.837956, 46.497475]
+      },
+      "properties": {
+         "id": "pmb254910",
+         "title": "Hotel des Voyageurs et Grand Restaurant Philipp",
+         "lat": "46.497475",
+         "lon": "9.837956",
+         "timestamp": ["1913-08-26"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

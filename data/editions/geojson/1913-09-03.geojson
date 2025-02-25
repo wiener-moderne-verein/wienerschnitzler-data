@@ -7,7 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [9.81002, 46.47635], 
-            [9.84327, 46.49937]
+            [9.83333, 46.46667], 
+            [9.85641, 46.49482], 
+            [9.84637, 46.4918], 
+            [9.842472222222222, 46.49755555555556]
           ]
       },
       "properties": {
@@ -18,16 +21,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.84327, 46.49937]
+        "coordinates": [9.842472222222222, 46.49755555555556]
       },
       "properties": {
-         "id": "pmb44374",
-         "title": "Sankt Moritz",
-         "lat": "46.49937",
-         "lon": "9.84327",
+         "id": "pmb254904",
+         "title": "Grand Hotel St. Moritz",
+         "lat": "46.49755555555556",
+         "lon": "9.842472222222222",
          "timestamp": ["1913-09-03"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658813/", 
+        "wikidata": "http://www.wikidata.org/entity/Q29785147", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.83333, 46.46667]
+      },
+      "properties": {
+         "id": "pmb52277",
+         "title": "St. Moritz-Bad",
+         "lat": "46.46667",
+         "lon": "9.83333",
+         "timestamp": ["1913-09-03"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658812/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -48,6 +69,40 @@
         "geonames": "https://sws.geonames.org/2661278/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84637, 46.4918]
+      },
+      "properties": {
+         "id": "pmb255018",
+         "title": "?? [Südseite des St. Moritzersees]",
+         "lat": "46.4918",
+         "lon": "9.84637",
+         "timestamp": ["1913-09-03"],
+         "importance": 1, 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.85641, 46.49482]
+      },
+      "properties": {
+         "id": "pmb255016",
+         "title": "?? [Ostseite des St. Moritzersees]",
+         "lat": "46.49482",
+         "lon": "9.85641",
+         "timestamp": ["1913-09-03"],
+         "importance": 1, 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
       }
       }
   ]

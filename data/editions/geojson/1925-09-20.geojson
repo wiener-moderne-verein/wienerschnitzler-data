@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [12.33265, 45.43713]
+            [12.3369089, 45.4324384], 
+            [12.32024, 45.44143]
           ]
       },
       "properties": {
@@ -17,20 +18,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.33265, 45.43713]
+        "coordinates": [12.3369089, 45.4324384]
       },
       "properties": {
-         "id": "pmb462",
-         "title": "Venedig",
-         "lat": "45.43713",
-         "lon": "12.33265",
+         "id": "pmb255036",
+         "title": "Hotel Monaco Grand Canal",
+         "lat": "45.4324384",
+         "lon": "12.3369089",
          "timestamp": ["1925-09-20"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Venedig", 
-        "wikidata": "http://www.wikidata.org/entity/Q641", 
-        "geonames": "https://sws.geonames.org/3164603/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q56256122", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32024, 45.44143]
+      },
+      "properties": {
+         "id": "pmb850",
+         "title": "Stazione di Venezia Santa Lucia",
+         "lat": "45.44143",
+         "lon": "12.32024",
+         "timestamp": ["1925-09-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Venezia_Santa_Lucia", 
+        "wikidata": "http://www.wikidata.org/entity/Q801567", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

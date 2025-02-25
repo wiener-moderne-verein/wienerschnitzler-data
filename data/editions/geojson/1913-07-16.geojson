@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.369937, 48.20443], 
             [16.370766, 48.208037], 
             [16.33716, 48.23188]
           ]
@@ -14,23 +15,6 @@
         "name": "16. Juli 1913"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.370766, 48.208037]
-      },
-      "properties": {
-         "id": "pmb236271",
-         "title": "E. Braun & Co., Hof-Wäschelieferant",
-         "lat": "48.208037",
-         "lon": "16.370766",
-         "timestamp": ["1913-07-16"],
-         "importance": 1, 
-        "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -102,6 +86,40 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370766, 48.208037]
+      },
+      "properties": {
+         "id": "pmb236271",
+         "title": "E. Braun & Co., Hof-Wäschelieferant",
+         "lat": "48.208037",
+         "lon": "16.370766",
+         "timestamp": ["1913-07-16"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369937, 48.20443]
+      },
+      "properties": {
+         "id": "pmb254754",
+         "title": "Restaurant Kärntnerhof (Johann Rode)",
+         "lat": "48.20443",
+         "lon": "16.369937",
+         "timestamp": ["1913-07-16"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

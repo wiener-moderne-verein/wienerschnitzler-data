@@ -7,8 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [8.94439, 44.40478], 
-            [10.17478, 43.96388], 
-            [9.18951, 45.46427]
+            [10.233333, 43.866667], 
+            [10.173758622210785, 43.95291802957647], 
+            [9.203988, 45.485658]
           ]
       },
       "properties": {
@@ -19,20 +20,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.18951, 45.46427]
+        "coordinates": [9.203988, 45.485658]
       },
       "properties": {
-         "id": "pmb886",
-         "title": "Mailand",
-         "lat": "45.46427",
-         "lon": "9.18951",
+         "id": "pmb254937",
+         "title": "Bahnhof Milano Centrale",
+         "lat": "45.485658",
+         "lon": "9.203988",
          "timestamp": ["1925-09-08"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Mailand", 
-        "wikidata": "http://www.wikidata.org/entity/Q490", 
-        "geonames": "https://sws.geonames.org/3173435/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Milano_Centrale", 
+        "wikidata": "http://www.wikidata.org/entity/Q801193", 
+        "geonames": "https://sws.geonames.org/3173433/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {
@@ -59,16 +60,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.17478, 43.96388]
+        "coordinates": [10.173758622210785, 43.95291802957647]
       },
       "properties": {
-         "id": "pmb44248",
-         "title": "Forte dei Marmi",
-         "lat": "43.96388",
-         "lon": "10.17478",
+         "id": "pmb52716",
+         "title": "Grand Hotel Forte dei Marmi",
+         "lat": "43.95291802957647",
+         "lon": "10.173758622210785",
          "timestamp": ["1925-09-08"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3176674/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.233333, 43.866667]
+      },
+      "properties": {
+         "id": "pmb1174",
+         "title": "Viareggio",
+         "lat": "43.866667",
+         "lon": "10.233333",
+         "timestamp": ["1925-09-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Viareggio", 
+        "wikidata": "http://www.wikidata.org/entity/Q221377", 
+        "geonames": "https://sws.geonames.org/3164433/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
       }

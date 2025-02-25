@@ -6,7 +6,6 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [10.16335, 46.21482], 
             [10.019722, 46.408889], 
             [9.85759, 46.512179]
           ]
@@ -15,41 +14,6 @@
         "name": "18. August 1925"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.16335, 46.21482]
-      },
-      "properties": {
-         "id": "pmb90129",
-         "title": "Tirano",
-         "lat": "46.21482",
-         "lon": "10.16335",
-         "timestamp": ["1925-08-18"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/3165647/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [9.85759, 46.512179]
-      },
-      "properties": {
-         "id": "pmb1138",
-         "title": "Cresta Palace",
-         "lat": "46.512179",
-         "lon": "9.85759",
-         "timestamp": ["1925-08-18"],
-         "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -67,6 +31,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q277177", 
         "abbr": "Bahn", 
         "type": "Bahn"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.85759, 46.512179]
+      },
+      "properties": {
+         "id": "pmb1138",
+         "title": "Cresta Palace",
+         "lat": "46.512179",
+         "lon": "9.85759",
+         "timestamp": ["1925-08-18"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

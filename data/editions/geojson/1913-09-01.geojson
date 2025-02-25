@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.84327, 46.49937]
+            [9.8367298, 46.4949418], 
+            [9.842472222222222, 46.49755555555556]
           ]
       },
       "properties": {
@@ -17,18 +18,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.84327, 46.49937]
+        "coordinates": [9.842472222222222, 46.49755555555556]
       },
       "properties": {
-         "id": "pmb44374",
-         "title": "Sankt Moritz",
-         "lat": "46.49937",
-         "lon": "9.84327",
+         "id": "pmb254904",
+         "title": "Grand Hotel St. Moritz",
+         "lat": "46.49755555555556",
+         "lon": "9.842472222222222",
          "timestamp": ["1913-09-01"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658813/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q29785147", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8367298, 46.4949418]
+      },
+      "properties": {
+         "id": "pmb255007",
+         "title": "Hotel Bélvedère [St. Moritz]",
+         "lat": "46.4949418",
+         "lon": "9.8367298",
+         "timestamp": ["1913-09-01"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.5825, 48.1381], 
             [11.578786, 48.139944], 
             [11.569993, 48.143395]
           ]
@@ -46,6 +47,24 @@
          "lon": "11.578786",
          "timestamp": ["1913-09-05"],
          "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5825, 48.1381]
+      },
+      "properties": {
+         "id": "pmb185933",
+         "title": "Kammerspiele München",
+         "lat": "48.1381",
+         "lon": "11.5825",
+         "timestamp": ["1913-09-05"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q118397834", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }

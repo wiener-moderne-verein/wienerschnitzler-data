@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.84327, 46.49937]
+            [9.749445, 46.428506], 
+            [9.762229, 46.429679], 
+            [9.76125, 46.4283], 
+            [9.764, 46.413], 
+            [9.842472222222222, 46.49755555555556]
           ]
       },
       "properties": {
@@ -17,18 +21,92 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.84327, 46.49937]
+        "coordinates": [9.842472222222222, 46.49755555555556]
       },
       "properties": {
-         "id": "pmb44374",
-         "title": "Sankt Moritz",
-         "lat": "46.49937",
-         "lon": "9.84327",
+         "id": "pmb254904",
+         "title": "Grand Hotel St. Moritz",
+         "lat": "46.49755555555556",
+         "lon": "9.842472222222222",
          "timestamp": ["1913-08-31"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658813/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q29785147", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.762229, 46.429679]
+      },
+      "properties": {
+         "id": "pmb36406",
+         "title": "Hotel Alpenrose [Sils]",
+         "lat": "46.429679",
+         "lon": "9.762229",
+         "timestamp": ["1913-08-31"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.764, 46.413]
+      },
+      "properties": {
+         "id": "pmb254998",
+         "title": "Val Fex",
+         "lat": "46.413",
+         "lon": "9.764",
+         "timestamp": ["1913-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Fextal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1410267", 
+        "geonames": "https://sws.geonames.org/11219388/", 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.76125, 46.4283]
+      },
+      "properties": {
+         "id": "pmb255001",
+         "title": "Hotel Waldhaus [Sils]",
+         "lat": "46.4283",
+         "lon": "9.76125",
+         "timestamp": ["1913-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Waldhaus_(Sils)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1631066", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.749445, 46.428506]
+      },
+      "properties": {
+         "id": "pmb92188",
+         "title": "Chastè",
+         "lat": "46.428506",
+         "lon": "9.749445",
+         "timestamp": ["1913-08-31"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q108093893", 
+        "abbr": "Halbinsel (N.HIN)", 
+        "type": ""
       }
       }
   ]

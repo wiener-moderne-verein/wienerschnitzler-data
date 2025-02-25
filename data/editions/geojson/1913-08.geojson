@@ -5,11 +5,29 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.90126, 46.4955]
+      },
+      "properties": {
+         "id": "pmb34946",
+         "title": "Pontresina",
+         "lat": "46.4955",
+         "lon": "9.90126",
+         "timestamp": ["1913-08-28"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659172/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.84327, 46.49937]
       },
       "properties": {
          "id": "pmb44374",
-         "title": "Sankt Moritz",
+         "title": "St. Moritz",
          "lat": "46.49937",
          "lon": "9.84327",
          "timestamp": ["1913-08-26", "1913-08-27", "1913-08-28", "1913-08-29", "1913-08-30", "1913-08-31"],
@@ -37,6 +55,26 @@
         "geonames": "https://sws.geonames.org/2659576/", 
         "abbr": "H.GLCR", 
         "type": "Gletscher"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.18951, 45.46427]
+      },
+      "properties": {
+         "id": "pmb886",
+         "title": "Mailand",
+         "lat": "45.46427",
+         "lon": "9.18951",
+         "timestamp": ["1913-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mailand", 
+        "wikidata": "http://www.wikidata.org/entity/Q490", 
+        "geonames": "https://sws.geonames.org/3173435/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -101,6 +139,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.84806, 44.86833]
+      },
+      "properties": {
+         "id": "pmb851",
+         "title": "Pula",
+         "lat": "44.86833",
+         "lon": "13.84806",
+         "timestamp": ["1913-08-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Pula", 
+        "wikidata": "http://www.wikidata.org/entity/Q4656", 
+        "geonames": "https://sws.geonames.org/3192224/", 
+        "abbr": "P.PPLA2", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.433333, 43.5]
       },
       "properties": {
@@ -108,13 +166,52 @@
          "title": "Split",
          "lat": "43.5",
          "lon": "16.433333",
-         "timestamp": ["1913-08-14", "1913-08-15"],
-         "importance": 2, 
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Split", 
         "wikidata": "http://www.wikidata.org/entity/Q1663", 
         "geonames": "https://sws.geonames.org/3190261/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.5, 43.5]
+      },
+      "properties": {
+         "id": "pmb453",
+         "title": "Solin",
+         "lat": "43.5",
+         "lon": "16.5",
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salona", 
+        "wikidata": "http://www.wikidata.org/entity/Q642828", 
+        "geonames": "https://sws.geonames.org/8134005/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.438333333333, 43.508055555556]
+      },
+      "properties": {
+         "id": "pmb235057",
+         "title": "Diokletianspalast",
+         "lat": "43.508055555556",
+         "lon": "16.438333333333",
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Diokletianspalast", 
+        "wikidata": "http://www.wikidata.org/entity/Q322287", 
+        "abbr": "S.PAL", 
+        "type": "Palast"
       }
       }, 
     {
@@ -157,6 +254,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.32024, 45.44143]
+      },
+      "properties": {
+         "id": "pmb850",
+         "title": "Stazione di Venezia Santa Lucia",
+         "lat": "45.44143",
+         "lon": "12.32024",
+         "timestamp": ["1913-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Venezia_Santa_Lucia", 
+        "wikidata": "http://www.wikidata.org/entity/Q801567", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.77306267974912, 44.91065488125191]
       },
       "properties": {
@@ -183,6 +299,41 @@
          "lon": "13.769963",
          "timestamp": ["1913-08-11"],
          "importance": 1, 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.75302, 44.88762]
+      },
+      "properties": {
+         "id": "pmb91445",
+         "title": "Kap Peneda",
+         "lat": "44.88762",
+         "lon": "13.75302",
+         "timestamp": ["1913-08-03", "1913-08-12"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/3193350/", 
+        "abbr": "T.PT", 
+        "type": "Landzunge"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.75692, 44.91755]
+      },
+      "properties": {
+         "id": "pmb254866",
+         "title": "Monte Paradiso",
+         "lat": "44.91755",
+         "lon": "13.75692",
+         "timestamp": ["1913-08-18", "1913-08-19"],
+         "importance": 2, 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"
       }
@@ -226,6 +377,130 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.8475, 44.8798]
+      },
+      "properties": {
+         "id": "pmb254790",
+         "title": "Bahnhof Pula",
+         "lat": "44.8798",
+         "lon": "13.8475",
+         "timestamp": ["1913-08-22"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3446718", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.772247, 44.904816]
+      },
+      "properties": {
+         "id": "pmb254793",
+         "title": "Villa [Zuckerkandl]",
+         "lat": "44.904816",
+         "lon": "13.772247",
+         "timestamp": ["1913-08-02", "1913-08-05", "1913-08-06", "1913-08-12", "1913-08-18", "1913-08-20"],
+         "importance": 6, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.772489, 44.904672]
+      },
+      "properties": {
+         "id": "pmb254805",
+         "title": "Punta Naso",
+         "lat": "44.904672",
+         "lon": "13.772489",
+         "timestamp": ["1913-08-02", "1913-08-05", "1913-08-06", "1913-08-12"],
+         "importance": 4, 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.737598, 44.925436]
+      },
+      "properties": {
+         "id": "pmb92157",
+         "title": "Rt Vrbanj",
+         "lat": "44.925436",
+         "lon": "13.737598",
+         "timestamp": ["1913-08-02", "1913-08-10"],
+         "importance": 2, 
+        "geonames": "https://www.geonames.org/12534897/", 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.727777777778, 44.910833333333]
+      },
+      "properties": {
+         "id": "pmb254829",
+         "title": "Vanga",
+         "lat": "44.910833333333",
+         "lon": "13.727777777778",
+         "timestamp": ["1913-08-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3510393", 
+        "geonames": "https://sws.geonames.org/3188387/", 
+        "abbr": "T.ISL", 
+        "type": "Insel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.756694, 44.9109506]
+      },
+      "properties": {
+         "id": "pmb254832",
+         "title": "Chiesa San Pietro",
+         "lat": "44.9109506",
+         "lon": "13.756694",
+         "timestamp": ["1913-08-07"],
+         "importance": 1, 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.755483627265237, 44.90918380167548]
+      },
+      "properties": {
+         "id": "pmb254835",
+         "title": "Byzantinische Festung",
+         "lat": "44.90918380167548",
+         "lon": "13.755483627265237",
+         "timestamp": ["1913-08-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q20526262", 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.68861, 43.44472]
       },
       "properties": {
@@ -235,7 +510,9 @@
          "lon": "16.68861",
          "timestamp": ["1913-08-15"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3194114/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Omi%C5%A1", 
+        "wikidata": "http://www.wikidata.org/entity/Q397600", 
+        "geonames": "https://sws.geonames.org/3194113/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
       }
@@ -253,9 +530,84 @@
          "lon": "16.25167",
          "timestamp": ["1913-08-15"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3188763/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Trogir", 
+        "wikidata": "http://www.wikidata.org/entity/Q189161", 
+        "geonames": "https://sws.geonames.org/3188762/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.88972, 43.43139]
+      },
+      "properties": {
+         "id": "pmb90554",
+         "title": "Zadvarje",
+         "lat": "43.43139",
+         "lon": "16.88972",
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3186943/", 
+        "abbr": "P.PPLA2", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.88524500908165, 43.43092942824442]
+      },
+      "properties": {
+         "id": "pmb254843",
+         "title": "Wasserkraftwerk Kraljevac",
+         "lat": "43.43092942824442",
+         "lon": "16.88524500908165",
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q12632257", 
+        "abbr": "Infrastrukturgebäude (K.INF)", 
+        "type": "Infrastrukturgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3074, 43.53865]
+      },
+      "properties": {
+         "id": "pmb91737",
+         "title": "Kaštela",
+         "lat": "43.53865",
+         "lon": "16.3074",
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ka%C5%A1tela", 
+        "wikidata": "http://www.wikidata.org/entity/Q396579", 
+        "geonames": "https://sws.geonames.org/11054606/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.435965, 43.508799]
+      },
+      "properties": {
+         "id": "pmb254861",
+         "title": "Hotel Bellevue [Split]",
+         "lat": "43.508799",
+         "lon": "16.435965",
+         "timestamp": ["1913-08-15"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -281,6 +633,209 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.34383, 45.42942]
+      },
+      "properties": {
+         "id": "pmb51734",
+         "title": "San Giorgio Maggiore",
+         "lat": "45.42942",
+         "lon": "12.34383",
+         "timestamp": ["1913-08-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/San_Giorgio_Maggiore", 
+        "wikidata": "http://www.wikidata.org/entity/Q126327", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.32649, 45.43693]
+      },
+      "properties": {
+         "id": "pmb248606",
+         "title": "Santa Maria Gloriosa dei Frari",
+         "lat": "45.43693",
+         "lon": "12.32649",
+         "timestamp": ["1913-08-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Santa_Maria_Gloriosa_dei_Frari", 
+        "wikidata": "http://www.wikidata.org/entity/Q224961", 
+        "geonames": "https://sws.geonames.org/7910509/", 
+        "abbr": "S.CH", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.325309, 45.436571]
+      },
+      "properties": {
+         "id": "pmb248609",
+         "title": "Scuola Grande di San Rocco",
+         "lat": "45.436571",
+         "lon": "12.325309",
+         "timestamp": ["1913-08-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Scuola_Grande_di_San_Rocco", 
+        "wikidata": "http://www.wikidata.org/entity/Q1270723", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.16335, 46.21482]
+      },
+      "properties": {
+         "id": "pmb90129",
+         "title": "Tirano",
+         "lat": "46.21482",
+         "lon": "10.16335",
+         "timestamp": ["1913-08-25", "1913-08-26"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/3165647/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.019722, 46.408889]
+      },
+      "properties": {
+         "id": "pmb254486",
+         "title": "Berninabahn",
+         "lat": "46.408889",
+         "lon": "10.019722",
+         "timestamp": ["1913-08-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berninabahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q277177", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84638993932, 46.4979700243]
+      },
+      "properties": {
+         "id": "pmb252070",
+         "title": "Bahnhof St. Moritz",
+         "lat": "46.4979700243",
+         "lon": "9.84638993932",
+         "timestamp": ["1913-08-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_St._Moritz", 
+        "wikidata": "http://www.wikidata.org/entity/Q644577", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1669, 46.2156]
+      },
+      "properties": {
+         "id": "pmb254891",
+         "title": "Bahnhof Tirano",
+         "lat": "46.2156",
+         "lon": "10.1669",
+         "timestamp": ["1913-08-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Tirano", 
+        "wikidata": "http://www.wikidata.org/entity/Q3971118", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.842472222222222, 46.49755555555556]
+      },
+      "properties": {
+         "id": "pmb254904",
+         "title": "Grand Hotel St. Moritz",
+         "lat": "46.49755555555556",
+         "lon": "9.842472222222222",
+         "timestamp": ["1913-08-26", "1913-08-27", "1913-08-28", "1913-08-29", "1913-08-30", "1913-08-31"],
+         "importance": 6, 
+        "wikidata": "http://www.wikidata.org/entity/Q29785147", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8198988, 46.4845937]
+      },
+      "properties": {
+         "id": "pmb92754",
+         "title": "Hotel Suvretta",
+         "lat": "46.4845937",
+         "lon": "9.8198988",
+         "timestamp": ["1913-08-26"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.83333, 46.46667]
+      },
+      "properties": {
+         "id": "pmb52277",
+         "title": "St. Moritz-Bad",
+         "lat": "46.46667",
+         "lon": "9.83333",
+         "timestamp": ["1913-08-26"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658812/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.837956, 46.497475]
+      },
+      "properties": {
+         "id": "pmb254910",
+         "title": "Hotel des Voyageurs et Grand Restaurant Philipp",
+         "lat": "46.497475",
+         "lon": "9.837956",
+         "timestamp": ["1913-08-26"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.695937, 46.401497]
       },
       "properties": {
@@ -293,6 +848,254 @@
         "geonames": "https://sws.geonames.org/11611658/", 
         "abbr": "A.ADM2", 
         "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.698351458246492, 46.401552510769385]
+      },
+      "properties": {
+         "id": "pmb254913",
+         "title": "Friedhof Maloja",
+         "lat": "46.401552510769385",
+         "lon": "9.698351458246492",
+         "timestamp": ["1913-08-27"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q132725334", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.699499541268919, 46.40624118391372]
+      },
+      "properties": {
+         "id": "pmb55166",
+         "title": "Maloja Palace",
+         "lat": "46.40624118391372",
+         "lon": "9.699499541268919",
+         "timestamp": ["1913-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Maloja_Palace", 
+        "wikidata": "http://www.wikidata.org/entity/Q1887665", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hugo Schlagenhauff",
+
+         "p_id": "#55168"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.77504, 46.41603]
+      },
+      "properties": {
+         "id": "pmb40516",
+         "title": "Sils im Engadin/Segl",
+         "lat": "46.41603",
+         "lon": "9.77504",
+         "timestamp": ["1913-08-27", "1913-08-31"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sils_im_Engadin/Segl", 
+        "wikidata": "http://www.wikidata.org/entity/Q64200", 
+        "geonames": "https://sws.geonames.org/2658589/ https://sws.geonames.org/2658641/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.7333333333333, 46.416666666667]
+      },
+      "properties": {
+         "id": "pmb254922",
+         "title": "Lej da Segl",
+         "lat": "46.416666666667",
+         "lon": "9.7333333333333",
+         "timestamp": ["1913-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Silsersee", 
+        "wikidata": "http://www.wikidata.org/entity/Q14512", 
+        "geonames": "https://sws.geonames.org/2658591/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.849122, 46.497061]
+      },
+      "properties": {
+         "id": "pmb254978",
+         "title": "Hotel Waldhaus am See",
+         "lat": "46.497061",
+         "lon": "9.849122",
+         "timestamp": ["1913-08-28"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8141665, 46.508487]
+      },
+      "properties": {
+         "id": "pmb254981",
+         "title": "Alpina Hütte",
+         "lat": "46.508487",
+         "lon": "9.8141665",
+         "timestamp": ["1913-08-28"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.834813, 46.501738]
+      },
+      "properties": {
+         "id": "pmb254984",
+         "title": "Chantarella",
+         "lat": "46.501738",
+         "lon": "9.834813",
+         "timestamp": ["1913-08-28"],
+         "importance": 1, 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9013888888889, 46.493611111111]
+      },
+      "properties": {
+         "id": "pmb254988",
+         "title": "Grand Hotel Kronenhof",
+         "lat": "46.493611111111",
+         "lon": "9.9013888888889",
+         "timestamp": ["1913-08-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grand_Hotel_Kronenhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q1542593", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8622, 46.5146]
+      },
+      "properties": {
+         "id": "pmb12589",
+         "title": "Celerina",
+         "lat": "46.5146",
+         "lon": "9.8622",
+         "timestamp": ["1913-08-30", "1913-08-30"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Celerina/Schlarigna", 
+        "wikidata": "http://www.wikidata.org/entity/Q64964", 
+        "geonames": "https://sws.geonames.org/2661241/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.762229, 46.429679]
+      },
+      "properties": {
+         "id": "pmb36406",
+         "title": "Hotel Alpenrose [Sils]",
+         "lat": "46.429679",
+         "lon": "9.762229",
+         "timestamp": ["1913-08-31"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.764, 46.413]
+      },
+      "properties": {
+         "id": "pmb254998",
+         "title": "Val Fex",
+         "lat": "46.413",
+         "lon": "9.764",
+         "timestamp": ["1913-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Fextal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1410267", 
+        "geonames": "https://sws.geonames.org/11219388/", 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.76125, 46.4283]
+      },
+      "properties": {
+         "id": "pmb255001",
+         "title": "Hotel Waldhaus [Sils]",
+         "lat": "46.4283",
+         "lon": "9.76125",
+         "timestamp": ["1913-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Waldhaus_(Sils)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1631066", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.749445, 46.428506]
+      },
+      "properties": {
+         "id": "pmb92188",
+         "title": "Chastè",
+         "lat": "46.428506",
+         "lon": "9.749445",
+         "timestamp": ["1913-08-31"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q108093893", 
+        "abbr": "Halbinsel (N.HIN)", 
+        "type": ""
       }
       }
   ]

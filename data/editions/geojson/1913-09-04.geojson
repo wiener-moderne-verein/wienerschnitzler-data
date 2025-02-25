@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.569993, 48.143395]
+            [9.842472222222222, 46.49755555555556], 
+            [9.84638993932, 46.4979700243], 
+            [11.569993, 48.143395], 
+            [11.555, 48.140833], 
+            [9.68431, 47.54612]
           ]
       },
       "properties": {
@@ -30,6 +34,83 @@
         "wikidata": "http://www.wikidata.org/entity/Q57843963", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1913-09-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.842472222222222, 46.49755555555556]
+      },
+      "properties": {
+         "id": "pmb254904",
+         "title": "Grand Hotel St. Moritz",
+         "lat": "46.49755555555556",
+         "lon": "9.842472222222222",
+         "timestamp": ["1913-09-04"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q29785147", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84638993932, 46.4979700243]
+      },
+      "properties": {
+         "id": "pmb252070",
+         "title": "Bahnhof St. Moritz",
+         "lat": "46.4979700243",
+         "lon": "9.84638993932",
+         "timestamp": ["1913-09-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_St._Moritz", 
+        "wikidata": "http://www.wikidata.org/entity/Q644577", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.68431, 47.54612]
+      },
+      "properties": {
+         "id": "pmb986",
+         "title": "Lindau am Bodensee",
+         "lat": "47.54612",
+         "lon": "9.68431",
+         "timestamp": ["1913-09-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lindau_(Bodensee)", 
+        "wikidata": "http://www.wikidata.org/entity/Q153969", 
+        "geonames": "https://sws.geonames.org/2877550/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }
   ]

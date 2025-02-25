@@ -6,16 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.76364, 46.42886], 
+            [9.77504, 46.41603], 
             [9.889977, 46.49503], 
             [9.86084, 46.49478], 
-            [9.84591, 46.4938]
+            [9.84591, 46.4938], 
+            [9.83552, 46.48502]
           ]
       },
       "properties": {
         "name": "20. Juli 1930"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.83552, 46.48502]
+      },
+      "properties": {
+         "id": "pmb184907",
+         "title": "Grand Hotel Victoria",
+         "lat": "46.48502",
+         "lon": "9.83552",
+         "timestamp": ["1930-07-20"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q29785148", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -72,18 +91,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.76364, 46.42886]
+        "coordinates": [9.77504, 46.41603]
       },
       "properties": {
-         "id": "pmb91753",
-         "title": "Sils-Segl Maria",
-         "lat": "46.42886",
-         "lon": "9.76364",
+         "id": "pmb40516",
+         "title": "Sils im Engadin/Segl",
+         "lat": "46.41603",
+         "lon": "9.77504",
          "timestamp": ["1930-07-20"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658641/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Sils_im_Engadin/Segl", 
+        "wikidata": "http://www.wikidata.org/entity/Q64200", 
+        "geonames": "https://sws.geonames.org/2658589/ https://sws.geonames.org/2658641/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

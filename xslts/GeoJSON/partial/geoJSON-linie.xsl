@@ -21,27 +21,55 @@
                 <xsl:variable name="longitudes" as="xs:double*"
                     select="$full-listPlace-dublettenbereinigt//tei:location[@type = 'coords']/tei:geo/number(replace(substring-after(., ' '), ',', '.'))"/>
                 
+                <xsl:variable name="avg-lat" as="xs:double" select="avg($latitudes)"/>
+                <xsl:variable name="avg-lon" as="xs:double" select="avg($longitudes)"/>
+                <xsl:for-each
+                    select="$full-listPlace-dublettenbereinigt/tei:place[descendant::tei:location[@type = 'coords']/tei:geo]">
+                    <!-- Sort the points by angle -->
+                    <xsl:sort select="
+                        math:atan2(
+                        number(replace(substring-before(tei:location[@type = 'coords']/tei:geo, ' '), ',', '.')) - $avg-lat,
+                        number(replace(substring-after(tei:location[@type = 'coords']/tei:geo, ' '), ',', '.')) - $avg-lon
+                        )" data-type="number"/>
+                    <!-- Extract coordinates (lat and lon) -->
+                    <xsl:variable name="coords"
+                        select="tei:location[@type = 'coords']/tei:geo"/>
+                    <xsl:variable name="lat"
+                        select="number(replace(substring-before($coords, ' '), ',', '.'))"/>
+                    <xsl:variable name="lon"
+                        select="number(replace(substring-after($coords, ' '), ',', '.'))"/>
+                    <!-- Output the coordinates in sorted order -->
+                    <xsl:if test="position() > 1">
+                        <xsl:text>, </xsl:text>
+                    </xsl:if>
+                    <xsl:text>&#10;            [</xsl:text>
+                    <xsl:value-of select="$lon"/>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="$lat"/>
+                    <xsl:text>]</xsl:text>
+                </xsl:for-each>
+                
                 <!-- Process points and sort them based on the calculated angle -->
-                <xsl:choose>
-                    <xsl:when test="$timespan-type = 'day'"><!-- wenn es eine tagesansicht ist, dann die linie normalisieren -->
+                <!--<xsl:choose>
+                    <xsl:when test="$timespan-type = 'day'"><!-\- wenn es eine tagesansicht ist, dann die linie normalisieren -\->
                         <xsl:variable name="avg-lat" as="xs:double" select="avg($latitudes)"/>
                         <xsl:variable name="avg-lon" as="xs:double" select="avg($longitudes)"/>
                         <xsl:for-each
                             select="$full-listPlace-dublettenbereinigt/tei:place[descendant::tei:location[@type = 'coords']/tei:geo]">
-                            <!-- Sort the points by angle -->
+                            <!-\- Sort the points by angle -\->
                             <xsl:sort select="
                                     math:atan2(
                                     number(replace(substring-before(tei:location[@type = 'coords']/tei:geo, ' '), ',', '.')) - $avg-lat,
                                     number(replace(substring-after(tei:location[@type = 'coords']/tei:geo, ' '), ',', '.')) - $avg-lon
                                     )" data-type="number"/>
-                            <!-- Extract coordinates (lat and lon) -->
+                            <!-\- Extract coordinates (lat and lon) -\->
                             <xsl:variable name="coords"
                                 select="tei:location[@type = 'coords']/tei:geo"/>
                             <xsl:variable name="lat"
                                 select="number(replace(substring-before($coords, ' '), ',', '.'))"/>
                             <xsl:variable name="lon"
                                 select="number(replace(substring-after($coords, ' '), ',', '.'))"/>
-                            <!-- Output the coordinates in sorted order -->
+                            <!-\- Output the coordinates in sorted order -\->
                             <xsl:if test="position() > 1">
                                 <xsl:text>, </xsl:text>
                             </xsl:if>
@@ -58,7 +86,7 @@
                                 select="number(replace(substring-before(., ' '), ',', '.'))"/>
                             <xsl:variable name="lon"
                                 select="number(replace(substring-after(., ' '), ',', '.'))"/>
-                            <!-- Output the coordinates in sorted order -->
+                            <!-\- Output the coordinates in sorted order -\->
                             <xsl:if test="position() > 1">
                                 <xsl:text>, </xsl:text>
                             </xsl:if>
@@ -72,7 +100,7 @@
                             </xsl:if>
                         </xsl:for-each>
                     </xsl:otherwise>
-                </xsl:choose>
+                </xsl:choose>-->
                 <xsl:text>&#10;          ]</xsl:text>
                 <xsl:text>&#10;      },</xsl:text>
                 <!-- Properties: Add place or listPlace name -->

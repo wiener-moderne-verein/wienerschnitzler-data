@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.04588, 47.99521]
+            [16.038055555556, 47.981666666667], 
+            [16.07123888888889, 47.990119444444446], 
+            [16.04511857, 47.99594239]
           ]
       },
       "properties": {
@@ -17,17 +19,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.04588, 47.99521]
+        "coordinates": [16.04511857, 47.99594239]
       },
       "properties": {
-         "id": "pmb47414",
-         "title": "Neuhaus",
-         "lat": "47.99521",
-         "lon": "16.04588",
+         "id": "pmb254549",
+         "title": "Kurhotel Stefanie [Neuhaus]",
+         "lat": "47.99594239",
+         "lon": "16.04511857",
          "timestamp": ["1913-10-01"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2770778/", 
-        "abbr": "P.PPL", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.038055555556, 47.981666666667]
+      },
+      "properties": {
+         "id": "pmb255211",
+         "title": "Weissenbach an der Triesting",
+         "lat": "47.981666666667",
+         "lon": "16.038055555556",
+         "timestamp": ["1913-10-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weissenbach_an_der_Triesting", 
+        "wikidata": "http://www.wikidata.org/entity/Q617047", 
+        "geonames": "https://sws.geonames.org/7872847/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.07123888888889, 47.990119444444446]
+      },
+      "properties": {
+         "id": "pmb255215",
+         "title": "Gadenweith [Baden bei Wien]",
+         "lat": "47.990119444444446",
+         "lon": "16.07123888888889",
+         "timestamp": ["1913-10-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gadenweith_(Gemeinde_Weissenbach_an_der_Triesting)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1490870", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
       }
       }

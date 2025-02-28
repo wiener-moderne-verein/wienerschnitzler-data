@@ -137,8 +137,8 @@
          "title": "Opernrestaurant",
          "lat": "48.203159",
          "lon": "16.367998",
-         "timestamp": ["1927-10-01", "1927-10-03", "1927-10-05", "1927-10-06", "1927-10-13", "1927-10-21"],
-         "importance": 6, 
+         "timestamp": ["1927-10-01", "1927-10-01", "1927-10-03", "1927-10-05", "1927-10-05", "1927-10-06", "1927-10-13", "1927-10-21"],
+         "importance": 8, 
         "abbr": "S.REST", 
         "type": "Restaurant"
       }
@@ -587,6 +587,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37675, 48.20762]
+      },
+      "properties": {
+         "id": "pmb235120",
+         "title": "Schulerstraße 22",
+         "lat": "48.20762",
+         "lon": "16.37675",
+         "timestamp": ["1927-10-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36171, 48.2116]
       },
       "properties": {
@@ -678,30 +702,6 @@
          "p_name": "Robert Lichtenstern",
 
          "p_id": "#20398"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37675, 48.20762]
-      },
-      "properties": {
-         "id": "pmb235120",
-         "title": "Schulerstraße 22",
-         "lat": "48.20762",
-         "lon": "16.37675",
-         "timestamp": ["1927-10-11"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Josef Peter",
-
-         "p_id": "#22449"
          }]
       }
       }, 
@@ -804,23 +804,6 @@
          "importance": 1, 
         "abbr": "Verlag", 
         "type": ""
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.36802, 48.203163]
-      },
-      "properties": {
-         "id": "pmb185474",
-         "title": "Klara Wimberger Opernrestaurant",
-         "lat": "48.203163",
-         "lon": "16.36802",
-         "timestamp": ["1927-10-01", "1927-10-05"],
-         "importance": 2, 
-        "abbr": "S.REST", 
-        "type": "Restaurant"
       }
       }, 
     {

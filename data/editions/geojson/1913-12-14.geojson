@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.37587, 48.204237], 
+            [16.371458, 48.207247], 
             [16.33716, 48.23188], 
-            [16.300034240016, 48.246838181084]
+            [16.305395, 48.245422]
           ]
       },
       "properties": {
@@ -18,18 +20,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.300034240016, 48.246838181084]
+        "coordinates": [16.305395, 48.245422]
       },
       "properties": {
-         "id": "pmb169",
-         "title": "Pötzleinsdorf",
-         "lat": "48.246838181084",
-         "lon": "16.300034240016",
+         "id": "pmb249388",
+         "title": "Dr.-Heinrich-Maier-Straße 11",
+         "lat": "48.245422",
+         "lon": "16.305395",
          "timestamp": ["1913-12-14"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2768462/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Max Paulsen",
+
+         "p_id": "#12399"
+         }]
       }
       },
     {
@@ -103,6 +117,47 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37587, 48.204237]
+      },
+      "properties": {
+         "id": "pmb252036",
+         "title": "Hegelgasse 6",
+         "lat": "48.204237",
+         "lon": "16.37587",
+         "timestamp": ["1913-12-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Johann Ress",
+
+         "p_id": "#23283"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371458, 48.207247]
+      },
+      "properties": {
+         "id": "pmb255472",
+         "title": "Hugo Knepler, Musikalienhandel und Leihanstalt",
+         "lat": "48.207247",
+         "lon": "16.371458",
+         "timestamp": ["1913-12-14"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
       }
       }
   ]

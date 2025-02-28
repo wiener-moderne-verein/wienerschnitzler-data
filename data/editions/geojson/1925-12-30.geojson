@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.367295, 48.207185], 
+            [16.36826, 48.2091], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,60 @@
         "name": "30. Dezember 1925"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36826, 48.2091]
+      },
+      "properties": {
+         "id": "pmb235117",
+         "title": "Kohlmarkt 3",
+         "lat": "48.2091",
+         "lon": "16.36826",
+         "timestamp": ["1925-12-30"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367295, 48.207185]
+      },
+      "properties": {
+         "id": "pmb235837",
+         "title": "Reitschulgasse 2",
+         "lat": "48.207185",
+         "lon": "16.367295",
+         "timestamp": ["1925-12-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Viktor Eisenmenger",
+
+         "p_id": "#15782"
+         }, 
+         {
+
+         "p_name": "Anna Eisenmenger",
+
+         "p_id": "#15775"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

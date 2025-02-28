@@ -6,18 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.430054, 48.194558], 
+            [16.35736, 48.21533], 
+            [16.361751, 48.215689], 
             [16.405222, 48.211705], 
             [16.39467, 48.21699], 
-            [16.335264, 48.228877], 
-            [16.361751, 48.215689], 
-            [16.35736, 48.21533]
+            [16.335264, 48.228877]
           ]
       },
       "properties": {
         "name": "31. August 1903"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.405222, 48.211705]
+      },
+      "properties": {
+         "id": "pmb92593",
+         "title": "Waldsteingarten",
+         "lat": "48.211705",
+         "lon": "16.405222",
+         "timestamp": ["1903-08-31"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q130529553", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -43,44 +60,6 @@
 
          "p_id": "#3857"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.405222, 48.211705]
-      },
-      "properties": {
-         "id": "pmb92593",
-         "title": "Waldsteingarten",
-         "lat": "48.211705",
-         "lon": "16.405222",
-         "timestamp": ["1903-08-31"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q130529553", 
-        "abbr": "S.REST", 
-        "type": "Restaurant"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.430054, 48.194558]
-      },
-      "properties": {
-         "id": "pmb8",
-         "title": "Prater",
-         "lat": "48.194558",
-         "lon": "16.430054",
-         "timestamp": ["1903-08-31"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
-        "wikidata": "http://www.wikidata.org/entity/Q264752", 
-        "geonames": "https://sws.geonames.org/3322725/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
       }
       },
     {

@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.363698, 52.508221], 
             [13.374444, 52.51]
           ]
       },
@@ -30,6 +31,36 @@
         "wikidata": "http://www.wikidata.org/entity/Q321562", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.363698, 52.508221]
+      },
+      "properties": {
+         "id": "pmb244585",
+         "title": "Stauffenbergstraße 36",
+         "lat": "52.508221",
+         "lon": "13.363698",
+         "timestamp": ["1925-10-20"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eva Marie Goldmann",
+
+         "p_id": "#17164"
+         }, 
+         {
+
+         "p_name": "Paul Goldmann",
+
+         "p_id": "#11485"
+         }]
       }
       }
   ]

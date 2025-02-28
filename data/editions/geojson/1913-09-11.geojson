@@ -6,9 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.2803, 47.90938], 
+            [11.29326, 47.94602], 
+            [11.2732, 47.9071], 
+            [11.282052, 47.910499], 
             [11.570472222222, 48.142138888889], 
-            [11.569993, 48.143395]
+            [11.569993, 48.143395], 
+            [11.555, 48.140833]
           ]
       },
       "properties": {
@@ -57,16 +60,72 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.2803, 47.90938]
+        "coordinates": [11.555, 48.140833]
       },
       "properties": {
-         "id": "pmb44493",
-         "title": "Tutzing",
-         "lat": "47.90938",
-         "lon": "11.2803",
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
          "timestamp": ["1913-09-11"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2820692/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2732, 47.9071]
+      },
+      "properties": {
+         "id": "pmb253610",
+         "title": "Bahnhof Tutzing",
+         "lat": "47.9071",
+         "lon": "11.2732",
+         "timestamp": ["1913-09-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Tutzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q801533", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.282052, 47.910499]
+      },
+      "properties": {
+         "id": "pmb253566",
+         "title": "Villa Carola",
+         "lat": "47.910499",
+         "lon": "11.282052",
+         "timestamp": ["1913-09-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.29326, 47.94602]
+      },
+      "properties": {
+         "id": "pmb53150",
+         "title": "Feldafing",
+         "lat": "47.94602",
+         "lon": "11.29326",
+         "timestamp": ["1913-09-11"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2927464/", 
         "abbr": "P.PPLA4", 
         "type": "Hauptstadt"
       }

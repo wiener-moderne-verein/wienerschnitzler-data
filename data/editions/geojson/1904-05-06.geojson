@@ -6,8 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.645529, 41.740553], 
             [12.64975, 41.74875], 
-            [12.659, 41.72748], 
             [12.69253, 41.70754], 
             [12.7, 41.71667], 
             [12.65917, 41.76984], 
@@ -42,6 +42,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.645529, 41.740553]
+      },
+      "properties": {
+         "id": "pmb92147",
+         "title": "Via Appia nuova",
+         "lat": "41.740553",
+         "lon": "12.645529",
+         "timestamp": ["1904-05-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Via_Appia_Nuova", 
+        "wikidata": "http://www.wikidata.org/entity/Q19810824", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.67942, 41.8091]
       },
       "properties": {
@@ -52,26 +71,6 @@
          "timestamp": ["1904-05-06"],
          "importance": 1, 
         "geonames": "https://sws.geonames.org/3176589/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.659, 41.72748]
-      },
-      "properties": {
-         "id": "pmb55780",
-         "title": "Albano Laziale",
-         "lat": "41.72748",
-         "lon": "12.659",
-         "timestamp": ["1904-05-06"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Albano_Laziale", 
-        "wikidata": "http://www.wikidata.org/entity/Q191115", 
-        "geonames": "https://sws.geonames.org/3183356/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
       }

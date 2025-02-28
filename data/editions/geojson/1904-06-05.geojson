@@ -8,7 +8,6 @@
         "coordinates": [
             [16.33472, 48.2304], 
             [16.314491, 48.242571], 
-            [16.300034240016, 48.246838181084], 
             [16.30627, 48.2435]
           ]
       },
@@ -37,18 +36,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.300034240016, 48.246838181084]
+        "coordinates": [16.314491, 48.242571]
       },
       "properties": {
-         "id": "pmb169",
-         "title": "Pötzleinsdorf",
-         "lat": "48.246838181084",
-         "lon": "16.300034240016",
+         "id": "pmb231941",
+         "title": "Starkfriedgasse 12",
+         "lat": "48.242571",
+         "lon": "16.314491",
          "timestamp": ["1904-06-05"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2768462/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }]
       }
       },
     {
@@ -108,36 +119,6 @@
          "p_name": "Dora Erl",
 
          "p_id": "#15983"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.314491, 48.242571]
-      },
-      "properties": {
-         "id": "pmb231941",
-         "title": "Starkfriedgasse 12",
-         "lat": "48.242571",
-         "lon": "16.314491",
-         "timestamp": ["1904-06-05"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Ottilie Salten",
-
-         "p_id": "#23918"
-         }, 
-         {
-
-         "p_name": "Felix Salten",
-
-         "p_id": "#2167"
          }]
       }
       }

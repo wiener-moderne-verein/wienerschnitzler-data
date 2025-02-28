@@ -8,7 +8,6 @@
         "coordinates": [
             [16.33716, 48.23188], 
             [16.338016, 48.234091], 
-            [16.333568462613, 48.235119783861], 
             [16.331527, 48.23428]
           ]
       },
@@ -20,17 +19,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.333568462613, 48.235119783861]
+        "coordinates": [16.331527, 48.23428]
       },
       "properties": {
-         "id": "pmb113",
-         "title": "Türkenschanzpark",
-         "lat": "48.235119783861",
-         "lon": "16.333568462613",
+         "id": "pmb74",
+         "title": "Restauration Türkenschanz-Park",
+         "lat": "48.23428",
+         "lon": "16.331527",
          "timestamp": ["1928-11-14"],
          "importance": 1, 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Harner",
+
+         "p_id": "#211311"
+         }]
       }
       },
     {
@@ -54,30 +60,6 @@
          "p_name": "Clara Katharina Pollaczek",
 
          "p_id": "#12435"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.331527, 48.23428]
-      },
-      "properties": {
-         "id": "pmb74",
-         "title": "Restauration Türkenschanz-Park",
-         "lat": "48.23428",
-         "lon": "16.331527",
-         "timestamp": ["1928-11-14"],
-         "importance": 1, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Franz Harner",
-
-         "p_id": "#211311"
          }]
       }
       },

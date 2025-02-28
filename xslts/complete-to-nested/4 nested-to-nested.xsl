@@ -7,53 +7,51 @@
     <!-- Identitätstransformation: Kopiert alle Elemente in das Resultat -->
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:output indent="true"/>
-    <!-- Der vierte Schritt soll nun die Hierarchie tatsächlich umsetzen, indem er bei 
-        Elementen ohne ancestors beginnt -->
-    <xsl:key name="places-by-ancestor" match="tei:place" use="tei:ancestors/@ana"/>
-    <xsl:template match="tei:place[tei:ancestors]"/>
-    <xsl:template match="tei:place[not(tei:ancestors)]">
-        <xsl:variable name="listPlace" as="node()">
-            <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:copy-of select="parent::tei:listPlace/tei:place[tei:ancestors]"/>
-            </xsl:element>
-        </xsl:variable>
-        <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
-            <xsl:variable name="corresp" select="replace(@corresp, '#pmb', '')" as="xs:string"/>
-            <xsl:copy-of select="@* | *"/>
-            <xsl:if test="$listPlace//*:place[*:ancestors/@ana = $corresp and not(*:ancestors[2])]">
-                <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:for-each
-                        select="$listPlace//*:place[*:ancestors/@ana = $corresp and not(*:ancestors[2])]">
-                        <xsl:apply-templates select="." mode="hierarchie">
-                            <xsl:with-param name="listPlace" select="$listPlace"/>
-                        </xsl:apply-templates>
-                    </xsl:for-each>
-                </xsl:element>
-            </xsl:if>
-        </xsl:element>
-    </xsl:template>
-    <xsl:template match="tei:place[tei:ancestors]" mode="hierarchie">
-        <xsl:param name="listPlace"/>
-        <xsl:variable name="corresp" select="replace(replace(@corresp, '#', ''), 'pmb', '')"/>
-        <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
-            <xsl:copy-of select="@* | tei:placeName"/>
-            <xsl:if test="$listPlace/tei:place/tei:ancestors/@ana = $corresp">
-                <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:for-each select="$listPlace/tei:place[tei:ancestors/@ana = $corresp]">
-                        <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:attribute name="corresp">
-                                <xsl:value-of select="concat('#pmb', replace(replace(@corresp, 'pmb', ''), '#', ''))"/>
-                            </xsl:attribute>
-                            <xsl:apply-templates mode="hierarchie" select="*"/>
-                        </xsl:element>
-                    </xsl:for-each>
-                </xsl:element>
-            </xsl:if>
-        </xsl:element>
-    </xsl:template>
-    <xsl:template match="tei:placeName" mode="hierarchie">
-        <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template>
+    <!-- Diese Schritt soll die Klärung übernehmen, ob eine Ort zu zwei Orten
+    gehört oder welches das richtige ancestor-Element ist (gehört zu einer 
+    Straße, gehört zu einem Bezirk) -->
+  
+  <xsl:template match="tei:place[tei:ancestors[2]]">
+      <xsl:variable name="current-corresp" select="@corresp"/>
+      <xsl:variable name="listplace" as="node()">
+          <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
+              <xsl:copy-of select="parent::tei:listPlace/tei:place[not(@corresp = $current-corresp)]"/>
+          </xsl:element>
+      </xsl:variable>
+      <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
+          <xsl:copy-of select="@*|tei:placeName"/>
+          <xsl:variable name="anas">
+              <list>
+                  <xsl:for-each select="tei:ancestors/@ana">
+                      <item>
+                          <xsl:value-of select="."/>
+                      </item>
+                  </xsl:for-each>
+              </list>
+          </xsl:variable>
+          <xsl:for-each select="tei:ancestors">
+              <xsl:variable name="current-ana" select="@ana"/>
+              <xsl:variable name="current-ana-correspformat" select="concat('#pmb', $current-ana)"/>
+              <xsl:for-each select="$anas//*:item[. != $current-ana]">
+                  <xsl:variable name="other-ana" select="."/>
+                  <xsl:choose>
+                      <xsl:when test="$listplace/tei:place[@corresp = $current-ana-correspformat]/tei:ancestors/@ana = $other-ana"/>
+                      <xsl:otherwise>
+                          <xsl:element name="ancestors" namespace="http://www.tei-c.org/ns/1.0">
+                              <xsl:attribute name="ana">
+                                  <xsl:value-of select="."/>
+                              </xsl:attribute>
+                          </xsl:element>
+                      </xsl:otherwise>
+                  </xsl:choose>
+              </xsl:for-each>
+                            
+              
+          </xsl:for-each>
+          
+          
+      </xsl:element>
+      
+  </xsl:template>
+  
 </xsl:stylesheet>

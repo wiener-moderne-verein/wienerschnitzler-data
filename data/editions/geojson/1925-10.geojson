@@ -72,8 +72,8 @@
          "title": "Schauspielhaus Berlin",
          "lat": "52.513611",
          "lon": "13.392222",
-         "timestamp": ["1925-10-15", "1925-10-17"],
-         "importance": 2, 
+         "timestamp": ["1925-10-15", "1925-10-17", "1925-10-19"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Schauspielhaus_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q702548", 
         "abbr": "Theater (K.THE)", 
@@ -236,8 +236,8 @@
          "title": "Peregringasse 4",
          "lat": "48.216445",
          "lon": "16.364586",
-         "timestamp": ["1925-10-06"],
-         "importance": 1, 
+         "timestamp": ["1925-10-06", "1925-10-10", "1925-10-21", "1925-10-27", "1925-10-30"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -319,6 +319,60 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1925-10-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -380,6 +434,23 @@
 
          "p_id": "#2284"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1925-10-21", "1925-10-26", "1925-10-27", "1925-10-28", "1925-10-29", "1925-10-30", "1925-10-31"],
+         "importance": 7, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       }, 
     {
@@ -472,6 +543,30 @@
         "wikidata": "http://www.wikidata.org/entity/Q321562", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1925-10-14"],
+         "importance": 1, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
       }
       }, 
     {
@@ -686,8 +781,8 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1925-10-01", "1925-10-06"],
-         "importance": 2, 
+         "timestamp": ["1925-10-01", "1925-10-06", "1925-10-07", "1925-10-23", "1925-10-29"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -703,6 +798,136 @@
 
          "p_id": "#20398"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377452, 48.193826]
+      },
+      "properties": {
+         "id": "pmb246974",
+         "title": "Paul Zsolnay Verlag",
+         "lat": "48.193826",
+         "lon": "16.377452",
+         "timestamp": ["1925-10-07"],
+         "importance": 1, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1925-10-26", "1925-10-31"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.282944, 52.47847]
+      },
+      "properties": {
+         "id": "pmb250448",
+         "title": "Hohenzollerndamm 90",
+         "lat": "52.47847",
+         "lon": "13.282944",
+         "timestamp": ["1925-10-13", "1925-10-16", "1925-10-19"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }, 
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.368213, 52.509824]
+      },
+      "properties": {
+         "id": "pmb249530",
+         "title": "Herbert-von-Karajan-Straße 4",
+         "lat": "52.509824",
+         "lon": "13.368213",
+         "timestamp": ["1925-10-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Lucie Mannheim",
+
+         "p_id": "#8804"
+         }, 
+         {
+
+         "p_name": "Ilse Dernburg",
+
+         "p_id": "#5571"
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.33465, 52.50422]
+      },
+      "properties": {
+         "id": "pmb235978",
+         "title": "Zum Austernmeyer",
+         "lat": "52.50422",
+         "lon": "13.33465",
+         "timestamp": ["1925-10-14", "1925-10-16", "1925-10-18", "1925-10-19"],
+         "importance": 4, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }, 
     {
@@ -750,6 +975,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36216, 48.21016]
+      },
+      "properties": {
+         "id": "pmb85",
+         "title": "Löwelstraße",
+         "lat": "48.21016",
+         "lon": "16.36216",
+         "timestamp": ["1925-10-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q106194061", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.28702, 52.4581]
+      },
+      "properties": {
+         "id": "pmb90508",
+         "title": "Dahlem",
+         "lat": "52.4581",
+         "lon": "13.28702",
+         "timestamp": ["1925-10-13", "1925-10-16"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2939440/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.308333, 52.512778]
       },
       "properties": {
@@ -761,6 +1022,132 @@
          "importance": 1, 
         "abbr": "Oper (K.OPR)", 
         "type": "Oper"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.39333, 52.51483]
+      },
+      "properties": {
+         "id": "pmb493",
+         "title": "Bank für Auswärtigen Handel",
+         "lat": "52.51483",
+         "lon": "13.39333",
+         "timestamp": ["1925-10-16"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Karl Feilchenfeld",
+
+         "p_id": "#16125"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.293044, 52.465923]
+      },
+      "properties": {
+         "id": "pmb244580",
+         "title": "Miquelstraße 86",
+         "lat": "52.465923",
+         "lon": "13.293044",
+         "timestamp": ["1925-10-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Fulda",
+
+         "p_id": "#11391"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.29417, 52.46601]
+      },
+      "properties": {
+         "id": "pmb235344",
+         "title": "Podbielskiallee 35–37",
+         "lat": "52.46601",
+         "lon": "13.29417",
+         "timestamp": ["1925-10-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Pietrkowski",
+
+         "p_id": "#9274"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3418, 52.49831]
+      },
+      "properties": {
+         "id": "pmb249484",
+         "title": "Welserstraße 19",
+         "lat": "52.49831",
+         "lon": "13.3418",
+         "timestamp": ["1925-10-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Georg Engel",
+
+         "p_id": "#15908"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.363698, 52.508221]
+      },
+      "properties": {
+         "id": "pmb244585",
+         "title": "Stauffenbergstraße 36",
+         "lat": "52.508221",
+         "lon": "13.363698",
+         "timestamp": ["1925-10-20"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eva Marie Goldmann",
+
+         "p_id": "#17164"
+         }, 
+         {
+
+         "p_name": "Paul Goldmann",
+
+         "p_id": "#11485"
+         }]
       }
       }
   ]

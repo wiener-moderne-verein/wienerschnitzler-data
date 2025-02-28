@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [16.369532, 48.204466], 
-            [16.430054, 48.194558], 
             [16.41575606941028, 48.20508551408161], 
             [16.401694, 48.213944], 
             [16.3855, 48.21682], 
@@ -18,6 +17,36 @@
         "name": "20. September 1900"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3855, 48.21682]
+      },
+      "properties": {
+         "id": "pmb231146",
+         "title": "Rotensterngasse 31",
+         "lat": "48.21682",
+         "lon": "16.3855",
+         "timestamp": ["1900-09-20"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -54,56 +83,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q876104", 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3855, 48.21682]
-      },
-      "properties": {
-         "id": "pmb231146",
-         "title": "Rotensterngasse 31",
-         "lat": "48.21682",
-         "lon": "16.3855",
-         "timestamp": ["1900-09-20"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Elisabeth Steinrück",
-
-         "p_id": "#2315"
-         }, 
-         {
-
-         "p_name": "Olga Schnitzler",
-
-         "p_id": "#2173"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.430054, 48.194558]
-      },
-      "properties": {
-         "id": "pmb8",
-         "title": "Prater",
-         "lat": "48.194558",
-         "lon": "16.430054",
-         "timestamp": ["1900-09-20"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
-        "wikidata": "http://www.wikidata.org/entity/Q264752", 
-        "geonames": "https://sws.geonames.org/3322725/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
       }
       },
     {

@@ -6,13 +6,75 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.4009, 47.26385]
+            [11.39985, 47.264564], 
+            [11.4009, 47.26385], 
+            [11.399722222222, 47.246666666667], 
+            [11.778056, 47.388611], 
+            [11.7746, 47.39295], 
+            [11.772, 47.393]
           ]
       },
       "properties": {
         "name": "6. August 1874"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.7746, 47.39295]
+      },
+      "properties": {
+         "id": "pmb40329",
+         "title": "Jenbach",
+         "lat": "47.39295",
+         "lon": "11.7746",
+         "timestamp": ["1874-08-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Jenbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q668227", 
+        "geonames": "https://sws.geonames.org/7872630/ https://sws.geonames.org/2775093/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.772, 47.393]
+      },
+      "properties": {
+         "id": "pmb255593",
+         "title": "Gasthof zum Brauhaus",
+         "lat": "47.393",
+         "lon": "11.772",
+         "timestamp": ["1874-08-06"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.778056, 47.388611]
+      },
+      "properties": {
+         "id": "pmb255596",
+         "title": "Bahnhof Jenbach",
+         "lat": "47.388611",
+         "lon": "11.778056",
+         "timestamp": ["1874-08-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Jenbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q663697", 
+        "geonames": "https://sws.geonames.org/8015542/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -31,6 +93,44 @@
         "geonames": "https://sws.geonames.org/2775217/", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.39985, 47.264564]
+      },
+      "properties": {
+         "id": "pmb255604",
+         "title": "Hotel Europa [Innsbruck]",
+         "lat": "47.264564",
+         "lon": "11.39985",
+         "timestamp": ["1874-08-06"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q122982406", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.399722222222, 47.246666666667]
+      },
+      "properties": {
+         "id": "pmb255607",
+         "title": "Bergisel",
+         "lat": "47.246666666667",
+         "lon": "11.399722222222",
+         "timestamp": ["1874-08-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bergisel", 
+        "wikidata": "http://www.wikidata.org/entity/Q683996", 
+        "geonames": "https://sws.geonames.org/6949521/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
       }
       }
   ]

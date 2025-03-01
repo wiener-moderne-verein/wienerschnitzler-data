@@ -25,6 +25,105 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.04532, 47.80067]
+      },
+      "properties": {
+         "id": "pmb30",
+         "title": "Salzburg",
+         "lat": "47.80067",
+         "lon": "13.04532",
+         "timestamp": ["1902-06-27", "1902-06-28", "1902-06-29", "1902-06-30", "1902-07-01"],
+         "importance": 5, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q34713", 
+        "geonames": "https://sws.geonames.org/2766818/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.882423, 47.730685]
+      },
+      "properties": {
+         "id": "pmb1181",
+         "title": "Bad Reichenhall",
+         "lat": "47.730685",
+         "lon": "12.882423",
+         "timestamp": ["1902-07-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Reichenhall", 
+        "wikidata": "http://www.wikidata.org/entity/Q487971", 
+        "geonames": "https://sws.geonames.org/2953371/ https://sws.geonames.org/6558205/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1902-06-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.389534, 47.272569]
+      },
+      "properties": {
+         "id": "pmb867",
+         "title": "Innsbruck",
+         "lat": "47.272569",
+         "lon": "11.389534",
+         "timestamp": ["1902-07-01", "1902-07-02", "1902-07-03"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innsbruck", 
+        "wikidata": "http://www.wikidata.org/entity/Q1735", 
+        "geonames": "https://sws.geonames.org/2775216/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.76903, 46.8289]
+      },
+      "properties": {
+         "id": "pmb897",
+         "title": "Lienz",
+         "lat": "46.8289",
+         "lon": "12.76903",
+         "timestamp": ["1902-07-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lienz", 
+        "wikidata": "http://www.wikidata.org/entity/Q336250", 
+        "geonames": "https://sws.geonames.org/2772505/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
@@ -263,46 +362,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.389534, 47.272569]
-      },
-      "properties": {
-         "id": "pmb867",
-         "title": "Innsbruck",
-         "lat": "47.272569",
-         "lon": "11.389534",
-         "timestamp": ["1902-07-01", "1902-07-02", "1902-07-03"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Innsbruck", 
-        "wikidata": "http://www.wikidata.org/entity/Q1735", 
-        "geonames": "https://sws.geonames.org/2775216/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.04532, 47.80067]
-      },
-      "properties": {
-         "id": "pmb30",
-         "title": "Salzburg",
-         "lat": "47.80067",
-         "lon": "13.04532",
-         "timestamp": ["1902-06-27", "1902-06-28", "1902-06-29", "1902-06-30", "1902-07-01"],
-         "importance": 5, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
-        "wikidata": "http://www.wikidata.org/entity/Q34713", 
-        "geonames": "https://sws.geonames.org/2766818/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.4496, 48.1864]
       },
       "properties": {
@@ -375,26 +434,6 @@
         "wikipedia": "https://de.wikipedia.org/wiki/St._Johann_im_Pongau", 
         "wikidata": "http://www.wikidata.org/entity/Q251022", 
         "geonames": "https://sws.geonames.org/2766643/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.76903, 46.8289]
-      },
-      "properties": {
-         "id": "pmb897",
-         "title": "Lienz",
-         "lat": "46.8289",
-         "lon": "12.76903",
-         "timestamp": ["1902-07-07"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Lienz", 
-        "wikidata": "http://www.wikidata.org/entity/Q336250", 
-        "geonames": "https://sws.geonames.org/2772505/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
       }
@@ -1471,26 +1510,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q980334", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.882423, 47.730685]
-      },
-      "properties": {
-         "id": "pmb1181",
-         "title": "Bad Reichenhall",
-         "lat": "47.730685",
-         "lon": "12.882423",
-         "timestamp": ["1902-07-01"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Reichenhall", 
-        "wikidata": "http://www.wikidata.org/entity/Q487971", 
-        "geonames": "https://sws.geonames.org/2953371/ https://sws.geonames.org/6558205/", 
-        "abbr": "A.ADM4", 
-        "type": "Region"
       }
       }, 
     {
@@ -3220,25 +3239,6 @@
 
          "p_id": "#18808"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.045769, 47.813139]
-      },
-      "properties": {
-         "id": "pmb50792",
-         "title": "Hauptbahnhof Salzburg",
-         "lat": "47.813139",
-         "lon": "13.045769",
-         "timestamp": ["1902-06-28"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q694694", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
       }
       }, 
     {

@@ -7,13 +7,33 @@
         "type": "LineString", 
         "coordinates": [
             [11.555, 48.140833], 
-            [11.567552, 48.143964]
+            [11.567552, 48.143964], 
+            [12.099691, 49.011766], 
+            [12.09595, 49.01676]
           ]
       },
       "properties": {
         "name": "25. Januar 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.09595, 49.01676]
+      },
+      "properties": {
+         "id": "pmb255832",
+         "title": "Hotel Grüner Kranz",
+         "lat": "49.01676",
+         "lon": "12.09595",
+         "timestamp": ["1914-01-25"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q41277423", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -49,6 +69,26 @@
         "geonames": "https://sws.geonames.org/6324603/", 
         "abbr": "S.RSTN", 
         "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.099691, 49.011766]
+      },
+      "properties": {
+         "id": "pmb255837",
+         "title": "Hauptbahnhof Regensburg",
+         "lat": "49.011766",
+         "lon": "12.099691",
+         "timestamp": ["1914-01-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Regensburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q138888", 
+        "geonames": "https://sws.geonames.org/10861111/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

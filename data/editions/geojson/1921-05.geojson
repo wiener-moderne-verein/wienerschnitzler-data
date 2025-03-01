@@ -25,6 +25,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.04532, 47.80067]
+      },
+      "properties": {
+         "id": "pmb30",
+         "title": "Salzburg",
+         "lat": "47.80067",
+         "lon": "13.04532",
+         "timestamp": ["1921-05-11", "1921-05-12"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q34713", 
+        "geonames": "https://sws.geonames.org/2766818/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3691, 48.203]
       },
       "properties": {
@@ -100,26 +120,6 @@
          "importance": 1, 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.04532, 47.80067]
-      },
-      "properties": {
-         "id": "pmb30",
-         "title": "Salzburg",
-         "lat": "47.80067",
-         "lon": "13.04532",
-         "timestamp": ["1921-05-11", "1921-05-12"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
-        "wikidata": "http://www.wikidata.org/entity/Q34713", 
-        "geonames": "https://sws.geonames.org/2766818/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -742,23 +742,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.383906681096, 48.211453732859]
-      },
-      "properties": {
-         "id": "pmb1013",
-         "title": "Urania",
-         "lat": "48.211453732859",
-         "lon": "16.383906681096",
-         "timestamp": ["1921-05-18"],
-         "importance": 1, 
-        "abbr": "Volksbildungsanstalt (K.VBA)", 
-        "type": "Volksbildungsanstalt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [11.576972, 48.138566]
       },
       "properties": {
@@ -771,6 +754,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q130400990", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.383906681096, 48.211453732859]
+      },
+      "properties": {
+         "id": "pmb1013",
+         "title": "Urania",
+         "lat": "48.211453732859",
+         "lon": "16.383906681096",
+         "timestamp": ["1921-05-18"],
+         "importance": 1, 
+        "abbr": "Volksbildungsanstalt (K.VBA)", 
+        "type": "Volksbildungsanstalt"
       }
       }, 
     {

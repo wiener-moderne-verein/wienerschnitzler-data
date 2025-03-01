@@ -25,6 +25,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1931-05-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.379608025302, 48.204824018066]
       },
       "properties": {
@@ -131,25 +150,6 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.379829498031, 48.187455471378]
-      },
-      "properties": {
-         "id": "pmb132",
-         "title": "Südbahnhof",
-         "lat": "48.187455471378",
-         "lon": "16.379829498031",
-         "timestamp": ["1931-05-13"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q519025", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -676,6 +676,30 @@
         "wikidata": "http://www.wikidata.org/entity/Q1692038", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1931-05-12", "1931-05-22", "1931-05-26"],
+         "importance": 3, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
       }
       }, 
     {
@@ -1218,6 +1242,30 @@
          "p_name": "Ferdinand Donath",
 
          "p_id": "#15433"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373298, 48.191341]
+      },
+      "properties": {
+         "id": "pmb245810",
+         "title": "Viktorgasse 1",
+         "lat": "48.191341",
+         "lon": "16.373298",
+         "timestamp": ["1931-05-01", "1931-05-05", "1931-05-07", "1931-05-10", "1931-05-12", "1931-05-16", "1931-05-20", "1931-05-22", "1931-05-23", "1931-05-28", "1931-05-30"],
+         "importance": 11, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Friedrich Carl Clauser",
+
+         "p_id": "#15006"
          }]
       }
       }, 

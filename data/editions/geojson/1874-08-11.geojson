@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.211413, 47.968507]
+            [12.76903, 46.8289], 
+            [12.83416, 46.85721], 
+            [12.84345, 47.03979]
           ]
       },
       "properties": {
@@ -17,17 +19,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.211413, 47.968507]
+        "coordinates": [12.84345, 47.03979]
       },
       "properties": {
-         "id": "pmb253420",
-         "title": "Jägermayerstraße 13 »Marienhaus«",
-         "lat": "47.968507",
-         "lon": "16.211413",
+         "id": "pmb90843",
+         "title": "Heiligenblut am Großglockner",
+         "lat": "47.03979",
+         "lon": "12.84345",
          "timestamp": ["1874-08-11"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "geonames": "https://sws.geonames.org/2776595/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.83416, 46.85721]
+      },
+      "properties": {
+         "id": "pmb945",
+         "title": "Dölsach",
+         "lat": "46.85721",
+         "lon": "12.83416",
+         "timestamp": ["1874-08-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6lsach", 
+        "wikidata": "http://www.wikidata.org/entity/Q602461", 
+        "geonames": "https://sws.geonames.org/7872591/ https://sws.geonames.org/2780859/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.76903, 46.8289]
+      },
+      "properties": {
+         "id": "pmb897",
+         "title": "Lienz",
+         "lat": "46.8289",
+         "lon": "12.76903",
+         "timestamp": ["1874-08-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lienz", 
+        "wikidata": "http://www.wikidata.org/entity/Q336250", 
+        "geonames": "https://sws.geonames.org/2772505/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }
   ]

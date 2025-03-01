@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.211413, 47.968507]
+            [11.709, 47.462], 
+            [11.710292, 47.497995]
           ]
       },
       "properties": {
@@ -17,17 +18,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.211413, 47.968507]
+        "coordinates": [11.710292, 47.497995]
       },
       "properties": {
-         "id": "pmb253420",
-         "title": "Jägermayerstraße 13 »Marienhaus«",
-         "lat": "47.968507",
-         "lon": "16.211413",
+         "id": "pmb92517",
+         "title": "Scholastika",
+         "lat": "47.497995",
+         "lon": "11.710292",
          "timestamp": ["1874-08-05"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.709, 47.462]
+      },
+      "properties": {
+         "id": "pmb59761",
+         "title": "Achensee",
+         "lat": "47.462",
+         "lon": "11.709",
+         "timestamp": ["1874-08-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Achensee", 
+        "wikidata": "http://www.wikidata.org/entity/Q615711", 
+        "geonames": "https://sws.geonames.org/2783030/", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
       }
       }
   ]

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.352693, 48.193456], 
+            [16.372564182283, 48.201265597319], 
             [16.37312, 48.20122], 
             [16.33716, 48.23188]
           ]
@@ -32,6 +34,47 @@
         "wikidata": "http://www.wikidata.org/entity/Q1630919", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1914-01-07"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.352693, 48.193456]
+      },
+      "properties": {
+         "id": "pmb236295",
+         "title": "Josef Berger, Kunst- und Antiquitätenhändler",
+         "lat": "48.193456",
+         "lon": "16.352693",
+         "timestamp": ["1914-01-07"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Berger",
+
+         "p_id": "#14065"
+         }]
       }
       },
     {

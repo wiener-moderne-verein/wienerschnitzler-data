@@ -6,9 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.567552, 48.143964], 
+            [11.576972, 48.138566], 
             [11.575765, 48.139924], 
-            [16.349126146095, 48.197773257011]
+            [11.578786, 48.139944], 
+            [11.567552, 48.143964]
           ]
       },
       "properties": {
@@ -53,15 +54,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.349126146095, 48.197773257011]
+        "coordinates": [11.578786, 48.139944]
       },
       "properties": {
-         "id": "pmb267",
-         "title": "Hotel Englischer Hof",
-         "lat": "48.197773257011",
-         "lon": "16.349126146095",
+         "id": "pmb9",
+         "title": "Königlich Bayerische Hoftheater",
+         "lat": "48.139944",
+         "lon": "11.578786",
          "timestamp": ["1914-01-27"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bayerisches_Staatsschauspiel", 
+        "wikidata": "http://www.wikidata.org/entity/Q812446", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Albert von Speidel",
+
+         "p_id": "#12813"
+         }, 
+         {
+
+         "p_name": "Albert Steinrück",
+
+         "p_id": "#12837"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.576972, 48.138566]
+      },
+      "properties": {
+         "id": "pmb187284",
+         "title": "Hotel Englischer Hof [München]",
+         "lat": "48.138566",
+         "lon": "11.576972",
+         "timestamp": ["1914-01-27"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q130400990", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
       }

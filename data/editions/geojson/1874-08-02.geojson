@@ -6,7 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.211413, 47.968507]
+            [13.045141, 47.808997], 
+            [12.882423, 47.730685], 
+            [16.363819, 48.20334], 
+            [15.90219, 48.19745], 
+            [15.63333, 48.2], 
+            [14.28333, 48.3]
           ]
       },
       "properties": {
@@ -17,17 +22,112 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.211413, 47.968507]
+        "coordinates": [16.363819, 48.20334]
       },
       "properties": {
-         "id": "pmb253420",
-         "title": "Jägermayerstraße 13 »Marienhaus«",
-         "lat": "47.968507",
-         "lon": "16.211413",
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
          "timestamp": ["1874-08-02"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "abbr": "Ordination", 
+        "type": "Ordination"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.90219, 48.19745]
+      },
+      "properties": {
+         "id": "pmb55279",
+         "title": "Neulengbach",
+         "lat": "48.19745",
+         "lon": "15.90219",
+         "timestamp": ["1874-08-02"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2770730/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.63333, 48.2]
+      },
+      "properties": {
+         "id": "pmb49880",
+         "title": "St. Pölten",
+         "lat": "48.2",
+         "lon": "15.63333",
+         "timestamp": ["1874-08-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._P%C3%B6lten", 
+        "wikidata": "http://www.wikidata.org/entity/Q82500", 
+        "geonames": "https://sws.geonames.org/2766429/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.28333, 48.3]
+      },
+      "properties": {
+         "id": "pmb332",
+         "title": "Linz",
+         "lat": "48.3",
+         "lon": "14.28333",
+         "timestamp": ["1874-08-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Linz", 
+        "wikidata": "http://www.wikidata.org/entity/Q41329", 
+        "geonames": "https://sws.geonames.org/2772400/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045141, 47.808997]
+      },
+      "properties": {
+         "id": "pmb40804",
+         "title": "Hotel und Pension Nelböck",
+         "lat": "47.808997",
+         "lon": "13.045141",
+         "timestamp": ["1874-08-02"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.882423, 47.730685]
+      },
+      "properties": {
+         "id": "pmb1181",
+         "title": "Bad Reichenhall",
+         "lat": "47.730685",
+         "lon": "12.882423",
+         "timestamp": ["1874-08-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Reichenhall", 
+        "wikidata": "http://www.wikidata.org/entity/Q487971", 
+        "geonames": "https://sws.geonames.org/2953371/ https://sws.geonames.org/6558205/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
       }
       }
   ]

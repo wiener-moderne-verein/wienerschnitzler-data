@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.211413, 47.968507]
+            [11.709722222222222, 47.49888888888889], 
+            [12.882423, 47.730685], 
+            [13.043176, 47.81233], 
+            [13.045769, 47.813139]
           ]
       },
       "properties": {
@@ -17,17 +20,75 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.211413, 47.968507]
+        "coordinates": [12.882423, 47.730685]
       },
       "properties": {
-         "id": "pmb253420",
-         "title": "Jägermayerstraße 13 »Marienhaus«",
-         "lat": "47.968507",
-         "lon": "16.211413",
+         "id": "pmb1181",
+         "title": "Bad Reichenhall",
+         "lat": "47.730685",
+         "lon": "12.882423",
          "timestamp": ["1874-08-04"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Reichenhall", 
+        "wikidata": "http://www.wikidata.org/entity/Q487971", 
+        "geonames": "https://sws.geonames.org/2953371/ https://sws.geonames.org/6558205/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.043176, 47.81233]
+      },
+      "properties": {
+         "id": "pmb152",
+         "title": "Grand Hotel de L’Europe, G. Jung",
+         "lat": "47.81233",
+         "lon": "13.043176",
+         "timestamp": ["1874-08-04"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1874-08-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.709722222222222, 47.49888888888889]
+      },
+      "properties": {
+         "id": "pmb199216",
+         "title": "Hotel Scholastika",
+         "lat": "47.49888888888889",
+         "lon": "11.709722222222222",
+         "timestamp": ["1874-08-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Scholastika_(Achenkirch)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2248614", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

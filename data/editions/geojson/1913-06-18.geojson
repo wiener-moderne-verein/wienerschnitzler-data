@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.301021, 48.185868], 
+            [16.277425, 48.14917], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -17,20 +19,108 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.277425, 48.14917]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb200352",
+         "title": "Endresstraße 68",
+         "lat": "48.14917",
+         "lon": "16.277425",
          "timestamp": ["1913-06-18"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.301021, 48.185868]
+      },
+      "properties": {
+         "id": "pmb200831",
+         "title": "Zum weißen Engel",
+         "lat": "48.185868",
+         "lon": "16.301021",
+         "timestamp": ["1913-06-18"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q130644539", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1913-06-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }]
       }
       }
   ]

@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.33472, 48.2304], 
+            [16.331527, 48.23428], 
+            [16.26269, 48.24616], 
+            [16.276509500872, 48.241960480337]
           ]
       },
       "properties": {
@@ -17,20 +20,120 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.26269, 48.24616]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb456",
+         "title": "Rohrerhütte",
+         "lat": "48.24616",
+         "lon": "16.26269",
          "timestamp": ["1904-08-16"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1904-08-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.331527, 48.23428]
+      },
+      "properties": {
+         "id": "pmb74",
+         "title": "Restauration Türkenschanz-Park",
+         "lat": "48.23428",
+         "lon": "16.331527",
+         "timestamp": ["1904-08-16"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Harner",
+
+         "p_id": "#211311"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-08-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }
   ]

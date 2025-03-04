@@ -37,7 +37,7 @@
             <xsl:map-entry key="'pmb73'" select="'XXIII., Liesing'"/>
         </xsl:map>
     </xsl:param>
-    <xsl:template match="tei:place[@corresp = '#pmb50']">
+    <xsl:template match="tei:place[@corresp = '#pmb50' and not(descendant::tei:listPlace)]">
         <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
             <xsl:copy-of select="@*"/>
             <xsl:copy-of select="tei:placeName"/>

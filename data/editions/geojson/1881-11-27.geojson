@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.35032, 48.19522], 
+            [16.372564182283, 48.201265597319], 
+            [16.363819, 48.20334], 
+            [16.35, 48.2]
           ]
       },
       "properties": {
@@ -17,19 +20,73 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
          "timestamp": ["1881-11-27"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1881-11-27"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35032, 48.19522]
+      },
+      "properties": {
+         "id": "pmb56",
+         "title": "VI., Mariahilf",
+         "lat": "48.19522",
+         "lon": "16.35032",
+         "timestamp": ["1881-11-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mariahilf", 
+        "wikidata": "http://www.wikidata.org/entity/Q654812", 
+        "geonames": "https://sws.geonames.org/2771932/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35, 48.2]
+      },
+      "properties": {
+         "id": "pmb57",
+         "title": "VII., Neubau",
+         "lat": "48.2",
+         "lon": "16.35",
+         "timestamp": ["1881-11-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Neubau_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q664835", 
+        "geonames": "https://sws.geonames.org/2770853/ https://sws.geonames.org/12214072/", 
+        "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
       }
       }

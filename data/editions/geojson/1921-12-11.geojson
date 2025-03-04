@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.33716, 48.23188], 
+            [16.296768550115, 48.248935842869], 
+            [16.28916, 48.24523]
           ]
       },
       "properties": {
@@ -17,20 +19,112 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.296768550115, 48.248935842869]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb243",
+         "title": "Sommerhaidenweg",
+         "lat": "48.248935842869",
+         "lon": "16.296768550115",
          "timestamp": ["1921-12-11"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wikipedia": "https://de.wikipedia.org/wiki/Sommerhaidenweg", 
+        "wikidata": "http://www.wikidata.org/entity/Q2300521", 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.28916, 48.24523]
+      },
+      "properties": {
+         "id": "pmb91239",
+         "title": "Michaelerberg",
+         "lat": "48.24523",
+         "lon": "16.28916",
+         "timestamp": ["1921-12-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Michaelerberg_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q21859888", 
+        "geonames": "https://sws.geonames.org/2600997/", 
+        "abbr": "T.HLL", 
+        "type": "Hügel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1921-12-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }]
       }
       }
   ]

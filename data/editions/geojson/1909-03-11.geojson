@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.3067984, 48.1806202], 
+            [16.372564182283, 48.201265597319], 
+            [16.36973, 48.20164], 
+            [16.375811, 48.203191], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
@@ -17,20 +21,129 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.3067984, 48.1806202]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb92519",
+         "title": "Schlosspark Schönbrunn",
+         "lat": "48.1806202",
+         "lon": "16.3067984",
          "timestamp": ["1909-03-11"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wikidata": "http://www.wikidata.org/entity/Q21167264", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375811, 48.203191]
+      },
+      "properties": {
+         "id": "pmb233517",
+         "title": "Kaiserpanorama [Wien, Schubertring 4]",
+         "lat": "48.203191",
+         "lon": "16.375811",
+         "timestamp": ["1909-03-11"],
+         "importance": 1, 
+        "abbr": "Vergnügungseinrichtung", 
+        "type": "Vergnügungseinrichtung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36973, 48.20164]
+      },
+      "properties": {
+         "id": "pmb281",
+         "title": "Franz Hartmann, Leidingers Nachfolger",
+         "lat": "48.20164",
+         "lon": "16.36973",
+         "timestamp": ["1909-03-11"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1909-03-11"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1909-03-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }
   ]

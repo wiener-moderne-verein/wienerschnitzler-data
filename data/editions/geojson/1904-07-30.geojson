@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.243324956494, 48.217820644817], 
+            [16.4031, 48.2105], 
+            [16.33472, 48.2304], 
+            [16.291944, 48.233333], 
+            [16.23036, 48.246719]
           ]
       },
       "properties": {
@@ -17,20 +21,134 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.243324956494, 48.217820644817]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb550",
+         "title": "Knödelhütte",
+         "lat": "48.217820644817",
+         "lon": "16.243324956494",
          "timestamp": ["1904-07-30"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wikidata": "http://www.wikidata.org/entity/Q130478917", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23036, 48.246719]
+      },
+      "properties": {
+         "id": "pmb539",
+         "title": "Sophienalpe",
+         "lat": "48.246719",
+         "lon": "16.23036",
+         "timestamp": ["1904-07-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sophienalpe", 
+        "wikidata": "http://www.wikidata.org/entity/Q1787021", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.4031, 48.2105]
+      },
+      "properties": {
+         "id": "pmb234204",
+         "title": "Konstantinhügel",
+         "lat": "48.2105",
+         "lon": "16.4031",
+         "timestamp": ["1904-07-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Konstantinh%C3%BCgel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1782818", 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.291944, 48.233333]
+      },
+      "properties": {
+         "id": "pmb170",
+         "title": "Neuwaldegg",
+         "lat": "48.233333",
+         "lon": "16.291944",
+         "timestamp": ["1904-07-30"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2770640/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-07-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }
   ]

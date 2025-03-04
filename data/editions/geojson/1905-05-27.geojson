@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.33472, 48.2304], 
+            [16.33306, 48.25], 
+            [16.28606, 48.25849], 
+            [16.300034240016, 48.246838181084]
           ]
       },
       "properties": {
@@ -17,19 +20,117 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.28606, 48.25849]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb537",
+         "title": "Dreimarkstein [Wien]",
+         "lat": "48.25849",
+         "lon": "16.28606",
          "timestamp": ["1905-05-27"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dreimarkstein_(Wienerwald)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1257989", 
+        "geonames": "https://sws.geonames.org/3324230/", 
+        "abbr": "L.LCTY", 
+        "type": "Örtlichkeit"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-05-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.300034240016, 48.246838181084]
+      },
+      "properties": {
+         "id": "pmb169",
+         "title": "Pötzleinsdorf",
+         "lat": "48.246838181084",
+         "lon": "16.300034240016",
+         "timestamp": ["1905-05-27"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2768462/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33306, 48.25]
+      },
+      "properties": {
+         "id": "pmb69",
+         "title": "XIX., Döbling",
+         "lat": "48.25",
+         "lon": "16.33306",
+         "timestamp": ["1905-05-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6bling", 
+        "wikidata": "http://www.wikidata.org/entity/Q267360", 
+        "geonames": "https://sws.geonames.org/2780893/ https://sws.geonames.org/2600996/", 
+        "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
       }
       }

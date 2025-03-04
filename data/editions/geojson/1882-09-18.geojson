@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.363819, 48.20334], 
+            [16.357685, 48.216547]
           ]
       },
       "properties": {
@@ -17,20 +18,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.357685, 48.216547]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb41",
+         "title": "Allgemeine Poliklinik",
+         "lat": "48.216547",
+         "lon": "16.357685",
          "timestamp": ["1882-09-18"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=15996", 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Heinrich Auspitz",
+
+         "p_id": "#10792"
+         }, 
+         {
+
+         "p_name": "Johann Schnitzler",
+
+         "p_id": "#12695"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1882-09-18"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
       }
       }
   ]

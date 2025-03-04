@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.363819, 48.20334], 
+            [16.378011, 48.205565], 
+            [16.37192, 48.21429]
           ]
       },
       "properties": {
@@ -17,20 +19,59 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.37192, 48.21429]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb35",
+         "title": "Rudolfsplatz",
+         "lat": "48.21429",
+         "lon": "16.37192",
          "timestamp": ["1884-03-08"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Platz (K.PLT)", 
+        "type": "Platz", 
+        "wohnort": [
+         {
+
+         "p_name": "Samuel Heit",
+
+         "p_id": "#18045"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.378011, 48.205565]
+      },
+      "properties": {
+         "id": "pmb182754",
+         "title": "Gartenbausäle",
+         "lat": "48.205565",
+         "lon": "16.378011",
+         "timestamp": ["1884-03-08"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gartenbausäle", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1884-03-08"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
       }
       }
   ]

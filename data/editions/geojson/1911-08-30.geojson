@@ -8,7 +8,12 @@
         "coordinates": [
             [15.8246089, 47.64618171], 
             [15.83064, 47.63961], 
-            [16.373056, 48.208333]
+            [16.379829498031, 48.187455471378], 
+            [16.379685, 48.188208], 
+            [16.3538456, 48.2134031], 
+            [16.34818654057438, 48.215297237565686], 
+            [16.347492624475, 48.216264483348], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -54,20 +59,200 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.3538456, 48.2134031]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb44",
+         "title": "Riedhof",
+         "lat": "48.2134031",
+         "lon": "16.3538456",
          "timestamp": ["1911-08-30"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Alois ",
+
+         "p_id": "#13318"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34818654057438, 48.215297237565686]
+      },
+      "properties": {
+         "id": "pmb51333",
+         "title": "Alser Straße",
+         "lat": "48.215297237565686",
+         "lon": "16.34818654057438",
+         "timestamp": ["1911-08-30"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "wohnort": [
+         {
+
+         "p_name": "Maria Pia Mitis",
+
+         "p_id": "#144670"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1911-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1911-08-30"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379685, 48.188208]
+      },
+      "properties": {
+         "id": "pmb187206",
+         "title": "Restauration »Am Südbahnhof«",
+         "lat": "48.188208",
+         "lon": "16.379685",
+         "timestamp": ["1911-08-30"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1911-08-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }]
       }
       }
   ]

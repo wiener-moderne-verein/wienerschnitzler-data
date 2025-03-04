@@ -11,7 +11,7 @@
         Elementen ohne ancestors beginnt -->
     <xsl:key name="places-by-ancestor" match="tei:place" use="tei:ancestors/@ana"/>
     <xsl:template match="tei:place[tei:ancestors]"/>
-    <xsl:template match="tei:place[not(tei:ancestors)]">
+    <xsl:template match="tei:place[not(tei:ancestors) and not(descendant::tei:listPlace)]">
         <xsl:variable name="listPlace" as="node()">
             <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:copy-of select="parent::tei:listPlace/tei:place[tei:ancestors]"/>

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.3067984, 48.1806202], 
+            [16.37188, 48.2012], 
+            [16.3, 48.2]
           ]
       },
       "properties": {
@@ -17,19 +19,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.37188, 48.2012]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb167789",
+         "title": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+         "lat": "48.2012",
+         "lon": "16.37188",
          "timestamp": ["1892-08-04"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
+        "abbr": "Ordination", 
+        "type": "Ordination"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3067984, 48.1806202]
+      },
+      "properties": {
+         "id": "pmb92519",
+         "title": "Schlosspark Schönbrunn",
+         "lat": "48.1806202",
+         "lon": "16.3067984",
+         "timestamp": ["1892-08-04"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q21167264", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3, 48.2]
+      },
+      "properties": {
+         "id": "pmb64",
+         "title": "XIV., Penzing",
+         "lat": "48.2",
+         "lon": "16.3",
+         "timestamp": ["1892-08-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Penzing_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q690335", 
+        "geonames": "https://sws.geonames.org/2769121/ https://sws.geonames.org/2775371/", 
+        "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
       }
       }

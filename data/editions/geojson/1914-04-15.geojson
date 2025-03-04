@@ -8,7 +8,6 @@
         "coordinates": [
             [15.46931, 48.3979], 
             [15.518889, 48.395278], 
-            [15.520278, 48.395556], 
             [15.519527, 48.394408], 
             [15.61415, 48.40921]
           ]
@@ -17,26 +16,6 @@
         "name": "15. April 1914"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.520278, 48.395556]
-      },
-      "properties": {
-         "id": "pmb34031",
-         "title": "Dürnstein",
-         "lat": "48.395556",
-         "lon": "15.520278",
-         "timestamp": ["1914-04-15"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%BCrnstein", 
-        "wikidata": "http://www.wikidata.org/entity/Q668600", 
-        "geonames": "https://sws.geonames.org/7871798/", 
-        "abbr": "Besiedelter Ort (A.BSO)", 
-        "type": "Besiedelter Ort"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -52,6 +31,23 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.518889, 48.395278]
+      },
+      "properties": {
+         "id": "pmb34039",
+         "title": "Stift Dürnstein",
+         "lat": "48.395278",
+         "lon": "15.518889",
+         "timestamp": ["1914-04-15"],
+         "importance": 1, 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       },
     {
@@ -90,23 +86,6 @@
         "geonames": "https://sws.geonames.org/2761593/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.518889, 48.395278]
-      },
-      "properties": {
-         "id": "pmb34039",
-         "title": "Stift Dürnstein",
-         "lat": "48.395278",
-         "lon": "15.518889",
-         "timestamp": ["1914-04-15"],
-         "importance": 1, 
-        "abbr": "Kirche (K.KRC)", 
-        "type": "Kirche"
       }
       }
   ]

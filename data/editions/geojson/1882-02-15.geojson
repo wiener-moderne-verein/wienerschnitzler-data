@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.363819, 48.20334], 
+            [16.430054, 48.194558], 
+            [16.37778, 48.22583]
           ]
       },
       "properties": {
@@ -17,20 +19,57 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.37778, 48.22583]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb124",
+         "title": "Augarten",
+         "lat": "48.22583",
+         "lon": "16.37778",
          "timestamp": ["1882-02-15"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wikipedia": "https://de.wikipedia.org/wiki/Augarten", 
+        "wikidata": "http://www.wikidata.org/entity/Q143265", 
+        "geonames": "https://sws.geonames.org/3322733/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1882-02-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752", 
+        "geonames": "https://sws.geonames.org/3322725/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1882-02-15"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
       }
       }
   ]

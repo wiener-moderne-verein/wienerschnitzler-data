@@ -6,9 +6,14 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.16265, 48.19512], 
             [16.17359, 48.15486], 
-            [16.373056, 48.208333], 
-            [16.16265, 48.19512]
+            [16.245159724901, 48.142780596146], 
+            [16.368443, 48.209585], 
+            [16.37997, 48.21366], 
+            [16.395442, 48.217178], 
+            [16.33716, 48.23188], 
+            [16.338016, 48.234091]
           ]
       },
       "properties": {
@@ -19,20 +24,167 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.395442, 48.217178]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb185318",
+         "title": "Restauration Prochaska",
+         "lat": "48.217178",
+         "lon": "16.395442",
          "timestamp": ["1931-05-31"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37997, 48.21366]
+      },
+      "properties": {
+         "id": "pmb584",
+         "title": "Zentralkino",
+         "lat": "48.21366",
+         "lon": "16.37997",
+         "timestamp": ["1931-05-31"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Zentralkino", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.245159724901, 48.142780596146]
+      },
+      "properties": {
+         "id": "pmb555",
+         "title": "Kalksburg",
+         "lat": "48.142780596146",
+         "lon": "16.245159724901",
+         "timestamp": ["1931-05-31"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2774904/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368443, 48.209585]
+      },
+      "properties": {
+         "id": "pmb185484",
+         "title": "Metrophon Konzertsalon und Musikhaus",
+         "lat": "48.209585",
+         "lon": "16.368443",
+         "timestamp": ["1931-05-31"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338016, 48.234091]
+      },
+      "properties": {
+         "id": "pmb236372",
+         "title": "Gregor-Mendel-Straße 34",
+         "lat": "48.234091",
+         "lon": "16.338016",
+         "timestamp": ["1931-05-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1931-05-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }]
       }
       },
     {

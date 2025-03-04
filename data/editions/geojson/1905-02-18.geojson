@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.3538456, 48.2134031], 
+            [16.384444, 48.215], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
@@ -17,20 +19,117 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.3538456, 48.2134031]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb44",
+         "title": "Riedhof",
+         "lat": "48.2134031",
+         "lon": "16.3538456",
          "timestamp": ["1905-02-18"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Alois ",
+
+         "p_id": "#13318"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.384444, 48.215]
+      },
+      "properties": {
+         "id": "pmb118",
+         "title": "Carl-Theater",
+         "lat": "48.215",
+         "lon": "16.384444",
+         "timestamp": ["1905-02-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
+        "wikidata": "http://www.wikidata.org/entity/Q877699", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz von Jauner",
+
+         "p_id": "#2928"
+         }, 
+         {
+
+         "p_name": "Ermete Zacconi",
+
+         "p_id": "#3787"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-02-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       }
   ]

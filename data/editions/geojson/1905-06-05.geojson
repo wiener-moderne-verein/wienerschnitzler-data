@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.2507, 48.09033], 
-            [16.373056, 48.208333]
+            [16.3642, 48.19941], 
+            [16.35807, 48.20546], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
@@ -18,20 +20,94 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.3642, 48.19941]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb37",
+         "title": "Theater an der Wien",
+         "lat": "48.19941",
+         "lon": "16.3642",
          "timestamp": ["1905-06-05"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1905-06-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35807, 48.20546]
+      },
+      "properties": {
+         "id": "pmb460",
+         "title": "Restaurant zur Bellaria (Inh. Johann Seidel)",
+         "lat": "48.20546",
+         "lon": "16.35807",
+         "timestamp": ["1905-06-05"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
       }
       },
     {

@@ -6,7 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.372564182283, 48.201265597319], 
+            [16.33472, 48.2304], 
+            [16.36853, 48.20971], 
+            [16.320833, 48.252222], 
+            [16.28606, 48.25849], 
+            [16.296768550115, 48.248935842869]
           ]
       },
       "properties": {
@@ -17,20 +22,152 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.36853, 48.20971]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb41778",
+         "title": "Restauration Kühfuss, Inh. Eduard Perschill",
+         "lat": "48.20971",
+         "lon": "16.36853",
          "timestamp": ["1910-02-27"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1910-02-27"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.28606, 48.25849]
+      },
+      "properties": {
+         "id": "pmb537",
+         "title": "Dreimarkstein [Wien]",
+         "lat": "48.25849",
+         "lon": "16.28606",
+         "timestamp": ["1910-02-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dreimarkstein_(Wienerwald)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1257989", 
+        "geonames": "https://sws.geonames.org/3324230/", 
+        "abbr": "L.LCTY", 
+        "type": "Örtlichkeit"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.296768550115, 48.248935842869]
+      },
+      "properties": {
+         "id": "pmb243",
+         "title": "Sommerhaidenweg",
+         "lat": "48.248935842869",
+         "lon": "16.296768550115",
+         "timestamp": ["1910-02-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sommerhaidenweg", 
+        "wikidata": "http://www.wikidata.org/entity/Q2300521", 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1910-02-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.320833, 48.252222]
+      },
+      "properties": {
+         "id": "pmb288",
+         "title": "Sievering",
+         "lat": "48.252222",
+         "lon": "16.320833",
+         "timestamp": ["1910-02-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sievering", 
+        "wikidata": "http://www.wikidata.org/entity/Q1692038", 
+        "abbr": "eingemeindeter Ort (A.VOO)", 
+        "type": ""
       }
       }
   ]

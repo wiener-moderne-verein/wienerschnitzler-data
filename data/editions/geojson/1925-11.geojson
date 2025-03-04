@@ -771,17 +771,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.349979, 48.224251]
+        "coordinates": [16.367295, 48.207185]
       },
       "properties": {
-         "id": "pmb185452",
-         "title": "Josef Pohl",
-         "lat": "48.224251",
-         "lon": "16.349979",
-         "timestamp": ["1925-11-16", "1925-11-24"],
-         "importance": 2, 
-        "abbr": "S.REST", 
-        "type": "Restaurant"
+         "id": "pmb235837",
+         "title": "Reitschulgasse 2",
+         "lat": "48.207185",
+         "lon": "16.367295",
+         "timestamp": ["1925-11-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Viktor Eisenmenger",
+
+         "p_id": "#15782"
+         }, 
+         {
+
+         "p_name": "Anna Eisenmenger",
+
+         "p_id": "#15775"
+         }]
       }
       }, 
     {
@@ -848,30 +861,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.367295, 48.207185]
+        "coordinates": [16.349979, 48.224251]
       },
       "properties": {
-         "id": "pmb235837",
-         "title": "Reitschulgasse 2",
-         "lat": "48.207185",
-         "lon": "16.367295",
-         "timestamp": ["1925-11-03"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Viktor Eisenmenger",
-
-         "p_id": "#15782"
-         }, 
-         {
-
-         "p_name": "Anna Eisenmenger",
-
-         "p_id": "#15775"
-         }]
+         "id": "pmb185452",
+         "title": "Josef Pohl",
+         "lat": "48.224251",
+         "lon": "16.349979",
+         "timestamp": ["1925-11-16", "1925-11-24"],
+         "importance": 2, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {

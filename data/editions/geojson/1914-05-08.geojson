@@ -6,14 +6,37 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.2641, 43.759], 
             [11.264722, 43.759722], 
-            [11.27030278, 43.76081111]
+            [11.27030278, 43.76081111], 
+            [11.262222, 43.768611], 
+            [11.259393, 43.7779], 
+            [11.25357, 43.77211], 
+            [11.25611111111111, 43.769444444444446], 
+            [11.246156, 43.771776]
           ]
       },
       "properties": {
         "name": "8. Mai 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.246156, 43.771776]
+      },
+      "properties": {
+         "id": "pmb256209",
+         "title": "Hotel d’Italie [Florenz]",
+         "lat": "43.771776",
+         "lon": "11.246156",
+         "timestamp": ["1914-05-08"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -51,6 +74,100 @@
         "geonames": "https://sws.geonames.org/3167953/", 
         "abbr": "Kirche (K.KRC)", 
         "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.25357, 43.77211]
+      },
+      "properties": {
+         "id": "pmb256238",
+         "title": "Gambrinus Halle [Florenz]",
+         "lat": "43.77211",
+         "lon": "11.25357",
+         "timestamp": ["1914-05-08"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q37102415", 
+        "abbr": "Bierhaus (K.BIR)", 
+        "type": "Bierhaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.259393, 43.7779]
+      },
+      "properties": {
+         "id": "pmb231507",
+         "title": "San Marco [Florenz]",
+         "lat": "43.7779",
+         "lon": "11.259393",
+         "timestamp": ["1914-05-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/San_Marco_(Florenz)", 
+        "wikidata": "http://www.wikidata.org/entity/Q13453137", 
+        "abbr": "Kloster (K.KLS)", 
+        "type": "Kloster"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.262222, 43.768611]
+      },
+      "properties": {
+         "id": "pmb41957",
+         "title": "Santa Croce [Florenz]",
+         "lat": "43.768611",
+         "lon": "11.262222",
+         "timestamp": ["1914-05-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Santa_Croce_(Florenz)", 
+        "wikidata": "http://www.wikidata.org/entity/Q51177", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2641, 43.759]
+      },
+      "properties": {
+         "id": "pmb256261",
+         "title": "Cimitero delle Porte Sante",
+         "lat": "43.759",
+         "lon": "11.2641",
+         "timestamp": ["1914-05-08"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3676928", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.25611111111111, 43.769444444444446]
+      },
+      "properties": {
+         "id": "pmb256264",
+         "title": "Palazzo Vecchio",
+         "lat": "43.769444444444446",
+         "lon": "11.25611111111111",
+         "timestamp": ["1914-05-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Palazzo_Vecchio", 
+        "wikidata": "http://www.wikidata.org/entity/Q271928", 
+        "geonames": "https://sws.geonames.org/6697948/", 
+        "abbr": "S.PAL", 
+        "type": "Palast"
       }
       }
   ]

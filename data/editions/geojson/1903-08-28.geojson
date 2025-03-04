@@ -6,7 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.3691, 48.203], 
+            [16.371211, 48.206416], 
+            [16.379608025302, 48.204824018066], 
+            [16.373175, 48.209532], 
+            [16.361751, 48.215689], 
+            [16.33472, 48.2304], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -17,20 +23,254 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.371211, 48.206416]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb96",
+         "title": "Meissl & Schadn",
+         "lat": "48.206416",
+         "lon": "16.371211",
          "timestamp": ["1903-08-28"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1903-08-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373175, 48.209532]
+      },
+      "properties": {
+         "id": "pmb233280",
+         "title": "Automatenbüffet Quisisana",
+         "lat": "48.209532",
+         "lon": "16.373175",
+         "timestamp": ["1903-08-28"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379608025302, 48.204824018066]
+      },
+      "properties": {
+         "id": "pmb575",
+         "title": "Stadtpark",
+         "lat": "48.204824018066",
+         "lon": "16.379608025302",
+         "timestamp": ["1903-08-28"],
+         "importance": 1, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1903-08-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361751, 48.215689]
+      },
+      "properties": {
+         "id": "pmb232256",
+         "title": "Kolingasse 3",
+         "lat": "48.215689",
+         "lon": "16.361751",
+         "timestamp": ["1903-08-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Fritz Freund",
+
+         "p_id": "#11374"
+         }, 
+         {
+
+         "p_name": "Ida Grünwald",
+
+         "p_id": "#17502"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ida Grünwald",
+
+         "p_id": "#17502"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1903-08-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Armin Horovitz",
+
+         "p_id": "#7914"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Babette ",
+
+         "p_id": "#13623"
+         }, 
+         {
+
+         "p_name": " ?? [Hausmeisterin von Arthur Schnitzler]",
+
+         "p_id": "#27696"
+         }]
       }
       }
   ]

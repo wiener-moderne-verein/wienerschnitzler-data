@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.4496, 48.1864], 
+            [16.3538456, 48.2134031], 
+            [16.37255, 48.203207], 
+            [16.36362, 48.20329]
           ]
       },
       "properties": {
@@ -17,20 +20,79 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.37255, 48.203207]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb186613",
+         "title": "Café Parsifal (Johann Bocksruker)",
+         "lat": "48.203207",
+         "lon": "16.37255",
          "timestamp": ["1889-05-30"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-05-30"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3538456, 48.2134031]
+      },
+      "properties": {
+         "id": "pmb44",
+         "title": "Riedhof",
+         "lat": "48.2134031",
+         "lon": "16.3538456",
+         "timestamp": ["1889-05-30"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Alois ",
+
+         "p_id": "#13318"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.4496, 48.1864]
+      },
+      "properties": {
+         "id": "pmb186493",
+         "title": "Galopprennbahn Freudenau",
+         "lat": "48.1864",
+         "lon": "16.4496",
+         "timestamp": ["1889-05-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Galopprennbahn_Freudenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q1492691", 
+        "geonames": "https://sws.geonames.org/7288340/", 
+        "abbr": "S.RECR", 
+        "type": "Rennbahn"
       }
       }
   ]

@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.41667, 48.33333]
+            [16.33716, 48.23188], 
+            [15.61415, 48.40921], 
+            [15.520278, 48.395556], 
+            [15.519527, 48.394408]
           ]
       },
       "properties": {
@@ -17,20 +20,130 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.41667, 48.33333]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-         "id": "pmb531",
-         "title": "Wachau",
-         "lat": "48.33333",
-         "lon": "15.41667",
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
          "timestamp": ["1914-04-14"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wachau", 
-        "wikidata": "http://www.wikidata.org/entity/Q192201", 
-        "geonames": "https://sws.geonames.org/2762137/", 
-        "abbr": "L.RGN", 
-        "type": "Region"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.520278, 48.395556]
+      },
+      "properties": {
+         "id": "pmb34031",
+         "title": "Dürnstein",
+         "lat": "48.395556",
+         "lon": "15.520278",
+         "timestamp": ["1914-04-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%BCrnstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q668600", 
+        "geonames": "https://sws.geonames.org/7871798/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.61415, 48.40921]
+      },
+      "properties": {
+         "id": "pmb36545",
+         "title": "Krems",
+         "lat": "48.40921",
+         "lon": "15.61415",
+         "timestamp": ["1914-04-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Krems_an_der_Donau", 
+        "wikidata": "http://www.wikidata.org/entity/Q131266", 
+        "geonames": "https://sws.geonames.org/2773547/ https://sws.geonames.org/2773549/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.519527, 48.394408]
+      },
+      "properties": {
+         "id": "pmb256107",
+         "title": "Hotel Richard Löwenherz",
+         "lat": "48.394408",
+         "lon": "15.519527",
+         "timestamp": ["1914-04-14"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

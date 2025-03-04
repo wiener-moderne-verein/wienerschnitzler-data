@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.35736, 48.21533], 
+            [16.384444, 48.215], 
+            [16.388742, 48.218665]
           ]
       },
       "properties": {
@@ -17,20 +19,135 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.388742, 48.218665]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb200410",
+         "title": "Heinestraße 36",
+         "lat": "48.218665",
+         "lon": "16.388742",
          "timestamp": ["1898-01-21"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.384444, 48.215]
+      },
+      "properties": {
+         "id": "pmb118",
+         "title": "Carl-Theater",
+         "lat": "48.215",
+         "lon": "16.384444",
+         "timestamp": ["1898-01-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
+        "wikidata": "http://www.wikidata.org/entity/Q877699", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz von Jauner",
+
+         "p_id": "#2928"
+         }, 
+         {
+
+         "p_name": "Ermete Zacconi",
+
+         "p_id": "#3787"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35736, 48.21533]
+      },
+      "properties": {
+         "id": "pmb168934",
+         "title": "Frankgasse 1",
+         "lat": "48.21533",
+         "lon": "16.35736",
+         "timestamp": ["1898-01-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Johanna Fröhlich",
+
+         "p_id": "#16769"
+         }, 
+         {
+
+         "p_name": "Carl Hasch",
+
+         "p_id": "#167545"
+         }, 
+         {
+
+         "p_name": "Armin Horovitz",
+
+         "p_id": "#7914"
+         }, 
+         {
+
+         "p_name": "Leopold Gegenbauer",
+
+         "p_id": "#167538"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arnold Fröhlich",
+
+         "p_id": "#16760"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Babette ",
+
+         "p_id": "#13623"
+         }, 
+         {
+
+         "p_name": " ?? [Hausmeisterin von Arthur Schnitzler]",
+
+         "p_id": "#27696"
+         }]
       }
       }
   ]

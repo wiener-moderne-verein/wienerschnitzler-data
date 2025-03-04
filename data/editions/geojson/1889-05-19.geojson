@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.37255, 48.203207], 
+            [16.36362, 48.20329]
           ]
       },
       "properties": {
@@ -17,20 +18,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.37255, 48.203207]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb186613",
+         "title": "Café Parsifal (Johann Bocksruker)",
+         "lat": "48.203207",
+         "lon": "16.37255",
          "timestamp": ["1889-05-19"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-05-19"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
       }
       }
   ]

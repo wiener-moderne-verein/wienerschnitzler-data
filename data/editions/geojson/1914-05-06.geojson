@@ -6,16 +6,38 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.25787, 43.770462], 
+            [11.246156, 43.771776], 
+            [11.25063, 43.7748], 
+            [11.25357, 43.77211], 
             [11.250008, 43.765153], 
+            [11.25787, 43.770462], 
+            [11.26516, 43.76292], 
             [11.27030278, 43.76081111], 
-            [11.29487, 43.80455]
+            [11.29487, 43.80455], 
+            [11.38561, 43.95548]
           ]
       },
       "properties": {
         "name": "6. Mai 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.246156, 43.771776]
+      },
+      "properties": {
+         "id": "pmb256209",
+         "title": "Hotel d’Italie [Florenz]",
+         "lat": "43.771776",
+         "lon": "11.246156",
+         "timestamp": ["1914-05-06"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -78,6 +100,60 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.25063, 43.7748]
+      },
+      "properties": {
+         "id": "pmb254949",
+         "title": "Grand Hotel Baglioni",
+         "lat": "43.7748",
+         "lon": "11.25063",
+         "timestamp": ["1914-05-06"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.26516, 43.76292]
+      },
+      "properties": {
+         "id": "pmb92445",
+         "title": "piazzale Michelangelo",
+         "lat": "43.76292",
+         "lon": "11.26516",
+         "timestamp": ["1914-05-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Piazzale_Michelangelo", 
+        "wikidata": "http://www.wikidata.org/entity/Q1348158", 
+        "abbr": "Platz (K.PLT)", 
+        "type": "Platz"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.25357, 43.77211]
+      },
+      "properties": {
+         "id": "pmb256238",
+         "title": "Gambrinus Halle [Florenz]",
+         "lat": "43.77211",
+         "lon": "11.25357",
+         "timestamp": ["1914-05-06"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q37102415", 
+        "abbr": "Bierhaus (K.BIR)", 
+        "type": "Bierhaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.29487, 43.80455]
       },
       "properties": {
@@ -90,6 +166,26 @@
         "geonames": "https://sws.geonames.org/3177019/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.38561, 43.95548]
+      },
+      "properties": {
+         "id": "pmb256232",
+         "title": "Borgo San Lorenzo",
+         "lat": "43.95548",
+         "lon": "11.38561",
+         "timestamp": ["1914-05-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Borgo_San_Lorenzo", 
+        "wikidata": "http://www.wikidata.org/entity/Q82619", 
+        "geonames": "https://sws.geonames.org/6538555/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

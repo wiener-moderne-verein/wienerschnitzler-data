@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.246156, 43.771776], 
+            [11.255185, 43.770331], 
             [11.3166, 43.7768], 
-            [11.24626, 43.77925]
+            [11.322027777777778, 43.78288888888889]
           ]
       },
       "properties": {
@@ -18,20 +20,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.24626, 43.77925]
+        "coordinates": [11.246156, 43.771776]
       },
       "properties": {
-         "id": "pmb263",
-         "title": "Florenz",
-         "lat": "43.77925",
-         "lon": "11.24626",
+         "id": "pmb256209",
+         "title": "Hotel d’Italie [Florenz]",
+         "lat": "43.771776",
+         "lon": "11.246156",
          "timestamp": ["1914-05-05"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Florenz", 
-        "wikidata": "http://www.wikidata.org/entity/Q2044", 
-        "geonames": "https://sws.geonames.org/3176959/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -63,6 +62,43 @@
 
          "p_id": "#2142"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.322027777777778, 43.78288888888889]
+      },
+      "properties": {
+         "id": "pmb167770",
+         "title": "Settignano",
+         "lat": "43.78288888888889",
+         "lon": "11.322027777777778",
+         "timestamp": ["1914-05-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Settignano", 
+        "wikidata": "http://www.wikidata.org/entity/Q942605", 
+        "geonames": "https://sws.geonames.org/3166581/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.255185, 43.770331]
+      },
+      "properties": {
+         "id": "pmb256227",
+         "title": "Gran Ristorante Piccioli Melini",
+         "lat": "43.770331",
+         "lon": "11.255185",
+         "timestamp": ["1914-05-05"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.320833, 48.252222], 
+            [16.33716, 48.23188], 
+            [16.351291, 48.248146], 
+            [16.33255, 48.27617], 
+            [16.311953, 48.273636]
           ]
       },
       "properties": {
@@ -17,20 +21,166 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.33255, 48.27617]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb574",
+         "title": "Kahlenberg",
+         "lat": "48.27617",
+         "lon": "16.33255",
          "timestamp": ["1916-04-23"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wikipedia": "https://de.wikipedia.org/wiki/Kahlenberg", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=22912", 
+        "wikidata": "http://www.wikidata.org/entity/Q697119", 
+        "geonames": "https://sws.geonames.org/3333525/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.320833, 48.252222]
+      },
+      "properties": {
+         "id": "pmb288",
+         "title": "Sievering",
+         "lat": "48.252222",
+         "lon": "16.320833",
+         "timestamp": ["1916-04-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sievering", 
+        "wikidata": "http://www.wikidata.org/entity/Q1692038", 
+        "abbr": "eingemeindeter Ort (A.VOO)", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351291, 48.248146]
+      },
+      "properties": {
+         "id": "pmb248458",
+         "title": "Silbergasse 42",
+         "lat": "48.248146",
+         "lon": "16.351291",
+         "timestamp": ["1916-04-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Piekarski",
+
+         "p_id": "#22569"
+         }, 
+         {
+
+         "p_name": "Eugenie Bachrach",
+
+         "p_id": "#13644"
+         }, 
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.311953, 48.273636]
+      },
+      "properties": {
+         "id": "pmb248475",
+         "title": "Agneswiese",
+         "lat": "48.273636",
+         "lon": "16.311953",
+         "timestamp": ["1916-04-23"],
+         "importance": 1, 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1916-04-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }]
       }
       }
   ]

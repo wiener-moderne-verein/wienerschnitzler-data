@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.37596, 48.20325], 
+            [16.38196, 48.20279], 
+            [16.362269, 48.210795], 
+            [16.357233, 48.212477], 
+            [16.3538456, 48.2134031]
           ]
       },
       "properties": {
@@ -17,20 +21,125 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.3538456, 48.2134031]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb44",
+         "title": "Riedhof",
+         "lat": "48.2134031",
+         "lon": "16.3538456",
          "timestamp": ["1893-01-01"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Alois ",
+
+         "p_id": "#13318"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37596, 48.20325]
+      },
+      "properties": {
+         "id": "pmb48",
+         "title": "Café Union",
+         "lat": "48.20325",
+         "lon": "16.37596",
+         "timestamp": ["1893-01-01"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362269, 48.210795]
+      },
+      "properties": {
+         "id": "pmb194841",
+         "title": "Löwelstraße 16",
+         "lat": "48.210795",
+         "lon": "16.362269",
+         "timestamp": ["1893-01-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franziska Mütter",
+
+         "p_id": "#21766"
+         }, 
+         {
+
+         "p_name": "Dorothea Kohnberger",
+
+         "p_id": "#19509"
+         }, 
+         {
+
+         "p_name": "Innozenz Kohnberger",
+
+         "p_id": "#19512"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357233, 48.212477]
+      },
+      "properties": {
+         "id": "pmb167782",
+         "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+         "lat": "48.212477",
+         "lon": "16.357233",
+         "timestamp": ["1893-01-01"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38196, 48.20279]
+      },
+      "properties": {
+         "id": "pmb41831",
+         "title": "Reisnerstraße",
+         "lat": "48.20279",
+         "lon": "16.38196",
+         "timestamp": ["1893-01-01"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "wohnort": [
+         {
+
+         "p_name": "Friedrich Michael Fels",
+
+         "p_id": "#2450"
+         }, 
+         {
+
+         "p_name": "Wilhelm Goldbaum",
+
+         "p_id": "#7463"
+         }]
       }
       }
   ]

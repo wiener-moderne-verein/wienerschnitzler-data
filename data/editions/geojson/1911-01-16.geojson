@@ -6,7 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.367413, 48.208484], 
+            [16.371296264238, 48.202432234197], 
+            [16.37689, 48.202628], 
+            [16.37271, 48.20907], 
+            [16.383713, 48.211069], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -17,20 +22,184 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.33716, 48.23188]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
          "timestamp": ["1911-01-16"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37271, 48.20907]
+      },
+      "properties": {
+         "id": "pmb1105",
+         "title": "Stephansplatz",
+         "lat": "48.20907",
+         "lon": "16.37271",
+         "timestamp": ["1911-01-16"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Stephansplatz", 
+        "geonames": "https://sws.geonames.org/10345209/", 
+        "abbr": "S.SQR", 
+        "type": "Platz"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.383713, 48.211069]
+      },
+      "properties": {
+         "id": "pmb251530",
+         "title": "Uraniastraße 2",
+         "lat": "48.211069",
+         "lon": "16.383713",
+         "timestamp": ["1911-01-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Oppenheimer",
+
+         "p_id": "#12384"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1911-01-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367413, 48.208484]
+      },
+      "properties": {
+         "id": "pmb236233",
+         "title": "Rozet & Fischmeister, Hofjuwelenhandlung",
+         "lat": "48.208484",
+         "lon": "16.367413",
+         "timestamp": ["1911-01-16"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Ignaz Fischmeister",
+
+         "p_id": "#16299"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37689, 48.202628]
+      },
+      "properties": {
+         "id": "pmb237534",
+         "title": "Fichtegasse 11",
+         "lat": "48.202628",
+         "lon": "16.37689",
+         "timestamp": ["1911-01-16"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Benedikt",
+
+         "p_id": "#10875"
+         }]
       }
       }
   ]

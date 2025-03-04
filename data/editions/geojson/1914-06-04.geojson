@@ -6,7 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.2803, 47.90938]
+            [11.2732, 47.9071], 
+            [11.27453, 47.90798], 
+            [11.31187, 47.90348], 
+            [11.34484, 47.957], 
+            [11.3514, 47.97], 
+            [11.31038, 47.95947]
           ]
       },
       "properties": {
@@ -17,18 +22,113 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.2803, 47.90938]
+        "coordinates": [11.27453, 47.90798]
       },
       "properties": {
-         "id": "pmb44493",
-         "title": "Tutzing",
-         "lat": "47.90938",
-         "lon": "11.2803",
+         "id": "pmb51937",
+         "title": "Hotel Simson",
+         "lat": "47.90798",
+         "lon": "11.27453",
          "timestamp": ["1914-06-04"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2820692/", 
-        "abbr": "P.PPLA4", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2732, 47.9071]
+      },
+      "properties": {
+         "id": "pmb253610",
+         "title": "Bahnhof Tutzing",
+         "lat": "47.9071",
+         "lon": "11.2732",
+         "timestamp": ["1914-06-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Tutzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q801533", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3514, 47.97]
+      },
+      "properties": {
+         "id": "pmb256547",
+         "title": "Schloss Berg",
+         "lat": "47.97",
+         "lon": "11.3514",
+         "timestamp": ["1914-06-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Berg_(Bayern)", 
+        "wikidata": "http://www.wikidata.org/entity/Q74247", 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.31187, 47.90348]
+      },
+      "properties": {
+         "id": "pmb52262",
+         "title": "Starnberger See",
+         "lat": "47.90348",
+         "lon": "11.31187",
+         "timestamp": ["1914-06-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Starnberger_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q131615", 
+        "geonames": "https://sws.geonames.org/2829454/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.34484, 47.957]
+      },
+      "properties": {
+         "id": "pmb52323",
+         "title": "Leoni",
+         "lat": "47.957",
+         "lon": "11.34484",
+         "timestamp": ["1914-06-04"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2878684/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.31038, 47.95947]
+      },
+      "properties": {
+         "id": "pmb34896",
+         "title": "Possenhofen",
+         "lat": "47.95947",
+         "lon": "11.31038",
+         "timestamp": ["1914-06-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Possenhofen", 
+        "wikidata": "http://www.wikidata.org/entity/Q559986", 
+        "geonames": "https://sws.geonames.org/2852520/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

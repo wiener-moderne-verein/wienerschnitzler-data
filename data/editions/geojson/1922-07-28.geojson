@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.298363683529006, 47.94933649585533]
+            [11.298363683529006, 47.94933649585533], 
+            [11.306475, 47.96196]
           ]
       },
       "properties": {
@@ -28,6 +29,24 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.306475, 47.96196]
+      },
+      "properties": {
+         "id": "pmb256554",
+         "title": "Bahnhof Possenhofen",
+         "lat": "47.96196",
+         "lon": "11.306475",
+         "timestamp": ["1922-07-28"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q105475616", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

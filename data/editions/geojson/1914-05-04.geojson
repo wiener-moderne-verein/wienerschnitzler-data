@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.53895, 43.72962], 
+            [11.55645, 43.73294], 
+            [11.246156, 43.771776], 
             [11.2559, 43.768439]
           ]
       },
@@ -13,6 +16,23 @@
         "name": "4. Mai 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.246156, 43.771776]
+      },
+      "properties": {
+         "id": "pmb256209",
+         "title": "Hotel d’Italie [Florenz]",
+         "lat": "43.771776",
+         "lon": "11.246156",
+         "timestamp": ["1914-05-04"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -30,6 +50,42 @@
         "wikidata": "http://www.wikidata.org/entity/Q51252", 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.55645, 43.73294]
+      },
+      "properties": {
+         "id": "pmb91991",
+         "title": "Vallombrosa",
+         "lat": "43.73294",
+         "lon": "11.55645",
+         "timestamp": ["1914-05-04"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3164792/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.53895, 43.72962]
+      },
+      "properties": {
+         "id": "pmb91645",
+         "title": "Saltino",
+         "lat": "43.72962",
+         "lon": "11.53895",
+         "timestamp": ["1914-05-04"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/3168624/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

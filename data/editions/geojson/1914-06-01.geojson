@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.2803, 47.90938]
+            [11.27453, 47.90798], 
+            [11.2732, 47.9071], 
+            [11.282052, 47.910499]
           ]
       },
       "properties": {
@@ -17,18 +19,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.2803, 47.90938]
+        "coordinates": [11.27453, 47.90798]
       },
       "properties": {
-         "id": "pmb44493",
-         "title": "Tutzing",
-         "lat": "47.90938",
-         "lon": "11.2803",
+         "id": "pmb51937",
+         "title": "Hotel Simson",
+         "lat": "47.90798",
+         "lon": "11.27453",
          "timestamp": ["1914-06-01"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2820692/", 
-        "abbr": "P.PPLA4", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.282052, 47.910499]
+      },
+      "properties": {
+         "id": "pmb253566",
+         "title": "Villa Carola",
+         "lat": "47.910499",
+         "lon": "11.282052",
+         "timestamp": ["1914-06-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2732, 47.9071]
+      },
+      "properties": {
+         "id": "pmb253610",
+         "title": "Bahnhof Tutzing",
+         "lat": "47.9071",
+         "lon": "11.2732",
+         "timestamp": ["1914-06-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Tutzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q801533", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

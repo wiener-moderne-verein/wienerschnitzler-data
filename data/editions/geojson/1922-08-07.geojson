@@ -6,9 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.306475, 47.96196], 
             [11.29326, 47.94602], 
+            [11.581667, 48.138889], 
             [11.5711, 48.1358], 
-            [11.561467767769052, 48.13907960520144]
+            [11.561467767769052, 48.13907960520144], 
+            [11.555, 48.140833]
           ]
       },
       "properties": {
@@ -66,6 +69,63 @@
         "wikidata": "http://www.wikidata.org/entity/Q130711545", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1922-08-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.581667, 48.138889]
+      },
+      "properties": {
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
+         "timestamp": ["1922-08-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.306475, 47.96196]
+      },
+      "properties": {
+         "id": "pmb256554",
+         "title": "Bahnhof Possenhofen",
+         "lat": "47.96196",
+         "lon": "11.306475",
+         "timestamp": ["1922-08-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q105475616", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

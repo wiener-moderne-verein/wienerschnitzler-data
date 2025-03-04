@@ -397,23 +397,6 @@
          "lon": "16.299761255551",
          "timestamp": ["1926-09-19"],
          "importance": 1, 
-        "abbr": "Landschaftlicher-Punkt", 
-        "type": "Landschaftlicher Punkt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.2998, 48.272304]
-      },
-      "properties": {
-         "id": "pmb248499",
-         "title": "Jägerwiese",
-         "lat": "48.272304",
-         "lon": "16.2998",
-         "timestamp": ["1926-09-19"],
-         "importance": 1, 
         "abbr": "Wiese", 
         "type": "Wiese"
       }
@@ -886,17 +869,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.349979, 48.224251]
+        "coordinates": [16.367295, 48.207185]
       },
       "properties": {
-         "id": "pmb185452",
-         "title": "Josef Pohl",
-         "lat": "48.224251",
-         "lon": "16.349979",
-         "timestamp": ["1926-09-22"],
+         "id": "pmb235837",
+         "title": "Reitschulgasse 2",
+         "lat": "48.207185",
+         "lon": "16.367295",
+         "timestamp": ["1926-09-14"],
          "importance": 1, 
-        "abbr": "S.REST", 
-        "type": "Restaurant"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Viktor Eisenmenger",
+
+         "p_id": "#15782"
+         }, 
+         {
+
+         "p_name": "Anna Eisenmenger",
+
+         "p_id": "#15775"
+         }]
       }
       }, 
     {
@@ -963,30 +959,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.367295, 48.207185]
+        "coordinates": [16.349979, 48.224251]
       },
       "properties": {
-         "id": "pmb235837",
-         "title": "Reitschulgasse 2",
-         "lat": "48.207185",
-         "lon": "16.367295",
-         "timestamp": ["1926-09-14"],
+         "id": "pmb185452",
+         "title": "Josef Pohl",
+         "lat": "48.224251",
+         "lon": "16.349979",
+         "timestamp": ["1926-09-22"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Viktor Eisenmenger",
-
-         "p_id": "#15782"
-         }, 
-         {
-
-         "p_name": "Anna Eisenmenger",
-
-         "p_id": "#15775"
-         }]
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {

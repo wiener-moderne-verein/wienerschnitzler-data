@@ -8,7 +8,10 @@
         "coordinates": [
             [16.23114, 48.012864], 
             [16.234161, 48.006084], 
-            [16.373056, 48.208333]
+            [16.368516, 48.209258], 
+            [16.365828, 48.213294], 
+            [16.362915, 48.214518], 
+            [16.33472, 48.2304]
           ]
       },
       "properties": {
@@ -19,20 +22,112 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.362915, 48.214518]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb234951",
+         "title": "Reisebureau Schenker & Co.",
+         "lat": "48.214518",
+         "lon": "16.362915",
          "timestamp": ["1906-06-23"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Reisebüro", 
+        "type": "Reisebüro"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368516, 48.209258]
+      },
+      "properties": {
+         "id": "pmb236278",
+         "title": "Johann Heinrich Ita, Hutniederlage",
+         "lat": "48.209258",
+         "lon": "16.368516",
+         "timestamp": ["1906-06-23"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365828, 48.213294]
+      },
+      "properties": {
+         "id": "pmb238108",
+         "title": "Wiener Giro- und Cassenverein",
+         "lat": "48.213294",
+         "lon": "16.365828",
+         "timestamp": ["1906-06-23"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131432049", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1906-06-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
       }
       },
     {

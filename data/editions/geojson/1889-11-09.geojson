@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.36362, 48.20329], 
+            [16.375, 48.205139], 
+            [16.3538456, 48.2134031]
           ]
       },
       "properties": {
@@ -17,20 +19,74 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.3538456, 48.2134031]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb44",
+         "title": "Riedhof",
+         "lat": "48.2134031",
+         "lon": "16.3538456",
          "timestamp": ["1889-11-09"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Riedhof", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Alois ",
+
+         "p_id": "#13318"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375, 48.205139]
+      },
+      "properties": {
+         "id": "pmb19",
+         "title": "Ronacher",
+         "lat": "48.205139",
+         "lon": "16.375",
+         "timestamp": ["1889-11-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ronacher", 
+        "wikidata": "http://www.wikidata.org/entity/Q1244587", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Anna Judic",
+
+         "p_id": "#18926"
+         }, 
+         {
+
+         "p_name": "Heinrich Laube",
+
+         "p_id": "#2702"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-11-09"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
       }
       }
   ]

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.363819, 48.20334], 
+            [16.37601664270439, 48.198498814707754], 
+            [16.368419109635, 48.213598341107]
           ]
       },
       "properties": {
@@ -17,20 +19,61 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.368419109635, 48.213598341107]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb120",
+         "title": "Wipplingerstraße",
+         "lat": "48.213598341107",
+         "lon": "16.368419109635",
          "timestamp": ["1887-11-17"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Leopold Katz",
+
+         "p_id": "#59941"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37601664270439, 48.198498814707754]
+      },
+      "properties": {
+         "id": "pmb53143",
+         "title": "Schwarzenbergplatz",
+         "lat": "48.198498814707754",
+         "lon": "16.37601664270439",
+         "timestamp": ["1887-11-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergplatz", 
+        "wikidata": "http://www.wikidata.org/entity/Q686552", 
+        "geonames": "https://sws.geonames.org/10244814/", 
+        "abbr": "Platz (K.PLT)", 
+        "type": "Platz"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363819, 48.20334]
+      },
+      "properties": {
+         "id": "pmb168765",
+         "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+         "lat": "48.20334",
+         "lon": "16.363819",
+         "timestamp": ["1887-11-17"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
       }
       }
   ]

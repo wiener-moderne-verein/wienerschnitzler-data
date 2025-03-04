@@ -6,7 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [15.33142, 48.22576], 
+            [15.33081, 48.22481], 
+            [16.337778, 48.196667], 
+            [16.33716, 48.23188], 
+            [15.5219, 48.3978], 
+            [15.520278, 48.395556], 
+            [15.519527, 48.394408]
           ]
       },
       "properties": {
@@ -17,20 +23,185 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [15.520278, 48.395556]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb34031",
+         "title": "Dürnstein",
+         "lat": "48.395556",
+         "lon": "15.520278",
          "timestamp": ["1914-04-16"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%BCrnstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q668600", 
+        "geonames": "https://sws.geonames.org/7871798/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.519527, 48.394408]
+      },
+      "properties": {
+         "id": "pmb256107",
+         "title": "Hotel Richard Löwenherz",
+         "lat": "48.394408",
+         "lon": "15.519527",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.5219, 48.3978]
+      },
+      "properties": {
+         "id": "pmb256113",
+         "title": "Burgruine Dürnstein",
+         "lat": "48.3978",
+         "lon": "15.5219",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Burgruine_D%C3%BCrnstein_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q188358", 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.33081, 48.22481]
+      },
+      "properties": {
+         "id": "pmb256121",
+         "title": "Bahnhof Melk",
+         "lat": "48.22481",
+         "lon": "15.33081",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38115917", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.33142, 48.22576]
+      },
+      "properties": {
+         "id": "pmb256124",
+         "title": "Hotel Melkerhof",
+         "lat": "48.22576",
+         "lon": "15.33142",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38084875", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

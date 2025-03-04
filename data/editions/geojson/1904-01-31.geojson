@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.291944, 48.233333], 
+            [16.362746, 48.21997], 
+            [16.33472, 48.2304], 
+            [16.2911, 48.2553]
           ]
       },
       "properties": {
@@ -17,20 +20,122 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.362746, 48.21997]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb231653",
+         "title": "Müllnergasse 3",
+         "lat": "48.21997",
+         "lon": "16.362746",
          "timestamp": ["1904-01-31"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franziska Mütter",
+
+         "p_id": "#21766"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.291944, 48.233333]
+      },
+      "properties": {
+         "id": "pmb170",
+         "title": "Neuwaldegg",
+         "lat": "48.233333",
+         "lon": "16.291944",
+         "timestamp": ["1904-01-31"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2770640/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1904-01-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2911, 48.2553]
+      },
+      "properties": {
+         "id": "pmb242",
+         "title": "Salmannsdorf",
+         "lat": "48.2553",
+         "lon": "16.2911",
+         "timestamp": ["1904-01-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salmannsdorf_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1255079", 
+        "geonames": "https://sws.geonames.org/2766841/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }
   ]

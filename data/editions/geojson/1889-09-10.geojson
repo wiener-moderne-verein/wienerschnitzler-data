@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.373056, 48.208333]
+            [16.29101, 48.17547], 
+            [16.365211, 48.189213], 
+            [16.37255, 48.203207], 
+            [16.36362, 48.20329]
           ]
       },
       "properties": {
@@ -17,19 +20,70 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.373056, 48.208333]
+        "coordinates": [16.37255, 48.203207]
       },
       "properties": {
-         "id": "pmb50",
-         "title": "Wien",
-         "lat": "48.208333",
-         "lon": "16.373056",
+         "id": "pmb186613",
+         "title": "Café Parsifal (Johann Bocksruker)",
+         "lat": "48.203207",
+         "lon": "16.37255",
          "timestamp": ["1889-09-10"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q1741", 
-        "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
-        "abbr": "A.ADM2", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36362, 48.20329]
+      },
+      "properties": {
+         "id": "pmb168768",
+         "title": "Wohnung und Ordination Arthur Schnitzler Burgring 1",
+         "lat": "48.20329",
+         "lon": "16.36362",
+         "timestamp": ["1889-09-10"],
+         "importance": 1, 
+        "abbr": "Ordination", 
+        "type": "Ordination"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365211, 48.189213]
+      },
+      "properties": {
+         "id": "pmb185540",
+         "title": "Gasthof zum Hirschen, Leopold Wallner",
+         "lat": "48.189213",
+         "lon": "16.365211",
+         "timestamp": ["1889-09-10"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.29101, 48.17547]
+      },
+      "properties": {
+         "id": "pmb63",
+         "title": "XIII., Hietzing",
+         "lat": "48.17547",
+         "lon": "16.29101",
+         "timestamp": ["1889-09-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hietzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q636910", 
+        "geonames": "https://sws.geonames.org/2776420/", 
+        "abbr": "A.ADM3", 
         "type": "Verwaltungsbezirk"
       }
       }

@@ -737,6 +737,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.11437, 48.13047]
+      },
+      "properties": {
+         "id": "pmb90889",
+         "title": "Hochroterd",
+         "lat": "48.13047",
+         "lon": "16.11437",
+         "timestamp": ["1926-07-19"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2775967/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36171, 48.2116]
       },
       "properties": {
@@ -823,17 +841,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.349979, 48.224251]
+        "coordinates": [16.367295, 48.207185]
       },
       "properties": {
-         "id": "pmb185452",
-         "title": "Josef Pohl",
-         "lat": "48.224251",
-         "lon": "16.349979",
-         "timestamp": ["1926-07-01"],
+         "id": "pmb235837",
+         "title": "Reitschulgasse 2",
+         "lat": "48.207185",
+         "lon": "16.367295",
+         "timestamp": ["1926-07-20"],
          "importance": 1, 
-        "abbr": "S.REST", 
-        "type": "Restaurant"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Viktor Eisenmenger",
+
+         "p_id": "#15782"
+         }, 
+         {
+
+         "p_name": "Anna Eisenmenger",
+
+         "p_id": "#15775"
+         }]
       }
       }, 
     {
@@ -900,30 +931,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.367295, 48.207185]
+        "coordinates": [16.349979, 48.224251]
       },
       "properties": {
-         "id": "pmb235837",
-         "title": "Reitschulgasse 2",
-         "lat": "48.207185",
-         "lon": "16.367295",
-         "timestamp": ["1926-07-20"],
+         "id": "pmb185452",
+         "title": "Josef Pohl",
+         "lat": "48.224251",
+         "lon": "16.349979",
+         "timestamp": ["1926-07-01"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Viktor Eisenmenger",
-
-         "p_id": "#15782"
-         }, 
-         {
-
-         "p_name": "Anna Eisenmenger",
-
-         "p_id": "#15775"
-         }]
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
@@ -1014,24 +1032,6 @@
          "lon": "15.092312",
          "timestamp": ["1926-07-04"],
          "importance": 1
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.11437, 48.13047]
-      },
-      "properties": {
-         "id": "pmb90889",
-         "title": "Hochroterd",
-         "lat": "48.13047",
-         "lon": "16.11437",
-         "timestamp": ["1926-07-19"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2775967/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
       }
       }, 
     {

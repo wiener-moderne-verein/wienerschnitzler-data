@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.41667, 48.33333]
+            [15.46931, 48.3979], 
+            [15.518889, 48.395278], 
+            [15.520278, 48.395556], 
+            [15.519527, 48.394408], 
+            [15.61415, 48.40921]
           ]
       },
       "properties": {
@@ -17,20 +21,92 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.41667, 48.33333]
+        "coordinates": [15.520278, 48.395556]
       },
       "properties": {
-         "id": "pmb531",
-         "title": "Wachau",
-         "lat": "48.33333",
-         "lon": "15.41667",
+         "id": "pmb34031",
+         "title": "Dürnstein",
+         "lat": "48.395556",
+         "lon": "15.520278",
          "timestamp": ["1914-04-15"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wachau", 
-        "wikidata": "http://www.wikidata.org/entity/Q192201", 
-        "geonames": "https://sws.geonames.org/2762137/", 
-        "abbr": "L.RGN", 
-        "type": "Region"
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%BCrnstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q668600", 
+        "geonames": "https://sws.geonames.org/7871798/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.519527, 48.394408]
+      },
+      "properties": {
+         "id": "pmb256107",
+         "title": "Hotel Richard Löwenherz",
+         "lat": "48.394408",
+         "lon": "15.519527",
+         "timestamp": ["1914-04-15"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.61415, 48.40921]
+      },
+      "properties": {
+         "id": "pmb36545",
+         "title": "Krems",
+         "lat": "48.40921",
+         "lon": "15.61415",
+         "timestamp": ["1914-04-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Krems_an_der_Donau", 
+        "wikidata": "http://www.wikidata.org/entity/Q131266", 
+        "geonames": "https://sws.geonames.org/2773547/ https://sws.geonames.org/2773549/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.46931, 48.3979]
+      },
+      "properties": {
+         "id": "pmb92069",
+         "title": "Weißenkirchen in der Wachau",
+         "lat": "48.3979",
+         "lon": "15.46931",
+         "timestamp": ["1914-04-15"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2761593/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.518889, 48.395278]
+      },
+      "properties": {
+         "id": "pmb34039",
+         "title": "Stift Dürnstein",
+         "lat": "48.395278",
+         "lon": "15.518889",
+         "timestamp": ["1914-04-15"],
+         "importance": 1, 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }
   ]

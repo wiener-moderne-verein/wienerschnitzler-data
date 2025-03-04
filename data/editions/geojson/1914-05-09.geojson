@@ -6,13 +6,33 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.2559, 43.768439]
+            [11.2559, 43.768439], 
+            [11.2571, 43.7685], 
+            [11.251528, 43.770861], 
+            [11.246156, 43.771776]
           ]
       },
       "properties": {
         "name": "9. Mai 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.246156, 43.771776]
+      },
+      "properties": {
+         "id": "pmb256209",
+         "title": "Hotel d’Italie [Florenz]",
+         "lat": "43.771776",
+         "lon": "11.246156",
+         "timestamp": ["1914-05-09"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -30,6 +50,43 @@
         "wikidata": "http://www.wikidata.org/entity/Q51252", 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.251528, 43.770861]
+      },
+      "properties": {
+         "id": "pmb254959",
+         "title": "Gran Caffè Doney",
+         "lat": "43.770861",
+         "lon": "11.251528",
+         "timestamp": ["1914-05-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q1114368", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2571, 43.7685]
+      },
+      "properties": {
+         "id": "pmb256268",
+         "title": "Folies Bergère [Florenz]",
+         "lat": "43.7685",
+         "lon": "11.2571",
+         "timestamp": ["1914-05-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Loggia_del_Grano", 
+        "wikidata": "http://www.wikidata.org/entity/Q3257907", 
+        "abbr": "Vergnügungseinrichtung", 
+        "type": "Vergnügungseinrichtung"
       }
       }
   ]

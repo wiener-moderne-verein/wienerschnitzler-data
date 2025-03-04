@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.24626, 43.77925]
+            [11.246156, 43.771776], 
+            [11.247527, 43.776338]
           ]
       },
       "properties": {
@@ -17,20 +18,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.24626, 43.77925]
+        "coordinates": [11.247527, 43.776338]
       },
       "properties": {
-         "id": "pmb263",
-         "title": "Florenz",
-         "lat": "43.77925",
-         "lon": "11.24626",
+         "id": "pmb52725",
+         "title": "Bahnhof Firenze Santa Maria Novella",
+         "lat": "43.776338",
+         "lon": "11.247527",
          "timestamp": ["1914-05-02"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Florenz", 
-        "wikidata": "http://www.wikidata.org/entity/Q2044", 
-        "geonames": "https://sws.geonames.org/3176959/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Firenze_Santa_Maria_Novella", 
+        "wikidata": "http://www.wikidata.org/entity/Q800761", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.246156, 43.771776]
+      },
+      "properties": {
+         "id": "pmb256209",
+         "title": "Hotel d’Italie [Florenz]",
+         "lat": "43.771776",
+         "lon": "11.246156",
+         "timestamp": ["1914-05-02"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

@@ -12,13 +12,82 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1914-04-01", "1914-04-02", "1914-04-03", "1914-04-04", "1914-04-05", "1914-04-06", "1914-04-07", "1914-04-08", "1914-04-09", "1914-04-10", "1914-04-11", "1914-04-12", "1914-04-13", "1914-04-16", "1914-04-17", "1914-04-18", "1914-04-19", "1914-04-20", "1914-04-21", "1914-04-22", "1914-04-23", "1914-04-24", "1914-04-25", "1914-04-26", "1914-04-27", "1914-04-28", "1914-04-29", "1914-04-30"],
-         "importance": 28, 
+         "timestamp": ["1914-04-01", "1914-04-02", "1914-04-03", "1914-04-04", "1914-04-05", "1914-04-06", "1914-04-07", "1914-04-08", "1914-04-09", "1914-04-10", "1914-04-11", "1914-04-12", "1914-04-13", "1914-04-14", "1914-04-16", "1914-04-17", "1914-04-18", "1914-04-19", "1914-04-20", "1914-04-21", "1914-04-22", "1914-04-23", "1914-04-24", "1914-04-25", "1914-04-26", "1914-04-27", "1914-04-28", "1914-04-29", "1914-04-30"],
+         "importance": 29, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
         "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351111, 48.209583]
+      },
+      "properties": {
+         "id": "pmb40",
+         "title": "Theater in der Josefstadt",
+         "lat": "48.209583",
+         "lon": "16.351111",
+         "timestamp": ["1914-04-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q167619", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.384444, 48.215]
+      },
+      "properties": {
+         "id": "pmb118",
+         "title": "Carl-Theater",
+         "lat": "48.215",
+         "lon": "16.384444",
+         "timestamp": ["1914-04-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
+        "wikidata": "http://www.wikidata.org/entity/Q877699", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz von Jauner",
+
+         "p_id": "#2928"
+         }, 
+         {
+
+         "p_name": "Ermete Zacconi",
+
+         "p_id": "#3787"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1914-04-01", "1914-04-23"],
+         "importance": 2, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
       }
       }, 
     {
@@ -63,6 +132,67 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33255, 48.27617]
+      },
+      "properties": {
+         "id": "pmb574",
+         "title": "Kahlenberg",
+         "lat": "48.27617",
+         "lon": "16.33255",
+         "timestamp": ["1914-04-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kahlenberg", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=22912", 
+        "wikidata": "http://www.wikidata.org/entity/Q697119", 
+        "geonames": "https://sws.geonames.org/3333525/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1914-04-20", "1914-04-29"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.30865, 48.291]
       },
       "properties": {
@@ -83,6 +213,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2, 48.23333]
+      },
+      "properties": {
+         "id": "pmb90821",
+         "title": "Hainbach",
+         "lat": "48.23333",
+         "lon": "16.2",
+         "timestamp": ["1914-04-12"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2776995/", 
+        "abbr": "H.STM", 
+        "type": "Fluss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37312, 48.20122]
       },
       "properties": {
@@ -97,6 +245,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q1630919", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370064, 48.202791]
+      },
+      "properties": {
+         "id": "pmb205",
+         "title": "Hotel Bristol Wien",
+         "lat": "48.202791",
+         "lon": "16.370064",
+         "timestamp": ["1914-04-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=7575", 
+        "wikidata": "http://www.wikidata.org/entity/Q37865047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -157,6 +325,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.33186, 48.22737]
+      },
+      "properties": {
+         "id": "pmb91223",
+         "title": "Melk",
+         "lat": "48.22737",
+         "lon": "15.33186",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Melk", 
+        "wikidata": "http://www.wikidata.org/entity/Q489806", 
+        "geonames": "https://sws.geonames.org/2771682/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.41667, 48.33333]
       },
       "properties": {
@@ -171,6 +359,26 @@
         "geonames": "https://sws.geonames.org/2762137/", 
         "abbr": "L.RGN", 
         "type": "Region"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.61415, 48.40921]
+      },
+      "properties": {
+         "id": "pmb36545",
+         "title": "Krems",
+         "lat": "48.40921",
+         "lon": "15.61415",
+         "timestamp": ["1914-04-14", "1914-04-15"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Krems_an_der_Donau", 
+        "wikidata": "http://www.wikidata.org/entity/Q131266", 
+        "geonames": "https://sws.geonames.org/2773547/ https://sws.geonames.org/2773549/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -207,6 +415,36 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.343402, 48.232147]
+      },
+      "properties": {
+         "id": "pmb199891",
+         "title": "Weimarer Straße 57",
+         "lat": "48.232147",
+         "lon": "16.343402",
+         "timestamp": ["1914-04-02", "1914-04-07"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Bettelheim",
+
+         "p_id": "#35025"
+         }, 
+         {
+
+         "p_name": "Anton Bettelheim",
+
+         "p_id": "#10912"
+         }]
       }
       }, 
     {
@@ -349,8 +587,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1914-04-01", "1914-04-02", "1914-04-03", "1914-04-04", "1914-04-05", "1914-04-06", "1914-04-07", "1914-04-08", "1914-04-09", "1914-04-10", "1914-04-11", "1914-04-12", "1914-04-13", "1914-04-16", "1914-04-17", "1914-04-18", "1914-04-19", "1914-04-20", "1914-04-21", "1914-04-22", "1914-04-23", "1914-04-24", "1914-04-25", "1914-04-26", "1914-04-27", "1914-04-28", "1914-04-29", "1914-04-30"],
-         "importance": 28, 
+         "timestamp": ["1914-04-01", "1914-04-02", "1914-04-03", "1914-04-04", "1914-04-05", "1914-04-06", "1914-04-07", "1914-04-08", "1914-04-09", "1914-04-10", "1914-04-11", "1914-04-12", "1914-04-13", "1914-04-14", "1914-04-16", "1914-04-17", "1914-04-18", "1914-04-19", "1914-04-20", "1914-04-21", "1914-04-22", "1914-04-23", "1914-04-24", "1914-04-25", "1914-04-26", "1914-04-27", "1914-04-28", "1914-04-29", "1914-04-30"],
+         "importance": 29, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -458,6 +696,292 @@
 
          "p_id": "#19026"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351291, 48.248146]
+      },
+      "properties": {
+         "id": "pmb248458",
+         "title": "Silbergasse 42",
+         "lat": "48.248146",
+         "lon": "16.351291",
+         "timestamp": ["1914-04-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Piekarski",
+
+         "p_id": "#22569"
+         }, 
+         {
+
+         "p_name": "Eugenie Bachrach",
+
+         "p_id": "#13644"
+         }, 
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377197811369, 48.200771836002]
+      },
+      "properties": {
+         "id": "pmb240",
+         "title": "Wiener Konzerthaus",
+         "lat": "48.200771836002",
+         "lon": "16.377197811369",
+         "timestamp": ["1914-04-03", "1914-04-06", "1914-04-07"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q695126", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.378274, 48.207267]
+      },
+      "properties": {
+         "id": "pmb255506",
+         "title": "Zedlitzgasse 7",
+         "lat": "48.207267",
+         "lon": "16.378274",
+         "timestamp": ["1914-04-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370101, 48.206963]
+      },
+      "properties": {
+         "id": "pmb256061",
+         "title": "Brüder Herzl, Juweliere",
+         "lat": "48.206963",
+         "lon": "16.370101",
+         "timestamp": ["1914-04-29"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.381938, 48.213741]
+      },
+      "properties": {
+         "id": "pmb256073",
+         "title": "Stone & Blyth, Plaids, Decken und Tee",
+         "lat": "48.213741",
+         "lon": "16.381938",
+         "timestamp": ["1914-04-01"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.520278, 48.395556]
+      },
+      "properties": {
+         "id": "pmb34031",
+         "title": "Dürnstein",
+         "lat": "48.395556",
+         "lon": "15.520278",
+         "timestamp": ["1914-04-14", "1914-04-15", "1914-04-16"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%BCrnstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q668600", 
+        "geonames": "https://sws.geonames.org/7871798/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.519527, 48.394408]
+      },
+      "properties": {
+         "id": "pmb256107",
+         "title": "Hotel Richard Löwenherz",
+         "lat": "48.394408",
+         "lon": "15.519527",
+         "timestamp": ["1914-04-14", "1914-04-15", "1914-04-16"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.46931, 48.3979]
+      },
+      "properties": {
+         "id": "pmb92069",
+         "title": "Weißenkirchen in der Wachau",
+         "lat": "48.3979",
+         "lon": "15.46931",
+         "timestamp": ["1914-04-15"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2761593/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.518889, 48.395278]
+      },
+      "properties": {
+         "id": "pmb34039",
+         "title": "Stift Dürnstein",
+         "lat": "48.395278",
+         "lon": "15.518889",
+         "timestamp": ["1914-04-15"],
+         "importance": 1, 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.5219, 48.3978]
+      },
+      "properties": {
+         "id": "pmb256113",
+         "title": "Burgruine Dürnstein",
+         "lat": "48.3978",
+         "lon": "15.5219",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Burgruine_D%C3%BCrnstein_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q188358", 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.33081, 48.22481]
+      },
+      "properties": {
+         "id": "pmb256121",
+         "title": "Bahnhof Melk",
+         "lat": "48.22481",
+         "lon": "15.33081",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38115917", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.33142, 48.22576]
+      },
+      "properties": {
+         "id": "pmb256124",
+         "title": "Hotel Melkerhof",
+         "lat": "48.22576",
+         "lon": "15.33142",
+         "timestamp": ["1914-04-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38084875", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355896, 48.20993]
+      },
+      "properties": {
+         "id": "pmb256146",
+         "title": "Rathausstraße 7",
+         "lat": "48.20993",
+         "lon": "16.355896",
+         "timestamp": ["1914-04-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3699, 48.206713]
+      },
+      "properties": {
+         "id": "pmb256193",
+         "title": "Ernst Paltscho, Juwelier",
+         "lat": "48.206713",
+         "lon": "16.3699",
+         "timestamp": ["1914-04-29"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34629, 48.21327]
+      },
+      "properties": {
+         "id": "pmb211373",
+         "title": "Wiener Stadttheater [8. Wiener Gemeindebezirk]",
+         "lat": "48.21327",
+         "lon": "16.34629",
+         "timestamp": ["1914-04-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Stadttheater", 
+        "wikidata": "http://www.wikidata.org/entity/Q2569106", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }
   ]

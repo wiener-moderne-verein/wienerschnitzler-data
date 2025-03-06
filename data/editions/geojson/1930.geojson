@@ -1913,8 +1913,8 @@
          "title": "Zum weißen Lamm",
          "lat": "48.2435",
          "lon": "16.30627",
-         "timestamp": ["1930-05-30", "1930-06-20"],
-         "importance": 2, 
+         "timestamp": ["1930-05-30"],
+         "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
       }
@@ -2016,6 +2016,30 @@
         "geonames": "https://sws.geonames.org/2769408/", 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1930-01-07", "1930-01-10", "1930-11-12", "1930-11-18"],
+         "importance": 4, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
       }
       }, 
     {
@@ -2622,30 +2646,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.36042, 52.498402]
-      },
-      "properties": {
-         "id": "pmb235295",
-         "title": "S. Fischer Verlag",
-         "lat": "52.498402",
-         "lon": "13.36042",
-         "timestamp": ["1930-01-07", "1930-01-10", "1930-11-12", "1930-11-18"],
-         "importance": 4, 
-        "abbr": "Bürogebäude (K.BUR)", 
-        "type": "Bürogebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Samuel Fischer",
-
-         "p_id": "#11324"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.273893, 52.490797]
       },
       "properties": {
@@ -3171,6 +3171,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.86875, 46.49619]
+      },
+      "properties": {
+         "id": "pmb91824",
+         "title": "Lej da Staz",
+         "lat": "46.49619",
+         "lon": "9.86875",
+         "timestamp": ["1930-07-22", "1930-07-25"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/11396943/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84172, 46.49894]
+      },
+      "properties": {
+         "id": "pmb52177",
+         "title": "Kulm Hotel",
+         "lat": "46.49894",
+         "lon": "9.84172",
+         "timestamp": ["1930-08-09"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/7290080/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3133253, 48.1807992]
       },
       "properties": {
@@ -3596,24 +3632,6 @@
          "importance": 1, 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [9.84172, 46.49894]
-      },
-      "properties": {
-         "id": "pmb52177",
-         "title": "Kulm Hotel",
-         "lat": "46.49894",
-         "lon": "9.84172",
-         "timestamp": ["1930-08-09"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/7290080/", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       }, 
     {
@@ -5130,24 +5148,6 @@
          "importance": 3, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [9.86875, 46.49619]
-      },
-      "properties": {
-         "id": "pmb91824",
-         "title": "Lej da Staz",
-         "lat": "46.49619",
-         "lon": "9.86875",
-         "timestamp": ["1930-07-22", "1930-07-25"],
-         "importance": 2, 
-        "geonames": "https://sws.geonames.org/11396943/", 
-        "abbr": "H.LK", 
-        "type": "See"
       }
       }, 
     {

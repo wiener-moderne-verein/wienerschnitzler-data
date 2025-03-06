@@ -7,13 +7,35 @@
         "type": "LineString", 
         "coordinates": [
             [13.273893, 52.490797], 
-            [13.384577, 52.51861]
+            [13.38534, 52.47289], 
+            [13.383456, 52.516152], 
+            [13.384577, 52.51861], 
+            [13.376389, 52.5225]
           ]
       },
       "properties": {
         "name": "25. Oktober 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.383456, 52.516152]
+      },
+      "properties": {
+         "id": "pmb127",
+         "title": "Hotel Bristol Berlin",
+         "lat": "52.516152",
+         "lon": "13.383456",
+         "timestamp": ["1914-10-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630839", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -59,6 +81,59 @@
 
          "p_id": "#2657"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.376389, 52.5225]
+      },
+      "properties": {
+         "id": "pmb18",
+         "title": "Lessing-Theater",
+         "lat": "52.5225",
+         "lon": "13.376389",
+         "timestamp": ["1914-10-25"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Armin Wassermann",
+
+         "p_id": "#4540"
+         }, 
+         {
+
+         "p_name": "Gerhard Wiese",
+
+         "p_id": "#35015"
+         }, 
+         {
+
+         "p_name": "Oskar Blumenthal",
+
+         "p_id": "#14328"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.38534, 52.47289]
+      },
+      "properties": {
+         "id": "pmb253377",
+         "title": "Restaurant Töpfer",
+         "lat": "52.47289",
+         "lon": "13.38534",
+         "timestamp": ["1914-10-25"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

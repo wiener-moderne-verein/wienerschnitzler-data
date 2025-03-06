@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.61926, 47.71356]
+            [13.61926, 47.71356], 
+            [13.58333, 47.73333]
           ]
       },
       "properties": {
@@ -28,6 +29,24 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.58333, 47.73333]
+      },
+      "properties": {
+         "id": "pmb92123",
+         "title": "Enge Zimnitz",
+         "lat": "47.73333",
+         "lon": "13.58333",
+         "timestamp": ["1914-08-30"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2604815/", 
+        "abbr": "H.STMI", 
+        "type": "zeitweiliger Fluss"
       }
       }
   ]

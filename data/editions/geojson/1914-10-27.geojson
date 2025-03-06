@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.41053, 52.52437]
+            [13.259, 52.434], 
+            [13.383456, 52.516152], 
+            [13.376111, 52.518611]
           ]
       },
       "properties": {
@@ -17,20 +19,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
+        "coordinates": [13.383456, 52.516152]
       },
       "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
+         "id": "pmb127",
+         "title": "Hotel Bristol Berlin",
+         "lat": "52.516152",
+         "lon": "13.383456",
          "timestamp": ["1914-10-27"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630839", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.376111, 52.518611]
+      },
+      "properties": {
+         "id": "pmb142545",
+         "title": "Reichstag",
+         "lat": "52.518611",
+         "lon": "13.376111",
+         "timestamp": ["1914-10-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Reichstagsgeb%C3%A4ude", 
+        "wikidata": "http://www.wikidata.org/entity/Q151897", 
+        "abbr": "Regierungsgebäude (K.RGB)", 
+        "type": "Regierungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.259, 52.434]
+      },
+      "properties": {
+         "id": "pmb6409",
+         "title": "Zehlendorf",
+         "lat": "52.434",
+         "lon": "13.259",
+         "timestamp": ["1914-10-27"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2805059/", 
+        "abbr": "Bezirk (A.BZK)", 
+        "type": "Bezirk"
       }
       }
   ]

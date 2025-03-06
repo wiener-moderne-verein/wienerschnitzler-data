@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.36171, 48.2116], 
+            [16.374167, 48.213056], 
             [16.33716, 48.23188], 
-            [16.30627, 48.2435]
+            [16.325064, 48.235738]
           ]
       },
       "properties": {
@@ -18,17 +20,60 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.30627, 48.2435]
+        "coordinates": [16.36171, 48.2116]
       },
       "properties": {
-         "id": "pmb147205",
-         "title": "Zum weißen Lamm",
-         "lat": "48.2435",
-         "lon": "16.30627",
+         "id": "pmb235784",
+         "title": "Oppolzergasse 6",
+         "lat": "48.2116",
+         "lon": "16.36171",
          "timestamp": ["1924-06-20"],
          "importance": 1, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374167, 48.213056]
+      },
+      "properties": {
+         "id": "pmb185870",
+         "title": "Hotel Metropole [Wien]",
+         "lat": "48.213056",
+         "lon": "16.374167",
+         "timestamp": ["1924-06-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_M%C3%A9tropole", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630962", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.325064, 48.235738]
+      },
+      "properties": {
+         "id": "pmb185460",
+         "title": "Gastwirtschaft Josef Strasser",
+         "lat": "48.235738",
+         "lon": "16.325064",
+         "timestamp": ["1924-06-20"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       },
     {

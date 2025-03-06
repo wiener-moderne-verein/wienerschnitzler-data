@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [9.84327, 46.49937], 
+            [9.90126, 46.4955], 
             [9.85759, 46.512179]
           ]
       },
@@ -28,6 +30,42 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.90126, 46.4955]
+      },
+      "properties": {
+         "id": "pmb34946",
+         "title": "Pontresina",
+         "lat": "46.4955",
+         "lon": "9.90126",
+         "timestamp": ["1914-07-28"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659172/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84327, 46.49937]
+      },
+      "properties": {
+         "id": "pmb44374",
+         "title": "St. Moritz",
+         "lat": "46.49937",
+         "lon": "9.84327",
+         "timestamp": ["1914-07-28"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658813/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

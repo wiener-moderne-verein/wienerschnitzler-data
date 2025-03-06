@@ -7,8 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [13.61926, 47.71356], 
+            [13.6273, 47.7122], 
             [13.61409473634059, 47.720681363652275], 
             [13.615957763007366, 47.72607979382023], 
+            [13.36667, 47.76667], 
+            [13.045769, 47.813139], 
             [13.043401, 47.802045]
           ]
       },
@@ -40,6 +43,25 @@
 
          "p_id": "#28739"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1914-08-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {
@@ -81,6 +103,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1914-08-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.61409473634059, 47.720681363652275]
       },
       "properties": {
@@ -93,6 +134,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q130390214", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36667, 47.76667]
+      },
+      "properties": {
+         "id": "pmb33",
+         "title": "St. Gilgen",
+         "lat": "47.76667",
+         "lon": "13.36667",
+         "timestamp": ["1914-08-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sankt_Gilgen", 
+        "wikidata": "http://www.wikidata.org/entity/Q264430", 
+        "geonames": "https://sws.geonames.org/2766683/ https://sws.geonames.org/7872214/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

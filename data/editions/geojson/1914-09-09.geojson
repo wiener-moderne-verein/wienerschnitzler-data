@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.337778, 48.196667], 
+            [16.43138888888889, 48.155833333333334], 
+            [16.35689, 48.21787], 
             [16.33716, 48.23188]
           ]
       },
@@ -32,6 +34,61 @@
         "geonames": "https://sws.geonames.org/2761331/", 
         "abbr": "S.RSTN", 
         "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1914-09-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.43138888888889, 48.155833333333334]
+      },
+      "properties": {
+         "id": "pmb192349",
+         "title": "Israelitischer Friedhof",
+         "lat": "48.155833333333334",
+         "lon": "16.43138888888889",
+         "timestamp": ["1914-09-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q68752772", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
       }
       },
     {

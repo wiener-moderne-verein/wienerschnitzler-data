@@ -6,13 +6,58 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.34167, 48.233004], 
+            [16.354705, 48.254808]
           ]
       },
       "properties": {
         "name": "24. Oktober 1918"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1918-10-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Julia Bertha Culp",
+
+         "p_id": "#11123"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -84,6 +129,24 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.354705, 48.254808]
+      },
+      "properties": {
+         "id": "pmb249862",
+         "title": "Armbrustergasse 15",
+         "lat": "48.254808",
+         "lon": "16.354705",
+         "timestamp": ["1918-10-24"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q37827059", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

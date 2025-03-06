@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.03991, 47.80282], 
             [13.043401, 47.802045], 
-            [13.03991, 47.80282]
+            [13.04367, 47.80308], 
+            [13.045769, 47.813139]
           ]
       },
       "properties": {
@@ -55,6 +57,42 @@
          "importance": 1, 
         "abbr": "Fluss (N.FLS)", 
         "type": "Fluss"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04367, 47.80308]
+      },
+      "properties": {
+         "id": "pmb40384",
+         "title": "Hotel Bristol Salzburg",
+         "lat": "47.80308",
+         "lon": "13.04367",
+         "timestamp": ["1924-07-06"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1924-07-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.36265, 48.21156], 
+            [16.368498, 48.212965], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,30 @@
         "name": "30. Mai 1924"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1924-05-30"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -84,6 +110,23 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368498, 48.212965]
+      },
+      "properties": {
+         "id": "pmb256164",
+         "title": "Austria-Bank",
+         "lat": "48.212965",
+         "lon": "16.368498",
+         "timestamp": ["1924-05-30"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank"
       }
       }
   ]

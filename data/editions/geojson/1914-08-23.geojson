@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.61926, 47.71356]
+            [13.61926, 47.71356], 
+            [13.6273, 47.7122], 
+            [13.65875, 47.73049]
           ]
       },
       "properties": {
@@ -28,6 +30,43 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1914-08-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.65875, 47.73049]
+      },
+      "properties": {
+         "id": "pmb91578",
+         "title": "Rettenbach",
+         "lat": "47.73049",
+         "lon": "13.65875",
+         "timestamp": ["1914-08-23"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2604851/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

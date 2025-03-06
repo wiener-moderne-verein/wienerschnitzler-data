@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.78333, 47.61667], 
+            [13.78453, 47.6698], 
             [13.61926, 47.71356]
           ]
       },
@@ -28,6 +30,44 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78453, 47.6698]
+      },
+      "properties": {
+         "id": "pmb34401",
+         "title": "Altaussee",
+         "lat": "47.6698",
+         "lon": "13.78453",
+         "timestamp": ["1914-08-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Altaussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q262951", 
+        "geonames": "https://sws.geonames.org/7872434/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78333, 47.61667]
+      },
+      "properties": {
+         "id": "pmb36473",
+         "title": "Obertressen",
+         "lat": "47.61667",
+         "lon": "13.78333",
+         "timestamp": ["1914-08-26"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2769653/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

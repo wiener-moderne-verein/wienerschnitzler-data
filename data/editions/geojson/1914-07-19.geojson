@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [9.439899, 46.6976], 
+            [9.44050000631, 46.6981999733], 
             [9.28458, 46.83705]
           ]
       },
@@ -13,6 +15,23 @@
         "name": "19. Juli 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.439899, 46.6976]
+      },
+      "properties": {
+         "id": "pmb254655",
+         "title": "Post-Hotel Thusis",
+         "lat": "46.6976",
+         "lon": "9.439899",
+         "timestamp": ["1914-07-19"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -31,6 +50,24 @@
         "geonames": "https://sws.geonames.org/2660757/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.44050000631, 46.6981999733]
+      },
+      "properties": {
+         "id": "pmb254658",
+         "title": "Bahnhof Thusis",
+         "lat": "46.6981999733",
+         "lon": "9.44050000631",
+         "timestamp": ["1914-07-19"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q7799482", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

@@ -1491,6 +1491,7 @@
          "lon": "15.805582",
          "timestamp": ["1927-02-12", "1927-02-13", "1927-02-14"],
          "importance": 3, 
+        "wikidata": "http://www.wikidata.org/entity/Q132938395", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
       }
@@ -1960,6 +1961,30 @@
         "wikidata": "http://www.wikidata.org/entity/Q116137758", 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1927-11-29", "1927-12-02"],
+         "importance": 2, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
       }
       }, 
     {
@@ -2811,30 +2836,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.36042, 52.498402]
-      },
-      "properties": {
-         "id": "pmb235295",
-         "title": "S. Fischer Verlag",
-         "lat": "52.498402",
-         "lon": "13.36042",
-         "timestamp": ["1927-11-29", "1927-12-02"],
-         "importance": 2, 
-        "abbr": "Bürogebäude (K.BUR)", 
-        "type": "Bürogebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Samuel Fischer",
-
-         "p_id": "#11324"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.273893, 52.490797]
       },
       "properties": {
@@ -3263,6 +3264,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.3772, 52.5087]
+      },
+      "properties": {
+         "id": "pmb246994",
+         "title": "Hotel Fürstenhof [Berlin]",
+         "lat": "52.5087",
+         "lon": "13.3772",
+         "timestamp": ["1927-01-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_F%C3%BCrstenhof_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630898", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36171, 48.2116]
       },
       "properties": {
@@ -3685,25 +3705,6 @@
 
          "p_id": "#12692"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.3772, 52.5087]
-      },
-      "properties": {
-         "id": "pmb246994",
-         "title": "Hotel Fürstenhof [Berlin]",
-         "lat": "52.5087",
-         "lon": "13.3772",
-         "timestamp": ["1927-01-02"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_F%C3%BCrstenhof_(Berlin)", 
-        "wikidata": "http://www.wikidata.org/entity/Q1630898", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       }, 
     {

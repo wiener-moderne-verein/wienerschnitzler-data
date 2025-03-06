@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.90126, 46.4955]
+            [9.89606998217, 46.4906499735], 
+            [9.44050000631, 46.6981999733], 
+            [9.439899, 46.6976]
           ]
       },
       "properties": {
@@ -17,18 +19,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.90126, 46.4955]
+        "coordinates": [9.439899, 46.6976]
       },
       "properties": {
-         "id": "pmb34946",
-         "title": "Pontresina",
-         "lat": "46.4955",
-         "lon": "9.90126",
+         "id": "pmb254655",
+         "title": "Post-Hotel Thusis",
+         "lat": "46.6976",
+         "lon": "9.439899",
          "timestamp": ["1914-07-21"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2659172/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.89606998217, 46.4906499735]
+      },
+      "properties": {
+         "id": "pmb254898",
+         "title": "Bahnhof Pontresina",
+         "lat": "46.4906499735",
+         "lon": "9.89606998217",
+         "timestamp": ["1914-07-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q7228365", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.44050000631, 46.6981999733]
+      },
+      "properties": {
+         "id": "pmb254658",
+         "title": "Bahnhof Thusis",
+         "lat": "46.6981999733",
+         "lon": "9.44050000631",
+         "timestamp": ["1914-07-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q7799482", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

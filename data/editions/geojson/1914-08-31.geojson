@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.61926, 47.71356], 
-            [13.36667, 47.76667]
+            [13.661369, 47.691422], 
+            [13.647559, 47.702261], 
+            [13.648174, 47.704823], 
+            [13.61926, 47.71356]
           ]
       },
       "properties": {
@@ -35,20 +37,50 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.36667, 47.76667]
+        "coordinates": [13.648174, 47.704823]
       },
       "properties": {
-         "id": "pmb33",
-         "title": "St. Gilgen",
-         "lat": "47.76667",
-         "lon": "13.36667",
+         "id": "pmb92482",
+         "title": "Rettenbach Wildnis",
+         "lat": "47.704823",
+         "lon": "13.648174",
          "timestamp": ["1914-08-31"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Sankt_Gilgen", 
-        "wikidata": "http://www.wikidata.org/entity/Q264430", 
-        "geonames": "https://sws.geonames.org/2766683/ https://sws.geonames.org/7872214/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "abbr": "Naturdenkmal", 
+        "type": "Naturdenkmal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.647559, 47.702261]
+      },
+      "properties": {
+         "id": "pmb92321",
+         "title": "Kaiser Jubiläumsweg",
+         "lat": "47.702261",
+         "lon": "13.647559",
+         "timestamp": ["1914-08-31"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.661369, 47.691422]
+      },
+      "properties": {
+         "id": "pmb92293",
+         "title": "Hoisnradalm",
+         "lat": "47.691422",
+         "lon": "13.661369",
+         "timestamp": ["1914-08-31"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q125306785"
       }
       }
   ]

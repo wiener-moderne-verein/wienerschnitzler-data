@@ -6,10 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.384577, 52.51861], 
-            [13.383708, 52.516981], 
+            [13.36042, 52.498402], 
+            [13.38534, 52.47289], 
+            [13.388194, 52.521572], 
             [13.385556, 52.518889], 
-            [13.388194, 52.521572]
+            [13.384577, 52.51861], 
+            [13.383708, 52.516981]
           ]
       },
       "properties": {
@@ -84,6 +86,47 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.38534, 52.47289]
+      },
+      "properties": {
+         "id": "pmb253377",
+         "title": "Restaurant Töpfer",
+         "lat": "52.47289",
+         "lon": "13.38534",
+         "timestamp": ["1904-02-16"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36042, 52.498402]
+      },
+      "properties": {
+         "id": "pmb235295",
+         "title": "S. Fischer Verlag",
+         "lat": "52.498402",
+         "lon": "13.36042",
+         "timestamp": ["1904-02-16"],
+         "importance": 1, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Samuel Fischer",
+
+         "p_id": "#11324"
+         }]
       }
       }
   ]

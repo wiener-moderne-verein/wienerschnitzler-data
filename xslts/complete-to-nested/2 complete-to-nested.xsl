@@ -7,7 +7,7 @@
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:output indent="true"/>
     <xsl:param name="listplace"
-        select="document('../../data/indices/listplace.xml')/tei:TEI[1]/tei:text[1]/tei:body[1]/tei:listPlace[1]"/>
+        select="document('../../input-data/listplace.xml')/tei:TEI[1]/tei:text[1]/tei:body[1]/tei:listPlace[1]"/>
     <!-- Der zweite Schritt kürzt die Inhalte der partOf-Beziehung auf jene, die auch in einem anderen place vorkommen,
        da nur für diese eine Hierarchie hergestellt wird
    

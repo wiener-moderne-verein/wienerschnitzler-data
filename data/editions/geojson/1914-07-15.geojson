@@ -8,10 +8,12 @@
         "coordinates": [
             [15.02998, 47.8612], 
             [14.98333, 47.65], 
-            [15.31639, 47.77306], 
             [15.16667, 47.66667], 
+            [15.3175, 47.773559], 
+            [15.318656, 47.772831], 
             [16.33787, 48.19653], 
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [15.623889, 48.208056]
           ]
       },
       "properties": {
@@ -168,20 +170,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.31639, 47.77306]
+        "coordinates": [15.318656, 47.772831]
       },
       "properties": {
-         "id": "pmb431",
-         "title": "Mariazell",
-         "lat": "47.77306",
-         "lon": "15.31639",
+         "id": "pmb52179",
+         "title": "Basilika Mariä Geburt",
+         "lat": "47.772831",
+         "lon": "15.318656",
          "timestamp": ["1914-07-15"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Mariazell", 
-        "wikidata": "http://www.wikidata.org/entity/Q264201", 
-        "geonames": "https://sws.geonames.org/2771893/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.3175, 47.773559]
+      },
+      "properties": {
+         "id": "pmb256717",
+         "title": "Hotel Schwarzer Adler [Mariazell]",
+         "lat": "47.773559",
+         "lon": "15.3175",
+         "timestamp": ["1914-07-15"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.623889, 48.208056]
+      },
+      "properties": {
+         "id": "pmb256727",
+         "title": "St. Pölten Hauptbahnhof",
+         "lat": "48.208056",
+         "lon": "15.623889",
+         "timestamp": ["1914-07-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._P%C3%B6lten_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q662913", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

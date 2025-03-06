@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.357141, 48.21016], 
             [16.35689, 48.21787], 
+            [16.368628, 48.215977], 
             [16.33716, 48.23188]
           ]
       },
@@ -122,6 +124,40 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357141, 48.21016]
+      },
+      "properties": {
+         "id": "pmb256777",
+         "title": "Magistratsabteilung 5, Wohnbausteueramt [1924]",
+         "lat": "48.21016",
+         "lon": "16.357141",
+         "timestamp": ["1924-05-12"],
+         "importance": 1, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368628, 48.215977]
+      },
+      "properties": {
+         "id": "pmb256784",
+         "title": "Zelinkagasse 3",
+         "lat": "48.215977",
+         "lon": "16.368628",
+         "timestamp": ["1924-05-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

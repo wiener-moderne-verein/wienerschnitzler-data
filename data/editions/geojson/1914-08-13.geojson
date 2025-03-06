@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.50266, 47.00601]
+            [9.5038033, 46.999685], 
+            [9.502779, 47.001072], 
+            [9.500844, 47.001225]
           ]
       },
       "properties": {
@@ -17,18 +19,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.50266, 47.00601]
+        "coordinates": [9.500844, 47.001225]
       },
       "properties": {
-         "id": "pmb49990",
-         "title": "Bad Ragaz",
-         "lat": "47.00601",
-         "lon": "9.50266",
+         "id": "pmb256955",
+         "title": "Hotel Krone",
+         "lat": "47.001225",
+         "lon": "9.500844",
          "timestamp": ["1914-08-13"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2661644/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.502779, 47.001072]
+      },
+      "properties": {
+         "id": "pmb256958",
+         "title": "Kurpark [Bad Ragaz]",
+         "lat": "47.001072",
+         "lon": "9.502779",
+         "timestamp": ["1914-08-13"],
+         "importance": 1, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.5038033, 46.999685]
+      },
+      "properties": {
+         "id": "pmb256993",
+         "title": "Thermenbad Bad Ragaz",
+         "lat": "46.999685",
+         "lon": "9.5038033",
+         "timestamp": ["1914-08-13"],
+         "importance": 1, 
+        "abbr": "Schwimmbad (K.BAD)", 
+        "type": "Schwimmbad"
       }
       }
   ]

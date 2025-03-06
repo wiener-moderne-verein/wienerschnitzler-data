@@ -7,8 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [9.85844000465, 46.5139799692], 
-            [9.83723, 46.80429], 
-            [9.50266, 47.00601]
+            [9.826847, 46.800661], 
+            [9.84211002283, 46.8097199729], 
+            [9.505201, 47.010243], 
+            [9.500844, 47.001225]
           ]
       },
       "properties": {
@@ -37,38 +39,71 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.50266, 47.00601]
+        "coordinates": [9.505201, 47.010243]
       },
       "properties": {
-         "id": "pmb49990",
-         "title": "Bad Ragaz",
-         "lat": "47.00601",
-         "lon": "9.50266",
+         "id": "pmb256952",
+         "title": "Bad Ragaz Bahnhof",
+         "lat": "47.010243",
+         "lon": "9.505201",
          "timestamp": ["1914-08-08"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2661644/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q29786372", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.83723, 46.80429]
+        "coordinates": [9.500844, 47.001225]
       },
       "properties": {
-         "id": "pmb892",
-         "title": "Davos",
-         "lat": "46.80429",
-         "lon": "9.83723",
+         "id": "pmb256955",
+         "title": "Hotel Krone",
+         "lat": "47.001225",
+         "lon": "9.500844",
          "timestamp": ["1914-08-08"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Davos", 
-        "wikidata": "http://www.wikidata.org/entity/Q68097", 
-        "geonames": "https://sws.geonames.org/2661039/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84211002283, 46.8097199729]
+      },
+      "properties": {
+         "id": "pmb256946",
+         "title": "Davos Dorf Bahnhof",
+         "lat": "46.8097199729",
+         "lon": "9.84211002283",
+         "timestamp": ["1914-08-08"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q5242109", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.826847, 46.800661]
+      },
+      "properties": {
+         "id": "pmb256949",
+         "title": "Grand Hotel Belvédère, Davos",
+         "lat": "46.800661",
+         "lon": "9.826847",
+         "timestamp": ["1914-08-08"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q29479696", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

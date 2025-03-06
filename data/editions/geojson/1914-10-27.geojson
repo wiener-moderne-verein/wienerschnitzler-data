@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.259, 52.434], 
+            [13.216666666667, 52.442777777778], 
+            [13.232545119, 52.443377061], 
+            [13.23635, 52.442], 
             [13.383456, 52.516152], 
             [13.376111, 52.518611]
           ]
@@ -57,18 +59,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.259, 52.434]
+        "coordinates": [13.232545119, 52.443377061]
       },
       "properties": {
-         "id": "pmb6409",
-         "title": "Zehlendorf",
-         "lat": "52.434",
-         "lon": "13.259",
+         "id": "pmb257150",
+         "title": "Schillerstraße 5",
+         "lat": "52.443377061",
+         "lon": "13.232545119",
          "timestamp": ["1914-10-27"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2805059/", 
-        "abbr": "Bezirk (A.BZK)", 
-        "type": "Bezirk"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.23635, 52.442]
+      },
+      "properties": {
+         "id": "pmb257156",
+         "title": "Waldsee [Zehlendorf]",
+         "lat": "52.442",
+         "lon": "13.23635",
+         "timestamp": ["1914-10-27"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q106778863", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.216666666667, 52.442777777778]
+      },
+      "properties": {
+         "id": "pmb257160",
+         "title": "Schlachtensee",
+         "lat": "52.442777777778",
+         "lon": "13.216666666667",
+         "timestamp": ["1914-10-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schlachtensee", 
+        "wikidata": "http://www.wikidata.org/entity/Q896095", 
+        "geonames": "https://sws.geonames.org/6942404/", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
       }
       }
   ]

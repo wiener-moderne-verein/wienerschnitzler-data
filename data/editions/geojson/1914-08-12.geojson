@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.50266, 47.00601]
+            [9.5499361111111, 46.97175], 
+            [9.53115, 47.00472], 
+            [9.500844, 47.001225]
           ]
       },
       "properties": {
@@ -17,18 +19,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.50266, 47.00601]
+        "coordinates": [9.500844, 47.001225]
       },
       "properties": {
-         "id": "pmb49990",
-         "title": "Bad Ragaz",
-         "lat": "47.00601",
-         "lon": "9.50266",
+         "id": "pmb256955",
+         "title": "Hotel Krone",
+         "lat": "47.001225",
+         "lon": "9.500844",
          "timestamp": ["1914-08-12"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2661644/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.53115, 47.00472]
+      },
+      "properties": {
+         "id": "pmb91191",
+         "title": "Maienfeld",
+         "lat": "47.00472",
+         "lon": "9.53115",
+         "timestamp": ["1914-08-12"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659787/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.5499361111111, 46.97175]
+      },
+      "properties": {
+         "id": "pmb256989",
+         "title": "Tardisbrücke",
+         "lat": "46.97175",
+         "lon": "9.5499361111111",
+         "timestamp": ["1914-08-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tardisbr%C3%BCcke", 
+        "wikidata": "http://www.wikidata.org/entity/Q2394052", 
+        "abbr": "Brücke (K.BRK)", 
+        "type": "Brücke"
       }
       }
   ]

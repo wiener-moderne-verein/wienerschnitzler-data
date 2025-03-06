@@ -6,11 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.478623, 47.16841], 
-            [9.50266, 47.00601], 
+            [9.500844, 47.001225], 
+            [9.505201, 47.010243], 
             [9.604167, 47.241111], 
             [9.59854, 47.237813], 
-            [9.597851, 47.23838]
+            [9.597851, 47.23838], 
+            [9.478623, 47.16841]
           ]
       },
       "properties": {
@@ -21,18 +22,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.50266, 47.00601]
+        "coordinates": [9.500844, 47.001225]
       },
       "properties": {
-         "id": "pmb49990",
-         "title": "Bad Ragaz",
-         "lat": "47.00601",
-         "lon": "9.50266",
+         "id": "pmb256955",
+         "title": "Hotel Krone",
+         "lat": "47.001225",
+         "lon": "9.500844",
          "timestamp": ["1914-08-15"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2661644/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.505201, 47.010243]
+      },
+      "properties": {
+         "id": "pmb256952",
+         "title": "Bad Ragaz Bahnhof",
+         "lat": "47.010243",
+         "lon": "9.505201",
+         "timestamp": ["1914-08-15"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q29786372", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {

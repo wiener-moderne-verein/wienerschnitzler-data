@@ -7,6 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [9.89606998217, 46.4906499735], 
+            [9.90353, 46.4922], 
+            [9.87363000466, 46.5337600104], 
+            [9.74674998698, 46.6310700318], 
             [9.44050000631, 46.6981999733], 
             [9.439899, 46.6976]
           ]
@@ -54,6 +57,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.90353, 46.4922]
+      },
+      "properties": {
+         "id": "pmb256781",
+         "title": "Hotel Pontresina",
+         "lat": "46.4922",
+         "lon": "9.90353",
+         "timestamp": ["1914-07-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sporthotel_Pontresina", 
+        "wikidata": "http://www.wikidata.org/entity/Q1653974", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.44050000631, 46.6981999733]
       },
       "properties": {
@@ -64,6 +86,42 @@
          "timestamp": ["1914-07-21"],
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q7799482", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.74674998698, 46.6310700318]
+      },
+      "properties": {
+         "id": "pmb256771",
+         "title": "Bergün Bahnhof",
+         "lat": "46.6310700318",
+         "lon": "9.74674998698",
+         "timestamp": ["1914-07-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q4891755", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.87363000466, 46.5337600104]
+      },
+      "properties": {
+         "id": "pmb256774",
+         "title": "Samedan Bahnhof",
+         "lat": "46.5337600104",
+         "lon": "9.87363000466",
+         "timestamp": ["1914-07-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q7409226", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
       }

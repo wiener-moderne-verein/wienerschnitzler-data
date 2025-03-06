@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [9.84003, 46.509259], 
             [9.84327, 46.49937], 
-            [9.85759, 46.512179]
+            [9.85759, 46.512179], 
+            [9.8719444444444, 46.533611111111]
           ]
       },
       "properties": {
@@ -29,6 +31,43 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84003, 46.509259]
+      },
+      "properties": {
+         "id": "pmb256930",
+         "title": "Alp Laret",
+         "lat": "46.509259",
+         "lon": "9.84003",
+         "timestamp": ["1914-08-03"],
+         "importance": 1, 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8719444444444, 46.533611111111]
+      },
+      "properties": {
+         "id": "pmb202117",
+         "title": "Samedan",
+         "lat": "46.533611111111",
+         "lon": "9.8719444444444",
+         "timestamp": ["1914-08-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Samedan", 
+        "wikidata": "http://www.wikidata.org/entity/Q69085", 
+        "geonames": "https://sws.geonames.org/2658846/ https://sws.geonames.org/7287048/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       },
     {

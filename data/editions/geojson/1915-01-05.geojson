@@ -7,6 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.369444, 48.203889], 
+            [16.377197811369, 48.200771836002], 
+            [16.37092, 48.20576], 
+            [16.371571, 48.208448], 
             [16.33716, 48.23188]
           ]
       },
@@ -28,7 +31,68 @@
          "timestamp": ["1915-01-05"],
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1915-01-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37092, 48.20576]
+      },
+      "properties": {
+         "id": "pmb1120",
+         "title": "Hotel Krantz",
+         "lat": "48.20576",
+         "lon": "16.37092",
+         "timestamp": ["1915-01-05"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Hotel_Krantz", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377197811369, 48.200771836002]
+      },
+      "properties": {
+         "id": "pmb240",
+         "title": "Wiener Konzerthaus",
+         "lat": "48.200771836002",
+         "lon": "16.377197811369",
+         "timestamp": ["1915-01-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q695126", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": ""
       }
       },
     {
@@ -45,7 +109,7 @@
          "timestamp": ["1915-01-05"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "", 
         "wohnort": [
          {
 

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.350537, 48.211639], 
+            [16.35137, 48.21346], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,72 @@
         "name": "30. November 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350537, 48.211639]
+      },
+      "properties": {
+         "id": "pmb255897",
+         "title": "Florianigasse 23",
+         "lat": "48.211639",
+         "lon": "16.350537",
+         "timestamp": ["1914-11-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1914-11-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "", 
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -27,7 +95,7 @@
          "timestamp": ["1914-11-30"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "", 
         "wohnort": [
          {
 

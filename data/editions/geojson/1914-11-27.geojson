@@ -6,13 +6,58 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.34167, 48.233004], 
+            [16.351291, 48.248146]
           ]
       },
       "properties": {
         "name": "27. November 1914"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1914-11-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Julia Bertha Culp",
+
+         "p_id": "#11123"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -27,7 +72,7 @@
          "timestamp": ["1914-11-27"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "", 
         "wohnort": [
          {
 
@@ -83,6 +128,42 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351291, 48.248146]
+      },
+      "properties": {
+         "id": "pmb248458",
+         "title": "Silbergasse 42",
+         "lat": "48.248146",
+         "lon": "16.351291",
+         "timestamp": ["1914-11-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Piekarski",
+
+         "p_id": "#22569"
+         }, 
+         {
+
+         "p_name": "Eugenie Bachrach",
+
+         "p_id": "#13644"
+         }, 
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
          }]
       }
       }

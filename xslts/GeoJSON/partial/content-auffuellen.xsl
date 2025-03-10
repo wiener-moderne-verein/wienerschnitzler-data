@@ -5,7 +5,7 @@
    
     <!-- das hier holt aus der datei input-data/listplace.xml die details zu 
     einem ort -->
-    <xsl:param name="listPlace" select="document('../../data/indices/listPlace.xml')" as="node()"/>
+    <xsl:param name="listPlace" select="document('../../input-data/listPlace.xml')" as="node()"/>
     <xsl:key name="listPlace-lookup" match="tei:place"
         use="replace(replace(@xml:id, 'place__', ''), 'pmb', '')"/>
     <xsl:template match="tei:place" mode="place-lookup">

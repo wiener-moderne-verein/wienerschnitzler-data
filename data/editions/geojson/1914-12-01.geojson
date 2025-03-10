@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.368564, 48.197433], 
+            [16.368215, 48.197363], 
+            [16.366548, 48.21306], 
             [16.35689, 48.21787], 
+            [16.338443, 48.234039], 
             [16.33716, 48.23188]
           ]
       },
@@ -19,24 +21,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.368564, 48.197433]
+        "coordinates": [16.368215, 48.197363]
       },
       "properties": {
-         "id": "pmb92238",
-         "title": "Frankenberggasse",
-         "lat": "48.197433",
-         "lon": "16.368564",
+         "id": "pmb257214",
+         "title": "Frankenberggasse 11",
+         "lat": "48.197363",
+         "lon": "16.368215",
          "timestamp": ["1914-12-01"],
          "importance": 1, 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
-        "wohnort": [
-         {
-
-         "p_name": "Gustav Pick",
-
-         "p_id": "#22546"
-         }]
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": ""
       }
       },
     {
@@ -53,7 +48,7 @@
          "timestamp": ["1914-12-01"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "", 
         "wohnort": [
          {
 
@@ -80,6 +75,61 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366548, 48.21306]
+      },
+      "properties": {
+         "id": "pmb256702",
+         "title": "Österreichische Länderbank",
+         "lat": "48.21306",
+         "lon": "16.366548",
+         "timestamp": ["1914-12-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
+        "wikidata": "http://www.wikidata.org/entity/Q26911630", 
+        "abbr": "Bank (K.BNK)", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1914-12-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "", 
+        "wohnort": [
+         {
+
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -90,7 +140,7 @@
          "timestamp": ["1914-12-01"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "", 
         "wohnort": [
          {
 

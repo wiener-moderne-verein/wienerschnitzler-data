@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.347492624475, 48.216264483348], 
+            [16.366548, 48.21306], 
             [16.382345, 48.213801], 
             [16.388608096065, 48.229100570727], 
             [16.33716, 48.23188]
@@ -30,7 +31,7 @@
          "timestamp": ["1922-10-23"],
          "importance": 1, 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
+        "type": ""
       }
       },
     {
@@ -48,7 +49,7 @@
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q106194758", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": ""
       }
       },
     {
@@ -65,7 +66,7 @@
          "timestamp": ["1922-10-23"],
          "importance": 1, 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium", 
+        "type": "", 
         "arbeitsort": [
          {
 
@@ -97,6 +98,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366548, 48.21306]
+      },
+      "properties": {
+         "id": "pmb256702",
+         "title": "Österreichische Länderbank",
+         "lat": "48.21306",
+         "lon": "16.366548",
+         "timestamp": ["1922-10-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
+        "wikidata": "http://www.wikidata.org/entity/Q26911630", 
+        "abbr": "Bank (K.BNK)", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -107,7 +127,7 @@
          "timestamp": ["1922-10-23"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "", 
         "wohnort": [
          {
 

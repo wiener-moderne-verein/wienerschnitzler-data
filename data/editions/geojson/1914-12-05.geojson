@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.35137, 48.21346], 
+            [16.358728, 48.213005], 
             [16.375811, 48.203191], 
+            [16.380519, 48.208665], 
+            [16.344679, 48.234278], 
             [16.33716, 48.23188]
           ]
       },
@@ -28,7 +32,121 @@
          "timestamp": ["1914-12-05"],
          "importance": 1, 
         "abbr": "Vergnügungseinrichtung", 
-        "type": "Vergnügungseinrichtung"
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.380519, 48.208665]
+      },
+      "properties": {
+         "id": "pmb249395",
+         "title": "Falkestraße 3",
+         "lat": "48.208665",
+         "lon": "16.380519",
+         "timestamp": ["1914-12-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Benjamin Gomperz",
+
+         "p_id": "#2612"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.358728, 48.213005]
+      },
+      "properties": {
+         "id": "pmb254583",
+         "title": "Reichsratsstraße 13",
+         "lat": "48.213005",
+         "lon": "16.358728",
+         "timestamp": ["1914-12-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1914-12-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "", 
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.344679, 48.234278]
+      },
+      "properties": {
+         "id": "pmb248406",
+         "title": "Weimarer Straße 86",
+         "lat": "48.234278",
+         "lon": "16.344679",
+         "timestamp": ["1914-12-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "", 
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Kaufmann",
+
+         "p_id": "#2496"
+         }]
       }
       },
     {
@@ -45,7 +163,7 @@
          "timestamp": ["1914-12-05"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "", 
         "wohnort": [
          {
 

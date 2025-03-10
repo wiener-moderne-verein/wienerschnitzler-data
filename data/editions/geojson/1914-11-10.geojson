@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.347492624475, 48.216264483348], 
             [16.359721, 48.216481], 
             [16.3589845, 48.2195962], 
             [16.33716, 48.23188]
@@ -29,7 +30,7 @@
          "timestamp": ["1914-11-10"],
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
+        "type": "", 
         "arbeitsort": [
          {
 
@@ -53,7 +54,49 @@
          "timestamp": ["1914-11-10"],
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1914-11-10"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       },
     {
@@ -70,7 +113,7 @@
          "timestamp": ["1914-11-10"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "", 
         "wohnort": [
          {
 

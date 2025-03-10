@@ -31,7 +31,7 @@
          "timestamp": ["1925-06-07"],
          "importance": 1, 
         "abbr": "S.REST", 
-        "type": "Restaurant"
+        "type": ""
       }
       },
     {
@@ -50,7 +50,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Sommerhaidenweg", 
         "wikidata": "http://www.wikidata.org/entity/Q2300521", 
         "abbr": "Wanderweg (K.WND)", 
-        "type": "Wanderweg"
+        "type": ""
       }
       },
     {
@@ -70,7 +70,31 @@
         "wikidata": "http://www.wikidata.org/entity/Q21859888", 
         "geonames": "https://sws.geonames.org/2600997/", 
         "abbr": "T.HLL", 
-        "type": "Hügel"
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30179, 48.24586]
+      },
+      "properties": {
+         "id": "pmb237102",
+         "title": "Dr.-Heinrich-Maier-Straße 50",
+         "lat": "48.24586",
+         "lon": "16.30179",
+         "timestamp": ["1925-06-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "", 
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Sachs",
+
+         "p_id": "#9629"
+         }]
       }
       },
     {
@@ -87,7 +111,7 @@
          "timestamp": ["1925-06-07"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "", 
         "wohnort": [
          {
 
@@ -143,30 +167,6 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.30179, 48.24586]
-      },
-      "properties": {
-         "id": "pmb237102",
-         "title": "Dr.-Heinrich-Maier-Straße 50",
-         "lat": "48.24586",
-         "lon": "16.30179",
-         "timestamp": ["1925-06-07"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Moriz Sachs",
-
-         "p_id": "#9629"
          }]
       }
       }

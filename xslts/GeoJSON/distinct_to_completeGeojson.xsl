@@ -11,7 +11,7 @@
     <xsl:mode on-no-match="shallow-skip"/>
     <xsl:import href="./partial/geoJSON-punkt.xsl"/>
     
-    <xsl:param name="listplace" select="document('../../data/indices/listplace.xml')"/>
+    <xsl:param name="listplace" select="document('../../input-data/listplace.xml')"/>
     <xsl:key name="listplace-lookup" match="tei:TEI/tei:text[1]/tei:body[1]/tei:listPlace[1]/tei:place" use="@xml:id"/>
     
     <!-- Root template to generate the entire GeoJSON output -->

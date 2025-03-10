@@ -6,6 +6,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="json tei">
     <xsl:param name="bewohner" select="document('../../../data/indices/living-working-in.xml')"/>
     <xsl:key match="tei:place" use="@xml:id" name="bewohner-key"/>
+
     <xsl:function name="mam:macht-punkt">
         <xsl:param name="input-placeNode" as="node()"/>
         <xsl:param name="timespan-type" as="xs:string"/>

@@ -4,7 +4,7 @@
     <!-- Ausgabe als reiner Text (JSON) -->
     <xsl:output method="text" encoding="UTF-8"/>
     <!-- Externes Dokument mit den Listplace-Daten -->
-    <xsl:param name="listplace-doc" select="document('../../../input-data/listplace.xml')"/>
+    <xsl:param name="listplace-doc" select="document('../../data/indices/listplace.xml')"/>
     <!-- Key zur Verknüpfung via @xml:id -->
     <xsl:key name="listplace-match" match="tei:place" use="@xml:id"/>
     <!-- Aktueller Kontext, z. B. eine tei:listEvent-Struktur -->

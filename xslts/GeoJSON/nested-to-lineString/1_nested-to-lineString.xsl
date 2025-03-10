@@ -3,7 +3,7 @@
     xmlns:fn="http://www.w3.org/2005/xpath-functions" exclude-result-prefixes="tei">
     <xsl:output method="xml" encoding="UTF-8"/>
     <!-- Parameter, der das externe listplace-Dokument enthält -->
-    <xsl:param name="listplace-doc" select="document('../../../input-data/listplace.xml')"/>
+    <xsl:param name="listplace-doc" select="document('../../data/indices/listplace.xml')"/>
     <!-- Key, um in der externen Datei per @xml:id auf tei:place zuzugreifen -->
     <xsl:key name="listplace-match" match="tei:place" use="@xml:id"/>
     

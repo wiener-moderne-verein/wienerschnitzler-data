@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: Fetch external data
-        run: python fetch-data.py
+        run: python fetch-data-from-pmb.py
 
       - name: Install xsltproc
         run: sudo apt-get update && sudo apt-get install -y xsltproc

@@ -1,0 +1,56 @@
+name: Update data
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  generate-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Fetch external data
+        run: python fetch-data.py
+
+      - name: Install xsltproc
+        run: sudo apt-get update && sudo apt-get install -y xsltproc
+
+      - name: Create output directories
+        run: |
+          mkdir -p data/indices
+          mkdir -p data/editions/xml
+
+      - name: Transform partOf.xml
+        run: xsltproc -o data/indices/partOf.xml xslts/import-relations-to-complete/partOf.xsl input-data/partOf.xml
+
+      - name: Transform relations.xml – Step 1: Relations to List
+        run: xsltproc -o temp1.xml xslts/import-relations-to-complete/1_relations-to-list.xsl input-data/relations.xml
+
+      - name: Transform relations.xml – Step 2: Distinct Days
+        run: xsltproc -o temp2.xml xslts/import-relations-to-complete/2_distinct-days.xsl temp1.xml
+
+      - name: Transform relations.xml – Step 3: Wohnsitz ergänzen
+        run: xsltproc -o data/editions/xml/wienerschnitzler_complete.xml xslts/import-relations-to-complete/3_wohnsitz-ergaenzen.xsl temp2.xml
+
+      - name: Cleanup temporary files
+        run: rm temp1.xml temp2.xml
+
+      - name: Commit and push generated data
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add data/indices/partOf.xml data/editions/xml/wienerschnitzler_complete.xml
+          # [skip ci] verhindert, dass dieser Commit einen neuen Workflow-Run auslöst
+          git commit -m "Update generated data [skip ci]" || echo "No changes to commit"
+          git push

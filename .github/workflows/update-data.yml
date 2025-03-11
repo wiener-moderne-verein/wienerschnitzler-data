@@ -1,10 +1,7 @@
 name: Update Data from PMB
 
 on:
-  push:
-    branches: [main]
-  schedule:
-    - cron: '0 0 * * *'  # Täglich um Mitternacht
+  workflow_dispatch:
 
 jobs:
   update-data:

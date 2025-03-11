@@ -35,7 +35,6 @@ jobs:
       - name: Build the app
         run: ./transform.sh
 
-
       - name: Änderungen committen und pushen
         run: |
           if [ -n "$(git status --porcelain input-data)" ]; then

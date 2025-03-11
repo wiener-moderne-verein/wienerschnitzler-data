@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Repository auschecken
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -18,12 +18,14 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Abhängigkeiten installieren
+        run: pip install requests
+
       - name: Script ausführen
         run: python fetch-data-from-pmb.py
 
       - name: Änderungen committen und pushen
         run: |
-          # Überprüfen, ob im Ordner input-data Änderungen vorhanden sind
           if [ -n "$(git status --porcelain input-data)" ]; then
             git config --global user.name "github-actions"
             git config --global user.email "github-actions@github.com"

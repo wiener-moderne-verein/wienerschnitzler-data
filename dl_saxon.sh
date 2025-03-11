@@ -1,2 +1,4 @@
 echo "downloading saxon"
-wget https://sourceforge.net/projects/saxon/files/Saxon-HE/9.9/SaxonHE9-9-1-7J.zip/download && unzip download -d saxon && rm -rf download
+wget -O saxon.zip https://github.com/Saxonica/Saxon-HE/raw/refs/heads/main/12/Java/SaxonHE12-5J.zip && \
+unzip saxon.zip -d saxon && \
+rm -f saxon.zip

@@ -1,14 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="TransformXML" default="transform" basedir=".">
-  <!-- Ziel: Erstellt den Ausgabeordner -->
-  <target name="init">
-    <mkdir dir="data/indices"/>
-  </target>
+<project basedir="." name="transformXML">
+    <property name="target" value="./temp"/>
 
-  <!-- Ziel: Führt die XSLT-Transformation durch -->
-  <target name="transform" depends="init">
-    <xslt in="input-data/partOf.xml"
-          style="xslts/import-relations-to-complete/partOf.xsl"
-          out="data/indices/partOf.xml"/>
-  </target>
+    <!-- Zielverzeichnisse anlegen -->
+    <mkdir dir="${target}"/>
+    <mkdir dir="${target}/indices"/>
+    <!-- Zielverzeichnis für die finale Ausgabe der Kaskade -->
+    <mkdir dir="data/editions/xml"/>
+
+    <!-- Vorher vorhandene XML-Dateien aus dem Zielverzeichnis löschen -->
+    <delete>
+        <fileset dir="${target}" includes="**/*.xml"/>
+    </delete>
+
+    <!-- XSLT-Transformation: Ausgabe in temp/indices -->
+    <xslt style="xslts/import-relations-to-complete/partOf.xsl"
+          basedir="input-data"
+          destdir="${target}/indices"
+          includes="partOf.xml"
+          extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+    <!-- XSLT-Kaskade für relations.xml -->
+    <!-- 1. Transformation: relations.xml -> relations-step1.xml -->
+    <xslt in="input-data/relations.xml"
+          out="${target}/relations-step1.xml"
+          style="xslts/import-relations-to-complete/1_relations-to-list.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+    <!-- 2. Transformation: relations-step1.xml -> relations-step2.xml -->
+    <xslt in="${target}/relations-step1.xml"
+          out="${target}/relations-step2.xml"
+          style="xslts/import-relations-to-complete/2_distinct-days.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+    <!-- 3. Transformation: relations-step2.xml -> wienerschnitzler_complete.xml -->
+    <xslt in="${target}/relations-step2.xml"
+          out="data/editions/xml/wienerschnitzler_complete.xml"
+          style="xslts/import-relations-to-complete/3_wohnsitz-ergaenzen.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+    <!-- XML-Dateien im Zielverzeichnis bearbeiten -->
+    <replace dir="${target}" value="">
+        <include name="*.xml"/>
+        <replacetoken> xmlns=""</replacetoken>
+    </replace>
+
+    <!-- Alle XML-Dateien inklusive Unterordner von temp in data kopieren und Verzeichnisstruktur beibehalten -->
+    <copy todir="data">
+        <fileset dir="${target}">
+            <include name="**/*.xml"/>
+        </fileset>
+    </copy>
 </project>

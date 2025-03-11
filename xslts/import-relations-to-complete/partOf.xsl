@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0">
-    <xsl:output method="xml" indent="yes"/>
+    <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
+
     <!-- Das wird angewandt auf den PMB-import partOf.xml, der aus dem
     python-script hervorgeht. Ich hab' die Namen rauskopiert, dann ist die 
     Datei kleiner-->

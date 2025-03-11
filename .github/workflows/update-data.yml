@@ -12,10 +12,15 @@ jobs:
 
     steps:
       - name: Repository auschecken
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
+      - name: Install Saxon, Ant und Fundament
+        run: |
+          sudo apt-get update
+          sudo apt-get install openjdk-11-jre-headless ant -y --no-install-recommends
+          ./script.sh
+    
       - name: Python einrichten
         uses: actions/setup-python@v4
         with:
@@ -26,6 +31,10 @@ jobs:
 
       - name: Script ausführen
         run: python fetch-data-from-pmb.py
+
+      - name: Build the app
+        run: ./transform.sh
+
 
       - name: Änderungen committen und pushen
         run: |

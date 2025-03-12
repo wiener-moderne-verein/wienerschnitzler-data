@@ -41,7 +41,7 @@ jobs:
             git config --global user.name "github-actions"
             git config --global user.email "github-actions@github.com"
             git add .
-            git commit -m "Update durch Workflow"
+            git commit -a -m "Update durch Workflow"
             git push
           else
             echo "Keine Änderungen im Daten-Ordner, Commit wird übersprungen."

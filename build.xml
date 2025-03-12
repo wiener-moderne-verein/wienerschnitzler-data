@@ -111,7 +111,78 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
-
+    
+    <!-- create complete nested -->
+    
+    <xslt in="data/editions/xml/wienerschnitzler_complete.xml"
+        out="${target}/temp-nested1.xml"
+        style="xslts/complete-to-nested/1_complete-to-nested.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    <xslt in="${target}/temp-nested1.xml"
+        out="${target}/temp-nested2.xml"
+        style="xslts/complete-to-nested/2_complete-to-nested.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    <xslt in="${target}/temp-nested2.xml"
+        out="${target}/temp-nested3.xml"
+        style="xslts/complete-to-nested/3_complete-to-nested.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    <xslt in="${target}/temp-nested3.xml"
+        out="${target}/temp-nested4.xml"
+        style="xslts/complete-to-nested/4_complete-to-nested.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    <xslt in="${target}/temp-nested4.xml"
+        out="data/editions/xml/wienerschnitzler_complete_nested.xml"
+        style="xslts/complete-to-nested/5_complete-to-nested.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    
+    <!-- create geoJSONs aus nested -->
+    <xslt in="data/editions/xml/wienerschnitzler_complete_nested.xml"
+        out="${target}/delete.geoJSON"
+        style="xslts/GeoJSON/complete_nested_to_single_day.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    <xslt in="data/editions/xml/wienerschnitzler_complete_nested.xml"
+        out="${target}/delete.geoJSON"
+        style="xslts/GeoJSON/complete_nested_to_months.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    
+    <xslt in="data/editions/xml/wienerschnitzler_complete_nested.xml"
+        out="${target}/nested-to-lineString.xml"
+        style="xslts/GeoJSON/nested-to-lineString/1_nested-to-lineString.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    <xslt in="${target}/nested-to-lineString.xml"
+        out="${target}/delete.txt"
+        style="xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-decade.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    <xslt in="${target}/nested-to-lineString.xml"
+        out="${target}/delete.txt"
+        style="xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-year-months.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    <xslt in="${target}/nested-to-lineString.xml"
+        out="${target}/delete.txt"
+        style="xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-years.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
    <delete>
         <fileset dir="${target}" includes="**/*.xml"/>
     </delete>

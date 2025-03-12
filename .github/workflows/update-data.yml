@@ -32,9 +32,180 @@ jobs:
       - name: Script ausführen
         run: python fetch-data-from-pmb.py
 
-      - name: Build the app
-        run: ./transform.sh
+       - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 11
 
+      - name: Verzeichnisse anlegen
+        run: |
+          mkdir -p temp
+          mkdir -p data/indices
+          mkdir -p data/editions/xml
+          mkdir -p data/editions/geojson
+          mkdir -p data/editions/csv
+
+      - name: Alte temporäre XML-Dateien löschen
+        run: |
+          find temp -type f -name "*.xml" -delete
+
+      - name: Transformiere partOf.xml
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:input-data/partOf.xml \
+            -xsl:xslts/import-relations-to-complete/partOf.xsl \
+            -o:data/indices/partOf.xml
+
+      - name: relations.xml -> relations-step1.xml
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:input-data/relations.xml \
+            -xsl:xslts/import-relations-to-complete/1_relations-to-list.xsl \
+            -o:temp/relations-step1.xml
+
+      - name: relations-step1.xml -> relations-step2.xml
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:temp/relations-step1.xml \
+            -xsl:xslts/import-relations-to-complete/2_distinct-days.xsl \
+            -o:temp/relations-step2.xml
+
+      - name: relations-step2.xml -> wienerschnitzler_complete.xml
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:temp/relations-step2.xml \
+            -xsl:xslts/import-relations-to-complete/3_wohnsitz-ergaenzen.xsl \
+            -o:data/editions/xml/wienerschnitzler_complete.xml
+
+      - name: Erzeuge complete distinctPlaces
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:data/editions/xml/wienerschnitzler_complete.xml \
+            -xsl:xslts/complete-to-distinctPlaces/complete-to-distinctPlaces.xsl \
+            -o:data/editions/xml/wienerschnitzler_distinctPlaces.xml
+
+      - name: listplace.xml -> listplace-step1.xml
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:input-data/listplace.xml \
+            -xsl:xslts/import-relations-to-complete/listplace_1_abbreviate-listPlace-to-used.xsl \
+            -o:temp/listplace-step1.xml
+
+      - name: listplace-step1.xml -> listplace.xml
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:temp/listplace-step1.xml \
+            -xsl:xslts/import-relations-to-complete/listplace_2_add-living-working.xsl \
+            -o:data/indices/listplace.xml
+
+      - name: Erzeuge CSV aus distinctPlaces
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:data/editions/xml/wienerschnitzler_distinctPlaces.xml \
+            -xsl:xslts/CSV/distinct-to-csv.xsl \
+            -o:data/editions/csv/complete.csv
+
+      - name: Erzeuge geoJSON distinctPlaces_complete.geojson
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:data/editions/xml/wienerschnitzler_distinctPlaces.xml \
+            -xsl:xslts/GeoJSON/distinct_to_completeGeojson.xsl \
+            -o:data/editions/geojson/distinctPlaces_complete.geojson
+
+      - name: Erzeuge geoJSON (decades) aus distinctPlaces
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:data/editions/xml/wienerschnitzler_distinctPlaces.xml \
+            -xsl:xslts/GeoJSON/distinct_to_decades.xsl
+
+      - name: Erzeuge geoJSON (months) aus distinctPlaces
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:data/editions/xml/wienerschnitzler_distinctPlaces.xml \
+            -xsl:xslts/GeoJSON/distinct_to_months.xsl
+
+      - name: Erzeuge geoJSON (years) aus distinctPlaces
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:data/editions/xml/wienerschnitzler_distinctPlaces.xml \
+            -xsl:xslts/GeoJSON/distinct_to_years.xsl
+
+      - name: Erzeuge nested temp Datei 1
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:data/editions/xml/wienerschnitzler_complete.xml \
+            -xsl:xslts/complete-to-nested/1_complete-to-nested.xsl \
+            -o:temp/temp-nested1.xml
+
+      - name: Erzeuge nested temp Datei 2
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:temp/temp-nested1.xml \
+            -xsl:xslts/complete-to-nested/2_complete-to-nested.xsl \
+            -o:temp/temp-nested2.xml
+
+      - name: Erzeuge nested temp Datei 3
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:temp/temp-nested2.xml \
+            -xsl:xslts/complete-to-nested/3_complete-to-nested.xsl \
+            -o:temp/temp-nested3.xml
+
+      - name: Erzeuge nested temp Datei 4
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:temp/temp-nested3.xml \
+            -xsl:xslts/complete-to-nested/4_complete-to-nested.xsl \
+            -o:temp/temp-nested4.xml
+
+      - name: Erzeuge wienerschnitzler_complete_nested.xml
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:temp/temp-nested4.xml \
+            -xsl:xslts/complete-to-nested/5_complete-to-nested.xsl \
+            -o:data/editions/xml/wienerschnitzler_complete_nested.xml
+
+      - name: Erzeuge geoJSON aus complete_nested_to_single_day
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:data/editions/xml/wienerschnitzler_complete_nested.xml \
+            -xsl:xslts/GeoJSON/complete_nested_to_single_day.xsl
+
+      - name: Erzeuge geoJSON aus complete_nested_to_months
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:data/editions/xml/wienerschnitzler_complete_nested.xml \
+            -xsl:xslts/GeoJSON/complete_nested_to_months.xsl
+
+      - name: Erzeuge nested-to-lineString.xml
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:data/editions/xml/wienerschnitzler_complete_nested.xml \
+            -xsl:xslts/GeoJSON/nested-to-lineString/1_nested-to-lineString.xsl \
+            -o:temp/nested-to-lineString.xml
+
+      - name: Erzeuge geoJSON aus nested-to-lineString-decade
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:temp/nested-to-lineString.xml \
+            -xsl:xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-decade.xsl
+
+      - name: Erzeuge geoJSON aus nested-to-lineString-year-months
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:temp/nested-to-lineString.xml \
+            -xsl:xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-year-months.xsl
+
+      - name: Erzeuge geoJSON aus nested-to-lineString-years
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:temp/nested-to-lineString.xml \
+            -xsl:xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-years.xsl
+
+      - name: Temporäre Dateien bereinigen
+        run: rm -rf temp/*.xml
+        
       - name: Änderungen committen und pushen
         run: |
           if [ -n "$(git status --porcelain)" ]; then

@@ -4,9 +4,11 @@
 
     <!-- Zielverzeichnisse anlegen -->
     <mkdir dir="${target}"/>
-    <mkdir dir="${target}/indices"/>
+    <mkdir dir="data/indices"/>
     <!-- Zielverzeichnis für die finale Ausgabe der Kaskade -->
     <mkdir dir="data/editions/xml"/>
+    <mkdir dir="data/editions/geojson"/>
+    <mkdir dir="data/editions/csv"/>
 
     <!-- Vorher vorhandene XML-Dateien aus dem Zielverzeichnis löschen -->
     <delete>
@@ -92,21 +94,18 @@
     </xslt>
 
      <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
-          out="${target}/delete.geoJSON"
           style="xslts/GeoJSON/distinct_to_decades.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
 
      <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
-          out="${target}/delete.geoJSON"
           style="xslts/GeoJSON/distinct_to_months.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
 
      <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
-          out="${target}/delete.geoJSON"
           style="xslts/GeoJSON/distinct_to_years.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
@@ -144,16 +143,14 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
-    
+
     <!-- create geoJSONs aus nested -->
     <xslt in="data/editions/xml/wienerschnitzler_complete_nested.xml"
-        out="${target}/delete.geoJSON"
         style="xslts/GeoJSON/complete_nested_to_single_day.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
     <xslt in="data/editions/xml/wienerschnitzler_complete_nested.xml"
-        out="${target}/delete.geoJSON"
         style="xslts/GeoJSON/complete_nested_to_months.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
@@ -166,19 +163,16 @@
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
     <xslt in="${target}/nested-to-lineString.xml"
-        out="${target}/delete.txt"
         style="xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-decade.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
     <xslt in="${target}/nested-to-lineString.xml"
-        out="${target}/delete.txt"
         style="xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-year-months.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
     <xslt in="${target}/nested-to-lineString.xml"
-        out="${target}/delete.txt"
         style="xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-years.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>

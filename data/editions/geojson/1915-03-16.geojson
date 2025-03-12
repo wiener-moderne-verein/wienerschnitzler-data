@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188], 
-            [16.33494, 48.23365]
+            [16.374017, 48.205449], 
+            [16.348401, 48.23555], 
+            [16.33494, 48.23365], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -115,6 +117,40 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374017, 48.205449]
+      },
+      "properties": {
+         "id": "pmb257434",
+         "title": "Himmelpfortgasse 17",
+         "lat": "48.205449",
+         "lon": "16.374017",
+         "timestamp": ["1915-03-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348401, 48.23555]
+      },
+      "properties": {
+         "id": "pmb253629",
+         "title": "Bundesgymnasium Döbling",
+         "lat": "48.23555",
+         "lon": "16.348401",
+         "timestamp": ["1915-03-16"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule"
       }
       }
   ]

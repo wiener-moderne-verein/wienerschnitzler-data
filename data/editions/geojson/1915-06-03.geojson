@@ -6,9 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33691, 48.23233], 
             [16.33716, 48.23188], 
-            [16.32522, 48.30521]
+            [16.33691, 48.23233], 
+            [16.32522, 48.30521], 
+            [16.25942, 48.33685], 
+            [16.23975, 48.344826]
           ]
       },
       "properties": {
@@ -136,6 +138,42 @@
         "geonames": "https://sws.geonames.org/2773913/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23975, 48.344826]
+      },
+      "properties": {
+         "id": "pmb259703",
+         "title": "Bahnhof Greifenstein-Altenberg",
+         "lat": "48.344826",
+         "lon": "16.23975",
+         "timestamp": ["1915-06-03"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q99337533", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25942, 48.33685]
+      },
+      "properties": {
+         "id": "pmb90813",
+         "title": "Hadersfeld",
+         "lat": "48.33685",
+         "lon": "16.25942",
+         "timestamp": ["1915-06-03"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2777092/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

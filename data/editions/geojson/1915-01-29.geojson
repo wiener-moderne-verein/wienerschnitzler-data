@@ -7,6 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [15.824188, 47.645877], 
+            [15.83, 47.647222], 
+            [15.83064, 47.63961], 
+            [16.379829498031, 48.187455471378], 
             [16.33716, 48.23188]
           ]
       },
@@ -14,6 +17,25 @@
         "name": "29. Januar 1915"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1915-01-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -102,6 +124,50 @@
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83, 47.647222]
+      },
+      "properties": {
+         "id": "pmb413",
+         "title": "Südbahnhotel [Semmering]",
+         "lat": "47.647222",
+         "lon": "15.83",
+         "timestamp": ["1915-01-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1610900", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karl Rostler",
+
+         "p_id": "#23635"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1915-01-29"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

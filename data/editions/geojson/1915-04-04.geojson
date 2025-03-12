@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.241739, 48.090788], 
+            [16.20003, 48.05364], 
             [16.27, 48.0925], 
             [16.23264, 48.00543], 
+            [16.379829498031, 48.187455471378], 
+            [16.32586, 48.17192], 
             [16.33716, 48.23188]
           ]
       },
@@ -15,6 +19,25 @@
         "name": "4. April 1915"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1915-04-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -92,18 +115,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.27, 48.0925]
+        "coordinates": [16.32586, 48.17192]
       },
       "properties": {
-         "id": "pmb39860",
-         "title": "Burg Liechtenstein",
-         "lat": "48.0925",
-         "lon": "16.27",
+         "id": "pmb62",
+         "title": "XII., Meidling",
+         "lat": "48.17192",
+         "lon": "16.32586",
          "timestamp": ["1915-04-04"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2772512/", 
-        "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
+        "wikipedia": "https://de.wikipedia.org/wiki/Meidling_(Wiener_Bezirksteil) https://de.wikipedia.org/wiki/Meidling", 
+        "wikidata": "http://www.wikidata.org/entity/Q1917668 http://www.wikidata.org/entity/Q697557", 
+        "geonames": "https://sws.geonames.org/2771704/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       },
     {
@@ -124,6 +149,61 @@
         "geonames": "https://sws.geonames.org/2782067/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.241739, 48.090788]
+      },
+      "properties": {
+         "id": "pmb44510",
+         "title": "Hotel Radetzky",
+         "lat": "48.090788",
+         "lon": "16.241739",
+         "timestamp": ["1915-04-04"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.20003, 48.05364]
+      },
+      "properties": {
+         "id": "pmb44697",
+         "title": "Gaaden",
+         "lat": "48.05364",
+         "lon": "16.20003",
+         "timestamp": ["1915-04-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gaaden", 
+        "wikidata": "http://www.wikidata.org/entity/Q669960", 
+        "geonames": "https://sws.geonames.org/2779074/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.27, 48.0925]
+      },
+      "properties": {
+         "id": "pmb39860",
+         "title": "Burg Liechtenstein",
+         "lat": "48.0925",
+         "lon": "16.27",
+         "timestamp": ["1915-04-04"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2772512/", 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
       }
       }
   ]

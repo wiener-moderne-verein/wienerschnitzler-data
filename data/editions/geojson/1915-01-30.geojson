@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [15.8, 47.61667], 
+            [15.83, 47.647222]
           ]
       },
       "properties": {
@@ -17,73 +18,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.33716, 48.23188]
+        "coordinates": [15.83, 47.647222]
       },
       "properties": {
-         "id": "pmb168815",
-         "title": "Sternwartestraße 71",
-         "lat": "48.23188",
-         "lon": "16.33716",
+         "id": "pmb413",
+         "title": "Südbahnhotel [Semmering]",
+         "lat": "47.647222",
+         "lon": "15.83",
          "timestamp": ["1915-01-30"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Alexander Römpler",
-
-         "p_id": "#12595"
-         }, 
-         {
-
-         "p_name": "Hedwig Bleibtreu",
-
-         "p_id": "#10959"
-         }, 
-         {
-
-         "p_name": "Arthur Schnitzler",
-
-         "p_id": ""
-         }, 
-         {
-
-         "p_name": "Heinrich Schnitzler",
-
-         "p_id": "#12692"
-         }, 
-         {
-
-         "p_name": "Lili Cappellini",
-
-         "p_id": "#2238"
-         }, 
-         {
-
-         "p_name": "Olga Schnitzler",
-
-         "p_id": "#2173"
-         }], 
+        "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1610900", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
         "arbeitsort": [
          {
 
-         "p_name": "Josefine Schipper",
+         "p_name": "Karl Rostler",
 
-         "p_id": "#24194"
-         }, 
-         {
-
-         "p_name": "Anna Haselmayer",
-
-         "p_id": "#17901"
-         }, 
-         {
-
-         "p_name": "Paula ",
-
-         "p_id": "#22399"
+         "p_id": "#23635"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8, 47.61667]
+      },
+      "properties": {
+         "id": "pmb91838",
+         "title": "Steinhaus am Semmering",
+         "lat": "47.61667",
+         "lon": "15.8",
+         "timestamp": ["1915-01-30"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2764442/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

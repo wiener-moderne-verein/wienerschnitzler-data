@@ -8,6 +8,8 @@
         "coordinates": [
             [16.35689, 48.21787], 
             [16.367725, 48.212284], 
+            [16.371571, 48.208448], 
+            [16.355191, 48.248422], 
             [16.33716, 48.23188]
           ]
       },
@@ -49,6 +51,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1915-05-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -80,6 +106,25 @@
 
          "p_id": "#2284"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355191, 48.248422]
+      },
+      "properties": {
+         "id": "pmb92292",
+         "title": "Hohe Warte",
+         "lat": "48.248422",
+         "lon": "16.355191",
+         "timestamp": ["1915-05-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q876564", 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
       }
       },
     {

@@ -7,7 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [9.8622, 46.5146], 
-            [9.50266, 47.00601], 
+            [9.5039, 47.00053], 
             [9.5215, 46.8578]
           ]
       },
@@ -19,17 +19,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.50266, 47.00601]
+        "coordinates": [9.5039, 47.00053]
       },
       "properties": {
-         "id": "pmb49990",
-         "title": "Bad Ragaz",
-         "lat": "47.00601",
-         "lon": "9.50266",
+         "id": "pmb257385",
+         "title": "Grand Hotel Hof Ragaz",
+         "lat": "47.00053",
+         "lon": "9.5039",
          "timestamp": ["1924-08-07"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2661644/", 
-        "abbr": "P.PPL", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.5215, 46.8578]
+      },
+      "properties": {
+         "id": "pmb2448",
+         "title": "Chur",
+         "lat": "46.8578",
+         "lon": "9.5215",
+         "timestamp": ["1924-08-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Chur", 
+        "wikidata": "http://www.wikidata.org/entity/Q69007", 
+        "geonames": "https://sws.geonames.org/2661169/", 
+        "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
       }
       },
@@ -50,26 +69,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q64964", 
         "geonames": "https://sws.geonames.org/2661241/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [9.5215, 46.8578]
-      },
-      "properties": {
-         "id": "pmb2448",
-         "title": "Chur",
-         "lat": "46.8578",
-         "lon": "9.5215",
-         "timestamp": ["1924-08-07"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Chur", 
-        "wikidata": "http://www.wikidata.org/entity/Q69007", 
-        "geonames": "https://sws.geonames.org/2661169/", 
-        "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
       }
       }

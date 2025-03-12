@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.33641, 48.23362], 
+            [16.333056, 48.233056], 
             [16.33716, 48.23188], 
-            [16.33641, 48.23362]
+            [16.344253, 48.236143]
           ]
       },
       "properties": {
@@ -66,6 +68,23 @@
 
          "p_id": "#24292"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1915-02-22"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       },
     {
@@ -138,6 +157,30 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.344253, 48.236143]
+      },
+      "properties": {
+         "id": "pmb236102",
+         "title": "Lannerstraße 24",
+         "lat": "48.236143",
+         "lon": "16.344253",
+         "timestamp": ["1915-02-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Kainz",
+
+         "p_id": "#11851"
          }]
       }
       }

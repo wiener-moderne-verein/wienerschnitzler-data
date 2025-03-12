@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.8622, 46.5146]
+            [9.84172, 46.49894], 
+            [9.85844000465, 46.5139799692], 
+            [9.8719444444444, 46.533611111111]
           ]
       },
       "properties": {
@@ -17,20 +19,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.8622, 46.5146]
+        "coordinates": [9.85844000465, 46.5139799692]
       },
       "properties": {
-         "id": "pmb12589",
-         "title": "Celerina",
-         "lat": "46.5146",
-         "lon": "9.8622",
+         "id": "pmb254495",
+         "title": "Bahnhof Celerina",
+         "lat": "46.5139799692",
+         "lon": "9.85844000465",
          "timestamp": ["1924-08-11"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Celerina/Schlarigna", 
-        "wikidata": "http://www.wikidata.org/entity/Q64964", 
-        "geonames": "https://sws.geonames.org/2661241/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q5057816", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84172, 46.49894]
+      },
+      "properties": {
+         "id": "pmb52177",
+         "title": "Kulm Hotel",
+         "lat": "46.49894",
+         "lon": "9.84172",
+         "timestamp": ["1924-08-11"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/7290080/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8719444444444, 46.533611111111]
+      },
+      "properties": {
+         "id": "pmb202117",
+         "title": "Samedan",
+         "lat": "46.533611111111",
+         "lon": "9.8719444444444",
+         "timestamp": ["1924-08-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Samedan", 
+        "wikidata": "http://www.wikidata.org/entity/Q69085", 
+        "geonames": "https://sws.geonames.org/2658846/ https://sws.geonames.org/7287048/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

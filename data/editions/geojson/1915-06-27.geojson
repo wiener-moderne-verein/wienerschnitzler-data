@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.8241, 47.64224]
+            [15.86, 47.629444], 
+            [15.83, 47.647222]
           ]
       },
       "properties": {
@@ -17,20 +18,46 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.8241, 47.64224]
+        "coordinates": [15.83, 47.647222]
       },
       "properties": {
-         "id": "pmb189",
-         "title": "Semmering",
-         "lat": "47.64224",
-         "lon": "15.8241",
+         "id": "pmb413",
+         "title": "Südbahnhotel [Semmering]",
+         "lat": "47.647222",
+         "lon": "15.83",
          "timestamp": ["1915-06-27"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)", 
-        "wikidata": "http://www.wikidata.org/entity/Q659891", 
-        "geonames": "https://sws.geonames.org/7873001/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1610900", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karl Rostler",
+
+         "p_id": "#23635"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.86, 47.629444]
+      },
+      "properties": {
+         "id": "pmb40895",
+         "title": "Sonnwendstein",
+         "lat": "47.629444",
+         "lon": "15.86",
+         "timestamp": ["1915-06-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sonnwendstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q1668878", 
+        "geonames": "https://sws.geonames.org/2764871/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
       }
       }
   ]

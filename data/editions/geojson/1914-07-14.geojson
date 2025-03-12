@@ -7,8 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [14.77361, 47.96004], 
+            [15.027194, 47.861107], 
             [15.040085, 47.853119], 
             [15.03007, 47.84915], 
+            [14.993205, 47.824913], 
             [16.33716, 48.23188], 
             [16.33641, 48.23362]
           ]
@@ -35,6 +37,40 @@
         "geonames": "https://sws.geonames.org/2762077/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.027194, 47.861107]
+      },
+      "properties": {
+         "id": "pmb256653",
+         "title": "Gasthof Grubmayr",
+         "lat": "47.861107",
+         "lon": "15.027194",
+         "timestamp": ["1914-07-14"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.993205, 47.824913]
+      },
+      "properties": {
+         "id": "pmb256656",
+         "title": "Lehenvilla",
+         "lat": "47.824913",
+         "lon": "14.993205",
+         "timestamp": ["1914-07-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       },
     {

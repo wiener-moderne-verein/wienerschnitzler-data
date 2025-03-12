@@ -6,9 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.337778, 48.196667], 
             [16.375811, 48.203191], 
-            [16.33691, 48.23233], 
             [16.33716, 48.23188], 
+            [16.33691, 48.23233], 
             [16.320719, 48.238032]
           ]
       },
@@ -151,6 +152,26 @@
          "importance": 1, 
         "abbr": "Vergnügungseinrichtung", 
         "type": "Vergnügungseinrichtung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1915-07-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }
   ]

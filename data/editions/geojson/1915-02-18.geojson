@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.3652839, 48.2030071], 
+            [16.388002, 48.19884], 
+            [16.391744, 48.198334], 
             [16.367725, 48.212284], 
             [16.33716, 48.23188]
           ]
@@ -62,6 +64,56 @@
 
          "p_id": "#12740"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.388002, 48.19884]
+      },
+      "properties": {
+         "id": "pmb237597",
+         "title": "Neulinggasse 13",
+         "lat": "48.19884",
+         "lon": "16.388002",
+         "timestamp": ["1915-02-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Raoul Auernheimer",
+
+         "p_id": "#10788"
+         }, 
+         {
+
+         "p_name": "Irene Auernheimer",
+
+         "p_id": "#3223"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.391744, 48.198334]
+      },
+      "properties": {
+         "id": "pmb92149",
+         "title": "Arenbergpark",
+         "lat": "48.198334",
+         "lon": "16.391744",
+         "timestamp": ["1915-02-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Arenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q641703", 
+        "geonames": "https://www.geonames.org/12534636/", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       },
     {

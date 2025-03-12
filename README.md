@@ -17,7 +17,7 @@ The repository includes three XML files containing the complete data ('./data/ed
 In the folder ('./data/indices/') is __listplace.xml__ – an abbreviated version of the file with the same name that can be found in './input-data/'. In the same folder __partOf.xml__ contains information regarding places and the bigger entities they belong to (i.e. Vienna is part of Austria). The file __living-working-in.xml__ collects names of people that lived or worked in a house at a point in time.
 
 
-## geoJSON Data
+## GeoJSON Data
 
 Several derivative files are generated from the XML files above, mostly by referencing coordinates and idno values from the listplace.xml file found in the input-data folder. These files include:
 
@@ -32,7 +32,7 @@ Additionally, there are complete geoJSON files:
 * __wienerschnitzler_distinctPlaces.geojson__: Uses places as the hierarchical structure.
 
 
-## import data ##
+## Import Data ##
 
 The main source for all the data is PMB – Personen der Moderne Basis, https://pmb.acdh.oeaw.ac.at/ – and more specifically https://pmb.acdh.oeaw.ac.at/media/
 

@@ -76,4 +76,5 @@
             </xsl:element>
         </xsl:element>
     </xsl:template>
+    <xsl:template match="tei:body/tei:p[1][. ='Some text here.']"/>
 </xsl:stylesheet>

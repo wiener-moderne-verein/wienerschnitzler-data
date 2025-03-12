@@ -15,9 +15,8 @@
 
     <!-- XSLT-Transformation: Ausgabe in temp/indices -->
     <xslt style="xslts/import-relations-to-complete/partOf.xsl"
-          basedir="input-data"
-          destdir="${target}/indices"
-          includes="partOf.xml"
+          in="input-data/partOf.xml"
+          out="data/indices/partOf.xml"
           extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
@@ -48,16 +47,72 @@
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
 
-    <!-- XML-Dateien im Zielverzeichnis bearbeiten -->
-    <replace dir="${target}" value="">
-        <include name="*.xml"/>
-        <replacetoken> xmlns=""</replacetoken>
-    </replace>
+    <!-- create complete distinct -->
+     <xslt in="data/editions/xml/wienerschnitzler_complete.xml"
+          out="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
+          style="xslts/complete-to-distinctPlaces/complete-to-distinctPlaces.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
 
-    <!-- Alle XML-Dateien inklusive Unterordner von temp in data kopieren und Verzeichnisstruktur beibehalten -->
-    <copy todir="data">
-        <fileset dir="${target}">
-            <include name="**/*.xml"/>
-        </fileset>
-    </copy>
+    <!-- create listplace -->
+
+    <xslt style="xslts/import-relations-to-complete/listplace_1_abbreviate-listPlace-to-used.xsl"
+          in="input-data/listplace.xml"
+          out="${target}/listplace-step1.xml"
+          extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+    <!-- 2. Transformation: listplace.xml fertigstellen -->
+    <xslt in="${target}/listplace-step1.xml"
+          out="data/indices/listplace.xml"
+          style="xslts/import-relations-to-complete/listplace_2_add-living-working.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+    <!-- create CSV-->
+   
+    <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
+          out="data/editions/csv/complete.csv"
+          style="xslts/CSV/distinct-to-csv.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+    <!-- create geoJSONs aus distinct -->
+
+    <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
+          out="data/editions/geojson/distinctPlaces_complete.geojson"
+          style="xslts/GeoJSON/distinct_to_completeGeojson.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+     <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
+          out="${target}/delete.geoJSON"
+          style="xslts/GeoJSON/distinct_to_decades.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+     <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
+          out="${target}/delete.geoJSON"
+          style="xslts/GeoJSON/distinct_to_months.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+     <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
+          out="${target}/delete.geoJSON"
+          style="xslts/GeoJSON/distinct_to_years.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
+    </xslt>
+
+   <delete>
+        <fileset dir="${target}" includes="**/*.xml"/>
+    </delete>
 </project>

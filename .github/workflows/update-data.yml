@@ -15,12 +15,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Install Saxon, Ant und Fundament
+
+      - name: Installiere Java, Ant und weitere Abhängigkeiten
         run: |
           sudo apt-get update
           sudo apt-get install openjdk-11-jre-headless ant -y --no-install-recommends
+          # Falls script.sh weitere Setup-Schritte enthält:
           ./script.sh
-    
+
       - name: Python einrichten
         uses: actions/setup-python@v4
         with:
@@ -29,11 +31,11 @@ jobs:
       - name: Abhängigkeiten installieren
         run: pip install requests
 
-      - name: Script ausführen
+      - name: Daten aus PMB abrufen
         run: python fetch-data-from-pmb.py
 
-      - name: Build the app
-        run: ./transform.sh
+      - name: Build mit Ant ausführen
+        run: ant -f build.xml
 
       - name: Änderungen committen und pushen
         run: |
@@ -41,7 +43,7 @@ jobs:
             git config --global user.name "github-actions"
             git config --global user.email "github-actions@github.com"
             git add .
-            git commit -a -m "Update durch Workflow"
+            git commit -m "Update durch Workflow"
             git push
           else
             echo "Keine Änderungen im Daten-Ordner, Commit wird übersprungen."

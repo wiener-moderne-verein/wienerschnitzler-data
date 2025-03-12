@@ -16,9 +16,9 @@
     </delete>
 
     <!-- XSLT-Transformation: Ausgabe in temp/indices -->
-    <xslt style="xslts/import-relations-to-complete/partOf.xsl"
-          in="input-data/partOf.xml"
-          out="data/indices/partOf.xml"
+    <xslt style="${basedir}/xslts/import-relations-to-complete/partOf.xsl"
+        in="${basedir}/input-data/partOf.xml"
+        out="${basedir}/data/indices/partOf.xml"
           extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
@@ -27,153 +27,118 @@
     <!-- XSLT-Kaskade für relations.xml -->
     <!-- 1. Transformation: relations.xml -> relations-step1.xml -->
     <xslt in="input-data/relations.xml"
-          out="${target}/relations-step1.xml"
-          style="xslts/import-relations-to-complete/1_relations-to-list.xsl">
+        out="${basedir}/${target}/relations-step1.xml"
+          style="${basedir}/xslts/import-relations-to-complete/1_relations-to-list.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
 
     <!-- 2. Transformation: relations-step1.xml -> relations-step2.xml -->
-    <xslt in="${target}/relations-step1.xml"
-          out="${target}/relations-step2.xml"
-          style="xslts/import-relations-to-complete/2_distinct-days.xsl">
+    <xslt in="${basedir}/${target}/relations-step1.xml"
+        out="${basedir}/${target}/relations-step2.xml"
+        style="${basedir}/xslts/import-relations-to-complete/2_distinct-days.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
 
     <!-- 3. Transformation: relations-step2.xml -> wienerschnitzler_complete.xml -->
-    <xslt in="${target}/relations-step2.xml"
-          out="data/editions/xml/wienerschnitzler_complete.xml"
-          style="xslts/import-relations-to-complete/3_wohnsitz-ergaenzen.xsl">
+    <xslt in="${basedir}/${target}/relations-step2.xml"
+        out="${basedir}/data/editions/xml/wienerschnitzler_complete.xml"
+        style="${basedir}/xslts/import-relations-to-complete/3_wohnsitz-ergaenzen.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
 
     <!-- create complete distinct -->
-     <xslt in="data/editions/xml/wienerschnitzler_complete.xml"
-          out="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
-          style="xslts/complete-to-distinctPlaces/complete-to-distinctPlaces.xsl">
+    <xslt in="${basedir}/data/editions/xml/wienerschnitzler_complete.xml"
+        out="${basedir}/data/editions/xml/wienerschnitzler_distinctPlaces.xml"
+        style="${basedir}/xslts/complete-to-distinctPlaces/complete-to-distinctPlaces.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
 
     <!-- create listplace -->
 
-    <xslt style="xslts/import-relations-to-complete/listplace_1_abbreviate-listPlace-to-used.xsl"
-          in="input-data/listplace.xml"
-          out="${target}/listplace-step1.xml"
+    <xslt style="${basedir}/xslts/import-relations-to-complete/listplace_1_abbreviate-listPlace-to-used.xsl"
+        in="${basedir}/input-data/listplace.xml"
+        out="${basedir}/${target}/listplace-step1.xml"
           extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
 
     <!-- 2. Transformation: listplace.xml fertigstellen -->
-    <xslt in="${target}/listplace-step1.xml"
-          out="data/indices/listplace.xml"
-          style="xslts/import-relations-to-complete/listplace_2_add-living-working.xsl">
+    <xslt in="${basedir}/${target}/listplace-step1.xml"
+        out="${basedir}/data/indices/listplace.xml"
+        style="${basedir}/xslts/import-relations-to-complete/listplace_2_add-living-working.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
 
     <!-- create CSV-->
    
-    <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
-          out="data/editions/csv/complete.csv"
-          style="xslts/CSV/distinct-to-csv.xsl">
+    <xslt in="${basedir}/data/editions/xml/wienerschnitzler_distinctPlaces.xml"
+        out="${basedir}/data/editions/csv/complete.csv"
+        style="${basedir}/xslts/CSV/distinct-to-csv.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
 
-    <!-- create geoJSONs aus distinct -->
-
-    <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
-          out="data/editions/geojson/distinctPlaces_complete.geojson"
-          style="xslts/GeoJSON/distinct_to_completeGeojson.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
-    </xslt>
-
-     <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
-          style="xslts/GeoJSON/distinct_to_decades.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
-    </xslt>
-
-     <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
-          style="xslts/GeoJSON/distinct_to_months.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
-    </xslt>
-
-     <xslt in="data/editions/xml/wienerschnitzler_distinctPlaces.xml"
-          style="xslts/GeoJSON/distinct_to_years.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
-    </xslt>
     
     <!-- create complete nested -->
     
-    <xslt in="data/editions/xml/wienerschnitzler_complete.xml"
-        out="${target}/temp-nested1.xml"
-        style="xslts/complete-to-nested/1_complete-to-nested.xsl">
+    <xslt in="${basedir}/data/editions/xml/wienerschnitzler_complete.xml"
+        out="${basedir}/${target}/temp-nested1.xml"
+        style="${basedir}/xslts/complete-to-nested/1_complete-to-nested.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
-    <xslt in="${target}/temp-nested1.xml"
-        out="${target}/temp-nested2.xml"
+    <xslt in="${basedir}/${target}/temp-nested1.xml"
+        out="${basedir}/${target}/temp-nested2.xml"
         style="xslts/complete-to-nested/2_complete-to-nested.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
-    <xslt in="${target}/temp-nested2.xml"
-        out="${target}/temp-nested3.xml"
+    <xslt in="${basedir}/${target}/temp-nested2.xml"
+        out="${basedir}/${target}/temp-nested3.xml"
         style="xslts/complete-to-nested/3_complete-to-nested.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
-    <xslt in="${target}/temp-nested3.xml"
-        out="${target}/temp-nested4.xml"
-        style="xslts/complete-to-nested/4_complete-to-nested.xsl">
+    <xslt in="${basedir}/${target}/temp-nested3.xml"
+        out="${basedir}/${target}/temp-nested4.xml"
+        style="${basedir}/xslts/complete-to-nested/4_complete-to-nested.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
-    <xslt in="${target}/temp-nested4.xml"
-        out="data/editions/xml/wienerschnitzler_complete_nested.xml"
-        style="xslts/complete-to-nested/5_complete-to-nested.xsl">
+    <xslt in="${basedir}/${target}/temp-nested4.xml"
+        out="${basedir}/data/editions/xml/wienerschnitzler_complete_nested.xml"
+        style="${basedir}/xslts/complete-to-nested/5_complete-to-nested.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
-
-    <!-- create geoJSONs aus nested -->
-    <xslt in="data/editions/xml/wienerschnitzler_complete_nested.xml"
-        style="xslts/GeoJSON/complete_nested_to_single_day.xsl">
+  
+    <xslt in="${basedir}/data/editions/xml/wienerschnitzler_complete_nested.xml"
+        out="${basedir}/${target}/nested-to-lineString.xml"
+        style="${basedir}/xslts/GeoJSON/nested-to-lineString/1_nested-to-lineString.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
-    <xslt in="data/editions/xml/wienerschnitzler_complete_nested.xml"
-        style="xslts/GeoJSON/complete_nested_to_months.xsl">
+    <xslt in="${basedir}/${target}/nested-to-lineString.xml"
+        style="${basedir}/xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-decade.xsl"
+        destdir="${basedir}/data/editions/geojson/">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
-    
-    <xslt in="data/editions/xml/wienerschnitzler_complete_nested.xml"
-        out="${target}/nested-to-lineString.xml"
-        style="xslts/GeoJSON/nested-to-lineString/1_nested-to-lineString.xsl">
+    <xslt in="${basedir}/${target}/nested-to-lineString.xml"
+        style="${basedir}/xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-year-months.xsl"
+        destdir="${basedir}/data/editions/geojson/">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>
-    <xslt in="${target}/nested-to-lineString.xml"
-        style="xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-decade.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
-    </xslt>
-    <xslt in="${target}/nested-to-lineString.xml"
-        style="xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-year-months.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
-    </xslt>
-    <xslt in="${target}/nested-to-lineString.xml"
-        style="xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-years.xsl">
+    <xslt in="${basedir}/${target}/nested-to-lineString.xml"
+        style="${basedir}/xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-years.xsl"
+        destdir="${basedir}/data/editions/geojson/">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon-he-12.5.jar"/>
     </xslt>

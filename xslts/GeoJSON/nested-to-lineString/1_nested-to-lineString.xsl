@@ -6,12 +6,9 @@
     <xsl:param name="listplace-doc" select="document('../../../data/indices/listplace.xml')"/>
     <!-- Key, um in der externen Datei per @xml:id auf tei:place zuzugreifen -->
     <xsl:key name="listplace-match" match="tei:place" use="@xml:id"/>
-    
     <!-- plätze ohne lat/lon weg -->
-    
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:output method="xml" indent="true"/>
-    
     <xsl:template match="tei:place[not(child::tei:listPlace)]">
         <xsl:variable name="placeID" select="substring-after(@corresp, '#')"/>
         <!-- Den passenden Ort im externen Dokument holen -->
@@ -19,11 +16,8 @@
         <!-- Annahme: Die Koordinaten stehen im tei:geo-Element unter tei:location[@type='coords'] -->
         <xsl:choose>
             <xsl:when test="$placeNode/tei:location[@type = 'coords']">
-                <xsl:copy-of select="."></xsl:copy-of>
+                <xsl:copy-of select="."/>
             </xsl:when>
         </xsl:choose>
-        
     </xsl:template>
-    
-    
 </xsl:stylesheet>

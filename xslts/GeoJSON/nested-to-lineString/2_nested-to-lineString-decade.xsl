@@ -10,11 +10,9 @@
     <!-- Key zur Verknüpfung via @xml:id -->
     <xsl:key name="listplace-match" match="tei:place" use="@xml:id"/>
     
-    <!-- Aktueller Kontext, z. B. eine tei:listEvent-Struktur -->
-    <xsl:param name="current" select="descendant::tei:listEvent" as="node()"/>
-    
     <xsl:template match="/">
-        <xsl:result-document href="../../../data/editions/geojson/l_decades.geojson" method="text">
+        <xsl:variable name="current" select="descendant::tei:listEvent" as="node()"/>
+        <xsl:result-document href="../../data/editions/geojson/l_decades.geojson" method="text">
             <xsl:text>{&#10;</xsl:text>
             <xsl:text>  "type": "FeatureCollection",&#10;</xsl:text>
             <xsl:text>  "features": [&#10;</xsl:text>

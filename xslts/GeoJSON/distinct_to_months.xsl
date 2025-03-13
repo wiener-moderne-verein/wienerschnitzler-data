@@ -23,7 +23,7 @@
                 <xsl:variable name="month" select="format-number(., '00')" as="xs:string"/>
                 <xsl:variable name="year-month" select="concat($year, '-', $month)"/>
                 <!-- Erstellen der GeoJSON-Datei -->
-                <xsl:result-document href="../../../data/editions/geojson/{$year-month}.geojson"
+                <xsl:result-document href="{$year-month}.geojson"
                     method="text">
                     <xsl:text>{</xsl:text>
                     <xsl:text>&#10;  "type": "FeatureCollection",</xsl:text>

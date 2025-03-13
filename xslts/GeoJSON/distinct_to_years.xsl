@@ -19,7 +19,7 @@
         <xsl:for-each select="1869 to 1931">
             <xsl:variable name="year" select="string(.)" as="xs:string"/>
             <!-- Erstellen der GeoJSON-Datei -->
-            <xsl:result-document href="../../../data/editions/geojson/{$year}.geojson"
+            <xsl:result-document href="{$year}.geojson"
                 method="text">
                 <xsl:text>{</xsl:text>
                 <xsl:text>&#10;  "type": "FeatureCollection",</xsl:text>

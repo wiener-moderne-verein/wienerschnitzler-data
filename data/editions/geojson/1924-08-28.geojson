@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [8.96004, 46.01008]
+            [8.9457, 45.99003], 
+            [8.98579, 46.00865], 
+            [8.955, 46.004]
           ]
       },
       "properties": {
@@ -17,20 +19,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.96004, 46.01008]
+        "coordinates": [8.98579, 46.00865]
       },
       "properties": {
-         "id": "pmb885",
-         "title": "Lugano",
-         "lat": "46.01008",
-         "lon": "8.96004",
+         "id": "pmb661",
+         "title": "Monte Bré",
+         "lat": "46.00865",
+         "lon": "8.98579",
          "timestamp": ["1924-08-28"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Lugano", 
-        "wikidata": "http://www.wikidata.org/entity/Q7024", 
-        "geonames": "https://sws.geonames.org/2659836/", 
-        "abbr": "P.PPLA2", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Monte_Br%C3%A8", 
+        "wikidata": "http://www.wikidata.org/entity/Q692385", 
+        "geonames": "https://sws.geonames.org/2661417/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.955, 46.004]
+      },
+      "properties": {
+         "id": "pmb263336",
+         "title": "Teatro Kursaal",
+         "lat": "46.004",
+         "lon": "8.955",
+         "timestamp": ["1924-08-28"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q692052", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.9457, 45.99003]
+      },
+      "properties": {
+         "id": "pmb91433",
+         "title": "Paradiso",
+         "lat": "45.99003",
+         "lon": "8.9457",
+         "timestamp": ["1924-08-28"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/6692187/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

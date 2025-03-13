@@ -20,7 +20,7 @@
             <!-- Format the date as YYYY-MM-DD -->
             <xsl:variable name="formatted-date" select="format-date($date, '[Y0001]-[M01]-[D01]')"/>
             <!-- Generate a new file with the formatted date as the filename -->
-            <xsl:result-document href="../../../data/editions/geojson/{$formatted-date}.geojson"
+            <xsl:result-document href="{$formatted-date}.geojson"
                 method="text">
                 <xsl:text>{</xsl:text>
                 <xsl:text>&#10;  "type": "FeatureCollection",</xsl:text>

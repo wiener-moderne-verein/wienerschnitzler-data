@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.23615, 45.98861], 
+            [9.2338, 45.98769], 
+            [9.26199, 45.98745], 
+            [9.236093, 46.017257], 
+            [9.1194166666667, 46.034341666667], 
             [8.96004, 46.01008]
           ]
       },
@@ -38,18 +41,73 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.23615, 45.98861]
+        "coordinates": [9.2338, 45.98769]
       },
       "properties": {
-         "id": "pmb90426",
-         "title": "Cadenabbia",
-         "lat": "45.98861",
-         "lon": "9.23615",
+         "id": "pmb263358",
+         "title": "Grand Hotel Cadenabbia",
+         "lat": "45.98769",
+         "lon": "9.2338",
          "timestamp": ["1924-08-30"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/6692284/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1194166666667, 46.034341666667]
+      },
+      "properties": {
+         "id": "pmb263352",
+         "title": "Bahnhof Porlezza",
+         "lat": "46.034341666667",
+         "lon": "9.1194166666667",
+         "timestamp": ["1924-08-30"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q15695723", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.236093, 46.017257]
+      },
+      "properties": {
+         "id": "pmb263355",
+         "title": "Bahnhof Menaggio",
+         "lat": "46.017257",
+         "lon": "9.236093",
+         "timestamp": ["1924-08-30"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q15695737", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.26199, 45.98745]
+      },
+      "properties": {
+         "id": "pmb984",
+         "title": "Bellagio",
+         "lat": "45.98745",
+         "lon": "9.26199",
+         "timestamp": ["1924-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bellagio", 
+        "wikidata": "http://www.wikidata.org/entity/Q244095", 
+        "geonames": "https://sws.geonames.org/6540160/ https://sws.geonames.org/3182230/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

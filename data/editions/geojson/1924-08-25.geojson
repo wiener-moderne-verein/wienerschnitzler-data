@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [8.30635, 47.05048]
+            [8.272518, 47.043927], 
+            [8.30899, 47.050286], 
+            [8.29531, 47.04792]
           ]
       },
       "properties": {
@@ -17,20 +19,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.30635, 47.05048]
+        "coordinates": [8.30899, 47.050286]
       },
       "properties": {
-         "id": "pmb967",
-         "title": "Luzern",
-         "lat": "47.05048",
-         "lon": "8.30635",
+         "id": "pmb200956",
+         "title": "Hotel St. Gotthard Luzern",
+         "lat": "47.050286",
+         "lon": "8.30899",
          "timestamp": ["1924-08-25"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Luzern", 
-        "wikidata": "http://www.wikidata.org/entity/Q4191", 
-        "geonames": "https://sws.geonames.org/2659811/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q130712387", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.29531, 47.04792]
+      },
+      "properties": {
+         "id": "pmb90811",
+         "title": "Gütsch",
+         "lat": "47.04792",
+         "lon": "8.29531",
+         "timestamp": ["1924-08-25"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/12639916/", 
+        "abbr": "T.HLL", 
+        "type": "Hügel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.272518, 47.043927]
+      },
+      "properties": {
+         "id": "pmb92536",
+         "title": "Sonnenberg",
+         "lat": "47.043927",
+         "lon": "8.272518",
+         "timestamp": ["1924-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sonnenberg_(Kriens)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2301829", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
       }
       }
   ]

@@ -9,7 +9,7 @@
     <xsl:mode on-no-match="shallow-skip"/>
     <xsl:import href="./partial/geoJSON-punkt.xsl"/>
     <xsl:import href="./partial/geoJSON-linie.xsl"/>
-    <xsl:param name="listPlace" select="document('../../data/indices/listplace.xml')"/>
+    <xsl:param name="listplace" select="document('../../data/indices/listplace.xml')"/>
     <xsl:key name="listplace-lookup"
         match="tei:TEI/tei:text[1]/tei:body[1]/tei:listPlace[1]/tei:place" use="@xml:id"/>
     <!-- Root template to start processing and generate output for each date -->
@@ -20,7 +20,7 @@
             <!-- Format the date as YYYY-MM-DD -->
             <xsl:variable name="formatted-date" select="format-date($date, '[Y0001]-[M01]-[D01]')"/>
             <!-- Generate a new file with the formatted date as the filename -->
-            <xsl:result-document href="../../../data/editions/geojson/{$formatted-date}.geojson"
+            <xsl:result-document href="{$formatted-date}.geojson"
                 method="text">
                 <xsl:text>{</xsl:text>
                 <xsl:text>&#10;  "type": "FeatureCollection",</xsl:text>

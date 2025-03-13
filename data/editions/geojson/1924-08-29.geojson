@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [8.53834, 45.88158], 
-            [8.96004, 46.01008]
+            [8.53293, 45.88679], 
+            [8.86046, 45.9701], 
+            [8.946878055555555, 46.00551]
           ]
       },
       "properties": {
@@ -18,38 +19,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.96004, 46.01008]
+        "coordinates": [8.946878055555555, 46.00551]
       },
       "properties": {
-         "id": "pmb885",
-         "title": "Lugano",
-         "lat": "46.01008",
-         "lon": "8.96004",
+         "id": "pmb263339",
+         "title": "Bahnhof Lugano",
+         "lat": "46.00551",
+         "lon": "8.946878055555555",
          "timestamp": ["1924-08-29"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Lugano", 
-        "wikidata": "http://www.wikidata.org/entity/Q7024", 
-        "geonames": "https://sws.geonames.org/2659836/", 
-        "abbr": "P.PPLA2", 
-        "type": "Hauptstadt"
+        "wikidata": "http://www.wikidata.org/entity/Q174946", 
+        "geonames": "https://sws.geonames.org/8436732/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.53834, 45.88158]
+        "coordinates": [8.53293, 45.88679]
       },
       "properties": {
-         "id": "pmb91850",
-         "title": "Stresa",
-         "lat": "45.88158",
-         "lon": "8.53834",
+         "id": "pmb263346",
+         "title": "Grand Hotel Des Iles Borromee",
+         "lat": "45.88679",
+         "lon": "8.53293",
          "timestamp": ["1924-08-29"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3166101/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.86046, 45.9701]
+      },
+      "properties": {
+         "id": "pmb263343",
+         "title": "Bahnhof Ponte Tresa",
+         "lat": "45.9701",
+         "lon": "8.86046",
+         "timestamp": ["1924-08-29"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

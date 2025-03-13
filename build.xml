@@ -74,6 +74,15 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>
+    
+    <!-- distinct to completeGeoGJSON -->
+    
+    <xslt in="./data/editions/xml/wienerschnitzler_distinctPlaces.xml"
+        out="./data/editions/geojson/wienerschnitzler_distinctPlaces.geojson"
+        style="./xslts/GeoJSON/distinct_to_completeGeojson.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="./saxon/saxon-he-12.5.jar"/>
+    </xslt>
 
     <!-- create CSV-->
    

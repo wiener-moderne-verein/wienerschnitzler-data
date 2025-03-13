@@ -57,17 +57,20 @@ jobs:
             -s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml \
             -xsl:./xslts/GeoJSON/distinct_to_years.xsl \
             -o:./data/editions/geojson/dummy.out
-            
+
       - name: Distinct to months
         run: |
           java -jar saxon/saxon-he-12.5.jar \
             -s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml \
             -xsl:./xslts/GeoJSON/distinct_to_months.xsl \
             -o:./data/editions/geojson/dummy.out
-      
 
-
-
+      - name: completeNested to single days
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:./data/editions/xml/wienerschnitzler_complete_nested.xml \
+            -xsl:./xslts/GeoJSON/complete_nested_to_single_day.xsl \
+            -o:./data/editions/geojson/dummy.out
 
       - name: Änderungen committen und pushen
         run: |

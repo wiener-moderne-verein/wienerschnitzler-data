@@ -12,13 +12,32 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1915-06-01", "1915-06-02", "1915-06-03", "1915-06-04", "1915-06-05", "1915-06-06", "1915-06-07", "1915-06-08", "1915-06-09", "1915-06-10", "1915-06-11", "1915-06-12", "1915-06-13", "1915-06-14", "1915-06-15", "1915-06-16", "1915-06-17", "1915-06-18", "1915-06-19", "1915-06-20", "1915-06-21", "1915-06-22", "1915-06-29", "1915-06-30"],
-         "importance": 24, 
+         "timestamp": ["1915-06-01", "1915-06-02", "1915-06-03", "1915-06-04", "1915-06-05", "1915-06-06", "1915-06-07", "1915-06-08", "1915-06-09", "1915-06-10", "1915-06-11", "1915-06-12", "1915-06-13", "1915-06-14", "1915-06-15", "1915-06-16", "1915-06-17", "1915-06-18", "1915-06-19", "1915-06-20", "1915-06-21", "1915-06-22", "1915-06-23", "1915-06-28", "1915-06-29", "1915-06-30"],
+         "importance": 26, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
         "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1915-06-23", "1915-06-28"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -32,8 +51,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1915-06-15"],
-         "importance": 1, 
+         "timestamp": ["1915-06-07", "1915-06-14", "1915-06-15"],
+         "importance": 3, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -63,19 +82,57 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.042019, 47.805528]
+        "coordinates": [16.37049, 48.20769]
       },
       "properties": {
-         "id": "pmb180",
-         "title": "Mirabell",
-         "lat": "47.805528",
-         "lon": "13.042019",
-         "timestamp": ["1915-06-05"],
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1915-06-08", "1915-06-12", "1915-06-21"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341944, 48.233056]
+      },
+      "properties": {
+         "id": "pmb533",
+         "title": "Währinger Cottage",
+         "lat": "48.233056",
+         "lon": "16.341944",
+         "timestamp": ["1915-06-06"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Mirabell", 
-        "wikidata": "http://www.wikidata.org/entity/Q688546", 
-        "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
+        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1136683", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.24226, 48.34667]
+      },
+      "properties": {
+         "id": "pmb90763",
+         "title": "Greifenstein",
+         "lat": "48.34667",
+         "lon": "16.24226",
+         "timestamp": ["1915-06-03"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2778047/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -144,8 +201,8 @@
          "title": "Sonnwendstein",
          "lat": "47.629444",
          "lon": "15.86",
-         "timestamp": ["1915-06-25"],
-         "importance": 1, 
+         "timestamp": ["1915-06-25", "1915-06-27"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Sonnwendstein", 
         "wikidata": "http://www.wikidata.org/entity/Q1668878", 
         "geonames": "https://sws.geonames.org/2764871/", 
@@ -265,10 +322,76 @@
          "title": "Alt Pilsenetzer Bierhalle",
          "lat": "48.216481",
          "lon": "16.359721",
-         "timestamp": ["1915-06-15"],
-         "importance": 1, 
+         "timestamp": ["1915-06-14", "1915-06-15"],
+         "importance": 2, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1915-06-01"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1915-06-08", "1915-06-12", "1915-06-21", "1915-06-30"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
       }
       }, 
     {
@@ -345,6 +468,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83, 47.647222]
+      },
+      "properties": {
+         "id": "pmb413",
+         "title": "Südbahnhotel [Semmering]",
+         "lat": "47.647222",
+         "lon": "15.83",
+         "timestamp": ["1915-06-23", "1915-06-24", "1915-06-25", "1915-06-26", "1915-06-27", "1915-06-28"],
+         "importance": 6, 
+        "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1610900", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karl Rostler",
+
+         "p_id": "#23635"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33641, 48.23362]
       },
       "properties": {
@@ -399,6 +548,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1915-06-23", "1915-06-28"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.388002, 48.19884]
       },
       "properties": {
@@ -423,6 +590,38 @@
 
          "p_id": "#3223"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.825087, 47.619262]
+      },
+      "properties": {
+         "id": "pmb92221",
+         "title": "Dürrgraben",
+         "lat": "47.619262",
+         "lon": "15.825087",
+         "timestamp": ["1915-06-26"],
+         "importance": 1, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361604, 48.207065]
+      },
+      "properties": {
+         "id": "pmb92585",
+         "title": "Volksgartenrestaurant",
+         "lat": "48.207065",
+         "lon": "16.361604",
+         "timestamp": ["1915-06-19"],
+         "importance": 1
       }
       }, 
     {
@@ -466,6 +665,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368527, 48.212956]
+      },
+      "properties": {
+         "id": "pmb259744",
+         "title": "Madame d’Ora. Photographisches Atelier",
+         "lat": "48.212956",
+         "lon": "16.368527",
+         "timestamp": ["1915-06-17"],
+         "importance": 1, 
+        "abbr": "Atelier", 
+        "type": "Atelier"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -473,8 +689,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1915-06-01", "1915-06-02", "1915-06-03", "1915-06-04", "1915-06-05", "1915-06-06", "1915-06-07", "1915-06-08", "1915-06-09", "1915-06-10", "1915-06-11", "1915-06-12", "1915-06-13", "1915-06-14", "1915-06-15", "1915-06-16", "1915-06-17", "1915-06-18", "1915-06-19", "1915-06-20", "1915-06-21", "1915-06-22", "1915-06-29", "1915-06-30"],
-         "importance": 24, 
+         "timestamp": ["1915-06-01", "1915-06-02", "1915-06-03", "1915-06-04", "1915-06-05", "1915-06-06", "1915-06-07", "1915-06-08", "1915-06-09", "1915-06-10", "1915-06-11", "1915-06-12", "1915-06-13", "1915-06-14", "1915-06-15", "1915-06-16", "1915-06-17", "1915-06-18", "1915-06-19", "1915-06-20", "1915-06-21", "1915-06-22", "1915-06-23", "1915-06-28", "1915-06-29", "1915-06-30"],
+         "importance": 26, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -539,6 +755,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.353139, 48.24422]
+      },
+      "properties": {
+         "id": "pmb238485",
+         "title": "Nusswaldgasse 22",
+         "lat": "48.24422",
+         "lon": "16.353139",
+         "timestamp": ["1915-06-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33691, 48.23233]
       },
       "properties": {
@@ -576,8 +816,8 @@
          "title": "Tiefer Graben 17",
          "lat": "48.212284",
          "lon": "16.367725",
-         "timestamp": ["1915-06-01", "1915-06-30"],
-         "importance": 2, 
+         "timestamp": ["1915-06-01", "1915-06-20", "1915-06-30"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -593,6 +833,78 @@
 
          "p_id": "#12740"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23975, 48.344826]
+      },
+      "properties": {
+         "id": "pmb259703",
+         "title": "Bahnhof Greifenstein-Altenberg",
+         "lat": "48.344826",
+         "lon": "16.23975",
+         "timestamp": ["1915-06-03"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q99337533", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25942, 48.33685]
+      },
+      "properties": {
+         "id": "pmb90813",
+         "title": "Hadersfeld",
+         "lat": "48.33685",
+         "lon": "16.25942",
+         "timestamp": ["1915-06-03"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2777092/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.325142, 48.249205]
+      },
+      "properties": {
+         "id": "pmb259715",
+         "title": "Café Mirabell [Wien]",
+         "lat": "48.249205",
+         "lon": "16.325142",
+         "timestamp": ["1915-06-05"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.222872530001, 48.208852539476]
+      },
+      "properties": {
+         "id": "pmb924",
+         "title": "Hadersdorf",
+         "lat": "48.208852539476",
+         "lon": "16.222872530001",
+         "timestamp": ["1915-06-06"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q27835330", 
+        "geonames": "https://sws.geonames.org/2777094/", 
+        "abbr": "eingemeindeter Ort (A.VOO)", 
+        "type": ""
       }
       }, 
     {
@@ -631,6 +943,38 @@
         "geonames": "https://sws.geonames.org/2776244/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.324329, 48.236724]
+      },
+      "properties": {
+         "id": "pmb259731",
+         "title": "Weinetablissement Wolf in Gersthof",
+         "lat": "48.236724",
+         "lon": "16.324329",
+         "timestamp": ["1915-06-11"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.826092, 47.619051]
+      },
+      "properties": {
+         "id": "pmb92309",
+         "title": "Johannespromenade",
+         "lat": "47.619051",
+         "lon": "15.826092",
+         "timestamp": ["1915-06-26"],
+         "importance": 1
       }
       }
   ]

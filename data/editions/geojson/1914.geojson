@@ -1154,7 +1154,7 @@
       },
       "properties": {
          "id": "pmb180",
-         "title": "Mirabell",
+         "title": "Schloss Mirabell",
          "lat": "47.805528",
          "lon": "13.042019",
          "timestamp": ["1914-08-20"],
@@ -4059,8 +4059,8 @@
          "title": "Nusswaldgasse 22",
          "lat": "48.24422",
          "lon": "16.353139",
-         "timestamp": ["1914-01-03", "1914-01-10", "1914-09-07"],
-         "importance": 3, 
+         "timestamp": ["1914-01-03", "1914-09-07"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -4854,6 +4854,23 @@
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348713, 48.215358]
+      },
+      "properties": {
+         "id": "pmb257079",
+         "title": "Pension Neubauer",
+         "lat": "48.215358",
+         "lon": "16.348713",
+         "timestamp": ["1914-01-10", "1914-09-23", "1914-09-29"],
+         "importance": 3, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       }, 
     {
@@ -6976,6 +6993,40 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.027194, 47.861107]
+      },
+      "properties": {
+         "id": "pmb256653",
+         "title": "Gasthof Grubmayr",
+         "lat": "47.861107",
+         "lon": "15.027194",
+         "timestamp": ["1914-07-14", "1914-07-15"],
+         "importance": 2, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.017543, 47.838717]
+      },
+      "properties": {
+         "id": "pmb256656",
+         "title": "Lehenvilla",
+         "lat": "47.838717",
+         "lon": "15.017543",
+         "timestamp": ["1914-07-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.040085, 47.853119]
       },
       "properties": {
@@ -8137,23 +8188,6 @@
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.348713, 48.215358]
-      },
-      "properties": {
-         "id": "pmb257079",
-         "title": "Pension Neubauer",
-         "lat": "48.215358",
-         "lon": "16.348713",
-         "timestamp": ["1914-09-23", "1914-09-29"],
-         "importance": 2, 
-        "abbr": "Beherbergungsgebäude (K.BHB)", 
-        "type": "Beherbergungsgebäude"
       }
       }, 
     {

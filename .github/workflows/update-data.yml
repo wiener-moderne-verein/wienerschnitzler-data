@@ -36,6 +36,13 @@ jobs:
 
       - name: Build mit Ant ausführen
         run: ant -f build.xml
+      
+      - name: Distinct to Decades
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml \
+            -xsl:./xslts/GeoJSON/distinct_to_decades.xsl \
+            -o:./data/editions/geojson/dummy.out
 
       - name: Änderungen committen und pushen
         run: |

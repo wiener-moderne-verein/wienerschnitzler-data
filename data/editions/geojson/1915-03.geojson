@@ -25,6 +25,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1915-03-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
@@ -32,10 +52,48 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1915-03-25"],
-         "importance": 1, 
+         "timestamp": ["1915-03-04", "1915-03-25", "1915-03-31"],
+         "importance": 3, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376111111111, 48.201388888889]
+      },
+      "properties": {
+         "id": "pmb1273",
+         "title": "Akademisches Gymnasium",
+         "lat": "48.201388888889",
+         "lon": "16.376111111111",
+         "timestamp": ["1915-03-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Akademisches_Gymnasium_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=29243", 
+        "wikidata": "http://www.wikidata.org/entity/Q414936", 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1915-03-01"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
       }
       }, 
     {
@@ -93,6 +151,82 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348401, 48.23555]
+      },
+      "properties": {
+         "id": "pmb253629",
+         "title": "Bundesgymnasium Döbling",
+         "lat": "48.23555",
+         "lon": "16.348401",
+         "timestamp": ["1915-03-16", "1915-03-17"],
+         "importance": 2, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359721, 48.216481]
+      },
+      "properties": {
+         "id": "pmb184975",
+         "title": "Alt Pilsenetzer Bierhalle",
+         "lat": "48.216481",
+         "lon": "16.359721",
+         "timestamp": ["1915-03-30", "1915-03-31"],
+         "importance": 2, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1915-03-28"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -172,6 +306,31 @@
         "geonames": "https://sws.geonames.org/3324230/", 
         "abbr": "L.LCTY", 
         "type": "Örtlichkeit"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3559, 48.2523]
+      },
+      "properties": {
+         "id": "pmb207104",
+         "title": "Haus Moll",
+         "lat": "48.2523",
+         "lon": "16.3559",
+         "timestamp": ["1915-03-29"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q122841575", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Carl Moll",
+
+         "p_id": "#12277"
+         }]
       }
       }, 
     {
@@ -335,6 +494,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3589845, 48.2195962]
+      },
+      "properties": {
+         "id": "pmb34399",
+         "title": "Neue Wiener Bühne",
+         "lat": "48.2195962",
+         "lon": "16.3589845",
+         "timestamp": ["1915-03-29"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Siegfried Geyer",
+
+         "p_id": "#7399"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -408,30 +591,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.353139, 48.24422]
-      },
-      "properties": {
-         "id": "pmb238485",
-         "title": "Nusswaldgasse 22",
-         "lat": "48.24422",
-         "lon": "16.353139",
-         "timestamp": ["1915-03-14"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Berta Zuckerkandl",
-
-         "p_id": "#2312"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.276309, 48.077068]
       },
       "properties": {
@@ -456,8 +615,8 @@
          "title": "Sternwartestraße 62–64",
          "lat": "48.23233",
          "lon": "16.33691",
-         "timestamp": ["1915-03-10"],
-         "importance": 1, 
+         "timestamp": ["1915-03-03", "1915-03-10"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -535,8 +694,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1915-03-30"],
-         "importance": 1, 
+         "timestamp": ["1915-03-13", "1915-03-27", "1915-03-30"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -565,6 +724,92 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.348713, 48.215358]
+      },
+      "properties": {
+         "id": "pmb257079",
+         "title": "Pension Neubauer",
+         "lat": "48.215358",
+         "lon": "16.348713",
+         "timestamp": ["1915-03-01", "1915-03-06", "1915-03-14", "1915-03-20", "1915-03-23"],
+         "importance": 5, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361979, 48.213258]
+      },
+      "properties": {
+         "id": "pmb257279",
+         "title": "Universitätsring 12",
+         "lat": "48.213258",
+         "lon": "16.361979",
+         "timestamp": ["1915-03-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357377, 48.215991]
+      },
+      "properties": {
+         "id": "pmb257419",
+         "title": "Ferstelgasse 3",
+         "lat": "48.215991",
+         "lon": "16.357377",
+         "timestamp": ["1915-03-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3807, 48.2112]
+      },
+      "properties": {
+         "id": "pmb257425",
+         "title": "Industriepalast",
+         "lat": "48.2112",
+         "lon": "16.3807",
+         "timestamp": ["1915-03-11"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q123562616", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374017, 48.205449]
+      },
+      "properties": {
+         "id": "pmb257434",
+         "title": "Himmelpfortgasse 17",
+         "lat": "48.205449",
+         "lon": "16.374017",
+         "timestamp": ["1915-03-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.369747, 48.231171]
       },
       "properties": {
@@ -582,6 +827,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.374473, 48.201269]
+      },
+      "properties": {
+         "id": "pmb257449",
+         "title": "Wehrmann in Eisen",
+         "lat": "48.201269",
+         "lon": "16.374473",
+         "timestamp": ["1915-03-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wehrmann_in_Eisen", 
+        "wikidata": "http://www.wikidata.org/entity/Q23465862", 
+        "abbr": "Denkmal", 
+        "type": "Denkmal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.24594, 48.054702]
       },
       "properties": {
@@ -593,6 +857,25 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23539, 48.02254]
+      },
+      "properties": {
+         "id": "pmb90569",
+         "title": "Einöde",
+         "lat": "48.02254",
+         "lon": "16.23539",
+         "timestamp": ["1915-03-25"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q94994008", 
+        "geonames": "https://sws.geonames.org/2601501/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

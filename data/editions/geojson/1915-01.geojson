@@ -12,13 +12,32 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1915-01-01", "1915-01-02", "1915-01-03", "1915-01-04", "1915-01-05", "1915-01-06", "1915-01-07", "1915-01-08", "1915-01-09", "1915-01-10", "1915-01-11", "1915-01-12", "1915-01-13", "1915-01-14", "1915-01-15", "1915-01-16", "1915-01-17", "1915-01-18", "1915-01-19", "1915-01-20", "1915-01-21", "1915-01-22", "1915-01-23", "1915-01-24", "1915-01-25", "1915-01-26", "1915-01-27", "1915-01-28", "1915-01-29", "1915-01-30", "1915-01-31"],
-         "importance": 31, 
+         "timestamp": ["1915-01-01", "1915-01-02", "1915-01-03", "1915-01-04", "1915-01-05", "1915-01-06", "1915-01-07", "1915-01-08", "1915-01-09", "1915-01-10", "1915-01-11", "1915-01-12", "1915-01-13", "1915-01-14", "1915-01-15", "1915-01-16", "1915-01-17", "1915-01-18", "1915-01-19", "1915-01-20", "1915-01-21", "1915-01-22", "1915-01-23", "1915-01-24", "1915-01-25", "1915-01-26", "1915-01-27", "1915-01-28", "1915-01-29", "1915-01-31"],
+         "importance": 30, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
         "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1915-01-29", "1915-01-31"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -32,8 +51,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1915-01-07"],
-         "importance": 1, 
+         "timestamp": ["1915-01-07", "1915-01-28"],
+         "importance": 2, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -123,6 +142,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379685, 48.188208]
+      },
+      "properties": {
+         "id": "pmb187206",
+         "title": "Restauration »Am Südbahnhof«",
+         "lat": "48.188208",
+         "lon": "16.379685",
+         "timestamp": ["1915-01-31"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.364167, 48.259444]
       },
       "properties": {
@@ -137,6 +173,43 @@
         "geonames": "https://sws.geonames.org/2770400/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8241, 47.64224]
+      },
+      "properties": {
+         "id": "pmb189",
+         "title": "Semmering",
+         "lat": "47.64224",
+         "lon": "15.8241",
+         "timestamp": ["1915-01-29", "1915-01-30", "1915-01-31"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q659891", 
+        "geonames": "https://sws.geonames.org/7873001/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348401, 48.23555]
+      },
+      "properties": {
+         "id": "pmb253629",
+         "title": "Bundesgymnasium Döbling",
+         "lat": "48.23555",
+         "lon": "16.348401",
+         "timestamp": ["1915-01-26"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule"
       }
       }, 
     {
@@ -297,6 +370,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83, 47.647222]
+      },
+      "properties": {
+         "id": "pmb413",
+         "title": "Südbahnhotel [Semmering]",
+         "lat": "47.647222",
+         "lon": "15.83",
+         "timestamp": ["1915-01-29", "1915-01-30", "1915-01-31"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1610900", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karl Rostler",
+
+         "p_id": "#23635"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33641, 48.23362]
       },
       "properties": {
@@ -345,6 +444,59 @@
 
          "p_id": "#24292"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1915-01-29", "1915-01-31"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36327, 48.20185]
+      },
+      "properties": {
+         "id": "pmb563",
+         "title": "Saal des Niederösterreichischen Gewerbevereins",
+         "lat": "48.20185",
+         "lon": "16.36327",
+         "timestamp": ["1915-01-24"],
+         "importance": 1, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8, 47.61667]
+      },
+      "properties": {
+         "id": "pmb91838",
+         "title": "Steinhaus am Semmering",
+         "lat": "47.61667",
+         "lon": "15.8",
+         "timestamp": ["1915-01-30"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2764442/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -412,8 +564,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1915-01-01", "1915-01-02", "1915-01-03", "1915-01-04", "1915-01-05", "1915-01-06", "1915-01-07", "1915-01-08", "1915-01-09", "1915-01-10", "1915-01-11", "1915-01-12", "1915-01-13", "1915-01-14", "1915-01-15", "1915-01-16", "1915-01-17", "1915-01-18", "1915-01-19", "1915-01-20", "1915-01-21", "1915-01-22", "1915-01-23", "1915-01-24", "1915-01-25", "1915-01-26", "1915-01-27", "1915-01-28", "1915-01-29", "1915-01-30", "1915-01-31"],
-         "importance": 31, 
+         "timestamp": ["1915-01-01", "1915-01-02", "1915-01-03", "1915-01-04", "1915-01-05", "1915-01-06", "1915-01-07", "1915-01-08", "1915-01-09", "1915-01-10", "1915-01-11", "1915-01-12", "1915-01-13", "1915-01-14", "1915-01-15", "1915-01-16", "1915-01-17", "1915-01-18", "1915-01-19", "1915-01-20", "1915-01-21", "1915-01-22", "1915-01-23", "1915-01-24", "1915-01-25", "1915-01-26", "1915-01-27", "1915-01-28", "1915-01-29", "1915-01-31"],
+         "importance": 30, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -667,8 +819,8 @@
          "title": "Silbergasse 42",
          "lat": "48.248146",
          "lon": "16.351291",
-         "timestamp": ["1915-01-06", "1915-01-19"],
-         "importance": 2, 
+         "timestamp": ["1915-01-06", "1915-01-19", "1915-01-26"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -726,6 +878,23 @@
          "importance": 1, 
         "abbr": "Volksbildungsanstalt (K.VBA)", 
         "type": "Volksbildungsanstalt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3464071, 48.2728672]
+      },
+      "properties": {
+         "id": "pmb257250",
+         "title": "Cafe-Restaurant »Zur Weberhütte«, Inh. Josef Raab",
+         "lat": "48.2728672",
+         "lon": "16.3464071",
+         "timestamp": ["1915-01-03"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {

@@ -6,14 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.60495, 47.696704], 
-            [13.616701, 47.713429]
+            [13.612887, 47.639907], 
+            [13.617747, 47.680254], 
+            [13.6273, 47.7122], 
+            [13.61926, 47.71356], 
+            [13.616701, 47.713429], 
+            [13.60495, 47.696704]
           ]
       },
       "properties": {
         "name": "24. August 1915"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61926, 47.71356]
+      },
+      "properties": {
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
+         "timestamp": ["1915-08-24"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -48,6 +69,60 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1915-08-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.612887, 47.639907]
+      },
+      "properties": {
+         "id": "pmb263482",
+         "title": "Bahnhof Bad Goisern",
+         "lat": "47.639907",
+         "lon": "13.612887",
+         "timestamp": ["1915-08-24"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q104630103", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.617747, 47.680254]
+      },
+      "properties": {
+         "id": "pmb92538",
+         "title": "Soleweg",
+         "lat": "47.680254",
+         "lon": "13.617747",
+         "timestamp": ["1915-08-24"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
       }
       }
   ]

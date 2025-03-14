@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.619619, 47.716395], 
             [13.616701, 47.713429], 
-            [13.61667, 47.71667]
+            [13.61926, 47.71356], 
+            [13.664415, 47.74078], 
+            [13.613595, 47.723751]
           ]
       },
       "properties": {
@@ -18,13 +21,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.61667, 47.71667]
+        "coordinates": [13.61926, 47.71356]
+      },
+      "properties": {
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
+         "timestamp": ["1915-08-10"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.613595, 47.723751]
       },
       "properties": {
          "id": "pmb90948",
          "title": "Jainzen",
-         "lat": "47.71667",
-         "lon": "13.61667",
+         "lat": "47.723751",
+         "lon": "13.613595",
          "timestamp": ["1915-08-10"],
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2775137/", 
@@ -47,6 +67,41 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.619619, 47.716395]
+      },
+      "properties": {
+         "id": "pmb263446",
+         "title": "Kaiserpark",
+         "lat": "47.716395",
+         "lon": "13.619619",
+         "timestamp": ["1915-08-10"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q127016505", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.664415, 47.74078]
+      },
+      "properties": {
+         "id": "pmb92222",
+         "title": "Ebenseerstraße",
+         "lat": "47.74078",
+         "lon": "13.664415",
+         "timestamp": ["1915-08-10"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }
   ]

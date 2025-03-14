@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.61893, 47.71109]
+            [13.57893, 47.71149], 
+            [13.61926, 47.71356], 
+            [13.59807, 47.71349], 
+            [13.559178, 47.714806]
           ]
       },
       "properties": {
@@ -17,20 +20,71 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.61893, 47.71109]
+        "coordinates": [13.61926, 47.71356]
       },
       "properties": {
-         "id": "pmb213",
-         "title": "Bad Ischl",
-         "lat": "47.71109",
-         "lon": "13.61893",
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
          "timestamp": ["1915-08-20"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q250984", 
-        "geonames": "https://sws.geonames.org/2782052/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.57893, 47.71149]
+      },
+      "properties": {
+         "id": "pmb91151",
+         "title": "Lindau [Bad Ischl]",
+         "lat": "47.71149",
+         "lon": "13.57893",
+         "timestamp": ["1915-08-20"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q69585614", 
+        "geonames": "https://sws.geonames.org/2604860/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.59807, 47.71349]
+      },
+      "properties": {
+         "id": "pmb92133",
+         "title": "Ahorn",
+         "lat": "47.71349",
+         "lon": "13.59807",
+         "timestamp": ["1915-08-20"],
+         "importance": 1, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.559178, 47.714806]
+      },
+      "properties": {
+         "id": "pmb40452",
+         "title": "Aschau",
+         "lat": "47.714806",
+         "lon": "13.559178",
+         "timestamp": ["1915-08-20"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2782360/", 
+        "abbr": "eingemeindeter Ort (A.VOO)", 
+        "type": ""
       }
       }
   ]

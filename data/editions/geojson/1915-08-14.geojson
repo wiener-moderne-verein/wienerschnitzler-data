@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.61893, 47.71109]
+            [13.64618, 47.68972], 
+            [13.647559, 47.702261], 
+            [13.61926, 47.71356]
           ]
       },
       "properties": {
@@ -17,18 +19,50 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.61893, 47.71109]
+        "coordinates": [13.61926, 47.71356]
       },
       "properties": {
-         "id": "pmb213",
-         "title": "Bad Ischl",
-         "lat": "47.71109",
-         "lon": "13.61893",
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
          "timestamp": ["1915-08-14"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q250984", 
-        "geonames": "https://sws.geonames.org/2782052/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.647559, 47.702261]
+      },
+      "properties": {
+         "id": "pmb92321",
+         "title": "Kaiser Jubiläumsweg",
+         "lat": "47.702261",
+         "lon": "13.647559",
+         "timestamp": ["1915-08-14"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.64618, 47.68972]
+      },
+      "properties": {
+         "id": "pmb91453",
+         "title": "Perneck",
+         "lat": "47.68972",
+         "lon": "13.64618",
+         "timestamp": ["1915-08-14"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2769084/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }

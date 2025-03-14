@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.61893, 47.71109]
+            [13.61438, 47.67203], 
+            [13.625998, 47.7077013], 
+            [13.61926, 47.71356]
           ]
       },
       "properties": {
@@ -17,20 +19,52 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.61893, 47.71109]
+        "coordinates": [13.61926, 47.71356]
       },
       "properties": {
-         "id": "pmb213",
-         "title": "Bad Ischl",
-         "lat": "47.71109",
-         "lon": "13.61893",
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
          "timestamp": ["1915-08-11"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q250984", 
-        "geonames": "https://sws.geonames.org/2782052/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61438, 47.67203]
+      },
+      "properties": {
+         "id": "pmb35658",
+         "title": "Lauffen",
+         "lat": "47.67203",
+         "lon": "13.61438",
+         "timestamp": ["1915-08-11"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2772839/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.625998, 47.7077013]
+      },
+      "properties": {
+         "id": "pmb263384",
+         "title": "Villa Viola",
+         "lat": "47.7077013",
+         "lon": "13.625998",
+         "timestamp": ["1915-08-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

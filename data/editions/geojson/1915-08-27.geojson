@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [13.60412, 47.711737], 
+            [13.618611, 47.711389], 
+            [13.61926, 47.71356], 
             [13.636461, 47.726141]
           ]
       },
@@ -14,6 +16,23 @@
         "name": "27. August 1915"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61926, 47.71356]
+      },
+      "properties": {
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
+         "timestamp": ["1915-08-27"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -46,6 +65,30 @@
          "importance": 1, 
         "abbr": "Erhebung", 
         "type": "Erhebung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.618611, 47.711389]
+      },
+      "properties": {
+         "id": "pmb1179",
+         "title": "Stadttheater [Bad Ischl]",
+         "lat": "47.711389",
+         "lon": "13.618611",
+         "timestamp": ["1915-08-27"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Grethe Wreden",
+
+         "p_id": "#27355"
+         }]
       }
       }
   ]

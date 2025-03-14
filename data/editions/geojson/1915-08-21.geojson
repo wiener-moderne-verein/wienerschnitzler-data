@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.61893, 47.71109]
+            [13.61926, 47.71356], 
+            [13.4476, 47.7379]
           ]
       },
       "properties": {
@@ -17,20 +18,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.61893, 47.71109]
+        "coordinates": [13.61926, 47.71356]
       },
       "properties": {
-         "id": "pmb213",
-         "title": "Bad Ischl",
-         "lat": "47.71109",
-         "lon": "13.61893",
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
          "timestamp": ["1915-08-21"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q250984", 
-        "geonames": "https://sws.geonames.org/2782052/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.4476, 47.7379]
+      },
+      "properties": {
+         "id": "pmb195147",
+         "title": "Pfarrkirche St. Wolfgang",
+         "lat": "47.7379",
+         "lon": "13.4476",
+         "timestamp": ["1915-08-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Katholische_Pfarr-_und_Wallfahrtskirche_St._Wolfgang_im_Salzkammergut", 
+        "wikidata": "http://www.wikidata.org/entity/Q14541022", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }
   ]

@@ -6,13 +6,32 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.60495, 47.696704]
+            [13.60495, 47.696704], 
+            [13.61926, 47.71356], 
+            [13.61489, 47.71296]
           ]
       },
       "properties": {
         "name": "13. August 1915"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61926, 47.71356]
+      },
+      "properties": {
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
+         "timestamp": ["1915-08-13"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -30,6 +49,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q1014597", 
         "abbr": "S.BUR", 
         "type": "Grabstätte"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61489, 47.71296]
+      },
+      "properties": {
+         "id": "pmb40324",
+         "title": "Hotel Bauer",
+         "lat": "47.71296",
+         "lon": "13.61489",
+         "timestamp": ["1915-08-13"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

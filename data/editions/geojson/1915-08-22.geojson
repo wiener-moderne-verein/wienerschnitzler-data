@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.61893, 47.71109], 
-            [16.353139, 48.24422]
+            [13.61926, 47.71356], 
+            [13.617007, 47.714833], 
+            [13.36667, 47.76667]
           ]
       },
       "properties": {
@@ -18,44 +19,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.61893, 47.71109]
+        "coordinates": [13.61926, 47.71356]
       },
       "properties": {
-         "id": "pmb213",
-         "title": "Bad Ischl",
-         "lat": "47.71109",
-         "lon": "13.61893",
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
          "timestamp": ["1915-08-22"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q250984", 
-        "geonames": "https://sws.geonames.org/2782052/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.353139, 48.24422]
+        "coordinates": [13.617007, 47.714833]
       },
       "properties": {
-         "id": "pmb238485",
-         "title": "Nusswaldgasse 22",
-         "lat": "48.24422",
-         "lon": "16.353139",
+         "id": "pmb263402",
+         "title": "Jainzendorfstraße 1",
+         "lat": "47.714833",
+         "lon": "13.617007",
          "timestamp": ["1915-08-22"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Berta Zuckerkandl",
-
-         "p_id": "#2312"
-         }]
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36667, 47.76667]
+      },
+      "properties": {
+         "id": "pmb33",
+         "title": "St. Gilgen",
+         "lat": "47.76667",
+         "lon": "13.36667",
+         "timestamp": ["1915-08-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sankt_Gilgen", 
+        "wikidata": "http://www.wikidata.org/entity/Q264430", 
+        "geonames": "https://sws.geonames.org/2766683/ https://sws.geonames.org/7872214/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }
   ]

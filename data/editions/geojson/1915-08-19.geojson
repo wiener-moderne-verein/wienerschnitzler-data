@@ -6,14 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.61438, 47.67203], 
+            [13.6273, 47.7122], 
+            [13.621867, 47.710809], 
             [13.62184, 47.71088], 
-            [12.92856, 47.93568]
+            [13.62156, 47.70918], 
+            [13.61926, 47.71356]
           ]
       },
       "properties": {
         "name": "19. August 1915"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61926, 47.71356]
+      },
+      "properties": {
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
+         "timestamp": ["1915-08-19"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -37,18 +58,71 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.92856, 47.93568]
+        "coordinates": [13.61438, 47.67203]
       },
       "properties": {
-         "id": "pmb50797",
-         "title": "Laufen",
-         "lat": "47.93568",
-         "lon": "12.92856",
+         "id": "pmb35658",
+         "title": "Lauffen",
+         "lat": "47.67203",
+         "lon": "13.61438",
          "timestamp": ["1915-08-19"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2880129/", 
+        "geonames": "https://sws.geonames.org/2772839/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.621867, 47.710809]
+      },
+      "properties": {
+         "id": "pmb92443",
+         "title": "Pfarrgasse",
+         "lat": "47.710809",
+         "lon": "13.621867",
+         "timestamp": ["1915-08-19"],
+         "importance": 1, 
+        "abbr": "H.STRT", 
+        "type": "Meerenge"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1915-08-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.62156, 47.70918]
+      },
+      "properties": {
+         "id": "pmb1220",
+         "title": "Grazer Straße [Bad Ischl]",
+         "lat": "47.70918",
+         "lon": "13.62156",
+         "timestamp": ["1915-08-19"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }
   ]

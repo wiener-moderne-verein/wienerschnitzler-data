@@ -32,8 +32,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1915-10-09", "1915-10-11", "1915-10-12", "1915-10-17"],
-         "importance": 4, 
+         "timestamp": ["1915-10-04", "1915-10-06", "1915-10-07", "1915-10-09", "1915-10-11", "1915-10-12", "1915-10-17"],
+         "importance": 7, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -91,6 +91,23 @@
          "importance": 1, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361378, 48.203661]
+      },
+      "properties": {
+         "id": "pmb47660",
+         "title": "Kunsthistorisches Museum",
+         "lat": "48.203661",
+         "lon": "16.361378",
+         "timestamp": ["1915-10-12"],
+         "importance": 1, 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
       }
       }, 
     {
@@ -162,6 +179,26 @@
 
          "p_id": "#14328"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.381667, 48.2075]
+      },
+      "properties": {
+         "id": "pmb83",
+         "title": "Museum für Angewandte Kunst",
+         "lat": "48.2075",
+         "lon": "16.381667",
+         "timestamp": ["1915-10-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Museum_f%C3%BCr_angewandte_Kunst_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q478455", 
+        "geonames": "https://sws.geonames.org/8604499/", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
       }
       }, 
     {
@@ -286,8 +323,8 @@
          "title": "Türkenschanzstraße 48",
          "lat": "48.23362",
          "lon": "16.33641",
-         "timestamp": ["1915-10-06"],
-         "importance": 1, 
+         "timestamp": ["1915-10-06", "1915-10-11"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -399,6 +436,36 @@
          "p_name": "Franz Ignaz Fischmeister",
 
          "p_id": "#16299"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348104, 48.235011]
+      },
+      "properties": {
+         "id": "pmb247592",
+         "title": "Cottage-Lyzeum",
+         "lat": "48.235011",
+         "lon": "16.348104",
+         "timestamp": ["1915-10-02"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karola Klein",
+
+         "p_id": "#19408"
+         }, 
+         {
+
+         "p_name": "Robert Martinek",
+
+         "p_id": "#21123"
          }]
       }
       }, 

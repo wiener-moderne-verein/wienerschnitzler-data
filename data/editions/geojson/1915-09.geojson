@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1915-09-01", "1915-09-04", "1915-09-05", "1915-09-06", "1915-09-07", "1915-09-08", "1915-09-09", "1915-09-10", "1915-09-11", "1915-09-12", "1915-09-13", "1915-09-14", "1915-09-15", "1915-09-16", "1915-09-17", "1915-09-18", "1915-09-19", "1915-09-20", "1915-09-21", "1915-09-22", "1915-09-23", "1915-09-24", "1915-09-25", "1915-09-26", "1915-09-27", "1915-09-28", "1915-09-29", "1915-09-30"],
-         "importance": 28, 
+         "timestamp": ["1915-09-01", "1915-09-02", "1915-09-03", "1915-09-04", "1915-09-05", "1915-09-06", "1915-09-07", "1915-09-08", "1915-09-09", "1915-09-10", "1915-09-11", "1915-09-12", "1915-09-13", "1915-09-14", "1915-09-15", "1915-09-16", "1915-09-17", "1915-09-18", "1915-09-19", "1915-09-20", "1915-09-21", "1915-09-22", "1915-09-23", "1915-09-24", "1915-09-25", "1915-09-26", "1915-09-27", "1915-09-28", "1915-09-29", "1915-09-30"],
+         "importance": 30, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -77,11 +77,31 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1915-09-06", "1915-09-13", "1915-09-21"],
-         "importance": 3, 
+         "timestamp": ["1915-09-06", "1915-09-13", "1915-09-21", "1915-09-22", "1915-09-27", "1915-09-28", "1915-09-29"],
+         "importance": 7, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1915-09-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -99,6 +119,24 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.43138888888889, 48.155833333333334]
+      },
+      "properties": {
+         "id": "pmb192349",
+         "title": "Israelitischer Friedhof",
+         "lat": "48.155833333333334",
+         "lon": "16.43138888888889",
+         "timestamp": ["1915-09-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q68752772", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
       }
       }, 
     {
@@ -123,20 +161,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.8241, 47.64224]
+        "coordinates": [16.359930555555554, 48.205130555555556]
       },
       "properties": {
-         "id": "pmb189",
-         "title": "Semmering",
-         "lat": "47.64224",
-         "lon": "15.8241",
-         "timestamp": ["1915-09-02", "1915-09-03"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)", 
-        "wikidata": "http://www.wikidata.org/entity/Q659891", 
-        "geonames": "https://sws.geonames.org/7873001/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+         "id": "pmb192662",
+         "title": "Naturhistorisches Museum",
+         "lat": "48.205130555555556",
+         "lon": "16.359930555555554",
+         "timestamp": ["1915-09-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Naturhistorisches_Museum_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q688704", 
+        "geonames": "https://sws.geonames.org/6354989/", 
+        "abbr": "S.MUS", 
+        "type": "Museum"
       }
       }, 
     {
@@ -191,6 +229,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q2253835", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.22773, 48.21686]
+      },
+      "properties": {
+         "id": "pmb19829",
+         "title": "Weidlingau",
+         "lat": "48.21686",
+         "lon": "16.22773",
+         "timestamp": ["1915-09-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hadersdorf-Weidlingau", 
+        "wikidata": "http://www.wikidata.org/entity/Q1567437", 
+        "geonames": "https://sws.geonames.org/2761739/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }, 
     {
@@ -271,6 +329,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.348104, 48.235011]
+      },
+      "properties": {
+         "id": "pmb247592",
+         "title": "Cottage-Lyzeum",
+         "lat": "48.235011",
+         "lon": "16.348104",
+         "timestamp": ["1915-09-13"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karola Klein",
+
+         "p_id": "#19408"
+         }, 
+         {
+
+         "p_name": "Robert Martinek",
+
+         "p_id": "#21123"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -278,8 +366,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1915-09-09"],
-         "importance": 1, 
+         "timestamp": ["1915-09-09", "1915-09-18"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -363,8 +451,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1915-09-01", "1915-09-04", "1915-09-05", "1915-09-06", "1915-09-07", "1915-09-08", "1915-09-09", "1915-09-10", "1915-09-11", "1915-09-12", "1915-09-13", "1915-09-14", "1915-09-15", "1915-09-16", "1915-09-17", "1915-09-18", "1915-09-19", "1915-09-20", "1915-09-21", "1915-09-22", "1915-09-23", "1915-09-24", "1915-09-25", "1915-09-26", "1915-09-27", "1915-09-28", "1915-09-29", "1915-09-30"],
-         "importance": 28, 
+         "timestamp": ["1915-09-01", "1915-09-02", "1915-09-03", "1915-09-04", "1915-09-05", "1915-09-06", "1915-09-07", "1915-09-08", "1915-09-09", "1915-09-10", "1915-09-11", "1915-09-12", "1915-09-13", "1915-09-14", "1915-09-15", "1915-09-16", "1915-09-17", "1915-09-18", "1915-09-19", "1915-09-20", "1915-09-21", "1915-09-22", "1915-09-23", "1915-09-24", "1915-09-25", "1915-09-26", "1915-09-27", "1915-09-28", "1915-09-29", "1915-09-30"],
+         "importance": 30, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -483,6 +571,85 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1915-09-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351996, 48.238534]
+      },
+      "properties": {
+         "id": "pmb235862",
+         "title": "Kreindlgasse 8",
+         "lat": "48.238534",
+         "lon": "16.351996",
+         "timestamp": ["1915-09-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vera Schapira",
+
+         "p_id": "#9667"
+         }, 
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.349222, 48.201139]
       },
       "properties": {
@@ -567,6 +734,64 @@
 
          "p_id": "#9629"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341015, 48.249749]
+      },
+      "properties": {
+         "id": "pmb252863",
+         "title": "Kaasgrabengasse 4",
+         "lat": "48.249749",
+         "lon": "16.341015",
+         "timestamp": ["1915-09-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Jakob Wassermann",
+
+         "p_id": "#13055"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.296622, 48.183258]
+      },
+      "properties": {
+         "id": "pmb263537",
+         "title": "Woltergasse 2a",
+         "lat": "48.183258",
+         "lon": "16.296622",
+         "timestamp": ["1915-09-14", "1915-09-25"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.346535, 48.235356]
+      },
+      "properties": {
+         "id": "pmb263634",
+         "title": "Vegagasse 11",
+         "lat": "48.235356",
+         "lon": "16.346535",
+         "timestamp": ["1915-09-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

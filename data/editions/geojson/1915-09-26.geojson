@@ -6,13 +6,56 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.346535, 48.235356], 
+            [16.341015, 48.249749]
           ]
       },
       "properties": {
         "name": "26. September 1915"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.346535, 48.235356]
+      },
+      "properties": {
+         "id": "pmb263634",
+         "title": "Vegagasse 11",
+         "lat": "48.235356",
+         "lon": "16.346535",
+         "timestamp": ["1915-09-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341015, 48.249749]
+      },
+      "properties": {
+         "id": "pmb252863",
+         "title": "Kaasgrabengasse 4",
+         "lat": "48.249749",
+         "lon": "16.341015",
+         "timestamp": ["1915-09-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Jakob Wassermann",
+
+         "p_id": "#13055"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

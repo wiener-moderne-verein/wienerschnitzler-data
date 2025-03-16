@@ -1411,7 +1411,9 @@
          "lat": "48.235934",
          "lon": "16.3469",
          "timestamp": ["1918-08-14"],
-         "importance": 1
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }, 
     {
@@ -1828,6 +1830,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q874600", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.296622, 48.183258]
+      },
+      "properties": {
+         "id": "pmb263537",
+         "title": "Woltergasse 2a",
+         "lat": "48.183258",
+         "lon": "16.296622",
+         "timestamp": ["1918-01-19", "1918-02-12", "1918-03-14", "1918-05-11", "1918-06-20", "1918-07-25", "1918-10-05", "1918-10-11", "1918-10-16", "1918-10-18"],
+         "importance": 10, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {

@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [12.699441, 49.96848], 
-            [12.70919, 49.97665]
+            [12.70555, 49.973], 
+            [12.70919, 49.97665], 
+            [12.68706, 49.97383]
           ]
       },
       "properties": {
@@ -35,6 +37,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.68706, 49.97383]
+      },
+      "properties": {
+         "id": "pmb244346",
+         "title": "Moorlager [Marienbad]",
+         "lat": "49.97383",
+         "lon": "12.68706",
+         "timestamp": ["1930-09-02"],
+         "importance": 1, 
+        "abbr": "Mineralmoorlager", 
+        "type": "Mineralmoorlager"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.699441, 49.96848]
       },
       "properties": {
@@ -46,6 +65,23 @@
          "importance": 1, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.70555, 49.973]
+      },
+      "properties": {
+         "id": "pmb236997",
+         "title": "Café und Restaurant Winterling",
+         "lat": "49.973",
+         "lon": "12.70555",
+         "timestamp": ["1930-09-02"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }
   ]

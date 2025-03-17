@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.702923, 49.976424], 
             [12.70919, 49.97665], 
-            [12.716619, 49.977638]
+            [12.716619, 49.977638], 
+            [12.72, 49.98694]
           ]
       },
       "properties": {
@@ -29,6 +31,40 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.702923, 49.976424]
+      },
+      "properties": {
+         "id": "pmb200866",
+         "title": "Hotel Neptun",
+         "lat": "49.976424",
+         "lon": "12.702923",
+         "timestamp": ["1930-08-29"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.72, 49.98694]
+      },
+      "properties": {
+         "id": "pmb244316",
+         "title": "Café Sennhof",
+         "lat": "49.98694",
+         "lon": "12.72",
+         "timestamp": ["1930-08-29"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
       }
       },
     {

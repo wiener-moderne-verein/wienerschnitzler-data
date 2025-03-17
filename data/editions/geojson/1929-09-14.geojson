@@ -6,9 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.702923, 49.976424], 
             [12.70685, 49.97747], 
+            [12.708069, 49.976985], 
+            [12.70682, 49.97441], 
             [12.70919, 49.97665], 
             [12.716619, 49.977638], 
+            [12.72509, 49.98908], 
             [12.7055, 49.98198]
           ]
       },
@@ -27,6 +31,23 @@
          "title": "Grand Hotel Marienbad",
          "lat": "49.97665",
          "lon": "12.70919",
+         "timestamp": ["1929-09-14"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.702923, 49.976424]
+      },
+      "properties": {
+         "id": "pmb200866",
+         "title": "Hotel Neptun",
+         "lat": "49.976424",
+         "lon": "12.702923",
          "timestamp": ["1929-09-14"],
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
@@ -65,6 +86,57 @@
          "importance": 1, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.72509, 49.98908]
+      },
+      "properties": {
+         "id": "pmb236978",
+         "title": "Höhencafé und Restaurant »Alm«",
+         "lat": "49.98908",
+         "lon": "12.72509",
+         "timestamp": ["1929-09-14"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.708069, 49.976985]
+      },
+      "properties": {
+         "id": "pmb236971",
+         "title": "Wiener Haus",
+         "lat": "49.976985",
+         "lon": "12.708069",
+         "timestamp": ["1929-09-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.70682, 49.97441]
+      },
+      "properties": {
+         "id": "pmb236982",
+         "title": "Gesellschaftshaus mit Kursaal und Casino",
+         "lat": "49.97441",
+         "lon": "12.70682",
+         "timestamp": ["1929-09-14"],
+         "importance": 1, 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
       }
       },
     {

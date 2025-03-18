@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.361139, 48.210333], 
-            [16.33716, 48.23188]
+            [16.3675, 48.1954], 
+            [16.373239, 48.201859], 
+            [16.377197811369, 48.200771836002], 
+            [16.375522, 48.208565], 
+            [16.33716, 48.23188], 
+            [16.361139, 48.210333]
           ]
       },
       "properties": {
@@ -30,6 +34,81 @@
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375522, 48.208565]
+      },
+      "properties": {
+         "id": "pmb263875",
+         "title": "Wollzeile 12",
+         "lat": "48.208565",
+         "lon": "16.375522",
+         "timestamp": ["1915-12-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373239, 48.201859]
+      },
+      "properties": {
+         "id": "pmb263899",
+         "title": "Galerie Arnot",
+         "lat": "48.201859",
+         "lon": "16.373239",
+         "timestamp": ["1915-12-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Galerie_Arnot", 
+        "wikidata": "http://www.wikidata.org/entity/Q113495765", 
+        "abbr": "Galerie (K.GLR)", 
+        "type": "Galerie"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3675, 48.1954]
+      },
+      "properties": {
+         "id": "pmb263880",
+         "title": "Hotel Erzherzog Rainer [Wien]",
+         "lat": "48.1954",
+         "lon": "16.3675",
+         "timestamp": ["1915-12-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Erzherzog_Rainer", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630887", 
+        "geonames": "https://sws.geonames.org/6955457/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377197811369, 48.200771836002]
+      },
+      "properties": {
+         "id": "pmb240",
+         "title": "Wiener Konzerthaus",
+         "lat": "48.200771836002",
+         "lon": "16.377197811369",
+         "timestamp": ["1915-12-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q695126", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
       }
       },
     {

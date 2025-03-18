@@ -170,8 +170,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1915-01-07", "1915-01-28", "1915-02-25", "1915-03-04", "1915-03-25", "1915-03-31", "1915-04-05", "1915-04-14", "1915-04-23", "1915-04-24", "1915-04-26"],
-         "importance": 11, 
+         "timestamp": ["1915-01-07", "1915-01-28", "1915-02-25", "1915-03-04", "1915-03-25", "1915-03-31", "1915-04-05", "1915-04-14", "1915-04-23", "1915-04-24", "1915-04-26", "1915-11-04", "1915-11-13", "1915-11-18", "1915-12-05", "1915-12-09", "1915-12-13"],
+         "importance": 17, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -252,8 +252,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1915-01-13", "1915-02-06", "1915-03-01", "1915-05-06", "1915-05-31", "1915-06-07", "1915-06-14", "1915-06-15", "1915-09-06", "1915-09-13", "1915-09-21", "1915-09-22", "1915-09-27", "1915-09-28", "1915-09-29", "1915-10-04", "1915-10-06", "1915-10-07", "1915-10-09", "1915-10-11", "1915-10-12", "1915-10-17", "1915-12-21"],
-         "importance": 23, 
+         "timestamp": ["1915-01-13", "1915-02-06", "1915-03-01", "1915-05-06", "1915-05-31", "1915-06-07", "1915-06-14", "1915-06-15", "1915-09-06", "1915-09-13", "1915-09-21", "1915-09-22", "1915-09-27", "1915-09-28", "1915-09-29", "1915-10-04", "1915-10-06", "1915-10-07", "1915-10-09", "1915-10-11", "1915-10-12", "1915-10-14", "1915-10-17", "1915-10-17", "1915-11-17", "1915-12-21"],
+         "importance": 26, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -337,6 +337,26 @@
         "geonames": "https://sws.geonames.org/2782067/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.29101, 48.17547]
+      },
+      "properties": {
+         "id": "pmb63",
+         "title": "XIII., Hietzing",
+         "lat": "48.17547",
+         "lon": "16.29101",
+         "timestamp": ["1915-11-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hietzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q636910", 
+        "geonames": "https://sws.geonames.org/2776420/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsbezirk"
       }
       }, 
     {
@@ -511,8 +531,8 @@
          "title": "I., Innere Stadt",
          "lat": "48.20769",
          "lon": "16.37049",
-         "timestamp": ["1915-02-15", "1915-02-16", "1915-04-13", "1915-04-16", "1915-05-17", "1915-06-08", "1915-06-12", "1915-06-21", "1915-07-06", "1915-09-10"],
-         "importance": 10, 
+         "timestamp": ["1915-02-15", "1915-02-16", "1915-04-13", "1915-04-16", "1915-05-17", "1915-06-08", "1915-06-12", "1915-06-21", "1915-07-06", "1915-09-10", "1915-11-11", "1915-12-24"],
+         "importance": 12, 
         "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
@@ -1079,8 +1099,8 @@
          "title": "Bundesgymnasium Döbling",
          "lat": "48.23555",
          "lon": "16.348401",
-         "timestamp": ["1915-01-26", "1915-03-16", "1915-03-17"],
-         "importance": 3, 
+         "timestamp": ["1915-01-26", "1915-03-16", "1915-03-17", "1915-11-13"],
+         "importance": 4, 
         "abbr": "Schule (K.SCH)", 
         "type": "Schule"
       }
@@ -1387,6 +1407,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.341333, 48.226694]
+      },
+      "properties": {
+         "id": "pmb312",
+         "title": "Währinger Straße",
+         "lat": "48.226694",
+         "lon": "16.341333",
+         "timestamp": ["1915-12-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/W%C3%A4hringer_Stra%C3%9Fe", 
+        "wikidata": "http://www.wikidata.org/entity/Q2595967", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl ",
+
+         "p_id": "#28893"
+         }, 
+         {
+
+         "p_name": "Hugo Hug von Hugenstein",
+
+         "p_id": "#143613"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.359721, 48.216481]
       },
       "properties": {
@@ -1488,6 +1540,26 @@
         "geonames": "https://sws.geonames.org/2772512/", 
         "abbr": "Schloss (K.SLS)", 
         "type": "Schloss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3073, 48.2437]
+      },
+      "properties": {
+         "id": "pmb199644",
+         "title": "Geymüllerschlössel",
+         "lat": "48.2437",
+         "lon": "16.3073",
+         "timestamp": ["1915-10-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Geym%C3%BCllerschl%C3%B6ssel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1521129", 
+        "geonames": "https://sws.geonames.org/8604503/", 
+        "abbr": "S.MUS", 
+        "type": "Museum"
       }
       }, 
     {
@@ -1864,8 +1936,8 @@
          "title": "Schwarzenbergpark",
          "lat": "48.241960480337",
          "lon": "16.276509500872",
-         "timestamp": ["1915-09-08", "1915-09-24"],
-         "importance": 2, 
+         "timestamp": ["1915-09-08", "1915-09-24", "1915-10-15"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
         "wikidata": "http://www.wikidata.org/entity/Q2253835", 
         "abbr": "Park (K.PRK)", 
@@ -1888,6 +1960,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q2840760", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.383456, 52.516152]
+      },
+      "properties": {
+         "id": "pmb127",
+         "title": "Hotel Bristol Berlin",
+         "lat": "52.516152",
+         "lon": "13.383456",
+         "timestamp": ["1915-10-21", "1915-10-22", "1915-10-23", "1915-10-24", "1915-10-25"],
+         "importance": 5, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630839", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -2213,6 +2304,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1915-12-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3559, 48.2523]
       },
       "properties": {
@@ -2220,8 +2342,8 @@
          "title": "Haus Moll",
          "lat": "48.2523",
          "lon": "16.3559",
-         "timestamp": ["1915-03-29"],
-         "importance": 1, 
+         "timestamp": ["1915-03-29", "1915-11-30", "1915-12-03"],
+         "importance": 3, 
         "wikidata": "http://www.wikidata.org/entity/Q122841575", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
@@ -2232,6 +2354,26 @@
 
          "p_id": "#12277"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.300279, 48.241403]
+      },
+      "properties": {
+         "id": "pmb92456",
+         "title": "Pötzleinsdorfer Schlosspark",
+         "lat": "48.241403",
+         "lon": "16.300279",
+         "timestamp": ["1915-11-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/P%C3%B6tzleinsdorfer_Schlosspark", 
+        "wikidata": "http://www.wikidata.org/entity/Q999211", 
+        "geonames": "https://www.geonames.org/12518982", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -2335,6 +2477,36 @@
          "p_name": "Karl Rostler",
 
          "p_id": "#23635"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371539, 48.208697]
+      },
+      "properties": {
+         "id": "pmb236260",
+         "title": "Koppel, Frisch & Cie., Mode- und Seidenwaren",
+         "lat": "48.208697",
+         "lon": "16.371539",
+         "timestamp": ["1915-12-28"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karl Gelles",
+
+         "p_id": "#16977"
+         }, 
+         {
+
+         "p_name": "Josef Fleminger",
+
+         "p_id": "#16346"
          }]
       }
       }, 
@@ -2456,8 +2628,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1915-03-14", "1915-03-16", "1915-05-01", "1915-05-20", "1915-05-25", "1915-05-29", "1915-10-28"],
-         "importance": 7, 
+         "timestamp": ["1915-03-14", "1915-03-16", "1915-05-01", "1915-05-20", "1915-05-25", "1915-05-29", "1915-10-28", "1915-12-25"],
+         "importance": 8, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2640,8 +2812,8 @@
          "title": "Cottagegasse 37",
          "lat": "48.233004",
          "lon": "16.34167",
-         "timestamp": ["1915-02-11", "1915-05-25", "1915-05-28"],
-         "importance": 3, 
+         "timestamp": ["1915-02-11", "1915-05-25", "1915-05-28", "1915-11-23"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2791,8 +2963,8 @@
          "title": "Cottage-Lyzeum",
          "lat": "48.235011",
          "lon": "16.348104",
-         "timestamp": ["1915-09-13", "1915-10-02"],
-         "importance": 2, 
+         "timestamp": ["1915-09-13", "1915-10-02", "1915-11-27"],
+         "importance": 3, 
         "abbr": "Schule (K.SCH)", 
         "type": "Schule", 
         "arbeitsort": [
@@ -2838,8 +3010,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1915-01-22", "1915-02-23", "1915-03-05", "1915-05-21", "1915-06-17", "1915-06-30", "1915-09-09", "1915-09-18", "1915-12-18"],
-         "importance": 9, 
+         "timestamp": ["1915-01-22", "1915-02-23", "1915-03-05", "1915-05-21", "1915-06-17", "1915-06-30", "1915-09-09", "1915-09-18", "1915-12-18", "1915-12-20"],
+         "importance": 10, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3222,8 +3394,8 @@
          "title": "Nusswaldgasse 22",
          "lat": "48.24422",
          "lon": "16.353139",
-         "timestamp": ["1915-05-12", "1915-06-21", "1915-09-20"],
-         "importance": 3, 
+         "timestamp": ["1915-05-12", "1915-06-21", "1915-09-20", "1915-10-17", "1915-10-17", "1915-12-25"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3232,6 +3404,37 @@
          "p_name": "Berta Zuckerkandl",
 
          "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.354432, 48.223354]
+      },
+      "properties": {
+         "id": "pmb252118",
+         "title": "Widerhofergasse 3",
+         "lat": "48.223354",
+         "lon": "16.354432",
+         "timestamp": ["1915-11-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Emma Löwenstamm",
+
+         "p_id": "#2327"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emma Löwenstamm",
+
+         "p_id": "#2327"
          }]
       }
       }, 
@@ -3341,8 +3544,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1915-01-16", "1915-02-11", "1915-02-27", "1915-05-27", "1915-07-12", "1915-09-01", "1915-10-18", "1915-12-24"],
-         "importance": 8, 
+         "timestamp": ["1915-01-16", "1915-02-11", "1915-02-27", "1915-05-27", "1915-07-12", "1915-09-01", "1915-10-18", "1915-11-11", "1915-12-24"],
+         "importance": 9, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3582,8 +3785,8 @@
          "title": "Silbergasse 42",
          "lat": "48.248146",
          "lon": "16.351291",
-         "timestamp": ["1915-01-06", "1915-01-19", "1915-01-26", "1915-02-28", "1915-04-03", "1915-04-07", "1915-04-10", "1915-04-15", "1915-07-26"],
-         "importance": 9, 
+         "timestamp": ["1915-01-06", "1915-01-19", "1915-01-26", "1915-02-28", "1915-04-03", "1915-04-07", "1915-04-10", "1915-04-15", "1915-07-26", "1915-10-17", "1915-11-15", "1915-11-17", "1915-11-21", "1915-12-14", "1915-12-25", "1915-12-30"],
+         "importance": 16, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3654,8 +3857,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1915-01-05", "1915-02-09", "1915-02-19", "1915-02-21", "1915-03-13", "1915-03-27", "1915-03-30", "1915-04-28", "1915-05-07"],
-         "importance": 9, 
+         "timestamp": ["1915-01-05", "1915-02-09", "1915-02-19", "1915-02-21", "1915-03-13", "1915-03-27", "1915-03-30", "1915-04-28", "1915-05-07", "1915-10-14", "1915-10-14", "1915-10-19", "1915-10-26", "1915-10-30", "1915-11-09", "1915-11-11", "1915-11-23", "1915-11-24", "1915-11-27", "1915-11-30", "1915-12-07", "1915-12-14", "1915-12-21"],
+         "importance": 23, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -3729,6 +3932,23 @@
          "importance": 3, 
         "abbr": "Volksbildungsanstalt (K.VBA)", 
         "type": "Volksbildungsanstalt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.352195, 48.222182]
+      },
+      "properties": {
+         "id": "pmb255498",
+         "title": "Severingasse 5",
+         "lat": "48.222182",
+         "lon": "16.352195",
+         "timestamp": ["1915-11-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -3856,6 +4076,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366548, 48.21306]
+      },
+      "properties": {
+         "id": "pmb256702",
+         "title": "Österreichische Länderbank",
+         "lat": "48.21306",
+         "lon": "16.366548",
+         "timestamp": ["1915-10-18", "1915-12-24"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
+        "wikidata": "http://www.wikidata.org/entity/Q26911630", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.377264, 52.505242]
+      },
+      "properties": {
+         "id": "pmb146893",
+         "title": "Alte Philharmonie [Berlin]",
+         "lat": "52.505242",
+         "lon": "13.377264",
+         "timestamp": ["1915-10-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Alte_Philharmonie_Berlin", 
+        "wikidata": "http://www.wikidata.org/entity/Q25480587", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.3772, 52.5087]
       },
       "properties": {
@@ -3893,6 +4151,23 @@
 
          "p_id": "#9629"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368215, 48.197363]
+      },
+      "properties": {
+         "id": "pmb257214",
+         "title": "Frankenberggasse 11",
+         "lat": "48.197363",
+         "lon": "16.368215",
+         "timestamp": ["1915-10-16", "1915-12-14"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -4048,8 +4323,8 @@
          "title": "Kaasgrabengasse 4",
          "lat": "48.249749",
          "lon": "16.341015",
-         "timestamp": ["1915-02-28", "1915-04-03", "1915-04-18", "1915-09-26"],
-         "importance": 4, 
+         "timestamp": ["1915-02-28", "1915-04-03", "1915-04-18", "1915-09-26", "1915-12-10"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -4234,8 +4509,8 @@
          "title": "Sankt Veit",
          "lat": "48.18805",
          "lon": "16.26638",
-         "timestamp": ["1915-04-11"],
-         "importance": 1, 
+         "timestamp": ["1915-04-11", "1915-11-01", "1915-12-12"],
+         "importance": 3, 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
       }
@@ -4251,8 +4526,8 @@
          "title": "Möllwaldplatz 1",
          "lat": "48.192289",
          "lon": "16.370654",
-         "timestamp": ["1915-05-07"],
-         "importance": 1, 
+         "timestamp": ["1915-05-07", "1915-12-08"],
+         "importance": 2, 
         "wikidata": "http://www.wikidata.org/entity/Q116247570", 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
@@ -5042,6 +5317,7 @@
          "lon": "13.776666666666667",
          "timestamp": ["1915-08-25"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
         "wikidata": "http://www.wikidata.org/entity/Q72823539", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
@@ -5121,6 +5397,40 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.334387, 48.227474]
+      },
+      "properties": {
+         "id": "pmb263706",
+         "title": "Polizeikommissariat XVIII. Währing",
+         "lat": "48.227474",
+         "lon": "16.334387",
+         "timestamp": ["1915-10-15", "1915-10-18"],
+         "importance": 2, 
+        "abbr": "Infrastrukturgebäude (K.INF)", 
+        "type": "Infrastrukturgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369913, 48.2083]
+      },
+      "properties": {
+         "id": "pmb263722",
+         "title": "Deutsches Konsulat in Wien",
+         "lat": "48.2083",
+         "lon": "16.369913",
+         "timestamp": ["1915-10-18"],
+         "importance": 1, 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.3734, 52.5047]
       },
       "properties": {
@@ -5132,6 +5442,196 @@
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356789, 48.221447]
+      },
+      "properties": {
+         "id": "pmb263755",
+         "title": "Boltzmanngasse 6",
+         "lat": "48.221447",
+         "lon": "16.356789",
+         "timestamp": ["1915-11-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361671, 48.212181]
+      },
+      "properties": {
+         "id": "pmb263773",
+         "title": "Universitätsring 8",
+         "lat": "48.212181",
+         "lon": "16.361671",
+         "timestamp": ["1915-11-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362695, 48.209238]
+      },
+      "properties": {
+         "id": "pmb254013",
+         "title": "Löwelstraße 8",
+         "lat": "48.209238",
+         "lon": "16.362695",
+         "timestamp": ["1915-11-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355738, 48.242453]
+      },
+      "properties": {
+         "id": "pmb263789",
+         "title": "Arthaber-Hof",
+         "lat": "48.242453",
+         "lon": "16.355738",
+         "timestamp": ["1915-11-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365458, 48.202962]
+      },
+      "properties": {
+         "id": "pmb263805",
+         "title": "Halm & Goldmann, Buch- und Kunstantiquariat",
+         "lat": "48.202962",
+         "lon": "16.365458",
+         "timestamp": ["1915-11-23"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364281, 48.202866]
+      },
+      "properties": {
+         "id": "pmb186043",
+         "title": "Elisabethstraße 22",
+         "lat": "48.202866",
+         "lon": "16.364281",
+         "timestamp": ["1915-11-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Werfel",
+
+         "p_id": "#13094"
+         }, 
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370343, 48.203306]
+      },
+      "properties": {
+         "id": "pmb255168",
+         "title": "Palais Todesco",
+         "lat": "48.203306",
+         "lon": "16.370343",
+         "timestamp": ["1915-12-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Palais_Todesco", 
+        "wikidata": "http://www.wikidata.org/entity/Q664155", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375522, 48.208565]
+      },
+      "properties": {
+         "id": "pmb263875",
+         "title": "Wollzeile 12",
+         "lat": "48.208565",
+         "lon": "16.375522",
+         "timestamp": ["1915-12-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3675, 48.1954]
+      },
+      "properties": {
+         "id": "pmb263880",
+         "title": "Hotel Erzherzog Rainer [Wien]",
+         "lat": "48.1954",
+         "lon": "16.3675",
+         "timestamp": ["1915-12-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Erzherzog_Rainer", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630887", 
+        "geonames": "https://sws.geonames.org/6955457/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373239, 48.201859]
+      },
+      "properties": {
+         "id": "pmb263899",
+         "title": "Galerie Arnot",
+         "lat": "48.201859",
+         "lon": "16.373239",
+         "timestamp": ["1915-12-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Galerie_Arnot", 
+        "wikidata": "http://www.wikidata.org/entity/Q113495765", 
+        "abbr": "Galerie (K.GLR)", 
+        "type": "Galerie"
       }
       }
   ]

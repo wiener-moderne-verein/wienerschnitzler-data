@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.334387, 48.227474], 
             [16.33716, 48.23188], 
-            [16.300034240016, 48.246838181084]
+            [16.3073, 48.2437], 
+            [16.276509500872, 48.241960480337]
           ]
       },
       "properties": {
@@ -18,18 +20,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.300034240016, 48.246838181084]
+        "coordinates": [16.3073, 48.2437]
       },
       "properties": {
-         "id": "pmb169",
-         "title": "Pötzleinsdorf",
-         "lat": "48.246838181084",
-         "lon": "16.300034240016",
+         "id": "pmb199644",
+         "title": "Geymüllerschlössel",
+         "lat": "48.2437",
+         "lon": "16.3073",
          "timestamp": ["1915-10-15"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2768462/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Geym%C3%BCllerschl%C3%B6ssel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1521129", 
+        "geonames": "https://sws.geonames.org/8604503/", 
+        "abbr": "S.MUS", 
+        "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.334387, 48.227474]
+      },
+      "properties": {
+         "id": "pmb263706",
+         "title": "Polizeikommissariat XVIII. Währing",
+         "lat": "48.227474",
+         "lon": "16.334387",
+         "timestamp": ["1915-10-15"],
+         "importance": 1, 
+        "abbr": "Infrastrukturgebäude (K.INF)", 
+        "type": "Infrastrukturgebäude"
       }
       },
     {
@@ -103,6 +124,25 @@
 
          "p_id": "#22399"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.276509500872, 48.241960480337]
+      },
+      "properties": {
+         "id": "pmb176",
+         "title": "Schwarzenbergpark",
+         "lat": "48.241960480337",
+         "lon": "16.276509500872",
+         "timestamp": ["1915-10-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q2253835", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }
   ]

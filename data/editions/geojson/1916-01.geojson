@@ -187,8 +187,8 @@
          "title": "Salmannsdorf",
          "lat": "48.2553",
          "lon": "16.2911",
-         "timestamp": ["1916-01-01"],
-         "importance": 1, 
+         "timestamp": ["1916-01-01", "1916-01-01"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salmannsdorf_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q1255079", 
         "geonames": "https://sws.geonames.org/2766841/", 
@@ -351,6 +351,30 @@
         "wikidata": "http://www.wikidata.org/entity/Q2300521", 
         "abbr": "Wanderweg (K.WND)", 
         "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1916-01-04"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
       }
       }, 
     {

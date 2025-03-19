@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.356253, 48.205167], 
             [16.36028, 48.217575], 
             [16.33716, 48.23188]
           ]
@@ -29,6 +30,23 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356253, 48.205167]
+      },
+      "properties": {
+         "id": "pmb190470",
+         "title": "Invalidendank-Kino",
+         "lat": "48.205167",
+         "lon": "16.356253",
+         "timestamp": ["1928-02-09"],
+         "importance": 1, 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
       }
       },
     {
@@ -101,6 +119,12 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }, 
+         {
+
+         "p_name": "Elisabeth Jacobus",
+
+         "p_id": "#18732"
          }]
       }
       }

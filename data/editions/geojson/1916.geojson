@@ -52,7 +52,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q262951", 
         "geonames": "https://sws.geonames.org/7872434/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -72,7 +72,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -112,7 +112,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -126,8 +126,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1916-12-16"],
-         "importance": 1, 
+         "timestamp": ["1916-01-19", "1916-01-27", "1916-02-01", "1916-12-16"],
+         "importance": 4, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -169,8 +169,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1916-01-06", "1916-03-10", "1916-06-08", "1916-06-26", "1916-10-25", "1916-12-29"],
-         "importance": 6, 
+         "timestamp": ["1916-01-06", "1916-02-02", "1916-03-10", "1916-06-08", "1916-06-26", "1916-10-25", "1916-12-29"],
+         "importance": 7, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -282,8 +282,8 @@
          "title": "Baden bei Wien",
          "lat": "48.00543",
          "lon": "16.23264",
-         "timestamp": ["1916-01-18", "1916-01-23", "1916-02-22"],
-         "importance": 3, 
+         "timestamp": ["1916-01-18", "1916-01-18", "1916-01-23", "1916-02-22"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Baden_(Nieder%C3%B6sterreich)", 
         "wikidata": "http://www.wikidata.org/entity/Q486450", 
         "geonames": "https://sws.geonames.org/2782067/", 
@@ -886,6 +886,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1916-01-06", "1916-01-14", "1916-01-21"],
+         "importance": 3, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Armin Petschek",
+
+         "p_id": "#22471"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33787, 48.19653]
       },
       "properties": {
@@ -897,6 +945,43 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36562, 48.209685]
+      },
+      "properties": {
+         "id": "pmb200519",
+         "title": "K. k. niederösterreichische Statthalterei",
+         "lat": "48.209685",
+         "lon": "16.36562",
+         "timestamp": ["1916-01-25"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38026902", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Heinrich von Wagner-Kremsthal",
+
+         "p_id": "#26586"
+         }, 
+         {
+
+         "p_name": "Friedrich Bruno von Castell-Rüdenhausen",
+
+         "p_id": "#14889"
+         }, 
+         {
+
+         "p_name": "Otto von Dürfeld",
+
+         "p_id": "#15612"
+         }]
       }
       }, 
     {
@@ -1002,8 +1087,8 @@
          "title": "Salmannsdorf",
          "lat": "48.2553",
          "lon": "16.2911",
-         "timestamp": ["1916-01-01", "1916-01-01", "1916-05-14", "1916-05-21", "1916-06-29", "1916-10-29", "1916-11-05"],
-         "importance": 7, 
+         "timestamp": ["1916-01-01", "1916-05-14", "1916-05-21", "1916-06-29", "1916-10-29", "1916-11-05"],
+         "importance": 6, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salmannsdorf_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q1255079", 
         "geonames": "https://sws.geonames.org/2766841/", 
@@ -1085,6 +1170,30 @@
         "wikidata": "http://www.wikidata.org/entity/Q30854300", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1916-01-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
       }
       }, 
     {
@@ -1324,7 +1433,7 @@
         "wohnort": [
          {
 
-         "p_name": "Margarethe Manassewitsch",
+         "p_name": "Margarethe Manasséwitsch",
 
          "p_id": "#20861"
          }, 
@@ -1401,11 +1510,17 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1916-01-02", "1916-04-16"],
-         "importance": 2, 
+         "timestamp": ["1916-01-02", "1916-01-16", "1916-04-16"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
          {
 
          "p_name": "Paula Beer-Hofmann",
@@ -1436,6 +1551,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Else Lederer",
+
+         "p_id": "#25175"
+         }, 
          {
 
          "p_name": "Léon Beldowicz",
@@ -1498,6 +1619,43 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1916-01-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361853, 48.21494]
       },
       "properties": {
@@ -1539,6 +1697,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.348104, 48.235011]
+      },
+      "properties": {
+         "id": "pmb247592",
+         "title": "Cottage-Lyzeum",
+         "lat": "48.235011",
+         "lon": "16.348104",
+         "timestamp": ["1916-02-09"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karola Klein",
+
+         "p_id": "#19408"
+         }, 
+         {
+
+         "p_name": "Robert Martinek",
+
+         "p_id": "#21123"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -1546,8 +1734,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1916-04-03", "1916-05-02", "1916-10-03", "1916-12-20"],
-         "importance": 4, 
+         "timestamp": ["1916-02-04", "1916-02-15", "1916-04-03", "1916-05-02", "1916-10-03", "1916-12-20"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1564,6 +1752,12 @@
          "p_id": "#2461"
          }], 
         "arbeitsort": [
+         {
+
+         "p_name": "Apollonia ",
+
+         "p_id": "#13465"
+         }, 
          {
 
          "p_name": "Markus Hajek",
@@ -1632,6 +1826,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q1589672", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374411, 48.211673]
+      },
+      "properties": {
+         "id": "pmb249337",
+         "title": "Israelitische Kultusgemeinde",
+         "lat": "48.211673",
+         "lon": "16.374411",
+         "timestamp": ["1916-01-25"],
+         "importance": 1, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
       }
       }, 
     {
@@ -1721,6 +1932,12 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }, 
+         {
+
+         "p_name": "Elisabeth Jacobus",
+
+         "p_id": "#18732"
          }]
       }
       }, 
@@ -1902,8 +2119,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1916-02-24", "1916-03-02", "1916-03-14", "1916-04-13", "1916-06-25", "1916-06-28", "1916-10-21", "1916-12-05", "1916-12-21", "1916-12-24"],
-         "importance": 10, 
+         "timestamp": ["1916-01-24", "1916-02-24", "1916-03-02", "1916-03-14", "1916-04-13", "1916-06-25", "1916-06-28", "1916-10-21", "1916-12-05", "1916-12-21", "1916-12-24"],
+         "importance": 11, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1937,6 +2154,36 @@
          "p_name": "Emilie Kalisch",
 
          "p_id": "#19026"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351996, 48.238534]
+      },
+      "properties": {
+         "id": "pmb235862",
+         "title": "Kreindlgasse 8",
+         "lat": "48.238534",
+         "lon": "16.351996",
+         "timestamp": ["1916-01-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vera Schapira",
+
+         "p_id": "#9667"
+         }, 
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
          }]
       }
       }, 
@@ -2017,8 +2264,8 @@
          "title": "Silbergasse 42",
          "lat": "48.248146",
          "lon": "16.351291",
-         "timestamp": ["1916-04-23"],
-         "importance": 1, 
+         "timestamp": ["1916-01-08", "1916-01-30", "1916-04-23"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2053,12 +2300,44 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1916-11-18"],
-         "importance": 1, 
+         "timestamp": ["1916-01-17", "1916-01-25", "1916-02-11", "1916-11-18"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
-        "type": "Konzertsaal"
+        "type": "Konzertsaal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hugo Botstiber",
+
+         "p_id": "#10983"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370654, 48.192289]
+      },
+      "properties": {
+         "id": "pmb257569",
+         "title": "Möllwaldplatz 1",
+         "lat": "48.192289",
+         "lon": "16.370654",
+         "timestamp": ["1916-01-10", "1916-02-16"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q116247570", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Steiner",
+
+         "p_id": "#25405"
+         }]
       }
       }, 
     {
@@ -2101,6 +2380,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.369913, 48.2083]
+      },
+      "properties": {
+         "id": "pmb263722",
+         "title": "Deutsches Konsulat in Wien",
+         "lat": "48.2083",
+         "lon": "16.369913",
+         "timestamp": ["1916-01-25", "1916-02-01", "1916-02-07"],
+         "importance": 3, 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.39074, 48.19598]
       },
       "properties": {
@@ -2121,6 +2417,77 @@
 
          "p_id": ""
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23324, 48.00972]
+      },
+      "properties": {
+         "id": "pmb263926",
+         "title": "Hotel Herzoghof",
+         "lat": "48.00972",
+         "lon": "16.23324",
+         "timestamp": ["1916-01-18", "1916-01-23"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q38007279", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2280489, 48.008296]
+      },
+      "properties": {
+         "id": "pmb90809",
+         "title": "Sanatorium Gutenbrunn",
+         "lat": "48.008296",
+         "lon": "16.2280489",
+         "timestamp": ["1916-01-23", "1916-02-22"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/9956292/", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350607, 48.206352]
+      },
+      "properties": {
+         "id": "pmb190698",
+         "title": "Phönix-Kino",
+         "lat": "48.206352",
+         "lon": "16.350607",
+         "timestamp": ["1916-01-24"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Ph%C3%B6nixkino", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34065, 48.213598]
+      },
+      "properties": {
+         "id": "pmb263979",
+         "title": "K. u. k. Brigadegericht Wien",
+         "lat": "48.213598",
+         "lon": "16.34065",
+         "timestamp": ["1916-02-15"],
+         "importance": 1, 
+        "abbr": "Gericht", 
+        "type": "Gericht"
       }
       }, 
     {

@@ -18,7 +18,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -55,7 +55,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1735", 
         "geonames": "https://sws.geonames.org/2775216/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -446,6 +446,23 @@
          "importance": 4, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.352769, 48.215015]
+      },
+      "properties": {
+         "id": "pmb182602",
+         "title": "I. Chirurgische Universitäts-Klinik",
+         "lat": "48.215015",
+         "lon": "16.352769",
+         "timestamp": ["1882-03-01"],
+         "importance": 1, 
+        "abbr": "T.SPIT", 
+        "type": "Landzunge"
       }
       }, 
     {
@@ -871,7 +888,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q443039", 
         "geonames": "https://sws.geonames.org/7873132/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -1014,7 +1031,14 @@
          "timestamp": ["1882-12-26"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ferdinand Mandl",
+
+         "p_id": "#20893"
+         }]
       }
       }
   ]

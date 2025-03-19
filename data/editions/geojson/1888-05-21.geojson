@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [2.3488, 48.85341]
+            [2.28536614, 48.8696805], 
+            [2.34167, 48.868319], 
+            [2.33361, 48.871086]
           ]
       },
       "properties": {
@@ -17,20 +19,52 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.3488, 48.85341]
+        "coordinates": [2.28536614, 48.8696805]
       },
       "properties": {
-         "id": "pmb182",
-         "title": "Paris",
-         "lat": "48.85341",
-         "lon": "2.3488",
+         "id": "pmb185129",
+         "title": "Hippodrome",
+         "lat": "48.8696805",
+         "lon": "2.28536614",
          "timestamp": ["1888-05-21"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Paris", 
-        "wikidata": "http://www.wikidata.org/entity/Q90", 
-        "geonames": "https://sws.geonames.org/2988507/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
+        "wikidata": "http://www.wikidata.org/entity/Q20971342", 
+        "abbr": "Vergnügungseinrichtung", 
+        "type": "Vergnügungseinrichtung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.34167, 48.868319]
+      },
+      "properties": {
+         "id": "pmb185132",
+         "title": "Grand Hôtel de la Bourse et des Ambassadeurs",
+         "lat": "48.868319",
+         "lon": "2.34167",
+         "timestamp": ["1888-05-21"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.33361, 48.871086]
+      },
+      "properties": {
+         "id": "pmb185135",
+         "title": "Café Americain",
+         "lat": "48.871086",
+         "lon": "2.33361",
+         "timestamp": ["1888-05-21"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
       }
       }
   ]

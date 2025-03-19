@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.34065, 48.213598], 
             [16.375811, 48.203191], 
             [16.361853, 48.21494], 
+            [16.35689, 48.21787], 
             [16.33716, 48.23188]
           ]
       },
@@ -47,6 +49,66 @@
          "importance": 1, 
         "abbr": "Buchhandlung (K.BHL)", 
         "type": "Buchhandlung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1916-02-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Apollonia ",
+
+         "p_id": "#13465"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34065, 48.213598]
+      },
+      "properties": {
+         "id": "pmb263979",
+         "title": "K. u. k. Brigadegericht Wien",
+         "lat": "48.213598",
+         "lon": "16.34065",
+         "timestamp": ["1916-02-15"],
+         "importance": 1, 
+        "abbr": "Gericht", 
+        "type": "Gericht"
       }
       },
     {
@@ -119,6 +181,12 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }, 
+         {
+
+         "p_name": "Elisabeth Jacobus",
+
+         "p_id": "#18732"
          }]
       }
       }

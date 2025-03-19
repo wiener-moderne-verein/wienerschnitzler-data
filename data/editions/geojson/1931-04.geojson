@@ -18,7 +18,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -70,7 +70,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q636910", 
         "geonames": "https://sws.geonames.org/2776420/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -90,7 +90,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q654812", 
         "geonames": "https://sws.geonames.org/2771932/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -130,7 +130,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1917668 http://www.wikidata.org/entity/Q697557", 
         "geonames": "https://sws.geonames.org/2771704/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -253,7 +253,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q256778", 
         "geonames": "https://sws.geonames.org/2775027/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -324,6 +324,12 @@
         "arbeitsort": [
          {
 
+         "p_name": "Apollonia ",
+
+         "p_id": "#13465"
+         }, 
+         {
+
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
@@ -344,7 +350,20 @@
          "timestamp": ["1931-04-19"],
          "importance": 1, 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
+         }]
       }
       }, 
     {
@@ -417,6 +436,12 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }, 
+         {
+
+         "p_name": "Elisabeth Jacobus",
+
+         "p_id": "#18732"
          }]
       }
       }, 
@@ -490,6 +515,18 @@
          "p_name": "Ferdinand Donath",
 
          "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Max Höniger",
+
+         "p_id": "#18662"
+         }, 
+         {
+
+         "p_name": "Josef Hertzka",
+
+         "p_id": "#18196"
          }]
       }
       }, 
@@ -556,7 +593,7 @@
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": [
+        "arbeitsort": [
          {
 
          "p_name": "Josef Peter",
@@ -617,6 +654,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q124219904", 
         "abbr": "Monument (K.MON)", 
         "type": "Monument"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350607, 48.206352]
+      },
+      "properties": {
+         "id": "pmb190698",
+         "title": "Phönix-Kino",
+         "lat": "48.206352",
+         "lon": "16.350607",
+         "timestamp": ["1931-04-11", "1931-04-17"],
+         "importance": 2, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Ph%C3%B6nixkino", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
       }
       }, 
     {
@@ -864,28 +919,16 @@
         "wohnort": [
          {
 
+         "p_name": "Suzanne Clauser",
+
+         "p_id": "#15015"
+         }, 
+         {
+
          "p_name": "Friedrich Carl Clauser",
 
          "p_id": "#15006"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.350607, 48.206352]
-      },
-      "properties": {
-         "id": "pmb190698",
-         "title": "Phönixkino",
-         "lat": "48.206352",
-         "lon": "16.350607",
-         "timestamp": ["1931-04-11", "1931-04-17"],
-         "importance": 2, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Ph%C3%B6nixkino", 
-        "abbr": "Kino (K.KNO)", 
-        "type": "Kino"
       }
       }, 
     {

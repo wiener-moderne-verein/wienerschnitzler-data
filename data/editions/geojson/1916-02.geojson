@@ -18,7 +18,42 @@
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1916-02-01"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1916-02-02"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
       }
       }, 
     {
@@ -260,6 +295,79 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.348104, 48.235011]
+      },
+      "properties": {
+         "id": "pmb247592",
+         "title": "Cottage-Lyzeum",
+         "lat": "48.235011",
+         "lon": "16.348104",
+         "timestamp": ["1916-02-09"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karola Klein",
+
+         "p_id": "#19408"
+         }, 
+         {
+
+         "p_name": "Robert Martinek",
+
+         "p_id": "#21123"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1916-02-04", "1916-02-15"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Apollonia ",
+
+         "p_id": "#13465"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3685, 48.1954]
       },
       "properties": {
@@ -345,6 +453,12 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }, 
+         {
+
+         "p_name": "Elisabeth Jacobus",
+
+         "p_id": "#18732"
          }]
       }
       }, 
@@ -478,6 +592,57 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.377197811369, 48.200771836002]
+      },
+      "properties": {
+         "id": "pmb240",
+         "title": "Wiener Konzerthaus",
+         "lat": "48.200771836002",
+         "lon": "16.377197811369",
+         "timestamp": ["1916-02-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q695126", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hugo Botstiber",
+
+         "p_id": "#10983"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370654, 48.192289]
+      },
+      "properties": {
+         "id": "pmb257569",
+         "title": "Möllwaldplatz 1",
+         "lat": "48.192289",
+         "lon": "16.370654",
+         "timestamp": ["1916-02-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q116247570", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Steiner",
+
+         "p_id": "#25405"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.296622, 48.183258]
       },
       "properties": {
@@ -489,6 +654,58 @@
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369913, 48.2083]
+      },
+      "properties": {
+         "id": "pmb263722",
+         "title": "Deutsches Konsulat in Wien",
+         "lat": "48.2083",
+         "lon": "16.369913",
+         "timestamp": ["1916-02-01", "1916-02-07"],
+         "importance": 2, 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2280489, 48.008296]
+      },
+      "properties": {
+         "id": "pmb90809",
+         "title": "Sanatorium Gutenbrunn",
+         "lat": "48.008296",
+         "lon": "16.2280489",
+         "timestamp": ["1916-02-22"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/9956292/", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34065, 48.213598]
+      },
+      "properties": {
+         "id": "pmb263979",
+         "title": "K. u. k. Brigadegericht Wien",
+         "lat": "48.213598",
+         "lon": "16.34065",
+         "timestamp": ["1916-02-15"],
+         "importance": 1, 
+        "abbr": "Gericht", 
+        "type": "Gericht"
       }
       }
   ]

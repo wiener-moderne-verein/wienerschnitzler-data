@@ -55,7 +55,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -75,7 +75,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -114,7 +114,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q483522", 
         "geonames": "https://sws.geonames.org/7871492/ https://sws.geonames.org/2762372/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -493,7 +493,14 @@
          "timestamp": ["1912-12-18"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ferdinand Mandl",
+
+         "p_id": "#20893"
+         }]
       }
       }, 
     {
@@ -724,7 +731,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -846,7 +853,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q131612", 
         "geonames": "https://sws.geonames.org/2761349/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -1242,7 +1249,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q659891", 
         "geonames": "https://sws.geonames.org/7873001/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -1259,7 +1266,74 @@
          "timestamp": ["1912-09-17", "1912-10-18", "1912-10-26"],
          "importance": 3, 
         "abbr": "Schule (K.SCH)", 
-        "type": "Schule"
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Anton Spigl",
+
+         "p_id": "#25214"
+         }, 
+         {
+
+         "p_name": "Arnold Kalich",
+
+         "p_id": "#19019"
+         }, 
+         {
+
+         "p_name": "Guido von Alth",
+
+         "p_id": "#13331"
+         }, 
+         {
+
+         "p_name": "Wenzel Rudofsky",
+
+         "p_id": "#23718"
+         }, 
+         {
+
+         "p_name": "Leopold Winkler",
+
+         "p_id": "#27198"
+         }, 
+         {
+
+         "p_name": "Josef Lesowsky",
+
+         "p_id": "#20346"
+         }, 
+         {
+
+         "p_name": "Florian Weigel",
+
+         "p_id": "#26782"
+         }, 
+         {
+
+         "p_name": "Salomon Zimmels",
+
+         "p_id": "#27497"
+         }, 
+         {
+
+         "p_name": "Wenzel Wild",
+
+         "p_id": "#27119"
+         }, 
+         {
+
+         "p_name": "Karl Kunst",
+
+         "p_id": "#19847"
+         }, 
+         {
+
+         "p_name": "Salomon Zimmels",
+
+         "p_id": "#27497"
+         }]
       }
       }, 
     {
@@ -1666,6 +1740,12 @@
          }, 
          {
 
+         "p_name": "Armin Petschek",
+
+         "p_id": "#22471"
+         }, 
+         {
+
          "p_name": "Rudolf Kaufmann",
 
          "p_id": "#11888"
@@ -1718,6 +1798,12 @@
          "p_name": "Heinrich von Wagner-Kremsthal",
 
          "p_id": "#26586"
+         }, 
+         {
+
+         "p_name": "Friedrich Bruno von Castell-Rüdenhausen",
+
+         "p_id": "#14889"
          }, 
          {
 
@@ -1888,7 +1974,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q546", 
         "geonames": "https://sws.geonames.org/3165186/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsbezirk"
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -2622,7 +2708,7 @@
         "wohnort": [
          {
 
-         "p_name": "Margarethe Manassewitsch",
+         "p_name": "Margarethe Manasséwitsch",
 
          "p_id": "#20861"
          }, 
@@ -2670,6 +2756,12 @@
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel", 
         "arbeitsort": [
+         {
+
+         "p_name": "Josef Dangl",
+
+         "p_id": "#15221"
+         }, 
          {
 
          "p_name": "Karl Rostler",
@@ -2746,7 +2838,14 @@
          "timestamp": ["1912-04-28"],
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Deigner",
+
+         "p_id": "#15270"
+         }]
       }
       }, 
     {
@@ -2839,6 +2938,12 @@
         "wohnort": [
          {
 
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
          "p_name": "Paula Beer-Hofmann",
 
          "p_id": "#10860"
@@ -2867,6 +2972,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Else Lederer",
+
+         "p_id": "#25175"
+         }, 
          {
 
          "p_name": "Léon Beldowicz",
@@ -3012,12 +3123,6 @@
          "p_name": "Ottilie Salten",
 
          "p_id": "#23918"
-         }, 
-         {
-
-         "p_name": "Julia Bertha Culp",
-
-         "p_id": "#11123"
          }, 
          {
 
@@ -3224,6 +3329,12 @@
         "arbeitsort": [
          {
 
+         "p_name": "Apollonia ",
+
+         "p_id": "#13465"
+         }, 
+         {
+
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
@@ -3341,6 +3452,12 @@
         "wohnort": [
          {
 
+         "p_name": "Aloisia Chlum",
+
+         "p_id": "#27771"
+         }, 
+         {
+
          "p_name": "Auguste Glümer",
 
          "p_id": "#14948"
@@ -3401,13 +3518,13 @@
         "wohnort": [
          {
 
-         "p_name": "Margarethe Manassewitsch",
+         "p_name": "Margarethe Manasséwitsch",
 
          "p_id": "#20861"
          }, 
          {
 
-         "p_name": "Efim Manassewitsch",
+         "p_name": "Efim Manasséwitsch",
 
          "p_id": "#20859"
          }]
@@ -3524,6 +3641,12 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }, 
+         {
+
+         "p_name": "Elisabeth Jacobus",
+
+         "p_id": "#18732"
          }]
       }
       }, 
@@ -3994,7 +4117,14 @@
          "timestamp": ["1912-02-11", "1912-12-29"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Johann Klein",
+
+         "p_id": "#27770"
+         }]
       }
       }, 
     {
@@ -4109,7 +4239,14 @@
          "timestamp": ["1912-03-19", "1912-05-03", "1912-05-25"],
          "importance": 3, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
-        "type": "Beherbergungsgebäude"
+        "type": "Beherbergungsgebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }]
       }
       }, 
     {
@@ -4208,6 +4345,12 @@
          "p_name": "Karoline Jellinek",
 
          "p_id": "#18834"
+         }, 
+         {
+
+         "p_name": "Marie Herzfeld",
+
+         "p_id": "#11666"
          }]
       }
       }, 
@@ -5416,7 +5559,14 @@
          "timestamp": ["1912-09-01", "1912-09-06"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Bruno Walter",
+
+         "p_id": "#13041"
+         }]
       }
       }, 
     {
@@ -5522,7 +5672,14 @@
          "timestamp": ["1912-10-11"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Lobmeyr",
+
+         "p_id": "#20537"
+         }]
       }
       }, 
     {
@@ -5582,7 +5739,14 @@
          "timestamp": ["1912-10-26"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Sachs",
+
+         "p_id": "#9629"
+         }]
       }
       }, 
     {
@@ -5617,7 +5781,26 @@
          "timestamp": ["1912-11-08"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Victor Zuckerkandl",
+
+         "p_id": "#54787"
+         }, 
+         {
+
+         "p_name": "Amalie Zuckerkandl",
+
+         "p_id": "#3095"
+         }, 
+         {
+
+         "p_name": "Otto Zuckerkandl",
+
+         "p_id": "#3091"
+         }]
       }
       }, 
     {
@@ -5685,7 +5868,20 @@
          "timestamp": ["1912-11-11"],
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Erich Ziegel",
+
+         "p_id": "#142471"
+         }, 
+         {
+
+         "p_name": "Rudolf Lothar",
+
+         "p_id": "#2570"
+         }]
       }
       }, 
     {
@@ -5702,7 +5898,20 @@
          "timestamp": ["1912-11-11"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Mirjam Horwitz",
+
+         "p_id": "#2549"
+         }, 
+         {
+
+         "p_name": "Erich Ziegel",
+
+         "p_id": "#142471"
+         }]
       }
       }, 
     {
@@ -5779,7 +5988,14 @@
          "timestamp": ["1912-11-25"],
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karl Ludwig Schröder",
+
+         "p_id": "#4528"
+         }]
       }
       }, 
     {
@@ -5815,7 +6031,20 @@
          "timestamp": ["1912-11-29"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Jonas",
+
+         "p_id": "#18900"
+         }, 
+         {
+
+         "p_name": "Paul Jonas",
+
+         "p_id": "#4532"
+         }]
       }
       }, 
     {
@@ -5900,7 +6129,14 @@
          "timestamp": ["1912-12-29"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Paul Eger",
+
+         "p_id": "#11227"
+         }]
       }
       }
   ]

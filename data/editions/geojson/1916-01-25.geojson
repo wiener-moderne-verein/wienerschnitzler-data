@@ -6,6 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.36562, 48.209685], 
+            [16.377197811369, 48.200771836002], 
+            [16.369913, 48.2083], 
+            [16.374411, 48.211673], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +17,103 @@
         "name": "25. Januar 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36562, 48.209685]
+      },
+      "properties": {
+         "id": "pmb200519",
+         "title": "K. k. niederösterreichische Statthalterei",
+         "lat": "48.209685",
+         "lon": "16.36562",
+         "timestamp": ["1916-01-25"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38026902", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Heinrich von Wagner-Kremsthal",
+
+         "p_id": "#26586"
+         }, 
+         {
+
+         "p_name": "Friedrich Bruno von Castell-Rüdenhausen",
+
+         "p_id": "#14889"
+         }, 
+         {
+
+         "p_name": "Otto von Dürfeld",
+
+         "p_id": "#15612"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369913, 48.2083]
+      },
+      "properties": {
+         "id": "pmb263722",
+         "title": "Deutsches Konsulat in Wien",
+         "lat": "48.2083",
+         "lon": "16.369913",
+         "timestamp": ["1916-01-25"],
+         "importance": 1, 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374411, 48.211673]
+      },
+      "properties": {
+         "id": "pmb249337",
+         "title": "Israelitische Kultusgemeinde",
+         "lat": "48.211673",
+         "lon": "16.374411",
+         "timestamp": ["1916-01-25"],
+         "importance": 1, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377197811369, 48.200771836002]
+      },
+      "properties": {
+         "id": "pmb240",
+         "title": "Wiener Konzerthaus",
+         "lat": "48.200771836002",
+         "lon": "16.377197811369",
+         "timestamp": ["1916-01-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q695126", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hugo Botstiber",
+
+         "p_id": "#10983"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -83,6 +184,12 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }, 
+         {
+
+         "p_name": "Elisabeth Jacobus",
+
+         "p_id": "#18732"
          }]
       }
       }

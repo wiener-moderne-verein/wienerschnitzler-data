@@ -6,9 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35137, 48.21346], 
+            [16.361378, 48.203661], 
             [16.36471, 48.200556], 
-            [16.33716, 48.23188]
+            [16.371624, 48.205088], 
+            [16.33716, 48.23188], 
+            [16.35137, 48.21346]
           ]
       },
       "properties": {
@@ -85,6 +87,40 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371624, 48.205088]
+      },
+      "properties": {
+         "id": "pmb244722",
+         "title": "Schwanhäusser, Fabrik für Büroeinrichtungen, Einzelverkauf",
+         "lat": "48.205088",
+         "lon": "16.371624",
+         "timestamp": ["1931-01-02"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361378, 48.203661]
+      },
+      "properties": {
+         "id": "pmb47660",
+         "title": "Kunsthistorisches Museum",
+         "lat": "48.203661",
+         "lon": "16.361378",
+         "timestamp": ["1931-01-02"],
+         "importance": 1, 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -151,6 +187,12 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }, 
+         {
+
+         "p_name": "Elisabeth Jacobus",
+
+         "p_id": "#18732"
          }]
       }
       }

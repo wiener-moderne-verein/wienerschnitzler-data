@@ -7,9 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [16.347153, 48.209866], 
+            [16.350819, 48.214295], 
             [16.35137, 48.21346], 
             [16.361139, 48.210333], 
             [16.35689, 48.21787], 
+            [16.351667, 48.226667], 
             [16.33716, 48.23188], 
             [16.320719, 48.238032]
           ]
@@ -185,6 +187,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1924-09-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361139, 48.210333]
       },
       "properties": {
@@ -239,6 +271,49 @@
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351667, 48.226667]
+      },
+      "properties": {
+         "id": "pmb235",
+         "title": "Sanatorium Hera",
+         "lat": "48.226667",
+         "lon": "16.351667",
+         "timestamp": ["1924-09-24"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Sanatorium_Hera", 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Hugo Hübl",
+
+         "p_id": "#18666"
+         }, 
+         {
+
+         "p_name": "Josef Halban",
+
+         "p_id": "#7666"
+         }, 
+         {
+
+         "p_name": "Hugo Hübl",
+
+         "p_id": "#18666"
          }]
       }
       }

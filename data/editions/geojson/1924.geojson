@@ -653,8 +653,8 @@
          "title": "Schloss Belvedere",
          "lat": "48.19156",
          "lon": "16.38091",
-         "timestamp": ["1924-11-26", "1924-12-09"],
-         "importance": 2, 
+         "timestamp": ["1924-11-26"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Belvedere", 
         "wikidata": "http://www.wikidata.org/entity/Q211818", 
         "geonames": "https://sws.geonames.org/6354997/", 
@@ -712,8 +712,8 @@
          "title": "I., Innere Stadt",
          "lat": "48.20769",
          "lon": "16.37049",
-         "timestamp": ["1924-04-12", "1924-05-07"],
-         "importance": 2, 
+         "timestamp": ["1924-04-12", "1924-05-07", "1924-10-15", "1924-11-18", "1924-11-19", "1924-12-16", "1924-12-17", "1924-12-19", "1924-12-23", "1924-12-24", "1924-12-30"],
+         "importance": 11, 
         "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
@@ -732,8 +732,8 @@
          "title": "Währinger Cottage",
          "lat": "48.233056",
          "lon": "16.341944",
-         "timestamp": ["1924-03-11"],
-         "importance": 1, 
+         "timestamp": ["1924-03-11", "1924-12-07"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
         "wikidata": "http://www.wikidata.org/entity/Q1136683", 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
@@ -1444,8 +1444,8 @@
          "title": "Leopoldsberg",
          "lat": "48.27805",
          "lon": "16.34618",
-         "timestamp": ["1924-11-15"],
-         "importance": 1, 
+         "timestamp": ["1924-11-15", "1924-11-23"],
+         "importance": 2, 
         "geonames": "https://sws.geonames.org/2772625/", 
         "abbr": "T.HLL", 
         "type": "Hügel"
@@ -1462,8 +1462,8 @@
          "title": "Alt Pilsenetzer Bierhalle",
          "lat": "48.216481",
          "lon": "16.359721",
-         "timestamp": ["1924-01-11", "1924-01-24", "1924-01-28", "1924-02-12", "1924-03-29", "1924-09-15", "1924-09-27", "1924-11-14", "1924-12-03", "1924-12-10", "1924-12-26"],
-         "importance": 11, 
+         "timestamp": ["1924-01-11", "1924-01-24", "1924-01-28", "1924-02-12", "1924-03-29", "1924-09-15", "1924-09-27", "1924-11-14", "1924-12-03"],
+         "importance": 9, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
       }
@@ -1479,8 +1479,8 @@
          "title": "Peregringasse 4",
          "lat": "48.216445",
          "lon": "16.364586",
-         "timestamp": ["1924-01-01", "1924-01-07", "1924-01-13", "1924-01-19", "1924-02-03", "1924-02-07", "1924-02-24", "1924-02-26", "1924-03-01", "1924-03-09", "1924-03-15", "1924-03-18", "1924-03-21", "1924-03-25", "1924-03-28", "1924-04-02", "1924-04-07", "1924-04-12", "1924-04-18", "1924-04-19", "1924-04-30", "1924-05-06", "1924-05-11", "1924-05-14", "1924-05-22", "1924-06-03", "1924-06-13", "1924-06-24", "1924-06-26", "1924-07-22", "1924-07-29", "1924-10-21", "1924-10-31"],
-         "importance": 33, 
+         "timestamp": ["1924-01-01", "1924-01-07", "1924-01-13", "1924-01-19", "1924-02-03", "1924-02-07", "1924-02-24", "1924-02-26", "1924-03-01", "1924-03-09", "1924-03-15", "1924-03-18", "1924-03-21", "1924-03-25", "1924-03-28", "1924-04-02", "1924-04-07", "1924-04-12", "1924-04-18", "1924-04-19", "1924-04-30", "1924-05-06", "1924-05-11", "1924-05-14", "1924-05-22", "1924-06-03", "1924-06-13", "1924-06-24", "1924-06-26", "1924-07-22", "1924-07-29", "1924-09-08", "1924-09-17", "1924-10-06", "1924-10-11", "1924-10-14", "1924-10-21", "1924-10-23", "1924-10-31", "1924-11-05"],
+         "importance": 40, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1525,6 +1525,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1924-11-19"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Armin Petschek",
+
+         "p_id": "#22471"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.287997, 48.217079]
       },
       "properties": {
@@ -1554,6 +1602,25 @@
         "geonames": "https://sws.geonames.org/2774982/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365508, 48.200364]
+      },
+      "properties": {
+         "id": "pmb7",
+         "title": "Secession",
+         "lat": "48.200364",
+         "lon": "16.365508",
+         "timestamp": ["1924-09-26", "1924-11-07"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
+        "wikidata": "http://www.wikidata.org/entity/Q265129", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
       }
       }, 
     {
@@ -2152,8 +2219,8 @@
          "title": "Türkenschanzstraße 48",
          "lat": "48.23362",
          "lon": "16.33641",
-         "timestamp": ["1924-01-31", "1924-02-03", "1924-02-04", "1924-02-08", "1924-03-11", "1924-04-22", "1924-06-18"],
-         "importance": 7, 
+         "timestamp": ["1924-01-31", "1924-02-03", "1924-02-04", "1924-02-08", "1924-03-11", "1924-04-22", "1924-06-18", "1924-09-29", "1924-10-13", "1924-10-14", "1924-10-16", "1924-10-17", "1924-10-18", "1924-10-19", "1924-10-23", "1924-11-17", "1924-11-27"],
+         "importance": 17, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2206,8 +2273,8 @@
          "title": "Edelhofgasse 36",
          "lat": "48.23017",
          "lon": "16.346125",
-         "timestamp": ["1924-03-25"],
-         "importance": 1, 
+         "timestamp": ["1924-03-25", "1924-11-24"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2223,6 +2290,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.3519, 50.94806]
+      },
+      "properties": {
+         "id": "pmb238181",
+         "title": "Schlosspark Belvedere",
+         "lat": "50.94806",
+         "lon": "11.3519",
+         "timestamp": ["1924-12-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131433431", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -2230,8 +2315,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1924-07-26"],
-         "importance": 1, 
+         "timestamp": ["1924-07-26", "1924-10-19", "1924-10-22"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2322,8 +2407,8 @@
          "title": "Cottagegasse 37",
          "lat": "48.233004",
          "lon": "16.34167",
-         "timestamp": ["1924-01-09", "1924-02-01", "1924-02-17"],
-         "importance": 3, 
+         "timestamp": ["1924-01-09", "1924-02-01", "1924-02-17", "1924-09-21", "1924-11-23", "1924-11-27"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2359,8 +2444,8 @@
          "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
          "lat": "48.209673",
          "lon": "16.37127",
-         "timestamp": ["1924-01-02", "1924-04-12"],
-         "importance": 2, 
+         "timestamp": ["1924-01-02", "1924-04-12", "1924-12-05"],
+         "importance": 3, 
         "abbr": "Buchhandlung (K.BHL)", 
         "type": "Buchhandlung"
       }
@@ -2376,8 +2461,8 @@
          "title": "Allgemeine Boden-Credit-Anstalt",
          "lat": "48.21156",
          "lon": "16.36265",
-         "timestamp": ["1924-01-02", "1924-02-12", "1924-05-07", "1924-05-30", "1924-06-24", "1924-07-08", "1924-07-25", "1924-07-30"],
-         "importance": 8, 
+         "timestamp": ["1924-01-02", "1924-02-12", "1924-05-07", "1924-05-30", "1924-06-24", "1924-07-08", "1924-07-25", "1924-07-30", "1924-09-06", "1924-10-21", "1924-12-05"],
+         "importance": 11, 
         "abbr": "Bank (K.BNK)", 
         "type": "Bank", 
         "arbeitsort": [
@@ -2400,8 +2485,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1924-01-08", "1924-01-25", "1924-02-05", "1924-02-22", "1924-03-04", "1924-03-07", "1924-03-18", "1924-03-26", "1924-05-07", "1924-05-12", "1924-05-21", "1924-07-23", "1924-09-07", "1924-09-24", "1924-09-25", "1924-10-01", "1924-10-28", "1924-11-11", "1924-11-21", "1924-12-03", "1924-12-06"],
-         "importance": 21, 
+         "timestamp": ["1924-01-08", "1924-01-25", "1924-02-05", "1924-02-22", "1924-03-04", "1924-03-07", "1924-03-18", "1924-03-26", "1924-05-07", "1924-05-12", "1924-05-21", "1924-07-23", "1924-09-07", "1924-09-24", "1924-09-25", "1924-10-01", "1924-10-28", "1924-11-11", "1924-11-21", "1924-11-25", "1924-12-03", "1924-12-06", "1924-12-20"],
+         "importance": 23, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2463,8 +2548,8 @@
          "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
          "lat": "48.233056",
          "lon": "16.333056",
-         "timestamp": ["1924-02-02", "1924-04-11", "1924-04-13", "1924-04-16"],
-         "importance": 4, 
+         "timestamp": ["1924-02-02", "1924-04-11", "1924-04-13", "1924-04-16", "1924-12-09", "1924-12-21"],
+         "importance": 6, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
         "arbeitsort": [
@@ -2493,8 +2578,8 @@
          "title": "Sanatorium Hera",
          "lat": "48.226667",
          "lon": "16.351667",
-         "timestamp": ["1924-09-10", "1924-11-05"],
-         "importance": 2, 
+         "timestamp": ["1924-09-10", "1924-09-24", "1924-11-05"],
+         "importance": 3, 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Sanatorium_Hera", 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
@@ -2627,6 +2712,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.540177777777778, 47.378169444444445]
+      },
+      "properties": {
+         "id": "pmb250163",
+         "title": "Zürich Hauptbahnhof",
+         "lat": "47.378169444444445",
+         "lon": "8.540177777777778",
+         "timestamp": ["1924-09-03", "1924-09-04"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Z%C3%BCrich_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q224494", 
+        "geonames": "https://sws.geonames.org/6324510/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.2656, 48.2213]
       },
       "properties": {
@@ -2711,6 +2816,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.345645, 48.233562]
+      },
+      "properties": {
+         "id": "pmb252955",
+         "title": "Familienhotel »Cottage« Pension Kramer",
+         "lat": "48.233562",
+         "lon": "16.345645",
+         "timestamp": ["1924-09-15", "1924-09-17"],
+         "importance": 2, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -2718,8 +2847,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1924-01-08", "1924-01-23", "1924-06-17", "1924-06-24", "1924-09-09", "1924-09-24", "1924-10-29", "1924-11-26"],
-         "importance": 8, 
+         "timestamp": ["1924-01-08", "1924-01-23", "1924-06-17", "1924-06-24", "1924-09-09", "1924-09-24", "1924-10-11", "1924-10-29", "1924-11-26", "1924-12-24"],
+         "importance": 10, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2805,8 +2934,8 @@
          "title": "Tiefer Graben 17",
          "lat": "48.212284",
          "lon": "16.367725",
-         "timestamp": ["1924-01-22", "1924-02-01", "1924-02-12", "1924-03-18", "1924-04-23", "1924-05-20", "1924-07-08", "1924-07-15", "1924-07-30", "1924-10-29", "1924-11-18", "1924-12-03"],
-         "importance": 12, 
+         "timestamp": ["1924-01-22", "1924-02-01", "1924-02-12", "1924-03-18", "1924-04-23", "1924-05-20", "1924-07-08", "1924-07-15", "1924-07-30", "1924-09-06", "1924-10-29", "1924-11-18", "1924-12-03"],
+         "importance": 13, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3113,6 +3242,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.341015, 48.249749]
+      },
+      "properties": {
+         "id": "pmb252863",
+         "title": "Kaasgrabengasse 4",
+         "lat": "48.249749",
+         "lon": "16.341015",
+         "timestamp": ["1924-11-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eva Agathe Wassermann",
+
+         "p_id": "#10446"
+         }, 
+         {
+
+         "p_name": "Julie Wassermann",
+
+         "p_id": "#13058"
+         }, 
+         {
+
+         "p_name": "Jakob Wassermann",
+
+         "p_id": "#13055"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.050742, 47.796032]
       },
       "properties": {
@@ -3195,8 +3360,8 @@
          "title": "Hotel Regina [Wien]",
          "lat": "48.21623",
          "lon": "16.35967",
-         "timestamp": ["1924-11-07", "1924-11-14", "1924-11-30", "1924-12-01", "1924-12-03", "1924-12-04", "1924-12-06", "1924-12-10", "1924-12-20", "1924-12-24", "1924-12-26", "1924-12-30"],
-         "importance": 12, 
+         "timestamp": ["1924-11-07", "1924-11-14", "1924-11-16", "1924-11-21", "1924-11-30", "1924-12-01", "1924-12-03", "1924-12-04", "1924-12-06", "1924-12-10", "1924-12-20", "1924-12-24", "1924-12-26", "1924-12-28", "1924-12-30"],
+         "importance": 15, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel", 
         "wohnort": [
@@ -3219,8 +3384,8 @@
          "title": "Oppolzergasse 6",
          "lat": "48.2116",
          "lon": "16.36171",
-         "timestamp": ["1924-02-15", "1924-02-21", "1924-04-25", "1924-05-02", "1924-05-09", "1924-06-20", "1924-07-30", "1924-11-11", "1924-12-23", "1924-12-28"],
-         "importance": 10, 
+         "timestamp": ["1924-02-15", "1924-02-21", "1924-04-25", "1924-05-02", "1924-05-09", "1924-06-20", "1924-07-30", "1924-10-28", "1924-10-31", "1924-11-11", "1924-12-23", "1924-12-28"],
+         "importance": 12, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3320,6 +3485,66 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Redoutensäle", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1924-01-22", "1924-02-13", "1924-02-22", "1924-03-07", "1924-03-16", "1924-04-04", "1924-04-25", "1924-05-16", "1924-06-24", "1924-07-25", "1924-09-08", "1924-09-16", "1924-09-24", "1924-09-25", "1924-10-01", "1924-10-17", "1924-10-22", "1924-10-25", "1924-10-29", "1924-11-25", "1924-11-28", "1924-12-21", "1924-12-28"],
+         "importance": 23, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36733, 48.208423]
+      },
+      "properties": {
+         "id": "pmb256447",
+         "title": "Kohlmarkt 11",
+         "lat": "48.208423",
+         "lon": "16.36733",
+         "timestamp": ["1924-03-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Hedwig Heller",
+
+         "p_id": "#18077"
+         }, 
+         {
+
+         "p_name": "Hugo Heller",
+
+         "p_id": "#11646"
+         }]
       }
       }, 
     {
@@ -3577,36 +3802,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.350819, 48.214295]
-      },
-      "properties": {
-         "id": "pmb235874",
-         "title": "Lange Gasse 65",
-         "lat": "48.214295",
-         "lon": "16.350819",
-         "timestamp": ["1924-01-22", "1924-02-13", "1924-02-22", "1924-03-07", "1924-03-16", "1924-04-04", "1924-04-25", "1924-05-16", "1924-06-24", "1924-07-25"],
-         "importance": 10, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Vilma Lichtenstern",
-
-         "p_id": "#20400"
-         }, 
-         {
-
-         "p_name": "Robert Lichtenstern",
-
-         "p_id": "#20398"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.3652361, 48.2016288]
       },
       "properties": {
@@ -3650,8 +3845,8 @@
          "title": "Gregor-Mendel-Straße 32",
          "lat": "48.233651",
          "lon": "16.338022",
-         "timestamp": ["1924-01-27", "1924-03-03", "1924-03-23", "1924-04-06", "1924-07-20"],
-         "importance": 5, 
+         "timestamp": ["1924-01-27", "1924-03-03", "1924-03-23", "1924-04-06", "1924-07-20", "1924-11-17", "1924-12-21"],
+         "importance": 7, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3728,8 +3923,8 @@
          "title": "Kohlmarkt 3",
          "lat": "48.2091",
          "lon": "16.36826",
-         "timestamp": ["1924-02-05", "1924-02-08", "1924-05-09", "1924-05-16", "1924-07-30"],
-         "importance": 5, 
+         "timestamp": ["1924-02-05", "1924-02-08", "1924-05-09", "1924-05-16", "1924-07-30", "1924-09-06", "1924-09-09", "1924-11-04", "1924-11-18"],
+         "importance": 9, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude", 
         "wohnort": [
@@ -3825,8 +4020,8 @@
          "title": "Taborstraße 108",
          "lat": "48.227481",
          "lon": "16.38798",
-         "timestamp": ["1924-02-29", "1924-06-03"],
-         "importance": 2, 
+         "timestamp": ["1924-02-29", "1924-06-03", "1924-10-31"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3841,36 +4036,6 @@
          "p_name": "Helene Binder",
 
          "p_id": "#14218"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.36733, 48.208423]
-      },
-      "properties": {
-         "id": "pmb256447",
-         "title": "Kohlmarkt 11",
-         "lat": "48.208423",
-         "lon": "16.36733",
-         "timestamp": ["1924-03-06"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Hedwig Heller",
-
-         "p_id": "#18077"
-         }, 
-         {
-
-         "p_name": "Hugo Heller",
-
-         "p_id": "#11646"
          }]
       }
       }, 
@@ -3960,8 +4125,8 @@
          "title": "Stubenring 6",
          "lat": "48.210195",
          "lon": "16.382155",
-         "timestamp": ["1924-04-10", "1924-05-20", "1924-07-15", "1924-07-18"],
-         "importance": 4, 
+         "timestamp": ["1924-04-10", "1924-05-20", "1924-07-15", "1924-07-18", "1924-12-02"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -4035,8 +4200,8 @@
          "title": "Magistratsabteilung 5, Wohnbausteueramt [1924]",
          "lat": "48.21016",
          "lon": "16.357141",
-         "timestamp": ["1924-05-12"],
-         "importance": 1, 
+         "timestamp": ["1924-05-12", "1924-10-31"],
+         "importance": 2, 
         "abbr": "Verwaltungsgebäude (K.VWL)", 
         "type": "Verwaltungsgebäude"
       }
@@ -4300,8 +4465,8 @@
          "title": "Josef Krautstofl",
          "lat": "48.21422",
          "lon": "16.35709",
-         "timestamp": ["1924-07-17", "1924-08-01"],
-         "importance": 2, 
+         "timestamp": ["1924-07-17", "1924-08-01", "1924-09-06", "1924-09-08"],
+         "importance": 4, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
       }
@@ -4708,8 +4873,8 @@
          "title": "Ristorante Biaggi",
          "lat": "46.0039",
          "lon": "8.95024",
-         "timestamp": ["1924-08-28", "1924-08-29"],
-         "importance": 2, 
+         "timestamp": ["1924-08-28", "1924-08-29", "1924-08-31"],
+         "importance": 3, 
         "abbr": "S.REST", 
         "type": "Restaurant"
       }
@@ -4762,8 +4927,8 @@
          "title": "Bahnhof Lugano",
          "lat": "46.00551",
          "lon": "8.946878055555555",
-         "timestamp": ["1924-08-29"],
-         "importance": 1, 
+         "timestamp": ["1924-08-29", "1924-08-31"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Lugano", 
         "wikidata": "http://www.wikidata.org/entity/Q174946", 
         "geonames": "https://sws.geonames.org/8436732/", 
@@ -4862,6 +5027,159 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.801359, 46.17243]
+      },
+      "properties": {
+         "id": "pmb263996",
+         "title": "Bahnhof Locarno",
+         "lat": "46.17243",
+         "lon": "8.801359",
+         "timestamp": ["1924-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Locarno", 
+        "wikidata": "http://www.wikidata.org/entity/Q686540", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.79384, 46.17519]
+      },
+      "properties": {
+         "id": "pmb264001",
+         "title": "Madonna del Sasso",
+         "lat": "46.17519",
+         "lon": "8.79384",
+         "timestamp": ["1924-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Madonna_del_Sasso", 
+        "wikidata": "http://www.wikidata.org/entity/Q246924", 
+        "geonames": "https://sws.geonames.org/9686201/", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.79887, 46.17225]
+      },
+      "properties": {
+         "id": "pmb264004",
+         "title": "Grand Hôtel Locarno",
+         "lat": "46.17225",
+         "lon": "8.79887",
+         "timestamp": ["1924-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grand_H%C3%B4tel_Locarno", 
+        "wikidata": "http://www.wikidata.org/entity/Q29527465", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.5395, 47.369844]
+      },
+      "properties": {
+         "id": "pmb264008",
+         "title": "Mandarin Oriental Savoy",
+         "lat": "47.369844",
+         "lon": "8.5395",
+         "timestamp": ["1924-09-01", "1924-09-02", "1924-09-03", "1924-09-04"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mandarin_Oriental_Savoy", 
+        "wikidata": "http://www.wikidata.org/entity/Q76752786", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.574683, 47.373238]
+      },
+      "properties": {
+         "id": "pmb92209",
+         "title": "Dolder",
+         "lat": "47.373238",
+         "lon": "8.574683",
+         "timestamp": ["1924-09-02"],
+         "importance": 1, 
+        "abbr": "Hang", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.53827, 47.37167]
+      },
+      "properties": {
+         "id": "pmb264017",
+         "title": "Restaurant Huguenin [Zürich]",
+         "lat": "47.37167",
+         "lon": "8.53827",
+         "timestamp": ["1924-09-02"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.539279, 47.376453]
+      },
+      "properties": {
+         "id": "pmb236955",
+         "title": "Hotel St. Gotthard Zürich",
+         "lat": "47.376453",
+         "lon": "8.539279",
+         "timestamp": ["1924-09-03", "1924-09-04"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q112013505", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337227, 48.230999]
+      },
+      "properties": {
+         "id": "pmb253234",
+         "title": "Gregor-Mendel-Straße 7",
+         "lat": "48.230999",
+         "lon": "16.337227",
+         "timestamp": ["1924-09-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosalie Cahn",
+
+         "p_id": "#14807"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.347153, 48.209866]
       },
       "properties": {
@@ -4874,6 +5192,122 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Palast_Kino https://www.geschichtewiki.wien.gv.at/Palace_Grand_Kinotheater_-_Kinopalast", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377452, 48.193826]
+      },
+      "properties": {
+         "id": "pmb246974",
+         "title": "Paul Zsolnay Verlag",
+         "lat": "48.193826",
+         "lon": "16.377452",
+         "timestamp": ["1924-09-29", "1924-10-22", "1924-11-05", "1924-11-07", "1924-11-21", "1924-11-25", "1924-11-28", "1924-12-02", "1924-12-05", "1924-12-19", "1924-12-23"],
+         "importance": 11, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337169, 48.233485]
+      },
+      "properties": {
+         "id": "pmb264161",
+         "title": "Hasenauerstraße 45",
+         "lat": "48.233485",
+         "lon": "16.337169",
+         "timestamp": ["1924-10-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377227, 48.200759]
+      },
+      "properties": {
+         "id": "pmb264166",
+         "title": "EGIS",
+         "lat": "48.200759",
+         "lon": "16.377227",
+         "timestamp": ["1924-10-21"],
+         "importance": 1, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372557, 48.204532]
+      },
+      "properties": {
+         "id": "pmb250518",
+         "title": "Annagasse 5",
+         "lat": "48.204532",
+         "lon": "16.372557",
+         "timestamp": ["1924-10-22"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357769, 48.219065]
+      },
+      "properties": {
+         "id": "pmb249299",
+         "title": "Währinger Straße 30",
+         "lat": "48.219065",
+         "lon": "16.357769",
+         "timestamp": ["1924-11-04"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Philine Lahr",
+
+         "p_id": "#20029"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370203, 48.206639]
+      },
+      "properties": {
+         "id": "pmb232366",
+         "title": "Seilergasse 16",
+         "lat": "48.206639",
+         "lon": "16.370203",
+         "timestamp": ["1924-11-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Olga von Gans-Ludassy",
+
+         "p_id": "#16902"
+         }]
       }
       }, 
     {
@@ -4929,6 +5363,60 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.348327, 48.23722]
+      },
+      "properties": {
+         "id": "pmb247472",
+         "title": "Peter-Jordan-Straße 6",
+         "lat": "48.23722",
+         "lon": "16.348327",
+         "timestamp": ["1924-11-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Marianne Zuckerkandl",
+
+         "p_id": "#2753"
+         }, 
+         {
+
+         "p_name": "Victor Zuckerkandl",
+
+         "p_id": "#27549"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37012, 48.2166]
+      },
+      "properties": {
+         "id": "pmb237018",
+         "title": "Kanzlei Dr. Hoffmann",
+         "lat": "48.2166",
+         "lon": "16.37012",
+         "timestamp": ["1924-11-29"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Norbert Hoffmann",
+
+         "p_id": "#4401"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35988, 48.21682]
       },
       "properties": {
@@ -4940,6 +5428,40 @@
          "importance": 1, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351609, 48.213234]
+      },
+      "properties": {
+         "id": "pmb264247",
+         "title": "Laudongasse 11",
+         "lat": "48.213234",
+         "lon": "16.351609",
+         "timestamp": ["1924-12-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37767, 48.20137]
+      },
+      "properties": {
+         "id": "pmb264251",
+         "title": "Eislaufverein [2. Platz]",
+         "lat": "48.20137",
+         "lon": "16.37767",
+         "timestamp": ["1924-12-17"],
+         "importance": 1, 
+        "abbr": "Vergnügungspark (K.VGN)", 
+        "type": "Vergnügungspark"
       }
       }
   ]

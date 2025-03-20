@@ -60,20 +60,39 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.38091, 48.19156]
+        "coordinates": [16.37049, 48.20769]
       },
       "properties": {
-         "id": "pmb90328",
-         "title": "Schloss Belvedere",
-         "lat": "48.19156",
-         "lon": "16.38091",
-         "timestamp": ["1924-12-09"],
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1924-12-16", "1924-12-17", "1924-12-19", "1924-12-23", "1924-12-24", "1924-12-30"],
+         "importance": 6, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341944, 48.233056]
+      },
+      "properties": {
+         "id": "pmb533",
+         "title": "Währinger Cottage",
+         "lat": "48.233056",
+         "lon": "16.341944",
+         "timestamp": ["1924-12-07"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Belvedere", 
-        "wikidata": "http://www.wikidata.org/entity/Q211818", 
-        "geonames": "https://sws.geonames.org/6354997/", 
-        "abbr": "S.PAL", 
-        "type": "Palast"
+        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1136683", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -172,8 +191,8 @@
          "title": "Alt Pilsenetzer Bierhalle",
          "lat": "48.216481",
          "lon": "16.359721",
-         "timestamp": ["1924-12-03", "1924-12-10", "1924-12-26"],
-         "importance": 3, 
+         "timestamp": ["1924-12-03"],
+         "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
       }
@@ -220,6 +239,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.3519, 50.94806]
+      },
+      "properties": {
+         "id": "pmb238181",
+         "title": "Schlosspark Belvedere",
+         "lat": "50.94806",
+         "lon": "11.3519",
+         "timestamp": ["1924-12-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131433431", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.371861, 48.20497]
       },
       "properties": {
@@ -257,6 +294,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1924-12-05"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1924-12-05"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -264,8 +342,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1924-12-03", "1924-12-06"],
-         "importance": 2, 
+         "timestamp": ["1924-12-03", "1924-12-06", "1924-12-20"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -293,6 +371,36 @@
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1924-12-09", "1924-12-21"],
+         "importance": 2, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
          }]
       }
       }, 
@@ -426,6 +534,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1924-12-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -489,8 +646,8 @@
          "title": "Hotel Regina [Wien]",
          "lat": "48.21623",
          "lon": "16.35967",
-         "timestamp": ["1924-12-01", "1924-12-03", "1924-12-04", "1924-12-06", "1924-12-10", "1924-12-20", "1924-12-24", "1924-12-26", "1924-12-30"],
-         "importance": 9, 
+         "timestamp": ["1924-12-01", "1924-12-03", "1924-12-04", "1924-12-06", "1924-12-10", "1924-12-20", "1924-12-24", "1924-12-26", "1924-12-28", "1924-12-30"],
+         "importance": 10, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel", 
         "wohnort": [
@@ -530,6 +687,90 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1924-12-21", "1924-12-28"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1924-12-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.382155, 48.210195]
+      },
+      "properties": {
+         "id": "pmb256529",
+         "title": "Stubenring 6",
+         "lat": "48.210195",
+         "lon": "16.382155",
+         "timestamp": ["1924-12-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Marianne Pollaczek",
+
+         "p_id": "#22704"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.371024, 48.206219]
       },
       "properties": {
@@ -547,6 +788,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.377452, 48.193826]
+      },
+      "properties": {
+         "id": "pmb246974",
+         "title": "Paul Zsolnay Verlag",
+         "lat": "48.193826",
+         "lon": "16.377452",
+         "timestamp": ["1924-12-02", "1924-12-05", "1924-12-19", "1924-12-23"],
+         "importance": 4, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35988, 48.21682]
       },
       "properties": {
@@ -558,6 +816,40 @@
          "importance": 1, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351609, 48.213234]
+      },
+      "properties": {
+         "id": "pmb264247",
+         "title": "Laudongasse 11",
+         "lat": "48.213234",
+         "lon": "16.351609",
+         "timestamp": ["1924-12-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37767, 48.20137]
+      },
+      "properties": {
+         "id": "pmb264251",
+         "title": "Eislaufverein [2. Platz]",
+         "lat": "48.20137",
+         "lon": "16.37767",
+         "timestamp": ["1924-12-17"],
+         "importance": 1, 
+        "abbr": "Vergnügungspark (K.VGN)", 
+        "type": "Vergnügungspark"
       }
       }
   ]

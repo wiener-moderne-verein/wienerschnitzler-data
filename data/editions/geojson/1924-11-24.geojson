@@ -6,13 +6,39 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.346125, 48.23017], 
+            [16.341015, 48.249749]
           ]
       },
       "properties": {
         "name": "24. November 1924"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.346125, 48.23017]
+      },
+      "properties": {
+         "id": "pmb235832",
+         "title": "Edelhofgasse 36",
+         "lat": "48.23017",
+         "lon": "16.346125",
+         "timestamp": ["1924-11-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "David Feuchtwang",
+
+         "p_id": "#11312"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -89,6 +115,42 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341015, 48.249749]
+      },
+      "properties": {
+         "id": "pmb252863",
+         "title": "Kaasgrabengasse 4",
+         "lat": "48.249749",
+         "lon": "16.341015",
+         "timestamp": ["1924-11-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eva Agathe Wassermann",
+
+         "p_id": "#10446"
+         }, 
+         {
+
+         "p_name": "Julie Wassermann",
+
+         "p_id": "#13058"
+         }, 
+         {
+
+         "p_name": "Jakob Wassermann",
+
+         "p_id": "#13055"
          }]
       }
       }

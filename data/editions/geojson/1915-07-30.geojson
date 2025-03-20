@@ -7,7 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [13.571331, 47.70415], 
-            [13.625998, 47.7077013], 
+            [13.625362, 47.707868], 
+            [13.616744, 47.71172], 
             [13.61926, 47.71356]
           ]
       },
@@ -36,13 +37,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.625998, 47.7077013]
+        "coordinates": [13.625362, 47.707868]
       },
       "properties": {
          "id": "pmb263384",
          "title": "Villa Viola",
-         "lat": "47.7077013",
-         "lon": "13.625998",
+         "lat": "47.707868",
+         "lon": "13.625362",
          "timestamp": ["1915-07-30"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
@@ -64,6 +65,23 @@
          "importance": 1, 
         "abbr": "See (N.SEE)", 
         "type": "See"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.616744, 47.71172]
+      },
+      "properties": {
+         "id": "pmb263394",
+         "title": "Hotel Ischlerhof",
+         "lat": "47.71172",
+         "lon": "13.616744",
+         "timestamp": ["1915-07-30"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

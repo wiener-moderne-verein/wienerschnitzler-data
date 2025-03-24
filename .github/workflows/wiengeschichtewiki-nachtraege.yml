@@ -19,7 +19,7 @@ jobs:
         run: pip install lxml requests
 
       - name: Run update_wiengeschichtewiki script
-        run: python3 python-scripts/update_wiengeschichtewiki.py
+        run: python3 python-scripts/update-wien-geschichte-wiki.py
 
       - name: List output directory
         run: ls -la data/indices/

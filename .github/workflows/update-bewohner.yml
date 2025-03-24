@@ -1,0 +1,50 @@
+name: update Wohnsitz Arbeitsort
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Installiere Java, Ant und weitere Abhängigkeiten
+        run: |
+          sudo apt-get update
+          sudo apt-get install openjdk-11-jre-headless ant -y --no-install-recommends
+          # Falls script.sh weitere Setup-Schritte enthält:
+          ./dl_saxon.sh
+
+      - name: Transformation Schritt 1
+        run: |
+          java -jar saxon/saxon-he-12.5.jar \
+            -s:./input-data/living-working-in.xml \
+            -xsl:./xslts/import-relations-to-complete/living-working-1.xsl \
+            -o:./input-data/living-working-in-inbetween.xml
+
+      - name: Transformation Schritt 2 – Namen hinzufügen
+        run: |
+            java -jar saxon/saxon-he-12.5.jar \
+                -o:./data/indices/living-working-in.xml \
+                -xsl:./xslts/import-relations-to-complete/living-working-2-add-names.xsl \
+                -s:./input-data/living-working-in-inbetween.xml
+
+      - name: Änderungen committen und pushen
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --global user.name "github-actions"
+            git config --global user.email "github-actions@github.com"
+            git add .
+            git commit -m "Update durch Workflow"
+            git push
+          else
+            echo "Keine Änderungen im Daten-Ordner, Commit wird übersprungen."
+          fi

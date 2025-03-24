@@ -6,7 +6,6 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -17,12 +16,10 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          pip install lxml requests
+        run: pip install lxml requests
 
       - name: Run update_wiengeschichtewiki script
-        working-directory: python-scripts
-        run: python3 update-wien-geschichte-wiki.py
+        run: python3 python-scripts/update_wiengeschichtewiki.py
 
-      - name: Verify output file
-        run: ls -la ../data/indices/wiengeschichtewiki-nachtraege.xml
+      - name: List output directory
+        run: ls -la data/indices/

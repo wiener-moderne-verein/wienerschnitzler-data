@@ -69,8 +69,16 @@
 
     <!-- 2. Transformation: listplace.xml fertigstellen -->
     <xslt in="./${target}/listplace-step1.xml"
-        out="./data/indices/listplace.xml"
+        out="./${target}/listplace-step2.xml"
         style="./xslts/import-relations-to-complete/listplace_2_add-living-working.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="./saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    
+    <!-- Transformation: listplace.xml fertigstellen -->
+    <xslt in="./${target}/listplace-step2.xml"
+        out="./data/indices/listplace.xml"
+        style="./xslts/import-relations-to-complete/listplace_3_add-wiengeschichte-nachtraege.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>

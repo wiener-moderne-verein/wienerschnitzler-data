@@ -22,7 +22,7 @@ jobs:
 
       - name: Run update_wiengeschichtewiki script
         working-directory: python-scripts
-        run: python3 update_wiengeschichtewiki.py
+        run: python3 update-wien-geschichte-wiki.py
 
       - name: Verify output file
         run: ls -la ../data/indices/wiengeschichtewiki-nachtraege.xml

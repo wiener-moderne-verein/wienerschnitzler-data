@@ -97,7 +97,7 @@
                             <xsl:value-of select="concat('#pmb', $wohnungs-nummer)"/>
                         </xsl:attribute>
                         <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
-                        <xsl:value-of select="$wohnsitze/item[target_id= $wohnungs-nummer]/target_label"/>
+                        <xsl:value-of select="$wohnsitze/item[target_id= $wohnungs-nummer][1]/target_label[1]"/>
                         </xsl:element>
                     </xsl:element>
                     

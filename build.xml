@@ -108,14 +108,7 @@
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>
     
-    <!-- create cal-Heatmap "uebersicht.json" -->
-    
-    <xslt in="./${target}/wienerschnitzler_complete_nested.xml"
-        out="./data/editions/uebersicht.json"
-        style="./xslts/diverses/uebersicht-data.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="./saxon/saxon-he-12.5.jar"/>
-    </xslt>
+   
 
     
     <!-- create complete nested -->
@@ -152,6 +145,15 @@
     </xslt>
     <copy file="./${target}/wienerschnitzler_complete_nested.xml"
         todir="./data/editions/xml" />
+    
+    <!-- create cal-Heatmap "uebersicht.json" -->
+    
+    <xslt in="./${target}/wienerschnitzler_complete_nested.xml"
+        out="./data/editions/uebersicht.json"
+        style="./xslts/diverses/uebersicht-data.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="./saxon/saxon-he-12.5.jar"/>
+    </xslt>
   
     <xslt in="./${target}/wienerschnitzler_complete_nested.xml"
         out="./${target}/nested-to-lineString.xml"

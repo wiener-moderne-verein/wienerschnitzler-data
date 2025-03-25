@@ -43,6 +43,13 @@
 
     <!-- 3. Transformation: relations-step2.xml -> wienerschnitzler_complete.xml -->
     <xslt in="./${target}/relations-step2.xml"
+        out="./${target}/relations-step3.xml"
+        style="./xslts/import-relations-to-complete/4_eventNames.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="./saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    
+    <xslt in="./${target}/relations-step3.xml"
         out="./data/editions/xml/wienerschnitzler_complete.xml"
         style="./xslts/import-relations-to-complete/3_wohnsitz-ergaenzen.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
@@ -97,6 +104,15 @@
     <xslt in="./data/editions/xml/wienerschnitzler_distinctPlaces.xml"
         out="./data/editions/csv/complete.csv"
         style="./xslts/CSV/distinct-to-csv.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="./saxon/saxon-he-12.5.jar"/>
+    </xslt>
+    
+    <!-- create cal-Heatmap "uebersicht.json" -->
+    
+    <xslt in="./${target}/wienerschnitzler_complete_nested.xml"
+        out="./data/editions/uebersicht.json"
+        style="./xslts/diverses/uebersicht-data.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>

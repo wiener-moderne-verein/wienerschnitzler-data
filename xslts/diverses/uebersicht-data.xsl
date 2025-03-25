@@ -9,8 +9,8 @@
             for $event in //tei:event
             return map{
             'date': string($event/@when),
-            'label': replace(string($event/tei:eventName), '&amp;', '&amp;amp;'),
-            'kind': concat('person-', count($event//tei:place[not(.//tei:listPlace)]))
+            'title': replace(string($event/tei:eventName), '&amp;', '&amp;amp;'),
+            'weight': count($event//tei:place[not(.//tei:listPlace)])
             }
             }"/>
     </xsl:template>

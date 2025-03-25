@@ -86,16 +86,12 @@
         </xsl:variable>
         <xsl:variable name="ort" select="target"/>
         <xsl:variable name="place-id" select="target_id"/>
-        <xsl:variable name="eventName" select="relation_name"/>
         <xsl:choose>
             <xsl:when test="$duration = 0">
                 <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:attribute name="when">
                         <xsl:value-of select="$from"/>
                     </xsl:attribute>
-                    <xsl:element name="eventName" namespace="http://www.tei-c.org/ns/1.0">
-                        <xsl:value-of select="$eventName"/>
-                    </xsl:element>
                     <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
                         <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:attribute name="corresp">
@@ -116,9 +112,6 @@
                             <xsl:value-of select="$from + xs:dayTimeDuration(concat('P', $i, 'D'))"
                             />
                         </xsl:attribute>
-                        <xsl:element name="eventName" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:value-of select="$eventName"/>
-                        </xsl:element>
                         <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:attribute name="corresp">

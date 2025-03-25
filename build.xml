@@ -44,14 +44,14 @@
     <!-- 3. Transformation: relations-step2.xml -> wienerschnitzler_complete.xml -->
     <xslt in="./${target}/relations-step2.xml"
         out="./${target}/relations-step3.xml"
-        style="./xslts/import-relations-to-complete/4_eventNames.xsl">
+        style="./xslts/import-relations-to-complete/3_wohnsitz-ergaenzen.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>
     
     <xslt in="./${target}/relations-step3.xml"
         out="./data/editions/xml/wienerschnitzler_complete.xml"
-        style="./xslts/import-relations-to-complete/3_wohnsitz-ergaenzen.xsl">
+        style="./xslts/import-relations-to-complete/4_eventNames.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>

@@ -18,7 +18,7 @@
                 <xsl:text>Am </xsl:text>
                 <xsl:value-of select="format-date(xs:date(@when), '[D].&#160;[M].&#160;[Y0001]')"/>
                 <xsl:text> hielt sich Schnitzler in </xsl:text>
-                <xsl:for-each select="descendant::tei:place[not(descendant::tei:listPlace)]">
+                <xsl:for-each select="descendant::tei:place">
                     <xsl:choose>
                         <xsl:when test="position() = 1">
                             <xsl:value-of select="normalize-space(descendant::tei:placeName)"/>

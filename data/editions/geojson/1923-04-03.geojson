@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.364281, 48.202866], 
+            [16.364586, 48.216445], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,42 @@
         "name": "3. April 1923"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364586, 48.216445]
+      },
+      "properties": {
+         "id": "pmb185644",
+         "title": "Peregringasse 4",
+         "lat": "48.216445",
+         "lon": "16.364586",
+         "timestamp": ["1923-04-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -89,6 +127,36 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364281, 48.202866]
+      },
+      "properties": {
+         "id": "pmb186043",
+         "title": "Elisabethstraße 22",
+         "lat": "48.202866",
+         "lon": "16.364281",
+         "timestamp": ["1923-04-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Werfel",
+
+         "p_id": "#13094"
+         }, 
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
          }]
       }
       }

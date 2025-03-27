@@ -25,6 +25,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1916-02-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
@@ -32,8 +51,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1916-02-01"],
-         "importance": 1, 
+         "timestamp": ["1916-02-01", "1916-02-24", "1916-02-27"],
+         "importance": 3, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -97,6 +116,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.361378, 48.203661]
+      },
+      "properties": {
+         "id": "pmb47660",
+         "title": "Kunsthistorisches Museum",
+         "lat": "48.203661",
+         "lon": "16.361378",
+         "timestamp": ["1916-02-29"],
+         "importance": 1, 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Gustav Glück",
+
+         "p_id": "#7433"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.300034240016, 48.246838181084]
       },
       "properties": {
@@ -109,6 +152,96 @@
         "geonames": "https://sws.geonames.org/2768462/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348401, 48.23555]
+      },
+      "properties": {
+         "id": "pmb253629",
+         "title": "Bundesgymnasium Döbling",
+         "lat": "48.23555",
+         "lon": "16.348401",
+         "timestamp": ["1916-02-24", "1916-02-25", "1916-02-26"],
+         "importance": 3, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Anton Spigl",
+
+         "p_id": "#25214"
+         }, 
+         {
+
+         "p_name": "Franz Matouschek",
+
+         "p_id": "#21159"
+         }, 
+         {
+
+         "p_name": "Arnold Kalich",
+
+         "p_id": "#19019"
+         }, 
+         {
+
+         "p_name": "Guido von Alth",
+
+         "p_id": "#13331"
+         }, 
+         {
+
+         "p_name": "Wenzel Rudofsky",
+
+         "p_id": "#23718"
+         }, 
+         {
+
+         "p_name": "Leopold Winkler",
+
+         "p_id": "#27198"
+         }, 
+         {
+
+         "p_name": "Josef Lesowsky",
+
+         "p_id": "#20346"
+         }, 
+         {
+
+         "p_name": "Florian Weigel",
+
+         "p_id": "#26782"
+         }, 
+         {
+
+         "p_name": "Salomon Zimmels",
+
+         "p_id": "#27497"
+         }, 
+         {
+
+         "p_name": "Wenzel Wild",
+
+         "p_id": "#27119"
+         }, 
+         {
+
+         "p_name": "Karl Kunst",
+
+         "p_id": "#19847"
+         }, 
+         {
+
+         "p_name": "Salomon Zimmels",
+
+         "p_id": "#27497"
+         }]
       }
       }, 
     {
@@ -339,8 +472,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1916-02-04", "1916-02-15"],
-         "importance": 2, 
+         "timestamp": ["1916-02-04", "1916-02-15", "1916-02-26"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -368,6 +501,30 @@
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3589845, 48.2195962]
+      },
+      "properties": {
+         "id": "pmb34399",
+         "title": "Neue Wiener Bühne",
+         "lat": "48.2195962",
+         "lon": "16.3589845",
+         "timestamp": ["1916-02-27"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Siegfried Geyer",
+
+         "p_id": "#7399"
          }]
       }
       }, 
@@ -510,8 +667,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1916-02-24"],
-         "importance": 1, 
+         "timestamp": ["1916-02-24", "1916-02-26", "1916-02-29"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -606,8 +763,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1916-02-11"],
-         "importance": 1, 
+         "timestamp": ["1916-02-11", "1916-02-25"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -727,6 +884,41 @@
          "importance": 1, 
         "abbr": "Gericht", 
         "type": "Gericht"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30038, 48.18635]
+      },
+      "properties": {
+         "id": "pmb264329",
+         "title": "Park-Kino",
+         "lat": "48.18635",
+         "lon": "16.30038",
+         "timestamp": ["1916-02-26"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q50939307", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376082, 48.195793]
+      },
+      "properties": {
+         "id": "pmb264340",
+         "title": "Prinz-Eugen-Straße 16",
+         "lat": "48.195793",
+         "lon": "16.376082",
+         "timestamp": ["1916-02-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

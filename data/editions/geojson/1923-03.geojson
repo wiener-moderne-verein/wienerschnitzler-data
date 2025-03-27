@@ -25,6 +25,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379608025302, 48.204824018066]
+      },
+      "properties": {
+         "id": "pmb575",
+         "title": "Stadtpark",
+         "lat": "48.204824018066",
+         "lon": "16.379608025302",
+         "timestamp": ["1923-03-30"],
+         "importance": 1, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361139, 48.210333]
       },
       "properties": {
@@ -37,6 +54,26 @@
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1923-03-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -75,6 +112,26 @@
         "geonames": "https://sws.geonames.org/2768462/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370064, 48.202791]
+      },
+      "properties": {
+         "id": "pmb205",
+         "title": "Hotel Bristol Wien",
+         "lat": "48.202791",
+         "lon": "16.370064",
+         "timestamp": ["1923-03-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=7575", 
+        "wikidata": "http://www.wikidata.org/entity/Q37865047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -122,6 +179,42 @@
          "p_name": " Wessely",
 
          "p_id": "#88046"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364586, 48.216445]
+      },
+      "properties": {
+         "id": "pmb185644",
+         "title": "Peregringasse 4",
+         "lat": "48.216445",
+         "lon": "16.364586",
+         "timestamp": ["1923-03-06", "1923-03-14", "1923-03-15", "1923-03-20", "1923-03-24", "1923-03-31"],
+         "importance": 6, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
          }]
       }
       }, 
@@ -259,6 +352,67 @@
          "p_name": "Paula Schmidl",
 
          "p_id": "#24292"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1923-03-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1923-03-16", "1923-03-21"],
+         "importance": 2, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
          }]
       }
       }, 
@@ -461,8 +615,8 @@
          "title": "Tiefer Graben 17",
          "lat": "48.212284",
          "lon": "16.367725",
-         "timestamp": ["1923-03-07", "1923-03-23", "1923-03-24", "1923-03-28"],
-         "importance": 4, 
+         "timestamp": ["1923-03-07", "1923-03-16", "1923-03-22", "1923-03-23", "1923-03-24", "1923-03-28"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -484,6 +638,193 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366548, 48.21306]
+      },
+      "properties": {
+         "id": "pmb256702",
+         "title": "Österreichische Länderbank",
+         "lat": "48.21306",
+         "lon": "16.366548",
+         "timestamp": ["1923-03-16", "1923-03-21"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
+        "wikidata": "http://www.wikidata.org/entity/Q26911630", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Max Leitner",
+
+         "p_id": "#20270"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364281, 48.202866]
+      },
+      "properties": {
+         "id": "pmb186043",
+         "title": "Elisabethstraße 22",
+         "lat": "48.202866",
+         "lon": "16.364281",
+         "timestamp": ["1923-03-17", "1923-03-18", "1923-03-21", "1923-03-23", "1923-03-26", "1923-03-28", "1923-03-30"],
+         "importance": 7, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Werfel",
+
+         "p_id": "#13094"
+         }, 
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1923-03-04", "1923-03-07", "1923-03-13", "1923-03-19", "1923-03-21"],
+         "importance": 5, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338993, 48.231689]
+      },
+      "properties": {
+         "id": "pmb245475",
+         "title": "Sternwartestraße 56",
+         "lat": "48.231689",
+         "lon": "16.338993",
+         "timestamp": ["1923-03-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried von Strakosch-Feldringen",
+
+         "p_id": "#25563"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3576, 48.21071]
+      },
+      "properties": {
+         "id": "pmb250232",
+         "title": "Magistratsabteilung 10 - Steuern und Abgaben (1920-1939)",
+         "lat": "48.21071",
+         "lon": "16.3576",
+         "timestamp": ["1923-03-03", "1923-03-06"],
+         "importance": 2, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370488, 48.204493]
+      },
+      "properties": {
+         "id": "pmb264440",
+         "title": "Hotel Astoria",
+         "lat": "48.204493",
+         "lon": "16.370488",
+         "timestamp": ["1923-03-06"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353657, 48.20208]
+      },
+      "properties": {
+         "id": "pmb237711",
+         "title": "Restaurant Schöner",
+         "lat": "48.20208",
+         "lon": "16.353657",
+         "timestamp": ["1923-03-08", "1923-03-09", "1923-03-22"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Restaurant_Sch%C3%B6ner", 
+        "wikidata": "http://www.wikidata.org/entity/Q51694866", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368865, 48.215783]
+      },
+      "properties": {
+         "id": "pmb244795",
+         "title": "Zelinkagasse 4",
+         "lat": "48.215783",
+         "lon": "16.368865",
+         "timestamp": ["1923-03-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rudolf Askonas",
+
+         "p_id": "#13541"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37131, 48.20411]
       },
       "properties": {
@@ -496,6 +837,36 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Wiener_Bioscop_-_Kruger_Kino", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1923-03-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
       }
       }
   ]

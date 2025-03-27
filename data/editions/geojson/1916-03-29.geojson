@@ -6,13 +6,33 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.372564182283, 48.201265597319], 
+            [16.33716, 48.23188], 
+            [16.33958, 48.229272]
           ]
       },
       "properties": {
         "name": "29. März 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33958, 48.229272]
+      },
+      "properties": {
+         "id": "pmb264548",
+         "title": "Volksschule Haizingergasse 37",
+         "lat": "48.229272",
+         "lon": "16.33958",
+         "timestamp": ["1916-03-29"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133548251", 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -90,6 +110,23 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1916-03-29"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
       }
       }
   ]

@@ -3459,6 +3459,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.353657, 48.20208]
+      },
+      "properties": {
+         "id": "pmb237711",
+         "title": "Restaurant Schöner",
+         "lat": "48.20208",
+         "lon": "16.353657",
+         "timestamp": ["1929-12-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Restaurant_Sch%C3%B6ner", 
+        "wikidata": "http://www.wikidata.org/entity/Q51694866", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1929-04-19", "1929-11-30"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.318595, 52.51421]
       },
       "properties": {
@@ -3564,36 +3613,6 @@
          "p_name": "Anna Eisenmenger",
 
          "p_id": "#15775"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.338022, 48.233651]
-      },
-      "properties": {
-         "id": "pmb245446",
-         "title": "Gregor-Mendel-Straße 32",
-         "lat": "48.233651",
-         "lon": "16.338022",
-         "timestamp": ["1929-04-19", "1929-11-30"],
-         "importance": 2, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Rosa Menczel",
-
-         "p_id": "#21304"
-         }, 
-         {
-
-         "p_name": "Philipp Menczel",
-
-         "p_id": "#3119"
          }]
       }
       }, 
@@ -5425,25 +5444,6 @@
          "lon": "16.367846",
          "timestamp": ["1929-12-18", "1929-12-19"],
          "importance": 2, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.353657, 48.20208]
-      },
-      "properties": {
-         "id": "pmb237711",
-         "title": "Restaurant Schöner",
-         "lat": "48.20208",
-         "lon": "16.353657",
-         "timestamp": ["1929-12-20"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Restaurant_Sch%C3%B6ner", 
-        "wikidata": "http://www.wikidata.org/entity/Q51694866", 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
       }

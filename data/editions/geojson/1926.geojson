@@ -5,24 +5,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.48447, 47.0555]
-      },
-      "properties": {
-         "id": "pmb91598",
-         "title": "Rigi Kulm",
-         "lat": "47.0555",
-         "lon": "8.48447",
-         "timestamp": ["1926-09-07"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2660093/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.373056, 48.208333]
       },
       "properties": {
@@ -37,6 +19,24 @@
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.48447, 47.0555]
+      },
+      "properties": {
+         "id": "pmb91598",
+         "title": "Rigi Kulm",
+         "lat": "47.0555",
+         "lon": "8.48447",
+         "timestamp": ["1926-09-07"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2660093/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -3126,6 +3126,77 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3576, 48.21071]
+      },
+      "properties": {
+         "id": "pmb250232",
+         "title": "Magistratsabteilung 10 - Steuern und Abgaben (1920-1939)",
+         "lat": "48.21071",
+         "lon": "16.3576",
+         "timestamp": ["1926-03-10"],
+         "importance": 1, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368865, 48.215783]
+      },
+      "properties": {
+         "id": "pmb244795",
+         "title": "Zelinkagasse 4",
+         "lat": "48.215783",
+         "lon": "16.368865",
+         "timestamp": ["1926-03-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rudolf Askonas",
+
+         "p_id": "#13541"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1926-01-16", "1926-01-21", "1926-01-23", "1926-01-24", "1926-06-14", "1926-07-25", "1926-09-25", "1926-09-26", "1926-09-29", "1926-10-05", "1926-10-09", "1926-10-13", "1926-10-14", "1926-10-27", "1926-11-25", "1926-12-01", "1926-12-22"],
+         "importance": 17, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.318595, 52.51421]
       },
       "properties": {
@@ -3193,36 +3264,6 @@
          "p_name": "Anna Eisenmenger",
 
          "p_id": "#15775"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.338022, 48.233651]
-      },
-      "properties": {
-         "id": "pmb245446",
-         "title": "Gregor-Mendel-Straße 32",
-         "lat": "48.233651",
-         "lon": "16.338022",
-         "timestamp": ["1926-01-16", "1926-01-21", "1926-01-23", "1926-01-24", "1926-06-14", "1926-07-25", "1926-09-25", "1926-09-26", "1926-09-29", "1926-10-05", "1926-10-09", "1926-10-13", "1926-10-14", "1926-10-27", "1926-11-25", "1926-12-01", "1926-12-22"],
-         "importance": 17, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Rosa Menczel",
-
-         "p_id": "#21304"
-         }, 
-         {
-
-         "p_name": "Philipp Menczel",
-
-         "p_id": "#3119"
          }]
       }
       }, 
@@ -3572,23 +3613,6 @@
 
          "p_id": "#22242"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3576, 48.21071]
-      },
-      "properties": {
-         "id": "pmb250232",
-         "title": "Magistratsabteilung 6 (Staatssteuern und Zuschläge, Fürsorge- und Konzessionsabgabe)",
-         "lat": "48.21071",
-         "lon": "16.3576",
-         "timestamp": ["1926-03-10"],
-         "importance": 1, 
-        "abbr": "Verwaltungsgebäude (K.VWL)", 
-        "type": "Verwaltungsgebäude"
       }
       }, 
     {
@@ -4059,30 +4083,6 @@
          "p_name": "Louis Philipp Friedmann",
 
          "p_id": "#16658"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.368865, 48.215783]
-      },
-      "properties": {
-         "id": "pmb244795",
-         "title": "Zelinkagasse 4",
-         "lat": "48.215783",
-         "lon": "16.368865",
-         "timestamp": ["1926-03-28"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Rudolf Askonas",
-
-         "p_id": "#13541"
          }]
       }
       }, 

@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.376082, 48.195793], 
+            [16.372564182283, 48.201265597319], 
+            [16.3589845, 48.2195962], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +16,64 @@
         "name": "27. Februar 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3589845, 48.2195962]
+      },
+      "properties": {
+         "id": "pmb34399",
+         "title": "Neue Wiener Bühne",
+         "lat": "48.2195962",
+         "lon": "16.3589845",
+         "timestamp": ["1916-02-27"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Siegfried Geyer",
+
+         "p_id": "#7399"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376082, 48.195793]
+      },
+      "properties": {
+         "id": "pmb264340",
+         "title": "Prinz-Eugen-Straße 16",
+         "lat": "48.195793",
+         "lon": "16.376082",
+         "timestamp": ["1916-02-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1916-02-27"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

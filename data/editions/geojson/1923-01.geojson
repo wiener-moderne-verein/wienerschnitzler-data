@@ -315,8 +315,8 @@
          "title": "Sanatorium Fürth",
          "lat": "48.210713",
          "lon": "16.352811",
-         "timestamp": ["1923-01-20"],
-         "importance": 1, 
+         "timestamp": ["1923-01-20", "1923-01-23", "1923-01-27"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Sanatorium_F%C3%BCrth", 
         "wikidata": "http://www.wikidata.org/entity/Q38028257", 
         "abbr": "Sanatorium (K.SAN)", 
@@ -700,8 +700,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1923-01-10"],
-         "importance": 1, 
+         "timestamp": ["1923-01-10", "1923-01-23"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -802,6 +802,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36171, 48.2116]
+      },
+      "properties": {
+         "id": "pmb235784",
+         "title": "Oppolzergasse 6",
+         "lat": "48.2116",
+         "lon": "16.36171",
+         "timestamp": ["1923-01-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.366111, 48.206389]
       },
       "properties": {
@@ -828,8 +852,8 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1923-01-10", "1923-01-15"],
-         "importance": 2, 
+         "timestamp": ["1923-01-10", "1923-01-15", "1923-01-20", "1923-01-26", "1923-01-30", "1923-01-31"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -891,6 +915,47 @@
          "p_name": "Hugo Heller",
 
          "p_id": "#11646"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377152, 48.207329]
+      },
+      "properties": {
+         "id": "pmb264368",
+         "title": "Riemergasse 7",
+         "lat": "48.207329",
+         "lon": "16.377152",
+         "timestamp": ["1923-01-18"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370203, 48.206639]
+      },
+      "properties": {
+         "id": "pmb232366",
+         "title": "Seilergasse 16",
+         "lat": "48.206639",
+         "lon": "16.370203",
+         "timestamp": ["1923-01-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Olga von Gans-Ludassy",
+
+         "p_id": "#16902"
          }]
       }
       }

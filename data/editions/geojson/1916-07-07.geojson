@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.732299, 47.645521], 
+            [13.77095, 47.6416], 
+            [13.7392, 47.6514]
           ]
       },
       "properties": {
@@ -28,6 +30,42 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.732299, 47.645521]
+      },
+      "properties": {
+         "id": "pmb92411",
+         "title": "Moosberg",
+         "lat": "47.645521",
+         "lon": "13.732299",
+         "timestamp": ["1916-07-07"],
+         "importance": 1, 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7392, 47.6514]
+      },
+      "properties": {
+         "id": "pmb264818",
+         "title": "Salzberg Altaussee",
+         "lat": "47.6514",
+         "lon": "13.7392",
+         "timestamp": ["1916-07-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzbergwerk_Altaussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q1635896", 
+        "abbr": "Bergwerk", 
+        "type": "Bergwerk"
       }
       }
   ]

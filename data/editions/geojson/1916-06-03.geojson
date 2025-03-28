@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.78453, 47.6698]
+            [13.761924, 47.634029], 
+            [13.79683, 47.63156], 
+            [13.732299, 47.645521]
           ]
       },
       "properties": {
@@ -17,20 +19,52 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.78453, 47.6698]
+        "coordinates": [13.732299, 47.645521]
       },
       "properties": {
-         "id": "pmb34401",
-         "title": "Altaussee",
-         "lat": "47.6698",
-         "lon": "13.78453",
+         "id": "pmb92411",
+         "title": "Moosberg",
+         "lat": "47.645521",
+         "lon": "13.732299",
          "timestamp": ["1916-06-03"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Altaussee", 
-        "wikidata": "http://www.wikidata.org/entity/Q262951", 
-        "geonames": "https://sws.geonames.org/7872434/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.761924, 47.634029]
+      },
+      "properties": {
+         "id": "pmb264748",
+         "title": "Frosch-Haus",
+         "lat": "47.634029",
+         "lon": "13.761924",
+         "timestamp": ["1916-06-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.79683, 47.63156]
+      },
+      "properties": {
+         "id": "pmb264744",
+         "title": "Tressensattel",
+         "lat": "47.63156",
+         "lon": "13.79683",
+         "timestamp": ["1916-06-03"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567364", 
+        "abbr": "Pass (N.PAS)", 
+        "type": "Pass"
       }
       }
   ]

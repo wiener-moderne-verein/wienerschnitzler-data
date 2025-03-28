@@ -6,13 +6,37 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.7340478, 47.6272522], 
+            [13.756911, 47.618195], 
+            [13.762683, 47.616298], 
+            [13.77095, 47.6416], 
+            [13.61893, 47.71109]
           ]
       },
       "properties": {
         "name": "18. September 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61893, 47.71109]
+      },
+      "properties": {
+         "id": "pmb213",
+         "title": "Bad Ischl",
+         "lat": "47.71109",
+         "lon": "13.61893",
+         "timestamp": ["1916-09-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q250984", 
+        "geonames": "https://sws.geonames.org/2782052/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +52,58 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7340478, 47.6272522]
+      },
+      "properties": {
+         "id": "pmb264681",
+         "title": "Gasthaus zum Bachwirt",
+         "lat": "47.6272522",
+         "lon": "13.7340478",
+         "timestamp": ["1916-09-18"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.756911, 47.618195]
+      },
+      "properties": {
+         "id": "pmb92420",
+         "title": "Nikolaus-Lenau-Hügel",
+         "lat": "47.618195",
+         "lon": "13.756911",
+         "timestamp": ["1916-09-18"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567285", 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.762683, 47.616298]
+      },
+      "properties": {
+         "id": "pmb92454",
+         "title": "Pötschenstraße",
+         "lat": "47.616298",
+         "lon": "13.762683",
+         "timestamp": ["1916-09-18"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }
   ]

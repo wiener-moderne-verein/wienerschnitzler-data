@@ -6,13 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.768567, 47.633835], 
+            [13.77095, 47.6416], 
+            [13.61893, 47.71109]
           ]
       },
       "properties": {
         "name": "22. September 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61893, 47.71109]
+      },
+      "properties": {
+         "id": "pmb213",
+         "title": "Bad Ischl",
+         "lat": "47.71109",
+         "lon": "13.61893",
+         "timestamp": ["1916-09-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q250984", 
+        "geonames": "https://sws.geonames.org/2782052/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +50,23 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.768567, 47.633835]
+      },
+      "properties": {
+         "id": "pmb264887",
+         "title": "Villa Hellmann",
+         "lat": "47.633835",
+         "lon": "13.768567",
+         "timestamp": ["1916-09-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

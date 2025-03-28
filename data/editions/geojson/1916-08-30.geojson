@@ -6,14 +6,40 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.732299, 47.645521], 
+            [13.75, 47.63333], 
+            [13.768567, 47.633835], 
+            [13.76819, 47.63601], 
             [13.77095, 47.6416], 
-            [13.77189, 47.6417]
+            [13.77189, 47.6417], 
+            [13.7392, 47.6514], 
+            [13.61893, 47.71109]
           ]
       },
       "properties": {
         "name": "30. August 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61893, 47.71109]
+      },
+      "properties": {
+         "id": "pmb213",
+         "title": "Bad Ischl",
+         "lat": "47.71109",
+         "lon": "13.61893",
+         "timestamp": ["1916-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q250984", 
+        "geonames": "https://sws.geonames.org/2782052/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -46,6 +72,97 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.732299, 47.645521]
+      },
+      "properties": {
+         "id": "pmb92411",
+         "title": "Moosberg",
+         "lat": "47.645521",
+         "lon": "13.732299",
+         "timestamp": ["1916-08-30"],
+         "importance": 1, 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7392, 47.6514]
+      },
+      "properties": {
+         "id": "pmb264818",
+         "title": "Salzberg Altaussee",
+         "lat": "47.6514",
+         "lon": "13.7392",
+         "timestamp": ["1916-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzbergwerk_Altaussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q1635896", 
+        "abbr": "Bergwerk", 
+        "type": "Bergwerk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.75, 47.63333]
+      },
+      "properties": {
+         "id": "pmb91474",
+         "title": "Ruine Pflindsberg",
+         "lat": "47.63333",
+         "lon": "13.75",
+         "timestamp": ["1916-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Burg_Pflindsberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q1013484", 
+        "geonames": "https://sws.geonames.org/2605042/", 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.76819, 47.63601]
+      },
+      "properties": {
+         "id": "pmb264904",
+         "title": "Seevilla",
+         "lat": "47.63601",
+         "lon": "13.76819",
+         "timestamp": ["1916-08-30"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q66008943", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.768567, 47.633835]
+      },
+      "properties": {
+         "id": "pmb264887",
+         "title": "Villa Hellmann",
+         "lat": "47.633835",
+         "lon": "13.768567",
+         "timestamp": ["1916-08-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.79683, 47.63156], 
+            [13.7686361, 47.6431134], 
             [13.77095, 47.6416]
           ]
       },
@@ -28,6 +30,41 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7686361, 47.6431134]
+      },
+      "properties": {
+         "id": "pmb44899",
+         "title": "Villa Filtsch",
+         "lat": "47.6431134",
+         "lon": "13.7686361",
+         "timestamp": ["1916-07-13"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.79683, 47.63156]
+      },
+      "properties": {
+         "id": "pmb264744",
+         "title": "Tressensattel",
+         "lat": "47.63156",
+         "lon": "13.79683",
+         "timestamp": ["1916-07-13"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567364", 
+        "abbr": "Pass (N.PAS)", 
+        "type": "Pass"
       }
       }
   ]

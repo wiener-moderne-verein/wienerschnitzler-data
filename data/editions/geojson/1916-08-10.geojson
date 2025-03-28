@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.78243, 47.60998], 
+            [13.77095, 47.6416], 
+            [13.76819, 47.63601]
           ]
       },
       "properties": {
@@ -28,6 +30,44 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.76819, 47.63601]
+      },
+      "properties": {
+         "id": "pmb264904",
+         "title": "Seevilla",
+         "lat": "47.63601",
+         "lon": "13.76819",
+         "timestamp": ["1916-08-10"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q66008943", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78243, 47.60998]
+      },
+      "properties": {
+         "id": "pmb415",
+         "title": "Bad Aussee",
+         "lat": "47.60998",
+         "lon": "13.78243",
+         "timestamp": ["1916-08-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q251065", 
+        "geonames": "https://sws.geonames.org/2782070/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }
   ]

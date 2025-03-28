@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1916-05-01", "1916-05-02", "1916-05-03", "1916-05-04", "1916-05-05", "1916-05-06", "1916-05-07", "1916-05-08", "1916-05-09", "1916-05-10", "1916-05-11", "1916-05-12", "1916-05-13", "1916-05-14", "1916-05-15", "1916-05-16", "1916-05-17", "1916-05-18", "1916-05-19", "1916-05-20", "1916-05-21", "1916-05-22", "1916-05-23", "1916-05-24", "1916-05-25", "1916-05-26"],
-         "importance": 26, 
+         "timestamp": ["1916-05-01", "1916-05-02", "1916-05-03", "1916-05-04", "1916-05-05", "1916-05-06", "1916-05-07", "1916-05-08", "1916-05-09", "1916-05-10", "1916-05-11", "1916-05-12", "1916-05-13", "1916-05-14", "1916-05-15", "1916-05-16", "1916-05-17", "1916-05-18", "1916-05-19", "1916-05-20", "1916-05-21", "1916-05-22", "1916-05-23", "1916-05-24", "1916-05-25", "1916-05-26", "1916-05-27"],
+         "importance": 27, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -62,6 +62,80 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1916-05-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=26893", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1916-05-06"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1916-05-06"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1916-05-19"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.25, 48.26667]
       },
       "properties": {
@@ -89,11 +163,31 @@
          "title": "Klosterneuburg",
          "lat": "48.30521",
          "lon": "16.32522",
-         "timestamp": ["1916-05-21"],
-         "importance": 1, 
+         "timestamp": ["1916-05-14", "1916-05-21"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
         "wikidata": "http://www.wikidata.org/entity/Q487522", 
         "geonames": "https://sws.geonames.org/2773913/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78243, 47.60998]
+      },
+      "properties": {
+         "id": "pmb415",
+         "title": "Bad Aussee",
+         "lat": "47.60998",
+         "lon": "13.78243",
+         "timestamp": ["1916-05-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q251065", 
+        "geonames": "https://sws.geonames.org/2782070/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
       }
@@ -157,6 +251,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q876564", 
         "abbr": "Erhebung", 
         "type": "Erhebung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1916-05-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -232,6 +346,25 @@
         "geonames": "https://sws.geonames.org/2770400/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.43138888888889, 48.155833333333334]
+      },
+      "properties": {
+         "id": "pmb192349",
+         "title": "Israelitischer Friedhof",
+         "lat": "48.155833333333334",
+         "lon": "16.43138888888889",
+         "timestamp": ["1916-05-02"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=359270", 
+        "wikidata": "http://www.wikidata.org/entity/Q68752772", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
       }
       }, 
     {
@@ -329,6 +462,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.57893, 47.71149]
+      },
+      "properties": {
+         "id": "pmb91151",
+         "title": "Lindau [Bad Ischl]",
+         "lat": "47.71149",
+         "lon": "13.57893",
+         "timestamp": ["1916-05-28"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q69585614", 
+        "geonames": "https://sws.geonames.org/2604860/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.258056, 48.201667]
       },
       "properties": {
@@ -379,6 +531,42 @@
         "wikidata": "http://www.wikidata.org/entity/Q873139", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.65875, 47.73049]
+      },
+      "properties": {
+         "id": "pmb91578",
+         "title": "Rettenbach",
+         "lat": "47.73049",
+         "lon": "13.65875",
+         "timestamp": ["1916-05-28"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2604851/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.64618, 47.68972]
+      },
+      "properties": {
+         "id": "pmb91453",
+         "title": "Perneck",
+         "lat": "47.68972",
+         "lon": "13.64618",
+         "timestamp": ["1916-05-29"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2769084/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -556,6 +744,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33494, 48.23365]
+      },
+      "properties": {
+         "id": "pmb235251",
+         "title": "Hasenauerstraße 59",
+         "lat": "48.23365",
+         "lon": "16.33494",
+         "timestamp": ["1916-05-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.320833, 48.252222]
       },
       "properties": {
@@ -569,6 +793,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q1692038", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1916-05-24"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
       }
       }, 
     {
@@ -637,6 +878,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1916-05-27", "1916-05-30"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.370766, 48.208037]
       },
       "properties": {
@@ -661,8 +921,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1916-05-01", "1916-05-02", "1916-05-03", "1916-05-04", "1916-05-05", "1916-05-06", "1916-05-07", "1916-05-08", "1916-05-09", "1916-05-10", "1916-05-11", "1916-05-12", "1916-05-13", "1916-05-14", "1916-05-15", "1916-05-16", "1916-05-17", "1916-05-18", "1916-05-19", "1916-05-20", "1916-05-21", "1916-05-22", "1916-05-23", "1916-05-24", "1916-05-25", "1916-05-26"],
-         "importance": 26, 
+         "timestamp": ["1916-05-01", "1916-05-02", "1916-05-03", "1916-05-04", "1916-05-05", "1916-05-06", "1916-05-07", "1916-05-08", "1916-05-09", "1916-05-10", "1916-05-11", "1916-05-12", "1916-05-13", "1916-05-14", "1916-05-15", "1916-05-16", "1916-05-17", "1916-05-18", "1916-05-19", "1916-05-20", "1916-05-21", "1916-05-22", "1916-05-23", "1916-05-24", "1916-05-25", "1916-05-26", "1916-05-27"],
+         "importance": 27, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -780,6 +1040,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3020317, 48.187116]
+      },
+      "properties": {
+         "id": "pmb283",
+         "title": "Parkhotel Schönbrunn",
+         "lat": "48.187116",
+         "lon": "16.3020317",
+         "timestamp": ["1916-05-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Parkhotel_Sch%C3%B6nbrunn", 
+        "wikidata": "http://www.wikidata.org/entity/Q1747630", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -804,6 +1083,136 @@
 
          "p_id": "#12740"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351291, 48.248146]
+      },
+      "properties": {
+         "id": "pmb248458",
+         "title": "Silbergasse 42",
+         "lat": "48.248146",
+         "lon": "16.351291",
+         "timestamp": ["1916-05-20"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Piekarski",
+
+         "p_id": "#22569"
+         }, 
+         {
+
+         "p_name": "Eugenie Bachrach",
+
+         "p_id": "#13644"
+         }, 
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.647559, 47.702261]
+      },
+      "properties": {
+         "id": "pmb92321",
+         "title": "Kaiser Jubiläumsweg",
+         "lat": "47.702261",
+         "lon": "13.647559",
+         "timestamp": ["1916-05-29"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368215, 48.197363]
+      },
+      "properties": {
+         "id": "pmb257214",
+         "title": "Frankenberggasse 11",
+         "lat": "48.197363",
+         "lon": "16.368215",
+         "timestamp": ["1916-05-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gustav Pick",
+
+         "p_id": "#22546"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.325142, 48.249205]
+      },
+      "properties": {
+         "id": "pmb259715",
+         "title": "Café Mirabell [Wien]",
+         "lat": "48.249205",
+         "lon": "16.325142",
+         "timestamp": ["1916-05-23"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.774989, 47.642529]
+      },
+      "properties": {
+         "id": "pmb92465",
+         "title": "Promenadenweg",
+         "lat": "47.642529",
+         "lon": "13.774989",
+         "timestamp": ["1916-05-31"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.776666666666667, 47.59916666666667]
+      },
+      "properties": {
+         "id": "pmb263516",
+         "title": "Bahnhof Bad Aussee",
+         "lat": "47.59916666666667",
+         "lon": "13.776666666666667",
+         "timestamp": ["1916-05-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -846,6 +1255,241 @@
         "wikidata": "http://www.wikidata.org/entity/Q133539521", 
         "abbr": "Wanderweg (K.WND)", 
         "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350886, 48.251653]
+      },
+      "properties": {
+         "id": "pmb92246",
+         "title": "Fürfanggasse",
+         "lat": "48.251653",
+         "lon": "16.350886",
+         "timestamp": ["1916-05-04"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133566533", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3617, 48.2084]
+      },
+      "properties": {
+         "id": "pmb245035",
+         "title": "Theseustempel",
+         "lat": "48.2084",
+         "lon": "16.3617",
+         "timestamp": ["1916-05-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theseustempel", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=24162", 
+        "wikidata": "http://www.wikidata.org/entity/Q1491188", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.206389]
+      },
+      "properties": {
+         "id": "pmb320",
+         "title": "Hofburg",
+         "lat": "48.206389",
+         "lon": "16.366111",
+         "timestamp": ["1916-05-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hofburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q46242", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2247856, 48.2419754]
+      },
+      "properties": {
+         "id": "pmb264624",
+         "title": "Franz-Karl-Aussicht",
+         "lat": "48.2419754",
+         "lon": "16.2247856",
+         "timestamp": ["1916-05-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133566773", 
+        "abbr": "Aussichtspunkt", 
+        "type": "Aussichtspunkt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.300226, 48.241372]
+      },
+      "properties": {
+         "id": "pmb92226",
+         "title": "Ladenburghöhe",
+         "lat": "48.241372",
+         "lon": "16.300226",
+         "timestamp": ["1916-05-13"],
+         "importance": 1, 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376101, 48.200073]
+      },
+      "properties": {
+         "id": "pmb264635",
+         "title": "Kunsthandlung C.J. Wawra",
+         "lat": "48.200073",
+         "lon": "16.376101",
+         "timestamp": ["1916-05-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131679252", 
+        "abbr": "Auktionshaus", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.24022, 48.28557]
+      },
+      "properties": {
+         "id": "pmb264652",
+         "title": "Gsängerhütte",
+         "lat": "48.28557",
+         "lon": "16.24022",
+         "timestamp": ["1916-05-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q127919476", 
+        "geonames": "https://sws.geonames.org/3324254/", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.345207, 48.224792]
+      },
+      "properties": {
+         "id": "pmb264659",
+         "title": "Volksschule Schulgasse 19",
+         "lat": "48.224792",
+         "lon": "16.345207",
+         "timestamp": ["1916-05-25"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567013", 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.622779, 47.713189]
+      },
+      "properties": {
+         "id": "pmb264667",
+         "title": "Hotel garni Athen",
+         "lat": "47.713189",
+         "lon": "13.622779",
+         "timestamp": ["1916-05-27", "1916-05-28", "1916-05-29", "1916-05-30"],
+         "importance": 4, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567067", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.599749, 47.710516]
+      },
+      "properties": {
+         "id": "pmb264674",
+         "title": "Gasthof Schwarze Katz",
+         "lat": "47.710516",
+         "lon": "13.599749",
+         "timestamp": ["1916-05-28"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7272, 47.6301]
+      },
+      "properties": {
+         "id": "pmb264683",
+         "title": "Lupitsch",
+         "lat": "47.6301",
+         "lon": "13.7272",
+         "timestamp": ["1916-05-30"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q69812958", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7340478, 47.6272522]
+      },
+      "properties": {
+         "id": "pmb264681",
+         "title": "Gasthaus zum Bachwirt",
+         "lat": "47.6272522",
+         "lon": "13.7340478",
+         "timestamp": ["1916-05-30"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.756911, 47.618195]
+      },
+      "properties": {
+         "id": "pmb92420",
+         "title": "Nikolaus-Lenau-Hügel",
+         "lat": "47.618195",
+         "lon": "13.756911",
+         "timestamp": ["1916-05-30"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567285", 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
       }
       }
   ]

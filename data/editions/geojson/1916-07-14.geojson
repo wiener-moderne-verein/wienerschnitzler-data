@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.78333, 47.61667], 
+            [13.77095, 47.6416], 
+            [13.7686361, 47.6431134]
           ]
       },
       "properties": {
@@ -28,6 +30,41 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7686361, 47.6431134]
+      },
+      "properties": {
+         "id": "pmb44899",
+         "title": "Villa Filtsch",
+         "lat": "47.6431134",
+         "lon": "13.7686361",
+         "timestamp": ["1916-07-14"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78333, 47.61667]
+      },
+      "properties": {
+         "id": "pmb36473",
+         "title": "Obertressen",
+         "lat": "47.61667",
+         "lon": "13.78333",
+         "timestamp": ["1916-07-14"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2769653/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.756911, 47.618195], 
+            [13.77095, 47.6416], 
+            [13.7686361, 47.6431134]
           ]
       },
       "properties": {
@@ -28,6 +30,41 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7686361, 47.6431134]
+      },
+      "properties": {
+         "id": "pmb44899",
+         "title": "Villa Filtsch",
+         "lat": "47.6431134",
+         "lon": "13.7686361",
+         "timestamp": ["1916-08-07"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.756911, 47.618195]
+      },
+      "properties": {
+         "id": "pmb92420",
+         "title": "Nikolaus-Lenau-Hügel",
+         "lat": "47.618195",
+         "lon": "13.756911",
+         "timestamp": ["1916-08-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567285", 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
       }
       }
   ]

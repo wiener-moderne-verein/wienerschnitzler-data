@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.766666666666667, 47.606944444444444], 
+            [13.77095, 47.6416], 
+            [13.75, 47.63333]
           ]
       },
       "properties": {
@@ -28,6 +30,45 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.75, 47.63333]
+      },
+      "properties": {
+         "id": "pmb91474",
+         "title": "Ruine Pflindsberg",
+         "lat": "47.63333",
+         "lon": "13.75",
+         "timestamp": ["1916-08-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Burg_Pflindsberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q1013484", 
+        "geonames": "https://sws.geonames.org/2605042/", 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.766666666666667, 47.606944444444444]
+      },
+      "properties": {
+         "id": "pmb264943",
+         "title": "Teichschlössl",
+         "lat": "47.606944444444444",
+         "lon": "13.766666666666667",
+         "timestamp": ["1916-08-11"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q21862356", 
+        "geonames": "https://sws.geonames.org/2605148/", 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
       }
       }
   ]

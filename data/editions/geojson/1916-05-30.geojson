@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.7340478, 47.6272522], 
+            [13.776666666666667, 47.59916666666667], 
+            [13.756911, 47.618195], 
             [13.77189, 47.6417], 
-            [13.61893, 47.71109]
+            [13.6273, 47.7122], 
+            [13.622779, 47.713189]
           ]
       },
       "properties": {
@@ -18,20 +22,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.61893, 47.71109]
+        "coordinates": [13.622779, 47.713189]
       },
       "properties": {
-         "id": "pmb213",
-         "title": "Bad Ischl",
-         "lat": "47.71109",
-         "lon": "13.61893",
+         "id": "pmb264667",
+         "title": "Hotel garni Athen",
+         "lat": "47.713189",
+         "lon": "13.622779",
          "timestamp": ["1916-05-30"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q250984", 
-        "geonames": "https://sws.geonames.org/2782052/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q133567067", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1916-05-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {
@@ -49,6 +70,60 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7340478, 47.6272522]
+      },
+      "properties": {
+         "id": "pmb264681",
+         "title": "Gasthaus zum Bachwirt",
+         "lat": "47.6272522",
+         "lon": "13.7340478",
+         "timestamp": ["1916-05-30"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.776666666666667, 47.59916666666667]
+      },
+      "properties": {
+         "id": "pmb263516",
+         "title": "Bahnhof Bad Aussee",
+         "lat": "47.59916666666667",
+         "lon": "13.776666666666667",
+         "timestamp": ["1916-05-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.756911, 47.618195]
+      },
+      "properties": {
+         "id": "pmb92420",
+         "title": "Nikolaus-Lenau-Hügel",
+         "lat": "47.618195",
+         "lon": "13.756911",
+         "timestamp": ["1916-05-30"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567285", 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
       }
       }
   ]

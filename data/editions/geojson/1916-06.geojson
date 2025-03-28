@@ -49,8 +49,8 @@
          "title": "Altaussee",
          "lat": "47.6698",
          "lon": "13.78453",
-         "timestamp": ["1916-06-01", "1916-06-02", "1916-06-03"],
-         "importance": 3, 
+         "timestamp": ["1916-06-01", "1916-06-02", "1916-06-03", "1916-06-04"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Altaussee", 
         "wikidata": "http://www.wikidata.org/entity/Q262951", 
         "geonames": "https://sws.geonames.org/7872434/", 
@@ -82,6 +82,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1916-06-08"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361139, 48.210333]
       },
       "properties": {
@@ -94,6 +112,26 @@
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1916-06-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752", 
+        "geonames": "https://sws.geonames.org/3322725/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }, 
     {
@@ -113,6 +151,66 @@
         "wikidata": "http://www.wikidata.org/entity/Q12356726", 
         "geonames": "https://sws.geonames.org/2761738/", 
         "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.32522, 48.30521]
+      },
+      "properties": {
+         "id": "pmb865",
+         "title": "Klosterneuburg",
+         "lat": "48.30521",
+         "lon": "16.32522",
+         "timestamp": ["1916-06-11", "1916-06-12", "1916-06-18", "1916-06-29"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q487522", 
+        "geonames": "https://sws.geonames.org/2773913/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78243, 47.60998]
+      },
+      "properties": {
+         "id": "pmb415",
+         "title": "Bad Aussee",
+         "lat": "47.60998",
+         "lon": "13.78243",
+         "timestamp": ["1916-06-02", "1916-06-04"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q251065", 
+        "geonames": "https://sws.geonames.org/2782070/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.81667, 47.61667]
+      },
+      "properties": {
+         "id": "pmb46000",
+         "title": "Grundlsee [Gemeinde]",
+         "lat": "47.61667",
+         "lon": "13.81667",
+         "timestamp": ["1916-06-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grundlsee_(Gemeinde)", 
+        "wikidata": "http://www.wikidata.org/entity/Q700571", 
+        "geonames": "https://sws.geonames.org/7873495/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
       }
       }, 
@@ -141,6 +239,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1916-06-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.337778, 48.196667]
       },
       "properties": {
@@ -148,13 +266,32 @@
          "title": "Westbahnhof",
          "lat": "48.196667",
          "lon": "16.337778",
-         "timestamp": ["1916-06-23"],
-         "importance": 1, 
+         "timestamp": ["1916-06-05", "1916-06-23"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q698145", 
         "geonames": "https://sws.geonames.org/2761331/", 
         "abbr": "S.RSTN", 
         "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341944, 48.233056]
+      },
+      "properties": {
+         "id": "pmb533",
+         "title": "Währinger Cottage",
+         "lat": "48.233056",
+         "lon": "16.341944",
+         "timestamp": ["1916-06-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1136683", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -463,6 +600,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1916-06-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3406, 48.2242]
+      },
+      "properties": {
+         "id": "pmb232701",
+         "title": "Währinger Tempel",
+         "lat": "48.2242",
+         "lon": "16.3406",
+         "timestamp": ["1916-06-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/W%C3%A4hringer_Tempel", 
+        "wikidata": "http://www.wikidata.org/entity/Q875578", 
+        "abbr": "Synagoge", 
+        "type": "Synagoge"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.375811, 48.203191]
       },
       "properties": {
@@ -610,7 +790,7 @@
          "title": "Neue Wiener Bühne",
          "lat": "48.2195962",
          "lon": "16.3589845",
-         "timestamp": ["1916-06-15", "1916-06-16", "1916-06-21"],
+         "timestamp": ["1916-06-14", "1916-06-16", "1916-06-21"],
          "importance": 3, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
@@ -785,6 +965,80 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.351996, 48.238534]
+      },
+      "properties": {
+         "id": "pmb235862",
+         "title": "Kreindlgasse 8",
+         "lat": "48.238534",
+         "lon": "16.351996",
+         "timestamp": ["1916-06-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vera Schapira",
+
+         "p_id": "#9667"
+         }, 
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370654, 48.192289]
+      },
+      "properties": {
+         "id": "pmb257569",
+         "title": "Möllwaldplatz 1",
+         "lat": "48.192289",
+         "lon": "16.370654",
+         "timestamp": ["1916-06-28"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q116247570", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Steiner",
+
+         "p_id": "#25405"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.776666666666667, 47.59916666666667]
+      },
+      "properties": {
+         "id": "pmb263516",
+         "title": "Bahnhof Bad Aussee",
+         "lat": "47.59916666666667",
+         "lon": "13.776666666666667",
+         "timestamp": ["1916-06-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.296622, 48.183258]
       },
       "properties": {
@@ -803,6 +1057,200 @@
 
          "p_id": "#2135"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33958, 48.229272]
+      },
+      "properties": {
+         "id": "pmb264548",
+         "title": "Volksschule Haizingergasse 37",
+         "lat": "48.229272",
+         "lon": "16.33958",
+         "timestamp": ["1916-06-24", "1916-06-24"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q133548251", 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2247856, 48.2419754]
+      },
+      "properties": {
+         "id": "pmb264624",
+         "title": "Franz-Karl-Aussicht",
+         "lat": "48.2419754",
+         "lon": "16.2247856",
+         "timestamp": ["1916-06-29"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133566773", 
+        "abbr": "Aussichtspunkt", 
+        "type": "Aussichtspunkt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.345207, 48.224792]
+      },
+      "properties": {
+         "id": "pmb264659",
+         "title": "Volksschule Schulgasse 19",
+         "lat": "48.224792",
+         "lon": "16.345207",
+         "timestamp": ["1916-06-06"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567013", 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.776866, 47.630911]
+      },
+      "properties": {
+         "id": "pmb264723",
+         "title": "Hillbrand Seewiese",
+         "lat": "47.630911",
+         "lon": "13.776866",
+         "timestamp": ["1916-06-01"],
+         "importance": 1, 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.77095, 47.6416]
+      },
+      "properties": {
+         "id": "pmb34387",
+         "title": "Villa Annerl",
+         "lat": "47.6416",
+         "lon": "13.77095",
+         "timestamp": ["1916-06-02"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78664, 47.62109]
+      },
+      "properties": {
+         "id": "pmb264727",
+         "title": "Gasthaus »zum Loitzl«",
+         "lat": "47.62109",
+         "lon": "13.78664",
+         "timestamp": ["1916-06-02"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7686361, 47.6431134]
+      },
+      "properties": {
+         "id": "pmb44899",
+         "title": "Villa Filtsch",
+         "lat": "47.6431134",
+         "lon": "13.7686361",
+         "timestamp": ["1916-06-02"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.732299, 47.645521]
+      },
+      "properties": {
+         "id": "pmb92411",
+         "title": "Moosberg",
+         "lat": "47.645521",
+         "lon": "13.732299",
+         "timestamp": ["1916-06-03"],
+         "importance": 1, 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.79683, 47.63156]
+      },
+      "properties": {
+         "id": "pmb264744",
+         "title": "Tressensattel",
+         "lat": "47.63156",
+         "lon": "13.79683",
+         "timestamp": ["1916-06-03"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567364", 
+        "abbr": "Pass (N.PAS)", 
+        "type": "Pass"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.761924, 47.634029]
+      },
+      "properties": {
+         "id": "pmb264748",
+         "title": "Frosch-Haus",
+         "lat": "47.634029",
+         "lon": "13.761924",
+         "timestamp": ["1916-06-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.291111, 48.290556]
+      },
+      "properties": {
+         "id": "pmb264758",
+         "title": "Linz Hauptbahnhof",
+         "lat": "48.290556",
+         "lon": "14.291111",
+         "timestamp": ["1916-06-04", "1916-06-05"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Linz_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q763157", 
+        "geonames": "https://sws.geonames.org/2772397/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -857,6 +1305,41 @@
         "wikidata": "http://www.wikidata.org/entity/Q110646366", 
         "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363063, 48.212958]
+      },
+      "properties": {
+         "id": "pmb264773",
+         "title": "Schottengasse 7",
+         "lat": "48.212958",
+         "lon": "16.363063",
+         "timestamp": ["1916-06-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.396247, 48.21543]
+      },
+      "properties": {
+         "id": "pmb264791",
+         "title": "Marineschauspiel",
+         "lat": "48.21543",
+         "lon": "16.396247",
+         "timestamp": ["1916-06-30"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567509", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }
   ]

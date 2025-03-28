@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.760196, 47.609298], 
+            [13.774989, 47.642529], 
+            [13.77189, 47.6417], 
             [13.77095, 47.6416], 
-            [13.77189, 47.6417]
+            [13.768567, 47.633835]
           ]
       },
       "properties": {
@@ -46,6 +49,58 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.760196, 47.609298]
+      },
+      "properties": {
+         "id": "pmb264884",
+         "title": "Wasnerin",
+         "lat": "47.609298",
+         "lon": "13.760196",
+         "timestamp": ["1916-07-27"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38103422", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.768567, 47.633835]
+      },
+      "properties": {
+         "id": "pmb264887",
+         "title": "Villa Hellmann",
+         "lat": "47.633835",
+         "lon": "13.768567",
+         "timestamp": ["1916-07-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.774989, 47.642529]
+      },
+      "properties": {
+         "id": "pmb92465",
+         "title": "Promenadenweg",
+         "lat": "47.642529",
+         "lon": "13.774989",
+         "timestamp": ["1916-07-27"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
       }
       }
   ]

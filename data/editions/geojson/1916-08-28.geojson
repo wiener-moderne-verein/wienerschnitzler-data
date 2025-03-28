@@ -6,13 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.75, 47.63333], 
+            [13.77095, 47.6416], 
+            [13.61893, 47.71109]
           ]
       },
       "properties": {
         "name": "28. August 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61893, 47.71109]
+      },
+      "properties": {
+         "id": "pmb213",
+         "title": "Bad Ischl",
+         "lat": "47.71109",
+         "lon": "13.61893",
+         "timestamp": ["1916-08-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q250984", 
+        "geonames": "https://sws.geonames.org/2782052/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +50,26 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.75, 47.63333]
+      },
+      "properties": {
+         "id": "pmb91474",
+         "title": "Ruine Pflindsberg",
+         "lat": "47.63333",
+         "lon": "13.75",
+         "timestamp": ["1916-08-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Burg_Pflindsberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q1013484", 
+        "geonames": "https://sws.geonames.org/2605042/", 
+        "abbr": "S.RUIN", 
+        "type": "Ruine"
       }
       }
   ]

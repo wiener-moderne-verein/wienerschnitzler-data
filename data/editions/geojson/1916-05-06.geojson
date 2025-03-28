@@ -7,6 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.359930555555554, 48.205130555555556], 
+            [16.3617, 48.2084], 
+            [16.372564182283, 48.201265597319], 
+            [16.366111, 48.206389], 
             [16.33716, 48.23188]
           ]
       },
@@ -32,6 +35,62 @@
         "geonames": "https://sws.geonames.org/6354989/", 
         "abbr": "S.MUS", 
         "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3617, 48.2084]
+      },
+      "properties": {
+         "id": "pmb245035",
+         "title": "Theseustempel",
+         "lat": "48.2084",
+         "lon": "16.3617",
+         "timestamp": ["1916-05-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theseustempel", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=24162", 
+        "wikidata": "http://www.wikidata.org/entity/Q1491188", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.206389]
+      },
+      "properties": {
+         "id": "pmb320",
+         "title": "Hofburg",
+         "lat": "48.206389",
+         "lon": "16.366111",
+         "timestamp": ["1916-05-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hofburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q46242", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1916-05-06"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
       }
       },
     {

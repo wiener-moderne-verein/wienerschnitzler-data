@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.7579, 47.630949], 
             [13.77095, 47.6416]
           ]
       },
@@ -28,6 +29,23 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7579, 47.630949]
+      },
+      "properties": {
+         "id": "pmb264939",
+         "title": "Gasthof Fuchsbauer",
+         "lat": "47.630949",
+         "lon": "13.7579",
+         "timestamp": ["1916-08-08"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }
   ]

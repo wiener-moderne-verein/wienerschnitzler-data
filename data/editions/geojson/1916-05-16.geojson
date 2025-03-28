@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.368215, 48.197363], 
+            [16.376101, 48.200073], 
             [16.370766, 48.208037], 
             [16.33716, 48.23188]
           ]
@@ -29,6 +31,48 @@
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376101, 48.200073]
+      },
+      "properties": {
+         "id": "pmb264635",
+         "title": "Kunsthandlung C.J. Wawra",
+         "lat": "48.200073",
+         "lon": "16.376101",
+         "timestamp": ["1916-05-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131679252", 
+        "abbr": "Auktionshaus", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368215, 48.197363]
+      },
+      "properties": {
+         "id": "pmb257214",
+         "title": "Frankenberggasse 11",
+         "lat": "48.197363",
+         "lon": "16.368215",
+         "timestamp": ["1916-05-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gustav Pick",
+
+         "p_id": "#22546"
+         }]
       }
       },
     {

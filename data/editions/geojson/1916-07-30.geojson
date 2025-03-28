@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.76819, 47.63601], 
+            [13.7804, 47.624], 
+            [13.774989, 47.642529], 
             [13.77095, 47.6416]
           ]
       },
@@ -28,6 +31,59 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.76819, 47.63601]
+      },
+      "properties": {
+         "id": "pmb264904",
+         "title": "Seevilla",
+         "lat": "47.63601",
+         "lon": "13.76819",
+         "timestamp": ["1916-07-30"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q66008943", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7804, 47.624]
+      },
+      "properties": {
+         "id": "pmb264896",
+         "title": "Bärenmoos",
+         "lat": "47.624",
+         "lon": "13.7804",
+         "timestamp": ["1916-07-30"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q69360402", 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.774989, 47.642529]
+      },
+      "properties": {
+         "id": "pmb92465",
+         "title": "Promenadenweg",
+         "lat": "47.642529",
+         "lon": "13.774989",
+         "timestamp": ["1916-07-30"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
       }
       }
   ]

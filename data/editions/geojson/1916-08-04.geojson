@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.76819, 47.63601], 
             [13.77095, 47.6416]
           ]
       },
@@ -28,6 +29,24 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.76819, 47.63601]
+      },
+      "properties": {
+         "id": "pmb264904",
+         "title": "Seevilla",
+         "lat": "47.63601",
+         "lon": "13.76819",
+         "timestamp": ["1916-08-04"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q66008943", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.779658, 47.616936], 
+            [13.784316, 47.614945], 
             [13.787431, 47.612234], 
+            [13.79683, 47.63156], 
             [13.77095, 47.6416]
           ]
       },
@@ -35,6 +38,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.79683, 47.63156]
+      },
+      "properties": {
+         "id": "pmb264744",
+         "title": "Tressensattel",
+         "lat": "47.63156",
+         "lon": "13.79683",
+         "timestamp": ["1916-08-02"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567364", 
+        "abbr": "Pass (N.PAS)", 
+        "type": "Pass"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.787431, 47.612234]
       },
       "properties": {
@@ -46,6 +67,40 @@
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.784316, 47.614945]
+      },
+      "properties": {
+         "id": "pmb656",
+         "title": "Ramgut",
+         "lat": "47.614945",
+         "lon": "13.784316",
+         "timestamp": ["1916-08-02"],
+         "importance": 1, 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.779658, 47.616936]
+      },
+      "properties": {
+         "id": "pmb264923",
+         "title": "Rennerstügergütl",
+         "lat": "47.616936",
+         "lon": "13.779658",
+         "timestamp": ["1916-08-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

@@ -7,7 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [13.77095, 47.6416], 
-            [13.616701, 47.713429]
+            [13.746167, 47.674173], 
+            [13.6273, 47.7122], 
+            [13.616701, 47.713429], 
+            [13.626622, 47.705435]
           ]
       },
       "properties": {
@@ -35,6 +38,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.746167, 47.674173]
+      },
+      "properties": {
+         "id": "pmb90354",
+         "title": "Blaa-Alm",
+         "lat": "47.674173",
+         "lon": "13.746167",
+         "timestamp": ["1916-08-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Blaa-Alm", 
+        "wikidata": "http://www.wikidata.org/entity/Q104831087", 
+        "geonames": "https://sws.geonames.org/2781729/", 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.616701, 47.713429]
       },
       "properties": {
@@ -46,6 +69,42 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1916-08-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.626622, 47.705435]
+      },
+      "properties": {
+         "id": "pmb43462",
+         "title": "Villa Kupferschmid",
+         "lat": "47.705435",
+         "lon": "13.626622",
+         "timestamp": ["1916-08-03"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }
   ]

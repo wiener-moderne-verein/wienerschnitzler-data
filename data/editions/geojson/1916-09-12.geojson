@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.776666666666667, 47.59916666666667], 
             [13.77095, 47.6416], 
             [13.62184, 47.71088], 
+            [13.6273, 47.7122], 
+            [13.045769, 47.813139], 
             [13.043176, 47.81233]
           ]
       },
@@ -15,6 +18,44 @@
         "name": "12. September 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.62184, 47.71088]
+      },
+      "properties": {
+         "id": "pmb232919",
+         "title": "Konditorei Zauner",
+         "lat": "47.71088",
+         "lon": "13.62184",
+         "timestamp": ["1916-09-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Konditorei_Zauner", 
+        "wikidata": "http://www.wikidata.org/entity/Q1589672", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1916-09-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -53,19 +94,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.62184, 47.71088]
+        "coordinates": [13.045769, 47.813139]
       },
       "properties": {
-         "id": "pmb232919",
-         "title": "Konditorei Zauner",
-         "lat": "47.71088",
-         "lon": "13.62184",
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
          "timestamp": ["1916-09-12"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Konditorei_Zauner", 
-        "wikidata": "http://www.wikidata.org/entity/Q1589672", 
-        "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.776666666666667, 47.59916666666667]
+      },
+      "properties": {
+         "id": "pmb263516",
+         "title": "Bahnhof Bad Aussee",
+         "lat": "47.59916666666667",
+         "lon": "13.776666666666667",
+         "timestamp": ["1916-09-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

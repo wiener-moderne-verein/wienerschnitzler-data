@@ -6,17 +6,39 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.76667, 47.65], 
-            [13.76667, 47.65], 
+            [13.76819, 47.63601], 
             [13.77095, 47.6416], 
+            [13.76667, 47.65], 
+            [13.76667, 47.65], 
             [13.7723, 47.6517], 
-            [13.78333, 47.66667]
+            [13.78333, 47.66667], 
+            [13.61893, 47.71109]
           ]
       },
       "properties": {
         "name": "4. September 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61893, 47.71109]
+      },
+      "properties": {
+         "id": "pmb213",
+         "title": "Bad Ischl",
+         "lat": "47.71109",
+         "lon": "13.61893",
+         "timestamp": ["1916-09-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q250984", 
+        "geonames": "https://sws.geonames.org/2782052/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -38,18 +60,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.78333, 47.66667]
+        "coordinates": [13.76819, 47.63601]
       },
       "properties": {
-         "id": "pmb90282",
-         "title": "Augstsee",
-         "lat": "47.66667",
-         "lon": "13.78333",
+         "id": "pmb264904",
+         "title": "Seevilla",
+         "lat": "47.63601",
+         "lon": "13.76819",
          "timestamp": ["1916-09-04"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2604941/", 
-        "abbr": "H.LK", 
-        "type": "See"
+        "wikidata": "http://www.wikidata.org/entity/Q66008943", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       },
     {
@@ -103,6 +125,24 @@
          "importance": 1, 
         "abbr": "Pass (N.PAS)", 
         "type": "Pass"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78333, 47.66667]
+      },
+      "properties": {
+         "id": "pmb90282",
+         "title": "Augstsee",
+         "lat": "47.66667",
+         "lon": "13.78333",
+         "timestamp": ["1916-09-04"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2604941/", 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       }
   ]

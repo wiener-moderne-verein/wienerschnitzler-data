@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.77095, 47.6416], 
+            [13.78333, 47.61667], 
+            [13.8107, 47.658646], 
+            [13.805201, 47.658299]
           ]
       },
       "properties": {
@@ -28,6 +31,60 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.8107, 47.658646]
+      },
+      "properties": {
+         "id": "pmb264848",
+         "title": "Stummern Alm",
+         "lat": "47.658646",
+         "lon": "13.8107",
+         "timestamp": ["1916-07-19"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133568710", 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.805201, 47.658299]
+      },
+      "properties": {
+         "id": "pmb264852",
+         "title": "Gaisknechtstein",
+         "lat": "47.658299",
+         "lon": "13.805201",
+         "timestamp": ["1916-07-19"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133568787", 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78333, 47.61667]
+      },
+      "properties": {
+         "id": "pmb36473",
+         "title": "Obertressen",
+         "lat": "47.61667",
+         "lon": "13.78333",
+         "timestamp": ["1916-07-19"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2769653/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

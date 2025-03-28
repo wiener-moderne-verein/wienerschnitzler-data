@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.77095, 47.6416], 
+            [13.764874, 47.645729]
           ]
       },
       "properties": {
@@ -28,6 +29,24 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.764874, 47.645729]
+      },
+      "properties": {
+         "id": "pmb264841",
+         "title": "Kerry-Villa",
+         "lat": "47.645729",
+         "lon": "13.764874",
+         "timestamp": ["1916-07-17"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133568265", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

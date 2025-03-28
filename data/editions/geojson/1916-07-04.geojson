@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.77095, 47.6416], 
+            [13.7861, 47.6417]
           ]
       },
       "properties": {
@@ -28,6 +29,26 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7861, 47.6417]
+      },
+      "properties": {
+         "id": "pmb264803",
+         "title": "Altausseer See",
+         "lat": "47.6417",
+         "lon": "13.7861",
+         "timestamp": ["1916-07-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Altausseer_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q434688", 
+        "geonames": "https://sws.geonames.org/2782723/", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
       }
       }
   ]

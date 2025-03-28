@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.737244, 47.619709], 
             [13.77095, 47.6416]
           ]
       },
@@ -28,6 +29,26 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.737244, 47.619709]
+      },
+      "properties": {
+         "id": "pmb92535",
+         "title": "Sommersbergsee",
+         "lat": "47.619709",
+         "lon": "13.737244",
+         "timestamp": ["1916-07-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sommersbergsee", 
+        "wikidata": "http://www.wikidata.org/entity/Q2300580", 
+        "geonames": "https://sws.geonames.org/2605109/", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
       }
       }
   ]

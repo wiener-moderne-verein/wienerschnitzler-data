@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77189, 47.6417]
+            [13.78664, 47.62109], 
+            [13.77189, 47.6417], 
+            [13.77095, 47.6416], 
+            [13.7686361, 47.6431134]
           ]
       },
       "properties": {
@@ -28,6 +31,57 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.77095, 47.6416]
+      },
+      "properties": {
+         "id": "pmb34387",
+         "title": "Villa Annerl",
+         "lat": "47.6416",
+         "lon": "13.77095",
+         "timestamp": ["1916-06-02"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7686361, 47.6431134]
+      },
+      "properties": {
+         "id": "pmb44899",
+         "title": "Villa Filtsch",
+         "lat": "47.6431134",
+         "lon": "13.7686361",
+         "timestamp": ["1916-06-02"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78664, 47.62109]
+      },
+      "properties": {
+         "id": "pmb264727",
+         "title": "Gasthaus »zum Loitzl«",
+         "lat": "47.62109",
+         "lon": "13.78664",
+         "timestamp": ["1916-06-02"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }
   ]

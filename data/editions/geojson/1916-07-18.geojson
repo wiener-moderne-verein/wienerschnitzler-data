@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.77095, 47.6416]
+            [13.763847, 47.640378], 
+            [13.77095, 47.6416], 
+            [13.747205, 47.661891]
           ]
       },
       "properties": {
@@ -28,6 +30,42 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.763847, 47.640378]
+      },
+      "properties": {
+         "id": "pmb257023",
+         "title": "Parkhotel Altaussee",
+         "lat": "47.640378",
+         "lon": "13.763847",
+         "timestamp": ["1916-07-18"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.747205, 47.661891]
+      },
+      "properties": {
+         "id": "pmb91562",
+         "title": "Ramsau [Altaussee]",
+         "lat": "47.661891",
+         "lon": "13.747205",
+         "timestamp": ["1916-07-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ramsau_(Gemeinde_Altaussee)", 
+        "wikidata": "http://www.wikidata.org/entity/Q51973609", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

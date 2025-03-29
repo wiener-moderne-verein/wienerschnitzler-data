@@ -12,7 +12,6 @@
     
     <xsl:template match="/">
         <xsl:variable name="current" select="descendant::tei:listEvent" as="node()"/>
-        <xsl:result-document href="../../data/editions/geojson/l_decades.geojson" method="text">
             <xsl:text>{&#10;</xsl:text>
             <xsl:text>  "type": "FeatureCollection",&#10;</xsl:text>
             <xsl:text>  "features": [&#10;</xsl:text>
@@ -73,6 +72,6 @@
             
             <xsl:text>&#10;  ]&#10;</xsl:text>
             <xsl:text>}</xsl:text>
-        </xsl:result-document>
+        
     </xsl:template>
 </xsl:stylesheet>

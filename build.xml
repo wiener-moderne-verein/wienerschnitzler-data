@@ -154,7 +154,7 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>
-  
+    
     <xslt in="./${target}/wienerschnitzler_complete_nested.xml"
         out="./${target}/nested-to-lineString.xml"
         style="./xslts/GeoJSON/nested-to-lineString/1_nested-to-lineString.xsl">
@@ -163,19 +163,19 @@
     </xslt>
     <xslt in="./${target}/nested-to-lineString.xml"
         style="./xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-decade.xsl"
-        out="./${target}/delete.txt">
+        out="./data/editions/geojson/l_decades.geojson">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>
     <xslt in="./${target}/nested-to-lineString.xml"
         style="./xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-year-months.xsl"
-        out="./${target}/delete.txt">
+        out="./data/editions/geojson/l_months.geojson">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>
     <xslt in="./${target}/nested-to-lineString.xml"
         style="./xslts/GeoJSON/nested-to-lineString/2_nested-to-lineString-years.xsl"
-        out="./${target}/delete.txt">
+        out="./data/editions/geojson/l_years.geojson">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>

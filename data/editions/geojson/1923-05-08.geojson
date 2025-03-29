@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.329784, 52.504678], 
+            [13.36234, 52.498388], 
             [13.3772, 52.5087], 
+            [13.39333, 52.51483], 
             [13.318595, 52.51421]
           ]
       },
@@ -50,6 +53,64 @@
         "wikidata": "http://www.wikidata.org/entity/Q1630898", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.39333, 52.51483]
+      },
+      "properties": {
+         "id": "pmb493",
+         "title": "Bank für Auswärtigen Handel",
+         "lat": "52.51483",
+         "lon": "13.39333",
+         "timestamp": ["1923-05-08"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Karl Feilchenfeld",
+
+         "p_id": "#16125"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36234, 52.498388]
+      },
+      "properties": {
+         "id": "pmb265165",
+         "title": "Potsdamer Straße 123",
+         "lat": "52.498388",
+         "lon": "13.36234",
+         "timestamp": ["1923-05-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.329784, 52.504678]
+      },
+      "properties": {
+         "id": "pmb265171",
+         "title": "Weinhaus Brechler",
+         "lat": "52.504678",
+         "lon": "13.329784",
+         "timestamp": ["1923-05-08"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
       }
       }
   ]

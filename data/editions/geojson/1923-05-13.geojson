@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [12.588912857735648, 55.68301054011226]
+            [12.53213, 55.67813], 
+            [12.564167, 55.6725], 
+            [12.588912857735648, 55.68301054011226], 
+            [12.5983, 55.6914]
           ]
       },
       "properties": {
@@ -35,6 +38,60 @@
 
          "p_id": "#62310"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.5983, 55.6914]
+      },
+      "properties": {
+         "id": "pmb238123",
+         "title": "Langelinie Pavilion",
+         "lat": "55.6914",
+         "lon": "12.5983",
+         "timestamp": ["1923-05-13"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q12323728", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.53213, 55.67813]
+      },
+      "properties": {
+         "id": "pmb1152",
+         "title": "Meisen’s Klinik",
+         "lat": "55.67813",
+         "lon": "12.53213",
+         "timestamp": ["1923-05-13"],
+         "importance": 1, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.564167, 55.6725]
+      },
+      "properties": {
+         "id": "pmb58656",
+         "title": "Københavns Hovedbanegård",
+         "lat": "55.6725",
+         "lon": "12.564167",
+         "timestamp": ["1923-05-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/K%C3%B8benhavns_Hovedbaneg%C3%A5rd", 
+        "wikidata": "http://www.wikidata.org/entity/Q1495052", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

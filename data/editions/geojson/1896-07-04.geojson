@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [9.994013, 53.551126], 
+            [10.0065, 53.5527], 
             [10.008484, 53.553694]
           ]
       },
@@ -46,6 +47,26 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0065, 53.5527]
+      },
+      "properties": {
+         "id": "pmb45920",
+         "title": "Hauptbahnhof Hamburg",
+         "lat": "53.5527",
+         "lon": "10.0065",
+         "timestamp": ["1896-07-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hamburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q6456", 
+        "geonames": "https://sws.geonames.org/6944285/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

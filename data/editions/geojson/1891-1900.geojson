@@ -80,13 +80,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.78453, 47.6698]
+        "coordinates": [13.763333, 47.639444]
       },
       "properties": {
          "id": "pmb34401",
          "title": "Altaussee",
-         "lat": "47.6698",
-         "lon": "13.78453",
+         "lat": "47.639444",
+         "lon": "13.763333",
          "timestamp": ["1892-09-04", "1894-08-31", "1900-06-29", "1900-06-30", "1900-07-01", "1900-07-02"],
          "importance": 6, 
         "wikipedia": "https://de.wikipedia.org/wiki/Altaussee", 
@@ -9401,18 +9401,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.87453, 48.09276]
+        "coordinates": [13.86954, 48.09253]
       },
       "properties": {
-         "id": "pmb91105",
+         "id": "pmb40965",
          "title": "Lambach",
-         "lat": "48.09276",
-         "lon": "13.87453",
+         "lat": "48.09253",
+         "lon": "13.86954",
          "timestamp": ["1894-07-14"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2773110/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Lambach", 
+        "wikidata": "http://www.wikidata.org/entity/Q686750", 
+        "geonames": "https://sws.geonames.org/7872188/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -9698,7 +9700,7 @@
       },
       "properties": {
          "id": "pmb42117",
-         "title": "Esplanade",
+         "title": "Esplanade [Bad Ischl]",
          "lat": "47.709631",
          "lon": "13.6188",
          "timestamp": ["1894-08-23"],
@@ -13303,13 +13305,33 @@
          "title": "Hamburg",
          "lat": "53.55055",
          "lon": "9.993333",
-         "timestamp": ["1896-07-04", "1896-07-05", "1896-07-06", "1896-07-07", "1896-07-07", "1896-07-11"],
-         "importance": 6, 
+         "timestamp": ["1896-07-04", "1896-07-05", "1896-07-06", "1896-07-07"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hamburg", 
         "wikidata": "http://www.wikidata.org/entity/Q1055", 
         "geonames": "https://sws.geonames.org/2911298/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0065, 53.5527]
+      },
+      "properties": {
+         "id": "pmb45920",
+         "title": "Hauptbahnhof Hamburg",
+         "lat": "53.5527",
+         "lon": "10.0065",
+         "timestamp": ["1896-07-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hamburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q6456", 
+        "geonames": "https://sws.geonames.org/6944285/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -13443,6 +13465,23 @@
         "geonames": "https://sws.geonames.org/2875601/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.11, 57.3]
+      },
+      "properties": {
+         "id": "pmb265294",
+         "title": "?? [Nordsee, zwischen Hamburg und Stavanger]",
+         "lat": "57.3",
+         "lon": "6.11",
+         "timestamp": ["1896-07-08"],
+         "importance": 1, 
+        "abbr": "Landschaftlicher-Punkt", 
+        "type": "Landschaftlicher Punkt"
       }
       }, 
     {
@@ -13637,24 +13676,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.91097, 54.24364]
-      },
-      "properties": {
-         "id": "pmb91397",
-         "title": "Oie",
-         "lat": "54.24364",
-         "lon": "13.91097",
-         "timestamp": ["1896-07-13"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2857537/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [6.73333, 62.18333]
       },
       "properties": {
@@ -13721,6 +13742,24 @@
         "geonames": "https://sws.geonames.org/3155910/", 
         "abbr": "H.FJD", 
         "type": "Fjord"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.898333333333333, 58.283611111111114]
+      },
+      "properties": {
+         "id": "pmb265297",
+         "title": "Øye",
+         "lat": "58.283611111111114",
+         "lon": "6.898333333333333",
+         "timestamp": ["1896-07-13"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q68588305", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -18464,18 +18503,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.35847, 48.217665]
+        "coordinates": [16.358541, 48.217654]
       },
       "properties": {
-         "id": "pmb200707",
+         "id": "pmb183224",
          "title": "Anatomisches Institut",
-         "lat": "48.217665",
-         "lon": "16.35847",
-         "timestamp": ["1898-03-16"],
-         "importance": 1, 
+         "lat": "48.217654",
+         "lon": "16.358541",
+         "timestamp": ["1898-03-16", "1900-03-19"],
+         "importance": 2, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Anatomisches_Institut", 
         "wikidata": "http://www.wikidata.org/entity/Q37760137", 
-        "abbr": "Ausbildungsstätte (K.ABS)", 
-        "type": "Ausbildungsstätte"
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
       }
       }, 
     {
@@ -22660,24 +22700,6 @@
 
          "p_id": "#3112"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.358541, 48.217654]
-      },
-      "properties": {
-         "id": "pmb183224",
-         "title": "Anatomisches Institut",
-         "lat": "48.217654",
-         "lon": "16.358541",
-         "timestamp": ["1900-03-19"],
-         "importance": 1, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Anatomisches_Institut", 
-        "abbr": "Veranstaltungsgebäude (K.VSB)", 
-        "type": "Veranstaltungsgebäude"
       }
       }, 
     {

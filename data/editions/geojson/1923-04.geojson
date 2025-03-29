@@ -64,8 +64,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1923-04-07"],
-         "importance": 1, 
+         "timestamp": ["1923-04-07", "1923-04-20"],
+         "importance": 2, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -102,8 +102,8 @@
          "title": "I., Innere Stadt",
          "lat": "48.20769",
          "lon": "16.37049",
-         "timestamp": ["1923-04-04"],
-         "importance": 1, 
+         "timestamp": ["1923-04-04", "1923-04-28"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
@@ -187,6 +187,96 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.348401, 48.23555]
+      },
+      "properties": {
+         "id": "pmb253629",
+         "title": "Bundesgymnasium Döbling",
+         "lat": "48.23555",
+         "lon": "16.348401",
+         "timestamp": ["1923-04-20", "1923-04-27"],
+         "importance": 2, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Anton Spigl",
+
+         "p_id": "#25214"
+         }, 
+         {
+
+         "p_name": "Franz Matouschek",
+
+         "p_id": "#21159"
+         }, 
+         {
+
+         "p_name": "Arnold Kalich",
+
+         "p_id": "#19019"
+         }, 
+         {
+
+         "p_name": "Guido von Alth",
+
+         "p_id": "#13331"
+         }, 
+         {
+
+         "p_name": "Wenzel Rudofsky",
+
+         "p_id": "#23718"
+         }, 
+         {
+
+         "p_name": "Leopold Winkler",
+
+         "p_id": "#27198"
+         }, 
+         {
+
+         "p_name": "Josef Lesowsky",
+
+         "p_id": "#20346"
+         }, 
+         {
+
+         "p_name": "Florian Weigel",
+
+         "p_id": "#26782"
+         }, 
+         {
+
+         "p_name": "Salomon Zimmels",
+
+         "p_id": "#27497"
+         }, 
+         {
+
+         "p_name": "Wenzel Wild",
+
+         "p_id": "#27119"
+         }, 
+         {
+
+         "p_name": "Karl Kunst",
+
+         "p_id": "#19847"
+         }, 
+         {
+
+         "p_name": "Salomon Zimmels",
+
+         "p_id": "#27497"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35736, 48.21533]
       },
       "properties": {
@@ -194,8 +284,8 @@
          "title": "Frankgasse 1",
          "lat": "48.21533",
          "lon": "16.35736",
-         "timestamp": ["1923-04-07"],
-         "importance": 1, 
+         "timestamp": ["1923-04-07", "1923-04-28", "1923-04-29"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -320,8 +410,8 @@
          "title": "Peregringasse 4",
          "lat": "48.216445",
          "lon": "16.364586",
-         "timestamp": ["1923-04-03", "1923-04-10", "1923-04-12", "1923-04-14"],
-         "importance": 4, 
+         "timestamp": ["1923-04-03", "1923-04-10", "1923-04-12", "1923-04-14", "1923-04-19"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -343,6 +433,26 @@
 
          "p_id": "#20548"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.381667, 48.2075]
+      },
+      "properties": {
+         "id": "pmb83",
+         "title": "Museum für Angewandte Kunst",
+         "lat": "48.2075",
+         "lon": "16.381667",
+         "timestamp": ["1923-04-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Museum_f%C3%BCr_angewandte_Kunst_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q478455", 
+        "geonames": "https://sws.geonames.org/8604499/", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
       }
       }, 
     {
@@ -440,6 +550,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.320719, 48.238032]
+      },
+      "properties": {
+         "id": "pmb248",
+         "title": "Kratzer’s Restaurant Gersthof",
+         "lat": "48.238032",
+         "lon": "16.320719",
+         "timestamp": ["1923-04-21"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.28606, 48.25849]
       },
       "properties": {
@@ -454,6 +581,26 @@
         "geonames": "https://sws.geonames.org/3324230/", 
         "abbr": "L.LCTY", 
         "type": "Örtlichkeit"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3731991, 48.1855867]
+      },
+      "properties": {
+         "id": "pmb60254",
+         "title": "Ostbahnhof [Wien]",
+         "lat": "48.1855867",
+         "lon": "16.3731991",
+         "timestamp": ["1923-04-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Ostbahnhof", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Ostbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q119092115", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -560,8 +707,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1923-04-07", "1923-04-28"],
-         "importance": 2, 
+         "timestamp": ["1923-04-07", "1923-04-28", "1923-04-29"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -627,8 +774,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1923-04-01", "1923-04-02", "1923-04-03", "1923-04-04", "1923-04-05", "1923-04-06", "1923-04-07", "1923-04-08", "1923-04-09", "1923-04-10", "1923-04-11", "1923-04-12", "1923-04-13", "1923-04-14", "1923-04-15", "1923-04-19", "1923-04-20", "1923-04-21", "1923-04-22", "1923-04-26", "1923-04-27", "1923-04-28", "1923-04-29", "1923-04-30"],
-         "importance": 24, 
+         "timestamp": ["1923-04-01", "1923-04-02", "1923-04-03", "1923-04-04", "1923-04-05", "1923-04-06", "1923-04-07", "1923-04-08", "1923-04-09", "1923-04-10", "1923-04-11", "1923-04-12", "1923-04-13", "1923-04-14", "1923-04-15", "1923-04-16", "1923-04-17", "1923-04-19", "1923-04-20", "1923-04-21", "1923-04-22", "1923-04-23", "1923-04-26", "1923-04-27", "1923-04-28", "1923-04-29", "1923-04-30"],
+         "importance": 27, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -772,23 +919,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.349222, 48.201139]
-      },
-      "properties": {
-         "id": "pmb280",
-         "title": "Renaissancetheater",
-         "lat": "48.201139",
-         "lon": "16.349222",
-         "timestamp": ["1923-04-23"],
-         "importance": 1, 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -826,8 +956,8 @@
          "title": "Elisabethstraße 22",
          "lat": "48.202866",
          "lon": "16.364281",
-         "timestamp": ["1923-04-03", "1923-04-04", "1923-04-05", "1923-04-11"],
-         "importance": 4, 
+         "timestamp": ["1923-04-03", "1923-04-04", "1923-04-05", "1923-04-11", "1923-04-22"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -916,8 +1046,8 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1923-04-04"],
-         "importance": 1, 
+         "timestamp": ["1923-04-04", "1923-04-20", "1923-04-28", "1923-04-29"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -939,6 +1069,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.353657, 48.20208]
+      },
+      "properties": {
+         "id": "pmb237711",
+         "title": "Restaurant Schöner",
+         "lat": "48.20208",
+         "lon": "16.353657",
+         "timestamp": ["1923-04-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Restaurant_Sch%C3%B6ner", 
+        "wikidata": "http://www.wikidata.org/entity/Q51694866", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.329507, 48.231461]
       },
       "properties": {
@@ -950,6 +1099,62 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.1088, 48.14153]
+      },
+      "properties": {
+         "id": "pmb265102",
+         "title": "Hotel Radisson Blu Carlton",
+         "lat": "48.14153",
+         "lon": "17.1088",
+         "timestamp": ["1923-04-16", "1923-04-17"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Radisson_Blu_Carlton", 
+        "wikidata": "http://www.wikidata.org/entity/Q12767065", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.11029, 48.14082]
+      },
+      "properties": {
+         "id": "pmb265106",
+         "title": "Redouten-Café",
+         "lat": "48.14082",
+         "lon": "17.11029",
+         "timestamp": ["1923-04-16"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.106944, 48.158333]
+      },
+      "properties": {
+         "id": "pmb265109",
+         "title": "Bratislava hlavná stanica",
+         "lat": "48.158333",
+         "lon": "17.106944",
+         "timestamp": ["1923-04-16", "1923-04-17"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bratislava_hlavn%C3%A1_stanica", 
+        "wikidata": "http://www.wikidata.org/entity/Q899662", 
+        "geonames": "https://sws.geonames.org/8629105/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -974,18 +1179,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.26667, 47.88333]
+        "coordinates": [15.28333, 47.85]
       },
       "properties": {
-         "id": "pmb90601",
-         "title": "Erlaufboden",
-         "lat": "47.88333",
-         "lon": "15.26667",
-         "timestamp": ["1923-04-25", "1923-04-26"],
-         "importance": 2, 
-        "geonames": "https://sws.geonames.org/2779966/", 
-        "abbr": "T.VAL", 
-        "type": "Tal"
+         "id": "pmb91391",
+         "title": "Ötscherbach",
+         "lat": "47.85",
+         "lon": "15.28333",
+         "timestamp": ["1923-04-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/%C3%96tscherbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q307424", 
+        "geonames": "https://sws.geonames.org/2769363/", 
+        "abbr": "H.STM", 
+        "type": "Fluss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.282, 47.88844]
+      },
+      "properties": {
+         "id": "pmb265136",
+         "title": "Bahnhof Gösing an der Mariazellerbahn",
+         "lat": "47.88844",
+         "lon": "15.282",
+         "timestamp": ["1923-04-25"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {

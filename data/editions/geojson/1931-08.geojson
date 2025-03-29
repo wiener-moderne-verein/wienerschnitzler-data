@@ -255,18 +255,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.87453, 48.09276]
+        "coordinates": [13.86954, 48.09253]
       },
       "properties": {
-         "id": "pmb91105",
+         "id": "pmb40965",
          "title": "Lambach",
-         "lat": "48.09276",
-         "lon": "13.87453",
+         "lat": "48.09253",
+         "lon": "13.86954",
          "timestamp": ["1931-08-07"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2773110/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Lambach", 
+        "wikidata": "http://www.wikidata.org/entity/Q686750", 
+        "geonames": "https://sws.geonames.org/7872188/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -555,17 +557,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.28456, 48.17318]
+        "coordinates": [13.7828, 47.9253]
       },
       "properties": {
-         "id": "pmb236355",
-         "title": "Gasthaus Weide",
-         "lat": "48.17318",
-         "lon": "16.28456",
-         "timestamp": ["1931-08-05"],
-         "importance": 1, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
+         "id": "pmb245505",
+         "title": "Bahnhof Gmunden",
+         "lat": "47.9253",
+         "lon": "13.7828",
+         "timestamp": ["1931-08-15", "1931-08-17", "1931-08-23", "1931-08-24"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Gmunden", 
+        "wikidata": "http://www.wikidata.org/entity/Q800826", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -583,6 +587,23 @@
          "importance": 2, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.28456, 48.17318]
+      },
+      "properties": {
+         "id": "pmb236355",
+         "title": "Gasthaus Weide",
+         "lat": "48.17318",
+         "lon": "16.28456",
+         "timestamp": ["1931-08-05"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }, 
     {
@@ -847,25 +868,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q537430", 
         "abbr": "Schloss (K.SLS)", 
         "type": "Schloss"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.7828, 47.9253]
-      },
-      "properties": {
-         "id": "pmb245505",
-         "title": "Bahnhof Gmunden",
-         "lat": "47.9253",
-         "lon": "13.7828",
-         "timestamp": ["1931-08-15", "1931-08-17", "1931-08-23", "1931-08-24"],
-         "importance": 4, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Gmunden", 
-        "wikidata": "http://www.wikidata.org/entity/Q800826", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
       }
       }, 
     {

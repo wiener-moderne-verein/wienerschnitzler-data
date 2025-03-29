@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.358541, 48.217654], 
+            [16.341077, 48.23143], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,49 @@
         "name": "4. November 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.358541, 48.217654]
+      },
+      "properties": {
+         "id": "pmb183224",
+         "title": "Anatomisches Institut",
+         "lat": "48.217654",
+         "lon": "16.358541",
+         "timestamp": ["1916-11-04"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Anatomisches_Institut", 
+        "wikidata": "http://www.wikidata.org/entity/Q37760137", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341077, 48.23143]
+      },
+      "properties": {
+         "id": "pmb200732",
+         "title": "Cottagegasse 29",
+         "lat": "48.23143",
+         "lon": "16.341077",
+         "timestamp": ["1916-11-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius von Gans-Ludassy",
+
+         "p_id": "#11406"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [17.10674, 48.14816]
+            [17.11029, 48.14082], 
+            [17.1088, 48.14153], 
+            [17.106944, 48.158333], 
+            [16.33716, 48.23188], 
+            [16.3731991, 48.1855867]
           ]
       },
       "properties": {
@@ -17,20 +21,155 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.10674, 48.14816]
+        "coordinates": [17.1088, 48.14153]
       },
       "properties": {
-         "id": "pmb39615",
-         "title": "Bratislava",
-         "lat": "48.14816",
-         "lon": "17.10674",
+         "id": "pmb265102",
+         "title": "Hotel Radisson Blu Carlton",
+         "lat": "48.14153",
+         "lon": "17.1088",
          "timestamp": ["1923-04-16"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bratislava", 
-        "wikidata": "http://www.wikidata.org/entity/Q1780", 
-        "geonames": "https://sws.geonames.org/3060972/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Radisson_Blu_Carlton", 
+        "wikidata": "http://www.wikidata.org/entity/Q12767065", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.11029, 48.14082]
+      },
+      "properties": {
+         "id": "pmb265106",
+         "title": "Redouten-Café",
+         "lat": "48.14082",
+         "lon": "17.11029",
+         "timestamp": ["1923-04-16"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.106944, 48.158333]
+      },
+      "properties": {
+         "id": "pmb265109",
+         "title": "Bratislava hlavná stanica",
+         "lat": "48.158333",
+         "lon": "17.106944",
+         "timestamp": ["1923-04-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bratislava_hlavn%C3%A1_stanica", 
+        "wikidata": "http://www.wikidata.org/entity/Q899662", 
+        "geonames": "https://sws.geonames.org/8629105/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3731991, 48.1855867]
+      },
+      "properties": {
+         "id": "pmb60254",
+         "title": "Ostbahnhof [Wien]",
+         "lat": "48.1855867",
+         "lon": "16.3731991",
+         "timestamp": ["1923-04-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Ostbahnhof", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Ostbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q119092115", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33716, 48.23188]
+      },
+      "properties": {
+         "id": "pmb168815",
+         "title": "Sternwartestraße 71",
+         "lat": "48.23188",
+         "lon": "16.33716",
+         "timestamp": ["1923-04-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alexander Römpler",
+
+         "p_id": "#12595"
+         }, 
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josefine Schipper",
+
+         "p_id": "#24194"
+         }, 
+         {
+
+         "p_name": "Anna Haselmayer",
+
+         "p_id": "#17901"
+         }, 
+         {
+
+         "p_name": "Paula ",
+
+         "p_id": "#22399"
+         }, 
+         {
+
+         "p_name": "Elisabeth Jacobus",
+
+         "p_id": "#18732"
+         }]
       }
       }
   ]

@@ -8,13 +8,33 @@
         "coordinates": [
             [12.567778, 55.673889], 
             [12.588912857735648, 55.68301054011226], 
-            [12.31056, 56.12196]
+            [12.57324, 55.8225], 
+            [12.601917, 56.042028], 
+            [12.28076, 56.12738], 
+            [12.30081, 55.92791]
           ]
       },
       "properties": {
         "name": "11. Mai 1923"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.28076, 56.12738]
+      },
+      "properties": {
+         "id": "pmb265184",
+         "title": "Gilleleje Badehotel",
+         "lat": "56.12738",
+         "lon": "12.28076",
+         "timestamp": ["1923-05-11"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -43,26 +63,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.31056, 56.12196]
-      },
-      "properties": {
-         "id": "pmb44252",
-         "title": "Gilleleje",
-         "lat": "56.12196",
-         "lon": "12.31056",
-         "timestamp": ["1923-05-11"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Gilleleje", 
-        "wikidata": "http://www.wikidata.org/entity/Q2687297", 
-        "geonames": "https://sws.geonames.org/2621471/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [12.567778, 55.673889]
       },
       "properties": {
@@ -77,6 +77,63 @@
         "geonames": "https://sws.geonames.org/9778133/", 
         "abbr": "Vergnügungspark (K.VGN)", 
         "type": "Vergnügungspark"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.57324, 55.8225]
+      },
+      "properties": {
+         "id": "pmb958",
+         "title": "Skodsborg",
+         "lat": "55.8225",
+         "lon": "12.57324",
+         "timestamp": ["1923-05-11"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q7061201", 
+        "geonames": "https://sws.geonames.org/2613685/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.601917, 56.042028]
+      },
+      "properties": {
+         "id": "pmb959",
+         "title": "Marienlyst",
+         "lat": "56.042028",
+         "lon": "12.601917",
+         "timestamp": ["1923-05-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Marienlyst", 
+        "wikidata": "http://www.wikidata.org/entity/Q359027", 
+        "geonames": "https://www.geonames.org/2617052/ https://sws.geonames.org/2617052/", 
+        "abbr": "S.EST", 
+        "type": "Gut"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.30081, 55.92791]
+      },
+      "properties": {
+         "id": "pmb90877",
+         "title": "Hillerød",
+         "lat": "55.92791",
+         "lon": "12.30081",
+         "timestamp": ["1923-05-11"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2620320/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

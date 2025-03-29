@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.79933, 47.91839], 
-            [14.287495, 48.307291]
+            [13.04657, 47.79884], 
+            [13.79343318939209, 47.91567611694336], 
+            [14.291111, 48.290556], 
+            [14.287495, 48.307291], 
+            [13.86954, 48.09253]
           ]
       },
       "properties": {
@@ -18,20 +21,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.79933, 47.91839]
+        "coordinates": [13.79343318939209, 47.91567611694336]
       },
       "properties": {
-         "id": "pmb874",
-         "title": "Gmunden",
-         "lat": "47.91839",
-         "lon": "13.79933",
+         "id": "pmb232863",
+         "title": "Esplanade [Gmunden]",
+         "lat": "47.91567611694336",
+         "lon": "13.79343318939209",
          "timestamp": ["1916-09-29"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Gmunden", 
-        "wikidata": "http://www.wikidata.org/entity/Q430449", 
-        "geonames": "https://sws.geonames.org/2778436/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04657, 47.79884]
+      },
+      "properties": {
+         "id": "pmb42349",
+         "title": "Hotel Schiff",
+         "lat": "47.79884",
+         "lon": "13.04657",
+         "timestamp": ["1916-09-29"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -51,6 +68,46 @@
         "wikidata": "http://www.wikidata.org/entity/Q30854300", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.291111, 48.290556]
+      },
+      "properties": {
+         "id": "pmb264758",
+         "title": "Linz Hauptbahnhof",
+         "lat": "48.290556",
+         "lon": "14.291111",
+         "timestamp": ["1916-09-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Linz_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q763157", 
+        "geonames": "https://sws.geonames.org/2772397/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.86954, 48.09253]
+      },
+      "properties": {
+         "id": "pmb40965",
+         "title": "Lambach",
+         "lat": "48.09253",
+         "lon": "13.86954",
+         "timestamp": ["1916-09-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lambach", 
+        "wikidata": "http://www.wikidata.org/entity/Q686750", 
+        "geonames": "https://sws.geonames.org/7872188/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }
   ]

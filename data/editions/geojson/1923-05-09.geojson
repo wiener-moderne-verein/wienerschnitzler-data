@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.360365, 52.498452], 
-            [13.3772, 52.5087]
+            [13.273893, 52.490797], 
+            [13.36234, 52.498388], 
+            [13.3772, 52.5087], 
+            [13.41212, 52.58777]
           ]
       },
       "properties": {
@@ -37,24 +39,64 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.360365, 52.498452]
+        "coordinates": [13.273893, 52.490797]
       },
       "properties": {
-         "id": "pmb233777",
-         "title": "Bülowstraße 90",
-         "lat": "52.498452",
-         "lon": "13.360365",
+         "id": "pmb252558",
+         "title": "Erdener Straße 8",
+         "lat": "52.490797",
+         "lon": "13.273893",
          "timestamp": ["1923-05-09"],
          "importance": 1, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude", 
-        "arbeitsort": [
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
          {
 
          "p_name": "Samuel Fischer",
 
          "p_id": "#11324"
+         }, 
+         {
+
+         "p_name": "Hedwig Fischer",
+
+         "p_id": "#2657"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41212, 52.58777]
+      },
+      "properties": {
+         "id": "pmb144055",
+         "title": "Lanzsch & Co.",
+         "lat": "52.58777",
+         "lon": "13.41212",
+         "timestamp": ["1923-05-09"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36234, 52.498388]
+      },
+      "properties": {
+         "id": "pmb265165",
+         "title": "Potsdamer Straße 123",
+         "lat": "52.498388",
+         "lon": "13.36234",
+         "timestamp": ["1923-05-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

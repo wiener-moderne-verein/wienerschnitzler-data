@@ -7,8 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [16.349222, 48.201139], 
+            [16.370654, 48.192289], 
             [16.371667, 48.200556], 
             [16.375811, 48.203191], 
+            [16.379608025302, 48.204824018066], 
             [16.33716, 48.23188]
           ]
       },
@@ -56,6 +58,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379608025302, 48.204824018066]
+      },
+      "properties": {
+         "id": "pmb575",
+         "title": "Stadtpark",
+         "lat": "48.204824018066",
+         "lon": "16.379608025302",
+         "timestamp": ["1916-11-25"],
+         "importance": 1, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.349222, 48.201139]
       },
       "properties": {
@@ -67,6 +86,31 @@
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370654, 48.192289]
+      },
+      "properties": {
+         "id": "pmb257569",
+         "title": "Möllwaldplatz 1",
+         "lat": "48.192289",
+         "lon": "16.370654",
+         "timestamp": ["1916-11-25"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q116247570", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Steiner",
+
+         "p_id": "#25405"
+         }]
       }
       },
     {

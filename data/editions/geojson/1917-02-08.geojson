@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.358728, 48.213005], 
+            [16.337002, 48.237951], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,48 @@
         "name": "8. Februar 1917"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.358728, 48.213005]
+      },
+      "properties": {
+         "id": "pmb254583",
+         "title": "Reichsratsstraße 13",
+         "lat": "48.213005",
+         "lon": "16.358728",
+         "timestamp": ["1917-02-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Otto Zuckerkandl",
+
+         "p_id": "#3091"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337002, 48.237951]
+      },
+      "properties": {
+         "id": "pmb92417",
+         "title": "Nedergasse",
+         "lat": "48.237951",
+         "lon": "16.337002",
+         "timestamp": ["1917-02-08"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133698263", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

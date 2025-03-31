@@ -6,13 +6,115 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.373403, 48.196156], 
+            [16.374173, 48.198055], 
+            [16.377197811369, 48.200771836002], 
+            [16.366225, 48.21605], 
+            [16.33716, 48.23188], 
+            [16.328044, 48.238759]
           ]
       },
       "properties": {
         "name": "3. März 1917"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374173, 48.198055]
+      },
+      "properties": {
+         "id": "pmb265401",
+         "title": "Gußhausstraße 3",
+         "lat": "48.198055",
+         "lon": "16.374173",
+         "timestamp": ["1917-03-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373403, 48.196156]
+      },
+      "properties": {
+         "id": "pmb265509",
+         "title": "Wohllebengasse 15",
+         "lat": "48.196156",
+         "lon": "16.373403",
+         "timestamp": ["1917-03-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366225, 48.21605]
+      },
+      "properties": {
+         "id": "pmb265517",
+         "title": "L. Back & Co., Elektrische Apparate",
+         "lat": "48.21605",
+         "lon": "16.366225",
+         "timestamp": ["1917-03-03"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.328044, 48.238759]
+      },
+      "properties": {
+         "id": "pmb841",
+         "title": "Döblinger Friedhof",
+         "lat": "48.238759",
+         "lon": "16.328044",
+         "timestamp": ["1917-03-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6843", 
+        "wikidata": "http://www.wikidata.org/entity/Q1270909", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377197811369, 48.200771836002]
+      },
+      "properties": {
+         "id": "pmb240",
+         "title": "Wiener Konzerthaus",
+         "lat": "48.200771836002",
+         "lon": "16.377197811369",
+         "timestamp": ["1917-03-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q695126", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hugo Botstiber",
+
+         "p_id": "#10983"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

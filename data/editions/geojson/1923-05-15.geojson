@@ -6,15 +6,71 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [12.08035, 55.64152], 
+            [12.080308333333, 55.642669444444], 
+            [12.08077, 55.6412], 
             [12.586002, 55.679629], 
-            [12.588912857735648, 55.68301054011226]
+            [12.588912857735648, 55.68301054011226], 
+            [12.586892, 55.696485]
           ]
       },
       "properties": {
         "name": "15. Mai 1923"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.08077, 55.6412]
+      },
+      "properties": {
+         "id": "pmb265486",
+         "title": "Flensborg Bog & idé",
+         "lat": "55.6412",
+         "lon": "12.08077",
+         "timestamp": ["1923-05-15"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.080308333333, 55.642669444444]
+      },
+      "properties": {
+         "id": "pmb265489",
+         "title": "Roskilde Domkirke",
+         "lat": "55.642669444444",
+         "lon": "12.080308333333",
+         "timestamp": ["1923-05-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dom_zu_Roskilde", 
+        "wikidata": "http://www.wikidata.org/entity/Q209705", 
+        "geonames": "https://sws.geonames.org/11102362/", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.586892, 55.696485]
+      },
+      "properties": {
+         "id": "pmb265189",
+         "title": "Kastelsvej 17",
+         "lat": "55.696485",
+         "lon": "12.586892",
+         "timestamp": ["1923-05-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -37,26 +93,6 @@
 
          "p_id": "#62310"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.08035, 55.64152]
-      },
-      "properties": {
-         "id": "pmb57941",
-         "title": "Roskilde",
-         "lat": "55.64152",
-         "lon": "12.08035",
-         "timestamp": ["1923-05-15"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Roskilde", 
-        "wikidata": "http://www.wikidata.org/entity/Q26563", 
-        "geonames": "https://sws.geonames.org/2614481/", 
-        "abbr": "P.PPLA2", 
-        "type": "Hauptstadt"
       }
       },
     {

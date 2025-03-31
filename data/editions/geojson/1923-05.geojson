@@ -327,6 +327,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [18.10616, 59.32548]
+      },
+      "properties": {
+         "id": "pmb90529",
+         "title": "Djurgården",
+         "lat": "59.32548",
+         "lon": "18.10616",
+         "timestamp": ["1923-05-17"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2717550/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [18.07138888888889, 59.33]
       },
       "properties": {
@@ -427,8 +445,8 @@
          "title": "Kopenhagen",
          "lat": "55.67594",
          "lon": "12.56553",
-         "timestamp": ["1923-05-10", "1923-05-11", "1923-05-12", "1923-05-13", "1923-05-14"],
-         "importance": 5, 
+         "timestamp": ["1923-05-10", "1923-05-11", "1923-05-12", "1923-05-13", "1923-05-14", "1923-05-15", "1923-05-16"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Kopenhagen", 
         "wikidata": "http://www.wikidata.org/entity/Q1748", 
         "geonames": "https://sws.geonames.org/2618425/", 
@@ -447,8 +465,8 @@
          "title": "Københavns Hovedbanegård",
          "lat": "55.6725",
          "lon": "12.564167",
-         "timestamp": ["1923-05-10", "1923-05-13"],
-         "importance": 2, 
+         "timestamp": ["1923-05-10", "1923-05-13", "1923-05-16"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/K%C3%B8benhavns_Hovedbaneg%C3%A5rd", 
         "wikidata": "http://www.wikidata.org/entity/Q1495052", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -584,8 +602,8 @@
          "title": "Langelinie Pavilion",
          "lat": "55.6914",
          "lon": "12.5983",
-         "timestamp": ["1923-05-13"],
-         "importance": 1, 
+         "timestamp": ["1923-05-13", "1923-05-14"],
+         "importance": 2, 
         "wikidata": "http://www.wikidata.org/entity/Q12323728", 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
@@ -1118,8 +1136,8 @@
          "title": "Kastelsvej 17",
          "lat": "55.696485",
          "lon": "12.586892",
-         "timestamp": ["1923-05-12"],
-         "importance": 1, 
+         "timestamp": ["1923-05-12", "1923-05-15"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
       }
@@ -1135,10 +1153,99 @@
          "title": "Meisen’s Klinik",
          "lat": "55.67813",
          "lon": "12.53213",
-         "timestamp": ["1923-05-12", "1923-05-13"],
-         "importance": 2, 
+         "timestamp": ["1923-05-12", "1923-05-13", "1923-05-16"],
+         "importance": 3, 
         "abbr": "Krankenhaus (K.KKH)", 
         "type": "Krankenhaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.51461, 55.66763]
+      },
+      "properties": {
+         "id": "pmb265456",
+         "title": "Mosedalvej 14",
+         "lat": "55.66763",
+         "lon": "12.51461",
+         "timestamp": ["1923-05-14"],
+         "importance": 1, 
+        "abbr": "Filmproduktionsfirma", 
+        "type": "Filmproduktionsfirma"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.5783, 55.6767]
+      },
+      "properties": {
+         "id": "pmb92567",
+         "title": "Thorvaldsen-Museum",
+         "lat": "55.6767",
+         "lon": "12.5783",
+         "timestamp": ["1923-05-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Thorvaldsen-Museum", 
+        "wikidata": "http://www.wikidata.org/entity/Q1992413", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.5817, 55.6718]
+      },
+      "properties": {
+         "id": "pmb265464",
+         "title": "Københavns Havn",
+         "lat": "55.6718",
+         "lon": "12.5817",
+         "timestamp": ["1923-05-14"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q1252907", 
+        "geonames": "https://sws.geonames.org/9828855/", 
+        "abbr": "Hafen (K.HFN)", 
+        "type": "Hafen"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.59308, 55.70206]
+      },
+      "properties": {
+         "id": "pmb265474",
+         "title": "Københavns Frihavn",
+         "lat": "55.70206",
+         "lon": "12.59308",
+         "timestamp": ["1923-05-14"],
+         "importance": 1, 
+        "abbr": "Hafen (K.HFN)", 
+        "type": "Hafen"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.56613, 55.67374]
+      },
+      "properties": {
+         "id": "pmb265481",
+         "title": "Nimb",
+         "lat": "55.67374",
+         "lon": "12.56613",
+         "timestamp": ["1923-05-14"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -1191,17 +1298,92 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.06772970041719, 59.34477008871903]
+        "coordinates": [12.08077, 55.6412]
       },
       "properties": {
-         "id": "pmb62679",
-         "title": "Östermalmsgatan",
-         "lat": "59.34477008871903",
-         "lon": "18.06772970041719",
+         "id": "pmb265486",
+         "title": "Flensborg Bog & idé",
+         "lat": "55.6412",
+         "lon": "12.08077",
+         "timestamp": ["1923-05-15"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.080308333333, 55.642669444444]
+      },
+      "properties": {
+         "id": "pmb265489",
+         "title": "Roskilde Domkirke",
+         "lat": "55.642669444444",
+         "lon": "12.080308333333",
+         "timestamp": ["1923-05-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dom_zu_Roskilde", 
+        "wikidata": "http://www.wikidata.org/entity/Q209705", 
+        "geonames": "https://sws.geonames.org/11102362/", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.056111111111, 59.33]
+      },
+      "properties": {
+         "id": "pmb265496",
+         "title": "Stockholms centralstation",
+         "lat": "59.33",
+         "lon": "18.056111111111",
          "timestamp": ["1923-05-17"],
          "importance": 1, 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "wikipedia": "https://de.wikipedia.org/wiki/Stockholms_centralstation", 
+        "wikidata": "http://www.wikidata.org/entity/Q54315", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.08137, 59.34147]
+      },
+      "properties": {
+         "id": "pmb265500",
+         "title": "Östermalmsgatan 69",
+         "lat": "59.34147",
+         "lon": "18.08137",
+         "timestamp": ["1923-05-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.07079, 59.33304]
+      },
+      "properties": {
+         "id": "pmb265505",
+         "title": "Nordiska Kompaniet",
+         "lat": "59.33304",
+         "lon": "18.07079",
+         "timestamp": ["1923-05-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Nordiska_Kompaniet", 
+        "wikidata": "http://www.wikidata.org/entity/Q1998385", 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
       }
       }, 
     {

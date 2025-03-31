@@ -89,8 +89,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1917-01-04", "1917-01-25", "1917-11-07", "1917-11-08"],
-         "importance": 4, 
+         "timestamp": ["1917-01-04", "1917-01-25", "1917-02-09", "1917-03-11", "1917-11-07", "1917-11-08"],
+         "importance": 6, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -164,8 +164,8 @@
          "title": "München",
          "lat": "48.13743",
          "lon": "11.57549",
-         "timestamp": ["1917-02-09", "1917-09-03", "1917-09-04", "1917-09-17", "1917-09-18", "1917-09-19", "1917-09-20"],
-         "importance": 7, 
+         "timestamp": ["1917-09-03", "1917-09-04", "1917-09-17", "1917-09-18", "1917-09-19", "1917-09-20"],
+         "importance": 6, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
         "wikidata": "http://www.wikidata.org/entity/Q1726", 
         "geonames": "https://sws.geonames.org/2867714/", 
@@ -184,8 +184,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1917-01-03", "1917-03-16", "1917-03-17", "1917-03-20", "1917-03-28", "1917-05-12", "1917-10-05", "1917-11-07", "1917-11-25", "1917-11-29", "1917-12-13"],
-         "importance": 11, 
+         "timestamp": ["1917-01-03", "1917-03-14", "1917-03-16", "1917-03-17", "1917-03-20", "1917-03-28", "1917-05-12", "1917-10-05", "1917-11-07", "1917-11-25", "1917-11-29", "1917-12-13"],
+         "importance": 12, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -403,6 +403,26 @@
         "geonames": "https://sws.geonames.org/7873075/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1917-03-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -1090,8 +1110,8 @@
          "title": "Döblinger Friedhof",
          "lat": "48.238759",
          "lon": "16.328044",
-         "timestamp": ["1917-05-20", "1917-06-30"],
-         "importance": 2, 
+         "timestamp": ["1917-03-03", "1917-05-20", "1917-06-30"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6843", 
         "wikidata": "http://www.wikidata.org/entity/Q1270909", 
@@ -1226,8 +1246,8 @@
          "title": "Türkenschanzstraße 48",
          "lat": "48.23362",
          "lon": "16.33641",
-         "timestamp": ["1917-01-19"],
-         "importance": 1, 
+         "timestamp": ["1917-01-19", "1917-03-08"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1299,8 +1319,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1917-01-14", "1917-02-15", "1917-04-11", "1917-05-30", "1917-11-11"],
-         "importance": 5, 
+         "timestamp": ["1917-01-14", "1917-02-15", "1917-03-07", "1917-04-11", "1917-05-30", "1917-11-11"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1335,8 +1355,8 @@
          "title": "Hasenauerstraße 46",
          "lat": "48.234039",
          "lon": "16.338443",
-         "timestamp": ["1917-02-09", "1917-04-17"],
-         "importance": 2, 
+         "timestamp": ["1917-02-09", "1917-02-18", "1917-04-17"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1417,6 +1437,23 @@
          "lon": "16.361853",
          "timestamp": ["1917-03-20", "1917-04-24"],
          "importance": 2, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1917-02-12"],
+         "importance": 1, 
         "abbr": "Buchhandlung (K.BHL)", 
         "type": "Buchhandlung"
       }
@@ -1816,8 +1853,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1917-01-13", "1917-01-23", "1917-02-13", "1917-12-24"],
-         "importance": 4, 
+         "timestamp": ["1917-01-13", "1917-01-23", "1917-02-13", "1917-03-01", "1917-03-19", "1917-12-24"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1964,8 +2001,8 @@
          "title": "Tiefer Graben 17",
          "lat": "48.212284",
          "lon": "16.367725",
-         "timestamp": ["1917-01-13", "1917-01-25", "1917-02-06", "1917-02-17", "1917-03-01", "1917-03-13", "1917-04-03", "1917-04-24", "1917-05-01", "1917-06-02", "1917-06-25", "1917-07-11", "1917-08-16", "1917-10-13", "1917-10-23", "1917-12-20"],
-         "importance": 16, 
+         "timestamp": ["1917-01-13", "1917-01-25", "1917-02-06", "1917-02-17", "1917-03-01", "1917-03-13", "1917-03-17", "1917-04-03", "1917-04-24", "1917-05-01", "1917-06-02", "1917-06-25", "1917-07-11", "1917-08-16", "1917-10-13", "1917-10-23", "1917-12-20"],
+         "importance": 17, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2011,8 +2048,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1917-01-22", "1917-01-31", "1917-02-06"],
-         "importance": 3, 
+         "timestamp": ["1917-01-22", "1917-01-31", "1917-02-06", "1917-03-03", "1917-03-04", "1917-03-10", "1917-03-11", "1917-03-19"],
+         "importance": 8, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -2065,6 +2102,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.350537, 48.211639]
+      },
+      "properties": {
+         "id": "pmb255897",
+         "title": "Florianigasse 23",
+         "lat": "48.211639",
+         "lon": "16.350537",
+         "timestamp": ["1917-02-13"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Kory Elisabeth Rosenbaum",
+
+         "p_id": "#23560"
+         }, 
+         {
+
+         "p_name": "Richard Rosenbaum",
+
+         "p_id": "#12556"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.34629, 48.21327]
       },
       "properties": {
@@ -2101,6 +2168,30 @@
          "p_name": "Moriz Sachs",
 
          "p_id": "#9629"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368215, 48.197363]
+      },
+      "properties": {
+         "id": "pmb257214",
+         "title": "Frankenberggasse 11",
+         "lat": "48.197363",
+         "lon": "16.368215",
+         "timestamp": ["1917-03-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gustav Pick",
+
+         "p_id": "#22546"
          }]
       }
       }, 
@@ -2231,8 +2322,8 @@
          "title": "Oppolzergasse 6",
          "lat": "48.2116",
          "lon": "16.36171",
-         "timestamp": ["1917-01-13", "1917-01-16", "1917-10-21", "1917-11-11"],
-         "importance": 4, 
+         "timestamp": ["1917-01-13", "1917-01-16", "1917-02-15", "1917-10-21", "1917-11-11"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2242,6 +2333,23 @@
 
          "p_id": "#2312"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.360383, 48.201352]
+      },
+      "properties": {
+         "id": "pmb265091",
+         "title": "Mariahilfer Straße 1d",
+         "lat": "48.201352",
+         "lon": "16.360383",
+         "timestamp": ["1917-02-20"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -2355,8 +2463,8 @@
          "title": "Gußhausstraße 3",
          "lat": "48.198055",
          "lon": "16.374173",
-         "timestamp": ["1917-01-31"],
-         "importance": 1, 
+         "timestamp": ["1917-01-31", "1917-03-03"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
       }
@@ -2407,11 +2515,98 @@
          "title": "Nedergasse",
          "lat": "48.237951",
          "lon": "16.337002",
-         "timestamp": ["1917-02-08"],
-         "importance": 1, 
+         "timestamp": ["1917-02-08", "1917-02-09", "1917-02-10", "1917-02-11", "1917-02-12"],
+         "importance": 5, 
         "wikidata": "http://www.wikidata.org/entity/Q133698263", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3796, 48.20282]
+      },
+      "properties": {
+         "id": "pmb552",
+         "title": "Station Stadtpark",
+         "lat": "48.20282",
+         "lon": "16.3796",
+         "timestamp": ["1917-02-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/U-Bahn-Station_Stadtpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q1535681", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373403, 48.196156]
+      },
+      "properties": {
+         "id": "pmb265509",
+         "title": "Wohllebengasse 15",
+         "lat": "48.196156",
+         "lon": "16.373403",
+         "timestamp": ["1917-03-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366225, 48.21605]
+      },
+      "properties": {
+         "id": "pmb265517",
+         "title": "L. Back & Co., Elektrische Apparate",
+         "lat": "48.21605",
+         "lon": "16.366225",
+         "timestamp": ["1917-03-03"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364608, 48.195867]
+      },
+      "properties": {
+         "id": "pmb265532",
+         "title": "Margaretenstraße 25",
+         "lat": "48.195867",
+         "lon": "16.364608",
+         "timestamp": ["1917-03-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363637, 48.199126]
+      },
+      "properties": {
+         "id": "pmb265550",
+         "title": "Linke Wienzeile 12",
+         "lat": "48.199126",
+         "lon": "16.363637",
+         "timestamp": ["1917-03-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {

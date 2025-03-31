@@ -6,9 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.57549, 48.13743], 
-            [16.33716, 48.23188], 
-            [16.338443, 48.234039]
+            [16.372564182283, 48.201265597319], 
+            [16.337002, 48.237951], 
+            [16.338443, 48.234039], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -140,20 +141,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.57549, 48.13743]
+        "coordinates": [16.337002, 48.237951]
       },
       "properties": {
-         "id": "pmb45258",
-         "title": "München",
-         "lat": "48.13743",
-         "lon": "11.57549",
+         "id": "pmb92417",
+         "title": "Nedergasse",
+         "lat": "48.237951",
+         "lon": "16.337002",
          "timestamp": ["1917-02-09"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q1726", 
-        "geonames": "https://sws.geonames.org/2867714/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikidata": "http://www.wikidata.org/entity/Q133698263", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1917-02-09"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
       }
       }
   ]

@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.140048, 47.110624], 
             [13.140375, 47.119503]
           ]
       },
@@ -28,6 +29,24 @@
          "importance": 1, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.140048, 47.110624]
+      },
+      "properties": {
+         "id": "pmb200919",
+         "title": "Windischgrätzhöhe",
+         "lat": "47.110624",
+         "lon": "13.140048",
+         "timestamp": ["1917-06-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q130711441", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

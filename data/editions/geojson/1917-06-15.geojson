@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.140375, 47.119503]
+            [13.140375, 47.119503], 
+            [13.09871, 47.17274]
           ]
       },
       "properties": {
@@ -28,6 +29,26 @@
          "importance": 1, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.09871, 47.17274]
+      },
+      "properties": {
+         "id": "pmb90893",
+         "title": "Bad Hofgastein",
+         "lat": "47.17274",
+         "lon": "13.09871",
+         "timestamp": ["1917-06-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Hofgastein", 
+        "wikidata": "http://www.wikidata.org/entity/Q671445", 
+        "geonames": "https://sws.geonames.org/2782053/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }
   ]

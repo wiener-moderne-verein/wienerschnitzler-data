@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.060833, 47.762222], 
+            [13.063945, 47.759781], 
+            [13.06824, 47.7569], 
             [13.043176, 47.81233], 
             [13.043904, 47.801903], 
             [13.03991, 47.80282]
@@ -73,17 +74,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.060833, 47.762222]
+        "coordinates": [13.06824, 47.7569]
       },
       "properties": {
-         "id": "pmb32",
-         "title": "Schlosspark Hellbrunn",
-         "lat": "47.762222",
-         "lon": "13.060833",
+         "id": "pmb232037",
+         "title": "Steintheater Hellbrunn",
+         "lat": "47.7569",
+         "lon": "13.06824",
          "timestamp": ["1917-05-15"],
          "importance": 1, 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
+        "wikidata": "http://www.wikidata.org/entity/Q56163301", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.063945, 47.759781]
+      },
+      "properties": {
+         "id": "pmb41090",
+         "title": "Monatsschlössl",
+         "lat": "47.759781",
+         "lon": "13.063945",
+         "timestamp": ["1917-05-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Monatsschl%C3%B6ssl", 
+        "wikidata": "http://www.wikidata.org/entity/Q1944082", 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
       }
       }
   ]

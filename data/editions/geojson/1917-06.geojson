@@ -12,13 +12,50 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1917-06-01", "1917-06-02", "1917-06-03", "1917-06-23", "1917-06-24", "1917-06-25", "1917-06-26", "1917-06-27", "1917-06-28", "1917-06-29", "1917-06-30"],
-         "importance": 11, 
+         "timestamp": ["1917-06-01", "1917-06-02", "1917-06-03", "1917-06-04", "1917-06-22", "1917-06-23", "1917-06-24", "1917-06-25", "1917-06-26", "1917-06-27", "1917-06-28", "1917-06-29", "1917-06-30"],
+         "importance": 13, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1917-06-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36157, 48.20809]
+      },
+      "properties": {
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1917-06-02"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
       }
       }, 
     {
@@ -45,6 +82,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.11667, 47.08333]
+      },
+      "properties": {
+         "id": "pmb54760",
+         "title": "Böckstein",
+         "lat": "47.08333",
+         "lon": "13.11667",
+         "timestamp": ["1917-06-06", "1917-06-09", "1917-06-18"],
+         "importance": 3, 
+        "geonames": "https://sws.geonames.org/2781649/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.05, 47.05]
+      },
+      "properties": {
+         "id": "pmb91324",
+         "title": "Nassfeld",
+         "lat": "47.05",
+         "lon": "13.05",
+         "timestamp": ["1917-06-18"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2770925/", 
+        "abbr": "T.VAL", 
+        "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.16265, 48.19512]
       },
       "properties": {
@@ -59,6 +132,26 @@
         "geonames": "https://sws.geonames.org/7873075/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1917-06-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -131,6 +224,41 @@
          "importance": 19, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.140048, 47.110624]
+      },
+      "properties": {
+         "id": "pmb200919",
+         "title": "Windischgrätzhöhe",
+         "lat": "47.110624",
+         "lon": "13.140048",
+         "timestamp": ["1917-06-07", "1917-06-12", "1917-06-12", "1917-06-20"],
+         "importance": 4, 
+        "wikidata": "http://www.wikidata.org/entity/Q130711441", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.214117, 47.104228]
+      },
+      "properties": {
+         "id": "pmb92466",
+         "title": "Prossau",
+         "lat": "47.104228",
+         "lon": "13.214117",
+         "timestamp": ["1917-06-13"],
+         "importance": 1, 
+        "abbr": "Ausflugsziel", 
+        "type": "Ausflugsziel"
       }
       }, 
     {
@@ -300,8 +428,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1917-06-01", "1917-06-02", "1917-06-03", "1917-06-23", "1917-06-24", "1917-06-25", "1917-06-26", "1917-06-27", "1917-06-28", "1917-06-29", "1917-06-30"],
-         "importance": 11, 
+         "timestamp": ["1917-06-01", "1917-06-02", "1917-06-03", "1917-06-04", "1917-06-22", "1917-06-23", "1917-06-24", "1917-06-25", "1917-06-26", "1917-06-27", "1917-06-28", "1917-06-29", "1917-06-30"],
+         "importance": 13, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -402,6 +530,41 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.136795, 47.116205]
+      },
+      "properties": {
+         "id": "pmb50834",
+         "title": "Grand Hotel Gasteinerhof",
+         "lat": "47.116205",
+         "lon": "13.136795",
+         "timestamp": ["1917-06-04", "1917-06-18", "1917-06-18"],
+         "importance": 3, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.15969, 47.12772]
+      },
+      "properties": {
+         "id": "pmb91059",
+         "title": "Kötschachtal",
+         "lat": "47.12772",
+         "lon": "13.15969",
+         "timestamp": ["1917-06-05", "1917-06-12", "1917-06-13", "1917-06-16", "1917-06-18", "1917-06-19"],
+         "importance": 6, 
+        "geonames": "https://sws.geonames.org/11238014/", 
+        "abbr": "T.VAL", 
+        "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.117382, 47.091766]
       },
       "properties": {
@@ -413,6 +576,26 @@
          "importance": 1, 
         "abbr": "H.STRT", 
         "type": "Meerenge"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.09871, 47.17274]
+      },
+      "properties": {
+         "id": "pmb90893",
+         "title": "Bad Hofgastein",
+         "lat": "47.17274",
+         "lon": "13.09871",
+         "timestamp": ["1917-06-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Hofgastein", 
+        "wikidata": "http://www.wikidata.org/entity/Q671445", 
+        "geonames": "https://sws.geonames.org/2782053/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -436,17 +619,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.136795, 47.116205]
+        "coordinates": [13.08187, 47.132678]
       },
       "properties": {
-         "id": "pmb50834",
-         "title": "Grand Hotel Gasteinerhof",
-         "lat": "47.116205",
-         "lon": "13.136795",
-         "timestamp": ["1917-06-18"],
+         "id": "pmb92144",
+         "title": "Angertal",
+         "lat": "47.132678",
+         "lon": "13.08187",
+         "timestamp": ["1917-06-17"],
          "importance": 1, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "geonames": "https://www.geonames.org/12534634/", 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
       }
       }, 
     {

@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1917-03-01", "1917-03-02", "1917-03-03", "1917-03-04", "1917-03-05", "1917-03-06", "1917-03-07", "1917-03-08", "1917-03-09", "1917-03-10", "1917-03-11", "1917-03-12", "1917-03-13", "1917-03-14", "1917-03-15", "1917-03-16", "1917-03-17", "1917-03-18", "1917-03-19", "1917-03-20", "1917-03-21", "1917-03-22", "1917-03-23", "1917-03-24", "1917-03-25", "1917-03-26", "1917-03-27", "1917-03-28", "1917-03-29", "1917-03-30", "1917-03-31"],
-         "importance": 31, 
+         "timestamp": ["1917-03-01", "1917-03-01", "1917-03-02", "1917-03-02", "1917-03-03", "1917-03-03", "1917-03-04", "1917-03-04", "1917-03-05", "1917-03-05", "1917-03-06", "1917-03-06", "1917-03-07", "1917-03-07", "1917-03-08", "1917-03-08", "1917-03-09", "1917-03-09", "1917-03-10", "1917-03-10", "1917-03-11", "1917-03-11", "1917-03-12", "1917-03-12", "1917-03-13", "1917-03-13", "1917-03-14", "1917-03-14", "1917-03-15", "1917-03-15", "1917-03-16", "1917-03-16", "1917-03-17", "1917-03-17", "1917-03-18", "1917-03-18", "1917-03-19", "1917-03-19", "1917-03-20", "1917-03-20", "1917-03-21", "1917-03-21", "1917-03-22", "1917-03-22", "1917-03-23", "1917-03-23", "1917-03-24", "1917-03-24", "1917-03-25", "1917-03-25", "1917-03-26", "1917-03-26", "1917-03-27", "1917-03-27", "1917-03-28", "1917-03-28", "1917-03-29", "1917-03-29", "1917-03-30", "1917-03-30", "1917-03-31", "1917-03-31"],
+         "importance": 62, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -95,6 +95,25 @@
         "geonames": "https://sws.geonames.org/2761331/", 
         "abbr": "S.RSTN", 
         "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341944, 48.233056]
+      },
+      "properties": {
+         "id": "pmb533",
+         "title": "Währinger Cottage",
+         "lat": "48.233056",
+         "lon": "16.341944",
+         "timestamp": ["1917-03-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1136683", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -265,6 +284,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1917-03-30"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -364,9 +413,21 @@
          }, 
          {
 
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
          "p_name": "Ferdinand Donath",
 
          "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Emma Altmann",
+
+         "p_id": "#13342"
          }, 
          {
 
@@ -449,6 +510,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.350537, 48.211639]
+      },
+      "properties": {
+         "id": "pmb255897",
+         "title": "Florianigasse 23",
+         "lat": "48.211639",
+         "lon": "16.350537",
+         "timestamp": ["1917-03-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Kory Elisabeth Rosenbaum",
+
+         "p_id": "#23560"
+         }, 
+         {
+
+         "p_name": "Richard Rosenbaum",
+
+         "p_id": "#12556"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.368215, 48.197363]
       },
       "properties": {
@@ -461,6 +552,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
+         {
+
+         "p_name": "Rudolf Pick",
+
+         "p_id": "#22552"
+         }, 
          {
 
          "p_name": "Gustav Pick",
@@ -483,7 +580,14 @@
          "timestamp": ["1917-03-03"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Maria von Wydenbruck",
+
+         "p_id": "#27368"
+         }]
       }
       }, 
     {
@@ -500,7 +604,14 @@
          "timestamp": ["1917-03-03"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }]
       }
       }, 
     {
@@ -517,7 +628,14 @@
          "timestamp": ["1917-03-03"],
          "importance": 1, 
         "abbr": "Geschäft (K.GES)", 
-        "type": "Geschäft"
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ludwig Back",
+
+         "p_id": "#13663"
+         }]
       }
       }, 
     {
@@ -534,7 +652,14 @@
          "timestamp": ["1917-03-06"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rudolf Braun",
+
+         "p_id": "#11005"
+         }]
       }
       }, 
     {
@@ -551,7 +676,20 @@
          "timestamp": ["1917-03-12"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Joseph Maria von Coudenhove",
+
+         "p_id": "#15117"
+         }, 
+         {
+
+         "p_name": "Paula von Coudenhove",
+
+         "p_id": "#6711"
+         }]
       }
       }
   ]

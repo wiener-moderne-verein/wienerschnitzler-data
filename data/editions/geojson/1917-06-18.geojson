@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.136795, 47.116205], 
-            [13.140375, 47.119503]
+            [13.05, 47.05], 
+            [13.11667, 47.08333], 
+            [13.15969, 47.12772], 
+            [13.140375, 47.119503], 
+            [13.136795, 47.116205]
           ]
       },
       "properties": {
@@ -46,6 +49,60 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.11667, 47.08333]
+      },
+      "properties": {
+         "id": "pmb54760",
+         "title": "Böckstein",
+         "lat": "47.08333",
+         "lon": "13.11667",
+         "timestamp": ["1917-06-18"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2781649/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.15969, 47.12772]
+      },
+      "properties": {
+         "id": "pmb91059",
+         "title": "Kötschachtal",
+         "lat": "47.12772",
+         "lon": "13.15969",
+         "timestamp": ["1917-06-18"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/11238014/", 
+        "abbr": "T.VAL", 
+        "type": "Tal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.05, 47.05]
+      },
+      "properties": {
+         "id": "pmb91324",
+         "title": "Nassfeld",
+         "lat": "47.05",
+         "lon": "13.05",
+         "timestamp": ["1917-06-18"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2770925/", 
+        "abbr": "T.VAL", 
+        "type": "Tal"
       }
       }
   ]

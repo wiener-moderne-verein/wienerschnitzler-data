@@ -530,6 +530,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.357983, 48.240751]
+      },
+      "properties": {
+         "id": "pmb265711",
+         "title": "Pokornygasse 12",
+         "lat": "48.240751",
+         "lon": "16.357983",
+         "timestamp": ["1917-06-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.136795, 47.116205]
       },
       "properties": {
@@ -539,6 +556,7 @@
          "lon": "13.136795",
          "timestamp": ["1917-06-04", "1917-06-18"],
          "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q133773904", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
       }
@@ -556,6 +574,7 @@
          "lon": "13.15969",
          "timestamp": ["1917-06-05", "1917-06-12", "1917-06-13", "1917-06-16", "1917-06-18", "1917-06-19"],
          "importance": 6, 
+        "wikidata": "http://www.wikidata.org/entity/Q131357478", 
         "geonames": "https://sws.geonames.org/11238014/", 
         "abbr": "T.VAL", 
         "type": "Tal"
@@ -565,17 +584,143 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.117382, 47.091766]
+        "coordinates": [13.16102, 47.12755]
+      },
+      "properties": {
+         "id": "pmb265722",
+         "title": "Ausflugsgasthof Grüner Baum",
+         "lat": "47.12755",
+         "lon": "13.16102",
+         "timestamp": ["1917-06-05", "1917-06-12", "1917-06-13", "1917-06-18", "1917-06-19"],
+         "importance": 5, 
+        "wikidata": "http://www.wikidata.org/entity/Q131852348", 
+        "geonames": "https://sws.geonames.org/10301595/", 
+        "abbr": "S.HTL", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.126197, 47.093301]
       },
       "properties": {
          "id": "pmb92172",
-         "title": "Böcksteiner Weg",
-         "lat": "47.091766",
-         "lon": "13.117382",
+         "title": "Böcksteiner Waldweg",
+         "lat": "47.093301",
+         "lon": "13.126197",
          "timestamp": ["1917-06-06"],
          "importance": 1, 
-        "abbr": "H.STRT", 
-        "type": "Meerenge"
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.12745, 47.130002]
+      },
+      "properties": {
+         "id": "pmb265726",
+         "title": "Café-Restaurant Hofbauer",
+         "lat": "47.130002",
+         "lon": "13.12745",
+         "timestamp": ["1917-06-06", "1917-06-11", "1917-06-17"],
+         "importance": 3, 
+        "wikidata": "http://www.wikidata.org/entity/Q133796961", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.11572, 47.11242]
+      },
+      "properties": {
+         "id": "pmb265733",
+         "title": "Ilseweg",
+         "lat": "47.11242",
+         "lon": "13.11572",
+         "timestamp": ["1917-06-08"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.1589, 47.1608]
+      },
+      "properties": {
+         "id": "pmb265737",
+         "title": "Gamskarkogel",
+         "lat": "47.1608",
+         "lon": "13.1589",
+         "timestamp": ["1917-06-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gamskarkogel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1493288", 
+        "geonames": "https://sws.geonames.org/2778911/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.20771, 47.10761]
+      },
+      "properties": {
+         "id": "pmb265750",
+         "title": "Prossauer Weg",
+         "lat": "47.10761",
+         "lon": "13.20771",
+         "timestamp": ["1917-06-12", "1917-06-13"],
+         "importance": 2, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.1432, 47.1207]
+      },
+      "properties": {
+         "id": "pmb265763",
+         "title": "Badberg",
+         "lat": "47.1207",
+         "lon": "13.1432",
+         "timestamp": ["1917-06-15"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131357335", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.093976, 47.168484]
+      },
+      "properties": {
+         "id": "pmb265766",
+         "title": "Café und Pension Pyrkerhöhe",
+         "lat": "47.168484",
+         "lon": "13.093976",
+         "timestamp": ["1917-06-15"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       }, 
     {
@@ -596,6 +741,23 @@
         "geonames": "https://sws.geonames.org/2782053/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.160108, 47.136994]
+      },
+      "properties": {
+         "id": "pmb265770",
+         "title": "Egger Alm",
+         "lat": "47.136994",
+         "lon": "13.160108",
+         "timestamp": ["1917-06-16"],
+         "importance": 1, 
+        "abbr": "Alm", 
+        "type": "Alm"
       }
       }, 
     {
@@ -631,6 +793,25 @@
         "geonames": "https://www.geonames.org/12534634/", 
         "abbr": "Tal (N.TAL)", 
         "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.1386, 47.1192]
+      },
+      "properties": {
+         "id": "pmb265787",
+         "title": "Nikolauskirche [Bad Gastein]",
+         "lat": "47.1192",
+         "lon": "13.1386",
+         "timestamp": ["1917-06-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Nikolauskirche_(Bad_Gastein)", 
+        "wikidata": "http://www.wikidata.org/entity/Q14395955", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }, 
     {

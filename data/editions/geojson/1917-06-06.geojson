@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.117382, 47.091766], 
-            [13.140375, 47.119503]
+            [13.126197, 47.093301], 
+            [13.140375, 47.119503], 
+            [13.12745, 47.130002]
           ]
       },
       "properties": {
@@ -35,17 +36,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.117382, 47.091766]
+        "coordinates": [13.12745, 47.130002]
+      },
+      "properties": {
+         "id": "pmb265726",
+         "title": "Café-Restaurant Hofbauer",
+         "lat": "47.130002",
+         "lon": "13.12745",
+         "timestamp": ["1917-06-06"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133796961", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.126197, 47.093301]
       },
       "properties": {
          "id": "pmb92172",
-         "title": "Böcksteiner Weg",
-         "lat": "47.091766",
-         "lon": "13.117382",
+         "title": "Böcksteiner Waldweg",
+         "lat": "47.093301",
+         "lon": "13.126197",
          "timestamp": ["1917-06-06"],
          "importance": 1, 
-        "abbr": "H.STRT", 
-        "type": "Meerenge"
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
       }
       }
   ]

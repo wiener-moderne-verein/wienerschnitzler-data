@@ -7,7 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [13.214117, 47.104228], 
-            [13.15969, 47.12772], 
+            [13.20771, 47.10761], 
+            [13.16102, 47.12755], 
             [13.140375, 47.119503]
           ]
       },
@@ -53,18 +54,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.15969, 47.12772]
+        "coordinates": [13.20771, 47.10761]
       },
       "properties": {
-         "id": "pmb91059",
-         "title": "Kötschachtal",
-         "lat": "47.12772",
-         "lon": "13.15969",
+         "id": "pmb265750",
+         "title": "Prossauer Weg",
+         "lat": "47.10761",
+         "lon": "13.20771",
          "timestamp": ["1917-06-13"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/11238014/", 
-        "abbr": "T.VAL", 
-        "type": "Tal"
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.16102, 47.12755]
+      },
+      "properties": {
+         "id": "pmb265722",
+         "title": "Ausflugsgasthof Grüner Baum",
+         "lat": "47.12755",
+         "lon": "13.16102",
+         "timestamp": ["1917-06-13"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131852348", 
+        "geonames": "https://sws.geonames.org/10301595/", 
+        "abbr": "S.HTL", 
+        "type": "Hotel"
       }
       }
   ]

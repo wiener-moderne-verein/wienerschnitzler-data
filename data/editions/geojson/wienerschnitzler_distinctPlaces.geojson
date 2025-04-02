@@ -2288,11 +2288,13 @@
       },
       "properties": {
          "id": "pmb828",
-         "title": "Nationalbibliothek",
+         "title": "Österreichische Nationalbibliothek",
          "lat": "48.20608",
          "lon": "16.36678",
          "timestamp": ["1880-03-10", "1882-03-07", "1917-07-03", "1918-06-04", "1920-06-11", "1920-07-10", "1922-04-15", "1922-06-21", "1923-09-18", "1930-12-02"],
          "importance": 10, 
+        "wikipedia": "https://de.wikipedia.org/wiki/%C3%96sterreichische_Nationalbibliothek", 
+        "wikidata": "http://www.wikidata.org/entity/Q304037", 
         "abbr": "Bibliothek (K.BIB)", 
         "type": "Bibliothek"
       }
@@ -9381,7 +9383,7 @@
       },
       "properties": {
          "id": "pmb373",
-         "title": "Rathaus",
+         "title": "Rathaus [Wien]",
          "lat": "48.21071",
          "lon": "16.3576",
          "timestamp": ["1890-02-18", "1909-01-19", "1913-07-17", "1913-12-29", "1919-05-30", "1920-09-21", "1920-10-07", "1922-10-04", "1923-04-28", "1924-07-29", "1926-09-15", "1927-05-17", "1927-06-30", "1929-11-30", "1930-10-31"],
@@ -66083,6 +66085,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.378223, 48.192949]
+      },
+      "properties": {
+         "id": "pmb265580",
+         "title": "Theresianumgasse 2b",
+         "lat": "48.192949",
+         "lon": "16.378223",
+         "timestamp": ["1917-03-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.337169, 48.233485]
       },
       "properties": {
@@ -66115,7 +66134,30 @@
          "lat": "48.211381",
          "lon": "16.369893",
          "timestamp": ["1917-04-12"],
-         "importance": 1
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Judenplatz_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q390730", 
+        "abbr": "Platz (K.PLT)", 
+        "type": "Platz"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367667, 48.201435]
+      },
+      "properties": {
+         "id": "pmb265627",
+         "title": "Café Museum",
+         "lat": "48.201435",
+         "lon": "16.367667",
+         "timestamp": ["1917-04-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Museum", 
+        "wikidata": "http://www.wikidata.org/entity/Q268795", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
       }
       }, 
     {
@@ -66152,6 +66194,62 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33747222222222, 48.23657222222222]
+      },
+      "properties": {
+         "id": "pmb265639",
+         "title": "Universität für Bodenkultur",
+         "lat": "48.23657222222222",
+         "lon": "16.33747222222222",
+         "timestamp": ["1917-04-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Universit%C3%A4t_f%C3%BCr_Bodenkultur_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q876520", 
+        "abbr": "Universität (K.UNI)", 
+        "type": "Universität"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2582, 48.33866]
+      },
+      "properties": {
+         "id": "pmb265656",
+         "title": "Obelisk [Hadersfeld]",
+         "lat": "48.33866",
+         "lon": "16.2582",
+         "timestamp": ["1917-05-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Obelisk_(Hadersfeld)", 
+        "wikidata": "http://www.wikidata.org/entity/Q37903513", 
+        "abbr": "Monument (K.MON)", 
+        "type": "Monument"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.358283, 48.211376]
+      },
+      "properties": {
+         "id": "pmb265662",
+         "title": "Rathauskeller [Wien]",
+         "lat": "48.211376",
+         "lon": "16.358283",
+         "timestamp": ["1917-05-05", "1917-05-06"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q133758410", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.063945, 47.759781]
       },
       "properties": {
@@ -66171,6 +66269,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2852, 48.2953]
+      },
+      "properties": {
+         "id": "pmb265689",
+         "title": "Haschhof",
+         "lat": "48.2953",
+         "lon": "16.2852",
+         "timestamp": ["1917-05-24"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q114051060", 
+        "geonames": "https://sws.geonames.org/2776769/", 
+        "abbr": "S.FRM", 
+        "type": "Bauernhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.22673, 48.28197]
+      },
+      "properties": {
+         "id": "pmb265692",
+         "title": "Gasthaus Windischhütte",
+         "lat": "48.28197",
+         "lon": "16.22673",
+         "timestamp": ["1917-05-24"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q127921793", 
+        "geonames": "https://sws.geonames.org/3324253/", 
+        "abbr": "S.GHSE", 
+        "type": "Pension"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2405, 48.2904]
+      },
+      "properties": {
+         "id": "pmb265695",
+         "title": "Eichenhain",
+         "lat": "48.2904",
+         "lon": "16.2405",
+         "timestamp": ["1917-05-24"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q114051045", 
+        "geonames": "https://sws.geonames.org/2780262/", 
+        "abbr": "S.FRM", 
+        "type": "Bauernhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.357944, 48.240847]
       },
       "properties": {
@@ -66179,7 +66334,25 @@
          "lat": "48.240847",
          "lon": "16.357944",
          "timestamp": ["1917-05-28"],
-         "importance": 1
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q114829468"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357983, 48.240751]
+      },
+      "properties": {
+         "id": "pmb265711",
+         "title": "Pokornygasse 12",
+         "lat": "48.240751",
+         "lon": "16.357983",
+         "timestamp": ["1917-05-28", "1917-06-02"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -66195,6 +66368,7 @@
          "lon": "13.136795",
          "timestamp": ["1917-06-04", "1917-06-18"],
          "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q133773904", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
       }
@@ -66212,6 +66386,7 @@
          "lon": "13.15969",
          "timestamp": ["1917-06-05", "1917-06-12", "1917-06-13", "1917-06-16", "1917-06-18", "1917-06-19"],
          "importance": 6, 
+        "wikidata": "http://www.wikidata.org/entity/Q131357478", 
         "geonames": "https://sws.geonames.org/11238014/", 
         "abbr": "T.VAL", 
         "type": "Tal"
@@ -66221,17 +66396,143 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.117382, 47.091766]
+        "coordinates": [13.16102, 47.12755]
+      },
+      "properties": {
+         "id": "pmb265722",
+         "title": "Ausflugsgasthof Grüner Baum",
+         "lat": "47.12755",
+         "lon": "13.16102",
+         "timestamp": ["1917-06-05", "1917-06-12", "1917-06-13", "1917-06-18", "1917-06-19"],
+         "importance": 5, 
+        "wikidata": "http://www.wikidata.org/entity/Q131852348", 
+        "geonames": "https://sws.geonames.org/10301595/", 
+        "abbr": "S.HTL", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.126197, 47.093301]
       },
       "properties": {
          "id": "pmb92172",
-         "title": "Böcksteiner Weg",
-         "lat": "47.091766",
-         "lon": "13.117382",
+         "title": "Böcksteiner Waldweg",
+         "lat": "47.093301",
+         "lon": "13.126197",
          "timestamp": ["1917-06-06"],
          "importance": 1, 
-        "abbr": "H.STRT", 
-        "type": "Meerenge"
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.12745, 47.130002]
+      },
+      "properties": {
+         "id": "pmb265726",
+         "title": "Café-Restaurant Hofbauer",
+         "lat": "47.130002",
+         "lon": "13.12745",
+         "timestamp": ["1917-06-06", "1917-06-11", "1917-06-17"],
+         "importance": 3, 
+        "wikidata": "http://www.wikidata.org/entity/Q133796961", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.11572, 47.11242]
+      },
+      "properties": {
+         "id": "pmb265733",
+         "title": "Ilseweg",
+         "lat": "47.11242",
+         "lon": "13.11572",
+         "timestamp": ["1917-06-08"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.1589, 47.1608]
+      },
+      "properties": {
+         "id": "pmb265737",
+         "title": "Gamskarkogel",
+         "lat": "47.1608",
+         "lon": "13.1589",
+         "timestamp": ["1917-06-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gamskarkogel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1493288", 
+        "geonames": "https://sws.geonames.org/2778911/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.20771, 47.10761]
+      },
+      "properties": {
+         "id": "pmb265750",
+         "title": "Prossauer Weg",
+         "lat": "47.10761",
+         "lon": "13.20771",
+         "timestamp": ["1917-06-12", "1917-06-13"],
+         "importance": 2, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.1432, 47.1207]
+      },
+      "properties": {
+         "id": "pmb265763",
+         "title": "Badberg",
+         "lat": "47.1207",
+         "lon": "13.1432",
+         "timestamp": ["1917-06-15"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131357335", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.093976, 47.168484]
+      },
+      "properties": {
+         "id": "pmb265766",
+         "title": "Café und Pension Pyrkerhöhe",
+         "lat": "47.168484",
+         "lon": "13.093976",
+         "timestamp": ["1917-06-15"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       }, 
     {
@@ -66252,6 +66553,23 @@
         "geonames": "https://sws.geonames.org/2782053/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.160108, 47.136994]
+      },
+      "properties": {
+         "id": "pmb265770",
+         "title": "Egger Alm",
+         "lat": "47.136994",
+         "lon": "13.160108",
+         "timestamp": ["1917-06-16"],
+         "importance": 1, 
+        "abbr": "Alm", 
+        "type": "Alm"
       }
       }, 
     {
@@ -66287,6 +66605,25 @@
         "geonames": "https://www.geonames.org/12534634/", 
         "abbr": "Tal (N.TAL)", 
         "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.1386, 47.1192]
+      },
+      "properties": {
+         "id": "pmb265787",
+         "title": "Nikolauskirche [Bad Gastein]",
+         "lat": "47.1192",
+         "lon": "13.1386",
+         "timestamp": ["1917-06-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Nikolauskirche_(Bad_Gastein)", 
+        "wikidata": "http://www.wikidata.org/entity/Q14395955", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }, 
     {
@@ -69225,7 +69562,7 @@
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q1252907", 
         "geonames": "https://sws.geonames.org/9828855/", 
-        "abbr": "Hafen (K.HFN)", 
+        "abbr": "L.PRT", 
         "type": "Hafen"
       }
       }, 
@@ -69342,7 +69679,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Dom_zu_Roskilde", 
         "wikidata": "http://www.wikidata.org/entity/Q209705", 
         "geonames": "https://sws.geonames.org/11102362/", 
-        "abbr": "Kirche (K.KRC)", 
+        "abbr": "S.CH", 
         "type": "Kirche"
       }
       }, 

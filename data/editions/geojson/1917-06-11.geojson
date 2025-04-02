@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.140375, 47.119503]
+            [13.140375, 47.119503], 
+            [13.12745, 47.130002]
           ]
       },
       "properties": {
@@ -28,6 +29,24 @@
          "importance": 1, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.12745, 47.130002]
+      },
+      "properties": {
+         "id": "pmb265726",
+         "title": "Café-Restaurant Hofbauer",
+         "lat": "47.130002",
+         "lon": "13.12745",
+         "timestamp": ["1917-06-11"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133796961", 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

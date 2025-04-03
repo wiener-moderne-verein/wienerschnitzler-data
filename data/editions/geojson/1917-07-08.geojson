@@ -6,10 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.22773, 48.21686], 
             [16.33716, 48.23188], 
             [16.293147561818, 48.251927827778], 
             [16.2911, 48.2553], 
-            [16.23333, 48.26667]
+            [16.23333, 48.26667], 
+            [16.172067, 48.281272], 
+            [16.15, 48.28333]
           ]
       },
       "properties": {
@@ -54,6 +57,26 @@
         "geonames": "https://sws.geonames.org/3324201/", 
         "abbr": "T.PK", 
         "type": "Bergspitze"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.22773, 48.21686]
+      },
+      "properties": {
+         "id": "pmb19829",
+         "title": "Weidlingau",
+         "lat": "48.21686",
+         "lon": "16.22773",
+         "timestamp": ["1917-07-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hadersdorf-Weidlingau", 
+        "wikidata": "http://www.wikidata.org/entity/Q1567437", 
+        "geonames": "https://sws.geonames.org/2761739/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       },
     {
@@ -151,6 +174,42 @@
         "geonames": "https://sws.geonames.org/2764412/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.172067, 48.281272]
+      },
+      "properties": {
+         "id": "pmb92268",
+         "title": "Hainbuch",
+         "lat": "48.281272",
+         "lon": "16.172067",
+         "timestamp": ["1917-07-08"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q94944650"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.15, 48.28333]
+      },
+      "properties": {
+         "id": "pmb91957",
+         "title": "Tulbinger Kogel",
+         "lat": "48.28333",
+         "lon": "16.15",
+         "timestamp": ["1917-07-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tulbinger_Kogel_(Berg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q21863609", 
+        "geonames": "https://sws.geonames.org/2763269/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }
   ]

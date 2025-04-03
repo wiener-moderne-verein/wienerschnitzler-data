@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.11289, 47.48881]
+            [11.11289, 47.48881], 
+            [11.10885, 47.49085]
           ]
       },
       "properties": {
@@ -28,6 +29,23 @@
          "importance": 1, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.10885, 47.49085]
+      },
+      "properties": {
+         "id": "pmb34392",
+         "title": "Villa Zufriedenheit",
+         "lat": "47.49085",
+         "lon": "11.10885",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }
   ]

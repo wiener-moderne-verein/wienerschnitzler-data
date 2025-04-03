@@ -25,32 +25,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.384444, 48.215]
+        "coordinates": [16.3642, 48.19941]
       },
       "properties": {
-         "id": "pmb118",
-         "title": "Carl-Theater",
-         "lat": "48.215",
-         "lon": "16.384444",
-         "timestamp": ["1917-08-25"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
-        "wikidata": "http://www.wikidata.org/entity/Q877699", 
+         "id": "pmb37",
+         "title": "Theater an der Wien",
+         "lat": "48.19941",
+         "lon": "16.3642",
+         "timestamp": ["1917-08-16", "1917-08-25"],
+         "importance": 2, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Franz von Jauner",
-
-         "p_id": "#2928"
-         }, 
-         {
-
-         "p_name": "Ermete Zacconi",
-
-         "p_id": "#3787"
-         }]
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1917-08-27", "1917-08-30"],
+         "importance": 2, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
       }
       }, 
     {
@@ -88,6 +91,46 @@
         "geonames": "https://sws.geonames.org/2761738/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.32522, 48.30521]
+      },
+      "properties": {
+         "id": "pmb865",
+         "title": "Klosterneuburg",
+         "lat": "48.30521",
+         "lon": "16.32522",
+         "timestamp": ["1917-08-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q487522", 
+        "geonames": "https://sws.geonames.org/2773913/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1917-08-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -148,8 +191,8 @@
          "title": "Türkenschanzpark",
          "lat": "48.235119783861",
          "lon": "16.333568462613",
-         "timestamp": ["1917-08-04"],
-         "importance": 1, 
+         "timestamp": ["1917-08-04", "1917-08-27"],
+         "importance": 2, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
       }
@@ -170,6 +213,26 @@
         "geonames": "https://sws.geonames.org/2768462/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370064, 48.202791]
+      },
+      "properties": {
+         "id": "pmb205",
+         "title": "Hotel Bristol Wien",
+         "lat": "48.202791",
+         "lon": "16.370064",
+         "timestamp": ["1917-08-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=7575", 
+        "wikidata": "http://www.wikidata.org/entity/Q37865047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -346,6 +409,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.336048, 48.232695]
+      },
+      "properties": {
+         "id": "pmb195024",
+         "title": "Holzers Restaurant",
+         "lat": "48.232695",
+         "lon": "16.336048",
+         "timestamp": ["1917-08-04", "1917-08-22"],
+         "importance": 2, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.271459, 48.225694]
       },
       "properties": {
@@ -420,6 +500,36 @@
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1917-08-01", "1917-08-11", "1917-08-21", "1917-08-23", "1917-08-29"],
+         "importance": 5, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
          }]
       }
       }, 
@@ -506,6 +616,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33691, 48.23233]
+      },
+      "properties": {
+         "id": "pmb235127",
+         "title": "Sternwartestraße 62–64",
+         "lat": "48.23233",
+         "lon": "16.33691",
+         "timestamp": ["1917-08-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alice Schmutzer",
+
+         "p_id": "#9734"
+         }, 
+         {
+
+         "p_name": "Ferdinand Schmutzer",
+
+         "p_id": "#12689"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -577,6 +717,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.369913, 48.2083]
+      },
+      "properties": {
+         "id": "pmb263722",
+         "title": "Deutsches Konsulat in Wien",
+         "lat": "48.2083",
+         "lon": "16.369913",
+         "timestamp": ["1917-08-31"],
+         "importance": 1, 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Adolf Adler",
+
+         "p_id": "#13231"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34205, 48.236299]
+      },
+      "properties": {
+         "id": "pmb236091",
+         "title": "Lannerstraße 36",
+         "lat": "48.236299",
+         "lon": "16.34205",
+         "timestamp": ["1917-08-03"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Anninger",
+
+         "p_id": "#13433"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.258244, 48.230796]
       },
       "properties": {
@@ -590,6 +778,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q2249189", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369296, 48.206761]
+      },
+      "properties": {
+         "id": "pmb265894",
+         "title": "Passstelle des Deutschen Reichs",
+         "lat": "48.206761",
+         "lon": "16.369296",
+         "timestamp": ["1917-08-31"],
+         "importance": 1, 
+        "abbr": "Infrastrukturgebäude (K.INF)", 
+        "type": "Infrastrukturgebäude"
       }
       }
   ]

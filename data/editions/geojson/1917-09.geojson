@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1917-09-01", "1917-09-02", "1917-09-03", "1917-09-06", "1917-09-07", "1917-09-08", "1917-09-09", "1917-09-10", "1917-09-13", "1917-09-14", "1917-09-15", "1917-09-16", "1917-09-21", "1917-09-22", "1917-09-23", "1917-09-24", "1917-09-25", "1917-09-26", "1917-09-27", "1917-09-28", "1917-09-29", "1917-09-30"],
-         "importance": 22, 
+         "timestamp": ["1917-09-01", "1917-09-02", "1917-09-03", "1917-09-21", "1917-09-22", "1917-09-23", "1917-09-24", "1917-09-25", "1917-09-26", "1917-09-27", "1917-09-28", "1917-09-29", "1917-09-30"],
+         "importance": 13, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -45,26 +45,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3691, 48.203]
+        "coordinates": [16.36157, 48.20809]
       },
       "properties": {
-         "id": "pmb15",
-         "title": "Oper",
-         "lat": "48.203",
-         "lon": "16.3691",
-         "timestamp": ["1917-09-18"],
+         "id": "pmb103",
+         "title": "Volksgarten",
+         "lat": "48.20809",
+         "lon": "16.36157",
+         "timestamp": ["1917-09-27"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
-        "wikidata": "http://www.wikidata.org/entity/Q209937", 
-        "abbr": "Oper (K.OPR)", 
-        "type": "Oper", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Hans Gregor",
-
-         "p_id": "#2762"
-         }]
+        "geonames": "https://sws.geonames.org/6697258/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
       }
       }, 
     {
@@ -85,6 +77,46 @@
         "geonames": "https://sws.geonames.org/2867714/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1917-09-27", "1917-09-29"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1917-09-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -112,6 +144,23 @@
 
          "p_id": "#27730"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367998, 48.203159]
+      },
+      "properties": {
+         "id": "pmb185989",
+         "title": "Opernrestaurant",
+         "lat": "48.203159",
+         "lon": "16.367998",
+         "timestamp": ["1917-09-01"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
@@ -156,6 +205,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.579322, 48.139603]
+      },
+      "properties": {
+         "id": "pmb669",
+         "title": "Bayerische Staatsoper",
+         "lat": "48.139603",
+         "lon": "11.579322",
+         "timestamp": ["1917-09-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bayerische_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q681931", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.258056, 48.201667]
       },
       "properties": {
@@ -169,6 +237,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q1423660", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.41667, 48.33333]
+      },
+      "properties": {
+         "id": "pmb531",
+         "title": "Wachau",
+         "lat": "48.33333",
+         "lon": "15.41667",
+         "timestamp": ["1917-09-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wachau", 
+        "wikidata": "http://www.wikidata.org/entity/Q192201", 
+        "geonames": "https://sws.geonames.org/2762137/", 
+        "abbr": "L.RGN", 
+        "type": "Region"
       }
       }, 
     {
@@ -273,6 +361,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1917-09-27", "1917-09-29"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.28606, 48.25849]
       },
       "properties": {
@@ -312,6 +424,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33494, 48.23365]
+      },
+      "properties": {
+         "id": "pmb235251",
+         "title": "Hasenauerstraße 59",
+         "lat": "48.23365",
+         "lon": "16.33494",
+         "timestamp": ["1917-09-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.320833, 48.252222]
       },
       "properties": {
@@ -325,6 +473,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q1692038", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.581667, 48.138889]
+      },
+      "properties": {
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
+         "timestamp": ["1917-09-03", "1917-09-18"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -351,6 +518,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.01481, 47.47399]
+      },
+      "properties": {
+         "id": "pmb90294",
+         "title": "Badersee",
+         "lat": "47.47399",
+         "lon": "11.01481",
+         "timestamp": ["1917-09-10"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2953470/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [10.97311, 47.45601]
       },
       "properties": {
@@ -358,8 +543,8 @@
          "title": "Eibsee",
          "lat": "47.45601",
          "lon": "10.97311",
-         "timestamp": ["1917-09-11", "1917-09-12"],
-         "importance": 2, 
+         "timestamp": ["1917-09-10"],
+         "importance": 1, 
         "geonames": "https://sws.geonames.org/2932723/", 
         "abbr": "H.LK", 
         "type": "See"
@@ -386,6 +571,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.26187, 47.4422]
+      },
+      "properties": {
+         "id": "pmb91253",
+         "title": "Mittenwald",
+         "lat": "47.4422",
+         "lon": "11.26187",
+         "timestamp": ["1917-09-07"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2870482/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.578786, 48.139944]
+      },
+      "properties": {
+         "id": "pmb9",
+         "title": "Königlich Bayerische Hoftheater",
+         "lat": "48.139944",
+         "lon": "11.578786",
+         "timestamp": ["1917-09-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bayerisches_Staatsschauspiel", 
+        "wikidata": "http://www.wikidata.org/entity/Q812446", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Albert von Speidel",
+
+         "p_id": "#12813"
+         }, 
+         {
+
+         "p_name": "Albert Steinrück",
+
+         "p_id": "#12837"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.605591, 48.138986]
       },
       "properties": {
@@ -405,6 +640,86 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1917-09-03", "1917-09-04", "1917-09-17", "1917-09-20"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.585161, 48.135523]
+      },
+      "properties": {
+         "id": "pmb248958",
+         "title": "Mannhardtstraße 3",
+         "lat": "48.135523",
+         "lon": "11.585161",
+         "timestamp": ["1917-09-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Aloisia Chlum",
+
+         "p_id": "#27771"
+         }, 
+         {
+
+         "p_name": "Auguste Glümer",
+
+         "p_id": "#14948"
+         }, 
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36601, 48.20904]
+      },
+      "properties": {
+         "id": "pmb713",
+         "title": "Ministerium für Äußeres",
+         "lat": "48.20904",
+         "lon": "16.36601",
+         "timestamp": ["1917-09-29"],
+         "importance": 1, 
+        "abbr": "Ministerium (K.MIN)", 
+        "type": "", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emil von Jettel-Ettenach",
+
+         "p_id": "#2196"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -412,8 +727,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1917-09-01", "1917-09-02", "1917-09-03", "1917-09-06", "1917-09-07", "1917-09-08", "1917-09-09", "1917-09-10", "1917-09-13", "1917-09-14", "1917-09-15", "1917-09-16", "1917-09-21", "1917-09-22", "1917-09-23", "1917-09-24", "1917-09-25", "1917-09-26", "1917-09-27", "1917-09-28", "1917-09-29", "1917-09-30"],
-         "importance": 22, 
+         "timestamp": ["1917-09-01", "1917-09-02", "1917-09-03", "1917-09-21", "1917-09-22", "1917-09-23", "1917-09-24", "1917-09-25", "1917-09-26", "1917-09-27", "1917-09-28", "1917-09-29", "1917-09-30"],
+         "importance": 13, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -491,8 +806,8 @@
          "title": "Partenkirchen",
          "lat": "47.4956",
          "lon": "11.1097",
-         "timestamp": ["1917-09-09"],
-         "importance": 1, 
+         "timestamp": ["1917-09-04", "1917-09-05", "1917-09-06", "1917-09-07", "1917-09-08", "1917-09-09", "1917-09-10", "1917-09-11", "1917-09-12", "1917-09-13", "1917-09-14", "1917-09-15", "1917-09-16", "1917-09-17"],
+         "importance": 14, 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
       }
@@ -537,6 +852,69 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.369913, 48.2083]
+      },
+      "properties": {
+         "id": "pmb263722",
+         "title": "Deutsches Konsulat in Wien",
+         "lat": "48.2083",
+         "lon": "16.369913",
+         "timestamp": ["1917-09-01"],
+         "importance": 1, 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Adolf Adler",
+
+         "p_id": "#13231"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366111, 48.206389]
+      },
+      "properties": {
+         "id": "pmb320",
+         "title": "Hofburg",
+         "lat": "48.206389",
+         "lon": "16.366111",
+         "timestamp": ["1917-09-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hofburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q46242", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.291111, 48.290556]
+      },
+      "properties": {
+         "id": "pmb264758",
+         "title": "Linz Hauptbahnhof",
+         "lat": "48.290556",
+         "lon": "14.291111",
+         "timestamp": ["1917-09-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Linz_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q763157", 
+        "geonames": "https://sws.geonames.org/2772397/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.11289, 47.48881]
       },
       "properties": {
@@ -548,6 +926,77 @@
          "importance": 14, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.596764, 48.149748]
+      },
+      "properties": {
+         "id": "pmb265909",
+         "title": "Tivolistraße 1",
+         "lat": "48.149748",
+         "lon": "11.596764",
+         "timestamp": ["1917-09-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.10885, 47.49085]
+      },
+      "properties": {
+         "id": "pmb34392",
+         "title": "Villa Zufriedenheit",
+         "lat": "47.49085",
+         "lon": "11.10885",
+         "timestamp": ["1917-09-04", "1917-09-06", "1917-09-07", "1917-09-08", "1917-09-09", "1917-09-11", "1917-09-12"],
+         "importance": 7, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.097, 47.4915]
+      },
+      "properties": {
+         "id": "pmb265939",
+         "title": "Bahnhof Garmisch-Partenkirchen",
+         "lat": "47.4915",
+         "lon": "11.097",
+         "timestamp": ["1917-09-04", "1917-09-07", "1917-09-17"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Garmisch-Partenkirchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q800804", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.08635, 47.50341]
+      },
+      "properties": {
+         "id": "pmb265918",
+         "title": "Sonnenbichl",
+         "lat": "47.50341",
+         "lon": "11.08635",
+         "timestamp": ["1917-09-06", "1917-09-16"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q131917989", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -566,6 +1015,177 @@
         "geonames": "https://sws.geonames.org/2930871/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.26554, 47.44033]
+      },
+      "properties": {
+         "id": "pmb265936",
+         "title": "Bahnhof Mittenwald",
+         "lat": "47.44033",
+         "lon": "11.26554",
+         "timestamp": ["1917-09-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q18608312", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.112853, 47.486512]
+      },
+      "properties": {
+         "id": "pmb265943",
+         "title": "Villa Silberacker",
+         "lat": "47.486512",
+         "lon": "11.112853",
+         "timestamp": ["1917-09-08", "1917-09-12", "1917-09-15"],
+         "importance": 3, 
+        "wikidata": "http://www.wikidata.org/entity/Q133802860", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.02646, 47.47581]
+      },
+      "properties": {
+         "id": "pmb91977",
+         "title": "Untergrainau",
+         "lat": "47.47581",
+         "lon": "11.02646",
+         "timestamp": ["1917-09-10"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2819507/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.024722, 47.476111]
+      },
+      "properties": {
+         "id": "pmb261859",
+         "title": "Grainau",
+         "lat": "47.476111",
+         "lon": "11.024722",
+         "timestamp": ["1917-09-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grainau", 
+        "wikidata": "http://www.wikidata.org/entity/Q251136", 
+        "geonames": "https://sws.geonames.org/6556240/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.98495, 47.454011]
+      },
+      "properties": {
+         "id": "pmb92245",
+         "title": "Frillensee",
+         "lat": "47.454011",
+         "lon": "10.98495",
+         "timestamp": ["1917-09-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Frillensee_(Grainau)", 
+        "wikidata": "http://www.wikidata.org/entity/Q256725", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.128197, 47.483251]
+      },
+      "properties": {
+         "id": "pmb92318",
+         "title": "Kainzenbad",
+         "lat": "47.483251",
+         "lon": "11.128197",
+         "timestamp": ["1917-09-13"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131917978", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0919, 47.5165]
+      },
+      "properties": {
+         "id": "pmb265923",
+         "title": "Burg Werdenfels",
+         "lat": "47.5165",
+         "lon": "11.0919",
+         "timestamp": ["1917-09-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Burg_Werdenfels", 
+        "wikidata": "http://www.wikidata.org/entity/Q1014546", 
+        "abbr": "S.CSTL", 
+        "type": "Burg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.585746, 48.161484]
+      },
+      "properties": {
+         "id": "pmb251632",
+         "title": "Leopoldstraße 59/61",
+         "lat": "48.161484",
+         "lon": "11.585746",
+         "timestamp": ["1917-09-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Heinrich Mann",
+
+         "p_id": "#12170"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.575516, 48.139278]
+      },
+      "properties": {
+         "id": "pmb265982",
+         "title": "Alte Börse München",
+         "lat": "48.139278",
+         "lon": "11.575516",
+         "timestamp": ["1917-09-20"],
+         "importance": 1, 
+        "abbr": "Infrastrukturgebäude (K.INF)", 
+        "type": "Infrastrukturgebäude"
       }
       }
   ]

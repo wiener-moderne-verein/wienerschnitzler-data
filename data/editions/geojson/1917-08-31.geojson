@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.369296, 48.206761], 
+            [16.369913, 48.2083], 
             [16.35689, 48.21787], 
             [16.33716, 48.23188]
           ]
@@ -54,6 +56,47 @@
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369296, 48.206761]
+      },
+      "properties": {
+         "id": "pmb265894",
+         "title": "Passstelle des Deutschen Reichs",
+         "lat": "48.206761",
+         "lon": "16.369296",
+         "timestamp": ["1917-08-31"],
+         "importance": 1, 
+        "abbr": "Infrastrukturgebäude (K.INF)", 
+        "type": "Infrastrukturgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369913, 48.2083]
+      },
+      "properties": {
+         "id": "pmb263722",
+         "title": "Deutsches Konsulat in Wien",
+         "lat": "48.2083",
+         "lon": "16.369913",
+         "timestamp": ["1917-08-31"],
+         "importance": 1, 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Adolf Adler",
+
+         "p_id": "#13231"
          }]
       }
       },

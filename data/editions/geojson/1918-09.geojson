@@ -493,8 +493,8 @@
          "title": "Partenkirchen",
          "lat": "47.4956",
          "lon": "11.1097",
-         "timestamp": ["1918-09-03"],
-         "importance": 1, 
+         "timestamp": ["1918-09-01", "1918-09-02", "1918-09-03", "1918-09-04", "1918-09-05", "1918-09-06", "1918-09-07", "1918-09-08", "1918-09-09", "1918-09-10"],
+         "importance": 10, 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
       }
@@ -609,6 +609,23 @@
          "importance": 10, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.10885, 47.49085]
+      },
+      "properties": {
+         "id": "pmb34392",
+         "title": "Villa Zufriedenheit",
+         "lat": "47.49085",
+         "lon": "11.10885",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }, 
     {

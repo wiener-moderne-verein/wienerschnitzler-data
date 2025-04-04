@@ -24,13 +24,16 @@ Several derivative files are generated from the XML files above, mostly by refer
 * Files for each __day__, named using the ISO date format (e.g., 1888-01-24.geojson).
 * Files for each __month__ (e.g., 1903-12.geojson).
 * Files for each __year__ (e.g., 1890.geojson).
-* Files for each __decade__ from 1870 to 1929 (e.g., 1920-1929.geojson).
+* Files for each __decade__ from 1871 to 1929 (e.g., 1921-1930.geojson).
 
-Additionally, there are complete geoJSON files:
+* __wienerschnitzler_distinctPlaces.geojson__ see above
+* __wienerschnitzler_timeline.geojson__ contains an element for each stay. Adjacent days are combined to a timespan, i.e. "1888-01-01/1888-01-03"
 
-* __wienerschnitzler_complete_daily.geojson__: Uses days as the hierarchical structure.
-* __wienerschnitzler_distinctPlaces.geojson__: Uses places as the hierarchical structure.
 
+## JSON
+
+* __uebersicht.json__ contains the eventName for each day and a counter that counts the numbers of distinct
+* places from this very day
 
 ## Import Data ##
 

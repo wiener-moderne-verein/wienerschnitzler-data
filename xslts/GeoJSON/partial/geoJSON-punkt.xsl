@@ -102,7 +102,7 @@
                     <xsl:otherwise>
                         <xsl:text>"</xsl:text>
                         <xsl:value-of select="xs:string($timespan-begin)"/>
-                        <xsl:text>"-"</xsl:text>
+                        <xsl:text>/</xsl:text>
                         <xsl:value-of select="xs:string($timespan-end)"/>
                         <xsl:text>"</xsl:text>
                     </xsl:otherwise>

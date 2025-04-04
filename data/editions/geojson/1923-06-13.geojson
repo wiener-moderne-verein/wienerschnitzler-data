@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.29108, 47.88677]
+            [15.29108, 47.88677], 
+            [15.882778, 47.728056], 
+            [15.633333333333, 48.116666666667]
           ]
       },
       "properties": {
@@ -28,6 +30,44 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2778287/", 
         "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.882778, 47.728056]
+      },
+      "properties": {
+         "id": "pmb248945",
+         "title": "Bodenwiese",
+         "lat": "47.728056",
+         "lon": "15.882778",
+         "timestamp": ["1923-06-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bodenwiese", 
+        "wikidata": "http://www.wikidata.org/entity/Q53865541", 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.633333333333, 48.116666666667]
+      },
+      "properties": {
+         "id": "pmb266274",
+         "title": "Ochsenburg",
+         "lat": "48.116666666667",
+         "lon": "15.633333333333",
+         "timestamp": ["1923-06-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ochsenburg_(St._P%C3%B6lten)", 
+        "wikidata": "http://www.wikidata.org/entity/Q877430", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
       }
       }

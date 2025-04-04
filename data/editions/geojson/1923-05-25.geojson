@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.273893, 52.490797]
+            [13.273893, 52.490797], 
+            [13.36234, 52.498388], 
+            [13.39333, 52.51483]
           ]
       },
       "properties": {
@@ -40,6 +42,60 @@
          "p_name": "Hedwig Fischer",
 
          "p_id": "#2657"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.39333, 52.51483]
+      },
+      "properties": {
+         "id": "pmb493",
+         "title": "Bank für Auswärtigen Handel",
+         "lat": "52.51483",
+         "lon": "13.39333",
+         "timestamp": ["1923-05-25"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Karl Feilchenfeld",
+
+         "p_id": "#16125"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36234, 52.498388]
+      },
+      "properties": {
+         "id": "pmb265165",
+         "title": "Potsdamer Straße 123",
+         "lat": "52.498388",
+         "lon": "13.36234",
+         "timestamp": ["1923-05-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }, 
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
          }]
       }
       }

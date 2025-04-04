@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.3566, 48.205142], 
+            [16.37049, 48.20769], 
+            [16.340725, 48.23455], 
             [16.33716, 48.23188]
           ]
       },
@@ -39,6 +41,23 @@
 
          "p_id": "#27730"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.340725, 48.23455]
+      },
+      "properties": {
+         "id": "pmb266167",
+         "title": "Blaasstraße 5",
+         "lat": "48.23455",
+         "lon": "16.340725",
+         "timestamp": ["1918-01-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       },
     {
@@ -118,6 +137,26 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1918-01-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }
   ]

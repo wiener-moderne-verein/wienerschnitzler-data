@@ -32,8 +32,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1918-01-06"],
-         "importance": 1, 
+         "timestamp": ["1918-01-05", "1918-01-06"],
+         "importance": 2, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -49,11 +49,72 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1918-01-08", "1918-01-29"],
-         "importance": 2, 
+         "timestamp": ["1918-01-08"],
+         "importance": 1, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355191, 48.248422]
+      },
+      "properties": {
+         "id": "pmb92292",
+         "title": "Hohe Warte",
+         "lat": "48.248422",
+         "lon": "16.355191",
+         "timestamp": ["1918-01-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=1461", 
+        "wikidata": "http://www.wikidata.org/entity/Q876564", 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37601664270439, 48.198498814707754]
+      },
+      "properties": {
+         "id": "pmb53143",
+         "title": "Schwarzenbergplatz",
+         "lat": "48.198498814707754",
+         "lon": "16.37601664270439",
+         "timestamp": ["1918-01-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergplatz", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=14853", 
+        "wikidata": "http://www.wikidata.org/entity/Q686552", 
+        "geonames": "https://sws.geonames.org/10244814/", 
+        "abbr": "Platz (K.PLT)", 
+        "type": "Platz"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1918-01-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -180,6 +241,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3559, 48.2523]
+      },
+      "properties": {
+         "id": "pmb207104",
+         "title": "Haus Moll",
+         "lat": "48.2523",
+         "lon": "16.3559",
+         "timestamp": ["1918-01-03"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=5914", 
+        "wikidata": "http://www.wikidata.org/entity/Q122841575", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Carl Moll",
+
+         "p_id": "#12277"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -209,6 +296,43 @@
          "p_name": "Richard Beer-Hofmann",
 
          "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1918-01-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
          }]
       }
       }, 
@@ -247,8 +371,8 @@
          "title": "Sanatorium Hera",
          "lat": "48.226667",
          "lon": "16.351667",
-         "timestamp": ["1918-01-03"],
-         "importance": 1, 
+         "timestamp": ["1918-01-03", "1918-01-15"],
+         "importance": 2, 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Sanatorium_Hera", 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
@@ -483,6 +607,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.377197811369, 48.200771836002]
+      },
+      "properties": {
+         "id": "pmb240",
+         "title": "Wiener Konzerthaus",
+         "lat": "48.200771836002",
+         "lon": "16.377197811369",
+         "timestamp": ["1918-01-11", "1918-01-16"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q695126", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hugo Botstiber",
+
+         "p_id": "#10983"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.296622, 48.183258]
       },
       "properties": {
@@ -543,6 +693,59 @@
         "wikidata": "http://www.wikidata.org/entity/Q133804052", 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341417, 48.236893]
+      },
+      "properties": {
+         "id": "pmb92168",
+         "title": "Blaasstraße",
+         "lat": "48.236893",
+         "lon": "16.341417",
+         "timestamp": ["1918-01-10"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q106193416", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.340725, 48.23455]
+      },
+      "properties": {
+         "id": "pmb266167",
+         "title": "Blaasstraße 5",
+         "lat": "48.23455",
+         "lon": "16.340725",
+         "timestamp": ["1918-01-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368653, 48.207224]
+      },
+      "properties": {
+         "id": "pmb266172",
+         "title": "Stallburggasse 2",
+         "lat": "48.207224",
+         "lon": "16.368653",
+         "timestamp": ["1918-01-11"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133807688", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

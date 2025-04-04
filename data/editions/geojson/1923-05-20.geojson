@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [18.3, 59.28333], 
-            [18.05, 59.325]
+            [18.31307, 59.27913], 
+            [18.08137, 59.34147], 
+            [18.101, 59.32445], 
+            [18.096388888889, 59.325194444444], 
+            [18.070833333333, 59.325], 
+            [18.06430278, 59.32093333]
           ]
       },
       "properties": {
@@ -18,38 +22,118 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.05, 59.325]
+        "coordinates": [18.08137, 59.34147]
       },
       "properties": {
-         "id": "pmb1119",
-         "title": "Stockholm",
-         "lat": "59.325",
-         "lon": "18.05",
+         "id": "pmb265500",
+         "title": "Östermalmsgatan 69",
+         "lat": "59.34147",
+         "lon": "18.08137",
          "timestamp": ["1923-05-20"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Stockholm", 
-        "wikidata": "http://www.wikidata.org/entity/Q1754", 
-        "geonames": "https://sws.geonames.org/2673730/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Walter Singer",
+
+         "p_id": "#24992"
+         }]
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.3, 59.28333]
+        "coordinates": [18.070833333333, 59.325]
       },
       "properties": {
-         "id": "pmb62297",
-         "title": "Saltsjöbaden",
-         "lat": "59.28333",
-         "lon": "18.3",
+         "id": "pmb266209",
+         "title": "Gamla stan",
+         "lat": "59.325",
+         "lon": "18.070833333333",
          "timestamp": ["1923-05-20"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2680460/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Gamla_stan", 
+        "wikidata": "http://www.wikidata.org/entity/Q579854", 
+        "geonames": "https://sws.geonames.org/2674672/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.06430278, 59.32093333]
+      },
+      "properties": {
+         "id": "pmb199766",
+         "title": "Mariahissen",
+         "lat": "59.32093333",
+         "lon": "18.06430278",
+         "timestamp": ["1923-05-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mariahissen", 
+        "wikidata": "http://www.wikidata.org/entity/Q10577225", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.101, 59.32445]
+      },
+      "properties": {
+         "id": "pmb199772",
+         "title": "Skansen",
+         "lat": "59.32445",
+         "lon": "18.101",
+         "timestamp": ["1923-05-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Skansen_(Stockholm)", 
+        "wikidata": "http://www.wikidata.org/entity/Q725108", 
+        "geonames": "https://sws.geonames.org/6942306/", 
+        "abbr": "S.MUS", 
+        "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.096388888889, 59.325194444444]
+      },
+      "properties": {
+         "id": "pmb266217",
+         "title": "Restaurang Blå porten",
+         "lat": "59.325194444444",
+         "lon": "18.096388888889",
+         "timestamp": ["1923-05-20"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q26253517", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.31307, 59.27913]
+      },
+      "properties": {
+         "id": "pmb266213",
+         "title": "Saltsjöbaden station",
+         "lat": "59.27913",
+         "lon": "18.31307",
+         "timestamp": ["1923-05-20"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.28702, 52.4581], 
+            [13.36234, 52.498388], 
             [13.41053, 52.52437]
           ]
       },
@@ -31,6 +33,54 @@
         "geonames": "https://sws.geonames.org/2950159/", 
         "abbr": "P.PPLC", 
         "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36234, 52.498388]
+      },
+      "properties": {
+         "id": "pmb265165",
+         "title": "Potsdamer Straße 123",
+         "lat": "52.498388",
+         "lon": "13.36234",
+         "timestamp": ["1923-05-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }, 
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.28702, 52.4581]
+      },
+      "properties": {
+         "id": "pmb90508",
+         "title": "Dahlem",
+         "lat": "52.4581",
+         "lon": "13.28702",
+         "timestamp": ["1923-05-26"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2939440/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }
   ]

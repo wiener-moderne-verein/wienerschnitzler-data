@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.342962, 48.198059], 
+            [16.370654, 48.192289], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,54 @@
         "name": "5. Februar 1918"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.342962, 48.198059]
+      },
+      "properties": {
+         "id": "pmb266277",
+         "title": "Johann Eichberg, Vertreter von Havannazigarren, ägyptischen Zigarretten, Tee",
+         "lat": "48.198059",
+         "lon": "16.342962",
+         "timestamp": ["1918-02-05"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370654, 48.192289]
+      },
+      "properties": {
+         "id": "pmb257569",
+         "title": "Möllwaldplatz 1",
+         "lat": "48.192289",
+         "lon": "16.370654",
+         "timestamp": ["1918-02-05"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q116247570", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Margit Steiner",
+
+         "p_id": "#25409"
+         }, 
+         {
+
+         "p_name": "Franz Steiner",
+
+         "p_id": "#25405"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

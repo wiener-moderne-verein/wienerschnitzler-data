@@ -102,8 +102,8 @@
     <!-- distinct to timeline.geojson -->
     
     <xslt in="./data/editions/xml/wienerschnitzler_distinctPlaces.xml"
-        out="./data/editions/geojson/wienerschnitzler_timeline.geojson"
-        style="./xslts/GeoJSON/distinct_to_timeline.xsl">
+        out="./data/editions/json/wienerschnitzler_timeline.json"
+        style="./xslts/json/distinct_to_timeline.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>
@@ -158,8 +158,8 @@
     <!-- create cal-Heatmap "uebersicht.json" -->
     
     <xslt in="./${target}/wienerschnitzler_complete_nested.xml"
-        out="./data/editions/uebersicht.json"
-        style="./xslts/diverses/uebersicht-data.xsl">
+        out="./data/editions/json/uebersicht.json"
+        style="./xslts/JSON/uebersicht-data.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>

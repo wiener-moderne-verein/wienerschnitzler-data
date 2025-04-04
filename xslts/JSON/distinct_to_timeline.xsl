@@ -7,16 +7,13 @@
     <!-- Output format: plain text -->
     <xsl:output method="text" indent="yes"/>
     <xsl:mode on-no-match="shallow-skip"/>
-    <xsl:import href="./partial/geoJSON-punkt.xsl"/>
+    <xsl:import href="./partial/json-punkt.xsl"/>
     <xsl:param name="listplace" select="document('../../data/indices/listplace.xml')"/>
     <xsl:key name="listplace-lookup"
         match="tei:TEI/tei:text[1]/tei:body[1]/tei:listPlace[1]/tei:place" use="@xml:id"/>
     <!-- Root template to generate the entire GeoJSON output -->
     <xsl:template match="/">
-        <xsl:text>{</xsl:text>
-        <xsl:text>&#10;  "type": "FeatureCollection",</xsl:text>
-        <xsl:text>&#10;  "features": [</xsl:text>
-        <!-- Process all places with coordinates and events -->
+        <xsl:text>[</xsl:text>
         <xsl:variable name="listPlaceGesamt" select="descendant::tei:body/tei:listPlace" as="node()"/>
         <xsl:for-each
             select="$listPlaceGesamt/tei:place[tei:listEvent[1]/tei:event]">
@@ -40,8 +37,10 @@
                         <xsl:value-of
                             select="mam:macht-punkt($place, 'timeline', current-group()[1]/@when, current-group()[1]/@when)"/>
                     </xsl:otherwise>
-                    
                 </xsl:choose>
+                <xsl:if test="not(position()=last())">
+                    <xsl:text>, &#10;</xsl:text>
+                </xsl:if>
             </xsl:for-each-group>
             
             
@@ -49,8 +48,8 @@
                 <xsl:text>, </xsl:text>
             </xsl:if>
         </xsl:for-each>
-        <xsl:text>&#10;  ]</xsl:text>
-        <xsl:text>&#10;}</xsl:text>
+        <xsl:text>&#10;</xsl:text>
+        <xsl:text>]</xsl:text>
     </xsl:template>
    
    

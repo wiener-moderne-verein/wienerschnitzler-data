@@ -92,22 +92,6 @@
                 <xsl:value-of select="xs:string($timespan-begin)"/>
                 <xsl:text>"</xsl:text>
             </xsl:when>
-            <xsl:when test="$timespan-type = 'timeline'">
-                <xsl:choose>
-                    <xsl:when test="$timespan-begin = $timespan-end">
-                        <xsl:text>"</xsl:text>
-                        <xsl:value-of select="xs:string($timespan-begin)"/>
-                        <xsl:text>"</xsl:text>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>"</xsl:text>
-                        <xsl:value-of select="xs:string($timespan-begin)"/>
-                        <xsl:text>/</xsl:text>
-                        <xsl:value-of select="xs:string($timespan-end)"/>
-                        <xsl:text>"</xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:when>
         </xsl:choose>
         <xsl:text>],</xsl:text>
         <!-- Aggregate event descriptions -->

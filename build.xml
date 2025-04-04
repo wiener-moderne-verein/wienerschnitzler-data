@@ -103,7 +103,7 @@
     
     <xslt in="./data/editions/xml/wienerschnitzler_distinctPlaces.xml"
         out="./data/editions/json/wienerschnitzler_timeline.json"
-        style="./xslts/json/distinct_to_timeline.xsl">
+        style="./xslts/JSON/distinct_to_timeline.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>

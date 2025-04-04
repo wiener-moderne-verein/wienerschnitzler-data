@@ -98,6 +98,15 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="./saxon/saxon-he-12.5.jar"/>
     </xslt>
+    
+    <!-- distinct to timeline.geojson -->
+    
+    <xslt in="./data/editions/xml/wienerschnitzler_distinctPlaces.xml"
+        out="./data/editions/geojson/wienerschnitzler_timeline.geojson"
+        style="./xslts/GeoJSON/distinct_to_timeline.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="./saxon/saxon-he-12.5.jar"/>
+    </xslt>
 
     <!-- create CSV-->
    

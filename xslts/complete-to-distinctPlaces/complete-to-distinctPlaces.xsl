@@ -16,7 +16,7 @@
                                 <xsl:attribute name="xml:id">
                                     <xsl:value-of select="replace(@corresp, '#', '')"/>
                                 </xsl:attribute>
-                                <xsl:copy-of select="tei:placeName[1] | tei:location"/>
+                                <xsl:copy-of select="tei:placeName[1] | tei:location" copy-namespaces="true"/>
                                 <xsl:element name="listEvent"
                                     namespace="http://www.tei-c.org/ns/1.0">
                                     <!-- Füge alle Events hinzu, die diesen Ort enthalten -->

@@ -31,7 +31,8 @@ Several derivative files are generated from the XML files above, mostly by refer
 
 ## JSON
 
-* __wienerschnitzler_timeline.json__ contains an element for each stay. Adjacent days are combined to a timespan, i.e. "1888-01-01/1888-01-03"
+* __wienerschnitzler_timeline.json__ contains an element for each stay. Adjacent days are combined to a timespan, i.e. "1888-01-01/1888-01-03". the property "type" differentiates
+* between larger geographic entitities "p" (country, city, village) vs. "a" for smaller ones (streets, houses, monuments)
 * __uebersicht.json__ contains the eventName for each day and a counter that counts the numbers of distinct
 * places from this very day
 

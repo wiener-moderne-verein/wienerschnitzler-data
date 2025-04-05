@@ -55,7 +55,7 @@
                 </xsl:choose>
             </xsl:when>
         </xsl:choose>
-        <xsl:text>,</xsl:text>
+        <xsl:text>],</xsl:text>
         <xsl:text>&#10;         "type": "</xsl:text>
         <xsl:choose>
             <xsl:when test="starts-with($input-placeNode/tei:desc[@type='entity_type'], 'A.') or starts-with($input-placeNode/tei:desc[@type='entity_type'], 'P.') or ($input-placeNode/tei:desc[@type='entity_type'] = 'BSO')">
@@ -65,8 +65,7 @@
                 <xsl:text>a</xsl:text> <!-- Adresse: Straße, Haus, Monument etc. -->
             </xsl:otherwise>
         </xsl:choose>
-        <xsl:text>"&#10;</xsl:text>
-        <xsl:text>]</xsl:text>
+        <xsl:text>"</xsl:text>
         <xsl:text>&#10;      }</xsl:text>
     </xsl:function>
     

@@ -65,6 +65,7 @@
                 <xsl:text>a</xsl:text> <!-- Adresse: Straße, Haus, Monument etc. -->
             </xsl:otherwise>
         </xsl:choose>
+        <xsl:text>"&#10;</xsl:text>
         <xsl:text>]</xsl:text>
         <xsl:text>&#10;      }</xsl:text>
     </xsl:function>

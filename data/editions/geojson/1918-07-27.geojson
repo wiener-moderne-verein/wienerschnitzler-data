@@ -7,8 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [16.371211, 48.206416], 
+            [16.375659, 48.207973], 
             [16.381895, 48.209294], 
+            [16.366212, 48.216063], 
             [16.33716, 48.23188], 
+            [16.333056, 48.233056], 
             [16.35689, 48.21787]
           ]
       },
@@ -55,6 +58,40 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366212, 48.216063]
+      },
+      "properties": {
+         "id": "pmb266863",
+         "title": "Donau-Dampfschifffahrtsgesellschaft",
+         "lat": "48.216063",
+         "lon": "16.366212",
+         "timestamp": ["1918-07-27"],
+         "importance": 1, 
+        "abbr": "Reisebüro", 
+        "type": "Reisebüro"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375659, 48.207973]
+      },
+      "properties": {
+         "id": "pmb266868",
+         "title": "Grünangergasse 2",
+         "lat": "48.207973",
+         "lon": "16.375659",
+         "timestamp": ["1918-07-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -91,6 +128,36 @@
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1918-07-27"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
          }]
       }
       },

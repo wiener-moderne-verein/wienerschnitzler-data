@@ -263,8 +263,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
         "wikidata": "http://www.wikidata.org/entity/Q264752", 
         "geonames": "https://sws.geonames.org/3322725/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -2164,7 +2164,7 @@
          "lon": "16.292995185249",
          "timestamp": ["1924-05-18"],
          "importance": 1, 
-        "abbr": "Landschaftlicher-Punkt", 
+        "abbr": "Landschaftlicher Punkt", 
         "type": "Landschaftlicher Punkt"
       }
       }, 
@@ -3487,6 +3487,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.370203, 48.206639]
+      },
+      "properties": {
+         "id": "pmb232366",
+         "title": "Seilergasse 16",
+         "lat": "48.206639",
+         "lon": "16.370203",
+         "timestamp": ["1924-11-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Olga von Gans-Ludassy",
+
+         "p_id": "#16902"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3125, 48.186667]
       },
       "properties": {
@@ -3613,30 +3637,6 @@
          "p_name": "Hugo Heller",
 
          "p_id": "#11646"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.370203, 48.206639]
-      },
-      "properties": {
-         "id": "pmb232366",
-         "title": "Seilergasse 16",
-         "lat": "48.206639",
-         "lon": "16.370203",
-         "timestamp": ["1924-11-04"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Olga von Gans-Ludassy",
-
-         "p_id": "#16902"
          }]
       }
       }, 
@@ -3839,6 +3839,31 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33286, 48.25644]
+      },
+      "properties": {
+         "id": "pmb235184",
+         "title": "Himmelstraße 55",
+         "lat": "48.25644",
+         "lon": "16.33286",
+         "timestamp": ["1924-04-15", "1924-06-06"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q131720045", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ernst Benedikt",
+
+         "p_id": "#10872"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.042201, 47.804392]
       },
       "properties": {
@@ -3875,6 +3900,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.239966, 48.760615]
+      },
+      "properties": {
+         "id": "pmb246350",
+         "title": "Aurelia-Lichtspiele",
+         "lat": "48.760615",
+         "lon": "8.239966",
+         "timestamp": ["1924-06-28"],
+         "importance": 1, 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.231077, 48.748963]
       },
       "properties": {
@@ -3892,25 +3934,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.33286, 48.25644]
+        "coordinates": [9.860075, 46.506997]
       },
       "properties": {
-         "id": "pmb235184",
-         "title": "Himmelstraße 55",
-         "lat": "48.25644",
-         "lon": "16.33286",
-         "timestamp": ["1924-04-15", "1924-06-06"],
-         "importance": 2, 
-        "wikidata": "http://www.wikidata.org/entity/Q131720045", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Ernst Benedikt",
-
-         "p_id": "#10872"
-         }]
+         "id": "pmb92303",
+         "title": "Innschlucht",
+         "lat": "46.506997",
+         "lon": "9.860075",
+         "timestamp": ["1924-08-10", "1924-08-18"],
+         "importance": 2
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.83922, 46.49773]
+      },
+      "properties": {
+         "id": "pmb263298",
+         "title": "Cafè, Bäckerei & Confiserie Hanselmann",
+         "lat": "46.49773",
+         "lon": "9.83922",
+         "timestamp": ["1924-08-18"],
+         "importance": 1, 
+        "abbr": "Konditorei", 
+        "type": "Konditorei"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.869749, 46.513272]
+      },
+      "properties": {
+         "id": "pmb263283",
+         "title": "San Gian (Celerina)",
+         "lat": "46.513272",
+         "lon": "9.869749",
+         "timestamp": ["1924-08-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/San_Gian_(Celerina)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2219585", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }, 
     {
@@ -4698,21 +4766,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.860075, 46.506997]
-      },
-      "properties": {
-         "id": "pmb92303",
-         "title": "Innschlucht",
-         "lat": "46.506997",
-         "lon": "9.860075",
-         "timestamp": ["1924-08-10", "1924-08-18"],
-         "importance": 2
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [9.840633, 46.497148]
       },
       "properties": {
@@ -4730,25 +4783,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.869749, 46.513272]
-      },
-      "properties": {
-         "id": "pmb263283",
-         "title": "San Gian (Celerina)",
-         "lat": "46.513272",
-         "lon": "9.869749",
-         "timestamp": ["1924-08-15"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/San_Gian_(Celerina)", 
-        "wikidata": "http://www.wikidata.org/entity/Q2219585", 
-        "abbr": "Kirche (K.KRC)", 
-        "type": "Kirche"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [9.87005, 46.51368]
       },
       "properties": {
@@ -4760,23 +4794,6 @@
          "importance": 1, 
         "abbr": "Friedhof (K.FRH)", 
         "type": "Friedhof"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [9.83922, 46.49773]
-      },
-      "properties": {
-         "id": "pmb263298",
-         "title": "Cafè, Bäckerei & Confiserie Hanselmann",
-         "lat": "46.49773",
-         "lon": "9.83922",
-         "timestamp": ["1924-08-18"],
-         "importance": 1, 
-        "abbr": "Konditorei", 
-        "type": "Konditorei"
       }
       }, 
     {

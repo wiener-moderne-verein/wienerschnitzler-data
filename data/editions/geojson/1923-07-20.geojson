@@ -6,13 +6,53 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.268889, 48.150556], 
+            [16.241739, 48.090788], 
+            [16.33716, 48.23188], 
+            [16.25988, 48.18285]
           ]
       },
       "properties": {
         "name": "20. Juli 1923"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.268889, 48.150556]
+      },
+      "properties": {
+         "id": "pmb7728",
+         "title": "Mauer",
+         "lat": "48.150556",
+         "lon": "16.268889",
+         "timestamp": ["1923-07-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mauer_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1910986", 
+        "geonames": "https://sws.geonames.org/2771781/", 
+        "abbr": "eingemeindeter Ort (A.VOO)", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25988, 48.18285]
+      },
+      "properties": {
+         "id": "pmb251007",
+         "title": "Leupold’s Hubertushof",
+         "lat": "48.18285",
+         "lon": "16.25988",
+         "timestamp": ["1923-07-20"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -89,6 +129,30 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.241739, 48.090788]
+      },
+      "properties": {
+         "id": "pmb44510",
+         "title": "Hotel Radetzky",
+         "lat": "48.090788",
+         "lon": "16.241739",
+         "timestamp": ["1923-07-20"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Deigner",
+
+         "p_id": "#15270"
          }]
       }
       }

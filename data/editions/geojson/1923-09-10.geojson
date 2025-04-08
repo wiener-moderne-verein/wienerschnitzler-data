@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.75, 47.53333]
+            [9.77993, 47.5079], 
+            [9.74388, 47.52736]
           ]
       },
       "properties": {
@@ -17,18 +18,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.75, 47.53333]
+        "coordinates": [9.74388, 47.52736]
       },
       "properties": {
-         "id": "pmb91159",
-         "title": "Lochau",
-         "lat": "47.53333",
-         "lon": "9.75",
+         "id": "pmb266552",
+         "title": "Seehotel am Kaiserstrand",
+         "lat": "47.52736",
+         "lon": "9.74388",
          "timestamp": ["1923-09-10"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2772345/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.77993, 47.5079]
+      },
+      "properties": {
+         "id": "pmb147155",
+         "title": "Pfänder",
+         "lat": "47.5079",
+         "lon": "9.77993",
+         "timestamp": ["1923-09-10"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2768947/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }
   ]

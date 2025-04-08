@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.33716, 48.23188], 
+            [16.331527, 48.23428], 
+            [16.30526, 48.24529], 
             [16.300034240016, 48.246838181084]
           ]
       },
@@ -30,6 +32,30 @@
         "geonames": "https://sws.geonames.org/2768462/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.331527, 48.23428]
+      },
+      "properties": {
+         "id": "pmb74",
+         "title": "Restauration Türkenschanz-Park",
+         "lat": "48.23428",
+         "lon": "16.331527",
+         "timestamp": ["1923-07-25"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Harner",
+
+         "p_id": "#211311"
+         }]
       }
       },
     {
@@ -109,6 +135,23 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30526, 48.24529]
+      },
+      "properties": {
+         "id": "pmb266419",
+         "title": "Dr.-Heinrich-Maier-Straße 11",
+         "lat": "48.24529",
+         "lon": "16.30526",
+         "timestamp": ["1923-07-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

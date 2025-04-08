@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.8622, 46.5146], 
+            [9.8719444444444, 46.533611111111], 
+            [9.85759, 46.512179], 
+            [9.90182, 46.52265], 
+            [9.88264, 46.50846], 
             [9.91, 46.508472], 
+            [9.89606998217, 46.4906499735], 
             [16.29273, 48.23975]
           ]
       },
@@ -19,20 +23,72 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.8622, 46.5146]
+        "coordinates": [9.85759, 46.512179]
       },
       "properties": {
-         "id": "pmb12589",
-         "title": "Celerina",
-         "lat": "46.5146",
-         "lon": "9.8622",
+         "id": "pmb1138",
+         "title": "Cresta Palace",
+         "lat": "46.512179",
+         "lon": "9.85759",
          "timestamp": ["1923-08-29"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Celerina/Schlarigna", 
-        "wikidata": "http://www.wikidata.org/entity/Q64964", 
-        "geonames": "https://sws.geonames.org/2661241/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.29273, 48.23975]
+      },
+      "properties": {
+         "id": "pmb532",
+         "title": "Schafberg [Wien]",
+         "lat": "48.23975",
+         "lon": "16.29273",
+         "timestamp": ["1923-08-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schafberg_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q21859881", 
+        "geonames": "https://sws.geonames.org/2601012/", 
+        "abbr": "T.HLL", 
+        "type": "Hügel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.90182, 46.52265]
+      },
+      "properties": {
+         "id": "pmb266498",
+         "title": "Muottas-Muragl, Bergstation",
+         "lat": "46.52265",
+         "lon": "9.90182",
+         "timestamp": ["1923-08-29"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.88264, 46.50846]
+      },
+      "properties": {
+         "id": "pmb91426",
+         "title": "Punt Muragl, Talstation",
+         "lat": "46.50846",
+         "lon": "9.88264",
+         "timestamp": ["1923-08-29"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/10392678/", 
+        "abbr": "S.BUSTP", 
+        "type": "Bushaltestelle"
       }
       },
     {
@@ -58,20 +114,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.29273, 48.23975]
+        "coordinates": [9.89606998217, 46.4906499735]
       },
       "properties": {
-         "id": "pmb532",
-         "title": "Schafberg [Wien]",
-         "lat": "48.23975",
-         "lon": "16.29273",
+         "id": "pmb254898",
+         "title": "Bahnhof Pontresina",
+         "lat": "46.4906499735",
+         "lon": "9.89606998217",
          "timestamp": ["1923-08-29"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schafberg_(Wien)", 
-        "wikidata": "http://www.wikidata.org/entity/Q21859881", 
-        "geonames": "https://sws.geonames.org/2601012/", 
-        "abbr": "T.HLL", 
-        "type": "Hügel"
+        "wikidata": "http://www.wikidata.org/entity/Q7228365", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8719444444444, 46.533611111111]
+      },
+      "properties": {
+         "id": "pmb202117",
+         "title": "Samedan",
+         "lat": "46.533611111111",
+         "lon": "9.8719444444444",
+         "timestamp": ["1923-08-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Samedan", 
+        "wikidata": "http://www.wikidata.org/entity/Q69085", 
+        "geonames": "https://sws.geonames.org/2658846/ https://sws.geonames.org/7287048/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }
   ]

@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.8622, 46.5146]
+            [9.85759, 46.512179], 
+            [9.90126, 46.4955], 
+            [9.90983, 46.52396], 
+            [9.8719444444444, 46.533611111111]
           ]
       },
       "properties": {
@@ -17,20 +20,75 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.8622, 46.5146]
+        "coordinates": [9.85759, 46.512179]
       },
       "properties": {
-         "id": "pmb12589",
-         "title": "Celerina",
-         "lat": "46.5146",
-         "lon": "9.8622",
+         "id": "pmb1138",
+         "title": "Cresta Palace",
+         "lat": "46.512179",
+         "lon": "9.85759",
          "timestamp": ["1923-08-25"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Celerina/Schlarigna", 
-        "wikidata": "http://www.wikidata.org/entity/Q64964", 
-        "geonames": "https://sws.geonames.org/2661241/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.90126, 46.4955]
+      },
+      "properties": {
+         "id": "pmb34946",
+         "title": "Pontresina",
+         "lat": "46.4955",
+         "lon": "9.90126",
+         "timestamp": ["1923-08-25"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659172/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.90983, 46.52396]
+      },
+      "properties": {
+         "id": "pmb91312",
+         "title": "Muottas Muragl",
+         "lat": "46.52396",
+         "lon": "9.90983",
+         "timestamp": ["1923-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Muottas_Muragl", 
+        "wikidata": "http://www.wikidata.org/entity/Q363418", 
+        "geonames": "https://sws.geonames.org/6934902/", 
+        "abbr": "T.PK", 
+        "type": "Bergspitze"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8719444444444, 46.533611111111]
+      },
+      "properties": {
+         "id": "pmb202117",
+         "title": "Samedan",
+         "lat": "46.533611111111",
+         "lon": "9.8719444444444",
+         "timestamp": ["1923-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Samedan", 
+        "wikidata": "http://www.wikidata.org/entity/Q69085", 
+        "geonames": "https://sws.geonames.org/2658846/ https://sws.geonames.org/7287048/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }
   ]

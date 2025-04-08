@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.364283, 48.201813], 
+            [16.372564182283, 48.201265597319], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,47 @@
         "name": "27. Mai 1918"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1918-05-27"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364283, 48.201813]
+      },
+      "properties": {
+         "id": "pmb206958",
+         "title": "Gauermanngasse 4",
+         "lat": "48.201813",
+         "lon": "16.364283",
+         "timestamp": ["1918-05-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Albertine von Gutmann-Gelse",
+
+         "p_id": "#17584"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

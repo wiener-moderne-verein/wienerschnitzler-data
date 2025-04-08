@@ -8,6 +8,9 @@
         "coordinates": [
             [16.3566, 48.205142], 
             [16.367998, 48.203159], 
+            [16.370064, 48.202791], 
+            [16.372564182283, 48.201265597319], 
+            [16.358412, 48.213574], 
             [16.33716, 48.23188]
           ]
       },
@@ -30,6 +33,61 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.358412, 48.213574]
+      },
+      "properties": {
+         "id": "pmb266378",
+         "title": "Liebiggasse 4",
+         "lat": "48.213574",
+         "lon": "16.358412",
+         "timestamp": ["1918-03-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38026754", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1918-03-16"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370064, 48.202791]
+      },
+      "properties": {
+         "id": "pmb205",
+         "title": "Hotel Bristol Wien",
+         "lat": "48.202791",
+         "lon": "16.370064",
+         "timestamp": ["1918-03-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=7575", 
+        "wikidata": "http://www.wikidata.org/entity/Q37865047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {

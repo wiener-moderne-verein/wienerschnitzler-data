@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.8622, 46.5146]
+            [9.85759, 46.512179], 
+            [9.88264, 46.50846], 
+            [9.82525, 46.51739]
           ]
       },
       "properties": {
@@ -17,20 +19,52 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.8622, 46.5146]
+        "coordinates": [9.85759, 46.512179]
       },
       "properties": {
-         "id": "pmb12589",
-         "title": "Celerina",
-         "lat": "46.5146",
-         "lon": "9.8622",
+         "id": "pmb1138",
+         "title": "Cresta Palace",
+         "lat": "46.512179",
+         "lon": "9.85759",
          "timestamp": ["1923-08-23"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Celerina/Schlarigna", 
-        "wikidata": "http://www.wikidata.org/entity/Q64964", 
-        "geonames": "https://sws.geonames.org/2661241/", 
-        "abbr": "P.PPL", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.82525, 46.51739]
+      },
+      "properties": {
+         "id": "pmb266477",
+         "title": "Marguns (Val Saluver)",
+         "lat": "46.51739",
+         "lon": "9.82525",
+         "timestamp": ["1923-08-23"],
+         "importance": 1, 
+        "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.88264, 46.50846]
+      },
+      "properties": {
+         "id": "pmb91426",
+         "title": "Punt Muragl, Talstation",
+         "lat": "46.50846",
+         "lon": "9.88264",
+         "timestamp": ["1923-08-23"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/10392678/", 
+        "abbr": "S.BUSTP", 
+        "type": "Bushaltestelle"
       }
       }
   ]

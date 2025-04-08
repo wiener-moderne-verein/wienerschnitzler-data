@@ -220,8 +220,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
         "wikidata": "http://www.wikidata.org/entity/Q264752", 
         "geonames": "https://sws.geonames.org/3322725/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -2545,8 +2545,8 @@
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q59640310", 
         "geonames": "https://sws.geonames.org/2601017/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "L.FLD", 
+        "type": "Feld"
       }
       }, 
     {
@@ -2828,8 +2828,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Oberbozen", 
         "wikidata": "http://www.wikidata.org/entity/Q1469805", 
         "geonames": "https://sws.geonames.org/3166393/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "P.PPLA4", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -3955,6 +3955,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.8407, 46.51788]
+      },
+      "properties": {
+         "id": "pmb90223",
+         "title": "Alp Saluver",
+         "lat": "46.51788",
+         "lon": "9.8407",
+         "timestamp": ["1925-08-22"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/11218853/", 
+        "abbr": "S.HSE", 
+        "type": "Haus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.85844000465, 46.5139799692]
       },
       "properties": {
@@ -4679,6 +4697,68 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.1816666666667, 48.783888888889]
+      },
+      "properties": {
+         "id": "pmb251760",
+         "title": "Stuttgart Hauptbahnhof",
+         "lat": "48.783888888889",
+         "lon": "9.1816666666667",
+         "timestamp": ["1925-01-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stuttgart_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q613766", 
+        "geonames": "https://sws.geonames.org/6930415/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25988, 48.18285]
+      },
+      "properties": {
+         "id": "pmb251007",
+         "title": "Leupold’s Hubertushof",
+         "lat": "48.18285",
+         "lon": "16.25988",
+         "timestamp": ["1925-07-30"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33286, 48.25644]
+      },
+      "properties": {
+         "id": "pmb235184",
+         "title": "Himmelstraße 55",
+         "lat": "48.25644",
+         "lon": "16.33286",
+         "timestamp": ["1925-07-26", "1925-11-25"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q131720045", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ernst Benedikt",
+
+         "p_id": "#10872"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.231077, 48.748963]
       },
       "properties": {
@@ -4714,25 +4794,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.33286, 48.25644]
+        "coordinates": [10.29324, 46.794044]
       },
       "properties": {
-         "id": "pmb235184",
-         "title": "Himmelstraße 55",
-         "lat": "48.25644",
-         "lon": "16.33286",
-         "timestamp": ["1925-07-26", "1925-11-25"],
-         "importance": 2, 
-        "wikidata": "http://www.wikidata.org/entity/Q131720045", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Ernst Benedikt",
-
-         "p_id": "#10872"
-         }]
+         "id": "pmb254512",
+         "title": "Hotel Engadinerhof Tarasp Scuol",
+         "lat": "46.794044",
+         "lon": "10.29324",
+         "timestamp": ["1925-08-26"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.29804, 46.79671]
+      },
+      "properties": {
+         "id": "pmb63808",
+         "title": "Scuol",
+         "lat": "46.79671",
+         "lon": "10.29804",
+         "timestamp": ["1925-08-26", "1925-08-27", "1925-08-28", "1925-08-29"],
+         "importance": 4, 
+        "geonames": "https://sws.geonames.org/2658660/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.28346, 46.78631]
+      },
+      "properties": {
+         "id": "pmb61018",
+         "title": "Vulpera",
+         "lat": "46.78631",
+         "lon": "10.28346",
+         "timestamp": ["1925-08-27"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658085/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -4945,26 +5053,6 @@
          "importance": 4, 
         "abbr": "Verlag", 
         "type": ""
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [9.1816666666667, 48.783888888889]
-      },
-      "properties": {
-         "id": "pmb251760",
-         "title": "Stuttgart Hauptbahnhof",
-         "lat": "48.783888888889",
-         "lon": "9.1816666666667",
-         "timestamp": ["1925-01-09"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Stuttgart_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q613766", 
-        "geonames": "https://sws.geonames.org/6930415/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
       }
       }, 
     {
@@ -6142,23 +6230,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.25988, 48.18285]
-      },
-      "properties": {
-         "id": "pmb251007",
-         "title": "Leupold’s Hubertushof",
-         "lat": "48.18285",
-         "lon": "16.25988",
-         "timestamp": ["1925-07-30"],
-         "importance": 1, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [11.584894, 46.407268]
       },
       "properties": {
@@ -6317,24 +6388,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.8407, 46.51788]
-      },
-      "properties": {
-         "id": "pmb90223",
-         "title": "Alp Saluver",
-         "lat": "46.51788",
-         "lon": "9.8407",
-         "timestamp": ["1925-08-22"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/11218853/", 
-        "abbr": "S.HSE", 
-        "type": "Haus"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [9.906833, 46.486548]
       },
       "properties": {
@@ -6352,41 +6405,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.29804, 46.79671]
-      },
-      "properties": {
-         "id": "pmb63808",
-         "title": "Scuol",
-         "lat": "46.79671",
-         "lon": "10.29804",
-         "timestamp": ["1925-08-26", "1925-08-27", "1925-08-28", "1925-08-29"],
-         "importance": 4, 
-        "geonames": "https://sws.geonames.org/2658660/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.29324, 46.794044]
-      },
-      "properties": {
-         "id": "pmb254512",
-         "title": "Hotel Engadinerhof Tarasp Scuol",
-         "lat": "46.794044",
-         "lon": "10.29324",
-         "timestamp": ["1925-08-26"],
-         "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [10.25897, 46.77592]
       },
       "properties": {
@@ -6397,24 +6415,6 @@
          "timestamp": ["1925-08-27"],
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2660743/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.28346, 46.78631]
-      },
-      "properties": {
-         "id": "pmb61018",
-         "title": "Vulpera",
-         "lat": "46.78631",
-         "lon": "10.28346",
-         "timestamp": ["1925-08-27"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658085/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }

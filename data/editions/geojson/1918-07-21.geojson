@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.38091, 48.19156], 
-            [16.33716, 48.23188]
+            [16.379042, 48.197822], 
+            [16.33716, 48.23188], 
+            [16.358728, 48.213005]
           ]
       },
       "properties": {
@@ -32,6 +34,55 @@
         "geonames": "https://sws.geonames.org/6354997/", 
         "abbr": "S.PAL", 
         "type": "Palast"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379042, 48.197822]
+      },
+      "properties": {
+         "id": "pmb266853",
+         "title": "Gardekirche",
+         "lat": "48.197822",
+         "lon": "16.379042",
+         "timestamp": ["1918-07-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gardekirche", 
+        "wikidata": "http://www.wikidata.org/entity/Q1494050", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.358728, 48.213005]
+      },
+      "properties": {
+         "id": "pmb254583",
+         "title": "Reichsratsstraße 13",
+         "lat": "48.213005",
+         "lon": "16.358728",
+         "timestamp": ["1918-07-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Gelles",
+
+         "p_id": "#16977"
+         }, 
+         {
+
+         "p_name": "Otto Zuckerkandl",
+
+         "p_id": "#3091"
+         }]
       }
       },
     {

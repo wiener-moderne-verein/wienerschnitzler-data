@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.370928, 48.19224], 
+            [16.372564182283, 48.201265597319], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,41 @@
         "name": "4. April 1918"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370928, 48.19224]
+      },
+      "properties": {
+         "id": "pmb92602",
+         "title": "Wiednerspital",
+         "lat": "48.19224",
+         "lon": "16.370928",
+         "timestamp": ["1918-04-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=8896", 
+        "wikidata": "http://www.wikidata.org/entity/Q1485420"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1918-04-04"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

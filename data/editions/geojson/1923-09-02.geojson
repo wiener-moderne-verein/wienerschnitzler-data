@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.8622, 46.5146]
+            [9.871384, 46.438899], 
+            [9.90126, 46.4955], 
+            [9.85759, 46.512179]
           ]
       },
       "properties": {
@@ -17,20 +19,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.8622, 46.5146]
+        "coordinates": [9.85759, 46.512179]
       },
       "properties": {
-         "id": "pmb12589",
-         "title": "Celerina",
-         "lat": "46.5146",
-         "lon": "9.8622",
+         "id": "pmb1138",
+         "title": "Cresta Palace",
+         "lat": "46.512179",
+         "lon": "9.85759",
          "timestamp": ["1923-09-02"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Celerina/Schlarigna", 
-        "wikidata": "http://www.wikidata.org/entity/Q64964", 
-        "geonames": "https://sws.geonames.org/2661241/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.90126, 46.4955]
+      },
+      "properties": {
+         "id": "pmb34946",
+         "title": "Pontresina",
+         "lat": "46.4955",
+         "lon": "9.90126",
+         "timestamp": ["1923-09-02"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659172/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.871384, 46.438899]
+      },
+      "properties": {
+         "id": "pmb92492",
+         "title": "Val Roseg",
+         "lat": "46.438899",
+         "lon": "9.871384",
+         "timestamp": ["1923-09-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Val_Roseg", 
+        "wikidata": "http://www.wikidata.org/entity/Q2507789", 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
       }
       }
   ]

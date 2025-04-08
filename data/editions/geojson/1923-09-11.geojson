@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.75, 47.53333]
+            [9.46667, 47.58333], 
+            [9.74388, 47.52736], 
+            [9.17825, 47.6644], 
+            [9.1763888888889, 47.663333333333]
           ]
       },
       "properties": {
@@ -17,18 +20,73 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.75, 47.53333]
+        "coordinates": [9.74388, 47.52736]
       },
       "properties": {
-         "id": "pmb91159",
-         "title": "Lochau",
-         "lat": "47.53333",
-         "lon": "9.75",
+         "id": "pmb266552",
+         "title": "Seehotel am Kaiserstrand",
+         "lat": "47.52736",
+         "lon": "9.74388",
          "timestamp": ["1923-09-11"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2772345/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1763888888889, 47.663333333333]
+      },
+      "properties": {
+         "id": "pmb266559",
+         "title": "Münster Unserer Lieben Frau",
+         "lat": "47.663333333333",
+         "lon": "9.1763888888889",
+         "timestamp": ["1923-09-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Konstanzer_M%C3%BCnster", 
+        "wikidata": "http://www.wikidata.org/entity/Q427812", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.17825, 47.6644]
+      },
+      "properties": {
+         "id": "pmb266562",
+         "title": "Steigenberger Inselhotel",
+         "lat": "47.6644",
+         "lon": "9.17825",
+         "timestamp": ["1923-09-11"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.46667, 47.58333]
+      },
+      "properties": {
+         "id": "pmb668",
+         "title": "Bodensee",
+         "lat": "47.58333",
+         "lon": "9.46667",
+         "timestamp": ["1923-09-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bodensee", 
+        "wikidata": "http://www.wikidata.org/entity/Q4127", 
+        "geonames": "https://sws.geonames.org/2659347/ https://sws.geonames.org/2947111/", 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       }
   ]

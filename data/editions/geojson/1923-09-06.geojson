@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.67621, 46.77793], 
-            [9.5215, 46.8578]
+            [9.661864, 46.775566], 
+            [9.67766, 46.77875], 
+            [9.67932, 46.78329], 
+            [9.653828, 46.829069], 
+            [9.528919, 46.85308]
           ]
       },
       "properties": {
@@ -18,37 +21,91 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.5215, 46.8578]
+        "coordinates": [9.528919, 46.85308]
       },
       "properties": {
-         "id": "pmb2448",
-         "title": "Chur",
-         "lat": "46.8578",
-         "lon": "9.5215",
+         "id": "pmb254664",
+         "title": "Bahnhof Chur",
+         "lat": "46.85308",
+         "lon": "9.528919",
          "timestamp": ["1923-09-06"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Chur", 
-        "wikidata": "http://www.wikidata.org/entity/Q69007", 
-        "geonames": "https://sws.geonames.org/2661169/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Chur", 
+        "wikidata": "http://www.wikidata.org/entity/Q663869", 
+        "geonames": "https://sws.geonames.org/8199053/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.67621, 46.77793]
+        "coordinates": [9.67932, 46.78329]
       },
       "properties": {
-         "id": "pmb43995",
-         "title": "Arosa",
-         "lat": "46.77793",
-         "lon": "9.67621",
+         "id": "pmb266532",
+         "title": "Bahnhof Arosa",
+         "lat": "46.78329",
+         "lon": "9.67932",
          "timestamp": ["1923-09-06"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2661712/", 
-        "abbr": "P.PPL", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Arosa", 
+        "wikidata": "http://www.wikidata.org/entity/Q800397", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.67766, 46.77875]
+      },
+      "properties": {
+         "id": "pmb266540",
+         "title": "Kursaal Arosa",
+         "lat": "46.77875",
+         "lon": "9.67766",
+         "timestamp": ["1923-09-06"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.653828, 46.829069]
+      },
+      "properties": {
+         "id": "pmb266535",
+         "title": "Bahnstrecke Chur–Arosa",
+         "lat": "46.829069",
+         "lon": "9.653828",
+         "timestamp": ["1923-09-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnstrecke_Chur%E2%80%93Arosa", 
+        "wikidata": "http://www.wikidata.org/entity/Q693867", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.661864, 46.775566]
+      },
+      "properties": {
+         "id": "pmb92300",
+         "title": "Innerarosa",
+         "lat": "46.775566",
+         "lon": "9.661864",
+         "timestamp": ["1923-09-06"],
+         "importance": 1, 
+        "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
       }
       }

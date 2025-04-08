@@ -6,13 +6,72 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [15.307538509368898, 47.78302907153981], 
+            [15.3171724, 47.77307323], 
+            [16.372564182283, 48.201265597319], 
+            [16.337778, 48.196667], 
+            [16.33716, 48.23188], 
+            [15.623889, 48.208056]
           ]
       },
       "properties": {
         "name": "25. Mai 1918"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.3171724, 47.77307323]
+      },
+      "properties": {
+         "id": "pmb266720",
+         "title": "Hotel Rohrbacherhof",
+         "lat": "47.77307323",
+         "lon": "15.3171724",
+         "timestamp": ["1918-05-25"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1918-05-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1918-05-25"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -90,6 +149,43 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.307538509368898, 47.78302907153981]
+      },
+      "properties": {
+         "id": "pmb256721",
+         "title": "Bahnhof Mariazell",
+         "lat": "47.78302907153981",
+         "lon": "15.307538509368898",
+         "timestamp": ["1918-05-25"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111171461", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.623889, 48.208056]
+      },
+      "properties": {
+         "id": "pmb256727",
+         "title": "St. Pölten Hauptbahnhof",
+         "lat": "48.208056",
+         "lon": "15.623889",
+         "timestamp": ["1918-05-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._P%C3%B6lten_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q662913", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

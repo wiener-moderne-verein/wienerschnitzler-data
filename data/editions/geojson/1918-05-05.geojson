@@ -6,14 +6,70 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.241739, 48.090788], 
             [16.27, 48.0925], 
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.33641, 48.23362]
           ]
       },
       "properties": {
         "name": "5. Mai 1918"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1918-05-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -90,6 +146,30 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.241739, 48.090788]
+      },
+      "properties": {
+         "id": "pmb44510",
+         "title": "Hotel Radetzky",
+         "lat": "48.090788",
+         "lon": "16.241739",
+         "timestamp": ["1918-05-05"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Deigner",
+
+         "p_id": "#15270"
          }]
       }
       },

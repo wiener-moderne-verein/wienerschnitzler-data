@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [9.75, 47.53333]
+            [9.7471, 47.50311], 
+            [9.74388, 47.52736], 
+            [9.46667, 47.58333]
           ]
       },
       "properties": {
@@ -17,18 +19,57 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.75, 47.53333]
+        "coordinates": [9.74388, 47.52736]
       },
       "properties": {
-         "id": "pmb91159",
-         "title": "Lochau",
-         "lat": "47.53333",
-         "lon": "9.75",
+         "id": "pmb266552",
+         "title": "Seehotel am Kaiserstrand",
+         "lat": "47.52736",
+         "lon": "9.74388",
          "timestamp": ["1923-09-12"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2772345/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.7471, 47.50311]
+      },
+      "properties": {
+         "id": "pmb40321",
+         "title": "Bregenz",
+         "lat": "47.50311",
+         "lon": "9.7471",
+         "timestamp": ["1923-09-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bregenz", 
+        "wikidata": "http://www.wikidata.org/entity/Q1737", 
+        "geonames": "https://sws.geonames.org/2781503/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.46667, 47.58333]
+      },
+      "properties": {
+         "id": "pmb668",
+         "title": "Bodensee",
+         "lat": "47.58333",
+         "lon": "9.46667",
+         "timestamp": ["1923-09-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bodensee", 
+        "wikidata": "http://www.wikidata.org/entity/Q4127", 
+        "geonames": "https://sws.geonames.org/2659347/ https://sws.geonames.org/2947111/", 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       }
   ]

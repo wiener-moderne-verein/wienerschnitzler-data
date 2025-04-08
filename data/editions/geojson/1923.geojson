@@ -65,6 +65,46 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1923-08-03", "1923-08-05"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1923-09-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=26893", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
@@ -184,8 +224,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1923-01-12", "1923-01-31", "1923-03-02", "1923-03-10", "1923-04-07", "1923-04-20", "1923-09-18", "1923-09-27", "1923-10-05", "1923-10-26", "1923-11-28", "1923-12-04"],
-         "importance": 12, 
+         "timestamp": ["1923-01-12", "1923-01-31", "1923-03-02", "1923-03-10", "1923-04-07", "1923-04-20", "1923-09-18", "1923-09-22", "1923-09-27", "1923-10-05", "1923-10-26", "1923-11-28", "1923-12-04"],
+         "importance": 13, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -277,9 +317,27 @@
          "title": "Pontresina",
          "lat": "46.4955",
          "lon": "9.90126",
-         "timestamp": ["1923-08-17"],
-         "importance": 1, 
+         "timestamp": ["1923-08-17", "1923-08-20", "1923-08-21", "1923-08-25", "1923-08-26", "1923-08-29", "1923-08-31", "1923-09-02"],
+         "importance": 8, 
         "geonames": "https://sws.geonames.org/2659172/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84327, 46.49937]
+      },
+      "properties": {
+         "id": "pmb44374",
+         "title": "St. Moritz",
+         "lat": "46.49937",
+         "lon": "9.84327",
+         "timestamp": ["1923-08-17", "1923-08-19", "1923-08-21", "1923-08-22", "1923-08-24", "1923-08-28", "1923-09-01"],
+         "importance": 7, 
+        "geonames": "https://sws.geonames.org/2658813/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -411,8 +469,8 @@
          "title": "I., Innere Stadt",
          "lat": "48.20769",
          "lon": "16.37049",
-         "timestamp": ["1923-03-28", "1923-04-04", "1923-04-28", "1923-06-05", "1923-06-07", "1923-06-19", "1923-06-22"],
-         "importance": 7, 
+         "timestamp": ["1923-03-28", "1923-04-04", "1923-04-28", "1923-06-05", "1923-06-07", "1923-06-19", "1923-06-22", "1923-07-11"],
+         "importance": 8, 
         "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
@@ -499,6 +557,26 @@
 
          "p_id": "#27730"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.266389, 48.188056]
+      },
+      "properties": {
+         "id": "pmb165",
+         "title": "Ober Sankt Veit",
+         "lat": "48.188056",
+         "lon": "16.266389",
+         "timestamp": ["1923-07-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ober_Sankt_Veit", 
+        "wikidata": "http://www.wikidata.org/entity/Q1667009", 
+        "geonames": "https://sws.geonames.org/2601120/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }, 
     {
@@ -596,8 +674,8 @@
          "title": "Schloss Mirabell",
          "lat": "47.805528",
          "lon": "13.042019",
-         "timestamp": ["1923-08-03", "1923-08-04"],
-         "importance": 2, 
+         "timestamp": ["1923-08-04"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Mirabell", 
         "wikidata": "http://www.wikidata.org/entity/Q688546", 
         "abbr": "Schloss (K.SLS)", 
@@ -680,6 +758,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.24809, 48.08611]
+      },
+      "properties": {
+         "id": "pmb75",
+         "title": "Hinterbrühl",
+         "lat": "48.08611",
+         "lon": "16.24809",
+         "timestamp": ["1923-07-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hinterbr%C3%BChl", 
+        "wikidata": "http://www.wikidata.org/entity/Q664735", 
+        "geonames": "https://sws.geonames.org/2776358/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.300034240016, 48.246838181084]
       },
       "properties": {
@@ -722,8 +820,8 @@
          "title": "Bundesgymnasium Döbling",
          "lat": "48.23555",
          "lon": "16.348401",
-         "timestamp": ["1923-01-09", "1923-04-20", "1923-04-27", "1923-05-29"],
-         "importance": 4, 
+         "timestamp": ["1923-01-09", "1923-04-20", "1923-04-27", "1923-05-29", "1923-09-21"],
+         "importance": 5, 
         "abbr": "Schule (K.SCH)", 
         "type": "Schule", 
         "arbeitsort": [
@@ -818,8 +916,8 @@
          "title": "Hotel Bristol Wien",
          "lat": "48.202791",
          "lon": "16.370064",
-         "timestamp": ["1923-03-23"],
-         "importance": 1, 
+         "timestamp": ["1923-03-23", "1923-09-21"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Wien)", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=7575", 
         "wikidata": "http://www.wikidata.org/entity/Q37865047", 
@@ -1009,8 +1107,8 @@
          "title": "Restauration Türkenschanz-Park",
          "lat": "48.23428",
          "lon": "16.331527",
-         "timestamp": ["1923-06-07"],
-         "importance": 1, 
+         "timestamp": ["1923-06-07", "1923-07-25"],
+         "importance": 2, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal", 
         "arbeitsort": [
@@ -1112,8 +1210,8 @@
          "title": "Alt Pilsenetzer Bierhalle",
          "lat": "48.216481",
          "lon": "16.359721",
-         "timestamp": ["1923-04-08", "1923-04-19", "1923-04-27", "1923-10-10", "1923-11-02", "1923-11-23"],
-         "importance": 6, 
+         "timestamp": ["1923-04-08", "1923-04-19", "1923-04-27", "1923-07-19", "1923-10-10", "1923-11-02", "1923-11-23"],
+         "importance": 7, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
       }
@@ -1187,8 +1285,8 @@
          "title": "Peregringasse 4",
          "lat": "48.216445",
          "lon": "16.364586",
-         "timestamp": ["1923-01-03", "1923-01-16", "1923-02-07", "1923-02-17", "1923-02-27", "1923-03-06", "1923-03-14", "1923-03-15", "1923-03-20", "1923-03-24", "1923-03-31", "1923-04-03", "1923-04-10", "1923-04-12", "1923-04-14", "1923-04-19", "1923-05-05", "1923-05-28", "1923-06-04", "1923-06-06", "1923-06-16", "1923-06-25", "1923-10-08"],
-         "importance": 23, 
+         "timestamp": ["1923-01-03", "1923-01-16", "1923-02-07", "1923-02-17", "1923-02-27", "1923-03-06", "1923-03-14", "1923-03-15", "1923-03-20", "1923-03-24", "1923-03-31", "1923-04-03", "1923-04-10", "1923-04-12", "1923-04-14", "1923-04-19", "1923-05-05", "1923-05-28", "1923-06-04", "1923-06-06", "1923-06-16", "1923-06-25", "1923-07-10", "1923-09-18", "1923-09-22", "1923-09-25", "1923-10-08"],
+         "importance": 27, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1472,8 +1570,8 @@
          "title": "Bodensee",
          "lat": "47.58333",
          "lon": "9.46667",
-         "timestamp": ["1923-08-15"],
-         "importance": 1, 
+         "timestamp": ["1923-08-15", "1923-09-11", "1923-09-12"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bodensee", 
         "wikidata": "http://www.wikidata.org/entity/Q4127", 
         "geonames": "https://sws.geonames.org/2659347/ https://sws.geonames.org/2947111/", 
@@ -1754,6 +1852,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.268889, 48.150556]
+      },
+      "properties": {
+         "id": "pmb7728",
+         "title": "Mauer",
+         "lat": "48.150556",
+         "lon": "16.268889",
+         "timestamp": ["1923-07-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mauer_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1910986", 
+        "geonames": "https://sws.geonames.org/2771781/", 
+        "abbr": "eingemeindeter Ort (A.VOO)", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.352811, 48.210713]
       },
       "properties": {
@@ -1921,8 +2039,8 @@
          "title": "Gastwirtschaft Josef Gruß",
          "lat": "48.224263",
          "lon": "16.349925",
-         "timestamp": ["1923-10-16"],
-         "importance": 1, 
+         "timestamp": ["1923-07-09", "1923-07-13", "1923-07-24", "1923-09-17", "1923-10-16"],
+         "importance": 5, 
         "abbr": "S.REST", 
         "type": "Restaurant"
       }
@@ -2072,6 +2190,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.241739, 48.090788]
+      },
+      "properties": {
+         "id": "pmb44510",
+         "title": "Hotel Radetzky",
+         "lat": "48.090788",
+         "lon": "16.241739",
+         "timestamp": ["1923-07-20"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Deigner",
+
+         "p_id": "#15270"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33641, 48.23362]
       },
       "properties": {
@@ -2209,8 +2351,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1923-01-14", "1923-06-16", "1923-07-16"],
-         "importance": 3, 
+         "timestamp": ["1923-01-14", "1923-06-16", "1923-07-15", "1923-07-16"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2338,8 +2480,8 @@
          "title": "Allgemeine Boden-Credit-Anstalt",
          "lat": "48.21156",
          "lon": "16.36265",
-         "timestamp": ["1923-01-17", "1923-02-03", "1923-03-16", "1923-03-21", "1923-05-30", "1923-06-05"],
-         "importance": 6, 
+         "timestamp": ["1923-01-17", "1923-02-03", "1923-03-16", "1923-03-21", "1923-05-30", "1923-06-05", "1923-09-19"],
+         "importance": 7, 
         "abbr": "Bank (K.BNK)", 
         "type": "Bank", 
         "arbeitsort": [
@@ -2482,6 +2624,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1923-07-13"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.882778, 47.728056]
       },
       "properties": {
@@ -2617,8 +2789,8 @@
          "title": "Sternwartestraße 62–64",
          "lat": "48.23233",
          "lon": "16.33691",
-         "timestamp": ["1923-07-16"],
-         "importance": 1, 
+         "timestamp": ["1923-07-16", "1923-09-24"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2684,8 +2856,8 @@
          "title": "Familienhotel »Cottage« Pension Kramer",
          "lat": "48.233562",
          "lon": "16.345645",
-         "timestamp": ["1923-04-07", "1923-04-13"],
-         "importance": 2, 
+         "timestamp": ["1923-04-07", "1923-04-13", "1923-09-22"],
+         "importance": 3, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude", 
         "wohnort": [
@@ -2872,8 +3044,8 @@
          "title": "Bahnhof Chur",
          "lat": "46.85308",
          "lon": "9.528919",
-         "timestamp": ["1923-08-15", "1923-08-16"],
-         "importance": 2, 
+         "timestamp": ["1923-08-15", "1923-08-16", "1923-09-06", "1923-09-07"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Chur", 
         "wikidata": "http://www.wikidata.org/entity/Q663869", 
         "geonames": "https://sws.geonames.org/8199053/", 
@@ -2902,6 +3074,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.695937, 46.401497]
+      },
+      "properties": {
+         "id": "pmb34108",
+         "title": "Maloja",
+         "lat": "46.401497",
+         "lon": "9.695937",
+         "timestamp": ["1923-08-27"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/11611658/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.8622, 46.5146]
       },
       "properties": {
@@ -2916,6 +3106,24 @@
         "geonames": "https://sws.geonames.org/2661241/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.89606998217, 46.4906499735]
+      },
+      "properties": {
+         "id": "pmb254898",
+         "title": "Bahnhof Pontresina",
+         "lat": "46.4906499735",
+         "lon": "9.89606998217",
+         "timestamp": ["1923-08-29"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q7228365", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -2985,6 +3193,114 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.85759, 46.512179]
+      },
+      "properties": {
+         "id": "pmb1138",
+         "title": "Cresta Palace",
+         "lat": "46.512179",
+         "lon": "9.85759",
+         "timestamp": ["1923-08-18", "1923-08-19", "1923-08-20", "1923-08-21", "1923-08-22", "1923-08-23", "1923-08-24", "1923-08-25", "1923-08-26", "1923-08-27", "1923-08-28", "1923-08-29", "1923-08-30", "1923-08-31", "1923-09-01", "1923-09-02", "1923-09-03"],
+         "importance": 17, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8407, 46.51788]
+      },
+      "properties": {
+         "id": "pmb90223",
+         "title": "Alp Saluver",
+         "lat": "46.51788",
+         "lon": "9.8407",
+         "timestamp": ["1923-08-26"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/11218853/", 
+        "abbr": "S.HSE", 
+        "type": "Haus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8224, 46.49452]
+      },
+      "properties": {
+         "id": "pmb256809",
+         "title": "Alp Giop",
+         "lat": "46.49452",
+         "lon": "9.8224",
+         "timestamp": ["1923-08-21"],
+         "importance": 1, 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8719444444444, 46.533611111111]
+      },
+      "properties": {
+         "id": "pmb202117",
+         "title": "Samedan",
+         "lat": "46.533611111111",
+         "lon": "9.8719444444444",
+         "timestamp": ["1923-08-25", "1923-08-29"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Samedan", 
+        "wikidata": "http://www.wikidata.org/entity/Q69085", 
+        "geonames": "https://sws.geonames.org/2658846/ https://sws.geonames.org/7287048/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.86875, 46.49619]
+      },
+      "properties": {
+         "id": "pmb91824",
+         "title": "Lej da Staz",
+         "lat": "46.49619",
+         "lon": "9.86875",
+         "timestamp": ["1923-08-26"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/11396943/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.88264, 46.50846]
+      },
+      "properties": {
+         "id": "pmb91426",
+         "title": "Punt Muragl, Talstation",
+         "lat": "46.50846",
+         "lon": "9.88264",
+         "timestamp": ["1923-08-23", "1923-08-29"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/10392678/", 
+        "abbr": "S.BUSTP", 
+        "type": "Bushaltestelle"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.366548, 48.21306]
       },
       "properties": {
@@ -2992,8 +3308,8 @@
          "title": "Österreichische Länderbank",
          "lat": "48.21306",
          "lon": "16.366548",
-         "timestamp": ["1923-02-09", "1923-03-16", "1923-03-21"],
-         "importance": 3, 
+         "timestamp": ["1923-02-09", "1923-03-16", "1923-03-21", "1923-07-30"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
         "wikidata": "http://www.wikidata.org/entity/Q26911630", 
         "abbr": "Bank (K.BNK)", 
@@ -3105,8 +3421,8 @@
          "title": "Oppolzergasse 6",
          "lat": "48.2116",
          "lon": "16.36171",
-         "timestamp": ["1923-01-19", "1923-02-04", "1923-04-08", "1923-05-05", "1923-06-15", "1923-11-14"],
-         "importance": 6, 
+         "timestamp": ["1923-01-19", "1923-02-04", "1923-04-08", "1923-05-05", "1923-06-15", "1923-09-22", "1923-11-14"],
+         "importance": 7, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3157,6 +3473,30 @@
          "importance": 4, 
         "abbr": "Anhöhe", 
         "type": "Anhöhe"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370203, 48.206639]
+      },
+      "properties": {
+         "id": "pmb232366",
+         "title": "Seilergasse 16",
+         "lat": "48.206639",
+         "lon": "16.370203",
+         "timestamp": ["1923-01-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Olga von Gans-Ludassy",
+
+         "p_id": "#16902"
+         }]
       }
       }, 
     {
@@ -3310,8 +3650,8 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1923-01-10", "1923-01-15", "1923-01-20", "1923-01-26", "1923-01-30", "1923-01-31", "1923-02-04", "1923-02-09", "1923-02-28", "1923-03-04", "1923-03-07", "1923-03-13", "1923-03-19", "1923-03-21", "1923-04-04", "1923-04-20", "1923-04-28", "1923-04-29", "1923-05-30", "1923-06-05", "1923-06-11", "1923-06-21", "1923-06-23"],
-         "importance": 23, 
+         "timestamp": ["1923-01-10", "1923-01-15", "1923-01-20", "1923-01-26", "1923-01-30", "1923-01-31", "1923-02-04", "1923-02-09", "1923-02-28", "1923-03-04", "1923-03-07", "1923-03-13", "1923-03-19", "1923-03-21", "1923-04-04", "1923-04-20", "1923-04-28", "1923-04-29", "1923-05-30", "1923-06-05", "1923-06-11", "1923-06-21", "1923-06-23", "1923-09-19"],
+         "importance": 24, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3397,30 +3737,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.370203, 48.206639]
-      },
-      "properties": {
-         "id": "pmb232366",
-         "title": "Seilergasse 16",
-         "lat": "48.206639",
-         "lon": "16.370203",
-         "timestamp": ["1923-01-24"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Olga von Gans-Ludassy",
-
-         "p_id": "#16902"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.370737, 48.213706]
       },
       "properties": {
@@ -3452,8 +3768,8 @@
          "title": "Riemergasse 1",
          "lat": "48.207779",
          "lon": "16.377475",
-         "timestamp": ["1923-02-06", "1923-02-09", "1923-02-14", "1923-02-28", "1923-06-07", "1923-06-09", "1923-06-22"],
-         "importance": 7, 
+         "timestamp": ["1923-02-06", "1923-02-09", "1923-02-14", "1923-02-28", "1923-06-07", "1923-06-09", "1923-06-22", "1923-09-21"],
+         "importance": 8, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3476,8 +3792,8 @@
          "title": "Sternwartestraße 56",
          "lat": "48.231689",
          "lon": "16.338993",
-         "timestamp": ["1923-02-08", "1923-03-07", "1923-06-09", "1923-06-18"],
-         "importance": 4, 
+         "timestamp": ["1923-02-08", "1923-03-07", "1923-06-09", "1923-06-18", "1923-09-26"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3648,8 +3964,8 @@
          "title": "Gregor-Mendel-Straße 32",
          "lat": "48.233651",
          "lon": "16.338022",
-         "timestamp": ["1923-03-25", "1923-06-24"],
-         "importance": 2, 
+         "timestamp": ["1923-03-25", "1923-06-24", "1923-07-23", "1923-07-24", "1923-09-15"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3929,8 +4245,8 @@
          "title": "Passau",
          "lat": "48.573333",
          "lon": "13.456944",
-         "timestamp": ["1923-05-07"],
-         "importance": 1, 
+         "timestamp": ["1923-05-07", "1923-07-08"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Passau", 
         "wikidata": "http://www.wikidata.org/entity/Q4190", 
         "geonames": "http://www.geonames.org/2855328/ https://sws.geonames.org/2855328/", 
@@ -4440,8 +4756,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Gamla_stan", 
         "wikidata": "http://www.wikidata.org/entity/Q579854", 
         "geonames": "https://sws.geonames.org/2674672/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }, 
     {
@@ -4509,24 +4825,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.076992, 59.33325]
-      },
-      "properties": {
-         "id": "pmb147893",
-         "title": "Kungliga Dramatiska Teatern",
-         "lat": "59.33325",
-         "lon": "18.076992",
-         "timestamp": ["1923-05-21"],
-         "importance": 1, 
-        "geonames": "https://www.geonames.org/6944469/kungliga-dramatiska-teatern.html", 
-        "abbr": "S.THTR", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [18.287778, 59.3]
       },
       "properties": {
@@ -4546,6 +4844,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [18.076992, 59.33325]
+      },
+      "properties": {
+         "id": "pmb147893",
+         "title": "Kungliga Dramatiska Teatern",
+         "lat": "59.33325",
+         "lon": "18.076992",
+         "timestamp": ["1923-05-21"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6944469/kungliga-dramatiska-teatern.html", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [18.09333333, 59.32916667]
       },
       "properties": {
@@ -4558,8 +4874,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Nordiska_Museet", 
         "wikidata": "http://www.wikidata.org/entity/Q1142142", 
         "geonames": "https://sws.geonames.org/6950893/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "S.MUS", 
+        "type": "Museum"
       }
       }, 
     {
@@ -4746,8 +5062,8 @@
          "title": "Bahnhof Baden-Baden",
          "lat": "48.7672",
          "lon": "8.23264",
-         "timestamp": ["1923-06-27", "1923-07-07", "1923-08-06"],
-         "importance": 3, 
+         "timestamp": ["1923-06-27", "1923-07-07", "1923-08-06", "1923-08-14"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Alter_Bahnhof_(Baden-Baden)", 
         "wikidata": "http://www.wikidata.org/entity/Q437733", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -4765,8 +5081,8 @@
          "title": "Carl T. Herrmann & Co.",
          "lat": "48.760634",
          "lon": "8.239577",
-         "timestamp": ["1923-06-28", "1923-08-08"],
-         "importance": 2, 
+         "timestamp": ["1923-06-28", "1923-08-08", "1923-08-13"],
+         "importance": 3, 
         "abbr": "Bank (K.BNK)", 
         "type": "Bank"
       }
@@ -4786,41 +5102,6 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.239966, 48.760615]
-      },
-      "properties": {
-         "id": "pmb246350",
-         "title": "Aurelia-Lichtspiele",
-         "lat": "48.760615",
-         "lon": "8.239966",
-         "timestamp": ["1923-06-28", "1923-08-08"],
-         "importance": 2, 
-        "abbr": "Kino (K.KNO)", 
-        "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.223953, 48.738163]
-      },
-      "properties": {
-         "id": "pmb244976",
-         "title": "Yburgstraße",
-         "lat": "48.738163",
-         "lon": "8.223953",
-         "timestamp": ["1923-06-29"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q114070580", 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße"
       }
       }, 
     {
@@ -4855,6 +5136,42 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.20028, 48.7306]
+      },
+      "properties": {
+         "id": "pmb266321",
+         "title": "Yburg",
+         "lat": "48.7306",
+         "lon": "8.20028",
+         "timestamp": ["1923-06-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Yburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q2599898", 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.2311, 48.76098]
+      },
+      "properties": {
+         "id": "pmb266328",
+         "title": "Friesenbergstraße 6",
+         "lat": "48.76098",
+         "lon": "8.2311",
+         "timestamp": ["1923-06-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -4917,6 +5234,59 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.26442, 48.76314]
+      },
+      "properties": {
+         "id": "pmb266345",
+         "title": "Merkurbergbahn Talstation",
+         "lat": "48.76314",
+         "lon": "8.26442",
+         "timestamp": ["1923-06-30"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.26465, 48.763]
+      },
+      "properties": {
+         "id": "pmb266342",
+         "title": "Merkurbergbahn",
+         "lat": "48.763",
+         "lon": "8.26465",
+         "timestamp": ["1923-06-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Merkurbergbahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q895924", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.27951, 48.76511]
+      },
+      "properties": {
+         "id": "pmb266350",
+         "title": "Merkurbergbahn Bergstation",
+         "lat": "48.76511",
+         "lon": "8.27951",
+         "timestamp": ["1923-06-30"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.20241, 48.75251]
       },
       "properties": {
@@ -4929,6 +5299,23 @@
         "geonames": "https://sws.geonames.org/2924995/", 
         "abbr": "T.MT", 
         "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.22685, 48.75486]
+      },
+      "properties": {
+         "id": "pmb266358",
+         "title": "Hotel und Café Gretel",
+         "lat": "48.75486",
+         "lon": "8.22685",
+         "timestamp": ["1923-07-01"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -5002,6 +5389,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q1514618", 
         "abbr": "Naturdenkmal", 
         "type": "Naturdenkmal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.231701, 48.670048]
+      },
+      "properties": {
+         "id": "pmb92450",
+         "title": "Plättig",
+         "lat": "48.670048",
+         "lon": "8.231701",
+         "timestamp": ["1923-07-02"],
+         "importance": 1, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -5160,6 +5564,46 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.1816666666667, 48.783888888889]
+      },
+      "properties": {
+         "id": "pmb251760",
+         "title": "Stuttgart Hauptbahnhof",
+         "lat": "48.783888888889",
+         "lon": "9.1816666666667",
+         "timestamp": ["1923-07-07", "1923-08-05", "1923-08-06"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stuttgart_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q613766", 
+        "geonames": "https://sws.geonames.org/6930415/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.081944444444, 49.446388888889]
+      },
+      "properties": {
+         "id": "pmb266364",
+         "title": "Nürnberg Hauptbahnhof",
+         "lat": "49.446388888889",
+         "lon": "11.081944444444",
+         "timestamp": ["1923-07-07", "1923-07-08"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q682583", 
+        "geonames": "https://sws.geonames.org/10861110/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.337198, 48.242823]
       },
       "properties": {
@@ -5173,6 +5617,99 @@
         "wikidata": "http://www.wikidata.org/entity/Q131718887", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33794, 48.23171]
+      },
+      "properties": {
+         "id": "pmb266396",
+         "title": "Gregor-Mendel-Straße 18",
+         "lat": "48.23171",
+         "lon": "16.33794",
+         "timestamp": ["1923-07-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34163, 48.23607]
+      },
+      "properties": {
+         "id": "pmb266400",
+         "title": "Lannerstraße 37",
+         "lat": "48.23607",
+         "lon": "16.34163",
+         "timestamp": ["1923-07-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25988, 48.18285]
+      },
+      "properties": {
+         "id": "pmb251007",
+         "title": "Leupold’s Hubertushof",
+         "lat": "48.18285",
+         "lon": "16.25988",
+         "timestamp": ["1923-07-20", "1923-07-26"],
+         "importance": 2, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33286, 48.25644]
+      },
+      "properties": {
+         "id": "pmb235184",
+         "title": "Himmelstraße 55",
+         "lat": "48.25644",
+         "lon": "16.33286",
+         "timestamp": ["1923-07-22", "1923-11-30"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q131720045", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ernst Benedikt",
+
+         "p_id": "#10872"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.30526, 48.24529]
+      },
+      "properties": {
+         "id": "pmb266419",
+         "title": "Dr.-Heinrich-Maier-Straße 11",
+         "lat": "48.24529",
+         "lon": "16.30526",
+         "timestamp": ["1923-07-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -5252,6 +5789,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.239966, 48.760615]
+      },
+      "properties": {
+         "id": "pmb246350",
+         "title": "Aurelia-Lichtspiele",
+         "lat": "48.760615",
+         "lon": "8.239966",
+         "timestamp": ["1923-08-08"],
+         "importance": 1, 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.239972, 48.755985]
       },
       "properties": {
@@ -5265,6 +5819,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q909303", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.24008, 48.75549]
+      },
+      "properties": {
+         "id": "pmb266439",
+         "title": "Schillerstraße 19",
+         "lat": "48.75549",
+         "lon": "8.24008",
+         "timestamp": ["1923-08-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -5367,8 +5938,8 @@
          "title": "Friedrichshafen",
          "lat": "47.65689",
          "lon": "9.47554",
-         "timestamp": ["1923-08-15"],
-         "importance": 1, 
+         "timestamp": ["1923-08-14", "1923-08-15"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Friedrichshafen", 
         "wikidata": "http://www.wikidata.org/entity/Q4051", 
         "geonames": "https://sws.geonames.org/2924585/ https://sws.geonames.org/6558180/", 
@@ -5398,6 +5969,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.37937129226, 47.5655228649]
+      },
+      "properties": {
+         "id": "pmb266446",
+         "title": "Bahnhof Romanshorn",
+         "lat": "47.5655228649",
+         "lon": "9.37937129226",
+         "timestamp": ["1923-08-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Romanshorn", 
+        "wikidata": "http://www.wikidata.org/entity/Q508197", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.74762, 46.62934]
       },
       "properties": {
@@ -5405,11 +5995,169 @@
          "title": "Bergün",
          "lat": "46.62934",
          "lon": "9.74762",
-         "timestamp": ["1923-08-16", "1923-08-17", "1923-08-18", "1923-08-19"],
-         "importance": 4, 
+         "timestamp": ["1923-08-16", "1923-08-17", "1923-08-18"],
+         "importance": 3, 
         "geonames": "https://sws.geonames.org/2661556/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.74575, 46.62918]
+      },
+      "properties": {
+         "id": "pmb266450",
+         "title": "Hotel Weisses Kreuz",
+         "lat": "46.62918",
+         "lon": "9.74575",
+         "timestamp": ["1923-08-16"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84565, 46.50168]
+      },
+      "properties": {
+         "id": "pmb266458",
+         "title": "Hotel Bären",
+         "lat": "46.50168",
+         "lon": "9.84565",
+         "timestamp": ["1923-08-17"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.84604, 46.49872]
+      },
+      "properties": {
+         "id": "pmb52175",
+         "title": "Hôtel La Margna",
+         "lat": "46.49872",
+         "lon": "9.84604",
+         "timestamp": ["1923-08-19"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.860075, 46.506997]
+      },
+      "properties": {
+         "id": "pmb92303",
+         "title": "Innschlucht",
+         "lat": "46.506997",
+         "lon": "9.860075",
+         "timestamp": ["1923-08-21", "1923-08-22"],
+         "importance": 2
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.83922, 46.49773]
+      },
+      "properties": {
+         "id": "pmb263298",
+         "title": "Cafè, Bäckerei & Confiserie Hanselmann",
+         "lat": "46.49773",
+         "lon": "9.83922",
+         "timestamp": ["1923-08-22"],
+         "importance": 1, 
+        "abbr": "Konditorei", 
+        "type": "Konditorei"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.82525, 46.51739]
+      },
+      "properties": {
+         "id": "pmb266477",
+         "title": "Marguns (Val Saluver)",
+         "lat": "46.51739",
+         "lon": "9.82525",
+         "timestamp": ["1923-08-23"],
+         "importance": 1, 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.90983, 46.52396]
+      },
+      "properties": {
+         "id": "pmb91312",
+         "title": "Muottas Muragl",
+         "lat": "46.52396",
+         "lon": "9.90983",
+         "timestamp": ["1923-08-25", "1923-08-29"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Muottas_Muragl", 
+        "wikidata": "http://www.wikidata.org/entity/Q363418", 
+        "geonames": "https://sws.geonames.org/6934902/", 
+        "abbr": "T.PK", 
+        "type": "Bergspitze"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.69073963, 46.40143967]
+      },
+      "properties": {
+         "id": "pmb266488",
+         "title": "Torre Belvedere",
+         "lat": "46.40143967",
+         "lon": "9.69073963",
+         "timestamp": ["1923-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Torre_Belvedere", 
+        "wikidata": "http://www.wikidata.org/entity/Q18202197", 
+        "abbr": "Turm", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.869749, 46.513272]
+      },
+      "properties": {
+         "id": "pmb263283",
+         "title": "San Gian (Celerina)",
+         "lat": "46.513272",
+         "lon": "9.869749",
+         "timestamp": ["1923-08-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/San_Gian_(Celerina)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2219585", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }, 
     {
@@ -5435,6 +6183,61 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.89156, 46.5143]
+      },
+      "properties": {
+         "id": "pmb266494",
+         "title": "Muottas-Muragl-Bahn",
+         "lat": "46.5143",
+         "lon": "9.89156",
+         "timestamp": ["1923-08-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Muottas-Muragl-Bahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q3743711", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.90182, 46.52265]
+      },
+      "properties": {
+         "id": "pmb266498",
+         "title": "Muottas-Muragl, Bergstation",
+         "lat": "46.52265",
+         "lon": "9.90182",
+         "timestamp": ["1923-08-29"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.871384, 46.438899]
+      },
+      "properties": {
+         "id": "pmb92492",
+         "title": "Val Roseg",
+         "lat": "46.438899",
+         "lon": "9.871384",
+         "timestamp": ["1923-08-31", "1923-09-02"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Val_Roseg", 
+        "wikidata": "http://www.wikidata.org/entity/Q2507789", 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [10.25848, 46.77696]
       },
       "properties": {
@@ -5445,6 +6248,131 @@
          "timestamp": ["1923-09-03", "1923-09-04", "1923-09-05"],
          "importance": 3, 
         "geonames": "https://sws.geonames.org/2658421/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.29324, 46.794044]
+      },
+      "properties": {
+         "id": "pmb254512",
+         "title": "Hotel Engadinerhof Tarasp Scuol",
+         "lat": "46.794044",
+         "lon": "10.29324",
+         "timestamp": ["1923-09-03", "1923-09-04", "1923-09-05"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.25961, 46.78204]
+      },
+      "properties": {
+         "id": "pmb266520",
+         "title": "Florins",
+         "lat": "46.78204",
+         "lon": "10.25961",
+         "timestamp": ["1923-09-04"],
+         "importance": 1, 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.261666666667, 46.778888888889]
+      },
+      "properties": {
+         "id": "pmb266523",
+         "title": "Schloss Tarasp",
+         "lat": "46.778888888889",
+         "lon": "10.261666666667",
+         "timestamp": ["1923-09-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Tarasp", 
+        "wikidata": "http://www.wikidata.org/entity/Q668250", 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.29804, 46.79671]
+      },
+      "properties": {
+         "id": "pmb63808",
+         "title": "Scuol",
+         "lat": "46.79671",
+         "lon": "10.29804",
+         "timestamp": ["1923-09-04"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658660/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.28346, 46.78631]
+      },
+      "properties": {
+         "id": "pmb61018",
+         "title": "Vulpera",
+         "lat": "46.78631",
+         "lon": "10.28346",
+         "timestamp": ["1923-09-04"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658085/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.57883, 46.66014]
+      },
+      "properties": {
+         "id": "pmb91901",
+         "title": "Tiefencastel",
+         "lat": "46.66014",
+         "lon": "9.57883",
+         "timestamp": ["1923-09-05"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658365/", 
+        "abbr": "P.PPLA2", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.55905, 46.72215]
+      },
+      "properties": {
+         "id": "pmb91133",
+         "title": "Lenzerheide",
+         "lat": "46.72215",
+         "lon": "9.55905",
+         "timestamp": ["1923-09-05"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659950/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -5471,6 +6399,78 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.67932, 46.78329]
+      },
+      "properties": {
+         "id": "pmb266532",
+         "title": "Bahnhof Arosa",
+         "lat": "46.78329",
+         "lon": "9.67932",
+         "timestamp": ["1923-09-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Arosa", 
+        "wikidata": "http://www.wikidata.org/entity/Q800397", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.653828, 46.829069]
+      },
+      "properties": {
+         "id": "pmb266535",
+         "title": "Bahnstrecke Chur–Arosa",
+         "lat": "46.829069",
+         "lon": "9.653828",
+         "timestamp": ["1923-09-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnstrecke_Chur%E2%80%93Arosa", 
+        "wikidata": "http://www.wikidata.org/entity/Q693867", 
+        "abbr": "Bahn", 
+        "type": "Bahn"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.661864, 46.775566]
+      },
+      "properties": {
+         "id": "pmb92300",
+         "title": "Innerarosa",
+         "lat": "46.775566",
+         "lon": "9.661864",
+         "timestamp": ["1923-09-06"],
+         "importance": 1, 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.67766, 46.77875]
+      },
+      "properties": {
+         "id": "pmb266540",
+         "title": "Kursaal Arosa",
+         "lat": "46.77875",
+         "lon": "9.67766",
+         "timestamp": ["1923-09-06"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.746083, 47.501895]
       },
       "properties": {
@@ -5478,10 +6478,49 @@
          "title": "Hotel Weißes Kreuz [Bregenz]",
          "lat": "47.501895",
          "lon": "9.746083",
-         "timestamp": ["1923-09-07", "1923-09-08"],
-         "importance": 2, 
+         "timestamp": ["1923-09-07", "1923-09-08", "1923-09-09"],
+         "importance": 3, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.739579, 47.502885]
+      },
+      "properties": {
+         "id": "pmb266545",
+         "title": "Bahnhof Bregenz",
+         "lat": "47.502885",
+         "lon": "9.739579",
+         "timestamp": ["1923-09-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bregenz", 
+        "wikidata": "http://www.wikidata.org/entity/Q15282663", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.7471, 47.50311]
+      },
+      "properties": {
+         "id": "pmb40321",
+         "title": "Bregenz",
+         "lat": "47.50311",
+         "lon": "9.7471",
+         "timestamp": ["1923-09-07", "1923-09-08", "1923-09-09", "1923-09-10", "1923-09-12"],
+         "importance": 5, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bregenz", 
+        "wikidata": "http://www.wikidata.org/entity/Q1737", 
+        "geonames": "https://sws.geonames.org/2781503/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -5495,11 +6534,102 @@
          "title": "Lochau",
          "lat": "47.53333",
          "lon": "9.75",
-         "timestamp": ["1923-09-08", "1923-09-10", "1923-09-11", "1923-09-12", "1923-09-13", "1923-09-14"],
-         "importance": 6, 
+         "timestamp": ["1923-09-08", "1923-09-09", "1923-09-10", "1923-09-11", "1923-09-12", "1923-09-13", "1923-09-14"],
+         "importance": 7, 
         "geonames": "https://sws.geonames.org/2772345/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.74388, 47.52736]
+      },
+      "properties": {
+         "id": "pmb266552",
+         "title": "Seehotel am Kaiserstrand",
+         "lat": "47.52736",
+         "lon": "9.74388",
+         "timestamp": ["1923-09-08", "1923-09-09", "1923-09-10", "1923-09-11", "1923-09-12", "1923-09-13", "1923-09-14"],
+         "importance": 7, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.77993, 47.5079]
+      },
+      "properties": {
+         "id": "pmb147155",
+         "title": "Pfänder",
+         "lat": "47.5079",
+         "lon": "9.77993",
+         "timestamp": ["1923-09-10"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2768947/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.17582, 47.66033]
+      },
+      "properties": {
+         "id": "pmb849",
+         "title": "Konstanz",
+         "lat": "47.66033",
+         "lon": "9.17582",
+         "timestamp": ["1923-09-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Konstanz", 
+        "wikidata": "http://www.wikidata.org/entity/Q3834", 
+        "geonames": "https://sws.geonames.org/2885679/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1763888888889, 47.663333333333]
+      },
+      "properties": {
+         "id": "pmb266559",
+         "title": "Münster Unserer Lieben Frau",
+         "lat": "47.663333333333",
+         "lon": "9.1763888888889",
+         "timestamp": ["1923-09-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Konstanzer_M%C3%BCnster", 
+        "wikidata": "http://www.wikidata.org/entity/Q427812", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.17825, 47.6644]
+      },
+      "properties": {
+         "id": "pmb266562",
+         "title": "Steigenberger Inselhotel",
+         "lat": "47.6644",
+         "lon": "9.17825",
+         "timestamp": ["1923-09-11"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -5573,31 +6703,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Himmelstra%C3%9Fe", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.33286, 48.25644]
-      },
-      "properties": {
-         "id": "pmb235184",
-         "title": "Himmelstraße 55",
-         "lat": "48.25644",
-         "lon": "16.33286",
-         "timestamp": ["1923-11-30"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q131720045", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Ernst Benedikt",
-
-         "p_id": "#10872"
-         }]
       }
       }, 
     {

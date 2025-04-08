@@ -7,7 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.375811, 48.203191], 
+            [16.370342, 48.211369], 
             [16.35992, 48.21681], 
+            [16.35792314399167, 48.21822882495184], 
             [16.33716, 48.23188]
           ]
       },
@@ -38,6 +40,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.35792314399167, 48.21822882495184]
+      },
+      "properties": {
+         "id": "pmb88413",
+         "title": "Pension Bleckmann",
+         "lat": "48.21822882495184",
+         "lon": "16.35792314399167",
+         "timestamp": ["1918-04-23"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.375811, 48.203191]
       },
       "properties": {
@@ -49,6 +68,37 @@
          "importance": 1, 
         "abbr": "Vergnügungseinrichtung", 
         "type": "Vergnügungseinrichtung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1918-04-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
       }
       },
     {

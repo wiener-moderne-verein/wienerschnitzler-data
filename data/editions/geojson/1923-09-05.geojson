@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [9.55905, 46.72215], 
+            [9.57883, 46.66014], 
             [10.25848, 46.77696], 
+            [10.29324, 46.794044], 
             [9.5215, 46.8578]
           ]
       },
@@ -36,6 +39,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [10.29324, 46.794044]
+      },
+      "properties": {
+         "id": "pmb254512",
+         "title": "Hotel Engadinerhof Tarasp Scuol",
+         "lat": "46.794044",
+         "lon": "10.29324",
+         "timestamp": ["1923-09-05"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.5215, 46.8578]
       },
       "properties": {
@@ -49,6 +69,42 @@
         "wikidata": "http://www.wikidata.org/entity/Q69007", 
         "geonames": "https://sws.geonames.org/2661169/", 
         "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.57883, 46.66014]
+      },
+      "properties": {
+         "id": "pmb91901",
+         "title": "Tiefencastel",
+         "lat": "46.66014",
+         "lon": "9.57883",
+         "timestamp": ["1923-09-05"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2658365/", 
+        "abbr": "P.PPLA2", 
+        "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.55905, 46.72215]
+      },
+      "properties": {
+         "id": "pmb91133",
+         "title": "Lenzerheide",
+         "lat": "46.72215",
+         "lon": "9.55905",
+         "timestamp": ["1923-09-05"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659950/", 
+        "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
       }

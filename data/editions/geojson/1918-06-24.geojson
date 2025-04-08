@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.358728, 48.213005], 
+            [16.35792314399167, 48.21822882495184], 
+            [16.374825, 48.211649], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +16,23 @@
         "name": "24. Juni 1918"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35792314399167, 48.21822882495184]
+      },
+      "properties": {
+         "id": "pmb88413",
+         "title": "Pension Bleckmann",
+         "lat": "48.21822882495184",
+         "lon": "16.35792314399167",
+         "timestamp": ["1918-06-24"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -89,6 +109,55 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374825, 48.211649]
+      },
+      "properties": {
+         "id": "pmb233016",
+         "title": "Stadttempel",
+         "lat": "48.211649",
+         "lon": "16.374825",
+         "timestamp": ["1918-06-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stadttempel", 
+        "wikidata": "http://www.wikidata.org/entity/Q253663", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.358728, 48.213005]
+      },
+      "properties": {
+         "id": "pmb254583",
+         "title": "Reichsratsstraße 13",
+         "lat": "48.213005",
+         "lon": "16.358728",
+         "timestamp": ["1918-06-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Gelles",
+
+         "p_id": "#16977"
+         }, 
+         {
+
+         "p_name": "Otto Zuckerkandl",
+
+         "p_id": "#3091"
          }]
       }
       }

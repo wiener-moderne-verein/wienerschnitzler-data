@@ -6,10 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [8.223953, 48.738163], 
+            [8.220444, 48.749863], 
+            [8.20028, 48.7306], 
             [8.238308, 48.749936], 
-            [8.22849, 48.76069], 
-            [8.220444, 48.749863]
+            [8.2311, 48.76098], 
+            [8.22849, 48.76069]
           ]
       },
       "properties": {
@@ -50,24 +51,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.223953, 48.738163]
-      },
-      "properties": {
-         "id": "pmb244976",
-         "title": "Yburgstraße",
-         "lat": "48.738163",
-         "lon": "8.223953",
-         "timestamp": ["1923-06-29"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q114070580", 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.220444, 48.749863]
       },
       "properties": {
@@ -96,6 +79,42 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.20028, 48.7306]
+      },
+      "properties": {
+         "id": "pmb266321",
+         "title": "Yburg",
+         "lat": "48.7306",
+         "lon": "8.20028",
+         "timestamp": ["1923-06-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Yburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q2599898", 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.2311, 48.76098]
+      },
+      "properties": {
+         "id": "pmb266328",
+         "title": "Friesenbergstraße 6",
+         "lat": "48.76098",
+         "lon": "8.2311",
+         "timestamp": ["1923-06-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

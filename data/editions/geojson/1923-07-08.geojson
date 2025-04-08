@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.456944, 48.573333], 
+            [11.081944444444, 49.446388888889], 
             [11.075556, 49.448333]
           ]
       },
@@ -30,6 +32,46 @@
         "wikidata": "http://www.wikidata.org/entity/Q478695", 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.081944444444, 49.446388888889]
+      },
+      "properties": {
+         "id": "pmb266364",
+         "title": "Nürnberg Hauptbahnhof",
+         "lat": "49.446388888889",
+         "lon": "11.081944444444",
+         "timestamp": ["1923-07-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q682583", 
+        "geonames": "https://sws.geonames.org/10861110/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.456944, 48.573333]
+      },
+      "properties": {
+         "id": "pmb5907",
+         "title": "Passau",
+         "lat": "48.573333",
+         "lon": "13.456944",
+         "timestamp": ["1923-07-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Passau", 
+        "wikidata": "http://www.wikidata.org/entity/Q4190", 
+        "geonames": "http://www.geonames.org/2855328/ https://sws.geonames.org/2855328/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }
   ]

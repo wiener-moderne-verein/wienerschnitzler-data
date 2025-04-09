@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.35137, 48.21346], 
+            [16.3566, 48.205142], 
             [16.381895, 48.209294], 
+            [16.337485, 48.233662], 
             [16.33716, 48.23188]
           ]
       },
@@ -29,6 +32,111 @@
          "importance": 1, 
         "abbr": "Vergnügungseinrichtung", 
         "type": "Vergnügungseinrichtung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3566, 48.205142]
+      },
+      "properties": {
+         "id": "pmb20",
+         "title": "Volkstheater",
+         "lat": "48.205142",
+         "lon": "16.3566",
+         "timestamp": ["1918-09-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
+        "wikidata": "http://www.wikidata.org/entity/Q688555", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Kassier Volkstheater 1895]",
+
+         "p_id": "#27730"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1918-09-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Emma Altmann",
+
+         "p_id": "#13342"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337485, 48.233662]
+      },
+      "properties": {
+         "id": "pmb254639",
+         "title": "Erholungsheim. Inh. Erna Patak",
+         "lat": "48.233662",
+         "lon": "16.337485",
+         "timestamp": ["1918-09-24"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       },
     {

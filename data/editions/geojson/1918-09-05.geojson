@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.11289, 47.48881], 
-            [9.6, 48.55]
+            [11.115865, 47.473119], 
+            [11.14742, 47.48946], 
+            [11.122034, 47.492611], 
+            [11.10885, 47.49085], 
+            [11.11289, 47.48881]
           ]
       },
       "properties": {
@@ -35,18 +38,77 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.6, 48.55]
+        "coordinates": [11.122034, 47.492611]
       },
       "properties": {
          "id": "pmb92622",
          "title": "Hasental",
-         "lat": "48.55",
-         "lon": "9.6",
+         "lat": "47.492611",
+         "lon": "11.122034",
          "timestamp": ["1918-09-05"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2909604/", 
         "abbr": "T.VAL", 
         "type": "Tal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.10885, 47.49085]
+      },
+      "properties": {
+         "id": "pmb34392",
+         "title": "Villa Zufriedenheit",
+         "lat": "47.49085",
+         "lon": "11.10885",
+         "timestamp": ["1918-09-05"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.14742, 47.48946]
+      },
+      "properties": {
+         "id": "pmb91685",
+         "title": "Schlattan",
+         "lat": "47.48946",
+         "lon": "11.14742",
+         "timestamp": ["1918-09-05"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2838878/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.115865, 47.473119]
+      },
+      "properties": {
+         "id": "pmb92604",
+         "title": "Wildenau",
+         "lat": "47.473119",
+         "lon": "11.115865",
+         "timestamp": ["1918-09-05"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111372685", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }
   ]

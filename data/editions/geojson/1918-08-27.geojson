@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.09576, 47.49209], 
-            [11.567552, 48.143964]
+            [11.097, 47.4915], 
+            [11.10885, 47.49085], 
+            [11.11289, 47.48881], 
+            [11.567552, 48.143964], 
+            [11.555, 48.140833]
           ]
       },
       "properties": {
@@ -35,20 +38,80 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.09576, 47.49209]
+        "coordinates": [11.555, 48.140833]
       },
       "properties": {
-         "id": "pmb667",
-         "title": "Garmisch-Partenkirchen",
-         "lat": "47.49209",
-         "lon": "11.09576",
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
          "timestamp": ["1918-08-27"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Garmisch-Partenkirchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q127043", 
-        "geonames": "https://sws.geonames.org/2922530/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.097, 47.4915]
+      },
+      "properties": {
+         "id": "pmb265939",
+         "title": "Bahnhof Garmisch-Partenkirchen",
+         "lat": "47.4915",
+         "lon": "11.097",
+         "timestamp": ["1918-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Garmisch-Partenkirchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q800804", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.11289, 47.48881]
+      },
+      "properties": {
+         "id": "pmb808",
+         "title": "Haus Tannenberg",
+         "lat": "47.48881",
+         "lon": "11.11289",
+         "timestamp": ["1918-08-27"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.10885, 47.49085]
+      },
+      "properties": {
+         "id": "pmb34392",
+         "title": "Villa Zufriedenheit",
+         "lat": "47.49085",
+         "lon": "11.10885",
+         "timestamp": ["1918-08-27"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }]
       }
       }
   ]

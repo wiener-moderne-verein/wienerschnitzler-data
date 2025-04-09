@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.296622, 48.183258], 
+            [16.377197811369, 48.200771836002], 
+            [16.358728, 48.213005], 
             [16.33716, 48.23188], 
+            [16.337485, 48.233662], 
+            [16.305395, 48.245422], 
             [16.28916, 48.24523]
           ]
       },
@@ -33,6 +36,53 @@
         "geonames": "https://sws.geonames.org/2600997/", 
         "abbr": "T.HLL", 
         "type": "Hügel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337485, 48.233662]
+      },
+      "properties": {
+         "id": "pmb254639",
+         "title": "Erholungsheim. Inh. Erna Patak",
+         "lat": "48.233662",
+         "lon": "16.337485",
+         "timestamp": ["1918-10-18"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.305395, 48.245422]
+      },
+      "properties": {
+         "id": "pmb249388",
+         "title": "Dr.-Heinrich-Maier-Straße 11",
+         "lat": "48.245422",
+         "lon": "16.305395",
+         "timestamp": ["1918-10-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Max Paulsen",
+
+         "p_id": "#12399"
+         }]
       }
       },
     {
@@ -118,13 +168,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.296622, 48.183258]
+        "coordinates": [16.358728, 48.213005]
       },
       "properties": {
-         "id": "pmb263537",
-         "title": "Woltergasse 2a",
-         "lat": "48.183258",
-         "lon": "16.296622",
+         "id": "pmb254583",
+         "title": "Reichsratsstraße 13",
+         "lat": "48.213005",
+         "lon": "16.358728",
          "timestamp": ["1918-10-18"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
@@ -132,9 +182,41 @@
         "wohnort": [
          {
 
-         "p_name": "Josef Popper-Lynkeus",
+         "p_name": "Karl Gelles",
 
-         "p_id": "#2135"
+         "p_id": "#16977"
+         }, 
+         {
+
+         "p_name": "Otto Zuckerkandl",
+
+         "p_id": "#3091"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377197811369, 48.200771836002]
+      },
+      "properties": {
+         "id": "pmb240",
+         "title": "Wiener Konzerthaus",
+         "lat": "48.200771836002",
+         "lon": "16.377197811369",
+         "timestamp": ["1918-10-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q695126", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hugo Botstiber",
+
+         "p_id": "#10983"
          }]
       }
       }

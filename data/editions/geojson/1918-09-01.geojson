@@ -6,8 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.11289, 47.48881], 
-            [11.10885, 47.49085]
+            [11.115951, 47.487667], 
+            [11.116276, 47.487098], 
+            [11.15017, 47.47913], 
+            [11.17687, 47.48807], 
+            [11.163174, 47.494429], 
+            [11.10885, 47.49085], 
+            [11.11289, 47.48881]
           ]
       },
       "properties": {
@@ -45,7 +50,102 @@
          "timestamp": ["1918-09-01"],
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.116276, 47.487098]
+      },
+      "properties": {
+         "id": "pmb266949",
+         "title": "Haus Schäuffelen",
+         "lat": "47.487098",
+         "lon": "11.116276",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.115951, 47.487667]
+      },
+      "properties": {
+         "id": "pmb92406",
+         "title": "Mittenwalder Straße",
+         "lat": "47.487667",
+         "lon": "11.115951",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "abbr": "H.STRT", 
+        "type": "Meerenge"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.15017, 47.47913]
+      },
+      "properties": {
+         "id": "pmb92043",
+         "title": "Wamberg",
+         "lat": "47.47913",
+         "lon": "11.15017",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2814337/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.17687, 47.48807]
+      },
+      "properties": {
+         "id": "pmb90985",
+         "title": "Kaltenbrunn",
+         "lat": "47.48807",
+         "lon": "11.17687",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2893605/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.163174, 47.494429]
+      },
+      "properties": {
+         "id": "pmb266943",
+         "title": "Gschwandtnerbauer",
+         "lat": "47.494429",
+         "lon": "11.163174",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133835512", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }
   ]

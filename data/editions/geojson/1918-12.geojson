@@ -32,8 +32,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1918-12-04", "1918-12-22"],
-         "importance": 2, 
+         "timestamp": ["1918-12-04"],
+         "importance": 1, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -98,8 +98,8 @@
          "title": "Türkenschanzpark",
          "lat": "48.235119783861",
          "lon": "16.333568462613",
-         "timestamp": ["1918-12-22"],
-         "importance": 1, 
+         "timestamp": ["1918-12-22", "1918-12-31"],
+         "importance": 2, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
       }
@@ -200,6 +200,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.365508, 48.200364]
+      },
+      "properties": {
+         "id": "pmb7",
+         "title": "Secession",
+         "lat": "48.200364",
+         "lon": "16.365508",
+         "timestamp": ["1918-12-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
+        "wikidata": "http://www.wikidata.org/entity/Q265129", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.322222222222, 48.263611111111]
       },
       "properties": {
@@ -232,6 +251,79 @@
         "wikidata": "http://www.wikidata.org/entity/Q2840760", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1918-12-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1918-12-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Else Lederer",
+
+         "p_id": "#25175"
+         }, 
+         {
+
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }]
       }
       }, 
     {
@@ -313,8 +405,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1918-12-20"],
-         "importance": 1, 
+         "timestamp": ["1918-12-05", "1918-12-20"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -465,8 +557,8 @@
          "title": "Tiefer Graben 17",
          "lat": "48.212284",
          "lon": "16.367725",
-         "timestamp": ["1918-12-05"],
-         "importance": 1, 
+         "timestamp": ["1918-12-05", "1918-12-11"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -481,6 +573,36 @@
          "p_name": "Gustav Schwarzkopf",
 
          "p_id": "#12740"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364281, 48.202866]
+      },
+      "properties": {
+         "id": "pmb186043",
+         "title": "Elisabethstraße 22",
+         "lat": "48.202866",
+         "lon": "16.364281",
+         "timestamp": ["1918-12-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Werfel",
+
+         "p_id": "#13094"
+         }, 
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
          }]
       }
       }

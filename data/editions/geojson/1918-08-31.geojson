@@ -6,16 +6,60 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.077492, 47.511208], 
-            [11.079675, 47.50531], 
+            [11.10885, 47.49085], 
+            [11.11289, 47.48881], 
+            [11.124735, 47.495352], 
             [11.08324, 47.51941], 
-            [11.0805, 47.51984]
+            [11.0805, 47.51984], 
+            [11.077492, 47.511208], 
+            [11.079675, 47.50531]
           ]
       },
       "properties": {
         "name": "31. August 1918"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.11289, 47.48881]
+      },
+      "properties": {
+         "id": "pmb808",
+         "title": "Haus Tannenberg",
+         "lat": "47.48881",
+         "lon": "11.11289",
+         "timestamp": ["1918-08-31"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.10885, 47.49085]
+      },
+      "properties": {
+         "id": "pmb34392",
+         "title": "Villa Zufriedenheit",
+         "lat": "47.49085",
+         "lon": "11.10885",
+         "timestamp": ["1918-08-31"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -63,6 +107,23 @@
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.124735, 47.495352]
+      },
+      "properties": {
+         "id": "pmb266936",
+         "title": "Schalmei-Schlucht",
+         "lat": "47.495352",
+         "lon": "11.124735",
+         "timestamp": ["1918-08-31"],
+         "importance": 1, 
+        "abbr": "Schlucht", 
+        "type": "Schlucht"
       }
       },
     {

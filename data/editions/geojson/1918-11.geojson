@@ -25,6 +25,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1918-11-15"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3691, 48.203]
       },
       "properties": {
@@ -58,8 +75,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1918-11-14"],
-         "importance": 1, 
+         "timestamp": ["1918-11-14", "1918-11-28"],
+         "importance": 2, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -97,8 +114,8 @@
          "title": "Volkstheater",
          "lat": "48.205142",
          "lon": "16.3566",
-         "timestamp": ["1918-11-03", "1918-11-07", "1918-11-09", "1918-11-18", "1918-11-19", "1918-11-20", "1918-11-21", "1918-11-22", "1918-11-23", "1918-11-25", "1918-11-26", "1918-11-27", "1918-11-28", "1918-11-30"],
-         "importance": 14, 
+         "timestamp": ["1918-11-03", "1918-11-07", "1918-11-09", "1918-11-14", "1918-11-18", "1918-11-19", "1918-11-20", "1918-11-21", "1918-11-22", "1918-11-23", "1918-11-25", "1918-11-26", "1918-11-27", "1918-11-28", "1918-11-30"],
+         "importance": 15, 
         "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
@@ -134,6 +151,74 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.370064, 48.202791]
+      },
+      "properties": {
+         "id": "pmb205",
+         "title": "Hotel Bristol Wien",
+         "lat": "48.202791",
+         "lon": "16.370064",
+         "timestamp": ["1918-11-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=7575", 
+        "wikidata": "http://www.wikidata.org/entity/Q37865047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34618, 48.27805]
+      },
+      "properties": {
+         "id": "pmb59364",
+         "title": "Leopoldsberg",
+         "lat": "48.27805",
+         "lon": "16.34618",
+         "timestamp": ["1918-11-15"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2772625/", 
+        "abbr": "T.HLL", 
+        "type": "Hügel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.344253, 48.236143]
+      },
+      "properties": {
+         "id": "pmb236102",
+         "title": "Lannerstraße 24",
+         "lat": "48.236143",
+         "lon": "16.344253",
+         "timestamp": ["1918-11-02", "1918-11-17"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Margarethe Kainz",
+
+         "p_id": "#2273"
+         }, 
+         {
+
+         "p_name": "Josef Kainz",
+
+         "p_id": "#11851"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -141,8 +226,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1918-11-04"],
-         "importance": 1, 
+         "timestamp": ["1918-11-04", "1918-11-09"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -205,6 +290,49 @@
          "p_name": "Felix Speidel",
 
          "p_id": "#2646"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35689, 48.21787]
+      },
+      "properties": {
+         "id": "pmb232768",
+         "title": "Beethovengasse 6",
+         "lat": "48.21787",
+         "lon": "16.35689",
+         "timestamp": ["1918-11-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Apollonia ",
+
+         "p_id": "#13465"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
          }]
       }
       }, 
@@ -338,6 +466,91 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37057, 48.215905]
+      },
+      "properties": {
+         "id": "pmb254085",
+         "title": "Esslinggasse 16",
+         "lat": "48.215905",
+         "lon": "16.37057",
+         "timestamp": ["1918-11-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Johann Klein",
+
+         "p_id": "#27770"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1918-11-03", "1918-11-30"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Emma Altmann",
+
+         "p_id": "#13342"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -368,6 +581,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.337485, 48.233662]
+      },
+      "properties": {
+         "id": "pmb254639",
+         "title": "Erholungsheim. Inh. Erna Patak",
+         "lat": "48.233662",
+         "lon": "16.337485",
+         "timestamp": ["1918-11-01"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.377197811369, 48.200771836002]
       },
       "properties": {
@@ -387,6 +617,30 @@
          "p_name": "Hugo Botstiber",
 
          "p_id": "#10983"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.296622, 48.183258]
+      },
+      "properties": {
+         "id": "pmb263537",
+         "title": "Woltergasse 2a",
+         "lat": "48.183258",
+         "lon": "16.296622",
+         "timestamp": ["1918-11-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Popper-Lynkeus",
+
+         "p_id": "#2135"
          }]
       }
       }

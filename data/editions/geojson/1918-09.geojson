@@ -49,13 +49,32 @@
          "title": "Salzburg",
          "lat": "47.80067",
          "lon": "13.04532",
-         "timestamp": ["1918-09-11", "1918-09-12"],
-         "importance": 2, 
+         "timestamp": ["1918-09-11"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
         "abbr": "A.ADM2", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1918-09-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -89,8 +108,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1918-09-14"],
-         "importance": 1, 
+         "timestamp": ["1918-09-14", "1918-09-26"],
+         "importance": 2, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -121,6 +140,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1918-09-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3566, 48.205142]
       },
       "properties": {
@@ -128,8 +167,8 @@
          "title": "Volkstheater",
          "lat": "48.205142",
          "lon": "16.3566",
-         "timestamp": ["1918-09-25"],
-         "importance": 1, 
+         "timestamp": ["1918-09-24", "1918-09-25"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
@@ -160,6 +199,114 @@
         "geonames": "https://sws.geonames.org/2768462/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348401, 48.23555]
+      },
+      "properties": {
+         "id": "pmb253629",
+         "title": "Bundesgymnasium Döbling",
+         "lat": "48.23555",
+         "lon": "16.348401",
+         "timestamp": ["1918-09-18"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Anton Spigl",
+
+         "p_id": "#25214"
+         }, 
+         {
+
+         "p_name": "Oskar Hantschel",
+
+         "p_id": "#17850"
+         }, 
+         {
+
+         "p_name": "Alois Vetchy",
+
+         "p_id": "#26454"
+         }, 
+         {
+
+         "p_name": "Anton Stranzinger",
+
+         "p_id": "#25568"
+         }, 
+         {
+
+         "p_name": "Anton Stranzinger",
+
+         "p_id": "#25568"
+         }, 
+         {
+
+         "p_name": "Franz Matouschek",
+
+         "p_id": "#21159"
+         }, 
+         {
+
+         "p_name": "Arnold Kalich",
+
+         "p_id": "#19019"
+         }, 
+         {
+
+         "p_name": "Guido von Alth",
+
+         "p_id": "#13331"
+         }, 
+         {
+
+         "p_name": "Wenzel Rudofsky",
+
+         "p_id": "#23718"
+         }, 
+         {
+
+         "p_name": "Leopold Winkler",
+
+         "p_id": "#27198"
+         }, 
+         {
+
+         "p_name": "Josef Lesowsky",
+
+         "p_id": "#20346"
+         }, 
+         {
+
+         "p_name": "Florian Weigel",
+
+         "p_id": "#26782"
+         }, 
+         {
+
+         "p_name": "Wenzel Wild",
+
+         "p_id": "#27119"
+         }, 
+         {
+
+         "p_name": "Karl Kunst",
+
+         "p_id": "#19847"
+         }, 
+         {
+
+         "p_name": "Salomon Zimmels",
+
+         "p_id": "#27497"
+         }]
       }
       }, 
     {
@@ -215,6 +362,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q1423660", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.567552, 48.143964]
+      },
+      "properties": {
+         "id": "pmb401",
+         "title": "Hotel Marienbad",
+         "lat": "48.143964",
+         "lon": "11.567552",
+         "timestamp": ["1918-09-10", "1918-09-11"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -370,6 +534,65 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.338443, 48.234039]
+      },
+      "properties": {
+         "id": "pmb237633",
+         "title": "Hasenauerstraße 46",
+         "lat": "48.234039",
+         "lon": "16.338443",
+         "timestamp": ["1918-09-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Else Lederer",
+
+         "p_id": "#25175"
+         }, 
+         {
+
+         "p_name": "Léon Beldowicz",
+
+         "p_id": "#13948"
+         }, 
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }, 
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.570521871552252, 48.141240506268204]
+      },
+      "properties": {
+         "id": "pmb52580",
+         "title": "Parkhotel München",
+         "lat": "48.141240506268204",
+         "lon": "11.570521871552252",
+         "timestamp": ["1918-09-10"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.09576, 47.49209]
       },
       "properties": {
@@ -401,6 +624,26 @@
          "importance": 1, 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1918-09-10", "1918-09-11"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -503,6 +746,86 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.111318, 47.498525]
+      },
+      "properties": {
+         "id": "pmb52102",
+         "title": "St. Anton [Partenkirchen]",
+         "lat": "47.498525",
+         "lon": "11.111318",
+         "timestamp": ["1918-09-03", "1918-09-04"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._Anton_(Garmisch-Partenkirchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q14912491", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35137, 48.21346]
+      },
+      "properties": {
+         "id": "pmb232800",
+         "title": "Laudongasse 12",
+         "lat": "48.21346",
+         "lon": "16.35137",
+         "timestamp": ["1918-09-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Anna Donath",
+
+         "p_id": "#15430"
+         }, 
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Emma Altmann",
+
+         "p_id": "#13342"
+         }, 
+         {
+
+         "p_name": "Helene Schnitzler",
+
+         "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Emilie Kalisch",
+
+         "p_id": "#19026"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.349200867456, 48.226579411395]
       },
       "properties": {
@@ -557,6 +880,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.337485, 48.233662]
+      },
+      "properties": {
+         "id": "pmb254639",
+         "title": "Erholungsheim. Inh. Erna Patak",
+         "lat": "48.233662",
+         "lon": "16.337485",
+         "timestamp": ["1918-09-24", "1918-09-25"],
+         "importance": 2, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.2387111, 48.239965]
       },
       "properties": {
@@ -581,8 +921,8 @@
          "title": "Oppolzergasse 6",
          "lat": "48.2116",
          "lon": "16.36171",
-         "timestamp": ["1918-09-20"],
-         "importance": 1, 
+         "timestamp": ["1918-09-16", "1918-09-20"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -622,10 +962,36 @@
          "title": "Villa Zufriedenheit",
          "lat": "47.49085",
          "lon": "11.10885",
-         "timestamp": ["1918-09-01"],
-         "importance": 1, 
+         "timestamp": ["1918-09-01", "1918-09-02", "1918-09-03", "1918-09-04", "1918-09-05", "1918-09-06", "1918-09-07", "1918-09-08", "1918-09-10"],
+         "importance": 9, 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.097, 47.4915]
+      },
+      "properties": {
+         "id": "pmb265939",
+         "title": "Bahnhof Garmisch-Partenkirchen",
+         "lat": "47.4915",
+         "lon": "11.097",
+         "timestamp": ["1918-09-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Garmisch-Partenkirchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q800804", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -666,18 +1032,160 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.6, 48.55]
+        "coordinates": [11.15017, 47.47913]
+      },
+      "properties": {
+         "id": "pmb92043",
+         "title": "Wamberg",
+         "lat": "47.47913",
+         "lon": "11.15017",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2814337/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.17687, 47.48807]
+      },
+      "properties": {
+         "id": "pmb90985",
+         "title": "Kaltenbrunn",
+         "lat": "47.48807",
+         "lon": "11.17687",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2893605/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.163174, 47.494429]
+      },
+      "properties": {
+         "id": "pmb266943",
+         "title": "Gschwandtnerbauer",
+         "lat": "47.494429",
+         "lon": "11.163174",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133835512", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.115951, 47.487667]
+      },
+      "properties": {
+         "id": "pmb92406",
+         "title": "Mittenwalder Straße",
+         "lat": "47.487667",
+         "lon": "11.115951",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "abbr": "H.STRT", 
+        "type": "Meerenge"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.116276, 47.487098]
+      },
+      "properties": {
+         "id": "pmb266949",
+         "title": "Haus Schäuffelen",
+         "lat": "47.487098",
+         "lon": "11.116276",
+         "timestamp": ["1918-09-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.14742, 47.48946]
+      },
+      "properties": {
+         "id": "pmb91685",
+         "title": "Schlattan",
+         "lat": "47.48946",
+         "lon": "11.14742",
+         "timestamp": ["1918-09-01", "1918-09-05"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2838878/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0761, 47.4941]
+      },
+      "properties": {
+         "id": "pmb266956",
+         "title": "Strauss-Villa",
+         "lat": "47.4941",
+         "lon": "11.0761",
+         "timestamp": ["1918-09-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Strauss-Villa_(Garmisch-Partenkirchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1283156", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.122034, 47.492611]
       },
       "properties": {
          "id": "pmb92622",
          "title": "Hasental",
-         "lat": "48.55",
-         "lon": "9.6",
+         "lat": "47.492611",
+         "lon": "11.122034",
          "timestamp": ["1918-09-05"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2909604/", 
         "abbr": "T.VAL", 
         "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.115865, 47.473119]
+      },
+      "properties": {
+         "id": "pmb92604",
+         "title": "Wildenau",
+         "lat": "47.473119",
+         "lon": "11.115865",
+         "timestamp": ["1918-09-05"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111372685", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -695,6 +1203,41 @@
          "importance": 1, 
         "abbr": "See (N.SEE)", 
         "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.04809, 47.46701]
+      },
+      "properties": {
+         "id": "pmb90833",
+         "title": "Hammersbach",
+         "lat": "47.46701",
+         "lon": "11.04809",
+         "timestamp": ["1918-09-07"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2911101/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.335573, 48.237283]
+      },
+      "properties": {
+         "id": "pmb266996",
+         "title": "Peter-Jordan-Straße 72",
+         "lat": "48.237283",
+         "lon": "16.335573",
+         "timestamp": ["1918-09-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

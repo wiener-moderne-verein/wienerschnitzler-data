@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.04809, 47.46701], 
             [11.08002, 47.47757], 
-            [11.11289, 47.48881]
+            [11.11289, 47.48881], 
+            [11.10885, 47.49085]
           ]
       },
       "properties": {
@@ -35,6 +37,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.10885, 47.49085]
+      },
+      "properties": {
+         "id": "pmb34392",
+         "title": "Villa Zufriedenheit",
+         "lat": "47.49085",
+         "lon": "11.10885",
+         "timestamp": ["1918-09-07"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.08002, 47.47757]
       },
       "properties": {
@@ -46,6 +72,24 @@
          "importance": 1, 
         "abbr": "See (N.SEE)", 
         "type": "See"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.04809, 47.46701]
+      },
+      "properties": {
+         "id": "pmb90833",
+         "title": "Hammersbach",
+         "lat": "47.46701",
+         "lon": "11.04809",
+         "timestamp": ["1918-09-07"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2911101/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

@@ -7,7 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [11.11289, 47.48881], 
-            [11.08109, 47.49453]
+            [11.10885, 47.49085], 
+            [11.0761, 47.4941]
           ]
       },
       "properties": {
@@ -35,17 +36,43 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.08109, 47.49453]
+        "coordinates": [11.10885, 47.49085]
       },
       "properties": {
-         "id": "pmb250707",
-         "title": "Garmisch",
-         "lat": "47.49453",
-         "lon": "11.08109",
+         "id": "pmb34392",
+         "title": "Villa Zufriedenheit",
+         "lat": "47.49085",
+         "lon": "11.10885",
          "timestamp": ["1918-09-02"],
          "importance": 1, 
-        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes"
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0761, 47.4941]
+      },
+      "properties": {
+         "id": "pmb266956",
+         "title": "Strauss-Villa",
+         "lat": "47.4941",
+         "lon": "11.0761",
+         "timestamp": ["1918-09-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Strauss-Villa_(Garmisch-Partenkirchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1283156", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

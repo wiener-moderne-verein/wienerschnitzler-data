@@ -7,6 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.33716, 48.23188], 
+            [16.372564182283, 48.201265597319], 
+            [16.37057, 48.215905], 
+            [16.34618, 48.27805], 
             [16.33255, 48.27617]
           ]
       },
@@ -33,6 +36,65 @@
         "geonames": "https://sws.geonames.org/3333525/", 
         "abbr": "T.MT", 
         "type": "Berg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34618, 48.27805]
+      },
+      "properties": {
+         "id": "pmb59364",
+         "title": "Leopoldsberg",
+         "lat": "48.27805",
+         "lon": "16.34618",
+         "timestamp": ["1918-11-15"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2772625/", 
+        "abbr": "T.HLL", 
+        "type": "Hügel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37057, 48.215905]
+      },
+      "properties": {
+         "id": "pmb254085",
+         "title": "Esslinggasse 16",
+         "lat": "48.215905",
+         "lon": "16.37057",
+         "timestamp": ["1918-11-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Johann Klein",
+
+         "p_id": "#27770"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1918-11-15"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
       }
       },
     {

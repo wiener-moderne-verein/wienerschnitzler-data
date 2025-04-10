@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.373293, 48.207882], 
             [16.375833, 48.211111], 
+            [16.364586, 48.216445], 
             [16.33716, 48.23188]
           ]
       },
@@ -18,17 +20,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.375833, 48.211111]
+        "coordinates": [16.364586, 48.216445]
       },
       "properties": {
-         "id": "pmb633",
-         "title": "Kammerspiele Wien",
-         "lat": "48.211111",
-         "lon": "16.375833",
+         "id": "pmb185644",
+         "title": "Peregringasse 4",
+         "lat": "48.216445",
+         "lon": "16.364586",
          "timestamp": ["1923-12-21"],
          "importance": 1, 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
+         }]
       }
       },
     {
@@ -108,6 +129,41 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375833, 48.211111]
+      },
+      "properties": {
+         "id": "pmb633",
+         "title": "Kammerspiele Wien",
+         "lat": "48.211111",
+         "lon": "16.375833",
+         "timestamp": ["1923-12-21"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373293, 48.207882]
+      },
+      "properties": {
+         "id": "pmb172",
+         "title": "Kellerei und Gastwirtschaft Deutsches Haus, Friedrich Kargl",
+         "lat": "48.207882",
+         "lon": "16.373293",
+         "timestamp": ["1923-12-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131278738", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
       }
       }
   ]

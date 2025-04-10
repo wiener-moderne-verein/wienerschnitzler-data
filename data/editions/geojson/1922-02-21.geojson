@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.366131, 48.209757], 
+            [16.366548, 48.21306], 
+            [16.375833, 48.211111], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +16,74 @@
         "name": "21. Februar 1922"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366548, 48.21306]
+      },
+      "properties": {
+         "id": "pmb256702",
+         "title": "Österreichische Länderbank",
+         "lat": "48.21306",
+         "lon": "16.366548",
+         "timestamp": ["1922-02-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
+        "wikidata": "http://www.wikidata.org/entity/Q26911630", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Max Leitner",
+
+         "p_id": "#20270"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375833, 48.211111]
+      },
+      "properties": {
+         "id": "pmb633",
+         "title": "Kammerspiele Wien",
+         "lat": "48.211111",
+         "lon": "16.375833",
+         "timestamp": ["1922-02-21"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366131, 48.209757]
+      },
+      "properties": {
+         "id": "pmb266792",
+         "title": "Schwarzwaldschule [1913–1938]",
+         "lat": "48.209757",
+         "lon": "16.366131",
+         "timestamp": ["1922-02-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133829995", 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Eugenie Schwarzwald",
+
+         "p_id": "#24658"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

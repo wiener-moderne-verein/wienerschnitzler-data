@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.36171, 48.2116], 
             [16.37666, 48.20685], 
             [16.33716, 48.23188]
           ]
@@ -14,23 +15,6 @@
         "name": "27. November 1923"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37666, 48.20685]
-      },
-      "properties": {
-         "id": "pmb588",
-         "title": "Pan",
-         "lat": "48.20685",
-         "lon": "16.37666",
-         "timestamp": ["1923-11-27"],
-         "importance": 1, 
-        "abbr": "Kabarett (K.KBR)", 
-        "type": "Kabarett"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -107,6 +91,47 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37666, 48.20685]
+      },
+      "properties": {
+         "id": "pmb588",
+         "title": "Pan",
+         "lat": "48.20685",
+         "lon": "16.37666",
+         "timestamp": ["1923-11-27"],
+         "importance": 1, 
+        "abbr": "Kabarett (K.KBR)", 
+        "type": "Kabarett"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36171, 48.2116]
+      },
+      "properties": {
+         "id": "pmb235784",
+         "title": "Oppolzergasse 6",
+         "lat": "48.2116",
+         "lon": "16.36171",
+         "timestamp": ["1923-11-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
          }]
       }
       }

@@ -84,6 +84,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1919-02-19", "1919-03-31", "1919-04-01"],
+         "importance": 3, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3691, 48.203]
       },
       "properties": {
@@ -117,8 +134,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1919-02-07", "1919-02-19", "1919-03-16", "1919-04-04", "1919-04-24", "1919-11-19", "1919-12-09", "1919-12-12", "1919-12-16"],
-         "importance": 9, 
+         "timestamp": ["1919-01-26", "1919-02-04", "1919-02-07", "1919-02-19", "1919-03-16", "1919-04-04", "1919-04-24", "1919-11-19", "1919-12-09", "1919-12-12", "1919-12-16"],
+         "importance": 11, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -196,6 +213,26 @@
         "geonames": "https://sws.geonames.org/2761738/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.32522, 48.30521]
+      },
+      "properties": {
+         "id": "pmb865",
+         "title": "Klosterneuburg",
+         "lat": "48.30521",
+         "lon": "16.32522",
+         "timestamp": ["1919-03-25", "1919-04-06"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q487522", 
+        "geonames": "https://sws.geonames.org/2773913/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -294,6 +331,45 @@
         "wikidata": "http://www.wikidata.org/entity/Q284902", 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1919-02-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341944, 48.233056]
+      },
+      "properties": {
+         "id": "pmb533",
+         "title": "Währinger Cottage",
+         "lat": "48.233056",
+         "lon": "16.341944",
+         "timestamp": ["1919-03-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1136683", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -411,6 +487,131 @@
         "geonames": "https://sws.geonames.org/2768462/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37045, 48.20969]
+      },
+      "properties": {
+         "id": "pmb1282",
+         "title": "Hotel Wandl",
+         "lat": "48.20969",
+         "lon": "16.37045",
+         "timestamp": ["1919-02-06"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348401, 48.23555]
+      },
+      "properties": {
+         "id": "pmb253629",
+         "title": "Bundesgymnasium Döbling",
+         "lat": "48.23555",
+         "lon": "16.348401",
+         "timestamp": ["1919-03-12"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Anton Spigl",
+
+         "p_id": "#25214"
+         }, 
+         {
+
+         "p_name": "Oskar Hantschel",
+
+         "p_id": "#17850"
+         }, 
+         {
+
+         "p_name": "Alois Vetchy",
+
+         "p_id": "#26454"
+         }, 
+         {
+
+         "p_name": "Anton Stranzinger",
+
+         "p_id": "#25568"
+         }, 
+         {
+
+         "p_name": "Anton Stranzinger",
+
+         "p_id": "#25568"
+         }, 
+         {
+
+         "p_name": "Franz Matouschek",
+
+         "p_id": "#21159"
+         }, 
+         {
+
+         "p_name": "Arnold Kalich",
+
+         "p_id": "#19019"
+         }, 
+         {
+
+         "p_name": "Guido von Alth",
+
+         "p_id": "#13331"
+         }, 
+         {
+
+         "p_name": "Wenzel Rudofsky",
+
+         "p_id": "#23718"
+         }, 
+         {
+
+         "p_name": "Leopold Winkler",
+
+         "p_id": "#27198"
+         }, 
+         {
+
+         "p_name": "Josef Lesowsky",
+
+         "p_id": "#20346"
+         }, 
+         {
+
+         "p_name": "Florian Weigel",
+
+         "p_id": "#26782"
+         }, 
+         {
+
+         "p_name": "Wenzel Wild",
+
+         "p_id": "#27119"
+         }, 
+         {
+
+         "p_name": "Karl Kunst",
+
+         "p_id": "#19847"
+         }, 
+         {
+
+         "p_name": "Salomon Zimmels",
+
+         "p_id": "#27497"
+         }]
       }
       }, 
     {
@@ -571,8 +772,8 @@
          "title": "Sanatorium Loew",
          "lat": "48.216264483348",
          "lon": "16.347492624475",
-         "timestamp": ["1919-04-08", "1919-12-11"],
-         "importance": 2, 
+         "timestamp": ["1919-02-11", "1919-04-08", "1919-12-11"],
+         "importance": 3, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
         "arbeitsort": [
@@ -784,6 +985,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.361349, 48.223406]
+      },
+      "properties": {
+         "id": "pmb231945",
+         "title": "Porzellangasse 45",
+         "lat": "48.223406",
+         "lon": "16.361349",
+         "timestamp": ["1919-02-25", "1919-03-04", "1919-03-15", "1919-03-27"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }, 
+         {
+
+         "p_name": "Leo Van-Jung",
+
+         "p_id": "#26392"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.337917, 48.228096]
       },
       "properties": {
@@ -802,6 +1039,30 @@
          "p_name": "Egon Friedell",
 
          "p_id": "#2771"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1919-01-07", "1919-01-16", "1919-02-06"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
          }]
       }
       }, 
@@ -969,6 +1230,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1919-01-09", "1919-04-03"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.292995185249, 48.266268052681]
       },
       "properties": {
@@ -1100,8 +1392,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1919-04-05", "1919-05-15", "1919-12-28"],
-         "importance": 3, 
+         "timestamp": ["1919-01-08", "1919-04-05", "1919-05-15", "1919-12-28"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1204,6 +1496,67 @@
         "wikidata": "http://www.wikidata.org/entity/Q1692038", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1919-03-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1919-02-25", "1919-04-01"],
+         "importance": 2, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
       }
       }, 
     {
@@ -1582,6 +1935,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.358728, 48.213005]
+      },
+      "properties": {
+         "id": "pmb254583",
+         "title": "Reichsratsstraße 13",
+         "lat": "48.213005",
+         "lon": "16.358728",
+         "timestamp": ["1919-03-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Gelles",
+
+         "p_id": "#16977"
+         }, 
+         {
+
+         "p_name": "Otto Zuckerkandl",
+
+         "p_id": "#3091"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.349222, 48.201139]
       },
       "properties": {
@@ -1653,8 +2036,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1919-04-25", "1919-05-09", "1919-11-27"],
-         "importance": 3, 
+         "timestamp": ["1919-02-13", "1919-03-03", "1919-03-10", "1919-03-12", "1919-04-07", "1919-04-25", "1919-05-09", "1919-11-27"],
+         "importance": 8, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -1665,6 +2048,36 @@
          "p_name": "Hugo Botstiber",
 
          "p_id": "#10983"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.305395, 48.245422]
+      },
+      "properties": {
+         "id": "pmb249388",
+         "title": "Dr.-Heinrich-Maier-Straße 11",
+         "lat": "48.245422",
+         "lon": "16.305395",
+         "timestamp": ["1919-01-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Max Paulsen",
+
+         "p_id": "#12399"
          }]
       }
       }, 
@@ -1685,6 +2098,32 @@
         "wikidata": "http://www.wikidata.org/entity/Q2569106", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366548, 48.21306]
+      },
+      "properties": {
+         "id": "pmb256702",
+         "title": "Österreichische Länderbank",
+         "lat": "48.21306",
+         "lon": "16.366548",
+         "timestamp": ["1919-03-04", "1919-03-15", "1919-04-08"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
+        "wikidata": "http://www.wikidata.org/entity/Q26911630", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Max Leitner",
+
+         "p_id": "#20270"
+         }]
       }
       }, 
     {
@@ -1722,8 +2161,8 @@
          "title": "Woltergasse 2a",
          "lat": "48.183258",
          "lon": "16.296622",
-         "timestamp": ["1919-02-15", "1919-03-20", "1919-04-17", "1919-05-08", "1919-06-11", "1919-07-08", "1919-08-02", "1919-09-18", "1919-11-16", "1919-12-30"],
-         "importance": 10, 
+         "timestamp": ["1919-01-18", "1919-02-15", "1919-03-20", "1919-04-17", "1919-05-08", "1919-06-11", "1919-07-08", "1919-08-02", "1919-09-18", "1919-11-16", "1919-12-30"],
+         "importance": 11, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1763,8 +2202,8 @@
          "title": "Oppolzergasse 6",
          "lat": "48.2116",
          "lon": "16.36171",
-         "timestamp": ["1919-01-11", "1919-03-08", "1919-10-15", "1919-11-14"],
-         "importance": 4, 
+         "timestamp": ["1919-01-03", "1919-01-11", "1919-03-08", "1919-03-12", "1919-03-20", "1919-10-15", "1919-11-14"],
+         "importance": 7, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1774,6 +2213,23 @@
 
          "p_id": "#2312"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.334717, 48.227555]
+      },
+      "properties": {
+         "id": "pmb265264",
+         "title": "Steueradministration für den XVIII. und XIX. Bezirk",
+         "lat": "48.227555",
+         "lon": "16.334717",
+         "timestamp": ["1919-01-25"],
+         "importance": 1, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
       }
       }, 
     {
@@ -1858,6 +2314,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.38054, 48.19865]
+      },
+      "properties": {
+         "id": "pmb266612",
+         "title": "Marokkanergasse 11",
+         "lat": "48.19865",
+         "lon": "16.38054",
+         "timestamp": ["1919-03-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Paul Zifferer",
+
+         "p_id": "#5156"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.32092, 48.24077]
       },
       "properties": {
@@ -1911,6 +2391,40 @@
 
          "p_id": "#12481"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371847, 48.206961]
+      },
+      "properties": {
+         "id": "pmb267913",
+         "title": "Ludwig Zwieback & Bruder, Gemischtwaren, Damenkleider, Pfaidlerei",
+         "lat": "48.206961",
+         "lon": "16.371847",
+         "timestamp": ["1919-01-02"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353986, 48.253609]
+      },
+      "properties": {
+         "id": "pmb268086",
+         "title": "Grinzinger Straße 72",
+         "lat": "48.253609",
+         "lon": "16.353986",
+         "timestamp": ["1919-03-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {

@@ -254,6 +254,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1923-10-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752", 
+        "geonames": "https://sws.geonames.org/3322725/", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.364351, 48.199478]
       },
       "properties": {
@@ -373,8 +393,8 @@
          "title": "Hohe Warte",
          "lat": "48.248422",
          "lon": "16.355191",
-         "timestamp": ["1923-10-07", "1923-12-26"],
-         "importance": 2, 
+         "timestamp": ["1923-10-07", "1923-12-09", "1923-12-26"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hohe_Warte_(Wien)", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=1461", 
         "wikidata": "http://www.wikidata.org/entity/Q876564", 
@@ -469,8 +489,8 @@
          "title": "I., Innere Stadt",
          "lat": "48.20769",
          "lon": "16.37049",
-         "timestamp": ["1923-03-28", "1923-04-04", "1923-04-28", "1923-06-05", "1923-06-07", "1923-06-19", "1923-06-22", "1923-07-11"],
-         "importance": 8, 
+         "timestamp": ["1923-03-28", "1923-04-04", "1923-04-28", "1923-06-05", "1923-06-07", "1923-06-19", "1923-06-22", "1923-07-11", "1923-10-31", "1923-11-14", "1923-11-20", "1923-11-23", "1923-11-27", "1923-12-05", "1923-12-07", "1923-12-11", "1923-12-18", "1923-12-19", "1923-12-21", "1923-12-28"],
+         "importance": 20, 
         "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
@@ -496,23 +516,6 @@
         "geonames": "https://sws.geonames.org/2761331/", 
         "abbr": "S.RSTN", 
         "type": "Bahnhof"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.40289, 48.21206]
-      },
-      "properties": {
-         "id": "pmb185523",
-         "title": "Zum braunen Hirschen",
-         "lat": "48.21206",
-         "lon": "16.40289",
-         "timestamp": ["1923-12-19"],
-         "importance": 1, 
-        "abbr": "S.REST", 
-        "type": "Restaurant"
       }
       }, 
     {
@@ -820,8 +823,8 @@
          "title": "Bundesgymnasium Döbling",
          "lat": "48.23555",
          "lon": "16.348401",
-         "timestamp": ["1923-01-09", "1923-04-20", "1923-04-27", "1923-05-29", "1923-09-21"],
-         "importance": 5, 
+         "timestamp": ["1923-01-09", "1923-04-20", "1923-04-27", "1923-05-29", "1923-09-21", "1923-12-12"],
+         "importance": 6, 
         "abbr": "Schule (K.SCH)", 
         "type": "Schule", 
         "arbeitsort": [
@@ -1297,8 +1300,8 @@
          "title": "Peregringasse 4",
          "lat": "48.216445",
          "lon": "16.364586",
-         "timestamp": ["1923-01-03", "1923-01-16", "1923-02-07", "1923-02-17", "1923-02-27", "1923-03-06", "1923-03-14", "1923-03-15", "1923-03-20", "1923-03-24", "1923-03-31", "1923-04-03", "1923-04-10", "1923-04-12", "1923-04-14", "1923-04-19", "1923-05-05", "1923-05-28", "1923-06-04", "1923-06-06", "1923-06-16", "1923-06-25", "1923-07-10", "1923-09-18", "1923-09-22", "1923-09-25", "1923-10-08"],
-         "importance": 27, 
+         "timestamp": ["1923-01-03", "1923-01-16", "1923-02-07", "1923-02-17", "1923-02-27", "1923-03-06", "1923-03-14", "1923-03-15", "1923-03-20", "1923-03-24", "1923-03-31", "1923-04-03", "1923-04-10", "1923-04-12", "1923-04-14", "1923-04-19", "1923-05-05", "1923-05-28", "1923-06-04", "1923-06-06", "1923-06-16", "1923-06-25", "1923-07-10", "1923-09-18", "1923-09-22", "1923-09-25", "1923-10-08", "1923-10-14", "1923-10-23", "1923-10-25", "1923-10-30", "1923-11-07", "1923-11-09", "1923-11-12", "1923-11-14", "1923-11-25", "1923-11-26", "1923-12-02", "1923-12-11", "1923-12-13", "1923-12-15", "1923-12-18", "1923-12-21", "1923-12-25"],
+         "importance": 44, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2051,8 +2054,8 @@
          "title": "Gastwirtschaft Josef Gruß",
          "lat": "48.224263",
          "lon": "16.349925",
-         "timestamp": ["1923-07-09", "1923-07-13", "1923-07-24", "1923-09-17", "1923-10-16"],
-         "importance": 5, 
+         "timestamp": ["1923-07-09", "1923-07-13", "1923-07-24", "1923-09-17", "1923-10-06", "1923-10-16", "1923-12-18"],
+         "importance": 7, 
         "abbr": "S.REST", 
         "type": "Restaurant"
       }
@@ -2075,6 +2078,24 @@
         "geonames": "https://sws.geonames.org/3324230/", 
         "abbr": "L.LCTY", 
         "type": "Örtlichkeit"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373293, 48.207882]
+      },
+      "properties": {
+         "id": "pmb172",
+         "title": "Kellerei und Gastwirtschaft Deutsches Haus, Friedrich Kargl",
+         "lat": "48.207882",
+         "lon": "16.373293",
+         "timestamp": ["1923-12-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131278738", 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
       }
       }, 
     {
@@ -2233,8 +2254,8 @@
          "title": "Türkenschanzstraße 48",
          "lat": "48.23362",
          "lon": "16.33641",
-         "timestamp": ["1923-03-13", "1923-04-02", "1923-04-10", "1923-10-23", "1923-10-26", "1923-10-30", "1923-11-19"],
-         "importance": 7, 
+         "timestamp": ["1923-03-13", "1923-04-02", "1923-04-10", "1923-10-05", "1923-10-16", "1923-10-20", "1923-10-23", "1923-10-26", "1923-10-30", "1923-11-19", "1923-11-30"],
+         "importance": 11, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2438,8 +2459,8 @@
          "title": "Cottagegasse 37",
          "lat": "48.233004",
          "lon": "16.34167",
-         "timestamp": ["1923-01-06", "1923-03-14", "1923-06-02"],
-         "importance": 3, 
+         "timestamp": ["1923-01-06", "1923-03-14", "1923-06-02", "1923-12-31"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2492,8 +2513,8 @@
          "title": "Allgemeine Boden-Credit-Anstalt",
          "lat": "48.21156",
          "lon": "16.36265",
-         "timestamp": ["1923-01-17", "1923-02-03", "1923-03-16", "1923-03-21", "1923-05-30", "1923-06-05", "1923-09-19"],
-         "importance": 7, 
+         "timestamp": ["1923-01-17", "1923-02-03", "1923-03-16", "1923-03-21", "1923-05-30", "1923-06-05", "1923-09-19", "1923-11-06"],
+         "importance": 8, 
         "abbr": "Bank (K.BNK)", 
         "type": "Bank", 
         "arbeitsort": [
@@ -2619,8 +2640,8 @@
          "title": "Neue Wiener Bühne",
          "lat": "48.2195962",
          "lon": "16.3589845",
-         "timestamp": ["1923-01-18", "1923-02-23", "1923-04-12", "1923-04-19", "1923-10-10", "1923-12-01"],
-         "importance": 6, 
+         "timestamp": ["1923-01-18", "1923-02-23", "1923-04-12", "1923-04-19", "1923-10-10", "1923-10-31", "1923-12-01"],
+         "importance": 7, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": [
@@ -2831,8 +2852,8 @@
          "title": "Kammerspiele Wien",
          "lat": "48.211111",
          "lon": "16.375833",
-         "timestamp": ["1923-10-24", "1923-12-21"],
-         "importance": 2, 
+         "timestamp": ["1923-10-23", "1923-10-24", "1923-12-21"],
+         "importance": 3, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -2970,6 +2991,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.351996, 48.238534]
+      },
+      "properties": {
+         "id": "pmb235862",
+         "title": "Kreindlgasse 8",
+         "lat": "48.238534",
+         "lon": "16.351996",
+         "timestamp": ["1923-10-07", "1923-11-10"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vera Schapira",
+
+         "p_id": "#9667"
+         }, 
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.332896, 48.253174]
       },
       "properties": {
@@ -3032,8 +3083,8 @@
          "title": "Tiefer Graben 17",
          "lat": "48.212284",
          "lon": "16.367725",
-         "timestamp": ["1923-01-23", "1923-01-30", "1923-02-03", "1923-03-07", "1923-03-16", "1923-03-22", "1923-03-23", "1923-03-24", "1923-03-28", "1923-04-06", "1923-04-26", "1923-05-05", "1923-06-09", "1923-06-19", "1923-06-23", "1923-07-17", "1923-07-24", "1923-09-21", "1923-09-25", "1923-10-09", "1923-11-07", "1923-11-09", "1923-12-02"],
-         "importance": 23, 
+         "timestamp": ["1923-01-23", "1923-01-30", "1923-02-03", "1923-03-07", "1923-03-16", "1923-03-22", "1923-03-23", "1923-03-24", "1923-03-28", "1923-04-06", "1923-04-26", "1923-05-05", "1923-06-09", "1923-06-19", "1923-06-23", "1923-07-17", "1923-07-24", "1923-09-21", "1923-09-25", "1923-10-09", "1923-10-31", "1923-11-07", "1923-11-09", "1923-12-02"],
+         "importance": 24, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3186,6 +3237,60 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gersthofer_Elitetheater", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37675, 48.20762]
+      },
+      "properties": {
+         "id": "pmb235120",
+         "title": "Schulerstraße 22",
+         "lat": "48.20762",
+         "lon": "16.37675",
+         "timestamp": ["1923-10-12", "1923-10-17"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.305395, 48.245422]
+      },
+      "properties": {
+         "id": "pmb249388",
+         "title": "Dr.-Heinrich-Maier-Straße 11",
+         "lat": "48.245422",
+         "lon": "16.305395",
+         "timestamp": ["1923-07-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Hedwig Bleibtreu",
+
+         "p_id": "#10959"
+         }, 
+         {
+
+         "p_name": "Max Paulsen",
+
+         "p_id": "#12399"
+         }]
       }
       }, 
     {
@@ -3439,8 +3544,8 @@
          "title": "Oppolzergasse 6",
          "lat": "48.2116",
          "lon": "16.36171",
-         "timestamp": ["1923-01-19", "1923-02-04", "1923-04-08", "1923-05-05", "1923-06-15", "1923-09-22", "1923-11-14"],
-         "importance": 7, 
+         "timestamp": ["1923-01-19", "1923-02-04", "1923-04-08", "1923-05-05", "1923-06-15", "1923-09-22", "1923-11-14", "1923-11-27"],
+         "importance": 8, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3450,6 +3555,23 @@
 
          "p_id": "#2312"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.334717, 48.227555]
+      },
+      "properties": {
+         "id": "pmb265264",
+         "title": "Steueradministration für den XVIII. und XIX. Bezirk",
+         "lat": "48.227555",
+         "lon": "16.334717",
+         "timestamp": ["1923-10-09"],
+         "importance": 1, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
       }
       }, 
     {
@@ -3673,6 +3795,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1923-03-25", "1923-06-24", "1923-07-23", "1923-07-24", "1923-09-15", "1923-10-09", "1923-11-03", "1923-11-24"],
+         "importance": 8, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.350819, 48.214295]
       },
       "properties": {
@@ -3680,8 +3832,8 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1923-01-10", "1923-01-15", "1923-01-20", "1923-01-26", "1923-01-30", "1923-01-31", "1923-02-04", "1923-02-09", "1923-02-28", "1923-03-04", "1923-03-07", "1923-03-13", "1923-03-19", "1923-03-21", "1923-04-04", "1923-04-20", "1923-04-28", "1923-04-29", "1923-05-30", "1923-06-05", "1923-06-11", "1923-06-21", "1923-06-23", "1923-09-19"],
-         "importance": 24, 
+         "timestamp": ["1923-01-10", "1923-01-15", "1923-01-20", "1923-01-26", "1923-01-30", "1923-01-31", "1923-02-04", "1923-02-09", "1923-02-28", "1923-03-04", "1923-03-07", "1923-03-13", "1923-03-19", "1923-03-21", "1923-04-04", "1923-04-20", "1923-04-28", "1923-04-29", "1923-05-30", "1923-06-05", "1923-06-11", "1923-06-21", "1923-06-23", "1923-09-19", "1923-09-27", "1923-11-11", "1923-11-13", "1923-11-20", "1923-12-05"],
+         "importance": 29, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3697,6 +3849,47 @@
 
          "p_id": "#20398"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377475, 48.207779]
+      },
+      "properties": {
+         "id": "pmb255067",
+         "title": "Riemergasse 1",
+         "lat": "48.207779",
+         "lon": "16.377475",
+         "timestamp": ["1923-02-06", "1923-02-09", "1923-02-14", "1923-02-28", "1923-06-07", "1923-06-09", "1923-06-22", "1923-09-21", "1923-09-28", "1923-10-02", "1923-10-09", "1923-10-24", "1923-11-06", "1923-11-23", "1923-12-07", "1923-12-14"],
+         "importance": 16, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3576, 48.21071]
+      },
+      "properties": {
+         "id": "pmb250232",
+         "title": "Magistratsabteilung 10 - Steuern und Abgaben [1920-1939]",
+         "lat": "48.21071",
+         "lon": "16.3576",
+         "timestamp": ["1923-03-03", "1923-03-06", "1923-10-19"],
+         "importance": 3, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
       }
       }, 
     {
@@ -3784,30 +3977,6 @@
          "p_name": "Ludwig Sachs",
 
          "p_id": "#23844"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.377475, 48.207779]
-      },
-      "properties": {
-         "id": "pmb255067",
-         "title": "Riemergasse 1",
-         "lat": "48.207779",
-         "lon": "16.377475",
-         "timestamp": ["1923-02-06", "1923-02-09", "1923-02-14", "1923-02-28", "1923-06-07", "1923-06-09", "1923-06-22", "1923-09-21"],
-         "importance": 8, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Moriz Károlyi",
-
-         "p_id": "#19914"
          }]
       }
       }, 
@@ -3916,23 +4085,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3576, 48.21071]
-      },
-      "properties": {
-         "id": "pmb250232",
-         "title": "Magistratsabteilung 10 - Steuern und Abgaben [1920-1939]",
-         "lat": "48.21071",
-         "lon": "16.3576",
-         "timestamp": ["1923-03-03", "1923-03-06"],
-         "importance": 2, 
-        "abbr": "Verwaltungsgebäude (K.VWL)", 
-        "type": "Verwaltungsgebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.370488, 48.204493]
       },
       "properties": {
@@ -3981,36 +4133,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Wiener_Bioscop_-_Kruger_Kino", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.338022, 48.233651]
-      },
-      "properties": {
-         "id": "pmb245446",
-         "title": "Gregor-Mendel-Straße 32",
-         "lat": "48.233651",
-         "lon": "16.338022",
-         "timestamp": ["1923-03-25", "1923-06-24", "1923-07-23", "1923-07-24", "1923-09-15"],
-         "importance": 5, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Rosa Menczel",
-
-         "p_id": "#21304"
-         }, 
-         {
-
-         "p_name": "Philipp Menczel",
-
-         "p_id": "#3119"
-         }]
       }
       }, 
     {
@@ -4203,11 +4325,11 @@
       },
       "properties": {
          "id": "pmb265152",
-         "title": "Bundesministerium für Finanzen (1848–2007)",
+         "title": "Bundesministerium für Finanzen [1848–2007]",
          "lat": "48.205625",
          "lon": "16.37253",
-         "timestamp": ["1923-05-05"],
-         "importance": 1, 
+         "timestamp": ["1923-05-05", "1923-10-27"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bundesministerium_f%C3%BCr_Finanzen", 
         "wikidata": "http://www.wikidata.org/entity/Q877814", 
         "abbr": "Ministerium (K.MIN)", 
@@ -5028,6 +5150,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368498, 48.212965]
+      },
+      "properties": {
+         "id": "pmb256164",
+         "title": "Austria-Bank",
+         "lat": "48.212965",
+         "lon": "16.368498",
+         "timestamp": ["1923-06-19", "1923-06-20", "1923-06-23", "1923-07-11", "1923-07-17", "1923-07-20", "1923-09-18", "1923-10-03", "1923-10-19", "1923-11-06"],
+         "importance": 10, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.349115, 48.197735]
       },
       "properties": {
@@ -5762,30 +5901,6 @@
          "p_name": "Ernst Benedikt",
 
          "p_id": "#10872"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.30526, 48.24529]
-      },
-      "properties": {
-         "id": "pmb266419",
-         "title": "Dr.-Heinrich-Maier-Straße 11",
-         "lat": "48.24529",
-         "lon": "16.30526",
-         "timestamp": ["1923-07-25"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Paulsen",
-
-         "p_id": "#12399"
          }]
       }
       }, 
@@ -6775,6 +6890,74 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.373041, 48.207002]
+      },
+      "properties": {
+         "id": "pmb267559",
+         "title": "Weihburggasse 9",
+         "lat": "48.207002",
+         "lon": "16.373041",
+         "timestamp": ["1923-10-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37387, 48.2097]
+      },
+      "properties": {
+         "id": "pmb267925",
+         "title": "Mercurbank",
+         "lat": "48.2097",
+         "lon": "16.37387",
+         "timestamp": ["1923-10-19"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36633, 48.21545]
+      },
+      "properties": {
+         "id": "pmb267980",
+         "title": "Concordia-Club (ab 1907)",
+         "lat": "48.21545",
+         "lon": "16.36633",
+         "timestamp": ["1923-11-06"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38064, 48.21084]
+      },
+      "properties": {
+         "id": "pmb268021",
+         "title": "Herz Verlag",
+         "lat": "48.21084",
+         "lon": "16.38064",
+         "timestamp": ["1923-11-23"],
+         "importance": 1, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37666, 48.20685]
       },
       "properties": {
@@ -6841,6 +7024,98 @@
         "wikidata": "http://www.wikidata.org/entity/Q33393953", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363758, 48.212483]
+      },
+      "properties": {
+         "id": "pmb185333",
+         "title": "Restaurant Toni Ott",
+         "lat": "48.212483",
+         "lon": "16.363758",
+         "timestamp": ["1923-12-11"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Antonie Ott",
+
+         "p_id": "#22242"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37637, 48.20233]
+      },
+      "properties": {
+         "id": "pmb268059",
+         "title": "Ritz-Carlton Wien",
+         "lat": "48.20233",
+         "lon": "16.37637",
+         "timestamp": ["1923-12-13"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34538, 48.23062]
+      },
+      "properties": {
+         "id": "pmb268074",
+         "title": "Bezirksgericht Währing",
+         "lat": "48.23062",
+         "lon": "16.34538",
+         "timestamp": ["1923-12-14"],
+         "importance": 1, 
+        "abbr": "Gericht", 
+        "type": "Gericht"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351435, 48.209524]
+      },
+      "properties": {
+         "id": "pmb185511",
+         "title": "Restaurant zum weißen Hahn",
+         "lat": "48.209524",
+         "lon": "16.351435",
+         "timestamp": ["1923-12-22"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.344313, 48.225839]
+      },
+      "properties": {
+         "id": "pmb92590",
+         "title": "Währingerkirche",
+         "lat": "48.225839",
+         "lon": "16.344313",
+         "timestamp": ["1923-12-24"],
+         "importance": 1, 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }, 
     {

@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.364281, 48.202866], 
+            [16.377475, 48.207779], 
+            [16.382512, 48.213437], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +16,54 @@
         "name": "23. Januar 1922"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.382512, 48.213437]
+      },
+      "properties": {
+         "id": "pmb182310",
+         "title": "Hotel de l’Europe [Wien]",
+         "lat": "48.213437",
+         "lon": "16.382512",
+         "timestamp": ["1922-01-23"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Hotel_de_l%27Europe_(2,_Aspernbrückengasse_2,_Praterstraße_18)", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364281, 48.202866]
+      },
+      "properties": {
+         "id": "pmb186043",
+         "title": "Elisabethstraße 22",
+         "lat": "48.202866",
+         "lon": "16.364281",
+         "timestamp": ["1922-01-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Werfel",
+
+         "p_id": "#13094"
+         }, 
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -89,6 +140,30 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377475, 48.207779]
+      },
+      "properties": {
+         "id": "pmb255067",
+         "title": "Riemergasse 1",
+         "lat": "48.207779",
+         "lon": "16.377475",
+         "timestamp": ["1922-01-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
          }]
       }
       }

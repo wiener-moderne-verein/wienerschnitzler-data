@@ -6,6 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.36265, 48.21156], 
+            [16.377475, 48.207779], 
+            [16.368498, 48.212965], 
+            [16.36633, 48.21545], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +17,30 @@
         "name": "6. November 1923"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1923-11-06"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -90,6 +118,64 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368498, 48.212965]
+      },
+      "properties": {
+         "id": "pmb256164",
+         "title": "Austria-Bank",
+         "lat": "48.212965",
+         "lon": "16.368498",
+         "timestamp": ["1923-11-06"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377475, 48.207779]
+      },
+      "properties": {
+         "id": "pmb255067",
+         "title": "Riemergasse 1",
+         "lat": "48.207779",
+         "lon": "16.377475",
+         "timestamp": ["1923-11-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36633, 48.21545]
+      },
+      "properties": {
+         "id": "pmb267980",
+         "title": "Concordia-Club (ab 1907)",
+         "lat": "48.21545",
+         "lon": "16.36633",
+         "timestamp": ["1923-11-06"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }
   ]

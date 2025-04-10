@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188], 
-            [16.33641, 48.23362]
+            [16.364586, 48.216445], 
+            [16.375833, 48.211111], 
+            [16.33641, 48.23362], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
@@ -65,6 +67,42 @@
          "p_name": "Paula Schmidl",
 
          "p_id": "#24292"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364586, 48.216445]
+      },
+      "properties": {
+         "id": "pmb185644",
+         "title": "Peregringasse 4",
+         "lat": "48.216445",
+         "lon": "16.364586",
+         "timestamp": ["1923-10-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Clara Katharina Pollaczek",
+
+         "p_id": "#12435"
+         }, 
+         {
+
+         "p_name": "Louis Loeb",
+
+         "p_id": "#20548"
          }]
       }
       },
@@ -145,6 +183,23 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375833, 48.211111]
+      },
+      "properties": {
+         "id": "pmb633",
+         "title": "Kammerspiele Wien",
+         "lat": "48.211111",
+         "lon": "16.375833",
+         "timestamp": ["1923-10-23"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }
   ]

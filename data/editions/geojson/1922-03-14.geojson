@@ -8,6 +8,8 @@
         "coordinates": [
             [16.35137, 48.21346], 
             [16.361139, 48.210333], 
+            [16.370606, 48.202486], 
+            [16.34167, 48.233004], 
             [16.33716, 48.23188]
           ]
       },
@@ -98,6 +100,43 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1922-03-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -171,6 +210,23 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370606, 48.202486]
+      },
+      "properties": {
+         "id": "pmb281484",
+         "title": "Internationale Konzertdirektion Symphonia",
+         "lat": "48.202486",
+         "lon": "16.370606",
+         "timestamp": ["1922-03-14"],
+         "importance": 1, 
+        "abbr": "Konzertdirektion", 
+        "type": ""
       }
       }
   ]

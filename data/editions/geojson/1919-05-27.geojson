@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.372979, 48.198039], 
+            [16.372564182283, 48.201265597319], 
+            [16.36359, 48.20998], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +16,70 @@
         "name": "27. Mai 1919"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1919-05-27"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36359, 48.20998]
+      },
+      "properties": {
+         "id": "pmb24",
+         "title": "Ministerium für Unterricht",
+         "lat": "48.20998",
+         "lon": "16.36359",
+         "timestamp": ["1919-05-27"],
+         "importance": 1, 
+        "abbr": "Ministerium (K.MIN)", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372979, 48.198039]
+      },
+      "properties": {
+         "id": "pmb237316",
+         "title": "Hoyosgasse 5",
+         "lat": "48.198039",
+         "lon": "16.372979",
+         "timestamp": ["1919-05-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Emma Altmann",
+
+         "p_id": "#13342"
+         }, 
+         {
+
+         "p_name": "Hans Altmann",
+
+         "p_id": "#13350"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

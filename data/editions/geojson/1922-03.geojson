@@ -98,6 +98,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1922-03-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.300034240016, 48.246838181084]
       },
       "properties": {
@@ -348,6 +368,43 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1922-03-14", "1922-03-20", "1922-03-24"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -391,20 +448,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.367778, 48.204444]
+        "coordinates": [16.333056, 48.233056]
       },
       "properties": {
-         "id": "pmb333",
-         "title": "Albertina",
-         "lat": "48.204444",
-         "lon": "16.367778",
-         "timestamp": ["1922-03-03"],
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1922-03-21"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Albertina_(Wien)", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=18149", 
-        "wikidata": "http://www.wikidata.org/entity/Q371908", 
-        "abbr": "Museum (K.MUS)", 
-        "type": "Museum"
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
+         }]
       }
       }, 
     {
@@ -651,6 +718,62 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366548, 48.21306]
+      },
+      "properties": {
+         "id": "pmb256702",
+         "title": "Österreichische Länderbank",
+         "lat": "48.21306",
+         "lon": "16.366548",
+         "timestamp": ["1922-03-18", "1922-03-22"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
+        "wikidata": "http://www.wikidata.org/entity/Q26911630", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Max Leitner",
+
+         "p_id": "#20270"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364281, 48.202866]
+      },
+      "properties": {
+         "id": "pmb186043",
+         "title": "Elisabethstraße 22",
+         "lat": "48.202866",
+         "lon": "16.364281",
+         "timestamp": ["1922-03-01", "1922-03-23"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Werfel",
+
+         "p_id": "#13094"
+         }, 
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36171, 48.2116]
       },
       "properties": {
@@ -658,8 +781,8 @@
          "title": "Oppolzergasse 6",
          "lat": "48.2116",
          "lon": "16.36171",
-         "timestamp": ["1922-03-12"],
-         "importance": 1, 
+         "timestamp": ["1922-03-08", "1922-03-12", "1922-03-18"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -669,6 +792,23 @@
 
          "p_id": "#2312"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369296, 48.206761]
+      },
+      "properties": {
+         "id": "pmb265894",
+         "title": "Passstelle des Deutschen Reichs",
+         "lat": "48.206761",
+         "lon": "16.369296",
+         "timestamp": ["1922-03-11"],
+         "importance": 1, 
+        "abbr": "Infrastrukturgebäude (K.INF)", 
+        "type": "Infrastrukturgebäude"
       }
       }, 
     {
@@ -712,6 +852,94 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1922-03-01", "1922-03-04", "1922-03-08"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.343341, 48.210784]
+      },
+      "properties": {
+         "id": "pmb281444",
+         "title": "Josefstädter Straße 68",
+         "lat": "48.210784",
+         "lon": "16.343341",
+         "timestamp": ["1922-03-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351609, 48.213234]
+      },
+      "properties": {
+         "id": "pmb264247",
+         "title": "Laudongasse 11",
+         "lat": "48.213234",
+         "lon": "16.351609",
+         "timestamp": ["1922-03-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Bruno Klein",
+
+         "p_id": "#8230"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370606, 48.202486]
+      },
+      "properties": {
+         "id": "pmb281484",
+         "title": "Internationale Konzertdirektion Symphonia",
+         "lat": "48.202486",
+         "lon": "16.370606",
+         "timestamp": ["1922-03-14"],
+         "importance": 1, 
+        "abbr": "Konzertdirektion", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3498542, 48.24659]
       },
       "properties": {
@@ -723,6 +951,64 @@
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338993, 48.231689]
+      },
+      "properties": {
+         "id": "pmb245475",
+         "title": "Sternwartestraße 56",
+         "lat": "48.231689",
+         "lon": "16.338993",
+         "timestamp": ["1922-03-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried von Strakosch-Feldringen",
+
+         "p_id": "#25563"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3539, 48.19073]
+      },
+      "properties": {
+         "id": "pmb281631",
+         "title": "Redergasse 21",
+         "lat": "48.19073",
+         "lon": "16.3539",
+         "timestamp": ["1922-03-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36407, 48.2035]
+      },
+      "properties": {
+         "id": "pmb281635",
+         "title": "Niederländische Gesandtschaft in Wien",
+         "lat": "48.2035",
+         "lon": "16.36407",
+         "timestamp": ["1922-03-28"],
+         "importance": 1, 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft"
       }
       }
   ]

@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.3566, 48.205142], 
+            [16.361139, 48.210333], 
+            [16.371539, 48.208697], 
             [16.33716, 48.23188]
           ]
       },
@@ -38,6 +40,54 @@
          "p_name": " ?? [Kassier Volkstheater 1895]",
 
          "p_id": "#27730"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1919-06-14"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371539, 48.208697]
+      },
+      "properties": {
+         "id": "pmb236260",
+         "title": "Koppel, Frisch & Cie., Mode- und Seidenwaren",
+         "lat": "48.208697",
+         "lon": "16.371539",
+         "timestamp": ["1919-06-14"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Karl Gelles",
+
+         "p_id": "#16977"
+         }, 
+         {
+
+         "p_name": "Josef Fleminger",
+
+         "p_id": "#16346"
          }]
       }
       },

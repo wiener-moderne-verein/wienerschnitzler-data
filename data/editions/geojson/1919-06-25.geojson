@@ -7,13 +7,50 @@
         "type": "LineString", 
         "coordinates": [
             [16.3125, 48.186667], 
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.337485, 48.233662]
           ]
       },
       "properties": {
         "name": "25. Juni 1919"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3125, 48.186667]
+      },
+      "properties": {
+         "id": "pmb44649",
+         "title": "Schlosstheater Schönbrunn",
+         "lat": "48.186667",
+         "lon": "16.3125",
+         "timestamp": ["1919-06-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn", 
+        "wikidata": "http://www.wikidata.org/entity/Q2244724", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337485, 48.233662]
+      },
+      "properties": {
+         "id": "pmb254639",
+         "title": "Erholungsheim. Inh. Erna Patak",
+         "lat": "48.233662",
+         "lon": "16.337485",
+         "timestamp": ["1919-06-25"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -91,25 +128,6 @@
 
          "p_id": "#18732"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3125, 48.186667]
-      },
-      "properties": {
-         "id": "pmb44649",
-         "title": "Schlosstheater Schönbrunn",
-         "lat": "48.186667",
-         "lon": "16.3125",
-         "timestamp": ["1919-06-25"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn", 
-        "wikidata": "http://www.wikidata.org/entity/Q2244724", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
       }
       }
   ]

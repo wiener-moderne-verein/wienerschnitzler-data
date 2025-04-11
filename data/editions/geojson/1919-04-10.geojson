@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.241739, 48.090788], 
+            [16.26272, 48.10267], 
             [16.27, 48.0925], 
             [16.33716, 48.23188]
           ]
@@ -109,6 +111,49 @@
         "geonames": "https://sws.geonames.org/2772512/", 
         "abbr": "Schloss (K.SLS)", 
         "type": "Schloss"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.241739, 48.090788]
+      },
+      "properties": {
+         "id": "pmb44510",
+         "title": "Hotel Radetzky",
+         "lat": "48.090788",
+         "lon": "16.241739",
+         "timestamp": ["1919-04-10"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Deigner",
+
+         "p_id": "#15270"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.26272, 48.10267]
+      },
+      "properties": {
+         "id": "pmb92041",
+         "title": "Wällischhof",
+         "lat": "48.10267",
+         "lon": "16.26272",
+         "timestamp": ["1919-04-10"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q90806730", 
+        "geonames": "https://sws.geonames.org/2761954/", 
+        "abbr": "S.FRM", 
+        "type": "Bauernhof"
       }
       }
   ]

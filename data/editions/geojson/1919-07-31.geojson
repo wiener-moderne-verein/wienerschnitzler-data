@@ -7,6 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.34101, 48.1983], 
+            [16.352531, 48.197523], 
+            [16.364423, 48.203202], 
+            [16.366830555555556, 48.20506944444445], 
             [16.33716, 48.23188], 
             [16.32092, 48.24077]
           ]
@@ -126,6 +129,61 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.352531, 48.197523]
+      },
+      "properties": {
+         "id": "pmb92231",
+         "title": "Esterházypark",
+         "lat": "48.197523",
+         "lon": "16.352531",
+         "timestamp": ["1919-07-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Esterh%C3%A1zypark", 
+        "wikidata": "http://www.wikidata.org/entity/Q1369936", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364423, 48.203202]
+      },
+      "properties": {
+         "id": "pmb182675",
+         "title": "Café Kaisergarten",
+         "lat": "48.203202",
+         "lon": "16.364423",
+         "timestamp": ["1919-07-31"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366830555555556, 48.20506944444445]
+      },
+      "properties": {
+         "id": "pmb281772",
+         "title": "Palmenhaus",
+         "lat": "48.20506944444445",
+         "lon": "16.366830555555556",
+         "timestamp": ["1919-07-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Palmenhaus_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2048203", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
       }
       }
   ]

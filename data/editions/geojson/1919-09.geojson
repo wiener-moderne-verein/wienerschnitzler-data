@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1919-09-01", "1919-09-02", "1919-09-03", "1919-09-04", "1919-09-05", "1919-09-06", "1919-09-07", "1919-09-13", "1919-09-14", "1919-09-15", "1919-09-16", "1919-09-17", "1919-09-18", "1919-09-19", "1919-09-20", "1919-09-21", "1919-09-22", "1919-09-23", "1919-09-24", "1919-09-25", "1919-09-26", "1919-09-27", "1919-09-28", "1919-09-29", "1919-09-30"],
-         "importance": 25, 
+         "timestamp": ["1919-09-01", "1919-09-02", "1919-09-03", "1919-09-04", "1919-09-05", "1919-09-06", "1919-09-07", "1919-09-08", "1919-09-12", "1919-09-13", "1919-09-14", "1919-09-15", "1919-09-16", "1919-09-17", "1919-09-18", "1919-09-19", "1919-09-20", "1919-09-21", "1919-09-22", "1919-09-23", "1919-09-24", "1919-09-25", "1919-09-26", "1919-09-27", "1919-09-28", "1919-09-29", "1919-09-30"],
+         "importance": 27, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -39,6 +39,43 @@
         "geonames": "https://sws.geonames.org/2767775/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1919-09-04", "1919-09-08", "1919-09-12"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1919-09-19"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
       }
       }, 
     {
@@ -135,6 +172,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.80915, 47.69255]
+      },
+      "properties": {
+         "id": "pmb470",
+         "title": "Edlach",
+         "lat": "47.69255",
+         "lon": "15.80915",
+         "timestamp": ["1919-09-10", "1919-09-11"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Edlach_an_der_Rax", 
+        "wikidata": "http://www.wikidata.org/entity/Q106938523", 
+        "geonames": "https://sws.geonames.org/2780428/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.76452, 47.67383]
       },
       "properties": {
@@ -147,6 +204,23 @@
         "geonames": "https://sws.geonames.org/2768379/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.84453, 47.69852]
+      },
+      "properties": {
+         "id": "pmb44982",
+         "title": "Kurhaus Rudolfsbad",
+         "lat": "47.69852",
+         "lon": "15.84453",
+         "timestamp": ["1919-09-08", "1919-09-09", "1919-09-10", "1919-09-11", "1919-09-12"],
+         "importance": 5, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       }, 
     {
@@ -193,6 +267,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.82151, 47.65949]
+      },
+      "properties": {
+         "id": "pmb36503",
+         "title": "Breitenstein am Semmering",
+         "lat": "47.65949",
+         "lon": "15.82151",
+         "timestamp": ["1919-09-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Breitenstein_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q124981", 
+        "geonames": "https://sws.geonames.org/2781451/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.28606, 48.25849]
       },
       "properties": {
@@ -207,6 +301,25 @@
         "geonames": "https://sws.geonames.org/3324230/", 
         "abbr": "L.LCTY", 
         "type": "Örtlichkeit"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1919-09-08", "1919-09-12"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -267,6 +380,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33494, 48.23365]
+      },
+      "properties": {
+         "id": "pmb235251",
+         "title": "Hasenauerstraße 59",
+         "lat": "48.23365",
+         "lon": "16.33494",
+         "timestamp": ["1919-09-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.320833, 48.252222]
       },
       "properties": {
@@ -280,6 +429,47 @@
         "wikidata": "http://www.wikidata.org/entity/Q1692038", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1919-09-23"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1919-09-05"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
       }
       }, 
     {
@@ -313,8 +503,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1919-09-01", "1919-09-02", "1919-09-03", "1919-09-04", "1919-09-05", "1919-09-06", "1919-09-07", "1919-09-13", "1919-09-14", "1919-09-15", "1919-09-16", "1919-09-17", "1919-09-18", "1919-09-19", "1919-09-20", "1919-09-21", "1919-09-22", "1919-09-23", "1919-09-24", "1919-09-25", "1919-09-26", "1919-09-27", "1919-09-28", "1919-09-29", "1919-09-30"],
-         "importance": 25, 
+         "timestamp": ["1919-09-01", "1919-09-02", "1919-09-03", "1919-09-04", "1919-09-05", "1919-09-06", "1919-09-07", "1919-09-08", "1919-09-12", "1919-09-13", "1919-09-14", "1919-09-15", "1919-09-16", "1919-09-17", "1919-09-18", "1919-09-19", "1919-09-20", "1919-09-21", "1919-09-22", "1919-09-23", "1919-09-24", "1919-09-25", "1919-09-26", "1919-09-27", "1919-09-28", "1919-09-29", "1919-09-30"],
+         "importance": 27, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -385,6 +575,72 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33691, 48.23233]
+      },
+      "properties": {
+         "id": "pmb235127",
+         "title": "Sternwartestraße 62–64",
+         "lat": "48.23233",
+         "lon": "16.33691",
+         "timestamp": ["1919-09-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alice Schmutzer",
+
+         "p_id": "#9734"
+         }, 
+         {
+
+         "p_name": "Ferdinand Schmutzer",
+
+         "p_id": "#12689"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.331713, 48.237499]
+      },
+      "properties": {
+         "id": "pmb236861",
+         "title": "Krankenhaus der Wiener Kaufmannschaft",
+         "lat": "48.237499",
+         "lon": "16.331713",
+         "timestamp": ["1919-09-05"],
+         "importance": 1, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Max Höniger",
+
+         "p_id": "#18662"
+         }, 
+         {
+
+         "p_name": "Josef Hertzka",
+
+         "p_id": "#18196"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -415,6 +671,74 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.337485, 48.233662]
+      },
+      "properties": {
+         "id": "pmb254639",
+         "title": "Erholungsheim. Inh. Erna Patak",
+         "lat": "48.233662",
+         "lon": "16.337485",
+         "timestamp": ["1919-09-23"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377197811369, 48.200771836002]
+      },
+      "properties": {
+         "id": "pmb240",
+         "title": "Wiener Konzerthaus",
+         "lat": "48.200771836002",
+         "lon": "16.377197811369",
+         "timestamp": ["1919-09-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q695126", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hugo Botstiber",
+
+         "p_id": "#10983"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.84174, 47.69635]
+      },
+      "properties": {
+         "id": "pmb263368",
+         "title": "Hotel Marienhof",
+         "lat": "47.69635",
+         "lon": "15.84174",
+         "timestamp": ["1919-09-10"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111876042", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Dangl",
+
+         "p_id": "#15221"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.296622, 48.183258]
       },
       "properties": {
@@ -432,6 +756,30 @@
          "p_name": "Josef Popper-Lynkeus",
 
          "p_id": "#2135"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36171, 48.2116]
+      },
+      "properties": {
+         "id": "pmb235784",
+         "title": "Oppolzergasse 6",
+         "lat": "48.2116",
+         "lon": "16.36171",
+         "timestamp": ["1919-09-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
          }]
       }
       }, 
@@ -505,6 +853,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.7961, 47.66791]
+      },
+      "properties": {
+         "id": "pmb36506",
+         "title": "Haus Mahler",
+         "lat": "47.66791",
+         "lon": "15.7961",
+         "timestamp": ["1919-09-10"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.843363, 47.696629]
+      },
+      "properties": {
+         "id": "pmb92353",
+         "title": "Kurhauspark",
+         "lat": "47.696629",
+         "lon": "15.843363",
+         "timestamp": ["1919-09-09"],
+         "importance": 1
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33414, 48.23331]
       },
       "properties": {
@@ -518,6 +898,41 @@
         "wikidata": "http://www.wikidata.org/entity/Q109686349", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359131, 48.221604]
+      },
+      "properties": {
+         "id": "pmb281833",
+         "title": "Liechtensteinstraße 43",
+         "lat": "48.221604",
+         "lon": "16.359131",
+         "timestamp": ["1919-09-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83795, 47.69863]
+      },
+      "properties": {
+         "id": "pmb281848",
+         "title": "Johannesbrücke",
+         "lat": "47.69863",
+         "lon": "15.83795",
+         "timestamp": ["1919-09-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38125745", 
+        "abbr": "Brücke (K.BRK)", 
+        "type": "Brücke"
       }
       }, 
     {
@@ -552,6 +967,83 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.778, 47.6679]
+      },
+      "properties": {
+         "id": "pmb281852",
+         "title": "Eselbachgraben",
+         "lat": "47.6679",
+         "lon": "15.778",
+         "timestamp": ["1919-09-10"],
+         "importance": 1, 
+        "abbr": "H.STRT", 
+        "type": "Meerenge"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.78907, 47.69509]
+      },
+      "properties": {
+         "id": "pmb91036",
+         "title": "Kleinau",
+         "lat": "47.69509",
+         "lon": "15.78907",
+         "timestamp": ["1919-09-10"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2774259/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8527483, 47.7104244]
+      },
+      "properties": {
+         "id": "pmb281862",
+         "title": "Kammerwandgrotte",
+         "lat": "47.7104244",
+         "lon": "15.8527483",
+         "timestamp": ["1919-09-11"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133857198", 
+        "abbr": "Naturdenkmal", 
+        "type": "Naturdenkmal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347029, 48.23333]
+      },
+      "properties": {
+         "id": "pmb248412",
+         "title": "Hasenauerstraße 2",
+         "lat": "48.23333",
+         "lon": "16.347029",
+         "timestamp": ["1919-09-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Kaufmann",
+
+         "p_id": "#2496"
+         }]
       }
       }
   ]

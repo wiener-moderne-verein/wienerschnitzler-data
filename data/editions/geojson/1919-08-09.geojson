@@ -6,9 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.8634, 47.69209], 
+            [15.84453, 47.69852], 
             [15.85, 47.71667], 
-            [15.829872, 47.731357]
+            [15.829872, 47.731357], 
+            [15.83333, 47.71667]
           ]
       },
       "properties": {
@@ -19,20 +20,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.8634, 47.69209]
+        "coordinates": [15.84453, 47.69852]
       },
       "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
+         "id": "pmb44982",
+         "title": "Kurhaus Rudolfsbad",
+         "lat": "47.69852",
+         "lon": "15.84453",
          "timestamp": ["1919-08-09"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       },
     {
@@ -69,6 +67,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q131164805", 
         "abbr": "Wiese", 
         "type": "Wiese"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83333, 47.71667]
+      },
+      "properties": {
+         "id": "pmb90631",
+         "title": "Feichtaberg",
+         "lat": "47.71667",
+         "lon": "15.83333",
+         "timestamp": ["1919-08-09"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2779613/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
       }
       }
   ]

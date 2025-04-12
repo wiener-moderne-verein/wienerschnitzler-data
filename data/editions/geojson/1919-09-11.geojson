@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.80915, 47.69255], 
             [15.8634, 47.69209], 
-            [15.83333, 47.7]
+            [15.84453, 47.69852], 
+            [15.8527483, 47.7104244]
           ]
       },
       "properties": {
@@ -38,20 +40,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.83333, 47.7]
+        "coordinates": [15.84453, 47.69852]
       },
       "properties": {
-         "id": "pmb483",
-         "title": "Reichenau an der Rax",
-         "lat": "47.7",
-         "lon": "15.83333",
+         "id": "pmb44982",
+         "title": "Kurhaus Rudolfsbad",
+         "lat": "47.69852",
+         "lon": "15.84453",
          "timestamp": ["1919-09-11"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Reichenau_an_der_Rax", 
-        "wikidata": "http://www.wikidata.org/entity/Q665243", 
-        "geonames": "https://sws.geonames.org/2767775/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.80915, 47.69255]
+      },
+      "properties": {
+         "id": "pmb470",
+         "title": "Edlach",
+         "lat": "47.69255",
+         "lon": "15.80915",
+         "timestamp": ["1919-09-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Edlach_an_der_Rax", 
+        "wikidata": "http://www.wikidata.org/entity/Q106938523", 
+        "geonames": "https://sws.geonames.org/2780428/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8527483, 47.7104244]
+      },
+      "properties": {
+         "id": "pmb281862",
+         "title": "Kammerwandgrotte",
+         "lat": "47.7104244",
+         "lon": "15.8527483",
+         "timestamp": ["1919-09-11"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133857198", 
+        "abbr": "Naturdenkmal", 
+        "type": "Naturdenkmal"
       }
       }
   ]

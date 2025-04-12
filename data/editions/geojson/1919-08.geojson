@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1919-08-01", "1919-08-02", "1919-08-03", "1919-08-04", "1919-08-05", "1919-08-06", "1919-08-17", "1919-08-18", "1919-08-19", "1919-08-20", "1919-08-21", "1919-08-22", "1919-08-23", "1919-08-24", "1919-08-25", "1919-08-26", "1919-08-27", "1919-08-28", "1919-08-29", "1919-08-30", "1919-08-31"],
-         "importance": 21, 
+         "timestamp": ["1919-08-01", "1919-08-02", "1919-08-03", "1919-08-04", "1919-08-05", "1919-08-06", "1919-08-07", "1919-08-17", "1919-08-18", "1919-08-19", "1919-08-20", "1919-08-21", "1919-08-22", "1919-08-23", "1919-08-24", "1919-08-25", "1919-08-26", "1919-08-27", "1919-08-28", "1919-08-29", "1919-08-30", "1919-08-31"],
+         "importance": 22, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -32,8 +32,8 @@
          "title": "Thalhof",
          "lat": "47.70466",
          "lon": "15.84704",
-         "timestamp": ["1919-08-07", "1919-08-16"],
-         "importance": 2, 
+         "timestamp": ["1919-08-07", "1919-08-14", "1919-08-16"],
+         "importance": 3, 
         "geonames": "https://sws.geonames.org/2763740/", 
         "abbr": "S.HTL", 
         "type": "Hotel"
@@ -63,6 +63,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1919-08-07", "1919-08-17"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3691, 48.203]
       },
       "properties": {
@@ -83,6 +102,24 @@
 
          "p_id": "#2762"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1919-08-26"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
       }
       }, 
     {
@@ -135,8 +172,8 @@
          "title": "Volkstheater",
          "lat": "48.205142",
          "lon": "16.3566",
-         "timestamp": ["1919-08-21", "1919-08-25", "1919-08-27", "1919-08-30"],
-         "importance": 4, 
+         "timestamp": ["1919-08-21", "1919-08-25", "1919-08-27", "1919-08-28", "1919-08-30"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
@@ -198,13 +235,33 @@
          "title": "Payerbach",
          "lat": "47.69209",
          "lon": "15.8634",
-         "timestamp": ["1919-08-07", "1919-08-08", "1919-08-09", "1919-08-10", "1919-08-11", "1919-08-12", "1919-08-13", "1919-08-14", "1919-08-15", "1919-08-16", "1919-08-17"],
-         "importance": 11, 
+         "timestamp": ["1919-08-13"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
         "wikidata": "http://www.wikidata.org/entity/Q676675", 
         "geonames": "https://sws.geonames.org/2769182/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.80915, 47.69255]
+      },
+      "properties": {
+         "id": "pmb470",
+         "title": "Edlach",
+         "lat": "47.69255",
+         "lon": "15.80915",
+         "timestamp": ["1919-08-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Edlach_an_der_Rax", 
+        "wikidata": "http://www.wikidata.org/entity/Q106938523", 
+        "geonames": "https://sws.geonames.org/2780428/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -222,6 +279,42 @@
          "importance": 2, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.84453, 47.69852]
+      },
+      "properties": {
+         "id": "pmb44982",
+         "title": "Kurhaus Rudolfsbad",
+         "lat": "47.69852",
+         "lon": "15.84453",
+         "timestamp": ["1919-08-07", "1919-08-08", "1919-08-09", "1919-08-10", "1919-08-11", "1919-08-12", "1919-08-13", "1919-08-14", "1919-08-15", "1919-08-16", "1919-08-17"],
+         "importance": 11, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.792916, 47.663198]
+      },
+      "properties": {
+         "id": "pmb250",
+         "title": "Orthof",
+         "lat": "47.663198",
+         "lon": "15.792916",
+         "timestamp": ["1919-08-11"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q77949768", 
+        "geonames": "https://sws.geonames.org/2769408/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -266,6 +359,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.82151, 47.65949]
+      },
+      "properties": {
+         "id": "pmb36503",
+         "title": "Breitenstein am Semmering",
+         "lat": "47.65949",
+         "lon": "15.82151",
+         "timestamp": ["1919-08-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Breitenstein_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q124981", 
+        "geonames": "https://sws.geonames.org/2781451/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.28606, 48.25849]
       },
       "properties": {
@@ -280,6 +393,25 @@
         "geonames": "https://sws.geonames.org/3324230/", 
         "abbr": "L.LCTY", 
         "type": "Örtlichkeit"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1919-08-07", "1919-08-17"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -328,11 +460,35 @@
          "title": "Kurpark [Reichenau an der Rax]",
          "lat": "47.6968",
          "lon": "15.8432",
-         "timestamp": ["1919-08-16"],
-         "importance": 1, 
+         "timestamp": ["1919-08-08", "1919-08-16"],
+         "importance": 2, 
         "wikidata": "http://www.wikidata.org/entity/Q113163125", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1919-08-21"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
       }
       }, 
     {
@@ -356,6 +512,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.966666666667, 47.716666666667]
+      },
+      "properties": {
+         "id": "pmb248948",
+         "title": "Bürg-Vöstenhof",
+         "lat": "47.716666666667",
+         "lon": "15.966666666667",
+         "timestamp": ["1919-08-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%BCrg-V%C3%B6stenhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q674981", 
+        "geonames": "https://sws.geonames.org/7871874/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.85932, 47.7351]
+      },
+      "properties": {
+         "id": "pmb91101",
+         "title": "Lackerboden",
+         "lat": "47.7351",
+         "lon": "15.85932",
+         "timestamp": ["1919-08-13"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2779042/", 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.882778, 47.728056]
+      },
+      "properties": {
+         "id": "pmb248945",
+         "title": "Bodenwiese",
+         "lat": "47.728056",
+         "lon": "15.882778",
+         "timestamp": ["1919-08-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bodenwiese", 
+        "wikidata": "http://www.wikidata.org/entity/Q53865541", 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -363,8 +576,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1919-08-01", "1919-08-02", "1919-08-03", "1919-08-04", "1919-08-05", "1919-08-06", "1919-08-17", "1919-08-18", "1919-08-19", "1919-08-20", "1919-08-21", "1919-08-22", "1919-08-23", "1919-08-24", "1919-08-25", "1919-08-26", "1919-08-27", "1919-08-28", "1919-08-29", "1919-08-30", "1919-08-31"],
-         "importance": 21, 
+         "timestamp": ["1919-08-01", "1919-08-02", "1919-08-03", "1919-08-04", "1919-08-05", "1919-08-06", "1919-08-07", "1919-08-17", "1919-08-18", "1919-08-19", "1919-08-20", "1919-08-21", "1919-08-22", "1919-08-23", "1919-08-24", "1919-08-25", "1919-08-26", "1919-08-27", "1919-08-28", "1919-08-29", "1919-08-30", "1919-08-31"],
+         "importance": 22, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -532,6 +745,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.351996, 48.238534]
+      },
+      "properties": {
+         "id": "pmb235862",
+         "title": "Kreindlgasse 8",
+         "lat": "48.238534",
+         "lon": "16.351996",
+         "timestamp": ["1919-08-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vera Schapira",
+
+         "p_id": "#9667"
+         }, 
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.332896, 48.253174]
       },
       "properties": {
@@ -605,6 +848,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.339712, 48.250415]
+      },
+      "properties": {
+         "id": "pmb245142",
+         "title": "Kaasgrabengasse 12",
+         "lat": "48.250415",
+         "lon": "16.339712",
+         "timestamp": ["1919-08-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Frieda Pollak",
+
+         "p_id": "#22728"
+         }, 
+         {
+
+         "p_name": "Emilie Franziska Wellesz",
+
+         "p_id": "#26924"
+         }, 
+         {
+
+         "p_name": "Egon Wellesz",
+
+         "p_id": "#13085"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.32092, 48.24077]
       },
       "properties": {
@@ -640,6 +919,41 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83333, 47.71667]
+      },
+      "properties": {
+         "id": "pmb90631",
+         "title": "Feichtaberg",
+         "lat": "47.71667",
+         "lon": "15.83333",
+         "timestamp": ["1919-08-09"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2779613/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.7961, 47.66791]
+      },
+      "properties": {
+         "id": "pmb36506",
+         "title": "Haus Mahler",
+         "lat": "47.66791",
+         "lon": "15.7961",
+         "timestamp": ["1919-08-11"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.84804, 47.7107]
       },
       "properties": {
@@ -668,6 +982,39 @@
          "importance": 1, 
         "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.843363, 47.696629]
+      },
+      "properties": {
+         "id": "pmb92353",
+         "title": "Kurhauspark",
+         "lat": "47.696629",
+         "lon": "15.843363",
+         "timestamp": ["1919-08-15", "1919-08-16"],
+         "importance": 2
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.82814, 47.70552]
+      },
+      "properties": {
+         "id": "pmb281805",
+         "title": "Friedhof Reichenau an der Rax",
+         "lat": "47.70552",
+         "lon": "15.82814",
+         "timestamp": ["1919-08-15"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q38125734", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
       }
       }
   ]

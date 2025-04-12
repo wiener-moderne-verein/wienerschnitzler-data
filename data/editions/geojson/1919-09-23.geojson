@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.37127, 48.209673], 
+            [16.337485, 48.233662], 
+            [16.33691, 48.23233], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +16,70 @@
         "name": "23. September 1919"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1919-09-23"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337485, 48.233662]
+      },
+      "properties": {
+         "id": "pmb254639",
+         "title": "Erholungsheim. Inh. Erna Patak",
+         "lat": "48.233662",
+         "lon": "16.337485",
+         "timestamp": ["1919-09-23"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33691, 48.23233]
+      },
+      "properties": {
+         "id": "pmb235127",
+         "title": "Sternwartestraße 62–64",
+         "lat": "48.23233",
+         "lon": "16.33691",
+         "timestamp": ["1919-09-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alice Schmutzer",
+
+         "p_id": "#9734"
+         }, 
+         {
+
+         "p_name": "Ferdinand Schmutzer",
+
+         "p_id": "#12689"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

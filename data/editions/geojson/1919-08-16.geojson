@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [15.843363, 47.696629], 
             [15.8432, 47.6968], 
-            [15.8634, 47.69209], 
+            [15.84453, 47.69852], 
             [15.84704, 47.70466], 
             [15.794244, 47.701238]
           ]
@@ -20,20 +21,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.8634, 47.69209]
+        "coordinates": [15.84453, 47.69852]
       },
       "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
+         "id": "pmb44982",
+         "title": "Kurhaus Rudolfsbad",
+         "lat": "47.69852",
+         "lon": "15.84453",
          "timestamp": ["1919-08-16"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       },
     {
@@ -87,6 +85,21 @@
          "importance": 1, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.843363, 47.696629]
+      },
+      "properties": {
+         "id": "pmb92353",
+         "title": "Kurhauspark",
+         "lat": "47.696629",
+         "lon": "15.843363",
+         "timestamp": ["1919-08-16"],
+         "importance": 1
       }
       }
   ]

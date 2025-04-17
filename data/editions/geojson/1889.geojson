@@ -50,8 +50,8 @@
          "title": "Reichenau an der Rax",
          "lat": "47.7",
          "lon": "15.83333",
-         "timestamp": ["1889-08-17", "1889-08-18", "1889-08-19", "1889-08-20", "1889-09-07"],
-         "importance": 5, 
+         "timestamp": ["1889-08-17", "1889-08-18", "1889-08-19", "1889-08-20", "1889-09-07", "1889-09-09"],
+         "importance": 6, 
         "wikipedia": "https://de.wikipedia.org/wiki/Reichenau_an_der_Rax", 
         "wikidata": "http://www.wikidata.org/entity/Q665243", 
         "geonames": "https://sws.geonames.org/2767775/", 
@@ -88,8 +88,8 @@
          "title": "Südbahnhof",
          "lat": "48.187455471378",
          "lon": "16.379829498031",
-         "timestamp": ["1889-11-12"],
-         "importance": 1, 
+         "timestamp": ["1889-09-09", "1889-11-12"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -805,6 +805,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1889-07-02", "1889-09-09", "1889-09-13"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36362, 48.20329]
       },
       "properties": {
@@ -908,26 +928,6 @@
         "geonames": "https://sws.geonames.org/10629980/", 
         "abbr": "S.BDG", 
         "type": "Brücke"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.337778, 48.196667]
-      },
-      "properties": {
-         "id": "pmb184918",
-         "title": "Westbahnhof",
-         "lat": "48.196667",
-         "lon": "16.337778",
-         "timestamp": ["1889-07-02", "1889-09-09", "1889-09-13"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q698145", 
-        "geonames": "https://sws.geonames.org/2761331/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
       }
       }, 
     {
@@ -1606,6 +1606,25 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1889-09-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {

@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [2.34646, 48.84673], 
             [2.336389, 48.8625], 
+            [2.34646, 48.84673], 
+            [1.8555555555556, 50.9475], 
+            [1.31257, 51.12598], 
             [-0.12574, 51.50853]
           ]
       },
@@ -70,6 +72,44 @@
         "geonames": "https://sws.geonames.org/2643743/", 
         "abbr": "P.PPLC", 
         "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8555555555556, 50.9475]
+      },
+      "properties": {
+         "id": "pmb288541",
+         "title": "Calais",
+         "lat": "50.9475",
+         "lon": "1.8555555555556",
+         "timestamp": ["1888-05-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Calais", 
+        "wikidata": "http://www.wikidata.org/entity/Q6454", 
+        "geonames": "https://sws.geonames.org/3029162/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.31257, 51.12598]
+      },
+      "properties": {
+         "id": "pmb90048",
+         "title": "Dover",
+         "lat": "51.12598",
+         "lon": "1.31257",
+         "timestamp": ["1888-05-22"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2651048/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

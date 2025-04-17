@@ -32,8 +32,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1922-03-14", "1922-03-29"],
-         "importance": 2, 
+         "timestamp": ["1922-03-14", "1922-03-29", "1922-03-31"],
+         "importance": 3, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -105,8 +105,8 @@
          "title": "I., Innere Stadt",
          "lat": "48.20769",
          "lon": "16.37049",
-         "timestamp": ["1922-03-04"],
-         "importance": 1, 
+         "timestamp": ["1922-03-04", "1922-03-29"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
@@ -148,6 +148,42 @@
         "geonames": "https://sws.geonames.org/2777937/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.385462, 48.213115]
+      },
+      "properties": {
+         "id": "pmb233555",
+         "title": "Untere Donaustraße 29",
+         "lat": "48.213115",
+         "lon": "16.385462",
+         "timestamp": ["1922-03-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Adele von Suppé",
+
+         "p_id": "#25739"
+         }, 
+         {
+
+         "p_name": "Pauline von Suppè",
+
+         "p_id": "#25746"
+         }, 
+         {
+
+         "p_name": "Peter von Suppè",
+
+         "p_id": "#25749"
+         }]
       }
       }, 
     {
@@ -564,8 +600,8 @@
          "title": "Kammerspiele Wien",
          "lat": "48.211111",
          "lon": "16.375833",
-         "timestamp": ["1922-03-03", "1922-03-06"],
-         "importance": 2, 
+         "timestamp": ["1922-03-03", "1922-03-06", "1922-03-29"],
+         "importance": 3, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -737,6 +773,30 @@
          "p_name": "Max Leitner",
 
          "p_id": "#20270"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369913, 48.2083]
+      },
+      "properties": {
+         "id": "pmb263722",
+         "title": "Deutsches Konsulat in Wien",
+         "lat": "48.2083",
+         "lon": "16.369913",
+         "timestamp": ["1922-03-29"],
+         "importance": 1, 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Adolf Adler",
+
+         "p_id": "#13231"
          }]
       }
       }, 
@@ -1005,10 +1065,29 @@
          "title": "Niederländische Gesandtschaft in Wien",
          "lat": "48.2035",
          "lon": "16.36407",
-         "timestamp": ["1922-03-28"],
-         "importance": 1, 
+         "timestamp": ["1922-03-28", "1922-03-29"],
+         "importance": 2, 
         "abbr": "Botschaft (K.BTS)", 
         "type": "Botschaft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35812, 48.20803]
+      },
+      "properties": {
+         "id": "pmb776",
+         "title": "Österreichisches Parlament",
+         "lat": "48.20803",
+         "lon": "16.35812",
+         "timestamp": ["1922-03-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Parlamentsgeb%C3%A4ude_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q702121", 
+        "abbr": "Regierungsgebäude (K.RGB)", 
+        "type": "Regierungsgebäude"
       }
       }
   ]

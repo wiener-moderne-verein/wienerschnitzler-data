@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.3576, 48.21071], 
             [16.366111, 48.206389], 
+            [16.366548, 48.21306], 
             [16.333568462613, 48.235119783861], 
             [16.33716, 48.23188]
           ]
@@ -126,6 +128,49 @@
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hofburg", 
         "wikidata": "http://www.wikidata.org/entity/Q46242", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366548, 48.21306]
+      },
+      "properties": {
+         "id": "pmb256702",
+         "title": "Österreichische Länderbank",
+         "lat": "48.21306",
+         "lon": "16.366548",
+         "timestamp": ["1922-04-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
+        "wikidata": "http://www.wikidata.org/entity/Q26911630", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Max Leitner",
+
+         "p_id": "#20270"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3576, 48.21071]
+      },
+      "properties": {
+         "id": "pmb250232",
+         "title": "Magistratsabteilung 10 - Steuern und Abgaben [1920-1939]",
+         "lat": "48.21071",
+         "lon": "16.3576",
+         "timestamp": ["1922-04-14"],
+         "importance": 1, 
         "abbr": "Verwaltungsgebäude (K.VWL)", 
         "type": "Verwaltungsgebäude"
       }

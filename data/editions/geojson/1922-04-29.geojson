@@ -8,7 +8,9 @@
         "coordinates": [
             [4.874746, 52.355312], 
             [4.8790833333333, 52.356305555556], 
-            [4.892196, 52.372432]
+            [4.885277777777778, 52.36], 
+            [4.892196, 52.372432], 
+            [4.88659, 52.36565]
           ]
       },
       "properties": {
@@ -80,6 +82,43 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.885277777777778, 52.36]
+      },
+      "properties": {
+         "id": "pmb245746",
+         "title": "Rijksmuseum",
+         "lat": "52.36",
+         "lon": "4.885277777777778",
+         "timestamp": ["1922-04-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rijksmuseum_Amsterdam", 
+        "wikidata": "http://www.wikidata.org/entity/Q190804", 
+        "geonames": "https://sws.geonames.org/6884785/", 
+        "abbr": "S.MUS", 
+        "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.88659, 52.36565]
+      },
+      "properties": {
+         "id": "pmb288493",
+         "title": "Nederlands Museum voor Oost-Aziatische Kunst (Yi Yuan)",
+         "lat": "52.36565",
+         "lon": "4.88659",
+         "timestamp": ["1922-04-29"],
+         "importance": 1, 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
       }
       }
   ]

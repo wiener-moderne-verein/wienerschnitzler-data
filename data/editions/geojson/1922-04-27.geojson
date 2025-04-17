@@ -6,14 +6,33 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [4.312845, 52.083538], 
             [4.314417, 52.080436], 
-            [4.312845, 52.083538]
+            [4.32535, 52.08342], 
+            [4.3277, 52.0878]
           ]
       },
       "properties": {
         "name": "27. April 1922"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.32535, 52.08342]
+      },
+      "properties": {
+         "id": "pmb288455",
+         "title": "Bezuidenhoutseweg 65",
+         "lat": "52.08342",
+         "lon": "4.32535",
+         "timestamp": ["1922-04-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -46,6 +65,25 @@
          "importance": 1, 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.3277, 52.0878]
+      },
+      "properties": {
+         "id": "pmb245765",
+         "title": "Haagse Bos",
+         "lat": "52.0878",
+         "lon": "4.3277",
+         "timestamp": ["1922-04-27"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q2663130", 
+        "geonames": "https://sws.geonames.org/2755032/", 
+        "abbr": "L.PRK", 
+        "type": "Park"
       }
       }
   ]

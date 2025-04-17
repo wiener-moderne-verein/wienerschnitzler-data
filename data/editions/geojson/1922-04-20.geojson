@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.57549, 48.13743]
+            [11.56729, 48.14026], 
+            [11.570521871552252, 48.141240506268204], 
+            [11.58117, 48.14944], 
+            [11.567552, 48.143964]
           ]
       },
       "properties": {
@@ -17,20 +20,68 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.57549, 48.13743]
+        "coordinates": [11.567552, 48.143964]
       },
       "properties": {
-         "id": "pmb45258",
-         "title": "München",
-         "lat": "48.13743",
-         "lon": "11.57549",
+         "id": "pmb401",
+         "title": "Hotel Marienbad [München]",
+         "lat": "48.143964",
+         "lon": "11.567552",
          "timestamp": ["1922-04-20"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q1726", 
-        "geonames": "https://sws.geonames.org/2867714/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.570521871552252, 48.141240506268204]
+      },
+      "properties": {
+         "id": "pmb52580",
+         "title": "Parkhotel München",
+         "lat": "48.141240506268204",
+         "lon": "11.570521871552252",
+         "timestamp": ["1922-04-20"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.58117, 48.14944]
+      },
+      "properties": {
+         "id": "pmb288430",
+         "title": "Pension Gartenheim",
+         "lat": "48.14944",
+         "lon": "11.58117",
+         "timestamp": ["1922-04-20"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.56729, 48.14026]
+      },
+      "properties": {
+         "id": "pmb288435",
+         "title": "Hotel Leinfelder",
+         "lat": "48.14026",
+         "lon": "11.56729",
+         "timestamp": ["1922-04-20"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

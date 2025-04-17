@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.56729, 48.14026], 
             [11.5711, 48.1358], 
+            [11.58117, 48.14944], 
             [11.553336, 48.145952]
           ]
       },
@@ -48,6 +50,40 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.56729, 48.14026]
+      },
+      "properties": {
+         "id": "pmb288435",
+         "title": "Hotel Leinfelder",
+         "lat": "48.14026",
+         "lon": "11.56729",
+         "timestamp": ["1922-04-21"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.58117, 48.14944]
+      },
+      "properties": {
+         "id": "pmb288430",
+         "title": "Pension Gartenheim",
+         "lat": "48.14944",
+         "lon": "11.58117",
+         "timestamp": ["1922-04-21"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       }
   ]

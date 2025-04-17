@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [4.29861, 52.07667], 
+            [4.32535, 52.08342], 
             [4.874746, 52.355312], 
+            [5.07083, 52.495], 
             [5.24814, 52.82762]
           ]
       },
@@ -49,20 +50,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.29861, 52.07667]
+        "coordinates": [4.32535, 52.08342]
       },
       "properties": {
-         "id": "pmb58810",
-         "title": "Den Haag",
-         "lat": "52.07667",
-         "lon": "4.29861",
+         "id": "pmb288455",
+         "title": "Bezuidenhoutseweg 65",
+         "lat": "52.08342",
+         "lon": "4.32535",
          "timestamp": ["1922-04-30"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Den_Haag", 
-        "wikidata": "http://www.wikidata.org/entity/Q36600", 
-        "geonames": "https://sws.geonames.org/2747372/ https://sws.geonames.org/2747373/", 
-        "abbr": "P.PPLG", 
-        "type": "Hauptstadt"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       },
     {
@@ -81,6 +79,26 @@
         "geonames": "https://sws.geonames.org/2753361/", 
         "abbr": "H.BAY", 
         "type": "Bucht"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.07083, 52.495]
+      },
+      "properties": {
+         "id": "pmb57860",
+         "title": "Volendam",
+         "lat": "52.495",
+         "lon": "5.07083",
+         "timestamp": ["1922-04-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volendam_(Niederlande)", 
+        "wikidata": "http://www.wikidata.org/entity/Q903595", 
+        "geonames": "https://sws.geonames.org/2745340/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

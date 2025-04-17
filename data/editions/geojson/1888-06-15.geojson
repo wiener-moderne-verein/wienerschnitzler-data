@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [-0.174938, 51.495309], 
+            [-0.17499, 51.49433], 
+            [-0.17321, 51.49437], 
             [-0.1134, 51.4991]
           ]
       },
@@ -18,15 +19,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.174938, 51.495309]
+        "coordinates": [-0.17499, 51.49433]
       },
       "properties": {
          "id": "pmb92194",
-         "title": "Cromwell Place",
-         "lat": "51.495309",
-         "lon": "-0.174938",
+         "title": "18, Cromwell Place",
+         "lat": "51.49433",
+         "lon": "-0.17499",
          "timestamp": ["1888-06-15"],
-         "importance": 1
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       },
     {
@@ -45,6 +48,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q5033672", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.17321, 51.49437]
+      },
+      "properties": {
+         "id": "pmb91778",
+         "title": "South Kensington",
+         "lat": "51.49437",
+         "lon": "-0.17321",
+         "timestamp": ["1888-06-15"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2637395/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }
   ]

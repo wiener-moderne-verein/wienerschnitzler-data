@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.41053, 52.52437]
+            [13.26586, 52.48338], 
+            [13.295515, 52.465358], 
+            [13.36234, 52.498388], 
+            [13.374444, 52.51]
           ]
       },
       "properties": {
@@ -17,20 +20,86 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.41053, 52.52437]
+        "coordinates": [13.374444, 52.51]
       },
       "properties": {
-         "id": "pmb168",
-         "title": "Berlin",
-         "lat": "52.52437",
-         "lon": "13.41053",
+         "id": "pmb245",
+         "title": "Hotel Esplanade [Berlin]",
+         "lat": "52.51",
+         "lon": "13.374444",
          "timestamp": ["1922-05-14"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin", 
-        "wikidata": "http://www.wikidata.org/entity/Q64", 
-        "geonames": "https://sws.geonames.org/2950159/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q321562", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.295515, 52.465358]
+      },
+      "properties": {
+         "id": "pmb92451",
+         "title": "Podbielskiallee",
+         "lat": "52.465358",
+         "lon": "13.295515",
+         "timestamp": ["1922-05-14"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.26586, 52.48338]
+      },
+      "properties": {
+         "id": "pmb129",
+         "title": "Grunewald",
+         "lat": "52.48338",
+         "lon": "13.26586",
+         "timestamp": ["1922-05-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Grunewald", 
+        "wikidata": "http://www.wikidata.org/entity/Q2874431", 
+        "geonames": "https://sws.geonames.org/2914210/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36234, 52.498388]
+      },
+      "properties": {
+         "id": "pmb265165",
+         "title": "Potsdamer Straße 123",
+         "lat": "52.498388",
+         "lon": "13.36234",
+         "timestamp": ["1922-05-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }, 
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }]
       }
       }
   ]

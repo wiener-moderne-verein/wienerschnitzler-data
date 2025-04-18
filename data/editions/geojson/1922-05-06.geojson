@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [5.84583, 51.98583], 
-            [4.32535, 52.08342]
+            [5.83824, 51.98083], 
+            [5.911109, 51.979999], 
+            [5.91111, 51.98], 
+            [4.32535, 52.08342], 
+            [4.323889, 52.081111]
           ]
       },
       "properties": {
@@ -28,6 +31,56 @@
          "timestamp": ["1922-05-06"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rebecca Maria Tels",
+
+         "p_id": "#25921"
+         }, 
+         {
+
+         "p_name": "Lodewijk Emanuel Tels",
+
+         "p_id": "#25918"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.323889, 52.081111]
+      },
+      "properties": {
+         "id": "pmb288452",
+         "title": "Bahnhof Den Haag Centraal",
+         "lat": "52.081111",
+         "lon": "4.323889",
+         "timestamp": ["1922-05-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Den_Haag_Centraal", 
+        "wikidata": "http://www.wikidata.org/entity/Q200704", 
+        "geonames": "https://sws.geonames.org/6621479/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.83824, 51.98083]
+      },
+      "properties": {
+         "id": "pmb288613",
+         "title": "De Beekhof",
+         "lat": "51.98083",
+         "lon": "5.83824",
+         "timestamp": ["1922-05-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
       }
       },
@@ -35,18 +88,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.84583, 51.98583]
+        "coordinates": [5.91111, 51.98]
       },
       "properties": {
-         "id": "pmb40725",
-         "title": "Oosterbeek",
-         "lat": "51.98583",
-         "lon": "5.84583",
+         "id": "pmb64585",
+         "title": "Arnhem",
+         "lat": "51.98",
+         "lon": "5.91111",
          "timestamp": ["1922-05-06"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2749503/", 
-        "abbr": "P.PPL", 
+        "geonames": "https://sws.geonames.org/2759661/", 
+        "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.911109, 51.979999]
+      },
+      "properties": {
+         "id": "pmb119151",
+         "title": "Arnheim",
+         "lat": "51.979999",
+         "lon": "5.911109",
+         "timestamp": ["1922-05-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Arnhem", 
+        "wikidata": "http://www.wikidata.org/entity/Q1310"
       }
       }
   ]

@@ -6,13 +6,34 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.575765, 48.139924]
+            [13.04532, 47.80067], 
+            [11.575765, 48.139924], 
+            [11.555, 48.140833], 
+            [11.561467767769052, 48.13907960520144]
           ]
       },
       "properties": {
         "name": "18. Mai 1922"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.561467767769052, 48.13907960520144]
+      },
+      "properties": {
+         "id": "pmb806",
+         "title": "Hotel Rheinischer Hof München",
+         "lat": "48.13907960520144",
+         "lon": "11.561467767769052",
+         "timestamp": ["1922-05-18"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q130711545", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +49,46 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1922-05-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04532, 47.80067]
+      },
+      "properties": {
+         "id": "pmb30",
+         "title": "Salzburg",
+         "lat": "47.80067",
+         "lon": "13.04532",
+         "timestamp": ["1922-05-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q34713", 
+        "geonames": "https://sws.geonames.org/2766818/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsgebiet"
       }
       }
   ]

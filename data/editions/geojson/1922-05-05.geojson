@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [4.32535, 52.08342]
+            [4.32535, 52.08342], 
+            [4.40278, 52.14583]
           ]
       },
       "properties": {
@@ -27,7 +28,38 @@
          "timestamp": ["1922-05-05"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rebecca Maria Tels",
+
+         "p_id": "#25921"
+         }, 
+         {
+
+         "p_name": "Lodewijk Emanuel Tels",
+
+         "p_id": "#25918"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.40278, 52.14583]
+      },
+      "properties": {
+         "id": "pmb92047",
+         "title": "Wassenaar",
+         "lat": "52.14583",
+         "lon": "4.40278",
+         "timestamp": ["1922-05-05"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2744991/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

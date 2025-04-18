@@ -753,7 +753,7 @@
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "arbeitsort": [
+        "wohnort": [
          {
 
          "p_name": "Josef Peter",
@@ -850,6 +850,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.35637, 48.20541]
+      },
+      "properties": {
+         "id": "pmb288703",
+         "title": "Atelier Setzer",
+         "lat": "48.20541",
+         "lon": "16.35637",
+         "timestamp": ["1925-11-18"],
+         "importance": 1, 
+        "abbr": "Fotoatelier", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33286, 48.25644]
       },
       "properties": {
@@ -916,30 +933,6 @@
          "importance": 2, 
         "abbr": "S.REST", 
         "type": "Restaurant"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.35622, 48.20521]
-      },
-      "properties": {
-         "id": "pmb255342",
-         "title": "Museumstraße 5",
-         "lat": "48.20521",
-         "lon": "16.35622",
-         "timestamp": ["1925-11-18"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Franz Xaver Setzer",
-
-         "p_id": "#9881"
-         }]
       }
       }
   ]

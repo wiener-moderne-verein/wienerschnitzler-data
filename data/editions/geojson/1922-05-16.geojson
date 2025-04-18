@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.561467767769052, 48.13907960520144], 
+            [11.589959, 48.130874], 
+            [11.58419, 48.1576], 
             [11.591944, 48.152778], 
-            [11.07752, 49.45421]
+            [11.07985, 49.44631]
           ]
       },
       "properties": {
@@ -18,20 +21,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.07752, 49.45421]
+        "coordinates": [11.07985, 49.44631]
       },
       "properties": {
-         "id": "pmb44172",
-         "title": "Nürnberg",
-         "lat": "49.45421",
-         "lon": "11.07752",
+         "id": "pmb288655",
+         "title": "Hotel Württemberger Hof",
+         "lat": "49.44631",
+         "lon": "11.07985",
          "timestamp": ["1922-05-16"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg", 
-        "wikidata": "http://www.wikidata.org/entity/Q2090", 
-        "geonames": "https://sws.geonames.org/2861650/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -52,6 +52,58 @@
         "geonames": "https://sws.geonames.org/2930119/", 
         "abbr": "S.GDN", 
         "type": "Garten"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.561467767769052, 48.13907960520144]
+      },
+      "properties": {
+         "id": "pmb806",
+         "title": "Hotel Rheinischer Hof München",
+         "lat": "48.13907960520144",
+         "lon": "11.561467767769052",
+         "timestamp": ["1922-05-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q130711545", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.589959, 48.130874]
+      },
+      "properties": {
+         "id": "pmb246148",
+         "title": "Franziskanerkeller",
+         "lat": "48.130874",
+         "lon": "11.589959",
+         "timestamp": ["1922-05-16"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.58419, 48.1576]
+      },
+      "properties": {
+         "id": "pmb288669",
+         "title": "Leopoldstraße 21",
+         "lat": "48.1576",
+         "lon": "11.58419",
+         "timestamp": ["1922-05-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

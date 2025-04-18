@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.144793, 46.694494], 
+            [11.15587861, 46.67049317], 
             [16.363819, 48.20334]
           ]
       },
@@ -28,6 +30,43 @@
          "importance": 1, 
         "abbr": "Ordination", 
         "type": "Ordination"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.15587861, 46.67049317]
+      },
+      "properties": {
+         "id": "pmb184767",
+         "title": "Hotel und Pension Tirolerhof",
+         "lat": "46.67049317",
+         "lon": "11.15587861",
+         "timestamp": ["1886-03-24"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.144793, 46.694494]
+      },
+      "properties": {
+         "id": "pmb288591",
+         "title": "Castel Tirolo",
+         "lat": "46.694494",
+         "lon": "11.144793",
+         "timestamp": ["1886-03-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Tirol", 
+        "wikidata": "http://www.wikidata.org/entity/Q1654198", 
+        "geonames": "https://sws.geonames.org/3167163/", 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
       }
       }
   ]

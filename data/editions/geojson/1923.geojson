@@ -386,6 +386,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.393919, 48.160361]
+      },
+      "properties": {
+         "id": "pmb1038",
+         "title": "Laaer Berg",
+         "lat": "48.160361",
+         "lon": "16.393919",
+         "timestamp": ["1923-05-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Laaer_Berg", 
+        "wikidata": "http://www.wikidata.org/entity/Q873879", 
+        "geonames": "https://sws.geonames.org/2773221/", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.355191, 48.248422]
       },
       "properties": {
@@ -864,12 +884,6 @@
          "p_name": "Alois Vetchy",
 
          "p_id": "#26454"
-         }, 
-         {
-
-         "p_name": "Anton Stranzinger",
-
-         "p_id": "#25568"
          }, 
          {
 
@@ -2520,6 +2534,24 @@
         "arbeitsort": [
          {
 
+         "p_name": "Max Feilchenfeld",
+
+         "p_id": "#16127"
+         }, 
+         {
+
+         "p_name": "Moriz Neumann",
+
+         "p_id": "#21897"
+         }, 
+         {
+
+         "p_name": "Ignaz Fleminger",
+
+         "p_id": "#16342"
+         }, 
+         {
+
          "p_name": "Edmund Zwack",
 
          "p_id": "#27554"
@@ -3254,7 +3286,7 @@
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "arbeitsort": [
+        "wohnort": [
          {
 
          "p_name": "Josef Peter",
@@ -3970,6 +4002,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.36234, 52.498388]
+      },
+      "properties": {
+         "id": "pmb265165",
+         "title": "Potsdamer Straße 123",
+         "lat": "52.498388",
+         "lon": "13.36234",
+         "timestamp": ["1923-05-08", "1923-05-09", "1923-05-25", "1923-05-26"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }, 
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.41212, 52.58777]
+      },
+      "properties": {
+         "id": "pmb144055",
+         "title": "Lanzsch & Co.",
+         "lat": "52.58777",
+         "lon": "13.41212",
+         "timestamp": ["1923-05-09"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372467, 48.202986]
       },
       "properties": {
@@ -4323,24 +4402,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.39546, 48.15824]
-      },
-      "properties": {
-         "id": "pmb91093",
-         "title": "Laaer Berg",
-         "lat": "48.15824",
-         "lon": "16.39546",
-         "timestamp": ["1923-05-04"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2773221/", 
-        "abbr": "T.HLL", 
-        "type": "Hügel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.37253, 48.205625]
       },
       "properties": {
@@ -4449,36 +4510,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.36234, 52.498388]
-      },
-      "properties": {
-         "id": "pmb265165",
-         "title": "Potsdamer Straße 123",
-         "lat": "52.498388",
-         "lon": "13.36234",
-         "timestamp": ["1923-05-08", "1923-05-09", "1923-05-25", "1923-05-26"],
-         "importance": 4, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Dora Michaelis",
-
-         "p_id": "#2774"
-         }, 
-         {
-
-         "p_name": "Karl Michaelis",
-
-         "p_id": "#3064"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.39333, 52.51483]
       },
       "properties": {
@@ -4514,23 +4545,6 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.41212, 52.58777]
-      },
-      "properties": {
-         "id": "pmb144055",
-         "title": "Lanzsch & Co.",
-         "lat": "52.58777",
-         "lon": "13.41212",
-         "timestamp": ["1923-05-09"],
-         "importance": 1, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
       }
       }, 
     {
@@ -5180,7 +5194,14 @@
          "timestamp": ["1923-06-19", "1923-06-20", "1923-06-23", "1923-07-11", "1923-07-17", "1923-07-20", "1923-09-18", "1923-10-03", "1923-10-19", "1923-11-06"],
          "importance": 10, 
         "abbr": "Bank (K.BNK)", 
-        "type": "Bank"
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
       }
       }, 
     {
@@ -6900,7 +6921,14 @@
          "timestamp": ["1923-10-12"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Arthur Markus",
+
+         "p_id": "#21061"
+         }]
       }
       }, 
     {

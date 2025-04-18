@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.350819, 48.214295], 
             [16.352811, 48.210713], 
+            [16.35637, 48.20541], 
+            [16.361139, 48.210333], 
             [16.35689, 48.21787], 
             [16.33716, 48.23188]
           ]
@@ -88,6 +91,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1922-05-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1922-05-30"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -161,6 +212,23 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35637, 48.20541]
+      },
+      "properties": {
+         "id": "pmb288703",
+         "title": "Atelier Setzer",
+         "lat": "48.20541",
+         "lon": "16.35637",
+         "timestamp": ["1922-05-30"],
+         "importance": 1, 
+        "abbr": "Fotoatelier", 
+        "type": ""
       }
       }
   ]

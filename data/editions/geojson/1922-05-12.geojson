@@ -6,13 +6,37 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.273893, 52.490797]
+            [13.273893, 52.490797], 
+            [13.293044, 52.465923], 
+            [13.36234, 52.498388], 
+            [13.34635, 52.49755], 
+            [13.374444, 52.51], 
+            [13.3239, 52.5019]
           ]
       },
       "properties": {
         "name": "12. Mai 1922"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.374444, 52.51]
+      },
+      "properties": {
+         "id": "pmb245",
+         "title": "Hotel Esplanade [Berlin]",
+         "lat": "52.51",
+         "lon": "13.374444",
+         "timestamp": ["1922-05-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Esplanade_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q321562", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -40,6 +64,98 @@
          "p_name": "Hedwig Fischer",
 
          "p_id": "#2657"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.34635, 52.49755]
+      },
+      "properties": {
+         "id": "pmb235925",
+         "title": "Horcher",
+         "lat": "52.49755",
+         "lon": "13.34635",
+         "timestamp": ["1922-05-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Horcher_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1628048", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3239, 52.5019]
+      },
+      "properties": {
+         "id": "pmb251603",
+         "title": "Theater am Kurfürstendamm",
+         "lat": "52.5019",
+         "lon": "13.3239",
+         "timestamp": ["1922-05-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theater_am_Kurf%C3%BCrstendamm", 
+        "wikidata": "http://www.wikidata.org/entity/Q869970", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.293044, 52.465923]
+      },
+      "properties": {
+         "id": "pmb244580",
+         "title": "Miquelstraße 86",
+         "lat": "52.465923",
+         "lon": "13.293044",
+         "timestamp": ["1922-05-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Fulda",
+
+         "p_id": "#11391"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36234, 52.498388]
+      },
+      "properties": {
+         "id": "pmb265165",
+         "title": "Potsdamer Straße 123",
+         "lat": "52.498388",
+         "lon": "13.36234",
+         "timestamp": ["1922-05-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Dora Michaelis",
+
+         "p_id": "#2774"
+         }, 
+         {
+
+         "p_name": "Karl Michaelis",
+
+         "p_id": "#3064"
          }]
       }
       }

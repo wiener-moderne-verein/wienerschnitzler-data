@@ -7,8 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [4.32535, 52.08342], 
+            [4.323889, 52.081111], 
             [4.35556, 52.00667], 
-            [4.88969, 52.37403]
+            [4.88139, 52.36361], 
+            [4.90016, 52.37895]
           ]
       },
       "properties": {
@@ -29,27 +31,78 @@
          "timestamp": ["1922-05-04"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rebecca Maria Tels",
+
+         "p_id": "#25921"
+         }, 
+         {
+
+         "p_name": "Lodewijk Emanuel Tels",
+
+         "p_id": "#25918"
+         }]
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.88969, 52.37403]
+        "coordinates": [4.323889, 52.081111]
       },
       "properties": {
-         "id": "pmb40709",
-         "title": "Amsterdam",
-         "lat": "52.37403",
-         "lon": "4.88969",
+         "id": "pmb288452",
+         "title": "Bahnhof Den Haag Centraal",
+         "lat": "52.081111",
+         "lon": "4.323889",
          "timestamp": ["1922-05-04"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Amsterdam", 
-        "wikidata": "http://www.wikidata.org/entity/Q727", 
-        "geonames": "https://sws.geonames.org/2759794/", 
-        "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Den_Haag_Centraal", 
+        "wikidata": "http://www.wikidata.org/entity/Q200704", 
+        "geonames": "https://sws.geonames.org/6621479/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.88139, 52.36361]
+      },
+      "properties": {
+         "id": "pmb245743",
+         "title": "Café Américain",
+         "lat": "52.36361",
+         "lon": "4.88139",
+         "timestamp": ["1922-05-04"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q2602875", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.90016, 52.37895]
+      },
+      "properties": {
+         "id": "pmb256379",
+         "title": "Amsterdam Centraal",
+         "lat": "52.37895",
+         "lon": "4.90016",
+         "timestamp": ["1922-05-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Amsterdam_Centraal", 
+        "wikidata": "http://www.wikidata.org/entity/Q50719", 
+        "geonames": "https://sws.geonames.org/2759790/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       },
     {

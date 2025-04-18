@@ -1222,12 +1222,6 @@
          }, 
          {
 
-         "p_name": "Anton Stranzinger",
-
-         "p_id": "#25568"
-         }, 
-         {
-
          "p_name": "Franz Matouschek",
 
          "p_id": "#21159"
@@ -1820,7 +1814,14 @@
          "timestamp": ["1924-06-19"],
          "importance": 1, 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium"
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Wilhelm Wertheimer",
+
+         "p_id": "#26997"
+         }]
       }
       }, 
     {
@@ -2508,6 +2509,24 @@
         "arbeitsort": [
          {
 
+         "p_name": "Max Feilchenfeld",
+
+         "p_id": "#16127"
+         }, 
+         {
+
+         "p_name": "Moriz Neumann",
+
+         "p_id": "#21897"
+         }, 
+         {
+
+         "p_name": "Ignaz Fleminger",
+
+         "p_id": "#16342"
+         }, 
+         {
+
          "p_name": "Edmund Zwack",
 
          "p_id": "#27554"
@@ -3150,7 +3169,7 @@
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "arbeitsort": [
+        "wohnort": [
          {
 
          "p_name": "Josef Peter",
@@ -3577,7 +3596,14 @@
          "timestamp": ["1924-05-16"],
          "importance": 1, 
         "abbr": "Ministerium (K.MIN)", 
-        "type": ""
+        "type": "", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Otto Glöckel",
+
+         "p_id": "#17105"
+         }]
       }
       }, 
     {
@@ -3789,6 +3815,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.35637, 48.20541]
+      },
+      "properties": {
+         "id": "pmb288703",
+         "title": "Atelier Setzer",
+         "lat": "48.20541",
+         "lon": "16.35637",
+         "timestamp": ["1924-05-23"],
+         "importance": 1, 
+        "abbr": "Fotoatelier", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.368498, 48.212965]
       },
       "properties": {
@@ -3799,7 +3842,14 @@
          "timestamp": ["1924-01-08", "1924-03-12", "1924-04-02", "1924-05-07", "1924-05-30", "1924-06-24", "1924-07-08"],
          "importance": 7, 
         "abbr": "Bank (K.BNK)", 
-        "type": "Bank"
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
       }
       }, 
     {
@@ -4230,7 +4280,7 @@
          "importance": 9, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude", 
-        "wohnort": [
+        "arbeitsort": [
          {
 
          "p_name": "Josef Peter",
@@ -4483,30 +4533,6 @@
          "p_name": "Ferdinand Kende",
 
          "p_id": "#19273"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.35622, 48.20521]
-      },
-      "properties": {
-         "id": "pmb255342",
-         "title": "Museumstraße 5",
-         "lat": "48.20521",
-         "lon": "16.35622",
-         "timestamp": ["1924-05-23"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Franz Xaver Setzer",
-
-         "p_id": "#9881"
          }]
       }
       }, 

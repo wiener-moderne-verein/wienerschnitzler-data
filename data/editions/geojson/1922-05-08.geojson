@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [5.84583, 51.98583]
+            [5.83824, 51.98083], 
+            [5.91111, 51.98], 
+            [7.16031, 52.30078], 
+            [6.16389, 52.255]
           ]
       },
       "properties": {
@@ -17,16 +20,69 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.84583, 51.98583]
+        "coordinates": [5.83824, 51.98083]
       },
       "properties": {
-         "id": "pmb40725",
-         "title": "Oosterbeek",
-         "lat": "51.98583",
-         "lon": "5.84583",
+         "id": "pmb288613",
+         "title": "De Beekhof",
+         "lat": "51.98083",
+         "lon": "5.83824",
          "timestamp": ["1922-05-08"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2749503/", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.91111, 51.98]
+      },
+      "properties": {
+         "id": "pmb64585",
+         "title": "Arnhem",
+         "lat": "51.98",
+         "lon": "5.91111",
+         "timestamp": ["1922-05-08"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2759661/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.16389, 52.255]
+      },
+      "properties": {
+         "id": "pmb90525",
+         "title": "Deventer",
+         "lat": "52.255",
+         "lon": "6.16389",
+         "timestamp": ["1922-05-08"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2756987/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.16031, 52.30078]
+      },
+      "properties": {
+         "id": "pmb90330",
+         "title": "Bentheim",
+         "lat": "52.30078",
+         "lon": "7.16031",
+         "timestamp": ["1922-05-08"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2950958/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }

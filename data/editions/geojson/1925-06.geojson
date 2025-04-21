@@ -1139,9 +1139,39 @@
          "timestamp": ["1925-06-04"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
-        "wikidata": "http://www.wikidata.org/entity/Q113470466", 
+        "wikidata": "http://www.wikidata.org/entity/Q113470466 http://www.wikidata.org/entity/Q414538", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1925-06-05", "1925-06-10", "1925-06-12"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
       }
       }, 
     {
@@ -1190,36 +1220,6 @@
          "p_name": "Philipp Menczel",
 
          "p_id": "#3119"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.350819, 48.214295]
-      },
-      "properties": {
-         "id": "pmb235874",
-         "title": "Lange Gasse 65",
-         "lat": "48.214295",
-         "lon": "16.350819",
-         "timestamp": ["1925-06-05", "1925-06-10", "1925-06-12"],
-         "importance": 3, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Vilma Lichtenstern",
-
-         "p_id": "#20400"
-         }, 
-         {
-
-         "p_name": "Robert Lichtenstern",
-
-         "p_id": "#20398"
          }]
       }
       }, 

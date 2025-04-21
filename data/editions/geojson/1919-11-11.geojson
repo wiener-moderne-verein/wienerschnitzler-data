@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.3566, 48.205142], 
             [16.35137, 48.21346], 
+            [16.3566, 48.205142], 
+            [16.369162, 48.208069], 
+            [16.371571, 48.208448], 
             [16.33691, 48.23233], 
             [16.33716, 48.23188]
           ]
@@ -210,6 +212,47 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369162, 48.208069]
+      },
+      "properties": {
+         "id": "pmb281718",
+         "title": "Friese & Lang, Buchhandlung",
+         "lat": "48.208069",
+         "lon": "16.369162",
+         "timestamp": ["1919-11-11"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1919-11-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
          }]
       }
       }

@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.35137, 48.21346], 
+            [16.364166, 48.19944], 
             [16.367725, 48.212284], 
             [16.33716, 48.23188]
           ]
@@ -15,36 +16,6 @@
         "name": "14. Juni 1922"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.367725, 48.212284]
-      },
-      "properties": {
-         "id": "pmb207301",
-         "title": "Tiefer Graben 17",
-         "lat": "48.212284",
-         "lon": "16.367725",
-         "timestamp": ["1922-06-14"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
-         }]
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -183,6 +154,53 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367725, 48.212284]
+      },
+      "properties": {
+         "id": "pmb207301",
+         "title": "Tiefer Graben 17",
+         "lat": "48.212284",
+         "lon": "16.367725",
+         "timestamp": ["1922-06-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364166, 48.19944]
+      },
+      "properties": {
+         "id": "pmb288782",
+         "title": "W. Karczag Verlag",
+         "lat": "48.19944",
+         "lon": "16.364166",
+         "timestamp": ["1922-06-14"],
+         "importance": 1, 
+        "abbr": "Verlag", 
+        "type": ""
       }
       }
   ]

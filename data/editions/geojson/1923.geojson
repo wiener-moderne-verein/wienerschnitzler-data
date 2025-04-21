@@ -2221,7 +2221,6 @@
          "lon": "16.38382",
          "timestamp": ["1923-03-17", "1923-11-10"],
          "importance": 2, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/B%C3%BCrgertheater", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": [
@@ -3744,9 +3743,39 @@
          "timestamp": ["1923-04-05"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
-        "wikidata": "http://www.wikidata.org/entity/Q113470466", 
+        "wikidata": "http://www.wikidata.org/entity/Q113470466 http://www.wikidata.org/entity/Q414538", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1923-01-10", "1923-01-15", "1923-01-20", "1923-01-26", "1923-01-30", "1923-01-31", "1923-02-04", "1923-02-09", "1923-02-28", "1923-03-04", "1923-03-07", "1923-03-13", "1923-03-19", "1923-03-21", "1923-04-04", "1923-04-20", "1923-04-28", "1923-04-29", "1923-05-30", "1923-06-05", "1923-06-11", "1923-06-21", "1923-06-23", "1923-09-19", "1923-09-27", "1923-11-11", "1923-11-13", "1923-11-20", "1923-12-05"],
+         "importance": 29, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
       }
       }, 
     {
@@ -3887,36 +3916,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.350819, 48.214295]
-      },
-      "properties": {
-         "id": "pmb235874",
-         "title": "Lange Gasse 65",
-         "lat": "48.214295",
-         "lon": "16.350819",
-         "timestamp": ["1923-01-10", "1923-01-15", "1923-01-20", "1923-01-26", "1923-01-30", "1923-01-31", "1923-02-04", "1923-02-09", "1923-02-28", "1923-03-04", "1923-03-07", "1923-03-13", "1923-03-19", "1923-03-21", "1923-04-04", "1923-04-20", "1923-04-28", "1923-04-29", "1923-05-30", "1923-06-05", "1923-06-11", "1923-06-21", "1923-06-23", "1923-09-19", "1923-09-27", "1923-11-11", "1923-11-13", "1923-11-20", "1923-12-05"],
-         "importance": 29, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Vilma Lichtenstern",
-
-         "p_id": "#20400"
-         }, 
-         {
-
-         "p_name": "Robert Lichtenstern",
-
-         "p_id": "#20398"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.377475, 48.207779]
       },
       "properties": {
@@ -3976,6 +3975,23 @@
 
          "p_id": "#25563"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372467, 48.202986]
+      },
+      "properties": {
+         "id": "pmb264287",
+         "title": "Internationale Konzertdirektion »Ika«",
+         "lat": "48.202986",
+         "lon": "16.372467",
+         "timestamp": ["1923-01-17"],
+         "importance": 1, 
+        "abbr": "Konzertdirektion", 
+        "type": ""
       }
       }, 
     {
@@ -4043,23 +4059,6 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.372467, 48.202986]
-      },
-      "properties": {
-         "id": "pmb264287",
-         "title": "Internationale Konzertdirektion »Ika«",
-         "lat": "48.202986",
-         "lon": "16.372467",
-         "timestamp": ["1923-01-17"],
-         "importance": 1, 
-        "abbr": "Konzertdirektion", 
-        "type": ""
       }
       }, 
     {
@@ -6956,7 +6955,7 @@
       },
       "properties": {
          "id": "pmb267980",
-         "title": "Concordia-Club (ab 1907)",
+         "title": "Concordia-Club [ab 1907]",
          "lat": "48.21545",
          "lon": "16.36633",
          "timestamp": ["1923-11-06"],

@@ -7,8 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [16.3566, 48.205142], 
+            [16.371296264238, 48.202432234197], 
             [16.377197811369, 48.200771836002], 
-            [16.33716, 48.23188]
+            [16.369506, 48.207832], 
+            [16.33716, 48.23188], 
+            [16.347492624475, 48.216264483348]
           ]
       },
       "properties": {
@@ -66,6 +69,92 @@
 
          "p_id": "#10983"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347492624475, 48.216264483348]
+      },
+      "properties": {
+         "id": "pmb89",
+         "title": "Sanatorium Loew",
+         "lat": "48.216264483348",
+         "lon": "16.347492624475",
+         "timestamp": ["1919-11-27"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Anton Loew",
+
+         "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Armin Petschek",
+
+         "p_id": "#22471"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369506, 48.207832]
+      },
+      "properties": {
+         "id": "pmb288992",
+         "title": "Deutsch-Österreichischer Bühnenverein",
+         "lat": "48.207832",
+         "lon": "16.369506",
+         "timestamp": ["1919-11-27"],
+         "importance": 1, 
+        "abbr": "Vereinsgebäude (K.VRN)", 
+        "type": "Vereinsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1919-11-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=26893", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
       }
       },
     {

@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.43333, 47.06667]
+            [15.43729, 47.07183], 
+            [15.4444, 47.0748], 
+            [15.44429, 47.08005]
           ]
       },
       "properties": {
@@ -17,20 +19,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.43333, 47.06667]
+        "coordinates": [15.43729, 47.07183]
       },
       "properties": {
-         "id": "pmb860",
-         "title": "Graz",
-         "lat": "47.06667",
-         "lon": "15.43333",
+         "id": "pmb288767",
+         "title": "Palais-Hotel Erzherzog-Johann",
+         "lat": "47.07183",
+         "lon": "15.43729",
          "timestamp": ["1922-06-10"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Graz", 
-        "wikidata": "http://www.wikidata.org/entity/Q13298", 
-        "geonames": "https://sws.geonames.org/7871499/ https://sws.geonames.org/2778058/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsgebiet"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.4444, 47.0748]
+      },
+      "properties": {
+         "id": "pmb288764",
+         "title": "Stadtpark Graz",
+         "lat": "47.0748",
+         "lon": "15.4444",
+         "timestamp": ["1922-06-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grazer_Stadtpark", 
+        "wikidata": "http://www.wikidata.org/entity/Q1489718", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.44429, 47.08005]
+      },
+      "properties": {
+         "id": "pmb288774",
+         "title": "Hansa Privatklinikum Graz",
+         "lat": "47.08005",
+         "lon": "15.44429",
+         "timestamp": ["1922-06-10"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium"
       }
       }
   ]

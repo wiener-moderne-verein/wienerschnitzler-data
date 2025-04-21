@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.3566, 48.205142], 
             [16.365278, 48.210278], 
+            [16.363197, 48.216829], 
             [16.33716, 48.23188], 
             [16.30179, 48.24586]
           ]
@@ -134,6 +136,69 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3566, 48.205142]
+      },
+      "properties": {
+         "id": "pmb20",
+         "title": "Volkstheater",
+         "lat": "48.205142",
+         "lon": "16.3566",
+         "timestamp": ["1919-10-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volkstheater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
+        "wikidata": "http://www.wikidata.org/entity/Q688555", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Kassier Volkstheater 1895]",
+
+         "p_id": "#27730"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363197, 48.216829]
+      },
+      "properties": {
+         "id": "pmb235827",
+         "title": "Hörlgasse 14",
+         "lat": "48.216829",
+         "lon": "16.363197",
+         "timestamp": ["1919-10-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ernestine Pollak",
+
+         "p_id": "#265444"
+         }, 
+         {
+
+         "p_name": "Frieda Pollak",
+
+         "p_id": "#22728"
+         }, 
+         {
+
+         "p_name": "Karl Pollak",
+
+         "p_id": "#22740"
          }]
       }
       }

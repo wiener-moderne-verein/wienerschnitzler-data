@@ -6,13 +6,76 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.33716, 48.23188], 
+            [16.34167, 48.233004], 
+            [16.337485, 48.233662]
           ]
       },
       "properties": {
         "name": "6. Januar 1920"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1920-01-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337485, 48.233662]
+      },
+      "properties": {
+         "id": "pmb254639",
+         "title": "Erholungsheim. Inh. Erna Patak",
+         "lat": "48.233662",
+         "lon": "16.337485",
+         "timestamp": ["1920-01-06"],
+         "importance": 1, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Erna Patak",
+
+         "p_id": "#22372"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

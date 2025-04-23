@@ -7,6 +7,9 @@
         "type": "LineString", 
         "coordinates": [
             [16.35137, 48.21346], 
+            [16.361139, 48.210333], 
+            [16.36359, 48.20998], 
+            [16.369055, 48.212694], 
             [16.33716, 48.23188]
           ]
       },
@@ -72,6 +75,72 @@
          "p_name": "Emilie Kalisch",
 
          "p_id": "#19026"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1920-03-15"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36359, 48.20998]
+      },
+      "properties": {
+         "id": "pmb24",
+         "title": "Ministerium für Unterricht",
+         "lat": "48.20998",
+         "lon": "16.36359",
+         "timestamp": ["1920-03-15"],
+         "importance": 1, 
+        "abbr": "Ministerium (K.MIN)", 
+        "type": "", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Otto Glöckel",
+
+         "p_id": "#17105"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369055, 48.212694]
+      },
+      "properties": {
+         "id": "pmb281514",
+         "title": "Wipplingerstraße 20",
+         "lat": "48.212694",
+         "lon": "16.369055",
+         "timestamp": ["1920-03-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Adolf Altmann",
+
+         "p_id": "#13335"
          }]
       }
       },

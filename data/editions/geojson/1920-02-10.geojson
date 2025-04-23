@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.369162, 48.208069], 
+            [16.369675, 48.208985], 
+            [16.369956, 48.209839], 
             [16.367725, 48.212284], 
+            [16.370342, 48.211369], 
             [16.33716, 48.23188]
           ]
       },
@@ -41,6 +45,95 @@
          "p_name": "Gustav Schwarzkopf",
 
          "p_id": "#12740"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369162, 48.208069]
+      },
+      "properties": {
+         "id": "pmb281718",
+         "title": "Friese & Lang, Buchhandlung",
+         "lat": "48.208069",
+         "lon": "16.369162",
+         "timestamp": ["1920-02-10"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369675, 48.208985]
+      },
+      "properties": {
+         "id": "pmb236244",
+         "title": "Heinrich Grünbaum, Kleidermacher",
+         "lat": "48.208985",
+         "lon": "16.369675",
+         "timestamp": ["1920-02-10"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Carl B. Haug",
+
+         "p_id": "#17936"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369956, 48.209839]
+      },
+      "properties": {
+         "id": "pmb289143",
+         "title": "English House L. Gutruf & Co., Spezialgeschäft für ausländische Delikatessen",
+         "lat": "48.209839",
+         "lon": "16.369956",
+         "timestamp": ["1920-02-10"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1920-02-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
          }]
       }
       },

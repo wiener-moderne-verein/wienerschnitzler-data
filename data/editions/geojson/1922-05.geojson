@@ -249,24 +249,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.88139, 52.36361]
-      },
-      "properties": {
-         "id": "pmb245743",
-         "title": "Café Américain",
-         "lat": "52.36361",
-         "lon": "4.88139",
-         "timestamp": ["1922-05-04"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q2602875", 
-        "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.37049, 48.20769]
       },
       "properties": {
@@ -814,6 +796,12 @@
          }, 
          {
 
+         "p_name": "Anna ",
+
+         "p_id": "#13428"
+         }, 
+         {
+
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
@@ -995,6 +983,24 @@
         "geonames": "https://sws.geonames.org/2927464/", 
         "abbr": "P.PPLA4", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.88139, 52.36361]
+      },
+      "properties": {
+         "id": "pmb245743",
+         "title": "Café Américain",
+         "lat": "52.36361",
+         "lon": "4.88139",
+         "timestamp": ["1922-05-04"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q2602875", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
       }
       }, 
     {
@@ -1860,7 +1866,14 @@
          "timestamp": ["1922-05-16"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Wolfgang Schülein",
+
+         "p_id": "#12753"
+         }]
       }
       }, 
     {
@@ -1894,7 +1907,14 @@
          "timestamp": ["1922-05-17"],
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
+        "type": "Gastgewerbegebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }]
       }
       }, 
     {

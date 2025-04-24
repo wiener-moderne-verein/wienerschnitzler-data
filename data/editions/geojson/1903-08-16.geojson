@@ -6,7 +6,6 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.2, 46.41667], 
             [11.204546362228479, 46.419092415685334], 
             [11.205454, 46.417787], 
             [11.2105401, 46.418677], 
@@ -18,24 +17,6 @@
         "name": "16. August 1903"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.2, 46.41667]
-      },
-      "properties": {
-         "id": "pmb91229",
-         "title": "Passo della Mendola",
-         "lat": "46.41667",
-         "lon": "11.2",
-         "timestamp": ["1903-08-16"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/3173592/", 
-        "abbr": "T.PASS", 
-        "type": "Pass"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -91,23 +72,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.211446406, 46.43078237]
-      },
-      "properties": {
-         "id": "pmb233253",
-         "title": "Kleiner Penegal",
-         "lat": "46.43078237",
-         "lon": "11.211446406",
-         "timestamp": ["1903-08-16"],
-         "importance": 1, 
-        "abbr": "Ausflugsziel", 
-        "type": "Ausflugsziel"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [11.205454, 46.417787]
       },
       "properties": {
@@ -119,6 +83,23 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.211446406, 46.43078237]
+      },
+      "properties": {
+         "id": "pmb233253",
+         "title": "Kleiner Penegal",
+         "lat": "46.43078237",
+         "lon": "11.211446406",
+         "timestamp": ["1903-08-16"],
+         "importance": 1, 
+        "abbr": "Ausflugsziel", 
+        "type": "Ausflugsziel"
       }
       }
   ]

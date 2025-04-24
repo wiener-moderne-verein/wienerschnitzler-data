@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [16.35736, 48.21533], 
+            [14.435833333333, 50.083055555556], 
             [14.432579456179662, 50.08397195903547]
           ]
       },
@@ -14,6 +15,57 @@
         "name": "28. November 1897"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.432579456179662, 50.08397195903547]
+      },
+      "properties": {
+         "id": "pmb57778",
+         "title": "Opletalova",
+         "lat": "50.08397195903547",
+         "lon": "14.432579456179662",
+         "timestamp": ["1897-11-28"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q43052170", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "wohnort": [
+         {
+
+         "p_name": "Vít Šalomoun Bondy",
+
+         "p_id": "#14392"
+         }, 
+         {
+
+         "p_name": "Charlotte Bondy",
+
+         "p_id": "#14384"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.435833333333, 50.083055555556]
+      },
+      "properties": {
+         "id": "pmb252051",
+         "title": "Praha hlavní nádraží",
+         "lat": "50.083055555556",
+         "lon": "14.435833333333",
+         "timestamp": ["1897-11-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
+        "wikidata": "http://www.wikidata.org/entity/Q751174", 
+        "geonames": "https://sws.geonames.org/6285753/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -96,37 +148,6 @@
          "p_name": " ?? [Hausmeisterin von Arthur Schnitzler]",
 
          "p_id": "#27696"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [14.432579456179662, 50.08397195903547]
-      },
-      "properties": {
-         "id": "pmb57778",
-         "title": "Opletalova",
-         "lat": "50.08397195903547",
-         "lon": "14.432579456179662",
-         "timestamp": ["1897-11-28"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q43052170", 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
-        "wohnort": [
-         {
-
-         "p_name": "Vít Šalomoun Bondy",
-
-         "p_id": "#14392"
-         }, 
-         {
-
-         "p_name": "Charlotte Bondy",
-
-         "p_id": "#14384"
          }]
       }
       }

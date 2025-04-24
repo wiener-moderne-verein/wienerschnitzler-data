@@ -7,7 +7,10 @@
         "type": "LineString", 
         "coordinates": [
             [11.306475, 47.96196], 
-            [11.29326, 47.94602], 
+            [11.290224, 47.946938], 
+            [11.31042, 47.95911], 
+            [11.298363683529006, 47.94933649585533], 
+            [11.585161, 48.135523], 
             [11.581667, 48.138889], 
             [11.5711, 48.1358], 
             [11.561467767769052, 48.13907960520144], 
@@ -22,18 +25,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.29326, 47.94602]
+        "coordinates": [11.298363683529006, 47.94933649585533]
       },
       "properties": {
-         "id": "pmb53150",
-         "title": "Feldafing",
-         "lat": "47.94602",
-         "lon": "11.29326",
+         "id": "pmb53152",
+         "title": "Hotel Kaiserin Elisabeth [Feldafing]",
+         "lat": "47.94933649585533",
+         "lon": "11.298363683529006",
          "timestamp": ["1922-08-07"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2927464/", 
-        "abbr": "P.PPLA4", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.290224, 47.946938]
+      },
+      "properties": {
+         "id": "pmb288681",
+         "title": "Bahnhof Feldafing",
+         "lat": "47.946938",
+         "lon": "11.290224",
+         "timestamp": ["1922-08-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Feldafing", 
+        "wikidata": "http://www.wikidata.org/entity/Q800747", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {
@@ -114,6 +135,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.585161, 48.135523]
+      },
+      "properties": {
+         "id": "pmb248958",
+         "title": "Mannhardtstraße 3",
+         "lat": "48.135523",
+         "lon": "11.585161",
+         "timestamp": ["1922-08-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Aloisia Chlum",
+
+         "p_id": "#27771"
+         }, 
+         {
+
+         "p_name": "Auguste Glümer",
+
+         "p_id": "#14948"
+         }, 
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.306475, 47.96196]
       },
       "properties": {
@@ -126,6 +183,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q105475616", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.31042, 47.95911]
+      },
+      "properties": {
+         "id": "pmb288674",
+         "title": "Gasthaus »Zum Fischmeister« Karl Schauer",
+         "lat": "47.95911",
+         "lon": "11.31042",
+         "timestamp": ["1922-08-07"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }
   ]

@@ -6,9 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.30219, 47.82468], 
+            [11.2923, 47.7921], 
+            [11.30413, 47.78558], 
+            [11.31187, 47.90348], 
             [11.31038, 47.95947], 
-            [11.29326, 47.94602]
+            [11.298363683529006, 47.94933649585533]
           ]
       },
       "properties": {
@@ -19,38 +21,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.29326, 47.94602]
+        "coordinates": [11.298363683529006, 47.94933649585533]
       },
       "properties": {
-         "id": "pmb53150",
-         "title": "Feldafing",
-         "lat": "47.94602",
-         "lon": "11.29326",
+         "id": "pmb53152",
+         "title": "Hotel Kaiserin Elisabeth [Feldafing]",
+         "lat": "47.94933649585533",
+         "lon": "11.298363683529006",
          "timestamp": ["1922-07-31"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2927464/", 
-        "abbr": "P.PPLA4", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.30219, 47.82468]
+        "coordinates": [11.2923, 47.7921]
       },
       "properties": {
-         "id": "pmb91725",
-         "title": "Seeshaupt",
-         "lat": "47.82468",
-         "lon": "11.30219",
+         "id": "pmb289436",
+         "title": "Lauterbacher Mühle",
+         "lat": "47.7921",
+         "lon": "11.2923",
          "timestamp": ["1922-07-31"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Seeshaupt", 
-        "wikidata": "http://www.wikidata.org/entity/Q518061", 
-        "geonames": "https://sws.geonames.org/6556444/", 
-        "abbr": "P.PPLA4", 
-        "type": "Hauptstadt"
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus"
       }
       },
     {
@@ -71,6 +69,44 @@
         "geonames": "https://sws.geonames.org/2852520/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.31187, 47.90348]
+      },
+      "properties": {
+         "id": "pmb52262",
+         "title": "Starnberger See",
+         "lat": "47.90348",
+         "lon": "11.31187",
+         "timestamp": ["1922-07-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Starnberger_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q131615", 
+        "geonames": "https://sws.geonames.org/2829454/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.30413, 47.78558]
+      },
+      "properties": {
+         "id": "pmb91419",
+         "title": "Ostersee",
+         "lat": "47.78558",
+         "lon": "11.30413",
+         "timestamp": ["1922-07-31"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2856383/", 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       }
   ]

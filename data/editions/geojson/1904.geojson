@@ -632,8 +632,8 @@
          "title": "Hotel Continental [Berlin]",
          "lat": "52.518889",
          "lon": "13.385556",
-         "timestamp": ["1904-02-05", "1904-02-06", "1904-02-07", "1904-02-08", "1904-02-09", "1904-02-10", "1904-02-11", "1904-02-12", "1904-02-13", "1904-02-14", "1904-02-15", "1904-02-16", "1904-02-17", "1904-02-18"],
-         "importance": 14, 
+         "timestamp": ["1904-02-05", "1904-02-06", "1904-02-07", "1904-02-08", "1904-02-09", "1904-02-10", "1904-02-11", "1904-02-12", "1904-02-13", "1904-02-14", "1904-02-15", "1904-02-16", "1904-02-17"],
+         "importance": 13, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
       }
@@ -1562,18 +1562,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.8634, 47.69209]
+        "coordinates": [16.15, 48.13333]
       },
       "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1904-07-12", "1904-07-14", "1904-07-17"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
+         "id": "pmb1022",
+         "title": "Breitenfurt bei Wien",
+         "lat": "48.13333",
+         "lon": "16.15",
+         "timestamp": ["1904-08-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Breitenfurt_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q662190", 
+        "geonames": "https://sws.geonames.org/2781463/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
       }
@@ -1582,19 +1582,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.57475, 48.14293]
+        "coordinates": [15.8634, 47.69209]
       },
       "properties": {
-         "id": "pmb100",
-         "title": "Café Luitpold",
-         "lat": "48.14293",
-         "lon": "11.57475",
-         "timestamp": ["1904-02-06"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Luitpold", 
-        "wikidata": "http://www.wikidata.org/entity/Q1025633", 
-        "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1904-07-12", "1904-07-14", "1904-07-16", "1904-07-17"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -3635,6 +3636,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.38789, 52.52074]
+      },
+      "properties": {
+         "id": "pmb289816",
+         "title": "Café-Restaurant »Prinz Luitpold«",
+         "lat": "52.52074",
+         "lon": "13.38789",
+         "timestamp": ["1904-02-06"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.360365, 52.498452]
       },
       "properties": {
@@ -4275,7 +4293,7 @@
       },
       "properties": {
          "id": "pmb91334",
-         "title": "Lake Nemi",
+         "title": "Lago di Nemi",
          "lat": "41.71667",
          "lon": "12.7",
          "timestamp": ["1904-05-06"],
@@ -5917,6 +5935,12 @@
          "p_id": "#38269"
          }], 
         "arbeitsort": [
+         {
+
+         "p_name": "Siegmund Adler",
+
+         "p_id": "#13251"
+         }, 
          {
 
          "p_name": "Friedrich Geiringer",

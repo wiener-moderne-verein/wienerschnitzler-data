@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1890-09-01", "1890-09-02", "1890-09-03", "1890-09-04", "1890-09-05", "1890-09-06", "1890-09-07", "1890-09-08", "1890-09-09", "1890-09-10", "1890-09-11", "1890-09-12", "1890-09-13", "1890-09-14", "1890-09-15", "1890-09-16", "1890-09-17", "1890-09-19"],
-         "importance": 18, 
+         "timestamp": ["1890-09-01", "1890-09-02", "1890-09-03", "1890-09-04", "1890-09-05", "1890-09-06", "1890-09-07", "1890-09-08", "1890-09-09", "1890-09-10", "1890-09-11", "1890-09-12", "1890-09-13", "1890-09-14", "1890-09-15", "1890-09-16", "1890-09-17", "1890-09-18", "1890-09-19"],
+         "importance": 19, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -32,13 +32,32 @@
          "title": "Salzburg",
          "lat": "47.80067",
          "lon": "13.04532",
-         "timestamp": ["1890-09-18", "1890-09-19", "1890-09-20", "1890-09-21", "1890-09-22", "1890-09-23", "1890-09-24", "1890-09-25", "1890-09-26", "1890-09-27", "1890-09-28", "1890-09-29", "1890-09-30"],
-         "importance": 13, 
+         "timestamp": ["1890-09-19", "1890-09-20", "1890-09-21", "1890-09-22", "1890-09-23", "1890-09-24", "1890-09-25", "1890-09-26", "1890-09-27", "1890-09-28", "1890-09-29", "1890-09-30"],
+         "importance": 12, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
         "abbr": "A.ADM2", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1890-09-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -168,6 +187,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1890-09-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.31006, 48.22707]
       },
       "properties": {
@@ -180,6 +219,26 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hernals https://de.wikipedia.org/wiki/Hernals_(Wiener_Bezirksteil)", 
         "wikidata": "http://www.wikidata.org/entity/Q262808 http://www.wikidata.org/entity/Q1613671", 
         "geonames": "https://sws.geonames.org/2776486/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1890-09-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
       }
@@ -229,8 +288,8 @@
          "title": "Kärntnerring 12/Bösendorferstraße 11",
          "lat": "48.20143",
          "lon": "16.37196",
-         "timestamp": ["1890-09-01", "1890-09-02", "1890-09-03", "1890-09-04", "1890-09-05", "1890-09-06", "1890-09-07", "1890-09-08", "1890-09-09", "1890-09-10", "1890-09-11", "1890-09-12", "1890-09-13", "1890-09-14", "1890-09-15", "1890-09-16", "1890-09-17", "1890-09-19"],
-         "importance": 18, 
+         "timestamp": ["1890-09-01", "1890-09-02", "1890-09-03", "1890-09-04", "1890-09-05", "1890-09-06", "1890-09-07", "1890-09-08", "1890-09-09", "1890-09-10", "1890-09-11", "1890-09-12", "1890-09-13", "1890-09-14", "1890-09-15", "1890-09-16", "1890-09-17", "1890-09-18", "1890-09-19"],
+         "importance": 19, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -622,6 +681,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q688546", 
         "abbr": "Schloss (K.SLS)", 
         "type": "Schloss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0373, 47.73833]
+      },
+      "properties": {
+         "id": "pmb934",
+         "title": "Grödig",
+         "lat": "47.73833",
+         "lon": "13.0373",
+         "timestamp": ["1890-09-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gr%C3%B6dig", 
+        "wikidata": "http://www.wikidata.org/entity/Q257324", 
+        "geonames": "https://sws.geonames.org/2777921/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {

@@ -25,6 +25,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.04532, 47.80067]
+      },
+      "properties": {
+         "id": "pmb30",
+         "title": "Salzburg",
+         "lat": "47.80067",
+         "lon": "13.04532",
+         "timestamp": ["1907-09-11", "1907-09-12"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q34713", 
+        "geonames": "https://sws.geonames.org/2766818/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.207378, 47.96739]
       },
       "properties": {
@@ -56,26 +76,6 @@
         "geonames": "https://sws.geonames.org/2782043/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.04532, 47.80067]
-      },
-      "properties": {
-         "id": "pmb30",
-         "title": "Salzburg",
-         "lat": "47.80067",
-         "lon": "13.04532",
-         "timestamp": ["1907-09-11", "1907-09-12"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
-        "wikidata": "http://www.wikidata.org/entity/Q34713", 
-        "geonames": "https://sws.geonames.org/2766818/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -745,8 +745,8 @@
          "title": "Mödling",
          "lat": "48.08605",
          "lon": "16.28921",
-         "timestamp": ["1907-05-16", "1907-05-31"],
-         "importance": 2, 
+         "timestamp": ["1907-05-16", "1907-05-31", "1907-06-02"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6dling", 
         "wikidata": "http://www.wikidata.org/entity/Q277965", 
         "geonames": "https://sws.geonames.org/2771335/", 
@@ -1548,6 +1548,12 @@
          }, 
          {
 
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
          "p_name": "Armin Petschek",
 
          "p_id": "#22471"
@@ -1816,6 +1822,26 @@
         "geonames": "https://sws.geonames.org/2781937/", 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.82151, 47.65949]
+      },
+      "properties": {
+         "id": "pmb36503",
+         "title": "Breitenstein am Semmering",
+         "lat": "47.65949",
+         "lon": "15.82151",
+         "timestamp": ["1907-10-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Breitenstein_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q124981", 
+        "geonames": "https://sws.geonames.org/2781451/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -2399,37 +2425,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.82151, 47.65949]
+        "coordinates": [11.207222, 46.416944]
       },
       "properties": {
-         "id": "pmb36503",
-         "title": "Breitenstein am Semmering",
-         "lat": "47.65949",
-         "lon": "15.82151",
-         "timestamp": ["1907-10-27"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Breitenstein_(Nieder%C3%B6sterreich)", 
-        "wikidata": "http://www.wikidata.org/entity/Q124981", 
-        "geonames": "https://sws.geonames.org/2781451/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.2, 46.41667]
-      },
-      "properties": {
-         "id": "pmb91229",
-         "title": "Passo della Mendola",
-         "lat": "46.41667",
-         "lon": "11.2",
+         "id": "pmb41083",
+         "title": "Mendelpass",
+         "lat": "46.416944",
+         "lon": "11.207222",
          "timestamp": ["1907-09-10"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mendelpass", 
+        "wikidata": "http://www.wikidata.org/entity/Q253818", 
         "geonames": "https://sws.geonames.org/3173592/", 
-        "abbr": "T.PASS", 
+        "abbr": "Pass (N.PAS)", 
         "type": "Pass"
       }
       }, 
@@ -2546,6 +2554,12 @@
          "p_id": "#38269"
          }], 
         "arbeitsort": [
+         {
+
+         "p_name": "Siegmund Adler",
+
+         "p_id": "#13251"
+         }, 
          {
 
          "p_name": "Friedrich Geiringer",

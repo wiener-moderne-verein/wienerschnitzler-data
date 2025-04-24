@@ -49,8 +49,8 @@
          "title": "Salzburg",
          "lat": "47.80067",
          "lon": "13.04532",
-         "timestamp": ["1922-05-18", "1922-09-15"],
-         "importance": 2, 
+         "timestamp": ["1922-05-18", "1922-07-26", "1922-09-15"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
@@ -248,8 +248,8 @@
          "title": "München",
          "lat": "48.13743",
          "lon": "11.57549",
-         "timestamp": ["1922-04-19", "1922-04-20", "1922-04-21", "1922-04-22", "1922-04-23", "1922-04-24", "1922-05-16", "1922-05-17", "1922-05-18", "1922-07-26", "1922-08-07", "1922-08-08", "1922-08-09"],
-         "importance": 13, 
+         "timestamp": ["1922-04-19", "1922-04-20", "1922-04-21", "1922-04-22", "1922-04-23", "1922-04-24", "1922-05-16", "1922-05-17", "1922-05-18", "1922-07-26", "1922-08-07", "1922-08-08", "1922-08-09", "1922-08-10"],
+         "importance": 14, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
         "wikidata": "http://www.wikidata.org/entity/Q1726", 
         "geonames": "https://sws.geonames.org/2867714/", 
@@ -369,6 +369,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.29101, 48.17547]
+      },
+      "properties": {
+         "id": "pmb63",
+         "title": "XIII., Hietzing",
+         "lat": "48.17547",
+         "lon": "16.29101",
+         "timestamp": ["1922-07-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hietzing", 
+        "wikidata": "http://www.wikidata.org/entity/Q636910", 
+        "geonames": "https://sws.geonames.org/2776420/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.00187, 47.63236]
       },
       "properties": {
@@ -376,8 +396,8 @@
          "title": "Berchtesgaden",
          "lat": "47.63236",
          "lon": "13.00187",
-         "timestamp": ["1922-08-09", "1922-08-10", "1922-08-11", "1922-08-12", "1922-08-13", "1922-08-14", "1922-08-15", "1922-08-16", "1922-08-17", "1922-08-18", "1922-08-19", "1922-08-20", "1922-08-21", "1922-08-22", "1922-08-23", "1922-08-24", "1922-08-25", "1922-08-26", "1922-08-27", "1922-08-28", "1922-08-29", "1922-08-30", "1922-08-31", "1922-09-01", "1922-09-02", "1922-09-03", "1922-09-04", "1922-09-05", "1922-09-06", "1922-09-07", "1922-09-08", "1922-09-09", "1922-09-10", "1922-09-11", "1922-09-12", "1922-09-13", "1922-09-14", "1922-09-15"],
-         "importance": 38, 
+         "timestamp": ["1922-08-10", "1922-08-11", "1922-08-12", "1922-08-13", "1922-08-14", "1922-08-15", "1922-08-16", "1922-08-17", "1922-08-18", "1922-08-19", "1922-08-20", "1922-08-21", "1922-08-22", "1922-08-23", "1922-08-24", "1922-08-25", "1922-08-26", "1922-08-27", "1922-08-28", "1922-08-29", "1922-08-30", "1922-08-31", "1922-09-01", "1922-09-02", "1922-09-03", "1922-09-04", "1922-09-05", "1922-09-06", "1922-09-07", "1922-09-08", "1922-09-09", "1922-09-10", "1922-09-11", "1922-09-12", "1922-09-13", "1922-09-14", "1922-09-15"],
+         "importance": 37, 
         "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
         "wikidata": "http://www.wikidata.org/entity/Q278221", 
         "geonames": "https://sws.geonames.org/2950881/", 
@@ -570,24 +590,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.88139, 52.36361]
-      },
-      "properties": {
-         "id": "pmb245743",
-         "title": "Café Américain",
-         "lat": "52.36361",
-         "lon": "4.88139",
-         "timestamp": ["1922-04-28", "1922-05-04"],
-         "importance": 2, 
-        "wikidata": "http://www.wikidata.org/entity/Q2602875", 
-        "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.37049, 48.20769]
       },
       "properties": {
@@ -595,8 +597,8 @@
          "title": "I., Innere Stadt",
          "lat": "48.20769",
          "lon": "16.37049",
-         "timestamp": ["1922-01-10", "1922-01-11", "1922-01-13", "1922-01-17", "1922-01-30", "1922-02-01", "1922-02-11", "1922-02-14", "1922-03-04", "1922-03-29", "1922-04-04", "1922-04-05", "1922-04-11", "1922-04-12", "1922-04-14", "1922-04-15", "1922-05-27", "1922-06-06", "1922-06-13", "1922-06-14", "1922-06-17"],
-         "importance": 21, 
+         "timestamp": ["1922-01-10", "1922-01-11", "1922-01-13", "1922-01-17", "1922-01-30", "1922-02-01", "1922-02-11", "1922-02-14", "1922-03-04", "1922-03-29", "1922-04-04", "1922-04-05", "1922-04-11", "1922-04-12", "1922-04-14", "1922-04-15", "1922-05-27", "1922-06-06", "1922-06-13", "1922-06-14", "1922-06-17", "1922-07-22"],
+         "importance": 22, 
         "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
@@ -649,6 +651,25 @@
         "geonames": "https://sws.geonames.org/6324756/", 
         "abbr": "S.ADMF", 
         "type": "Verwaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.00442, 48.32653]
+      },
+      "properties": {
+         "id": "pmb187294",
+         "title": "Kronau",
+         "lat": "48.32653",
+         "lon": "16.00442",
+         "timestamp": ["1922-07-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kronau_(Gemeinde_Langenrohr)", 
+        "wikidata": "http://www.wikidata.org/entity/Q110639037", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -739,6 +760,25 @@
         "geonames": "https://sws.geonames.org/2768462/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3947, 48.1903]
+      },
+      "properties": {
+         "id": "pmb192358",
+         "title": "Aspangbahnhof",
+         "lat": "48.1903",
+         "lon": "16.3947",
+         "timestamp": ["1922-07-05", "1922-07-06"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Aspangbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q2568785", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -1131,6 +1171,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.331527, 48.23428]
+      },
+      "properties": {
+         "id": "pmb74",
+         "title": "Restauration Türkenschanz-Park",
+         "lat": "48.23428",
+         "lon": "16.331527",
+         "timestamp": ["1922-07-10", "1922-07-23"],
+         "importance": 2, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz Harner",
+
+         "p_id": "#211311"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.258056, 48.201667]
       },
       "properties": {
@@ -1230,6 +1294,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.31187, 47.90348]
+      },
+      "properties": {
+         "id": "pmb52262",
+         "title": "Starnberger See",
+         "lat": "47.90348",
+         "lon": "11.31187",
+         "timestamp": ["1922-07-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Starnberger_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q131615", 
+        "geonames": "https://sws.geonames.org/2829454/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2803, 47.90938]
+      },
+      "properties": {
+         "id": "pmb44493",
+         "title": "Tutzing",
+         "lat": "47.90938",
+         "lon": "11.2803",
+         "timestamp": ["1922-08-03"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2820692/", 
+        "abbr": "P.PPLA4", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.567552, 48.143964]
       },
       "properties": {
@@ -1290,6 +1392,12 @@
          "p_name": "Anton Loew",
 
          "p_id": "#20565"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
          }, 
          {
 
@@ -1439,8 +1547,8 @@
          "title": "Hotel Rheinischer Hof München",
          "lat": "48.13907960520144",
          "lon": "11.561467767769052",
-         "timestamp": ["1922-05-16", "1922-05-17", "1922-05-18", "1922-08-05", "1922-08-06", "1922-08-07", "1922-08-08", "1922-08-09", "1922-08-10"],
-         "importance": 9, 
+         "timestamp": ["1922-05-16", "1922-05-17", "1922-05-18", "1922-08-07", "1922-08-08", "1922-08-09", "1922-08-10"],
+         "importance": 7, 
         "wikidata": "http://www.wikidata.org/entity/Q130711545", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
@@ -1500,6 +1608,26 @@
         "geonames": "https://sws.geonames.org/2769408/", 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.82151, 47.65949]
+      },
+      "properties": {
+         "id": "pmb36503",
+         "title": "Breitenstein am Semmering",
+         "lat": "47.65949",
+         "lon": "15.82151",
+         "timestamp": ["1922-07-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Breitenstein_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q124981", 
+        "geonames": "https://sws.geonames.org/2781451/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -1846,6 +1974,12 @@
         "arbeitsort": [
          {
 
+         "p_name": "Siegmund Adler",
+
+         "p_id": "#13251"
+         }, 
+         {
+
          "p_name": "Friedrich Geiringer",
 
          "p_id": "#2170"
@@ -1981,8 +2115,8 @@
          "title": "Türkenschanzstraße 48",
          "lat": "48.23362",
          "lon": "16.33641",
-         "timestamp": ["1922-02-12", "1922-03-29", "1922-05-29", "1922-06-20", "1922-11-24", "1922-11-27", "1922-11-28"],
-         "importance": 7, 
+         "timestamp": ["1922-02-12", "1922-03-29", "1922-05-29", "1922-06-20", "1922-06-27", "1922-11-24", "1922-11-27", "1922-11-28"],
+         "importance": 8, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2052,8 +2186,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1922-02-04", "1922-02-26", "1922-03-17", "1922-06-15", "1922-10-17"],
-         "importance": 5, 
+         "timestamp": ["1922-02-04", "1922-02-26", "1922-03-17", "1922-06-15", "1922-07-15", "1922-10-17"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2145,8 +2279,8 @@
          "title": "Cottagegasse 37",
          "lat": "48.233004",
          "lon": "16.34167",
-         "timestamp": ["1922-01-29", "1922-02-17", "1922-03-14", "1922-03-20", "1922-03-24"],
-         "importance": 5, 
+         "timestamp": ["1922-01-29", "1922-02-17", "1922-03-14", "1922-03-20", "1922-03-24", "1922-06-24", "1922-06-27"],
+         "importance": 7, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2206,6 +2340,12 @@
         "arbeitsort": [
          {
 
+         "p_name": "Robert Kugel",
+
+         "p_id": "#19806"
+         }, 
+         {
+
          "p_name": "Max Feilchenfeld",
 
          "p_id": "#16127"
@@ -2241,8 +2381,8 @@
          "title": "Hotel Vier Jahreszeiten",
          "lat": "48.138889",
          "lon": "11.581667",
-         "timestamp": ["1922-04-22", "1922-08-07"],
-         "importance": 2, 
+         "timestamp": ["1922-04-22", "1922-08-07", "1922-08-09"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
         "wikidata": "http://www.wikidata.org/entity/Q1388047", 
         "abbr": "Hotel (K.HTL)", 
@@ -2320,8 +2460,8 @@
          "title": "Hauptbahnhof München",
          "lat": "48.140833",
          "lon": "11.555",
-         "timestamp": ["1922-04-19", "1922-04-24", "1922-05-17", "1922-05-18", "1922-08-07"],
-         "importance": 5, 
+         "timestamp": ["1922-04-19", "1922-04-24", "1922-05-17", "1922-05-18", "1922-07-26", "1922-08-07", "1922-08-10"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q254647", 
         "geonames": "https://sws.geonames.org/6324603/", 
@@ -2528,6 +2668,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.585161, 48.135523]
+      },
+      "properties": {
+         "id": "pmb248958",
+         "title": "Mannhardtstraße 3",
+         "lat": "48.135523",
+         "lon": "11.585161",
+         "timestamp": ["1922-08-07", "1922-08-09"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Aloisia Chlum",
+
+         "p_id": "#27771"
+         }, 
+         {
+
+         "p_name": "Auguste Glümer",
+
+         "p_id": "#14948"
+         }, 
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.2425, 48.003889]
       },
       "properties": {
@@ -2554,8 +2730,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1922-01-01", "1922-01-02", "1922-01-03", "1922-01-04", "1922-01-05", "1922-01-06", "1922-01-07", "1922-01-08", "1922-01-09", "1922-01-10", "1922-01-11", "1922-01-12", "1922-01-13", "1922-01-14", "1922-01-15", "1922-01-16", "1922-01-17", "1922-01-18", "1922-01-19", "1922-01-20", "1922-01-21", "1922-01-22", "1922-01-23", "1922-01-24", "1922-01-25", "1922-01-26", "1922-01-27", "1922-01-28", "1922-01-29", "1922-01-30", "1922-01-31", "1922-02-01", "1922-02-02", "1922-02-03", "1922-02-04", "1922-02-05", "1922-02-06", "1922-02-07", "1922-02-08", "1922-02-09", "1922-02-10", "1922-02-11", "1922-02-12", "1922-02-13", "1922-02-14", "1922-02-15", "1922-02-16", "1922-02-17", "1922-02-18", "1922-02-19", "1922-02-20", "1922-02-21", "1922-02-22", "1922-02-23", "1922-02-24", "1922-02-25", "1922-02-26", "1922-02-27", "1922-02-28", "1922-03-01", "1922-03-02", "1922-03-03", "1922-03-04", "1922-03-05", "1922-03-06", "1922-03-07", "1922-03-08", "1922-03-09", "1922-03-10", "1922-03-11", "1922-03-12", "1922-03-13", "1922-03-14", "1922-03-15", "1922-03-16", "1922-03-17", "1922-03-18", "1922-03-19", "1922-03-20", "1922-03-21", "1922-03-22", "1922-03-23", "1922-03-24", "1922-03-25", "1922-03-26", "1922-03-27", "1922-03-28", "1922-03-29", "1922-03-30", "1922-03-31", "1922-04-01", "1922-04-02", "1922-04-03", "1922-04-04", "1922-04-05", "1922-04-06", "1922-04-07", "1922-04-08", "1922-04-09", "1922-04-10", "1922-04-11", "1922-04-12", "1922-04-13", "1922-04-14", "1922-04-15", "1922-04-16", "1922-04-17", "1922-04-18", "1922-05-19", "1922-05-20", "1922-05-21", "1922-05-22", "1922-05-23", "1922-05-24", "1922-05-25", "1922-05-26", "1922-05-27", "1922-05-28", "1922-05-29", "1922-05-30", "1922-05-31", "1922-06-01", "1922-06-02", "1922-06-03", "1922-06-04", "1922-06-05", "1922-06-06", "1922-06-07", "1922-06-08", "1922-06-11", "1922-06-12", "1922-06-13", "1922-06-14", "1922-06-15", "1922-06-16", "1922-06-17", "1922-06-18", "1922-06-19", "1922-06-20", "1922-06-21", "1922-06-22", "1922-06-23", "1922-06-24", "1922-06-25", "1922-06-26", "1922-06-27", "1922-06-28", "1922-06-29", "1922-06-30", "1922-07-01", "1922-07-02", "1922-07-03", "1922-07-04", "1922-07-08", "1922-07-09", "1922-07-10", "1922-07-11", "1922-07-12", "1922-07-13", "1922-07-14", "1922-07-15", "1922-07-16", "1922-07-17", "1922-07-18", "1922-07-22", "1922-07-23", "1922-07-24", "1922-07-25", "1922-09-15", "1922-09-16", "1922-09-17", "1922-09-18", "1922-09-19", "1922-09-20", "1922-09-21", "1922-09-22", "1922-09-23", "1922-09-24", "1922-09-25", "1922-09-26", "1922-09-27", "1922-09-28", "1922-09-29", "1922-09-30", "1922-10-01", "1922-10-02", "1922-10-03", "1922-10-04", "1922-10-05", "1922-10-06", "1922-10-07", "1922-10-08", "1922-10-09", "1922-10-10", "1922-10-11", "1922-10-12", "1922-10-13", "1922-10-14", "1922-10-15", "1922-10-16", "1922-10-17", "1922-10-18", "1922-10-19", "1922-10-20", "1922-10-21", "1922-10-22", "1922-10-23", "1922-11-07", "1922-11-08", "1922-11-09", "1922-11-10", "1922-11-11", "1922-11-12", "1922-11-13", "1922-11-14", "1922-11-15", "1922-11-16", "1922-11-17", "1922-11-18", "1922-11-19", "1922-11-20", "1922-11-21", "1922-11-22", "1922-11-23", "1922-11-24", "1922-11-25", "1922-11-26", "1922-11-27", "1922-11-28", "1922-11-29", "1922-11-30", "1922-12-01", "1922-12-02", "1922-12-03", "1922-12-04", "1922-12-05", "1922-12-06", "1922-12-07", "1922-12-08", "1922-12-09", "1922-12-10", "1922-12-11", "1922-12-12", "1922-12-13", "1922-12-14", "1922-12-15", "1922-12-16", "1922-12-17", "1922-12-18", "1922-12-19", "1922-12-20", "1922-12-21", "1922-12-22", "1922-12-23", "1922-12-24", "1922-12-25", "1922-12-26", "1922-12-27", "1922-12-28", "1922-12-29", "1922-12-30", "1922-12-31"],
-         "importance": 262, 
+         "timestamp": ["1922-01-01", "1922-01-02", "1922-01-03", "1922-01-04", "1922-01-05", "1922-01-06", "1922-01-07", "1922-01-08", "1922-01-09", "1922-01-10", "1922-01-11", "1922-01-12", "1922-01-13", "1922-01-14", "1922-01-15", "1922-01-16", "1922-01-17", "1922-01-18", "1922-01-19", "1922-01-20", "1922-01-21", "1922-01-22", "1922-01-23", "1922-01-24", "1922-01-25", "1922-01-26", "1922-01-27", "1922-01-28", "1922-01-29", "1922-01-30", "1922-01-31", "1922-02-01", "1922-02-02", "1922-02-03", "1922-02-04", "1922-02-05", "1922-02-06", "1922-02-07", "1922-02-08", "1922-02-09", "1922-02-10", "1922-02-11", "1922-02-12", "1922-02-13", "1922-02-14", "1922-02-15", "1922-02-16", "1922-02-17", "1922-02-18", "1922-02-19", "1922-02-20", "1922-02-21", "1922-02-22", "1922-02-23", "1922-02-24", "1922-02-25", "1922-02-26", "1922-02-27", "1922-02-28", "1922-03-01", "1922-03-02", "1922-03-03", "1922-03-04", "1922-03-05", "1922-03-06", "1922-03-07", "1922-03-08", "1922-03-09", "1922-03-10", "1922-03-11", "1922-03-12", "1922-03-13", "1922-03-14", "1922-03-15", "1922-03-16", "1922-03-17", "1922-03-18", "1922-03-19", "1922-03-20", "1922-03-21", "1922-03-22", "1922-03-23", "1922-03-24", "1922-03-25", "1922-03-26", "1922-03-27", "1922-03-28", "1922-03-29", "1922-03-30", "1922-03-31", "1922-04-01", "1922-04-02", "1922-04-03", "1922-04-04", "1922-04-05", "1922-04-06", "1922-04-07", "1922-04-08", "1922-04-09", "1922-04-10", "1922-04-11", "1922-04-12", "1922-04-13", "1922-04-14", "1922-04-15", "1922-04-16", "1922-04-17", "1922-04-18", "1922-05-19", "1922-05-20", "1922-05-21", "1922-05-22", "1922-05-23", "1922-05-24", "1922-05-25", "1922-05-26", "1922-05-27", "1922-05-28", "1922-05-29", "1922-05-30", "1922-05-31", "1922-06-01", "1922-06-02", "1922-06-03", "1922-06-04", "1922-06-05", "1922-06-06", "1922-06-07", "1922-06-08", "1922-06-11", "1922-06-12", "1922-06-13", "1922-06-14", "1922-06-15", "1922-06-16", "1922-06-17", "1922-06-18", "1922-06-19", "1922-06-20", "1922-06-21", "1922-06-22", "1922-06-23", "1922-06-24", "1922-06-25", "1922-06-26", "1922-06-27", "1922-06-28", "1922-06-29", "1922-06-30", "1922-07-01", "1922-07-02", "1922-07-03", "1922-07-04", "1922-07-05", "1922-07-06", "1922-07-07", "1922-07-08", "1922-07-09", "1922-07-10", "1922-07-11", "1922-07-12", "1922-07-13", "1922-07-14", "1922-07-15", "1922-07-16", "1922-07-17", "1922-07-18", "1922-07-19", "1922-07-21", "1922-07-22", "1922-07-23", "1922-07-24", "1922-07-25", "1922-09-15", "1922-09-16", "1922-09-17", "1922-09-18", "1922-09-19", "1922-09-20", "1922-09-21", "1922-09-22", "1922-09-23", "1922-09-24", "1922-09-25", "1922-09-26", "1922-09-27", "1922-09-28", "1922-09-29", "1922-09-30", "1922-10-01", "1922-10-02", "1922-10-03", "1922-10-04", "1922-10-05", "1922-10-06", "1922-10-07", "1922-10-08", "1922-10-09", "1922-10-10", "1922-10-11", "1922-10-12", "1922-10-13", "1922-10-14", "1922-10-15", "1922-10-16", "1922-10-17", "1922-10-18", "1922-10-19", "1922-10-20", "1922-10-21", "1922-10-22", "1922-10-23", "1922-11-07", "1922-11-08", "1922-11-09", "1922-11-10", "1922-11-11", "1922-11-12", "1922-11-13", "1922-11-14", "1922-11-15", "1922-11-16", "1922-11-17", "1922-11-18", "1922-11-19", "1922-11-20", "1922-11-21", "1922-11-22", "1922-11-23", "1922-11-24", "1922-11-25", "1922-11-26", "1922-11-27", "1922-11-28", "1922-11-29", "1922-11-30", "1922-12-01", "1922-12-02", "1922-12-03", "1922-12-04", "1922-12-05", "1922-12-06", "1922-12-07", "1922-12-08", "1922-12-09", "1922-12-10", "1922-12-11", "1922-12-12", "1922-12-13", "1922-12-14", "1922-12-15", "1922-12-16", "1922-12-17", "1922-12-18", "1922-12-19", "1922-12-20", "1922-12-21", "1922-12-22", "1922-12-23", "1922-12-24", "1922-12-25", "1922-12-26", "1922-12-27", "1922-12-28", "1922-12-29", "1922-12-30", "1922-12-31"],
+         "importance": 267, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2616,10 +2792,36 @@
          }, 
          {
 
+         "p_name": "Anna ",
+
+         "p_id": "#13428"
+         }, 
+         {
+
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.09421, 47.55187]
+      },
+      "properties": {
+         "id": "pmb44001",
+         "title": "Aspang-Markt",
+         "lat": "47.55187",
+         "lon": "16.09421",
+         "timestamp": ["1922-07-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Aspang-Markt", 
+        "wikidata": "http://www.wikidata.org/entity/Q683242", 
+        "geonames": "https://sws.geonames.org/7872986/ https://sws.geonames.org/2782321/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -2817,8 +3019,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1922-01-04", "1922-01-13", "1922-01-24", "1922-01-31", "1922-02-22", "1922-03-14", "1922-05-23", "1922-06-14", "1922-09-23", "1922-10-20", "1922-11-07", "1922-11-20", "1922-12-13"],
-         "importance": 13, 
+         "timestamp": ["1922-01-04", "1922-01-13", "1922-01-24", "1922-01-31", "1922-02-22", "1922-03-14", "1922-05-23", "1922-06-14", "1922-07-12", "1922-07-25", "1922-09-23", "1922-10-20", "1922-11-07", "1922-11-20", "1922-12-13"],
+         "importance": 15, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2956,6 +3158,12 @@
          "p_name": "Ferdinand Donath",
 
          "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
          }, 
          {
 
@@ -3113,6 +3321,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [4.88139, 52.36361]
+      },
+      "properties": {
+         "id": "pmb245743",
+         "title": "Café Américain",
+         "lat": "52.36361",
+         "lon": "4.88139",
+         "timestamp": ["1922-04-28", "1922-05-04"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q2602875", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [4.885277777777778, 52.36]
       },
       "properties": {
@@ -3176,8 +3402,8 @@
          "title": "Hotel Kaiserin Elisabeth [Feldafing]",
          "lat": "47.94933649585533",
          "lon": "11.298363683529006",
-         "timestamp": ["1922-07-28", "1922-07-29"],
-         "importance": 2, 
+         "timestamp": ["1922-07-26", "1922-07-27", "1922-07-28", "1922-07-29", "1922-07-30", "1922-07-31", "1922-08-01", "1922-08-02", "1922-08-03", "1922-08-04", "1922-08-05", "1922-08-06", "1922-08-07"],
+         "importance": 13, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
       }
@@ -3193,8 +3419,8 @@
          "title": "Possenhofen",
          "lat": "47.95947",
          "lon": "11.31038",
-         "timestamp": ["1922-05-17", "1922-07-28", "1922-07-31", "1922-08-07"],
-         "importance": 4, 
+         "timestamp": ["1922-05-17", "1922-07-27", "1922-07-28", "1922-07-31", "1922-08-05", "1922-08-07"],
+         "importance": 6, 
         "wikipedia": "https://de.wikipedia.org/wiki/Possenhofen", 
         "wikidata": "http://www.wikidata.org/entity/Q559986", 
         "geonames": "https://sws.geonames.org/2852520/", 
@@ -3263,8 +3489,8 @@
          "title": "Deutsches Konsulat in Wien",
          "lat": "48.2083",
          "lon": "16.369913",
-         "timestamp": ["1922-03-29", "1922-04-18"],
-         "importance": 2, 
+         "timestamp": ["1922-03-29", "1922-04-18", "1922-07-18"],
+         "importance": 3, 
         "abbr": "Botschaft (K.BTS)", 
         "type": "Botschaft", 
         "arbeitsort": [
@@ -3336,8 +3562,8 @@
          "title": "Oppolzergasse 6",
          "lat": "48.2116",
          "lon": "16.36171",
-         "timestamp": ["1922-02-02", "1922-02-03", "1922-02-11", "1922-02-22", "1922-03-08", "1922-03-12", "1922-03-18", "1922-05-23"],
-         "importance": 8, 
+         "timestamp": ["1922-02-02", "1922-02-03", "1922-02-11", "1922-02-22", "1922-03-08", "1922-03-12", "1922-03-18", "1922-05-23", "1922-06-22"],
+         "importance": 9, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3532,6 +3758,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.7961, 47.66791]
+      },
+      "properties": {
+         "id": "pmb36506",
+         "title": "Haus Mahler",
+         "lat": "47.66791",
+         "lon": "15.7961",
+         "timestamp": ["1922-07-20", "1922-07-21"],
+         "importance": 2, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33414, 48.23331]
       },
       "properties": {
@@ -3646,6 +3889,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.34416, 48.00193]
+      },
+      "properties": {
+         "id": "pmb40951",
+         "title": "Starnberg",
+         "lat": "48.00193",
+         "lon": "11.34416",
+         "timestamp": ["1922-08-03", "1922-08-04"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2829457/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.553336, 48.145952]
       },
       "properties": {
@@ -3659,6 +3920,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q874166", 
         "abbr": "Bierhaus (K.BIR)", 
         "type": "Bierhaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.34367, 47.995963]
+      },
+      "properties": {
+         "id": "pmb256572",
+         "title": "Bahnhof Starnberg",
+         "lat": "47.995963",
+         "lon": "11.34367",
+         "timestamp": ["1922-08-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Starnberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q41258362", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -3728,8 +4008,8 @@
          "title": "Gregor-Mendel-Straße 32",
          "lat": "48.233651",
          "lon": "16.338022",
-         "timestamp": ["1922-01-01", "1922-02-26", "1922-04-06"],
-         "importance": 3, 
+         "timestamp": ["1922-01-01", "1922-02-26", "1922-04-06", "1922-06-27"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3792,8 +4072,8 @@
          "title": "Riemergasse 1",
          "lat": "48.207779",
          "lon": "16.377475",
-         "timestamp": ["1922-01-23", "1922-04-05", "1922-04-11"],
-         "importance": 3, 
+         "timestamp": ["1922-01-23", "1922-04-05", "1922-04-11", "1922-07-14"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3851,8 +4131,8 @@
          "title": "Magistratsabteilung 10 - Steuern und Abgaben [1920-1939]",
          "lat": "48.21071",
          "lon": "16.3576",
-         "timestamp": ["1922-02-10", "1922-04-14"],
-         "importance": 2, 
+         "timestamp": ["1922-02-10", "1922-04-14", "1922-06-27", "1922-07-19"],
+         "importance": 4, 
         "abbr": "Verwaltungsgebäude (K.VWL)", 
         "type": "Verwaltungsgebäude"
       }
@@ -3974,8 +4254,8 @@
          "title": "Sternwartestraße 56",
          "lat": "48.231689",
          "lon": "16.338993",
-         "timestamp": ["1922-03-25"],
-         "importance": 1, 
+         "timestamp": ["1922-03-25", "1922-06-26"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -5140,10 +5420,17 @@
          "title": "Leopoldstraße 21",
          "lat": "48.1576",
          "lon": "11.58419",
-         "timestamp": ["1922-05-16"],
-         "importance": 1, 
+         "timestamp": ["1922-05-16", "1922-08-08"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Wolfgang Schülein",
+
+         "p_id": "#12753"
+         }]
       }
       }, 
     {
@@ -5157,8 +5444,8 @@
          "title": "Gasthaus »Zum Fischmeister« Karl Schauer",
          "lat": "47.95911",
          "lon": "11.31042",
-         "timestamp": ["1922-05-17"],
-         "importance": 1, 
+         "timestamp": ["1922-05-17", "1922-07-26", "1922-07-27", "1922-07-29", "1922-07-30", "1922-08-01", "1922-08-02", "1922-08-03", "1922-08-04", "1922-08-05", "1922-08-06", "1922-08-07"],
+         "importance": 12, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
       }
@@ -5177,7 +5464,14 @@
          "timestamp": ["1922-05-17"],
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
+        "type": "Gastgewerbegebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }]
       }
       }, 
     {
@@ -5191,8 +5485,8 @@
          "title": "Bahnhof Feldafing",
          "lat": "47.946938",
          "lon": "11.290224",
-         "timestamp": ["1922-05-17"],
-         "importance": 1, 
+         "timestamp": ["1922-05-17", "1922-08-04", "1922-08-07"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Feldafing", 
         "wikidata": "http://www.wikidata.org/entity/Q800747", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -5259,8 +5553,8 @@
          "title": "Atelier Setzer",
          "lat": "48.20541",
          "lon": "16.35637",
-         "timestamp": ["1922-05-30", "1922-06-20"],
-         "importance": 2, 
+         "timestamp": ["1922-05-30", "1922-06-20", "1922-06-28"],
+         "importance": 3, 
         "abbr": "Fotoatelier", 
         "type": ""
       }
@@ -5436,8 +5730,8 @@
          "title": "W. Karczag Verlag",
          "lat": "48.19944",
          "lon": "16.364166",
-         "timestamp": ["1922-06-14"],
-         "importance": 1, 
+         "timestamp": ["1922-06-14", "1922-06-24"],
+         "importance": 2, 
         "abbr": "Verlag", 
         "type": ""
       }
@@ -5496,6 +5790,59 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.317222222222, 48.231388888889]
+      },
+      "properties": {
+         "id": "pmb289366",
+         "title": "Gersthofer Friedhof",
+         "lat": "48.231388888889",
+         "lon": "16.317222222222",
+         "timestamp": ["1922-06-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Gersthofer_Friedhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q1515097", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.389449, 48.19452]
+      },
+      "properties": {
+         "id": "pmb289371",
+         "title": "Schützengasse 19",
+         "lat": "48.19452",
+         "lon": "16.389449",
+         "timestamp": ["1922-07-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.04097, 47.51263]
+      },
+      "properties": {
+         "id": "pmb289377",
+         "title": "Hotel Binder",
+         "lat": "47.51263",
+         "lon": "16.04097",
+         "timestamp": ["1922-07-05", "1922-07-06"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.01667, 47.55]
       },
       "properties": {
@@ -5503,11 +5850,84 @@
          "title": "Sankt Peter am Wechsel",
          "lat": "47.55",
          "lon": "16.01667",
-         "timestamp": ["1922-07-06", "1922-07-07"],
-         "importance": 2, 
+         "timestamp": ["1922-07-06"],
+         "importance": 1, 
         "geonames": "https://sws.geonames.org/2766441/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.0, 47.583333]
+      },
+      "properties": {
+         "id": "pmb91079",
+         "title": "Sankt Corona am Wechsel",
+         "lat": "47.583333",
+         "lon": "16.0",
+         "timestamp": ["1922-07-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._Corona_am_Wechsel", 
+        "wikidata": "http://www.wikidata.org/entity/Q675067", 
+        "geonames": "https://sws.geonames.org/7872997/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.0078889, 47.5870833]
+      },
+      "properties": {
+         "id": "pmb289381",
+         "title": "Pfarrkirche St. Corona am Wechsel",
+         "lat": "47.5870833",
+         "lon": "16.0078889",
+         "timestamp": ["1922-07-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Pfarr-_und_Wallfahrtskirche_St._Corona_am_Wechsel", 
+        "wikidata": "http://www.wikidata.org/entity/Q18412223", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.09027, 47.55432]
+      },
+      "properties": {
+         "id": "pmb289386",
+         "title": "Hotel Post",
+         "lat": "47.55432",
+         "lon": "16.09027",
+         "timestamp": ["1922-07-06"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.09962, 47.56248]
+      },
+      "properties": {
+         "id": "pmb289389",
+         "title": "Aspang-Markt Bahnhof",
+         "lat": "47.56248",
+         "lon": "16.09962",
+         "timestamp": ["1922-07-06"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -5538,11 +5958,153 @@
          "title": "Bahnhof Possenhofen",
          "lat": "47.96196",
          "lon": "11.306475",
-         "timestamp": ["1922-07-28", "1922-08-07"],
-         "importance": 2, 
+         "timestamp": ["1922-07-28", "1922-08-05", "1922-08-07"],
+         "importance": 3, 
         "wikidata": "http://www.wikidata.org/entity/Q105475616", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.30413, 47.78558]
+      },
+      "properties": {
+         "id": "pmb91419",
+         "title": "Ostersee",
+         "lat": "47.78558",
+         "lon": "11.30413",
+         "timestamp": ["1922-07-31"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2856383/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2923, 47.7921]
+      },
+      "properties": {
+         "id": "pmb289436",
+         "title": "Lauterbacher Mühle",
+         "lat": "47.7921",
+         "lon": "11.2923",
+         "timestamp": ["1922-07-31"],
+         "importance": 1, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3, 47.9667]
+      },
+      "properties": {
+         "id": "pmb34895",
+         "title": "Pöcking",
+         "lat": "47.9667",
+         "lon": "11.3",
+         "timestamp": ["1922-08-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/P%C3%B6cking", 
+        "wikidata": "http://www.wikidata.org/entity/Q514747", 
+        "geonames": "https://sws.geonames.org/6556391/ https://sws.geonames.org/2853066/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9993833557427, 47.6262355086742]
+      },
+      "properties": {
+         "id": "pmb289733",
+         "title": "Berchtesgaden Hauptbahnhof",
+         "lat": "47.6262355086742",
+         "lon": "12.9993833557427",
+         "timestamp": ["1922-08-10", "1922-08-12"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q818813", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00275, 47.63156]
+      },
+      "properties": {
+         "id": "pmb289736",
+         "title": "Haus der Berge",
+         "lat": "47.63156",
+         "lon": "13.00275",
+         "timestamp": ["1922-08-10", "1922-08-11", "1922-08-12"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.87187, 47.622952396]
+      },
+      "properties": {
+         "id": "pmb92477",
+         "title": "Alte Reichenhaller Straße",
+         "lat": "47.622952396",
+         "lon": "12.87187",
+         "timestamp": ["1922-08-11"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.001002, 47.632333]
+      },
+      "properties": {
+         "id": "pmb289748",
+         "title": "Café Forstner",
+         "lat": "47.632333",
+         "lon": "13.001002",
+         "timestamp": ["1922-08-12"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00992, 47.63982]
+      },
+      "properties": {
+         "id": "pmb289752",
+         "title": "Hotel Krone",
+         "lat": "47.63982",
+         "lon": "13.00992",
+         "timestamp": ["1922-08-12"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {

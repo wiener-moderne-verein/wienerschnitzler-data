@@ -6,35 +6,15 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.04532, 47.80067], 
-            [16.370694, 48.210054], 
-            [16.384444, 48.215]
+            [16.37196, 48.20143], 
+            [16.384444, 48.215], 
+            [16.370694, 48.210054]
           ]
       },
       "properties": {
         "name": "7. November 1890"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.04532, 47.80067]
-      },
-      "properties": {
-         "id": "pmb30",
-         "title": "Salzburg",
-         "lat": "47.80067",
-         "lon": "13.04532",
-         "timestamp": ["1890-11-07"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
-        "wikidata": "http://www.wikidata.org/entity/Q34713", 
-        "geonames": "https://sws.geonames.org/2766818/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsgebiet"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -50,6 +30,79 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37196, 48.20143]
+      },
+      "properties": {
+         "id": "pmb167805",
+         "title": "Kärntnerring 12/Bösendorferstraße 11",
+         "lat": "48.20143",
+         "lon": "16.37196",
+         "timestamp": ["1890-11-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Leopold Rosenberg",
+
+         "p_id": "#23573"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }, 
+         {
+
+         "p_name": "Gisela Hajek",
+
+         "p_id": "#2461"
+         }, 
+         {
+
+         "p_name": "Louise Schnitzler",
+
+         "p_id": "#12701"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Johann Schnitzler",
+
+         "p_id": "#12695"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Hausmeisterin von Kärntnerring 12/Bösendorferstraße 11]",
+
+         "p_id": "#167391"
+         }, 
+         {
+
+         "p_name": " ?? [Hausmeister von Kärntnerring 12/Bösendorferstraße 11]",
+
+         "p_id": "#167389"
+         }]
       }
       },
     {

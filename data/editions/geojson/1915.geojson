@@ -45,6 +45,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.04532, 47.80067]
+      },
+      "properties": {
+         "id": "pmb30",
+         "title": "Salzburg",
+         "lat": "47.80067",
+         "lon": "13.04532",
+         "timestamp": ["1915-08-28", "1915-08-29", "1915-08-30"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q34713", 
+        "geonames": "https://sws.geonames.org/2766818/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.763333, 47.639444]
       },
       "properties": {
@@ -79,26 +99,6 @@
         "geonames": "https://sws.geonames.org/2782043/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.04532, 47.80067]
-      },
-      "properties": {
-         "id": "pmb30",
-         "title": "Salzburg",
-         "lat": "47.80067",
-         "lon": "13.04532",
-         "timestamp": ["1915-08-28", "1915-08-29", "1915-08-30"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
-        "wikidata": "http://www.wikidata.org/entity/Q34713", 
-        "geonames": "https://sws.geonames.org/2766818/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -476,8 +476,8 @@
          "title": "Mödling",
          "lat": "48.08605",
          "lon": "16.28921",
-         "timestamp": ["1915-03-25", "1915-04-04"],
-         "importance": 2, 
+         "timestamp": ["1915-03-25", "1915-04-04", "1915-05-11"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6dling", 
         "wikidata": "http://www.wikidata.org/entity/Q277965", 
         "geonames": "https://sws.geonames.org/2771335/", 
@@ -1730,6 +1730,12 @@
          }, 
          {
 
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
          "p_name": "Armin Petschek",
 
          "p_id": "#22471"
@@ -2174,8 +2180,8 @@
          "title": "Anninger",
          "lat": "48.04743",
          "lon": "16.246",
-         "timestamp": ["1915-03-25"],
-         "importance": 1, 
+         "timestamp": ["1915-03-25", "1915-05-11"],
+         "importance": 2, 
         "geonames": "https://sws.geonames.org/2782484/", 
         "abbr": "T.MT", 
         "type": "Berg"
@@ -2467,6 +2473,12 @@
          "p_id": "#38269"
          }], 
         "arbeitsort": [
+         {
+
+         "p_name": "Siegmund Adler",
+
+         "p_id": "#13251"
+         }, 
          {
 
          "p_name": "Friedrich Geiringer",
@@ -3511,6 +3523,12 @@
          "p_name": "Paula ",
 
          "p_id": "#22399"
+         }, 
+         {
+
+         "p_name": "Anna ",
+
+         "p_id": "#13428"
          }, 
          {
 

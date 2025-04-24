@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1893-09-01", "1893-09-02", "1893-09-03", "1893-09-04", "1893-09-05", "1893-09-07", "1893-09-08", "1893-09-09", "1893-09-11", "1893-09-12", "1893-09-13", "1893-09-14", "1893-09-15", "1893-09-16", "1893-09-19", "1893-09-21", "1893-09-22", "1893-09-23", "1893-09-24", "1893-09-25", "1893-09-26", "1893-09-27", "1893-09-28", "1893-09-29", "1893-09-30"],
-         "importance": 25, 
+         "timestamp": ["1893-09-01", "1893-09-02", "1893-09-03", "1893-09-04", "1893-09-05", "1893-09-07", "1893-09-08", "1893-09-09", "1893-09-11", "1893-09-12", "1893-09-13", "1893-09-14", "1893-09-15", "1893-09-16", "1893-09-19", "1893-09-20", "1893-09-21", "1893-09-22", "1893-09-23", "1893-09-24", "1893-09-25", "1893-09-26", "1893-09-27", "1893-09-28", "1893-09-29", "1893-09-30"],
+         "importance": 26, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -70,8 +70,8 @@
          "title": "Salzburg",
          "lat": "47.80067",
          "lon": "13.04532",
-         "timestamp": ["1893-09-16", "1893-09-17", "1893-09-18", "1893-09-19", "1893-09-20"],
-         "importance": 5, 
+         "timestamp": ["1893-09-16", "1893-09-17", "1893-09-18", "1893-09-19"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
@@ -94,6 +94,25 @@
          "importance": 1, 
         "abbr": "Ordination", 
         "type": "Ordination"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1893-09-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -156,6 +175,26 @@
         "geonames": "https://sws.geonames.org/2782067/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1893-09-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -351,8 +390,8 @@
          "title": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
          "lat": "48.212477",
          "lon": "16.357233",
-         "timestamp": ["1893-09-01", "1893-09-02", "1893-09-03", "1893-09-04", "1893-09-05", "1893-09-07", "1893-09-08", "1893-09-09", "1893-09-11", "1893-09-12", "1893-09-13", "1893-09-14", "1893-09-15", "1893-09-16", "1893-09-19", "1893-09-21", "1893-09-22", "1893-09-23", "1893-09-24", "1893-09-25", "1893-09-26", "1893-09-27", "1893-09-28", "1893-09-29", "1893-09-30"],
-         "importance": 25, 
+         "timestamp": ["1893-09-01", "1893-09-02", "1893-09-03", "1893-09-04", "1893-09-05", "1893-09-07", "1893-09-08", "1893-09-09", "1893-09-11", "1893-09-12", "1893-09-13", "1893-09-14", "1893-09-15", "1893-09-16", "1893-09-19", "1893-09-20", "1893-09-21", "1893-09-22", "1893-09-23", "1893-09-24", "1893-09-25", "1893-09-26", "1893-09-27", "1893-09-28", "1893-09-29", "1893-09-30"],
+         "importance": 26, 
         "abbr": "Ordination", 
         "type": "Ordination"
       }
@@ -402,7 +441,7 @@
       },
       "properties": {
          "id": "pmb90707",
-         "title": "Gesäuse National Park",
+         "title": "Gesäuse",
          "lat": "47.58333",
          "lon": "14.61667",
          "timestamp": ["1893-09-11"],

@@ -112,6 +112,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37447, 48.196479]
+      },
+      "properties": {
+         "id": "pmb250294",
+         "title": "Atelier Krausz",
+         "lat": "48.196479",
+         "lon": "16.37447",
+         "timestamp": ["1926-04-09"],
+         "importance": 1, 
+        "abbr": "Atelier", 
+        "type": "Atelier"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36265, 48.21156]
       },
       "properties": {
@@ -124,6 +141,12 @@
         "abbr": "Bank (K.BNK)", 
         "type": "Bank", 
         "arbeitsort": [
+         {
+
+         "p_name": "Robert Kugel",
+
+         "p_id": "#19806"
+         }, 
          {
 
          "p_name": "Max Feilchenfeld",
@@ -223,27 +246,16 @@
          }, 
          {
 
+         "p_name": "Anna ",
+
+         "p_id": "#13428"
+         }, 
+         {
+
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37447, 48.196479]
-      },
-      "properties": {
-         "id": "pmb250294",
-         "title": "Atelier Krausz",
-         "lat": "48.196479",
-         "lon": "16.37447",
-         "timestamp": ["1926-04-09"],
-         "importance": 1, 
-        "abbr": "Atelier", 
-        "type": "Atelier"
       }
       }
   ]

@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.29326, 47.94602], 
-            [11.561467767769052, 48.13907960520144]
+            [11.298363683529006, 47.94933649585533], 
+            [11.31042, 47.95911], 
+            [11.306475, 47.96196]
           ]
       },
       "properties": {
@@ -18,36 +19,52 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.29326, 47.94602]
+        "coordinates": [11.298363683529006, 47.94933649585533]
       },
       "properties": {
-         "id": "pmb53150",
-         "title": "Feldafing",
-         "lat": "47.94602",
-         "lon": "11.29326",
+         "id": "pmb53152",
+         "title": "Hotel Kaiserin Elisabeth [Feldafing]",
+         "lat": "47.94933649585533",
+         "lon": "11.298363683529006",
          "timestamp": ["1922-08-05"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2927464/", 
-        "abbr": "P.PPLA4", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.561467767769052, 48.13907960520144]
+        "coordinates": [11.31042, 47.95911]
       },
       "properties": {
-         "id": "pmb806",
-         "title": "Hotel Rheinischer Hof München",
-         "lat": "48.13907960520144",
-         "lon": "11.561467767769052",
+         "id": "pmb288674",
+         "title": "Gasthaus »Zum Fischmeister« Karl Schauer",
+         "lat": "47.95911",
+         "lon": "11.31042",
          "timestamp": ["1922-08-05"],
          "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q130711545", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.306475, 47.96196]
+      },
+      "properties": {
+         "id": "pmb256554",
+         "title": "Bahnhof Possenhofen",
+         "lat": "47.96196",
+         "lon": "11.306475",
+         "timestamp": ["1922-08-05"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q105475616", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

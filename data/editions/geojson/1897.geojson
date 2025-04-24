@@ -25,6 +25,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.04532, 47.80067]
+      },
+      "properties": {
+         "id": "pmb30",
+         "title": "Salzburg",
+         "lat": "47.80067",
+         "lon": "13.04532",
+         "timestamp": ["1897-07-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q34713", 
+        "geonames": "https://sws.geonames.org/2766818/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.21359, 47.96533]
       },
       "properties": {
@@ -59,26 +79,6 @@
         "geonames": "https://sws.geonames.org/2766429/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.04532, 47.80067]
-      },
-      "properties": {
-         "id": "pmb30",
-         "title": "Salzburg",
-         "lat": "47.80067",
-         "lon": "13.04532",
-         "timestamp": ["1897-07-14"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
-        "wikidata": "http://www.wikidata.org/entity/Q34713", 
-        "geonames": "https://sws.geonames.org/2766818/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -577,6 +577,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.48728, 47.80494]
+      },
+      "properties": {
+         "id": "pmb877",
+         "title": "Unterach am Attersee",
+         "lat": "47.80494",
+         "lon": "13.48728",
+         "timestamp": ["1897-07-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Unterach_am_Attersee", 
+        "wikidata": "http://www.wikidata.org/entity/Q696222", 
+        "geonames": "https://sws.geonames.org/9552461/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.5358, 47.8004]
       },
       "properties": {
@@ -662,8 +682,8 @@
          "title": "Mödling",
          "lat": "48.08605",
          "lon": "16.28921",
-         "timestamp": ["1897-06-23", "1897-09-19"],
-         "importance": 2, 
+         "timestamp": ["1897-03-25", "1897-06-17", "1897-06-23", "1897-09-19"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6dling", 
         "wikidata": "http://www.wikidata.org/entity/Q277965", 
         "geonames": "https://sws.geonames.org/2771335/", 
@@ -863,7 +883,20 @@
          "importance": 2, 
         "wikidata": "http://www.wikidata.org/entity/Q26665316", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julie Markbreiter",
+
+         "p_id": "#21037"
+         }, 
+         {
+
+         "p_name": "Felix Markbreiter",
+
+         "p_id": "#21028"
+         }]
       }
       }, 
     {
@@ -980,6 +1013,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.16265, 48.19512]
+      },
+      "properties": {
+         "id": "pmb39792",
+         "title": "Purkersdorf",
+         "lat": "48.19512",
+         "lon": "16.16265",
+         "timestamp": ["1897-06-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Purkersdorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q590620", 
+        "geonames": "https://sws.geonames.org/7873075/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37033, 48.21878]
       },
       "properties": {
@@ -989,6 +1042,8 @@
          "lon": "16.37033",
          "timestamp": ["1897-04-02"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Augartenbr%C3%BCcke", 
+        "wikidata": "http://www.wikidata.org/entity/Q760198", 
         "geonames": "https://sws.geonames.org/10629980/", 
         "abbr": "S.BDG", 
         "type": "Brücke"
@@ -2007,8 +2062,8 @@
          "title": "Prag",
          "lat": "50.08333",
          "lon": "14.46667",
-         "timestamp": ["1897-06-02", "1897-06-12", "1897-11-24", "1897-11-25", "1897-11-26", "1897-11-27"],
-         "importance": 6, 
+         "timestamp": ["1897-06-02", "1897-06-12", "1897-11-24", "1897-11-25", "1897-11-26", "1897-11-27", "1897-11-28"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Prag", 
         "wikidata": "http://www.wikidata.org/entity/Q1085", 
         "geonames": "https://sws.geonames.org/3067695/ https://sws.geonames.org/3067696/", 
@@ -3466,6 +3521,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [2.35387, 48.93564]
+      },
+      "properties": {
+         "id": "pmb91804",
+         "title": "Saint-Denis",
+         "lat": "48.93564",
+         "lon": "2.35387",
+         "timestamp": ["1897-05-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Saint-Denis_(Seine-Saint-Denis)", 
+        "wikidata": "http://www.wikidata.org/entity/Q160506", 
+        "geonames": "https://sws.geonames.org/6455341/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [2.353531, 48.874866]
       },
       "properties": {
@@ -4575,6 +4650,12 @@
          }, 
          {
 
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
          "p_name": "Armin Petschek",
 
          "p_id": "#22471"
@@ -4856,8 +4937,8 @@
          "title": "Endresstraße 68",
          "lat": "48.14917",
          "lon": "16.277425",
-         "timestamp": ["1897-07-25", "1897-07-26", "1897-08-06", "1897-08-07", "1897-08-08", "1897-08-09", "1897-08-11", "1897-08-12", "1897-08-13", "1897-08-14", "1897-08-15", "1897-08-17", "1897-08-18", "1897-08-21", "1897-08-31", "1897-09-01", "1897-09-02", "1897-09-04", "1897-09-06", "1897-09-07", "1897-09-09", "1897-09-10", "1897-09-12", "1897-09-13", "1897-09-14", "1897-09-15", "1897-09-16", "1897-09-18", "1897-09-19", "1897-09-20", "1897-09-21", "1897-09-22", "1897-09-23", "1897-09-24", "1897-09-25", "1897-09-26", "1897-09-27", "1897-09-28", "1897-09-29", "1897-09-30", "1897-10-01", "1897-10-02", "1897-10-03", "1897-10-04", "1897-10-05", "1897-10-06", "1897-10-07", "1897-10-08", "1897-10-09", "1897-10-10", "1897-10-11", "1897-10-12", "1897-10-13", "1897-10-17"],
-         "importance": 54, 
+         "timestamp": ["1897-07-25", "1897-07-26", "1897-08-06", "1897-08-07", "1897-08-08", "1897-08-09", "1897-08-11", "1897-08-12", "1897-08-13", "1897-08-14", "1897-08-15", "1897-08-17", "1897-08-18", "1897-08-31", "1897-09-01", "1897-09-02", "1897-09-04", "1897-09-06", "1897-09-07", "1897-09-09", "1897-09-10", "1897-09-12", "1897-09-13", "1897-09-14", "1897-09-15", "1897-09-16", "1897-09-18", "1897-09-19", "1897-09-20", "1897-09-21", "1897-09-22", "1897-09-23", "1897-09-24", "1897-09-25", "1897-09-26", "1897-09-27", "1897-09-28", "1897-09-29", "1897-09-30", "1897-10-01", "1897-10-02", "1897-10-03", "1897-10-04", "1897-10-05", "1897-10-06", "1897-10-07", "1897-10-08", "1897-10-09", "1897-10-10", "1897-10-11", "1897-10-12", "1897-10-13", "1897-10-17"],
+         "importance": 53, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
       }
@@ -5181,6 +5262,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q18042645", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.435833333333, 50.083055555556]
+      },
+      "properties": {
+         "id": "pmb252051",
+         "title": "Praha hlavní nádraží",
+         "lat": "50.083055555556",
+         "lon": "14.435833333333",
+         "timestamp": ["1897-11-24", "1897-11-28"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
+        "wikidata": "http://www.wikidata.org/entity/Q751174", 
+        "geonames": "https://sws.geonames.org/6285753/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {

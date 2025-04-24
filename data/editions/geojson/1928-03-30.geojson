@@ -40,6 +40,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3764, 48.203693]
+      },
+      "properties": {
+         "id": "pmb246175",
+         "title": "Parkring 20",
+         "lat": "48.203693",
+         "lon": "16.3764",
+         "timestamp": ["1928-03-30"],
+         "importance": 1, 
+        "abbr": "Bürogebäude (K.BUR)", 
+        "type": "Bürogebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36265, 48.21156]
       },
       "properties": {
@@ -52,6 +69,12 @@
         "abbr": "Bank (K.BNK)", 
         "type": "Bank", 
         "arbeitsort": [
+         {
+
+         "p_name": "Robert Kugel",
+
+         "p_id": "#19806"
+         }, 
          {
 
          "p_name": "Max Feilchenfeld",
@@ -244,6 +267,12 @@
          }, 
          {
 
+         "p_name": "Anna ",
+
+         "p_id": "#13428"
+         }, 
+         {
+
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
@@ -272,23 +301,6 @@
 
          "p_id": "#4401"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3764, 48.203693]
-      },
-      "properties": {
-         "id": "pmb246175",
-         "title": "Parkring 20",
-         "lat": "48.203693",
-         "lon": "16.3764",
-         "timestamp": ["1928-03-30"],
-         "importance": 1, 
-        "abbr": "Bürogebäude (K.BUR)", 
-        "type": "Bürogebäude"
       }
       }
   ]

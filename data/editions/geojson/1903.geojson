@@ -45,26 +45,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.28333, 48.3]
-      },
-      "properties": {
-         "id": "pmb332",
-         "title": "Linz",
-         "lat": "48.3",
-         "lon": "14.28333",
-         "timestamp": ["1903-04-08", "1903-04-09"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Linz", 
-        "wikidata": "http://www.wikidata.org/entity/Q41329", 
-        "geonames": "https://sws.geonames.org/2772400/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.04532, 47.80067]
       },
       "properties": {
@@ -79,6 +59,26 @@
         "geonames": "https://sws.geonames.org/2766818/", 
         "abbr": "A.ADM2", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.28333, 48.3]
+      },
+      "properties": {
+         "id": "pmb332",
+         "title": "Linz",
+         "lat": "48.3",
+         "lon": "14.28333",
+         "timestamp": ["1903-04-08", "1903-04-09"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Linz", 
+        "wikidata": "http://www.wikidata.org/entity/Q41329", 
+        "geonames": "https://sws.geonames.org/2772400/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -510,8 +510,8 @@
          "title": "Klosterneuburg",
          "lat": "48.30521",
          "lon": "16.32522",
-         "timestamp": ["1903-08-11"],
-         "importance": 1, 
+         "timestamp": ["1903-07-05", "1903-08-11"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Klosterneuburg", 
         "wikidata": "http://www.wikidata.org/entity/Q487522", 
         "geonames": "https://sws.geonames.org/2773913/", 
@@ -2455,6 +2455,12 @@
          }, 
          {
 
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }, 
+         {
+
          "p_name": "Armin Petschek",
 
          "p_id": "#22471"
@@ -2559,7 +2565,7 @@
       },
       "properties": {
          "id": "pmb200978",
-         "title": "Certosa di Pavia",
+         "title": "Certosa di Pavia [Kloster]",
          "lat": "45.257",
          "lon": "9.14827778",
          "timestamp": ["1903-06-05"],
@@ -2588,6 +2594,26 @@
         "geonames": "https://sws.geonames.org/6693844/", 
         "abbr": "S.CMTY", 
         "type": "Friedhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1278876, 45.2543547]
+      },
+      "properties": {
+         "id": "pmb289797",
+         "title": "Certosa di Pavia",
+         "lat": "45.2543547",
+         "lon": "9.1278876",
+         "timestamp": ["1903-06-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Certosa_di_Pavia_(Lombardei)", 
+        "wikidata": "http://www.wikidata.org/entity/Q40676", 
+        "geonames": "https://sws.geonames.org/6540203/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -2982,6 +3008,26 @@
         "geonames": "https://sws.geonames.org/2769408/", 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.82151, 47.65949]
+      },
+      "properties": {
+         "id": "pmb36503",
+         "title": "Breitenstein am Semmering",
+         "lat": "47.65949",
+         "lon": "15.82151",
+         "timestamp": ["1903-07-29", "1903-11-07", "1903-11-09"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Breitenstein_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q124981", 
+        "geonames": "https://sws.geonames.org/2781451/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -4745,6 +4791,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.8166666666667, 46.316666666667]
+      },
+      "properties": {
+         "id": "pmb289802",
+         "title": "Ticino",
+         "lat": "46.316666666667",
+         "lon": "8.8166666666667",
+         "timestamp": ["1903-06-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kanton_Tessin", 
+        "wikidata": "http://www.wikidata.org/entity/Q12724", 
+        "geonames": "https://sws.geonames.org/2658370/", 
+        "abbr": "A.ADM1", 
+        "type": "Land"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.95611111111111, 45.98305555555556]
       },
       "properties": {
@@ -5069,26 +5135,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.82151, 47.65949]
-      },
-      "properties": {
-         "id": "pmb36503",
-         "title": "Breitenstein am Semmering",
-         "lat": "47.65949",
-         "lon": "15.82151",
-         "timestamp": ["1903-07-29", "1903-11-09"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Breitenstein_(Nieder%C3%B6sterreich)", 
-        "wikidata": "http://www.wikidata.org/entity/Q124981", 
-        "geonames": "https://sws.geonames.org/2781451/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.24604, 48.24737]
       },
       "properties": {
@@ -5291,17 +5337,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.2, 46.41667]
+        "coordinates": [11.207222, 46.416944]
       },
       "properties": {
-         "id": "pmb91229",
-         "title": "Passo della Mendola",
-         "lat": "46.41667",
-         "lon": "11.2",
+         "id": "pmb41083",
+         "title": "Mendelpass",
+         "lat": "46.416944",
+         "lon": "11.207222",
          "timestamp": ["1903-08-14", "1903-08-15", "1903-08-16", "1903-08-17"],
          "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mendelpass", 
+        "wikidata": "http://www.wikidata.org/entity/Q253818", 
         "geonames": "https://sws.geonames.org/3173592/", 
-        "abbr": "T.PASS", 
+        "abbr": "Pass (N.PAS)", 
         "type": "Pass"
       }
       }, 

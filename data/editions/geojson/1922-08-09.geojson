@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.00187, 47.63236], 
+            [11.585161, 48.135523], 
+            [11.581667, 48.138889], 
             [11.561467767769052, 48.13907960520144]
           ]
       },
@@ -36,20 +37,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.00187, 47.63236]
+        "coordinates": [11.585161, 48.135523]
       },
       "properties": {
-         "id": "pmb797",
-         "title": "Berchtesgaden",
-         "lat": "47.63236",
-         "lon": "13.00187",
+         "id": "pmb248958",
+         "title": "Mannhardtstraße 3",
+         "lat": "48.135523",
+         "lon": "11.585161",
          "timestamp": ["1922-08-09"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q278221", 
-        "geonames": "https://sws.geonames.org/2950881/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Aloisia Chlum",
+
+         "p_id": "#27771"
+         }, 
+         {
+
+         "p_name": "Auguste Glümer",
+
+         "p_id": "#14948"
+         }, 
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.581667, 48.138889]
+      },
+      "properties": {
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
+         "timestamp": ["1922-08-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

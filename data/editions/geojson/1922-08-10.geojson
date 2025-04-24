@@ -6,14 +6,52 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.00187, 47.63236], 
-            [11.561467767769052, 48.13907960520144]
+            [12.9993833557427, 47.6262355086742], 
+            [13.00275, 47.63156], 
+            [11.561467767769052, 48.13907960520144], 
+            [11.555, 48.140833]
           ]
       },
       "properties": {
         "name": "10. August 1922"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9993833557427, 47.6262355086742]
+      },
+      "properties": {
+         "id": "pmb289733",
+         "title": "Berchtesgaden Hauptbahnhof",
+         "lat": "47.6262355086742",
+         "lon": "12.9993833557427",
+         "timestamp": ["1922-08-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q818813", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00275, 47.63156]
+      },
+      "properties": {
+         "id": "pmb289736",
+         "title": "Haus der Berge",
+         "lat": "47.63156",
+         "lon": "13.00275",
+         "timestamp": ["1922-08-10"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -36,20 +74,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.00187, 47.63236]
+        "coordinates": [11.555, 48.140833]
       },
       "properties": {
-         "id": "pmb797",
-         "title": "Berchtesgaden",
-         "lat": "47.63236",
-         "lon": "13.00187",
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
          "timestamp": ["1922-08-10"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q278221", 
-        "geonames": "https://sws.geonames.org/2950881/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }
   ]

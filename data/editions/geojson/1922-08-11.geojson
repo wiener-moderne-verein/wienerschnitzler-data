@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.00187, 47.63236]
+            [12.87187, 47.622952396], 
+            [13.00275, 47.63156]
           ]
       },
       "properties": {
@@ -17,20 +18,34 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.00187, 47.63236]
+        "coordinates": [13.00275, 47.63156]
       },
       "properties": {
-         "id": "pmb797",
-         "title": "Berchtesgaden",
-         "lat": "47.63236",
-         "lon": "13.00187",
+         "id": "pmb289736",
+         "title": "Haus der Berge",
+         "lat": "47.63156",
+         "lon": "13.00275",
          "timestamp": ["1922-08-11"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q278221", 
-        "geonames": "https://sws.geonames.org/2950881/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.87187, 47.622952396]
+      },
+      "properties": {
+         "id": "pmb92477",
+         "title": "Alte Reichenhaller Straße",
+         "lat": "47.622952396",
+         "lon": "12.87187",
+         "timestamp": ["1922-08-11"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }
   ]

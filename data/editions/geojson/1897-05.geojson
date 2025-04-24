@@ -109,7 +109,20 @@
          "importance": 2, 
         "wikidata": "http://www.wikidata.org/entity/Q26665316", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julie Markbreiter",
+
+         "p_id": "#21037"
+         }, 
+         {
+
+         "p_name": "Felix Markbreiter",
+
+         "p_id": "#21028"
+         }]
       }
       }, 
     {
@@ -554,6 +567,26 @@
         "geonames": "https://sws.geonames.org/6697868/", 
         "abbr": "S.CH", 
         "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.35387, 48.93564]
+      },
+      "properties": {
+         "id": "pmb91804",
+         "title": "Saint-Denis",
+         "lat": "48.93564",
+         "lon": "2.35387",
+         "timestamp": ["1897-05-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Saint-Denis_(Seine-Saint-Denis)", 
+        "wikidata": "http://www.wikidata.org/entity/Q160506", 
+        "geonames": "https://sws.geonames.org/6455341/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {

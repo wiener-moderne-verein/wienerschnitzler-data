@@ -6,14 +6,34 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35736, 48.21533], 
-            [13.39108, 52.50319]
+            [16.430054, 48.194558], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
         "name": "23. Oktober 1899"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.430054, 48.194558]
+      },
+      "properties": {
+         "id": "pmb8",
+         "title": "Prater",
+         "lat": "48.194558",
+         "lon": "16.430054",
+         "timestamp": ["1899-10-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Prater", 
+        "wikidata": "http://www.wikidata.org/entity/Q264752", 
+        "geonames": "https://sws.geonames.org/3322725/", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -97,23 +117,6 @@
 
          "p_id": "#27696"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.39108, 52.50319]
-      },
-      "properties": {
-         "id": "pmb482",
-         "title": "Friedrichstraße [Berlin]",
-         "lat": "52.50319",
-         "lon": "13.39108",
-         "timestamp": ["1899-10-23"],
-         "importance": 1, 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße"
       }
       }
   ]

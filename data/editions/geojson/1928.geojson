@@ -2137,8 +2137,8 @@
          "timestamp": ["1928-11-17"],
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2767830/", 
-        "abbr": "L.RGN", 
-        "type": "Region"
+        "abbr": "Alm", 
+        "type": "Alm"
       }
       }, 
     {
@@ -3219,26 +3219,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.74935, 47.55718]
-      },
-      "properties": {
-         "id": "pmb91342",
-         "title": "Schloss Neuschwanstein",
-         "lat": "47.55718",
-         "lon": "10.74935",
-         "timestamp": ["1928-08-19", "1928-08-26"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Neuschwanstein", 
-        "wikidata": "http://www.wikidata.org/entity/Q4152", 
-        "geonames": "https://sws.geonames.org/2864198/", 
-        "abbr": "S.CSTL", 
-        "type": "Burg"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [10.735277777778, 47.576666666667]
       },
       "properties": {
@@ -3253,6 +3233,26 @@
         "geonames": "https://sws.geonames.org/6557229/", 
         "abbr": "A.ADM4", 
         "type": "Region"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.74935, 47.55718]
+      },
+      "properties": {
+         "id": "pmb91342",
+         "title": "Schloss Neuschwanstein",
+         "lat": "47.55718",
+         "lon": "10.74935",
+         "timestamp": ["1928-08-19", "1928-08-26"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Neuschwanstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q4152", 
+        "geonames": "https://sws.geonames.org/2864198/", 
+        "abbr": "S.CSTL", 
+        "type": "Burg"
       }
       }, 
     {
@@ -5627,7 +5627,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Marmarameer", 
         "wikidata": "http://www.wikidata.org/entity/Q35367", 
         "geonames": "https://sws.geonames.org/630669/", 
-        "abbr": "kein passender Code gefunden", 
+        "abbr": "Meer (N.MER)", 
         "type": ""
       }
       }, 
@@ -6049,6 +6049,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [14.10872, 47.53343]
+      },
+      "properties": {
+         "id": "pmb45248",
+         "title": "Stainach",
+         "lat": "47.53343",
+         "lon": "14.10872",
+         "timestamp": ["1928-06-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stainach", 
+        "wikidata": "http://www.wikidata.org/entity/Q871426", 
+        "geonames": "https://sws.geonames.org/2764708/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.3384, 47.6642]
+      },
+      "properties": {
+         "id": "pmb290325",
+         "title": "Kollegiatstift Spital am Pyhrn",
+         "lat": "47.6642",
+         "lon": "14.3384",
+         "timestamp": ["1928-06-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stift_Spital_am_Pyhrn", 
+        "wikidata": "http://www.wikidata.org/entity/Q1804389", 
+        "abbr": "Kloster (K.KLS)", 
+        "type": "Kloster"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.620278, 47.715]
       },
       "properties": {
@@ -6434,17 +6473,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.097, 47.4918]
+        "coordinates": [10.943069, 47.426447]
       },
       "properties": {
          "id": "pmb233209",
-         "title": "Bayerische Zugspitzbahn",
-         "lat": "47.4918",
-         "lon": "11.097",
+         "title": "Tiroler Zugspitzbahn",
+         "lat": "47.426447",
+         "lon": "10.943069",
          "timestamp": ["1928-08-27"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bayerische_Zugspitzbahn", 
-        "wikidata": "http://www.wikidata.org/entity/Q644587", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tiroler_Zugspitzbahn", 
+        "wikidata": "http://www.wikidata.org/entity/Q255218", 
         "abbr": "Bahn", 
         "type": "Bahn"
       }
@@ -6467,6 +6506,25 @@
         "geonames": "https://sws.geonames.org/2780307/ https://sws.geonames.org/3319581/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.9863, 47.42122]
+      },
+      "properties": {
+         "id": "pmb47581",
+         "title": "Zugspitze",
+         "lat": "47.42122",
+         "lon": "10.9863",
+         "timestamp": ["1928-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Zugspitze", 
+        "wikidata": "http://www.wikidata.org/entity/Q3375", 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
       }
       }, 
     {
@@ -6842,17 +6900,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3531, 48.19229]
+        "coordinates": [16.371869, 48.205794]
       },
       "properties": {
          "id": "pmb235114",
-         "title": "Piccini",
-         "lat": "48.19229",
-         "lon": "16.3531",
+         "title": "Riccardo Piccini, Gemischtwarenhandlung",
+         "lat": "48.205794",
+         "lon": "16.371869",
          "timestamp": ["1928-10-30"],
          "importance": 1, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
       }
       }, 
     {

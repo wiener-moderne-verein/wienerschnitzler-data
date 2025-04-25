@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [15.7961, 47.66791], 
-            [15.81667, 47.66667], 
             [15.826347, 47.667535], 
             [15.85924, 47.68741], 
             [16.379829498031, 48.187455471378], 
@@ -18,24 +17,6 @@
         "name": "21. Juli 1922"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.81667, 47.66667]
-      },
-      "properties": {
-         "id": "pmb91067",
-         "title": "Kreuzberg [Breitenstein]",
-         "lat": "47.66667",
-         "lon": "15.81667",
-         "timestamp": ["1922-07-21"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2773510/", 
-        "abbr": "T.MT", 
-        "type": "Berg"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -57,6 +38,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.826347, 47.667535]
+      },
+      "properties": {
+         "id": "pmb246827",
+         "title": "Sommerhöhe",
+         "lat": "47.667535",
+         "lon": "15.826347",
+         "timestamp": ["1922-07-21"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q131753267", 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.379829498031, 48.187455471378]
       },
       "properties": {
@@ -70,41 +69,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.85924, 47.68741]
-      },
-      "properties": {
-         "id": "pmb231692",
-         "title": "Payberbachgraben",
-         "lat": "47.68741",
-         "lon": "15.85924",
-         "timestamp": ["1922-07-21"],
-         "importance": 1, 
-        "abbr": "Tal (N.TAL)", 
-        "type": "Tal"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.826347, 47.667535]
-      },
-      "properties": {
-         "id": "pmb246827",
-         "title": "Sommerhöhe",
-         "lat": "47.667535",
-         "lon": "15.826347",
-         "timestamp": ["1922-07-21"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q131753267", 
-        "abbr": "Wanderweg (K.WND)", 
-        "type": "Wanderweg"
       }
       },
     {
@@ -190,6 +154,23 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.85924, 47.68741]
+      },
+      "properties": {
+         "id": "pmb231692",
+         "title": "Payberbachgraben",
+         "lat": "47.68741",
+         "lon": "15.85924",
+         "timestamp": ["1922-07-21"],
+         "importance": 1, 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
       }
       }
   ]

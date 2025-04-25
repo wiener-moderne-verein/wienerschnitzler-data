@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.00187, 47.63236]
+            [12.97802, 47.55567], 
+            [12.98396, 47.64427], 
+            [13.00757, 47.63496], 
+            [12.7732, 49.08664]
           ]
       },
       "properties": {
@@ -17,18 +20,68 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.00187, 47.63236]
+        "coordinates": [13.00757, 47.63496]
       },
       "properties": {
-         "id": "pmb797",
-         "title": "Berchtesgaden",
-         "lat": "47.63236",
-         "lon": "13.00187",
+         "id": "pmb289742",
+         "title": "Hotel Bellevue [Berchtesgaden]",
+         "lat": "47.63496",
+         "lon": "13.00757",
          "timestamp": ["1922-08-29"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q278221", 
-        "geonames": "https://sws.geonames.org/2950881/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.98396, 47.64427]
+      },
+      "properties": {
+         "id": "pmb289883",
+         "title": "Aschauer Weiher",
+         "lat": "47.64427",
+         "lon": "12.98396",
+         "timestamp": ["1922-08-29"],
+         "importance": 1, 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.97802, 47.55567]
+      },
+      "properties": {
+         "id": "pmb91054",
+         "title": "Königssee",
+         "lat": "47.55567",
+         "lon": "12.97802",
+         "timestamp": ["1922-08-29"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2885777/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.7732, 49.08664]
+      },
+      "properties": {
+         "id": "pmb91979",
+         "title": "Unterstein",
+         "lat": "49.08664",
+         "lon": "12.7732",
+         "timestamp": ["1922-08-29"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2818637/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }

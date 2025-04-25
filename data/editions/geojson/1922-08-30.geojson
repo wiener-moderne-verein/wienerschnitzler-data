@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.00187, 47.63236]
+            [13.00757, 47.63496], 
+            [12.9993833557427, 47.6262355086742], 
+            [13.04806, 47.63293], 
+            [13.0589, 47.6516]
           ]
       },
       "properties": {
@@ -17,20 +20,75 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.00187, 47.63236]
+        "coordinates": [13.00757, 47.63496]
       },
       "properties": {
-         "id": "pmb797",
-         "title": "Berchtesgaden",
-         "lat": "47.63236",
-         "lon": "13.00187",
+         "id": "pmb289742",
+         "title": "Hotel Bellevue [Berchtesgaden]",
+         "lat": "47.63496",
+         "lon": "13.00757",
          "timestamp": ["1922-08-30"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q278221", 
-        "geonames": "https://sws.geonames.org/2950881/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0589, 47.6516]
+      },
+      "properties": {
+         "id": "pmb289955",
+         "title": "Au [Berchtesgaden]",
+         "lat": "47.6516",
+         "lon": "13.0589",
+         "timestamp": ["1922-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Au_(Berchtesgaden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q758365", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04806, 47.63293]
+      },
+      "properties": {
+         "id": "pmb91375",
+         "title": "Obersalzberg",
+         "lat": "47.63293",
+         "lon": "13.04806",
+         "timestamp": ["1922-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Obersalzberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q284309", 
+        "geonames": "https://sws.geonames.org/2859203/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9993833557427, 47.6262355086742]
+      },
+      "properties": {
+         "id": "pmb289733",
+         "title": "Berchtesgaden Hauptbahnhof",
+         "lat": "47.6262355086742",
+         "lon": "12.9993833557427",
+         "timestamp": ["1922-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q818813", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

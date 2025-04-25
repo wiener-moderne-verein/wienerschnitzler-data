@@ -6,17 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.93717, 47.61935], 
             [12.927684, 47.61388], 
-            [12.939094, 47.609078], 
             [12.946273, 47.61339], 
+            [12.939094, 47.609078], 
             [13.0012152, 47.6306026], 
-            [12.93717, 47.61935]
+            [13.00757, 47.63496]
           ]
       },
       "properties": {
         "name": "20. August 1922"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00757, 47.63496]
+      },
+      "properties": {
+         "id": "pmb289742",
+         "title": "Hotel Bellevue [Berchtesgaden]",
+         "lat": "47.63496",
+         "lon": "13.00757",
+         "timestamp": ["1922-08-20"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -82,7 +100,9 @@
          "timestamp": ["1922-08-20"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Ilsank", 
-        "wikidata": "http://www.wikidata.org/entity/Q1659070"
+        "wikidata": "http://www.wikidata.org/entity/Q1659070", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       },
     {

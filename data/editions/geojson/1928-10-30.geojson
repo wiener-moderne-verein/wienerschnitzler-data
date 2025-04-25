@@ -6,17 +6,34 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.3531, 48.19229], 
-            [16.37675, 48.20762], 
+            [16.35137, 48.21346], 
             [16.36265, 48.21156], 
-            [16.33716, 48.23188], 
-            [16.35137, 48.21346]
+            [16.371869, 48.205794], 
+            [16.37675, 48.20762], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
         "name": "30. Oktober 1928"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371869, 48.205794]
+      },
+      "properties": {
+         "id": "pmb235114",
+         "title": "Riccardo Piccini, Gemischtwarenhandlung",
+         "lat": "48.205794",
+         "lon": "16.371869",
+         "timestamp": ["1928-10-30"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -233,23 +250,6 @@
 
          "p_id": "#18732"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3531, 48.19229]
-      },
-      "properties": {
-         "id": "pmb235114",
-         "title": "Piccini",
-         "lat": "48.19229",
-         "lon": "16.3531",
-         "timestamp": ["1928-10-30"],
-         "importance": 1, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude"
       }
       }
   ]

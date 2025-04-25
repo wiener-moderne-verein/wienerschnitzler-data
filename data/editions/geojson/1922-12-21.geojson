@@ -6,7 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.584206, 48.137853], 
+            [16.367998, 48.203159], 
             [16.370836, 48.212304], 
             [16.33716, 48.23188]
           ]
@@ -26,6 +26,23 @@
          "title": "Restaurant altes Rathaus",
          "lat": "48.212304",
          "lon": "16.370836",
+         "timestamp": ["1922-12-21"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367998, 48.203159]
+      },
+      "properties": {
+         "id": "pmb185989",
+         "title": "Opernrestaurant",
+         "lat": "48.203159",
+         "lon": "16.367998",
          "timestamp": ["1922-12-21"],
          "importance": 1, 
         "abbr": "S.REST", 
@@ -115,23 +132,6 @@
 
          "p_id": "#18732"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.584206, 48.137853]
-      },
-      "properties": {
-         "id": "pmb689",
-         "title": "Café de l’Opera",
-         "lat": "48.137853",
-         "lon": "11.584206",
-         "timestamp": ["1922-12-21"],
-         "importance": 1, 
-        "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
       }
       }
   ]

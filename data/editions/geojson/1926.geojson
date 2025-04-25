@@ -101,8 +101,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1926-02-13", "1926-03-24", "1926-04-08", "1926-11-04"],
-         "importance": 4, 
+         "timestamp": ["1926-03-24", "1926-04-08", "1926-11-04"],
+         "importance": 3, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -1220,15 +1220,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.495, 48.165833333333]
+        "coordinates": [16.48138, 48.17324]
       },
       "properties": {
          "id": "pmb200745",
          "title": "Praterspitz",
-         "lat": "48.165833333333",
-         "lon": "16.495",
-         "timestamp": ["1926-05-30"],
-         "importance": 1, 
+         "lat": "48.17324",
+         "lon": "16.48138",
+         "timestamp": ["1926-05-30", "1926-07-04"],
+         "importance": 2, 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=18003", 
         "wikidata": "http://www.wikidata.org/entity/Q21864925", 
         "geonames": "https://sws.geonames.org/2768417/", 
@@ -1439,8 +1439,8 @@
          "title": "Gersthof",
          "lat": "48.231291362993",
          "lon": "16.328822485916",
-         "timestamp": ["1926-01-01", "1926-08-31"],
-         "importance": 2, 
+         "timestamp": ["1926-01-01"],
+         "importance": 1, 
         "geonames": "https://sws.geonames.org/2778633/", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
@@ -1861,23 +1861,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.23114, 48.012864]
-      },
-      "properties": {
-         "id": "pmb92195",
-         "title": "Kurpark [Baden bei Wien]",
-         "lat": "48.012864",
-         "lon": "16.23114",
-         "timestamp": ["1926-11-01"],
-         "importance": 1, 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.299761255551, 48.272363233241]
       },
       "properties": {
@@ -2008,6 +1991,23 @@
 
          "p_id": "#24292"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23114, 48.012864]
+      },
+      "properties": {
+         "id": "pmb92195",
+         "title": "Kurpark [Baden bei Wien]",
+         "lat": "48.012864",
+         "lon": "16.23114",
+         "timestamp": ["1926-11-01"],
+         "importance": 1, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -2429,24 +2429,6 @@
 
          "p_id": "#18732"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.541091269487719, 47.36701840532128]
-      },
-      "properties": {
-         "id": "pmb53124",
-         "title": "Grand Hotel Bellevue [Zürich]",
-         "lat": "47.36701840532128",
-         "lon": "8.541091269487719",
-         "timestamp": ["1926-08-14"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q111874687 http://www.wikidata.org/entity/Q126722117", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       }, 
     {
@@ -4860,21 +4842,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.092312, 48.171659]
-      },
-      "properties": {
-         "id": "pmb92215",
-         "title": "Donauspitz",
-         "lat": "48.171659",
-         "lon": "15.092312",
-         "timestamp": ["1926-07-04"],
-         "importance": 1
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.28456, 48.17318]
       },
       "properties": {
@@ -5424,6 +5391,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [7.48839, 46.31338]
+      },
+      "properties": {
+         "id": "pmb61038",
+         "title": "Montana",
+         "lat": "46.31338",
+         "lon": "7.48839",
+         "timestamp": ["1926-08-16"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2659623/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [7.75264, 45.98974]
       },
       "properties": {
@@ -5791,17 +5776,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.74913, 46.68278]
+        "coordinates": [7.74714, 46.68549]
       },
       "properties": {
          "id": "pmb251087",
          "title": "Beatenbucht",
-         "lat": "46.68278",
-         "lon": "7.74913",
+         "lat": "46.68549",
+         "lon": "7.74714",
          "timestamp": ["1926-09-01"],
          "importance": 1, 
-        "abbr": "Bucht (N.BCT)", 
-        "type": ""
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -5821,6 +5806,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q2429943", 
         "abbr": "Bahn", 
         "type": "Bahn"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.7166666666667, 46.716388888889]
+      },
+      "properties": {
+         "id": "pmb290278",
+         "title": "Sigriswil",
+         "lat": "46.716388888889",
+         "lon": "7.7166666666667",
+         "timestamp": ["1926-09-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sigriswil", 
+        "wikidata": "http://www.wikidata.org/entity/Q65732", 
+        "geonames": "https://sws.geonames.org/7287170/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -6167,8 +6172,8 @@
          "lon": "16.349746",
          "timestamp": ["1926-12-01"],
          "importance": 1, 
-        "abbr": "Filmgesellschaft", 
-        "type": ""
+        "abbr": "Filmproduktionsfirma", 
+        "type": "Filmproduktionsfirma"
       }
       }, 
     {

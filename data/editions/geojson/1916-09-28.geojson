@@ -7,11 +7,11 @@
         "type": "LineString", 
         "coordinates": [
             [13.6273, 47.7122], 
-            [13.776666666666667, 47.59916666666667], 
             [13.77095, 47.6416], 
-            [13.76415, 47.90092], 
+            [13.776666666666667, 47.59916666666667], 
+            [13.800352, 47.918607], 
             [13.7828, 47.9253], 
-            [13.04657, 47.79884]
+            [13.76415, 47.90092]
           ]
       },
       "properties": {
@@ -58,6 +58,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.800352, 47.918607]
+      },
+      "properties": {
+         "id": "pmb290021",
+         "title": "Hotel zum goldenen Schiff",
+         "lat": "47.918607",
+         "lon": "13.800352",
+         "timestamp": ["1916-09-28"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.776666666666667, 47.59916666666667]
       },
       "properties": {
@@ -71,23 +88,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q72823539", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.04657, 47.79884]
-      },
-      "properties": {
-         "id": "pmb42349",
-         "title": "Hotel Schiff",
-         "lat": "47.79884",
-         "lon": "13.04657",
-         "timestamp": ["1916-09-28"],
-         "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       },
     {

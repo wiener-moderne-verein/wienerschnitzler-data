@@ -2331,23 +2331,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.23114, 48.012864]
-      },
-      "properties": {
-         "id": "pmb92195",
-         "title": "Kurpark [Baden bei Wien]",
-         "lat": "48.012864",
-         "lon": "16.23114",
-         "timestamp": ["1913-04-23", "1913-04-27"],
-         "importance": 2, 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.2507, 48.09033]
       },
       "properties": {
@@ -2547,6 +2530,23 @@
 
          "p_id": "#24292"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23114, 48.012864]
+      },
+      "properties": {
+         "id": "pmb92195",
+         "title": "Kurpark [Baden bei Wien]",
+         "lat": "48.012864",
+         "lon": "16.23114",
+         "timestamp": ["1913-04-23", "1913-04-27"],
+         "importance": 2, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -4018,6 +4018,25 @@
         "geonames": "https://sws.geonames.org/2927464/", 
         "abbr": "P.PPLA4", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5772282223266, 48.1414810674769]
+      },
+      "properties": {
+         "id": "pmb253618",
+         "title": "Palais Preysing",
+         "lat": "48.1414810674769",
+         "lon": "11.5772282223266",
+         "timestamp": ["1913-09-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Palais_Preysing", 
+        "wikidata": "http://www.wikidata.org/entity/Q872048", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -5673,13 +5692,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.834813, 46.501738]
+        "coordinates": [9.835247, 46.501438]
       },
       "properties": {
-         "id": "pmb254984",
+         "id": "pmb92186",
          "title": "Chantarella",
-         "lat": "46.501738",
-         "lon": "9.834813",
+         "lat": "46.501438",
+         "lon": "9.835247",
          "timestamp": ["1913-08-28"],
          "importance": 1, 
         "abbr": "Erhebung", 
@@ -5961,7 +5980,9 @@
          "lat": "48.15844",
          "lon": "11.566312",
          "timestamp": ["1913-09-07"],
-         "importance": 1
+         "importance": 1, 
+        "abbr": "H.STRT", 
+        "type": "Meerenge"
       }
       }, 
     {
@@ -6111,8 +6132,8 @@
          "title": "Weissenbach an der Triesting",
          "lat": "47.981666666667",
          "lon": "16.038055555556",
-         "timestamp": ["1913-10-01"],
-         "importance": 1, 
+         "timestamp": ["1913-10-01", "1913-10-02"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Weissenbach_an_der_Triesting", 
         "wikidata": "http://www.wikidata.org/entity/Q617047", 
         "geonames": "https://sws.geonames.org/7872847/", 

@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.340396, 48.195151], 
+            [16.377197811369, 48.200771836002], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,49 @@
         "name": "7. April 1920"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.340396, 48.195151]
+      },
+      "properties": {
+         "id": "pmb290397",
+         "title": "Deutsch-österreichischer Autorenverband",
+         "lat": "48.195151",
+         "lon": "16.340396",
+         "timestamp": ["1920-04-07"],
+         "importance": 1, 
+        "abbr": "Vereinslokal (K.VRN)", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377197811369, 48.200771836002]
+      },
+      "properties": {
+         "id": "pmb240",
+         "title": "Wiener Konzerthaus",
+         "lat": "48.200771836002",
+         "lon": "16.377197811369",
+         "timestamp": ["1920-04-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q695126", 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hugo Botstiber",
+
+         "p_id": "#10983"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

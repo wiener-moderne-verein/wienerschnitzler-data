@@ -11,7 +11,7 @@
             [14.10647, 47.52959], 
             [14.15, 47.55], 
             [14.23333, 47.56667], 
-            [14.34014, 47.66487], 
+            [14.3384, 47.6642], 
             [14.152803421020508, 47.69902038574219], 
             [14.32755, 47.72223], 
             [14.12228, 47.90558], 
@@ -82,18 +82,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.34014, 47.66487]
+        "coordinates": [14.3384, 47.6642]
       },
       "properties": {
-         "id": "pmb91794",
-         "title": "Spital am Pyhrn",
-         "lat": "47.66487",
-         "lon": "14.34014",
+         "id": "pmb290325",
+         "title": "Kollegiatstift Spital am Pyhrn",
+         "lat": "47.6642",
+         "lon": "14.3384",
          "timestamp": ["1928-06-14"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2764789/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Stift_Spital_am_Pyhrn", 
+        "wikidata": "http://www.wikidata.org/entity/Q1804389", 
+        "abbr": "Kloster (K.KLS)", 
+        "type": "Kloster"
       }
       },
     {
@@ -130,24 +131,6 @@
         "geonames": "https://sws.geonames.org/2768478/", 
         "abbr": "T.PASS", 
         "type": "Pass"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [14.10647, 47.52959]
-      },
-      "properties": {
-         "id": "pmb91818",
-         "title": "Bahnhof Stainach-Irdning",
-         "lat": "47.52959",
-         "lon": "14.10647",
-         "timestamp": ["1928-06-14"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2764707/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
       }
       },
     {
@@ -237,6 +220,24 @@
         "geonames": "https://sws.geonames.org/2772480/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.10647, 47.52959]
+      },
+      "properties": {
+         "id": "pmb91818",
+         "title": "Bahnhof Stainach-Irdning",
+         "lat": "47.52959",
+         "lon": "14.10647",
+         "timestamp": ["1928-06-14"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2764707/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }
   ]

@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [10.8792, 50.6664], 
-            [10.9199, 50.6912], 
             [10.88472, 50.65652], 
             [11.330605, 50.978968]
           ]
@@ -37,18 +36,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.9199, 50.6912]
+        "coordinates": [10.88472, 50.65652]
       },
       "properties": {
-         "id": "pmb2351",
-         "title": "Ilmenau",
-         "lat": "50.6912",
-         "lon": "10.9199",
+         "id": "pmb238189",
+         "title": "Berghotel Gabelbach",
+         "lat": "50.65652",
+         "lon": "10.88472",
          "timestamp": ["1906-08-16"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2896514/ http://www.geonames.org/2896514/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/Berghotel_Gabelbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q819780", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -67,25 +67,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q48118550", 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.88472, 50.65652]
-      },
-      "properties": {
-         "id": "pmb238189",
-         "title": "Berghotel Gabelbach",
-         "lat": "50.65652",
-         "lon": "10.88472",
-         "timestamp": ["1906-08-16"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berghotel_Gabelbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q819780", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       }
   ]

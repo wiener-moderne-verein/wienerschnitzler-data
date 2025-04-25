@@ -65,6 +65,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.63333, 48.2]
+      },
+      "properties": {
+         "id": "pmb49880",
+         "title": "St. Pölten",
+         "lat": "48.2",
+         "lon": "15.63333",
+         "timestamp": ["1914-07-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._P%C3%B6lten", 
+        "wikidata": "http://www.wikidata.org/entity/Q82500", 
+        "geonames": "https://sws.geonames.org/2766429/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.045769, 47.813139]
       },
       "properties": {
@@ -5204,8 +5224,8 @@
          "title": "Regensburg",
          "lat": "49.01513",
          "lon": "12.10161",
-         "timestamp": ["1914-01-22", "1914-01-23", "1914-01-24"],
-         "importance": 3, 
+         "timestamp": ["1914-01-22", "1914-01-23", "1914-01-24", "1914-01-25"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Regensburg", 
         "wikidata": "http://www.wikidata.org/entity/Q2978", 
         "geonames": "https://sws.geonames.org/2849483/", 
@@ -7198,6 +7218,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.355833333333, 47.9675]
+      },
+      "properties": {
+         "id": "pmb261240",
+         "title": "Berg",
+         "lat": "47.9675",
+         "lon": "11.355833333333",
+         "timestamp": ["1914-06-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berg_(Starnberger_See)", 
+        "wikidata": "http://www.wikidata.org/entity/Q127744", 
+        "geonames": "https://sws.geonames.org/6547450/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.36827, 47.65926]
       },
       "properties": {
@@ -7770,6 +7810,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.74762, 46.62934]
+      },
+      "properties": {
+         "id": "pmb90336",
+         "title": "Bergün",
+         "lat": "46.62934",
+         "lon": "9.74762",
+         "timestamp": ["1914-07-21"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2661556/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.8719444444444, 46.533611111111]
+      },
+      "properties": {
+         "id": "pmb202117",
+         "title": "Samedan",
+         "lat": "46.533611111111",
+         "lon": "9.8719444444444",
+         "timestamp": ["1914-07-21", "1914-07-26", "1914-07-27", "1914-07-31", "1914-08-01", "1914-08-03"],
+         "importance": 6, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Samedan", 
+        "wikidata": "http://www.wikidata.org/entity/Q69085", 
+        "geonames": "https://sws.geonames.org/2658846/ https://sws.geonames.org/7287048/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.85759, 46.512179]
       },
       "properties": {
@@ -7857,26 +7935,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.8719444444444, 46.533611111111]
-      },
-      "properties": {
-         "id": "pmb202117",
-         "title": "Samedan",
-         "lat": "46.533611111111",
-         "lon": "9.8719444444444",
-         "timestamp": ["1914-07-26", "1914-07-27", "1914-07-31", "1914-08-01", "1914-08-03"],
-         "importance": 5, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Samedan", 
-        "wikidata": "http://www.wikidata.org/entity/Q69085", 
-        "geonames": "https://sws.geonames.org/2658846/ https://sws.geonames.org/7287048/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [9.860647, 46.531598]
       },
       "properties": {
@@ -7885,7 +7943,9 @@
          "lat": "46.531598",
          "lon": "9.860647",
          "timestamp": ["1914-07-27"],
-         "importance": 1
+         "importance": 1, 
+        "abbr": "Alm", 
+        "type": "Alm"
       }
       }, 
     {
@@ -8056,7 +8116,7 @@
       },
       "properties": {
          "id": "pmb256949",
-         "title": "Grand Hotel Belvédère, Davos",
+         "title": "Grand Hotel Belvédère [Davos]",
          "lat": "46.800661",
          "lon": "9.826847",
          "timestamp": ["1914-08-08"],

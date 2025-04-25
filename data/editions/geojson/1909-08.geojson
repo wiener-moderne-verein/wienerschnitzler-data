@@ -277,8 +277,8 @@
          "title": "Breitenstein am Semmering",
          "lat": "47.65949",
          "lon": "15.82151",
-         "timestamp": ["1909-08-06"],
-         "importance": 1, 
+         "timestamp": ["1909-08-06", "1909-08-10"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Breitenstein_(Nieder%C3%B6sterreich)", 
         "wikidata": "http://www.wikidata.org/entity/Q124981", 
         "geonames": "https://sws.geonames.org/2781451/", 
@@ -732,11 +732,13 @@
       },
       "properties": {
          "id": "pmb92395",
-         "title": "Maximilianstraße",
+         "title": "Maximilianstraße [München]",
          "lat": "48.13844",
          "lon": "11.583636",
          "timestamp": ["1909-08-25"],
-         "importance": 1
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }, 
     {
@@ -834,6 +836,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [10.735277777778, 47.576666666667]
+      },
+      "properties": {
+         "id": "pmb169795",
+         "title": "Schwangau",
+         "lat": "47.576666666667",
+         "lon": "10.735277777778",
+         "timestamp": ["1909-08-30", "1909-08-31"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwangau", 
+        "wikidata": "http://www.wikidata.org/entity/Q256547", 
+        "geonames": "https://sws.geonames.org/6557229/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [10.74935, 47.55718]
       },
       "properties": {
@@ -848,26 +870,6 @@
         "geonames": "https://sws.geonames.org/2864198/", 
         "abbr": "S.CSTL", 
         "type": "Burg"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.735277777778, 47.576666666667]
-      },
-      "properties": {
-         "id": "pmb169795",
-         "title": "Schwangau",
-         "lat": "47.576666666667",
-         "lon": "10.735277777778",
-         "timestamp": ["1909-08-31"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schwangau", 
-        "wikidata": "http://www.wikidata.org/entity/Q256547", 
-        "geonames": "https://sws.geonames.org/6557229/", 
-        "abbr": "A.ADM4", 
-        "type": "Region"
       }
       }
   ]

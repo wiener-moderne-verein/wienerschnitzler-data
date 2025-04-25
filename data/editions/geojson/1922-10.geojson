@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1922-10-01", "1922-10-02", "1922-10-03", "1922-10-04", "1922-10-05", "1922-10-06", "1922-10-07", "1922-10-08", "1922-10-09", "1922-10-10", "1922-10-11", "1922-10-12", "1922-10-13", "1922-10-14", "1922-10-15", "1922-10-16", "1922-10-17", "1922-10-18", "1922-10-19", "1922-10-20", "1922-10-21", "1922-10-22", "1922-10-23"],
-         "importance": 23, 
+         "timestamp": ["1922-10-01", "1922-10-02", "1922-10-03", "1922-10-04", "1922-10-05", "1922-10-06", "1922-10-07", "1922-10-08", "1922-10-09", "1922-10-10", "1922-10-11", "1922-10-12", "1922-10-13", "1922-10-14", "1922-10-15", "1922-10-16", "1922-10-17", "1922-10-18", "1922-10-19", "1922-10-20", "1922-10-21", "1922-10-22", "1922-10-23", "1922-10-24"],
+         "importance": 24, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -300,6 +300,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [14.42729, 50.08687]
+      },
+      "properties": {
+         "id": "pmb118612",
+         "title": "Deutsches Haus [Prag]",
+         "lat": "50.08687",
+         "lon": "14.42729",
+         "timestamp": ["1922-10-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Deutsches_Haus_(Prag)", 
+        "wikidata": "http://www.wikidata.org/entity/Q18042645", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [14.397222, 50.089444]
       },
       "properties": {
@@ -362,25 +381,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.606667, 49.199167]
-      },
-      "properties": {
-         "id": "pmb437",
-         "title": "Deutsches Haus [Brünn]",
-         "lat": "49.199167",
-         "lon": "16.606667",
-         "timestamp": ["1922-10-25"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Deutsches_Haus_(Br%C3%BCnn)", 
-        "wikidata": "http://www.wikidata.org/entity/Q1205677", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [14.40449, 50.08774]
       },
       "properties": {
@@ -393,6 +393,26 @@
         "geonames": "https://sws.geonames.org/3071213/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.03227, 50.6607]
+      },
+      "properties": {
+         "id": "pmb49331",
+         "title": "Ústí nad Labem",
+         "lat": "50.6607",
+         "lon": "14.03227",
+         "timestamp": ["1922-10-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/%C3%9Ast%C3%AD_nad_Labem", 
+        "wikidata": "http://www.wikidata.org/entity/Q156974", 
+        "geonames": "https://sws.geonames.org/3063548/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -485,8 +505,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1922-10-01", "1922-10-02", "1922-10-03", "1922-10-04", "1922-10-05", "1922-10-06", "1922-10-07", "1922-10-08", "1922-10-09", "1922-10-10", "1922-10-11", "1922-10-12", "1922-10-13", "1922-10-14", "1922-10-15", "1922-10-16", "1922-10-17", "1922-10-18", "1922-10-19", "1922-10-20", "1922-10-21", "1922-10-22", "1922-10-23"],
-         "importance": 23, 
+         "timestamp": ["1922-10-01", "1922-10-02", "1922-10-03", "1922-10-04", "1922-10-05", "1922-10-06", "1922-10-07", "1922-10-08", "1922-10-09", "1922-10-10", "1922-10-11", "1922-10-12", "1922-10-13", "1922-10-14", "1922-10-15", "1922-10-16", "1922-10-17", "1922-10-18", "1922-10-19", "1922-10-20", "1922-10-21", "1922-10-22", "1922-10-23", "1922-10-24"],
+         "importance": 24, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -745,24 +765,6 @@
          "importance": 1, 
         "abbr": "Volksbildungsanstalt (K.VBA)", 
         "type": "Volksbildungsanstalt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.19159, 51.40574]
-      },
-      "properties": {
-         "id": "pmb90286",
-         "title": "Außig",
-         "lat": "51.40574",
-         "lon": "13.19159",
-         "timestamp": ["1922-10-31"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2953927/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
       }
       }, 
     {

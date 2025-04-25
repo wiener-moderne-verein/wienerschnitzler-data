@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.00187, 47.63236]
+            [12.87187, 47.622952396], 
+            [13.00757, 47.63496], 
+            [13.0177540433945, 47.6381197331148]
           ]
       },
       "properties": {
@@ -17,20 +19,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.00187, 47.63236]
+        "coordinates": [13.00757, 47.63496]
       },
       "properties": {
-         "id": "pmb797",
-         "title": "Berchtesgaden",
-         "lat": "47.63236",
-         "lon": "13.00187",
+         "id": "pmb289742",
+         "title": "Hotel Bellevue [Berchtesgaden]",
+         "lat": "47.63496",
+         "lon": "13.00757",
          "timestamp": ["1922-09-03"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q278221", 
-        "geonames": "https://sws.geonames.org/2950881/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0177540433945, 47.6381197331148]
+      },
+      "properties": {
+         "id": "pmb199208",
+         "title": "Salzbergwerk Berchtesgaden",
+         "lat": "47.6381197331148",
+         "lon": "13.0177540433945",
+         "timestamp": ["1922-09-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzbergwerk_Berchtesgaden", 
+        "wikidata": "http://www.wikidata.org/entity/Q2215893", 
+        "abbr": "Bergwerk", 
+        "type": "Bergwerk"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.87187, 47.622952396]
+      },
+      "properties": {
+         "id": "pmb92477",
+         "title": "Alte Reichenhaller Straße",
+         "lat": "47.622952396",
+         "lon": "12.87187",
+         "timestamp": ["1922-09-03"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }
   ]

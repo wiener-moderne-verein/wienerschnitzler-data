@@ -6,17 +6,34 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.04657, 47.79884], 
+            [13.86954, 48.09253], 
             [13.79343318939209, 47.91567611694336], 
+            [13.800352, 47.918607], 
             [14.291111, 48.290556], 
-            [14.287495, 48.307291], 
-            [13.86954, 48.09253]
+            [14.287495, 48.307291]
           ]
       },
       "properties": {
         "name": "29. September 1916"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.800352, 47.918607]
+      },
+      "properties": {
+         "id": "pmb290021",
+         "title": "Hotel zum goldenen Schiff",
+         "lat": "47.918607",
+         "lon": "13.800352",
+         "timestamp": ["1916-09-29"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -32,23 +49,6 @@
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.04657, 47.79884]
-      },
-      "properties": {
-         "id": "pmb42349",
-         "title": "Hotel Schiff",
-         "lat": "47.79884",
-         "lon": "13.04657",
-         "timestamp": ["1916-09-29"],
-         "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       },
     {

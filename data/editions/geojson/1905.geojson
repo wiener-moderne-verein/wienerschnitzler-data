@@ -364,8 +364,8 @@
          "title": "Brühl",
          "lat": "48.08509",
          "lon": "16.24801",
-         "timestamp": ["1905-04-09", "1905-05-13"],
-         "importance": 2, 
+         "timestamp": ["1905-04-09", "1905-05-13", "1905-06-05"],
+         "importance": 3, 
         "abbr": "Tal (N.TAL)", 
         "type": "Tal"
       }
@@ -954,8 +954,8 @@
          "title": "Hinterbrühl",
          "lat": "48.08611",
          "lon": "16.24809",
-         "timestamp": ["1905-04-09", "1905-05-09", "1905-05-23", "1905-06-19"],
-         "importance": 4, 
+         "timestamp": ["1905-04-09", "1905-05-09", "1905-05-13", "1905-05-23", "1905-06-05", "1905-06-19", "1905-10-29"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hinterbr%C3%BChl", 
         "wikidata": "http://www.wikidata.org/entity/Q664735", 
         "geonames": "https://sws.geonames.org/2776358/", 
@@ -1325,8 +1325,8 @@
          "title": "Payerbach",
          "lat": "47.69209",
          "lon": "15.8634",
-         "timestamp": ["1905-07-14"],
-         "importance": 1, 
+         "timestamp": ["1905-07-07", "1905-07-12", "1905-07-14", "1905-07-24", "1905-07-25"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
         "wikidata": "http://www.wikidata.org/entity/Q676675", 
         "geonames": "https://sws.geonames.org/2769182/", 
@@ -4183,23 +4183,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.23114, 48.012864]
-      },
-      "properties": {
-         "id": "pmb92195",
-         "title": "Kurpark [Baden bei Wien]",
-         "lat": "48.012864",
-         "lon": "16.23114",
-         "timestamp": ["1905-04-08"],
-         "importance": 1, 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.376308, 48.195468]
       },
       "properties": {
@@ -5168,6 +5151,26 @@
         "geonames": "https://sws.geonames.org/7117043/", 
         "abbr": "S.CSTL", 
         "type": "Burg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.03227, 50.6607]
+      },
+      "properties": {
+         "id": "pmb49331",
+         "title": "Ústí nad Labem",
+         "lat": "50.6607",
+         "lon": "14.03227",
+         "timestamp": ["1905-11-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/%C3%9Ast%C3%AD_nad_Labem", 
+        "wikidata": "http://www.wikidata.org/entity/Q156974", 
+        "geonames": "https://sws.geonames.org/3063548/", 
+        "abbr": "P.PPLA", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {

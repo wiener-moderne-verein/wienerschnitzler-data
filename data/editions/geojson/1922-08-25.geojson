@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.00187, 47.63236]
+            [13.00065, 47.62917], 
+            [12.9993833557427, 47.6262355086742], 
+            [13.00757, 47.63496]
           ]
       },
       "properties": {
@@ -17,20 +19,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.00187, 47.63236]
+        "coordinates": [13.00757, 47.63496]
       },
       "properties": {
-         "id": "pmb797",
-         "title": "Berchtesgaden",
-         "lat": "47.63236",
-         "lon": "13.00187",
+         "id": "pmb289742",
+         "title": "Hotel Bellevue [Berchtesgaden]",
+         "lat": "47.63496",
+         "lon": "13.00757",
          "timestamp": ["1922-08-25"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q278221", 
-        "geonames": "https://sws.geonames.org/2950881/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9993833557427, 47.6262355086742]
+      },
+      "properties": {
+         "id": "pmb289733",
+         "title": "Berchtesgaden Hauptbahnhof",
+         "lat": "47.6262355086742",
+         "lon": "12.9993833557427",
+         "timestamp": ["1922-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q818813", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00065, 47.62917]
+      },
+      "properties": {
+         "id": "pmb289828",
+         "title": "Hotel Wittelsbach [Berchtesgaden]",
+         "lat": "47.62917",
+         "lon": "13.00065",
+         "timestamp": ["1922-08-25"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

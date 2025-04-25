@@ -62,6 +62,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1922-09-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1922-09-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.00187, 47.63236]
       },
       "properties": {
@@ -76,6 +121,80 @@
         "geonames": "https://sws.geonames.org/2950881/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.97802, 47.55567]
+      },
+      "properties": {
+         "id": "pmb91054",
+         "title": "Königssee",
+         "lat": "47.55567",
+         "lon": "12.97802",
+         "timestamp": ["1922-09-09", "1922-09-10", "1922-09-11"],
+         "importance": 3, 
+        "geonames": "https://sws.geonames.org/2885777/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.98806, 47.51602]
+      },
+      "properties": {
+         "id": "pmb91379",
+         "title": "Obersee",
+         "lat": "47.51602",
+         "lon": "12.98806",
+         "timestamp": ["1922-09-11"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2859053/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.98704, 47.60055]
+      },
+      "properties": {
+         "id": "pmb91693",
+         "title": "Schönau am Königssee",
+         "lat": "47.60055",
+         "lon": "12.98704",
+         "timestamp": ["1922-09-09", "1922-09-10"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2837085/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1922-09-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -147,6 +266,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.0177540433945, 47.6381197331148]
+      },
+      "properties": {
+         "id": "pmb199208",
+         "title": "Salzbergwerk Berchtesgaden",
+         "lat": "47.6381197331148",
+         "lon": "13.0177540433945",
+         "timestamp": ["1922-09-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzbergwerk_Berchtesgaden", 
+        "wikidata": "http://www.wikidata.org/entity/Q2215893", 
+        "abbr": "Bergwerk", 
+        "type": "Bergwerk"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.341077, 48.23143]
       },
       "properties": {
@@ -164,6 +302,181 @@
          "p_name": "Julius von Gans-Ludassy",
 
          "p_id": "#11406"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33472, 48.2304]
+      },
+      "properties": {
+         "id": "pmb168940",
+         "title": "Edmund-Weiß-Gasse 7",
+         "lat": "48.2304",
+         "lon": "16.33472",
+         "timestamp": ["1922-09-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Eder",
+
+         "p_id": "#15651"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Elisabeth Steinrück",
+
+         "p_id": "#2315"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }, 
+         {
+
+         "p_name": "Heinrich Schnitzler",
+
+         "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }, 
+         {
+
+         "p_name": "Dora Erl",
+
+         "p_id": "#15983"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1922-09-20"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Siegmund Adler",
+
+         "p_id": "#13251"
+         }, 
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1922-09-19", "1922-09-20"],
+         "importance": 2, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Robert Kugel",
+
+         "p_id": "#19806"
+         }, 
+         {
+
+         "p_name": "Max Feilchenfeld",
+
+         "p_id": "#16127"
+         }, 
+         {
+
+         "p_name": "Moriz Neumann",
+
+         "p_id": "#21897"
+         }, 
+         {
+
+         "p_name": "Ignaz Fleminger",
+
+         "p_id": "#16342"
+         }, 
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1922-09-23", "1922-09-26", "1922-09-27", "1922-09-28", "1922-09-29", "1922-09-30"],
+         "importance": 6, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
          }]
       }
       }, 
@@ -256,6 +569,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33691, 48.23233]
+      },
+      "properties": {
+         "id": "pmb235127",
+         "title": "Sternwartestraße 62–64",
+         "lat": "48.23233",
+         "lon": "16.33691",
+         "timestamp": ["1922-09-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alice Schmutzer",
+
+         "p_id": "#9734"
+         }, 
+         {
+
+         "p_name": "Ferdinand Schmutzer",
+
+         "p_id": "#12689"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -317,6 +660,86 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366548, 48.21306]
+      },
+      "properties": {
+         "id": "pmb256702",
+         "title": "Österreichische Länderbank",
+         "lat": "48.21306",
+         "lon": "16.366548",
+         "timestamp": ["1922-09-19", "1922-09-27"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
+        "wikidata": "http://www.wikidata.org/entity/Q26911630", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Max Leitner",
+
+         "p_id": "#20270"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36171, 48.2116]
+      },
+      "properties": {
+         "id": "pmb235784",
+         "title": "Oppolzergasse 6",
+         "lat": "48.2116",
+         "lon": "16.36171",
+         "timestamp": ["1922-09-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1922-09-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.366551, 48.206783]
       },
       "properties": {
@@ -329,6 +752,100 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Redoutensäle", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338993, 48.231689]
+      },
+      "properties": {
+         "id": "pmb245475",
+         "title": "Sternwartestraße 56",
+         "lat": "48.231689",
+         "lon": "16.338993",
+         "timestamp": ["1922-09-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Siegfried von Strakosch-Feldringen",
+
+         "p_id": "#25563"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372467, 48.202986]
+      },
+      "properties": {
+         "id": "pmb264287",
+         "title": "Internationale Konzertdirektion »Ika«",
+         "lat": "48.202986",
+         "lon": "16.372467",
+         "timestamp": ["1922-09-19", "1922-09-30"],
+         "importance": 2, 
+        "abbr": "Konzertdirektion", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9993833557427, 47.6262355086742]
+      },
+      "properties": {
+         "id": "pmb289733",
+         "title": "Berchtesgaden Hauptbahnhof",
+         "lat": "47.6262355086742",
+         "lon": "12.9993833557427",
+         "timestamp": ["1922-09-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q818813", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00757, 47.63496]
+      },
+      "properties": {
+         "id": "pmb289742",
+         "title": "Hotel Bellevue [Berchtesgaden]",
+         "lat": "47.63496",
+         "lon": "13.00757",
+         "timestamp": ["1922-09-01", "1922-09-02", "1922-09-03", "1922-09-04", "1922-09-05", "1922-09-06", "1922-09-07", "1922-09-08", "1922-09-09", "1922-09-10", "1922-09-11", "1922-09-12", "1922-09-13", "1922-09-14", "1922-09-15"],
+         "importance": 15, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.87187, 47.622952396]
+      },
+      "properties": {
+         "id": "pmb92477",
+         "title": "Alte Reichenhaller Straße",
+         "lat": "47.622952396",
+         "lon": "12.87187",
+         "timestamp": ["1922-09-03"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }, 
     {
@@ -349,6 +866,58 @@
         "geonames": "https://sws.geonames.org/11608623/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.99597, 47.58815]
+      },
+      "properties": {
+         "id": "pmb289824",
+         "title": "Malerwinkel",
+         "lat": "47.58815",
+         "lon": "12.99597",
+         "timestamp": ["1922-09-10"],
+         "importance": 1, 
+        "abbr": "Aussichtspunkt", 
+        "type": "Aussichtspunkt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00065, 47.62917]
+      },
+      "properties": {
+         "id": "pmb289828",
+         "title": "Hotel Wittelsbach [Berchtesgaden]",
+         "lat": "47.62917",
+         "lon": "13.00065",
+         "timestamp": ["1922-09-01", "1922-09-11", "1922-09-14"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.85313, 47.60661]
+      },
+      "properties": {
+         "id": "pmb90883",
+         "title": "Hintersee",
+         "lat": "47.60661",
+         "lon": "12.85313",
+         "timestamp": ["1922-09-02"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2903980/", 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       }, 
     {
@@ -382,7 +951,9 @@
          "timestamp": ["1922-09-02"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Ilsank", 
-        "wikidata": "http://www.wikidata.org/entity/Q1659070"
+        "wikidata": "http://www.wikidata.org/entity/Q1659070", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -409,18 +980,53 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.85313, 47.60661]
+        "coordinates": [12.992391, 47.635708]
       },
       "properties": {
-         "id": "pmb90883",
-         "title": "Hintersee",
-         "lat": "47.60661",
-         "lon": "12.85313",
-         "timestamp": ["1922-09-02"],
+         "id": "pmb92323",
+         "title": "Kälberstein",
+         "lat": "47.635708",
+         "lon": "12.992391",
+         "timestamp": ["1922-09-01"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2903980/", 
-        "abbr": "H.LK", 
-        "type": "See"
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9753, 47.5226]
+      },
+      "properties": {
+         "id": "pmb290129",
+         "title": "Saletalm",
+         "lat": "47.5226",
+         "lon": "12.9753",
+         "timestamp": ["1922-09-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Saletalm", 
+        "wikidata": "http://www.wikidata.org/entity/Q1684951", 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36426, 48.1996]
+      },
+      "properties": {
+         "id": "pmb290150",
+         "title": "Karczag-Verlag",
+         "lat": "48.1996",
+         "lon": "16.36426",
+         "timestamp": ["1922-09-20"],
+         "importance": 1, 
+        "abbr": "Verlag", 
+        "type": ""
       }
       }
   ]

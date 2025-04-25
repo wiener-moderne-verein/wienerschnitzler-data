@@ -7,7 +7,6 @@
         "type": "LineString", 
         "coordinates": [
             [13.285098, 52.49074], 
-            [13.26586, 52.48338], 
             [13.374444, 52.51], 
             [13.382222, 52.524444]
           ]
@@ -39,50 +38,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.26586, 52.48338]
-      },
-      "properties": {
-         "id": "pmb129",
-         "title": "Grunewald",
-         "lat": "52.48338",
-         "lon": "13.26586",
-         "timestamp": ["1930-01-05"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berlin-Grunewald", 
-        "wikidata": "http://www.wikidata.org/entity/Q2874431", 
-        "geonames": "https://sws.geonames.org/2914210/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.382222, 52.524444]
-      },
-      "properties": {
-         "id": "pmb3",
-         "title": "Deutsches Theater Berlin",
-         "lat": "52.524444",
-         "lon": "13.382222",
-         "timestamp": ["1930-01-05"],
-         "importance": 1, 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Leopoldine Konstantin",
-
-         "p_id": "#8288"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.285098, 52.49074]
       },
       "properties": {
@@ -106,6 +61,30 @@
          "p_name": "Dora Michaelis",
 
          "p_id": "#2774"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.382222, 52.524444]
+      },
+      "properties": {
+         "id": "pmb3",
+         "title": "Deutsches Theater Berlin",
+         "lat": "52.524444",
+         "lon": "13.382222",
+         "timestamp": ["1930-01-05"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Leopoldine Konstantin",
+
+         "p_id": "#8288"
          }]
       }
       }

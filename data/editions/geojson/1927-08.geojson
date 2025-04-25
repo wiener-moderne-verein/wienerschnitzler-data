@@ -715,7 +715,9 @@
          "lat": "46.242323",
          "lon": "10.800095",
          "timestamp": ["1927-08-14"],
-         "importance": 1
+         "importance": 1, 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       }, 
     {
@@ -748,6 +750,24 @@
          "lon": "11.439133",
          "timestamp": ["1927-08-17"],
          "importance": 1
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.439152, 46.532587]
+      },
+      "properties": {
+         "id": "pmb290305",
+         "title": "Bahnhof Rappersbichl",
+         "lat": "46.532587",
+         "lon": "11.439152",
+         "timestamp": ["1927-08-17"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133999723", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -857,7 +877,9 @@
          "lat": "45.62396",
          "lon": "10.570481",
          "timestamp": ["1927-08-28"],
-         "importance": 1
+         "importance": 1, 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }
   ]

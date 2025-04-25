@@ -52,11 +52,29 @@
          "title": "Königssee",
          "lat": "47.55567",
          "lon": "12.97802",
-         "timestamp": ["1922-08-22"],
-         "importance": 1, 
+         "timestamp": ["1922-08-13", "1922-08-21", "1922-08-29"],
+         "importance": 3, 
         "geonames": "https://sws.geonames.org/2885777/", 
         "abbr": "H.LK", 
         "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.98704, 47.60055]
+      },
+      "properties": {
+         "id": "pmb91693",
+         "title": "Schönau am Königssee",
+         "lat": "47.60055",
+         "lon": "12.98704",
+         "timestamp": ["1922-08-21", "1922-08-28"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2837085/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -174,6 +192,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.04806, 47.63293]
+      },
+      "properties": {
+         "id": "pmb91375",
+         "title": "Obersalzberg",
+         "lat": "47.63293",
+         "lon": "13.04806",
+         "timestamp": ["1922-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Obersalzberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q284309", 
+        "geonames": "https://sws.geonames.org/2859203/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.29326, 47.94602]
       },
       "properties": {
@@ -216,8 +254,8 @@
          "title": "Possenhofen",
          "lat": "47.95947",
          "lon": "11.31038",
-         "timestamp": ["1922-08-05", "1922-08-07"],
-         "importance": 2, 
+         "timestamp": ["1922-08-01", "1922-08-02", "1922-08-03", "1922-08-04", "1922-08-05", "1922-08-06", "1922-08-07"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Possenhofen", 
         "wikidata": "http://www.wikidata.org/entity/Q559986", 
         "geonames": "https://sws.geonames.org/2852520/", 
@@ -407,8 +445,8 @@
          "title": "Berchtesgaden Hauptbahnhof",
          "lat": "47.6262355086742",
          "lon": "12.9993833557427",
-         "timestamp": ["1922-08-10", "1922-08-12"],
-         "importance": 2, 
+         "timestamp": ["1922-08-10", "1922-08-12", "1922-08-14", "1922-08-25", "1922-08-26", "1922-08-27", "1922-08-30"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q818813", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -426,8 +464,25 @@
          "title": "Haus der Berge",
          "lat": "47.63156",
          "lon": "13.00275",
-         "timestamp": ["1922-08-10", "1922-08-11", "1922-08-12"],
-         "importance": 3, 
+         "timestamp": ["1922-08-10", "1922-08-11", "1922-08-12", "1922-08-13"],
+         "importance": 4, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00757, 47.63496]
+      },
+      "properties": {
+         "id": "pmb289742",
+         "title": "Hotel Bellevue [Berchtesgaden]",
+         "lat": "47.63496",
+         "lon": "13.00757",
+         "timestamp": ["1922-08-10", "1922-08-11", "1922-08-12", "1922-08-13", "1922-08-14", "1922-08-15", "1922-08-16", "1922-08-17", "1922-08-18", "1922-08-19", "1922-08-20", "1922-08-21", "1922-08-22", "1922-08-23", "1922-08-24", "1922-08-25", "1922-08-26", "1922-08-27", "1922-08-28", "1922-08-29", "1922-08-30", "1922-08-31"],
+         "importance": 22, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
       }
@@ -447,6 +502,26 @@
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.90065, 47.60703]
+      },
+      "properties": {
+         "id": "pmb54764",
+         "title": "Ramsau bei Berchtesgaden",
+         "lat": "47.60703",
+         "lon": "12.90065",
+         "timestamp": ["1922-08-11", "1922-08-18"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ramsau_bei_Berchtesgaden", 
+        "wikidata": "http://www.wikidata.org/entity/Q253472", 
+        "geonames": "https://sws.geonames.org/11608623/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -479,6 +554,91 @@
          "lon": "13.00992",
          "timestamp": ["1922-08-12"],
          "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.99597, 47.58815]
+      },
+      "properties": {
+         "id": "pmb289824",
+         "title": "Malerwinkel",
+         "lat": "47.58815",
+         "lon": "12.99597",
+         "timestamp": ["1922-08-13"],
+         "importance": 1, 
+        "abbr": "Aussichtspunkt", 
+        "type": "Aussichtspunkt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00065, 47.62917]
+      },
+      "properties": {
+         "id": "pmb289828",
+         "title": "Hotel Wittelsbach [Berchtesgaden]",
+         "lat": "47.62917",
+         "lon": "13.00065",
+         "timestamp": ["1922-08-13", "1922-08-21", "1922-08-25", "1922-08-31"],
+         "importance": 4, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.98946, 47.60493]
+      },
+      "properties": {
+         "id": "pmb289835",
+         "title": "Königsseer Fußweg",
+         "lat": "47.60493",
+         "lon": "12.98946",
+         "timestamp": ["1922-08-13"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.034, 47.60269]
+      },
+      "properties": {
+         "id": "pmb92512",
+         "title": "Scharitzkehlalm",
+         "lat": "47.60269",
+         "lon": "13.034",
+         "timestamp": ["1922-08-14"],
+         "importance": 1, 
+        "abbr": "Alm", 
+        "type": "Alm"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0012152, 47.6306026]
+      },
+      "properties": {
+         "id": "pmb263504",
+         "title": "Hotel »Deutsches Haus«",
+         "lat": "47.6306026",
+         "lon": "13.0012152",
+         "timestamp": ["1922-08-15", "1922-08-20", "1922-08-21"],
+         "importance": 3, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
       }
@@ -523,20 +683,126 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.90065, 47.60703]
+        "coordinates": [13.01061, 47.64743]
       },
       "properties": {
-         "id": "pmb54764",
-         "title": "Ramsau bei Berchtesgaden",
-         "lat": "47.60703",
-         "lon": "12.90065",
+         "id": "pmb289847",
+         "title": "Marxenhöhe",
+         "lat": "47.64743",
+         "lon": "13.01061",
+         "timestamp": ["1922-08-17"],
+         "importance": 1, 
+        "abbr": "Aussichtspunkt", 
+        "type": "Aussichtspunkt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.01863, 47.65838]
+      },
+      "properties": {
+         "id": "pmb91044",
+         "title": "Kneifelsspitze",
+         "lat": "47.65838",
+         "lon": "13.01863",
+         "timestamp": ["1922-08-17"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2887212/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.98105, 47.63468]
+      },
+      "properties": {
+         "id": "pmb289851",
+         "title": "Gasthof Schönfeldspitze",
+         "lat": "47.63468",
+         "lon": "12.98105",
+         "timestamp": ["1922-08-17"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.85313, 47.60661]
+      },
+      "properties": {
+         "id": "pmb90883",
+         "title": "Hintersee",
+         "lat": "47.60661",
+         "lon": "12.85313",
          "timestamp": ["1922-08-18"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Ramsau_bei_Berchtesgaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q253472", 
-        "geonames": "https://sws.geonames.org/11608623/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "geonames": "https://sws.geonames.org/2903980/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.88322, 47.60811]
+      },
+      "properties": {
+         "id": "pmb289857",
+         "title": "Gletscherquellen [Ramsau bei Berchtesgaden]",
+         "lat": "47.60811",
+         "lon": "12.88322",
+         "timestamp": ["1922-08-18"],
+         "importance": 1, 
+        "abbr": "Quelle", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.92058, 47.5958]
+      },
+      "properties": {
+         "id": "pmb92083",
+         "title": "Wimbachklamm",
+         "lat": "47.5958",
+         "lon": "12.92058",
+         "timestamp": ["1922-08-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wimbachklamm", 
+        "wikidata": "http://www.wikidata.org/entity/Q2582709", 
+        "geonames": "https://sws.geonames.org/2808386/", 
+        "abbr": "H.RVN", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.9192, 47.5956]
+      },
+      "properties": {
+         "id": "pmb289862",
+         "title": "Wimbachtal",
+         "lat": "47.5956",
+         "lon": "12.9192",
+         "timestamp": ["1922-08-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wimbachtal", 
+        "wikidata": "http://www.wikidata.org/entity/Q1695316", 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
       }
       }, 
     {
@@ -570,7 +836,9 @@
          "timestamp": ["1922-08-20"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Ilsank", 
-        "wikidata": "http://www.wikidata.org/entity/Q1659070"
+        "wikidata": "http://www.wikidata.org/entity/Q1659070", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -632,17 +900,281 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.0012152, 47.6306026]
+        "coordinates": [13.0, 47.65]
       },
       "properties": {
-         "id": "pmb263504",
-         "title": "Hotel »Deutsches Haus«",
-         "lat": "47.6306026",
-         "lon": "13.0012152",
-         "timestamp": ["1922-08-20"],
+         "id": "pmb90701",
+         "title": "Maria Gern",
+         "lat": "47.65",
+         "lon": "13.0",
+         "timestamp": ["1922-08-22"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2873681/", 
+        "abbr": "A.ADMD", 
+        "type": "Teil eines Landes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0183, 47.6702]
+      },
+      "properties": {
+         "id": "pmb289878",
+         "title": "Almbachklamm",
+         "lat": "47.6702",
+         "lon": "13.0183",
+         "timestamp": ["1922-08-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Almbachklamm", 
+        "wikidata": "http://www.wikidata.org/entity/Q2649636", 
+        "abbr": "Schlucht", 
+        "type": "Schlucht"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.98396, 47.64427]
+      },
+      "properties": {
+         "id": "pmb289883",
+         "title": "Aschauer Weiher",
+         "lat": "47.64427",
+         "lon": "12.98396",
+         "timestamp": ["1922-08-23", "1922-08-29"],
+         "importance": 2, 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00284, 47.636714]
+      },
+      "properties": {
+         "id": "pmb92379",
+         "title": "Lockstein",
+         "lat": "47.636714",
+         "lon": "13.00284",
+         "timestamp": ["1922-08-24", "1922-08-26", "1922-08-28"],
+         "importance": 3, 
+        "abbr": "Berg (N.BRG)", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0022, 47.63248]
+      },
+      "properties": {
+         "id": "pmb289894",
+         "title": "Hotel Edelweiss [Berchtesgaden]",
+         "lat": "47.63248",
+         "lon": "13.0022",
+         "timestamp": ["1922-08-24"],
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.998872, 47.635768]
+      },
+      "properties": {
+         "id": "pmb92208",
+         "title": "Doktorberg",
+         "lat": "47.635768",
+         "lon": "12.998872",
+         "timestamp": ["1922-08-26", "1922-08-28"],
+         "importance": 2, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.98724, 47.62665]
+      },
+      "properties": {
+         "id": "pmb289908",
+         "title": "Gmundbrücke",
+         "lat": "47.62665",
+         "lon": "12.98724",
+         "timestamp": ["1922-08-26"],
+         "importance": 1, 
+        "abbr": "Brücke (K.BRK)", 
+        "type": "Brücke"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00241, 47.63304]
+      },
+      "properties": {
+         "id": "pmb289913",
+         "title": "Gasthof Neuhaus",
+         "lat": "47.63304",
+         "lon": "13.00241",
+         "timestamp": ["1922-08-26"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q41274139", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.96387, 47.63476]
+      },
+      "properties": {
+         "id": "pmb289921",
+         "title": "Böcklweiher",
+         "lat": "47.63476",
+         "lon": "12.96387",
+         "timestamp": ["1922-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6cklweiher", 
+        "wikidata": "http://www.wikidata.org/entity/Q22691081", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.977176, 47.631362]
+      },
+      "properties": {
+         "id": "pmb92570",
+         "title": "Tristramweg",
+         "lat": "47.631362",
+         "lon": "12.977176",
+         "timestamp": ["1922-08-27"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.001268, 47.624895]
+      },
+      "properties": {
+         "id": "pmb92342",
+         "title": "Königsseestraße",
+         "lat": "47.624895",
+         "lon": "13.001268",
+         "timestamp": ["1922-08-28"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00077, 47.63024]
+      },
+      "properties": {
+         "id": "pmb289886",
+         "title": "F. C. Hotel Watzmann",
+         "lat": "47.63024",
+         "lon": "13.00077",
+         "timestamp": ["1922-08-28"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.7732, 49.08664]
+      },
+      "properties": {
+         "id": "pmb91979",
+         "title": "Unterstein",
+         "lat": "49.08664",
+         "lon": "12.7732",
+         "timestamp": ["1922-08-29"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2818637/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0589, 47.6516]
+      },
+      "properties": {
+         "id": "pmb289955",
+         "title": "Au [Berchtesgaden]",
+         "lat": "47.6516",
+         "lon": "13.0589",
+         "timestamp": ["1922-08-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Au_(Berchtesgaden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q758365", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.992391, 47.635708]
+      },
+      "properties": {
+         "id": "pmb92323",
+         "title": "Kälberstein",
+         "lat": "47.635708",
+         "lon": "12.992391",
+         "timestamp": ["1922-08-31"],
+         "importance": 1, 
+        "abbr": "Erhebung", 
+        "type": "Erhebung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.99241, 47.63581]
+      },
+      "properties": {
+         "id": "pmb289962",
+         "title": "Kälbersteinkapelle",
+         "lat": "47.63581",
+         "lon": "12.99241",
+         "timestamp": ["1922-08-31"],
+         "importance": 1, 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }
   ]

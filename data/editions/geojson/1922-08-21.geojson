@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.00187, 47.63236]
+            [12.98704, 47.60055], 
+            [12.97802, 47.55567], 
+            [13.00757, 47.63496], 
+            [13.0012152, 47.6306026], 
+            [13.00065, 47.62917]
           ]
       },
       "properties": {
@@ -17,20 +21,87 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.00187, 47.63236]
+        "coordinates": [13.00757, 47.63496]
       },
       "properties": {
-         "id": "pmb797",
-         "title": "Berchtesgaden",
-         "lat": "47.63236",
-         "lon": "13.00187",
+         "id": "pmb289742",
+         "title": "Hotel Bellevue [Berchtesgaden]",
+         "lat": "47.63496",
+         "lon": "13.00757",
          "timestamp": ["1922-08-21"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Berchtesgaden", 
-        "wikidata": "http://www.wikidata.org/entity/Q278221", 
-        "geonames": "https://sws.geonames.org/2950881/", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0012152, 47.6306026]
+      },
+      "properties": {
+         "id": "pmb263504",
+         "title": "Hotel »Deutsches Haus«",
+         "lat": "47.6306026",
+         "lon": "13.0012152",
+         "timestamp": ["1922-08-21"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.00065, 47.62917]
+      },
+      "properties": {
+         "id": "pmb289828",
+         "title": "Hotel Wittelsbach [Berchtesgaden]",
+         "lat": "47.62917",
+         "lon": "13.00065",
+         "timestamp": ["1922-08-21"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.98704, 47.60055]
+      },
+      "properties": {
+         "id": "pmb91693",
+         "title": "Schönau am Königssee",
+         "lat": "47.60055",
+         "lon": "12.98704",
+         "timestamp": ["1922-08-21"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2837085/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.97802, 47.55567]
+      },
+      "properties": {
+         "id": "pmb91054",
+         "title": "Königssee",
+         "lat": "47.55567",
+         "lon": "12.97802",
+         "timestamp": ["1922-08-21"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2885777/", 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       }
   ]

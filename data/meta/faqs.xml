@@ -54,20 +54,21 @@
               <p>Als biografisches Projekt ordnet sich unser Vorhaben in die Ahnenreihe gedruckter
                 germanistischer Großprojekte wie <hi rend="italics">Goethes Leben von Tag zu
                   Tag</hi> (hg. von Robert Steiger) ein. Auch beispielsweise die <hi rend="italics"
-                    >Hugo von Hofmannsthal-Brief-Chronik</hi> (hg. von Martin E. Schmid) und die <hi rend="italics"
-                      >Theodor Fontane Chronik</hi> (hg. von Roland Berbig) verzeichnet
-                die wichtigsten Aufenthaltsorte. In den digitalen Raum hat es bislang nur die letztgenannte
-                geschafft: <ref
-                    target="https://www.fontanearchiv.de/fontane-chronik">https://www.fontanearchiv.de/fontane-chronik</ref> (hg. vom Theodor-Fontane-Archiv). Bislang fehlt hier jedoch ein Ortsregister. Hervorzuheben ist ferner die <hi
-                  rend="italics"><ref
+                  >Hugo von Hofmannsthal-Brief-Chronik</hi> (hg. von Martin E. Schmid) und die <hi
+                  rend="italics">Theodor Fontane Chronik</hi> (hg. von Roland Berbig) verzeichnet
+                die wichtigsten Aufenthaltsorte. In den digitalen Raum hat es bislang nur die
+                letztgenannte geschafft: <ref target="https://www.fontanearchiv.de/fontane-chronik"
+                  >https://www.fontanearchiv.de/fontane-chronik</ref> (hg. vom
+                Theodor-Fontane-Archiv). Bislang fehlt hier jedoch ein Ortsregister. Hervorzuheben
+                ist ferner die <hi rend="italics"><ref
                     target="https://edition-humboldt.de/chronologie/index.xql?l=de">Alexander von
-                    Humboldt-Chronologie</ref></hi> (hg. von Ingo Schwarz), die
-                gegenwärtig 1658 Einträge (März 2025) verzeichnet. Diese Aufzeichnungen sind
-                vergleichsweise klein, wenn man sie mit den über 4700 Orten und über 45.400
-                Aufenthalten Schnitzlers vergleicht, die wir zusammengetragen haben. Uns
-                interessiert also neben dem spezifischen biografischen Forschungsinteresse an
-                Schnitzler auch die Möglichkeit, möglichst freie und standardisierte Daten zur
-                Verfügung zu stellen, die mit anderen Projekten vernetzt werden können.</p>
+                    Humboldt-Chronologie</ref></hi> (hg. von Ingo Schwarz), die gegenwärtig 1658
+                Einträge (März 2025) verzeichnet. Diese Aufzeichnungen sind vergleichsweise klein,
+                wenn man sie mit den über 4700 Orten und über 45.400 Aufenthalten Schnitzlers
+                vergleicht, die wir zusammengetragen haben. Uns interessiert also neben dem
+                spezifischen biografischen Forschungsinteresse an Schnitzler auch die Möglichkeit,
+                möglichst freie und standardisierte Daten zur Verfügung zu stellen, die mit anderen
+                Projekten vernetzt werden können.</p>
             </item>
             <item>
               <q>Wie verhalten sich die Daten zum Tagebuch?</q>
@@ -359,14 +360,46 @@
                 zu Klosterneuburg gehörende Katastralgemeinde) und in Klosterneuburg war, und dann
                 der Punkt nur bei Weidling gesetzt wird.</p>
             </item>
-            <item><q>Wie berechnet Ihr die Zahl der Aufenthaltsorte?</q>
-            <p>Die Ortsangaben sind in unseren Daten verschachtelt. Beispielsweise: Burgtheater liegt im 1. Wiener Gemeindebezirk liegt in Wien liegt in Österreich. Hier
-              könnte man vier Orte zählen. Oder zumindest zwei, wenn er neben dem Besuch im Burgtheater auch noch Besorgungen in der Inneren Stadt gemacht hat. Das wäre möglich, 
-              wird von uns aber anders gehandhabt. Für unsere
-              Statistik zählen wir den Ort nur einfach.  Wir zählen nur jene Orte eines Tages, die keinen genauere Ortsangabe enthalten. Das sind derzeit über 45.400 Orte. Bei 
-              der Anzahl der Orte zählen wir alle erfassten Orte – auch jene unter 150, die wir nicht exakt lokalisieren können. Insgesamt sind das derzeit über 4700. Vergrößert 
-              man die Karte des <ref target="listplace.html">Verzeichnisses der Orte</ref> und des <ref target="listplace-missing.html">Verzeichnisses der fehlenden Orte</ref>, sind
-              die einzelnen Werte der beiden Kategorien ermittelbar.</p>
+            <item>
+              <q>Wie berechnet Ihr die Zahl der Aufenthalte und Aufenthaltsorte?</q>
+              <p>Unsere Methode zur Zählung der Aufenthalte basiert auf der hierarchischen Struktur
+                der Ortsangaben in unserer Datenerfassung und einer Betrachtung auf Tagesbasis.</p>
+              <p>Ein Beispiel zur Verdeutlichung: Besucht Arthur Schnitzler an einem Tag das
+                Burgtheater, so ist dieser Ort Teil einer Hierarchie: Das Burgtheater (1) befindet
+                sich im 1. Wiener Gemeindebezirk (2), dieser wiederum in Wien (3) und Wien in
+                Österreich (4). Man könnte hier theoretisch vier Orte zählen. Selbst wenn Schnitzler
+                am selben Tag zusätzlich unspezifische Erledigungen im 1. Bezirk gemacht hätte,
+                könnte man mindestens zwei Orte (Burgtheater und 1. Bezirk) annehmen. Wir wenden
+                jedoch eine spezifische Zählweise an: Für unsere Statistik berücksichtigen wir pro
+                Eintrag nur den detailliertesten genannten Ort – den sogenannten »genauesten Punkt«.
+                Dies ist der Ort, der in der Hierarchie am tiefsten liegt und für den im jeweiligen
+                Eintrag keine untergeordneten Orte mehr spezifiziert sind. Im Beispiel zählen wir
+                also nur das Burgtheater.</p>
+              <p>Nach dieser Methode kommen wir auf die Zahl von über 45.400 erfassten
+                  Aufenthalten – Anwesenheitsnachweisen an
+                spezifischen Orten an bestimmten Tagen. (Technisch ausgedrückt: In der XML-Datei
+                <hi rend="italics">wienerschnitzler_complete_nested.xml</hi> nutzen wir dafür den XPath-Ausdruck:
+                »count(//place[not(listPlace)])«.)</p>
+              <p>Eine alternative Zählweise, bei der zum Beispiel ein fünftägiger Aufenthalt in
+                einem Hotel als einzelner Aufenthalt gewertet würde, ist zwar denkbar, lässt sich aber
+                mit den vorhandenen Daten nicht verlässlich umsetzen. Wir fassen auch
+                nicht automatisch Aufenthalte am selben Ort an aufeinanderfolgenden Tagen zusammen.
+                Wenn Schnitzler beispielsweise an zwei Abenden hintereinander im Burgtheater war,
+                war er dort nicht durchgehend anwesend, weshalb eine Zusammenführung irreführend
+                wäre. Eine Annäherung an eine solche Zählung ist jedoch möglich, da bei der Datenerfassung für gewöhnlich auch
+                Zeiträume (z.B. mehrtägige Reisen) als einzelner Eintrag erfasst wurden. Dann würden wir
+                von etwa 30.000 
+                  Aufenthalten sprechen (<ref
+                  target="https://pmb.acdh.oeaw.ac.at/apis/relations/person-place/?source=2121"
+                  >siehe Erfassung in der PMB</ref>).</p>
+              <p>Für die Anzahl der unterschiedlichen Aufenthaltsorte hingegen
+                zählen wir jeden einzelnen Ort, der in den Daten vorkommt. Dazu gehören auch jene
+                knapp 150 Orte, die wir bisher nicht exakt geografisch lokalisieren konnten, für die
+                aber dennoch Aufenthalte Schnitzlers dokumentiert sind. Insgesamt ergibt dies
+                derzeit über 4.700 verschiedene Orte. Die exakten Zahlen für
+                lokalisierte und nicht lokalisierte Orte können Sie den jeweiligen Karten im <ref target="listplace.html"
+                  >Verzeichnis der Orte</ref> sowie im <ref target="listplace-missing.html"
+                  >Verzeichnis der fehlenden Orte</ref> entnehmen.</p>
             </item>
             <item><q>Wie verhalten sich die Daten zu schnitzler-orte?</q>
               <p>Für <ref target="https://schnitzler-orte.acdh.oeaw.ac.at">schnitzler-orte</ref>

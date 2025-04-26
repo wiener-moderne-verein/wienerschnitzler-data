@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.7436, 49.9711], 
             [12.70919, 49.97665], 
             [12.70357, 49.977411]
           ]
@@ -46,6 +47,24 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.7436, 49.9711]
+      },
+      "properties": {
+         "id": "pmb290601",
+         "title": "Zádub",
+         "lat": "49.9711",
+         "lon": "12.7436",
+         "timestamp": ["1930-08-28"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q4025068", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       }
   ]

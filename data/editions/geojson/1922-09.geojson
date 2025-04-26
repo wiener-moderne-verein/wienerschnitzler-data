@@ -170,8 +170,8 @@
          "title": "Schönau am Königssee",
          "lat": "47.60055",
          "lon": "12.98704",
-         "timestamp": ["1922-09-09", "1922-09-10"],
-         "importance": 2, 
+         "timestamp": ["1922-09-09", "1922-09-10", "1922-09-11"],
+         "importance": 3, 
         "geonames": "https://sws.geonames.org/2837085/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -859,8 +859,8 @@
          "title": "Ramsau bei Berchtesgaden",
          "lat": "47.60703",
          "lon": "12.90065",
-         "timestamp": ["1922-09-02"],
-         "importance": 1, 
+         "timestamp": ["1922-09-02", "1922-09-03"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Ramsau_bei_Berchtesgaden", 
         "wikidata": "http://www.wikidata.org/entity/Q253472", 
         "geonames": "https://sws.geonames.org/11608623/", 
@@ -900,6 +900,26 @@
          "importance": 3, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.963888888889, 47.649444444444]
+      },
+      "properties": {
+         "id": "pmb263493",
+         "title": "Bischofswiesen",
+         "lat": "47.649444444444",
+         "lon": "12.963888888889",
+         "timestamp": ["1922-09-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bischofswiesen", 
+        "wikidata": "http://www.wikidata.org/entity/Q256985", 
+        "geonames": "https://sws.geonames.org/6556112/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
       }
       }, 
     {
@@ -954,26 +974,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q1659070", 
         "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.963888888889, 47.649444444444]
-      },
-      "properties": {
-         "id": "pmb263493",
-         "title": "Bischofswiesen",
-         "lat": "47.649444444444",
-         "lon": "12.963888888889",
-         "timestamp": ["1922-09-02"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bischofswiesen", 
-        "wikidata": "http://www.wikidata.org/entity/Q256985", 
-        "geonames": "https://sws.geonames.org/6556112/", 
-        "abbr": "A.ADM4", 
-        "type": "Region"
       }
       }, 
     {

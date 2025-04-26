@@ -2416,7 +2416,7 @@
          "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Schafberg_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q21859881", 
-        "geonames": "https://sws.geonames.org/2601012/", 
+        "geonames": "https://sws.geonames.org/2601012/ https://sws.geonames.org/7874830/", 
         "abbr": "T.HLL", 
         "type": "Hügel"
       }
@@ -4168,8 +4168,8 @@
          "title": "Partenkirchen",
          "lat": "47.4956",
          "lon": "11.1097",
-         "timestamp": ["1911-04-11", "1911-04-12", "1911-04-13", "1911-04-27", "1911-04-28", "1911-04-29", "1911-04-30", "1911-05-01", "1911-11-11", "1911-11-12", "1911-11-13", "1911-11-14", "1911-11-15", "1911-11-16"],
-         "importance": 14, 
+         "timestamp": ["1911-04-11", "1911-04-12", "1911-04-13", "1911-04-27", "1911-04-28", "1911-04-29", "1911-04-30", "1911-05-01", "1911-11-13", "1911-11-14", "1911-11-15", "1911-11-16"],
+         "importance": 12, 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
       }
@@ -5972,11 +5972,14 @@
       },
       "properties": {
          "id": "pmb92561",
-         "title": "Syhrnthal",
+         "title": "Syhrntal",
          "lat": "47.66019",
          "lon": "15.956371",
          "timestamp": ["1911-08-21"],
-         "importance": 1
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q132341556", 
+        "abbr": "Tal (N.TAL)", 
+        "type": "Tal"
       }
       }, 
     {
@@ -6413,6 +6416,25 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.097, 47.4915]
+      },
+      "properties": {
+         "id": "pmb265939",
+         "title": "Bahnhof Garmisch-Partenkirchen",
+         "lat": "47.4915",
+         "lon": "11.097",
+         "timestamp": ["1911-11-13", "1911-11-16"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Garmisch-Partenkirchen", 
+        "wikidata": "http://www.wikidata.org/entity/Q800804", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {

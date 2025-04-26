@@ -105,8 +105,8 @@
          "title": "Bad Aussee",
          "lat": "47.60998",
          "lon": "13.78243",
-         "timestamp": ["1916-08-02", "1916-08-07", "1916-08-10", "1916-08-11", "1916-08-21", "1916-08-26", "1916-08-29", "1916-08-31"],
-         "importance": 8, 
+         "timestamp": ["1916-08-02", "1916-08-07", "1916-08-09", "1916-08-10", "1916-08-11", "1916-08-21", "1916-08-26", "1916-08-29", "1916-08-31"],
+         "importance": 9, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
         "wikidata": "http://www.wikidata.org/entity/Q251065", 
         "geonames": "https://sws.geonames.org/2782070/", 
@@ -194,6 +194,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.714263, 47.656317]
+      },
+      "properties": {
+         "id": "pmb614",
+         "title": "Sandling",
+         "lat": "47.656317",
+         "lon": "13.714263",
+         "timestamp": ["1916-08-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sandling", 
+        "wikidata": "http://www.wikidata.org/entity/Q1740410", 
+        "geonames": "https://sws.geonames.org/2766781/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.62156, 47.71319]
       },
       "properties": {
@@ -205,6 +225,24 @@
          "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78333, 47.61667]
+      },
+      "properties": {
+         "id": "pmb36473",
+         "title": "Obertressen",
+         "lat": "47.61667",
+         "lon": "13.78333",
+         "timestamp": ["1916-08-09", "1916-08-29"],
+         "importance": 2, 
+        "geonames": "https://sws.geonames.org/2769653/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -746,26 +784,6 @@
          "importance": 1, 
         "abbr": "Wanderweg (K.WND)", 
         "type": "Wanderweg"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.714263, 47.656317]
-      },
-      "properties": {
-         "id": "pmb614",
-         "title": "Sandling",
-         "lat": "47.656317",
-         "lon": "13.714263",
-         "timestamp": ["1916-08-17"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Sandling", 
-        "wikidata": "http://www.wikidata.org/entity/Q1740410", 
-        "geonames": "https://sws.geonames.org/2766781/", 
-        "abbr": "T.MT", 
-        "type": "Berg"
       }
       }, 
     {

@@ -471,8 +471,8 @@
          "title": "Schönau am Königssee",
          "lat": "47.60055",
          "lon": "12.98704",
-         "timestamp": ["1922-08-21", "1922-08-28", "1922-09-09", "1922-09-10"],
-         "importance": 4, 
+         "timestamp": ["1922-08-13", "1922-08-21", "1922-08-28", "1922-09-09", "1922-09-10", "1922-09-11"],
+         "importance": 6, 
         "geonames": "https://sws.geonames.org/2837085/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -1845,7 +1845,7 @@
       },
       "properties": {
          "id": "pmb231692",
-         "title": "Payberbachgraben",
+         "title": "Payerbachgraben",
          "lat": "47.68741",
          "lon": "15.85924",
          "timestamp": ["1922-07-21"],
@@ -2016,7 +2016,7 @@
          "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/Schafberg_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q21859881", 
-        "geonames": "https://sws.geonames.org/2601012/", 
+        "geonames": "https://sws.geonames.org/2601012/ https://sws.geonames.org/7874830/", 
         "abbr": "T.HLL", 
         "type": "Hügel"
       }
@@ -3629,8 +3629,8 @@
          "title": "Possenhofen",
          "lat": "47.95947",
          "lon": "11.31038",
-         "timestamp": ["1922-05-17", "1922-07-26", "1922-07-27", "1922-07-28", "1922-07-30", "1922-07-31", "1922-08-01", "1922-08-02", "1922-08-03", "1922-08-04", "1922-08-05", "1922-08-06", "1922-08-07"],
-         "importance": 13, 
+         "timestamp": ["1922-05-17", "1922-07-26", "1922-07-27", "1922-07-28", "1922-07-29", "1922-07-30", "1922-07-31", "1922-08-01", "1922-08-02", "1922-08-03", "1922-08-04", "1922-08-05", "1922-08-06", "1922-08-07"],
+         "importance": 14, 
         "wikipedia": "https://de.wikipedia.org/wiki/Possenhofen", 
         "wikidata": "http://www.wikidata.org/entity/Q559986", 
         "geonames": "https://sws.geonames.org/2852520/", 
@@ -6294,8 +6294,8 @@
          "title": "Ramsau bei Berchtesgaden",
          "lat": "47.60703",
          "lon": "12.90065",
-         "timestamp": ["1922-08-11", "1922-08-18", "1922-09-02"],
-         "importance": 3, 
+         "timestamp": ["1922-08-11", "1922-08-18", "1922-09-02", "1922-09-03"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Ramsau_bei_Berchtesgaden", 
         "wikidata": "http://www.wikidata.org/entity/Q253472", 
         "geonames": "https://sws.geonames.org/11608623/", 
@@ -6462,6 +6462,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.041666666667, 47.611111111111]
+      },
+      "properties": {
+         "id": "pmb289843",
+         "title": "Kehlstein",
+         "lat": "47.611111111111",
+         "lon": "13.041666666667",
+         "timestamp": ["1922-08-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kehlstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q2511014", 
+        "geonames": "https://sws.geonames.org/2891928/", 
+        "abbr": "T.MT", 
+        "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.01061, 47.64743]
       },
       "properties": {
@@ -6508,6 +6528,26 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.963888888889, 47.649444444444]
+      },
+      "properties": {
+         "id": "pmb263493",
+         "title": "Bischofswiesen",
+         "lat": "47.649444444444",
+         "lon": "12.963888888889",
+         "timestamp": ["1922-08-17", "1922-08-20", "1922-08-26", "1922-08-27", "1922-09-02"],
+         "importance": 5, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bischofswiesen", 
+        "wikidata": "http://www.wikidata.org/entity/Q256985", 
+        "geonames": "https://sws.geonames.org/6556112/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
       }
       }, 
     {
@@ -6624,26 +6664,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.963888888889, 47.649444444444]
-      },
-      "properties": {
-         "id": "pmb263493",
-         "title": "Bischofswiesen",
-         "lat": "47.649444444444",
-         "lon": "12.963888888889",
-         "timestamp": ["1922-08-20", "1922-09-02"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bischofswiesen", 
-        "wikidata": "http://www.wikidata.org/entity/Q256985", 
-        "geonames": "https://sws.geonames.org/6556112/", 
-        "abbr": "A.ADM4", 
-        "type": "Region"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [12.93717, 47.61935]
       },
       "properties": {
@@ -6710,6 +6730,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q2649636", 
         "abbr": "Schlucht", 
         "type": "Schlucht"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.046725, 47.695018]
+      },
+      "properties": {
+         "id": "pmb289879",
+         "title": "Marktschellenberg",
+         "lat": "47.695018",
+         "lon": "13.046725",
+         "timestamp": ["1922-08-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Marktschellenberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q116883", 
+        "geonames": "https://sws.geonames.org/6558796/", 
+        "abbr": "A.ADM4", 
+        "type": "Region"
       }
       }, 
     {

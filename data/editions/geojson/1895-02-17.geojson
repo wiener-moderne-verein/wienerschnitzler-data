@@ -6,11 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.263789, 48.08347], 
             [16.3672713, 48.1950553], 
             [16.37592, 48.20852], 
-            [16.35736, 48.21533], 
-            [16.358, 48.2231]
+            [16.358, 48.2231], 
+            [16.35736, 48.21533]
           ]
       },
       "properties": {
@@ -32,37 +31,6 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37592, 48.20852]
-      },
-      "properties": {
-         "id": "pmb338",
-         "title": "Wollzeile",
-         "lat": "48.20852",
-         "lon": "16.37592",
-         "timestamp": ["1895-02-17"],
-         "importance": 1, 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
-        "wohnort": [
-         {
-
-         "p_name": "Leopold Kaufmann",
-
-         "p_id": "#19226"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": "Wilhelm A. Hofmann",
-
-         "p_id": "#63690"
-         }]
       }
       },
     {
@@ -173,17 +141,31 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.263789, 48.08347]
+        "coordinates": [16.37592, 48.20852]
       },
       "properties": {
-         "id": "pmb34305",
-         "title": "Liechtensteinstraße [Hinterbrühl]",
-         "lat": "48.08347",
-         "lon": "16.263789",
+         "id": "pmb338",
+         "title": "Wollzeile",
+         "lat": "48.20852",
+         "lon": "16.37592",
          "timestamp": ["1895-02-17"],
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße", 
+        "wohnort": [
+         {
+
+         "p_name": "Leopold Kaufmann",
+
+         "p_id": "#19226"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Wilhelm A. Hofmann",
+
+         "p_id": "#63690"
+         }]
       }
       }
   ]

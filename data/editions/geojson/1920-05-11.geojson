@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.361139, 48.210333], 
+            [16.36265, 48.21156], 
+            [16.350361, 48.224472], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +16,91 @@
         "name": "11. Mai 1920"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1920-05-11"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Robert Kugel",
+
+         "p_id": "#19806"
+         }, 
+         {
+
+         "p_name": "Max Feilchenfeld",
+
+         "p_id": "#16127"
+         }, 
+         {
+
+         "p_name": "Moriz Neumann",
+
+         "p_id": "#21897"
+         }, 
+         {
+
+         "p_name": "Ignaz Fleminger",
+
+         "p_id": "#16342"
+         }, 
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1920-05-11"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350361, 48.224472]
+      },
+      "properties": {
+         "id": "pmb28",
+         "title": "Volksoper Wien",
+         "lat": "48.224472",
+         "lon": "16.350361",
+         "timestamp": ["1920-05-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Volksoper_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q694747", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

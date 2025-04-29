@@ -6,13 +6,45 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188]
+            [16.368538, 48.214567], 
+            [16.33716, 48.23188], 
+            [16.333056, 48.233056]
           ]
       },
       "properties": {
         "name": "14. Oktober 1922"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1922-10-14"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -96,6 +128,23 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368538, 48.214567]
+      },
+      "properties": {
+         "id": "pmb290848",
+         "title": "M. Mandl’s Söhne",
+         "lat": "48.214567",
+         "lon": "16.368538",
+         "timestamp": ["1922-10-14"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
       }
       }
   ]

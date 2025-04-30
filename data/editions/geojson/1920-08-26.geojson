@@ -6,7 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.61893, 47.71109]
+            [13.61893, 47.71109], 
+            [13.65, 47.73333], 
+            [13.385425, 52.51165]
           ]
       },
       "properties": {
@@ -29,6 +31,43 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
         "wikidata": "http://www.wikidata.org/entity/Q250984", 
         "geonames": "https://sws.geonames.org/2782052/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.385425, 52.51165]
+      },
+      "properties": {
+         "id": "pmb400",
+         "title": "Hotel Kaiserhof",
+         "lat": "52.51165",
+         "lon": "13.385425",
+         "timestamp": ["1920-08-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Kaiserhof_(Berlin)", 
+        "wikidata": "http://www.wikidata.org/entity/Q320591", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.65, 47.73333]
+      },
+      "properties": {
+         "id": "pmb91257",
+         "title": "Mitterweißenbach",
+         "lat": "47.73333",
+         "lon": "13.65",
+         "timestamp": ["1920-08-26"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2771372/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }

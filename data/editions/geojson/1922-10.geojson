@@ -359,6 +359,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [14.435833333333, 50.083055555556]
+      },
+      "properties": {
+         "id": "pmb252051",
+         "title": "Praha hlavní nádraží",
+         "lat": "50.083055555556",
+         "lon": "14.435833333333",
+         "timestamp": ["1922-10-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
+        "wikidata": "http://www.wikidata.org/entity/Q751174", 
+        "geonames": "https://sws.geonames.org/6285753/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [14.397222, 50.089444]
       },
       "properties": {
@@ -446,8 +466,8 @@
          "title": "Hotel Blauer Stern",
          "lat": "50.086417",
          "lon": "14.428996",
-         "timestamp": ["1922-10-27"],
-         "importance": 1, 
+         "timestamp": ["1922-10-27", "1922-10-30"],
+         "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel", 
         "arbeitsort": [
@@ -475,6 +495,24 @@
         "geonames": "https://sws.geonames.org/3071213/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.05081, 50.63916]
+      },
+      "properties": {
+         "id": "pmb90099",
+         "title": "Hrad Střekov",
+         "lat": "50.63916",
+         "lon": "14.05081",
+         "timestamp": ["1922-10-31"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/7117043/", 
+        "abbr": "S.CSTL", 
+        "type": "Burg"
       }
       }, 
     {
@@ -1287,10 +1325,29 @@
          "title": "Urania Prag",
          "lat": "50.091467",
          "lon": "14.428587",
-         "timestamp": ["1922-10-27"],
-         "importance": 1, 
+         "timestamp": ["1922-10-27", "1922-10-29"],
+         "importance": 2, 
         "abbr": "Volksbildungsanstalt (K.VBA)", 
         "type": "Volksbildungsanstalt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.419444, 50.090278]
+      },
+      "properties": {
+         "id": "pmb290958",
+         "title": "Josefov [Prag]",
+         "lat": "50.090278",
+         "lon": "14.419444",
+         "timestamp": ["1922-10-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Josefov_(Prag)", 
+        "wikidata": "http://www.wikidata.org/entity/Q753292", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -1308,6 +1365,24 @@
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.0444, 50.6597]
+      },
+      "properties": {
+         "id": "pmb290963",
+         "title": "Ústí nad Labem hlavní nádraží",
+         "lat": "50.6597",
+         "lon": "14.0444",
+         "timestamp": ["1922-10-31"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q14806970", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

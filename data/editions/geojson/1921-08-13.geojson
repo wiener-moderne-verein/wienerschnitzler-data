@@ -6,9 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.78243, 47.60998], 
+            [13.776866, 47.630911], 
             [13.77189, 47.6417], 
-            [13.768578, 47.641641]
+            [13.7686361, 47.6431134], 
+            [13.768578, 47.641641], 
+            [13.760194, 47.64285]
           ]
       },
       "properties": {
@@ -23,13 +25,13 @@
       },
       "properties": {
          "id": "pmb106",
-         "title": "Seewirt",
+         "title": "Hotel am See",
          "lat": "47.6417",
          "lon": "13.77189",
          "timestamp": ["1921-08-13"],
          "importance": 1, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -53,20 +55,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.78243, 47.60998]
+        "coordinates": [13.760194, 47.64285]
       },
       "properties": {
-         "id": "pmb415",
-         "title": "Bad Aussee",
-         "lat": "47.60998",
-         "lon": "13.78243",
+         "id": "pmb290936",
+         "title": "Villa Gisela und Markus Hajek",
+         "lat": "47.64285",
+         "lon": "13.760194",
          "timestamp": ["1921-08-13"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
-        "wikidata": "http://www.wikidata.org/entity/Q251065", 
-        "geonames": "https://sws.geonames.org/2782070/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.776866, 47.630911]
+      },
+      "properties": {
+         "id": "pmb264723",
+         "title": "Hillbrand Seewiese",
+         "lat": "47.630911",
+         "lon": "13.776866",
+         "timestamp": ["1921-08-13"],
+         "importance": 1, 
+        "abbr": "Wiese", 
+        "type": "Wiese"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7686361, 47.6431134]
+      },
+      "properties": {
+         "id": "pmb44899",
+         "title": "Villa Filtsch",
+         "lat": "47.6431134",
+         "lon": "13.7686361",
+         "timestamp": ["1921-08-13"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }
   ]

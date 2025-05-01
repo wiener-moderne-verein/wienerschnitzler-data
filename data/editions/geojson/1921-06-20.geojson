@@ -8,8 +8,10 @@
         "coordinates": [
             [13.043401, 47.802045], 
             [13.046155, 47.802721], 
-            [13.61893, 47.71109], 
-            [11.57549, 48.13743]
+            [13.045769, 47.813139], 
+            [13.61926, 47.71356], 
+            [11.581667, 48.138889], 
+            [11.555, 48.140833]
           ]
       },
       "properties": {
@@ -20,40 +22,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.61893, 47.71109]
+        "coordinates": [13.61926, 47.71356]
       },
       "properties": {
-         "id": "pmb213",
-         "title": "Bad Ischl",
-         "lat": "47.71109",
-         "lon": "13.61893",
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
          "timestamp": ["1921-06-20"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q250984", 
-        "geonames": "https://sws.geonames.org/2782052/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.57549, 48.13743]
+        "coordinates": [11.555, 48.140833]
       },
       "properties": {
-         "id": "pmb45258",
-         "title": "München",
-         "lat": "48.13743",
-         "lon": "11.57549",
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
          "timestamp": ["1921-06-20"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
-        "wikidata": "http://www.wikidata.org/entity/Q1726", 
-        "geonames": "https://sws.geonames.org/2867714/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.581667, 48.138889]
+      },
+      "properties": {
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
+         "timestamp": ["1921-06-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
@@ -104,6 +122,25 @@
 
          "p_id": "#28739"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1921-06-20"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

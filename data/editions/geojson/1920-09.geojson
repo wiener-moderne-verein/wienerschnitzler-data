@@ -12,11 +12,31 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1920-09-17", "1920-09-18", "1920-09-19", "1920-09-20", "1920-09-21", "1920-09-22", "1920-09-23", "1920-09-24", "1920-09-25", "1920-09-26", "1920-09-27", "1920-09-28", "1920-09-29", "1920-09-30"],
-         "importance": 14, 
+         "timestamp": ["1920-09-16", "1920-09-17", "1920-09-18", "1920-09-19", "1920-09-20", "1920-09-21", "1920-09-22", "1920-09-23", "1920-09-24", "1920-09-25", "1920-09-26", "1920-09-27", "1920-09-28", "1920-09-29", "1920-09-30"],
+         "importance": 15, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
+        "abbr": "A.ADM2", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04532, 47.80067]
+      },
+      "properties": {
+         "id": "pmb30",
+         "title": "Salzburg",
+         "lat": "47.80067",
+         "lon": "13.04532",
+         "timestamp": ["1920-09-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q34713", 
+        "geonames": "https://sws.geonames.org/2766818/", 
         "abbr": "A.ADM2", 
         "type": "Verwaltungsgebiet"
       }
@@ -29,13 +49,13 @@
       },
       "properties": {
          "id": "pmb106",
-         "title": "Seewirt",
+         "title": "Hotel am See",
          "lat": "47.6417",
          "lon": "13.77189",
          "timestamp": ["1920-09-01", "1920-09-02", "1920-09-03", "1920-09-04", "1920-09-05", "1920-09-06", "1920-09-07", "1920-09-08", "1920-09-09", "1920-09-10", "1920-09-11", "1920-09-12", "1920-09-13", "1920-09-14"],
          "importance": 14, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -56,6 +76,42 @@
         "geonames": "https://sws.geonames.org/7872434/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1920-09-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1920-09-28"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
       }
       }, 
     {
@@ -114,6 +170,26 @@
         "geonames": "https://sws.geonames.org/2778361/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1920-09-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -364,6 +440,67 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1920-09-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.328044, 48.238759]
+      },
+      "properties": {
+         "id": "pmb841",
+         "title": "Döblinger Friedhof",
+         "lat": "48.238759",
+         "lon": "16.328044",
+         "timestamp": ["1920-09-20", "1920-09-23"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6843", 
+        "wikidata": "http://www.wikidata.org/entity/Q1270909", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37127, 48.209673]
+      },
+      "properties": {
+         "id": "pmb237721",
+         "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
+         "lat": "48.209673",
+         "lon": "16.37127",
+         "timestamp": ["1920-09-29"],
+         "importance": 1, 
+        "abbr": "Buchhandlung (K.BHL)", 
+        "type": "Buchhandlung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.78333, 47.61667]
       },
       "properties": {
@@ -389,8 +526,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1920-09-25"],
-         "importance": 1, 
+         "timestamp": ["1920-09-25", "1920-09-27"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -449,8 +586,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1920-09-17", "1920-09-18", "1920-09-19", "1920-09-20", "1920-09-21", "1920-09-22", "1920-09-23", "1920-09-24", "1920-09-25", "1920-09-26", "1920-09-27", "1920-09-28", "1920-09-29", "1920-09-30"],
-         "importance": 14, 
+         "timestamp": ["1920-09-16", "1920-09-17", "1920-09-18", "1920-09-19", "1920-09-20", "1920-09-21", "1920-09-22", "1920-09-23", "1920-09-24", "1920-09-25", "1920-09-26", "1920-09-27", "1920-09-28", "1920-09-29", "1920-09-30"],
+         "importance": 15, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -527,6 +664,66 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.351996, 48.238534]
+      },
+      "properties": {
+         "id": "pmb235862",
+         "title": "Kreindlgasse 8",
+         "lat": "48.238534",
+         "lon": "16.351996",
+         "timestamp": ["1920-09-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vera Schapira",
+
+         "p_id": "#9667"
+         }, 
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367725, 48.212284]
+      },
+      "properties": {
+         "id": "pmb207301",
+         "title": "Tiefer Graben 17",
+         "lat": "48.212284",
+         "lon": "16.367725",
+         "timestamp": ["1920-09-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.377197811369, 48.200771836002]
       },
       "properties": {
@@ -534,8 +731,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1920-09-30"],
-         "importance": 1, 
+         "timestamp": ["1920-09-24", "1920-09-29", "1920-09-30"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -877,6 +1074,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36171, 48.2116]
+      },
+      "properties": {
+         "id": "pmb235784",
+         "title": "Oppolzergasse 6",
+         "lat": "48.2116",
+         "lon": "16.36171",
+         "timestamp": ["1920-09-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.32092, 48.24077]
       },
       "properties": {
@@ -888,6 +1109,25 @@
          "importance": 1, 
         "abbr": "Anhöhe", 
         "type": "Anhöhe"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3125, 48.186667]
+      },
+      "properties": {
+         "id": "pmb44649",
+         "title": "Schlosstheater Schönbrunn",
+         "lat": "48.186667",
+         "lon": "16.3125",
+         "timestamp": ["1920-09-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn", 
+        "wikidata": "http://www.wikidata.org/entity/Q2244724", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }, 
     {
@@ -1048,8 +1288,97 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Ru%C3%9Fbach_am_Pa%C3%9F_Gsch%C3%BCtt", 
         "wikidata": "http://www.wikidata.org/entity/Q694730", 
         "geonames": "https://sws.geonames.org/7873286/", 
-        "abbr": "Besiedelter Ort (A.BSO)", 
-        "type": "Besiedelter Ort"
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.345435040028397, 47.564174207493735]
+      },
+      "properties": {
+         "id": "pmb291203",
+         "title": "Hotel Rother Ochs",
+         "lat": "47.564174207493735",
+         "lon": "13.345435040028397",
+         "timestamp": ["1920-09-15"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q134283234", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.164899, 47.600862]
+      },
+      "properties": {
+         "id": "pmb291209",
+         "title": "Hotel Bahnhof (Inh. Linus Steinacher)",
+         "lat": "47.600862",
+         "lon": "13.164899",
+         "timestamp": ["1920-09-15"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.1676, 47.597912]
+      },
+      "properties": {
+         "id": "pmb291218",
+         "title": "Hotel Alte Post (Inh. Leo Steinacher)",
+         "lat": "47.597912",
+         "lon": "13.1676",
+         "timestamp": ["1920-09-15", "1920-09-16"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.1683705, 47.5965056]
+      },
+      "properties": {
+         "id": "pmb291237",
+         "title": "Friedhof Golling an der Salzach",
+         "lat": "47.5965056",
+         "lon": "13.1683705",
+         "timestamp": ["1920-09-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q128503772", 
+        "abbr": "Friedhof (K.FRH)", 
+        "type": "Friedhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.164144, 47.600781]
+      },
+      "properties": {
+         "id": "pmb291207",
+         "title": "Bahnhof Golling-Abtenau",
+         "lat": "47.600781",
+         "lon": "13.164144",
+         "timestamp": ["1920-09-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Golling-Abtenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q60616614", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {

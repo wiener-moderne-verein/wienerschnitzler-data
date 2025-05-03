@@ -146,8 +146,8 @@
          "title": "Südbahnhof",
          "lat": "48.187455471378",
          "lon": "16.379829498031",
-         "timestamp": ["1920-06-21", "1920-06-24", "1920-07-26", "1920-07-28"],
-         "importance": 4, 
+         "timestamp": ["1920-06-21", "1920-06-24", "1920-07-26", "1920-07-28", "1920-10-10"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -186,8 +186,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1920-01-24", "1920-02-18", "1920-03-06", "1920-09-28", "1920-10-04"],
-         "importance": 5, 
+         "timestamp": ["1920-01-24", "1920-02-18", "1920-03-06", "1920-09-28", "1920-10-04", "1920-10-11", "1920-10-18"],
+         "importance": 7, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -1476,8 +1476,8 @@
          "title": "Schwarzenbergpark",
          "lat": "48.241960480337",
          "lon": "16.276509500872",
-         "timestamp": ["1920-04-04", "1920-05-09", "1920-05-13", "1920-06-03", "1920-06-13", "1920-06-27", "1920-06-29", "1920-07-03", "1920-08-01", "1920-08-08", "1920-08-15", "1920-09-19", "1920-09-26", "1920-10-31", "1920-11-07"],
-         "importance": 15, 
+         "timestamp": ["1920-04-04", "1920-05-09", "1920-05-13", "1920-06-03", "1920-06-13", "1920-06-27", "1920-06-29", "1920-07-03", "1920-08-01", "1920-08-08", "1920-08-15", "1920-09-19", "1920-09-26", "1920-10-08", "1920-10-16", "1920-10-31", "1920-11-07"],
+         "importance": 17, 
         "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=14846", 
         "wikidata": "http://www.wikidata.org/entity/Q2253835", 
@@ -1501,6 +1501,48 @@
         "wikidata": "http://www.wikidata.org/entity/Q2840760", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361349, 48.223406]
+      },
+      "properties": {
+         "id": "pmb231945",
+         "title": "Porzellangasse 45",
+         "lat": "48.223406",
+         "lon": "16.361349",
+         "timestamp": ["1920-10-13"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Leitner",
+
+         "p_id": "#20270"
+         }, 
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }, 
+         {
+
+         "p_name": "Leo Van-Jung",
+
+         "p_id": "#26392"
+         }]
       }
       }, 
     {
@@ -1792,6 +1834,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.376085, 48.20835]
+      },
+      "properties": {
+         "id": "pmb236670",
+         "title": "Wollzeile 16",
+         "lat": "48.20835",
+         "lon": "16.376085",
+         "timestamp": ["1920-10-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Marie Lattermann",
+
+         "p_id": "#20146"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33641, 48.23362]
       },
       "properties": {
@@ -1799,8 +1865,8 @@
          "title": "Türkenschanzstraße 48",
          "lat": "48.23362",
          "lon": "16.33641",
-         "timestamp": ["1920-02-01", "1920-03-19", "1920-03-26", "1920-10-14", "1920-12-26"],
-         "importance": 5, 
+         "timestamp": ["1920-02-01", "1920-03-19", "1920-03-26", "1920-10-14", "1920-10-15", "1920-12-26"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -2085,8 +2151,8 @@
          "title": "Allgemeine Boden-Credit-Anstalt",
          "lat": "48.21156",
          "lon": "16.36265",
-         "timestamp": ["1920-01-31", "1920-03-12", "1920-03-30", "1920-05-11", "1920-05-14", "1920-07-17"],
-         "importance": 6, 
+         "timestamp": ["1920-01-31", "1920-03-12", "1920-03-30", "1920-05-11", "1920-05-14", "1920-07-17", "1920-10-07"],
+         "importance": 7, 
         "abbr": "Bank (K.BNK)", 
         "type": "Bank", 
         "arbeitsort": [
@@ -2275,6 +2341,25 @@
          "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
         "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2425, 48.003889]
+      },
+      "properties": {
+         "id": "pmb249350",
+         "title": "Bahnhof Baden bei Wien",
+         "lat": "48.003889",
+         "lon": "16.2425",
+         "timestamp": ["1920-10-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
       }
@@ -2828,8 +2913,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1920-01-30", "1920-02-06", "1920-02-15", "1920-02-17", "1920-02-27", "1920-03-05", "1920-03-11", "1920-03-23", "1920-04-07", "1920-05-06", "1920-09-24", "1920-09-29", "1920-09-30", "1920-10-22"],
-         "importance": 14, 
+         "timestamp": ["1920-01-30", "1920-02-06", "1920-02-15", "1920-02-17", "1920-02-27", "1920-03-05", "1920-03-11", "1920-03-23", "1920-04-07", "1920-05-06", "1920-09-24", "1920-09-29", "1920-09-30", "1920-10-07", "1920-10-12", "1920-10-13", "1920-10-14", "1920-10-15", "1920-10-22", "1920-10-23"],
+         "importance": 20, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -3651,8 +3736,8 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1920-08-14"],
-         "importance": 1, 
+         "timestamp": ["1920-08-14", "1920-10-22"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -4665,6 +4750,76 @@
          "importance": 1, 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.381997, 48.210245]
+      },
+      "properties": {
+         "id": "pmb291773",
+         "title": "Photoatelier Konrad Swatosch",
+         "lat": "48.210245",
+         "lon": "16.381997",
+         "timestamp": ["1920-10-07"],
+         "importance": 1, 
+        "abbr": "Fotoatelier", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373977, 48.2064]
+      },
+      "properties": {
+         "id": "pmb291784",
+         "title": "A. Satori, Antiquitätenhandlung",
+         "lat": "48.2064",
+         "lon": "16.373977",
+         "timestamp": ["1920-10-09"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2089, 48.0067]
+      },
+      "properties": {
+         "id": "pmb291795",
+         "title": "Schloss Weilburg",
+         "lat": "48.0067",
+         "lon": "16.2089",
+         "timestamp": ["1920-10-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Weilburg_(Baden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2244018", 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350065, 48.24417]
+      },
+      "properties": {
+         "id": "pmb291845",
+         "title": "Heuriger Josef Rockenbauer",
+         "lat": "48.24417",
+         "lon": "16.350065",
+         "timestamp": ["1920-10-23"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
       }
       }, 
     {

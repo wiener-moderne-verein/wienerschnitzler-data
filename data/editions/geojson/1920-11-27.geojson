@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.34535, 48.200172], 
+            [16.368494, 48.193576], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,47 @@
         "name": "27. November 1920"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34535, 48.200172]
+      },
+      "properties": {
+         "id": "pmb291923",
+         "title": "Seidengasse 13",
+         "lat": "48.200172",
+         "lon": "16.34535",
+         "timestamp": ["1920-11-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368494, 48.193576]
+      },
+      "properties": {
+         "id": "pmb291756",
+         "title": "Brahmsplatz 4",
+         "lat": "48.193576",
+         "lon": "16.368494",
+         "timestamp": ["1920-11-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

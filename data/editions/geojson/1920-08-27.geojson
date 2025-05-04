@@ -6,18 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.62184, 47.71088], 
-            [13.6273, 47.7122], 
-            [13.760194, 47.64285], 
             [13.776666666666667, 47.59916666666667], 
+            [13.760194, 47.64285], 
             [13.77189, 47.6417], 
-            [13.385425, 52.51165]
+            [13.6273, 47.7122], 
+            [13.61926, 47.71356], 
+            [13.62184, 47.71088]
           ]
       },
       "properties": {
         "name": "27. August 1920"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.61926, 47.71356]
+      },
+      "properties": {
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
+         "timestamp": ["1920-08-27"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -54,25 +71,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q800426", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.385425, 52.51165]
-      },
-      "properties": {
-         "id": "pmb400",
-         "title": "Hotel Kaiserhof",
-         "lat": "52.51165",
-         "lon": "13.385425",
-         "timestamp": ["1920-08-27"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Kaiserhof_(Berlin)", 
-        "wikidata": "http://www.wikidata.org/entity/Q320591", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       },
     {

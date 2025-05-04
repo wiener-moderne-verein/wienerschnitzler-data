@@ -2981,6 +2981,18 @@
         "wohnort": [
          {
 
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
+         }, 
+         {
+
+         "p_name": "Wanda Specht",
+
+         "p_id": "#25172"
+         }, 
+         {
+
          "p_name": "Vera Schapira",
 
          "p_id": "#9667"
@@ -4096,7 +4108,14 @@
          "timestamp": ["1921-02-04"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Arnau",
+
+         "p_id": "#291476"
+         }]
       }
       }, 
     {
@@ -4113,7 +4132,14 @@
          "timestamp": ["1921-02-11"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Wilhelmine Deimel",
+
+         "p_id": "#15281"
+         }]
       }
       }, 
     {
@@ -4130,7 +4156,14 @@
          "timestamp": ["1921-02-13"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Richard Strauss",
+
+         "p_id": "#12870"
+         }]
       }
       }, 
     {
@@ -4164,7 +4197,14 @@
          "timestamp": ["1921-02-18"],
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Sternberg",
+
+         "p_id": "#25505"
+         }]
       }
       }, 
     {
@@ -4199,7 +4239,21 @@
          "timestamp": ["1921-02-22"],
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Oskar Friedrich Eirich",
+
+         "p_id": "#2874"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Oskar Friedrich Eirich",
+
+         "p_id": "#2874"
+         }]
       }
       }, 
     {
@@ -4331,13 +4385,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.431308333333334, 48.76471111111111]
+        "coordinates": [11.582778, 48.142222]
       },
       "properties": {
          "id": "pmb256574",
          "title": "Bayerisches Armeemuseum",
-         "lat": "48.76471111111111",
-         "lon": "11.431308333333334",
+         "lat": "48.142222",
+         "lon": "11.582778",
          "timestamp": ["1921-06-23"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bayerisches_Armeemuseum", 

@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.226616, 48.005269], 
+            [16.23114, 48.012864], 
+            [16.365508, 48.200364], 
             [16.33716, 48.23188]
           ]
       },
@@ -14,6 +16,25 @@
         "name": "3. Juni 1919"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365508, 48.200364]
+      },
+      "properties": {
+         "id": "pmb7",
+         "title": "Secession",
+         "lat": "48.200364",
+         "lon": "16.365508",
+         "timestamp": ["1919-06-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
+        "wikidata": "http://www.wikidata.org/entity/Q265129", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -114,6 +135,23 @@
          "importance": 1, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23114, 48.012864]
+      },
+      "properties": {
+         "id": "pmb92195",
+         "title": "Kurpark [Baden bei Wien]",
+         "lat": "48.012864",
+         "lon": "16.23114",
+         "timestamp": ["1919-06-03"],
+         "importance": 1, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }
   ]

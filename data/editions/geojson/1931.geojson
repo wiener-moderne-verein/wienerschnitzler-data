@@ -103,8 +103,8 @@
          "title": "Oper",
          "lat": "48.203",
          "lon": "16.3691",
-         "timestamp": ["1931-06-29"],
-         "importance": 1, 
+         "timestamp": ["1931-01-23", "1931-03-03", "1931-06-29", "1931-07-12", "1931-09-25", "1931-10-15"],
+         "importance": 6, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
@@ -129,8 +129,8 @@
          "title": "Theater in der Josefstadt",
          "lat": "48.209583",
          "lon": "16.351111",
-         "timestamp": ["1931-09-22"],
-         "importance": 1, 
+         "timestamp": ["1931-01-28", "1931-04-21", "1931-05-18", "1931-06-25", "1931-09-10", "1931-09-22", "1931-09-30"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
         "wikidata": "http://www.wikidata.org/entity/Q167619", 
         "abbr": "Theater (K.THE)", 
@@ -986,6 +986,36 @@
         "wikidata": "http://www.wikidata.org/entity/Q130472316", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.339722, 48.192222]
+      },
+      "properties": {
+         "id": "pmb77",
+         "title": "Raimund-Theater",
+         "lat": "48.192222",
+         "lon": "16.339722",
+         "timestamp": ["1931-06-14"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Eleonora Duse",
+
+         "p_id": "#11201"
+         }, 
+         {
+
+         "p_name": " Wessely",
+
+         "p_id": "#88046"
+         }]
       }
       }, 
     {
@@ -2851,6 +2881,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.377117625773, 48.200254933632]
+      },
+      "properties": {
+         "id": "pmb520",
+         "title": "Akademietheater",
+         "lat": "48.200254933632",
+         "lon": "16.377117625773",
+         "timestamp": ["1931-10-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q113470466 http://www.wikidata.org/entity/Q414538", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.7961, 47.66791]
       },
       "properties": {
@@ -2862,6 +2911,30 @@
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367759, 48.195232]
+      },
+      "properties": {
+         "id": "pmb244901",
+         "title": "Mozartgasse 4",
+         "lat": "48.195232",
+         "lon": "16.367759",
+         "timestamp": ["1931-04-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gertrude von Hofmannsthal",
+
+         "p_id": "#2292"
+         }]
       }
       }, 
     {
@@ -3627,30 +3700,6 @@
         "geonames": "https://sws.geonames.org/2769062/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.367759, 48.195232]
-      },
-      "properties": {
-         "id": "pmb244901",
-         "title": "Mozartgasse 4",
-         "lat": "48.195232",
-         "lon": "16.367759",
-         "timestamp": ["1931-04-12"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Gertrude von Hofmannsthal",
-
-         "p_id": "#2292"
-         }]
       }
       }, 
     {

@@ -191,8 +191,8 @@
          "title": "Bad Aussee",
          "lat": "47.60998",
          "lon": "13.78243",
-         "timestamp": ["1921-06-16"],
-         "importance": 1, 
+         "timestamp": ["1921-06-16", "1921-06-17", "1921-06-18", "1921-06-19"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
         "wikidata": "http://www.wikidata.org/entity/Q251065", 
         "geonames": "https://sws.geonames.org/2782070/", 
@@ -942,6 +942,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.383906681096, 48.211453732859]
+      },
+      "properties": {
+         "id": "pmb1013",
+         "title": "Urania",
+         "lat": "48.211453732859",
+         "lon": "16.383906681096",
+         "timestamp": ["1921-06-14"],
+         "importance": 1, 
+        "abbr": "Volksbildungsanstalt (K.VBA)", 
+        "type": "Volksbildungsanstalt", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Bauer",
+
+         "p_id": "#13813"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -984,30 +1008,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gersthofer_Elitetheater", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.383906681096, 48.211453732859]
-      },
-      "properties": {
-         "id": "pmb1013",
-         "title": "Urania",
-         "lat": "48.211453732859",
-         "lon": "16.383906681096",
-         "timestamp": ["1921-06-14"],
-         "importance": 1, 
-        "abbr": "Volksbildungsanstalt (K.VBA)", 
-        "type": "Volksbildungsanstalt", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Friedrich Bauer",
-
-         "p_id": "#13813"
-         }]
       }
       }, 
     {
@@ -1143,6 +1143,23 @@
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.324798, 48.233421]
+      },
+      "properties": {
+         "id": "pmb292057",
+         "title": "Vereins-Realgymnasium mit Öffentlichkeitsrecht",
+         "lat": "48.233421",
+         "lon": "16.324798",
+         "timestamp": ["1921-06-14"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule"
       }
       }, 
     {

@@ -156,6 +156,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.384444, 48.215]
+      },
+      "properties": {
+         "id": "pmb118",
+         "title": "Carl-Theater",
+         "lat": "48.215",
+         "lon": "16.384444",
+         "timestamp": ["1926-06-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
+        "wikidata": "http://www.wikidata.org/entity/Q877699", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Franz von Jauner",
+
+         "p_id": "#2928"
+         }, 
+         {
+
+         "p_name": "Ermete Zacconi",
+
+         "p_id": "#3787"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.379608025302, 48.204824018066]
       },
       "properties": {
@@ -395,8 +427,8 @@
          "title": "Künstlerhaus",
          "lat": "48.200556",
          "lon": "16.371667",
-         "timestamp": ["1926-03-24"],
-         "importance": 1, 
+         "timestamp": ["1926-03-07", "1926-03-24"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/K%C3%BCnstlerhaus_Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q284902", 
         "abbr": "Museum (K.MUS)", 
@@ -1701,8 +1733,8 @@
          "title": "Schiller-Theater",
          "lat": "52.511709",
          "lon": "13.318058",
-         "timestamp": ["1926-12-25"],
-         "importance": 1, 
+         "timestamp": ["1926-02-06", "1926-02-14", "1926-12-25"],
+         "importance": 3, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -2656,6 +2688,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.357178, 48.211514]
+      },
+      "properties": {
+         "id": "pmb250999",
+         "title": "Historisches Museum der Stadt Wien",
+         "lat": "48.211514",
+         "lon": "16.357178",
+         "timestamp": ["1926-07-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Museum", 
+        "wikidata": "http://www.wikidata.org/entity/Q505873", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.320696, 48.263217]
       },
       "properties": {
@@ -2982,8 +3033,8 @@
          "title": "Wiener Stadttheater [8. Wiener Gemeindebezirk]",
          "lat": "48.21327",
          "lon": "16.34629",
-         "timestamp": ["1926-11-24"],
-         "importance": 1, 
+         "timestamp": ["1926-11-24", "1926-11-26"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Stadttheater", 
         "wikidata": "http://www.wikidata.org/entity/Q2569106", 
         "abbr": "Theater (K.THE)", 
@@ -4000,6 +4051,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.30817, 52.500386]
+      },
+      "properties": {
+         "id": "pmb250459",
+         "title": "Alhambra",
+         "lat": "52.500386",
+         "lon": "13.30817",
+         "timestamp": ["1926-05-14"],
+         "importance": 1, 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.29417, 52.46601]
       },
       "properties": {
@@ -4207,6 +4275,30 @@
          "p_name": "Carl Heinrich Becker",
 
          "p_id": "#6189"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.32774, 52.50275]
+      },
+      "properties": {
+         "id": "pmb249727",
+         "title": "Nelson-Theater",
+         "lat": "52.50275",
+         "lon": "13.32774",
+         "timestamp": ["1926-02-13"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Rudolf Nelson",
+
+         "p_id": "#9049"
          }]
       }
       }, 
@@ -4781,7 +4873,7 @@
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q3925443", 
         "geonames": "https://sws.geonames.org/2514363/", 
-        "abbr": "H.HBR", 
+        "abbr": "kein passender Code gefunden", 
         "type": ""
       }
       }, 
@@ -4909,6 +5001,23 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.383747, 52.517908]
+      },
+      "properties": {
+         "id": "pmb250470",
+         "title": "Schadowstraße 6/7",
+         "lat": "52.517908",
+         "lon": "13.383747",
+         "timestamp": ["1926-05-16"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }, 
     {
@@ -6332,6 +6441,24 @@
          "importance": 7, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350949, 48.209524]
+      },
+      "properties": {
+         "id": "pmb251241",
+         "title": "Sträußelsäle",
+         "lat": "48.209524",
+         "lon": "16.350949",
+         "timestamp": ["1926-11-21"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Str%C3%A4u%C3%9Fels%C3%A4le", 
+        "abbr": "Saal", 
+        "type": "Saal"
       }
       }, 
     {

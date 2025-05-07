@@ -91,8 +91,8 @@
          "title": "München",
          "lat": "48.13743",
          "lon": "11.57549",
-         "timestamp": ["1921-09-01", "1921-09-02", "1921-09-03", "1921-09-04", "1921-09-05"],
-         "importance": 5, 
+         "timestamp": ["1921-09-01", "1921-09-02", "1921-09-03", "1921-09-04", "1921-09-05", "1921-09-06"],
+         "importance": 6, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen", 
         "wikidata": "http://www.wikidata.org/entity/Q1726", 
         "geonames": "https://sws.geonames.org/2867714/", 
@@ -257,7 +257,7 @@
       },
       "properties": {
          "id": "pmb190287",
-         "title": "Stift St Peter",
+         "title": "Stift Sankt Peter",
          "lat": "47.7969",
          "lon": "13.0458",
          "timestamp": ["1921-09-06"],
@@ -416,6 +416,41 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.49857, 48.15853]
+      },
+      "properties": {
+         "id": "pmb91369",
+         "title": "Nymphenburg",
+         "lat": "48.15853",
+         "lon": "11.49857",
+         "timestamp": ["1921-09-01"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2861525/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.567552, 48.143964]
+      },
+      "properties": {
+         "id": "pmb401",
+         "title": "Hotel Marienbad [München]",
+         "lat": "48.143964",
+         "lon": "11.567552",
+         "timestamp": ["1921-09-01", "1921-09-02", "1921-09-03", "1921-09-04", "1921-09-05", "1921-09-06"],
+         "importance": 6, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -693,6 +728,45 @@
         "wikidata": "http://www.wikidata.org/entity/Q1692038", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.581667, 48.138889]
+      },
+      "properties": {
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
+         "timestamp": ["1921-09-03", "1921-09-05"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1921-09-02", "1921-09-03"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -1089,6 +1163,99 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.046944444444444, 47.797777777777775]
+      },
+      "properties": {
+         "id": "pmb292327",
+         "title": "Salzburger Dom",
+         "lat": "47.797777777777775",
+         "lon": "13.046944444444444",
+         "timestamp": ["1921-09-06"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburger_Dom", 
+        "wikidata": "http://www.wikidata.org/entity/Q258908", 
+        "geonames": "https://sws.geonames.org/6956631/", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.604186, 48.151045]
+      },
+      "properties": {
+         "id": "pmb292354",
+         "title": "Mauerkircherstraße 24",
+         "lat": "48.151045",
+         "lon": "11.604186",
+         "timestamp": ["1921-09-01", "1921-09-03", "1921-09-04", "1921-09-05"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.563915, 48.13836]
+      },
+      "properties": {
+         "id": "pmb292367",
+         "title": "Restaurant Schwarz",
+         "lat": "48.13836",
+         "lon": "11.563915",
+         "timestamp": ["1921-09-03", "1921-09-04"],
+         "importance": 2, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5645, 48.1396]
+      },
+      "properties": {
+         "id": "pmb292389",
+         "title": "Hotel Königshof",
+         "lat": "48.1396",
+         "lon": "11.5645",
+         "timestamp": ["1921-09-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_K%C3%B6nigshof_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630939", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4928, 48.1578]
+      },
+      "properties": {
+         "id": "pmb292397",
+         "title": "Schlosspark Nymphenburg",
+         "lat": "48.1578",
+         "lon": "11.4928",
+         "timestamp": ["1921-09-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schlosspark_Nymphenburg", 
+        "wikidata": "http://www.wikidata.org/entity/Q268492", 
+        "geonames": "https://sws.geonames.org/2861524/", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.13919, 47.55979]
       },
       "properties": {
@@ -1132,13 +1299,143 @@
          "title": "Oberammergau",
          "lat": "47.59812",
          "lon": "11.06692",
-         "timestamp": ["1921-09-02"],
-         "importance": 1, 
+         "timestamp": ["1921-09-02", "1921-09-03"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Oberammergau", 
         "wikidata": "http://www.wikidata.org/entity/Q503757", 
         "geonames": "https://sws.geonames.org/2861422/", 
         "abbr": "P.PPLA4", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.139272, 47.559273]
+      },
+      "properties": {
+         "id": "pmb292405",
+         "title": "Bahnhof Oberau",
+         "lat": "47.559273",
+         "lon": "11.139272",
+         "timestamp": ["1921-09-02"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q108743694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.09463888888889, 47.56961111111111]
+      },
+      "properties": {
+         "id": "pmb292408",
+         "title": "Mariä Himmelfahrt [Ettal]",
+         "lat": "47.56961111111111",
+         "lon": "11.09463888888889",
+         "timestamp": ["1921-09-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Klosterkirche_Ettal", 
+        "wikidata": "http://www.wikidata.org/entity/Q67206453", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.20125, 47.68085]
+      },
+      "properties": {
+         "id": "pmb49953",
+         "title": "Murnau am Staffelsee",
+         "lat": "47.68085",
+         "lon": "11.20125",
+         "timestamp": ["1921-09-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Murnau_am_Staffelsee", 
+        "wikidata": "http://www.wikidata.org/entity/Q254356", 
+        "geonames": "https://sws.geonames.org/2867445/ https://sws.geonames.org/6558934/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.19297, 47.682251]
+      },
+      "properties": {
+         "id": "pmb292428",
+         "title": "Bahnhof Murnau",
+         "lat": "47.682251",
+         "lon": "11.19297",
+         "timestamp": ["1921-09-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Murnau", 
+        "wikidata": "http://www.wikidata.org/entity/Q15107232", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.1608, 47.6908]
+      },
+      "properties": {
+         "id": "pmb292431",
+         "title": "Staffelsee",
+         "lat": "47.6908",
+         "lon": "11.1608",
+         "timestamp": ["1921-09-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Staffelsee", 
+        "wikidata": "http://www.wikidata.org/entity/Q278982", 
+        "geonames": "https://sws.geonames.org/2829702/", 
+        "abbr": "See (N.SEE)", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.200763, 47.678343]
+      },
+      "properties": {
+         "id": "pmb292434",
+         "title": "Hotel Post [Murnau am Staffelsee]",
+         "lat": "47.678343",
+         "lon": "11.200763",
+         "timestamp": ["1921-09-03"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.55887, 48.126339]
+      },
+      "properties": {
+         "id": "pmb292447",
+         "title": "Thomasbräu",
+         "lat": "48.126339",
+         "lon": "11.55887",
+         "timestamp": ["1921-09-05"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
       }
       }, 
     {

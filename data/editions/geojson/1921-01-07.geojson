@@ -6,14 +6,31 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188], 
-            [13.382222, 52.524444]
+            [16.375833, 48.211111], 
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
         "name": "7. Januar 1921"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375833, 48.211111]
+      },
+      "properties": {
+         "id": "pmb633",
+         "title": "Kammerspiele Wien",
+         "lat": "48.211111",
+         "lon": "16.375833",
+         "timestamp": ["1921-01-07"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -97,24 +114,6 @@
 
          "p_id": "#18732"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.382222, 52.524444]
-      },
-      "properties": {
-         "id": "pmb12",
-         "title": "Kammerspiele Berlin",
-         "lat": "52.524444",
-         "lon": "13.382222",
-         "timestamp": ["1921-01-07"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q45772100", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
       }
       }
   ]

@@ -1863,8 +1863,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Scaliger-Grabm%C3%A4ler", 
         "wikidata": "http://www.wikidata.org/entity/Q2253540", 
         "geonames": "https://sws.geonames.org/8014996/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "S.TMB", 
+        "type": "Grab"
       }
       }, 
     {
@@ -2688,8 +2688,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Oberbozen", 
         "wikidata": "http://www.wikidata.org/entity/Q1469805", 
         "geonames": "https://sws.geonames.org/3166393/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "P.PPLA4", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -3785,24 +3785,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.382222, 52.524444]
-      },
-      "properties": {
-         "id": "pmb12",
-         "title": "Kammerspiele Berlin",
-         "lat": "52.524444",
-         "lon": "13.382222",
-         "timestamp": ["1927-12-08"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q45772100", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.360145, 48.220337]
       },
       "properties": {
@@ -4263,8 +4245,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/MuseumsQuartier", 
         "wikidata": "http://www.wikidata.org/entity/Q699943", 
         "geonames": "https://sws.geonames.org/6354987/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "S.MUS", 
+        "type": "Museum"
       }
       }, 
     {
@@ -4619,8 +4601,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Riva_degli_Schiavoni", 
         "wikidata": "http://www.wikidata.org/entity/Q11001", 
         "geonames": "https://sws.geonames.org/3229920/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "S.QUAY", 
+        "type": "Quay"
       }
       }, 
     {
@@ -4673,8 +4655,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Flugplatz_Venedig-Lido", 
         "wikidata": "http://www.wikidata.org/entity/Q1433925", 
         "geonames": "https://sws.geonames.org/3219405/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "S.AIRP", 
+        "type": "Flughafen"
       }
       }, 
     {
@@ -4833,8 +4815,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Trabrennbahn_Krieau", 
         "wikidata": "http://www.wikidata.org/entity/Q2447418", 
         "geonames": "https://sws.geonames.org/3322732/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "S.RECR", 
+        "type": "Rennbahn"
       }
       }, 
     {
@@ -5556,6 +5538,24 @@
          "importance": 1, 
         "abbr": "Redaktionsgebäude (K.RDK)", 
         "type": "Redaktionsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.382222, 52.524444]
+      },
+      "properties": {
+         "id": "pmb12",
+         "title": "Kammerspiele Berlin",
+         "lat": "52.524444",
+         "lon": "13.382222",
+         "timestamp": ["1927-12-08"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q45772100", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }
   ]

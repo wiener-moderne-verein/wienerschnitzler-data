@@ -6,10 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.0458, 47.7969], 
             [13.045, 47.799167], 
+            [13.046944444444444, 47.797777777777775], 
+            [13.045637, 47.799973], 
+            [13.045752, 47.801198], 
             [13.043904, 47.801903], 
-            [13.042019, 47.805528], 
+            [13.04229, 47.8032], 
             [13.043401, 47.802045]
           ]
       },
@@ -41,45 +43,6 @@
 
          "p_id": "#28739"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.0458, 47.7969]
-      },
-      "properties": {
-         "id": "pmb190287",
-         "title": "Stift St Peter",
-         "lat": "47.7969",
-         "lon": "13.0458",
-         "timestamp": ["1921-08-26"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Stift_Sankt_Peter_(Salzburg)", 
-        "wikidata": "http://www.wikidata.org/entity/Q675735", 
-        "geonames": "https://sws.geonames.org/6956636/", 
-        "abbr": "S.CH", 
-        "type": "Kirche"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.042019, 47.805528]
-      },
-      "properties": {
-         "id": "pmb180",
-         "title": "Schloss Mirabell",
-         "lat": "47.805528",
-         "lon": "13.042019",
-         "timestamp": ["1921-08-26"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Mirabell", 
-        "wikidata": "http://www.wikidata.org/entity/Q688546", 
-        "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
       }
       },
     {
@@ -118,6 +81,77 @@
         "wikidata": "http://www.wikidata.org/entity/Q1025574", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.046944444444444, 47.797777777777775]
+      },
+      "properties": {
+         "id": "pmb292327",
+         "title": "Salzburger Dom",
+         "lat": "47.797777777777775",
+         "lon": "13.046944444444444",
+         "timestamp": ["1921-08-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburger_Dom", 
+        "wikidata": "http://www.wikidata.org/entity/Q258908", 
+        "geonames": "https://sws.geonames.org/6956631/", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045637, 47.799973]
+      },
+      "properties": {
+         "id": "pmb292331",
+         "title": "Zur goldenen Birne [Salzburg]",
+         "lat": "47.799973",
+         "lon": "13.045637",
+         "timestamp": ["1921-08-26"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045752, 47.801198]
+      },
+      "properties": {
+         "id": "pmb292334",
+         "title": "Kino Lifka",
+         "lat": "47.801198",
+         "lon": "13.045752",
+         "timestamp": ["1921-08-26"],
+         "importance": 1, 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04229, 47.8032]
+      },
+      "properties": {
+         "id": "pmb1014",
+         "title": "Hotel Mirabell",
+         "lat": "47.8032",
+         "lon": "13.04229",
+         "timestamp": ["1921-08-26"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

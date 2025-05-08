@@ -384,7 +384,7 @@
       },
       "properties": {
          "id": "pmb400",
-         "title": "Hotel Kaiserhof [Berlin]",
+         "title": "Hotel Kaiserhof",
          "lat": "52.51165",
          "lon": "13.385425",
          "timestamp": ["1923-05-24"],
@@ -1699,24 +1699,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.076992, 59.33325]
-      },
-      "properties": {
-         "id": "pmb147893",
-         "title": "Kungliga Dramatiska Teatern",
-         "lat": "59.33325",
-         "lon": "18.076992",
-         "timestamp": ["1923-05-17", "1923-05-21", "1923-05-22"],
-         "importance": 3, 
-        "geonames": "https://www.geonames.org/6944469/kungliga-dramatiska-teatern.html", 
-        "abbr": "S.THTR", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [18.085302, 59.337024]
       },
       "properties": {
@@ -1773,8 +1755,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Gamla_stan", 
         "wikidata": "http://www.wikidata.org/entity/Q579854", 
         "geonames": "https://sws.geonames.org/2674672/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "abbr": "kein passender Code gefunden", 
+        "type": ""
       }
       }, 
     {
@@ -1855,6 +1837,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q3562577", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.076992, 59.33325]
+      },
+      "properties": {
+         "id": "pmb147893",
+         "title": "Kungliga Dramatiska Teatern",
+         "lat": "59.33325",
+         "lon": "18.076992",
+         "timestamp": ["1923-05-21"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6944469/kungliga-dramatiska-teatern.html", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
       }
       }, 
     {

@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1920-06-01", "1920-06-02", "1920-06-03", "1920-06-04", "1920-06-05", "1920-06-06", "1920-06-07", "1920-06-08", "1920-06-09", "1920-06-10", "1920-06-11", "1920-06-12", "1920-06-13", "1920-06-14", "1920-06-15", "1920-06-16", "1920-06-17", "1920-06-18", "1920-06-19", "1920-06-20", "1920-06-21", "1920-06-24", "1920-06-25", "1920-06-26", "1920-06-27", "1920-06-28", "1920-06-29", "1920-06-30"],
-         "importance": 28, 
+         "timestamp": ["1920-06-01", "1920-06-02", "1920-06-03", "1920-06-04", "1920-06-05", "1920-06-06", "1920-06-07", "1920-06-08", "1920-06-09", "1920-06-10", "1920-06-11", "1920-06-12", "1920-06-13", "1920-06-14", "1920-06-15", "1920-06-16", "1920-06-17", "1920-06-18", "1920-06-19", "1920-06-20", "1920-06-25", "1920-06-26", "1920-06-27", "1920-06-28", "1920-06-29", "1920-06-30"],
+         "importance": 26, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -63,25 +63,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.379829498031, 48.187455471378]
-      },
-      "properties": {
-         "id": "pmb132",
-         "title": "Südbahnhof",
-         "lat": "48.187455471378",
-         "lon": "16.379829498031",
-         "timestamp": ["1920-06-21", "1920-06-24"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q519025", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.361139, 48.210333]
       },
       "properties": {
@@ -89,8 +70,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1920-06-01", "1920-06-08", "1920-06-10", "1920-06-12"],
-         "importance": 4, 
+         "timestamp": ["1920-06-01", "1920-06-10", "1920-06-12"],
+         "importance": 3, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -123,7 +104,7 @@
       },
       "properties": {
          "id": "pmb90328",
-         "title": "Schloss Belvedere [Wien]",
+         "title": "Schloss Belvedere",
          "lat": "48.19156",
          "lon": "16.38091",
          "timestamp": ["1920-06-17"],
@@ -133,45 +114,6 @@
         "geonames": "https://sws.geonames.org/6354997/", 
         "abbr": "S.PAL", 
         "type": "Palast"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.864472, 47.695925]
-      },
-      "properties": {
-         "id": "pmb147590",
-         "title": "Bahnhof Payerbach-Reichenau",
-         "lat": "47.695925",
-         "lon": "15.864472",
-         "timestamp": ["1920-06-21", "1920-06-24"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
-        "wikidata": "http://www.wikidata.org/entity/Q801311", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1920-06-21", "1920-06-22", "1920-06-24"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
       }
       }, 
     {
@@ -196,6 +138,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37312, 48.20122]
+      },
+      "properties": {
+         "id": "pmb43",
+         "title": "Café Imperial",
+         "lat": "48.20122",
+         "lon": "16.37312",
+         "timestamp": ["1920-06-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Imperial_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Imperial", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630919", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.300034240016, 48.246838181084]
       },
       "properties": {
@@ -214,125 +176,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.37045, 48.20969]
-      },
-      "properties": {
-         "id": "pmb1282",
-         "title": "Hotel Wandl",
-         "lat": "48.20969",
-         "lon": "16.37045",
-         "timestamp": ["1920-06-26"],
-         "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.348401, 48.23555]
-      },
-      "properties": {
-         "id": "pmb253629",
-         "title": "Bundesgymnasium Döbling",
-         "lat": "48.23555",
-         "lon": "16.348401",
-         "timestamp": ["1920-06-09"],
-         "importance": 1, 
-        "abbr": "Schule (K.SCH)", 
-        "type": "Schule", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Anton Spigl",
-
-         "p_id": "#25214"
-         }, 
-         {
-
-         "p_name": "Oskar Hantschel",
-
-         "p_id": "#17850"
-         }, 
-         {
-
-         "p_name": "Alois Vetchy",
-
-         "p_id": "#26454"
-         }, 
-         {
-
-         "p_name": "Anton Stranzinger",
-
-         "p_id": "#25568"
-         }, 
-         {
-
-         "p_name": "Franz Matouschek",
-
-         "p_id": "#21159"
-         }, 
-         {
-
-         "p_name": "Arnold Kalich",
-
-         "p_id": "#19019"
-         }, 
-         {
-
-         "p_name": "Guido von Alth",
-
-         "p_id": "#13331"
-         }, 
-         {
-
-         "p_name": "Wenzel Rudofsky",
-
-         "p_id": "#23718"
-         }, 
-         {
-
-         "p_name": "Leopold Winkler",
-
-         "p_id": "#27198"
-         }, 
-         {
-
-         "p_name": "Josef Lesowsky",
-
-         "p_id": "#20346"
-         }, 
-         {
-
-         "p_name": "Florian Weigel",
-
-         "p_id": "#26782"
-         }, 
-         {
-
-         "p_name": "Wenzel Wild",
-
-         "p_id": "#27119"
-         }, 
-         {
-
-         "p_name": "Karl Kunst",
-
-         "p_id": "#19847"
-         }, 
-         {
-
-         "p_name": "Salomon Zimmels",
-
-         "p_id": "#27497"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.291944, 48.233333]
       },
       "properties": {
@@ -345,30 +188,6 @@
         "geonames": "https://sws.geonames.org/2770640/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37312, 48.20122]
-      },
-      "properties": {
-         "id": "pmb126",
-         "title": "Hotel Imperial",
-         "lat": "48.20122",
-         "lon": "16.37312",
-         "timestamp": ["1920-06-09"],
-         "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel", 
-        "wohnort": [
-         {
-
-         "p_name": "Alfred von Nostitz-Wallwitz",
-
-         "p_id": "#22028"
-         }]
       }
       }, 
     {
@@ -439,13 +258,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.26526, 48.25488]
+        "coordinates": [16.293147561818, 48.251927827778]
       },
       "properties": {
          "id": "pmb540",
          "title": "Hameau",
-         "lat": "48.25488",
-         "lon": "16.26526",
+         "lat": "48.251927827778",
+         "lon": "16.293147561818",
          "timestamp": ["1920-06-20", "1920-06-27"],
          "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hameau_(Wien)", 
@@ -473,30 +292,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q2253835", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.371571, 48.208448]
-      },
-      "properties": {
-         "id": "pmb232655",
-         "title": "Goldschmiedgasse 1",
-         "lat": "48.208448",
-         "lon": "16.371571",
-         "timestamp": ["1920-06-04", "1920-06-08", "1920-06-14"],
-         "importance": 3, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Moriz Károlyi",
-
-         "p_id": "#19914"
-         }]
       }
       }, 
     {
@@ -537,130 +332,6 @@
         "geonames": "https://sws.geonames.org/2600997/", 
         "abbr": "T.HLL", 
         "type": "Hügel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.344253, 48.236143]
-      },
-      "properties": {
-         "id": "pmb236102",
-         "title": "Lannerstraße 24",
-         "lat": "48.236143",
-         "lon": "16.344253",
-         "timestamp": ["1920-06-16"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Ludwig Horch",
-
-         "p_id": "#18504"
-         }, 
-         {
-
-         "p_name": "Margarethe Kainz",
-
-         "p_id": "#2273"
-         }, 
-         {
-
-         "p_name": "Josef Kainz",
-
-         "p_id": "#11851"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.33494, 48.23365]
-      },
-      "properties": {
-         "id": "pmb235251",
-         "title": "Hasenauerstraße 59",
-         "lat": "48.23365",
-         "lon": "16.33494",
-         "timestamp": ["1920-06-08"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Julius Bachrach",
-
-         "p_id": "#13648"
-         }, 
-         {
-
-         "p_name": "Paula Beer-Hofmann",
-
-         "p_id": "#10860"
-         }, 
-         {
-
-         "p_name": "Richard Beer-Hofmann",
-
-         "p_id": "#10863"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.34167, 48.233004]
-      },
-      "properties": {
-         "id": "pmb235812",
-         "title": "Cottagegasse 37",
-         "lat": "48.233004",
-         "lon": "16.34167",
-         "timestamp": ["1920-06-30"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Ottilie Salten",
-
-         "p_id": "#23918"
-         }, 
-         {
-
-         "p_name": "Felix Salten",
-
-         "p_id": "#2167"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
-
-         "p_id": "#148414"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.361604, 48.207065]
-      },
-      "properties": {
-         "id": "pmb92585",
-         "title": "Volksgartenrestaurant",
-         "lat": "48.207065",
-         "lon": "16.361604",
-         "timestamp": ["1920-06-10"],
-         "importance": 1
       }
       }, 
     {
@@ -751,8 +422,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1920-06-01", "1920-06-02", "1920-06-03", "1920-06-04", "1920-06-05", "1920-06-06", "1920-06-07", "1920-06-08", "1920-06-09", "1920-06-10", "1920-06-11", "1920-06-12", "1920-06-13", "1920-06-14", "1920-06-15", "1920-06-16", "1920-06-17", "1920-06-18", "1920-06-19", "1920-06-20", "1920-06-21", "1920-06-24", "1920-06-25", "1920-06-26", "1920-06-27", "1920-06-28", "1920-06-29", "1920-06-30"],
-         "importance": 28, 
+         "timestamp": ["1920-06-01", "1920-06-02", "1920-06-03", "1920-06-04", "1920-06-05", "1920-06-06", "1920-06-07", "1920-06-08", "1920-06-09", "1920-06-10", "1920-06-11", "1920-06-12", "1920-06-13", "1920-06-14", "1920-06-15", "1920-06-16", "1920-06-17", "1920-06-18", "1920-06-19", "1920-06-20", "1920-06-25", "1920-06-26", "1920-06-27", "1920-06-28", "1920-06-29", "1920-06-30"],
+         "importance": 26, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -836,8 +507,8 @@
          "title": "Sternwartestraße 62–64",
          "lat": "48.23233",
          "lon": "16.33691",
-         "timestamp": ["1920-06-08", "1920-06-15", "1920-06-26"],
-         "importance": 3, 
+         "timestamp": ["1920-06-15", "1920-06-26"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -950,25 +621,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.380833333333335, 48.19138888888889]
-      },
-      "properties": {
-         "id": "pmb255932",
-         "title": "Österreichische Galerie Belvedere",
-         "lat": "48.19138888888889",
-         "lon": "16.380833333333335",
-         "timestamp": ["1920-06-17"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/%C3%96sterreichische_Galerie_Belvedere", 
-        "wikidata": "http://www.wikidata.org/entity/Q303139", 
-        "abbr": "Museum (K.MUS)", 
-        "type": "Museum"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.296622, 48.183258]
       },
       "properties": {
@@ -1000,8 +652,8 @@
          "title": "Oppolzergasse 6",
          "lat": "48.2116",
          "lon": "16.36171",
-         "timestamp": ["1920-06-01", "1920-06-09", "1920-06-15", "1920-06-18"],
-         "importance": 4, 
+         "timestamp": ["1920-06-01", "1920-06-09"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1028,92 +680,6 @@
          "importance": 1, 
         "abbr": "Anhöhe", 
         "type": "Anhöhe"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.84804, 47.7107]
-      },
-      "properties": {
-         "id": "pmb256813",
-         "title": "Scheiterplatz",
-         "lat": "47.7107",
-         "lon": "15.84804",
-         "timestamp": ["1920-06-22"],
-         "importance": 1, 
-        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.276814, 48.253422]
-      },
-      "properties": {
-         "id": "pmb92473",
-         "title": "Waldrandweg",
-         "lat": "48.253422",
-         "lon": "16.276814",
-         "timestamp": ["1920-06-13"],
-         "importance": 1, 
-        "abbr": "H.STRT", 
-        "type": "Meerenge"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.310712, 48.185592]
-      },
-      "properties": {
-         "id": "pmb92326",
-         "title": "Kammergarten",
-         "lat": "48.185592",
-         "lon": "16.310712",
-         "timestamp": ["1920-06-17"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q96745481", 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.850262, 47.696809]
-      },
-      "properties": {
-         "id": "pmb142169",
-         "title": "Atzberg",
-         "lat": "47.696809",
-         "lon": "15.850262",
-         "timestamp": ["1920-06-22"],
-         "importance": 1, 
-        "abbr": "T.PK", 
-        "type": "Bergspitze"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.81921, 47.693265]
-      },
-      "properties": {
-         "id": "pmb92336",
-         "title": "Kletschka-Höhe",
-         "lat": "47.693265",
-         "lon": "15.81921",
-         "timestamp": ["1920-06-23"],
-         "importance": 1, 
-        "abbr": "Aussichtspunkt", 
-        "type": "Aussichtspunkt"
       }
       }, 
     {

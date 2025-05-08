@@ -702,9 +702,7 @@
          "lon": "9.84327",
          "timestamp": ["1900-08-21", "1900-08-22"],
          "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/St._Moritz", 
-        "wikidata": "http://www.wikidata.org/entity/Q68986", 
-        "geonames": "https://sws.geonames.org/2658813/ https://sws.geonames.org/7287245/", 
+        "geonames": "https://sws.geonames.org/2658813/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -962,7 +960,7 @@
       },
       "properties": {
          "id": "pmb90328",
-         "title": "Schloss Belvedere [Wien]",
+         "title": "Schloss Belvedere",
          "lat": "48.19156",
          "lon": "16.38091",
          "timestamp": ["1900-05-07"],
@@ -1174,26 +1172,6 @@
          "importance": 5, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1900-05-27", "1900-07-09"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
       }
       }, 
     {
@@ -1657,6 +1635,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1900-05-27", "1900-07-09"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.258056, 48.201667]
       },
       "properties": {
@@ -1676,13 +1674,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.62966, 47.61143]
+        "coordinates": [13.63333, 47.6]
       },
       "properties": {
          "id": "pmb65485",
          "title": "Steeg",
-         "lat": "47.61143",
-         "lon": "13.62966",
+         "lat": "47.6",
+         "lon": "13.63333",
          "timestamp": ["1900-06-29"],
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2764604/", 
@@ -1851,7 +1849,7 @@
       },
       "properties": {
          "id": "pmb400",
-         "title": "Hotel Kaiserhof [Berlin]",
+         "title": "Hotel Kaiserhof",
          "lat": "52.51165",
          "lon": "13.385425",
          "timestamp": ["1900-11-24"],

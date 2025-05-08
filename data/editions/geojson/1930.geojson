@@ -102,8 +102,8 @@
          "title": "Oper",
          "lat": "48.203",
          "lon": "16.3691",
-         "timestamp": ["1930-04-04", "1930-09-17", "1930-10-22", "1930-12-02"],
-         "importance": 4, 
+         "timestamp": ["1930-04-04"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
@@ -128,8 +128,8 @@
          "title": "Theater in der Josefstadt",
          "lat": "48.209583",
          "lon": "16.351111",
-         "timestamp": ["1930-01-29", "1930-03-18", "1930-07-09", "1930-10-01", "1930-12-29"],
-         "importance": 5, 
+         "timestamp": ["1930-01-29", "1930-03-18", "1930-07-09"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
         "wikidata": "http://www.wikidata.org/entity/Q167619", 
         "abbr": "Theater (K.THE)", 
@@ -164,8 +164,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1930-02-01", "1930-03-10", "1930-03-26", "1930-04-06", "1930-04-23", "1930-05-22", "1930-10-06", "1930-10-16", "1930-10-18", "1930-10-30", "1930-10-31", "1930-12-01", "1930-12-09", "1930-12-12", "1930-12-13"],
-         "importance": 15, 
+         "timestamp": ["1930-02-01", "1930-03-10", "1930-03-26", "1930-04-06", "1930-04-23", "1930-10-06", "1930-10-18", "1930-10-30", "1930-10-31", "1930-12-01", "1930-12-09", "1930-12-12"],
+         "importance": 12, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -221,8 +221,8 @@
          "title": "Wiednertheater",
          "lat": "48.199478",
          "lon": "16.364351",
-         "timestamp": ["1930-02-11", "1930-02-19", "1930-03-02", "1930-08-15", "1930-11-01"],
-         "importance": 5
+         "timestamp": ["1930-02-11", "1930-02-19", "1930-03-02", "1930-11-01"],
+         "importance": 4
       }
       }, 
     {
@@ -405,9 +405,7 @@
          "lon": "9.84327",
          "timestamp": ["1930-07-17", "1930-07-18", "1930-07-19", "1930-07-20", "1930-07-21", "1930-07-22", "1930-07-23", "1930-07-24", "1930-07-25", "1930-07-26", "1930-07-27", "1930-07-28", "1930-07-29", "1930-07-30", "1930-07-31", "1930-08-01", "1930-08-02", "1930-08-03", "1930-08-04", "1930-08-05", "1930-08-06", "1930-08-07", "1930-08-08", "1930-08-09", "1930-08-10"],
          "importance": 25, 
-        "wikipedia": "https://de.wikipedia.org/wiki/St._Moritz", 
-        "wikidata": "http://www.wikidata.org/entity/Q68986", 
-        "geonames": "https://sws.geonames.org/2658813/ https://sws.geonames.org/7287245/", 
+        "geonames": "https://sws.geonames.org/2658813/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -631,8 +629,8 @@
          "title": "Deutsches Theater Berlin",
          "lat": "52.524444",
          "lon": "13.382222",
-         "timestamp": ["1930-01-05", "1930-11-14"],
-         "importance": 2, 
+         "timestamp": ["1930-01-05"],
+         "importance": 1, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": [
@@ -655,8 +653,8 @@
          "title": "Schauspielhaus Berlin",
          "lat": "52.513611",
          "lon": "13.392222",
-         "timestamp": ["1930-01-04", "1930-01-11", "1930-11-12"],
-         "importance": 3, 
+         "timestamp": ["1930-01-04", "1930-01-11"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Schauspielhaus_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q702548", 
         "abbr": "Theater (K.THE)", 
@@ -766,26 +764,6 @@
         "geonames": "https://sws.geonames.org/2767581/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1930-05-12"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
       }
       }, 
     {
@@ -1279,36 +1257,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.339722, 48.192222]
-      },
-      "properties": {
-         "id": "pmb77",
-         "title": "Raimund-Theater",
-         "lat": "48.192222",
-         "lon": "16.339722",
-         "timestamp": ["1930-05-18", "1930-10-03", "1930-11-04"],
-         "importance": 3, 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Eleonora Duse",
-
-         "p_id": "#11201"
-         }, 
-         {
-
-         "p_name": " Wessely",
-
-         "p_id": "#88046"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.43898217221, 48.19252071812]
       },
       "properties": {
@@ -1322,6 +1270,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q1877731", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1930-05-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -2225,25 +2193,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.350361, 48.224472]
-      },
-      "properties": {
-         "id": "pmb28",
-         "title": "Volksoper Wien",
-         "lat": "48.224472",
-         "lon": "16.350361",
-         "timestamp": ["1930-07-08"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Volksoper_Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q694747", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [15.81667, 47.65]
       },
       "properties": {
@@ -2305,23 +2254,6 @@
 
          "p_id": "#23635"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.3527, 52.4989]
-      },
-      "properties": {
-         "id": "pmb185922",
-         "title": "Metropol-Theater",
-         "lat": "52.4989",
-         "lon": "13.3527",
-         "timestamp": ["1930-11-15"],
-         "importance": 1, 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
       }
       }, 
     {
@@ -3445,25 +3377,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.34629, 48.21327]
-      },
-      "properties": {
-         "id": "pmb211373",
-         "title": "Wiener Stadttheater [8. Wiener Gemeindebezirk]",
-         "lat": "48.21327",
-         "lon": "16.34629",
-         "timestamp": ["1930-11-05"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Stadttheater", 
-        "wikidata": "http://www.wikidata.org/entity/Q2569106", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.11437, 48.13047]
       },
       "properties": {
@@ -3512,24 +3425,6 @@
         "geonames": "https://sws.geonames.org/7290080/", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.334841, 48.221593]
-      },
-      "properties": {
-         "id": "pmb190490",
-         "title": "Apollo-Kino",
-         "lat": "48.221593",
-         "lon": "16.334841",
-         "timestamp": ["1930-10-21", "1930-11-07"],
-         "importance": 2, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gloriakino", 
-        "abbr": "Kino (K.KNO)", 
-        "type": "Kino"
       }
       }, 
     {
@@ -3669,8 +3564,8 @@
          "title": "Akademietheater",
          "lat": "48.200254933632",
          "lon": "16.377117625773",
-         "timestamp": ["1930-02-26", "1930-12-23"],
-         "importance": 2, 
+         "timestamp": ["1930-02-26"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q113470466 http://www.wikidata.org/entity/Q414538", 
         "abbr": "Theater (K.THE)", 
@@ -3694,25 +3589,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q2244724", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.31227, 48.18479]
-      },
-      "properties": {
-         "id": "pmb21799",
-         "title": "Schloss Schönbrunn",
-         "lat": "48.18479",
-         "lon": "16.31227",
-         "timestamp": ["1930-09-26"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Sch%C3%B6nbrunn", 
-        "wikidata": "http://www.wikidata.org/entity/Q131330", 
-        "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
       }
       }, 
     {
@@ -4149,25 +4025,6 @@
          "importance": 2, 
         "abbr": "Botschaft (K.BTS)", 
         "type": "Botschaft"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.3342, 52.5061]
-      },
-      "properties": {
-         "id": "pmb237759",
-         "title": "Ufa-Palast am Zoo",
-         "lat": "52.5061",
-         "lon": "13.3342",
-         "timestamp": ["1930-01-02"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Ufa-Palast_am_Zoo", 
-        "wikidata": "http://www.wikidata.org/entity/Q1285122", 
-        "abbr": "Kino (K.KNO)", 
-        "type": "Kino"
       }
       }, 
     {
@@ -4847,6 +4704,25 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3342, 52.5061]
+      },
+      "properties": {
+         "id": "pmb237759",
+         "title": "Ufa-Palast am Zoo",
+         "lat": "52.5061",
+         "lon": "13.3342",
+         "timestamp": ["1930-01-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ufa-Palast_am_Zoo", 
+        "wikidata": "http://www.wikidata.org/entity/Q1285122", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
       }
       }, 
     {

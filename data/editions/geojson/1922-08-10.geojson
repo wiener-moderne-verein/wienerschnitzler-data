@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.992508, 47.626267], 
             [12.9993833557427, 47.6262355086742], 
-            [13.00275, 47.63156], 
+            [12.994946, 47.630685], 
             [13.00757, 47.63496], 
             [11.561467767769052, 48.13907960520144], 
             [11.555, 48.140833]
@@ -40,17 +41,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.00275, 47.63156]
+        "coordinates": [12.994946, 47.630685]
       },
       "properties": {
-         "id": "pmb289736",
-         "title": "Haus der Berge",
-         "lat": "47.63156",
-         "lon": "13.00275",
+         "id": "pmb289739",
+         "title": "Villa Waldrast",
+         "lat": "47.630685",
+         "lon": "12.994946",
          "timestamp": ["1922-08-10"],
          "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude"
       }
       },
     {
@@ -64,6 +65,23 @@
          "title": "Hotel Bellevue [Berchtesgaden]",
          "lat": "47.63496",
          "lon": "13.00757",
+         "timestamp": ["1922-08-10"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.992508, 47.626267]
+      },
+      "properties": {
+         "id": "pmb292530",
+         "title": "Grand Hotel Auguste Victoria",
+         "lat": "47.626267",
+         "lon": "12.992508",
          "timestamp": ["1922-08-10"],
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 

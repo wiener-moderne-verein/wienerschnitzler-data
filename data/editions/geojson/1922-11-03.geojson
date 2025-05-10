@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.8292, 50.6464], 
             [13.835923, 50.641038], 
-            [15.05619, 50.76711]
+            [15.0456, 50.7614], 
+            [15.06122, 50.76894]
           ]
       },
       "properties": {
@@ -18,20 +20,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.05619, 50.76711]
+        "coordinates": [15.06122, 50.76894]
       },
       "properties": {
-         "id": "pmb47966",
-         "title": "Liberec",
-         "lat": "50.76711",
-         "lon": "15.05619",
+         "id": "pmb291139",
+         "title": "Grandhotel Zlatý Lev",
+         "lat": "50.76894",
+         "lon": "15.06122",
          "timestamp": ["1922-11-03"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Liberec", 
-        "wikidata": "http://www.wikidata.org/entity/Q146351", 
-        "geonames": "https://sws.geonames.org/3071961/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0456, 50.7614]
+      },
+      "properties": {
+         "id": "pmb291143",
+         "title": "Bahnhof Liberec",
+         "lat": "50.7614",
+         "lon": "15.0456",
+         "timestamp": ["1922-11-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Liberec", 
+        "wikidata": "http://www.wikidata.org/entity/Q11755665", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       },
     {
@@ -50,6 +68,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q110947788", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.8292, 50.6464]
+      },
+      "properties": {
+         "id": "pmb291146",
+         "title": "Bahnhof Teplice v Čechách",
+         "lat": "50.6464",
+         "lon": "13.8292",
+         "timestamp": ["1922-11-03"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q12058668", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

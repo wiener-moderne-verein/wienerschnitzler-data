@@ -116,6 +116,27 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.371296264238, 48.202432234197]
+      },
+      "properties": {
+         "id": "pmb112",
+         "title": "Ringstraße",
+         "lat": "48.202432234197",
+         "lon": "16.371296264238",
+         "timestamp": ["1908-06-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Ringstra%C3%9Fe", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=26893", 
+        "wikidata": "http://www.wikidata.org/entity/Q46232", 
+        "geonames": "https://sws.geonames.org/8181703/", 
+        "abbr": "R.ST", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
@@ -1384,8 +1405,8 @@
          "timestamp": ["1908-05-03"],
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2861525/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -1770,6 +1791,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.79259, 47.66349]
+      },
+      "properties": {
+         "id": "pmb233426",
+         "title": "Ortbauer",
+         "lat": "47.66349",
+         "lon": "15.79259",
+         "timestamp": ["1908-11-07", "1908-11-08"],
+         "importance": 2, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.792916, 47.663198]
       },
       "properties": {
@@ -1888,6 +1926,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1908-02-04", "1908-11-08", "1908-12-06"],
+         "importance": 3, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.2911, 48.2553]
       },
       "properties": {
@@ -1908,13 +1964,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.293147561818, 48.251927827778]
+        "coordinates": [16.26526, 48.25488]
       },
       "properties": {
          "id": "pmb540",
          "title": "Hameau",
-         "lat": "48.251927827778",
-         "lon": "16.293147561818",
+         "lat": "48.25488",
+         "lon": "16.26526",
          "timestamp": ["1908-09-15", "1908-09-20"],
          "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hameau_(Wien)", 
@@ -2409,6 +2465,64 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33615, 48.200628]
+      },
+      "properties": {
+         "id": "pmb233980",
+         "title": "Zirkus Schumann",
+         "lat": "48.200628",
+         "lon": "16.33615",
+         "timestamp": ["1908-10-28"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=8287", 
+        "wikidata": "http://www.wikidata.org/entity/Q131277182", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38214, 48.21348]
+      },
+      "properties": {
+         "id": "pmb50933",
+         "title": "Praterstraße",
+         "lat": "48.21348",
+         "lon": "16.38214",
+         "timestamp": ["1908-06-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Praterstra%C3%9Fe", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Praterstraße", 
+        "wikidata": "http://www.wikidata.org/entity/Q2107895", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Schwarz",
+
+         "p_id": "#168977"
+         }, 
+         {
+
+         "p_name": "Moritz Schwarz",
+
+         "p_id": "#168975"
+         }, 
+         {
+
+         "p_name": "Markus Hajek",
+
+         "p_id": "#2284"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.66667, 47.73333]
       },
       "properties": {
@@ -2554,6 +2668,23 @@
 
          "p_id": "#2170"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369299, 48.207163]
+      },
+      "properties": {
+         "id": "pmb234823",
+         "title": "Galerie Miethke",
+         "lat": "48.207163",
+         "lon": "16.369299",
+         "timestamp": ["1908-02-29"],
+         "importance": 1, 
+        "abbr": "Galerie (K.GLR)", 
+        "type": "Galerie"
       }
       }, 
     {
@@ -3051,24 +3182,6 @@
          "importance": 2, 
         "abbr": "Wanderweg (K.WND)", 
         "type": "Wanderweg"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1908-02-04", "1908-11-08", "1908-12-06"],
-         "importance": 3, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
       }
       }, 
     {

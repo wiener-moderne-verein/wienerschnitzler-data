@@ -6,8 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.78243, 47.60998], 
-            [13.77189, 47.6417]
+            [13.776666666666667, 47.59916666666667], 
+            [13.79683, 47.63156], 
+            [13.79093, 47.63761], 
+            [13.800792, 47.643511], 
+            [13.78428, 47.64495], 
+            [13.77189, 47.6417], 
+            [13.760194, 47.64285]
           ]
       },
       "properties": {
@@ -18,37 +23,122 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.78243, 47.60998]
+        "coordinates": [13.77189, 47.6417]
       },
       "properties": {
-         "id": "pmb415",
-         "title": "Bad Aussee",
-         "lat": "47.60998",
-         "lon": "13.78243",
+         "id": "pmb106",
+         "title": "Hotel am See",
+         "lat": "47.6417",
+         "lon": "13.77189",
          "timestamp": ["1920-09-12"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
-        "wikidata": "http://www.wikidata.org/entity/Q251065", 
-        "geonames": "https://sws.geonames.org/2782070/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.77189, 47.6417]
+        "coordinates": [13.78428, 47.64495]
       },
       "properties": {
-         "id": "pmb106",
-         "title": "Seewirt",
-         "lat": "47.6417",
-         "lon": "13.77189",
+         "id": "pmb291026",
+         "title": "Promenadenweg [Nordufer]",
+         "lat": "47.64495",
+         "lon": "13.78428",
          "timestamp": ["1920-09-12"],
          "importance": 1, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.800792, 47.643511]
+      },
+      "properties": {
+         "id": "pmb291021",
+         "title": "Promenadenweg [Ostufer]",
+         "lat": "47.643511",
+         "lon": "13.800792",
+         "timestamp": ["1920-09-12"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.79093, 47.63761]
+      },
+      "properties": {
+         "id": "pmb291023",
+         "title": "Promenadenweg [Südufer]",
+         "lat": "47.63761",
+         "lon": "13.79093",
+         "timestamp": ["1920-09-12"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.760194, 47.64285]
+      },
+      "properties": {
+         "id": "pmb290936",
+         "title": "Villa Gisela und Markus Hajek",
+         "lat": "47.64285",
+         "lon": "13.760194",
+         "timestamp": ["1920-09-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.776666666666667, 47.59916666666667]
+      },
+      "properties": {
+         "id": "pmb263516",
+         "title": "Bahnhof Bad Aussee",
+         "lat": "47.59916666666667",
+         "lon": "13.776666666666667",
+         "timestamp": ["1920-09-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.79683, 47.63156]
+      },
+      "properties": {
+         "id": "pmb264744",
+         "title": "Tressensattel",
+         "lat": "47.63156",
+         "lon": "13.79683",
+         "timestamp": ["1920-09-12"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567364", 
+        "abbr": "Pass (N.PAS)", 
+        "type": "Pass"
       }
       }
   ]

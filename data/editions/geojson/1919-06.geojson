@@ -221,8 +221,8 @@
          "title": "Secession",
          "lat": "48.200364",
          "lon": "16.365508",
-         "timestamp": ["1919-06-21"],
-         "importance": 1, 
+         "timestamp": ["1919-06-03", "1919-06-21"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
         "wikidata": "http://www.wikidata.org/entity/Q265129", 
         "abbr": "Museum (K.MUS)", 
@@ -272,13 +272,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.293147561818, 48.251927827778]
+        "coordinates": [16.26526, 48.25488]
       },
       "properties": {
          "id": "pmb540",
          "title": "Hameau",
-         "lat": "48.251927827778",
-         "lon": "16.293147561818",
+         "lat": "48.25488",
+         "lon": "16.26526",
          "timestamp": ["1919-06-01", "1919-06-08", "1919-06-19", "1919-06-29"],
          "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hameau_(Wien)", 
@@ -453,6 +453,23 @@
 
          "p_id": "#16346"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.23114, 48.012864]
+      },
+      "properties": {
+         "id": "pmb92195",
+         "title": "Kurpark [Baden bei Wien]",
+         "lat": "48.012864",
+         "lon": "16.23114",
+         "timestamp": ["1919-06-03"],
+         "importance": 1, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -765,7 +782,7 @@
       },
       "properties": {
          "id": "pmb254639",
-         "title": "Erholungsheim. Inh. Erna Patak",
+         "title": "Erholungsheim Erna Patak",
          "lat": "48.233662",
          "lon": "16.337485",
          "timestamp": ["1919-06-25"],

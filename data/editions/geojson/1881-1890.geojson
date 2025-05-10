@@ -2126,7 +2126,9 @@
          "lon": "9.84327",
          "timestamp": ["1882-08-06"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2658813/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._Moritz", 
+        "wikidata": "http://www.wikidata.org/entity/Q68986", 
+        "geonames": "https://sws.geonames.org/2658813/ https://sws.geonames.org/7287245/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -4030,7 +4032,7 @@
       },
       "properties": {
          "id": "pmb90328",
-         "title": "Schloss Belvedere",
+         "title": "Schloss Belvedere [Wien]",
          "lat": "48.19156",
          "lon": "16.38091",
          "timestamp": ["1887-03-06"],
@@ -5050,6 +5052,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.391393, 52.507912]
+      },
+      "properties": {
+         "id": "pmb185093",
+         "title": "Blumensäle [Berlin]",
+         "lat": "52.507912",
+         "lon": "13.391393",
+         "timestamp": ["1888-04-27"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.583073, 52.414576]
       },
       "properties": {
@@ -5423,8 +5442,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Calais", 
         "wikidata": "http://www.wikidata.org/entity/Q6454", 
         "geonames": "https://sws.geonames.org/3029162/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -7473,6 +7492,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1889-09-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.365211, 48.189213]
       },
       "properties": {
@@ -9022,7 +9061,7 @@
       },
       "properties": {
          "id": "pmb190287",
-         "title": "Stift St Peter",
+         "title": "Stift Sankt Peter",
          "lat": "47.7969",
          "lon": "13.0458",
          "timestamp": ["1890-09-21"],

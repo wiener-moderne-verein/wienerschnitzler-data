@@ -87,13 +87,13 @@
       },
       "properties": {
          "id": "pmb106",
-         "title": "Seewirt",
+         "title": "Hotel am See",
          "lat": "47.6417",
          "lon": "13.77189",
          "timestamp": ["1894-08-31"],
          "importance": 1, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -1914,7 +1914,9 @@
          "lon": "9.84327",
          "timestamp": ["1900-08-21", "1900-08-22"],
          "importance": 2, 
-        "geonames": "https://sws.geonames.org/2658813/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._Moritz", 
+        "wikidata": "http://www.wikidata.org/entity/Q68986", 
+        "geonames": "https://sws.geonames.org/2658813/ https://sws.geonames.org/7287245/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -2802,7 +2804,7 @@
       },
       "properties": {
          "id": "pmb90328",
-         "title": "Schloss Belvedere",
+         "title": "Schloss Belvedere [Wien]",
          "lat": "48.19156",
          "lon": "16.38091",
          "timestamp": ["1894-04-26", "1900-05-07"],
@@ -3934,6 +3936,26 @@
          "importance": 12, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1894-05-14", "1894-06-24", "1900-05-27", "1900-07-09"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -6429,6 +6451,24 @@
          "timestamp": ["1892-07-24", "1892-07-25", "1892-07-31", "1892-08-01", "1898-07-07"],
          "importance": 5, 
         "geonames": "https://sws.geonames.org/2774429/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.13443, 47.66169]
+      },
+      "properties": {
+         "id": "pmb19852",
+         "title": "Scheiblingkirchen",
+         "lat": "47.66169",
+         "lon": "16.13443",
+         "timestamp": ["1892-07-24", "1892-07-31", "1892-08-01"],
+         "importance": 3, 
+        "geonames": "https://sws.geonames.org/2766061/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -9065,26 +9105,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1894-05-14", "1894-06-24", "1900-05-27", "1900-07-09"],
-         "importance": 4, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [15.8725, 47.65683]
       },
       "properties": {
@@ -9692,13 +9712,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.63333, 47.6]
+        "coordinates": [13.62966, 47.61143]
       },
       "properties": {
          "id": "pmb65485",
          "title": "Steeg",
-         "lat": "47.6",
-         "lon": "13.63333",
+         "lat": "47.61143",
+         "lon": "13.62966",
          "timestamp": ["1894-07-20", "1895-08-04", "1899-08-25", "1900-06-29"],
          "importance": 4, 
         "geonames": "https://sws.geonames.org/2764604/", 
@@ -11291,6 +11311,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [14.435833333333, 50.083055555556]
+      },
+      "properties": {
+         "id": "pmb252051",
+         "title": "Praha hlavní nádraží",
+         "lat": "50.083055555556",
+         "lon": "14.435833333333",
+         "timestamp": ["1895-07-06", "1897-11-24", "1897-11-28"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
+        "wikidata": "http://www.wikidata.org/entity/Q751174", 
+        "geonames": "https://sws.geonames.org/6285753/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.8669, 50.2353]
+      },
+      "properties": {
+         "id": "pmb292557",
+         "title": "Bahnhof Karlovy Vary",
+         "lat": "50.2353",
+         "lon": "12.8669",
+         "timestamp": ["1895-07-06"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q12028735", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.72872, 49.96115]
       },
       "properties": {
@@ -11424,6 +11482,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.082858, 49.450068]
+      },
+      "properties": {
+         "id": "pmb199189",
+         "title": "1. Wiener Restaurant (Inh. Anton Haslinger)",
+         "lat": "49.450068",
+         "lon": "11.082858",
+         "timestamp": ["1895-07-13"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.0883, 49.4577]
       },
       "properties": {
@@ -11437,6 +11512,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q538314", 
         "abbr": "Monument (K.MON)", 
         "type": "Monument"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.081944444444, 49.446388888889]
+      },
+      "properties": {
+         "id": "pmb266364",
+         "title": "Nürnberg Hauptbahnhof",
+         "lat": "49.446388888889",
+         "lon": "11.081944444444",
+         "timestamp": ["1895-07-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q682583", 
+        "geonames": "https://sws.geonames.org/10861110/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -11785,8 +11880,8 @@
          "timestamp": ["1895-09-01"],
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2861525/", 
-        "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -12631,7 +12726,7 @@
       },
       "properties": {
          "id": "pmb400",
-         "title": "Hotel Kaiserhof",
+         "title": "Hotel Kaiserhof [Berlin]",
          "lat": "52.51165",
          "lon": "13.385425",
          "timestamp": ["1896-02-01", "1900-11-24"],
@@ -13523,15 +13618,16 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.008484, 53.553694]
+        "coordinates": [9.99224, 53.55309]
       },
       "properties": {
          "id": "pmb43368",
-         "title": "Hotel zum Kronprinzen [Hamburg]",
-         "lat": "53.553694",
-         "lon": "10.008484",
+         "title": "Hotel zum Kronprinzen [Hamburg, –1911]",
+         "lat": "53.55309",
+         "lon": "9.99224",
          "timestamp": ["1896-07-04", "1896-07-05", "1896-07-06", "1896-07-07"],
          "importance": 4, 
+        "wikidata": "http://www.wikidata.org/entity/Q134416670", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
       }
@@ -13591,6 +13687,23 @@
         "geonames": "https://sws.geonames.org/6944285/", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.99215, 53.553527]
+      },
+      "properties": {
+         "id": "pmb92314",
+         "title": "Jungfernstieg",
+         "lat": "53.553527",
+         "lon": "9.99215",
+         "timestamp": ["1896-07-04", "1896-07-05", "1896-07-06", "1896-07-07"],
+         "importance": 4, 
+        "abbr": "H.STRT", 
+        "type": "Meerenge"
       }
       }, 
     {
@@ -18579,26 +18692,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.435833333333, 50.083055555556]
-      },
-      "properties": {
-         "id": "pmb252051",
-         "title": "Praha hlavní nádraží",
-         "lat": "50.083055555556",
-         "lon": "14.435833333333",
-         "timestamp": ["1897-11-24", "1897-11-28"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
-        "wikidata": "http://www.wikidata.org/entity/Q751174", 
-        "geonames": "https://sws.geonames.org/6285753/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [14.431532, 50.08585]
       },
       "properties": {
@@ -21613,6 +21706,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.388016, 52.519639]
+      },
+      "properties": {
+         "id": "pmb207024",
+         "title": "Hotel National und Restaurant Rosmanith",
+         "lat": "52.519639",
+         "lon": "13.388016",
+         "timestamp": ["1899-05-01"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q130738444", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.31667, 48.38333]
       },
       "properties": {
@@ -23805,6 +23916,23 @@
         "geonames": "https://sws.geonames.org/2773314/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.79259, 47.66349]
+      },
+      "properties": {
+         "id": "pmb233426",
+         "title": "Ortbauer",
+         "lat": "47.66349",
+         "lon": "15.79259",
+         "timestamp": ["1900-07-16"],
+         "importance": 1, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal"
       }
       }, 
     {

@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.350236, 48.210234], 
+            [16.350819, 48.214295], 
             [16.33716, 48.23188], 
-            [16.333568462613, 48.235119783861]
+            [16.333568462613, 48.235119783861], 
+            [16.333056, 48.233056]
           ]
       },
       "properties": {
@@ -29,6 +32,36 @@
          "importance": 1, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1922-10-11"],
+         "importance": 1, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
+         }]
       }
       },
     {
@@ -113,6 +146,53 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350236, 48.210234]
+      },
+      "properties": {
+         "id": "pmb290835",
+         "title": "Donau Verlag-Gesellschaft",
+         "lat": "48.210234",
+         "lon": "16.350236",
+         "timestamp": ["1922-10-11"],
+         "importance": 1, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1922-10-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
          }]
       }
       }

@@ -6,6 +6,7 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.370342, 48.211369], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +14,43 @@
         "name": "7. März 1921"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370342, 48.211369]
+      },
+      "properties": {
+         "id": "pmb234548",
+         "title": "Jordangasse 9",
+         "lat": "48.211369",
+         "lon": "16.370342",
+         "timestamp": ["1921-03-07"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Eduard Geiringer",
+
+         "p_id": "#38269"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Siegmund Adler",
+
+         "p_id": "#13251"
+         }, 
+         {
+
+         "p_name": "Friedrich Geiringer",
+
+         "p_id": "#2170"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

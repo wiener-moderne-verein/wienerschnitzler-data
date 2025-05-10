@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1921-06-01", "1921-06-02", "1921-06-03", "1921-06-04", "1921-06-05", "1921-06-06", "1921-06-07", "1921-06-08", "1921-06-09", "1921-06-10", "1921-06-11", "1921-06-12", "1921-06-13", "1921-06-14", "1921-06-15", "1921-06-27", "1921-06-28", "1921-06-29", "1921-06-30"],
-         "importance": 19, 
+         "timestamp": ["1921-06-01", "1921-06-02", "1921-06-03", "1921-06-04", "1921-06-05", "1921-06-06", "1921-06-07", "1921-06-08", "1921-06-09", "1921-06-10", "1921-06-11", "1921-06-12", "1921-06-13", "1921-06-14", "1921-06-15", "1921-06-16", "1921-06-27", "1921-06-28", "1921-06-29", "1921-06-30"],
+         "importance": 20, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -32,8 +32,8 @@
          "title": "Salzburg",
          "lat": "47.80067",
          "lon": "13.04532",
-         "timestamp": ["1921-06-20", "1921-06-27"],
-         "importance": 2, 
+         "timestamp": ["1921-06-16", "1921-06-20", "1921-06-27"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
@@ -49,13 +49,13 @@
       },
       "properties": {
          "id": "pmb106",
-         "title": "Seewirt",
+         "title": "Hotel am See",
          "lat": "47.6417",
          "lon": "13.77189",
-         "timestamp": ["1921-06-16", "1921-06-17"],
-         "importance": 2, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+         "timestamp": ["1921-06-16", "1921-06-17", "1921-06-18", "1921-06-19"],
+         "importance": 4, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -69,13 +69,32 @@
          "title": "Altaussee",
          "lat": "47.639444",
          "lon": "13.763333",
-         "timestamp": ["1921-06-16", "1921-06-17"],
-         "importance": 2, 
+         "timestamp": ["1921-06-16", "1921-06-17", "1921-06-18", "1921-06-19"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Altaussee", 
         "wikidata": "http://www.wikidata.org/entity/Q262951", 
         "geonames": "https://sws.geonames.org/7872434/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1921-06-16", "1921-06-20"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -205,6 +224,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.81667, 47.61667]
+      },
+      "properties": {
+         "id": "pmb46000",
+         "title": "Grundlsee [Gemeinde]",
+         "lat": "47.61667",
+         "lon": "13.81667",
+         "timestamp": ["1921-06-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grundlsee_(Gemeinde)", 
+        "wikidata": "http://www.wikidata.org/entity/Q700571", 
+        "geonames": "https://sws.geonames.org/7873495/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.355569, 48.240538]
       },
       "properties": {
@@ -217,6 +256,26 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Casino_Zögernitz", 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1921-06-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -345,6 +404,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.61926, 47.71356]
+      },
+      "properties": {
+         "id": "pmb655",
+         "title": "Hotel Kaiserkrone",
+         "lat": "47.71356",
+         "lon": "13.61926",
+         "timestamp": ["1921-06-19", "1921-06-20"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.591944, 48.152778]
       },
       "properties": {
@@ -405,13 +481,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.293147561818, 48.251927827778]
+        "coordinates": [16.26526, 48.25488]
       },
       "properties": {
          "id": "pmb540",
          "title": "Hameau",
-         "lat": "48.251927827778",
-         "lon": "16.293147561818",
+         "lat": "48.25488",
+         "lon": "16.26526",
          "timestamp": ["1921-06-29"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hameau_(Wien)", 
@@ -509,6 +585,62 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.581667, 48.138889]
+      },
+      "properties": {
+         "id": "pmb485",
+         "title": "Hotel Vier Jahreszeiten",
+         "lat": "48.138889",
+         "lon": "11.581667",
+         "timestamp": ["1921-06-20", "1921-06-21", "1921-06-22", "1921-06-23"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Vier_Jahreszeiten_(M%C3%BCnchen)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1388047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.86667, 47.63333]
+      },
+      "properties": {
+         "id": "pmb118878",
+         "title": "Grundlsee [See]",
+         "lat": "47.63333",
+         "lon": "13.86667",
+         "timestamp": ["1921-06-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grundlsee_(See)", 
+        "wikidata": "http://www.wikidata.org/entity/Q473229", 
+        "geonames": "https://sws.geonames.org/2777424/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7884, 47.609927]
+      },
+      "properties": {
+         "id": "pmb52088",
+         "title": "Tauscherin",
+         "lat": "47.609927",
+         "lon": "13.7884",
+         "timestamp": ["1921-06-17"],
+         "importance": 1, 
+        "abbr": "Ausflugsziel", 
+        "type": "Ausflugsziel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.78333, 47.61667]
       },
       "properties": {
@@ -534,8 +666,8 @@
          "title": "Hauptbahnhof München",
          "lat": "48.140833",
          "lon": "11.555",
-         "timestamp": ["1921-06-23"],
-         "importance": 1, 
+         "timestamp": ["1921-06-20", "1921-06-23"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q254647", 
         "geonames": "https://sws.geonames.org/6324603/", 
@@ -609,6 +741,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1921-06-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.583636, 48.13844]
       },
       "properties": {
@@ -652,8 +803,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1921-06-01", "1921-06-02", "1921-06-03", "1921-06-04", "1921-06-05", "1921-06-06", "1921-06-07", "1921-06-08", "1921-06-09", "1921-06-10", "1921-06-11", "1921-06-12", "1921-06-13", "1921-06-14", "1921-06-15", "1921-06-27", "1921-06-28", "1921-06-29", "1921-06-30"],
-         "importance": 19, 
+         "timestamp": ["1921-06-01", "1921-06-02", "1921-06-03", "1921-06-04", "1921-06-05", "1921-06-06", "1921-06-07", "1921-06-08", "1921-06-09", "1921-06-10", "1921-06-11", "1921-06-12", "1921-06-13", "1921-06-14", "1921-06-15", "1921-06-16", "1921-06-27", "1921-06-28", "1921-06-29", "1921-06-30"],
+         "importance": 20, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -791,6 +942,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.383906681096, 48.211453732859]
+      },
+      "properties": {
+         "id": "pmb1013",
+         "title": "Urania",
+         "lat": "48.211453732859",
+         "lon": "16.383906681096",
+         "timestamp": ["1921-06-14"],
+         "importance": 1, 
+        "abbr": "Volksbildungsanstalt (K.VBA)", 
+        "type": "Volksbildungsanstalt", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Bauer",
+
+         "p_id": "#13813"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.367725, 48.212284]
       },
       "properties": {
@@ -839,30 +1014,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.383906681096, 48.211453732859]
-      },
-      "properties": {
-         "id": "pmb1013",
-         "title": "Urania",
-         "lat": "48.211453732859",
-         "lon": "16.383906681096",
-         "timestamp": ["1921-06-14"],
-         "importance": 1, 
-        "abbr": "Volksbildungsanstalt (K.VBA)", 
-        "type": "Volksbildungsanstalt", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Friedrich Bauer",
-
-         "p_id": "#13813"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [11.31038, 47.95947]
       },
       "properties": {
@@ -890,8 +1041,8 @@
          "title": "Bahnhof Bad Aussee",
          "lat": "47.59916666666667",
          "lon": "13.776666666666667",
-         "timestamp": ["1921-06-16"],
-         "importance": 1, 
+         "timestamp": ["1921-06-16", "1921-06-19"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
         "wikidata": "http://www.wikidata.org/entity/Q72823539", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -920,6 +1071,24 @@
 
          "p_id": "#2135"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.79683, 47.63156]
+      },
+      "properties": {
+         "id": "pmb264744",
+         "title": "Tressensattel",
+         "lat": "47.63156",
+         "lon": "13.79683",
+         "timestamp": ["1921-06-18"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q133567364", 
+        "abbr": "Pass (N.PAS)", 
+        "type": "Pass"
       }
       }, 
     {
@@ -963,6 +1132,71 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.760194, 47.64285]
+      },
+      "properties": {
+         "id": "pmb290936",
+         "title": "Villa Gisela und Markus Hajek",
+         "lat": "47.64285",
+         "lon": "13.760194",
+         "timestamp": ["1921-06-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.324798, 48.233421]
+      },
+      "properties": {
+         "id": "pmb292057",
+         "title": "Vereins-Realgymnasium mit Öffentlichkeitsrecht",
+         "lat": "48.233421",
+         "lon": "16.324798",
+         "timestamp": ["1921-06-14"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Wilhelm Schmidt",
+
+         "p_id": "#24315"
+         }, 
+         {
+
+         "p_name": "Eduard Weber",
+
+         "p_id": "#26723"
+         }, 
+         {
+
+         "p_name": "Josef Fritsch",
+
+         "p_id": "#16722"
+         }, 
+         {
+
+         "p_name": "Rudolf Lankus",
+
+         "p_id": "#20119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.34416, 48.00193]
       },
       "properties": {
@@ -975,6 +1209,40 @@
         "geonames": "https://sws.geonames.org/2829457/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.8402723, 47.6279745]
+      },
+      "properties": {
+         "id": "pmb291301",
+         "title": "Schramlgut",
+         "lat": "47.6279745",
+         "lon": "13.8402723",
+         "timestamp": ["1921-06-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.613565, 47.710848]
+      },
+      "properties": {
+         "id": "pmb92179",
+         "title": "Brennerstraße",
+         "lat": "47.710848",
+         "lon": "13.613565",
+         "timestamp": ["1921-06-19"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       }, 
     {
@@ -1019,13 +1287,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.431308333333334, 48.76471111111111]
+        "coordinates": [11.582778, 48.142222]
       },
       "properties": {
          "id": "pmb256574",
          "title": "Bayerisches Armeemuseum",
-         "lat": "48.76471111111111",
-         "lon": "11.431308333333334",
+         "lat": "48.142222",
+         "lon": "11.582778",
          "timestamp": ["1921-06-23"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bayerisches_Armeemuseum", 

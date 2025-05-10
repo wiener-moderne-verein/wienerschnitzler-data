@@ -42,6 +42,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1924-10-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351111, 48.209583]
+      },
+      "properties": {
+         "id": "pmb40",
+         "title": "Theater in der Josefstadt",
+         "lat": "48.209583",
+         "lon": "16.351111",
+         "timestamp": ["1924-10-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q167619", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361139, 48.210333]
       },
       "properties": {
@@ -49,8 +94,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1924-10-10", "1924-10-11", "1924-10-12"],
-         "importance": 3, 
+         "timestamp": ["1924-10-01", "1924-10-02", "1924-10-03", "1924-10-06", "1924-10-07", "1924-10-08", "1924-10-09", "1924-10-10", "1924-10-11", "1924-10-12"],
+         "importance": 10, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -763,6 +808,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.372557, 48.204532]
+      },
+      "properties": {
+         "id": "pmb250518",
+         "title": "Annagasse 5",
+         "lat": "48.204532",
+         "lon": "16.372557",
+         "timestamp": ["1924-10-22"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.357141, 48.21016]
       },
       "properties": {
@@ -808,23 +870,6 @@
          "importance": 1, 
         "abbr": "Verlag", 
         "type": ""
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.372557, 48.204532]
-      },
-      "properties": {
-         "id": "pmb250518",
-         "title": "Annagasse 5",
-         "lat": "48.204532",
-         "lon": "16.372557",
-         "timestamp": ["1924-10-22"],
-         "importance": 1, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
       }
       }
   ]

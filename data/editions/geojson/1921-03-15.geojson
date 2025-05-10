@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.355758, 48.198182], 
+            [16.376082, 48.195793], 
             [16.33716, 48.23188]
           ]
       },
@@ -13,6 +15,47 @@
         "name": "15. März 1921"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355758, 48.198182]
+      },
+      "properties": {
+         "id": "pmb292509",
+         "title": "Windmühlgasse 27",
+         "lat": "48.198182",
+         "lon": "16.355758",
+         "timestamp": ["1921-03-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376082, 48.195793]
+      },
+      "properties": {
+         "id": "pmb264340",
+         "title": "Prinz-Eugen-Straße 16",
+         "lat": "48.195793",
+         "lon": "16.376082",
+         "timestamp": ["1921-03-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ludwig Kárpáth",
+
+         "p_id": "#11885"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {

@@ -132,8 +132,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1923-09-21"],
-         "importance": 1, 
+         "timestamp": ["1923-02-10", "1923-02-18", "1923-09-21"],
+         "importance": 3, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -377,7 +377,9 @@
          "lon": "9.84327",
          "timestamp": ["1923-08-17", "1923-08-19", "1923-08-21", "1923-08-22", "1923-08-24", "1923-08-28", "1923-09-01"],
          "importance": 7, 
-        "geonames": "https://sws.geonames.org/2658813/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._Moritz", 
+        "wikidata": "http://www.wikidata.org/entity/Q68986", 
+        "geonames": "https://sws.geonames.org/2658813/ https://sws.geonames.org/7287245/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -575,6 +577,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q801311", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1923-02-20", "1923-02-21", "1923-02-22"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -1125,8 +1147,8 @@
          "title": "Raimund-Theater",
          "lat": "48.192222",
          "lon": "16.339722",
-         "timestamp": ["1923-01-26", "1923-02-06", "1923-03-03", "1923-03-08", "1923-03-16", "1923-04-13", "1923-04-18", "1923-05-29", "1923-05-30", "1923-09-17", "1923-10-11", "1923-12-18"],
-         "importance": 12, 
+         "timestamp": ["1923-01-26", "1923-02-06", "1923-03-03", "1923-03-08", "1923-03-16", "1923-04-13", "1923-04-18", "1923-05-29", "1923-05-30", "1923-09-17", "1923-10-11", "1923-11-14", "1923-12-18"],
+         "importance": 13, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": [
@@ -1142,26 +1164,6 @@
 
          "p_id": "#88046"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1923-02-20", "1923-02-21"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
       }
       }, 
     {
@@ -1308,6 +1310,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.081944444444, 49.446388888889]
+      },
+      "properties": {
+         "id": "pmb266364",
+         "title": "Nürnberg Hauptbahnhof",
+         "lat": "49.446388888889",
+         "lon": "11.081944444444",
+         "timestamp": ["1923-07-07", "1923-07-08"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q682583", 
+        "geonames": "https://sws.geonames.org/10861110/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.075556, 49.448333]
       },
       "properties": {
@@ -1331,7 +1353,7 @@
       },
       "properties": {
          "id": "pmb400",
-         "title": "Hotel Kaiserhof",
+         "title": "Hotel Kaiserhof [Berlin]",
          "lat": "52.51165",
          "lon": "13.385425",
          "timestamp": ["1923-05-24"],
@@ -1631,6 +1653,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37312, 48.20122]
+      },
+      "properties": {
+         "id": "pmb126",
+         "title": "Hotel Imperial",
+         "lat": "48.20122",
+         "lon": "16.37312",
+         "timestamp": ["1923-11-13"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "wohnort": [
+         {
+
+         "p_name": "Alfred von Nostitz-Wallwitz",
+
+         "p_id": "#22028"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.46667, 47.58333]
       },
       "properties": {
@@ -1662,6 +1708,25 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365508, 48.200364]
+      },
+      "properties": {
+         "id": "pmb7",
+         "title": "Secession",
+         "lat": "48.200364",
+         "lon": "16.365508",
+         "timestamp": ["1923-10-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
+        "wikidata": "http://www.wikidata.org/entity/Q265129", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
       }
       }, 
     {
@@ -1843,13 +1908,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.293147561818, 48.251927827778]
+        "coordinates": [16.26526, 48.25488]
       },
       "properties": {
          "id": "pmb540",
          "title": "Hameau",
-         "lat": "48.251927827778",
-         "lon": "16.293147561818",
+         "lat": "48.25488",
+         "lon": "16.26526",
          "timestamp": ["1923-07-29", "1923-09-23"],
          "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hameau_(Wien)", 
@@ -2209,6 +2274,26 @@
         "geonames": "https://sws.geonames.org/2600997/", 
         "abbr": "T.HLL", 
         "type": "Hügel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.353889, 48.1975]
+      },
+      "properties": {
+         "id": "pmb52023",
+         "title": "Apollo-Theater [Wien]",
+         "lat": "48.1975",
+         "lon": "16.353889",
+         "timestamp": ["1923-11-09"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Apollo-Theater_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Apollokino", 
+        "wikidata": "http://www.wikidata.org/entity/Q618966", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }, 
     {
@@ -2975,8 +3060,8 @@
          "title": "Kammerspiele Wien",
          "lat": "48.211111",
          "lon": "16.375833",
-         "timestamp": ["1923-10-23", "1923-10-24", "1923-12-21"],
-         "importance": 3, 
+         "timestamp": ["1923-04-22", "1923-10-23", "1923-10-24", "1923-12-21"],
+         "importance": 4, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -3201,8 +3286,8 @@
          "title": "Renaissancetheater",
          "lat": "48.201139",
          "lon": "16.349222",
-         "timestamp": ["1923-03-02", "1923-03-09", "1923-03-22"],
-         "importance": 3, 
+         "timestamp": ["1923-03-02", "1923-03-09", "1923-03-22", "1923-04-15", "1923-11-06"],
+         "importance": 5, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
       }
@@ -3255,6 +3340,23 @@
         "geonames": "https://sws.geonames.org/8199053/", 
         "abbr": "S.RSTN", 
         "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.53110009, 46.8536139]
+      },
+      "properties": {
+         "id": "pmb254673",
+         "title": "Hotel Steinbock",
+         "lat": "46.8536139",
+         "lon": "9.53110009",
+         "timestamp": ["1923-08-15", "1923-08-16"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -3941,6 +4043,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.324798, 48.233421]
+      },
+      "properties": {
+         "id": "pmb292057",
+         "title": "Vereins-Realgymnasium mit Öffentlichkeitsrecht",
+         "lat": "48.233421",
+         "lon": "16.324798",
+         "timestamp": ["1923-04-27"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Wilhelm Schmidt",
+
+         "p_id": "#24315"
+         }, 
+         {
+
+         "p_name": "Eduard Weber",
+
+         "p_id": "#26723"
+         }, 
+         {
+
+         "p_name": "Josef Fritsch",
+
+         "p_id": "#16722"
+         }, 
+         {
+
+         "p_name": "Rudolf Lankus",
+
+         "p_id": "#20119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37743, 48.1984]
       },
       "properties": {
@@ -4123,8 +4273,8 @@
          "title": "Sternwartestraße 56",
          "lat": "48.231689",
          "lon": "16.338993",
-         "timestamp": ["1923-02-08", "1923-03-07", "1923-06-09", "1923-06-18", "1923-09-26"],
-         "importance": 5, 
+         "timestamp": ["1923-02-08", "1923-03-07", "1923-06-09", "1923-06-16", "1923-06-18", "1923-09-26"],
+         "importance": 6, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -4218,6 +4368,42 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35149, 48.20209]
+      },
+      "properties": {
+         "id": "pmb266383",
+         "title": "Sascha Filmindustrie",
+         "lat": "48.20209",
+         "lon": "16.35149",
+         "timestamp": ["1923-07-14", "1923-08-01"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sascha_Filmindustrie", 
+        "wikidata": "http://www.wikidata.org/entity/Q471141", 
+        "abbr": "Filmproduktionsfirma", 
+        "type": "Filmproduktionsfirma"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33633, 48.25452]
+      },
+      "properties": {
+         "id": "pmb291172",
+         "title": "Grab von Gustav Mahler",
+         "lat": "48.25452",
+         "lon": "16.33633",
+         "timestamp": ["1923-02-25"],
+         "importance": 1, 
+        "abbr": "Grab", 
+        "type": ""
       }
       }, 
     {
@@ -5033,6 +5219,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [18.076992, 59.33325]
+      },
+      "properties": {
+         "id": "pmb147893",
+         "title": "Kungliga Dramatiska Teatern",
+         "lat": "59.33325",
+         "lon": "18.076992",
+         "timestamp": ["1923-05-17", "1923-05-21", "1923-05-22"],
+         "importance": 3, 
+        "geonames": "https://www.geonames.org/6944469/kungliga-dramatiska-teatern.html", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [18.085302, 59.337024]
       },
       "properties": {
@@ -5089,8 +5293,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Gamla_stan", 
         "wikidata": "http://www.wikidata.org/entity/Q579854", 
         "geonames": "https://sws.geonames.org/2674672/", 
-        "abbr": "kein passender Code gefunden", 
-        "type": ""
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
       }
       }, 
     {
@@ -5171,24 +5375,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q3562577", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [18.076992, 59.33325]
-      },
-      "properties": {
-         "id": "pmb147893",
-         "title": "Kungliga Dramatiska Teatern",
-         "lat": "59.33325",
-         "lon": "18.076992",
-         "timestamp": ["1923-05-21"],
-         "importance": 1, 
-        "geonames": "https://www.geonames.org/6944469/kungliga-dramatiska-teatern.html", 
-        "abbr": "S.THTR", 
-        "type": "Theater"
       }
       }, 
     {
@@ -5889,6 +6075,43 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.080903, 49.447766]
+      },
+      "properties": {
+         "id": "pmb184897",
+         "title": "Hotel Victoria [Nürnberg]",
+         "lat": "49.447766",
+         "lon": "11.080903",
+         "timestamp": ["1923-07-07"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111852005", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.082842, 49.447904]
+      },
+      "properties": {
+         "id": "pmb184900",
+         "title": "Hotel Fürstenhof [Nürnberg]",
+         "lat": "49.447904",
+         "lon": "11.082842",
+         "timestamp": ["1923-07-07", "1923-07-08"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Le_M%C3%A9ridien_Grand_Hotel_N%C3%BCrnberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q1810013", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.2, 48.803]
       },
       "properties": {
@@ -5940,26 +6163,6 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Stuttgart_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q613766", 
         "geonames": "https://sws.geonames.org/6930415/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.081944444444, 49.446388888889]
-      },
-      "properties": {
-         "id": "pmb266364",
-         "title": "Nürnberg Hauptbahnhof",
-         "lat": "49.446388888889",
-         "lon": "11.081944444444",
-         "timestamp": ["1923-07-07", "1923-07-08"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q682583", 
-        "geonames": "https://sws.geonames.org/10861110/", 
         "abbr": "S.RSTN", 
         "type": "Bahnhof"
       }
@@ -7060,8 +7263,8 @@
          "title": "Weihburggasse 9",
          "lat": "48.207002",
          "lon": "16.373041",
-         "timestamp": ["1923-10-12"],
-         "importance": 1, 
+         "timestamp": ["1923-10-08", "1923-10-12"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -7181,6 +7384,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.372557, 48.204532]
+      },
+      "properties": {
+         "id": "pmb250518",
+         "title": "Annagasse 5",
+         "lat": "48.204532",
+         "lon": "16.372557",
+         "timestamp": ["1923-12-08"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36934, 48.21024]
       },
       "properties": {
@@ -7252,6 +7472,25 @@
          "importance": 1, 
         "abbr": "Gericht", 
         "type": "Gericht"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3745, 48.1986]
+      },
+      "properties": {
+         "id": "pmb251194",
+         "title": "Französische Botschaft in Wien",
+         "lat": "48.1986",
+         "lon": "16.3745",
+         "timestamp": ["1923-12-19"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Franz%C3%B6sische_Botschaft_in_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q125918070", 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft"
       }
       }, 
     {

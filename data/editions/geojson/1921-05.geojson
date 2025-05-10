@@ -348,13 +348,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.293147561818, 48.251927827778]
+        "coordinates": [16.26526, 48.25488]
       },
       "properties": {
          "id": "pmb540",
          "title": "Hameau",
-         "lat": "48.251927827778",
-         "lon": "16.293147561818",
+         "lat": "48.25488",
+         "lon": "16.26526",
          "timestamp": ["1921-05-16", "1921-05-29"],
          "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hameau_(Wien)", 
@@ -776,6 +776,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.383906681096, 48.211453732859]
+      },
+      "properties": {
+         "id": "pmb1013",
+         "title": "Urania",
+         "lat": "48.211453732859",
+         "lon": "16.383906681096",
+         "timestamp": ["1921-05-18"],
+         "importance": 1, 
+        "abbr": "Volksbildungsanstalt (K.VBA)", 
+        "type": "Volksbildungsanstalt", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Bauer",
+
+         "p_id": "#13813"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.327625, 48.234219]
       },
       "properties": {
@@ -806,30 +830,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q130400990", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.383906681096, 48.211453732859]
-      },
-      "properties": {
-         "id": "pmb1013",
-         "title": "Urania",
-         "lat": "48.211453732859",
-         "lon": "16.383906681096",
-         "timestamp": ["1921-05-18"],
-         "importance": 1, 
-        "abbr": "Volksbildungsanstalt (K.VBA)", 
-        "type": "Volksbildungsanstalt", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Friedrich Bauer",
-
-         "p_id": "#13813"
-         }]
       }
       }, 
     {
@@ -871,6 +871,54 @@
          "importance": 1, 
         "abbr": "Vergnügungseinrichtung", 
         "type": "Vergnügungseinrichtung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.324798, 48.233421]
+      },
+      "properties": {
+         "id": "pmb292057",
+         "title": "Vereins-Realgymnasium mit Öffentlichkeitsrecht",
+         "lat": "48.233421",
+         "lon": "16.324798",
+         "timestamp": ["1921-05-18"],
+         "importance": 1, 
+        "abbr": "Schule (K.SCH)", 
+        "type": "Schule", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Wilhelm Schmidt",
+
+         "p_id": "#24315"
+         }, 
+         {
+
+         "p_name": "Eduard Weber",
+
+         "p_id": "#26723"
+         }, 
+         {
+
+         "p_name": "Josef Fritsch",
+
+         "p_id": "#16722"
+         }, 
+         {
+
+         "p_name": "Rudolf Lankus",
+
+         "p_id": "#20119"
+         }]
       }
       }, 
     {

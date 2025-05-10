@@ -6,8 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.3707, 48.19955], 
+            [16.372564182283, 48.201265597319], 
             [16.371539, 48.208697], 
+            [16.38157, 48.20903], 
             [16.381895, 48.209294], 
+            [16.369055, 48.212694], 
+            [16.361349, 48.223406], 
             [16.33716, 48.23188]
           ]
       },
@@ -60,6 +65,137 @@
          "importance": 1, 
         "abbr": "Vergnügungseinrichtung", 
         "type": "Vergnügungseinrichtung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369055, 48.212694]
+      },
+      "properties": {
+         "id": "pmb281514",
+         "title": "Wipplingerstraße 20",
+         "lat": "48.212694",
+         "lon": "16.369055",
+         "timestamp": ["1921-02-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ludwig Altmann",
+
+         "p_id": "#13356"
+         }, 
+         {
+
+         "p_name": "Adolf Altmann",
+
+         "p_id": "#13335"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38157, 48.20903]
+      },
+      "properties": {
+         "id": "pmb291552",
+         "title": "Stubenring 14",
+         "lat": "48.20903",
+         "lon": "16.38157",
+         "timestamp": ["1921-02-18"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Sternberg",
+
+         "p_id": "#25505"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1921-02-18"],
+         "importance": 1, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361349, 48.223406]
+      },
+      "properties": {
+         "id": "pmb231945",
+         "title": "Porzellangasse 45",
+         "lat": "48.223406",
+         "lon": "16.361349",
+         "timestamp": ["1921-02-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Leitner",
+
+         "p_id": "#20270"
+         }, 
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }, 
+         {
+
+         "p_name": "Leo Van-Jung",
+
+         "p_id": "#26392"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3707, 48.19955]
+      },
+      "properties": {
+         "id": "pmb291557",
+         "title": "Resselpark",
+         "lat": "48.19955",
+         "lon": "16.3707",
+         "timestamp": ["1921-02-18"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111193552", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       },
     {

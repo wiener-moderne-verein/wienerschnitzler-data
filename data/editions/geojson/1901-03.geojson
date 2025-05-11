@@ -587,8 +587,8 @@
          "title": "Bahnhof Genua",
          "lat": "44.416935291174376",
          "lon": "8.92019924113306",
-         "timestamp": ["1901-03-26"],
-         "importance": 1, 
+         "timestamp": ["1901-03-26", "1901-03-28", "1901-03-30"],
+         "importance": 3, 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
       }
@@ -786,6 +786,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [7.2619444444444, 43.704444444444]
+      },
+      "properties": {
+         "id": "pmb292562",
+         "title": "Gare de Nice-Ville",
+         "lat": "43.704444444444",
+         "lon": "7.2619444444444",
+         "timestamp": ["1901-03-28"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Nice-Ville", 
+        "wikidata": "http://www.wikidata.org/entity/Q738970", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.93782778, 44.42420556]
       },
       "properties": {
@@ -896,6 +915,24 @@
         "geonames": "https://sws.geonames.org/6542122/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.40576, 43.709]
+      },
+      "properties": {
+         "id": "pmb292567",
+         "title": "Stazione Leopolda",
+         "lat": "43.709",
+         "lon": "10.40576",
+         "timestamp": ["1901-03-30"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3968776", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {

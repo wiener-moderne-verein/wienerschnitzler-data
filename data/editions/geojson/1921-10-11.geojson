@@ -7,13 +7,32 @@
         "type": "LineString", 
         "coordinates": [
             [16.33716, 48.23188], 
-            [16.16667, 48.36667]
+            [16.379576773014, 48.230065709671], 
+            [16.21263885, 48.38249969], 
+            [16.17594, 48.3813]
           ]
       },
       "properties": {
         "name": "11. Oktober 1921"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379576773014, 48.230065709671]
+      },
+      "properties": {
+         "id": "pmb202",
+         "title": "Nordwestbahnhof",
+         "lat": "48.230065709671",
+         "lon": "16.379576773014",
+         "timestamp": ["1921-10-11"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -103,18 +122,39 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.16667, 48.36667]
+        "coordinates": [16.17594, 48.3813]
       },
       "properties": {
          "id": "pmb90153",
          "title": "Unterzögersdorf",
-         "lat": "48.36667",
-         "lon": "16.16667",
+         "lat": "48.3813",
+         "lon": "16.17594",
          "timestamp": ["1921-10-11"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Unterz%C3%B6gersdorf", 
+        "wikidata": "http://www.wikidata.org/entity/Q61843775", 
         "geonames": "https://sws.geonames.org/2762531/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.21263885, 48.38249969]
+      },
+      "properties": {
+         "id": "pmb292806",
+         "title": "Bahnhof Stockerau",
+         "lat": "48.38249969",
+         "lon": "16.21263885",
+         "timestamp": ["1921-10-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Stockerau", 
+        "wikidata": "http://www.wikidata.org/entity/Q19588398", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

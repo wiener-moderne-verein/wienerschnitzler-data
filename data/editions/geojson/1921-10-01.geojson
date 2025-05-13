@@ -8,6 +8,8 @@
         "coordinates": [
             [16.296622, 48.183258], 
             [16.370686, 48.212744], 
+            [16.345907, 48.212475], 
+            [16.350819, 48.214295], 
             [16.33716, 48.23188]
           ]
       },
@@ -15,26 +17,6 @@
         "name": "1. Oktober 1921"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.370686, 48.212744]
-      },
-      "properties": {
-         "id": "pmb195987",
-         "title": "Maria am Gestade",
-         "lat": "48.212744",
-         "lon": "16.370686",
-         "timestamp": ["1921-10-01"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Maria_am_Gestade", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=24946", 
-        "wikidata": "http://www.wikidata.org/entity/Q701837", 
-        "abbr": "Kirche (K.KRC)", 
-        "type": "Kirche"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -57,6 +39,53 @@
 
          "p_id": "#2135"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1921-10-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.345907, 48.212475]
+      },
+      "properties": {
+         "id": "pmb291903",
+         "title": "Zahnärztliches Institut der Wiener Universität",
+         "lat": "48.212475",
+         "lon": "16.345907",
+         "timestamp": ["1921-10-01"],
+         "importance": 1, 
+        "abbr": "T.SPIT", 
+        "type": "Landzunge"
       }
       },
     {
@@ -142,6 +171,26 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370686, 48.212744]
+      },
+      "properties": {
+         "id": "pmb195987",
+         "title": "Maria am Gestade",
+         "lat": "48.212744",
+         "lon": "16.370686",
+         "timestamp": ["1921-10-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Maria_am_Gestade", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=24946", 
+        "wikidata": "http://www.wikidata.org/entity/Q701837", 
+        "abbr": "Kirche (K.KRC)", 
+        "type": "Kirche"
       }
       }
   ]

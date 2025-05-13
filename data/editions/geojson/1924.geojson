@@ -3715,36 +3715,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.360145, 48.220337]
+        "coordinates": [16.377475, 48.207779]
       },
       "properties": {
-         "id": "pmb190562",
-         "title": "Fliegerkino",
-         "lat": "48.220337",
-         "lon": "16.360145",
-         "timestamp": ["1924-01-04", "1924-01-14"],
-         "importance": 2, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Fliegerkino", 
-        "abbr": "Kino (K.KNO)", 
-        "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.366551, 48.206783]
-      },
-      "properties": {
-         "id": "pmb48198",
-         "title": "Redoutensaal",
-         "lat": "48.206783",
-         "lon": "16.366551",
-         "timestamp": ["1924-02-14"],
-         "importance": 1, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Redoutensäle", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+         "id": "pmb255067",
+         "title": "Riemergasse 1",
+         "lat": "48.207779",
+         "lon": "16.377475",
+         "timestamp": ["1924-02-01", "1924-02-12", "1924-02-27", "1924-03-04", "1924-03-12"],
+         "importance": 5, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
       }
       }, 
     {
@@ -3781,24 +3769,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.377475, 48.207779]
+        "coordinates": [16.360145, 48.220337]
       },
       "properties": {
-         "id": "pmb255067",
-         "title": "Riemergasse 1",
-         "lat": "48.207779",
-         "lon": "16.377475",
-         "timestamp": ["1924-02-01", "1924-02-12", "1924-02-27", "1924-03-04", "1924-03-12"],
-         "importance": 5, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Moriz Károlyi",
-
-         "p_id": "#19914"
-         }]
+         "id": "pmb190562",
+         "title": "Fliegerkino",
+         "lat": "48.220337",
+         "lon": "16.360145",
+         "timestamp": ["1924-01-04", "1924-01-14"],
+         "importance": 2, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Fliegerkino", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.366551, 48.206783]
+      },
+      "properties": {
+         "id": "pmb48198",
+         "title": "Redoutensaal",
+         "lat": "48.206783",
+         "lon": "16.366551",
+         "timestamp": ["1924-02-14"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Redoutensäle", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }, 
     {

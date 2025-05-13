@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.35689, 48.21787], 
-            [16.33716, 48.23188]
+            [16.37092, 48.20576], 
+            [16.379608025302, 48.204824018066], 
+            [16.33716, 48.23188], 
+            [16.35689, 48.21787]
           ]
       },
       "properties": {
@@ -55,6 +57,41 @@
 
          "p_id": "#2284"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37092, 48.20576]
+      },
+      "properties": {
+         "id": "pmb1120",
+         "title": "Hotel Krantz",
+         "lat": "48.20576",
+         "lon": "16.37092",
+         "timestamp": ["1921-03-30"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Hotel_Krantz", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379608025302, 48.204824018066]
+      },
+      "properties": {
+         "id": "pmb575",
+         "title": "Stadtpark",
+         "lat": "48.204824018066",
+         "lon": "16.379608025302",
+         "timestamp": ["1921-03-30"],
+         "importance": 1, 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       },
     {

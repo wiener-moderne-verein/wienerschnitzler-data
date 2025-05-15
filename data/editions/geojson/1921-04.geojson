@@ -333,6 +333,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.365508, 48.200364]
+      },
+      "properties": {
+         "id": "pmb7",
+         "title": "Secession",
+         "lat": "48.200364",
+         "lon": "16.365508",
+         "timestamp": ["1921-04-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
+        "wikidata": "http://www.wikidata.org/entity/Q265129", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.23036, 48.246719]
       },
       "properties": {
@@ -549,8 +568,8 @@
          "title": "Allgemeine Boden-Credit-Anstalt",
          "lat": "48.21156",
          "lon": "16.36265",
-         "timestamp": ["1921-04-05", "1921-04-15"],
-         "importance": 2, 
+         "timestamp": ["1921-04-05", "1921-04-15", "1921-04-29"],
+         "importance": 3, 
         "abbr": "Bank (K.BNK)", 
         "type": "Bank", 
         "arbeitsort": [
@@ -1051,6 +1070,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.364281, 48.202866]
+      },
+      "properties": {
+         "id": "pmb186043",
+         "title": "Elisabethstraße 22",
+         "lat": "48.202866",
+         "lon": "16.364281",
+         "timestamp": ["1921-04-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Werfel",
+
+         "p_id": "#13094"
+         }, 
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.366111, 48.206389]
       },
       "properties": {
@@ -1096,8 +1145,8 @@
          "title": "Passstelle des Deutschen Reichs",
          "lat": "48.206761",
          "lon": "16.369296",
-         "timestamp": ["1921-04-20"],
-         "importance": 1, 
+         "timestamp": ["1921-04-20", "1921-04-30"],
+         "importance": 2, 
         "abbr": "Infrastrukturgebäude (K.INF)", 
         "type": "Infrastrukturgebäude"
       }
@@ -1178,8 +1227,8 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1921-04-09", "1921-04-23"],
-         "importance": 2, 
+         "timestamp": ["1921-04-09", "1921-04-23", "1921-04-25"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -1266,6 +1315,30 @@
          "importance": 1, 
         "abbr": "T.SPIT", 
         "type": "Landzunge"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35189, 48.2066]
+      },
+      "properties": {
+         "id": "pmb291481",
+         "title": "Lerchenfelderstraße 18",
+         "lat": "48.2066",
+         "lon": "16.35189",
+         "timestamp": ["1921-04-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Arnau",
+
+         "p_id": "#291476"
+         }]
       }
       }, 
     {
@@ -1446,6 +1519,55 @@
          "importance": 1, 
         "abbr": "Verlag", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1921-04-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38422, 48.19757]
+      },
+      "properties": {
+         "id": "pmb292877",
+         "title": "Russische Botschaft in Wien",
+         "lat": "48.19757",
+         "lon": "16.38422",
+         "timestamp": ["1921-04-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Russische_Botschaft_in_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q4555169", 
+        "abbr": "Botschaft (K.BTS)", 
+        "type": "Botschaft"
       }
       }
   ]

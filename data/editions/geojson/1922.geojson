@@ -4545,6 +4545,55 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.338022, 48.233651]
+      },
+      "properties": {
+         "id": "pmb245446",
+         "title": "Gregor-Mendel-Straße 32",
+         "lat": "48.233651",
+         "lon": "16.338022",
+         "timestamp": ["1922-01-01", "1922-02-26", "1922-04-06", "1922-06-27", "1922-12-02", "1922-12-17"],
+         "importance": 6, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Menczel",
+
+         "p_id": "#21304"
+         }, 
+         {
+
+         "p_name": "Philipp Menczel",
+
+         "p_id": "#3119"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.34367, 47.995963]
+      },
+      "properties": {
+         "id": "pmb256572",
+         "title": "Bahnhof Starnberg",
+         "lat": "47.995963",
+         "lon": "11.34367",
+         "timestamp": ["1922-08-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Starnberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q41258362", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.34416, 48.00193]
       },
       "properties": {
@@ -4557,6 +4606,30 @@
         "geonames": "https://sws.geonames.org/2829457/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.30749, 47.94999]
+      },
+      "properties": {
+         "id": "pmb288677",
+         "title": "Forsthaus am See",
+         "lat": "47.94999",
+         "lon": "11.30749",
+         "timestamp": ["1922-05-17"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }]
       }
       }, 
     {
@@ -4613,6 +4686,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.389449, 48.19452]
+      },
+      "properties": {
+         "id": "pmb289371",
+         "title": "Schützengasse 19",
+         "lat": "48.19452",
+         "lon": "16.389449",
+         "timestamp": ["1922-07-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Marcel Dunan",
+
+         "p_id": "#15520"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.553336, 48.145952]
       },
       "properties": {
@@ -4626,25 +4723,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q874166", 
         "abbr": "Bierhaus (K.BIR)", 
         "type": "Bierhaus"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.34367, 47.995963]
-      },
-      "properties": {
-         "id": "pmb256572",
-         "title": "Bahnhof Starnberg",
-         "lat": "47.995963",
-         "lon": "11.34367",
-         "timestamp": ["1922-08-04"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Starnberg", 
-        "wikidata": "http://www.wikidata.org/entity/Q41258362", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -4756,36 +4834,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q627143", 
         "abbr": "Volksbildungsanstalt (K.VBA)", 
         "type": "Volksbildungsanstalt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.338022, 48.233651]
-      },
-      "properties": {
-         "id": "pmb245446",
-         "title": "Gregor-Mendel-Straße 32",
-         "lat": "48.233651",
-         "lon": "16.338022",
-         "timestamp": ["1922-01-01", "1922-02-26", "1922-04-06", "1922-06-27", "1922-12-02", "1922-12-17"],
-         "importance": 6, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Rosa Menczel",
-
-         "p_id": "#21304"
-         }, 
-         {
-
-         "p_name": "Philipp Menczel",
-
-         "p_id": "#3119"
-         }]
       }
       }, 
     {
@@ -6227,30 +6275,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.30749, 47.94999]
-      },
-      "properties": {
-         "id": "pmb288677",
-         "title": "Forsthaus am See",
-         "lat": "47.94999",
-         "lon": "11.30749",
-         "timestamp": ["1922-05-17"],
-         "importance": 1, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Olga Schnitzler",
-
-         "p_id": "#2173"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [11.290224, 47.946938]
       },
       "properties": {
@@ -6528,30 +6552,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q1515097", 
         "abbr": "Friedhof (K.FRH)", 
         "type": "Friedhof"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.389449, 48.19452]
-      },
-      "properties": {
-         "id": "pmb289371",
-         "title": "Schützengasse 19",
-         "lat": "48.19452",
-         "lon": "16.389449",
-         "timestamp": ["1922-07-04"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Marcel Dunan",
-
-         "p_id": "#15520"
-         }]
       }
       }, 
     {

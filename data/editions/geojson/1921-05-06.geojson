@@ -6,9 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.55707, 48.13123], 
             [11.570521871552252, 48.141240506268204], 
             [11.576972, 48.138566], 
-            [11.591944, 48.152778]
+            [11.591944, 48.152778], 
+            [11.59185, 48.16642], 
+            [11.58416, 48.157494]
           ]
       },
       "properties": {
@@ -68,6 +71,57 @@
         "geonames": "https://sws.geonames.org/2930119/", 
         "abbr": "S.GDN", 
         "type": "Garten"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.55707, 48.13123]
+      },
+      "properties": {
+         "id": "pmb292904",
+         "title": "Haydnstraße 10",
+         "lat": "48.13123",
+         "lon": "11.55707",
+         "timestamp": ["1921-05-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.58416, 48.157494]
+      },
+      "properties": {
+         "id": "pmb292374",
+         "title": "Atelier von Leopold Wolfgang Schülein und Suzanne Schülein",
+         "lat": "48.157494",
+         "lon": "11.58416",
+         "timestamp": ["1921-05-06"],
+         "importance": 1, 
+        "abbr": "Atelier", 
+        "type": "Atelier"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.59185, 48.16642]
+      },
+      "properties": {
+         "id": "pmb292927",
+         "title": "Kunigundenstraße 29",
+         "lat": "48.16642",
+         "lon": "11.59185",
+         "timestamp": ["1921-05-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

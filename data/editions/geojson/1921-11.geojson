@@ -369,8 +369,8 @@
          "title": "Cottagegasse 37",
          "lat": "48.233004",
          "lon": "16.34167",
-         "timestamp": ["1921-11-02", "1921-11-08"],
-         "importance": 2, 
+         "timestamp": ["1921-11-02", "1921-11-08", "1921-11-28"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -432,8 +432,8 @@
          "title": "Beethovengasse 6",
          "lat": "48.21787",
          "lon": "16.35689",
-         "timestamp": ["1921-11-02", "1921-11-07", "1921-11-11", "1921-11-29"],
-         "importance": 4, 
+         "timestamp": ["1921-11-02", "1921-11-07", "1921-11-11", "1921-11-27", "1921-11-29"],
+         "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -560,8 +560,8 @@
          "title": "Laudongasse 12",
          "lat": "48.21346",
          "lon": "16.35137",
-         "timestamp": ["1921-11-09", "1921-11-15"],
-         "importance": 2, 
+         "timestamp": ["1921-11-09", "1921-11-15", "1921-11-29"],
+         "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -713,6 +713,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.366548, 48.21306]
+      },
+      "properties": {
+         "id": "pmb256702",
+         "title": "Österreichische Länderbank",
+         "lat": "48.21306",
+         "lon": "16.366548",
+         "timestamp": ["1921-11-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A4nderbankzentrale_(Hohenstaufengasse)", 
+        "wikidata": "http://www.wikidata.org/entity/Q26911630", 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Max Leitner",
+
+         "p_id": "#20270"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.296622, 48.183258]
       },
       "properties": {
@@ -773,6 +799,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.347914, 48.219011]
+      },
+      "properties": {
+         "id": "pmb281683",
+         "title": "Laryngologische Klinik des Allgemeinen Krankenhauses",
+         "lat": "48.219011",
+         "lon": "16.347914",
+         "timestamp": ["1921-11-25"],
+         "importance": 1, 
+        "abbr": "T.SPIT", 
+        "type": "Landzunge"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.350819, 48.214295]
       },
       "properties": {
@@ -780,8 +823,8 @@
          "title": "Lange Gasse 65",
          "lat": "48.214295",
          "lon": "16.350819",
-         "timestamp": ["1921-11-05", "1921-11-12"],
-         "importance": 2, 
+         "timestamp": ["1921-11-05", "1921-11-12", "1921-11-25", "1921-11-29"],
+         "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -868,6 +911,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.363861111111, 48.208416666667]
+      },
+      "properties": {
+         "id": "pmb293084",
+         "title": "Kanzleramt",
+         "lat": "48.208416666667",
+         "lon": "16.363861111111",
+         "timestamp": ["1921-11-13"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q24192165", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.348989, 48.208786]
+      },
+      "properties": {
+         "id": "pmb293100",
+         "title": "Ferdinand Hessel’s »Zur Stadt Brünn«",
+         "lat": "48.208786",
+         "lon": "16.348989",
+         "timestamp": ["1921-11-17"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.398548, 48.21622]
+      },
+      "properties": {
+         "id": "pmb293104",
+         "title": "Gasthaus »Zum Marokkaner«",
+         "lat": "48.21622",
+         "lon": "16.398548",
+         "timestamp": ["1921-11-19"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.360145, 48.220337]
       },
       "properties": {
@@ -880,6 +975,23 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Fliegerkino", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.340953, 48.226958]
+      },
+      "properties": {
+         "id": "pmb293129",
+         "title": "Weimarer Straße 16",
+         "lat": "48.226958",
+         "lon": "16.340953",
+         "timestamp": ["1921-11-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

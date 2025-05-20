@@ -6,12 +6,14 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.4852, 41.8922], 
             [12.480856, 41.876453], 
             [12.492764, 41.880264], 
             [12.492222222222, 41.890277777778], 
             [12.493069444444, 41.893872222222], 
             [12.49479, 41.90399], 
-            [12.4852, 41.8922]
+            [12.48187, 41.90327], 
+            [12.48167114, 41.90197571]
           ]
       },
       "properties": {
@@ -100,6 +102,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.48187, 41.90327]
+      },
+      "properties": {
+         "id": "pmb234002",
+         "title": "Ristorante Umberto",
+         "lat": "41.90327",
+         "lon": "12.48187",
+         "timestamp": ["1904-05-04"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.492764, 41.880264]
       },
       "properties": {
@@ -133,6 +152,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q725404", 
         "abbr": "Monument (K.MON)", 
         "type": "Monument"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.48167114, 41.90197571]
+      },
+      "properties": {
+         "id": "pmb234007",
+         "title": "Hotel Colonna",
+         "lat": "41.90197571",
+         "lon": "12.48167114",
+         "timestamp": ["1904-05-04"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

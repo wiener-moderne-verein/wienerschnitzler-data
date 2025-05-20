@@ -239,8 +239,8 @@
          "title": "Hauptbahnhof Salzburg",
          "lat": "47.813139",
          "lon": "13.045769",
-         "timestamp": ["1902-06-28", "1907-09-12"],
-         "importance": 2, 
+         "timestamp": ["1901-06-25", "1902-06-28", "1907-09-12"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q694694", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -438,8 +438,8 @@
          "title": "Südbahnhof",
          "lat": "48.187455471378",
          "lon": "16.379829498031",
-         "timestamp": ["1903-05-27", "1903-07-11", "1903-08-10", "1903-08-12", "1904-04-04", "1904-04-24", "1904-04-30", "1905-03-25", "1907-03-30", "1907-10-03", "1908-02-04", "1908-10-07", "1908-12-06", "1909-04-03", "1909-06-30", "1909-07-05", "1909-07-06", "1909-07-09", "1909-07-10", "1909-07-14", "1909-07-15", "1910-02-08", "1910-02-10", "1910-02-22", "1910-02-24", "1910-07-06", "1910-07-10", "1910-07-29", "1910-08-13", "1910-10-19"],
-         "importance": 30, 
+         "timestamp": ["1903-05-27", "1903-07-11", "1903-07-28", "1903-07-29", "1903-08-10", "1903-08-12", "1904-04-04", "1904-04-24", "1904-04-30", "1905-03-25", "1907-03-30", "1907-10-03", "1908-02-04", "1908-10-07", "1908-12-06", "1909-04-03", "1909-06-30", "1909-07-05", "1909-07-06", "1909-07-09", "1909-07-10", "1909-07-14", "1909-07-15", "1910-02-08", "1910-02-10", "1910-02-22", "1910-02-24", "1910-07-06", "1910-07-10", "1910-07-29", "1910-08-13", "1910-10-19"],
+         "importance": 32, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -2265,8 +2265,8 @@
          "title": "Hotel Continental [Berlin]",
          "lat": "52.518889",
          "lon": "13.385556",
-         "timestamp": ["1904-02-05", "1904-02-06", "1904-02-07", "1904-02-08", "1904-02-09", "1904-02-10", "1904-02-11", "1904-02-12", "1904-02-13", "1904-02-14", "1904-02-15", "1904-02-16", "1904-02-17", "1905-11-20", "1905-11-23", "1905-11-24", "1905-11-27", "1906-02-04", "1906-02-05", "1906-02-06", "1906-02-07", "1906-02-18", "1906-02-19", "1906-02-20", "1906-02-21", "1906-02-22", "1906-02-23", "1906-02-24", "1906-02-25", "1906-02-26", "1906-02-27", "1906-06-26", "1906-06-27"],
-         "importance": 33, 
+         "timestamp": ["1904-02-05", "1904-02-06", "1904-02-07", "1904-02-08", "1904-02-09", "1904-02-10", "1904-02-11", "1904-02-12", "1904-02-13", "1904-02-14", "1904-02-15", "1904-02-16", "1904-02-17", "1905-11-19", "1905-11-20", "1905-11-21", "1905-11-22", "1905-11-23", "1905-11-24", "1905-11-25", "1905-11-26", "1905-11-27", "1906-02-04", "1906-02-05", "1906-02-06", "1906-02-07", "1906-02-18", "1906-02-19", "1906-02-20", "1906-02-21", "1906-02-22", "1906-02-23", "1906-02-24", "1906-02-25", "1906-02-26", "1906-02-27", "1906-06-26", "1906-06-27"],
+         "importance": 38, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
       }
@@ -4465,6 +4465,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1909-06-20", "1910-09-05"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.385462, 48.213115]
       },
       "properties": {
@@ -6571,6 +6590,26 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1908-09-13", "1909-09-01", "1910-12-08", "1910-12-12"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -16603,6 +16642,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.48187, 41.90327]
+      },
+      "properties": {
+         "id": "pmb234002",
+         "title": "Ristorante Umberto",
+         "lat": "41.90327",
+         "lon": "12.48187",
+         "timestamp": ["1904-05-04", "1904-05-05", "1904-05-07"],
+         "importance": 3, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.480856, 41.876453]
       },
       "properties": {
@@ -16616,6 +16672,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q725404", 
         "abbr": "Monument (K.MON)", 
         "type": "Monument"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.48167114, 41.90197571]
+      },
+      "properties": {
+         "id": "pmb234007",
+         "title": "Hotel Colonna",
+         "lat": "41.90197571",
+         "lon": "12.48167114",
+         "timestamp": ["1904-05-04"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -25052,6 +25125,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.542307, 48.129878]
+      },
+      "properties": {
+         "id": "pmb190399",
+         "title": "Kinematograph-Theater",
+         "lat": "48.129878",
+         "lon": "11.542307",
+         "timestamp": ["1908-05-13"],
+         "importance": 1, 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.5618, 48.1405]
       },
       "properties": {
@@ -26133,26 +26223,6 @@
 
          "p_id": "#12837"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.555, 48.140833]
-      },
-      "properties": {
-         "id": "pmb247583",
-         "title": "Hauptbahnhof München",
-         "lat": "48.140833",
-         "lon": "11.555",
-         "timestamp": ["1908-09-13", "1909-09-01", "1910-12-08", "1910-12-12"],
-         "importance": 4, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q254647", 
-        "geonames": "https://sws.geonames.org/6324603/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
       }
       }, 
     {
@@ -27450,25 +27520,6 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.6273, 47.7122]
-      },
-      "properties": {
-         "id": "pmb248791",
-         "title": "Bahnhof Bad Ischl",
-         "lat": "47.7122",
-         "lon": "13.6273",
-         "timestamp": ["1909-06-20", "1910-09-05"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q800426", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
       }
       }, 
     {

@@ -45,6 +45,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1923-02-10", "1923-02-18"],
+         "importance": 2, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.364351, 48.199478]
       },
       "properties": {
@@ -90,6 +107,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q801311", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1923-02-20", "1923-02-21", "1923-02-22"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -165,26 +202,6 @@
 
          "p_id": "#88046"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1923-02-20", "1923-02-21"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
       }
       }, 
     {
@@ -323,6 +340,30 @@
         "wikidata": "http://www.wikidata.org/entity/Q1546996", 
         "abbr": "Friedhof (K.FRH)", 
         "type": "Friedhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1923-02-06", "1923-02-09", "1923-02-14", "1923-02-28"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
       }
       }, 
     {
@@ -767,6 +808,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368494, 48.193576]
+      },
+      "properties": {
+         "id": "pmb291756",
+         "title": "Brahmsplatz 4",
+         "lat": "48.193576",
+         "lon": "16.368494",
+         "timestamp": ["1923-02-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.820648, 47.6868]
+      },
+      "properties": {
+         "id": "pmb92432",
+         "title": "Orthofstraße",
+         "lat": "47.6868",
+         "lon": "15.820648",
+         "timestamp": ["1923-02-20"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.366551, 48.206783]
       },
       "properties": {
@@ -779,30 +861,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Redoutensäle", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.377475, 48.207779]
-      },
-      "properties": {
-         "id": "pmb255067",
-         "title": "Riemergasse 1",
-         "lat": "48.207779",
-         "lon": "16.377475",
-         "timestamp": ["1923-02-06", "1923-02-09", "1923-02-14", "1923-02-28"],
-         "importance": 4, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Moriz Károlyi",
-
-         "p_id": "#19914"
-         }]
       }
       }, 
     {
@@ -827,6 +885,23 @@
 
          "p_id": "#25563"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33633, 48.25452]
+      },
+      "properties": {
+         "id": "pmb291172",
+         "title": "Grab von Gustav Mahler",
+         "lat": "48.25452",
+         "lon": "16.33633",
+         "timestamp": ["1923-02-25"],
+         "importance": 1, 
+        "abbr": "Grab", 
+        "type": ""
       }
       }, 
     {
@@ -893,23 +968,6 @@
 
          "p_id": "#18422"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.820648, 47.6868]
-      },
-      "properties": {
-         "id": "pmb92432",
-         "title": "Orthofstraße",
-         "lat": "47.6868",
-         "lon": "15.820648",
-         "timestamp": ["1923-02-20"],
-         "importance": 1, 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße"
       }
       }, 
     {

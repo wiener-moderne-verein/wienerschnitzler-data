@@ -171,8 +171,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1918-01-08", "1918-02-01", "1918-02-13", "1918-02-19", "1918-02-28", "1918-03-01", "1918-03-03", "1918-04-06", "1918-04-18", "1918-04-27", "1918-05-15", "1918-05-28", "1918-06-11", "1918-09-14", "1918-09-26", "1918-10-05", "1918-11-14", "1918-11-28", "1918-12-04"],
-         "importance": 19, 
+         "timestamp": ["1918-01-08", "1918-02-01", "1918-02-13", "1918-02-19", "1918-02-28", "1918-03-01", "1918-03-03", "1918-04-06", "1918-04-18", "1918-04-27", "1918-05-15", "1918-05-28", "1918-06-11", "1918-09-14", "1918-09-26", "1918-10-05", "1918-11-14", "1918-11-28", "1918-12-04", "1918-12-22"],
+         "importance": 20, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -1001,6 +1001,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1918-08-26", "1918-08-27", "1918-09-10", "1918-09-11"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.347492624475, 48.216264483348]
       },
       "properties": {
@@ -1650,23 +1670,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.23114, 48.012864]
-      },
-      "properties": {
-         "id": "pmb92195",
-         "title": "Kurpark [Baden bei Wien]",
-         "lat": "48.012864",
-         "lon": "16.23114",
-         "timestamp": ["1918-06-03"],
-         "importance": 1, 
-        "abbr": "Park (K.PRK)", 
-        "type": "Park"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.365828, 48.213294]
       },
       "properties": {
@@ -2025,26 +2028,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q1650133", 
         "abbr": "Wanderweg (K.WND)", 
         "type": "Wanderweg"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.555, 48.140833]
-      },
-      "properties": {
-         "id": "pmb247583",
-         "title": "Hauptbahnhof München",
-         "lat": "48.140833",
-         "lon": "11.555",
-         "timestamp": ["1918-08-26", "1918-08-27", "1918-09-10", "1918-09-11"],
-         "importance": 4, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q254647", 
-        "geonames": "https://sws.geonames.org/6324603/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
       }
       }, 
     {

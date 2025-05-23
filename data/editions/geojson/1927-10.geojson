@@ -86,6 +86,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1927-10-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.365211, 48.189213]
       },
       "properties": {
@@ -327,6 +347,25 @@
 
          "p_id": "#12698"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365508, 48.200364]
+      },
+      "properties": {
+         "id": "pmb7",
+         "title": "Secession",
+         "lat": "48.200364",
+         "lon": "16.365508",
+         "timestamp": ["1927-10-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
+        "wikidata": "http://www.wikidata.org/entity/Q265129", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
       }
       }, 
     {
@@ -650,8 +689,8 @@
          "title": "Schulerstraße 22",
          "lat": "48.20762",
          "lon": "16.37675",
-         "timestamp": ["1927-10-11"],
-         "importance": 1, 
+         "timestamp": ["1927-10-04", "1927-10-11"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -679,6 +718,26 @@
         "geonames": "https://sws.geonames.org/2601130/", 
         "abbr": "L.PRK", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3617, 48.2084]
+      },
+      "properties": {
+         "id": "pmb245035",
+         "title": "Theseustempel",
+         "lat": "48.2084",
+         "lon": "16.3617",
+         "timestamp": ["1927-10-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theseustempel", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=24162", 
+        "wikidata": "http://www.wikidata.org/entity/Q1491188", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
       }
       }, 
     {
@@ -758,6 +817,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368494, 48.193576]
+      },
+      "properties": {
+         "id": "pmb291756",
+         "title": "Brahmsplatz 4",
+         "lat": "48.193576",
+         "lon": "16.368494",
+         "timestamp": ["1927-10-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.338022, 48.233651]
       },
       "properties": {
@@ -806,60 +889,6 @@
          "p_name": "Ernst Benedikt",
 
          "p_id": "#10872"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.36826, 48.2091]
-      },
-      "properties": {
-         "id": "pmb235117",
-         "title": "Kohlmarkt 3",
-         "lat": "48.2091",
-         "lon": "16.36826",
-         "timestamp": ["1927-10-04"],
-         "importance": 1, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Josef Peter",
-
-         "p_id": "#22449"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.365661, 48.225985]
-      },
-      "properties": {
-         "id": "pmb253275",
-         "title": "Rossauer Lände 43",
-         "lat": "48.225985",
-         "lon": "16.365661",
-         "timestamp": ["1927-10-12"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Helene Binder",
-
-         "p_id": "#14218"
-         }, 
-         {
-
-         "p_name": "Josef Binder",
-
-         "p_id": "#14223"
          }]
       }
       }, 

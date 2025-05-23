@@ -7,7 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.361139, 48.210333], 
-            [16.36826, 48.2091], 
+            [16.377117625773, 48.200254933632], 
+            [16.37675, 48.20762], 
             [16.367725, 48.212284], 
             [16.33716, 48.23188]
           ]
@@ -16,6 +17,25 @@
         "name": "18. November 1924"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377117625773, 48.200254933632]
+      },
+      "properties": {
+         "id": "pmb520",
+         "title": "Akademietheater",
+         "lat": "48.200254933632",
+         "lon": "16.377117625773",
+         "timestamp": ["1924-11-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q113470466 http://www.wikidata.org/entity/Q414538", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -153,18 +173,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.36826, 48.2091]
+        "coordinates": [16.37675, 48.20762]
       },
       "properties": {
-         "id": "pmb235117",
-         "title": "Kohlmarkt 3",
-         "lat": "48.2091",
-         "lon": "16.36826",
+         "id": "pmb235120",
+         "title": "Schulerstraße 22",
+         "lat": "48.20762",
+         "lon": "16.37675",
          "timestamp": ["1924-11-18"],
          "importance": 1, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude", 
-        "arbeitsort": [
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
          {
 
          "p_name": "Josef Peter",

@@ -8,9 +8,9 @@
         "coordinates": [
             [16.35137, 48.21346], 
             [16.364351, 48.199478], 
+            [16.368494, 48.193576], 
             [16.36471, 48.200556], 
             [16.377452, 48.193826], 
-            [16.365661, 48.225985], 
             [16.342154562605, 48.250804274577], 
             [16.33286, 48.25644], 
             [16.33716, 48.23188]
@@ -99,6 +99,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368494, 48.193576]
+      },
+      "properties": {
+         "id": "pmb291756",
+         "title": "Brahmsplatz 4",
+         "lat": "48.193576",
+         "lon": "16.368494",
+         "timestamp": ["1928-05-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36471, 48.200556]
       },
       "properties": {
@@ -170,36 +194,6 @@
          "p_name": "Emilie Kalisch",
 
          "p_id": "#19026"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.365661, 48.225985]
-      },
-      "properties": {
-         "id": "pmb253275",
-         "title": "Rossauer Lände 43",
-         "lat": "48.225985",
-         "lon": "16.365661",
-         "timestamp": ["1928-05-23"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Helene Binder",
-
-         "p_id": "#14218"
-         }, 
-         {
-
-         "p_name": "Josef Binder",
-
-         "p_id": "#14223"
          }]
       }
       },

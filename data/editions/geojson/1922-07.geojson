@@ -180,6 +180,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1922-07-19", "1922-07-20", "1922-07-21"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.00442, 48.32653]
       },
       "properties": {
@@ -253,26 +273,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1922-07-19", "1922-07-20", "1922-07-21"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.331527, 48.23428]
       },
       "properties": {
@@ -311,6 +311,26 @@
         "geonames": "https://sws.geonames.org/2829454/", 
         "abbr": "H.LK", 
         "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1922-07-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -429,6 +449,30 @@
          "importance": 1, 
         "abbr": "Tal (N.TAL)", 
         "type": "Tal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1922-07-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
       }
       }, 
     {
@@ -560,26 +604,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q131753267", 
         "abbr": "Wanderweg (K.WND)", 
         "type": "Wanderweg"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.555, 48.140833]
-      },
-      "properties": {
-         "id": "pmb247583",
-         "title": "Hauptbahnhof München",
-         "lat": "48.140833",
-         "lon": "11.555",
-         "timestamp": ["1922-07-26"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q254647", 
-        "geonames": "https://sws.geonames.org/6324603/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
       }
       }, 
     {
@@ -1043,23 +1067,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.377475, 48.207779]
+        "coordinates": [16.389449, 48.19452]
       },
       "properties": {
-         "id": "pmb255067",
-         "title": "Riemergasse 1",
-         "lat": "48.207779",
-         "lon": "16.377475",
-         "timestamp": ["1922-07-14"],
+         "id": "pmb289371",
+         "title": "Schützengasse 19",
+         "lat": "48.19452",
+         "lon": "16.389449",
+         "timestamp": ["1922-07-04"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
          {
 
-         "p_name": "Moriz Károlyi",
+         "p_name": "Marcel Dunan",
 
-         "p_id": "#19914"
+         "p_id": "#15520"
          }]
       }
       }, 
@@ -1095,30 +1119,6 @@
          "importance": 4, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.389449, 48.19452]
-      },
-      "properties": {
-         "id": "pmb289371",
-         "title": "Schützengasse 19",
-         "lat": "48.19452",
-         "lon": "16.389449",
-         "timestamp": ["1922-07-04"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Marcel Dunan",
-
-         "p_id": "#15520"
-         }]
       }
       }, 
     {

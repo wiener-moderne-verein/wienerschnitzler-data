@@ -786,8 +786,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1924-11-04"],
-         "importance": 1, 
+         "timestamp": ["1924-11-04", "1924-11-16", "1924-11-29"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -798,6 +798,30 @@
          "p_name": "Hugo Botstiber",
 
          "p_id": "#10983"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37675, 48.20762]
+      },
+      "properties": {
+         "id": "pmb235120",
+         "title": "Schulerstraße 22",
+         "lat": "48.20762",
+         "lon": "16.37675",
+         "timestamp": ["1924-11-04", "1924-11-18"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
          }]
       }
       }, 
@@ -919,6 +943,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.377117625773, 48.200254933632]
+      },
+      "properties": {
+         "id": "pmb520",
+         "title": "Akademietheater",
+         "lat": "48.200254933632",
+         "lon": "16.377117625773",
+         "timestamp": ["1924-11-18"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q113470466 http://www.wikidata.org/entity/Q414538", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.350819, 48.214295]
       },
       "properties": {
@@ -972,30 +1015,6 @@
          "p_name": "Philipp Menczel",
 
          "p_id": "#3119"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.36826, 48.2091]
-      },
-      "properties": {
-         "id": "pmb235117",
-         "title": "Kohlmarkt 3",
-         "lat": "48.2091",
-         "lon": "16.36826",
-         "timestamp": ["1924-11-04", "1924-11-18"],
-         "importance": 2, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Josef Peter",
-
-         "p_id": "#22449"
          }]
       }
       }, 

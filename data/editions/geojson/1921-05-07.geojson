@@ -6,7 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.570521871552252, 48.141240506268204]
+            [11.55446, 48.0978], 
+            [11.56345, 48.08978], 
+            [11.570521871552252, 48.141240506268204], 
+            [11.56499, 48.14533], 
+            [11.563915, 48.13836]
           ]
       },
       "properties": {
@@ -28,6 +32,78 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.56499, 48.14533]
+      },
+      "properties": {
+         "id": "pmb292932",
+         "title": "Neue Staatsgalerie",
+         "lat": "48.14533",
+         "lon": "11.56499",
+         "timestamp": ["1921-05-07"],
+         "importance": 1, 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.55446, 48.0978]
+      },
+      "properties": {
+         "id": "pmb90853",
+         "title": "Tierpark Hellabrunn",
+         "lat": "48.0978",
+         "lon": "11.55446",
+         "timestamp": ["1921-05-07"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tierpark_Hellabrunn", 
+        "wikidata": "http://www.wikidata.org/entity/Q264691", 
+        "geonames": "https://sws.geonames.org/7733347/", 
+        "abbr": "S.ZOO", 
+        "type": "Zoo"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.56345, 48.08978]
+      },
+      "properties": {
+         "id": "pmb52583",
+         "title": "Harlaching",
+         "lat": "48.08978",
+         "lon": "11.56345",
+         "timestamp": ["1921-05-07"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2910448/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.563915, 48.13836]
+      },
+      "properties": {
+         "id": "pmb292367",
+         "title": "Restaurant Schwarz",
+         "lat": "48.13836",
+         "lon": "11.563915",
+         "timestamp": ["1921-05-07"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

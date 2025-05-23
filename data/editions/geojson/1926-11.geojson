@@ -119,6 +119,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1926-11-17", "1926-11-26"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36471, 48.200556]
       },
       "properties": {
@@ -321,8 +341,8 @@
          "title": "Apollo-Theater [Wien]",
          "lat": "48.1975",
          "lon": "16.353889",
-         "timestamp": ["1926-11-22"],
-         "importance": 1, 
+         "timestamp": ["1926-11-17", "1926-11-22"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Apollo-Theater_(Wien)", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Apollokino", 
         "wikidata": "http://www.wikidata.org/entity/Q618966", 
@@ -727,8 +747,8 @@
          "title": "Wiener Stadttheater [8. Wiener Gemeindebezirk]",
          "lat": "48.21327",
          "lon": "16.34629",
-         "timestamp": ["1926-11-24"],
-         "importance": 1, 
+         "timestamp": ["1926-11-24", "1926-11-26"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Stadttheater", 
         "wikidata": "http://www.wikidata.org/entity/Q2569106", 
         "abbr": "Theater (K.THE)", 
@@ -972,6 +992,24 @@
          "importance": 3, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350949, 48.209524]
+      },
+      "properties": {
+         "id": "pmb251241",
+         "title": "Sträußelsäle",
+         "lat": "48.209524",
+         "lon": "16.350949",
+         "timestamp": ["1926-11-21"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Str%C3%A4u%C3%9Fels%C3%A4le", 
+        "abbr": "Saal", 
+        "type": "Saal"
       }
       }
   ]

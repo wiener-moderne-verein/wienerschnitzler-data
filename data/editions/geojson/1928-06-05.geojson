@@ -20,50 +20,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.371211, 48.206416]
-      },
-      "properties": {
-         "id": "pmb96",
-         "title": "Meissl & Schadn",
-         "lat": "48.206416",
-         "lon": "16.371211",
-         "timestamp": ["1928-06-05"],
-         "importance": 1, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3691, 48.203]
-      },
-      "properties": {
-         "id": "pmb15",
-         "title": "Oper",
-         "lat": "48.203",
-         "lon": "16.3691",
-         "timestamp": ["1928-06-05"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
-        "wikidata": "http://www.wikidata.org/entity/Q209937", 
-        "abbr": "Oper (K.OPR)", 
-        "type": "Oper", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Hans Gregor",
-
-         "p_id": "#2762"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.35689, 48.21787]
       },
       "properties": {
@@ -185,6 +141,50 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371211, 48.206416]
+      },
+      "properties": {
+         "id": "pmb96",
+         "title": "Meissl & Schadn",
+         "lat": "48.206416",
+         "lon": "16.371211",
+         "timestamp": ["1928-06-05"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3691, 48.203]
+      },
+      "properties": {
+         "id": "pmb15",
+         "title": "Oper",
+         "lat": "48.203",
+         "lon": "16.3691",
+         "timestamp": ["1928-06-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
+        "wikidata": "http://www.wikidata.org/entity/Q209937", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Gregor",
+
+         "p_id": "#2762"
          }]
       }
       }

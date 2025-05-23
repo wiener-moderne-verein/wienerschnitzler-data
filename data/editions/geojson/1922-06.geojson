@@ -44,6 +44,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.351111, 48.209583]
+      },
+      "properties": {
+         "id": "pmb40",
+         "title": "Theater in der Josefstadt",
+         "lat": "48.209583",
+         "lon": "16.351111",
+         "timestamp": ["1922-06-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q167619", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36678, 48.20608]
       },
       "properties": {
@@ -958,6 +977,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.378383, 48.206738]
+      },
+      "properties": {
+         "id": "pmb237072",
+         "title": "Ausstellungshalle des Hagenbundes",
+         "lat": "48.206738",
+         "lon": "16.378383",
+         "timestamp": ["1922-06-06"],
+         "importance": 1, 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36171, 48.2116]
       },
       "properties": {
@@ -989,8 +1025,8 @@
          "title": "Akademietheater",
          "lat": "48.200254933632",
          "lon": "16.377117625773",
-         "timestamp": ["1922-06-24"],
-         "importance": 1, 
+         "timestamp": ["1922-06-23", "1922-06-24"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q113470466 http://www.wikidata.org/entity/Q414538", 
         "abbr": "Theater (K.THE)", 
@@ -1031,6 +1067,47 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.364166, 48.19944]
+      },
+      "properties": {
+         "id": "pmb288782",
+         "title": "W. Karczag Verlag",
+         "lat": "48.19944",
+         "lon": "16.364166",
+         "timestamp": ["1922-06-14", "1922-06-24"],
+         "importance": 2, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368494, 48.193576]
+      },
+      "properties": {
+         "id": "pmb291756",
+         "title": "Brahmsplatz 4",
+         "lat": "48.193576",
+         "lon": "16.368494",
+         "timestamp": ["1922-06-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.338022, 48.233651]
       },
       "properties": {
@@ -1055,6 +1132,73 @@
 
          "p_id": "#3119"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.363025, 48.218652]
+      },
+      "properties": {
+         "id": "pmb253790",
+         "title": "Berggasse 19",
+         "lat": "48.218652",
+         "lon": "16.363025",
+         "timestamp": ["1922-06-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q125296475", 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Mathilda Hollitscher",
+
+         "p_id": "#18477"
+         }, 
+         {
+
+         "p_name": "Ernst L. Freud",
+
+         "p_id": "#16549"
+         }, 
+         {
+
+         "p_name": "Anna Freud",
+
+         "p_id": "#7235"
+         }, 
+         {
+
+         "p_name": "Sigmund Freud",
+
+         "p_id": "#11370"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Sigmund Freud",
+
+         "p_id": "#11370"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372467, 48.202986]
+      },
+      "properties": {
+         "id": "pmb264287",
+         "title": "Internationale Konzertdirektion »Ika«",
+         "lat": "48.202986",
+         "lon": "16.372467",
+         "timestamp": ["1922-06-20"],
+         "importance": 1, 
+        "abbr": "Konzertdirektion", 
+        "type": ""
       }
       }, 
     {
@@ -1096,23 +1240,6 @@
 
          "p_id": "#25563"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.372467, 48.202986]
-      },
-      "properties": {
-         "id": "pmb264287",
-         "title": "Internationale Konzertdirektion »Ika«",
-         "lat": "48.202986",
-         "lon": "16.372467",
-         "timestamp": ["1922-06-20"],
-         "importance": 1, 
-        "abbr": "Konzertdirektion", 
-        "type": ""
       }
       }, 
     {
@@ -1290,73 +1417,6 @@
          "importance": 1, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.364166, 48.19944]
-      },
-      "properties": {
-         "id": "pmb288782",
-         "title": "W. Karczag Verlag",
-         "lat": "48.19944",
-         "lon": "16.364166",
-         "timestamp": ["1922-06-14", "1922-06-24"],
-         "importance": 2, 
-        "abbr": "Verlag", 
-        "type": ""
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.363025, 48.218652]
-      },
-      "properties": {
-         "id": "pmb253790",
-         "title": "Berggasse 19",
-         "lat": "48.218652",
-         "lon": "16.363025",
-         "timestamp": ["1922-06-16"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q125296475", 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Mathilda Hollitscher",
-
-         "p_id": "#18477"
-         }, 
-         {
-
-         "p_name": "Ernst L. Freud",
-
-         "p_id": "#16549"
-         }, 
-         {
-
-         "p_name": "Anna Freud",
-
-         "p_id": "#7235"
-         }, 
-         {
-
-         "p_name": "Sigmund Freud",
-
-         "p_id": "#11370"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": "Sigmund Freud",
-
-         "p_id": "#11370"
-         }]
       }
       }, 
     {

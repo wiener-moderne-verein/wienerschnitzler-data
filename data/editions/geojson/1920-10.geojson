@@ -25,6 +25,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1920-10-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1920-10-04", "1920-10-11", "1920-10-18", "1920-10-25"],
+         "importance": 4, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.361139, 48.210333]
       },
       "properties": {
@@ -82,6 +118,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.35032, 48.19522]
+      },
+      "properties": {
+         "id": "pmb56",
+         "title": "VI., Mariahilf",
+         "lat": "48.19522",
+         "lon": "16.35032",
+         "timestamp": ["1920-10-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mariahilf", 
+        "wikidata": "http://www.wikidata.org/entity/Q654812", 
+        "geonames": "https://sws.geonames.org/2771932/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3576, 48.21071]
       },
       "properties": {
@@ -96,6 +152,24 @@
         "geonames": "https://sws.geonames.org/6324756/", 
         "abbr": "S.ADMF", 
         "type": "Verwaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3067984, 48.1806202]
+      },
+      "properties": {
+         "id": "pmb92519",
+         "title": "Schlosspark Schönbrunn",
+         "lat": "48.1806202",
+         "lon": "16.3067984",
+         "timestamp": ["1920-10-27"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q21167264", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
       }
       }, 
     {
@@ -150,6 +224,26 @@
         "geonames": "https://sws.geonames.org/2768462/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.370064, 48.202791]
+      },
+      "properties": {
+         "id": "pmb205",
+         "title": "Hotel Bristol Wien",
+         "lat": "48.202791",
+         "lon": "16.370064",
+         "timestamp": ["1920-10-26", "1920-10-30"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=7575", 
+        "wikidata": "http://www.wikidata.org/entity/Q37865047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -219,13 +313,55 @@
          "title": "Schwarzenbergpark",
          "lat": "48.241960480337",
          "lon": "16.276509500872",
-         "timestamp": ["1920-10-31"],
-         "importance": 1, 
+         "timestamp": ["1920-10-08", "1920-10-16", "1920-10-26", "1920-10-31"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=14846", 
         "wikidata": "http://www.wikidata.org/entity/Q2253835", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361349, 48.223406]
+      },
+      "properties": {
+         "id": "pmb231945",
+         "title": "Porzellangasse 45",
+         "lat": "48.223406",
+         "lon": "16.361349",
+         "timestamp": ["1920-10-13"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Leitner",
+
+         "p_id": "#20270"
+         }, 
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }, 
+         {
+
+         "p_name": "Leo Van-Jung",
+
+         "p_id": "#26392"
+         }]
       }
       }, 
     {
@@ -252,6 +388,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.376085, 48.20835]
+      },
+      "properties": {
+         "id": "pmb236670",
+         "title": "Wollzeile 16",
+         "lat": "48.20835",
+         "lon": "16.376085",
+         "timestamp": ["1920-10-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ludwig Gelber",
+
+         "p_id": "#16962"
+         }, 
+         {
+
+         "p_name": "Marie Lattermann",
+
+         "p_id": "#20146"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33641, 48.23362]
       },
       "properties": {
@@ -259,8 +425,8 @@
          "title": "Türkenschanzstraße 48",
          "lat": "48.23362",
          "lon": "16.33641",
-         "timestamp": ["1920-10-14"],
-         "importance": 1, 
+         "timestamp": ["1920-10-14", "1920-10-15"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -299,6 +465,91 @@
          "p_name": "Paula Schmidl",
 
          "p_id": "#24292"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1920-10-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1920-10-07"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Robert Kugel",
+
+         "p_id": "#19806"
+         }, 
+         {
+
+         "p_name": "Max Feilchenfeld",
+
+         "p_id": "#16127"
+         }, 
+         {
+
+         "p_name": "Moriz Neumann",
+
+         "p_id": "#21897"
+         }, 
+         {
+
+         "p_name": "Ignaz Fleminger",
+
+         "p_id": "#16342"
+         }, 
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
          }]
       }
       }, 
@@ -369,6 +620,25 @@
 
          "p_id": "#2284"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2425, 48.003889]
+      },
+      "properties": {
+         "id": "pmb249350",
+         "title": "Bahnhof Baden bei Wien",
+         "lat": "48.003889",
+         "lon": "16.2425",
+         "timestamp": ["1920-10-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -527,8 +797,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1920-10-22"],
-         "importance": 1, 
+         "timestamp": ["1920-10-07", "1920-10-12", "1920-10-13", "1920-10-14", "1920-10-15", "1920-10-22", "1920-10-23"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -570,6 +840,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36171, 48.2116]
+      },
+      "properties": {
+         "id": "pmb235784",
+         "title": "Oppolzergasse 6",
+         "lat": "48.2116",
+         "lon": "16.36171",
+         "timestamp": ["1920-10-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.381895, 48.209294]
       },
       "properties": {
@@ -600,6 +894,36 @@
         "wikidata": "http://www.wikidata.org/entity/Q2244724", 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1920-10-22", "1920-10-29"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
       }
       }, 
     {
@@ -649,6 +973,240 @@
 
          "p_id": "#2642"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364166, 48.19944]
+      },
+      "properties": {
+         "id": "pmb288782",
+         "title": "W. Karczag Verlag",
+         "lat": "48.19944",
+         "lon": "16.364166",
+         "timestamp": ["1920-10-05", "1920-10-30"],
+         "importance": 2, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368494, 48.193576]
+      },
+      "properties": {
+         "id": "pmb291756",
+         "title": "Brahmsplatz 4",
+         "lat": "48.193576",
+         "lon": "16.368494",
+         "timestamp": ["1920-10-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.347004, 48.204182]
+      },
+      "properties": {
+         "id": "pmb291762",
+         "title": "Adria-Kino",
+         "lat": "48.204182",
+         "lon": "16.347004",
+         "timestamp": ["1920-10-05"],
+         "importance": 1, 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.381997, 48.210245]
+      },
+      "properties": {
+         "id": "pmb291773",
+         "title": "Photoatelier Konrad Swatosch",
+         "lat": "48.210245",
+         "lon": "16.381997",
+         "timestamp": ["1920-10-07"],
+         "importance": 1, 
+        "abbr": "Fotoatelier", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.373977, 48.2064]
+      },
+      "properties": {
+         "id": "pmb291784",
+         "title": "A. Satori, Antiquitätenhandlung",
+         "lat": "48.2064",
+         "lon": "16.373977",
+         "timestamp": ["1920-10-09"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Leopold Satori",
+
+         "p_id": "#23996"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2089, 48.0067]
+      },
+      "properties": {
+         "id": "pmb291795",
+         "title": "Schloss Weilburg",
+         "lat": "48.0067",
+         "lon": "16.2089",
+         "timestamp": ["1920-10-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Weilburg_(Baden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q2244018", 
+        "abbr": "Schloss (K.SLS)", 
+        "type": "Schloss"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350065, 48.24417]
+      },
+      "properties": {
+         "id": "pmb291845",
+         "title": "Heuriger Josef Rockenbauer",
+         "lat": "48.24417",
+         "lon": "16.350065",
+         "timestamp": ["1920-10-23"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357379, 48.215324]
+      },
+      "properties": {
+         "id": "pmb291865",
+         "title": "Bankhaus Kola & Co.",
+         "lat": "48.215324",
+         "lon": "16.357379",
+         "timestamp": ["1920-10-25"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Hans Kapper",
+
+         "p_id": "#11882"
+         }, 
+         {
+
+         "p_name": "Richard Kola",
+
+         "p_id": "#11962"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.294791955612, 48.177785350257]
+      },
+      "properties": {
+         "id": "pmb395",
+         "title": "Wattmanngasse",
+         "lat": "48.177785350257",
+         "lon": "16.294791955612",
+         "timestamp": ["1920-10-27"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34874, 48.22453]
+      },
+      "properties": {
+         "id": "pmb291890",
+         "title": "Währinger Gürtel Kino",
+         "lat": "48.22453",
+         "lon": "16.34874",
+         "timestamp": ["1920-10-29"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q33393998", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359133, 48.200885]
+      },
+      "properties": {
+         "id": "pmb291898",
+         "title": "Franz Löwy. Werkstätte für moderne Bildnisphotographien",
+         "lat": "48.200885",
+         "lon": "16.359133",
+         "timestamp": ["1920-10-30"],
+         "importance": 1, 
+        "abbr": "Fotoatelier", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.345907, 48.212475]
+      },
+      "properties": {
+         "id": "pmb291903",
+         "title": "Zahnärztliches Institut der Wiener Universität",
+         "lat": "48.212475",
+         "lon": "16.345907",
+         "timestamp": ["1920-10-30"],
+         "importance": 1, 
+        "abbr": "T.SPIT", 
+        "type": "Landzunge"
       }
       }
   ]

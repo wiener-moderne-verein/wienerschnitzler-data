@@ -6,10 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.339722, 48.192222], 
             [16.33716, 48.23188], 
-            [16.33641, 48.23362], 
-            [16.332896, 48.253174]
+            [16.339722, 48.192222], 
+            [16.341015, 48.249749], 
+            [16.332896, 48.253174], 
+            [16.33641, 48.23362]
           ]
       },
       "properties": {
@@ -202,6 +203,42 @@
         "wikidata": "http://www.wikidata.org/entity/Q131720151", 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341015, 48.249749]
+      },
+      "properties": {
+         "id": "pmb252863",
+         "title": "Kaasgrabengasse 4",
+         "lat": "48.249749",
+         "lon": "16.341015",
+         "timestamp": ["1922-11-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eva Agathe Wassermann",
+
+         "p_id": "#10446"
+         }, 
+         {
+
+         "p_name": "Julie Wassermann",
+
+         "p_id": "#13058"
+         }, 
+         {
+
+         "p_name": "Jakob Wassermann",
+
+         "p_id": "#13055"
+         }]
       }
       }
   ]

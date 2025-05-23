@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.275822411124, 48.193314432222], 
+            [16.36714, 48.19198], 
+            [16.350819, 48.214295], 
             [16.33716, 48.23188]
           ]
       },
@@ -18,17 +20,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.275822411124, 48.193314432222]
+        "coordinates": [16.350819, 48.214295]
       },
       "properties": {
-         "id": "pmb449",
-         "title": "Auhofstraße",
-         "lat": "48.193314432222",
-         "lon": "16.275822411124",
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
          "timestamp": ["1921-03-29"],
          "importance": 1, 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
       }
       },
     {
@@ -114,6 +129,43 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.275822411124, 48.193314432222]
+      },
+      "properties": {
+         "id": "pmb449",
+         "title": "Auhofstraße",
+         "lat": "48.193314432222",
+         "lon": "16.275822411124",
+         "timestamp": ["1921-03-29"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36714, 48.19198]
+      },
+      "properties": {
+         "id": "pmb54",
+         "title": "IV., Wieden",
+         "lat": "48.19198",
+         "lon": "16.36714",
+         "timestamp": ["1921-03-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wieden_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q268001", 
+        "geonames": "https://sws.geonames.org/2761393/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }
   ]

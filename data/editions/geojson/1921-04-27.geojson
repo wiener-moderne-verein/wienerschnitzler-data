@@ -6,6 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.35189, 48.2066], 
+            [16.365508, 48.200364], 
             [16.33716, 48.23188], 
             [16.333568462613, 48.235119783861]
           ]
@@ -114,6 +116,55 @@
 
          "p_id": "#18732"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35189, 48.2066]
+      },
+      "properties": {
+         "id": "pmb291481",
+         "title": "Lerchenfelderstraße 18",
+         "lat": "48.2066",
+         "lon": "16.35189",
+         "timestamp": ["1921-04-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gabriele Arnau",
+
+         "p_id": "#13484"
+         }, 
+         {
+
+         "p_name": "Helene Arnau",
+
+         "p_id": "#291476"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.365508, 48.200364]
+      },
+      "properties": {
+         "id": "pmb7",
+         "title": "Secession",
+         "lat": "48.200364",
+         "lon": "16.365508",
+         "timestamp": ["1921-04-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
+        "wikidata": "http://www.wikidata.org/entity/Q265129", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
       }
       }
   ]

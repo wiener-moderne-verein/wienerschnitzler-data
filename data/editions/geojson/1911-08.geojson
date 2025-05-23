@@ -307,6 +307,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1911-08-02", "1911-08-21", "1911-08-26", "1911-08-29", "1911-08-30"],
+         "importance": 5, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.91667, 47.63333]
       },
       "properties": {
@@ -428,18 +446,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.83064, 47.63961]
+        "coordinates": [15.83, 47.647222]
       },
       "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1911-08-02", "1911-08-21", "1911-08-26", "1911-08-29", "1911-08-30"],
-         "importance": 5, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
+         "id": "pmb413",
+         "title": "Südbahnhotel [Semmering]",
+         "lat": "47.647222",
+         "lon": "15.83",
+         "timestamp": ["1911-08-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1610900", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Josef Dangl",
+
+         "p_id": "#15221"
+         }, 
+         {
+
+         "p_name": "Karl Rostler",
+
+         "p_id": "#23635"
+         }]
       }
       }, 
     {

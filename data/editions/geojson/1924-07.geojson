@@ -71,8 +71,8 @@
          "title": "Carl-Theater",
          "lat": "48.215",
          "lon": "16.384444",
-         "timestamp": ["1924-07-24"],
-         "importance": 1, 
+         "timestamp": ["1924-07-24", "1924-07-27"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
@@ -831,6 +831,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37675, 48.20762]
+      },
+      "properties": {
+         "id": "pmb235120",
+         "title": "Schulerstraße 22",
+         "lat": "48.20762",
+         "lon": "16.37675",
+         "timestamp": ["1924-07-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.050742, 47.796032]
       },
       "properties": {
@@ -1060,30 +1084,6 @@
          "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.36826, 48.2091]
-      },
-      "properties": {
-         "id": "pmb235117",
-         "title": "Kohlmarkt 3",
-         "lat": "48.2091",
-         "lon": "16.36826",
-         "timestamp": ["1924-07-30"],
-         "importance": 1, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Josef Peter",
-
-         "p_id": "#22449"
-         }]
       }
       }, 
     {

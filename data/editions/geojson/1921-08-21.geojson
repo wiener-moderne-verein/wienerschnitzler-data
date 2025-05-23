@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.78243, 47.60998], 
-            [13.77189, 47.6417]
+            [13.77189, 47.6417], 
+            [13.79093, 47.63761], 
+            [13.800792, 47.643511], 
+            [13.78428, 47.64495], 
+            [13.760194, 47.64285]
           ]
       },
       "properties": {
@@ -35,20 +38,68 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.78243, 47.60998]
+        "coordinates": [13.78428, 47.64495]
       },
       "properties": {
-         "id": "pmb415",
-         "title": "Bad Aussee",
-         "lat": "47.60998",
-         "lon": "13.78243",
+         "id": "pmb291026",
+         "title": "Promenadenweg [Nordufer]",
+         "lat": "47.64495",
+         "lon": "13.78428",
          "timestamp": ["1921-08-21"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
-        "wikidata": "http://www.wikidata.org/entity/Q251065", 
-        "geonames": "https://sws.geonames.org/2782070/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.800792, 47.643511]
+      },
+      "properties": {
+         "id": "pmb291021",
+         "title": "Promenadenweg [Ostufer]",
+         "lat": "47.643511",
+         "lon": "13.800792",
+         "timestamp": ["1921-08-21"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.79093, 47.63761]
+      },
+      "properties": {
+         "id": "pmb291023",
+         "title": "Promenadenweg [Südufer]",
+         "lat": "47.63761",
+         "lon": "13.79093",
+         "timestamp": ["1921-08-21"],
+         "importance": 1, 
+        "abbr": "Wanderweg (K.WND)", 
+        "type": "Wanderweg"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.760194, 47.64285]
+      },
+      "properties": {
+         "id": "pmb290936",
+         "title": "Villa Gisela und Markus Hajek",
+         "lat": "47.64285",
+         "lon": "13.760194",
+         "timestamp": ["1921-08-21"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

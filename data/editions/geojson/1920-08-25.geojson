@@ -6,6 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.620721, 47.712895], 
+            [13.6273, 47.7122], 
+            [13.620278, 47.715], 
             [13.61926, 47.71356]
           ]
       },
@@ -28,6 +31,61 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.620278, 47.715]
+      },
+      "properties": {
+         "id": "pmb47678",
+         "title": "Kaiservilla",
+         "lat": "47.715",
+         "lon": "13.620278",
+         "timestamp": ["1920-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kaiservilla", 
+        "wikidata": "http://www.wikidata.org/entity/Q693042", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.620721, 47.712895]
+      },
+      "properties": {
+         "id": "pmb290926",
+         "title": "Kaffee Konditorei Rudolf Dusch",
+         "lat": "47.712895",
+         "lon": "13.620721",
+         "timestamp": ["1920-08-25"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1920-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }
   ]

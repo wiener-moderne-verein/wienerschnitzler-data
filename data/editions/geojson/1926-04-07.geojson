@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.33716, 48.23188], 
+            [16.36359, 48.20998], 
+            [16.383866, 48.217471], 
             [16.33641, 48.23362], 
+            [16.33716, 48.23188], 
             [16.333056, 48.233056]
           ]
       },
@@ -15,6 +17,23 @@
         "name": "7. April 1926"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.383866, 48.217471]
+      },
+      "properties": {
+         "id": "pmb292047",
+         "title": "Spanisches Konsulat in Wien [1913–nach 1927]",
+         "lat": "48.217471",
+         "lon": "16.383866",
+         "timestamp": ["1926-04-07"],
+         "importance": 1, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -181,6 +200,30 @@
          "p_name": "Elisabeth Jacobus",
 
          "p_id": "#18732"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36359, 48.20998]
+      },
+      "properties": {
+         "id": "pmb24",
+         "title": "Ministerium für Unterricht",
+         "lat": "48.20998",
+         "lon": "16.36359",
+         "timestamp": ["1926-04-07"],
+         "importance": 1, 
+        "abbr": "Ministerium (K.MIN)", 
+        "type": "", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Otto Glöckel",
+
+         "p_id": "#17105"
          }]
       }
       }

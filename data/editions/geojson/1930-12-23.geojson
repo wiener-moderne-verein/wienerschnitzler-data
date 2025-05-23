@@ -8,6 +8,7 @@
         "coordinates": [
             [16.373298, 48.191341], 
             [16.37312, 48.20122], 
+            [16.377117625773, 48.200254933632], 
             [16.338016, 48.234091], 
             [16.33716, 48.23188]
           ]
@@ -16,26 +17,6 @@
         "name": "23. Dezember 1930"
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37312, 48.20122]
-      },
-      "properties": {
-         "id": "pmb43",
-         "title": "Café Imperial",
-         "lat": "48.20122",
-         "lon": "16.37312",
-         "timestamp": ["1930-12-23"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Imperial_(Wien)", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Imperial", 
-        "wikidata": "http://www.wikidata.org/entity/Q1630919", 
-        "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
-      }
-      },
     {
       "type": "Feature",
       "geometry": {
@@ -173,6 +154,45 @@
 
          "p_id": "#15006"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.377117625773, 48.200254933632]
+      },
+      "properties": {
+         "id": "pmb520",
+         "title": "Akademietheater",
+         "lat": "48.200254933632",
+         "lon": "16.377117625773",
+         "timestamp": ["1930-12-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q113470466 http://www.wikidata.org/entity/Q414538", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37312, 48.20122]
+      },
+      "properties": {
+         "id": "pmb43",
+         "title": "Café Imperial",
+         "lat": "48.20122",
+         "lon": "16.37312",
+         "timestamp": ["1930-12-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Imperial_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Imperial", 
+        "wikidata": "http://www.wikidata.org/entity/Q1630919", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
       }
       }
   ]

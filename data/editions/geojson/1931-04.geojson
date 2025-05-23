@@ -57,6 +57,40 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.351111, 48.209583]
+      },
+      "properties": {
+         "id": "pmb40",
+         "title": "Theater in der Josefstadt",
+         "lat": "48.209583",
+         "lon": "16.351111",
+         "timestamp": ["1931-04-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q167619", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.364351, 48.199478]
+      },
+      "properties": {
+         "id": "pmb92603",
+         "title": "Wiednertheater",
+         "lat": "48.199478",
+         "lon": "16.364351",
+         "timestamp": ["1931-04-10"],
+         "importance": 1
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.29101, 48.17547]
       },
       "properties": {
@@ -150,6 +184,26 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Meidling_(Wiener_Bezirksteil) https://de.wikipedia.org/wiki/Meidling", 
         "wikidata": "http://www.wikidata.org/entity/Q1917668 http://www.wikidata.org/entity/Q697557", 
         "geonames": "https://sws.geonames.org/2771704/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1931-04-03", "1931-04-07", "1931-04-10", "1931-04-17", "1931-04-21", "1931-04-24", "1931-04-28"],
+         "importance": 7, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
       }
@@ -722,6 +776,60 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368494, 48.193576]
+      },
+      "properties": {
+         "id": "pmb291756",
+         "title": "Brahmsplatz 4",
+         "lat": "48.193576",
+         "lon": "16.368494",
+         "timestamp": ["1931-04-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.367759, 48.195232]
+      },
+      "properties": {
+         "id": "pmb244901",
+         "title": "Mozartgasse 4",
+         "lat": "48.195232",
+         "lon": "16.367759",
+         "timestamp": ["1931-04-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gertrude von Hofmannsthal",
+
+         "p_id": "#2292"
+         }, 
+         {
+
+         "p_name": "Richard Strauss",
+
+         "p_id": "#12870"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.387056, 48.196938]
       },
       "properties": {
@@ -1052,36 +1160,6 @@
         "geonames": "https://sws.geonames.org/2769062/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.367759, 48.195232]
-      },
-      "properties": {
-         "id": "pmb244901",
-         "title": "Mozartgasse 4",
-         "lat": "48.195232",
-         "lon": "16.367759",
-         "timestamp": ["1931-04-12"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Gertrude von Hofmannsthal",
-
-         "p_id": "#2292"
-         }, 
-         {
-
-         "p_name": "Richard Strauss",
-
-         "p_id": "#12870"
-         }]
       }
       }, 
     {

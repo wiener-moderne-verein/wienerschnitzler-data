@@ -32,8 +32,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1924-09-07", "1924-09-10", "1924-09-16", "1924-09-17", "1924-09-20", "1924-09-22", "1924-09-24", "1924-09-29"],
-         "importance": 8, 
+         "timestamp": ["1924-09-07", "1924-09-10", "1924-09-11", "1924-09-12", "1924-09-13", "1924-09-15", "1924-09-16", "1924-09-17", "1924-09-18", "1924-09-19", "1924-09-20", "1924-09-22", "1924-09-24", "1924-09-25", "1924-09-27", "1924-09-29", "1924-09-30"],
+         "importance": 17, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -786,6 +786,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37675, 48.20762]
+      },
+      "properties": {
+         "id": "pmb235120",
+         "title": "Schulerstraße 22",
+         "lat": "48.20762",
+         "lon": "16.37675",
+         "timestamp": ["1924-09-06", "1924-09-09"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Josef Peter",
+
+         "p_id": "#22449"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3125, 48.186667]
       },
       "properties": {
@@ -828,30 +852,6 @@
          "p_name": "Robert Lichtenstern",
 
          "p_id": "#20398"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.36826, 48.2091]
-      },
-      "properties": {
-         "id": "pmb235117",
-         "title": "Kohlmarkt 3",
-         "lat": "48.2091",
-         "lon": "16.36826",
-         "timestamp": ["1924-09-06", "1924-09-09"],
-         "importance": 2, 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Josef Peter",
-
-         "p_id": "#22449"
          }]
       }
       }, 

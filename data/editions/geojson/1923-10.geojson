@@ -306,6 +306,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.365508, 48.200364]
+      },
+      "properties": {
+         "id": "pmb7",
+         "title": "Secession",
+         "lat": "48.200364",
+         "lon": "16.365508",
+         "timestamp": ["1923-10-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
+        "wikidata": "http://www.wikidata.org/entity/Q265129", 
+        "abbr": "Museum (K.MUS)", 
+        "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1923-10-02", "1923-10-09", "1923-10-24"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.349925, 48.224263]
       },
       "properties": {
@@ -802,18 +845,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.360145, 48.220337]
+        "coordinates": [16.368494, 48.193576]
       },
       "properties": {
-         "id": "pmb190562",
-         "title": "Fliegerkino",
-         "lat": "48.220337",
-         "lon": "16.360145",
-         "timestamp": ["1923-10-08"],
+         "id": "pmb291756",
+         "title": "Brahmsplatz 4",
+         "lat": "48.193576",
+         "lon": "16.368494",
+         "timestamp": ["1923-10-19"],
          "importance": 1, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Fliegerkino", 
-        "abbr": "Kino (K.KNO)", 
-        "type": "Kino"
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
       }
       }, 
     {
@@ -850,41 +899,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.377475, 48.207779]
+        "coordinates": [16.373041, 48.207002]
       },
       "properties": {
-         "id": "pmb255067",
-         "title": "Riemergasse 1",
-         "lat": "48.207779",
-         "lon": "16.377475",
-         "timestamp": ["1923-10-02", "1923-10-09", "1923-10-24"],
-         "importance": 3, 
+         "id": "pmb267559",
+         "title": "Weihburggasse 9",
+         "lat": "48.207002",
+         "lon": "16.373041",
+         "timestamp": ["1923-10-08", "1923-10-12"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": [
+        "arbeitsort": [
          {
 
-         "p_name": "Moriz Károlyi",
+         "p_name": "Arthur Markus",
 
-         "p_id": "#19914"
+         "p_id": "#21061"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3576, 48.21071]
-      },
-      "properties": {
-         "id": "pmb250232",
-         "title": "Magistratsabteilung 10 - Steuern und Abgaben [1920-1939]",
-         "lat": "48.21071",
-         "lon": "16.3576",
-         "timestamp": ["1923-10-19"],
-         "importance": 1, 
-        "abbr": "Verwaltungsgebäude (K.VWL)", 
-        "type": "Verwaltungsgebäude"
       }
       }, 
     {
@@ -904,6 +936,41 @@
         "wikidata": "http://www.wikidata.org/entity/Q877814", 
         "abbr": "Ministerium (K.MIN)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.360145, 48.220337]
+      },
+      "properties": {
+         "id": "pmb190562",
+         "title": "Fliegerkino",
+         "lat": "48.220337",
+         "lon": "16.360145",
+         "timestamp": ["1923-10-08"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Fliegerkino", 
+        "abbr": "Kino (K.KNO)", 
+        "type": "Kino"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3576, 48.21071]
+      },
+      "properties": {
+         "id": "pmb250232",
+         "title": "Magistratsabteilung 10 - Steuern und Abgaben [1920-1939]",
+         "lat": "48.21071",
+         "lon": "16.3576",
+         "timestamp": ["1923-10-19"],
+         "importance": 1, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
       }
       }, 
     {
@@ -946,30 +1013,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Eos-Kino", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.373041, 48.207002]
-      },
-      "properties": {
-         "id": "pmb267559",
-         "title": "Weihburggasse 9",
-         "lat": "48.207002",
-         "lon": "16.373041",
-         "timestamp": ["1923-10-12"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Arthur Markus",
-
-         "p_id": "#21061"
-         }]
       }
       }, 
     {

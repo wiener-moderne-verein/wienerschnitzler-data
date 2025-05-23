@@ -6,8 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [11.563915, 48.13836], 
             [11.570521871552252, 48.141240506268204], 
-            [11.591944, 48.152778]
+            [11.604186, 48.151045], 
+            [11.61505, 48.15818], 
+            [11.591944, 48.152778], 
+            [11.585746, 48.161484]
           ]
       },
       "properties": {
@@ -49,6 +53,95 @@
         "geonames": "https://sws.geonames.org/2930119/", 
         "abbr": "S.GDN", 
         "type": "Garten"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.604186, 48.151045]
+      },
+      "properties": {
+         "id": "pmb292354",
+         "title": "Mauerkircherstraße 24",
+         "lat": "48.151045",
+         "lon": "11.604186",
+         "timestamp": ["1921-05-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Lucy von Jacobi",
+
+         "p_id": "#11806"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.61505, 48.15818]
+      },
+      "properties": {
+         "id": "pmb90871",
+         "title": "Herzogpark",
+         "lat": "48.15818",
+         "lon": "11.61505",
+         "timestamp": ["1921-05-08"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/11610683/", 
+        "abbr": "P.PPLX", 
+        "type": "Ehemaliger Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.585746, 48.161484]
+      },
+      "properties": {
+         "id": "pmb251632",
+         "title": "Leopoldstraße 59/61",
+         "lat": "48.161484",
+         "lon": "11.585746",
+         "timestamp": ["1921-05-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Heinrich Mann",
+
+         "p_id": "#12170"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.563915, 48.13836]
+      },
+      "properties": {
+         "id": "pmb292367",
+         "title": "Restaurant Schwarz",
+         "lat": "48.13836",
+         "lon": "11.563915",
+         "timestamp": ["1921-05-08"],
+         "importance": 1, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }
   ]

@@ -6,7 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.570521871552252, 48.141240506268204]
+            [11.55707, 48.13123], 
+            [11.585161, 48.135523], 
+            [11.5957718922492, 48.1399615940592], 
+            [11.604186, 48.151045], 
+            [11.570521871552252, 48.141240506268204], 
+            [11.569462, 48.140617]
           ]
       },
       "properties": {
@@ -28,6 +33,132 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.55707, 48.13123]
+      },
+      "properties": {
+         "id": "pmb292904",
+         "title": "Haydnstraße 10",
+         "lat": "48.13123",
+         "lon": "11.55707",
+         "timestamp": ["1921-05-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Leo Baerwald",
+
+         "p_id": "#6076"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.585161, 48.135523]
+      },
+      "properties": {
+         "id": "pmb248958",
+         "title": "Mannhardtstraße 3",
+         "lat": "48.135523",
+         "lon": "11.585161",
+         "timestamp": ["1921-05-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Aloisia Chlum",
+
+         "p_id": "#27771"
+         }, 
+         {
+
+         "p_name": "Auguste Glümer",
+
+         "p_id": "#14948"
+         }, 
+         {
+
+         "p_name": "Marie Glümer",
+
+         "p_id": "#14953"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.569462, 48.140617]
+      },
+      "properties": {
+         "id": "pmb292910",
+         "title": "Eberspacher",
+         "lat": "48.140617",
+         "lon": "11.569462",
+         "timestamp": ["1921-05-05"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5957718922492, 48.1399615940592]
+      },
+      "properties": {
+         "id": "pmb292919",
+         "title": "Maximiliansanlagen",
+         "lat": "48.1399615940592",
+         "lon": "11.5957718922492",
+         "timestamp": ["1921-05-05"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Maximiliansanlagen", 
+        "wikidata": "http://www.wikidata.org/entity/Q1914181", 
+        "abbr": "Park (K.PRK)", 
+        "type": "Park"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.604186, 48.151045]
+      },
+      "properties": {
+         "id": "pmb292354",
+         "title": "Mauerkircherstraße 24",
+         "lat": "48.151045",
+         "lon": "11.604186",
+         "timestamp": ["1921-05-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Lucy von Jacobi",
+
+         "p_id": "#11806"
+         }, 
+         {
+
+         "p_name": "Olga Schnitzler",
+
+         "p_id": "#2173"
+         }]
       }
       }
   ]

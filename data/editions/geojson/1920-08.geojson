@@ -12,8 +12,8 @@
          "title": "Wien",
          "lat": "48.208333",
          "lon": "16.373056",
-         "timestamp": ["1920-08-01", "1920-08-02", "1920-08-03", "1920-08-04", "1920-08-05", "1920-08-06", "1920-08-07", "1920-08-08", "1920-08-09", "1920-08-10", "1920-08-11", "1920-08-12", "1920-08-13", "1920-08-14", "1920-08-15", "1920-08-16", "1920-08-17", "1920-08-18", "1920-08-19", "1920-08-20", "1920-08-21", "1920-08-22", "1920-08-23"],
-         "importance": 23, 
+         "timestamp": ["1920-08-01", "1920-08-02", "1920-08-03", "1920-08-04", "1920-08-05", "1920-08-06", "1920-08-07", "1920-08-08", "1920-08-09", "1920-08-10", "1920-08-11", "1920-08-12", "1920-08-13", "1920-08-14", "1920-08-15", "1920-08-16", "1920-08-17", "1920-08-18", "1920-08-19", "1920-08-20", "1920-08-21", "1920-08-22", "1920-08-23", "1920-08-24"],
+         "importance": 24, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien", 
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
@@ -69,8 +69,8 @@
          "title": "Bad Aussee",
          "lat": "47.60998",
          "lon": "13.78243",
-         "timestamp": ["1920-08-27", "1920-08-28", "1920-08-29", "1920-08-30", "1920-08-31"],
-         "importance": 5, 
+         "timestamp": ["1920-08-27", "1920-08-30", "1920-08-31"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
         "wikidata": "http://www.wikidata.org/entity/Q251065", 
         "geonames": "https://sws.geonames.org/2782070/", 
@@ -96,6 +96,26 @@
         "geonames": "https://sws.geonames.org/2782052/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1920-08-24"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -188,6 +208,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.370064, 48.202791]
+      },
+      "properties": {
+         "id": "pmb205",
+         "title": "Hotel Bristol Wien",
+         "lat": "48.202791",
+         "lon": "16.370064",
+         "timestamp": ["1920-08-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=7575", 
+        "wikidata": "http://www.wikidata.org/entity/Q37865047", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.291944, 48.233333]
       },
       "properties": {
@@ -206,6 +246,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1920-08-24", "1920-08-25", "1920-08-27"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.61926, 47.71356]
       },
       "properties": {
@@ -213,10 +272,28 @@
          "title": "Hotel Kaiserkrone",
          "lat": "47.71356",
          "lon": "13.61926",
-         "timestamp": ["1920-08-25"],
-         "importance": 1, 
+         "timestamp": ["1920-08-24", "1920-08-25", "1920-08-26", "1920-08-27"],
+         "importance": 4, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.6326, 47.71254]
+      },
+      "properties": {
+         "id": "pmb405",
+         "title": "Steinfeld",
+         "lat": "47.71254",
+         "lon": "13.6326",
+         "timestamp": ["1920-08-24"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/11903844/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -270,13 +347,30 @@
          "title": "Schwarzenbergpark",
          "lat": "48.241960480337",
          "lon": "16.276509500872",
-         "timestamp": ["1920-08-08", "1920-08-15"],
-         "importance": 2, 
+         "timestamp": ["1920-08-01", "1920-08-08", "1920-08-15"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Schwarzenbergpark", 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=14846", 
         "wikidata": "http://www.wikidata.org/entity/Q2253835", 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.349904, 48.224262]
+      },
+      "properties": {
+         "id": "pmb235514",
+         "title": "Restaurant zum Jubiläumstheater, Inh. Josef Gruss",
+         "lat": "48.224262",
+         "lon": "16.349904",
+         "timestamp": ["1920-08-18", "1920-08-20"],
+         "importance": 2, 
+        "abbr": "S.REST", 
+        "type": "Restaurant"
       }
       }, 
     {
@@ -309,8 +403,8 @@
          "title": "Sternwartestraße 71",
          "lat": "48.23188",
          "lon": "16.33716",
-         "timestamp": ["1920-08-01", "1920-08-02", "1920-08-03", "1920-08-04", "1920-08-05", "1920-08-06", "1920-08-07", "1920-08-08", "1920-08-09", "1920-08-10", "1920-08-11", "1920-08-12", "1920-08-13", "1920-08-14", "1920-08-15", "1920-08-16", "1920-08-17", "1920-08-18", "1920-08-19", "1920-08-20", "1920-08-21", "1920-08-22", "1920-08-23"],
-         "importance": 23, 
+         "timestamp": ["1920-08-01", "1920-08-02", "1920-08-03", "1920-08-04", "1920-08-05", "1920-08-06", "1920-08-07", "1920-08-08", "1920-08-09", "1920-08-10", "1920-08-11", "1920-08-12", "1920-08-13", "1920-08-14", "1920-08-15", "1920-08-16", "1920-08-17", "1920-08-18", "1920-08-19", "1920-08-20", "1920-08-21", "1920-08-22", "1920-08-23", "1920-08-24"],
+         "importance": 24, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -404,6 +498,91 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.331713, 48.237499]
+      },
+      "properties": {
+         "id": "pmb236861",
+         "title": "Krankenhaus der Wiener Kaufmannschaft",
+         "lat": "48.237499",
+         "lon": "16.331713",
+         "timestamp": ["1920-08-14"],
+         "importance": 1, 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ferdinand Donath",
+
+         "p_id": "#15433"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }, 
+         {
+
+         "p_name": "Max Höniger",
+
+         "p_id": "#18662"
+         }, 
+         {
+
+         "p_name": "Josef Hertzka",
+
+         "p_id": "#18196"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337485, 48.233662]
+      },
+      "properties": {
+         "id": "pmb254639",
+         "title": "Erholungsheim Erna Patak",
+         "lat": "48.233662",
+         "lon": "16.337485",
+         "timestamp": ["1920-08-01", "1920-08-19"],
+         "importance": 2, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Erna Patak",
+
+         "p_id": "#22372"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.776666666666667, 47.59916666666667]
+      },
+      "properties": {
+         "id": "pmb263516",
+         "title": "Bahnhof Bad Aussee",
+         "lat": "47.59916666666667",
+         "lon": "13.776666666666667",
+         "timestamp": ["1920-08-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.296622, 48.183258]
       },
       "properties": {
@@ -446,6 +625,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.7861, 47.6417]
+      },
+      "properties": {
+         "id": "pmb264803",
+         "title": "Altausseer See",
+         "lat": "47.6417",
+         "lon": "13.7861",
+         "timestamp": ["1920-08-29"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Altausseer_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q434688", 
+        "geonames": "https://sws.geonames.org/2782723/", 
+        "abbr": "H.LK", 
+        "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.75, 47.63333]
       },
       "properties": {
@@ -460,6 +659,142 @@
         "geonames": "https://sws.geonames.org/2605042/", 
         "abbr": "S.RUIN", 
         "type": "Ruine"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1920-08-14"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.630479, 47.707252]
+      },
+      "properties": {
+         "id": "pmb232845",
+         "title": "Sterzens Abendsitz",
+         "lat": "47.707252",
+         "lon": "13.630479",
+         "timestamp": ["1920-08-24"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q119889618", 
+        "abbr": "Naturdenkmal", 
+        "type": "Naturdenkmal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.620278, 47.715]
+      },
+      "properties": {
+         "id": "pmb47678",
+         "title": "Kaiservilla",
+         "lat": "47.715",
+         "lon": "13.620278",
+         "timestamp": ["1920-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kaiservilla", 
+        "wikidata": "http://www.wikidata.org/entity/Q693042", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.620721, 47.712895]
+      },
+      "properties": {
+         "id": "pmb290926",
+         "title": "Kaffee Konditorei Rudolf Dusch",
+         "lat": "47.712895",
+         "lon": "13.620721",
+         "timestamp": ["1920-08-25"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.65, 47.73333]
+      },
+      "properties": {
+         "id": "pmb91257",
+         "title": "Mitterweißenbach",
+         "lat": "47.73333",
+         "lon": "13.65",
+         "timestamp": ["1920-08-26"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2771372/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.760194, 47.64285]
+      },
+      "properties": {
+         "id": "pmb290936",
+         "title": "Villa Gisela und Markus Hajek",
+         "lat": "47.64285",
+         "lon": "13.760194",
+         "timestamp": ["1920-08-27", "1920-08-29", "1920-08-30"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78207, 47.611557]
+      },
+      "properties": {
+         "id": "pmb290967",
+         "title": "Gartengasse 11",
+         "lat": "47.611557",
+         "lon": "13.78207",
+         "timestamp": ["1920-08-30"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

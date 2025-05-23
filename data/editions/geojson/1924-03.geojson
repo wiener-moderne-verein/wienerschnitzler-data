@@ -116,6 +116,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1924-03-04"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.341944, 48.233056]
       },
       "properties": {
@@ -308,6 +328,30 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.371571, 48.208448]
+      },
+      "properties": {
+         "id": "pmb232655",
+         "title": "Goldschmiedgasse 1",
+         "lat": "48.208448",
+         "lon": "16.371571",
+         "timestamp": ["1924-03-04", "1924-03-12"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Moriz Károlyi",
+
+         "p_id": "#19914"
+         }]
       }
       }, 
     {
@@ -711,23 +755,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.377475, 48.207779]
+        "coordinates": [16.34366, 48.23699]
       },
       "properties": {
-         "id": "pmb255067",
-         "title": "Riemergasse 1",
-         "lat": "48.207779",
-         "lon": "16.377475",
-         "timestamp": ["1924-03-04", "1924-03-12"],
-         "importance": 2, 
+         "id": "pmb186101",
+         "title": "Peter-Jordan-Straße 31",
+         "lat": "48.23699",
+         "lon": "16.34366",
+         "timestamp": ["1924-03-11"],
+         "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
          {
 
-         "p_name": "Moriz Károlyi",
+         "p_name": "Franz Herterich",
 
-         "p_id": "#19914"
+         "p_id": "#11659"
          }]
       }
       }, 
@@ -753,6 +797,23 @@
 
          "p_id": "#3119"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372557, 48.204532]
+      },
+      "properties": {
+         "id": "pmb250518",
+         "title": "Annagasse 5",
+         "lat": "48.204532",
+         "lon": "16.372557",
+         "timestamp": ["1924-03-02"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
       }
       }, 
     {
@@ -808,23 +869,46 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.34366, 48.23699]
+        "coordinates": [16.375759, 48.207689]
       },
       "properties": {
-         "id": "pmb186101",
-         "title": "Peter-Jordan-Straße 31",
-         "lat": "48.23699",
-         "lon": "16.34366",
-         "timestamp": ["1924-03-11"],
+         "id": "pmb237070",
+         "title": "Neue Galerie",
+         "lat": "48.207689",
+         "lon": "16.375759",
+         "timestamp": ["1924-03-04"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
+        "abbr": "Kunstgalerie", 
+        "type": "Kunstgalerie"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36385, 48.20841]
+      },
+      "properties": {
+         "id": "pmb60142",
+         "title": "Bundeskanzleramt",
+         "lat": "48.20841",
+         "lon": "16.36385",
+         "timestamp": ["1924-03-08"],
+         "importance": 1, 
+        "abbr": "Regierungsgebäude (K.RGB)", 
+        "type": "Regierungsgebäude", 
+        "arbeitsort": [
          {
 
-         "p_name": "Franz Herterich",
+         "p_name": "Ignaz Seipel",
 
-         "p_id": "#11659"
+         "p_id": "#12762"
+         }, 
+         {
+
+         "p_name": "Ignaz Seipel",
+
+         "p_id": "#12762"
          }]
       }
       }, 

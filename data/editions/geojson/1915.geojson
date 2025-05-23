@@ -171,8 +171,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1915-01-07", "1915-01-28", "1915-02-25", "1915-03-04", "1915-03-25", "1915-03-31", "1915-04-05", "1915-04-14", "1915-04-23", "1915-04-24", "1915-04-26", "1915-11-04", "1915-11-13", "1915-11-18", "1915-12-05", "1915-12-09", "1915-12-13"],
-         "importance": 17, 
+         "timestamp": ["1915-01-07", "1915-01-28", "1915-02-25", "1915-03-04", "1915-03-25", "1915-03-31", "1915-04-05", "1915-04-06", "1915-04-14", "1915-04-23", "1915-04-24", "1915-04-26", "1915-11-04", "1915-11-13", "1915-11-18", "1915-12-05", "1915-12-09", "1915-12-13"],
+         "importance": 18, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -253,8 +253,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1915-01-13", "1915-02-06", "1915-03-01", "1915-05-06", "1915-05-31", "1915-06-07", "1915-06-14", "1915-06-15", "1915-09-06", "1915-09-13", "1915-09-21", "1915-09-22", "1915-09-27", "1915-09-28", "1915-09-29", "1915-10-04", "1915-10-06", "1915-10-07", "1915-10-09", "1915-10-11", "1915-10-12", "1915-10-14", "1915-10-17", "1915-11-17", "1915-12-21"],
-         "importance": 25, 
+         "timestamp": ["1915-01-13", "1915-02-06", "1915-03-01", "1915-03-26", "1915-05-06", "1915-05-31", "1915-06-07", "1915-06-14", "1915-06-15", "1915-09-06", "1915-09-13", "1915-09-21", "1915-09-22", "1915-09-27", "1915-09-28", "1915-09-29", "1915-10-04", "1915-10-06", "1915-10-07", "1915-10-09", "1915-10-11", "1915-10-12", "1915-10-14", "1915-10-17", "1915-11-17", "1915-12-21"],
+         "importance": 26, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -674,6 +674,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q801311", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1915-07-23", "1915-07-24"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -1297,6 +1317,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1915-07-29", "1915-08-03", "1915-08-04", "1915-08-12", "1915-08-19", "1915-08-24", "1915-08-25", "1915-08-28"],
+         "importance": 8, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.27616, 48.30997]
       },
       "properties": {
@@ -1331,26 +1370,6 @@
         "geonames": "https://sws.geonames.org/7873041/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1915-07-23"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
       }
       }, 
     {
@@ -2076,6 +2095,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1915-01-29", "1915-01-31", "1915-02-01", "1915-02-04", "1915-06-23", "1915-06-28"],
+         "importance": 6, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.2911, 48.2553]
       },
       "properties": {
@@ -2786,24 +2823,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1915-01-29", "1915-01-31", "1915-02-01", "1915-02-04", "1915-06-23", "1915-06-28"],
-         "importance": 6, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -3286,8 +3305,8 @@
          "title": "Neue Wiener Bühne",
          "lat": "48.2195962",
          "lon": "16.3589845",
-         "timestamp": ["1915-03-29", "1915-04-19", "1915-05-05", "1915-05-08", "1915-09-15", "1915-09-18", "1915-09-22", "1915-11-03"],
-         "importance": 8, 
+         "timestamp": ["1915-03-29", "1915-04-19", "1915-05-05", "1915-05-08", "1915-05-12", "1915-09-15", "1915-09-18", "1915-09-22", "1915-11-03"],
+         "importance": 9, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater", 
         "arbeitsort": [
@@ -3363,25 +3382,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q1589672", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.6273, 47.7122]
-      },
-      "properties": {
-         "id": "pmb248791",
-         "title": "Bahnhof Bad Ischl",
-         "lat": "47.7122",
-         "lon": "13.6273",
-         "timestamp": ["1915-07-29", "1915-08-03", "1915-08-04", "1915-08-12", "1915-08-19", "1915-08-24", "1915-08-25", "1915-08-28"],
-         "importance": 8, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q800426", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
       }
       }, 
     {

@@ -120,6 +120,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1922-10-21"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3576, 48.21071]
       },
       "properties": {
@@ -147,8 +167,8 @@
          "title": "Brünn",
          "lat": "49.19522",
          "lon": "16.60796",
-         "timestamp": ["1922-10-26"],
-         "importance": 1, 
+         "timestamp": ["1922-10-25", "1922-10-26"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Br%C3%BCnn", 
         "wikidata": "http://www.wikidata.org/entity/Q14960", 
         "geonames": "https://sws.geonames.org/3078610/", 
@@ -171,6 +191,26 @@
          "importance": 1, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.4, 48.21667]
+      },
+      "properties": {
+         "id": "pmb52",
+         "title": "II., Leopoldstadt",
+         "lat": "48.21667",
+         "lon": "16.4",
+         "timestamp": ["1922-10-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Leopoldstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q259120", 
+        "geonames": "https://sws.geonames.org/2772614/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -214,13 +254,33 @@
          "title": "Prag",
          "lat": "50.08333",
          "lon": "14.46667",
-         "timestamp": ["1922-10-25", "1922-10-26", "1922-10-27", "1922-10-28", "1922-10-29", "1922-10-30", "1922-10-31"],
-         "importance": 7, 
+         "timestamp": ["1922-10-27", "1922-10-28", "1922-10-29", "1922-10-30", "1922-10-31"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/Prag", 
         "wikidata": "http://www.wikidata.org/entity/Q1085", 
         "geonames": "https://sws.geonames.org/3067695/ https://sws.geonames.org/3067696/", 
         "abbr": "A.ADM1", 
         "type": "Land"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.435833333333, 50.083055555556]
+      },
+      "properties": {
+         "id": "pmb252051",
+         "title": "Praha hlavní nádraží",
+         "lat": "50.083055555556",
+         "lon": "14.435833333333",
+         "timestamp": ["1922-10-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
+        "wikidata": "http://www.wikidata.org/entity/Q751174", 
+        "geonames": "https://sws.geonames.org/6285753/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -234,8 +294,8 @@
          "title": "Sanatorium Loew",
          "lat": "48.216264483348",
          "lon": "16.347492624475",
-         "timestamp": ["1922-10-23"],
-         "importance": 1, 
+         "timestamp": ["1922-10-03", "1922-10-04", "1922-10-07", "1922-10-23"],
+         "importance": 4, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium", 
         "arbeitsort": [
@@ -300,25 +360,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.42729, 50.08687]
-      },
-      "properties": {
-         "id": "pmb118612",
-         "title": "Deutsches Haus [Prag]",
-         "lat": "50.08687",
-         "lon": "14.42729",
-         "timestamp": ["1922-10-25"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Deutsches_Haus_(Prag)", 
-        "wikidata": "http://www.wikidata.org/entity/Q18042645", 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [14.397222, 50.089444]
       },
       "properties": {
@@ -346,8 +387,8 @@
          "title": "Cottagegasse 29",
          "lat": "48.23143",
          "lon": "16.341077",
-         "timestamp": ["1922-10-01"],
-         "importance": 1, 
+         "timestamp": ["1922-10-01", "1922-10-06"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -381,6 +422,67 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.606667, 49.199167]
+      },
+      "properties": {
+         "id": "pmb437",
+         "title": "Deutsches Haus [Brünn]",
+         "lat": "49.199167",
+         "lon": "16.606667",
+         "timestamp": ["1922-10-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Deutsches_Haus_(Br%C3%BCnn)", 
+        "wikidata": "http://www.wikidata.org/entity/Q1205677", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.6130914, 49.1926992]
+      },
+      "properties": {
+         "id": "pmb233389",
+         "title": "Grand Hotel [Brünn]",
+         "lat": "49.1926992",
+         "lon": "16.6130914",
+         "timestamp": ["1922-10-25"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q30793114", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.428996, 50.086417]
+      },
+      "properties": {
+         "id": "pmb93",
+         "title": "Hotel Blauer Stern",
+         "lat": "50.086417",
+         "lon": "14.428996",
+         "timestamp": ["1922-10-27", "1922-10-30"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Carl Seltmann",
+
+         "p_id": "#145407"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [14.40449, 50.08774]
       },
       "properties": {
@@ -393,6 +495,24 @@
         "geonames": "https://sws.geonames.org/3071213/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.05081, 50.63916]
+      },
+      "properties": {
+         "id": "pmb90099",
+         "title": "Hrad Střekov",
+         "lat": "50.63916",
+         "lon": "14.05081",
+         "timestamp": ["1922-10-31"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/7117043/", 
+        "abbr": "S.CSTL", 
+        "type": "Burg"
       }
       }, 
     {
@@ -419,6 +539,60 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33641, 48.23362]
+      },
+      "properties": {
+         "id": "pmb235132",
+         "title": "Türkenschanzstraße 48",
+         "lat": "48.23362",
+         "lon": "16.33641",
+         "timestamp": ["1922-10-02", "1922-10-22"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Kirsch",
+
+         "p_id": "#19348"
+         }, 
+         {
+
+         "p_name": "Johanna Kirsch",
+
+         "p_id": "#27815"
+         }, 
+         {
+
+         "p_name": "Agnes Ulmann",
+
+         "p_id": "#27942"
+         }, 
+         {
+
+         "p_name": "Nanette Speyer",
+
+         "p_id": "#25187"
+         }, 
+         {
+
+         "p_name": "Hugo Schmidl",
+
+         "p_id": "#3159"
+         }, 
+         {
+
+         "p_name": "Paula Schmidl",
+
+         "p_id": "#24292"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33494, 48.23365]
       },
       "properties": {
@@ -426,8 +600,8 @@
          "title": "Hasenauerstraße 59",
          "lat": "48.23365",
          "lon": "16.33494",
-         "timestamp": ["1922-10-17"],
-         "importance": 1, 
+         "timestamp": ["1922-10-15", "1922-10-17"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -448,6 +622,43 @@
          "p_name": "Richard Beer-Hofmann",
 
          "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.34167, 48.233004]
+      },
+      "properties": {
+         "id": "pmb235812",
+         "title": "Cottagegasse 37",
+         "lat": "48.233004",
+         "lon": "16.34167",
+         "timestamp": ["1922-10-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ottilie Salten",
+
+         "p_id": "#23918"
+         }, 
+         {
+
+         "p_name": "Felix Salten",
+
+         "p_id": "#2167"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Haushaltshilfe der Familie Salten 1912]",
+
+         "p_id": "#148414"
          }]
       }
       }, 
@@ -491,6 +702,36 @@
          "p_name": "Markus Hajek",
 
          "p_id": "#2284"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.333056, 48.233056]
+      },
+      "properties": {
+         "id": "pmb61755",
+         "title": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+         "lat": "48.233056",
+         "lon": "16.333056",
+         "timestamp": ["1922-10-01", "1922-10-02", "1922-10-03", "1922-10-05", "1922-10-06", "1922-10-07", "1922-10-08", "1922-10-09", "1922-10-10", "1922-10-11", "1922-10-12", "1922-10-13", "1922-10-14", "1922-10-15", "1922-10-16"],
+         "importance": 15, 
+        "abbr": "Sanatorium (K.SAN)", 
+        "type": "Sanatorium", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Stefanie Bachrach",
+
+         "p_id": "#13653"
+         }, 
+         {
+
+         "p_name": "Rudolf Urbantschitsch",
+
+         "p_id": "#26340"
          }]
       }
       }, 
@@ -583,6 +824,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.61277778, 49.19083333]
+      },
+      "properties": {
+         "id": "pmb251671",
+         "title": "Brünn Hauptbahnhof",
+         "lat": "49.19083333",
+         "lon": "16.61277778",
+         "timestamp": ["1922-10-25", "1922-10-26"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Brno_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
+        "wikidata": "http://www.wikidata.org/entity/Q921772", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35137, 48.21346]
       },
       "properties": {
@@ -637,6 +897,48 @@
          "p_name": "Emilie Kalisch",
 
          "p_id": "#19026"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.351996, 48.238534]
+      },
+      "properties": {
+         "id": "pmb235862",
+         "title": "Kreindlgasse 8",
+         "lat": "48.238534",
+         "lon": "16.351996",
+         "timestamp": ["1922-10-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
+         }, 
+         {
+
+         "p_name": "Wanda Specht",
+
+         "p_id": "#25172"
+         }, 
+         {
+
+         "p_name": "Vera Schapira",
+
+         "p_id": "#9667"
+         }, 
+         {
+
+         "p_name": "Richard Specht",
+
+         "p_id": "#2456"
          }]
       }
       }, 
@@ -700,6 +1002,161 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.364281, 48.202866]
+      },
+      "properties": {
+         "id": "pmb186043",
+         "title": "Elisabethstraße 22",
+         "lat": "48.202866",
+         "lon": "16.364281",
+         "timestamp": ["1922-10-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Franz Werfel",
+
+         "p_id": "#13094"
+         }, 
+         {
+
+         "p_name": "Alma Maria Mahler-Werfel",
+
+         "p_id": "#12160"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36171, 48.2116]
+      },
+      "properties": {
+         "id": "pmb235784",
+         "title": "Oppolzergasse 6",
+         "lat": "48.2116",
+         "lon": "16.36171",
+         "timestamp": ["1922-10-10", "1922-10-22"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Berta Zuckerkandl",
+
+         "p_id": "#2312"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350819, 48.214295]
+      },
+      "properties": {
+         "id": "pmb235874",
+         "title": "Lange Gasse 65",
+         "lat": "48.214295",
+         "lon": "16.350819",
+         "timestamp": ["1922-10-11", "1922-10-16", "1922-10-20", "1922-10-22"],
+         "importance": 4, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Vilma Lichtenstern",
+
+         "p_id": "#20400"
+         }, 
+         {
+
+         "p_name": "Robert Lichtenstern",
+
+         "p_id": "#20398"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.327186, 48.23547]
+      },
+      "properties": {
+         "id": "pmb238364",
+         "title": "Türkenschanzplatz 1",
+         "lat": "48.23547",
+         "lon": "16.327186",
+         "timestamp": ["1922-10-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Felix Speidel",
+
+         "p_id": "#2646"
+         }, 
+         {
+
+         "p_name": "Else Speidel-Haeberle",
+
+         "p_id": "#2642"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368494, 48.193576]
+      },
+      "properties": {
+         "id": "pmb291756",
+         "title": "Brahmsplatz 4",
+         "lat": "48.193576",
+         "lon": "16.368494",
+         "timestamp": ["1922-10-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Helene Binder",
+
+         "p_id": "#14218"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.372467, 48.202986]
+      },
+      "properties": {
+         "id": "pmb264287",
+         "title": "Internationale Konzertdirektion »Ika«",
+         "lat": "48.202986",
+         "lon": "16.372467",
+         "timestamp": ["1922-10-10", "1922-10-17", "1922-10-23"],
+         "importance": 3, 
+        "abbr": "Konzertdirektion", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.360145, 48.220337]
       },
       "properties": {
@@ -736,6 +1193,59 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3576, 48.21071]
+      },
+      "properties": {
+         "id": "pmb250232",
+         "title": "Magistratsabteilung 10 - Steuern und Abgaben [1920-1939]",
+         "lat": "48.21071",
+         "lon": "16.3576",
+         "timestamp": ["1922-10-10"],
+         "importance": 1, 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35637, 48.20541]
+      },
+      "properties": {
+         "id": "pmb288703",
+         "title": "Atelier Setzer",
+         "lat": "48.20541",
+         "lon": "16.35637",
+         "timestamp": ["1922-10-18"],
+         "importance": 1, 
+        "abbr": "Fotoatelier", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.35149, 48.20209]
+      },
+      "properties": {
+         "id": "pmb266383",
+         "title": "Sascha Filmindustrie",
+         "lat": "48.20209",
+         "lon": "16.35149",
+         "timestamp": ["1922-10-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sascha_Filmindustrie", 
+        "wikidata": "http://www.wikidata.org/entity/Q471141", 
+        "abbr": "Filmproduktionsfirma", 
+        "type": "Filmproduktionsfirma"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.392643, 48.208736]
       },
       "properties": {
@@ -754,6 +1264,103 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3665, 48.2139]
+      },
+      "properties": {
+         "id": "pmb290824",
+         "title": "K.K. Telegrafen Centrale",
+         "lat": "48.2139",
+         "lon": "16.3665",
+         "timestamp": ["1922-10-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/K.K._Telegrafen_Centrale", 
+        "wikidata": "http://www.wikidata.org/entity/Q1718139", 
+        "abbr": "Verwaltungsgebäude (K.VWL)", 
+        "type": "Verwaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.350236, 48.210234]
+      },
+      "properties": {
+         "id": "pmb290835",
+         "title": "Donau Verlag-Gesellschaft",
+         "lat": "48.210234",
+         "lon": "16.350236",
+         "timestamp": ["1922-10-11"],
+         "importance": 1, 
+        "abbr": "Verlag", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368538, 48.214567]
+      },
+      "properties": {
+         "id": "pmb290848",
+         "title": "M. Mandl’s Söhne",
+         "lat": "48.214567",
+         "lon": "16.368538",
+         "timestamp": ["1922-10-14"],
+         "importance": 1, 
+        "abbr": "Geschäft (K.GES)", 
+        "type": "Geschäft", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Erich Mandl",
+
+         "p_id": "#20890"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.383945, 48.217321]
+      },
+      "properties": {
+         "id": "pmb92494",
+         "title": "Rotensterngasse",
+         "lat": "48.217321",
+         "lon": "16.383945",
+         "timestamp": ["1922-10-23"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Rotensterngasse", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.598889, 49.194444]
+      },
+      "properties": {
+         "id": "pmb290888",
+         "title": "Festung Špilberk",
+         "lat": "49.194444",
+         "lon": "16.598889",
+         "timestamp": ["1922-10-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Festung_%C5%A0pilberk", 
+        "wikidata": "http://www.wikidata.org/entity/Q118256", 
+        "abbr": "Festung", 
+        "type": "Festung"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [14.428587, 50.091467]
       },
       "properties": {
@@ -761,10 +1368,29 @@
          "title": "Urania Prag",
          "lat": "50.091467",
          "lon": "14.428587",
-         "timestamp": ["1922-10-27"],
-         "importance": 1, 
+         "timestamp": ["1922-10-27", "1922-10-29"],
+         "importance": 2, 
         "abbr": "Volksbildungsanstalt (K.VBA)", 
         "type": "Volksbildungsanstalt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.419444, 50.090278]
+      },
+      "properties": {
+         "id": "pmb290958",
+         "title": "Josefov [Prag]",
+         "lat": "50.090278",
+         "lon": "14.419444",
+         "timestamp": ["1922-10-30"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Josefov_(Prag)", 
+        "wikidata": "http://www.wikidata.org/entity/Q753292", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
       }
       }, 
     {
@@ -782,6 +1408,58 @@
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.0444, 50.6597]
+      },
+      "properties": {
+         "id": "pmb290963",
+         "title": "Ústí nad Labem hlavní nádraží",
+         "lat": "50.6597",
+         "lon": "14.0444",
+         "timestamp": ["1922-10-31"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q14806970", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.042212, 50.658779]
+      },
+      "properties": {
+         "id": "pmb187289",
+         "title": "Hotel Englischer Hof [Ústí nad Laben]",
+         "lat": "50.658779",
+         "lon": "14.042212",
+         "timestamp": ["1922-10-31"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.04292, 50.659048]
+      },
+      "properties": {
+         "id": "pmb290972",
+         "title": "Hotel Hohes Haus",
+         "lat": "50.659048",
+         "lon": "14.04292",
+         "timestamp": ["1922-10-31"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }
   ]

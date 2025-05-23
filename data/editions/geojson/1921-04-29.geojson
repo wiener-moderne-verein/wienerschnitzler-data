@@ -6,9 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.36265, 48.21156], 
             [16.369495, 48.201427], 
             [16.367725, 48.212284], 
             [16.381895, 48.209294], 
+            [16.369055, 48.212694], 
             [16.33716, 48.23188], 
             [16.35689, 48.21787]
           ]
@@ -79,6 +81,84 @@
          "importance": 1, 
         "abbr": "Vergnügungseinrichtung", 
         "type": "Vergnügungseinrichtung"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.369055, 48.212694]
+      },
+      "properties": {
+         "id": "pmb281514",
+         "title": "Wipplingerstraße 20",
+         "lat": "48.212694",
+         "lon": "16.369055",
+         "timestamp": ["1921-04-29"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ludwig Altmann",
+
+         "p_id": "#13356"
+         }, 
+         {
+
+         "p_name": "Adolf Altmann",
+
+         "p_id": "#13335"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36265, 48.21156]
+      },
+      "properties": {
+         "id": "pmb733",
+         "title": "Allgemeine Boden-Credit-Anstalt",
+         "lat": "48.21156",
+         "lon": "16.36265",
+         "timestamp": ["1921-04-29"],
+         "importance": 1, 
+        "abbr": "Bank (K.BNK)", 
+        "type": "Bank", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Robert Kugel",
+
+         "p_id": "#19806"
+         }, 
+         {
+
+         "p_name": "Max Feilchenfeld",
+
+         "p_id": "#16127"
+         }, 
+         {
+
+         "p_name": "Moriz Neumann",
+
+         "p_id": "#21897"
+         }, 
+         {
+
+         "p_name": "Ignaz Fleminger",
+
+         "p_id": "#16342"
+         }, 
+         {
+
+         "p_name": "Edmund Zwack",
+
+         "p_id": "#27554"
+         }]
       }
       },
     {

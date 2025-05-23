@@ -6,8 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [12.97802, 47.55567], 
             [12.98825888372486, 47.6023351526792], 
-            [12.98916, 47.59009], 
             [13.00757, 47.63496], 
             [12.98396, 47.64427]
           ]
@@ -37,19 +37,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.98916, 47.59009]
+        "coordinates": [12.98396, 47.64427]
       },
       "properties": {
-         "id": "pmb292457",
-         "title": "Bahnhof Königssee (Oberbay)",
-         "lat": "47.59009",
-         "lon": "12.98916",
+         "id": "pmb289883",
+         "title": "Aschauer Weiher",
+         "lat": "47.64427",
+         "lon": "12.98396",
          "timestamp": ["1922-08-29"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_K%C3%B6nigssee_(Oberbay)", 
-        "wikidata": "http://www.wikidata.org/entity/Q107631301", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
+        "abbr": "See (N.SEE)", 
+        "type": "See"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.97802, 47.55567]
+      },
+      "properties": {
+         "id": "pmb91054",
+         "title": "Königssee",
+         "lat": "47.55567",
+         "lon": "12.97802",
+         "timestamp": ["1922-08-29"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2885777/", 
+        "abbr": "H.LK", 
+        "type": "See"
       }
       },
     {
@@ -67,23 +83,6 @@
          "importance": 1, 
         "abbr": "Haltestelle", 
         "type": ""
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.98396, 47.64427]
-      },
-      "properties": {
-         "id": "pmb289883",
-         "title": "Aschauer Weiher",
-         "lat": "47.64427",
-         "lon": "12.98396",
-         "timestamp": ["1922-08-29"],
-         "importance": 1, 
-        "abbr": "See (N.SEE)", 
-        "type": "See"
       }
       }
   ]

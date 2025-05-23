@@ -6,16 +6,35 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.7340478, 47.6272522], 
-            [13.79683, 47.63156], 
+            [13.78243, 47.60998], 
             [13.77189, 47.6417], 
-            [13.760194, 47.64285]
+            [13.7340478, 47.6272522]
           ]
       },
       "properties": {
         "name": "13. September 1920"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78243, 47.60998]
+      },
+      "properties": {
+         "id": "pmb415",
+         "title": "Bad Aussee",
+         "lat": "47.60998",
+         "lon": "13.78243",
+         "timestamp": ["1920-09-13"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q251065", 
+        "geonames": "https://sws.geonames.org/2782070/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -37,23 +56,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.760194, 47.64285]
-      },
-      "properties": {
-         "id": "pmb290936",
-         "title": "Villa Gisela und Markus Hajek",
-         "lat": "47.64285",
-         "lon": "13.760194",
-         "timestamp": ["1920-09-13"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.7340478, 47.6272522]
       },
       "properties": {
@@ -65,24 +67,6 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.79683, 47.63156]
-      },
-      "properties": {
-         "id": "pmb264744",
-         "title": "Tressensattel",
-         "lat": "47.63156",
-         "lon": "13.79683",
-         "timestamp": ["1920-09-13"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q133567364", 
-        "abbr": "Pass (N.PAS)", 
-        "type": "Pass"
       }
       }
   ]

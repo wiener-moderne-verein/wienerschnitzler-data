@@ -569,8 +569,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1891-01-14", "1891-11-17", "1891-12-20", "1893-01-13", "1893-03-16", "1893-11-05", "1894-01-21", "1894-02-07", "1894-02-10", "1894-02-14", "1894-10-22", "1894-12-02", "1895-04-02", "1895-04-04", "1895-04-09", "1896-11-10", "1896-12-15", "1897-04-04", "1897-04-05", "1897-04-06", "1897-06-14", "1897-11-05", "1897-11-14", "1898-04-05", "1899-03-09", "1899-03-10", "1899-03-11", "1899-11-14", "1899-11-21", "1900-01-21", "1900-02-22", "1900-02-23", "1900-10-30", "1900-11-09"],
-         "importance": 34, 
+         "timestamp": ["1891-01-14", "1891-11-17", "1891-12-20", "1893-01-13", "1893-03-16", "1893-11-05", "1894-01-21", "1894-02-07", "1894-02-10", "1894-02-14", "1894-10-22", "1894-12-02", "1895-04-02", "1895-04-04", "1895-04-09", "1896-12-15", "1897-04-04", "1897-04-05", "1897-04-06", "1897-06-14", "1897-11-05", "1897-11-14", "1898-04-05", "1899-03-09", "1899-03-10", "1899-03-11", "1899-11-14", "1899-11-21", "1900-01-21", "1900-02-22", "1900-02-23", "1900-11-09"],
+         "importance": 32, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -717,8 +717,8 @@
          "title": "Bösendorfer-Saal",
          "lat": "48.209167",
          "lon": "16.366111",
-         "timestamp": ["1891-12-10", "1892-11-16", "1895-01-07", "1895-12-12", "1895-12-18", "1895-12-21", "1896-11-30", "1896-12-11", "1896-12-18", "1897-03-28", "1899-11-24", "1900-02-26", "1900-03-18", "1900-12-07"],
-         "importance": 14, 
+         "timestamp": ["1891-12-10", "1892-11-16", "1895-01-07", "1895-12-12", "1895-12-18", "1895-12-21", "1896-11-30", "1896-12-11", "1896-12-18", "1897-03-28", "1899-11-24", "1900-02-26", "1900-03-18"],
+         "importance": 13, 
         "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
         "wikidata": "http://www.wikidata.org/entity/Q1020093", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
@@ -2781,23 +2781,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.37945, 48.21363]
-      },
-      "properties": {
-         "id": "pmb295",
-         "title": "Hotel zum Schwarzer Adler [Wien]",
-         "lat": "48.21363",
-         "lon": "16.37945",
-         "timestamp": ["1891-06-29", "1892-05-10", "1897-02-17"],
-         "importance": 3, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.2353, 48.0096]
       },
       "properties": {
@@ -3321,8 +3304,8 @@
          "title": "Westbahnhof",
          "lat": "48.196667",
          "lon": "16.337778",
-         "timestamp": ["1893-07-16", "1893-09-19", "1896-08-29", "1896-09-06", "1897-04-07", "1900-05-21", "1900-06-12"],
-         "importance": 7, 
+         "timestamp": ["1893-09-19", "1896-09-06", "1897-04-07", "1900-05-21", "1900-06-12"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q698145", 
         "geonames": "https://sws.geonames.org/2761331/", 
@@ -3953,26 +3936,6 @@
          "importance": 12, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1894-05-14", "1894-06-24", "1900-05-27", "1900-07-09"],
-         "importance": 4, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
       }
       }, 
     {
@@ -5088,6 +5051,23 @@
          "importance": 6, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37945, 48.21363]
+      },
+      "properties": {
+         "id": "pmb295",
+         "title": "Hotel zum Schwarzer Adler [Wien]",
+         "lat": "48.21363",
+         "lon": "16.37945",
+         "timestamp": ["1891-06-29", "1892-05-10", "1897-02-17"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {
@@ -8308,42 +8288,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.6207162, 47.7090858]
-      },
-      "properties": {
-         "id": "pmb293222",
-         "title": "Traunkai 3",
-         "lat": "47.7090858",
-         "lon": "13.6207162",
-         "timestamp": ["1893-07-11"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.6273, 47.7122]
-      },
-      "properties": {
-         "id": "pmb248791",
-         "title": "Bahnhof Bad Ischl",
-         "lat": "47.7122",
-         "lon": "13.6273",
-         "timestamp": ["1893-07-15"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q800426", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.333907, 48.28228]
       },
       "properties": {
@@ -9135,6 +9079,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q254476", 
         "abbr": "Kirche (K.KRC)", 
         "type": "Kirche"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1894-05-14", "1894-06-24", "1900-05-27", "1900-07-09"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
       }
       }, 
     {
@@ -11347,44 +11311,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.435833333333, 50.083055555556]
-      },
-      "properties": {
-         "id": "pmb252051",
-         "title": "Praha hlavní nádraží",
-         "lat": "50.083055555556",
-         "lon": "14.435833333333",
-         "timestamp": ["1895-07-06", "1897-11-24", "1897-11-28"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
-        "wikidata": "http://www.wikidata.org/entity/Q751174", 
-        "geonames": "https://sws.geonames.org/6285753/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.8669, 50.2353]
-      },
-      "properties": {
-         "id": "pmb292557",
-         "title": "Bahnhof Karlovy Vary",
-         "lat": "50.2353",
-         "lon": "12.8669",
-         "timestamp": ["1895-07-06"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q12028735", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [12.72872, 49.96115]
       },
       "properties": {
@@ -11548,26 +11474,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q538314", 
         "abbr": "Monument (K.MON)", 
         "type": "Monument"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.081944444444, 49.446388888889]
-      },
-      "properties": {
-         "id": "pmb266364",
-         "title": "Nürnberg Hauptbahnhof",
-         "lat": "49.446388888889",
-         "lon": "11.081944444444",
-         "timestamp": ["1895-07-13"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/N%C3%BCrnberg_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q682583", 
-        "geonames": "https://sws.geonames.org/10861110/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
       }
       }, 
     {
@@ -13735,23 +13641,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.99215, 53.553527]
-      },
-      "properties": {
-         "id": "pmb92314",
-         "title": "Jungfernstieg",
-         "lat": "53.553527",
-         "lon": "9.99215",
-         "timestamp": ["1896-07-04", "1896-07-05", "1896-07-06", "1896-07-07"],
-         "importance": 4, 
-        "abbr": "H.STRT", 
-        "type": "Meerenge"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [9.993018, 53.548896]
       },
       "properties": {
@@ -15588,26 +15477,6 @@
          "importance": 3, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.555, 48.140833]
-      },
-      "properties": {
-         "id": "pmb247583",
-         "title": "Hauptbahnhof München",
-         "lat": "48.140833",
-         "lon": "11.555",
-         "timestamp": ["1896-08-27", "1896-08-28"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q254647", 
-        "geonames": "https://sws.geonames.org/6324603/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
       }
       }, 
     {
@@ -18754,6 +18623,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [14.435833333333, 50.083055555556]
+      },
+      "properties": {
+         "id": "pmb252051",
+         "title": "Praha hlavní nádraží",
+         "lat": "50.083055555556",
+         "lon": "14.435833333333",
+         "timestamp": ["1897-11-24", "1897-11-28"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD", 
+        "wikidata": "http://www.wikidata.org/entity/Q751174", 
+        "geonames": "https://sws.geonames.org/6285753/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [14.431532, 50.08585]
       },
       "properties": {
@@ -21706,42 +21595,6 @@
         "geonames": "https://sws.geonames.org/2765027/ https://sws.geonames.org/2765028/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.412515, 52.521369]
-      },
-      "properties": {
-         "id": "pmb293230",
-         "title": "Budapester Possen- und Operettentheater",
-         "lat": "52.521369",
-         "lon": "13.412515",
-         "timestamp": ["1899-04-27"],
-         "importance": 1, 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.412648, 52.521334]
-      },
-      "properties": {
-         "id": "pmb293233",
-         "title": "Grand Hotel Alexanderplatz",
-         "lat": "52.521334",
-         "lon": "13.412648",
-         "timestamp": ["1899-04-27"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Grand_H%C3%B4tel_Alexanderplatz", 
-        "wikidata": "http://www.wikidata.org/entity/Q106313968", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       }, 
     {

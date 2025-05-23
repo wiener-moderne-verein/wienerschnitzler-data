@@ -51,8 +51,8 @@
          "title": "Oper",
          "lat": "48.203",
          "lon": "16.3691",
-         "timestamp": ["1927-05-24", "1927-05-27"],
-         "importance": 2, 
+         "timestamp": ["1927-05-24"],
+         "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
@@ -322,24 +322,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1927-05-19", "1927-05-20"],
-         "importance": 2, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.276509500872, 48.241960480337]
       },
       "properties": {
@@ -388,6 +370,24 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1927-05-19", "1927-05-20"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -714,32 +714,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.377197811369, 48.200771836002]
-      },
-      "properties": {
-         "id": "pmb240",
-         "title": "Wiener Konzerthaus",
-         "lat": "48.200771836002",
-         "lon": "16.377197811369",
-         "timestamp": ["1927-05-31"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
-        "wikidata": "http://www.wikidata.org/entity/Q695126", 
-        "abbr": "Konzertsaal (K.KNZ)", 
-        "type": "Konzertsaal", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Hugo Botstiber",
-
-         "p_id": "#10983"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [15.826092, 47.619051]
       },
       "properties": {
@@ -814,30 +788,6 @@
          "p_name": "Robert Lichtenstern",
 
          "p_id": "#20398"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.39549, 48.208378]
-      },
-      "properties": {
-         "id": "pmb247801",
-         "title": "Weißgerberlände 44–46",
-         "lat": "48.208378",
-         "lon": "16.39549",
-         "timestamp": ["1927-05-22"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Benjamin Harz",
-
-         "p_id": "#17899"
          }]
       }
       }, 
@@ -929,26 +879,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.358888888889, 48.203333333333]
-      },
-      "properties": {
-         "id": "pmb247932",
-         "title": "Messehallen",
-         "lat": "48.203333333333",
-         "lon": "16.358888888889",
-         "timestamp": ["1927-05-25"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/MuseumsQuartier", 
-        "wikidata": "http://www.wikidata.org/entity/Q699943", 
-        "geonames": "https://sws.geonames.org/6354987/", 
-        "abbr": "S.MUS", 
-        "type": "Museum"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.368443, 48.209585]
       },
       "properties": {
@@ -977,6 +907,30 @@
          "importance": 1, 
         "abbr": "Verlag", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.39549, 48.208378]
+      },
+      "properties": {
+         "id": "pmb247801",
+         "title": "Weißgerberlände 44–46",
+         "lat": "48.208378",
+         "lon": "16.39549",
+         "timestamp": ["1927-05-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Benjamin Harz",
+
+         "p_id": "#17899"
+         }]
       }
       }, 
     {

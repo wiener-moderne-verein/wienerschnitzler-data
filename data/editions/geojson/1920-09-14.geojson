@@ -6,18 +6,36 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.531747, 47.583448], 
+            [13.53447, 47.58417], 
             [13.65, 47.58333], 
-            [13.660556, 47.578611], 
-            [13.7, 47.61667], 
-            [13.77189, 47.6417], 
-            [13.62966, 47.61143]
+            [13.78243, 47.60998], 
+            [13.77189, 47.6417]
           ]
       },
       "properties": {
         "name": "14. September 1920"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.78243, 47.60998]
+      },
+      "properties": {
+         "id": "pmb415",
+         "title": "Bad Aussee",
+         "lat": "47.60998",
+         "lon": "13.78243",
+         "timestamp": ["1920-09-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q251065", 
+        "geonames": "https://sws.geonames.org/2782070/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -39,17 +57,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.531747, 47.583448]
+        "coordinates": [13.53447, 47.58417]
       },
       "properties": {
-         "id": "pmb291131",
-         "title": "Hotel und Restaurant Brandwirt",
-         "lat": "47.583448",
-         "lon": "13.531747",
+         "id": "pmb51797",
+         "title": "Gosau",
+         "lat": "47.58417",
+         "lon": "13.53447",
          "timestamp": ["1920-09-14"],
          "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "geonames": "https://sws.geonames.org/2778302/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       },
     {
@@ -68,60 +87,6 @@
         "geonames": "https://sws.geonames.org/2778298/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.7, 47.61667]
-      },
-      "properties": {
-         "id": "pmb91518",
-         "title": "Pötschenhöhe",
-         "lat": "47.61667",
-         "lon": "13.7",
-         "timestamp": ["1920-09-14"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2768478/", 
-        "abbr": "T.PASS", 
-        "type": "Pass"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.62966, 47.61143]
-      },
-      "properties": {
-         "id": "pmb65485",
-         "title": "Steeg",
-         "lat": "47.61143",
-         "lon": "13.62966",
-         "timestamp": ["1920-09-14"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2764604/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.660556, 47.578611]
-      },
-      "properties": {
-         "id": "pmb65265",
-         "title": "Hallstätter See",
-         "lat": "47.578611",
-         "lon": "13.660556",
-         "timestamp": ["1920-09-14"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2776941/", 
-        "abbr": "See (N.SEE)", 
-        "type": "See"
       }
       }
   ]

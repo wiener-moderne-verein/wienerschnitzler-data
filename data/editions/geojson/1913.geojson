@@ -71,8 +71,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1913-02-25", "1913-03-07", "1913-03-31", "1913-04-03", "1913-11-12", "1913-11-20", "1913-11-26", "1913-12-07"],
-         "importance": 8, 
+         "timestamp": ["1913-02-25", "1913-03-31", "1913-04-03", "1913-11-12", "1913-11-20", "1913-11-26", "1913-12-07"],
+         "importance": 7, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -114,8 +114,8 @@
          "title": "Theater in der Josefstadt",
          "lat": "48.209583",
          "lon": "16.351111",
-         "timestamp": ["1913-03-26", "1913-12-05", "1913-12-10", "1913-12-11", "1913-12-12"],
-         "importance": 5, 
+         "timestamp": ["1913-03-26", "1913-12-05", "1913-12-10", "1913-12-12"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
         "wikidata": "http://www.wikidata.org/entity/Q167619", 
         "abbr": "Theater (K.THE)", 
@@ -611,26 +611,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q1136683", 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
         "type": "Teil eines besiedelten Ortes"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1913-04-27"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
       }
       }, 
     {
@@ -1260,6 +1240,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1913-04-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.578786, 48.139944]
       },
       "properties": {
@@ -1521,26 +1521,6 @@
         "geonames": "https://sws.geonames.org/2771734/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.555, 48.140833]
-      },
-      "properties": {
-         "id": "pmb247583",
-         "title": "Hauptbahnhof München",
-         "lat": "48.140833",
-         "lon": "11.555",
-         "timestamp": ["1913-02-07", "1913-02-09", "1913-09-04", "1913-09-09", "1913-09-11"],
-         "importance": 5, 
-        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q254647", 
-        "geonames": "https://sws.geonames.org/6324603/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof"
       }
       }, 
     {
@@ -2185,23 +2165,6 @@
          "importance": 3, 
         "abbr": "Vergnügungseinrichtung", 
         "type": "Vergnügungseinrichtung"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37986, 48.20709]
-      },
-      "properties": {
-         "id": "pmb169550",
-         "title": "Galerie Pisko",
-         "lat": "48.20709",
-         "lon": "16.37986",
-         "timestamp": ["1913-12-24"],
-         "importance": 1, 
-        "abbr": "Kunstgalerie", 
-        "type": "Kunstgalerie"
       }
       }, 
     {
@@ -2970,6 +2933,26 @@
 
          "p_id": "#12837"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.140833]
+      },
+      "properties": {
+         "id": "pmb247583",
+         "title": "Hauptbahnhof München",
+         "lat": "48.140833",
+         "lon": "11.555",
+         "timestamp": ["1913-02-07", "1913-02-09", "1913-09-04", "1913-09-09", "1913-09-11"],
+         "importance": 5, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q254647", 
+        "geonames": "https://sws.geonames.org/6324603/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -6311,8 +6294,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1913-10-25", "1913-10-26", "1913-10-27", "1913-10-28", "1913-10-31", "1913-11-08", "1913-11-10", "1913-11-17", "1913-11-22", "1913-11-27", "1913-11-28", "1913-12-10", "1913-12-18"],
-         "importance": 13, 
+         "timestamp": ["1913-10-25", "1913-10-26", "1913-10-27", "1913-10-28", "1913-10-31", "1913-11-08", "1913-11-10", "1913-11-17", "1913-11-22", "1913-12-10", "1913-12-18"],
+         "importance": 11, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 

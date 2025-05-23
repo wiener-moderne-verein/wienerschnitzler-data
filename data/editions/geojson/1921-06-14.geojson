@@ -8,17 +8,57 @@
         "coordinates": [
             [16.35137, 48.21346], 
             [16.361139, 48.210333], 
-            [16.369296, 48.206761], 
             [16.383906681096, 48.211453732859], 
             [16.35689, 48.21787], 
-            [16.33716, 48.23188], 
-            [16.324798, 48.233421]
+            [16.33716, 48.23188]
           ]
       },
       "properties": {
         "name": "14. Juni 1921"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.383906681096, 48.211453732859]
+      },
+      "properties": {
+         "id": "pmb1013",
+         "title": "Urania",
+         "lat": "48.211453732859",
+         "lon": "16.383906681096",
+         "timestamp": ["1921-06-14"],
+         "importance": 1, 
+        "abbr": "Volksbildungsanstalt (K.VBA)", 
+        "type": "Volksbildungsanstalt", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Friedrich Bauer",
+
+         "p_id": "#13813"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.361139, 48.210333]
+      },
+      "properties": {
+         "id": "pmb14",
+         "title": "Burgtheater",
+         "lat": "48.210333",
+         "lon": "16.361139",
+         "timestamp": ["1921-06-14"],
+         "importance": 1, 
+        "geonames": "https://www.geonames.org/6354992/", 
+        "abbr": "S.THTR", 
+        "type": "Theater"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -127,54 +167,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.324798, 48.233421]
-      },
-      "properties": {
-         "id": "pmb292057",
-         "title": "Vereins-Realgymnasium mit Öffentlichkeitsrecht",
-         "lat": "48.233421",
-         "lon": "16.324798",
-         "timestamp": ["1921-06-14"],
-         "importance": 1, 
-        "abbr": "Schule (K.SCH)", 
-        "type": "Schule", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Lili Cappellini",
-
-         "p_id": "#2238"
-         }, 
-         {
-
-         "p_name": "Wilhelm Schmidt",
-
-         "p_id": "#24315"
-         }, 
-         {
-
-         "p_name": "Eduard Weber",
-
-         "p_id": "#26723"
-         }, 
-         {
-
-         "p_name": "Josef Fritsch",
-
-         "p_id": "#16722"
-         }, 
-         {
-
-         "p_name": "Rudolf Lankus",
-
-         "p_id": "#20119"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.33716, 48.23188]
       },
       "properties": {
@@ -254,65 +246,6 @@
 
          "p_id": "#18732"
          }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.383906681096, 48.211453732859]
-      },
-      "properties": {
-         "id": "pmb1013",
-         "title": "Urania",
-         "lat": "48.211453732859",
-         "lon": "16.383906681096",
-         "timestamp": ["1921-06-14"],
-         "importance": 1, 
-        "abbr": "Volksbildungsanstalt (K.VBA)", 
-        "type": "Volksbildungsanstalt", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Friedrich Bauer",
-
-         "p_id": "#13813"
-         }]
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.361139, 48.210333]
-      },
-      "properties": {
-         "id": "pmb14",
-         "title": "Burgtheater",
-         "lat": "48.210333",
-         "lon": "16.361139",
-         "timestamp": ["1921-06-14"],
-         "importance": 1, 
-        "geonames": "https://www.geonames.org/6354992/", 
-        "abbr": "S.THTR", 
-        "type": "Theater"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.369296, 48.206761]
-      },
-      "properties": {
-         "id": "pmb265894",
-         "title": "Passstelle des Deutschen Reichs",
-         "lat": "48.206761",
-         "lon": "16.369296",
-         "timestamp": ["1921-06-14"],
-         "importance": 1, 
-        "abbr": "Infrastrukturgebäude (K.INF)", 
-        "type": "Infrastrukturgebäude"
       }
       }
   ]

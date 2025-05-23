@@ -6,7 +6,6 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [11.604186, 48.151045], 
             [11.591, 48.1432], 
             [11.5819773273866, 48.1425103994214], 
             [11.561467767769052, 48.13907960520144], 
@@ -15,6 +14,7 @@
             [11.5743778, 48.1375908], 
             [11.5711, 48.1358], 
             [16.33716, 48.23188], 
+            [11.618, 48.16602], 
             [11.49857, 48.15853]
           ]
       },
@@ -22,6 +22,24 @@
         "name": "2. September 1928"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.49857, 48.15853]
+      },
+      "properties": {
+         "id": "pmb91369",
+         "title": "Nymphenburg",
+         "lat": "48.15853",
+         "lon": "11.49857",
+         "timestamp": ["1928-09-02"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2861525/", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes"
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -44,30 +62,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.604186, 48.151045]
+        "coordinates": [11.618, 48.16602]
       },
       "properties": {
-         "id": "pmb292354",
-         "title": "Mauerkircherstraße 24",
-         "lat": "48.151045",
-         "lon": "11.604186",
+         "id": "pmb51263",
+         "title": "Mauerkircherstraße",
+         "lat": "48.16602",
+         "lon": "11.618",
          "timestamp": ["1928-09-02"],
          "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Lucy von Jacobi",
-
-         "p_id": "#11806"
-         }, 
-         {
-
-         "p_name": "Olga Schnitzler",
-
-         "p_id": "#2173"
-         }]
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße"
       }
       },
     {
@@ -86,24 +91,6 @@
         "geonames": "https://sws.geonames.org/6946186/", 
         "abbr": "R.RD", 
         "type": "Weg"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.49857, 48.15853]
-      },
-      "properties": {
-         "id": "pmb91369",
-         "title": "Nymphenburg",
-         "lat": "48.15853",
-         "lon": "11.49857",
-         "timestamp": ["1928-09-02"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2861525/", 
-        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes"
       }
       },
     {

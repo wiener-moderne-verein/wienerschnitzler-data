@@ -7,12 +7,13 @@
         "type": "LineString", 
         "coordinates": [
             [16.16265, 48.19512], 
+            [16.37778, 48.17111], 
             [16.3734, 48.1809], 
             [16.33716, 48.23188], 
             [16.320833, 48.252222], 
-            [16.24604, 48.24737], 
             [16.25, 48.26667], 
             [16.23333, 48.26667], 
+            [16.24604, 48.24737], 
             [16.14492, 48.30198], 
             [16.09456, 48.25022]
           ]
@@ -38,6 +39,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q1692038", 
         "abbr": "eingemeindeter Ort (A.VOO)", 
         "type": ""
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3734, 48.1809]
+      },
+      "properties": {
+         "id": "pmb185942",
+         "title": "Arbeiterheim Favoriten",
+         "lat": "48.1809",
+         "lon": "16.3734",
+         "timestamp": ["1921-09-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Arbeiterheim_Favoriten", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=26352", 
+        "wikidata": "http://www.wikidata.org/entity/Q627143", 
+        "abbr": "Volksbildungsanstalt (K.VBA)", 
+        "type": "Volksbildungsanstalt"
       }
       },
     {
@@ -129,20 +150,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3734, 48.1809]
+        "coordinates": [16.37778, 48.17111]
       },
       "properties": {
-         "id": "pmb185942",
-         "title": "Arbeiterheim Favoriten",
-         "lat": "48.1809",
-         "lon": "16.3734",
+         "id": "pmb60",
+         "title": "X., Favoriten",
+         "lat": "48.17111",
+         "lon": "16.37778",
          "timestamp": ["1921-09-25"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Arbeiterheim_Favoriten", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=26352", 
-        "wikidata": "http://www.wikidata.org/entity/Q627143", 
-        "abbr": "Volksbildungsanstalt (K.VBA)", 
-        "type": "Volksbildungsanstalt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Favoriten", 
+        "wikidata": "http://www.wikidata.org/entity/Q697548", 
+        "geonames": "https://sws.geonames.org/2779776/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       },
     {
@@ -159,6 +180,26 @@
          "timestamp": ["1921-09-25"],
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2764412/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25, 48.26667]
+      },
+      "properties": {
+         "id": "pmb44394",
+         "title": "Weidlingbach",
+         "lat": "48.26667",
+         "lon": "16.25",
+         "timestamp": ["1921-09-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q12356726", 
+        "geonames": "https://sws.geonames.org/2761738/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
       }
@@ -237,26 +278,6 @@
         "geonames": "https://sws.geonames.org/7873075/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
-      }
-      },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.25, 48.26667]
-      },
-      "properties": {
-         "id": "pmb44394",
-         "title": "Weidlingbach",
-         "lat": "48.26667",
-         "lon": "16.25",
-         "timestamp": ["1921-09-25"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Weidlingbach_(Gemeinde_Klosterneuburg)", 
-        "wikidata": "http://www.wikidata.org/entity/Q12356726", 
-        "geonames": "https://sws.geonames.org/2761738/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
       }
       }
   ]

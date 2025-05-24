@@ -10741,6 +10741,12 @@
         "wohnort": [
          {
 
+         "p_name": "Isaak ",
+
+         "p_id": "#18693"
+         }, 
+         {
+
          "p_name": "Ottilie Salten",
 
          "p_id": "#23918"
@@ -14061,7 +14067,7 @@
          "importance": 64, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
-        "wohnort": [
+        "arbeitsort": [
          {
 
          "p_name": "Josef Peter",
@@ -16419,8 +16425,8 @@
          "title": "Akademietheater",
          "lat": "48.200254933632",
          "lon": "16.377117625773",
-         "timestamp": ["1921-09-18", "1921-11-13", "1922-04-11", "1922-06-23", "1922-06-24", "1922-07-04", "1923-04-05", "1924-04-11", "1924-11-18", "1925-06-04", "1925-10-23", "1926-09-17", "1927-03-15", "1927-03-18", "1927-03-22", "1927-05-10", "1927-05-13", "1927-10-03", "1928-12-11", "1929-05-07", "1930-02-26", "1930-12-23"],
-         "importance": 22, 
+         "timestamp": ["1921-09-18", "1921-11-13", "1922-04-11", "1922-06-23", "1922-06-24", "1922-07-04", "1923-04-05", "1924-04-11", "1924-11-18", "1925-06-04", "1925-10-23", "1926-09-17", "1927-03-15", "1927-03-18", "1927-03-22", "1927-05-10", "1927-05-13", "1927-10-03", "1928-01-08", "1928-12-11", "1929-05-07", "1930-02-26", "1930-12-23"],
+         "importance": 23, 
         "wikipedia": "https://de.wikipedia.org/wiki/Akademietheater_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q113470466 http://www.wikidata.org/entity/Q414538", 
         "abbr": "Theater (K.THE)", 
@@ -17460,6 +17466,12 @@
          "p_name": "Lili Cappellini",
 
          "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Alois Lorenzoni",
+
+         "p_id": "#20602"
          }, 
          {
 
@@ -19565,7 +19577,14 @@
          "timestamp": ["1921-12-28"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Alfred Gerasch",
+
+         "p_id": "#11423"
+         }]
       }
       }, 
     {
@@ -29590,6 +29609,23 @@
          "importance": 1, 
         "abbr": "Park (K.PRK)", 
         "type": "Park"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.39159017, 38.7974438]
+      },
+      "properties": {
+         "id": "pmb250417",
+         "title": "Hotel Nunes",
+         "lat": "38.7974438",
+         "lon": "-9.39159017",
+         "timestamp": ["1926-04-25"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
       }
       }, 
     {

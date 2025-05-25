@@ -185,8 +185,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1921-02-18", "1921-11-10"],
-         "importance": 2, 
+         "timestamp": ["1921-02-18", "1921-03-03", "1921-11-10"],
+         "importance": 3, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -301,8 +301,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1921-02-23", "1921-02-25", "1921-03-01", "1921-03-28", "1921-04-08", "1921-05-20", "1921-06-14", "1921-09-23", "1921-10-07", "1921-11-09", "1921-11-30", "1921-12-01"],
-         "importance": 12, 
+         "timestamp": ["1921-02-23", "1921-02-25", "1921-03-01", "1921-03-23", "1921-03-28", "1921-04-08", "1921-05-20", "1921-06-14", "1921-09-23", "1921-10-07", "1921-11-09", "1921-11-30", "1921-12-01"],
+         "importance": 13, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -4084,8 +4084,8 @@
          "title": "Wiener Konzerthaus",
          "lat": "48.200771836002",
          "lon": "16.377197811369",
-         "timestamp": ["1921-10-25", "1921-11-02", "1921-11-07", "1921-11-17", "1921-11-19", "1921-12-14"],
-         "importance": 6, 
+         "timestamp": ["1921-04-26", "1921-10-25", "1921-11-02", "1921-11-07", "1921-11-17", "1921-11-19", "1921-12-14"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Konzerthaus", 
         "wikidata": "http://www.wikidata.org/entity/Q695126", 
         "abbr": "Konzertsaal (K.KNZ)", 
@@ -6249,6 +6249,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.582747713548356, 48.125948669861934]
+      },
+      "properties": {
+         "id": "pmb53065",
+         "title": "Mariahilfplatz",
+         "lat": "48.125948669861934",
+         "lon": "11.582747713548356",
+         "timestamp": ["1921-05-05"],
+         "importance": 1, 
+        "abbr": "Platz (K.PLT)", 
+        "type": "Platz"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.58416, 48.157494]
       },
       "properties": {
@@ -7839,24 +7856,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.363861111111, 48.208416666667]
+        "coordinates": [16.36385, 48.20841]
       },
       "properties": {
-         "id": "pmb293084",
-         "title": "Kanzleramt",
-         "lat": "48.208416666667",
-         "lon": "16.363861111111",
+         "id": "pmb60142",
+         "title": "Bundeskanzleramt",
+         "lat": "48.20841",
+         "lon": "16.36385",
          "timestamp": ["1921-11-13"],
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q24192165", 
-        "abbr": "Verwaltungsgebäude (K.VWL)", 
-        "type": "Verwaltungsgebäude", 
+        "abbr": "Regierungsgebäude (K.RGB)", 
+        "type": "Regierungsgebäude", 
         "arbeitsort": [
          {
 
-         "p_name": "Michael Hainisch",
+         "p_name": "Ignaz Seipel",
 
-         "p_id": "#7662"
+         "p_id": "#12762"
+         }, 
+         {
+
+         "p_name": "Ignaz Seipel",
+
+         "p_id": "#12762"
          }]
       }
       }, 

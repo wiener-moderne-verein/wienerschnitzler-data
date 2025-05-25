@@ -7,6 +7,7 @@
         "type": "LineString", 
         "coordinates": [
             [15.43729, 47.07183], 
+            [15.4456, 47.069], 
             [15.4444, 47.0748], 
             [15.44429, 47.08005]
           ]
@@ -66,6 +67,25 @@
          "importance": 1, 
         "abbr": "Sanatorium (K.SAN)", 
         "type": "Sanatorium"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.4456, 47.069]
+      },
+      "properties": {
+         "id": "pmb288777",
+         "title": "Opernhaus Graz",
+         "lat": "47.069",
+         "lon": "15.4456",
+         "timestamp": ["1922-06-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Opernhaus_Graz", 
+        "wikidata": "http://www.wikidata.org/entity/Q618239", 
+        "abbr": "Oper (K.OPR)", 
+        "type": "Oper"
       }
       }
   ]

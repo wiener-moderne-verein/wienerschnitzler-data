@@ -2511,8 +2511,8 @@
          "title": "Buch- und Kunsthandlung Hugo Heller & Cie.",
          "lat": "48.209673",
          "lon": "16.37127",
-         "timestamp": ["1924-01-02", "1924-04-12", "1924-12-05"],
-         "importance": 3, 
+         "timestamp": ["1924-01-02", "1924-03-06", "1924-04-12", "1924-12-05"],
+         "importance": 4, 
         "abbr": "Buchhandlung (K.BHL)", 
         "type": "Buchhandlung"
       }
@@ -3846,6 +3846,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36385, 48.20841]
+      },
+      "properties": {
+         "id": "pmb60142",
+         "title": "Bundeskanzleramt",
+         "lat": "48.20841",
+         "lon": "16.36385",
+         "timestamp": ["1924-03-08"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q24192165", 
+        "abbr": "Regierungsgebäude (K.RGB)", 
+        "type": "Regierungsgebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Ignaz Seipel",
+
+         "p_id": "#12762"
+         }, 
+         {
+
+         "p_name": "Ignaz Seipel",
+
+         "p_id": "#12762"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.360145, 48.220337]
       },
       "properties": {
@@ -4443,36 +4474,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.36385, 48.20841]
-      },
-      "properties": {
-         "id": "pmb60142",
-         "title": "Bundeskanzleramt",
-         "lat": "48.20841",
-         "lon": "16.36385",
-         "timestamp": ["1924-03-08"],
-         "importance": 1, 
-        "abbr": "Regierungsgebäude (K.RGB)", 
-        "type": "Regierungsgebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Ignaz Seipel",
-
-         "p_id": "#12762"
-         }, 
-         {
-
-         "p_name": "Ignaz Seipel",
-
-         "p_id": "#12762"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.349979, 48.224251]
       },
       "properties": {
@@ -4484,6 +4485,23 @@
          "importance": 9, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.376692, 48.206828]
+      },
+      "properties": {
+         "id": "pmb256478",
+         "title": "Der Gong",
+         "lat": "48.206828",
+         "lon": "16.376692",
+         "timestamp": ["1924-03-18"],
+         "importance": 1, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
       }
       }, 
     {

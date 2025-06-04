@@ -6,9 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.732299, 47.645521], 
+            [13.77004, 47.628445], 
             [13.77189, 47.6417], 
-            [13.753263, 47.650754]
+            [13.753263, 47.650754], 
+            [13.732299, 47.645521]
           ]
       },
       "properties": {
@@ -64,6 +65,23 @@
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.77004, 47.628445]
+      },
+      "properties": {
+         "id": "pmb290949",
+         "title": "Villa Schöneck",
+         "lat": "47.628445",
+         "lon": "13.77004",
+         "timestamp": ["1921-08-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

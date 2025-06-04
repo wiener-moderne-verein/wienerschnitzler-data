@@ -71,8 +71,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1913-02-25", "1913-03-07", "1913-03-31", "1913-04-03", "1913-11-12", "1913-11-20", "1913-11-26", "1913-12-07"],
-         "importance": 8, 
+         "timestamp": ["1913-02-25", "1913-03-07", "1913-03-31", "1913-04-03", "1913-11-11", "1913-11-12", "1913-11-20", "1913-11-26", "1913-12-07"],
+         "importance": 9, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -911,6 +911,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.33494, 48.23365]
+      },
+      "properties": {
+         "id": "pmb235251",
+         "title": "Hasenauerstraße 59",
+         "lat": "48.23365",
+         "lon": "16.33494",
+         "timestamp": ["1913-01-03", "1913-01-31", "1913-02-14", "1913-02-19", "1913-03-14", "1913-04-13", "1913-04-24", "1913-05-13", "1913-05-25", "1913-09-14", "1913-11-14"],
+         "importance": 11, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.300034240016, 48.246838181084]
       },
       "properties": {
@@ -1389,6 +1425,44 @@
         "wikidata": "http://www.wikidata.org/entity/Q57843963", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.578786, 48.139944]
+      },
+      "properties": {
+         "id": "pmb9",
+         "title": "Königlich Bayerische Hoftheater",
+         "lat": "48.139944",
+         "lon": "11.578786",
+         "timestamp": ["1913-09-06", "1913-09-08"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bayerisches_Staatsschauspiel", 
+        "wikidata": "http://www.wikidata.org/entity/Q812446", 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Lucy von Jacobi",
+
+         "p_id": "#11806"
+         }, 
+         {
+
+         "p_name": "Albert von Speidel",
+
+         "p_id": "#12813"
+         }, 
+         {
+
+         "p_name": "Albert Steinrück",
+
+         "p_id": "#12837"
+         }]
       }
       }, 
     {
@@ -2617,42 +2691,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.33494, 48.23365]
-      },
-      "properties": {
-         "id": "pmb235251",
-         "title": "Hasenauerstraße 59",
-         "lat": "48.23365",
-         "lon": "16.33494",
-         "timestamp": ["1913-01-03", "1913-01-31", "1913-02-14", "1913-02-19", "1913-03-14", "1913-04-13", "1913-04-24", "1913-05-13", "1913-05-25", "1913-09-14", "1913-11-14"],
-         "importance": 11, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Julius Bachrach",
-
-         "p_id": "#13648"
-         }, 
-         {
-
-         "p_name": "Paula Beer-Hofmann",
-
-         "p_id": "#10860"
-         }, 
-         {
-
-         "p_name": "Richard Beer-Hofmann",
-
-         "p_id": "#10863"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.338443, 48.234039]
       },
       "properties": {
@@ -2937,44 +2975,6 @@
          "p_name": "Siegfried Trebitsch",
 
          "p_id": "#12968"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.578786, 48.139944]
-      },
-      "properties": {
-         "id": "pmb9",
-         "title": "Königlich Bayerische Hoftheater",
-         "lat": "48.139944",
-         "lon": "11.578786",
-         "timestamp": ["1913-09-06", "1913-09-08"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bayerisches_Staatsschauspiel", 
-        "wikidata": "http://www.wikidata.org/entity/Q812446", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Lucy von Jacobi",
-
-         "p_id": "#11806"
-         }, 
-         {
-
-         "p_name": "Albert von Speidel",
-
-         "p_id": "#12813"
-         }, 
-         {
-
-         "p_name": "Albert Steinrück",
-
-         "p_id": "#12837"
          }]
       }
       }, 

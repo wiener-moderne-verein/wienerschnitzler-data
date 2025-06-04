@@ -157,6 +157,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.372564182283, 48.201265597319]
+      },
+      "properties": {
+         "id": "pmb516",
+         "title": "Musikverein",
+         "lat": "48.201265597319",
+         "lon": "16.372564182283",
+         "timestamp": ["1892-01-13", "1892-01-31", "1892-04-12"],
+         "importance": 3, 
+        "abbr": "Konzertsaal (K.KNZ)", 
+        "type": "Konzertsaal"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3691, 48.203]
       },
       "properties": {
@@ -241,8 +258,8 @@
          "title": "Bösendorfer-Saal",
          "lat": "48.209167",
          "lon": "16.366111",
-         "timestamp": ["1892-11-16"],
-         "importance": 1, 
+         "timestamp": ["1892-04-09", "1892-04-19", "1892-11-16"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
         "wikidata": "http://www.wikidata.org/entity/Q1020093", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
@@ -1879,6 +1896,42 @@
         "geonames": "https://sws.geonames.org/2772998/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.33494, 48.23365]
+      },
+      "properties": {
+         "id": "pmb235251",
+         "title": "Hasenauerstraße 59",
+         "lat": "48.23365",
+         "lon": "16.33494",
+         "timestamp": ["1892-05-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Bachrach",
+
+         "p_id": "#13648"
+         }, 
+         {
+
+         "p_name": "Paula Beer-Hofmann",
+
+         "p_id": "#10860"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
       }
       }, 
     {

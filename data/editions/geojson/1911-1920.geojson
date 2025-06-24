@@ -2344,6 +2344,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.26638, 48.18805]
+      },
+      "properties": {
+         "id": "pmb665",
+         "title": "Sankt Veit",
+         "lat": "48.18805",
+         "lon": "16.26638",
+         "timestamp": ["1915-04-11", "1915-11-01", "1915-12-12"],
+         "importance": 3, 
+        "abbr": "eingemeindeter Ort (A.VOO)", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36743, 48.208786]
       },
       "properties": {
@@ -2372,6 +2389,30 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.355896, 48.20993]
+      },
+      "properties": {
+         "id": "pmb256146",
+         "title": "Rathausstraße 7",
+         "lat": "48.20993",
+         "lon": "16.355896",
+         "timestamp": ["1914-04-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Guido Engelmann",
+
+         "p_id": "#7003"
+         }]
       }
       }, 
     {
@@ -2866,6 +2907,42 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.356392, 48.209934]
+      },
+      "properties": {
+         "id": "pmb234454",
+         "title": "Lichtenfelsgasse 7",
+         "lat": "48.209934",
+         "lon": "16.356392",
+         "timestamp": ["1912-03-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Rosa Hochsinger",
+
+         "p_id": "#18345"
+         }, 
+         {
+
+         "p_name": "Carl Hochsinger",
+
+         "p_id": "#11718"
+         }, 
+         {
+
+         "p_name": "Max Eugen Burckhard",
+
+         "p_id": "#11036"
+         }]
       }
       }, 
     {
@@ -13354,6 +13431,8 @@
          "lon": "7.10831",
          "timestamp": ["1911-04-21"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Antibes", 
+        "wikidata": "http://www.wikidata.org/entity/Q126898", 
         "geonames": "https://sws.geonames.org/3037456/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -14996,42 +15075,6 @@
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.356392, 48.209934]
-      },
-      "properties": {
-         "id": "pmb234454",
-         "title": "Lichtenfelsgasse 7",
-         "lat": "48.209934",
-         "lon": "16.356392",
-         "timestamp": ["1912-03-18"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Rosa Hochsinger",
-
-         "p_id": "#18345"
-         }, 
-         {
-
-         "p_name": "Carl Hochsinger",
-
-         "p_id": "#11718"
-         }, 
-         {
-
-         "p_name": "Max Eugen Burckhard",
-
-         "p_id": "#11036"
-         }]
       }
       }, 
     {
@@ -20046,30 +20089,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.355896, 48.20993]
-      },
-      "properties": {
-         "id": "pmb256146",
-         "title": "Rathausstraße 7",
-         "lat": "48.20993",
-         "lon": "16.355896",
-         "timestamp": ["1914-04-24"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Guido Engelmann",
-
-         "p_id": "#7003"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.3699, 48.206713]
       },
       "properties": {
@@ -23635,23 +23654,6 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gloriakino", 
         "abbr": "Kino (K.KNO)", 
         "type": "Kino"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.26638, 48.18805]
-      },
-      "properties": {
-         "id": "pmb665",
-         "title": "Sankt Veit",
-         "lat": "48.18805",
-         "lon": "16.26638",
-         "timestamp": ["1915-04-11", "1915-11-01", "1915-12-12"],
-         "importance": 3, 
-        "abbr": "eingemeindeter Ort (A.VOO)", 
-        "type": ""
       }
       }, 
     {

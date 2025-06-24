@@ -180,24 +180,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.36645, 48.20778]
-      },
-      "properties": {
-         "id": "pmb185621",
-         "title": "Burgtheater [Altes Burgtheater]",
-         "lat": "48.20778",
-         "lon": "16.36645",
-         "timestamp": ["1898-06-14"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q45350189", 
-        "abbr": "Theater (K.THE)", 
-        "type": "Theater"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.351111, 48.209583]
       },
       "properties": {
@@ -312,8 +294,8 @@
          "title": "Burgtheater",
          "lat": "48.210333",
          "lon": "16.361139",
-         "timestamp": ["1898-01-04", "1898-02-02", "1898-02-13", "1898-02-17", "1898-02-26", "1898-03-24", "1898-03-26", "1898-04-16", "1898-04-27", "1898-05-01", "1898-05-16", "1898-05-20", "1898-06-17", "1898-06-18", "1898-09-05", "1898-09-08", "1898-09-20", "1898-09-21", "1898-10-14", "1898-10-16", "1898-10-17", "1898-10-25", "1898-11-10", "1898-11-11", "1898-11-12", "1898-11-14", "1898-11-16", "1898-11-17", "1898-11-19", "1898-11-22", "1898-11-26", "1898-11-28", "1898-11-29", "1898-11-30", "1898-12-14", "1898-12-18"],
-         "importance": 36, 
+         "timestamp": ["1898-01-04", "1898-02-02", "1898-02-13", "1898-02-17", "1898-02-26", "1898-03-24", "1898-03-26", "1898-04-16", "1898-04-27", "1898-05-01", "1898-05-16", "1898-05-20", "1898-06-14", "1898-06-17", "1898-06-18", "1898-09-05", "1898-09-08", "1898-09-20", "1898-09-21", "1898-10-14", "1898-10-16", "1898-10-17", "1898-10-25", "1898-11-10", "1898-11-11", "1898-11-12", "1898-11-14", "1898-11-16", "1898-11-17", "1898-11-19", "1898-11-22", "1898-11-26", "1898-11-28", "1898-11-29", "1898-11-30", "1898-12-14", "1898-12-18"],
+         "importance": 37, 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -1025,6 +1007,36 @@
          "importance": 1, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.382549, 48.21387]
+      },
+      "properties": {
+         "id": "pmb199587",
+         "title": "Praterstraße 21",
+         "lat": "48.21387",
+         "lon": "16.382549",
+         "timestamp": ["1898-04-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Margarethe Manasséwitsch",
+
+         "p_id": "#20861"
+         }, 
+         {
+
+         "p_name": "Irene Mandl",
+
+         "p_id": "#20902"
+         }]
       }
       }, 
     {
@@ -2310,36 +2322,6 @@
          "p_name": "Maximilian Harden",
 
          "p_id": "#11581"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.382549, 48.21387]
-      },
-      "properties": {
-         "id": "pmb199587",
-         "title": "Praterstraße 21",
-         "lat": "48.21387",
-         "lon": "16.382549",
-         "timestamp": ["1898-04-10"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Margarethe Manasséwitsch",
-
-         "p_id": "#20861"
-         }, 
-         {
-
-         "p_name": "Irene Mandl",
-
-         "p_id": "#20902"
          }]
       }
       }, 
@@ -4082,6 +4064,8 @@
          "lon": "7.8929",
          "timestamp": ["1898-08-18", "1898-08-19"],
          "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCrren", 
+        "wikidata": "http://www.wikidata.org/entity/Q675392", 
         "geonames": "https://sws.geonames.org/2659530/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -4212,6 +4196,7 @@
          "lon": "8.33695",
          "timestamp": ["1898-08-20"],
          "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q666668", 
         "geonames": "https://sws.geonames.org/2660501/", 
         "abbr": "T.PASS", 
         "type": "Pass"
@@ -4505,6 +4490,7 @@
          "lon": "8.241111",
          "timestamp": ["1898-08-27"],
          "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q15265", 
         "geonames": "https://sws.geonames.org/2659201/", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"

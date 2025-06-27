@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.363819, 48.20334], 
             [16.3642, 48.19941], 
-            [16.363819, 48.20334]
+            [16.391263, 48.206662], 
+            [16.36542, 48.21383]
           ]
       },
       "properties": {
@@ -35,6 +37,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36542, 48.21383]
+      },
+      "properties": {
+         "id": "pmb294895",
+         "title": "Helferstorferstraße 6",
+         "lat": "48.21383",
+         "lon": "16.36542",
+         "timestamp": ["1886-01-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.363819, 48.20334]
       },
       "properties": {
@@ -46,6 +65,23 @@
          "importance": 1, 
         "abbr": "Ordination", 
         "type": "Ordination"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.391263, 48.206662]
+      },
+      "properties": {
+         "id": "pmb107",
+         "title": "Sofiensäle",
+         "lat": "48.206662",
+         "lon": "16.391263",
+         "timestamp": ["1886-01-09"],
+         "importance": 1, 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
       }
       }
   ]

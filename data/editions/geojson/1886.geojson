@@ -107,8 +107,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1886-01-02", "1886-11-11"],
-         "importance": 2, 
+         "timestamp": ["1886-01-02", "1886-01-08", "1886-01-30", "1886-02-27", "1886-03-17", "1886-04-20", "1886-11-11", "1886-11-15"],
+         "importance": 8, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -272,8 +272,26 @@
          "title": "Sofiensäle",
          "lat": "48.206662",
          "lon": "16.391263",
-         "timestamp": ["1886-03-17"],
+         "timestamp": ["1886-01-09", "1886-03-17"],
+         "importance": 2, 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.378011, 48.205565]
+      },
+      "properties": {
+         "id": "pmb182754",
+         "title": "Gartenbausäle",
+         "lat": "48.205565",
+         "lon": "16.378011",
+         "timestamp": ["1886-02-21"],
          "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gartenbausäle", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
       }
@@ -423,8 +441,8 @@
          "title": "Löwelstraße 16",
          "lat": "48.210795",
          "lon": "16.362269",
-         "timestamp": ["1886-01-23"],
-         "importance": 1, 
+         "timestamp": ["1886-01-23", "1886-11-23"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -517,6 +535,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36542, 48.21383]
+      },
+      "properties": {
+         "id": "pmb294895",
+         "title": "Helferstorferstraße 6",
+         "lat": "48.21383",
+         "lon": "16.36542",
+         "timestamp": ["1886-01-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.37548, 48.2099]
       },
       "properties": {
@@ -562,6 +597,23 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37398, 48.20623]
+      },
+      "properties": {
+         "id": "pmb294915",
+         "title": "Franziskanerplatz 5",
+         "lat": "48.20623",
+         "lon": "16.37398",
+         "timestamp": ["1886-03-02", "1886-11-25"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {

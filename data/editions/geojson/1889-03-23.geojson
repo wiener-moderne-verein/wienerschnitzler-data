@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.36362, 48.20329]
+            [16.36362, 48.20329], 
+            [16.4, 48.21667]
           ]
       },
       "properties": {
@@ -28,6 +29,26 @@
          "importance": 1, 
         "abbr": "Ordination", 
         "type": "Ordination"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.4, 48.21667]
+      },
+      "properties": {
+         "id": "pmb52",
+         "title": "II., Leopoldstadt",
+         "lat": "48.21667",
+         "lon": "16.4",
+         "timestamp": ["1889-03-23"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Leopoldstadt", 
+        "wikidata": "http://www.wikidata.org/entity/Q259120", 
+        "geonames": "https://sws.geonames.org/2772614/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }
   ]

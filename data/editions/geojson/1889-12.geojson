@@ -32,8 +32,8 @@
          "title": "Konservatorium der Gesellschaft der Musikfreunde",
          "lat": "48.210333",
          "lon": "16.37084",
-         "timestamp": ["1889-12-05", "1889-12-11"],
-         "importance": 2, 
+         "timestamp": ["1889-12-04", "1889-12-05", "1889-12-11"],
+         "importance": 3, 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Universität_für_Musik_und_darstellende_Kunst_Wien", 
         "abbr": "Konservatorium (K.KON)", 
         "type": "Konservatorium"
@@ -393,6 +393,36 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Fenstergucker", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.382549, 48.21387]
+      },
+      "properties": {
+         "id": "pmb199587",
+         "title": "Praterstraße 21",
+         "lat": "48.21387",
+         "lon": "16.382549",
+         "timestamp": ["1889-12-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Margarethe Manasséwitsch",
+
+         "p_id": "#20861"
+         }, 
+         {
+
+         "p_name": "Irene Mandl",
+
+         "p_id": "#20902"
+         }]
       }
       }
   ]

@@ -145,8 +145,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1885-02-19", "1885-02-23", "1885-03-12", "1885-11-18", "1885-11-21", "1885-11-24", "1885-11-27", "1885-11-30", "1885-12-02", "1885-12-04", "1885-12-09", "1885-12-14", "1885-12-19"],
-         "importance": 13, 
+         "timestamp": ["1885-02-19", "1885-02-23", "1885-03-12", "1885-03-15", "1885-11-12", "1885-11-15", "1885-11-18", "1885-11-19", "1885-11-21", "1885-11-24", "1885-11-27", "1885-11-28", "1885-11-29", "1885-11-30", "1885-12-02", "1885-12-04", "1885-12-09", "1885-12-14", "1885-12-19"],
+         "importance": 19, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -275,10 +275,28 @@
          "title": "Bösendorfer-Saal",
          "lat": "48.209167",
          "lon": "16.366111",
-         "timestamp": ["1885-01-09", "1885-01-23", "1885-02-03", "1885-04-13", "1885-11-04"],
-         "importance": 5, 
+         "timestamp": ["1885-01-09", "1885-01-23", "1885-02-03", "1885-04-03", "1885-04-13", "1885-11-04"],
+         "importance": 6, 
         "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
         "wikidata": "http://www.wikidata.org/entity/Q1020093", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.386103, 48.217755]
+      },
+      "properties": {
+         "id": "pmb182751",
+         "title": "Zirkus Renz",
+         "lat": "48.217755",
+         "lon": "16.386103",
+         "timestamp": ["1885-03-23"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Zirkus_Renz", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
       }
@@ -315,6 +333,23 @@
          "importance": 5, 
         "abbr": "Theater (K.THE)", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.391263, 48.206662]
+      },
+      "properties": {
+         "id": "pmb107",
+         "title": "Sofiensäle",
+         "lat": "48.206662",
+         "lon": "16.391263",
+         "timestamp": ["1885-02-11", "1885-02-13", "1885-02-20"],
+         "importance": 3, 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
       }
       }, 
     {
@@ -380,6 +415,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3669, 48.20269]
+      },
+      "properties": {
+         "id": "pmb295385",
+         "title": "Opernring 11",
+         "lat": "48.20269",
+         "lon": "16.3669",
+         "timestamp": ["1885-02-01"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3589845, 48.2195962]
       },
       "properties": {
@@ -426,6 +478,25 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Café_Arkaden", 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.362808, 48.194415]
+      },
+      "properties": {
+         "id": "pmb185974",
+         "title": "Drei-Engel-Säle",
+         "lat": "48.194415",
+         "lon": "16.362808",
+         "timestamp": ["1885-06-08"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=9325", 
+        "wikidata": "http://www.wikidata.org/entity/Q130367553", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
       }
       }, 
     {
@@ -512,6 +583,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36542, 48.21383]
+      },
+      "properties": {
+         "id": "pmb294895",
+         "title": "Helferstorferstraße 6",
+         "lat": "48.21383",
+         "lon": "16.36542",
+         "timestamp": ["1885-03-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Markbreiter",
+
+         "p_id": "#3814"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379919, 48.201225]
+      },
+      "properties": {
+         "id": "pmb294813",
+         "title": "Am Heumarkt 17",
+         "lat": "48.201225",
+         "lon": "16.379919",
+         "timestamp": ["1885-12-12"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eduard Theimer",
+
+         "p_id": "#25979"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.377185, 48.207905]
       },
       "properties": {
@@ -530,6 +649,42 @@
 
          "p_id": "#21638"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.4094, 48.2122]
+      },
+      "properties": {
+         "id": "pmb148394",
+         "title": "Rotunde",
+         "lat": "48.2122",
+         "lon": "16.4094",
+         "timestamp": ["1885-02-28", "1885-06-13", "1885-08-01"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rotunde_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q684352", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36233, 48.21718]
+      },
+      "properties": {
+         "id": "pmb295369",
+         "title": "Liechtensteinstraße 11",
+         "lat": "48.21718",
+         "lon": "16.36233",
+         "timestamp": ["1885-03-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -563,6 +718,23 @@
          "lon": "16.36734",
          "timestamp": ["1885-06-18"],
          "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37945, 48.21363]
+      },
+      "properties": {
+         "id": "pmb295",
+         "title": "Hotel zum Schwarzen Adler [Wien]",
+         "lat": "48.21363",
+         "lon": "16.37945",
+         "timestamp": ["1885-06-22", "1885-07-02", "1885-08-02"],
+         "importance": 3, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
       }
@@ -605,42 +777,6 @@
         "geonames": "https://sws.geonames.org/3055597/", 
         "abbr": "See (N.SEE)", 
         "type": "See"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37945, 48.21363]
-      },
-      "properties": {
-         "id": "pmb295",
-         "title": "Hotel zum Schwarzer Adler [Wien]",
-         "lat": "48.21363",
-         "lon": "16.37945",
-         "timestamp": ["1885-07-02"],
-         "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.4094, 48.2122]
-      },
-      "properties": {
-         "id": "pmb148394",
-         "title": "Rotunde",
-         "lat": "48.2122",
-         "lon": "16.4094",
-         "timestamp": ["1885-08-01"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Rotunde_(Wien)", 
-        "wikidata": "http://www.wikidata.org/entity/Q684352", 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
       }
       }, 
     {
@@ -765,6 +901,8 @@
          "lon": "8.4842",
          "timestamp": ["1885-08-18"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Vitznau", 
+        "wikidata": "http://www.wikidata.org/entity/Q14578", 
         "geonames": "https://sws.geonames.org/2658107/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -1010,6 +1148,8 @@
          "lon": "8.85927",
          "timestamp": ["1885-08-22"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Ponte_Tresa_TI", 
+        "wikidata": "http://www.wikidata.org/entity/Q68203", 
         "geonames": "https://sws.geonames.org/6620244/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -1048,6 +1188,8 @@
          "lon": "9.23615",
          "timestamp": ["1885-08-23"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cadenabbia", 
+        "wikidata": "http://www.wikidata.org/entity/Q1025108", 
         "geonames": "https://sws.geonames.org/6692284/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -1066,6 +1208,8 @@
          "lon": "9.21613",
          "timestamp": ["1885-08-23"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tremezzo", 
+        "wikidata": "http://www.wikidata.org/entity/Q47181", 
         "geonames": "https://sws.geonames.org/3165252/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
@@ -1260,23 +1404,6 @@
 
          "p_id": "#25673"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.379919, 48.201225]
-      },
-      "properties": {
-         "id": "pmb294813",
-         "title": "Am Heumarkt 17",
-         "lat": "48.201225",
-         "lon": "16.379919",
-         "timestamp": ["1885-12-12"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
       }
       }
   ]

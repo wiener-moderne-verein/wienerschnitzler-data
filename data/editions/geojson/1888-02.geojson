@@ -49,8 +49,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1888-02-29"],
-         "importance": 1, 
+         "timestamp": ["1888-02-26", "1888-02-29"],
+         "importance": 2, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -236,6 +236,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379919, 48.201225]
+      },
+      "properties": {
+         "id": "pmb294813",
+         "title": "Am Heumarkt 17",
+         "lat": "48.201225",
+         "lon": "16.379919",
+         "timestamp": ["1888-02-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eduard Theimer",
+
+         "p_id": "#25979"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.363548, 48.216542]
       },
       "properties": {
@@ -254,23 +278,6 @@
 
          "p_id": "#25673"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.379919, 48.201225]
-      },
-      "properties": {
-         "id": "pmb294813",
-         "title": "Am Heumarkt 17",
-         "lat": "48.201225",
-         "lon": "16.379919",
-         "timestamp": ["1888-02-11"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
       }
       }, 
     {
@@ -311,7 +318,14 @@
          "timestamp": ["1888-02-13"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund von Gutmann-Gelse",
+
+         "p_id": "#17588"
+         }]
       }
       }, 
     {

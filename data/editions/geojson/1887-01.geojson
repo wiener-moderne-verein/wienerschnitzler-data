@@ -49,8 +49,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1887-01-29"],
-         "importance": 1, 
+         "timestamp": ["1887-01-02", "1887-01-29"],
+         "importance": 2, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -142,7 +142,14 @@
          "timestamp": ["1887-01-05"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gustav von Mauthner",
+
+         "p_id": "#21197"
+         }]
       }
       }, 
     {
@@ -159,7 +166,14 @@
          "timestamp": ["1887-01-31"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Robert Wilhelm Joseph Steiner von Pfungen",
+
+         "p_id": "#105512"
+         }]
       }
       }
   ]

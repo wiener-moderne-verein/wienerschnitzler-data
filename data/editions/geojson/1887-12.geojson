@@ -49,8 +49,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1887-12-27"],
-         "importance": 1, 
+         "timestamp": ["1887-12-18", "1887-12-27"],
+         "importance": 2, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -116,6 +116,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.369401, 48.216774]
+      },
+      "properties": {
+         "id": "pmb199413",
+         "title": "Schottenring 28",
+         "lat": "48.216774",
+         "lon": "16.369401",
+         "timestamp": ["1887-12-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eduard Brüll",
+
+         "p_id": "#14631"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36542, 48.21383]
+      },
+      "properties": {
+         "id": "pmb294895",
+         "title": "Helferstorferstraße 6",
+         "lat": "48.21383",
+         "lon": "16.36542",
+         "timestamp": ["1887-12-26"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Markbreiter",
+
+         "p_id": "#3814"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.362269, 48.210795]
       },
       "properties": {
@@ -146,23 +194,6 @@
 
          "p_id": "#19512"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.36542, 48.21383]
-      },
-      "properties": {
-         "id": "pmb294895",
-         "title": "Helferstorferstraße 6",
-         "lat": "48.21383",
-         "lon": "16.36542",
-         "timestamp": ["1887-12-26"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
       }
       }, 
     {
@@ -223,30 +254,6 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.369401, 48.216774]
-      },
-      "properties": {
-         "id": "pmb199413",
-         "title": "Schottenring 28",
-         "lat": "48.216774",
-         "lon": "16.369401",
-         "timestamp": ["1887-12-26"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Eduard Brüll",
-
-         "p_id": "#14631"
-         }]
       }
       }
   ]

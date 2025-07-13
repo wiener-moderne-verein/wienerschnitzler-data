@@ -182,8 +182,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1880-02-02", "1880-02-19", "1880-04-22", "1880-11-29"],
-         "importance": 4, 
+         "timestamp": ["1880-01-05", "1880-02-02", "1880-02-19", "1880-03-07", "1880-04-04", "1880-04-22", "1880-11-21", "1880-11-29", "1880-12-05", "1880-12-26"],
+         "importance": 10, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -507,6 +507,7 @@
          "lon": "16.361139",
          "timestamp": ["1880-01-07"],
          "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q109377820", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -602,6 +603,23 @@
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37527, 48.20113]
+      },
+      "properties": {
+         "id": "pmb295613",
+         "title": "Schwarzenbergplatz 2",
+         "lat": "48.20113",
+         "lon": "16.37527",
+         "timestamp": ["1880-01-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -737,6 +755,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37202, 48.201489]
+      },
+      "properties": {
+         "id": "pmb294827",
+         "title": "Kärntnerring 12",
+         "lat": "48.201489",
+         "lon": "16.37202",
+         "timestamp": ["1880-02-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gustav Spitzer",
+
+         "p_id": "#25240"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36338, 48.20204]
       },
       "properties": {
@@ -748,6 +790,23 @@
          "importance": 2, 
         "abbr": "Vereinslokal (K.VRN)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.1974]
+      },
+      "properties": {
+         "id": "pmb295596",
+         "title": "Karlsgasse 9",
+         "lat": "48.1974",
+         "lon": "16.37049",
+         "timestamp": ["1880-03-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -1056,6 +1115,8 @@
          "lon": "16.294608885167",
          "timestamp": ["1880-06-20"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hermannskogel", 
+        "wikidata": "http://www.wikidata.org/entity/Q873943", 
         "geonames": "https://sws.geonames.org/2776492/", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"

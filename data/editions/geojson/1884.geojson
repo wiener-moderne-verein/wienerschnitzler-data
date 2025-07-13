@@ -81,8 +81,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1884-01-14", "1884-01-23", "1884-02-07", "1884-02-25", "1884-02-27", "1884-02-28"],
-         "importance": 6, 
+         "timestamp": ["1884-01-06", "1884-01-14", "1884-01-23", "1884-02-07", "1884-02-25", "1884-02-27", "1884-02-28", "1884-04-06"],
+         "importance": 8, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -229,8 +229,8 @@
          "title": "Sofiensäle",
          "lat": "48.206662",
          "lon": "16.391263",
-         "timestamp": ["1884-01-26", "1884-01-29", "1884-02-19"],
-         "importance": 3, 
+         "timestamp": ["1884-01-17", "1884-01-26", "1884-01-29", "1884-02-12", "1884-02-19"],
+         "importance": 5, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
       }
@@ -319,6 +319,41 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3669, 48.20269]
+      },
+      "properties": {
+         "id": "pmb295385",
+         "title": "Opernring 11",
+         "lat": "48.20269",
+         "lon": "16.3669",
+         "timestamp": ["1884-01-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37992, 48.2136]
+      },
+      "properties": {
+         "id": "pmb295470",
+         "title": "Zum weißen Rössel",
+         "lat": "48.2136",
+         "lon": "16.37992",
+         "timestamp": ["1884-01-26"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Zum_wei%C3%9Fen_R%C3%B6ssel_(2)", 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.622439, 47.712959]
       },
       "properties": {
@@ -345,6 +380,64 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3617, 48.21154]
+      },
+      "properties": {
+         "id": "pmb295463",
+         "title": "Rosengasse 8",
+         "lat": "48.21154",
+         "lon": "16.3617",
+         "timestamp": ["1884-02-02"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37605, 48.20507]
+      },
+      "properties": {
+         "id": "pmb295455",
+         "title": "Schellinggasse 1",
+         "lat": "48.20507",
+         "lon": "16.37605",
+         "timestamp": ["1884-02-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36542, 48.21383]
+      },
+      "properties": {
+         "id": "pmb294895",
+         "title": "Helferstorferstraße 6",
+         "lat": "48.21383",
+         "lon": "16.36542",
+         "timestamp": ["1884-02-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Markbreiter",
+
+         "p_id": "#3814"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.362269, 48.210795]
       },
       "properties": {
@@ -352,8 +445,8 @@
          "title": "Löwelstraße 16",
          "lat": "48.210795",
          "lon": "16.362269",
-         "timestamp": ["1884-02-21"],
-         "importance": 1, 
+         "timestamp": ["1884-02-12", "1884-02-21"],
+         "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -423,6 +516,83 @@
 
          "p_id": "#18045"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37065, 48.20293]
+      },
+      "properties": {
+         "id": "pmb295411",
+         "title": "Mahlerstraße 4",
+         "lat": "48.20293",
+         "lon": "16.37065",
+         "timestamp": ["1884-03-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379919, 48.201225]
+      },
+      "properties": {
+         "id": "pmb294813",
+         "title": "Am Heumarkt 17",
+         "lat": "48.201225",
+         "lon": "16.379919",
+         "timestamp": ["1884-03-17"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eduard Theimer",
+
+         "p_id": "#25979"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374825, 48.211649]
+      },
+      "properties": {
+         "id": "pmb233016",
+         "title": "Stadttempel",
+         "lat": "48.211649",
+         "lon": "16.374825",
+         "timestamp": ["1884-03-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stadttempel", 
+        "wikidata": "http://www.wikidata.org/entity/Q253663", 
+        "abbr": "Synagoge", 
+        "type": "Synagoge"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38671, 48.21582]
+      },
+      "properties": {
+         "id": "pmb295394",
+         "title": "Praterstraße 50",
+         "lat": "48.21582",
+         "lon": "16.38671",
+         "timestamp": ["1884-03-27"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {

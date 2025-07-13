@@ -123,6 +123,7 @@
          "lon": "16.361139",
          "timestamp": ["1896-03-07", "1896-03-24"],
          "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q109377820", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -194,6 +195,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.369401, 48.216774]
+      },
+      "properties": {
+         "id": "pmb199413",
+         "title": "Schottenring 28",
+         "lat": "48.216774",
+         "lon": "16.369401",
+         "timestamp": ["1896-03-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eduard Brüll",
+
+         "p_id": "#14631"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3589845, 48.2195962]
       },
       "properties": {
@@ -247,30 +272,6 @@
          "p_name": "Bernhard Strisower",
 
          "p_id": "#25673"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.369401, 48.216774]
-      },
-      "properties": {
-         "id": "pmb199413",
-         "title": "Schottenring 28",
-         "lat": "48.216774",
-         "lon": "16.369401",
-         "timestamp": ["1896-03-04"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Eduard Brüll",
-
-         "p_id": "#14631"
          }]
       }
       }, 

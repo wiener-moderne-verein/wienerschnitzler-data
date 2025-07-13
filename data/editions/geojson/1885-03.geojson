@@ -49,8 +49,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1885-03-12"],
-         "importance": 1, 
+         "timestamp": ["1885-03-12", "1885-03-15"],
+         "importance": 2, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -117,6 +117,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.386103, 48.217755]
+      },
+      "properties": {
+         "id": "pmb182751",
+         "title": "Zirkus Renz",
+         "lat": "48.217755",
+         "lon": "16.386103",
+         "timestamp": ["1885-03-23"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Zirkus_Renz", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36631, 48.21659]
       },
       "properties": {
@@ -152,6 +170,47 @@
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36542, 48.21383]
+      },
+      "properties": {
+         "id": "pmb294895",
+         "title": "Helferstorferstraße 6",
+         "lat": "48.21383",
+         "lon": "16.36542",
+         "timestamp": ["1885-03-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Markbreiter",
+
+         "p_id": "#3814"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36233, 48.21718]
+      },
+      "properties": {
+         "id": "pmb295369",
+         "title": "Liechtensteinstraße 11",
+         "lat": "48.21718",
+         "lon": "16.36233",
+         "timestamp": ["1885-03-10"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }
   ]

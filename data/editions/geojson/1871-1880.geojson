@@ -583,6 +583,8 @@
          "lon": "11.69486",
          "timestamp": ["1874-08-05"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Pertisau", 
+        "wikidata": "http://www.wikidata.org/entity/Q356247", 
         "geonames": "https://sws.geonames.org/2769057/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -1267,8 +1269,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1876-04-02", "1876-11-05", "1876-11-26", "1877-02-21", "1877-07-14", "1877-11-11", "1877-11-18", "1877-12-09", "1878-01-13", "1878-01-20", "1878-03-03", "1878-03-10", "1878-04-16", "1878-04-25", "1878-07-13", "1878-11-21", "1878-12-08", "1879-01-14", "1879-03-18", "1879-04-06", "1879-04-08", "1879-07-12", "1879-11-20", "1879-12-18", "1880-02-02", "1880-02-19", "1880-04-22", "1880-11-29"],
-         "importance": 28, 
+         "timestamp": ["1876-04-02", "1876-11-05", "1876-11-26", "1877-02-18", "1877-02-21", "1877-07-14", "1877-11-11", "1877-11-18", "1877-12-09", "1877-12-30", "1878-01-13", "1878-01-20", "1878-03-03", "1878-03-10", "1878-03-24", "1878-04-07", "1878-04-16", "1878-04-25", "1878-07-13", "1878-11-03", "1878-11-21", "1878-12-08", "1878-12-29", "1879-01-06", "1879-01-14", "1879-01-26", "1879-03-18", "1879-04-06", "1879-04-08", "1879-07-12", "1879-11-20", "1879-11-30", "1879-12-14", "1879-12-18", "1879-12-28", "1880-01-05", "1880-02-02", "1880-02-19", "1880-03-07", "1880-04-04", "1880-04-22", "1880-11-21", "1880-11-29", "1880-12-05", "1880-12-26"],
+         "importance": 45, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -1804,6 +1806,7 @@
          "lon": "3.0",
          "timestamp": ["1879-09-06", "1879-09-07", "1879-09-08", "1879-09-09", "1879-09-10", "1879-09-11"],
          "importance": 6, 
+        "wikidata": "http://www.wikidata.org/entity/Q1693", 
         "geonames": "https://sws.geonames.org/2960848/", 
         "abbr": "H.SEA", 
         "type": "Meer"
@@ -2021,6 +2024,7 @@
          "lon": "16.361139",
          "timestamp": ["1880-01-07"],
          "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q109377820", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -2116,6 +2120,23 @@
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37527, 48.20113]
+      },
+      "properties": {
+         "id": "pmb295613",
+         "title": "Schwarzenbergplatz 2",
+         "lat": "48.20113",
+         "lon": "16.37527",
+         "timestamp": ["1880-01-31"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -2251,6 +2272,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37202, 48.201489]
+      },
+      "properties": {
+         "id": "pmb294827",
+         "title": "Kärntnerring 12",
+         "lat": "48.201489",
+         "lon": "16.37202",
+         "timestamp": ["1880-02-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gustav Spitzer",
+
+         "p_id": "#25240"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36338, 48.20204]
       },
       "properties": {
@@ -2262,6 +2307,23 @@
          "importance": 2, 
         "abbr": "Vereinslokal (K.VRN)", 
         "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.1974]
+      },
+      "properties": {
+         "id": "pmb295596",
+         "title": "Karlsgasse 9",
+         "lat": "48.1974",
+         "lon": "16.37049",
+         "timestamp": ["1880-03-08"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -2570,6 +2632,8 @@
          "lon": "16.294608885167",
          "timestamp": ["1880-06-20"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Hermannskogel", 
+        "wikidata": "http://www.wikidata.org/entity/Q873943", 
         "geonames": "https://sws.geonames.org/2776492/", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg"

@@ -239,8 +239,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1881-01-27", "1881-02-05", "1881-02-12", "1881-02-20", "1881-02-25", "1881-03-13", "1881-04-21", "1881-11-27"],
-         "importance": 8, 
+         "timestamp": ["1881-01-27", "1881-02-05", "1881-02-12", "1881-02-20", "1881-02-25", "1881-03-06", "1881-03-13", "1881-04-03", "1881-04-21", "1881-11-20", "1881-11-27", "1881-12-26"],
+         "importance": 12, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -577,6 +577,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.369401, 48.216774]
+      },
+      "properties": {
+         "id": "pmb199413",
+         "title": "Schottenring 28",
+         "lat": "48.216774",
+         "lon": "16.369401",
+         "timestamp": ["1881-02-20"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eduard Brüll",
+
+         "p_id": "#14631"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3709701, 48.2017407]
       },
       "properties": {
@@ -611,6 +635,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.3669, 48.20269]
+      },
+      "properties": {
+         "id": "pmb295385",
+         "title": "Opernring 11",
+         "lat": "48.20269",
+         "lon": "16.3669",
+         "timestamp": ["1881-03-05"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.379972, 48.213666]
       },
       "properties": {
@@ -622,6 +663,23 @@
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36651, 48.20101]
+      },
+      "properties": {
+         "id": "pmb295576",
+         "title": "Getreidemarkt 2",
+         "lat": "48.20101",
+         "lon": "16.36651",
+         "timestamp": ["1881-03-19"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude"
       }
       }, 
     {
@@ -770,6 +828,8 @@
          "lon": "12.97802",
          "timestamp": ["1881-07-11", "1881-07-12"],
          "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/K%C3%B6nigssee", 
+        "wikidata": "http://www.wikidata.org/entity/Q156715", 
         "geonames": "https://sws.geonames.org/2885777/", 
         "abbr": "H.LK", 
         "type": "See"
@@ -788,6 +848,8 @@
          "lon": "12.95",
          "timestamp": ["1881-07-12"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/St._Bartholom%C3%A4_(K%C3%B6nigssee)", 
+        "wikidata": "http://www.wikidata.org/entity/Q176502", 
         "geonames": "https://sws.geonames.org/3205595/", 
         "abbr": "S.CH", 
         "type": "Kirche"
@@ -880,6 +942,8 @@
          "lon": "13.02265",
          "timestamp": ["1881-07-13", "1881-07-14"],
          "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Lend_(Salzburg)", 
+        "wikidata": "http://www.wikidata.org/entity/Q265953", 
         "geonames": "https://sws.geonames.org/7872240/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
@@ -1087,6 +1151,8 @@
          "lon": "12.6583",
          "timestamp": ["1881-07-17", "1881-07-18"],
          "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Kals_am_Gro%C3%9Fglockner", 
+        "wikidata": "http://www.wikidata.org/entity/Q697575", 
         "geonames": "https://sws.geonames.org/7872595/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"
@@ -1255,6 +1321,8 @@
          "lon": "13.37969",
          "timestamp": ["1881-08-08", "1881-08-09", "1881-08-10", "1881-08-11", "1881-08-12", "1881-08-13", "1881-08-14", "1881-08-15", "1881-08-16", "1881-08-17", "1881-08-18", "1881-08-19", "1881-08-20", "1881-08-21"],
          "importance": 14, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mondsee", 
+        "wikidata": "http://www.wikidata.org/entity/Q665230", 
         "geonames": "https://sws.geonames.org/7872159/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"

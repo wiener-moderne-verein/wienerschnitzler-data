@@ -156,8 +156,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1889-01-13", "1889-02-11", "1889-03-09"],
-         "importance": 3, 
+         "timestamp": ["1889-01-13", "1889-01-27", "1889-02-11", "1889-03-09", "1889-04-07", "1889-11-03", "1889-11-17", "1889-12-01", "1889-12-22"],
+         "importance": 9, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -324,6 +324,7 @@
          "lon": "16.361139",
          "timestamp": ["1889-01-25", "1889-05-04", "1889-06-04", "1889-09-15", "1889-11-23"],
          "importance": 5, 
+        "wikidata": "http://www.wikidata.org/entity/Q109377820", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -363,6 +364,30 @@
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37202, 48.201489]
+      },
+      "properties": {
+         "id": "pmb294827",
+         "title": "Kärntnerring 12",
+         "lat": "48.201489",
+         "lon": "16.37202",
+         "timestamp": ["1889-01-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gustav Spitzer",
+
+         "p_id": "#25240"
+         }]
       }
       }, 
     {
@@ -750,7 +775,14 @@
          "timestamp": ["1889-03-10"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eduard Theimer",
+
+         "p_id": "#25979"
+         }]
       }
       }, 
     {
@@ -893,23 +925,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.37202, 48.201489]
-      },
-      "properties": {
-         "id": "pmb294827",
-         "title": "Kärntnerring 12",
-         "lat": "48.201489",
-         "lon": "16.37202",
-         "timestamp": ["1889-01-28"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.388818, 48.215395]
       },
       "properties": {
@@ -920,7 +935,14 @@
          "timestamp": ["1889-03-17"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Leopold Rosenberg",
+
+         "p_id": "#23573"
+         }]
       }
       }, 
     {
@@ -977,7 +999,14 @@
          "timestamp": ["1889-04-03"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Bernhard Wetzler",
+
+         "p_id": "#27042"
+         }]
       }
       }, 
     {
@@ -1292,6 +1321,8 @@
          "lon": "13.8",
          "timestamp": ["1889-08-10"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Traunsee", 
+        "wikidata": "http://www.wikidata.org/entity/Q250907", 
         "geonames": "https://sws.geonames.org/2763413/", 
         "abbr": "H.LK", 
         "type": "See"
@@ -1461,6 +1492,8 @@
          "lon": "13.92778",
          "timestamp": ["1889-08-12"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Toplitzsee", 
+        "wikidata": "http://www.wikidata.org/entity/Q605796", 
         "geonames": "https://sws.geonames.org/2763532/", 
         "abbr": "H.LK", 
         "type": "See"
@@ -2234,6 +2267,12 @@
          "p_name": "Margarethe Manasséwitsch",
 
          "p_id": "#20861"
+         }, 
+         {
+
+         "p_name": "Ludwig Mandl",
+
+         "p_id": "#20911"
          }, 
          {
 

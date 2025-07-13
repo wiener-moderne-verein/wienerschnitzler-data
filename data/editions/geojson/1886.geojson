@@ -107,8 +107,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1886-01-02", "1886-01-08", "1886-01-30", "1886-02-27", "1886-03-17", "1886-04-20", "1886-11-11", "1886-11-15"],
-         "importance": 8, 
+         "timestamp": ["1886-01-02", "1886-01-08", "1886-01-30", "1886-02-27", "1886-03-17", "1886-04-20", "1886-11-11", "1886-11-14", "1886-11-15", "1886-11-28", "1886-12-05"],
+         "importance": 11, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -434,6 +434,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.36542, 48.21383]
+      },
+      "properties": {
+         "id": "pmb294895",
+         "title": "Helferstorferstraße 6",
+         "lat": "48.21383",
+         "lon": "16.36542",
+         "timestamp": ["1886-01-09"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Markbreiter",
+
+         "p_id": "#3814"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.362269, 48.210795]
       },
       "properties": {
@@ -498,7 +522,7 @@
       },
       "properties": {
          "id": "pmb295",
-         "title": "Hotel zum Schwarzer Adler [Wien]",
+         "title": "Hotel zum Schwarzen Adler [Wien]",
          "lat": "48.21363",
          "lon": "16.37945",
          "timestamp": ["1886-09-10"],
@@ -529,23 +553,6 @@
 
          "p_id": "#25673"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.36542, 48.21383]
-      },
-      "properties": {
-         "id": "pmb294895",
-         "title": "Helferstorferstraße 6",
-         "lat": "48.21383",
-         "lon": "16.36542",
-         "timestamp": ["1886-01-09"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
       }
       }, 
     {
@@ -613,7 +620,14 @@
          "timestamp": ["1886-03-02", "1886-11-25"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Moriz Benedikt",
+
+         "p_id": "#13996"
+         }]
       }
       }, 
     {

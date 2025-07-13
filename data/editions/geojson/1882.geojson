@@ -101,8 +101,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1882-01-06", "1882-02-22", "1882-03-05", "1882-11-23"],
-         "importance": 4, 
+         "timestamp": ["1882-01-06", "1882-01-15", "1882-02-22", "1882-03-05", "1882-03-24", "1882-04-02", "1882-07-15", "1882-11-12", "1882-11-23", "1882-11-26", "1882-12-03", "1882-12-17"],
+         "importance": 12, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -180,8 +180,8 @@
          "title": "Bösendorfer-Saal",
          "lat": "48.209167",
          "lon": "16.366111",
-         "timestamp": ["1882-02-17", "1882-03-22", "1882-12-29"],
-         "importance": 3, 
+         "timestamp": ["1882-02-17", "1882-03-01", "1882-03-22", "1882-12-29"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
         "wikidata": "http://www.wikidata.org/entity/Q1020093", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
@@ -297,6 +297,24 @@
 
          "p_id": "#9671"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.378011, 48.205565]
+      },
+      "properties": {
+         "id": "pmb182754",
+         "title": "Gartenbausäle",
+         "lat": "48.205565",
+         "lon": "16.378011",
+         "timestamp": ["1882-03-11"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gartenbausäle", 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude"
       }
       }, 
     {
@@ -448,6 +466,54 @@
          "importance": 4, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.38131, 48.21355]
+      },
+      "properties": {
+         "id": "pmb294855",
+         "title": "Praterstraße 13",
+         "lat": "48.21355",
+         "lon": "16.38131",
+         "timestamp": ["1882-02-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "David Elias",
+
+         "p_id": "#15841"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357468, 48.209145]
+      },
+      "properties": {
+         "id": "pmb295043",
+         "title": "Stadiongasse 2",
+         "lat": "48.209145",
+         "lon": "16.357468",
+         "timestamp": ["1882-02-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Bernhard Hellmann",
+
+         "p_id": "#18081"
+         }]
       }
       }, 
     {
@@ -758,6 +824,8 @@
          "lon": "9.17114",
          "timestamp": ["1882-08-08"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Berninapass", 
+        "wikidata": "http://www.wikidata.org/entity/Q204774", 
         "geonames": "https://sws.geonames.org/2658839/ https://sws.geonames.org/2661543/", 
         "abbr": "T.PASS", 
         "type": "Pass"

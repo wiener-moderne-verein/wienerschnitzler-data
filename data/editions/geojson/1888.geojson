@@ -120,8 +120,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1888-01-22", "1888-01-31", "1888-02-29", "1888-03-06", "1888-12-15"],
-         "importance": 5, 
+         "timestamp": ["1888-01-22", "1888-01-31", "1888-02-26", "1888-02-29", "1888-03-06", "1888-03-11", "1888-11-11", "1888-11-25", "1888-12-09", "1888-12-15"],
+         "importance": 10, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -270,6 +270,7 @@
          "lon": "16.361139",
          "timestamp": ["1888-10-11", "1888-11-09", "1888-11-19"],
          "importance": 3, 
+        "wikidata": "http://www.wikidata.org/entity/Q109377820", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -421,6 +422,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.38131, 48.21355]
+      },
+      "properties": {
+         "id": "pmb294855",
+         "title": "Praterstraße 13",
+         "lat": "48.21355",
+         "lon": "16.38131",
+         "timestamp": ["1888-12-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "David Elias",
+
+         "p_id": "#15841"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.370694, 48.210054]
       },
       "properties": {
@@ -492,6 +517,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379919, 48.201225]
+      },
+      "properties": {
+         "id": "pmb294813",
+         "title": "Am Heumarkt 17",
+         "lat": "48.201225",
+         "lon": "16.379919",
+         "timestamp": ["1888-02-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eduard Theimer",
+
+         "p_id": "#25979"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.377185, 48.207905]
       },
       "properties": {
@@ -510,23 +559,6 @@
 
          "p_id": "#21638"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37945, 48.21363]
-      },
-      "properties": {
-         "id": "pmb295",
-         "title": "Hotel zum Schwarzer Adler [Wien]",
-         "lat": "48.21363",
-         "lon": "16.37945",
-         "timestamp": ["1888-05-14"],
-         "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
       }
       }, 
     {
@@ -552,6 +584,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37945, 48.21363]
+      },
+      "properties": {
+         "id": "pmb295",
+         "title": "Hotel zum Schwarzen Adler [Wien]",
+         "lat": "48.21363",
+         "lon": "16.37945",
+         "timestamp": ["1888-05-14"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.363548, 48.216542]
       },
       "properties": {
@@ -570,23 +619,6 @@
 
          "p_id": "#25673"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.379919, 48.201225]
-      },
-      "properties": {
-         "id": "pmb294813",
-         "title": "Am Heumarkt 17",
-         "lat": "48.201225",
-         "lon": "16.379919",
-         "timestamp": ["1888-02-11"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
       }
       }, 
     {
@@ -740,7 +772,14 @@
          "timestamp": ["1888-01-27"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Maximilian von Weiss-Wellenstein",
+
+         "p_id": "#26878"
+         }]
       }
       }, 
     {
@@ -777,7 +816,14 @@
          "timestamp": ["1888-02-13"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund von Gutmann-Gelse",
+
+         "p_id": "#17588"
+         }]
       }
       }, 
     {
@@ -2505,6 +2551,8 @@
          "lon": "-0.68682",
          "timestamp": ["1888-07-17"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Taplow", 
+        "wikidata": "http://www.wikidata.org/entity/Q992474", 
         "geonames": "https://sws.geonames.org/2636250/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -2523,6 +2571,8 @@
          "lon": "-0.71986",
          "timestamp": ["1888-07-17"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Maidenhead", 
+        "wikidata": "http://www.wikidata.org/entity/Q238803", 
         "geonames": "https://sws.geonames.org/2643186/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
@@ -2617,6 +2667,8 @@
          "lon": "-1.29124",
          "timestamp": ["1888-07-24", "1888-07-25"],
          "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Newport_(Isle_of_Wight)", 
+        "wikidata": "http://www.wikidata.org/entity/Q985594", 
         "geonames": "https://sws.geonames.org/2641599/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
@@ -2730,6 +2782,8 @@
          "lon": "-1.33333",
          "timestamp": ["1888-07-25"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Isle_of_Wight", 
+        "wikidata": "http://www.wikidata.org/entity/Q9679", 
         "geonames": "https://sws.geonames.org/2633939/", 
         "abbr": "T.ISL", 
         "type": "Insel"
@@ -3063,23 +3117,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.38131, 48.21355]
-      },
-      "properties": {
-         "id": "pmb294855",
-         "title": "Praterstraße 13",
-         "lat": "48.21355",
-         "lon": "16.38131",
-         "timestamp": ["1888-12-06"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.37445, 48.20249]
       },
       "properties": {
@@ -3090,7 +3127,20 @@
          "timestamp": ["1888-12-23"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Adele Spitzer",
+
+         "p_id": "#25230"
+         }, 
+         {
+
+         "p_name": "Wilhelm Spitzer",
+
+         "p_id": "#25258"
+         }]
       }
       }
   ]

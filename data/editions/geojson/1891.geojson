@@ -112,8 +112,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1891-01-14", "1891-01-22", "1891-02-24", "1891-11-17", "1891-11-30", "1891-12-20"],
-         "importance": 6, 
+         "timestamp": ["1891-01-04", "1891-01-14", "1891-01-22", "1891-02-22", "1891-02-24", "1891-03-15", "1891-04-12", "1891-11-15", "1891-11-17", "1891-11-29", "1891-11-30", "1891-12-13", "1891-12-20", "1891-12-27"],
+         "importance": 14, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -262,6 +262,7 @@
          "lon": "16.361139",
          "timestamp": ["1891-01-07", "1891-01-11", "1891-01-19", "1891-03-15", "1891-05-03", "1891-06-14", "1891-10-31", "1891-11-12", "1891-12-13"],
          "importance": 9, 
+        "wikidata": "http://www.wikidata.org/entity/Q109377820", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -688,7 +689,7 @@
          }, 
          {
 
-         "p_name": "Filipp Markbreiter",
+         "p_name": "Philipp Markbreiter",
 
          "p_id": "#2473"
          }, 
@@ -774,7 +775,7 @@
       },
       "properties": {
          "id": "pmb295",
-         "title": "Hotel zum Schwarzer Adler [Wien]",
+         "title": "Hotel zum Schwarzen Adler [Wien]",
          "lat": "48.21363",
          "lon": "16.37945",
          "timestamp": ["1891-06-29"],
@@ -882,7 +883,14 @@
          "timestamp": ["1891-03-13"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Maximilian von Weiss-Wellenstein",
+
+         "p_id": "#26878"
+         }]
       }
       }, 
     {
@@ -1676,7 +1684,14 @@
          "timestamp": ["1891-01-10"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Ignaz Pserhofer",
+
+         "p_id": "#22918"
+         }]
       }
       }, 
     {
@@ -1811,6 +1826,12 @@
          "p_name": "Max Eugen Burckhard",
 
          "p_id": "#11036"
+         }, 
+         {
+
+         "p_name": "Gustav von Weiss-Wellenstein",
+
+         "p_id": "#26875"
          }]
       }
       }, 
@@ -1864,7 +1885,14 @@
          "timestamp": ["1891-03-08"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Wilhelm Zierer",
+
+         "p_id": "#27483"
+         }]
       }
       }, 
     {
@@ -2555,6 +2583,8 @@
          "lon": "16.27075",
          "timestamp": ["1891-08-30"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tribuswinkel", 
+        "wikidata": "http://www.wikidata.org/entity/Q484861", 
         "geonames": "https://sws.geonames.org/2763364/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -2613,6 +2643,8 @@
          "lon": "11.91432",
          "timestamp": ["1891-09-22"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Saale", 
+        "wikidata": "http://www.wikidata.org/entity/Q1678", 
         "geonames": "https://sws.geonames.org/2842700/", 
         "abbr": "H.STM", 
         "type": "Fluss"

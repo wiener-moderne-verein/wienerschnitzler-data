@@ -143,8 +143,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1897-02-09", "1897-04-04", "1897-04-05", "1897-04-06", "1897-06-14", "1897-11-05", "1897-11-09", "1897-11-14"],
-         "importance": 8, 
+         "timestamp": ["1897-02-09", "1897-03-07", "1897-04-04", "1897-04-05", "1897-04-06", "1897-06-14", "1897-11-05", "1897-11-09", "1897-11-14"],
+         "importance": 9, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -295,6 +295,7 @@
          "lon": "16.361139",
          "timestamp": ["1897-01-05", "1897-01-16", "1897-03-07", "1897-03-09", "1897-03-19", "1897-03-21", "1897-04-01", "1897-10-10", "1897-10-14", "1897-10-29", "1897-11-18", "1897-11-23", "1897-12-02"],
          "importance": 13, 
+        "wikidata": "http://www.wikidata.org/entity/Q109377820", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -515,6 +516,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.369401, 48.216774]
+      },
+      "properties": {
+         "id": "pmb199413",
+         "title": "Schottenring 28",
+         "lat": "48.216774",
+         "lon": "16.369401",
+         "timestamp": ["1897-02-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eduard Brüll",
+
+         "p_id": "#14631"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.64912, 47.56231]
       },
       "properties": {
@@ -618,7 +643,7 @@
       },
       "properties": {
          "id": "pmb295",
-         "title": "Hotel zum Schwarzer Adler [Wien]",
+         "title": "Hotel zum Schwarzen Adler [Wien]",
          "lat": "48.21363",
          "lon": "16.37945",
          "timestamp": ["1897-02-17"],
@@ -726,30 +751,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q1630962", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.369401, 48.216774]
-      },
-      "properties": {
-         "id": "pmb199413",
-         "title": "Schottenring 28",
-         "lat": "48.216774",
-         "lon": "16.369401",
-         "timestamp": ["1897-02-23"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Eduard Brüll",
-
-         "p_id": "#14631"
-         }]
       }
       }, 
     {
@@ -2351,6 +2352,8 @@
          "lon": "16.27",
          "timestamp": ["1897-03-25"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Burg_Liechtenstein", 
+        "wikidata": "http://www.wikidata.org/entity/Q699474", 
         "geonames": "https://sws.geonames.org/2772512/", 
         "abbr": "Schloss (K.SLS)", 
         "type": "Schloss"
@@ -2922,6 +2925,8 @@
          "lon": "2.32841",
          "timestamp": ["1897-04-19", "1897-05-02"],
          "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Jardin_des_Tuileries", 
+        "wikidata": "http://www.wikidata.org/entity/Q818517", 
         "geonames": "https://sws.geonames.org/6452747/", 
         "abbr": "L.PRK", 
         "type": "Park"
@@ -3982,6 +3987,8 @@
          "lon": "2.65356",
          "timestamp": ["1897-05-18"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Melun", 
+        "wikidata": "http://www.wikidata.org/entity/Q41139", 
         "geonames": "https://sws.geonames.org/2994651/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt"
@@ -4157,6 +4164,8 @@
          "lon": "2.47458",
          "timestamp": ["1897-05-22"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Joinville-le-Pont", 
+        "wikidata": "http://www.wikidata.org/entity/Q609134", 
         "geonames": "https://sws.geonames.org/3012313/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -4578,8 +4587,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hannover_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q703918", 
         "geonames": "https://sws.geonames.org/6612171/", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {
@@ -4598,8 +4607,8 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Vlissingen", 
         "wikidata": "http://www.wikidata.org/entity/Q508613", 
         "geonames": "https://sws.geonames.org/6640044/", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {

@@ -81,8 +81,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1889-01-13"],
-         "importance": 1, 
+         "timestamp": ["1889-01-13", "1889-01-27"],
+         "importance": 2, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -195,9 +195,34 @@
          "lon": "16.361139",
          "timestamp": ["1889-01-25"],
          "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q109377820", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37202, 48.201489]
+      },
+      "properties": {
+         "id": "pmb294827",
+         "title": "Kärntnerring 12",
+         "lat": "48.201489",
+         "lon": "16.37202",
+         "timestamp": ["1889-01-28"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Gustav Spitzer",
+
+         "p_id": "#25240"
+         }]
       }
       }, 
     {
@@ -276,23 +301,6 @@
          "importance": 31, 
         "abbr": "Ordination", 
         "type": "Ordination"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37202, 48.201489]
-      },
-      "properties": {
-         "id": "pmb294827",
-         "title": "Kärntnerring 12",
-         "lat": "48.201489",
-         "lon": "16.37202",
-         "timestamp": ["1889-01-28"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
       }
       }
   ]

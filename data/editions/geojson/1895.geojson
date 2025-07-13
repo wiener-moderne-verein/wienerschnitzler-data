@@ -221,8 +221,8 @@
          "title": "Musikverein",
          "lat": "48.201265597319",
          "lon": "16.372564182283",
-         "timestamp": ["1895-03-19", "1895-03-20", "1895-03-29", "1895-04-02", "1895-04-04", "1895-04-09"],
-         "importance": 6, 
+         "timestamp": ["1895-03-19", "1895-03-20", "1895-03-29", "1895-04-02", "1895-04-04", "1895-04-09", "1895-12-01"],
+         "importance": 7, 
         "abbr": "Konzertsaal (K.KNZ)", 
         "type": "Konzertsaal"
       }
@@ -407,6 +407,7 @@
          "lon": "16.361139",
          "timestamp": ["1895-01-28", "1895-02-07", "1895-02-19", "1895-02-27", "1895-03-09", "1895-03-14", "1895-03-27", "1895-04-05", "1895-04-20", "1895-05-07", "1895-05-21", "1895-05-24", "1895-06-26", "1895-09-17", "1895-09-18", "1895-09-20", "1895-09-30", "1895-10-01", "1895-10-05", "1895-10-06", "1895-10-07", "1895-10-08", "1895-10-09", "1895-10-10", "1895-10-12", "1895-10-15", "1895-10-20", "1895-10-23", "1895-11-03", "1895-11-04", "1895-11-06", "1895-11-11", "1895-11-23", "1895-11-24", "1895-11-28", "1895-12-28", "1895-12-31"],
          "importance": 37, 
+        "wikidata": "http://www.wikidata.org/entity/Q109377820", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
         "type": "Theater"
@@ -727,6 +728,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.369401, 48.216774]
+      },
+      "properties": {
+         "id": "pmb199413",
+         "title": "Schottenring 28",
+         "lat": "48.216774",
+         "lon": "16.369401",
+         "timestamp": ["1895-12-11"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Eduard Brüll",
+
+         "p_id": "#14631"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3589845, 48.2195962]
       },
       "properties": {
@@ -813,6 +838,8 @@
          "lon": "12.97802",
          "timestamp": ["1895-08-20", "1895-08-22"],
          "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/K%C3%B6nigssee", 
+        "wikidata": "http://www.wikidata.org/entity/Q156715", 
         "geonames": "https://sws.geonames.org/2885777/", 
         "abbr": "H.LK", 
         "type": "See"
@@ -1053,30 +1080,6 @@
         "geonames": "https://sws.geonames.org/10244814/", 
         "abbr": "Platz (K.PLT)", 
         "type": "Platz"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.369401, 48.216774]
-      },
-      "properties": {
-         "id": "pmb199413",
-         "title": "Schottenring 28",
-         "lat": "48.216774",
-         "lon": "16.369401",
-         "timestamp": ["1895-12-11"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Eduard Brüll",
-
-         "p_id": "#14631"
-         }]
       }
       }, 
     {
@@ -1696,6 +1699,8 @@
          "lon": "13.0391",
          "timestamp": ["1895-08-19", "1895-08-23"],
          "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/M%C3%B6nchsberg", 
+        "wikidata": "http://www.wikidata.org/entity/Q1329815", 
         "geonames": "https://sws.geonames.org/2771281/", 
         "abbr": "T.MT", 
         "type": "Berg"
@@ -1734,6 +1739,8 @@
          "lon": "13.03333",
          "timestamp": ["1895-08-21"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Leopoldskron", 
+        "wikidata": "http://www.wikidata.org/entity/Q1819983", 
         "geonames": "https://sws.geonames.org/2772616/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
@@ -3036,6 +3043,8 @@
          "lon": "16.3183",
          "timestamp": ["1895-02-03"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/F%C3%BCnfhaus", 
+        "wikidata": "http://www.wikidata.org/entity/Q1481965", 
         "geonames": "https://sws.geonames.org/2779139/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort"
@@ -3424,6 +3433,8 @@
          "lon": "16.57791",
          "timestamp": ["1895-05-12"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Mistelbach_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q660428", 
         "geonames": "https://sws.geonames.org/7871844/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet"

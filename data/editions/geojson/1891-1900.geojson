@@ -497,8 +497,8 @@
          "title": "Südbahnhof",
          "lat": "48.187455471378",
          "lon": "16.379829498031",
-         "timestamp": ["1891-09-09", "1896-04-08", "1897-06-23", "1899-07-17"],
-         "importance": 4, 
+         "timestamp": ["1891-09-09", "1896-04-08", "1897-06-23", "1898-05-03", "1899-07-17"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -887,8 +887,8 @@
          "title": "Café Central",
          "lat": "48.210278",
          "lon": "16.365278",
-         "timestamp": ["1891-03-23", "1893-12-24", "1894-01-02", "1894-01-21", "1894-01-30", "1894-02-10", "1894-04-02", "1894-04-07", "1894-04-10", "1895-02-08", "1895-02-16"],
-         "importance": 11, 
+         "timestamp": ["1891-03-23", "1893-12-24", "1894-01-02", "1894-01-21", "1894-01-30", "1894-02-10", "1894-04-02", "1894-04-07", "1894-04-10", "1895-02-08", "1895-02-16", "1899-05-10"],
+         "importance": 12, 
         "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Central", 
         "wikidata": "http://www.wikidata.org/entity/Q694757", 
         "abbr": "Kaffeehaus (K.KAF)", 
@@ -1545,6 +1545,25 @@
          "importance": 7, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.374825, 48.211649]
+      },
+      "properties": {
+         "id": "pmb233016",
+         "title": "Stadttempel",
+         "lat": "48.211649",
+         "lon": "16.374825",
+         "timestamp": ["1898-05-10"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Stadttempel", 
+        "wikidata": "http://www.wikidata.org/entity/Q253663", 
+        "abbr": "Synagoge", 
+        "type": "Synagoge"
       }
       }, 
     {
@@ -2818,8 +2837,8 @@
          "title": "Stadttheater Baden",
          "lat": "48.0096",
          "lon": "16.2353",
-         "timestamp": ["1900-10-12", "1900-10-17"],
-         "importance": 2, 
+         "timestamp": ["1898-05-03", "1900-10-12", "1900-10-17"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Stadttheater_Baden", 
         "wikidata": "http://www.wikidata.org/entity/Q2328187", 
         "abbr": "Theater (K.THE)", 
@@ -9429,8 +9448,8 @@
          "title": "Café Kaiserhof (Inh. Johann Wortner) [Wien]",
          "lat": "48.213768",
          "lon": "16.359134",
-         "timestamp": ["1894-04-25", "1895-02-16", "1896-09-08", "1900-02-11"],
-         "importance": 4, 
+         "timestamp": ["1894-04-25", "1895-02-16", "1896-07-02", "1896-09-08", "1900-02-11"],
+         "importance": 5, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
       }
@@ -23317,6 +23336,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.245833, 50.083611]
+      },
+      "properties": {
+         "id": "pmb300338",
+         "title": "Hessisches Staatstheater Wiesbaden",
+         "lat": "50.083611",
+         "lon": "8.245833",
+         "timestamp": ["1899-09-24", "1899-09-28"],
+         "importance": 2, 
+        "abbr": "Theater (K.THE)", 
+        "type": "Theater"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.230934, 50.099546]
       },
       "properties": {
@@ -23492,6 +23528,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1899-11-09", "1900-02-28"],
+         "importance": 2, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36762, 48.213521]
       },
       "properties": {
@@ -23579,36 +23645,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q132938395", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.368738, 48.213038]
-      },
-      "properties": {
-         "id": "pmb207296",
-         "title": "Tiefer Graben 23",
-         "lat": "48.213038",
-         "lon": "16.368738",
-         "timestamp": ["1900-02-28"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
-         }]
       }
       }, 
     {

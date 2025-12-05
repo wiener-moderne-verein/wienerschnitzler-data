@@ -1,8 +1,7 @@
 import os
 import re
 import csv
-import xml.etree.ElementTree as ET
-from xml.dom import minidom
+from lxml import etree as ET
 import requests
 from io import StringIO
 
@@ -27,9 +26,7 @@ def remove_angle_brackets(content):
 
 # Funktion, um das XML-Dokument schön zu formatieren
 def prettify_xml(elem):
-    rough_string = ET.tostring(elem, 'utf-8')
-    reparsed = minidom.parseString(rough_string)
-    return reparsed.toprettyxml(indent="    ")
+    return ET.tostring(elem, encoding='utf-8', xml_declaration=True, pretty_print=True).decode('utf-8')
 
 # Funktion, um die CSV-Datei aus dem Internet zu laden
 def load_csv_from_url(url):
@@ -63,18 +60,20 @@ def download_tei_file(url, output_folder):
 # Schritt 1: XML herunterladen und bearbeiten
 def download_and_modify_xml(xml_url, output_xml):
     print("[1/3] XML-Datei wird heruntergeladen...")
-    response = requests.get(xml_url)
+    headers = {
+        "Content-type": "application/xml; charset=utf-8",
+        "Accept-Charset": "utf-8",
+    }
+    response = requests.get(xml_url, headers=headers)
+    response.raise_for_status()
 
-    if response.status_code == 200:
-        print("    [✓] Download erfolgreich.")
-        xml_content = response.text
-        print("    [>] Ersetze 'place__' durch 'pmb'...")
-        modified_content = xml_content.replace('place__', 'pmb')
-        with open(output_xml, 'w', encoding='utf-8') as file:
-            file.write(modified_content)
-        print(f"    [✓] Datei erfolgreich gespeichert unter: {output_xml}")
-    else:
-        print(f"    [✗] Fehler beim Herunterladen der Datei. Status Code: {response.status_code}")
+    print("    [✓] Download erfolgreich.")
+    xml_content = response.content.decode("utf-8")
+    print("    [>] Ersetze 'place__' durch 'pmb'...")
+    modified_content = xml_content.replace('place__', 'pmb')
+    with open(output_xml, 'w', encoding='utf-8') as file:
+        file.write(modified_content)
+    print(f"    [✓] Datei erfolgreich gespeichert unter: {output_xml}")
 
 # Schritt 2: CSV in XML umwandeln
 def csv_to_xml_from_url(csv_url, output_xml):

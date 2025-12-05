@@ -18,9 +18,6 @@ jobs:
 
       - name: Installiere Java, Ant und weitere Abhängigkeiten
         run: |
-          sudo apt-get update
-          sudo apt-get install openjdk-11-jre-headless ant -y --no-install-recommends
-          # Falls script.sh weitere Setup-Schritte enthält:
           ./dl_saxon.sh
 
       - name: Python einrichten
@@ -29,7 +26,7 @@ jobs:
           python-version: '3.x'
 
       - name: Abhängigkeiten installieren
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: Daten aus PMB abrufen
         run: python3 ./python-scripts/fetch-data-from-pmb.py

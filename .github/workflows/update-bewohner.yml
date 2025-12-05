@@ -18,9 +18,6 @@ jobs:
 
       - name: Installiere Java, Ant und weitere Abhängigkeiten
         run: |
-          sudo apt-get update
-          sudo apt-get install openjdk-11-jre-headless ant -y --no-install-recommends
-          # Falls script.sh weitere Setup-Schritte enthält:
           ./dl_saxon.sh
 
       - name: Transformation Schritt 1

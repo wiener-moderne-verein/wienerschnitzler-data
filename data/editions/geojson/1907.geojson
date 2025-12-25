@@ -1077,6 +1077,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1907-01-27", "1907-01-29", "1907-02-05", "1907-03-07", "1907-04-04", "1907-06-11", "1907-09-17", "1907-11-30"],
+         "importance": 8, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.26269, 48.24616]
       },
       "properties": {
@@ -1715,18 +1745,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.17266, 46.73781]
+        "coordinates": [12.17139, 46.73813]
       },
       "properties": {
-         "id": "pmb91350",
+         "id": "pmb40556",
          "title": "Niederdorf",
-         "lat": "46.73781",
-         "lon": "12.17266",
+         "lat": "46.73813",
+         "lon": "12.17139",
          "timestamp": ["1907-07-16"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3164301/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Niederdorf_(S%C3%BCdtirol)", 
+        "wikidata": "http://www.wikidata.org/entity/Q504724", 
+        "geonames": "https://sws.geonames.org/6535940/ https://sws.geonames.org/3164301/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -1800,36 +1832,6 @@
         "geonames": "https://sws.geonames.org/3165269/", 
         "abbr": "T.PASS", 
         "type": "Pass"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.368738, 48.213038]
-      },
-      "properties": {
-         "id": "pmb207296",
-         "title": "Tiefer Graben 23",
-         "lat": "48.213038",
-         "lon": "16.368738",
-         "timestamp": ["1907-01-27", "1907-01-29", "1907-02-05", "1907-03-07", "1907-04-04", "1907-06-11", "1907-09-17", "1907-11-30"],
-         "importance": 8, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
-         }]
       }
       }, 
     {

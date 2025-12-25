@@ -3118,8 +3118,8 @@
          "title": "Mayerhofgasse 12",
          "lat": "48.192766",
          "lon": "16.368913",
-         "timestamp": ["1901-01-03", "1901-10-02"],
-         "importance": 2, 
+         "timestamp": ["1901-10-02"],
+         "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -3785,6 +3785,36 @@
         "geonames": "https://sws.geonames.org/2776700/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1901-04-28", "1901-09-01", "1901-12-27", "1902-03-15", "1902-05-15", "1902-08-10", "1902-09-25", "1902-09-28", "1902-11-24", "1902-12-02", "1902-12-04", "1903-05-19", "1903-06-25", "1903-07-04", "1903-08-01", "1903-08-23", "1903-10-26", "1903-11-21", "1903-12-05", "1904-03-03", "1904-03-24", "1904-04-04", "1904-04-09", "1904-04-19", "1904-04-26", "1904-06-01", "1904-08-20", "1904-11-28", "1904-12-23", "1905-01-03", "1905-01-16", "1905-01-27", "1905-02-04", "1905-03-02", "1905-03-21", "1905-06-27", "1905-08-14", "1905-08-29", "1905-08-31", "1905-09-15", "1905-10-25", "1905-10-31", "1905-11-16", "1905-12-06", "1905-12-14", "1905-12-18", "1906-01-20", "1906-03-08", "1906-03-30", "1906-04-03", "1906-04-28", "1906-06-12", "1906-08-23", "1906-10-22", "1907-01-27", "1907-01-29", "1907-02-05", "1907-03-07", "1907-04-04", "1907-06-11", "1907-09-17", "1907-11-30", "1908-04-04", "1909-02-13", "1909-09-28", "1909-11-18", "1910-02-07", "1910-06-02", "1910-07-21", "1910-09-13", "1910-10-05", "1910-11-05"],
+         "importance": 72, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }]
       }
       }, 
     {
@@ -8087,18 +8117,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.17266, 46.73781]
+        "coordinates": [12.17139, 46.73813]
       },
       "properties": {
-         "id": "pmb91350",
+         "id": "pmb40556",
          "title": "Niederdorf",
-         "lat": "46.73781",
-         "lon": "12.17266",
+         "lat": "46.73813",
+         "lon": "12.17139",
          "timestamp": ["1907-07-16"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3164301/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "wikipedia": "https://de.wikipedia.org/wiki/Niederdorf_(S%C3%BCdtirol)", 
+        "wikidata": "http://www.wikidata.org/entity/Q504724", 
+        "geonames": "https://sws.geonames.org/6535940/ https://sws.geonames.org/3164301/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet"
       }
       }, 
     {
@@ -8362,36 +8394,6 @@
          "p_name": "Markus Benedict",
 
          "p_id": "#13973"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.368738, 48.213038]
-      },
-      "properties": {
-         "id": "pmb207296",
-         "title": "Tiefer Graben 23",
-         "lat": "48.213038",
-         "lon": "16.368738",
-         "timestamp": ["1901-04-28", "1901-09-01", "1901-12-27", "1902-03-15", "1902-05-15", "1902-08-10", "1902-09-25", "1902-09-28", "1902-11-24", "1902-12-02", "1902-12-04", "1903-05-19", "1903-06-25", "1903-07-04", "1903-08-01", "1903-08-23", "1903-10-26", "1903-11-21", "1903-12-05", "1904-03-03", "1904-03-24", "1904-04-04", "1904-04-09", "1904-04-19", "1904-04-26", "1904-06-01", "1904-08-20", "1904-11-28", "1904-12-23", "1905-01-03", "1905-01-16", "1905-01-27", "1905-02-04", "1905-03-02", "1905-03-21", "1905-06-27", "1905-08-14", "1905-08-29", "1905-08-31", "1905-09-15", "1905-10-25", "1905-10-31", "1905-11-16", "1905-12-06", "1905-12-14", "1905-12-18", "1906-01-20", "1906-03-08", "1906-03-30", "1906-04-03", "1906-04-28", "1906-06-12", "1906-08-23", "1906-10-22", "1907-01-27", "1907-01-29", "1907-02-05", "1907-03-07", "1907-04-04", "1907-06-11", "1907-09-17", "1907-11-30", "1908-04-04", "1909-02-13", "1909-09-28", "1909-11-18", "1910-02-07", "1910-06-02", "1910-07-21", "1910-09-13", "1910-10-05", "1910-11-05"],
-         "importance": 72, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
          }]
       }
       }, 
@@ -8712,6 +8714,25 @@
         "geonames": "https://sws.geonames.org/2777331/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2425, 48.003889]
+      },
+      "properties": {
+         "id": "pmb249350",
+         "title": "Bahnhof Baden bei Wien",
+         "lat": "48.003889",
+         "lon": "16.2425",
+         "timestamp": ["1909-10-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -28300,25 +28321,6 @@
          "importance": 2, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
         "type": "Beherbergungsgebäude"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.2425, 48.003889]
-      },
-      "properties": {
-         "id": "pmb249350",
-         "title": "Bahnhof Baden bei Wien",
-         "lat": "48.003889",
-         "lon": "16.2425",
-         "timestamp": ["1909-10-03"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
       }
       }, 
     {

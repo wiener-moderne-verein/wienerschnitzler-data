@@ -32,8 +32,8 @@
          "title": "Salzburg",
          "lat": "47.80067",
          "lon": "13.04532",
-         "timestamp": ["1899-08-14", "1899-08-15", "1899-08-16"],
-         "importance": 3, 
+         "timestamp": ["1899-08-14", "1899-08-15"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
@@ -59,6 +59,45 @@
         "geonames": "https://sws.geonames.org/2782043/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.045769, 47.813139]
+      },
+      "properties": {
+         "id": "pmb50792",
+         "title": "Hauptbahnhof Salzburg",
+         "lat": "47.813139",
+         "lon": "13.045769",
+         "timestamp": ["1899-08-14", "1899-08-15"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q694694", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4009, 47.26385]
+      },
+      "properties": {
+         "id": "pmb34110",
+         "title": "Innsbruck Hauptbahnhof",
+         "lat": "47.26385",
+         "lon": "11.4009",
+         "timestamp": ["1899-08-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innsbruck_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q668727", 
+        "geonames": "https://sws.geonames.org/2775217/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -689,8 +728,8 @@
          "title": "Bad Aussee",
          "lat": "47.60998",
          "lon": "13.78243",
-         "timestamp": ["1899-09-10", "1899-09-14"],
-         "importance": 2, 
+         "timestamp": ["1899-08-17", "1899-09-10", "1899-09-14"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
         "wikidata": "http://www.wikidata.org/entity/Q251065", 
         "geonames": "https://sws.geonames.org/2782070/", 
@@ -763,8 +802,8 @@
          "title": "XIII., Hietzing",
          "lat": "48.17547",
          "lon": "16.29101",
-         "timestamp": ["1899-01-07", "1899-01-22", "1899-01-23", "1899-05-11", "1899-06-01", "1899-06-04", "1899-06-12", "1899-12-04"],
-         "importance": 8, 
+         "timestamp": ["1899-01-22", "1899-01-23", "1899-05-11", "1899-06-01", "1899-06-04", "1899-06-12", "1899-12-04"],
+         "importance": 7, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hietzing", 
         "wikidata": "http://www.wikidata.org/entity/Q636910", 
         "geonames": "https://sws.geonames.org/2776420/", 
@@ -1591,8 +1630,8 @@
          "title": "Pötzleinsdorf",
          "lat": "48.246838181084",
          "lon": "16.300034240016",
-         "timestamp": ["1899-05-13", "1899-05-14", "1899-05-21", "1899-05-24", "1899-10-29", "1899-11-15"],
-         "importance": 6, 
+         "timestamp": ["1899-05-13", "1899-05-14", "1899-05-21", "1899-05-24", "1899-10-29"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/P%C3%B6tzleinsdorf", 
         "wikidata": "http://www.wikidata.org/entity/Q2120861", 
         "geonames": "https://sws.geonames.org/2768462/", 
@@ -1746,6 +1785,25 @@
         "geonames": "https://sws.geonames.org/2782465/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1899-08-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -1946,6 +2004,23 @@
 
          "p_id": "#88046"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.359134, 48.213768]
+      },
+      "properties": {
+         "id": "pmb34210",
+         "title": "Café Kaiserhof (Inh. Johann Wortner) [Wien]",
+         "lat": "48.213768",
+         "lon": "16.359134",
+         "timestamp": ["1899-04-20"],
+         "importance": 1, 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus"
       }
       }, 
     {
@@ -2254,6 +2329,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q478695", 
         "abbr": "Museum (K.MUS)", 
         "type": "Museum"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.776666666666667, 47.59916666666667]
+      },
+      "properties": {
+         "id": "pmb263516",
+         "title": "Bahnhof Bad Aussee",
+         "lat": "47.59916666666667",
+         "lon": "13.776666666666667",
+         "timestamp": ["1899-08-17"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -2694,6 +2788,26 @@
         "geonames": "https://sws.geonames.org/2768417/", 
         "abbr": "T.PT", 
         "type": "Landzunge"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.1374028, 48.1008317]
+      },
+      "properties": {
+         "id": "pmb19055",
+         "title": "Sulz im Wienerwald",
+         "lat": "48.1008317",
+         "lon": "16.1374028",
+         "timestamp": ["1899-11-15"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sulz_im_Wienerwald", 
+        "wikidata": "http://www.wikidata.org/entity/Q89404717", 
+        "geonames": "https://sws.geonames.org/2764000/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -3649,18 +3763,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.52346, 46.83649]
+        "coordinates": [13.518333, 46.818888888889]
       },
       "properties": {
          "id": "pmb34824",
-         "title": "Seeboden",
-         "lat": "46.83649",
-         "lon": "13.52346",
+         "title": "Seeboden am Millstättersee",
+         "lat": "46.818888888889",
+         "lon": "13.518333",
          "timestamp": ["1899-07-30"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2765286/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "wikipedia": "https://de.wikipedia.org/wiki/Seeboden_am_Millst%C3%A4tter_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q660576", 
+        "geonames": "https://sws.geonames.org/7872791/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -4054,6 +4170,64 @@
          "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.119086, 46.072606]
+      },
+      "properties": {
+         "id": "pmb147335",
+         "title": "Bahnhof Trient",
+         "lat": "46.072606",
+         "lon": "11.119086",
+         "timestamp": ["1899-08-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Trient", 
+        "wikidata": "http://www.wikidata.org/entity/Q1404881", 
+        "geonames": "https://www.geonames.org/8015023/stazione-di-trento.html", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.669758333333, 45.990491666667]
+      },
+      "properties": {
+         "id": "pmb333821",
+         "title": "Tezze di Grigno Bahnstation",
+         "lat": "45.990491666667",
+         "lon": "11.669758333333",
+         "timestamp": ["1899-08-12"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3971110", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.358436, 46.496619]
+      },
+      "properties": {
+         "id": "pmb248188",
+         "title": "Stazione di Bolzano",
+         "lat": "46.496619",
+         "lon": "11.358436",
+         "timestamp": ["1899-08-12", "1899-08-13"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bozen", 
+        "wikidata": "http://www.wikidata.org/entity/Q800560", 
+        "geonames": "https://sws.geonames.org/8410840/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {

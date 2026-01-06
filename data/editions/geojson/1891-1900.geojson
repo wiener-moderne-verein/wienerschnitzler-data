@@ -70,8 +70,8 @@
          "title": "Salzburg",
          "lat": "47.80067",
          "lon": "13.04532",
-         "timestamp": ["1891-01-05", "1891-01-06", "1891-01-07", "1891-01-24", "1891-01-25", "1891-01-26", "1891-02-05", "1891-02-07", "1891-02-08", "1891-03-05", "1891-03-06", "1893-09-16", "1893-09-17", "1893-09-18", "1893-09-19", "1894-06-08", "1894-08-01", "1894-08-02", "1894-08-03", "1894-08-04", "1894-08-05", "1894-08-17", "1894-08-18", "1894-08-19", "1894-08-20", "1894-08-21", "1895-08-19", "1895-08-20", "1895-08-21", "1895-08-22", "1895-08-23", "1895-08-24", "1897-07-14", "1898-02-07", "1898-02-08", "1898-02-09", "1898-02-10", "1898-02-11", "1898-02-12", "1898-02-13", "1898-07-26", "1898-07-27", "1898-07-28", "1898-07-29", "1898-07-30", "1898-07-31", "1899-08-14", "1899-08-15", "1899-08-16", "1900-08-10", "1900-08-12", "1900-08-13"],
-         "importance": 52, 
+         "timestamp": ["1891-01-05", "1891-01-06", "1891-01-07", "1891-01-24", "1891-01-25", "1891-01-26", "1891-02-05", "1891-02-07", "1891-02-08", "1891-03-05", "1891-03-06", "1893-09-16", "1893-09-17", "1893-09-18", "1893-09-19", "1894-06-08", "1894-08-01", "1894-08-02", "1894-08-03", "1894-08-04", "1894-08-05", "1894-08-17", "1894-08-18", "1894-08-19", "1894-08-20", "1894-08-21", "1895-08-19", "1895-08-20", "1895-08-21", "1895-08-22", "1895-08-23", "1895-08-24", "1897-07-14", "1898-02-07", "1898-02-08", "1898-02-09", "1898-02-10", "1898-02-11", "1898-02-12", "1898-02-13", "1898-07-26", "1898-07-27", "1898-07-28", "1898-07-29", "1898-07-30", "1898-07-31", "1899-08-14", "1899-08-15", "1900-08-10", "1900-08-12", "1900-08-13"],
+         "importance": 51, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
@@ -224,8 +224,8 @@
          "title": "Hauptbahnhof Salzburg",
          "lat": "47.813139",
          "lon": "13.045769",
-         "timestamp": ["1893-09-19"],
-         "importance": 1, 
+         "timestamp": ["1893-09-19", "1899-08-14", "1899-08-15"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q694694", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -306,6 +306,26 @@
         "geonames": "https://sws.geonames.org/2783030/", 
         "abbr": "See (N.SEE)", 
         "type": "See"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4009, 47.26385]
+      },
+      "properties": {
+         "id": "pmb34110",
+         "title": "Innsbruck Hauptbahnhof",
+         "lat": "47.26385",
+         "lon": "11.4009",
+         "timestamp": ["1899-08-14"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innsbruck_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q668727", 
+        "geonames": "https://sws.geonames.org/2775217/", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
       }
       }, 
     {
@@ -497,8 +517,8 @@
          "title": "Südbahnhof",
          "lat": "48.187455471378",
          "lon": "16.379829498031",
-         "timestamp": ["1891-09-09", "1896-04-08", "1897-06-23", "1898-05-03", "1899-07-17", "1899-10-13", "1900-06-27"],
-         "importance": 7, 
+         "timestamp": ["1891-09-09", "1896-04-08", "1897-06-23", "1898-05-03", "1898-05-04", "1899-07-17", "1899-10-13", "1900-06-27"],
+         "importance": 8, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -940,8 +960,8 @@
          "title": "Sofiensäle",
          "lat": "48.206662",
          "lon": "16.391263",
-         "timestamp": ["1891-02-25", "1891-10-28", "1895-01-27", "1898-01-16", "1898-02-14"],
-         "importance": 5, 
+         "timestamp": ["1891-02-25", "1891-10-28", "1893-01-11", "1895-01-27", "1898-01-16", "1898-02-14"],
+         "importance": 6, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude"
       }
@@ -1409,8 +1429,8 @@
          "title": "Bad Aussee",
          "lat": "47.60998",
          "lon": "13.78243",
-         "timestamp": ["1894-08-31", "1895-08-07", "1897-07-16", "1897-07-19", "1899-09-10", "1899-09-14", "1900-06-29", "1900-07-28", "1900-07-29", "1900-07-30", "1900-07-31", "1900-08-01", "1900-08-08"],
-         "importance": 13, 
+         "timestamp": ["1894-08-31", "1895-08-07", "1897-07-16", "1897-07-19", "1899-08-17", "1899-09-10", "1899-09-14", "1900-06-29", "1900-07-28", "1900-07-29", "1900-07-30", "1900-07-31", "1900-08-01", "1900-08-08"],
+         "importance": 14, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bad_Aussee", 
         "wikidata": "http://www.wikidata.org/entity/Q251065", 
         "geonames": "https://sws.geonames.org/2782070/", 
@@ -1597,8 +1617,8 @@
          "title": "XIII., Hietzing",
          "lat": "48.17547",
          "lon": "16.29101",
-         "timestamp": ["1892-06-19", "1892-07-07", "1895-01-31", "1898-11-10", "1898-12-26", "1898-12-31", "1899-01-07", "1899-01-22", "1899-01-23", "1899-05-11", "1899-06-01", "1899-06-04", "1899-06-12", "1899-12-04", "1900-05-23", "1900-06-09", "1900-06-11", "1900-06-19", "1900-10-09"],
-         "importance": 19, 
+         "timestamp": ["1892-06-19", "1892-07-07", "1895-01-31", "1898-11-10", "1898-12-26", "1898-12-31", "1899-01-22", "1899-01-23", "1899-05-11", "1899-06-01", "1899-06-04", "1899-06-12", "1899-12-04", "1900-05-23", "1900-06-09", "1900-06-11", "1900-06-19", "1900-10-09"],
+         "importance": 18, 
         "wikipedia": "https://de.wikipedia.org/wiki/Hietzing", 
         "wikidata": "http://www.wikidata.org/entity/Q636910", 
         "geonames": "https://sws.geonames.org/2776420/", 
@@ -3433,8 +3453,8 @@
          "title": "Westbahnhof",
          "lat": "48.196667",
          "lon": "16.337778",
-         "timestamp": ["1893-07-16", "1893-09-16", "1893-09-19", "1896-08-29", "1896-09-06", "1897-04-07", "1897-06-25", "1900-05-21", "1900-06-12"],
-         "importance": 9, 
+         "timestamp": ["1893-07-16", "1893-09-16", "1893-09-19", "1896-08-29", "1896-09-06", "1897-04-07", "1897-06-25", "1897-07-25", "1900-05-21", "1900-06-12"],
+         "importance": 10, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q698145", 
         "geonames": "https://sws.geonames.org/2761331/", 
@@ -6913,8 +6933,8 @@
          "title": "Pötzleinsdorf",
          "lat": "48.246838181084",
          "lon": "16.300034240016",
-         "timestamp": ["1892-08-02", "1893-05-01", "1893-05-28", "1894-06-18", "1896-05-19", "1896-05-20", "1896-05-24", "1898-05-19", "1898-05-21", "1899-05-13", "1899-05-14", "1899-05-21", "1899-05-24", "1899-10-29", "1899-11-15", "1900-09-21"],
-         "importance": 16, 
+         "timestamp": ["1892-08-02", "1893-05-01", "1893-05-28", "1894-06-18", "1896-05-19", "1896-05-20", "1896-05-24", "1898-05-19", "1898-05-21", "1899-05-13", "1899-05-14", "1899-05-21", "1899-05-24", "1899-10-29", "1900-09-21"],
+         "importance": 15, 
         "wikipedia": "https://de.wikipedia.org/wiki/P%C3%B6tzleinsdorf", 
         "wikidata": "http://www.wikidata.org/entity/Q2120861", 
         "geonames": "https://sws.geonames.org/2768462/", 
@@ -7690,8 +7710,8 @@
          "title": "Wollzeile 15 (»Berthahof«)",
          "lat": "48.208656",
          "lon": "16.375924",
-         "timestamp": ["1892-10-04", "1892-10-08", "1892-11-01", "1892-11-06", "1892-12-11", "1893-04-23", "1893-05-18", "1893-06-01", "1893-10-27", "1893-11-15", "1893-12-03", "1894-01-12", "1894-02-25", "1894-03-26", "1894-03-29", "1894-04-22", "1894-04-29", "1895-01-20", "1895-02-01", "1895-03-05", "1895-03-11", "1895-03-12", "1895-03-17", "1895-04-30", "1895-05-07", "1895-10-22", "1895-10-27", "1896-03-08", "1896-04-19", "1896-05-21", "1896-10-25", "1896-11-14", "1896-11-22", "1897-01-01", "1897-02-02", "1897-02-17", "1897-03-06", "1897-04-04", "1897-10-28", "1897-12-07", "1897-12-19", "1897-12-25", "1898-01-16", "1898-01-31", "1898-05-08", "1898-12-18", "1899-10-22", "1899-10-29", "1899-11-01", "1899-11-05", "1899-12-03", "1900-01-01", "1900-01-14", "1900-03-24", "1900-09-15", "1900-10-28", "1900-12-23"],
-         "importance": 57, 
+         "timestamp": ["1892-10-04", "1892-10-08", "1892-11-01", "1892-11-06", "1892-12-11", "1893-04-23", "1893-05-18", "1893-06-01", "1893-10-27", "1893-11-15", "1893-12-03", "1894-01-12", "1894-02-25", "1894-03-26", "1894-03-29", "1894-04-22", "1894-04-29", "1895-01-20", "1895-02-01", "1895-03-05", "1895-03-11", "1895-03-12", "1895-03-17", "1895-04-30", "1895-05-07", "1895-10-22", "1895-10-27", "1896-03-08", "1896-04-19", "1896-05-21", "1896-06-18", "1896-10-25", "1896-11-14", "1896-11-22", "1897-01-01", "1897-02-02", "1897-02-17", "1897-03-06", "1897-04-04", "1897-10-28", "1897-12-07", "1897-12-19", "1897-12-25", "1898-01-16", "1898-01-31", "1898-05-08", "1898-12-18", "1899-10-22", "1899-10-29", "1899-11-01", "1899-11-05", "1899-12-03", "1900-01-01", "1900-01-14", "1900-03-24", "1900-09-15", "1900-10-28", "1900-12-23"],
+         "importance": 58, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude", 
         "wohnort": [
@@ -8754,8 +8774,8 @@
          "title": "Bahnhof Bad Ischl",
          "lat": "47.7122",
          "lon": "13.6273",
-         "timestamp": ["1893-07-15", "1895-08-07"],
-         "importance": 2, 
+         "timestamp": ["1893-07-15", "1895-08-07", "1897-07-24", "1899-08-15"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
         "wikidata": "http://www.wikidata.org/entity/Q800426", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -9533,8 +9553,8 @@
          "title": "Café Kaiserhof (Inh. Johann Wortner) [Wien]",
          "lat": "48.213768",
          "lon": "16.359134",
-         "timestamp": ["1894-04-25", "1895-02-16", "1896-07-02", "1896-07-03", "1896-09-08", "1900-02-11"],
-         "importance": 6, 
+         "timestamp": ["1894-04-25", "1895-02-16", "1896-07-02", "1896-07-03", "1896-09-08", "1899-04-20", "1900-02-11"],
+         "importance": 7, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus"
       }
@@ -12062,8 +12082,8 @@
          "title": "Bahnhof Bad Aussee",
          "lat": "47.59916666666667",
          "lon": "13.776666666666667",
-         "timestamp": ["1895-08-07"],
-         "importance": 1, 
+         "timestamp": ["1895-08-07", "1899-08-17"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
         "wikidata": "http://www.wikidata.org/entity/Q72823539", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -19575,8 +19595,10 @@
          "title": "Sulz im Wienerwald",
          "lat": "48.1008317",
          "lon": "16.1374028",
-         "timestamp": ["1898-04-21", "1900-06-24", "1900-10-13"],
-         "importance": 3, 
+         "timestamp": ["1898-04-21", "1899-11-15", "1900-06-24", "1900-10-13"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sulz_im_Wienerwald", 
+        "wikidata": "http://www.wikidata.org/entity/Q89404717", 
         "geonames": "https://sws.geonames.org/2764000/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort"
@@ -19635,8 +19657,8 @@
          "title": "Kahlenbergerdorf",
          "lat": "48.27475",
          "lon": "16.35468",
-         "timestamp": ["1898-05-02", "1898-05-03", "1898-05-14"],
-         "importance": 3, 
+         "timestamp": ["1898-05-02", "1898-05-14"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Kahlenbergerdorf", 
         "wikidata": "http://www.wikidata.org/entity/Q1721184", 
         "geonames": "https://sws.geonames.org/2774982/", 
@@ -22885,18 +22907,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.52346, 46.83649]
+        "coordinates": [13.518333, 46.818888888889]
       },
       "properties": {
          "id": "pmb34824",
-         "title": "Seeboden",
-         "lat": "46.83649",
-         "lon": "13.52346",
+         "title": "Seeboden am Millstättersee",
+         "lat": "46.818888888889",
+         "lon": "13.518333",
          "timestamp": ["1899-07-30"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2765286/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "wikipedia": "https://de.wikipedia.org/wiki/Seeboden_am_Millst%C3%A4tter_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q660576", 
+        "geonames": "https://sws.geonames.org/7872791/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort"
       }
       }, 
     {
@@ -23290,6 +23314,64 @@
          "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.119086, 46.072606]
+      },
+      "properties": {
+         "id": "pmb147335",
+         "title": "Bahnhof Trient",
+         "lat": "46.072606",
+         "lon": "11.119086",
+         "timestamp": ["1899-08-12"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Trient", 
+        "wikidata": "http://www.wikidata.org/entity/Q1404881", 
+        "geonames": "https://www.geonames.org/8015023/stazione-di-trento.html", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.669758333333, 45.990491666667]
+      },
+      "properties": {
+         "id": "pmb333821",
+         "title": "Tezze di Grigno Bahnstation",
+         "lat": "45.990491666667",
+         "lon": "11.669758333333",
+         "timestamp": ["1899-08-12"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3971110", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.358436, 46.496619]
+      },
+      "properties": {
+         "id": "pmb248188",
+         "title": "Stazione di Bolzano",
+         "lat": "46.496619",
+         "lon": "11.358436",
+         "timestamp": ["1899-08-12", "1899-08-13"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bozen", 
+        "wikidata": "http://www.wikidata.org/entity/Q800560", 
+        "geonames": "https://sws.geonames.org/8410840/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof"
       }
       }, 
     {

@@ -1,840 +1,1048 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 
 <!-- Die Ortstypen in der PMB sind eine Mischung aus verschiedenen Vokabularen: aus dem von Ingo Börner
-erstellten, aus GeoNames und aus Wikidata. Der Einfachheit halber hier eine Vereinfachung/Umschrift. Ganz 
+erstellten, aus GeoNames und aus Wikidata. Der Einfachheit halber hier eine Vereinfachung/Umschrift. Ganz
 befriedigend ist das nicht -->
 <list>
     <item>
         <abbreviation>P.PPL</abbreviation>
-        <name>Besiedelter Ort</name>
+        <name xml:lang="de">Besiedelter Ort</name>
+        <name xml:lang="en">Populated place</name>
     </item>
     <item>
         <abbreviation>Wohngebäude (K.WHS)</abbreviation>
-        <name>Wohngebäude</name>
+        <name xml:lang="de">Wohngebäude</name>
+    <name xml:lang="en">Residential building</name>
     </item>
     <item>
         <abbreviation>Wohnung</abbreviation>
-        <name>Wohnung</name>
+        <name xml:lang="de">Wohnung</name>
+    <name xml:lang="en">Apartment</name>
     </item>
     <item>
         <abbreviation>Gebäude (K.GBD)</abbreviation>
-        <name>Gebäude</name>
+        <name xml:lang="de">Gebäude</name>
+    <name xml:lang="en">Building</name>
     </item>
     <item>
         <abbreviation>Hotel (K.HTL)</abbreviation>
-        <name>Hotel</name>
+        <name xml:lang="de">Hotel</name>
+    <name xml:lang="en">Hotel</name>
     </item>
     <item>
         <abbreviation>Straße (K.STR)</abbreviation>
-        <name>Straße</name>
+        <name xml:lang="de">Straße</name>
+    <name xml:lang="en">Street</name>
     </item>
     <item>
         <abbreviation>A.ADM3</abbreviation>
-        <name>Verwaltungsgebiet</name>
+        <name xml:lang="de">Verwaltungsgebiet</name>
+    <name xml:lang="en">Administrative district</name>
     </item>
     <item>
         <abbreviation>P.PPLA3</abbreviation>
-        <name>Hauptstadt</name>
+        <name xml:lang="de">Hauptstadt</name>
+    <name xml:lang="en">Capital</name>
     </item>
     <item>
         <abbreviation>H.LK</abbreviation>
-        <name>See</name>
+        <name xml:lang="de">See</name>
+    <name xml:lang="en">Lake</name>
     </item>
     <item>
         <abbreviation>P.PPLX</abbreviation>
-        <name>Ehemaliger Ort</name>
+        <name xml:lang="de">Ehemaliger Ort</name>
+    <name xml:lang="en">Former place</name>
     </item>
     <item>
         <abbreviation>Tal (N.TAL)</abbreviation>
-        <name>Tal</name>
+        <name xml:lang="de">Tal</name>
+    <name xml:lang="en">Valley</name>
     </item>
     <item>
         <abbreviation>Kino (K.KNO)</abbreviation>
-        <name>Kino</name>
+        <name xml:lang="de">Kino</name>
+    <name xml:lang="en">Cinema</name>
     </item>
     <item>
         <abbreviation>Veranstaltungsgebäude (K.VSB)</abbreviation>
-        <name>Veranstaltungsgebäude</name>
+        <name xml:lang="de">Veranstaltungsgebäude</name>
+    <name xml:lang="en">Event venue</name>
     </item>
     
     <item>
         <abbreviation>H.SPNG</abbreviation>
-        <name>Quelle</name>
+        <name xml:lang="de">Quelle</name>
+    <name xml:lang="en">Spring</name>
     </item>
     <item>
         <abbreviation>Erhebung</abbreviation>
-        <name>Erhebung</name>
+        <name xml:lang="de">Erhebung</name>
+    <name xml:lang="en">Elevation</name>
     </item>
     <item>
         <abbreviation>P.PPLA</abbreviation>
-        <name>Besiedelter Ort</name>
+        <name xml:lang="de">Besiedelter Ort</name>
+    <name xml:lang="en">Populated place</name>
     </item>
     <item>
         <abbreviation>Theater (K.THE)</abbreviation>
-        <name>Theater</name>
+        <name xml:lang="de">Theater</name>
+    <name xml:lang="en">Theatre</name>
     </item>
     <item>
         <abbreviation>Schule (K.SCH)</abbreviation>
-        <name>Schule</name>
+        <name xml:lang="de">Schule</name>
+    <name xml:lang="en">School</name>
     </item>
     <item>
         <abbreviation>S.ANS</abbreviation>
-        <name>Ausgrabung</name>
+        <name xml:lang="de">Ausgrabung</name>
+    <name xml:lang="en">Excavation site</name>
     </item>
     <item>
         <abbreviation>Gastgewerbegebäude (K.GGW)</abbreviation>
-        <name>Gastgewerbegebäude</name>
+        <name xml:lang="de">Gastgewerbegebäude</name>
+    <name xml:lang="en">Hospitality building</name>
     </item>
     <item>
         <abbreviation>Museum (K.MUS)</abbreviation>
-        <name>Museum</name>
+        <name xml:lang="de">Museum</name>
+    <name xml:lang="en">Museum</name>
     </item>
     <item>
         <abbreviation>Geschäft (K.GES)</abbreviation>
-        <name>Geschäft</name>
+        <name xml:lang="de">Geschäft</name>
+    <name xml:lang="en">Shop</name>
     </item>
     <item>
         <abbreviation>T.PASS</abbreviation>
-        <name>Pass</name>
+        <name xml:lang="de">Pass</name>
+    <name xml:lang="en">Pass</name>
     </item>
     <item>
         <abbreviation>Fabrik (K.FAB)</abbreviation>
-        <name>Fabrik</name>
+        <name xml:lang="de">Fabrik</name>
+    <name xml:lang="en">Factory</name>
     </item>
     <item>
         <abbreviation>P.PPLC</abbreviation>
-        <name>Hauptstadt</name>
+        <name xml:lang="de">Hauptstadt</name>
+    <name xml:lang="en">Capital</name>
     </item>
     <item>
         <abbreviation>Bank (K.BNK)</abbreviation>
-        <name>Bank</name>
+        <name xml:lang="de">Bank</name>
+    <name xml:lang="en">Bank</name>
     </item>
     <item>
         <abbreviation>Krankenhaus (K.KKH)</abbreviation>
-        <name>Krankenhaus</name>
+        <name xml:lang="de">Krankenhaus</name>
+    <name xml:lang="en">Hospital</name>
     </item>
     <item>
         <abbreviation>S.HSE</abbreviation>
-        <name>Haus</name>
+        <name xml:lang="de">Haus</name>
+    <name xml:lang="en">House</name>
     </item>
     <item>
         <abbreviation>Fluss (N.FLS)</abbreviation>
-        <name>Fluss</name>
+        <name xml:lang="de">Fluss</name>
+    <name xml:lang="en">River</name>
     </item>
     <item>
         <abbreviation>Lokal (K.LKL)</abbreviation>
-        <name>Lokal</name>
+        <name xml:lang="de">Lokal</name>
+    <name xml:lang="en">Restaurant</name>
     </item>
     <item>
         <abbreviation>Monument (K.MON)</abbreviation>
-        <name>Monument</name>
+        <name xml:lang="de">Monument</name>
+    <name xml:lang="en">Monument</name>
     </item>
     <item>
         <abbreviation>S.MUS</abbreviation>
-        <name>Museum</name>
+        <name xml:lang="de">Museum</name>
+    <name xml:lang="en">Museum</name>
     </item>
     <item>
         <abbreviation>Festung</abbreviation>
-        <name>Festung</name>
+        <name xml:lang="de">Festung</name>
+    <name xml:lang="en">Fortress</name>
     </item>
     <item>
         <abbreviation>A.ADM3H</abbreviation>
-        <name>Ehemaliges Gebiet</name>
+        <name xml:lang="de">Ehemaliges Gebiet</name>
+    <name xml:lang="en">Former territory</name>
     </item>
     <item>
         <abbreviation>Park (K.PRK)</abbreviation>
-        <name>Park</name>
+        <name xml:lang="de">Park</name>
+    <name xml:lang="en">Park</name>
     </item>
     <item>
         <abbreviation>Friedhof (K.FRH)</abbreviation>
-        <name>Friedhof</name>
+        <name xml:lang="de">Friedhof</name>
+    <name xml:lang="en">Cemetery</name>
     </item>
     <item>
         <abbreviation>Kirche (K.KRC)</abbreviation>
-        <name>Kirche</name>
+        <name xml:lang="de">Kirche</name>
+    <name xml:lang="en">Church</name>
     </item>
     <item>
         <abbreviation>H.BAY</abbreviation>
-        <name>Bucht</name>
+        <name xml:lang="de">Bucht</name>
+    <name xml:lang="en">Bay</name>
     </item>
     <item>
         <abbreviation>Berg (N.BRG)</abbreviation>
-        <name>Berg</name>
+        <name xml:lang="de">Berg</name>
+    <name xml:lang="en">Mountain</name>
     </item>
     <item>
         <abbreviation>Botschaft (K.BTS)</abbreviation>
-        <name>Botschaft</name>
+        <name xml:lang="de">Botschaft</name>
+    <name xml:lang="en">Embassy</name>
     </item>
     <item>
         <abbreviation>Verwaltungsgebäude (K.VWL)</abbreviation>
-        <name>Verwaltungsgebäude</name>
+        <name xml:lang="de">Verwaltungsgebäude</name>
+    <name xml:lang="en">Administrative building</name>
     </item>
     <item>
         <abbreviation>Ausbildungsstätte (K.ABS)</abbreviation>
-        <name>Ausbildungsstätte</name>
+        <name xml:lang="de">Ausbildungsstätte</name>
+    <name xml:lang="en">Educational institution</name>
     </item>
     <item>
         <abbreviation>Ausflugsziel</abbreviation>
-        <name>Ausflugsziel</name>
+        <name xml:lang="de">Ausflugsziel</name>
+    <name xml:lang="en">Excursion destination</name>
     </item>
     <item>
         <abbreviation>T.MT</abbreviation>
-        <name>Berg</name>
+        <name xml:lang="de">Berg</name>
+    <name xml:lang="en">Mountain</name>
     </item>
     <item>
         <abbreviation>A.ADM4</abbreviation>
-        <name>Region</name>
+        <name xml:lang="de">Region</name>
+    <name xml:lang="en">Region</name>
     </item>
     <item>
         <abbreviation>Aquarium</abbreviation>
-        <name>Aquarium</name>
+        <name xml:lang="de">Aquarium</name>
+    <name xml:lang="en">Aquarium</name>
     </item>
     <item>
         <abbreviation>Volksbildungsanstalt (K.VBA)</abbreviation>
-        <name>Volksbildungsanstalt</name>
+        <name xml:lang="de">Volksbildungsanstalt</name>
+    <name xml:lang="en">Adult education center</name>
     </item>
     <item>
         <abbreviation>S.TMB</abbreviation>
-        <name>Grab</name>
+        <name xml:lang="de">Grab</name>
+    <name xml:lang="en">Grave</name>
     </item>
     <item>
         <abbreviation>S.ZOO</abbreviation>
-        <name>Zoo</name>
+        <name xml:lang="de">Zoo</name>
+    <name xml:lang="en">Zoo</name>
     </item>
     <item>
         <abbreviation>S.REST</abbreviation>
-        <name>Restaurant</name>
+        <name xml:lang="de">Restaurant</name>
+    <name xml:lang="en">Restaurant</name>
     </item>
     <item>
         <abbreviation>Bahnhofsgebäude (K.BHF)</abbreviation>
-        <name>Bahnhofsgebäude</name>
+        <name xml:lang="de">Bahnhofsgebäude</name>
+    <name xml:lang="en">Railway station building</name>
     </item>
     <item>
         <abbreviation>Atelier</abbreviation>
-        <name>Atelier</name>
+        <name xml:lang="de">Atelier</name>
+    <name xml:lang="en">Studio</name>
     </item>
     <item>
         <abbreviation>Fotografie-Salon</abbreviation>
-        <name>Fotografie-Salon</name>
+        <name xml:lang="de">Fotografie-Salon</name>
+    <name xml:lang="en">Photography salon</name>
     </item>
     <item>
         <abbreviation>Vereinsgebäude (K.VRN)</abbreviation>
-        <name>Vereinsgebäude</name>
+        <name xml:lang="de">Vereinsgebäude</name>
+    <name xml:lang="en">Association building</name>
     </item>
     <item>
         <abbreviation>Sanatorium (K.SAN)</abbreviation>
-        <name>Sanatorium</name>
+        <name xml:lang="de">Sanatorium</name>
+    <name xml:lang="en">Sanatorium</name>
     </item>
     <item>
         <abbreviation>L.PRK</abbreviation>
-        <name>Park</name>
+        <name xml:lang="de">Park</name>
+    <name xml:lang="en">Park</name>
     </item>
     <item>
         <abbreviation>S.BDG</abbreviation>
-        <name>Brücke</name>
+        <name xml:lang="de">Brücke</name>
+    <name xml:lang="en">Bridge</name>
     </item>
     <item>
         <abbreviation>Aussichtspunkt</abbreviation>
-        <name>Aussichtspunkt</name>
+        <name xml:lang="de">Aussichtspunkt</name>
+    <name xml:lang="en">Viewpoint</name>
     </item>
     <item>
         <abbreviation>Ausstellungsgelände</abbreviation>
-        <name>Ausstellungsgelände</name>
+        <name xml:lang="de">Ausstellungsgelände</name>
+    <name xml:lang="en">Exhibition grounds</name>
     </item>
     <item>
         <abbreviation>Besiedelter Ort (A.BSO)</abbreviation>
-        <name>Besiedelter Ort</name>
+        <name xml:lang="de">Besiedelter Ort</name>
+    <name xml:lang="en">Populated place</name>
     </item>
     <item>
         <abbreviation>Teil eines besiedelten Ortes (A.BSOX)</abbreviation>
-        <name>Teil eines besiedelten Ortes</name>
+        <name xml:lang="de">Teil eines besiedelten Ortes</name>
+    <name xml:lang="en">Part of a populated place</name>
     </item>
     <item>
         <abbreviation>S.RSTN</abbreviation>
-        <name>Bahnhof</name>
+        <name xml:lang="de">Bahnhof</name>
+    <name xml:lang="en">Railway station</name>
     </item>
     <item>
         <abbreviation>See (N.SEE)</abbreviation>
-        <name>See</name>
+        <name xml:lang="de">See</name>
+    <name xml:lang="en">Lake</name>
     </item>
     <item>
         <abbreviation>Markt (K.MRK)</abbreviation>
-        <name>Markt</name>
+        <name xml:lang="de">Markt</name>
+    <name xml:lang="en">Market</name>
     </item>
     <item>
         <abbreviation>S.CH</abbreviation>
-        <name>Kirche</name>
+        <name xml:lang="de">Kirche</name>
+    <name xml:lang="en">Church</name>
     </item>
     <item>
         <abbreviation>Beherbergungsgebäude (K.BHB)</abbreviation>
-        <name>Beherbergungsgebäude</name>
+        <name xml:lang="de">Beherbergungsgebäude</name>
+    <name xml:lang="en">Accommodation building</name>
     </item>
     <item>
         <abbreviation>Bahn</abbreviation>
-        <name>Bahn</name>
+        <name xml:lang="de">Bahn</name>
+    <name xml:lang="en">Railway</name>
     </item>
     <item>
         <abbreviation>Denkmal</abbreviation>
-        <name>Denkmal</name>
+        <name xml:lang="de">Denkmal</name>
+    <name xml:lang="en">Monument</name>
     </item>
     <item>
         <abbreviation>Wanderweg (K.WND)</abbreviation>
-        <name>Wanderweg</name>
+        <name xml:lang="de">Wanderweg</name>
+    <name xml:lang="en">Hiking trail</name>
     </item>
     <item>
         <abbreviation>Kap (N.KAP)</abbreviation>
-        <name>Kap</name>
+        <name xml:lang="de">Kap</name>
+    <name xml:lang="en">Cape</name>
     </item>
     <item>
         <abbreviation>A.ADM2</abbreviation>
-        <name>Verwaltungsgebiet</name>
+        <name xml:lang="de">Verwaltungsgebiet</name>
+    <name xml:lang="en">Administrative district</name>
     </item>
     <item>
         <abbreviation>S.GHSE</abbreviation>
-        <name>Pension</name>
+        <name xml:lang="de">Pension</name>
+    <name xml:lang="en">Guesthouse</name>
     </item>
     <item>
         <abbreviation>S.RUIN</abbreviation>
-        <name>Ruine</name>
+        <name xml:lang="de">Ruine</name>
+    <name xml:lang="en">Ruin</name>
     </item>
     <item>
         <abbreviation>Redaktionsgebäude (K.RDK)</abbreviation>
-        <name>Redaktionsgebäude</name>
+        <name xml:lang="de">Redaktionsgebäude</name>
+    <name xml:lang="en">Editorial building</name>
     </item>
     <item>
         <abbreviation>A.ADM2H</abbreviation>
-        <name>Ehemaliges Land</name>
+        <name xml:lang="de">Ehemaliges Land</name>
+    <name xml:lang="en">Former country</name>
     </item>
     <item>
         <abbreviation>P.PPLA2</abbreviation>
-        <name>Hauptstadt</name>
+        <name xml:lang="de">Hauptstadt</name>
+    <name xml:lang="en">Capital</name>
     </item>
     <item>
         <abbreviation>S.CSTL</abbreviation>
-        <name>Burg</name>
+        <name xml:lang="de">Burg</name>
+    <name xml:lang="en">Castle</name>
     </item>
     <item>
         <abbreviation>H.STRT</abbreviation>
-        <name>Meerenge</name>
+        <name xml:lang="de">Meerenge</name>
+    <name xml:lang="en">Strait</name>
     </item>
     <item>
         <abbreviation>T.HLL</abbreviation>
-        <name>Hügel</name>
+        <name xml:lang="de">Hügel</name>
+    <name xml:lang="en">Hill</name>
     </item>
     <item>
         <abbreviation>S.GATE</abbreviation>
-        <name>Tor</name>
+        <name xml:lang="de">Tor</name>
+    <name xml:lang="en">Gate</name>
     </item>
     <item>
         <abbreviation>Buchhandlung (K.BHL)</abbreviation>
-        <name>Buchhandlung</name>
+        <name xml:lang="de">Buchhandlung</name>
+    <name xml:lang="en">Bookshop</name>
     </item>
     <item>
         <abbreviation>Regierungsgebäude (K.RGB)</abbreviation>
-        <name>Regierungsgebäude</name>
+        <name xml:lang="de">Regierungsgebäude</name>
+    <name xml:lang="en">Government building</name>
     </item>
     <item>
         <abbreviation>Schloss (K.SLS)</abbreviation>
-        <name>Schloss</name>
+        <name xml:lang="de">Schloss</name>
+    <name xml:lang="en">Palace</name>
     </item>
     <item>
         <abbreviation>S.BUR</abbreviation>
-        <name>Grabstätte</name>
+        <name xml:lang="de">Grabstätte</name>
+    <name xml:lang="en">Burial site</name>
     </item>
     <item>
         <abbreviation>S.THTR</abbreviation>
-        <name>Theater</name>
+        <name xml:lang="de">Theater</name>
+    <name xml:lang="en">Theatre</name>
     </item>
     <item>
         <abbreviation>Infrastrukturgebäude (K.INF)</abbreviation>
-        <name>Infrastrukturgebäude</name>
+        <name xml:lang="de">Infrastrukturgebäude</name>
+    <name xml:lang="en">Infrastructure building</name>
     </item>
     <item>
         <abbreviation>R.ST</abbreviation>
-        <name>Straße</name>
+        <name xml:lang="de">Straße</name>
+    <name xml:lang="en">Street</name>
     </item>
     <item>
         <abbreviation>Kabarett (K.KBR)</abbreviation>
-        <name>Kabarett</name>
+        <name xml:lang="de">Kabarett</name>
+    <name xml:lang="en">Cabaret</name>
     </item>
     <item>
         <abbreviation>Kaffeehaus (K.KAF)</abbreviation>
-        <name>Kaffeehaus</name>
+        <name xml:lang="de">Kaffeehaus</name>
+    <name xml:lang="en">Coffee house</name>
     </item>
     <item>
         <abbreviation>Konditorei</abbreviation>
-        <name>Konditorei</name>
+        <name xml:lang="de">Konditorei</name>
+    <name xml:lang="en">Confectionery</name>
     </item>
     <item>
         <abbreviation>S.TOWR</abbreviation>
-        <name>Turm</name>
+        <name xml:lang="de">Turm</name>
+    <name xml:lang="en">Tower</name>
     </item>
     <item>
         <abbreviation>H.CNL</abbreviation>
-        <name>Kanal</name>
+        <name xml:lang="de">Kanal</name>
+    <name xml:lang="en">Canal</name>
     </item>
     <item>
         <abbreviation>T.ISL</abbreviation>
-        <name>Insel</name>
+        <name xml:lang="de">Insel</name>
+    <name xml:lang="en">Island</name>
     </item>
     <item>
         <abbreviation>Bibliothek (K.BIB)</abbreviation>
-        <name>Bibliothek</name>
+        <name xml:lang="de">Bibliothek</name>
+    <name xml:lang="en">Library</name>
     </item>
     <item>
         <abbreviation>Naturdenkmal</abbreviation>
-        <name>Naturdenkmal</name>
+        <name xml:lang="de">Naturdenkmal</name>
+    <name xml:lang="en">Natural monument</name>
     </item>
     <item>
         <abbreviation>S.OPRA</abbreviation>
-        <name>Oper</name>
+        <name xml:lang="de">Oper</name>
+    <name xml:lang="en">Opera house</name>
     </item>
     <item>
         <abbreviation>Casino</abbreviation>
-        <name>Casino</name>
+        <name xml:lang="de">Casino</name>
+    <name xml:lang="en">Casino</name>
     </item>
     <item>
         <abbreviation>S.FT</abbreviation>
-        <name>Fort</name>
+        <name xml:lang="de">Fort</name>
+    <name xml:lang="en">Fort</name>
     </item>
     <item>
         <abbreviation>Kloster (K.KLS)</abbreviation>
-        <name>Kloster</name>
+        <name xml:lang="de">Kloster</name>
+    <name xml:lang="en">Monastery</name>
     </item>
     <item>
         <abbreviation>S.MSTY</abbreviation>
-        <name>Kloster</name>
+        <name xml:lang="de">Kloster</name>
+    <name xml:lang="en">Monastery</name>
     </item>
     <item>
         <abbreviation>S.HSP</abbreviation>
-        <name>Krankenhaus</name>
+        <name xml:lang="de">Krankenhaus</name>
+    <name xml:lang="en">Hospital</name>
     </item>
     <item>
         <abbreviation>S.CMTY</abbreviation>
-        <name>Friedhof</name>
+        <name xml:lang="de">Friedhof</name>
+    <name xml:lang="en">Cemetery</name>
     </item>
     <item>
         <abbreviation>S.PAL</abbreviation>
-        <name>Palast</name>
+        <name xml:lang="de">Palast</name>
+    <name xml:lang="en">Palace</name>
     </item>
     <item>
         <abbreviation>Konzertsaal (K.KNZ)</abbreviation>
-        <name>Konzertsaal</name>
+        <name xml:lang="de">Konzertsaal</name>
+    <name xml:lang="en">Concert hall</name>
     </item>
     <item>
         <abbreviation>L.RGNH</abbreviation>
-        <name>Ehemalige Region</name>
+        <name xml:lang="de">Ehemalige Region</name>
+    <name xml:lang="en">Former region</name>
     </item>
     <item>
         <abbreviation>P.PPLG</abbreviation>
-        <name>Hauptstadt</name>
+        <name xml:lang="de">Hauptstadt</name>
+    <name xml:lang="en">Capital</name>
     </item>
     <item>
         <abbreviation>Schwimmbad (K.BAD)</abbreviation>
-        <name>Schwimmbad</name>
+        <name xml:lang="de">Schwimmbad</name>
+    <name xml:lang="en">Swimming pool</name>
     </item>
     <item>
         <abbreviation>Schwimmbad (A.VOO)</abbreviation>
-        <name>Schwimmbad</name>
+        <name xml:lang="de">Schwimmbad</name>
+    <name xml:lang="en">Swimming pool</name>
     </item>
     <item>
         <abbreviation>Schlucht</abbreviation>
-        <name>Schlucht</name>
+        <name xml:lang="de">Schlucht</name>
+    <name xml:lang="en">Gorge</name>
     </item>
     <item>
         <abbreviation>L.LCTY</abbreviation>
-        <name>Örtlichkeit</name>
+        <name xml:lang="de">Örtlichkeit</name>
+    <name xml:lang="en">Locality</name>
     </item>
     <item>
         <abbreviation>Bezirk (A.BZK)</abbreviation>
-        <name>Bezirk</name>
+        <name xml:lang="de">Bezirk</name>
+    <name xml:lang="en">District</name>
     </item>
     <item>
         <abbreviation>Vergnügungspark (K.VGN)</abbreviation>
-        <name>Vergnügungspark</name>
+        <name xml:lang="de">Vergnügungspark</name>
+    <name xml:lang="en">Amusement park</name>
     </item>
     <item>
         <abbreviation>Brücke (K.BRK)</abbreviation>
-        <name>Brücke</name>
+        <name xml:lang="de">Brücke</name>
+    <name xml:lang="en">Bridge</name>
     </item>
     <item>
         <abbreviation>H.STMI</abbreviation>
-        <name>zeitweiliger Fluss</name>
+        <name xml:lang="de">zeitweiliger Fluss</name>
+    <name xml:lang="en">Intermittent stream</name>
     </item>
     <item>
         <abbreviation>S.GDN</abbreviation>
-        <name>Garten</name>
+        <name xml:lang="de">Garten</name>
+    <name xml:lang="en">Garden</name>
     </item>
     <item>
         <abbreviation>T.VAL</abbreviation>
-        <name>Tal</name>
+        <name xml:lang="de">Tal</name>
+    <name xml:lang="en">Valley</name>
     </item>
     <item>
         <abbreviation>P.PPLA4</abbreviation>
-        <name>Hauptstadt</name>
+        <name xml:lang="de">Hauptstadt</name>
+    <name xml:lang="en">Capital</name>
     </item>
     <item>
         <abbreviation>Moschee</abbreviation>
-        <name>Moschee</name>
+        <name xml:lang="de">Moschee</name>
+    <name xml:lang="en">Mosque</name>
     </item>
     <item>
         <abbreviation>T.PK</abbreviation>
-        <name>Bergspitze</name>
+        <name xml:lang="de">Bergspitze</name>
+    <name xml:lang="en">Mountain peak</name>
     </item>
     <item>
         <abbreviation>Stiege</abbreviation>
-        <name>Stiege</name>
+        <name xml:lang="de">Stiege</name>
+    <name xml:lang="en">Stairs</name>
     </item>
     <item>
         <abbreviation>S.AIRP</abbreviation>
-        <name>Flughafen</name>
+        <name xml:lang="de">Flughafen</name>
+    <name xml:lang="en">Airport</name>
     </item>
     <item>
         <abbreviation>Kunstgalerie</abbreviation>
-        <name>Kunstgalerie</name>
+        <name xml:lang="de">Kunstgalerie</name>
+    <name xml:lang="en">Art gallery</name>
     </item>
     <item>
         <abbreviation>T.SLP</abbreviation>
-        <name>Gefälle</name>
+        <name xml:lang="de">Gefälle</name>
+    <name xml:lang="en">Slope</name>
     </item>
     <item>
         <abbreviation>S.RECR</abbreviation>
-        <name>Rennbahn</name>
+        <name xml:lang="de">Rennbahn</name>
+    <name xml:lang="en">Race track</name>
     </item>
     <item>
         <abbreviation>Bierhaus (K.BIR)</abbreviation>
-        <name>Bierhaus</name>
+        <name xml:lang="de">Bierhaus</name>
+    <name xml:lang="en">Beer house</name>
     </item>
     <item>
         <abbreviation>T.SPIT</abbreviation>
-        <name>Landzunge</name>
+        <name xml:lang="de">Landzunge</name>
+    <name xml:lang="en">Promontory</name>
     </item>
     <item>
         <abbreviation>H.FJD</abbreviation>
-        <name>Fjord</name>
+        <name xml:lang="de">Fjord</name>
+    <name xml:lang="en">Fjord</name>
     </item>
     <item>
         <abbreviation>Galerie (K.GLR)</abbreviation>
-        <name>Galerie</name>
+        <name xml:lang="de">Galerie</name>
+    <name xml:lang="en">Gallery</name>
     </item>
     <item>
         <abbreviation>T.GRGE</abbreviation>
-        <name>Schlucht</name>
+        <name xml:lang="de">Schlucht</name>
+    <name xml:lang="en">Gorge</name>
     </item>
     <item>
         <abbreviation>A.PCLD</abbreviation>
-        <name>Exterritoriales Gebiet</name>
+        <name xml:lang="de">Exterritoriales Gebiet</name>
+    <name xml:lang="en">Extraterritorial area</name>
     </item>
     <item>
         <abbreviation>S.ARCHV</abbreviation>
-        <name>Archiv</name>
+        <name xml:lang="de">Archiv</name>
+    <name xml:lang="en">Archive</name>
     </item>
     <item>
         <abbreviation>S.HTL</abbreviation>
-        <name>Hotel</name>
+        <name xml:lang="de">Hotel</name>
+    <name xml:lang="en">Hotel</name>
     </item>
     <item>
         <abbreviation>S.CAVE</abbreviation>
-        <name>Höhle, Durchgang</name>
+        <name xml:lang="de">Höhle, Durchgang</name>
+    <name xml:lang="en">Cave, passage</name>
     </item>
     <item>
         <abbreviation>P.PPLL</abbreviation>
-        <name>Besiedelter Ort</name>
+        <name xml:lang="de">Besiedelter Ort</name>
+    <name xml:lang="en">Populated place</name>
     </item>
     <item>
         <abbreviation>S.BUSTP</abbreviation>
-        <name>Bushaltestelle</name>
+        <name xml:lang="de">Bushaltestelle</name>
+    <name xml:lang="en">Bus stop</name>
     </item>
     <item>
         <abbreviation>L.PRT</abbreviation>
-        <name>Hafen</name>
+        <name xml:lang="de">Hafen</name>
+    <name xml:lang="en">Port</name>
     </item>
     <item>
         <abbreviation>Hafen (K.HFN)</abbreviation>
-        <name>Hafen</name>
+        <name xml:lang="de">Hafen</name>
+    <name xml:lang="en">Port</name>
     </item>
     <item>
         <abbreviation>H.STM</abbreviation>
-        <name>Fluss</name>
+        <name xml:lang="de">Fluss</name>
+    <name xml:lang="en">River</name>
     </item>
     <item>
         <abbreviation>Leuchtturm</abbreviation>
-        <name>Leuchtturm</name>
+        <name xml:lang="de">Leuchtturm</name>
+    <name xml:lang="en">Lighthouse</name>
     </item>
     <item>
         <abbreviation>Filmproduktionsfirma</abbreviation>
-        <name>Filmproduktionsfirma</name>
+        <name xml:lang="de">Filmproduktionsfirma</name>
+    <name xml:lang="en">Film production company</name>
     </item>
     <item>
         <abbreviation>Platz (K.PLT)</abbreviation>
-        <name>Platz</name>
+        <name xml:lang="de">Platz</name>
+    <name xml:lang="en">Square</name>
     </item>
     <item>
         <abbreviation>R.RD</abbreviation>
-        <name>Weg</name>
+        <name xml:lang="de">Weg</name>
+    <name xml:lang="en">Path</name>
     </item>
     <item>
         <abbreviation>Alm</abbreviation>
-        <name>Alm</name>
+        <name xml:lang="de">Alm</name>
+    <name xml:lang="en">Alpine pasture</name>
     </item>
     <item>
         <abbreviation>T.MTS</abbreviation>
-        <name>Gebirge</name>
+        <name xml:lang="de">Gebirge</name>
+    <name xml:lang="en">Mountain range</name>
     </item>
     <item>
         <abbreviation>Universität (K.UNI)</abbreviation>
-        <name>Universität</name>
+        <name xml:lang="de">Universität</name>
+    <name xml:lang="en">University</name>
     </item>
     <item>
         <abbreviation>T.CLF</abbreviation>
-        <name>Klippe</name>
+        <name xml:lang="de">Klippe</name>
+    <name xml:lang="en">Cliff</name>
     </item>
     <item>
         <abbreviation>Bürogebäude (K.BUR)</abbreviation>
-        <name>Bürogebäude</name>
+        <name xml:lang="de">Bürogebäude</name>
+    <name xml:lang="en">Office building</name>
     </item>
     <item>
         <abbreviation>S.MNMT</abbreviation>
-        <name>Monument</name>
+        <name xml:lang="de">Monument</name>
+    <name xml:lang="en">Monument</name>
     </item>
     <item>
         <abbreviation>Anhöhe</abbreviation>
-        <name>Anhöhe</name>
+        <name xml:lang="de">Anhöhe</name>
+    <name xml:lang="en">Hill</name>
     </item>
     <item>
         <abbreviation>A.ADMD</abbreviation>
-        <name>Teil eines Landes</name>
+        <name xml:lang="de">Teil eines Landes</name>
+    <name xml:lang="en">Part of a country</name>
     </item>
     <item>
         <abbreviation>A.ADM1</abbreviation>
-        <name>Land</name>
+        <name xml:lang="de">Land</name>
+    <name xml:lang="en">Country</name>
     </item>
     <item>
         <abbreviation>Landschaftlicher Punkt</abbreviation>
-        <name>Landschaftlicher Punkt</name>
+        <name xml:lang="de">Landschaftlicher Punkt</name>
+    <name xml:lang="en">Scenic point</name>
     </item>
     <item>
         <abbreviation>Vergnügungseinrichtung</abbreviation>
-        <name>Vergnügungseinrichtung</name>
+        <name xml:lang="de">Vergnügungseinrichtung</name>
+    <name xml:lang="en">Entertainment facility</name>
     </item>
     <item>
         <abbreviation>H.CNLN</abbreviation>
-        <name>Befahrbarer Wasserkanal</name>
+        <name xml:lang="de">Befahrbarer Wasserkanal</name>
+    <name xml:lang="en">Navigable waterway</name>
     </item>
     <item>
         <abbreviation>Lift</abbreviation>
-        <name>Lift</name>
+        <name xml:lang="de">Lift</name>
+    <name xml:lang="en">Lift</name>
     </item>
     <item>
         <abbreviation>Wiese</abbreviation>
-        <name>Wiese</name>
+        <name xml:lang="de">Wiese</name>
+    <name xml:lang="en">Meadow</name>
     </item>
     <item>
         <abbreviation>Pass (N.PAS)</abbreviation>
-        <name>Pass</name>
+        <name xml:lang="de">Pass</name>
+    <name xml:lang="en">Pass</name>
     </item>
     <item>
         <abbreviation>S.AMTH</abbreviation>
-        <name>Amphitheater</name>
+        <name xml:lang="de">Amphitheater</name>
+    <name xml:lang="en">Amphitheatre</name>
     </item>
     <item>
         <abbreviation>Oper (K.OPR)</abbreviation>
-        <name>Oper</name>
+        <name xml:lang="de">Oper</name>
+    <name xml:lang="en">Opera house</name>
     </item>
     <item>
         <abbreviation>Saal</abbreviation>
-        <name>Saal</name>
+        <name xml:lang="de">Saal</name>
+    <name xml:lang="en">Hall</name>
     </item>
     <item>
         <abbreviation>Konservatorium (K.KON)</abbreviation>
-        <name>Konservatorium</name>
+        <name xml:lang="de">Konservatorium</name>
+    <name xml:lang="en">Conservatory</name>
     </item>
     <item>
         <abbreviation>Insel (N.INS)</abbreviation>
-        <name>Insel</name>
+        <name xml:lang="de">Insel</name>
+    <name xml:lang="en">Island</name>
     </item>
     <item>
         <abbreviation>L.FLD</abbreviation>
-        <name>Feld</name>
+        <name xml:lang="de">Feld</name>
+    <name xml:lang="en">Field</name>
     </item>
     <item>
         <abbreviation>T.ISLET</abbreviation>
-        <name>Eiland</name>
+        <name xml:lang="de">Eiland</name>
+    <name xml:lang="en">Islet</name>
     </item>
     <item>
         <abbreviation>Gericht</abbreviation>
-        <name>Gericht</name>
+        <name xml:lang="de">Gericht</name>
+    <name xml:lang="en">Court</name>
     </item>
     <item>
         <abbreviation>Wald</abbreviation>
-        <name>Wald</name>
+        <name xml:lang="de">Wald</name>
+    <name xml:lang="en">Forest</name>
     </item>
     <item>
         <abbreviation>T.ISLS</abbreviation>
-        <name>Insel</name>
+        <name xml:lang="de">Insel</name>
+    <name xml:lang="en">Island</name>
     </item>
     <item>
         <abbreviation>H.FLLS</abbreviation>
-        <name>Wasserfall</name>
+        <name xml:lang="de">Wasserfall</name>
+    <name xml:lang="en">Waterfall</name>
     </item>
     <item>
         <abbreviation>L.RGN</abbreviation>
-        <name>Region</name>
+        <name xml:lang="de">Region</name>
+    <name xml:lang="en">Region</name>
     </item>
     <item>
         <abbreviation>S.EST</abbreviation>
-        <name>Gut</name>
+        <name xml:lang="de">Gut</name>
+    <name xml:lang="en">Estate</name>
     </item>
     <item>
         <abbreviation>Mineralmoorlager</abbreviation>
-        <name>Mineralmoorlager</name>
+        <name xml:lang="de">Mineralmoorlager</name>
+    <name xml:lang="en">Peat deposit</name>
     </item>
     <item>
         <abbreviation>H.GLCR</abbreviation>
-        <name>Gletscher</name>
+        <name xml:lang="de">Gletscher</name>
+    <name xml:lang="en">Glacier</name>
     </item>
     <item>
         <abbreviation>S.SQR</abbreviation>
-        <name>Platz</name>
+        <name xml:lang="de">Platz</name>
+    <name xml:lang="en">Square</name>
     </item>
     <item>
         <abbreviation>T.RDGE</abbreviation>
-        <name>Grat</name>
+        <name xml:lang="de">Grat</name>
+    <name xml:lang="en">Ridge</name>
     </item>
     <item>
         <abbreviation>Brunnen</abbreviation>
-        <name>Brunnen</name>
+        <name xml:lang="de">Brunnen</name>
+    <name xml:lang="en">Fountain</name>
     </item>
     <item>
         <abbreviation>S.FRM</abbreviation>
-        <name>Bauernhof</name>
+        <name xml:lang="de">Bauernhof</name>
+    <name xml:lang="en">Farm</name>
     </item>
     <item>
         <abbreviation>H.STMA</abbreviation>
-        <name>Nebenstrom</name>
+        <name xml:lang="de">Nebenstrom</name>
+    <name xml:lang="en">Tributary</name>
     </item>
     <item>
         <abbreviation>H.SEA</abbreviation>
-        <name>Meer</name>
+        <name xml:lang="de">Meer</name>
+    <name xml:lang="en">Sea</name>
     </item>
     <item>
         <abbreviation>Ordination</abbreviation>
-        <name>Ordination</name>
+        <name xml:lang="de">Ordination</name>
+    <name xml:lang="en">Medical practice</name>
     </item>
     <item>
         <abbreviation>S.STDM</abbreviation>
-        <name>Stadion</name>
+        <name xml:lang="de">Stadion</name>
+    <name xml:lang="en">Stadium</name>
     </item>
     <item>
         <abbreviation>H.PND</abbreviation>
-        <name>Teich</name>
+        <name xml:lang="de">Teich</name>
+    <name xml:lang="en">Pond</name>
     </item>
     <item>
         <abbreviation>Verlagsgebäude</abbreviation>
-        <name>Verlagsgebäude</name>
+        <name xml:lang="de">Verlagsgebäude</name>
+    <name xml:lang="en">Publishing house</name>
     </item>
     <item>
         <abbreviation>Forschungseinrichtung (K.FRS)</abbreviation>
-        <name>Forschungseinrichtung</name>
+        <name xml:lang="de">Forschungseinrichtung</name>
+    <name xml:lang="en">Research institution</name>
     </item>
     <item>
         <abbreviation>T.PT</abbreviation>
-        <name>Landzunge</name>
+        <name xml:lang="de">Landzunge</name>
+    <name xml:lang="en">Promontory</name>
     </item>
     <item>
         <abbreviation>T.SPUR</abbreviation>
-        <name>Grat</name>
+        <name xml:lang="de">Grat</name>
+    <name xml:lang="en">Ridge</name>
     </item>
     <item>
         <abbreviation>R.PRMN</abbreviation>
-        <name>Promenade</name>
+        <name xml:lang="de">Promenade</name>
+    <name xml:lang="en">Promenade</name>
     </item>
     <item>
         <abbreviation>S.ADMF</abbreviation>
-        <name>Verwaltungsgebäude</name>
+        <name xml:lang="de">Verwaltungsgebäude</name>
+    <name xml:lang="en">Administrative building</name>
     </item>
     <item>
         <abbreviation>Reisebüro</abbreviation>
-        <name>Reisebüro</name>
+        <name xml:lang="de">Reisebüro</name>
+    <name xml:lang="en">Travel agency</name>
     </item>
     <item>
         <abbreviation>S.QUAY</abbreviation>
-        <name>Quay</name>
+        <name xml:lang="de">Quay</name>
+    <name xml:lang="en">Quay</name>
     </item>
     <item>
         <abbreviation>Bergwerk</abbreviation>
-        <name>Bergwerk</name>
+        <name xml:lang="de">Bergwerk</name>
+    <name xml:lang="en">Mine</name>
     </item>
     <item>
         <abbreviation>P.PPLR</abbreviation>
-        <name>Sakraler Ort</name>
+        <name xml:lang="de">Sakraler Ort</name>
+    <name xml:lang="en">Sacred place</name>
     </item>
     <item>
         <abbreviation>Gebirge (N.GBR)</abbreviation>
-        <name>Gebirge</name>
+        <name xml:lang="de">Gebirge</name>
+    <name xml:lang="en">Mountain range</name>
     </item>
     <item>
         <abbreviation>S.MSQE</abbreviation>
-        <name>Moschee</name>
+        <name xml:lang="de">Moschee</name>
+    <name xml:lang="en">Mosque</name>
     </item>
     <item>
         <abbreviation>H.CAPG</abbreviation>
-        <name>Schneefläche</name>
+        <name xml:lang="de">Schneefläche</name>
+    <name xml:lang="en">Snow field</name>
     </item>
     <item>
         <abbreviation>Synagoge</abbreviation>
-        <name>Synagoge</name>
+        <name xml:lang="de">Synagoge</name>
+    <name xml:lang="en">Synagogue</name>
     </item>
     <item>
         <abbreviation>Stadtmauer</abbreviation>
-        <name>Stadtmauer</name>
+        <name xml:lang="de">Stadtmauer</name>
+    <name xml:lang="en">City wall</name>
     </item>
     <item>
         <abbreviation>Sakralbau (K.SAK)</abbreviation>
-        <name>Sakralbau</name>
+        <name xml:lang="de">Sakralbau</name>
+    <name xml:lang="en">Religious building</name>
     </item>
     <item>
         <abbreviation>Zoo (K.ZOO)</abbreviation>
-        <name>Zoo</name>
+        <name xml:lang="de">Zoo</name>
+    <name xml:lang="en">Zoo</name>
     </item>
     <item>
         <abbreviation>T.RK</abbreviation>
-        <name>Fels</name>
+        <name xml:lang="de">Fels</name>
+    <name xml:lang="en">Rock</name>
     </item>
     <item>
         <abbreviation>Pferderennbahn</abbreviation>
-        <name>Pferderennbahn</name>
+        <name xml:lang="de">Pferderennbahn</name>
+    <name xml:lang="en">Horse racing track</name>
     </item>
     <item>
         <abbreviation>A.PCLI</abbreviation>
-        <name>Unabhängige politische Einheit</name>
+        <name xml:lang="de">Unabhängige politische Einheit</name>
+    <name xml:lang="en">Independent political entity</name>
     </item>
     <item>
         <abbreviation>S.BLDG</abbreviation>
-        <name>Gebäude</name>
+        <name xml:lang="de">Gebäude</name>
+    <name xml:lang="en">Building</name>
     </item>
     <item>
         <abbreviation>V.FRST</abbreviation>
-        <name>Wald</name>
+        <name xml:lang="de">Wald</name>
+    <name xml:lang="en">Forest</name>
     </item>
     <item>
         <abbreviation>Kaufhaus</abbreviation>
-        <name>Kaufhaus</name>
+        <name xml:lang="de">Kaufhaus</name>
+    <name xml:lang="en">Department store</name>
     </item>
     <item>
         <abbreviation>S.SPA</abbreviation>
-        <name>Spa</name>
+        <name xml:lang="de">Spa</name>
+    <name xml:lang="en">Spa</name>
     </item>
     <item>
         <abbreviation>Planetarium</abbreviation>
-        <name>Planetarium</name>
+        <name xml:lang="de">Planetarium</name>
+    <name xml:lang="en">Planetarium</name>
     </item>
     <item>
         <abbreviation>Einkaufspassage</abbreviation>
-        <name>Einkaufspassage</name>
+        <name xml:lang="de">Einkaufspassage</name>
+    <name xml:lang="en">Shopping arcade</name>
     </item>
     <item>
         <abbreviation>Tennisplatz</abbreviation>
-        <name>Tennisplatz</name>
+        <name xml:lang="de">Tennisplatz</name>
+    <name xml:lang="en">Tennis court</name>
     </item>
 </list>

@@ -7,6 +7,8 @@
         "type": "LineString", 
         "coordinates": [
             [16.279684, 48.08389], 
+            [16.2954, 48.0856], 
+            [16.379829498031, 48.187455471378], 
             [16.373845, 48.209544], 
             [16.35736, 48.21533]
           ]
@@ -29,7 +31,7 @@
          "timestamp": ["1902-01-16"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -37,6 +39,25 @@
 
          "p_id": "#39818"
          }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1902-01-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       },
     {
@@ -53,7 +74,7 @@
          "timestamp": ["1902-01-16"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -138,7 +159,25 @@
          "timestamp": ["1902-01-16"],
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2954, 48.0856]
+      },
+      "properties": {
+         "id": "pmb252697",
+         "title": "Bahnhof Mödling",
+         "lat": "48.0856",
+         "lon": "16.2954",
+         "timestamp": ["1902-01-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q18668081", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }
   ]

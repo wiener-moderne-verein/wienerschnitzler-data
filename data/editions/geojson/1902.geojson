@@ -18,7 +18,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1741", 
         "geonames": "https://sws.geonames.org/2761369/ https://sws.geonames.org/2761333/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -38,7 +38,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -58,7 +58,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q798800", 
         "geonames": "https://sws.geonames.org/2782043/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -78,7 +78,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q487971", 
         "geonames": "https://sws.geonames.org/2953371/ https://sws.geonames.org/6558205/", 
         "abbr": "A.ADM4", 
-        "type": "Region"
+        "type": "Region Region"
       }
       }, 
     {
@@ -97,7 +97,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q694694", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -117,7 +117,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1735", 
         "geonames": "https://sws.geonames.org/2775216/", 
         "abbr": "A.ADM2", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -137,7 +137,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q336250", 
         "geonames": "https://sws.geonames.org/2772505/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1902-01-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -154,7 +173,7 @@
          "timestamp": ["1902-01-07", "1902-01-12", "1902-01-19", "1902-01-28", "1902-03-02", "1902-03-04", "1902-03-11", "1902-03-12", "1902-03-16", "1902-04-26", "1902-06-17", "1902-06-19", "1902-10-29", "1902-11-04", "1902-11-19", "1902-11-26", "1902-11-28", "1902-12-02", "1902-12-17"],
          "importance": 19, 
         "abbr": "Konzertsaal (K.KNZ)", 
-        "type": "Konzertsaal"
+        "type": "Konzertsaal Concert hall"
       }
       }, 
     {
@@ -172,7 +191,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/6697258/", 
         "abbr": "L.PRK", 
-        "type": "Park"
+        "type": "Park Park"
       }
       }, 
     {
@@ -191,7 +210,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Staatsoper", 
         "wikidata": "http://www.wikidata.org/entity/Q209937", 
         "abbr": "Oper (K.OPR)", 
-        "type": "Oper", 
+        "type": "Oper Opera house", 
         "arbeitsort": [
          {
 
@@ -216,7 +235,7 @@
          "importance": 5, 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Universität_für_Musik_und_darstellende_Kunst_Wien", 
         "abbr": "Konservatorium (K.KON)", 
-        "type": "Konservatorium"
+        "type": "Konservatorium Conservatory"
       }
       }, 
     {
@@ -235,7 +254,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt", 
         "wikidata": "http://www.wikidata.org/entity/Q167619", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater Theatre"
       }
       }, 
     {
@@ -254,7 +273,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
+        "type": "Theater Theatre", 
         "arbeitsort": [
          {
 
@@ -286,7 +305,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/B%C3%B6sendorfer-Saal", 
         "wikidata": "http://www.wikidata.org/entity/Q1020093", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
-        "type": "Veranstaltungsgebäude"
+        "type": "Veranstaltungsgebäude Event venue"
       }
       }, 
     {
@@ -303,7 +322,7 @@
          "timestamp": ["1902-01-20", "1902-01-21", "1902-02-08"],
          "importance": 3, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater Theatre"
       }
       }, 
     {
@@ -322,7 +341,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q109377820", 
         "geonames": "https://www.geonames.org/6354992/", 
         "abbr": "S.THTR", 
-        "type": "Theater"
+        "type": "Theater Theatre"
       }
       }, 
     {
@@ -342,7 +361,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q264752", 
         "geonames": "https://sws.geonames.org/3322725/", 
         "abbr": "Park (K.PRK)", 
-        "type": "Park"
+        "type": "Park Park"
       }
       }, 
     {
@@ -376,7 +395,7 @@
          "timestamp": ["1902-04-20", "1902-06-24", "1902-06-26"],
          "importance": 3, 
         "abbr": "Tal (N.TAL)", 
-        "type": "Tal"
+        "type": "Tal Valley"
       }
       }, 
     {
@@ -396,7 +415,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1492691", 
         "geonames": "https://sws.geonames.org/7288340/", 
         "abbr": "S.RECR", 
-        "type": "Rennbahn"
+        "type": "Rennbahn Race track"
       }
       }, 
     {
@@ -416,7 +435,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q486450", 
         "geonames": "https://sws.geonames.org/2782067/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -436,7 +455,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q636910", 
         "geonames": "https://sws.geonames.org/2776420/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -456,7 +475,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q251022", 
         "geonames": "https://sws.geonames.org/2766643/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -474,7 +493,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2764789/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -494,7 +513,7 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=1461", 
         "wikidata": "http://www.wikidata.org/entity/Q876564", 
         "abbr": "Erhebung", 
-        "type": "Erhebung"
+        "type": "Erhebung Elevation"
       }
       }, 
     {
@@ -514,7 +533,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1781", 
         "geonames": "https://sws.geonames.org/3054643/", 
         "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -534,7 +553,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q277965", 
         "geonames": "https://sws.geonames.org/2771335/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -554,7 +573,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q665159", 
         "geonames": "https://sws.geonames.org/7871707/ https://sws.geonames.org/2776586/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -574,7 +593,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q64", 
         "geonames": "https://sws.geonames.org/2950159/", 
         "abbr": "P.PPLC", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -591,7 +610,7 @@
          "timestamp": ["1902-01-02", "1902-01-03", "1902-01-04", "1902-01-05", "1902-05-06", "1902-10-14"],
          "importance": 6, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
+        "type": "Theater Theatre", 
         "arbeitsort": [
          {
 
@@ -618,7 +637,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q267329", 
         "geonames": "https://sws.geonames.org/2775259/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -638,7 +657,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q590620", 
         "geonames": "https://sws.geonames.org/7873075/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -658,7 +677,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q284596", 
         "geonames": "https://sws.geonames.org/2780207/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -675,7 +694,7 @@
          "timestamp": ["1902-09-01"],
          "importance": 1, 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude"
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -692,7 +711,7 @@
          "timestamp": ["1902-05-21"],
          "importance": 1, 
         "abbr": "S.REST", 
-        "type": "Restaurant"
+        "type": "Restaurant Restaurant"
       }
       }, 
     {
@@ -709,7 +728,7 @@
          "timestamp": ["1902-08-04"],
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -729,7 +748,7 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=6125", 
         "wikidata": "http://www.wikidata.org/entity/Q688555", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
+        "type": "Theater Theatre", 
         "arbeitsort": [
          {
 
@@ -756,7 +775,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1667009", 
         "geonames": "https://sws.geonames.org/2601120/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -773,7 +792,7 @@
          "timestamp": ["1902-03-13", "1902-10-10", "1902-11-27"],
          "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -809,7 +828,7 @@
          "timestamp": ["1902-09-01"],
          "importance": 1, 
         "abbr": "S.REST", 
-        "type": "Restaurant"
+        "type": "Restaurant Restaurant"
       }
       }, 
     {
@@ -828,7 +847,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Schweizerhaus_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q876104", 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal Restaurant"
       }
       }, 
     {
@@ -848,7 +867,7 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=10997", 
         "wikidata": "http://www.wikidata.org/entity/Q3487269", 
         "abbr": "Vergnügungspark (K.VGN)", 
-        "type": "Vergnügungspark"
+        "type": "Vergnügungspark Amusement park"
       }
       }, 
     {
@@ -867,7 +886,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Sacher_Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q1631024", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel", 
+        "type": "Hotel Hotel", 
         "arbeitsort": [
          {
 
@@ -894,7 +913,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1329815", 
         "geonames": "https://sws.geonames.org/2771281/", 
         "abbr": "T.MT", 
-        "type": "Berg"
+        "type": "Berg Mountain"
       }
       }, 
     {
@@ -914,7 +933,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1602704", 
         "geonames": "https://sws.geonames.org/2776533/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -934,7 +953,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q688441", 
         "geonames": "https://sws.geonames.org/2779018/", 
         "abbr": "Berg (N.BRG)", 
-        "type": "Berg"
+        "type": "Berg Mountain"
       }
       }, 
     {
@@ -953,7 +972,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Mirabell", 
         "wikidata": "http://www.wikidata.org/entity/Q688546", 
         "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
+        "type": "Schloss Palace"
       }
       }, 
     {
@@ -973,7 +992,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q671367", 
         "geonames": "https://sws.geonames.org/7871856/ https://sws.geonames.org/2769110/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -992,7 +1011,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_de_France_(Wien)", 
         "wikidata": "http://www.wikidata.org/entity/Q1631085", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -1012,7 +1031,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q664735", 
         "geonames": "https://sws.geonames.org/2776358/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -1032,7 +1051,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1261352", 
         "geonames": "https://sws.geonames.org/2773124/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -1051,7 +1070,7 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=359270", 
         "wikidata": "http://www.wikidata.org/entity/Q68752772", 
         "abbr": "Friedhof (K.FRH)", 
-        "type": "Friedhof"
+        "type": "Friedhof Cemetery"
       }
       }, 
     {
@@ -1065,10 +1084,10 @@
          "title": "Tiefer Graben 23",
          "lat": "48.213038",
          "lon": "16.368738",
-         "timestamp": ["1902-03-15", "1902-05-15", "1902-08-10", "1902-09-25", "1902-09-28", "1902-11-24", "1902-12-02", "1902-12-04"],
-         "importance": 8, 
+         "timestamp": ["1902-01-27", "1902-03-15", "1902-05-15", "1902-08-10", "1902-09-25", "1902-09-28", "1902-11-24", "1902-12-02", "1902-12-04"],
+         "importance": 9, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -1101,7 +1120,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q2120861", 
         "geonames": "https://sws.geonames.org/2768462/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -1121,7 +1140,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q659891", 
         "geonames": "https://sws.geonames.org/7873001/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -1141,7 +1160,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q253741", 
         "geonames": "https://sws.geonames.org/2777937/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -1159,7 +1178,7 @@
          "importance": 2, 
         "geonames": "https://sws.geonames.org/2765101/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -1177,7 +1196,7 @@
          "importance": 3, 
         "geonames": "https://sws.geonames.org/2770640/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -1194,7 +1213,7 @@
          "timestamp": ["1902-02-26", "1902-02-28", "1902-03-01", "1902-03-04", "1902-03-06", "1902-03-07", "1902-03-09", "1902-03-12", "1902-03-16", "1902-03-17", "1902-03-19", "1902-03-21"],
          "importance": 12, 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal", 
+        "type": "Lokal Restaurant", 
         "arbeitsort": [
          {
 
@@ -1225,7 +1244,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2768348/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -1244,7 +1263,7 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=46316", 
         "wikidata": "http://www.wikidata.org/entity/Q37995949", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -1287,7 +1306,7 @@
          "timestamp": ["1902-01-07", "1902-01-08", "1902-01-09", "1902-01-10", "1902-01-11", "1902-01-12", "1902-01-13", "1902-01-14", "1902-01-15", "1902-01-16", "1902-01-17", "1902-01-18", "1902-01-19", "1902-01-20", "1902-01-21", "1902-01-22", "1902-01-23", "1902-01-24", "1902-01-25", "1902-01-26", "1902-01-27", "1902-01-28", "1902-01-29", "1902-01-30", "1902-01-31", "1902-02-01", "1902-02-02", "1902-02-03", "1902-02-04", "1902-02-06", "1902-02-07", "1902-02-08", "1902-02-09", "1902-02-10", "1902-02-11", "1902-02-12", "1902-02-15", "1902-02-18", "1902-02-19", "1902-02-20", "1902-02-22", "1902-02-23", "1902-02-24", "1902-02-27", "1902-02-28", "1902-03-01", "1902-03-02", "1902-03-03", "1902-03-04", "1902-03-05", "1902-03-06", "1902-03-07", "1902-03-08", "1902-03-09", "1902-03-10", "1902-03-11", "1902-03-12", "1902-03-13", "1902-03-14", "1902-03-15", "1902-03-16", "1902-03-17", "1902-03-18", "1902-03-19", "1902-03-20", "1902-03-22", "1902-03-23", "1902-03-24", "1902-03-25", "1902-03-27", "1902-03-30", "1902-03-31", "1902-04-01", "1902-04-02", "1902-04-03", "1902-04-04", "1902-04-05", "1902-04-06", "1902-04-07", "1902-04-08", "1902-04-09", "1902-04-10", "1902-04-11", "1902-04-12", "1902-04-13", "1902-04-14", "1902-04-15", "1902-04-16", "1902-04-17", "1902-04-18", "1902-04-19", "1902-04-20", "1902-04-21", "1902-04-22", "1902-04-23", "1902-04-24", "1902-04-25", "1902-04-26", "1902-04-27", "1902-04-28", "1902-04-29", "1902-04-30", "1902-05-01", "1902-05-02", "1902-05-03", "1902-05-04", "1902-05-05", "1902-05-06", "1902-05-07", "1902-05-08", "1902-05-09", "1902-05-10", "1902-05-11", "1902-05-12", "1902-05-13", "1902-05-14", "1902-05-15", "1902-05-16", "1902-05-17", "1902-05-18", "1902-05-19", "1902-05-21", "1902-05-22", "1902-05-23", "1902-05-24", "1902-05-25", "1902-05-26", "1902-05-27", "1902-05-28", "1902-05-30", "1902-05-31", "1902-06-01", "1902-06-02", "1902-06-04", "1902-06-05", "1902-06-06", "1902-06-07", "1902-06-08", "1902-06-09", "1902-06-10", "1902-06-11", "1902-06-12", "1902-06-13", "1902-06-14", "1902-06-15", "1902-06-16", "1902-06-17", "1902-06-18", "1902-06-19", "1902-06-20", "1902-06-21", "1902-06-22", "1902-06-23", "1902-06-24", "1902-06-25", "1902-06-26", "1902-06-27", "1902-07-08", "1902-07-09", "1902-07-10", "1902-07-11", "1902-07-13", "1902-07-14", "1902-07-15", "1902-07-17", "1902-07-18", "1902-07-19", "1902-07-20", "1902-07-21", "1902-07-22", "1902-07-24", "1902-07-25", "1902-07-28", "1902-07-29", "1902-07-31", "1902-08-01", "1902-08-04", "1902-08-05", "1902-08-07", "1902-08-08", "1902-08-09", "1902-08-10", "1902-08-11", "1902-08-12", "1902-08-13", "1902-08-14", "1902-08-15", "1902-08-16", "1902-08-18", "1902-08-19", "1902-08-20", "1902-08-21", "1902-08-22", "1902-08-23", "1902-08-24", "1902-08-25", "1902-08-26", "1902-08-29", "1902-08-30", "1902-09-01", "1902-09-02", "1902-09-07", "1902-09-08", "1902-09-13", "1902-09-14", "1902-09-15", "1902-09-16", "1902-09-19", "1902-09-20", "1902-09-21", "1902-09-22", "1902-09-23", "1902-09-25", "1902-09-26", "1902-09-28", "1902-09-29", "1902-09-30", "1902-10-01", "1902-10-02", "1902-10-03", "1902-10-04", "1902-10-05", "1902-10-06", "1902-10-07", "1902-10-08", "1902-10-09", "1902-10-10", "1902-10-11", "1902-10-12", "1902-10-21", "1902-10-22", "1902-10-23", "1902-10-24", "1902-10-25", "1902-10-26", "1902-10-27", "1902-10-28", "1902-10-29", "1902-10-30", "1902-10-31", "1902-11-01", "1902-11-02", "1902-11-03", "1902-11-04", "1902-11-05", "1902-11-06", "1902-11-07", "1902-11-08", "1902-11-09", "1902-11-10", "1902-11-11", "1902-11-12", "1902-11-13", "1902-11-14", "1902-11-15", "1902-11-16", "1902-11-17", "1902-11-18", "1902-11-19", "1902-11-20", "1902-11-21", "1902-11-22", "1902-11-23", "1902-11-24", "1902-11-25", "1902-11-26", "1902-11-27", "1902-11-28", "1902-11-29", "1902-11-30", "1902-12-01", "1902-12-02", "1902-12-03", "1902-12-04", "1902-12-05", "1902-12-06", "1902-12-07", "1902-12-08", "1902-12-09", "1902-12-10", "1902-12-11", "1902-12-12", "1902-12-13", "1902-12-14", "1902-12-15", "1902-12-16", "1902-12-17", "1902-12-18", "1902-12-19", "1902-12-20", "1902-12-21", "1902-12-22", "1902-12-23", "1902-12-24", "1902-12-25", "1902-12-26", "1902-12-27", "1902-12-28", "1902-12-29", "1902-12-30", "1902-12-31"],
          "importance": 301, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -1372,7 +1391,7 @@
          "timestamp": ["1902-04-02", "1902-09-29", "1902-10-28"],
          "importance": 3, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
+        "type": "Theater Theatre", 
         "arbeitsort": [
          {
 
@@ -1405,7 +1424,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q2160909", 
         "geonames": "https://sws.geonames.org/2767332/", 
         "abbr": "A.ADM4", 
-        "type": "Region"
+        "type": "Region Region"
       }
       }, 
     {
@@ -1422,7 +1441,7 @@
          "timestamp": ["1902-12-04"],
          "importance": 1, 
         "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
+        "type": "Kaffeehaus Coffee house"
       }
       }, 
     {
@@ -1442,7 +1461,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q669527", 
         "geonames": "https://sws.geonames.org/2778573/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -1480,7 +1499,7 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=4243", 
         "wikidata": "http://www.wikidata.org/entity/Q130529553", 
         "abbr": "S.REST", 
-        "type": "Restaurant"
+        "type": "Restaurant Restaurant"
       }
       }, 
     {
@@ -1499,7 +1518,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Festung_Hohensalzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q679292", 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude Building"
       }
       }, 
     {
@@ -1519,7 +1538,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1717574", 
         "geonames": "https://sws.geonames.org/2771916/", 
         "abbr": "S.MSTY", 
-        "type": "Kloster"
+        "type": "Kloster Monastery"
       }
       }, 
     {
@@ -1539,7 +1558,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q261125", 
         "geonames": "https://sws.geonames.org/7873289/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -1559,7 +1578,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q404246", 
         "geonames": "https://sws.geonames.org/2782868/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -1576,7 +1595,7 @@
          "timestamp": ["1902-08-23", "1902-08-26"],
          "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -1593,7 +1612,7 @@
          "timestamp": ["1902-06-01"],
          "importance": 1, 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -1613,7 +1632,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q665008", 
         "geonames": "https://sws.geonames.org/2774851/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -1632,7 +1651,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Tomaselli", 
         "wikidata": "http://www.wikidata.org/entity/Q980334", 
         "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
+        "type": "Kaffeehaus Coffee house"
       }
       }, 
     {
@@ -1650,7 +1669,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2772330/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -1669,7 +1688,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Palasthotel_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q328191 http://www.wikidata.org/entity/Q114678726", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel", 
+        "type": "Hotel Hotel", 
         "arbeitsort": [
          {
 
@@ -1695,7 +1714,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Kaiserhof_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q320591", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -1712,7 +1731,7 @@
          "timestamp": ["1902-01-01", "1902-01-04", "1902-01-06"],
          "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -1736,7 +1755,7 @@
          "timestamp": ["1902-01-01", "1902-10-16"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -1763,7 +1782,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q2874431", 
         "geonames": "https://sws.geonames.org/2914210/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -1780,7 +1799,7 @@
          "timestamp": ["1902-05-10"],
          "importance": 1, 
         "abbr": "S.REST", 
-        "type": "Restaurant"
+        "type": "Restaurant Restaurant"
       }
       }, 
     {
@@ -1800,7 +1819,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q699474", 
         "geonames": "https://sws.geonames.org/2772512/", 
         "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
+        "type": "Schloss Palace"
       }
       }, 
     {
@@ -1818,7 +1837,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/7872833/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -1838,7 +1857,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q478455", 
         "geonames": "https://sws.geonames.org/8604499/", 
         "abbr": "Museum (K.MUS)", 
-        "type": "Museum"
+        "type": "Museum Museum"
       }
       }, 
     {
@@ -1857,7 +1876,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Klinik_Favoriten", 
         "wikidata": "http://www.wikidata.org/entity/Q2305900", 
         "abbr": "T.SPIT", 
-        "type": "Landzunge"
+        "type": "Landzunge Promontory"
       }
       }, 
     {
@@ -1874,7 +1893,7 @@
          "timestamp": ["1902-08-21", "1902-09-25", "1902-11-12", "1902-12-24"],
          "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -1899,7 +1918,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2764855/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -1919,7 +1938,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1799", 
         "geonames": "https://sws.geonames.org/7531292/ https://sws.geonames.org/3081368/", 
         "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -1936,7 +1955,7 @@
          "timestamp": ["1902-11-17"],
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
+        "type": "Straße Street", 
         "wohnort": [
          {
 
@@ -1966,7 +1985,25 @@
          "timestamp": ["1902-11-23"],
          "importance": 1, 
         "abbr": "Tal (N.TAL)", 
-        "type": "Tal"
+        "type": "Tal Valley"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2954, 48.0856]
+      },
+      "properties": {
+         "id": "pmb252697",
+         "title": "Bahnhof Mödling",
+         "lat": "48.0856",
+         "lon": "16.2954",
+         "timestamp": ["1902-01-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q18668081", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -1983,7 +2020,7 @@
          "timestamp": ["1902-10-28"],
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal Restaurant"
       }
       }, 
     {
@@ -2000,7 +2037,7 @@
          "timestamp": ["1902-04-23"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude Residential building"
       }
       }, 
     {
@@ -2017,7 +2054,7 @@
          "timestamp": ["1902-01-20"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2044,7 +2081,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q89404717", 
         "geonames": "https://sws.geonames.org/2764000/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -2063,7 +2100,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude", 
         "wikidata": "http://www.wikidata.org/entity/Q265129", 
         "abbr": "Museum (K.MUS)", 
-        "type": "Museum"
+        "type": "Museum Museum"
       }
       }, 
     {
@@ -2083,7 +2120,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q259893", 
         "geonames": "https://sws.geonames.org/2781371/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -2100,7 +2137,7 @@
          "timestamp": ["1902-12-01"],
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal Restaurant"
       }
       }, 
     {
@@ -2119,7 +2156,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Savoy_Hotel_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q1110717", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -2136,7 +2173,7 @@
          "timestamp": ["1902-11-01"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2163,7 +2200,7 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=9327", 
         "wikidata": "http://www.wikidata.org/entity/Q240744", 
         "abbr": "Friedhof (K.FRH)", 
-        "type": "Friedhof"
+        "type": "Friedhof Cemetery"
       }
       }, 
     {
@@ -2181,7 +2218,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2773223/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -2201,7 +2238,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q251231", 
         "geonames": "https://sws.geonames.org/7871688/ https://sws.geonames.org/2782555/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -2219,7 +2256,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2777331/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -2239,7 +2276,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q359324", 
         "geonames": "https://sws.geonames.org/7872432/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -2256,7 +2293,7 @@
          "timestamp": ["1902-03-11", "1902-03-25"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2286,7 +2323,7 @@
          "timestamp": ["1902-10-20"],
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal Restaurant"
       }
       }, 
     {
@@ -2305,7 +2342,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Buntes_Theater", 
         "wikidata": "http://www.wikidata.org/entity/Q106301256", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater", 
+        "type": "Theater Theatre", 
         "arbeitsort": [
          {
 
@@ -2332,7 +2369,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1255079", 
         "geonames": "https://sws.geonames.org/2766841/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -2351,7 +2388,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hofmannsthal-Schl%C3%B6ssl", 
         "wikidata": "http://www.wikidata.org/entity/Q1623184", 
         "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss", 
+        "type": "Schloss Palace", 
         "wohnort": [
          {
 
@@ -2383,7 +2420,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Weiherburg", 
         "wikidata": "http://www.wikidata.org/entity/Q1407602", 
         "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
+        "type": "Schloss Palace"
       }
       }, 
     {
@@ -2403,7 +2440,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q634428", 
         "geonames": "https://sws.geonames.org/2765715/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -2422,7 +2459,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hofgarten_(Innsbruck)", 
         "wikidata": "http://www.wikidata.org/entity/Q874662", 
         "abbr": "Park (K.PRK)", 
-        "type": "Park"
+        "type": "Park Park"
       }
       }, 
     {
@@ -2442,7 +2479,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q26269623 http://www.wikidata.org/entity/Q431389", 
         "geonames": "https://sws.geonames.org/3173140/ https://sws.geonames.org/6535974/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -2460,7 +2497,7 @@
          "importance": 3, 
         "geonames": "https://sws.geonames.org/12493331/", 
         "abbr": "S.SPA", 
-        "type": "Spa"
+        "type": "Spa Spa"
       }
       }, 
     {
@@ -2480,7 +2517,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q2388837", 
         "geonames": "https://sws.geonames.org/3165729/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -2497,7 +2534,7 @@
          "timestamp": ["1902-03-14", "1902-03-30", "1902-10-29"],
          "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2536,7 +2573,7 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=2532", 
         "wikidata": "http://www.wikidata.org/entity/Q115690959", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2560,7 +2597,7 @@
          "timestamp": ["1902-01-07", "1902-01-12", "1902-01-18", "1902-01-22", "1902-01-23"],
          "importance": 5, 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
-        "type": "Beherbergungsgebäude", 
+        "type": "Beherbergungsgebäude Accommodation building", 
         "wohnort": [
          {
 
@@ -2590,7 +2627,7 @@
          "timestamp": ["1902-03-25", "1902-06-05", "1902-07-10", "1902-09-13", "1902-12-13"],
          "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2626,7 +2663,7 @@
          "timestamp": ["1902-01-23"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2656,7 +2693,7 @@
          "timestamp": ["1902-01-16", "1902-03-18", "1902-11-03", "1902-11-05", "1902-11-07"],
          "importance": 5, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2682,7 +2719,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Hotel_Bristol_(Berlin)", 
         "wikidata": "http://www.wikidata.org/entity/Q1630839", 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -2699,7 +2736,7 @@
          "timestamp": ["1902-01-01"],
          "importance": 1, 
         "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus"
+        "type": "Kaffeehaus Coffee house"
       }
       }, 
     {
@@ -2718,7 +2755,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Kaisergalerie", 
         "wikidata": "http://www.wikidata.org/entity/Q1721641", 
         "abbr": "Einkaufspassage", 
-        "type": "Einkaufspassage"
+        "type": "Einkaufspassage Shopping arcade"
       }
       }, 
     {
@@ -2735,7 +2772,7 @@
          "timestamp": ["1902-01-02", "1902-10-14"],
          "importance": 2, 
         "abbr": "S.REST", 
-        "type": "Restaurant"
+        "type": "Restaurant Restaurant"
       }
       }, 
     {
@@ -2749,10 +2786,10 @@
          "title": "Hotel Kursalon Mödling",
          "lat": "48.08389",
          "lon": "16.279684",
-         "timestamp": ["1902-01-16", "1902-02-04", "1902-02-05", "1902-02-06", "1902-02-19", "1902-02-25", "1902-02-26"],
-         "importance": 7, 
+         "timestamp": ["1902-01-16", "1902-01-27", "1902-02-04", "1902-02-05", "1902-02-06", "1902-02-19", "1902-02-25", "1902-02-26"],
+         "importance": 8, 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -2766,10 +2803,10 @@
          "title": "Willergasse 2",
          "lat": "48.139276",
          "lon": "16.257741",
-         "timestamp": ["1902-01-19", "1902-01-22", "1902-02-05", "1902-05-18", "1902-05-30", "1902-06-17", "1902-06-21", "1902-07-29", "1902-08-02", "1902-08-04", "1902-08-10", "1902-08-18", "1902-08-21"],
-         "importance": 13, 
+         "timestamp": ["1902-01-19", "1902-01-22", "1902-01-27", "1902-02-05", "1902-05-18", "1902-05-30", "1902-06-17", "1902-06-21", "1902-07-29", "1902-08-02", "1902-08-04", "1902-08-10", "1902-08-18", "1902-08-21"],
+         "importance": 14, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2799,7 +2836,7 @@
          "timestamp": ["1902-01-22", "1902-12-18"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2826,7 +2863,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1567437", 
         "geonames": "https://sws.geonames.org/2761739/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -2844,7 +2881,7 @@
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q106194325", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße Street"
       }
       }, 
     {
@@ -2861,7 +2898,7 @@
          "timestamp": ["1902-01-30"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2885,7 +2922,7 @@
          "timestamp": ["1902-02-05"],
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße Street"
       }
       }, 
     {
@@ -2902,7 +2939,7 @@
          "timestamp": ["1902-02-19"],
          "importance": 1, 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude Building"
       }
       }, 
     {
@@ -2919,7 +2956,7 @@
          "timestamp": ["1902-02-22", "1902-09-25", "1902-10-23", "1902-12-29"],
          "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2943,7 +2980,7 @@
          "timestamp": ["1902-02-24", "1902-03-22", "1902-03-31", "1902-04-01"],
          "importance": 4, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -2970,7 +3007,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1718608", 
         "geonames": "https://sws.geonames.org/2764831/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -2987,7 +3024,7 @@
          "timestamp": ["1902-03-21", "1902-03-22", "1902-03-23", "1902-03-24", "1902-03-26", "1902-03-27", "1902-03-29", "1902-03-31", "1902-04-04", "1902-04-06", "1902-04-09", "1902-04-10", "1902-04-12", "1902-04-14", "1902-04-15", "1902-04-20", "1902-04-23", "1902-04-27", "1902-04-30", "1902-05-01", "1902-05-03", "1902-05-04", "1902-05-05", "1902-05-08", "1902-05-09", "1902-05-11", "1902-05-14", "1902-05-15", "1902-05-16", "1902-05-17", "1902-05-19", "1902-05-20", "1902-05-21", "1902-05-24", "1902-05-25", "1902-05-28", "1902-05-29", "1902-05-30", "1902-06-02", "1902-06-03", "1902-06-04", "1902-06-09", "1902-06-11", "1902-06-12", "1902-06-16", "1902-06-17", "1902-06-20", "1902-06-21", "1902-06-22", "1902-06-24", "1902-06-25", "1902-06-26", "1902-07-08", "1902-07-11", "1902-07-12", "1902-07-13", "1902-07-15", "1902-07-16", "1902-07-17", "1902-07-18", "1902-07-19", "1902-07-22", "1902-07-23", "1902-07-24", "1902-07-25", "1902-07-26", "1902-07-27", "1902-07-28", "1902-08-01", "1902-08-02", "1902-08-03", "1902-08-04", "1902-08-05", "1902-08-06", "1902-08-07", "1902-08-08", "1902-08-09", "1902-08-10", "1902-08-11", "1902-08-12", "1902-08-13", "1902-08-16", "1902-08-17", "1902-08-18", "1902-08-19", "1902-08-20", "1902-08-21", "1902-08-22", "1902-08-23", "1902-08-24", "1902-08-25", "1902-08-26", "1902-08-27", "1902-08-28", "1902-08-29", "1902-08-30", "1902-08-31", "1902-09-01", "1902-09-02", "1902-09-07", "1902-09-08", "1902-09-09", "1902-09-10", "1902-09-11", "1902-09-12", "1902-09-13", "1902-09-14", "1902-09-15", "1902-09-16", "1902-09-17", "1902-09-18", "1902-09-19", "1902-09-20", "1902-09-21", "1902-09-22", "1902-09-23", "1902-09-24", "1902-09-25", "1902-09-26", "1902-09-27", "1902-09-28"],
          "importance": 121, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -3031,7 +3068,7 @@
          "timestamp": ["1902-04-03"],
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
+        "type": "Straße Street", 
         "wohnort": [
          {
 
@@ -3062,7 +3099,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2782661/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -3079,7 +3116,7 @@
          "timestamp": ["1902-04-12"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "arbeitsort": [
          {
 
@@ -3106,7 +3143,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q257780", 
         "geonames": "https://sws.geonames.org/2782729/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -3124,7 +3161,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2601299/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3141,7 +3178,7 @@
          "timestamp": ["1902-05-13", "1902-05-31"],
          "importance": 2, 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße", 
+        "type": "Straße Street", 
         "wohnort": [
          {
 
@@ -3168,7 +3205,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q2556506", 
         "geonames": "https://sws.geonames.org/2761613/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3186,7 +3223,7 @@
          "importance": 3, 
         "geonames": "https://sws.geonames.org/2782484/", 
         "abbr": "T.MT", 
-        "type": "Berg"
+        "type": "Berg Mountain"
       }
       }, 
     {
@@ -3203,7 +3240,7 @@
          "timestamp": ["1902-05-21", "1902-10-29"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -3245,7 +3282,7 @@
          "timestamp": ["1902-05-23"],
          "importance": 1, 
         "abbr": "Park (K.PRK)", 
-        "type": "Park"
+        "type": "Park Park"
       }
       }, 
     {
@@ -3265,7 +3302,7 @@
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=37894", 
         "wikidata": "http://www.wikidata.org/entity/Q105953139", 
         "abbr": "Park (K.PRK)", 
-        "type": "Park"
+        "type": "Park Park"
       }
       }, 
     {
@@ -3283,7 +3320,7 @@
          "importance": 2, 
         "geonames": "https://sws.geonames.org/2761850/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3302,7 +3339,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/V%C3%ADgsz%C3%ADnh%C3%A1z", 
         "wikidata": "http://www.wikidata.org/entity/Q897802", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater Theatre"
       }
       }, 
     {
@@ -3320,7 +3357,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/3052343/", 
         "abbr": "T.HLL", 
-        "type": "Hügel"
+        "type": "Hügel Hill"
       }
       }, 
     {
@@ -3338,7 +3375,7 @@
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q586297", 
         "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes"
+        "type": "Teil eines besiedelten Ortes Part of a populated place"
       }
       }, 
     {
@@ -3355,7 +3392,7 @@
          "timestamp": ["1902-06-23", "1902-09-26"],
          "importance": 2, 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude", 
+        "type": "Gebäude Building", 
         "arbeitsort": [
          {
 
@@ -3379,7 +3416,7 @@
          "timestamp": ["1902-06-29"],
          "importance": 1, 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße"
+        "type": "Straße Street"
       }
       }, 
     {
@@ -3397,7 +3434,7 @@
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q56163301", 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater Theatre"
       }
       }, 
     {
@@ -3415,7 +3452,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2771895/", 
         "abbr": "S.MSTY", 
-        "type": "Kloster"
+        "type": "Kloster Monastery"
       }
       }, 
     {
@@ -3435,7 +3472,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q429728", 
         "geonames": "https://sws.geonames.org/7873609/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -3454,7 +3491,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Brennerbad", 
         "wikidata": "http://www.wikidata.org/entity/Q909275", 
         "abbr": "Besiedelter Ort (A.BSO)", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3474,7 +3511,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q375769", 
         "geonames": "https://sws.geonames.org/6536007/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -3492,7 +3529,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2771609/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -3510,7 +3547,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2769211/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -3530,7 +3567,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q679644", 
         "geonames": "https://sws.geonames.org/7872540/", 
         "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet"
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -3548,7 +3585,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/3164065/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -3566,7 +3603,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/3169345/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -3585,7 +3622,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Schloss_Bruck_(Lienz)", 
         "wikidata": "http://www.wikidata.org/entity/Q875733", 
         "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss"
+        "type": "Schloss Palace"
       }
       }, 
     {
@@ -3605,7 +3642,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q5517275", 
         "geonames": "https://sws.geonames.org/2779029/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3623,7 +3660,7 @@
          "importance": 2, 
         "wikidata": "http://www.wikidata.org/entity/Q113995586", 
         "abbr": "Besiedelter Ort (A.BSO)", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3641,7 +3678,7 @@
          "importance": 2, 
         "geonames": "https://sws.geonames.org/2768321/", 
         "abbr": "T.VAL", 
-        "type": "Tal"
+        "type": "Tal Valley"
       }
       }, 
     {
@@ -3659,7 +3696,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2601307/", 
         "abbr": "T.SPUR", 
-        "type": "Grat"
+        "type": "Grat Ridge"
       }
       }, 
     {
@@ -3678,7 +3715,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/H%C3%B6llensteinhaus", 
         "wikidata": "http://www.wikidata.org/entity/Q94579671", 
         "abbr": "Beherbergungsgebäude (K.BHB)", 
-        "type": "Beherbergungsgebäude"
+        "type": "Beherbergungsgebäude Accommodation building"
       }
       }, 
     {
@@ -3698,7 +3735,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q485294", 
         "geonames": "https://sws.geonames.org/2772649/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -3715,7 +3752,7 @@
          "timestamp": ["1902-09-03", "1902-09-04"],
          "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel"
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -3733,7 +3770,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2768445/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3751,7 +3788,7 @@
          "importance": 2, 
         "geonames": "https://sws.geonames.org/2776433/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -3769,7 +3806,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2772480/", 
         "abbr": "P.PPLA3", 
-        "type": "Hauptstadt"
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -3787,7 +3824,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2768193/", 
         "abbr": "T.PASS", 
-        "type": "Pass"
+        "type": "Pass Pass"
       }
       }, 
     {
@@ -3805,7 +3842,7 @@
          "importance": 3, 
         "geonames": "https://sws.geonames.org/2761096/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3823,7 +3860,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/11820098/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3841,7 +3878,7 @@
          "importance": 1, 
         "geonames": "https://sws.geonames.org/2762185/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3861,7 +3898,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1317409", 
         "geonames": "https://sws.geonames.org/2774045/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -3880,7 +3917,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Jubil%C3%A4umswarte_(Bad_V%C3%B6slau)", 
         "wikidata": "http://www.wikidata.org/entity/Q1363013", 
         "abbr": "Monument (K.MON)", 
-        "type": "Monument"
+        "type": "Monument Monument"
       }
       }, 
     {
@@ -3897,7 +3934,7 @@
          "timestamp": ["1902-09-30", "1902-10-02", "1902-10-03", "1902-10-06", "1902-10-09", "1902-10-11", "1902-10-12", "1902-10-21", "1902-10-22", "1902-10-23", "1902-10-25", "1902-10-26", "1902-10-31", "1902-11-01", "1902-11-02", "1902-11-03", "1902-11-05", "1902-11-06", "1902-11-08", "1902-11-10", "1902-11-11", "1902-11-13", "1902-11-14", "1902-11-15", "1902-11-16", "1902-11-17", "1902-11-19", "1902-11-20", "1902-11-22", "1902-11-24", "1902-11-25", "1902-11-27", "1902-11-28", "1902-11-29", "1902-11-30", "1902-12-03", "1902-12-04", "1902-12-05", "1902-12-06", "1902-12-07", "1902-12-08", "1902-12-09", "1902-12-10", "1902-12-11", "1902-12-12", "1902-12-13", "1902-12-14", "1902-12-15", "1902-12-16", "1902-12-17", "1902-12-18", "1902-12-19", "1902-12-20", "1902-12-21", "1902-12-22", "1902-12-23", "1902-12-24", "1902-12-25", "1902-12-26", "1902-12-27", "1902-12-29", "1902-12-30", "1902-12-31"],
          "importance": 63, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -3927,7 +3964,7 @@
          "timestamp": ["1902-10-08"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -3953,7 +3990,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Schall_und_Rauch", 
         "wikidata": "http://www.wikidata.org/entity/Q1229217", 
         "abbr": "Kabarett (K.KBR)", 
-        "type": "Kabarett"
+        "type": "Kabarett Cabaret"
       }
       }, 
     {
@@ -3970,7 +4007,7 @@
          "timestamp": ["1902-10-13", "1902-10-18"],
          "importance": 2, 
         "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal"
+        "type": "Lokal Restaurant"
       }
       }, 
     {
@@ -3990,7 +4027,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q157298", 
         "geonames": "https://sws.geonames.org/7911193/", 
         "abbr": "S.MUS", 
-        "type": "Museum"
+        "type": "Museum Museum"
       }
       }, 
     {
@@ -4008,7 +4045,7 @@
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q131143711", 
         "abbr": "Museum (K.MUS)", 
-        "type": "Museum"
+        "type": "Museum Museum"
       }
       }, 
     {
@@ -4025,7 +4062,7 @@
          "timestamp": ["1902-10-15", "1902-10-16", "1902-10-17"],
          "importance": 3, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater"
+        "type": "Theater Theatre"
       }
       }, 
     {
@@ -4045,7 +4082,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1018750", 
         "geonames": "https://sws.geonames.org/7534771/", 
         "abbr": "P.PPL", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -4063,7 +4100,7 @@
          "importance": 2, 
         "wikidata": "http://www.wikidata.org/entity/Q131144035", 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -4090,7 +4127,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q565018", 
         "geonames": "https://sws.geonames.org/2905904/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -4110,7 +4147,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q511254", 
         "geonames": "https://sws.geonames.org/6285005/", 
         "abbr": "S.CSTL", 
-        "type": "Burg"
+        "type": "Burg Castle"
       }
       }, 
     {
@@ -4130,7 +4167,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q147934", 
         "geonames": "https://sws.geonames.org/7531868/ https://sws.geonames.org/3097257/", 
         "abbr": "Besiedelter Ort (A.BSO)", 
-        "type": "Besiedelter Ort"
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -4149,7 +4186,7 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Sanatorium_F%C3%BCrth", 
         "wikidata": "http://www.wikidata.org/entity/Q38028257", 
         "abbr": "Sanatorium (K.SAN)", 
-        "type": "Sanatorium", 
+        "type": "Sanatorium Sanatorium", 
         "arbeitsort": [
          {
 
@@ -4173,7 +4210,7 @@
          "timestamp": ["1902-10-29", "1902-11-14"],
          "importance": 2, 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude Building"
       }
       }, 
     {
@@ -4190,7 +4227,7 @@
          "timestamp": ["1902-10-31", "1902-11-19", "1902-11-23", "1902-12-11"],
          "importance": 4, 
         "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude"
+        "type": "Gebäude Building"
       }
       }, 
     {
@@ -4207,7 +4244,7 @@
          "timestamp": ["1902-11-07"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -4234,7 +4271,7 @@
         "wikidata": "http://www.wikidata.org/entity/Q1771264", 
         "geonames": "https://sws.geonames.org/2770661/", 
         "abbr": "P.PPLX", 
-        "type": "Ehemaliger Ort"
+        "type": "Ehemaliger Ort Former place"
       }
       }, 
     {
@@ -4251,7 +4288,7 @@
          "timestamp": ["1902-11-17", "1902-11-25", "1902-12-30"],
          "importance": 3, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -4288,7 +4325,7 @@
          "timestamp": ["1902-11-22"],
          "importance": 1, 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
-        "type": "Veranstaltungsgebäude"
+        "type": "Veranstaltungsgebäude Event venue"
       }
       }, 
     {
@@ -4305,7 +4342,7 @@
          "timestamp": ["1902-12-13"],
          "importance": 1, 
         "abbr": "Infrastrukturgebäude (K.INF)", 
-        "type": "Infrastrukturgebäude"
+        "type": "Infrastrukturgebäude Infrastructure building"
       }
       }, 
     {
@@ -4322,7 +4359,7 @@
          "timestamp": ["1902-12-17"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -4358,7 +4395,7 @@
          "timestamp": ["1902-12-18"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude"
+        "type": "Wohngebäude Residential building"
       }
       }, 
     {
@@ -4375,7 +4412,7 @@
          "timestamp": ["1902-12-27"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -4399,7 +4436,7 @@
          "timestamp": ["1902-12-30"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 
@@ -4423,7 +4460,7 @@
          "timestamp": ["1902-12-31"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude", 
+        "type": "Wohngebäude Residential building", 
         "wohnort": [
          {
 

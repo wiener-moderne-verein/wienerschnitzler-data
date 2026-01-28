@@ -3752,8 +3752,8 @@
          "title": "Piazza San Marco",
          "lat": "45.43411",
          "lon": "12.33835",
-         "timestamp": ["1925-09-17", "1927-04-21", "1927-04-22", "1927-04-23", "1927-04-25", "1927-04-26", "1927-04-27", "1927-04-28", "1927-09-06", "1927-09-10", "1927-09-12", "1927-09-13", "1927-09-14", "1928-05-01"],
-         "importance": 14, 
+         "timestamp": ["1925-09-17", "1927-04-21", "1927-04-22", "1927-04-23", "1927-04-25", "1927-04-26", "1927-04-27", "1927-04-28", "1927-09-06", "1927-09-08", "1927-09-09", "1927-09-10", "1927-09-12", "1927-09-13", "1927-09-14", "1928-05-01"],
+         "importance": 16, 
         "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz", 
         "wikidata": "http://www.wikidata.org/entity/Q217527", 
         "geonames": "https://sws.geonames.org/3229870/", 
@@ -7499,8 +7499,8 @@
          "title": "Triest",
          "lat": "45.66667",
          "lon": "13.76667",
-         "timestamp": ["1926-04-16", "1928-04-13", "1928-04-14"],
-         "importance": 3, 
+         "timestamp": ["1926-04-16", "1928-04-13", "1928-04-14", "1928-04-30"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Triest", 
         "wikidata": "http://www.wikidata.org/entity/Q546", 
         "geonames": "https://sws.geonames.org/3165186/", 
@@ -13205,8 +13205,8 @@
          "title": "Stazione di Venezia Santa Lucia",
          "lat": "45.44143",
          "lon": "12.32024",
-         "timestamp": ["1925-09-20", "1927-04-30", "1927-09-05"],
-         "importance": 3, 
+         "timestamp": ["1925-09-20", "1927-04-30", "1927-09-05", "1927-09-06"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Venezia_Santa_Lucia", 
         "wikidata": "http://www.wikidata.org/entity/Q801567", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -29278,8 +29278,8 @@
          "title": "Caffè Florian",
          "lat": "45.433675",
          "lon": "12.338208333333334",
-         "timestamp": ["1925-09-17", "1925-09-18", "1927-04-21", "1927-04-23", "1927-04-24", "1927-04-27", "1927-04-28", "1927-04-29", "1927-09-08", "1927-09-09", "1927-09-12", "1928-05-01"],
-         "importance": 12, 
+         "timestamp": ["1925-09-17", "1925-09-18", "1927-04-21", "1927-04-23", "1927-04-24", "1927-04-27", "1927-04-28", "1927-04-29", "1927-09-08", "1927-09-09", "1927-09-12", "1927-09-13", "1928-05-01"],
+         "importance": 13, 
         "wikipedia": "https://de.wikipedia.org/wiki/Caff%C3%A8_Florian", 
         "wikidata": "http://www.wikidata.org/entity/Q960610", 
         "abbr": "Kaffeehaus (K.KAF)", 
@@ -30655,6 +30655,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [7.557296, 46.491156]
+      },
+      "properties": {
+         "id": "pmb251043",
+         "title": "Hotel National [Adelboden]",
+         "lat": "46.491156",
+         "lon": "7.557296",
+         "timestamp": ["1926-08-01", "1926-08-05"],
+         "importance": 2, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [7.58327, 46.48885]
       },
       "properties": {
@@ -30683,23 +30700,6 @@
          "importance": 1, 
         "abbr": "Tal (N.TAL)", 
         "type": "Tal Valley"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.557296, 46.491156]
-      },
-      "properties": {
-         "id": "pmb251043",
-         "title": "Hotel National [Adelboden]",
-         "lat": "46.491156",
-         "lon": "7.557296",
-         "timestamp": ["1926-08-05"],
-         "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -32404,6 +32404,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.339041666666667, 45.434013888888884]
+      },
+      "properties": {
+         "id": "pmb334171",
+         "title": "Procuratie Vecchie",
+         "lat": "45.434013888888884",
+         "lon": "12.339041666666667",
+         "timestamp": ["1927-04-29"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q105202254", 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude Building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.364965, 48.214048]
       },
       "properties": {
@@ -33817,7 +33835,7 @@
          "lon": "23.53791",
          "timestamp": ["1928-04-20"],
          "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q204905", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Elefsina", 
         "geonames": "https://sws.geonames.org/7910522/", 
         "abbr": "S.ANS", 
         "type": "Ausgrabung Excavation site"
@@ -34252,6 +34270,62 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [28.225202802, 36.444029562]
+      },
+      "properties": {
+         "id": "pmb334262",
+         "title": "Hora",
+         "lat": "36.444029562",
+         "lon": "28.225202802",
+         "timestamp": ["1928-04-26"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q137829448", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes Part of a populated place"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.23, 36.442]
+      },
+      "properties": {
+         "id": "pmb334267",
+         "title": "La Juderia",
+         "lat": "36.442",
+         "lon": "28.23",
+         "timestamp": ["1928-04-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/La_Juderia", 
+        "wikidata": "http://www.wikidata.org/entity/Q5274717", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes Part of a populated place"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.22257, 36.45375]
+      },
+      "properties": {
+         "id": "pmb334272",
+         "title": "Grande Albergo delle Rose",
+         "lat": "36.45375",
+         "lon": "28.22257",
+         "timestamp": ["1928-04-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grande_Albergo_delle_Rose", 
+        "wikidata": "http://www.wikidata.org/entity/Q108902071", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [18.864, 40.263]
       },
       "properties": {
@@ -34298,6 +34372,25 @@
          "importance": 4, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.335933, 45.437956]
+      },
+      "properties": {
+         "id": "pmb148",
+         "title": "Ponte di Rialto",
+         "lat": "45.437956",
+         "lon": "12.335933",
+         "timestamp": ["1928-05-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Rialtobr%C3%BCcke", 
+        "wikidata": "http://www.wikidata.org/entity/Q52505", 
+        "abbr": "Brücke (K.BRK)", 
+        "type": "Brücke Bridge"
       }
       }, 
     {

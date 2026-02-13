@@ -3058,8 +3058,8 @@
          "title": "Café Kremser",
          "lat": "48.2017407",
          "lon": "16.3709701",
-         "timestamp": ["1881-02-22", "1883-01-03", "1892-05-15", "1911-08-29"],
-         "importance": 4, 
+         "timestamp": ["1881-02-22", "1883-01-03", "1892-05-15", "1892-10-09", "1911-08-29"],
+         "importance": 5, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus Coffee house"
       }
@@ -21100,19 +21100,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3489, 48.175]
+        "coordinates": [16.349907012393, 48.173662338636]
       },
       "properties": {
-         "id": "pmb199676",
-         "title": "Kaiser-Franz-Joseph-Spital",
-         "lat": "48.175",
-         "lon": "16.3489",
+         "id": "pmb679",
+         "title": "Kaiser-Franz-Josef-Spital",
+         "lat": "48.173662338636",
+         "lon": "16.349907012393",
          "timestamp": ["1896-06-11", "1896-09-04", "1901-09-19", "1902-03-10"],
          "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Klinik_Favoriten", 
         "wikidata": "http://www.wikidata.org/entity/Q2305900", 
-        "abbr": "T.SPIT", 
-        "type": "Landzunge Promontory"
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus Hospital"
       }
       }, 
     {
@@ -64794,6 +64794,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [9.499961, 47.001854]
+      },
+      "properties": {
+         "id": "pmb334541",
+         "title": "Hotel Lattmann",
+         "lat": "47.001854",
+         "lon": "9.499961",
+         "timestamp": ["1914-08-08"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q137920806", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.502779, 47.001072]
       },
       "properties": {
@@ -90689,7 +90707,7 @@
          "lon": "23.53791",
          "timestamp": ["1928-04-20"],
          "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q204905", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Elefsina", 
         "geonames": "https://sws.geonames.org/7910522/", 
         "abbr": "S.ANS", 
         "type": "Ausgrabung Excavation site"

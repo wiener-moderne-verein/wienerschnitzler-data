@@ -696,8 +696,6 @@
          "lon": "16.36678",
          "timestamp": ["1922-04-15", "1922-06-21", "1923-09-18", "1930-12-02"],
          "importance": 4, 
-        "wikipedia": "https://de.wikipedia.org/wiki/%C3%96sterreichische_Nationalbibliothek", 
-        "wikidata": "http://www.wikidata.org/entity/Q304037", 
         "abbr": "Bibliothek (K.BIB)", 
         "type": "Bibliothek Library"
       }
@@ -3784,20 +3782,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.33052, 45.43598]
+        "coordinates": [12.33118, 45.436312]
       },
       "properties": {
-         "id": "pmb90440",
+         "id": "pmb34052",
          "title": "Canal Grande",
-         "lat": "45.43598",
-         "lon": "12.33052",
+         "lat": "45.436312",
+         "lon": "12.33118",
          "timestamp": ["1928-05-02"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Canal_Grande", 
         "wikidata": "http://www.wikidata.org/entity/Q309243", 
         "geonames": "https://sws.geonames.org/3175933/", 
-        "abbr": "H.CNL", 
-        "type": "Kanal Canal"
+        "abbr": "Fluss (N.FLS)", 
+        "type": "Fluss River"
       }
       }, 
     {
@@ -5106,13 +5104,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.72872, 49.96115]
+        "coordinates": [12.701944, 49.964444]
       },
       "properties": {
          "id": "pmb772",
          "title": "Marienbad",
-         "lat": "49.96115",
-         "lon": "12.72872",
+         "lat": "49.964444",
+         "lon": "12.701944",
          "timestamp": ["1929-09-12", "1929-09-13", "1929-09-14", "1929-09-15", "1929-09-16", "1929-09-17", "1929-09-18", "1929-09-19", "1929-09-20", "1929-09-21", "1930-08-26", "1930-08-27", "1930-08-28", "1930-08-29", "1930-08-30", "1930-08-31", "1930-09-01", "1930-09-02", "1930-09-03", "1930-09-04", "1930-09-05", "1930-09-06", "1930-09-07", "1930-09-08", "1930-09-09"],
          "importance": 25, 
         "wikipedia": "https://de.wikipedia.org/wiki/Marienbad", 
@@ -6599,6 +6597,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q18413254", 
         "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort Populated place"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04367, 47.80308]
+      },
+      "properties": {
+         "id": "pmb40384",
+         "title": "Hotel Bristol Salzburg",
+         "lat": "47.80308",
+         "lon": "13.04367",
+         "timestamp": ["1924-07-03", "1924-07-05", "1924-07-06"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -9656,23 +9671,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.04367, 47.80308]
-      },
-      "properties": {
-         "id": "pmb40384",
-         "title": "Hotel Bristol Salzburg",
-         "lat": "47.80308",
-         "lon": "13.04367",
-         "timestamp": ["1924-07-03", "1924-07-05", "1924-07-06"],
-         "importance": 3, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.370342, 48.211369]
       },
       "properties": {
@@ -10688,7 +10686,7 @@
       },
       "properties": {
          "id": "pmb290563",
-         "title": "Kleines Schauspielhaus",
+         "title": "Kleines Schauspielhaus Wien",
          "lat": "48.204979",
          "lon": "16.371852",
          "timestamp": ["1924-10-10", "1924-12-23", "1928-01-26"],
@@ -13279,14 +13277,26 @@
       },
       "properties": {
          "id": "pmb92602",
-         "title": "Wiednerspital",
+         "title": "Wiedner Spital",
          "lat": "48.19224",
          "lon": "16.370928",
          "timestamp": ["1923-10-19"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=8896", 
-        "wikidata": "http://www.wikidata.org/entity/Q1485420"
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Dora Breuer",
+
+         "p_id": "#14528"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {

@@ -3246,7 +3246,9 @@
          "lat": "48.207065",
          "lon": "16.361604",
          "timestamp": ["1915-06-19"],
-         "importance": 1
+         "importance": 1, 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude Event venue"
       }
       }, 
     {
@@ -3925,14 +3927,26 @@
       },
       "properties": {
          "id": "pmb92602",
-         "title": "Wiednerspital",
+         "title": "Wiedner Spital",
          "lat": "48.19224",
          "lon": "16.370928",
          "timestamp": ["1915-01-16", "1915-02-11"],
          "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=8896", 
-        "wikidata": "http://www.wikidata.org/entity/Q1485420"
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Dora Breuer",
+
+         "p_id": "#14528"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {

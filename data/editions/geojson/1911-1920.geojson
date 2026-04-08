@@ -777,8 +777,6 @@
          "lon": "16.36678",
          "timestamp": ["1917-07-03", "1918-06-04", "1920-06-11", "1920-07-10"],
          "importance": 4, 
-        "wikipedia": "https://de.wikipedia.org/wiki/%C3%96sterreichische_Nationalbibliothek", 
-        "wikidata": "http://www.wikidata.org/entity/Q304037", 
         "abbr": "Bibliothek (K.BIB)", 
         "type": "Bibliothek Library"
       }
@@ -3665,20 +3663,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.33052, 45.43598]
+        "coordinates": [12.33118, 45.436312]
       },
       "properties": {
-         "id": "pmb90440",
+         "id": "pmb34052",
          "title": "Canal Grande",
-         "lat": "45.43598",
-         "lon": "12.33052",
+         "lat": "45.436312",
+         "lon": "12.33118",
          "timestamp": ["1912-05-17"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Canal_Grande", 
         "wikidata": "http://www.wikidata.org/entity/Q309243", 
         "geonames": "https://sws.geonames.org/3175933/", 
-        "abbr": "H.CNL", 
-        "type": "Kanal Canal"
+        "abbr": "Fluss (N.FLS)", 
+        "type": "Fluss River"
       }
       }, 
     {
@@ -5160,13 +5158,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.72872, 49.96115]
+        "coordinates": [12.701944, 49.964444]
       },
       "properties": {
          "id": "pmb772",
          "title": "Marienbad",
-         "lat": "49.96115",
-         "lon": "12.72872",
+         "lat": "49.964444",
+         "lon": "12.701944",
          "timestamp": ["1911-05-30", "1911-05-31"],
          "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Marienbad", 
@@ -6500,6 +6498,23 @@
         "geonames": "https://sws.geonames.org/2782053/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.04367, 47.80308]
+      },
+      "properties": {
+         "id": "pmb40384",
+         "title": "Hotel Bristol Salzburg",
+         "lat": "47.80308",
+         "lon": "13.04367",
+         "timestamp": ["1914-02-01"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -9369,23 +9384,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.04367, 47.80308]
-      },
-      "properties": {
-         "id": "pmb40384",
-         "title": "Hotel Bristol Salzburg",
-         "lat": "47.80308",
-         "lon": "13.04367",
-         "timestamp": ["1914-02-01"],
-         "importance": 1, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.370342, 48.211369]
       },
       "properties": {
@@ -11151,7 +11149,9 @@
          "lat": "48.207065",
          "lon": "16.361604",
          "timestamp": ["1913-06-03", "1913-06-05", "1915-06-19", "1920-06-10"],
-         "importance": 4
+         "importance": 4, 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude Event venue"
       }
       }, 
     {
@@ -15924,14 +15924,26 @@
       },
       "properties": {
          "id": "pmb92602",
-         "title": "Wiednerspital",
+         "title": "Wiedner Spital",
          "lat": "48.19224",
          "lon": "16.370928",
          "timestamp": ["1912-07-14", "1914-09-10", "1914-10-10", "1914-11-05", "1914-11-24", "1915-01-16", "1915-02-11", "1918-04-04"],
          "importance": 8, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=8896", 
-        "wikidata": "http://www.wikidata.org/entity/Q1485420"
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Dora Breuer",
+
+         "p_id": "#14528"
+         }, 
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {

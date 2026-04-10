@@ -70,8 +70,8 @@
          "title": "Salzburg",
          "lat": "47.80067",
          "lon": "13.04532",
-         "timestamp": ["1891-01-05", "1891-01-06", "1891-01-07", "1891-01-24", "1891-01-25", "1891-01-26", "1891-02-05", "1891-02-07", "1891-02-08", "1891-03-05", "1891-03-06", "1893-09-16", "1893-09-17", "1893-09-18", "1893-09-19", "1894-06-08", "1894-08-01", "1894-08-02", "1894-08-03", "1894-08-04", "1894-08-05", "1894-08-17", "1894-08-18", "1894-08-19", "1894-08-20", "1894-08-21", "1895-08-19", "1895-08-20", "1895-08-21", "1895-08-22", "1895-08-23", "1895-08-24", "1897-07-14", "1898-02-07", "1898-02-08", "1898-02-09", "1898-02-10", "1898-02-11", "1898-02-12", "1898-02-13", "1898-07-26", "1898-07-27", "1898-07-28", "1898-07-29", "1898-07-30", "1898-07-31", "1899-08-14", "1899-08-15", "1900-08-10", "1900-08-12", "1900-08-13"],
-         "importance": 51, 
+         "timestamp": ["1891-01-05", "1891-01-06", "1891-01-07", "1891-01-24", "1891-01-25", "1891-01-26", "1891-02-05", "1891-02-07", "1891-02-08", "1891-03-05", "1891-03-06", "1893-07-02", "1893-07-15", "1893-09-16", "1893-09-17", "1893-09-18", "1893-09-19", "1894-06-08", "1894-08-01", "1894-08-02", "1894-08-03", "1894-08-04", "1894-08-05", "1894-08-17", "1894-08-18", "1894-08-19", "1894-08-20", "1894-08-21", "1895-08-19", "1895-08-20", "1895-08-21", "1895-08-22", "1895-08-23", "1895-08-24", "1897-07-14", "1898-02-07", "1898-02-08", "1898-02-09", "1898-02-10", "1898-02-11", "1898-02-12", "1898-02-13", "1898-07-26", "1898-07-27", "1898-07-28", "1898-07-29", "1898-07-30", "1898-07-31", "1899-08-14", "1899-08-15", "1900-08-10", "1900-08-12", "1900-08-13"],
+         "importance": 53, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
@@ -224,8 +224,8 @@
          "title": "Hauptbahnhof Salzburg",
          "lat": "47.813139",
          "lon": "13.045769",
-         "timestamp": ["1893-09-19", "1894-08-01", "1894-08-05", "1898-07-26", "1898-07-31", "1899-08-14", "1899-08-15", "1899-09-12", "1900-08-10"],
-         "importance": 9, 
+         "timestamp": ["1893-07-02", "1893-07-15", "1893-09-19", "1894-08-01", "1894-08-05", "1898-07-26", "1898-07-31", "1899-08-14", "1899-08-15", "1899-09-12", "1900-08-10"],
+         "importance": 11, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q694694", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -2948,6 +2948,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2425, 48.003889]
+      },
+      "properties": {
+         "id": "pmb249350",
+         "title": "Bahnhof Baden bei Wien",
+         "lat": "48.003889",
+         "lon": "16.2425",
+         "timestamp": ["1900-06-27"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.43439, 47.77614]
       },
       "properties": {
@@ -3057,6 +3076,23 @@
         "geonames": "https://sws.geonames.org/10244814/", 
         "abbr": "Platz (K.PLT)", 
         "type": "Platz Square"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.383322, 48.212726]
+      },
+      "properties": {
+         "id": "pmb339289",
+         "title": "Aspernbrückengasse 5",
+         "lat": "48.212726",
+         "lon": "16.383322",
+         "timestamp": ["1893-02-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building"
       }
       }, 
     {
@@ -3450,6 +3486,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1894-05-14", "1894-06-24", "1900-05-27", "1900-07-09"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt Capital"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.337778, 48.196667]
       },
       "properties": {
@@ -3457,8 +3513,8 @@
          "title": "Westbahnhof",
          "lat": "48.196667",
          "lon": "16.337778",
-         "timestamp": ["1893-07-16", "1893-09-16", "1893-09-19", "1894-04-15", "1894-08-01", "1896-08-29", "1896-09-06", "1897-04-07", "1897-06-25", "1897-07-25", "1900-05-21", "1900-06-12"],
-         "importance": 12, 
+         "timestamp": ["1893-07-01", "1893-07-16", "1893-09-16", "1893-09-19", "1894-04-15", "1894-08-01", "1896-08-29", "1896-09-06", "1897-04-07", "1897-06-25", "1897-07-25", "1900-05-21", "1900-06-12"],
+         "importance": 13, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q698145", 
         "geonames": "https://sws.geonames.org/2761331/", 
@@ -3758,6 +3814,23 @@
         "geonames": "https://sws.geonames.org/2771704/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet Administrative district"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.36996, 48.20883]
+      },
+      "properties": {
+         "id": "pmb168183",
+         "title": "Zur großen Tabakspfeife",
+         "lat": "48.20883",
+         "lon": "16.36996",
+         "timestamp": ["1892-05-16", "1892-05-21"],
+         "importance": 2, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal Restaurant"
       }
       }, 
     {
@@ -4109,26 +4182,6 @@
          "importance": 12, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1894-05-14", "1894-06-24", "1900-05-27", "1900-07-09"],
-         "importance": 4, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -6613,23 +6666,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.36996, 48.20883]
-      },
-      "properties": {
-         "id": "pmb168183",
-         "title": "Zur großen Tabakspfeife",
-         "lat": "48.20883",
-         "lon": "16.36996",
-         "timestamp": ["1892-05-16", "1892-05-21"],
-         "importance": 2, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal Restaurant"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.378319, 48.207905]
       },
       "properties": {
@@ -8685,6 +8721,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1893-07-02", "1893-07-15", "1895-08-07", "1897-07-24", "1899-08-15", "1899-09-12", "1900-08-10"],
+         "importance": 7, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.61438, 47.67203]
       },
       "properties": {
@@ -8765,25 +8820,6 @@
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude Residential building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.6273, 47.7122]
-      },
-      "properties": {
-         "id": "pmb248791",
-         "title": "Bahnhof Bad Ischl",
-         "lat": "47.7122",
-         "lon": "13.6273",
-         "timestamp": ["1893-07-15", "1895-08-07", "1897-07-24", "1899-08-15", "1899-09-12", "1900-08-10"],
-         "importance": 6, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q800426", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -24572,25 +24608,6 @@
          "importance": 1, 
         "abbr": "Kaffeehaus (K.KAF)", 
         "type": "Kaffeehaus Coffee house"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.2425, 48.003889]
-      },
-      "properties": {
-         "id": "pmb249350",
-         "title": "Bahnhof Baden bei Wien",
-         "lat": "48.003889",
-         "lon": "16.2425",
-         "timestamp": ["1900-06-27"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {

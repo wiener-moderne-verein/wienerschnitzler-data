@@ -25,6 +25,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.84704, 47.70466]
+      },
+      "properties": {
+         "id": "pmb796",
+         "title": "Thalhof",
+         "lat": "47.70466",
+         "lon": "15.84704",
+         "timestamp": ["1888-05-16"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2763740/", 
+        "abbr": "S.HTL", 
+        "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.83333, 47.7]
       },
       "properties": {
@@ -69,8 +87,8 @@
          "title": "Südbahnhof",
          "lat": "48.187455471378",
          "lon": "16.379829498031",
-         "timestamp": ["1888-01-05"],
-         "importance": 1, 
+         "timestamp": ["1888-01-05", "1888-05-16"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -200,7 +218,7 @@
          "title": "Carl-Theater",
          "lat": "48.215",
          "lon": "16.384444",
-         "timestamp": ["1888-01-30", "1888-02-15", "1888-03-03"],
+         "timestamp": ["1888-01-30", "1888-02-15", "1888-03-04"],
          "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
@@ -336,6 +354,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.388608096065, 48.229100570727]
+      },
+      "properties": {
+         "id": "pmb426",
+         "title": "Nordbahnhof",
+         "lat": "48.229100570727",
+         "lon": "16.388608096065",
+         "timestamp": ["1888-04-05", "1888-05-13"],
+         "importance": 2, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3538456, 48.2134031]
       },
       "properties": {
@@ -457,6 +492,49 @@
          "importance": 1, 
         "abbr": "Lokal (K.LKL)", 
         "type": "Lokal Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.357685, 48.216547]
+      },
+      "properties": {
+         "id": "pmb41",
+         "title": "Allgemeine Poliklinik",
+         "lat": "48.216547",
+         "lon": "16.357685",
+         "timestamp": ["1888-12-10"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=15996", 
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Heinrich Auspitz",
+
+         "p_id": "#10792"
+         }, 
+         {
+
+         "p_name": "Johann Schnitzler",
+
+         "p_id": "#12695"
+         }, 
+         {
+
+         "p_name": "Rudolf Kaufmann",
+
+         "p_id": "#11888"
+         }, 
+         {
+
+         "p_name": "Arthur Schnitzler",
+
+         "p_id": ""
+         }]
       }
       }, 
     {
@@ -679,6 +757,40 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.37657, 48.21038]
+      },
+      "properties": {
+         "id": "pmb294132",
+         "title": "Hotel Rabl",
+         "lat": "48.21038",
+         "lon": "16.37657",
+         "timestamp": ["1888-05-19"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.343027, 48.216238]
+      },
+      "properties": {
+         "id": "pmb339163",
+         "title": "Zimmermanngasse 10",
+         "lat": "48.216238",
+         "lon": "16.343027",
+         "timestamp": ["1888-04-02", "1888-05-13", "1888-05-14", "1888-05-15", "1888-05-16", "1888-05-18", "1888-05-19", "1888-08-25", "1888-09-02"],
+         "importance": 9, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.3747466, 48.2104057]
       },
       "properties": {
@@ -696,15 +808,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.343027, 48.216238]
+        "coordinates": [16.383322, 48.212726]
       },
       "properties": {
-         "id": "pmb339163",
-         "title": "Zimmermanngasse 10",
-         "lat": "48.216238",
-         "lon": "16.343027",
-         "timestamp": ["1888-04-02", "1888-05-15", "1888-05-18", "1888-05-19", "1888-09-02"],
-         "importance": 5, 
+         "id": "pmb339289",
+         "title": "Aspernbrückengasse 5",
+         "lat": "48.212726",
+         "lon": "16.383322",
+         "timestamp": ["1888-02-23"],
+         "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude Residential building"
       }
@@ -1727,6 +1839,65 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.731666666667, 51.040277777778]
+      },
+      "properties": {
+         "id": "pmb248646",
+         "title": "Dresden Hauptbahnhof",
+         "lat": "51.040277777778",
+         "lon": "13.731666666667",
+         "timestamp": ["1888-05-12", "1888-05-13"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dresden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q704354", 
+        "geonames": "https://sws.geonames.org/8015333/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1888-05-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1888-05-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt Capital"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.337778, 48.196667]
       },
       "properties": {
@@ -1734,8 +1905,8 @@
          "title": "Westbahnhof",
          "lat": "48.196667",
          "lon": "16.337778",
-         "timestamp": ["1888-05-20"],
-         "importance": 1, 
+         "timestamp": ["1888-05-20", "1888-08-25"],
+         "importance": 2, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q698145", 
         "geonames": "https://sws.geonames.org/2761331/", 
@@ -1910,6 +2081,23 @@
         "geonames": "https://sws.geonames.org/2651048/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3688579, 48.852987]
+      },
+      "properties": {
+         "id": "pmb518",
+         "title": "Bastille",
+         "lat": "48.852987",
+         "lon": "2.3688579",
+         "timestamp": ["1888-05-22"],
+         "importance": 1, 
+        "abbr": "Gebäude (K.GBD)", 
+        "type": "Gebäude Building"
       }
       }, 
     {
@@ -3072,6 +3260,25 @@
          "importance": 3, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.23264, 48.7672]
+      },
+      "properties": {
+         "id": "pmb245209",
+         "title": "Bahnhof Baden-Baden",
+         "lat": "48.7672",
+         "lon": "8.23264",
+         "timestamp": ["1888-08-23", "1888-08-25"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Alter_Bahnhof_(Baden-Baden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q437733", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {

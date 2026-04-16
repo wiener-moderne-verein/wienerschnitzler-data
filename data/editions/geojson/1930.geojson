@@ -1341,6 +1341,12 @@
          "p_name": " Wessely",
 
          "p_id": "#88046"
+         }, 
+         {
+
+         "p_name": "Adam Müller-Guttenbrunn",
+
+         "p_id": "#12331"
          }]
       }
       }, 
@@ -1758,7 +1764,14 @@
          "timestamp": ["1930-01-03"],
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater Theatre"
+        "type": "Theater Theatre", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Nuscha Butze",
+
+         "p_id": "#298239"
+         }]
       }
       }, 
     {
@@ -5432,6 +5445,23 @@
          "lat": "48.332756",
          "lon": "16.052171",
          "timestamp": ["1930-06-09"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude Hospitality building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.262255, 48.078617]
+      },
+      "properties": {
+         "id": "pmb239706",
+         "title": "Liechtensteinische Meierei",
+         "lat": "48.078617",
+         "lon": "16.262255",
+         "timestamp": ["1930-06-14"],
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude Hospitality building"

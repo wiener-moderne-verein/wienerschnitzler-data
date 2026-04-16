@@ -1051,6 +1051,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1931-02-06", "1931-05-15"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.339722, 48.192222]
       },
       "properties": {
@@ -1074,6 +1092,12 @@
          "p_name": " Wessely",
 
          "p_id": "#88046"
+         }, 
+         {
+
+         "p_name": "Adam Müller-Guttenbrunn",
+
+         "p_id": "#12331"
          }]
       }
       }, 
@@ -1247,7 +1271,14 @@
          "importance": 1, 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Alleegasse_(4)", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße Street"
+        "type": "Straße Street", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Lustig-Prean von Preanfeld",
+
+         "p_id": "#99463"
+         }]
       }
       }, 
     {
@@ -1457,24 +1488,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q2141902", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg Mountain"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1931-02-06", "1931-05-15"],
-         "importance": 2, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -2495,6 +2508,12 @@
         "abbr": "Krankenhaus (K.KKH)", 
         "type": "Krankenhaus Hospital", 
         "arbeitsort": [
+         {
+
+         "p_name": "Karl Jeschke",
+
+         "p_id": "#335015"
+         }, 
          {
 
          "p_name": "Dora Breuer",

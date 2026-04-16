@@ -3203,8 +3203,8 @@
          "title": "St. Gilgen",
          "lat": "47.76667",
          "lon": "13.36667",
-         "timestamp": ["1911-07-24", "1911-07-25", "1911-07-26", "1911-07-27", "1911-07-28", "1911-07-29", "1914-08-21", "1915-08-17", "1915-08-22"],
-         "importance": 9, 
+         "timestamp": ["1911-07-24", "1911-07-25", "1911-07-26", "1911-07-27", "1911-07-28", "1911-07-29", "1914-08-21", "1915-08-17", "1915-08-22", "1916-09-02"],
+         "importance": 10, 
         "wikipedia": "https://de.wikipedia.org/wiki/Sankt_Gilgen", 
         "wikidata": "http://www.wikidata.org/entity/Q264430", 
         "geonames": "https://sws.geonames.org/2766683/ https://sws.geonames.org/7872214/", 
@@ -3398,6 +3398,19 @@
          "p_name": "Gustav Schwarzkopf",
 
          "p_id": "#12740"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
+
+         "p_id": "#335100"
+         }, 
+         {
+
+         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
+
+         "p_id": "#335138"
          }]
       }
       }, 
@@ -3482,6 +3495,12 @@
          "p_name": "Julie Flesch",
 
          "p_id": "#16355"
+         }, 
+         {
+
+         "p_name": " ?? [Dienstbotin Pension Rudolfshöhe, 1895]",
+
+         "p_id": "#298891"
          }, 
          {
 
@@ -4273,6 +4292,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1911-01-24", "1911-01-27", "1911-06-27", "1911-06-29", "1911-07-03", "1911-08-02", "1911-08-21", "1911-08-26", "1911-08-29", "1911-08-30", "1911-10-01", "1911-10-06", "1911-10-09", "1912-01-03", "1912-01-04", "1912-01-11", "1912-01-16", "1915-01-29", "1915-01-31", "1915-02-01", "1915-02-04", "1915-06-23", "1915-06-28"],
+         "importance": 23, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.209444, 48.327778]
       },
       "properties": {
@@ -4446,6 +4483,12 @@
          "p_name": " Wessely",
 
          "p_id": "#88046"
+         }, 
+         {
+
+         "p_name": "Adam Müller-Guttenbrunn",
+
+         "p_id": "#12331"
          }]
       }
       }, 
@@ -6691,6 +6734,12 @@
         "wohnort": [
          {
 
+         "p_name": "Lina Klein",
+
+         "p_id": "#296595"
+         }, 
+         {
+
          "p_name": "Albertine von Gutmann-Gelse",
 
          "p_id": "#17584"
@@ -7348,9 +7397,15 @@
         "wohnort": [
          {
 
-         "p_name": "Elisabeth Steinrück",
+         "p_name": "Rudolf Gussmann",
 
-         "p_id": "#2315"
+         "p_id": "#17554"
+         }, 
+         {
+
+         "p_name": "Amalia Gussmann",
+
+         "p_id": "#17548"
          }, 
          {
 
@@ -7431,24 +7486,6 @@
          "importance": 1, 
         "abbr": "Vereinslokal (K.VRN)", 
         "type": ""
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1911-01-24", "1911-01-27", "1911-06-27", "1911-06-29", "1911-07-03", "1911-08-02", "1911-08-21", "1911-08-26", "1911-08-29", "1911-08-30", "1911-10-01", "1911-10-06", "1911-10-09", "1912-01-03", "1912-01-04", "1912-01-11", "1912-01-16", "1915-01-29", "1915-01-31", "1915-02-01", "1915-02-04", "1915-06-23", "1915-06-28"],
-         "importance": 23, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -15932,6 +15969,12 @@
         "abbr": "Krankenhaus (K.KKH)", 
         "type": "Krankenhaus Hospital", 
         "arbeitsort": [
+         {
+
+         "p_name": "Karl Jeschke",
+
+         "p_id": "#335015"
+         }, 
          {
 
          "p_name": "Dora Breuer",
@@ -26363,6 +26406,23 @@
          "importance": 4, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße Street"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36853, 47.766001]
+      },
+      "properties": {
+         "id": "pmb1150",
+         "title": "Bahn- und Dampfschiffstation St. Gilgen",
+         "lat": "47.766001",
+         "lon": "13.36853",
+         "timestamp": ["1916-09-02"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {

@@ -302,6 +302,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1915-01-29", "1915-01-31"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.374444444444, 48.211944444444]
       },
       "properties": {
@@ -356,24 +374,6 @@
         "geonames": "https://sws.geonames.org/2774982/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort Former place"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1915-01-29", "1915-01-31"],
-         "importance": 2, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -873,6 +873,12 @@
         "abbr": "Krankenhaus (K.KKH)", 
         "type": "Krankenhaus Hospital", 
         "arbeitsort": [
+         {
+
+         "p_name": "Karl Jeschke",
+
+         "p_id": "#335015"
+         }, 
          {
 
          "p_name": "Dora Breuer",

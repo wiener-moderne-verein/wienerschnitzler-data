@@ -2991,7 +2991,9 @@
          "lon": "16.08107",
          "timestamp": ["1905-07-29"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2770711/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Neunkirchen_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q265948", 
+        "geonames": "https://sws.geonames.org/2770711/ https://sws.geonames.org/7871866/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
       }
@@ -3857,6 +3859,19 @@
          "p_name": "Gustav Schwarzkopf",
 
          "p_id": "#12740"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
+
+         "p_id": "#335100"
+         }, 
+         {
+
+         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
+
+         "p_id": "#335138"
          }]
       }
       }, 
@@ -3924,6 +3939,12 @@
          "p_name": "Julie Flesch",
 
          "p_id": "#16355"
+         }, 
+         {
+
+         "p_name": " ?? [Dienstbotin Pension Rudolfshöhe, 1895]",
+
+         "p_id": "#298891"
          }, 
          {
 
@@ -4569,7 +4590,7 @@
          }, 
          {
 
-         "p_name": "Christine Schönberger",
+         "p_name": "Christine Kepert",
 
          "p_id": "#24686"
          }]
@@ -4739,6 +4760,24 @@
         "geonames": "https://sws.geonames.org/3180559/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1901-03-25", "1903-11-09", "1906-09-17", "1906-09-20", "1908-02-04", "1908-11-08", "1908-12-06", "1909-01-25", "1909-01-28", "1909-11-11", "1909-11-14", "1910-02-08", "1910-02-10", "1910-02-22", "1910-02-24", "1910-07-06", "1910-07-10", "1910-10-16", "1910-10-17", "1910-10-19"],
+         "importance": 20, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -4958,6 +4997,12 @@
          "p_name": " Wessely",
 
          "p_id": "#88046"
+         }, 
+         {
+
+         "p_name": "Adam Müller-Guttenbrunn",
+
+         "p_id": "#12331"
          }]
       }
       }, 
@@ -4972,8 +5017,8 @@
          "title": "Rodaun",
          "lat": "48.132793312328",
          "lon": "16.256152195922",
-         "timestamp": ["1901-06-05", "1901-09-11", "1901-11-25", "1901-12-07", "1902-01-19", "1902-01-22", "1902-01-27", "1902-02-05", "1902-03-20", "1902-04-21", "1902-04-24", "1902-04-28", "1902-05-01", "1902-05-09", "1902-05-18", "1902-05-30", "1902-06-17", "1902-06-21", "1902-06-22", "1902-07-29", "1902-08-02", "1902-08-10", "1902-08-18", "1902-08-21", "1902-09-14", "1902-09-19", "1903-01-06", "1903-04-16", "1903-07-25", "1903-10-10", "1904-06-02", "1904-06-24", "1904-08-10", "1904-09-25", "1905-06-17", "1905-07-01", "1905-08-11", "1905-12-30", "1906-05-10", "1907-10-12", "1907-10-13", "1908-06-06"],
-         "importance": 42, 
+         "timestamp": ["1901-06-05", "1901-09-11", "1901-11-25", "1901-12-07", "1902-01-19", "1902-01-22", "1902-01-27", "1902-02-05", "1902-03-20", "1902-04-21", "1902-04-24", "1902-04-28", "1902-05-01", "1902-05-04", "1902-05-09", "1902-05-18", "1902-05-30", "1902-06-17", "1902-06-21", "1902-06-22", "1902-07-29", "1902-08-02", "1902-08-10", "1902-08-18", "1902-08-21", "1902-09-14", "1902-09-19", "1903-01-06", "1903-04-16", "1903-07-25", "1903-10-10", "1904-06-02", "1904-06-24", "1904-08-10", "1904-09-25", "1905-06-17", "1905-07-01", "1905-08-11", "1905-12-30", "1906-05-10", "1907-10-12", "1907-10-13", "1908-06-06"],
+         "importance": 43, 
         "wikipedia": "https://de.wikipedia.org/wiki/Rodaun", 
         "wikidata": "http://www.wikidata.org/entity/Q2160909", 
         "geonames": "https://sws.geonames.org/2767332/", 
@@ -6556,7 +6601,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Klinik_Favoriten", 
         "wikidata": "http://www.wikidata.org/entity/Q2305900", 
         "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus Hospital"
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -7938,7 +7990,14 @@
          "timestamp": ["1901-03-09", "1903-03-05", "1903-03-06"],
          "importance": 3, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater Theatre"
+        "type": "Theater Theatre", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Nuscha Butze",
+
+         "p_id": "#298239"
+         }]
       }
       }, 
     {
@@ -8023,6 +8082,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.397985, 48.207773]
+      },
+      "properties": {
+         "id": "pmb231967",
+         "title": "Schüttelstraße 31",
+         "lat": "48.207773",
+         "lon": "16.397985",
+         "timestamp": ["1902-05-13", "1902-05-31", "1903-02-11"],
+         "importance": 3, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße Street", 
+        "wohnort": [
+         {
+
+         "p_name": "Emil Marriot",
+
+         "p_id": "#4223"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.364283, 48.201813]
       },
       "properties": {
@@ -8035,6 +8118,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude Residential building", 
         "wohnort": [
+         {
+
+         "p_name": "Lina Klein",
+
+         "p_id": "#296595"
+         }, 
          {
 
          "p_name": "Albertine von Gutmann-Gelse",
@@ -9033,9 +9122,15 @@
         "wohnort": [
          {
 
-         "p_name": "Elisabeth Steinrück",
+         "p_name": "Rudolf Gussmann",
 
-         "p_id": "#2315"
+         "p_id": "#17554"
+         }, 
+         {
+
+         "p_name": "Amalia Gussmann",
+
+         "p_id": "#17548"
          }, 
          {
 
@@ -9300,24 +9395,6 @@
          "importance": 5, 
         "abbr": "Kabarett (K.KBR)", 
         "type": "Kabarett Cabaret"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1901-03-25", "1903-11-09", "1906-09-17", "1906-09-20", "1908-02-04", "1908-11-08", "1908-12-06", "1909-01-25", "1909-01-28", "1909-11-11", "1909-11-14", "1910-02-08", "1910-02-10", "1910-02-22", "1910-02-24", "1910-07-06", "1910-07-10", "1910-10-16", "1910-10-17", "1910-10-19"],
-         "importance": 20, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -12482,30 +12559,6 @@
         "geonames": "https://sws.geonames.org/2601299/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.397985, 48.207773]
-      },
-      "properties": {
-         "id": "pmb231967",
-         "title": "Schüttelstraße 31",
-         "lat": "48.207773",
-         "lon": "16.397985",
-         "timestamp": ["1902-05-13", "1902-05-31", "1903-02-11"],
-         "importance": 3, 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße Street", 
-        "wohnort": [
-         {
-
-         "p_name": "Emil Marriot",
-
-         "p_id": "#4223"
-         }]
       }
       }, 
     {
@@ -16936,6 +16989,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [12.501755, 41.900648]
+      },
+      "properties": {
+         "id": "pmb148287",
+         "title": "Roma Termini",
+         "lat": "41.900648",
+         "lon": "12.501755",
+         "timestamp": ["1904-05-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Roma_Termini", 
+        "wikidata": "http://www.wikidata.org/entity/Q754485", 
+        "geonames": "https://sws.geonames.org/3169044/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.49776667, 43.60743333]
+      },
+      "properties": {
+         "id": "pmb339367",
+         "title": "Bahnhof Ancona",
+         "lat": "43.60743333",
+         "lon": "13.49776667",
+         "timestamp": ["1904-05-03"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3968877", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.48187, 41.90327]
       },
       "properties": {
@@ -18757,6 +18848,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude Residential building", 
         "wohnort": [
+         {
+
+         "p_name": "Rosa Hochsinger",
+
+         "p_id": "#18345"
+         }, 
          {
 
          "p_name": "Carl Hochsinger",
@@ -27383,6 +27480,12 @@
          "p_name": "Julius Bermann",
 
          "p_id": "#14104"
+         }, 
+         {
+
+         "p_name": "Markus Benedict",
+
+         "p_id": "#13973"
          }]
       }
       }, 

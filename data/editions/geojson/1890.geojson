@@ -943,7 +943,20 @@
          "timestamp": ["1890-02-25"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude Residential building"
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Albert Spitzer",
+
+         "p_id": "#339304"
+         }, 
+         {
+
+         "p_name": "Rudolf Lothar",
+
+         "p_id": "#2570"
+         }]
       }
       }, 
     {
@@ -1040,7 +1053,14 @@
          "timestamp": ["1890-03-28", "1890-12-28"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude Residential building"
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Leopold Klein",
+
+         "p_id": "#19409"
+         }]
       }
       }, 
     {
@@ -1755,7 +1775,9 @@
          "lon": "16.08107",
          "timestamp": ["1890-05-29"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2770711/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Neunkirchen_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q265948", 
+        "geonames": "https://sws.geonames.org/2770711/ https://sws.geonames.org/7871866/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
       }

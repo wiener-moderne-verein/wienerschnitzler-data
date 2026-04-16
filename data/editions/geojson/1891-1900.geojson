@@ -517,8 +517,8 @@
          "title": "Südbahnhof",
          "lat": "48.187455471378",
          "lon": "16.379829498031",
-         "timestamp": ["1891-09-09", "1896-04-08", "1897-06-23", "1898-05-03", "1898-05-04", "1899-04-03", "1899-07-17", "1899-10-13", "1900-06-27"],
-         "importance": 9, 
+         "timestamp": ["1891-09-09", "1893-08-22", "1893-08-31", "1896-04-08", "1897-06-23", "1898-05-03", "1898-05-04", "1899-04-03", "1899-07-17", "1899-10-13", "1900-06-27"],
+         "importance": 11, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -1486,8 +1486,8 @@
          "title": "Gloggnitz",
          "lat": "47.67487",
          "lon": "15.93893",
-         "timestamp": ["1893-10-29", "1894-05-14", "1899-01-23", "1899-02-12", "1899-03-13", "1899-03-14", "1899-04-17", "1899-04-21", "1899-06-19", "1899-06-20"],
-         "importance": 10, 
+         "timestamp": ["1893-10-29", "1894-05-14", "1899-01-23", "1899-03-13", "1899-03-14", "1899-04-17", "1899-04-21", "1899-06-19", "1899-06-20"],
+         "importance": 9, 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
       }
@@ -3092,7 +3092,20 @@
          "timestamp": ["1893-02-23"],
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude Residential building"
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Albert Spitzer",
+
+         "p_id": "#339304"
+         }, 
+         {
+
+         "p_name": "Rudolf Lothar",
+
+         "p_id": "#2570"
+         }]
       }
       }, 
     {
@@ -4737,7 +4750,9 @@
          "lon": "16.08107",
          "timestamp": ["1893-08-31", "1894-05-13", "1894-05-14", "1896-06-07"],
          "importance": 4, 
-        "geonames": "https://sws.geonames.org/2770711/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Neunkirchen_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q265948", 
+        "geonames": "https://sws.geonames.org/2770711/ https://sws.geonames.org/7871866/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
       }
@@ -5393,6 +5408,12 @@
         "wohnort": [
          {
 
+         "p_name": "Helene Sternlicht",
+
+         "p_id": "#25508"
+         }, 
+         {
+
          "p_name": "Carl Hochsinger",
 
          "p_id": "#11718"
@@ -5580,7 +5601,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Griensteidl", 
         "wikidata": "http://www.wikidata.org/entity/Q877029", 
         "abbr": "Kaffeehaus (K.KAF)", 
-        "type": "Kaffeehaus Coffee house"
+        "type": "Kaffeehaus Coffee house", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Heinrich ",
+
+         "p_id": "#298938"
+         }]
       }
       }, 
     {
@@ -5604,6 +5632,12 @@
          "p_name": "Moritz Coschell",
 
          "p_id": "#28645"
+         }, 
+         {
+
+         "p_name": "Leopold Sternlicht",
+
+         "p_id": "#89641"
          }]
       }
       }, 
@@ -6942,6 +6976,19 @@
          "p_name": "Gustav Schwarzkopf",
 
          "p_id": "#12740"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
+
+         "p_id": "#335100"
+         }, 
+         {
+
+         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
+
+         "p_id": "#335138"
          }]
       }
       }, 
@@ -7102,6 +7149,12 @@
          "p_name": "Julie Flesch",
 
          "p_id": "#16355"
+         }, 
+         {
+
+         "p_name": " ?? [Dienstbotin Pension Rudolfshöhe, 1895]",
+
+         "p_id": "#298891"
          }, 
          {
 
@@ -8019,7 +8072,7 @@
         "wohnort": [
          {
 
-         "p_name": "Mizi Zach",
+         "p_name": "Maria Zach",
 
          "p_id": "#27423"
          }]
@@ -8039,7 +8092,20 @@
          "timestamp": ["1893-01-08", "1895-03-07"],
          "importance": 2, 
         "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude Residential building"
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Julius Schlesinger",
+
+         "p_id": "#24241"
+         }, 
+         {
+
+         "p_name": "Julius Schlesinger",
+
+         "p_id": "#24241"
+         }]
       }
       }, 
     {
@@ -8603,7 +8669,7 @@
          }, 
          {
 
-         "p_name": "Christine Schönberger",
+         "p_name": "Christine Kepert",
 
          "p_id": "#24686"
          }]
@@ -9099,6 +9165,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1893-08-31"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.417222, 47.072222]
+      },
+      "properties": {
+         "id": "pmb288761",
+         "title": "Graz Hauptbahnhof",
+         "lat": "47.072222",
+         "lon": "15.417222",
+         "timestamp": ["1893-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Graz_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q873836", 
+        "geonames": "https://sws.geonames.org/2778061/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.085094, 47.731578]
+      },
+      "properties": {
+         "id": "pmb339356",
+         "title": "Bahnhof Neunkirchen [Niederösterreich]",
+         "lat": "47.731578",
+         "lon": "16.085094",
+         "timestamp": ["1893-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Neunkirchen_N.%C3%96.", 
+        "wikidata": "http://www.wikidata.org/entity/Q59647814", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [14.61667, 47.58333]
       },
       "properties": {
@@ -9447,6 +9570,12 @@
          "p_name": " Wessely",
 
          "p_id": "#88046"
+         }, 
+         {
+
+         "p_name": "Adam Müller-Guttenbrunn",
+
+         "p_id": "#12331"
          }]
       }
       }, 
@@ -13655,7 +13784,14 @@
          "importance": 2, 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Alleegasse_(4)", 
         "abbr": "Straße (K.STR)", 
-        "type": "Straße Street"
+        "type": "Straße Street", 
+        "wohnort": [
+         {
+
+         "p_name": "Karl Lustig-Prean von Preanfeld",
+
+         "p_id": "#99463"
+         }]
       }
       }, 
     {
@@ -14030,7 +14166,14 @@
         "wikipedia": "https://de.wikipedia.org/wiki/Klinik_Favoriten", 
         "wikidata": "http://www.wikidata.org/entity/Q2305900", 
         "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus Hospital"
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -19635,8 +19778,8 @@
          "title": "Sulz im Wienerwald",
          "lat": "48.1008317",
          "lon": "16.1374028",
-         "timestamp": ["1898-04-21", "1899-11-15", "1900-06-24", "1900-10-13"],
-         "importance": 4, 
+         "timestamp": ["1898-04-21", "1899-02-12", "1899-11-15", "1900-06-24", "1900-10-13"],
+         "importance": 5, 
         "wikipedia": "https://de.wikipedia.org/wiki/Sulz_im_Wienerwald", 
         "wikidata": "http://www.wikidata.org/entity/Q89404717", 
         "geonames": "https://sws.geonames.org/2764000/", 
@@ -21940,7 +22083,14 @@
          "timestamp": ["1898-10-06"],
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater Theatre"
+        "type": "Theater Theatre", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Nuscha Butze",
+
+         "p_id": "#298239"
+         }]
       }
       }, 
     {
@@ -22132,6 +22282,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.397985, 48.207773]
+      },
+      "properties": {
+         "id": "pmb231967",
+         "title": "Schüttelstraße 31",
+         "lat": "48.207773",
+         "lon": "16.397985",
+         "timestamp": ["1899-02-12"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße Street", 
+        "wohnort": [
+         {
+
+         "p_name": "Emil Marriot",
+
+         "p_id": "#4223"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.371026, 48.208917]
       },
       "properties": {
@@ -22178,6 +22352,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude Residential building", 
         "wohnort": [
+         {
+
+         "p_name": "Lina Klein",
+
+         "p_id": "#296595"
+         }, 
          {
 
          "p_name": "Albertine von Gutmann-Gelse",
@@ -25233,9 +25413,15 @@
         "wohnort": [
          {
 
-         "p_name": "Elisabeth Steinrück",
+         "p_name": "Rudolf Gussmann",
 
-         "p_id": "#2315"
+         "p_id": "#17554"
+         }, 
+         {
+
+         "p_name": "Amalia Gussmann",
+
+         "p_id": "#17548"
          }, 
          {
 

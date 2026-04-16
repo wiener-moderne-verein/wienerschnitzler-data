@@ -4381,6 +4381,44 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1925-05-15", "1927-05-19", "1927-05-20"],
+         "importance": 3, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.417222, 47.072222]
+      },
+      "properties": {
+         "id": "pmb288761",
+         "title": "Graz Hauptbahnhof",
+         "lat": "47.072222",
+         "lon": "15.417222",
+         "timestamp": ["1922-06-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Graz_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q873836", 
+        "geonames": "https://sws.geonames.org/2778061/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.209444, 48.327778]
       },
       "properties": {
@@ -4509,6 +4547,12 @@
          "p_name": " Wessely",
 
          "p_id": "#88046"
+         }, 
+         {
+
+         "p_name": "Adam Müller-Guttenbrunn",
+
+         "p_id": "#12331"
          }]
       }
       }, 
@@ -7172,7 +7216,14 @@
          "timestamp": ["1930-01-03"],
          "importance": 1, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater Theatre"
+        "type": "Theater Theatre", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Nuscha Butze",
+
+         "p_id": "#298239"
+         }]
       }
       }, 
     {
@@ -7886,24 +7937,6 @@
          "importance": 1, 
         "abbr": "Vereinslokal (K.VRN)", 
         "type": ""
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1925-05-15", "1927-05-19", "1927-05-20"],
-         "importance": 3, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -13304,6 +13337,12 @@
         "abbr": "Krankenhaus (K.KKH)", 
         "type": "Krankenhaus Hospital", 
         "arbeitsort": [
+         {
+
+         "p_name": "Karl Jeschke",
+
+         "p_id": "#335015"
+         }, 
          {
 
          "p_name": "Dora Breuer",
@@ -21462,26 +21501,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.417222, 47.072222]
-      },
-      "properties": {
-         "id": "pmb288761",
-         "title": "Graz Hauptbahnhof",
-         "lat": "47.072222",
-         "lon": "15.417222",
-         "timestamp": ["1922-06-08"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Graz_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q873836", 
-        "geonames": "https://sws.geonames.org/2778061/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof Railway station"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [15.4444, 47.0748]
       },
       "properties": {
@@ -28210,15 +28229,15 @@
          }, 
          {
 
-         "p_name": "Ilse Dernburg",
-
-         "p_id": "#5571"
-         }, 
-         {
-
          "p_name": "Heinrich Schnitzler",
 
          "p_id": "#12692"
+         }, 
+         {
+
+         "p_name": "Ilse Dernburg",
+
+         "p_id": "#5571"
          }]
       }
       }, 
@@ -32370,6 +32389,25 @@
          "p_name": "Lili Cappellini",
 
          "p_id": "#2238"
+         }, 
+         {
+
+         "p_name": "Arnoldo Cappellini",
+
+         "p_id": "#14850"
+         }, 
+         {
+
+         "p_name": "Lili Cappellini",
+
+         "p_id": "#2238"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": "Antoinetta ",
+
+         "p_id": "#334194"
          }]
       }
       }, 
@@ -36477,7 +36515,14 @@
          "importance": 1, 
         "wikidata": "http://www.wikidata.org/entity/Q2969210", 
         "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss Palace"
+        "type": "Schloss Palace", 
+        "wohnort": [
+         {
+
+         "p_name": " Voltaire",
+
+         "p_id": "#3124"
+         }]
       }
       }, 
     {
@@ -37524,6 +37569,23 @@
          "lat": "48.332756",
          "lon": "16.052171",
          "timestamp": ["1930-06-09"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude Hospitality building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.262255, 48.078617]
+      },
+      "properties": {
+         "id": "pmb239706",
+         "title": "Liechtensteinische Meierei",
+         "lat": "48.078617",
+         "lon": "16.262255",
+         "timestamp": ["1930-06-14"],
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude Hospitality building"

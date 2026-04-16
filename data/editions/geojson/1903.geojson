@@ -1455,6 +1455,19 @@
          "p_name": "Gustav Schwarzkopf",
 
          "p_id": "#12740"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
+
+         "p_id": "#335100"
+         }, 
+         {
+
+         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
+
+         "p_id": "#335138"
          }]
       }
       }, 
@@ -1869,6 +1882,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1903-11-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35736, 48.21533]
       },
       "properties": {
@@ -1977,6 +2008,12 @@
          "p_name": " Wessely",
 
          "p_id": "#88046"
+         }, 
+         {
+
+         "p_name": "Adam Müller-Guttenbrunn",
+
+         "p_id": "#12331"
          }]
       }
       }, 
@@ -2780,7 +2817,14 @@
          "timestamp": ["1903-03-05", "1903-03-06"],
          "importance": 2, 
         "abbr": "Theater (K.THE)", 
-        "type": "Theater Theatre"
+        "type": "Theater Theatre", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Nuscha Butze",
+
+         "p_id": "#298239"
+         }]
       }
       }, 
     {
@@ -2805,6 +2849,30 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.397985, 48.207773]
+      },
+      "properties": {
+         "id": "pmb231967",
+         "title": "Schüttelstraße 31",
+         "lat": "48.207773",
+         "lon": "16.397985",
+         "timestamp": ["1903-02-11"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße Street", 
+        "wohnort": [
+         {
+
+         "p_name": "Emil Marriot",
+
+         "p_id": "#4223"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.364283, 48.201813]
       },
       "properties": {
@@ -2817,6 +2885,12 @@
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude Residential building", 
         "wohnort": [
+         {
+
+         "p_name": "Lina Klein",
+
+         "p_id": "#296595"
+         }, 
          {
 
          "p_name": "Albertine von Gutmann-Gelse",
@@ -3108,24 +3182,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1903-11-09"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.2911, 48.2553]
       },
       "properties": {
@@ -3406,30 +3462,6 @@
          "p_name": "Jakob Wassermann",
 
          "p_id": "#13055"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.397985, 48.207773]
-      },
-      "properties": {
-         "id": "pmb231967",
-         "title": "Schüttelstraße 31",
-         "lat": "48.207773",
-         "lon": "16.397985",
-         "timestamp": ["1903-02-11"],
-         "importance": 1, 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße Street", 
-        "wohnort": [
-         {
-
-         "p_name": "Emil Marriot",
-
-         "p_id": "#4223"
          }]
       }
       }, 

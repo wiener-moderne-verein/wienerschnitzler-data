@@ -6,11 +6,12 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.8241, 47.64224], 
-            [15.43333, 47.06667], 
-            [16.08107, 47.72096], 
-            [16.357233, 48.212477], 
-            [15.84704, 47.70466]
+            [15.84704, 47.70466], 
+            [15.83064, 47.63961], 
+            [15.417222, 47.072222], 
+            [16.085094, 47.731578], 
+            [16.379829498031, 48.187455471378], 
+            [16.357233, 48.212477]
           ]
       },
       "properties": {
@@ -21,20 +22,39 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.43333, 47.06667]
+        "coordinates": [15.417222, 47.072222]
       },
       "properties": {
-         "id": "pmb860",
-         "title": "Graz",
-         "lat": "47.06667",
-         "lon": "15.43333",
+         "id": "pmb288761",
+         "title": "Graz Hauptbahnhof",
+         "lat": "47.072222",
+         "lon": "15.417222",
          "timestamp": ["1893-08-31"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Graz", 
-        "wikidata": "http://www.wikidata.org/entity/Q13298", 
-        "geonames": "https://sws.geonames.org/7871499/ https://sws.geonames.org/2778058/", 
-        "abbr": "A.ADM2", 
-        "type": "Verwaltungsgebiet Administrative district"
+        "wikipedia": "https://de.wikipedia.org/wiki/Graz_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q873836", 
+        "geonames": "https://sws.geonames.org/2778061/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1893-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       },
     {
@@ -76,38 +96,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.8241, 47.64224]
+        "coordinates": [15.83064, 47.63961]
       },
       "properties": {
-         "id": "pmb189",
-         "title": "Semmering",
-         "lat": "47.64224",
-         "lon": "15.8241",
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
          "timestamp": ["1893-08-31"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)", 
-        "wikidata": "http://www.wikidata.org/entity/Q659891", 
-        "geonames": "https://sws.geonames.org/7873001/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet Administrative district"
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.08107, 47.72096]
+        "coordinates": [16.085094, 47.731578]
       },
       "properties": {
-         "id": "pmb91340",
-         "title": "Neunkirchen",
-         "lat": "47.72096",
-         "lon": "16.08107",
+         "id": "pmb339356",
+         "title": "Bahnhof Neunkirchen [Niederösterreich]",
+         "lat": "47.731578",
+         "lon": "16.085094",
          "timestamp": ["1893-08-31"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2770711/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt Capital"
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Neunkirchen_N.%C3%96.", 
+        "wikidata": "http://www.wikidata.org/entity/Q59647814", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }
   ]

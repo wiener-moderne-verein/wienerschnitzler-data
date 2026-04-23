@@ -825,49 +825,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.368738, 48.213038]
-      },
-      "properties": {
-         "id": "pmb207296",
-         "title": "Tiefer Graben 23",
-         "lat": "48.213038",
-         "lon": "16.368738",
-         "timestamp": ["1908-04-04"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude Residential building", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
-
-         "p_id": "#335100"
-         }, 
-         {
-
-         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
-
-         "p_id": "#335138"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.300034240016, 48.246838181084]
       },
       "properties": {
@@ -1090,24 +1047,6 @@
 
          "p_id": "#25749"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1908-02-04", "1908-11-08", "1908-12-06"],
-         "importance": 3, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -1879,6 +1818,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1908-04-04"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
+
+         "p_id": "#335100"
+         }, 
+         {
+
+         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
+
+         "p_id": "#335138"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.76452, 47.67383]
       },
       "properties": {
@@ -2062,6 +2044,24 @@
         "wikidata": "http://www.wikidata.org/entity/Q1248317", 
         "abbr": "Straße (K.STR)", 
         "type": "Straße Street"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1908-02-04", "1908-11-08", "1908-12-06"],
+         "importance": 3, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -4407,9 +4407,7 @@
          "lat": "48.207065",
          "lon": "16.361604",
          "timestamp": ["1908-05-20"],
-         "importance": 1, 
-        "abbr": "Veranstaltungsgebäude (K.VSB)", 
-        "type": "Veranstaltungsgebäude Event venue"
+         "importance": 1
       }
       }, 
     {

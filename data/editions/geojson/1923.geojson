@@ -265,6 +265,8 @@
          "lon": "16.36678",
          "timestamp": ["1923-09-18"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/%C3%96sterreichische_Nationalbibliothek", 
+        "wikidata": "http://www.wikidata.org/entity/Q304037", 
         "abbr": "Bibliothek (K.BIB)", 
         "type": "Bibliothek Library"
       }
@@ -503,45 +505,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.864472, 47.695925]
-      },
-      "properties": {
-         "id": "pmb147590",
-         "title": "Bahnhof Payerbach-Reichenau",
-         "lat": "47.695925",
-         "lon": "15.864472",
-         "timestamp": ["1923-02-22"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
-        "wikidata": "http://www.wikidata.org/entity/Q801311", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1923-02-20", "1923-02-21", "1923-02-22"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt Capital"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.337778, 48.196667]
       },
       "properties": {
@@ -582,25 +545,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.23264, 48.7672]
-      },
-      "properties": {
-         "id": "pmb245209",
-         "title": "Bahnhof Baden-Baden",
-         "lat": "48.7672",
-         "lon": "8.23264",
-         "timestamp": ["1923-06-27", "1923-07-07", "1923-08-06", "1923-08-14"],
-         "importance": 4, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Alter_Bahnhof_(Baden-Baden)", 
-        "wikidata": "http://www.wikidata.org/entity/Q437733", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.37049, 48.20769]
       },
       "properties": {
@@ -615,6 +559,45 @@
         "geonames": "https://sws.geonames.org/2775259/", 
         "abbr": "A.ADM3", 
         "type": "Verwaltungsgebiet Administrative district"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1923-02-22"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1923-02-20", "1923-02-21", "1923-02-22"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -3255,32 +3238,14 @@
       },
       "properties": {
          "id": "pmb92602",
-         "title": "Wiedner Spital",
+         "title": "Wiednerspital",
          "lat": "48.19224",
          "lon": "16.370928",
          "timestamp": ["1923-10-19"],
          "importance": 1, 
-        "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus Hospital", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Karl Jeschke",
-
-         "p_id": "#335015"
-         }, 
-         {
-
-         "p_name": "Dora Breuer",
-
-         "p_id": "#14528"
-         }, 
-         {
-
-         "p_name": "Julius Schnitzler",
-
-         "p_id": "#12698"
-         }]
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=8896", 
+        "wikidata": "http://www.wikidata.org/entity/Q1485420"
       }
       }, 
     {
@@ -5765,6 +5730,25 @@
 
          "p_id": "#2173"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.23264, 48.7672]
+      },
+      "properties": {
+         "id": "pmb245209",
+         "title": "Bahnhof Baden-Baden",
+         "lat": "48.7672",
+         "lon": "8.23264",
+         "timestamp": ["1923-06-27", "1923-07-07", "1923-08-06", "1923-08-14"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Alter_Bahnhof_(Baden-Baden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q437733", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {

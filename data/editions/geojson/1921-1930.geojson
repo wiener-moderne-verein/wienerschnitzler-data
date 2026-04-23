@@ -696,6 +696,8 @@
          "lon": "16.36678",
          "timestamp": ["1922-04-15", "1922-06-21", "1923-09-18", "1930-12-02"],
          "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/%C3%96sterreichische_Nationalbibliothek", 
+        "wikidata": "http://www.wikidata.org/entity/Q304037", 
         "abbr": "Bibliothek (K.BIB)", 
         "type": "Bibliothek Library"
       }
@@ -1934,19 +1936,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.2425, 48.003889]
+        "coordinates": [16.36609, 48.21203]
       },
       "properties": {
-         "id": "pmb249350",
-         "title": "Bahnhof Baden bei Wien",
-         "lat": "48.003889",
-         "lon": "16.2425",
-         "timestamp": ["1921-03-18", "1922-01-03"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
+         "id": "pmb168006",
+         "title": "Zu den drei Hacken",
+         "lat": "48.21203",
+         "lon": "16.36609",
+         "timestamp": ["1923-06-01"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=1018", 
+        "wikidata": "http://www.wikidata.org/entity/Q125292922", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3747466, 48.2104057]
+      },
+      "properties": {
+         "id": "pmb705",
+         "title": "Zur Linde",
+         "lat": "48.2104057",
+         "lon": "16.3747466",
+         "timestamp": ["1928-10-01", "1928-10-02", "1928-10-24", "1928-10-27", "1928-11-03", "1928-11-06", "1928-11-09", "1928-11-23", "1928-12-05", "1928-12-11", "1928-12-15", "1929-01-24", "1929-01-26", "1929-02-01", "1929-02-06", "1929-02-09", "1929-02-14", "1929-02-19", "1929-02-21", "1929-02-22", "1929-03-06", "1929-03-07", "1929-04-02", "1929-04-05", "1929-04-08", "1929-04-10", "1929-04-12", "1929-04-13", "1929-04-20", "1929-04-22", "1929-04-24", "1929-04-25", "1929-04-26", "1929-04-29", "1929-05-21", "1929-05-22", "1929-05-31", "1929-06-03", "1929-06-12", "1929-06-14", "1929-07-27", "1929-08-06", "1929-09-24", "1929-09-25", "1929-12-05", "1930-09-12", "1930-10-09", "1930-10-31", "1930-11-08", "1930-11-25"],
+         "importance": 50, 
+        "abbr": "Lokal (K.LKL)", 
+        "type": "Lokal Restaurant"
       }
       }, 
     {
@@ -1985,42 +2004,6 @@
 
          "p_id": "#21912"
          }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.36609, 48.21203]
-      },
-      "properties": {
-         "id": "pmb168006",
-         "title": "Zu den drei Hacken",
-         "lat": "48.21203",
-         "lon": "16.36609",
-         "timestamp": ["1923-06-01"],
-         "importance": 1, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=1018", 
-        "wikidata": "http://www.wikidata.org/entity/Q125292922", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.3747466, 48.2104057]
-      },
-      "properties": {
-         "id": "pmb705",
-         "title": "Zur Linde",
-         "lat": "48.2104057",
-         "lon": "16.3747466",
-         "timestamp": ["1928-10-01", "1928-10-02", "1928-10-24", "1928-10-27", "1928-11-03", "1928-11-06", "1928-11-09", "1928-11-23", "1928-12-05", "1928-12-11", "1928-12-15", "1929-01-24", "1929-01-26", "1929-02-01", "1929-02-06", "1929-02-09", "1929-02-14", "1929-02-19", "1929-02-21", "1929-02-22", "1929-03-06", "1929-03-07", "1929-04-02", "1929-04-05", "1929-04-08", "1929-04-10", "1929-04-12", "1929-04-13", "1929-04-20", "1929-04-22", "1929-04-24", "1929-04-25", "1929-04-26", "1929-04-29", "1929-05-21", "1929-05-22", "1929-05-31", "1929-06-03", "1929-06-12", "1929-06-14", "1929-07-27", "1929-08-06", "1929-09-24", "1929-09-25", "1929-12-05", "1930-09-12", "1930-10-09", "1930-10-31", "1930-11-08", "1930-11-25"],
-         "importance": 50, 
-        "abbr": "Lokal (K.LKL)", 
-        "type": "Lokal Restaurant"
       }
       }, 
     {
@@ -2206,45 +2189,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.864472, 47.695925]
-      },
-      "properties": {
-         "id": "pmb147590",
-         "title": "Bahnhof Payerbach-Reichenau",
-         "lat": "47.695925",
-         "lon": "15.864472",
-         "timestamp": ["1921-09-21", "1922-07-19", "1923-02-22"],
-         "importance": 3, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
-        "wikidata": "http://www.wikidata.org/entity/Q801311", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.8634, 47.69209]
-      },
-      "properties": {
-         "id": "pmb948",
-         "title": "Payerbach",
-         "lat": "47.69209",
-         "lon": "15.8634",
-         "timestamp": ["1921-09-20", "1921-09-21", "1922-07-19", "1922-07-20", "1922-07-21", "1923-02-20", "1923-02-21", "1923-02-22", "1927-02-12", "1927-07-27", "1930-05-12"],
-         "importance": 11, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
-        "wikidata": "http://www.wikidata.org/entity/Q676675", 
-        "geonames": "https://sws.geonames.org/2769182/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt Capital"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.337778, 48.196667]
       },
       "properties": {
@@ -2279,25 +2223,6 @@
         "geonames": "https://sws.geonames.org/2953504/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.23264, 48.7672]
-      },
-      "properties": {
-         "id": "pmb245209",
-         "title": "Bahnhof Baden-Baden",
-         "lat": "48.7672",
-         "lon": "8.23264",
-         "timestamp": ["1923-06-27", "1923-07-07", "1923-08-06", "1923-08-14", "1924-06-27", "1924-07-02", "1925-01-10", "1925-06-17", "1925-06-22"],
-         "importance": 9, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Alter_Bahnhof_(Baden-Baden)", 
-        "wikidata": "http://www.wikidata.org/entity/Q437733", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -2503,6 +2428,45 @@
          "importance": 6, 
         "abbr": "S.REST", 
         "type": "Restaurant Restaurant"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1921-09-21", "1922-07-19", "1923-02-22"],
+         "importance": 3, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8634, 47.69209]
+      },
+      "properties": {
+         "id": "pmb948",
+         "title": "Payerbach",
+         "lat": "47.69209",
+         "lon": "15.8634",
+         "timestamp": ["1921-09-20", "1921-09-21", "1922-07-19", "1922-07-20", "1922-07-21", "1923-02-20", "1923-02-21", "1923-02-22", "1927-02-12", "1927-07-27", "1930-05-12"],
+         "importance": 11, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Payerbach", 
+        "wikidata": "http://www.wikidata.org/entity/Q676675", 
+        "geonames": "https://sws.geonames.org/2769182/", 
+        "abbr": "P.PPLA3", 
+        "type": "Hauptstadt Capital"
       }
       }, 
     {
@@ -3788,8 +3752,8 @@
          "title": "Piazza San Marco",
          "lat": "45.43411",
          "lon": "12.33835",
-         "timestamp": ["1925-09-17", "1927-04-21", "1927-04-22", "1927-04-23", "1927-04-25", "1927-04-26", "1927-04-27", "1927-04-28", "1927-09-06", "1927-09-08", "1927-09-09", "1927-09-10", "1927-09-12", "1927-09-13", "1927-09-14", "1928-05-01"],
-         "importance": 16, 
+         "timestamp": ["1925-09-17", "1927-04-21", "1927-04-22", "1927-04-23", "1927-04-25", "1927-04-26", "1927-04-27", "1927-04-28", "1927-09-06", "1927-09-10", "1927-09-12", "1927-09-13", "1927-09-14", "1928-05-01"],
+         "importance": 14, 
         "wikipedia": "https://de.wikipedia.org/wiki/Markusplatz", 
         "wikidata": "http://www.wikidata.org/entity/Q217527", 
         "geonames": "https://sws.geonames.org/3229870/", 
@@ -3820,20 +3784,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.33118, 45.436312]
+        "coordinates": [12.33052, 45.43598]
       },
       "properties": {
-         "id": "pmb34052",
+         "id": "pmb90440",
          "title": "Canal Grande",
-         "lat": "45.436312",
-         "lon": "12.33118",
+         "lat": "45.43598",
+         "lon": "12.33052",
          "timestamp": ["1928-05-02"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Canal_Grande", 
         "wikidata": "http://www.wikidata.org/entity/Q309243", 
         "geonames": "https://sws.geonames.org/3175933/", 
-        "abbr": "Fluss (N.FLS)", 
-        "type": "Fluss River"
+        "abbr": "H.CNL", 
+        "type": "Kanal Canal"
       }
       }, 
     {
@@ -4213,6 +4177,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.61438, 47.67203]
+      },
+      "properties": {
+         "id": "pmb35658",
+         "title": "Lauffen",
+         "lat": "47.67203",
+         "lon": "13.61438",
+         "timestamp": ["1928-06-12"],
+         "importance": 1, 
+        "geonames": "https://sws.geonames.org/2772839/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort Populated place"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.6273, 47.7122]
       },
       "properties": {
@@ -4226,24 +4208,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q800426", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
         "type": "Bahnhofsgebäude Railway station building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.61438, 47.67203]
-      },
-      "properties": {
-         "id": "pmb35658",
-         "title": "Lauffen",
-         "lat": "47.67203",
-         "lon": "13.61438",
-         "timestamp": ["1928-06-12"],
-         "importance": 1, 
-        "geonames": "https://sws.geonames.org/2772839/", 
-        "abbr": "P.PPL", 
-        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -4375,44 +4339,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q42304048", 
         "abbr": "See (N.SEE)", 
         "type": "See Lake"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1925-05-15", "1927-05-19", "1927-05-20"],
-         "importance": 3, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.417222, 47.072222]
-      },
-      "properties": {
-         "id": "pmb288761",
-         "title": "Graz Hauptbahnhof",
-         "lat": "47.072222",
-         "lon": "15.417222",
-         "timestamp": ["1922-06-08"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Graz_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q873836", 
-        "geonames": "https://sws.geonames.org/2778061/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof Railway station"
       }
       }, 
     {
@@ -5186,13 +5112,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.701944, 49.964444]
+        "coordinates": [12.72872, 49.96115]
       },
       "properties": {
          "id": "pmb772",
          "title": "Marienbad",
-         "lat": "49.964444",
-         "lon": "12.701944",
+         "lat": "49.96115",
+         "lon": "12.72872",
          "timestamp": ["1929-09-12", "1929-09-13", "1929-09-14", "1929-09-15", "1929-09-16", "1929-09-17", "1929-09-18", "1929-09-19", "1929-09-20", "1929-09-21", "1930-08-26", "1930-08-27", "1930-08-28", "1930-08-29", "1930-08-30", "1930-08-31", "1930-09-01", "1930-09-02", "1930-09-03", "1930-09-04", "1930-09-05", "1930-09-06", "1930-09-07", "1930-09-08", "1930-09-09"],
          "importance": 25, 
         "wikipedia": "https://de.wikipedia.org/wiki/Marienbad", 
@@ -5333,25 +5259,6 @@
          "importance": 2, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.776666666666667, 47.59916666666667]
-      },
-      "properties": {
-         "id": "pmb263516",
-         "title": "Bahnhof Bad Aussee",
-         "lat": "47.59916666666667",
-         "lon": "13.776666666666667",
-         "timestamp": ["1921-06-16", "1921-06-19", "1921-07-26", "1921-07-30", "1921-08-24"],
-         "importance": 5, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
-        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -6481,8 +6388,6 @@
          "lon": "16.1374028",
          "timestamp": ["1930-04-13"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Sulz_im_Wienerwald", 
-        "wikidata": "http://www.wikidata.org/entity/Q89404717", 
         "geonames": "https://sws.geonames.org/2764000/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
@@ -6679,23 +6584,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q18413254", 
         "abbr": "Besiedelter Ort (A.BSO)", 
         "type": "Besiedelter Ort Populated place"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.04367, 47.80308]
-      },
-      "properties": {
-         "id": "pmb40384",
-         "title": "Hotel Bristol Salzburg",
-         "lat": "47.80308",
-         "lon": "13.04367",
-         "timestamp": ["1924-07-03", "1924-07-05", "1924-07-06"],
-         "importance": 3, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -7464,46 +7352,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.119086, 46.072606]
-      },
-      "properties": {
-         "id": "pmb147335",
-         "title": "Bahnhof Trient",
-         "lat": "46.072606",
-         "lon": "11.119086",
-         "timestamp": ["1925-07-01"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Trient", 
-        "wikidata": "http://www.wikidata.org/entity/Q1404881", 
-        "geonames": "https://www.geonames.org/8015023/stazione-di-trento.html", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof Railway station"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.358436, 46.496619]
-      },
-      "properties": {
-         "id": "pmb248188",
-         "title": "Stazione di Bolzano",
-         "lat": "46.496619",
-         "lon": "11.358436",
-         "timestamp": ["1925-08-06", "1925-08-15", "1927-08-10", "1927-08-15", "1927-08-17", "1927-08-22"],
-         "importance": 6, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bozen", 
-        "wikidata": "http://www.wikidata.org/entity/Q800560", 
-        "geonames": "https://sws.geonames.org/8410840/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof Railway station"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.366666, 52.516666]
       },
       "properties": {
@@ -7603,8 +7451,8 @@
          "title": "Triest",
          "lat": "45.66667",
          "lon": "13.76667",
-         "timestamp": ["1926-04-16", "1928-04-13", "1928-04-14", "1928-04-30"],
-         "importance": 4, 
+         "timestamp": ["1926-04-16", "1928-04-13", "1928-04-14"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Triest", 
         "wikidata": "http://www.wikidata.org/entity/Q546", 
         "geonames": "https://sws.geonames.org/3165186/", 
@@ -7943,6 +7791,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1925-05-15", "1927-05-19", "1927-05-20"],
+         "importance": 3, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.94439, 44.40478]
       },
       "properties": {
@@ -8002,30 +7868,11 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.253863888889, 43.774888888889]
-      },
-      "properties": {
-         "id": "pmb231503",
-         "title": "Basilica di San Lorenzo",
-         "lat": "43.774888888889",
-         "lon": "11.253863888889",
-         "timestamp": ["1925-09-15"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Basilica_di_San_Lorenzo_(Florenz)", 
-        "wikidata": "http://www.wikidata.org/entity/Q573881", 
-        "abbr": "Kirche (K.KRC)", 
-        "type": "Kirche Church"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [11.25592, 43.77381]
       },
       "properties": {
          "id": "pmb140806",
-         "title": "Cattedrale di Santa Maria del Fiore",
+         "title": "Kathedrale von Florenz",
          "lat": "43.77381",
          "lon": "11.25592",
          "timestamp": ["1925-09-14"],
@@ -9723,6 +9570,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.04367, 47.80308]
+      },
+      "properties": {
+         "id": "pmb40384",
+         "title": "Hotel Bristol Salzburg",
+         "lat": "47.80308",
+         "lon": "13.04367",
+         "timestamp": ["1924-07-03", "1924-07-05", "1924-07-06"],
+         "importance": 3, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.370342, 48.211369]
       },
       "properties": {
@@ -10738,7 +10602,7 @@
       },
       "properties": {
          "id": "pmb290563",
-         "title": "Kleines Schauspielhaus Wien",
+         "title": "Kleines Schauspielhaus",
          "lat": "48.204979",
          "lon": "16.371852",
          "timestamp": ["1924-10-10", "1924-12-23", "1928-01-26"],
@@ -12100,6 +11964,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2425, 48.003889]
+      },
+      "properties": {
+         "id": "pmb249350",
+         "title": "Bahnhof Baden bei Wien",
+         "lat": "48.003889",
+         "lon": "16.2425",
+         "timestamp": ["1921-03-18", "1922-01-03"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.369675, 48.208985]
       },
       "properties": {
@@ -12133,8 +12016,6 @@
          "lon": "16.370766",
          "timestamp": ["1927-12-13", "1930-06-27"],
          "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/E._Braun_%26_Co.", 
-        "wikidata": "http://www.wikidata.org/entity/Q1273462", 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft Shop"
       }
@@ -12763,6 +12644,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.358436, 46.496619]
+      },
+      "properties": {
+         "id": "pmb248188",
+         "title": "Stazione di Bolzano",
+         "lat": "46.496619",
+         "lon": "11.358436",
+         "timestamp": ["1925-08-06", "1925-08-15", "1927-08-10", "1927-08-15", "1927-08-17", "1927-08-22"],
+         "importance": 6, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bozen", 
+        "wikidata": "http://www.wikidata.org/entity/Q800560", 
+        "geonames": "https://sws.geonames.org/8410840/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [12.87859, 50.22011]
       },
       "properties": {
@@ -13255,8 +13156,8 @@
          "title": "Stazione di Venezia Santa Lucia",
          "lat": "45.44143",
          "lon": "12.32024",
-         "timestamp": ["1925-09-20", "1927-04-30", "1927-09-05", "1927-09-06"],
-         "importance": 4, 
+         "timestamp": ["1925-09-20", "1927-04-30", "1927-09-05"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Venezia_Santa_Lucia", 
         "wikidata": "http://www.wikidata.org/entity/Q801567", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -13329,32 +13230,14 @@
       },
       "properties": {
          "id": "pmb92602",
-         "title": "Wiedner Spital",
+         "title": "Wiednerspital",
          "lat": "48.19224",
          "lon": "16.370928",
          "timestamp": ["1923-10-19"],
          "importance": 1, 
-        "abbr": "Krankenhaus (K.KKH)", 
-        "type": "Krankenhaus Hospital", 
-        "arbeitsort": [
-         {
-
-         "p_name": "Karl Jeschke",
-
-         "p_id": "#335015"
-         }, 
-         {
-
-         "p_name": "Dora Breuer",
-
-         "p_id": "#14528"
-         }, 
-         {
-
-         "p_name": "Julius Schnitzler",
-
-         "p_id": "#12698"
-         }]
+        "wikipedia": "https://de.wikipedia.org/wiki/Wiedner_Spital", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=8896", 
+        "wikidata": "http://www.wikidata.org/entity/Q1485420"
       }
       }, 
     {
@@ -15520,6 +15403,25 @@
          "importance": 1, 
         "abbr": "Wanderweg (K.WND)", 
         "type": "Wanderweg Hiking trail"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.776666666666667, 47.59916666666667]
+      },
+      "properties": {
+         "id": "pmb263516",
+         "title": "Bahnhof Bad Aussee",
+         "lat": "47.59916666666667",
+         "lon": "13.776666666666667",
+         "timestamp": ["1921-06-16", "1921-06-19", "1921-07-26", "1921-07-30", "1921-08-24"],
+         "importance": 5, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -21501,6 +21403,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.417222, 47.072222]
+      },
+      "properties": {
+         "id": "pmb288761",
+         "title": "Graz Hauptbahnhof",
+         "lat": "47.072222",
+         "lon": "15.417222",
+         "timestamp": ["1922-06-08"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Graz_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q873836", 
+        "geonames": "https://sws.geonames.org/2778061/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.4444, 47.0748]
       },
       "properties": {
@@ -24249,6 +24171,25 @@
 
          "p_id": "#2173"
          }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.23264, 48.7672]
+      },
+      "properties": {
+         "id": "pmb245209",
+         "title": "Bahnhof Baden-Baden",
+         "lat": "48.7672",
+         "lon": "8.23264",
+         "timestamp": ["1923-06-27", "1923-07-07", "1923-08-06", "1923-08-14", "1924-06-27", "1924-07-02", "1925-01-10", "1925-06-17", "1925-06-22"],
+         "importance": 9, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Alter_Bahnhof_(Baden-Baden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q437733", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -28831,6 +28772,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.119086, 46.072606]
+      },
+      "properties": {
+         "id": "pmb147335",
+         "title": "Bahnhof Trient",
+         "lat": "46.072606",
+         "lon": "11.119086",
+         "timestamp": ["1925-07-01"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Trient", 
+        "wikidata": "http://www.wikidata.org/entity/Q1404881", 
+        "geonames": "https://www.geonames.org/8015023/stazione-di-trento.html", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.1215, 46.0669]
       },
       "properties": {
@@ -29285,7 +29246,7 @@
       },
       "properties": {
          "id": "pmb142876",
-         "title": "Sagrestia Nuova",
+         "title": "Medici-Kapelle",
          "lat": "43.775144",
          "lon": "11.253572",
          "timestamp": ["1925-09-15"],
@@ -29307,8 +29268,8 @@
          "title": "Caffè Florian",
          "lat": "45.433675",
          "lon": "12.338208333333334",
-         "timestamp": ["1925-09-17", "1925-09-18", "1927-04-21", "1927-04-23", "1927-04-24", "1927-04-27", "1927-04-28", "1927-04-29", "1927-09-08", "1927-09-09", "1927-09-12", "1927-09-13", "1928-05-01"],
-         "importance": 13, 
+         "timestamp": ["1925-09-17", "1925-09-18", "1927-04-21", "1927-04-23", "1927-04-24", "1927-04-27", "1927-04-28", "1927-04-29", "1927-09-08", "1927-09-09", "1927-09-12", "1928-05-01"],
+         "importance": 12, 
         "wikipedia": "https://de.wikipedia.org/wiki/Caff%C3%A8_Florian", 
         "wikidata": "http://www.wikidata.org/entity/Q960610", 
         "abbr": "Kaffeehaus (K.KAF)", 
@@ -30684,23 +30645,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.557296, 46.491156]
-      },
-      "properties": {
-         "id": "pmb251043",
-         "title": "Hotel National [Adelboden]",
-         "lat": "46.491156",
-         "lon": "7.557296",
-         "timestamp": ["1926-08-01", "1926-08-05"],
-         "importance": 2, 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [7.58327, 46.48885]
       },
       "properties": {
@@ -30729,6 +30673,23 @@
          "importance": 1, 
         "abbr": "Tal (N.TAL)", 
         "type": "Tal Valley"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.557296, 46.491156]
+      },
+      "properties": {
+         "id": "pmb251043",
+         "title": "Hotel National [Adelboden]",
+         "lat": "46.491156",
+         "lon": "7.557296",
+         "timestamp": ["1926-08-05"],
+         "importance": 1, 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel Hotel"
       }
       }, 
     {
@@ -31155,20 +31116,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.748607, 46.023604]
+        "coordinates": [7.75264, 45.98974]
       },
       "properties": {
          "id": "pmb34005",
          "title": "Zermatt",
-         "lat": "46.023604",
-         "lon": "7.748607",
+         "lat": "45.98974",
+         "lon": "7.75264",
          "timestamp": ["1926-08-17", "1926-08-18", "1926-08-19", "1926-08-20", "1926-08-21", "1926-08-22", "1926-08-23", "1926-08-24", "1926-08-25", "1926-08-26"],
          "importance": 10, 
         "wikipedia": "https://de.wikipedia.org/wiki/Zermatt", 
         "wikidata": "http://www.wikidata.org/entity/Q27494", 
         "geonames": "https://sws.geonames.org/2657928/", 
-        "abbr": "Besiedelter Ort (A.BSO)", 
-        "type": "Besiedelter Ort Populated place"
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -32446,24 +32407,6 @@
         "geonames": "https://sws.geonames.org/7910625/", 
         "abbr": "S.TOWR", 
         "type": "Turm Tower"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.339041666666667, 45.434013888888884]
-      },
-      "properties": {
-         "id": "pmb334171",
-         "title": "Procuratie Vecchie",
-         "lat": "45.434013888888884",
-         "lon": "12.339041666666667",
-         "timestamp": ["1927-04-29"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q105202254", 
-        "abbr": "Gebäude (K.GBD)", 
-        "type": "Gebäude Building"
       }
       }, 
     {
@@ -33883,7 +33826,7 @@
          "lon": "23.53791",
          "timestamp": ["1928-04-20"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Elefsina", 
+        "wikidata": "http://www.wikidata.org/entity/Q204905", 
         "geonames": "https://sws.geonames.org/7910522/", 
         "abbr": "S.ANS", 
         "type": "Ausgrabung Excavation site"
@@ -34318,62 +34261,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.225202802, 36.444029562]
-      },
-      "properties": {
-         "id": "pmb334262",
-         "title": "Hora",
-         "lat": "36.444029562",
-         "lon": "28.225202802",
-         "timestamp": ["1928-04-26"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q137829448", 
-        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes Part of a populated place"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [28.23, 36.442]
-      },
-      "properties": {
-         "id": "pmb334267",
-         "title": "La Juderia",
-         "lat": "36.442",
-         "lon": "28.23",
-         "timestamp": ["1928-04-26"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/La_Juderia", 
-        "wikidata": "http://www.wikidata.org/entity/Q5274717", 
-        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes Part of a populated place"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [28.22257, 36.45375]
-      },
-      "properties": {
-         "id": "pmb334272",
-         "title": "Grande Albergo delle Rose",
-         "lat": "36.45375",
-         "lon": "28.22257",
-         "timestamp": ["1928-04-26"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Grande_Albergo_delle_Rose", 
-        "wikidata": "http://www.wikidata.org/entity/Q108902071", 
-        "abbr": "Hotel (K.HTL)", 
-        "type": "Hotel Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [18.864, 40.263]
       },
       "properties": {
@@ -34420,25 +34307,6 @@
          "importance": 4, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.335933, 45.437956]
-      },
-      "properties": {
-         "id": "pmb148",
-         "title": "Ponte di Rialto",
-         "lat": "45.437956",
-         "lon": "12.335933",
-         "timestamp": ["1928-05-02"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Rialtobr%C3%BCcke", 
-        "wikidata": "http://www.wikidata.org/entity/Q52505", 
-        "abbr": "Brücke (K.BRK)", 
-        "type": "Brücke Bridge"
       }
       }, 
     {
@@ -36504,31 +36372,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.1036, 46.2574]
-      },
-      "properties": {
-         "id": "pmb299057",
-         "title": "Château de Voltaire",
-         "lat": "46.2574",
-         "lon": "6.1036",
-         "timestamp": ["1929-09-04"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q2969210", 
-        "abbr": "Schloss (K.SLS)", 
-        "type": "Schloss Palace", 
-        "wohnort": [
-         {
-
-         "p_name": " Voltaire",
-
-         "p_id": "#3124"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [6.92651454, 46.4240694]
       },
       "properties": {
@@ -37569,23 +37412,6 @@
          "lat": "48.332756",
          "lon": "16.052171",
          "timestamp": ["1930-06-09"],
-         "importance": 1, 
-        "abbr": "Gastgewerbegebäude (K.GGW)", 
-        "type": "Gastgewerbegebäude Hospitality building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.262255, 48.078617]
-      },
-      "properties": {
-         "id": "pmb239706",
-         "title": "Liechtensteinische Meierei",
-         "lat": "48.078617",
-         "lon": "16.262255",
-         "timestamp": ["1930-06-14"],
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude Hospitality building"

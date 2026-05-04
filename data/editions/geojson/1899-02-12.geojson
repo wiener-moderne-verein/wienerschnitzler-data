@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.93893, 47.67487], 
+            [16.1374028, 48.1008317], 
+            [16.397985, 48.207773], 
             [16.35736, 48.21533]
           ]
       },
@@ -14,6 +15,42 @@
         "name": "12. Februar 1899"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.397985, 48.207773]
+      },
+      "properties": {
+         "id": "pmb231967",
+         "title": "Schüttelstraße 31",
+         "lat": "48.207773",
+         "lon": "16.397985",
+         "timestamp": ["1899-02-12"],
+         "importance": 1, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße Street", 
+        "wohnort": [
+         {
+
+         "p_name": "Maria Josefa Mataja",
+
+         "p_id": "#339454"
+         }, 
+         {
+
+         "p_name": "Anton Peter Mataja",
+
+         "p_id": "#339448"
+         }, 
+         {
+
+         "p_name": "Emil Marriot",
+
+         "p_id": "#4223"
+         }]
+      }
+      },
     {
       "type": "Feature",
       "geometry": {
@@ -103,17 +140,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.93893, 47.67487]
+        "coordinates": [16.1374028, 48.1008317]
       },
       "properties": {
-         "id": "pmb90727",
-         "title": "Gloggnitz",
-         "lat": "47.67487",
-         "lon": "15.93893",
+         "id": "pmb19055",
+         "title": "Sulz im Wienerwald",
+         "lat": "48.1008317",
+         "lon": "16.1374028",
          "timestamp": ["1899-02-12"],
          "importance": 1, 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt Capital"
+        "wikipedia": "https://de.wikipedia.org/wiki/Sulz_im_Wienerwald", 
+        "wikidata": "http://www.wikidata.org/entity/Q89404717", 
+        "geonames": "https://sws.geonames.org/2764000/", 
+        "abbr": "P.PPL", 
+        "type": "Besiedelter Ort Populated place"
       }
       }
   ]

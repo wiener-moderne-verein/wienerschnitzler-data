@@ -81,6 +81,74 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.343027, 48.216238]
+      },
+      "properties": {
+         "id": "pmb339163",
+         "title": "Zimmermanngasse 10",
+         "lat": "48.216238",
+         "lon": "16.343027",
+         "timestamp": ["1888-08-25"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Maria Theresia Loibl",
+
+         "p_id": "#339178"
+         }, 
+         {
+
+         "p_name": "Christine Anna Heeger",
+
+         "p_id": "#339183"
+         }, 
+         {
+
+         "p_name": "Theobald Heeger",
+
+         "p_id": "#339174"
+         }, 
+         {
+
+         "p_name": "Emanuela Zimmermann",
+
+         "p_id": "#337718"
+         }, 
+         {
+
+         "p_name": "Anna Heeger",
+
+         "p_id": "#18007"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337778, 48.196667]
+      },
+      "properties": {
+         "id": "pmb184918",
+         "title": "Westbahnhof",
+         "lat": "48.196667",
+         "lon": "16.337778",
+         "timestamp": ["1888-08-25"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q698145", 
+        "geonames": "https://sws.geonames.org/2761331/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [2.92711, 51.2119]
       },
       "properties": {
@@ -148,8 +216,6 @@
          "lon": "3.22424",
          "timestamp": ["1888-08-17"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Br%C3%BCgge", 
-        "wikidata": "http://www.wikidata.org/entity/Q12994", 
         "geonames": "https://sws.geonames.org/2800931/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
@@ -266,6 +332,25 @@
          "importance": 3, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.23264, 48.7672]
+      },
+      "properties": {
+         "id": "pmb245209",
+         "title": "Bahnhof Baden-Baden",
+         "lat": "48.7672",
+         "lon": "8.23264",
+         "timestamp": ["1888-08-23", "1888-08-25"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Alter_Bahnhof_(Baden-Baden)", 
+        "wikidata": "http://www.wikidata.org/entity/Q437733", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {

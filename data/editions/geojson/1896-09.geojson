@@ -501,7 +501,7 @@
       },
       "properties": {
          "id": "pmb168687",
-         "title": "[Salvatorgasse 11, Absteigequartier III Marie Reinhard und Arthur Schnitzler]",
+         "title": "[Salvatorgasse 11, 1. Stiege, Tür 11, Absteigequartier III Marie Reinhard und Arthur Schnitzler]",
          "lat": "48.212551",
          "lon": "16.370721",
          "timestamp": ["1896-09-03", "1896-09-08", "1896-09-09", "1896-09-11", "1896-09-20", "1896-09-21", "1896-09-23", "1896-09-25", "1896-09-28"],
@@ -532,19 +532,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3489, 48.175]
+        "coordinates": [16.349907012393, 48.173662338636]
       },
       "properties": {
-         "id": "pmb199676",
-         "title": "Kaiser-Franz-Joseph-Spital",
-         "lat": "48.175",
-         "lon": "16.3489",
+         "id": "pmb679",
+         "title": "Kaiser-Franz-Josef-Spital",
+         "lat": "48.173662338636",
+         "lon": "16.349907012393",
          "timestamp": ["1896-09-04"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Klinik_Favoriten", 
         "wikidata": "http://www.wikidata.org/entity/Q2305900", 
-        "abbr": "T.SPIT", 
-        "type": "Landzunge Promontory"
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {

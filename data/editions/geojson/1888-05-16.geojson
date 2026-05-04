@@ -6,8 +6,11 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [15.83333, 47.7], 
-            [16.363819, 48.20334]
+            [15.84704, 47.70466], 
+            [15.864472, 47.695925], 
+            [16.379829498031, 48.187455471378], 
+            [16.363819, 48.20334], 
+            [16.343027, 48.216238]
           ]
       },
       "properties": {
@@ -18,20 +21,85 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.83333, 47.7]
+        "coordinates": [15.84704, 47.70466]
       },
       "properties": {
-         "id": "pmb483",
-         "title": "Reichenau an der Rax",
-         "lat": "47.7",
-         "lon": "15.83333",
+         "id": "pmb796",
+         "title": "Thalhof",
+         "lat": "47.70466",
+         "lon": "15.84704",
          "timestamp": ["1888-05-16"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Reichenau_an_der_Rax", 
-        "wikidata": "http://www.wikidata.org/entity/Q665243", 
-        "geonames": "https://sws.geonames.org/2767775/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet Administrative district"
+        "geonames": "https://sws.geonames.org/2763740/", 
+        "abbr": "S.HTL", 
+        "type": "Hotel Hotel"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1888-05-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.343027, 48.216238]
+      },
+      "properties": {
+         "id": "pmb339163",
+         "title": "Zimmermanngasse 10",
+         "lat": "48.216238",
+         "lon": "16.343027",
+         "timestamp": ["1888-05-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Maria Theresia Loibl",
+
+         "p_id": "#339178"
+         }, 
+         {
+
+         "p_name": "Christine Anna Heeger",
+
+         "p_id": "#339183"
+         }, 
+         {
+
+         "p_name": "Theobald Heeger",
+
+         "p_id": "#339174"
+         }, 
+         {
+
+         "p_name": "Emanuela Zimmermann",
+
+         "p_id": "#337718"
+         }, 
+         {
+
+         "p_name": "Anna Heeger",
+
+         "p_id": "#18007"
+         }]
       }
       },
     {
@@ -49,6 +117,25 @@
          "importance": 1, 
         "abbr": "Ordination", 
         "type": "Ordination Medical practice"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1888-05-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }
   ]

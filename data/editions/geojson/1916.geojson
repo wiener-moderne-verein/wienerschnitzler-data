@@ -431,8 +431,8 @@
          "title": "Bad Ischl",
          "lat": "47.71109",
          "lon": "13.61893",
-         "timestamp": ["1916-05-27", "1916-05-28", "1916-05-29", "1916-05-30", "1916-08-03", "1916-08-24", "1916-08-25", "1916-08-26", "1916-08-27", "1916-08-28", "1916-08-29", "1916-08-30", "1916-08-31", "1916-09-01", "1916-09-02", "1916-09-03", "1916-09-04", "1916-09-05", "1916-09-06", "1916-09-07", "1916-09-08", "1916-09-09", "1916-09-10", "1916-09-11", "1916-09-12", "1916-09-13", "1916-09-14", "1916-09-15", "1916-09-16", "1916-09-17", "1916-09-18", "1916-09-19", "1916-09-20", "1916-09-21", "1916-09-22", "1916-09-23", "1916-09-24", "1916-09-25", "1916-09-27", "1916-09-28"],
-         "importance": 40, 
+         "timestamp": ["1916-05-27", "1916-05-28", "1916-05-29", "1916-05-30", "1916-08-03", "1916-08-24", "1916-08-25", "1916-09-02", "1916-09-12", "1916-09-27", "1916-09-28"],
+         "importance": 11, 
         "wikipedia": "https://de.wikipedia.org/wiki/Bad_Ischl", 
         "wikidata": "http://www.wikidata.org/entity/Q250984", 
         "geonames": "https://sws.geonames.org/2782052/", 
@@ -871,6 +871,26 @@
         "geonames": "https://sws.geonames.org/2770400/", 
         "abbr": "P.PPLX", 
         "type": "Ehemaliger Ort Former place"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36667, 47.76667]
+      },
+      "properties": {
+         "id": "pmb33",
+         "title": "St. Gilgen",
+         "lat": "47.76667",
+         "lon": "13.36667",
+         "timestamp": ["1916-09-02"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sankt_Gilgen", 
+        "wikidata": "http://www.wikidata.org/entity/Q264430", 
+        "geonames": "https://sws.geonames.org/2766683/ https://sws.geonames.org/7872214/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -1466,6 +1486,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.776666666666667, 47.59916666666667]
+      },
+      "properties": {
+         "id": "pmb263516",
+         "title": "Bahnhof Bad Aussee",
+         "lat": "47.59916666666667",
+         "lon": "13.776666666666667",
+         "timestamp": ["1916-05-30", "1916-06-04", "1916-07-03", "1916-08-31", "1916-09-02", "1916-09-11", "1916-09-12", "1916-09-28"],
+         "importance": 8, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
+        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.369913, 48.208613]
       },
       "properties": {
@@ -1896,6 +1935,26 @@
         "wikidata": "http://www.wikidata.org/entity/Q2840760", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg Mountain"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.291111, 48.290556]
+      },
+      "properties": {
+         "id": "pmb264758",
+         "title": "Linz Hauptbahnhof",
+         "lat": "48.290556",
+         "lon": "14.291111",
+         "timestamp": ["1916-06-04", "1916-06-05", "1916-09-29", "1916-09-30"],
+         "importance": 4, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Linz_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q763157", 
+        "geonames": "https://sws.geonames.org/2772397/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
       }
       }, 
     {
@@ -2714,6 +2773,8 @@
          "lon": "16.370766",
          "timestamp": ["1916-05-16"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/E._Braun_%26_Co.", 
+        "wikidata": "http://www.wikidata.org/entity/Q1273462", 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft Shop"
       }
@@ -3499,25 +3560,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.776666666666667, 47.59916666666667]
-      },
-      "properties": {
-         "id": "pmb263516",
-         "title": "Bahnhof Bad Aussee",
-         "lat": "47.59916666666667",
-         "lon": "13.776666666666667",
-         "timestamp": ["1916-05-30", "1916-06-04", "1916-07-03", "1916-08-31", "1916-09-02", "1916-09-11", "1916-09-12", "1916-09-28"],
-         "importance": 8, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Aussee", 
-        "wikidata": "http://www.wikidata.org/entity/Q72823539", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.050742, 47.796032]
       },
       "properties": {
@@ -4258,26 +4300,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.291111, 48.290556]
-      },
-      "properties": {
-         "id": "pmb264758",
-         "title": "Linz Hauptbahnhof",
-         "lat": "48.290556",
-         "lon": "14.291111",
-         "timestamp": ["1916-06-04", "1916-06-05", "1916-09-29", "1916-09-30"],
-         "importance": 4, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Linz_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q763157", 
-        "geonames": "https://sws.geonames.org/2772397/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof Railway station"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.241795, 48.258917]
       },
       "properties": {
@@ -4910,6 +4932,23 @@
          "importance": 4, 
         "abbr": "Straße (K.STR)", 
         "type": "Straße Street"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.36853, 47.766001]
+      },
+      "properties": {
+         "id": "pmb1150",
+         "title": "Bahn- und Dampfschiffstation St. Gilgen",
+         "lat": "47.766001",
+         "lon": "13.36853",
+         "timestamp": ["1916-09-02"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {

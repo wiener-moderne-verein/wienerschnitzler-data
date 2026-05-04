@@ -781,45 +781,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.37049, 48.20769]
-      },
-      "properties": {
-         "id": "pmb51",
-         "title": "I., Innere Stadt",
-         "lat": "48.20769",
-         "lon": "16.37049",
-         "timestamp": ["1907-01-11", "1907-01-15", "1907-01-31", "1907-03-05", "1907-04-02", "1907-05-25", "1907-06-06", "1907-06-13", "1907-06-22", "1907-10-05", "1907-11-09", "1907-11-19", "1907-12-03"],
-         "importance": 13, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
-        "wikidata": "http://www.wikidata.org/entity/Q267329", 
-        "geonames": "https://sws.geonames.org/2775259/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet Administrative district"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.341944, 48.233056]
-      },
-      "properties": {
-         "id": "pmb533",
-         "title": "Währinger Cottage",
-         "lat": "48.233056",
-         "lon": "16.341944",
-         "timestamp": ["1907-12-02", "1907-12-04"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
-        "wikidata": "http://www.wikidata.org/entity/Q1136683", 
-        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
-        "type": "Teil eines besiedelten Ortes Part of a populated place"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [15.864472, 47.695925]
       },
       "properties": {
@@ -853,6 +814,45 @@
         "geonames": "https://sws.geonames.org/2769182/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37049, 48.20769]
+      },
+      "properties": {
+         "id": "pmb51",
+         "title": "I., Innere Stadt",
+         "lat": "48.20769",
+         "lon": "16.37049",
+         "timestamp": ["1907-01-11", "1907-01-15", "1907-01-31", "1907-03-05", "1907-04-02", "1907-05-25", "1907-06-06", "1907-06-13", "1907-06-22", "1907-10-05", "1907-11-09", "1907-11-19", "1907-12-03"],
+         "importance": 13, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Innere_Stadt_(Wien)", 
+        "wikidata": "http://www.wikidata.org/entity/Q267329", 
+        "geonames": "https://sws.geonames.org/2775259/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet Administrative district"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.341944, 48.233056]
+      },
+      "properties": {
+         "id": "pmb533",
+         "title": "Währinger Cottage",
+         "lat": "48.233056",
+         "lon": "16.341944",
+         "timestamp": ["1907-12-02", "1907-12-04"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Cottageviertel", 
+        "wikidata": "http://www.wikidata.org/entity/Q1136683", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes Part of a populated place"
       }
       }, 
     {
@@ -1071,6 +1071,49 @@
         "wikidata": "http://www.wikidata.org/entity/Q68752772", 
         "abbr": "Friedhof (K.FRH)", 
         "type": "Friedhof Cemetery"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1907-01-27", "1907-01-29", "1907-02-05", "1907-03-07", "1907-04-04", "1907-06-11", "1907-09-17", "1907-11-30"],
+         "importance": 8, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
+
+         "p_id": "#335100"
+         }, 
+         {
+
+         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
+
+         "p_id": "#335138"
+         }]
       }
       }, 
     {
@@ -1677,18 +1720,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.52346, 46.83649]
+        "coordinates": [13.518333, 46.818888888889]
       },
       "properties": {
          "id": "pmb34824",
-         "title": "Seeboden",
-         "lat": "46.83649",
-         "lon": "13.52346",
+         "title": "Seeboden am Millstättersee",
+         "lat": "46.818888888889",
+         "lon": "13.518333",
          "timestamp": ["1907-07-03"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2765286/", 
-        "abbr": "A.ADM3", 
-        "type": "Verwaltungsgebiet Administrative district"
+        "wikipedia": "https://de.wikipedia.org/wiki/Seeboden_am_Millst%C3%A4tter_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q660576", 
+        "geonames": "https://sws.geonames.org/7872791/", 
+        "abbr": "Besiedelter Ort (A.BSO)", 
+        "type": "Besiedelter Ort Populated place"
       }
       }, 
     {
@@ -1715,18 +1760,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.17266, 46.73781]
+        "coordinates": [12.17139, 46.73813]
       },
       "properties": {
-         "id": "pmb91350",
+         "id": "pmb40556",
          "title": "Niederdorf",
-         "lat": "46.73781",
-         "lon": "12.17266",
+         "lat": "46.73813",
+         "lon": "12.17139",
          "timestamp": ["1907-07-16"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/3164301/", 
-        "abbr": "P.PPLA3", 
-        "type": "Hauptstadt Capital"
+        "wikipedia": "https://de.wikipedia.org/wiki/Niederdorf_(S%C3%BCdtirol)", 
+        "wikidata": "http://www.wikidata.org/entity/Q504724", 
+        "geonames": "https://sws.geonames.org/6535940/ https://sws.geonames.org/3164301/", 
+        "abbr": "A.ADM3", 
+        "type": "Verwaltungsgebiet Administrative district"
       }
       }, 
     {
@@ -1800,49 +1847,6 @@
         "geonames": "https://sws.geonames.org/3165269/", 
         "abbr": "T.PASS", 
         "type": "Pass Pass"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.368738, 48.213038]
-      },
-      "properties": {
-         "id": "pmb207296",
-         "title": "Tiefer Graben 23",
-         "lat": "48.213038",
-         "lon": "16.368738",
-         "timestamp": ["1907-01-27", "1907-01-29", "1907-02-05", "1907-03-07", "1907-04-04", "1907-06-11", "1907-09-17", "1907-11-30"],
-         "importance": 8, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude Residential building", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
-
-         "p_id": "#335100"
-         }, 
-         {
-
-         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
-
-         "p_id": "#335138"
-         }]
       }
       }, 
     {

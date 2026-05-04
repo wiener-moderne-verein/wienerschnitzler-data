@@ -6,8 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [16.343027, 48.216238], 
             [16.363819, 48.20334], 
-            [13.7666, 51.0833]
+            [16.388608096065, 48.229100570727], 
+            [13.731666666667, 51.040277777778]
           ]
       },
       "properties": {
@@ -18,20 +20,85 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.7666, 51.0833]
+        "coordinates": [13.731666666667, 51.040277777778]
       },
       "properties": {
-         "id": "pmb866",
-         "title": "Dresden",
-         "lat": "51.0833",
-         "lon": "13.7666",
+         "id": "pmb248646",
+         "title": "Dresden Hauptbahnhof",
+         "lat": "51.040277777778",
+         "lon": "13.731666666667",
          "timestamp": ["1888-05-13"],
          "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Dresden", 
-        "wikidata": "http://www.wikidata.org/entity/Q1731", 
-        "geonames": "https://sws.geonames.org/2935020/ https://sws.geonames.org/2935022/", 
-        "abbr": "P.PPLA", 
-        "type": "Besiedelter Ort Populated place"
+        "wikipedia": "https://de.wikipedia.org/wiki/Dresden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q704354", 
+        "geonames": "https://sws.geonames.org/8015333/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.388608096065, 48.229100570727]
+      },
+      "properties": {
+         "id": "pmb426",
+         "title": "Nordbahnhof",
+         "lat": "48.229100570727",
+         "lon": "16.388608096065",
+         "timestamp": ["1888-05-13"],
+         "importance": 1, 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.343027, 48.216238]
+      },
+      "properties": {
+         "id": "pmb339163",
+         "title": "Zimmermanngasse 10",
+         "lat": "48.216238",
+         "lon": "16.343027",
+         "timestamp": ["1888-05-13"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Maria Theresia Loibl",
+
+         "p_id": "#339178"
+         }, 
+         {
+
+         "p_name": "Christine Anna Heeger",
+
+         "p_id": "#339183"
+         }, 
+         {
+
+         "p_name": "Theobald Heeger",
+
+         "p_id": "#339174"
+         }, 
+         {
+
+         "p_name": "Emanuela Zimmermann",
+
+         "p_id": "#337718"
+         }, 
+         {
+
+         "p_name": "Anna Heeger",
+
+         "p_id": "#18007"
+         }]
       }
       },
     {

@@ -144,6 +144,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1902-01-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.372564182283, 48.201265597319]
       },
       "properties": {
@@ -1058,6 +1077,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1902-01-27", "1902-03-15", "1902-05-15", "1902-08-10", "1902-09-25", "1902-09-28", "1902-11-24", "1902-12-02", "1902-12-04"],
+         "importance": 9, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
+
+         "p_id": "#335100"
+         }, 
+         {
+
+         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
+
+         "p_id": "#335138"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.300034240016, 48.246838181084]
       },
       "properties": {
@@ -1375,8 +1437,8 @@
          "title": "Rodaun",
          "lat": "48.132793312328",
          "lon": "16.256152195922",
-         "timestamp": ["1902-01-19", "1902-01-22", "1902-01-27", "1902-02-05", "1902-03-20", "1902-04-21", "1902-04-24", "1902-04-28", "1902-05-01", "1902-05-09", "1902-05-18", "1902-05-30", "1902-06-17", "1902-06-21", "1902-06-22", "1902-07-29", "1902-08-02", "1902-08-10", "1902-08-18", "1902-08-21", "1902-09-14", "1902-09-19"],
-         "importance": 22, 
+         "timestamp": ["1902-01-19", "1902-01-22", "1902-01-27", "1902-02-05", "1902-03-20", "1902-04-21", "1902-04-24", "1902-04-28", "1902-05-01", "1902-05-04", "1902-05-09", "1902-05-18", "1902-05-30", "1902-06-17", "1902-06-21", "1902-06-22", "1902-07-29", "1902-08-02", "1902-08-10", "1902-08-18", "1902-08-21", "1902-09-14", "1902-09-19"],
+         "importance": 23, 
         "wikipedia": "https://de.wikipedia.org/wiki/Rodaun", 
         "wikidata": "http://www.wikidata.org/entity/Q2160909", 
         "geonames": "https://sws.geonames.org/2767332/", 
@@ -1821,19 +1883,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3489, 48.175]
+        "coordinates": [16.349907012393, 48.173662338636]
       },
       "properties": {
-         "id": "pmb199676",
-         "title": "Kaiser-Franz-Joseph-Spital",
-         "lat": "48.175",
-         "lon": "16.3489",
+         "id": "pmb679",
+         "title": "Kaiser-Franz-Josef-Spital",
+         "lat": "48.173662338636",
+         "lon": "16.349907012393",
          "timestamp": ["1902-03-10"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Klinik_Favoriten", 
         "wikidata": "http://www.wikidata.org/entity/Q2305900", 
-        "abbr": "T.SPIT", 
-        "type": "Landzunge Promontory"
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -1949,6 +2018,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.2954, 48.0856]
+      },
+      "properties": {
+         "id": "pmb252697",
+         "title": "Bahnhof Mödling",
+         "lat": "48.0856",
+         "lon": "16.2954",
+         "timestamp": ["1902-01-16"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q18668081", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.33787, 48.19653]
       },
       "properties": {
@@ -2016,6 +2103,8 @@
          "lon": "16.1374028",
          "timestamp": ["1902-07-27"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Sulz_im_Wienerwald", 
+        "wikidata": "http://www.wikidata.org/entity/Q89404717", 
         "geonames": "https://sws.geonames.org/2764000/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
@@ -2100,6 +2189,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.397985, 48.207773]
+      },
+      "properties": {
+         "id": "pmb231967",
+         "title": "Schüttelstraße 31",
+         "lat": "48.207773",
+         "lon": "16.397985",
+         "timestamp": ["1902-05-13", "1902-05-31"],
+         "importance": 2, 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße Street", 
+        "wohnort": [
+         {
+
+         "p_name": "Maria Josefa Mataja",
+
+         "p_id": "#339454"
+         }, 
+         {
+
+         "p_name": "Anton Peter Mataja",
+
+         "p_id": "#339448"
+         }, 
+         {
+
+         "p_name": "Emil Marriot",
+
+         "p_id": "#4223"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.364283, 48.201813]
       },
       "properties": {
@@ -2144,49 +2269,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q240744", 
         "abbr": "Friedhof (K.FRH)", 
         "type": "Friedhof Cemetery"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.368738, 48.213038]
-      },
-      "properties": {
-         "id": "pmb207296",
-         "title": "Tiefer Graben 23",
-         "lat": "48.213038",
-         "lon": "16.368738",
-         "timestamp": ["1902-03-15", "1902-05-15", "1902-09-25", "1902-09-28", "1902-11-24", "1902-12-02", "1902-12-04"],
-         "importance": 7, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude Residential building", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
-
-         "p_id": "#335100"
-         }, 
-         {
-
-         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
-
-         "p_id": "#335138"
-         }]
       }
       }, 
     {
@@ -2772,8 +2854,8 @@
          "title": "Hotel Kursalon Mödling",
          "lat": "48.08389",
          "lon": "16.279684",
-         "timestamp": ["1902-01-16", "1902-02-04", "1902-02-05", "1902-02-06", "1902-02-19", "1902-02-25", "1902-02-26"],
-         "importance": 7, 
+         "timestamp": ["1902-01-16", "1902-01-27", "1902-02-04", "1902-02-05", "1902-02-06", "1902-02-19", "1902-02-25", "1902-02-26"],
+         "importance": 8, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel Hotel"
       }
@@ -2789,8 +2871,8 @@
          "title": "Willergasse 2",
          "lat": "48.139276",
          "lon": "16.257741",
-         "timestamp": ["1902-01-19", "1902-01-22", "1902-02-05", "1902-05-18", "1902-05-30", "1902-06-17", "1902-06-21", "1902-07-29", "1902-08-02", "1902-08-04", "1902-08-10", "1902-08-18", "1902-08-21"],
-         "importance": 13, 
+         "timestamp": ["1902-01-19", "1902-01-22", "1902-01-27", "1902-02-05", "1902-05-18", "1902-05-30", "1902-06-17", "1902-06-21", "1902-07-29", "1902-08-02", "1902-08-04", "1902-08-10", "1902-08-18", "1902-08-21"],
+         "importance": 14, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude Residential building", 
         "wohnort": [
@@ -3148,42 +3230,6 @@
         "geonames": "https://sws.geonames.org/2601299/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.397985, 48.207773]
-      },
-      "properties": {
-         "id": "pmb231967",
-         "title": "Schüttelstraße 31",
-         "lat": "48.207773",
-         "lon": "16.397985",
-         "timestamp": ["1902-05-13", "1902-05-31"],
-         "importance": 2, 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße Street", 
-        "wohnort": [
-         {
-
-         "p_name": "Maria Josefa Mataja",
-
-         "p_id": "#339454"
-         }, 
-         {
-
-         "p_name": "Anton Peter Mataja",
-
-         "p_id": "#339448"
-         }, 
-         {
-
-         "p_name": "Emil Marriot",
-
-         "p_id": "#4223"
-         }]
       }
       }, 
     {

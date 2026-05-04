@@ -166,7 +166,9 @@
          "lon": "16.08107",
          "timestamp": ["1896-06-07"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2770711/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Neunkirchen_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q265948", 
+        "geonames": "https://sws.geonames.org/2770711/ https://sws.geonames.org/7871866/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
       }
@@ -248,6 +250,42 @@
          "importance": 1, 
         "abbr": "Gastgewerbegebäude (K.GGW)", 
         "type": "Gastgewerbegebäude Hospitality building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.375924, 48.208656]
+      },
+      "properties": {
+         "id": "pmb190427",
+         "title": "Wollzeile 15 (»Berthahof«)",
+         "lat": "48.208656",
+         "lon": "16.375924",
+         "timestamp": ["1896-06-18"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }, 
+         {
+
+         "p_name": "Richard Beer-Hofmann",
+
+         "p_id": "#10863"
+         }]
       }
       }, 
     {
@@ -512,7 +550,7 @@
       },
       "properties": {
          "id": "pmb168687",
-         "title": "[Salvatorgasse 11, Absteigequartier III Marie Reinhard und Arthur Schnitzler]",
+         "title": "[Salvatorgasse 11, 1. Stiege, Tür 11, Absteigequartier III Marie Reinhard und Arthur Schnitzler]",
          "lat": "48.212551",
          "lon": "16.370721",
          "timestamp": ["1896-06-02", "1896-06-10", "1896-06-12", "1896-06-22", "1896-06-23"],
@@ -561,19 +599,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3489, 48.175]
+        "coordinates": [16.349907012393, 48.173662338636]
       },
       "properties": {
-         "id": "pmb199676",
-         "title": "Kaiser-Franz-Joseph-Spital",
-         "lat": "48.175",
-         "lon": "16.3489",
+         "id": "pmb679",
+         "title": "Kaiser-Franz-Josef-Spital",
+         "lat": "48.173662338636",
+         "lon": "16.349907012393",
          "timestamp": ["1896-06-11"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Klinik_Favoriten", 
         "wikidata": "http://www.wikidata.org/entity/Q2305900", 
-        "abbr": "T.SPIT", 
-        "type": "Landzunge Promontory"
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {

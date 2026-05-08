@@ -667,7 +667,9 @@
          "lon": "14.1425",
          "timestamp": ["1901-08-27", "1901-08-28", "1901-08-29"],
          "importance": 3, 
-        "geonames": "https://sws.geonames.org/2768497/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/P%C3%B6rtschach_am_W%C3%B6rther_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q875805", 
+        "geonames": "https://sws.geonames.org/2768497/ https://sws.geonames.org/7871636/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
       }
@@ -987,8 +989,8 @@
          "title": "Mayerhofgasse 12",
          "lat": "48.192766",
          "lon": "16.368913",
-         "timestamp": ["1901-01-03", "1901-10-02"],
-         "importance": 2, 
+         "timestamp": ["1901-10-02"],
+         "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude Residential building", 
         "wohnort": [
@@ -1170,6 +1172,49 @@
         "wikidata": "http://www.wikidata.org/entity/Q68752772", 
         "abbr": "Friedhof (K.FRH)", 
         "type": "Friedhof Cemetery"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1901-04-28", "1901-09-01", "1901-12-27"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
+
+         "p_id": "#335100"
+         }, 
+         {
+
+         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
+
+         "p_id": "#335138"
+         }]
       }
       }, 
     {
@@ -1826,19 +1871,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3489, 48.175]
+        "coordinates": [16.349907012393, 48.173662338636]
       },
       "properties": {
-         "id": "pmb199676",
-         "title": "Kaiser-Franz-Joseph-Spital",
-         "lat": "48.175",
-         "lon": "16.3489",
+         "id": "pmb679",
+         "title": "Kaiser-Franz-Josef-Spital",
+         "lat": "48.173662338636",
+         "lon": "16.349907012393",
          "timestamp": ["1901-09-19"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Klinik_Favoriten", 
         "wikidata": "http://www.wikidata.org/entity/Q2305900", 
-        "abbr": "T.SPIT", 
-        "type": "Landzunge Promontory"
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -1862,6 +1914,12 @@
          "p_name": "Helene Schnitzler",
 
          "p_id": "#24423"
+         }, 
+         {
+
+         "p_name": "Richard Winterstein",
+
+         "p_id": "#27228"
          }]
       }
       }, 
@@ -2167,6 +2225,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.367639, 48.209208]
+      },
+      "properties": {
+         "id": "pmb207235",
+         "title": "Wiener Schachclub [Wallnerstraße 2]",
+         "lat": "48.209208",
+         "lon": "16.367639",
+         "timestamp": ["1901-01-26", "1901-02-27"],
+         "importance": 2, 
+        "abbr": "Vereinslokal (K.VRN)", 
+        "type": ""
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.805582, 47.689132]
       },
       "properties": {
@@ -2179,49 +2254,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q132938395", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel Hotel"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.368738, 48.213038]
-      },
-      "properties": {
-         "id": "pmb207296",
-         "title": "Tiefer Graben 23",
-         "lat": "48.213038",
-         "lon": "16.368738",
-         "timestamp": ["1901-04-28", "1901-09-01"],
-         "importance": 2, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude Residential building", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
-
-         "p_id": "#335100"
-         }, 
-         {
-
-         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
-
-         "p_id": "#335138"
-         }]
       }
       }, 
     {
@@ -3879,7 +3911,7 @@
       },
       "properties": {
          "id": "pmb140806",
-         "title": "Kathedrale von Florenz",
+         "title": "Cattedrale di Santa Maria del Fiore",
          "lat": "43.77381",
          "lon": "11.25592",
          "timestamp": ["1901-04-13"],
@@ -3957,7 +3989,7 @@
       },
       "properties": {
          "id": "pmb231514",
-         "title": "Bargello",
+         "title": "Museo Nazionale del Bargello",
          "lat": "43.770462",
          "lon": "11.25787",
          "timestamp": ["1901-04-14"],
@@ -4503,6 +4535,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.394933, 46.49113]
+      },
+      "properties": {
+         "id": "pmb231596",
+         "title": "Gasthof Eggentaler",
+         "lat": "46.49113",
+         "lon": "11.394933",
+         "timestamp": ["1901-07-22", "1901-07-23"],
+         "importance": 2, 
+        "abbr": "Beherbergungsgebäude (K.BHB)", 
+        "type": "Beherbergungsgebäude Accommodation building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [11.39295, 46.49336]
       },
       "properties": {
@@ -4535,23 +4584,6 @@
         "geonames": "https://sws.geonames.org/3180522/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.394933, 46.49113]
-      },
-      "properties": {
-         "id": "pmb231596",
-         "title": "Gasthof Eggentaler",
-         "lat": "46.49113",
-         "lon": "11.394933",
-         "timestamp": ["1901-07-23", "1901-07-24"],
-         "importance": 2, 
-        "abbr": "Beherbergungsgebäude (K.BHB)", 
-        "type": "Beherbergungsgebäude Accommodation building"
       }
       }, 
     {

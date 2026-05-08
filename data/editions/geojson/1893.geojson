@@ -477,6 +477,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.391263, 48.206662]
+      },
+      "properties": {
+         "id": "pmb107",
+         "title": "Sofiensäle",
+         "lat": "48.206662",
+         "lon": "16.391263",
+         "timestamp": ["1893-01-11"],
+         "importance": 1, 
+        "abbr": "Veranstaltungsgebäude (K.VSB)", 
+        "type": "Veranstaltungsgebäude Event venue"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.430054, 48.194558]
       },
       "properties": {
@@ -780,7 +797,9 @@
          "lon": "14.1425",
          "timestamp": ["1893-08-27"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2768497/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/P%C3%B6rtschach_am_W%C3%B6rther_See", 
+        "wikidata": "http://www.wikidata.org/entity/Q875805", 
+        "geonames": "https://sws.geonames.org/2768497/ https://sws.geonames.org/7871636/", 
         "abbr": "P.PPL", 
         "type": "Besiedelter Ort Populated place"
       }
@@ -963,9 +982,29 @@
          "lon": "14.30515",
          "timestamp": ["1893-03-01", "1893-03-02", "1893-03-03", "1893-03-04", "1893-03-05", "1893-03-06", "1893-03-07", "1893-03-08", "1893-03-09", "1893-03-10", "1893-03-11"],
          "importance": 11, 
-        "geonames": "https://sws.geonames.org/3194099/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Opatija", 
+        "wikidata": "http://www.wikidata.org/entity/Q223353", 
+        "geonames": "https://sws.geonames.org/3194097/", 
         "abbr": "P.PPLA2", 
         "type": "Hauptstadt Capital"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.405, 48.21108]
+      },
+      "properties": {
+         "id": "pmb294370",
+         "title": "Pertl’s Drittes Kaffeehaus",
+         "lat": "48.21108",
+         "lon": "16.405",
+         "timestamp": ["1893-06-09"],
+         "importance": 1, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Drittes_Kaffeehaus", 
+        "abbr": "Kaffeehaus (K.KAF)", 
+        "type": "Kaffeehaus Coffee house"
       }
       }, 
     {
@@ -1318,9 +1357,9 @@
         "arbeitsort": [
          {
 
-         "p_name": "Marie Pichler",
+         "p_name": "Maria Pichler",
 
-         "p_id": "#167879"
+         "p_id": "#22529"
          }, 
          {
 
@@ -1427,7 +1466,9 @@
          "lon": "16.08107",
          "timestamp": ["1893-08-31"],
          "importance": 1, 
-        "geonames": "https://sws.geonames.org/2770711/", 
+        "wikipedia": "https://de.wikipedia.org/wiki/Neunkirchen_(Nieder%C3%B6sterreich)", 
+        "wikidata": "http://www.wikidata.org/entity/Q265948", 
+        "geonames": "https://sws.geonames.org/2770711/ https://sws.geonames.org/7871866/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
       }
@@ -1560,8 +1601,8 @@
          "title": "Meissl & Schadn",
          "lat": "48.206416",
          "lon": "16.371211",
-         "timestamp": ["1893-10-07"],
-         "importance": 1, 
+         "timestamp": ["1893-09-27", "1893-10-07"],
+         "importance": 2, 
         "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Meissl_%26_Schadn", 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel Hotel"
@@ -1578,8 +1619,8 @@
          "title": "Café Griensteidl",
          "lat": "48.208258",
          "lon": "16.366111",
-         "timestamp": ["1893-03-12"],
-         "importance": 1, 
+         "timestamp": ["1893-03-12", "1893-09-27", "1893-09-28"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Caf%C3%A9_Griensteidl", 
         "wikidata": "http://www.wikidata.org/entity/Q877029", 
         "abbr": "Kaffeehaus (K.KAF)", 
@@ -2004,6 +2045,12 @@
         "abbr": "Straße (K.STR)", 
         "type": "Straße Street", 
         "wohnort": [
+         {
+
+         "p_name": "Rosa Wiesenhofer",
+
+         "p_id": "#27096"
+         }, 
          {
 
          "p_name": "Friedrich Michael Fels",
@@ -2643,6 +2690,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368333, 48.2125]
+      },
+      "properties": {
+         "id": "pmb50825",
+         "title": "Tiefer Graben",
+         "lat": "48.2125",
+         "lon": "16.368333",
+         "timestamp": ["1893-06-11"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Tiefer_Graben_(Wien)", 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=24484", 
+        "wikidata": "http://www.wikidata.org/entity/Q1601355", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße Street"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.2652, 48.080769]
       },
       "properties": {
@@ -2937,6 +3004,23 @@
         "geonames": "https://sws.geonames.org/2768348/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.21662, 48.006132]
+      },
+      "properties": {
+         "id": "pmb299027",
+         "title": "Wirtschaft Deisenhofer",
+         "lat": "48.006132",
+         "lon": "16.21662",
+         "timestamp": ["1893-08-20"],
+         "importance": 1, 
+        "abbr": "Gastgewerbegebäude (K.GGW)", 
+        "type": "Gastgewerbegebäude Hospitality building"
       }
       }, 
     {

@@ -72,8 +72,8 @@
          "title": "Südbahnhof",
          "lat": "48.187455471378",
          "lon": "16.379829498031",
-         "timestamp": ["1909-04-03", "1909-06-30", "1909-07-05", "1909-07-06", "1909-07-09", "1909-07-10", "1909-07-14", "1909-07-15"],
-         "importance": 8, 
+         "timestamp": ["1909-04-03", "1909-06-30", "1909-07-05", "1909-07-06", "1909-07-09", "1909-07-10", "1909-07-14", "1909-07-15", "1909-08-21"],
+         "importance": 9, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q519025", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -1005,6 +1005,49 @@
          "p_name": "Richard Beer-Hofmann",
 
          "p_id": "#10863"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1909-02-13", "1909-09-28", "1909-11-18"],
+         "importance": 3, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
+
+         "p_id": "#335100"
+         }, 
+         {
+
+         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
+
+         "p_id": "#335138"
          }]
       }
       }, 
@@ -1991,49 +2034,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.368738, 48.213038]
-      },
-      "properties": {
-         "id": "pmb207296",
-         "title": "Tiefer Graben 23",
-         "lat": "48.213038",
-         "lon": "16.368738",
-         "timestamp": ["1909-02-13", "1909-09-28", "1909-11-18"],
-         "importance": 3, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude Residential building", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
-
-         "p_id": "#335100"
-         }, 
-         {
-
-         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
-
-         "p_id": "#335138"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [15.76452, 47.67383]
       },
       "properties": {
@@ -2065,6 +2065,25 @@
         "wikidata": "http://www.wikidata.org/entity/Q1787021", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg Mountain"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.2425, 48.003889]
+      },
+      "properties": {
+         "id": "pmb249350",
+         "title": "Bahnhof Baden bei Wien",
+         "lat": "48.003889",
+         "lon": "16.2425",
+         "timestamp": ["1909-10-03"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
+        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -2597,6 +2616,26 @@
          "importance": 22, 
         "abbr": "Vergnügungseinrichtung", 
         "type": "Vergnügungseinrichtung Entertainment facility"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.731666666667, 51.040277777778]
+      },
+      "properties": {
+         "id": "pmb248646",
+         "title": "Dresden Hauptbahnhof",
+         "lat": "51.040277777778",
+         "lon": "13.731666666667",
+         "timestamp": ["1909-04-24", "1909-04-25"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Dresden_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q704354", 
+        "geonames": "https://sws.geonames.org/8015333/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
       }
       }, 
     {
@@ -4340,26 +4379,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.731666666667, 51.040277777778]
-      },
-      "properties": {
-         "id": "pmb248646",
-         "title": "Dresden Hauptbahnhof",
-         "lat": "51.040277777778",
-         "lon": "13.731666666667",
-         "timestamp": ["1909-04-24", "1909-04-25"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Dresden_Hauptbahnhof", 
-        "wikidata": "http://www.wikidata.org/entity/Q704354", 
-        "geonames": "https://sws.geonames.org/8015333/", 
-        "abbr": "S.RSTN", 
-        "type": "Bahnhof Railway station"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.734229, 51.036259]
       },
       "properties": {
@@ -5265,25 +5284,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.2425, 48.003889]
-      },
-      "properties": {
-         "id": "pmb249350",
-         "title": "Bahnhof Baden bei Wien",
-         "lat": "48.003889",
-         "lon": "16.2425",
-         "timestamp": ["1909-10-03"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Baden_bei_Wien", 
-        "wikidata": "http://www.wikidata.org/entity/Q32173155", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [16.365099999999998, 48.212019444444444]
       },
       "properties": {
@@ -5545,6 +5545,8 @@
          "lon": "16.370766",
          "timestamp": ["1909-12-16"],
          "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/E._Braun_%26_Co.", 
+        "wikidata": "http://www.wikidata.org/entity/Q1273462", 
         "abbr": "Geschäft (K.GES)", 
         "type": "Geschäft Shop"
       }

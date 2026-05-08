@@ -6,7 +6,10 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [28.224111111111, 36.445694444444]
+            [28.224111111111, 36.445694444444], 
+            [28.225202802, 36.444029562], 
+            [28.23, 36.442], 
+            [28.22257, 36.45375]
           ]
       },
       "properties": {
@@ -30,6 +33,62 @@
         "wikidata": "http://www.wikidata.org/entity/Q931371", 
         "abbr": "Gebäude (K.GBD)", 
         "type": "Gebäude Building"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.225202802, 36.444029562]
+      },
+      "properties": {
+         "id": "pmb334262",
+         "title": "Hora",
+         "lat": "36.444029562",
+         "lon": "28.225202802",
+         "timestamp": ["1928-04-26"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q137829448", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes Part of a populated place"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.23, 36.442]
+      },
+      "properties": {
+         "id": "pmb334267",
+         "title": "La Juderia",
+         "lat": "36.442",
+         "lon": "28.23",
+         "timestamp": ["1928-04-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/La_Juderia", 
+        "wikidata": "http://www.wikidata.org/entity/Q5274717", 
+        "abbr": "Teil eines besiedelten Ortes (A.BSOX)", 
+        "type": "Teil eines besiedelten Ortes Part of a populated place"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.22257, 36.45375]
+      },
+      "properties": {
+         "id": "pmb334272",
+         "title": "Grande Albergo delle Rose",
+         "lat": "36.45375",
+         "lon": "28.22257",
+         "timestamp": ["1928-04-26"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Grande_Albergo_delle_Rose", 
+        "wikidata": "http://www.wikidata.org/entity/Q108902071", 
+        "abbr": "Hotel (K.HTL)", 
+        "type": "Hotel Hotel"
       }
       }
   ]

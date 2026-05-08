@@ -270,6 +270,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.368738, 48.213038]
+      },
+      "properties": {
+         "id": "pmb207296",
+         "title": "Tiefer Graben 23",
+         "lat": "48.213038",
+         "lon": "16.368738",
+         "timestamp": ["1902-03-15"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Max Schwarzkopf",
+
+         "p_id": "#24648"
+         }, 
+         {
+
+         "p_name": "Gustav Schwarzkopf",
+
+         "p_id": "#12740"
+         }], 
+        "arbeitsort": [
+         {
+
+         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
+
+         "p_id": "#335100"
+         }, 
+         {
+
+         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
+
+         "p_id": "#335138"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.342154562605, 48.250804274577]
       },
       "properties": {
@@ -425,19 +468,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3489, 48.175]
+        "coordinates": [16.349907012393, 48.173662338636]
       },
       "properties": {
-         "id": "pmb199676",
-         "title": "Kaiser-Franz-Joseph-Spital",
-         "lat": "48.175",
-         "lon": "16.3489",
+         "id": "pmb679",
+         "title": "Kaiser-Franz-Josef-Spital",
+         "lat": "48.173662338636",
+         "lon": "16.349907012393",
          "timestamp": ["1902-03-10"],
          "importance": 1, 
         "wikipedia": "https://de.wikipedia.org/wiki/Klinik_Favoriten", 
         "wikidata": "http://www.wikidata.org/entity/Q2305900", 
-        "abbr": "T.SPIT", 
-        "type": "Landzunge Promontory"
+        "abbr": "Krankenhaus (K.KKH)", 
+        "type": "Krankenhaus Hospital", 
+        "arbeitsort": [
+         {
+
+         "p_name": "Julius Schnitzler",
+
+         "p_id": "#12698"
+         }]
       }
       }, 
     {
@@ -458,49 +508,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q240744", 
         "abbr": "Friedhof (K.FRH)", 
         "type": "Friedhof Cemetery"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.368738, 48.213038]
-      },
-      "properties": {
-         "id": "pmb207296",
-         "title": "Tiefer Graben 23",
-         "lat": "48.213038",
-         "lon": "16.368738",
-         "timestamp": ["1902-03-15"],
-         "importance": 1, 
-        "abbr": "Wohngebäude (K.WHS)", 
-        "type": "Wohngebäude Residential building", 
-        "wohnort": [
-         {
-
-         "p_name": "Max Schwarzkopf",
-
-         "p_id": "#24648"
-         }, 
-         {
-
-         "p_name": "Gustav Schwarzkopf",
-
-         "p_id": "#12740"
-         }], 
-        "arbeitsort": [
-         {
-
-         "p_name": " ?? [Köchin von Gustav und Max Schwarzkopf, 1900]",
-
-         "p_id": "#335100"
-         }, 
-         {
-
-         "p_name": " ?? [Köchin von Gustav Schwarzkopf, 1893]",
-
-         "p_id": "#335138"
-         }]
       }
       }, 
     {

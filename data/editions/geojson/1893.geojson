@@ -70,8 +70,8 @@
          "title": "Salzburg",
          "lat": "47.80067",
          "lon": "13.04532",
-         "timestamp": ["1893-09-16", "1893-09-17", "1893-09-18", "1893-09-19"],
-         "importance": 4, 
+         "timestamp": ["1893-07-02", "1893-07-15", "1893-09-16", "1893-09-17", "1893-09-18", "1893-09-19"],
+         "importance": 6, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg", 
         "wikidata": "http://www.wikidata.org/entity/Q34713", 
         "geonames": "https://sws.geonames.org/2766818/", 
@@ -127,8 +127,8 @@
          "title": "Hauptbahnhof Salzburg",
          "lat": "47.813139",
          "lon": "13.045769",
-         "timestamp": ["1893-09-19"],
-         "importance": 1, 
+         "timestamp": ["1893-07-02", "1893-07-15", "1893-09-19"],
+         "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Salzburg_Hauptbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q694694", 
         "abbr": "Bahnhofsgebäude (K.BHF)", 
@@ -233,6 +233,25 @@
         "geonames": "https://sws.geonames.org/2774321/ https://sws.geonames.org/2774326/", 
         "abbr": "P.PPLA", 
         "type": "Besiedelter Ort Populated place"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.379829498031, 48.187455471378]
+      },
+      "properties": {
+         "id": "pmb132",
+         "title": "Südbahnhof",
+         "lat": "48.187455471378",
+         "lon": "16.379829498031",
+         "timestamp": ["1893-08-22", "1893-08-31"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Wien_S%C3%BCdbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q519025", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -1048,6 +1067,36 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.383322, 48.212726]
+      },
+      "properties": {
+         "id": "pmb339289",
+         "title": "Aspernbrückengasse 5",
+         "lat": "48.212726",
+         "lon": "16.383322",
+         "timestamp": ["1893-02-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Albert Spitzer",
+
+         "p_id": "#339304"
+         }, 
+         {
+
+         "p_name": "Rudolf Lothar",
+
+         "p_id": "#2570"
+         }]
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.36714, 48.19198]
       },
       "properties": {
@@ -1075,8 +1124,8 @@
          "title": "Westbahnhof",
          "lat": "48.196667",
          "lon": "16.337778",
-         "timestamp": ["1893-07-16", "1893-09-16", "1893-09-19"],
-         "importance": 3, 
+         "timestamp": ["1893-07-01", "1893-07-16", "1893-09-16", "1893-09-19"],
+         "importance": 4, 
         "wikipedia": "https://de.wikipedia.org/wiki/Wien_Westbahnhof", 
         "wikidata": "http://www.wikidata.org/entity/Q698145", 
         "geonames": "https://sws.geonames.org/2761331/", 
@@ -2797,6 +2846,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.6273, 47.7122]
+      },
+      "properties": {
+         "id": "pmb248791",
+         "title": "Bahnhof Bad Ischl",
+         "lat": "47.7122",
+         "lon": "13.6273",
+         "timestamp": ["1893-07-02", "1893-07-15"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
+        "wikidata": "http://www.wikidata.org/entity/Q800426", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [13.61438, 47.67203]
       },
       "properties": {
@@ -2877,25 +2945,6 @@
          "importance": 1, 
         "abbr": "Wohngebäude (K.WHS)", 
         "type": "Wohngebäude Residential building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.6273, 47.7122]
-      },
-      "properties": {
-         "id": "pmb248791",
-         "title": "Bahnhof Bad Ischl",
-         "lat": "47.7122",
-         "lon": "13.6273",
-         "timestamp": ["1893-07-15"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl", 
-        "wikidata": "http://www.wikidata.org/entity/Q800426", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -3175,6 +3224,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [16.085094, 47.731578]
+      },
+      "properties": {
+         "id": "pmb339356",
+         "title": "Bahnhof Neunkirchen [Niederösterreich]",
+         "lat": "47.731578",
+         "lon": "16.085094",
+         "timestamp": ["1893-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Neunkirchen_N.%C3%96.", 
+        "wikidata": "http://www.wikidata.org/entity/Q59647814", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.417222, 47.072222]
+      },
+      "properties": {
+         "id": "pmb288761",
+         "title": "Graz Hauptbahnhof",
+         "lat": "47.072222",
+         "lon": "15.417222",
+         "timestamp": ["1893-08-31"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Graz_Hauptbahnhof", 
+        "wikidata": "http://www.wikidata.org/entity/Q873836", 
+        "geonames": "https://sws.geonames.org/2778061/", 
+        "abbr": "S.RSTN", 
+        "type": "Bahnhof Railway station"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1893-08-31"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [14.61667, 47.58333]
       },
       "properties": {
@@ -3207,6 +3313,23 @@
         "wikidata": "http://www.wikidata.org/entity/Q130472844", 
         "abbr": "Veranstaltungsgebäude (K.VSB)", 
         "type": "Veranstaltungsgebäude Event venue"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.201441, 48.012689]
+      },
+      "properties": {
+         "id": "pmb298935",
+         "title": "Helenenstraße 71",
+         "lat": "48.012689",
+         "lon": "16.201441",
+         "timestamp": ["1893-09-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building"
       }
       }, 
     {

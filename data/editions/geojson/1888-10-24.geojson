@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.36362, 48.20329]
+            [16.36362, 48.20329], 
+            [16.3695, 48.211391]
           ]
       },
       "properties": {
@@ -28,6 +29,30 @@
          "importance": 1, 
         "abbr": "Ordination", 
         "type": "Ordination Medical practice"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3695, 48.211391]
+      },
+      "properties": {
+         "id": "pmb340669",
+         "title": "Judenplatz 5",
+         "lat": "48.211391",
+         "lon": "16.3695",
+         "timestamp": ["1888-10-24"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Edmund Markbreiter",
+
+         "p_id": "#3814"
+         }]
       }
       }
   ]

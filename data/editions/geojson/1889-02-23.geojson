@@ -6,7 +6,8 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [16.36362, 48.20329]
+            [16.36362, 48.20329], 
+            [16.383322, 48.212726]
           ]
       },
       "properties": {
@@ -28,6 +29,36 @@
          "importance": 1, 
         "abbr": "Ordination", 
         "type": "Ordination Medical practice"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.383322, 48.212726]
+      },
+      "properties": {
+         "id": "pmb339289",
+         "title": "Aspernbrückengasse 5",
+         "lat": "48.212726",
+         "lon": "16.383322",
+         "timestamp": ["1889-02-23"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Albert Spitzer",
+
+         "p_id": "#339304"
+         }, 
+         {
+
+         "p_name": "Rudolf Lothar",
+
+         "p_id": "#2570"
+         }]
       }
       }
   ]

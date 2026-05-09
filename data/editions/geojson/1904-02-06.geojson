@@ -6,8 +6,9 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
-            [13.385556, 52.518889], 
+            [13.3484335741, 52.50038315], 
             [13.389182, 52.513294], 
+            [13.385556, 52.518889], 
             [13.38789, 52.52074], 
             [13.387871, 52.524582], 
             [13.382222, 52.524444]
@@ -107,6 +108,36 @@
          "importance": 1, 
         "abbr": "S.REST", 
         "type": "Restaurant Restaurant"
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3484335741, 52.50038315]
+      },
+      "properties": {
+         "id": "pmb340619",
+         "title": "Kleiststraße 27",
+         "lat": "52.50038315",
+         "lon": "13.3484335741",
+         "timestamp": ["1904-02-06"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Eugen d’Albert",
+
+         "p_id": "#27633"
+         }, 
+         {
+
+         "p_name": "Ida d’Albert",
+
+         "p_id": "#2537"
+         }]
       }
       }
   ]

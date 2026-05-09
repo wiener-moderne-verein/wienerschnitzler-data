@@ -191,4 +191,27 @@
    <delete>
         <fileset dir="${target}" includes="**/*.xml"/>
     </delete>
+
+    <!-- GeoJSON-Einzeldateien nach Jahrzehnt, Monat, Jahr und Tag -->
+    <java jar="./saxon/saxon-he-12.5.jar" fork="true">
+        <arg value="-s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml"/>
+        <arg value="-xsl:./xslts/GeoJSON/distinct_to_decades.xsl"/>
+        <arg value="-o:./data/editions/geojson/dummy.out"/>
+    </java>
+    <java jar="./saxon/saxon-he-12.5.jar" fork="true">
+        <arg value="-s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml"/>
+        <arg value="-xsl:./xslts/GeoJSON/distinct_to_months.xsl"/>
+        <arg value="-o:./data/editions/geojson/dummy.out"/>
+    </java>
+    <java jar="./saxon/saxon-he-12.5.jar" fork="true">
+        <arg value="-s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml"/>
+        <arg value="-xsl:./xslts/GeoJSON/distinct_to_years.xsl"/>
+        <arg value="-o:./data/editions/geojson/dummy.out"/>
+    </java>
+    <java jar="./saxon/saxon-he-12.5.jar" fork="true">
+        <arg value="-s:./data/editions/xml/wienerschnitzler_complete_nested.xml"/>
+        <arg value="-xsl:./xslts/GeoJSON/complete_nested_to_single_day.xsl"/>
+        <arg value="-o:./data/editions/geojson/dummy.out"/>
+    </java>
+
 </project>

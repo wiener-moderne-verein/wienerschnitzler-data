@@ -1019,6 +1019,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.83064, 47.63961]
+      },
+      "properties": {
+         "id": "pmb238255",
+         "title": "Bahnhof Semmering",
+         "lat": "47.63961",
+         "lon": "15.83064",
+         "timestamp": ["1906-09-17", "1906-09-20"],
+         "importance": 2, 
+        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [16.35736, 48.21533]
       },
       "properties": {
@@ -1810,24 +1828,6 @@
         "wikidata": "http://www.wikidata.org/entity/Q2141902", 
         "abbr": "Berg (N.BRG)", 
         "type": "Berg Mountain"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.83064, 47.63961]
-      },
-      "properties": {
-         "id": "pmb238255",
-         "title": "Bahnhof Semmering",
-         "lat": "47.63961",
-         "lon": "15.83064",
-         "timestamp": ["1906-09-17", "1906-09-20"],
-         "importance": 2, 
-        "wikidata": "http://www.wikidata.org/entity/Q83706074", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -3486,6 +3486,36 @@
          "importance": 1, 
         "abbr": "Oper (K.OPR)", 
         "type": "Oper Opera house"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.350899, 52.509326]
+      },
+      "properties": {
+         "id": "pmb340613",
+         "title": "Stülerstraße 14",
+         "lat": "52.509326",
+         "lon": "13.350899",
+         "timestamp": ["1906-02-22"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Nina Magnus",
+
+         "p_id": "#20833"
+         }, 
+         {
+
+         "p_name": "Ernst Magnus",
+
+         "p_id": "#20832"
+         }]
       }
       }, 
     {

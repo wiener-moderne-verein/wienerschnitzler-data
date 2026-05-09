@@ -6,12 +6,13 @@
       "geometry": {
         "type": "LineString", 
         "coordinates": [
+            [13.3484335741, 52.50038315], 
             [13.36042, 52.498402], 
             [13.38534, 52.47289], 
             [13.388194, 52.521572], 
             [13.385556, 52.518889], 
-            [13.384577, 52.51861], 
-            [13.383708, 52.516981]
+            [13.383708, 52.516981], 
+            [13.384577, 52.51861]
           ]
       },
       "properties": {
@@ -126,6 +127,36 @@
          "p_name": "Samuel Fischer",
 
          "p_id": "#11324"
+         }]
+      }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3484335741, 52.50038315]
+      },
+      "properties": {
+         "id": "pmb340619",
+         "title": "Kleiststraße 27",
+         "lat": "52.50038315",
+         "lon": "13.3484335741",
+         "timestamp": ["1904-02-16"],
+         "importance": 1, 
+        "abbr": "Wohngebäude (K.WHS)", 
+        "type": "Wohngebäude Residential building", 
+        "wohnort": [
+         {
+
+         "p_name": "Eugen d’Albert",
+
+         "p_id": "#27633"
+         }, 
+         {
+
+         "p_name": "Ida d’Albert",
+
+         "p_id": "#2537"
          }]
       }
       }

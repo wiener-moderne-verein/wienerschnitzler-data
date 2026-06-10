@@ -470,7 +470,7 @@
       },
       "properties": {
          "id": "pmb4",
-         "title": "Bösendorfer-Saal",
+         "title": "Bösendorfer Saal",
          "lat": "48.209167",
          "lon": "16.366111",
          "timestamp": ["1911-02-09", "1911-03-02", "1911-03-03", "1911-03-05", "1911-03-07", "1911-03-14", "1911-03-26", "1911-04-04", "1911-10-27", "1911-12-06", "1912-02-08", "1912-03-11", "1912-03-15", "1912-04-12", "1912-10-15", "1912-11-17", "1912-12-03", "1912-12-11", "1912-12-27", "1913-01-18", "1913-05-02"],
@@ -1747,6 +1747,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1911-06-29", "1915-07-24", "1919-08-07", "1919-08-17", "1919-09-08", "1919-09-12", "1920-06-21", "1920-06-24", "1920-07-26", "1920-07-28"],
+         "importance": 10, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.8634, 47.69209]
       },
       "properties": {
@@ -1761,25 +1780,6 @@
         "geonames": "https://sws.geonames.org/2769182/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.864472, 47.695925]
-      },
-      "properties": {
-         "id": "pmb147590",
-         "title": "Bahnhof Payerbach-Reichenau",
-         "lat": "47.695925",
-         "lon": "15.864472",
-         "timestamp": ["1911-06-29", "1915-07-24", "1919-08-07", "1919-08-17", "1919-09-08", "1919-09-12", "1920-06-21", "1920-06-24", "1920-07-26", "1920-07-28"],
-         "importance": 10, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
-        "wikidata": "http://www.wikidata.org/entity/Q801311", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -8480,31 +8480,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.337917, 48.228096]
-      },
-      "properties": {
-         "id": "pmb40694",
-         "title": "Gentzgasse",
-         "lat": "48.228096",
-         "lon": "16.337917",
-         "timestamp": ["1913-04-25", "1919-06-26"],
-         "importance": 2, 
-        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gentzgasse", 
-        "abbr": "Straße (K.STR)", 
-        "type": "Straße Street", 
-        "wohnort": [
-         {
-
-         "p_name": "Egon Friedell",
-
-         "p_id": "#2771"
-         }]
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [13.373611, 52.51]
       },
       "properties": {
@@ -8853,6 +8828,24 @@
         "geonames": "https://sws.geonames.org/2765816/", 
         "abbr": "T.MTS", 
         "type": "Gebirge Mountain range"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.910319, 47.790413]
+      },
+      "properties": {
+         "id": "pmb353148",
+         "title": "Bahnhof Puchberg am Schneeberg",
+         "lat": "47.790413",
+         "lon": "15.910319",
+         "timestamp": ["1912-07-09"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q111172015", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -17688,6 +17681,31 @@
          "importance": 4, 
         "abbr": "Hotel (K.HTL)", 
         "type": "Hotel Hotel"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337917, 48.228096]
+      },
+      "properties": {
+         "id": "pmb40694",
+         "title": "Gentzgasse",
+         "lat": "48.228096",
+         "lon": "16.337917",
+         "timestamp": ["1913-04-25", "1919-06-26"],
+         "importance": 2, 
+        "wiengeschichtewiki": "https://www.geschichtewiki.wien.gv.at/Gentzgasse", 
+        "abbr": "Straße (K.STR)", 
+        "type": "Straße Street", 
+        "wohnort": [
+         {
+
+         "p_name": "Egon Friedell",
+
+         "p_id": "#2771"
+         }]
       }
       }, 
     {

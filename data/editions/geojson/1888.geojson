@@ -218,7 +218,7 @@
          "title": "Carl-Theater",
          "lat": "48.215",
          "lon": "16.384444",
-         "timestamp": ["1888-01-30", "1888-02-15", "1888-03-03"],
+         "timestamp": ["1888-01-30", "1888-02-15", "1888-03-04"],
          "importance": 3, 
         "wikipedia": "https://de.wikipedia.org/wiki/Carltheater", 
         "wikidata": "http://www.wikidata.org/entity/Q877699", 
@@ -247,7 +247,7 @@
       },
       "properties": {
          "id": "pmb4",
-         "title": "Bösendorfer-Saal",
+         "title": "Bösendorfer Saal",
          "lat": "48.209167",
          "lon": "16.366111",
          "timestamp": ["1888-01-07", "1888-03-26"],
@@ -738,6 +738,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1888-05-16"],
+         "importance": 1, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.8634, 47.69209]
       },
       "properties": {
@@ -752,25 +771,6 @@
         "geonames": "https://sws.geonames.org/2769182/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.864472, 47.695925]
-      },
-      "properties": {
-         "id": "pmb147590",
-         "title": "Bahnhof Payerbach-Reichenau",
-         "lat": "47.695925",
-         "lon": "15.864472",
-         "timestamp": ["1888-05-16"],
-         "importance": 1, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
-        "wikidata": "http://www.wikidata.org/entity/Q801311", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {

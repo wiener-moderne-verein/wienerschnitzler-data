@@ -199,7 +199,7 @@
       },
       "properties": {
          "id": "pmb4",
-         "title": "Bösendorfer-Saal",
+         "title": "Bösendorfer Saal",
          "lat": "48.209167",
          "lon": "16.366111",
          "timestamp": ["1904-01-03", "1904-01-08", "1904-01-22", "1904-02-01", "1904-03-06", "1904-03-14", "1904-12-01", "1904-12-02", "1904-12-20"],
@@ -591,6 +591,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [15.864472, 47.695925]
+      },
+      "properties": {
+         "id": "pmb147590",
+         "title": "Bahnhof Payerbach-Reichenau",
+         "lat": "47.695925",
+         "lon": "15.864472",
+         "timestamp": ["1904-07-16", "1904-07-23"],
+         "importance": 2, 
+        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
+        "wikidata": "http://www.wikidata.org/entity/Q801311", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [15.8634, 47.69209]
       },
       "properties": {
@@ -605,25 +624,6 @@
         "geonames": "https://sws.geonames.org/2769182/", 
         "abbr": "P.PPLA3", 
         "type": "Hauptstadt Capital"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.864472, 47.695925]
-      },
-      "properties": {
-         "id": "pmb147590",
-         "title": "Bahnhof Payerbach-Reichenau",
-         "lat": "47.695925",
-         "lon": "15.864472",
-         "timestamp": ["1904-07-16", "1904-07-23"],
-         "importance": 2, 
-        "wikipedia": "https://de.wikipedia.org/wiki/Bahnhof_Payerbach-Reichenau", 
-        "wikidata": "http://www.wikidata.org/entity/Q801311", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {
@@ -4219,24 +4219,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.49776667, 43.60743333]
-      },
-      "properties": {
-         "id": "pmb339367",
-         "title": "Bahnhof Ancona",
-         "lat": "43.60743333",
-         "lon": "13.49776667",
-         "timestamp": ["1904-05-03"],
-         "importance": 1, 
-        "wikidata": "http://www.wikidata.org/entity/Q3968877", 
-        "abbr": "Bahnhofsgebäude (K.BHF)", 
-        "type": "Bahnhofsgebäude Railway station building"
-      }
-      }, 
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [12.501755, 41.900648]
       },
       "properties": {
@@ -4251,6 +4233,24 @@
         "geonames": "https://sws.geonames.org/3169044/", 
         "abbr": "S.RSTN", 
         "type": "Bahnhof Railway station"
+      }
+      }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.49776667, 43.60743333]
+      },
+      "properties": {
+         "id": "pmb339367",
+         "title": "Bahnhof Ancona",
+         "lat": "43.60743333",
+         "lon": "13.49776667",
+         "timestamp": ["1904-05-03"],
+         "importance": 1, 
+        "wikidata": "http://www.wikidata.org/entity/Q3968877", 
+        "abbr": "Bahnhofsgebäude (K.BHF)", 
+        "type": "Bahnhofsgebäude Railway station building"
       }
       }, 
     {

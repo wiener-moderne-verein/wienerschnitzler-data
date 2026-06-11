@@ -6,10 +6,6 @@ temp
 temp-input
 CLAUDE.md
 ./claude
-data/editions/geojson/dummy.out
-data/editions/geojson/days/
-# Nach abgeschlossener Frontend-Migration (siehe FRONTEND-MIGRATION.md)
-# werden die generierten Ergebnisdaten nur noch auf dem data-Branch
-# publiziert; dann die folgende Zeile aktivieren und die Dateien mit
-# `git rm -r --cached data/editions` aus der Versionierung nehmen:
-# data/editions/
+# Generierte Ergebnisdaten werden nur auf dem data-Branch publiziert
+# (siehe FRONTEND-MIGRATION.md), auf main nicht versioniert:
+data/editions/

@@ -6,6 +6,11 @@ Dieses Repository enthält georeferenzierte Daten, die eine taggenaue Darstellun
 
 Die Daten werden im Rahmen des Forschungsprojekts „Wiener Schnitzler – Schnitzlers Wien“ (Oktober 2024 bis Februar 2025) erstellt. Das Projekt wird mit einer Förderung der Stadt Wien Kultur unterstützt.
 
+## Branches
+
+* __main__ contains the source data (`input-data/`, `data/indices/`) and the transformation pipeline.
+* __data__ contains the generated output data (`data/editions/`). It is recreated as a single commit by the update workflow on every run, so always fetch the latest state from there, e.g. `https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-data/data/data/editions/...`
+
 ## XML Data
 
 The repository includes three XML files containing the complete data ('./data/editions/xml'):
@@ -21,20 +26,20 @@ In the folder ('./data/indices/') is __listplace.xml__ – an abbreviated versio
 
 Several derivative files are generated from the XML files above, mostly by referencing coordinates and idno values from the listplace.xml file found in the input-data folder. These files include:
 
-* Files for each __day__, named using the ISO date format (e.g., 1888-01-24.geojson).
+* Day bundles per __year__ in `geojson/days/` (e.g., `days/1888.json`): a JSON object with one GeoJSON FeatureCollection per documented day, keyed by ISO date (`{"1888-01-24": {"type": "FeatureCollection", ...}, ...}`). These replace the former ~19,600 per-day files (`1888-01-24.geojson`).
 * Files for each __month__ (e.g., 1903-12.geojson).
 * Files for each __year__ (e.g., 1890.geojson).
 * Files for each __decade__ from 1871 to 1929 (e.g., 1921-1930.geojson).
 
 * __wienerschnitzler_distinctPlaces.geojson__ see above
 
+All GeoJSON output is minified. Days or periods with fewer than two distinct coordinate pairs contain no LineString feature (a one-point "line" would violate RFC 7946).
 
 ## JSON
 
 * __wienerschnitzler_timeline.json__ contains an element for each stay. Adjacent days are combined to a timespan, i.e. "1888-01-01/1888-01-03". the property "type" differentiates
 * between larger geographic entitities "p" (country, city, village) vs. "a" for smaller ones (streets, houses, monuments)
-* __uebersicht.json__ contains the eventName for each day and a counter that counts the numbers of distinct
-* places from this very day
+* __uebersicht.json__ contains, for each day, the list of places ("places", as a preformatted German string) and a counter ("weight") for the number of distinct places of that day
 
 ## Import Data ##
 

@@ -24,27 +24,22 @@
             <xsl:variable name="decade" select="concat($start-year, '-', $end-year)"/>
             <!-- Erstellen der GeoJSON-Datei -->
             <xsl:result-document href="{$decade}.geojson"
-                method="text">
-                <xsl:text>{</xsl:text>
-                <xsl:text>&#10;  "type": "FeatureCollection",</xsl:text>
-                <xsl:text>&#10;  "features": [</xsl:text>
-                <!-- Wiederherstellen des Kontexts und Filtern der passenden Events -->
-                <xsl:for-each
-                    select="$listPlaceGesamt/tei:place[mam:koordinaten-vorhanden(@xml:id) and tei:listEvent[1]/tei:event[number(substring(@when, 1, 4)) &gt;= number($start-year) and number(substring(@when, 1, 4)) &lt;= number($end-year)][1]]">
-                    <xsl:variable name="place" as="node()">
-                        <xsl:element name="tei:place">
-                            <xsl:copy-of select="key('listplace-lookup', @xml:id, $listplace)/@*"/>
-                            <xsl:copy-of select="key('listplace-lookup', @xml:id, $listplace)/*"/>
-                            <xsl:copy-of select="tei:listEvent"/>
-                        </xsl:element>
-                    </xsl:variable>
-                    <xsl:value-of select="mam:macht-punkt($place, 'decade', $start-year, $end-year)"/>
-                    <xsl:if test="not(position() = last())">
-                        <xsl:text>, </xsl:text>
-                    </xsl:if>
-                </xsl:for-each>
-                <xsl:text>&#10;  ]</xsl:text>
-                <xsl:text>&#10;}</xsl:text>
+                method="json">
+                <xsl:variable name="features" as="map(*)*">
+                    <xsl:for-each
+                        select="$listPlaceGesamt/tei:place[mam:koordinaten-vorhanden(@xml:id) and tei:listEvent[1]/tei:event[number(substring(@when, 1, 4)) &gt;= number($start-year) and number(substring(@when, 1, 4)) &lt;= number($end-year)][1]]">
+                        <xsl:variable name="place" as="node()">
+                            <xsl:element name="tei:place">
+                                <xsl:copy-of select="key('listplace-lookup', @xml:id, $listplace)/@*"/>
+                                <xsl:copy-of select="key('listplace-lookup', @xml:id, $listplace)/*"/>
+                                <xsl:copy-of select="tei:listEvent"/>
+                            </xsl:element>
+                        </xsl:variable>
+                        <xsl:sequence select="mam:macht-punkt($place, 'decade', $start-year, $end-year)"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:sequence
+                    select="map { 'type': 'FeatureCollection', 'features': array { $features } }"/>
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>

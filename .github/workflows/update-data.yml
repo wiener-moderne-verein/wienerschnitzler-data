@@ -33,50 +33,26 @@ jobs:
 
       - name: Build mit Ant ausführen
         run: ant -f build.xml
-      
-      - name: Distinct to decades
-        run: |
-          java -jar saxon/saxon-he-12.5.jar \
-            -s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml \
-            -xsl:./xslts/GeoJSON/distinct_to_decades.xsl \
-            -o:./data/editions/geojson/dummy.out
 
-      - name: Distinct to months
+      - name: Quelldaten auf main committen
         run: |
-          java -jar saxon/saxon-he-12.5.jar \
-            -s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml \
-            -xsl:./xslts/GeoJSON/distinct_to_months.xsl \
-            -o:./data/editions/geojson/dummy.out
-
-      - name: Distinct to years
-        run: |
-          java -jar saxon/saxon-he-12.5.jar \
-            -s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml \
-            -xsl:./xslts/GeoJSON/distinct_to_years.xsl \
-            -o:./data/editions/geojson/dummy.out
-
-      - name: Distinct to months
-        run: |
-          java -jar saxon/saxon-he-12.5.jar \
-            -s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml \
-            -xsl:./xslts/GeoJSON/distinct_to_months.xsl \
-            -o:./data/editions/geojson/dummy.out
-
-      - name: completeNested to single days
-        run: |
-          java -jar saxon/saxon-he-12.5.jar \
-            -s:./data/editions/xml/wienerschnitzler_complete_nested.xml \
-            -xsl:./xslts/GeoJSON/complete_nested_to_single_day.xsl \
-            -o:./data/editions/geojson/dummy.out
-
-      - name: Änderungen committen und pushen
-        run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git config --global user.name "github-actions"
-            git config --global user.email "github-actions@github.com"
-            git add .
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add input-data data/indices
+          if ! git diff --cached --quiet; then
             git commit -m "Update durch Workflow"
             git push
           else
-            echo "Keine Änderungen im Daten-Ordner, Commit wird übersprungen."
+            echo "Keine Änderungen an den Quelldaten, Commit wird übersprungen."
           fi
+
+      - name: Ergebnisdaten auf data-Branch publizieren
+        # Der data-Branch besteht immer nur aus einem einzigen Commit
+        # (Force-Push), damit die Repository-Historie nicht mit
+        # regenerierten Dateien anwächst.
+        run: |
+          git checkout --orphan data-deploy
+          git reset
+          git add -f data README.md LICENSE
+          git commit -m "Datenstand $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push --force origin data-deploy:data

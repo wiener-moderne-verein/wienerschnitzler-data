@@ -4,8 +4,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mam="whatever"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="json tei">
-    <!-- Output format: plain text -->
-    <xsl:output method="text" indent="yes"/>
+    <!-- Output format: JSON (minified) -->
+    <xsl:output method="json"/>
     <xsl:mode on-no-match="shallow-skip"/>
     <xsl:import href="./partial/geoJSON-punkt.xsl"/>
     <xsl:param name="listplace" select="document('../../data/indices/listplace.xml')"/>
@@ -13,28 +13,23 @@
         match="tei:TEI/tei:text[1]/tei:body[1]/tei:listPlace[1]/tei:place" use="@xml:id"/>
     <!-- Root template to generate the entire GeoJSON output -->
     <xsl:template match="/">
-        <xsl:text>{</xsl:text>
-        <xsl:text>&#10;  "type": "FeatureCollection",</xsl:text>
-        <xsl:text>&#10;  "features": [</xsl:text>
         <!-- Process all places with coordinates and events -->
         <xsl:variable name="listPlaceGesamt" select="descendant::tei:body/tei:listPlace" as="node()"/>
-        <xsl:for-each
-            select="$listPlaceGesamt/tei:place[mam:koordinaten-vorhanden(@xml:id) and tei:listEvent[1]/tei:event]">
-            <xsl:variable name="place" as="node()">
-                <xsl:element name="tei:place">
-                    <xsl:copy-of select="key('listplace-lookup', @xml:id, $listplace)/@*"/>
-                    <xsl:copy-of select="key('listplace-lookup', @xml:id, $listplace)/*"/>
-                    <xsl:copy-of select="tei:listEvent"/>
-                </xsl:element>
-            </xsl:variable>
-            <xsl:value-of
-                select="mam:macht-punkt($place, 'complete', descendant::tei:event/@when, descendant::tei:event/@when)"/>
-            <xsl:if test="not(position() = last())">
-                <xsl:text>, </xsl:text>
-            </xsl:if>
-        </xsl:for-each>
-        <xsl:text>&#10;  ]</xsl:text>
-        <xsl:text>&#10;}</xsl:text>
+        <xsl:variable name="features" as="map(*)*">
+            <xsl:for-each
+                select="$listPlaceGesamt/tei:place[mam:koordinaten-vorhanden(@xml:id) and tei:listEvent[1]/tei:event]">
+                <xsl:variable name="place" as="node()">
+                    <xsl:element name="tei:place">
+                        <xsl:copy-of select="key('listplace-lookup', @xml:id, $listplace)/@*"/>
+                        <xsl:copy-of select="key('listplace-lookup', @xml:id, $listplace)/*"/>
+                        <xsl:copy-of select="tei:listEvent"/>
+                    </xsl:element>
+                </xsl:variable>
+                <xsl:sequence select="mam:macht-punkt($place, 'complete', '', '')"/>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:sequence
+            select="map { 'type': 'FeatureCollection', 'features': array { $features } }"/>
     </xsl:template>
     <!-- Function to check if coordinates are present -->
     <xsl:function name="mam:koordinaten-vorhanden" as="xs:boolean">

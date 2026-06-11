@@ -8,6 +8,7 @@
     <!-- Zielverzeichnis für die finale Ausgabe der Kaskade -->
     <mkdir dir="data/editions/xml"/>
     <mkdir dir="data/editions/geojson"/>
+    <mkdir dir="data/editions/geojson/days"/>
     <mkdir dir="data/editions/csv"/>
 
     <!-- Vorher vorhandene XML-Dateien aus dem Zielverzeichnis löschen -->
@@ -192,7 +193,7 @@
         <fileset dir="${target}" includes="**/*.xml"/>
     </delete>
 
-    <!-- GeoJSON-Einzeldateien nach Jahrzehnt, Monat, Jahr und Tag -->
+    <!-- GeoJSON-Einzeldateien nach Jahrzehnt, Monat und Jahr sowie Jahresbündel der Tage -->
     <java jar="./saxon/saxon-he-12.5.jar" fork="true">
         <arg value="-s:./data/editions/xml/wienerschnitzler_distinctPlaces.xml"/>
         <arg value="-xsl:./xslts/GeoJSON/distinct_to_decades.xsl"/>
@@ -210,8 +211,9 @@
     </java>
     <java jar="./saxon/saxon-he-12.5.jar" fork="true">
         <arg value="-s:./data/editions/xml/wienerschnitzler_complete_nested.xml"/>
-        <arg value="-xsl:./xslts/GeoJSON/complete_nested_to_single_day.xsl"/>
+        <arg value="-xsl:./xslts/GeoJSON/complete_nested_to_year_bundles.xsl"/>
         <arg value="-o:./data/editions/geojson/dummy.out"/>
     </java>
+    <delete file="./data/editions/geojson/dummy.out"/>
 
 </project>

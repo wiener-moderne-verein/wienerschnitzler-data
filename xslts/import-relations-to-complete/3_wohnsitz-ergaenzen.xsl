@@ -34,8 +34,8 @@
                 <end_date>1893-11-14</end_date>
             </item>
             <item>
-                <target_label>Kärntnerring 12/Bösendorferstraße 11</target_label>
-                <target_id>167805</target_id>
+                <target_label>Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11</target_label>
+                <target_id>167789</target_id>
                 <start_date>1889-12-03</start_date>
                 <end_date>1892-10-14</end_date>
             </item>

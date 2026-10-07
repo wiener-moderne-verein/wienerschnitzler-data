@@ -11,14 +11,14 @@
             <availability>
                <p>CC BY</p>
             </availability>
-            <date when="2026-10-05Z">2026-10-05Z</date>
+            <date when="2026-10-07Z">2026-10-07Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>This file’s contents are derived from data available in the PMB web service (https://pmb.acdh.oeaw.ac.at/), with only minor adjustments and additions made after export.</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when-iso="2026-10-05">serialized</change>
+         <change when-iso="2026-10-07">serialized</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -19943,12 +19943,16 @@
             </place>
             <place xml:id="pmb416">
                <placeName>Café Walther</placeName>
-               <placeName type="legacy-name-merge">Café Walter</placeName>
+               <placeName type="ort_namensvariante">Grazer Straße 133</placeName>
                <desc type="entity_type">Kaffeehaus (K.KAF)</desc>
                <desc type="entity_type_literal">Kaffeehaus Coffee house</desc>
                <desc type="entity_type_id">20</desc>
                <location type="coords">
                   <geo>47,709528 13,618338</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb1220">Grazer Straße [Bad Ischl]</placeName>
+                  <geo>47,70918 13,62156</geo>
                </location>
                <location type="located_in_place">
                   <placeName key="pmb213">Bad Ischl</placeName>
@@ -123391,6 +123395,8 @@
             <place xml:id="pmb34387">
                <placeName>Villa Annerl</placeName>
                <placeName type="ort_fruherer-name">Gästehaus Dr. Schachl</placeName>
+               <placeName type="ort_namensvariante">Fischerndorf 79</placeName>
+               <placeName type="ort_namensvariante">Haus Anderl</placeName>
                <desc type="entity_type">Gebäude (K.GBD)</desc>
                <desc type="entity_type_literal">Gebäude Building</desc>
                <desc type="entity_type_id">24</desc>

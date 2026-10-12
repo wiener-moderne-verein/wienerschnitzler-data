@@ -11,14 +11,14 @@
             <availability>
                <p>CC BY</p>
             </availability>
-            <date when="2026-10-07Z">2026-10-07Z</date>
+            <date when="2026-10-12Z">2026-10-12Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>This file’s contents are derived from data available in the PMB web service (https://pmb.acdh.oeaw.ac.at/), with only minor adjustments and additions made after export.</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when-iso="2026-10-07">serialized</change>
+         <change when-iso="2026-10-12">serialized</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -39698,6 +39698,27 @@
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb405441">
+               <placeName>Grazer Straße 6 [Bad Ischl]</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_literal">Wohngebäude Residential building</desc>
+               <desc type="entity_type_id">36</desc>
+               <location type="coords">
+                  <geo>47,70908 13,621631</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb1220">Grazer Straße [Bad Ischl]</placeName>
+                  <geo>47,70918 13,62156</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb213">Bad Ischl</placeName>
+                  <geo>47,71109 13,61893</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405441/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb1220">
                <placeName>Grazer Straße [Bad Ischl]</placeName>
                <desc type="entity_type">Straße (K.STR)</desc>
@@ -52601,7 +52622,7 @@
                <desc type="entity_type_literal">Hotel Hotel</desc>
                <desc type="entity_type_id">12</desc>
                <location type="coords">
-                  <geo>47,790882 15,913644</geo>
+                  <geo>7,790882 15,913644</geo>
                </location>
                <location type="located_in_place">
                   <placeName key="pmb48761">Puchberg am Schneeberg</placeName>
@@ -85513,50 +85534,6 @@
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
-            </place>
-            <place xml:id="pmb167789">
-               <placeName>Ordination Arthur Schnitzler [Bösendorferstraße 11]</placeName>
-               <desc type="entity_type">Ordination</desc>
-               <desc type="entity_type_literal">Ordination Medical practice</desc>
-               <desc type="entity_type_id">3442</desc>
-               <location type="coords">
-                  <geo>48,2012 16,37188</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb51">I., Innere Stadt</placeName>
-                  <geo>48,20769 16,37049</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb501">Kärntnerring</placeName>
-                  <geo>48,201874800905 16,371985203093</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb542">Bösendorferstraße</placeName>
-                  <geo>48,201213 16,371141</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb167805">Kärntnerring 12/Bösendorferstraße 11</placeName>
-                  <geo>48,20143 16,37196</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/144330/</idno>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/167789/</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb167789.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb167789.html</idno>
-               <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
-               </listBibl>
-               <note type="apis_dates">
-                  <date to-iso="1892-10-14">1889-11-03 – 1892-10-14</date>
-               </note>
-               <noteGrp>
-                  <note type="arbeitet">
-                     <persName>
-                        <surname>Schnitzler</surname>
-                        <forename>Arthur</forename>
-                     </persName>
-                  </note>
-               </noteGrp>
             </place>
             <place xml:id="pmb234083">
                <placeName>Orecchio di Dionisio</placeName>
@@ -120124,8 +120101,8 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb113.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2464508</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb113.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb113.html</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/T%C3%BCrkenschanzpark</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb113.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -130404,9 +130381,9 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92085/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q681099</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Windischgarsten</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb39930.html</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92085.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb92085.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb39930.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -131187,6 +131164,50 @@
                         <forename>Arthur</forename>
                      </persName>
                   </note>
+                  <note type="arbeitet">
+                     <persName>
+                        <surname>Schnitzler</surname>
+                        <forename>Arthur</forename>
+                     </persName>
+                  </note>
+               </noteGrp>
+            </place>
+            <place xml:id="pmb167789">
+               <placeName>Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11</placeName>
+               <desc type="entity_type">Ordination</desc>
+               <desc type="entity_type_literal">Ordination Medical practice</desc>
+               <desc type="entity_type_id">3442</desc>
+               <location type="coords">
+                  <geo>48,2012 16,37188</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb501">Kärntnerring</placeName>
+                  <geo>48,201874800905 16,371985203093</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb542">Bösendorferstraße</placeName>
+                  <geo>48,201213 16,371141</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb167805">Kärntnerring 12/Bösendorferstraße 11</placeName>
+                  <geo>48,20143 16,37196</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/144330/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/167789/</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb167789.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb167789.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+               </listBibl>
+               <note type="apis_dates">
+                  <date to-iso="1892-10-14">1889-11-03 – 1892-10-14</date>
+               </note>
+               <noteGrp>
                   <note type="arbeitet">
                      <persName>
                         <surname>Schnitzler</surname>

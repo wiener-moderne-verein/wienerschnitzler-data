@@ -11,14 +11,14 @@
             <availability>
                <p>CC BY</p>
             </availability>
-            <date when="2026-10-13Z">2026-10-13Z</date>
+            <date when="2026-10-15Z">2026-10-15Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>This file’s contents are derived from data available in the PMB web service (https://pmb.acdh.oeaw.ac.at/), with only minor adjustments and additions made after export.</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when-iso="2026-10-13">serialized</change>
+         <change when-iso="2026-10-15">serialized</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -647,7 +647,7 @@
                </listBibl>
             </place>
             <place xml:id="pmb365086">
-               <placeName>?? [Nördlich der Lofoten im Atlanik]</placeName>
+               <placeName>?? [Nördlich der Lofoten im Atlantik]</placeName>
                <desc type="entity_type">Landschaftlicher Punkt</desc>
                <desc type="entity_type_literal">Landschaftlicher Punkt Scenic point</desc>
                <desc type="entity_type_id">60</desc>
@@ -44330,6 +44330,23 @@
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb405571">
+               <placeName>Hauptpostamt München I</placeName>
+               <placeName type="ort_namensvariante">München poste restante</placeName>
+               <desc type="entity_type">Postamt</desc>
+               <desc type="entity_type_id">5071</desc>
+               <location type="coords">
+                  <geo>48,139205 11,577715</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb45258">München</placeName>
+                  <geo>48,13743 11,57549</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405571/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb145165">
                <placeName>Hauptstraße 56 [Hinterbrühl]</placeName>
                <desc type="entity_type">Wohngebäude (K.WHS)</desc>
@@ -70882,28 +70899,6 @@
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
             </place>
-            <place xml:id="pmb91137">
-               <placeName>Leopoldskron</placeName>
-               <desc type="entity_type">P.PPLX</desc>
-               <desc type="entity_type_literal">Ehemaliger Ort Former place</desc>
-               <desc type="entity_type_id">1234</desc>
-               <location type="coords">
-                  <geo>47,78333 13,03333</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb41240">Österreich</placeName>
-                  <geo>47,33333 13,33333</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91137/</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/2772616/</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leopoldskron</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91137.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91137.html</idno>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1819983</idno>
-               <listBibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
-               </listBibl>
-            </place>
             <place xml:id="pmb254191">
                <placeName>Leopoldstraße 10</placeName>
                <desc type="entity_type">Wohngebäude (K.WHS)</desc>
@@ -89151,6 +89146,27 @@
                   </note>
                </noteGrp>
             </place>
+            <place xml:id="pmb405585">
+               <placeName>Pelikangasse 4</placeName>
+               <desc type="entity_type">Gebäude (K.GBD)</desc>
+               <desc type="entity_type_literal">Gebäude Building</desc>
+               <desc type="entity_type_id">24</desc>
+               <location type="coords">
+                  <geo>48,215712 16,348279</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb59">IX., Alsergrund</placeName>
+                  <geo>48,22387 16,35641</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb198">Pelikangasse</placeName>
+                  <geo>48,216323686182 16,348107467953</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405585/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb252390">
                <placeName>Pension Alpenheim</placeName>
                <desc type="entity_type">Beherbergungsgebäude (K.BHB)</desc>
@@ -102552,6 +102568,37 @@
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb34839">
+               <placeName>Salzburg-Leopoldskron</placeName>
+               <placeName type="alternative-name">Leopoldskron</placeName>
+               <placeName type="legacy-name-merge">Leopoldskron</placeName>
+               <desc type="entity_type">Teil eines besiedelten Ortes (A.BSOX)</desc>
+               <desc type="entity_type_literal">Teil eines besiedelten Ortes Part of a populated place</desc>
+               <desc type="entity_type_id">18</desc>
+               <location type="coords">
+                  <geo>47,786389 13,030556</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb30">Salzburg</placeName>
+                  <geo>47,80067 13,04532</geo>
+               </location>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4353493-4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34839/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2772616/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91137/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leopoldskron</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91137.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91137.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1819983</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb34839.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb292327">
                <placeName>Salzburger Dom</placeName>
                <desc type="entity_type">S.CH</desc>
@@ -103130,6 +103177,75 @@
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb89">
+               <placeName>Sanatorium Dr. Anton Loew</placeName>
+               <desc type="entity_type">Sanatorium (K.SAN)</desc>
+               <desc type="entity_type_literal">Sanatorium Sanatorium</desc>
+               <desc type="entity_type_id">27</desc>
+               <location type="coords">
+                  <geo>48,216264483348 16,347492624475</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb339208">Pelikangasse 15</placeName>
+                  <geo>48,217156 16,347927</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb59">IX., Alsergrund</placeName>
+                  <geo>48,22387 16,35641</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb198">Pelikangasse</placeName>
+                  <geo>48,216323686182 16,348107467953</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb89.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/89/</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb89.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb89.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sanatorium_L%C3%B6w</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58428863</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb89.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+               </listBibl>
+               <noteGrp>
+                  <note type="arbeitet">
+                     <persName ref="#12698">
+                        <forename>Julius</forename>
+                        <surname>Schnitzler</surname>
+                     </persName>
+                  </note>
+                  <note type="arbeitet">
+                     <persName ref="#20565">
+                        <forename>Anton</forename>
+                        <surname>Loew</surname>
+                     </persName>
+                  </note>
+                  <note type="arbeitet">
+                     <persName ref="#2284">
+                        <forename>Markus</forename>
+                        <surname>Hajek</surname>
+                     </persName>
+                  </note>
+                  <note type="arbeitet">
+                     <persName ref="#22471">
+                        <forename>Armin</forename>
+                        <surname>Petschek</surname>
+                     </persName>
+                  </note>
+                  <note type="arbeitet">
+                     <persName ref="#11888">
+                        <forename>Rudolf</forename>
+                        <surname>Kaufmann</surname>
+                     </persName>
+                  </note>
+                  <note type="arbeitet">
+                     <persName ref="#12698">
+                        <forename>Julius</forename>
+                        <surname>Schnitzler</surname>
+                     </persName>
+                  </note>
+               </noteGrp>
+            </place>
             <place xml:id="pmb40511">
                <placeName>Sanatorium Fürth</placeName>
                <placeName type="legacy-name-merge">Schmidgasse 12-14</placeName>
@@ -103243,69 +103359,6 @@
                   </note>
                </noteGrp>
             </place>
-            <place xml:id="pmb89">
-               <placeName>Sanatorium Loew</placeName>
-               <desc type="entity_type">Sanatorium (K.SAN)</desc>
-               <desc type="entity_type_literal">Sanatorium Sanatorium</desc>
-               <desc type="entity_type_id">27</desc>
-               <location type="coords">
-                  <geo>48,216264483348 16,347492624475</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb59">IX., Alsergrund</placeName>
-                  <geo>48,22387 16,35641</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb198">Pelikangasse</placeName>
-                  <geo>48,216323686182 16,348107467953</geo>
-               </location>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb89.html</idno>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/89/</idno>
-               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb89.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb89.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb89.html</idno>
-               <listBibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
-               </listBibl>
-               <noteGrp>
-                  <note type="arbeitet">
-                     <persName ref="#12698">
-                        <forename>Julius</forename>
-                        <surname>Schnitzler</surname>
-                     </persName>
-                  </note>
-                  <note type="arbeitet">
-                     <persName ref="#20565">
-                        <forename>Anton</forename>
-                        <surname>Loew</surname>
-                     </persName>
-                  </note>
-                  <note type="arbeitet">
-                     <persName ref="#2284">
-                        <forename>Markus</forename>
-                        <surname>Hajek</surname>
-                     </persName>
-                  </note>
-                  <note type="arbeitet">
-                     <persName ref="#22471">
-                        <forename>Armin</forename>
-                        <surname>Petschek</surname>
-                     </persName>
-                  </note>
-                  <note type="arbeitet">
-                     <persName ref="#11888">
-                        <forename>Rudolf</forename>
-                        <surname>Kaufmann</surname>
-                     </persName>
-                  </note>
-                  <note type="arbeitet">
-                     <persName ref="#12698">
-                        <forename>Julius</forename>
-                        <surname>Schnitzler</surname>
-                     </persName>
-                  </note>
-               </noteGrp>
-            </place>
             <place xml:id="pmb237056">
                <placeName>Sanatorium Luithlen</placeName>
                <desc type="entity_type">Sanatorium (K.SAN)</desc>
@@ -103407,6 +103460,42 @@
                      </persName>
                   </note>
                </noteGrp>
+            </place>
+            <place xml:id="pmb46965">
+               <placeName>Sand in Taufers</placeName>
+               <placeName type="alternative-name">Sand in Taufers</placeName>
+               <placeName type="legacy-name">Campo Tures</placeName>
+               <placeName type="legacy-name-merge">Sand in Taufers</placeName>
+               <placeName type="legacy-name-merge">Tures</placeName>
+               <desc type="entity_type">P.PPLA3</desc>
+               <desc type="entity_type_literal">Hauptstadt Capital</desc>
+               <desc type="entity_type_id">1128</desc>
+               <location type="coords">
+                  <geo>46,90844 11,96036</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb40306">Italien</placeName>
+                  <geo>42,83333 12,83333</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2244/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/46965/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4562394-6</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sand_in_Taufers</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/106819/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q376944</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91875/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91875.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91875.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6535889/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb46965.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+               </listBibl>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK098_045/045/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
             </place>
             <place xml:id="pmb614">
                <placeName>Sandling</placeName>
@@ -119695,6 +119784,22 @@
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
             </place>
+            <place xml:id="pmb405576">
+               <placeName>Trondhjems postkontor</placeName>
+               <desc type="entity_type">Postamt</desc>
+               <desc type="entity_type_id">5071</desc>
+               <location type="coords">
+                  <geo>63,430638 10,398562</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb40290">Trondheim</placeName>
+                  <geo>63,43049 10,39506</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405576/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb91951">
                <placeName>Troppberg</placeName>
                <desc type="entity_type">T.MT</desc>
@@ -119965,27 +120070,6 @@
                      <graphic url="https://iiif.onb.ac.at/images/AKON/AK020_191/191/full/,600/0/native.jpg"/>
                   </figure>
                </note>
-            </place>
-            <place xml:id="pmb91875">
-               <placeName>Tures</placeName>
-               <desc type="entity_type">P.PPL</desc>
-               <desc type="entity_type_literal">Besiedelter Ort Populated place</desc>
-               <desc type="entity_type_id">1412</desc>
-               <location type="coords">
-                  <geo>46,9112 11,94835</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb40306">Italien</placeName>
-                  <geo>42,83333 12,83333</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91875/</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/9033196/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91875.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91875.html</idno>
-               <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
-               </listBibl>
             </place>
             <place xml:id="pmb44493">
                <placeName>Tutzing</placeName>
@@ -135787,6 +135871,25 @@
                      <graphic url="https://iiif.onb.ac.at/images/AKON/AK125_211/211/full/,600/0/native.jpg"/>
                   </figure>
                </note>
+            </place>
+            <place xml:id="pmb405542">
+               <placeName>Željeznički kolodvor Rijeka</placeName>
+               <desc type="entity_type">Bahnhofsgebäude (K.BHF)</desc>
+               <desc type="entity_type_literal">Bahnhofsgebäude Railway station building</desc>
+               <desc type="entity_type_id">32</desc>
+               <location type="coords">
+                  <geo>45,33027778 14,43055556</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb44246">Rijeka</placeName>
+                  <geo>45,32673 14,44241</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405542/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q801362</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bahnhof_Rijeka</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
             </place>
          </listPlace>
       </body>

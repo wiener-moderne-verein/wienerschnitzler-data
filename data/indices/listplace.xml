@@ -11,14 +11,14 @@
             <availability>
                <p>CC BY</p>
             </availability>
-            <date when="2026-10-15Z">2026-10-15Z</date>
+            <date when="2026-10-17Z">2026-10-17Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>This file’s contents are derived from data available in the PMB web service (https://pmb.acdh.oeaw.ac.at/), with only minor adjustments and additions made after export.</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when-iso="2026-10-15">serialized</change>
+         <change when-iso="2026-10-17">serialized</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -3128,6 +3128,7 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/232250/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb232250.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb232250.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -4086,6 +4087,7 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/190907/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb190907.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb190907.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -8300,7 +8302,6 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q800426</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bahnhof_Bad_Ischl</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb248791.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb248791.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -9885,6 +9886,25 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb405754">
+               <placeName>Bahnhof Territet</placeName>
+               <desc type="entity_type">Bahnhofsgebäude (K.BHF)</desc>
+               <desc type="entity_type_literal">Bahnhofsgebäude Railway station building</desc>
+               <desc type="entity_type_id">32</desc>
+               <location type="coords">
+                  <geo>46,426376 6,9226947</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb52051">Territet</placeName>
+                  <geo>46,42863 6,92122</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405754/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q10952194</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
             </place>
             <place xml:id="pmb254658">
@@ -17353,7 +17373,8 @@
                </noteGrp>
             </place>
             <place xml:id="pmb4">
-               <placeName>Bösendorfer Saal</placeName>
+               <placeName>Bösendorfer-Saal</placeName>
+               <placeName type="ort_namensvariante">Saal Bösendorfer</placeName>
                <desc type="entity_type">Veranstaltungsgebäude (K.VSB)</desc>
                <desc type="entity_type_literal">Veranstaltungsgebäude Event venue</desc>
                <desc type="entity_type_id">5</desc>
@@ -17894,7 +17915,7 @@
                   <geo>49,989029 12,725027</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/199179/</idno>
@@ -18608,7 +18629,7 @@
                   <geo>49,96848 12,699441</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/147710/</idno>
@@ -18646,7 +18667,7 @@
                   <geo>49,977638 12,716619</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/147712/</idno>
@@ -19750,7 +19771,7 @@
                   <geo>49,98694 12,72</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/244316/</idno>
@@ -20155,7 +20176,7 @@
                   <geo>49,973 12,70555</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/236997/</idno>
@@ -27855,6 +27876,7 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/257071/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb257071.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb257071.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -31723,6 +31745,25 @@
                   </note>
                </noteGrp>
             </place>
+            <place xml:id="pmb405768">
+               <placeName>Františkovy Lázně nádraží</placeName>
+               <desc type="entity_type">Bahnhofsgebäude (K.BHF)</desc>
+               <desc type="entity_type_literal">Bahnhofsgebäude Railway station building</desc>
+               <desc type="entity_type_id">32</desc>
+               <location type="coords">
+                  <geo>50,123889 12,355278</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb390">Františkovy Lázně</placeName>
+                  <geo>50,12033 12,35174</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405768/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2159153</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
+            </place>
             <place xml:id="pmb281">
                <placeName>Franz Hartmann, Leidingers Nachfolger</placeName>
                <desc type="entity_type">S.REST</desc>
@@ -32079,6 +32120,7 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/234399/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q131286506</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb234399.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb234399.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
@@ -36440,7 +36482,7 @@
                   <geo>49,97441 12,70682</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/236982/</idno>
@@ -37585,7 +37627,7 @@
                   <geo>49,975529 12,735885</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <location type="located_in_place">
@@ -38782,7 +38824,7 @@
                   <geo>49,97665 12,70919</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/236965/</idno>
@@ -38844,7 +38886,7 @@
                   <geo>49,97819 12,70367</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/252093/</idno>
@@ -39715,6 +39757,7 @@
                   <geo>47,71109 13,61893</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405441/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb405441.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -39734,7 +39777,6 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1220/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1220.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb1220.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb1220.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -41918,6 +41960,7 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/231658/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb231658.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb231658.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -44320,7 +44363,7 @@
                   <geo>49,97747 12,70685</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/236985/</idno>
@@ -44343,6 +44386,7 @@
                   <geo>48,13743 11,57549</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405571/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb405571.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -44778,6 +44822,7 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/238114/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb238114.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb238114.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -48936,6 +48981,7 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/245386/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q29673469</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb245386.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb245386.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
@@ -50488,6 +50534,7 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/250702/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb250702.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb250702.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -50977,7 +51024,7 @@
                   <geo>49,976991 12,70713</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35066/</idno>
@@ -51699,7 +51746,7 @@
                   <geo>49,976424 12,702923</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/200866/</idno>
@@ -52412,7 +52459,7 @@
                   <geo>49,9723 12,72063</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/147708/</idno>
@@ -53345,7 +53392,7 @@
                   <geo>49,98134 12,69926</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/244306/</idno>
@@ -55262,7 +55309,7 @@
                   <geo>49,98908 12,72509</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/236978/</idno>
@@ -60576,34 +60623,6 @@
                   <date from-iso="1912-01-01" to-iso="1943-01-01">1912 – 1943</date>
                </note>
             </place>
-            <place xml:id="pmb289053">
-               <placeName>Kammersaal der Gesellschaft der Musikfreunde</placeName>
-               <desc type="entity_type">Veranstaltungsgebäude (K.VSB)</desc>
-               <desc type="entity_type_literal">Veranstaltungsgebäude Event venue</desc>
-               <desc type="entity_type_id">5</desc>
-               <location type="coords">
-                  <geo>48,200699 16,372893</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb51">I., Innere Stadt</placeName>
-                  <geo>48,20769 16,37049</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb516">Musikverein</placeName>
-                  <geo>48,201265597319 16,372564182283</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb542">Bösendorferstraße</placeName>
-                  <geo>48,201213 16,371141</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/289053/</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb289053.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb289053.html</idno>
-               <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
-               </listBibl>
-            </place>
             <place xml:id="pmb12">
                <placeName>Kammerspiele Berlin</placeName>
                <desc type="entity_type">Theater (K.THE)</desc>
@@ -62411,7 +62430,7 @@
                   <geo>50,026436 12,668004</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92257/</idno>
@@ -62657,6 +62676,41 @@
                <note type="image">
                   <figure>
                      <graphic url="https://iiif.onb.ac.at/images/AKON/AK083_320/320/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
+            </place>
+            <place xml:id="pmb289053">
+               <placeName>Kleiner Musikvereinssaal</placeName>
+               <placeName type="ort_namensvariante">Brahms-Saal</placeName>
+               <placeName type="ort_namensvariante">Kammersaal der Gesellschaft der Musikfreunde</placeName>
+               <placeName type="ort_namensvariante">Kammermusik-Saal der Gesellschaft der Musikfreunde</placeName>
+               <desc type="entity_type">Konzertsaal (K.KNZ)</desc>
+               <desc type="entity_type_literal">Konzertsaal Concert hall</desc>
+               <desc type="entity_type_id">45</desc>
+               <location type="coords">
+                  <geo>48,200699 16,372893</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb516">Musikverein</placeName>
+                  <geo>48,201265597319 16,372564182283</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb542">Bösendorferstraße</placeName>
+                  <geo>48,201213 16,371141</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/289053/</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb289053.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb289053.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="120">Max Kalbeck: Tagebücher</bibl>
+               </listBibl>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/3/35/Wien_-_Musikverein%2C_Brahms-Saal.JPG?utm_source=de.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"/>
                   </figure>
                </note>
             </place>
@@ -66916,7 +66970,7 @@
                   <geo>49,98198 12,7055</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/236974/</idno>
@@ -71447,6 +71501,7 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/234454/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb234454.html</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb234454.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb234454.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -76209,67 +76264,6 @@
                   <date notBefore-iso="1907-01-01" when-iso="1907-01-01">1907</date>
                </note>
             </place>
-            <place xml:id="pmb772">
-               <placeName>Marienbad</placeName>
-               <placeName type="alternative-name">Mariánské Lázně</placeName>
-               <placeName type="legacy-name-merge">Marienbad</placeName>
-               <placeName type="alternative-name">Marienbad</placeName>
-               <placeName type="legacy-name-merge">Mariánské Lázně</placeName>
-               <placeName type="legacy-name-merge">Výhledy [Mariánské Lázně-Úšovice]</placeName>
-               <desc type="entity_type">P.PPL</desc>
-               <desc type="entity_type_literal">Besiedelter Ort Populated place</desc>
-               <desc type="entity_type_id">1412</desc>
-               <location type="coords">
-                  <geo>49,964444 12,701944</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName key="pmb43430">Tschechien</placeName>
-                  <geo>49,75 15,0</geo>
-               </location>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q523469</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb772.html</idno>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/772/</idno>
-               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb772.html</idno>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91211/</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/3071024/</idno>
-               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4037541-9</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Marienbad</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb772.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb772.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb772.html</idno>
-               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00098</idno>
-               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb772</idno>
-               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003605</idno>
-               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004376</idno>
-               <idno type="URL" subtype="schnitzler-fischer">https://biblio.ub.uni-freiburg.de/sf/#pmb772</idno>
-               <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.13.4</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb772.html</idno>
-               <listBibl>
-                  <bibl type="collections" n="85">Arthur Schnitzler und der S. Fischer Verlag, Briefdatenbank</bibl>
-                  <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
-                  <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
-                  <bibl type="collections" n="87">Schönberg-Briefe: Universal-Edition und Dreililien</bibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
-               </listBibl>
-               <note type="image">
-                  <figure>
-                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK074_239/239/full/,600/0/native.jpg"/>
-                  </figure>
-               </note>
-               <noteGrp>
-                  <note type="arbeitet">
-                     <persName ref="#19362">
-                        <forename>Franz Joseph</forename>
-                        <surname>Kisch</surname>
-                     </persName>
-                  </note>
-                  <note type="lebt">
-                     <persName ref="#353591">
-                        <surname>?? [russischer Emigrant in Marienbad]</surname>
-                     </persName>
-                  </note>
-               </noteGrp>
-            </place>
             <place xml:id="pmb233188">
                <placeName>Marienbrücke</placeName>
                <desc type="entity_type">Brücke (K.BRK)</desc>
@@ -76524,6 +76518,86 @@
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb772">
+               <placeName>Mariánské Lázně</placeName>
+               <placeName type="alternative-name">Mariánské Lázně</placeName>
+               <placeName type="alternative-name">Marienbad</placeName>
+               <placeName type="legacy-name-merge">Mariánské Lázně</placeName>
+               <placeName type="legacy-name-merge">Výhledy [Mariánské Lázně-Úšovice]</placeName>
+               <placeName type="ort_namensvariante">Marienbad</placeName>
+               <desc type="entity_type">P.PPL</desc>
+               <desc type="entity_type_literal">Besiedelter Ort Populated place</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>49,964444 12,701944</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb43430">Tschechien</placeName>
+                  <geo>49,75 15,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q523469</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb772.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/772/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb772.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91211/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3071024/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4037541-9</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Marienbad</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb772.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb772.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb772.html</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00098</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb772</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003605</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004376</idno>
+               <idno type="URL" subtype="schnitzler-fischer">https://biblio.ub.uni-freiburg.de/sf/#pmb772</idno>
+               <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.13.4</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb772.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="85">Arthur Schnitzler und der S. Fischer Verlag, Briefdatenbank</bibl>
+                  <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
+                  <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
+                  <bibl type="collections" n="87">Schönberg-Briefe: Universal-Edition und Dreililien</bibl>
+                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+               </listBibl>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK074_239/239/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
+               <noteGrp>
+                  <note type="arbeitet">
+                     <persName ref="#19362">
+                        <forename>Franz Joseph</forename>
+                        <surname>Kisch</surname>
+                     </persName>
+                  </note>
+                  <note type="lebt">
+                     <persName ref="#353591">
+                        <surname>?? [russischer Emigrant in Marienbad]</surname>
+                     </persName>
+                  </note>
+               </noteGrp>
+            </place>
+            <place xml:id="pmb405760">
+               <placeName>Mariánské Lázně železniční nádraží</placeName>
+               <desc type="entity_type">Bahnhofsgebäude (K.BHF)</desc>
+               <desc type="entity_type_literal">Bahnhofsgebäude Railway station building</desc>
+               <desc type="entity_type_id">32</desc>
+               <location type="coords">
+                  <geo>49,95715 12,69472</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
+                  <geo>49,964444 12,701944</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405760/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2489524</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
             </place>
             <place xml:id="pmb292408">
@@ -77221,7 +77295,7 @@
                   <geo>49,9928 12,69949</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <location type="located_in_place">
@@ -79614,7 +79688,7 @@
                   <geo>49,97383 12,68706</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/244346/</idno>
@@ -80368,6 +80442,14 @@
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
+               <note type="apis_dates">
+                  <date when-iso="1870-01-06">1870-01-06</date>
+               </note>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/a/a4/Wien_-_Haus_des_Wiener_Musikvereins_%281%29.JPG?utm_source=www.wikidata.org&amp;utm_campaign=imageinfo&amp;utm_content=original"/>
+                  </figure>
+               </note>
             </place>
             <place xml:id="pmb200131">
                <placeName>Musée Guimet</placeName>
@@ -89103,6 +89185,7 @@
                   <geo>48,216323686182 16,348107467953</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/339208/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb339208.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -89163,6 +89246,7 @@
                   <geo>48,216323686182 16,348107467953</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405585/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb405585.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -92564,6 +92648,7 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/246913/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb246913.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb246913.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -92712,6 +92797,7 @@
             </place>
             <place xml:id="pmb265165">
                <placeName>Potsdamer Straße 123</placeName>
+               <placeName type="legacy-name-merge">Potsdamer Straße 123</placeName>
                <desc type="entity_type">Wohngebäude (K.WHS)</desc>
                <desc type="entity_type_literal">Wohngebäude Residential building</desc>
                <desc type="entity_type_id">36</desc>
@@ -92723,13 +92809,20 @@
                   <geo>52,52437 13,41053</geo>
                </location>
                <location type="located_in_place">
+                  <placeName key="pmb341001">Mitte</placeName>
+                  <geo>52,52003 13,40489</geo>
+               </location>
+               <location type="located_in_place">
                   <placeName key="pmb362">Potsdamer Straße</placeName>
                   <geo>52,5064 13,36869</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/265165/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb265165.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/341020/</idno>
+               <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.2.3.4.10</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
+                  <bibl type="collections" n="87">Schönberg-Briefe: Universal-Edition und Dreililien</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <noteGrp>
@@ -104530,7 +104623,6 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91669.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91669/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb532.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb532.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -117002,7 +117094,7 @@
                   <geo>49,977411 12,70357</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/185538/</idno>
@@ -119796,6 +119888,7 @@
                   <geo>63,43049 10,39506</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405576/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb405576.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
@@ -120350,7 +120443,7 @@
                </noteGrp>
             </place>
             <place xml:id="pmb140767">
-               <placeName>Türkenstraße</placeName>
+               <placeName>Türkenstraße [Wien]</placeName>
                <desc type="entity_type">Straße (K.STR)</desc>
                <desc type="entity_type_literal">Straße Street</desc>
                <desc type="entity_type_id">26</desc>
@@ -123615,6 +123708,7 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/251480/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb251480.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb251480.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -124331,6 +124425,7 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/263384/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb263384.html</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb263384.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb263384.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -129585,7 +129680,7 @@
                   <geo>49,976985 12,708069</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb772">Marienbad</placeName>
+                  <placeName key="pmb772">Mariánské Lázně</placeName>
                   <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/236971/</idno>
@@ -133265,6 +133360,7 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/255506/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb255506.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb255506.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>

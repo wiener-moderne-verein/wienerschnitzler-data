@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 16.373056, 48.208333 ]
+      },
+      "properties": {
+        "abbr": "A.ADM2",
+        "importance": 5,
+        "timestamp": [ "1878-09-02", "1878-09-06", "1878-09-08", "1878-09-10", "1878-09-21" ],
+        "wikipedia": "https:\/\/de.wikipedia.org\/wiki\/Wien",
+        "geonames": "https:\/\/sws.geonames.org\/2761369\/",
+        "title": "Wien",
+        "type": "Verwaltungsgebiet Administrative district",
+        "wikidata": "http:\/\/www.wikidata.org\/entity\/Q1741",
+        "id": "pmb50"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 16.363819, 48.20334 ]
+      },
+      "properties": {
+        "abbr": "Ordination",
+        "importance": 5,
+        "timestamp": [ "1878-09-02", "1878-09-06", "1878-09-08", "1878-09-10", "1878-09-21" ],
+        "title": "Wohnung und Ordination Johann Schnitzler Burgring 1",
+        "type": "Ordination Medical practice",
+        "id": "pmb168765"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 16.375, 48.205139 ]
+      },
+      "properties": {
+        "abbr": "Theater (K.THE)",
+        "importance": 1,
+        "timestamp": [ "1878-09-10" ],
+        "wikipedia": "https:\/\/de.wikipedia.org\/wiki\/Ronacher",
+        "title": "Ronacher",
+        "type": "Theater Theatre",
+        "wikidata": "http:\/\/www.wikidata.org\/entity\/Q1244587",
+        "id": "pmb19",
+        "arbeitsort": [
+          { "p_id":"#18926", "p_name":"Anna Judic" },
+          { "p_id":"#2702", "p_name":"Heinrich Laube" }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 16.36157, 48.20809 ]
+      },
+      "properties": {
+        "abbr": "L.PRK",
+        "importance": 2,
+        "timestamp": [ "1878-09-06", "1878-09-08" ],
+        "geonames": "https:\/\/sws.geonames.org\/6697258\/",
+        "title": "Volksgarten",
+        "type": "Park Park",
+        "id": "pmb103"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 16.3691, 48.203 ]
+      },
+      "properties": {
+        "abbr": "Oper (K.OPR)",
+        "importance": 2,
+        "timestamp": [ "1878-09-02", "1878-09-21" ],
+        "wikipedia": "https:\/\/de.wikipedia.org\/wiki\/Wiener_Staatsoper",
+        "title": "Oper",
+        "type": "Oper Opera house",
+        "wikidata": "http:\/\/www.wikidata.org\/entity\/Q209937",
+        "id": "pmb15",
+        "arbeitsort": [ { "p_id":"#2762", "p_name":"Hans Gregor" } ]
+      },
+      "type": "Feature"
+    }
+  ]
+}

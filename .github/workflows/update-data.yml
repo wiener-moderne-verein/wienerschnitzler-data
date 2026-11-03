@@ -34,11 +34,14 @@ jobs:
       - name: Build mit Ant ausführen
         run: ant -f build.xml
 
+      - name: csv/pmb_uris-in-use.csv für die PMB erzeugen
+        run: python3 ./python-scripts/process_list_xml.py
+
       - name: Quelldaten auf main committen
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add input-data data/indices
+          git add input-data data/indices csv
           if ! git diff --cached --quiet; then
             git commit -m "Update durch Workflow"
             # Falls main sich während des Laufs bewegt hat: rebasen und erneut versuchen

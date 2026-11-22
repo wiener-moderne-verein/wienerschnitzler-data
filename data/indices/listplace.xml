@@ -11,14 +11,14 @@
             <availability>
                <p>CC BY</p>
             </availability>
-            <date when="2026-11-19Z">2026-11-19Z</date>
+            <date when="2026-11-22Z">2026-11-22Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>This file’s contents are derived from data available in the PMB web service (https://pmb.acdh.oeaw.ac.at/), with only minor adjustments and additions made after export.</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when-iso="2026-11-19">serialized</change>
+         <change when-iso="2026-11-22">serialized</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -298,6 +298,23 @@
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb592.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+               </listBibl>
+            </place>
+            <place xml:id="pmb624019">
+               <placeName>7/2 Post- und Telegraphenamt 62</placeName>
+               <placeName type="ort_namensvariante">Stiftgasse 13</placeName>
+               <desc type="entity_type">Postamt</desc>
+               <desc type="entity_type_id">5071</desc>
+               <location type="coords">
+                  <geo>48,201584 16,354847</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb57">VII., Neubau</placeName>
+                  <geo>48,2 16,35</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/624019/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
                </listBibl>
             </place>
             <place xml:id="pmb252268">
@@ -21194,7 +21211,7 @@
                   <geo>48,1835 16,3189</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb46358">Schönbrunnerstraße</placeName>
+                  <placeName key="pmb46358">Schönbrunner Straße</placeName>
                   <geo>48,18789 16,34508</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239834/</idno>
@@ -21359,7 +21376,7 @@
                   <geo>48,19198 16,36714</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb46358">Schönbrunnerstraße</placeName>
+                  <placeName key="pmb46358">Schönbrunner Straße</placeName>
                   <geo>48,18789 16,34508</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/192588/</idno>
@@ -23645,6 +23662,27 @@
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
+            </place>
+            <place xml:id="pmb623964">
+               <placeName>Centralpostkontoret [bis 1903]</placeName>
+               <placeName type="ort_fruherer-name">Rödbodtorget</placeName>
+               <placeName type="ort_namensvariante">Jakobsgatan 30</placeName>
+               <desc type="entity_type">Postamt</desc>
+               <desc type="entity_type_id">5071</desc>
+               <location type="coords">
+                  <geo>59,32924347060144 18,06365620437481</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb1119">Stockholm</placeName>
+                  <geo>59,325 18,05</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/623964/</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
+               <note type="apis_dates">
+                  <date when-iso="1903-01-01" notAfter-iso="1903-12-31">1903</date>
+               </note>
             </place>
             <place xml:id="pmb254974">
                <placeName>Certosa San Lorenzo di Galluzzo</placeName>
@@ -38028,7 +38066,7 @@
                   <geo>48,19198 16,36714</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb46358">Schönbrunnerstraße</placeName>
+                  <placeName key="pmb46358">Schönbrunner Straße</placeName>
                   <geo>48,18789 16,34508</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/185501/</idno>
@@ -42437,6 +42475,7 @@
             <place xml:id="pmb860">
                <placeName>Graz</placeName>
                <placeName type="ort_namensvariante">Grätz</placeName>
+               <placeName type="legacy-name-merge">Graz</placeName>
                <desc type="entity_type">A.ADM2</desc>
                <desc type="entity_type_literal">Verwaltungsgebiet Administrative district</desc>
                <desc type="entity_type_id">1135</desc>
@@ -42453,7 +42492,6 @@
                </location>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q13298</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb860.html</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/7871499/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/860/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42858/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64211/</idno>
@@ -42469,11 +42507,15 @@
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004584</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb860</idno>
                <idno type="URL" subtype="schnitzler-fischer">https://biblio.ub.uni-freiburg.de/sf/#pmb860</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2778067/</idno>
+               <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.9.15</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/341573/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb860.html</idno>
                <listBibl>
                   <bibl type="collections" n="85">Arthur Schnitzler und der S. Fischer Verlag, Briefdatenbank</bibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
                   <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
+                  <bibl type="collections" n="87">Schönberg-Briefe: Universal-Edition und Dreililien</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
@@ -59484,6 +59526,7 @@
                <placeName type="alternative-name">2. Wiener Gemeindebezirk</placeName>
                <placeName type="legacy-name">36. Internationale Musik- und Theaterausstellung, Wien 1892</placeName>
                <placeName type="legacy-name-merge">Leopoldstadt</placeName>
+               <placeName type="legacy-name-merge">Leopoldstadt (heute Wien)</placeName>
                <desc type="entity_type">A.ADM3</desc>
                <desc type="entity_type_literal">Verwaltungsgebiet Administrative district</desc>
                <desc type="entity_type_id">1124</desc>
@@ -59512,6 +59555,7 @@
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb52.html</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb52.html</idno>
                <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.9.11.14</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/406492/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb52.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
@@ -100534,29 +100578,40 @@
                   </figure>
                </note>
             </place>
-            <place xml:id="pmb91496">
+            <place xml:id="pmb43705">
                <placeName>Pöchlarn</placeName>
-               <desc type="entity_type">P.PPLA3</desc>
-               <desc type="entity_type_literal">Hauptstadt Capital</desc>
-               <desc type="entity_type_id">1128</desc>
+               <placeName type="legacy-name">Pöchlarn</placeName>
+               <placeName type="legacy-name-merge">Pöchlarn</placeName>
+               <desc type="entity_type">A.ADM3</desc>
+               <desc type="entity_type_literal">Verwaltungsgebiet Administrative district</desc>
+               <desc type="entity_type_id">1124</desc>
                <location type="coords">
-                  <geo>48,2 15,2</geo>
+                  <geo>48,20185 15,23095</geo>
                </location>
                <location type="located_in_place">
                   <placeName key="pmb41240">Österreich</placeName>
                   <geo>47,33333 13,33333</geo>
                </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91496/</idno>
+               <location type="located_in_place">
+                  <placeName key="pmb1003">Niederösterreich</placeName>
+                  <geo>48,33333 15,75</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/7871823/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43705/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2768627/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q255350</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/P%C3%B6chlarn</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004585</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91496/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91496.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91496.html</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
+                  <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
                   <figure>
-                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK041_602/602/full/,600/0/native.jpg"/>
+                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/P%C3%B6chlarn_an_der_Donau.jpg/250px-P%C3%B6chlarn_an_der_Donau.jpg"/>
                   </figure>
                </note>
             </place>
@@ -107531,7 +107586,7 @@
                   <geo>48,189861 16,352634</geo>
                </location>
                <location type="located_in_place">
-                  <placeName key="pmb46358">Schönbrunnerstraße</placeName>
+                  <placeName key="pmb46358">Schönbrunner Straße</placeName>
                   <geo>48,18789 16,34508</geo>
                </location>
                <location type="located_in_place">
